@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">95</otu>
+  <otu id="otu3" cmphy:genus="Desulfotomaculum" cmphy:species="halophilum" cmphy:strain="DSM 115597" cmphy:id="U88891" editRecord="[]">Desulfotomaculum halophilum DSM 115597 (U88891)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Desulfovibrio" cmphy:species="aespoeensis" cmphy:strain="DSM 10631T" cmphy:id="X95230" editRecord="[]"> Desulfovibrio aespoeensis DSM 10631T (X95230)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"> Desulfovibrio brasiIiensis' DSM 15816 (AJ544687)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Desulfovibrio" cmphy:species="tunisiensis" cmphy:strain="RB22T" cmphy:id="EFS77029" editRecord="[5__S]">Desulfovibrio tunisiensis RB22T (EF577029)</otu>
+  <otu id="otu14"> Desulfovibrio capiIIatus' DSM 14982 (AY176773)</otu>
+  <otu id="otu15" cmphy:genus="Desulfovibrio" cmphy:species="indonesiensis" cmphy:strain="DSM 15121T" cmphy:id="AJ621884" editRecord="[]">Desulfovibrio indonesiensis DSM 15121T (AJ621884)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Desulfovibrio vulgaris subsp. vulgaris DSM 644T (DQ826728)</otu>
+  <otu id="otu18" cmphy:genus="Desulfovibrio" cmphy:species="giganteus" cmphy:strain="DSM 4370" cmphy:id="AF418170" editRecord="[]"> Desulfovibrio giganteus DSM 4370 (AF418170)</otu>
+  <otu id="otu19" cmphy:genus="Desulfovibrio" cmphy:species="hydrothermalis" cmphy:strain="DSM 147287" cmphy:id="AF458778" editRecord="[]">Desulfovibrio hydrothermalis DSM 147287 (AF458778)</otu>
+  <otu id="otu20" cmphy:genus="Desulfovibrio" cmphy:species="psychrotolerans" cmphy:strain="DSM 19430T" cmphy:id="AM418397" editRecord="[]">Desulfovibrio psychrotolerans DSM 19430T (AM418397)</otu>
+  <otu id="otu21">Desulfovibrio fain7eIdensis' ATCC 70045 (U42221)</otu>
+  <otu id="otu22">Desulfovibrio alaskensis</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="267.0" y="552.0"/>
+   <node id="NT1.3" x="279.0" y="712.0" label="70"/>
+   <node id="NT1.5" label="NT1.5" x="288.0" y="967.0" otu="otu3"/>
+   <node id="NT1.8" x="305.0" y="285.0" label="50"/>
+   <node id="NT1.11" x="330.0" y="175.0" label="88"/>
+   <node id="NT1.13" label="NT1.13" x="351.0" y="616.0"/>
+   <node id="NT1.22" label="NT1.22" x="426.0" y="141.0" otu="otu8"/>
+   <node id="NT1.27" label="NT1.27" x="451.0" y="205.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="457.0" y="586.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="464.0" y="649.0" otu="otu18"/>
+   <node id="NT1.33" label="NT1.33" x="471.0" y="395.0" otu="otu19"/>
+   <node id="NT1.34" label="NT1.34" x="475.0" y="840.0" otu="otu20"/>
+   <node id="NT1.37" label="NT1.37" x="4.0" y="759.0" root="true"/>
+   <edge id="e.4" target="NT1.22" source="NT1.11"/>
+   <edge id="e.6" target="NT1.27" source="NT1.11"/>
+   <edge id="e.9" source="NT1.8" target="NT1.33"/>
+   <edge id="e.14" source="NT1.13" target="NT1.29"/>
+   <edge id="e.15" source="NT1.13" target="NT1.32"/>
+   <edge id="e.17" target="NT1.34" source="NT1.3"/>
+   <edge id="e.22" source="NT1.8" target="NT1.11"/>
+   <edge id="e.25" target="NT1.8" source="NT1.1"/>
+   <edge id="e.28" source="NT1.1" target="NT1.3"/>
+   <edge id="e.30" source="NT1.3" target="NT1.13"/>
+   <edge id="e.33" source="NT1.37" target="NT1.5"/>
+   <edge id="e.34" source="NT1.37" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

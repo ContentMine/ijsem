@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Sporichthya polymorpha NBRC 127O2T(AB025317)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Kineosporia" cmphy:species="rhamnosa" cmphy:strain="I-1327" cmphy:id="ABO03935" editRecord="[0__O]"> Kineosporia rhamnosa I-1327 (AB003935)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"> Quadrisphaera granulorum AG019T(AY831385)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Kineosporia" cmphy:species="succinea" cmphy:strain="I-273T" cmphy:id="ABO03932" editRecord="[O__0]"> Kineosporia succinea I-273T (ABOO3932)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Pilimelia terevasa DSM 43040T(X93190)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">VND5A0351 (AB377119)</otu>
+  <otu id="otu11">Kmeosporia rhizophila I-449T (ABOOBQI33)</otu>
+  <otu id="otu12" cmphy:genus="Geodermatophilus" cmphy:species="obscurus" cmphy:strain="DSM 43162T" cmphy:id="X92357" editRecord="[]">Geodermatophilus obscurus DSM 43162T (X92357)</otu>
+  <otu id="otu13">Frankia sp. (L41048)</otu>
+  <otu id="otu14" cmphy:genus="Kineococcus" cmphy:species="aurantiacus" cmphy:strain="NBRC 15268T" cmphy:id="X77958" editRecord="[]">Kineococcus aurantiacus NBRC 15268T (X77958)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="24.0" y="424.0"/>
+   <node id="NT1.5" x="126.0" y="301.0" label="800"/>
+   <node id="NT1.6" x="183.0" y="233.0" label="522"/>
+   <node id="NT1.12" label="NT1.12" x="264.0" y="323.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="296.0" y="101.0" otu="otu5"/>
+   <node id="NT1.24" label="NT1.24" x="336.0" y="457.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="373.0" y="368.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="1.0" y="507.0" root="true"/>
+   <edge id="e.2" target="NT1.15" source="NT1.6"/>
+   <edge id="e.7" source="NT1.6" target="NT1.12"/>
+   <edge id="e.8" source="NT1.5" target="NT1.26"/>
+   <edge id="e.11" target="NT1.24" source="NT1.1"/>
+   <edge id="e.18" source="NT1.5" target="NT1.6"/>
+   <edge id="e.20" target="NT1.5" source="NT1.1"/>
+   <edge id="e.25" source="NT1.27" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

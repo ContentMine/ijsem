@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Acidocella" cmphy:species="aminolytica" cmphy:strain="101 T" cmphy:id="D30771" editRecord="[]">Acidocella aminolytica 101 T (D30771)</otu>
+  <otu id="otu3">Strain AL46T (AB362219)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Acidocella" cmphy:species="facilis" cmphy:strain="ATCC 35904T" cmphy:id="D30774" editRecord="[O__0]">Acidocella facilis ATCC 35904T (D3O774)</otu>
+  <otu id="otu5">Acetobacteraceti NCIB 8621 T (X74066)</otu>
+  <otu id="otu6" cmphy:genus="Acidiphilium" cmphy:species="cryptum" cmphy:strain="ATCC 334637" cmphy:id="D30773" editRecord="[]">Acidiphilium cryptum ATCC 334637 (D30773)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="52.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="86.0" y="127.0"/>
+   <node id="NT1.4" label="NT1.4" x="245.0" y="180.0"/>
+   <node id="NT1.6" label="NT1.6" x="323.0" y="137.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="347.0" y="197.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="380.0" y="75.0" otu="otu6"/>
+   <edge id="e.1" target="NT1.3" source="NT1.1"/>
+   <edge id="e.2" source="NT1.3" target="NT1.4"/>
+   <edge id="e.5" source="NT1.3" target="NT1.10"/>
+   <edge id="e.7" source="NT1.4" target="NT1.6"/>
+   <edge id="e.8" target="NT1.8" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

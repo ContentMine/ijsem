@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">C. psychrophilum A-1lC-anll1" (AJ297443)</otu>
+  <otu id="otu2">C. estertheticum subsp. Iaramiense DSM 14864T (AJ506115)</otu>
+  <otu id="otu3">C1 estertheticum subsp. estherfheticum NCIMB 12511T (X68181)</otu>
+  <otu id="otu4">C. lacusflyxellense DSM 142O5T (AJ506118)</otu>
+  <otu id="otu5">C. frigoris DSM 142047 (AJ506116)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">C. bowmanii DSM 14206T (AJ506120)</otu>
+  <otu id="otu8">Strain A1217 (DQ296031)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="131.0" y="448.0" otu="otu1"/>
+   <node id="NT1.2" label="NT1.2" x="132.0" y="220.0"/>
+   <node id="NT1.3" x="162.0" y="147.0" label="65"/>
+   <node id="NT1.4" x="165.0" y="131.0" label="65"/>
+   <node id="NT1.5" label="NT1.5" x="172.0" y="80.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="172.0" y="133.0" otu="otu3"/>
+   <node id="NT1.7" x="183.0" y="329.0" label="92"/>
+   <node id="NT1.8" label="NT1.8" x="184.0" y="238.0" otu="otu4"/>
+   <node id="NT1.9" x="196.0" y="368.0" label="65"/>
+   <node id="NT1.10" label="NT1.10" x="205.0" y="185.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="212.0" y="289.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="247.0" y="344.0" otu="otu7"/>
+   <node id="NT1.13" label="NT1.13" x="273.0" y="395.0" otu="otu8"/>
+   <edge source="NT1.6" target="NT1.4" id="e.0"/>
+   <edge source="NT1.10" target="NT1.3" id="e.1"/>
+   <edge source="NT1.8" target="NT1.2" id="e.2"/>
+   <edge source="NT1.11" target="NT1.7" id="e.3"/>
+   <edge source="NT1.12" target="NT1.9" id="e.4"/>
+   <edge source="NT1.13" target="NT1.9" id="e.5"/>
+   <edge source="NT1.4" target="NT1.3" id="e.6"/>
+   <edge source="NT1.3" target="NT1.2" id="e.7"/>
+   <edge source="NT1.2" target="NT1.7" id="e.8"/>
+   <edge source="NT1.7" target="NT1.9" id="e.9"/>
+   <edge source="NT1.1" target="NT1.2" id="e.10"/>
+   <edge source="NT1.5" target="NT1.4" id="e.11"/>
+  </tree>
+ </trees>
+</nexml>

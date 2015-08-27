@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Clostridium methylpentosum</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Anaerotruncus" cmphy:species="colihominis" cmphy:strain="DSM 17241T" cmphy:id="AJB15980" editRecord="[3__B]">Anaerotruncus colihominis DSM 17241T (AJ315980)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Acetanaerobacterium" cmphy:species="elongatum" cmphy:strain="AS 1.5012T" cmphy:id="AYS18589" editRecord="[5__S]">Acetanaerobacterium elongatum AS 1.5012T (AY518589)</otu>
+  <otu id="otu12" cmphy:genus="Ruminococcus" cmphy:species="albus" cmphy:strain="ATCC 2721OT" cmphy:id="L76598" editRecord="[]">Ruminococcus albus ATCC 2721OT (L76598)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Hydrogenoanaerobacterium" cmphy:species="saccharovorans" cmphy:strain="W72" cmphy:id="EUI70433" editRecord="[1__I]">Hydrogenoanaerobacterium saccharovorans W72 (EU170433)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Hydrogenoanaerobacterium" cmphy:species="saccharovorans" cmphy:strain="SW512T" cmphy:id="EUI58190" editRecord="[1__I]">Hydrogenoanaerobacterium saccharovorans SW512T (EU158190)</otu>
+  <otu id="otu16" cmphy:genus="Ruminococcus" cmphy:species="flavefaciens" cmphy:strain="ATCC 192O8T" cmphy:id="L76603" editRecord="[]">Ruminococcus flavefaciens ATCC 192O8T (L76603)</otu>
+  <otu id="otu17" cmphy:genus="Ruminococcus" cmphy:species="callidus" cmphy:strain="ATCC 27760T" cmphy:id="L76596" editRecord="[]">Ruminococcus callidus ATCC 27760T (L76596)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:genus="Anaerofilum" cmphy:species="agile" cmphy:strain="DSM 4272T" cmphy:id="X98011" editRecord="[]">Anaerofilum agile DSM 4272T (X98011)</otu>
+  <otu id="otu21" cmphy:genus="Anaerofilum" cmphy:species="pentosovorans" cmphy:strain="DSM 7168T" cmphy:id="X97852" editRecord="[]">Anaerofilum pentosovorans DSM 7168T (X97852)</otu>
+  <otu id="otu22" cmphy:genus="Faecalibacterium" cmphy:species="prausnitzii" cmphy:strain="ATCC 27768T" cmphy:id="AJ413954" editRecord="[]">Faecalibacterium prausnitzii ATCC 27768T (AJ413954)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="829.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="120.0" y="416.0"/>
+   <node id="NT1.5" x="129.0" y="210.0" label="62"/>
+   <node id="NT1.7" label="NT1.7" x="205.0" y="78.0"/>
+   <node id="NT1.12" label="NT1.12" x="230.0" y="133.0"/>
+   <node id="NT1.14" label="NT1.14" x="251.0" y="397.0"/>
+   <node id="NT1.17" label="NT1.17" x="355.0" y="693.0"/>
+   <node id="NT1.20" label="NT1.20" x="430.0" y="446.0"/>
+   <node id="NT1.24" label="NT1.24" x="592.0" y="20.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="610.0" y="85.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="664.0" y="183.0"/>
+   <node id="NT1.27" label="NT1.27" x="665.0" y="349.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="696.0" y="216.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="696.0" y="151.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="718.0" y="415.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="754.0" y="481.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="793.0" y="647.0"/>
+   <node id="NT1.37" label="NT1.37" x="820.0" y="612.0" otu="otu20"/>
+   <node id="NT1.38" label="NT1.38" x="830.0" y="679.0" otu="otu21"/>
+   <node id="NT1.39" label="NT1.39" x="918.0" y="753.0" otu="otu22"/>
+   <edge id="e.9" source="NT1.5" target="NT1.7"/>
+   <edge id="e.10" source="NT1.7" target="NT1.12"/>
+   <edge id="e.11" source="NT1.12" target="NT1.26"/>
+   <edge id="e.12" source="NT1.4" target="NT1.5"/>
+   <edge id="e.14" target="NT1.14" source="NT1.5"/>
+   <edge id="e.17" target="NT1.20" source="NT1.14"/>
+   <edge id="e.20" target="NT1.17" source="NT1.4"/>
+   <edge id="e.23" source="NT1.17" target="NT1.34"/>
+   <edge id="e.25" target="NT1.4" source="NT1.1"/>
+   <edge id="e.27" source="NT1.12" target="NT1.25"/>
+   <edge id="e.28" source="NT1.14" target="NT1.27"/>
+   <edge id="e.29" source="NT1.7" target="NT1.24"/>
+   <edge id="e.31" source="NT1.20" target="NT1.32"/>
+   <edge id="e.32" target="NT1.33" source="NT1.20"/>
+   <edge id="e.33" target="NT1.39" source="NT1.17"/>
+   <edge id="e.34" source="NT1.26" target="NT1.31"/>
+   <edge id="e.35" target="NT1.30" source="NT1.26"/>
+   <edge id="e.36" source="NT1.34" target="NT1.37"/>
+   <edge id="e.37" source="NT1.34" target="NT1.38"/>
+  </tree>
+ </trees>
+</nexml>

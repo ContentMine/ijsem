@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Riemerella</otu>
+  <otu id="otu2">Chryseobacteriurn hominis CCUG 5271 17 (AM261868)</otu>
+  <otu id="otu3" cmphy:genus="Chryseobacterium" cmphy:species="aquaticum" cmphy:strain="KCTC 12483T" cmphy:id="AM748690" editRecord="[]">Chryseobacterium aquaticum KCTC 12483T (AM748690)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Chryseobacterium" cmphy:species="molle" cmphy:strain="DSM 180167" cmphy:id="AJS34853" editRecord="[5__S]">Chryseobacterium molle DSM 180167 (AJ534853)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Chryseobacterium" cmphy:species="pallidum" cmphy:strain="DSM 18O15T" cmphy:id="AMZ32809" editRecord="[2__Z]">Chryseobacterium pallidum DSM 18O15T (AM232809)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Chryseobacterium" cmphy:species="hispanicum" cmphy:strain="JCM 13554T" cmphy:id="AMI59183" editRecord="[1__I]">Chryseobacterium hispanicum JCM 13554T (AM159183)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Chryseobacterium" cmphy:species="haifense" cmphy:strain="LMG 24O29T" cmphy:id="EFZ04450" editRecord="[2__Z]">Chryseobacterium haifense LMG 24O29T (EF204450)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Chryseobacterium" cmphy:species="bovis" cmphy:strain="LMG 242277" cmphy:id="EFZ04446" editRecord="[2__Z]">Chryseobacterium bovis LMG 242277 (EF204446)</otu>
+  <otu id="otu9" cmphy:genus="Elizabethkingia" cmphy:species="meningoseptica" cmphy:strain="ATCC 13253T" cmphy:id="M58776" editRecord="[]">Elizabethkingia meningoseptica ATCC 13253T (M58776)</otu>
+  <otu id="otu10">Chryseobacterium caeni DSM 1 771 07 (DQ336714)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Chryseobacterium" cmphy:species="solincola" cmphy:strain="1YB-R127" cmphy:id="EUS16352" editRecord="[5__S]">Chryseobacterium solincola 1YB-R127 (EU516352)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="204.0" y="756.0"/>
+   <node id="NT1.3" label="NT1.3" x="270.0" y="645.0"/>
+   <node id="NT1.4" x="275.0" y="502.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="283.0" y="332.0"/>
+   <node id="NT1.7" label="NT1.7" x="303.0" y="206.0"/>
+   <node id="NT1.8" x="341.0" y="282.0" label="86"/>
+   <node id="NT1.9" x="363.0" y="129.0" label="85"/>
+   <node id="NT1.12" label="NT1.12" x="379.0" y="400.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="379.0" y="786.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="421.0" y="709.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="467.0" y="323.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="474.0" y="91.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="535.0" y="245.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="538.0" y="863.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="564.0" y="169.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="2.0" y="848.0" root="true"/>
+   <edge id="e.0" source="NT1.9" target="NT1.16"/>
+   <edge id="e.1" source="NT1.9" target="NT1.20"/>
+   <edge id="e.2" source="NT1.8" target="NT1.15"/>
+   <edge id="e.3" source="NT1.8" target="NT1.17"/>
+   <edge id="e.4" target="NT1.12" source="NT1.5"/>
+   <edge id="e.6" target="NT1.14" source="NT1.4"/>
+   <edge id="e.7" source="NT1.3" target="NT1.13"/>
+   <edge id="e.9" source="NT1.1" target="NT1.18"/>
+   <edge id="e.10" source="NT1.7" target="NT1.9"/>
+   <edge id="e.11" source="NT1.5" target="NT1.7"/>
+   <edge id="e.12" source="NT1.7" target="NT1.8"/>
+   <edge id="e.13" source="NT1.4" target="NT1.5"/>
+   <edge id="e.15" source="NT1.3" target="NT1.4"/>
+   <edge id="e.17" source="NT1.1" target="NT1.3"/>
+   <edge id="e.19" source="NT1.21" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="amamiensis" cmphy:strain="NBRC 1036827" cmphy:id="ABB64583" editRecord="[3__B]">Actinoallomurus amamiensis NBRC 1036827 (AB364583)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="caesius" cmphy:strain="NBRC 1O3678T" cmphy:id="ABB64589" editRecord="[3__B]">Actinoallomurus caesius NBRC 1O3678T (AB364589)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="fulvus" cmphy:strain="NBRC 1036807" cmphy:id="ABB64582" editRecord="[3__B]">Actinoallomurus fulvus NBRC 1036807 (AB364582)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="iriomotensis" cmphy:strain="NBRC 1036857" cmphy:id="ABB64586" editRecord="[3__B]">Actinoallomurus iriomotensis NBRC 1036857 (AB364586)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="coprocola" cmphy:strain="NBRC 1036887" cmphy:id="ABB64579" editRecord="[3__B]">Actinoallomurus coprocola NBRC 1036887 (AB364579)</otu>
+  <otu id="otu6" cmphy:genus="Actinomadura" cmphy:species="madurae" cmphy:strain="NBRC 14623T" cmphy:id="D85468" editRecord="[]">Actinomadura madurae NBRC 14623T (D85468)</otu>
+  <otu id="otu7" cmphy:genus="Actinoallomurus" cmphy:species="acaciae" cmphy:strain="GMKU 9317" cmphy:id="EU429322" editRecord="[]">Actinoallomurus acaciae GMKU 9317 (EU429322)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="spadix" cmphy:strain="NBRC 14O99T" cmphy:id="ABB64581" editRecord="[3__B]">Actinoallomurus spadix NBRC 14O99T (AB364581)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="luridus" cmphy:strain="NBRC 1O3683T" cmphy:id="ABB64585" editRecord="[3__B]">Actinoallomurus luridus NBRC 1O3683T (AB364585)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="purpureus" cmphy:strain="NBRC 103687T" cmphy:id="ABB64588" editRecord="[3__B]">Actinoallomurus purpureus NBRC 103687T (AB364588)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="yoronensis" cmphy:strain="NBRC 103686T" cmphy:id="ABB64584" editRecord="[3__B]">Actinoallomurus yoronensis NBRC 103686T (AB364584)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="208.0" y="281.0"/>
+   <node id="NT1.2" label="NT1.2" x="282.0" y="367.0"/>
+   <node id="NT1.3" x="294.0" y="193.0" label="98"/>
+   <node id="NT1.4" label="NT1.4" x="306.0" y="337.0"/>
+   <node id="NT1.5" x="312.0" y="135.0" label="59"/>
+   <node id="NT1.6" label="NT1.6" x="325.0" y="82.0"/>
+   <node id="NT1.7" label="NT1.7" x="329.0" y="250.0"/>
+   <node id="NT1.8" x="341.0" y="123.0" label="8"/>
+   <node id="NT1.9" x="362.0" y="39.0" label="g7"/>
+   <node id="NT1.10" label="NT1.10" x="364.0" y="60.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="367.0" y="145.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="369.0" y="18.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="374.0" y="230.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="378.0" y="273.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="385.0" y="443.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="388.0" y="102.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="389.0" y="315.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="396.0" y="401.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="400.0" y="358.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="419.0" y="187.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="2.0" y="362.0" root="true"/>
+   <edge id="e.0" source="NT1.9" target="NT1.12"/>
+   <edge id="e.1" source="NT1.9" target="NT1.10"/>
+   <edge id="e.2" source="NT1.8" target="NT1.11"/>
+   <edge id="e.3" source="NT1.5" target="NT1.20"/>
+   <edge id="e.4" source="NT1.7" target="NT1.13"/>
+   <edge id="e.5" source="NT1.7" target="NT1.14"/>
+   <edge id="e.6" source="NT1.2" target="NT1.18"/>
+   <edge id="e.7" source="NT1.4" target="NT1.17"/>
+   <edge id="e.8" source="NT1.4" target="NT1.19"/>
+   <edge id="e.9" source="NT1.6" target="NT1.9"/>
+   <edge id="e.10" source="NT1.5" target="NT1.6"/>
+   <edge id="e.11" source="NT1.6" target="NT1.8"/>
+   <edge id="e.12" source="NT1.3" target="NT1.5"/>
+   <edge id="e.13" source="NT1.1" target="NT1.3"/>
+   <edge id="e.14" source="NT1.3" target="NT1.7"/>
+   <edge id="e.15" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+   <edge id="e.17" source="NT1.21" target="NT1.15"/>
+   <edge id="e.18" source="NT1.21" target="NT1.1"/>
+   <edge id="e.19" source="NT1.8" target="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

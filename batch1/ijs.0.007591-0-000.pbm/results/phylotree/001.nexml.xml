@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Microbacterium" cmphy:species="thalassium" cmphy:strain="NBRC 160607" cmphy:id="ABO04713" editRecord="[0__O]">Microbacterium thalassium NBRC 160607 (AB004713)</otu>
+  <otu id="otu3">Microbacterium insulae sp. nov. DS-667 (EU239498)</otu>
+  <otu id="otu4" cmphy:genus="Microbacterium" cmphy:species="ketosireducens" cmphy:strain="NBRC 145487" cmphy:id="ABO04724" editRecord="[]">Microbacterium ketosireducens NBRC 145487 (ABO04724)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Microbacterium" cmphy:species="aurantiacum" cmphy:strain="NBRC 15234T" cmphy:id="ABO04726" editRecord="[O__0]">Microbacterium aurantiacum NBRC 15234T (ABOO4726)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Microbacterium" cmphy:species="kitamiense" cmphy:strain="Kitami C27" cmphy:id="ABO13907" editRecord="[0__O]">Microbacterium kitamiense Kitami C27 (AB013907)</otu>
+  <otu id="otu7" cmphy:edit="[O__0]" cmphy:genus="Microbacterium" cmphy:species="trichothecenolyticum" cmphy:strain="NBRC 15O77T" cmphy:id="ABO04722" editRecord="[O__0]">Microbacterium trichothecenolyticum NBRC 15O77T (ABOO4722)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Microbacterium" cmphy:species="dextranolyticum" cmphy:strain="NBRC 145927" cmphy:id="ABO07417" editRecord="[0__O]">Microbacterium dextranolyticum NBRC 145927 (AB007417)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Microbacterium" cmphy:species="laevaniformans" cmphy:strain="NBRC 14471T" cmphy:id="ABO07416" editRecord="[0__O]">Microbacterium laevaniformans NBRC 14471T (AB007416)</otu>
+  <otu id="otu10" cmphy:edit="[O__0]" cmphy:genus="Microbacterium" cmphy:species="terrae" cmphy:strain="NBRC 153007" cmphy:id="ABO04720" editRecord="[O__0]">Microbacterium terrae NBRC 153007 (ABOO4720)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="Microbacterium" cmphy:species="flavescens" cmphy:strain="NBRC 150397" cmphy:id="ABO04716" editRecord="[O__0]">Microbacterium flavescens NBRC 150397 (ABOO4716)</otu>
+  <otu id="otu12" cmphy:genus="Microbacterium" cmphy:species="chocolatum" cmphy:strain="NBRC 37587" cmphy:id="ABO04725" editRecord="[]">Microbacterium chocolatum NBRC 37587 (ABO04725)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Microbacterium" cmphy:species="hominis" cmphy:strain="NBRC 157087" cmphy:id="ABO04727" editRecord="[0__O]">Microbacterium hominis NBRC 157087 (AB004727)</otu>
+  <otu id="otu14">Micmbacterium Xylanilyticum S3-ET (AJ853908)</otu>
+  <otu id="otu15" cmphy:genus="Microbacterium" cmphy:species="halophilum" cmphy:strain="NBRC 16062T" cmphy:id="ABO04714" editRecord="[]">Microbacterium halophilum NBRC 16062T (ABO04714)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="310.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="22.0" y="225.0"/>
+   <node id="NT1.4" label="NT1.4" x="34.0" y="97.0"/>
+   <node id="NT1.5" label="NT1.5" x="34.0" y="407.0"/>
+   <node id="NT1.6" label="NT1.6" x="49.0" y="394.0"/>
+   <node id="NT1.7" label="NT1.7" x="74.0" y="247.0"/>
+   <node id="NT1.9" label="NT1.9" x="80.0" y="199.0"/>
+   <node id="NT1.10" label="NT1.10" x="81.0" y="44.0"/>
+   <node id="NT1.11" label="NT1.11" x="86.0" y="137.0"/>
+   <node id="NT1.12" label="NT1.12" x="103.0" y="295.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="116.0" y="118.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="118.0" y="48.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="120.0" y="13.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="121.0" y="437.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="122.0" y="260.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="122.0" y="189.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="129.0" y="154.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="137.0" y="224.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="143.0" y="83.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="144.0" y="366.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="296.0" y="402.0" otu="otu15"/>
+   <edge id="e.0" source="NT1.10" target="NT1.16"/>
+   <edge id="e.1" source="NT1.10" target="NT1.15"/>
+   <edge id="e.2" source="NT1.10" target="NT1.22"/>
+   <edge id="e.3" source="NT1.11" target="NT1.14"/>
+   <edge id="e.4" source="NT1.11" target="NT1.20"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" source="NT1.2" target="NT1.12"/>
+   <edge id="e.7" source="NT1.7" target="NT1.18"/>
+   <edge id="e.8" source="NT1.9" target="NT1.19"/>
+   <edge id="e.9" source="NT1.9" target="NT1.21"/>
+   <edge id="e.10" target="NT1.23" source="NT1.6"/>
+   <edge id="e.12" source="NT1.6" target="NT1.25"/>
+   <edge id="e.13" source="NT1.4" target="NT1.10"/>
+   <edge id="e.14" source="NT1.2" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.11"/>
+   <edge id="e.16" source="NT1.2" target="NT1.7"/>
+   <edge id="e.18" source="NT1.7" target="NT1.9"/>
+   <edge id="e.19" target="NT1.5" source="NT1.2"/>
+   <edge id="e.20" source="NT1.5" target="NT1.6"/>
+   <edge id="e.23" source="NT1.5" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

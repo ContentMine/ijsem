@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Gardnerella" cmphy:species="vaginalis" cmphy:strain="ATCC 140187" cmphy:id="M58744" editRecord="[]">Gardnerella vaginalis ATCC 140187 (M58744)</otu>
+  <otu id="otu3">B. bifidum ATCC 29521 T (M84777)</otu>
+  <otu id="otu4">B. boum JCM 1211T(D86190)</otu>
+  <otu id="otu5">B. asteroides CCUG 246O7T (EF187235)</otu>
+  <otu id="otu6">B. thermacidophilum subsp. porcinum P3-147 (AY148470)</otu>
+  <otu id="otu7">B. coryneforme ATCC 2591 17 (M58733)</otu>
+  <otu id="otu8">B. tsurumiense OMB115T(AB2411O6)</otu>
+  <otu id="otu9">B. thermoacidophilum subsp. thermoacidophilum 367 (AB016246)</otu>
+  <otu id="otu10">B. saeculare DSM 6531T (D89328)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">B. pullorum JCM 1214T(D86196)</otu>
+  <otu id="otu13">B. bombi BIUCIITPT (EU1 27549)</otu>
+  <otu id="otu14">B. thermophilum ATCC 255257 (U10151)</otu>
+  <otu id="otu15">Parascardovia denticolens DSM 101 O5 (D89331)</otu>
+  <otu id="otu16">Aeriscardovia aerophila T67 (AY1 74107)</otu>
+  <otu id="otu17" cmphy:genus="Scardovia" cmphy:species="inopinata" cmphy:strain="DSM 101077" cmphy:id="D89332" editRecord="[]">Scardovia inopinata DSM 101077 (D89332)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="552.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="26.0" y="656.0"/>
+   <node id="NT1.11" label="NT1.11" x="109.0" y="741.0" otu="otu2"/>
+   <node id="NT1.31" label="NT1.31" x="218.0" y="645.0" otu="otu17"/>
+   <edge id="e.8" source="NT1.3" target="NT1.11"/>
+   <edge id="e.10" target="NT1.31" source="NT1.3"/>
+   <edge id="e.22" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

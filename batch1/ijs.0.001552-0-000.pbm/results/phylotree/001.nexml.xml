@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Alcanivorax" cmphy:species="dieselolei" cmphy:strain="B-5T" cmphy:id="AY683537" editRecord="[]">Alcanivorax dieselolei B-5T (AY683537)</otu>
+  <otu id="otu2" cmphy:genus="Alcanivorax" cmphy:species="balearicus" cmphy:strain="MAC L047" cmphy:id="AY686709" editRecord="[]">Alcanivorax balearicus MAC L047 (AY686709)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Alcanivorax" cmphy:species="venustensis" cmphy:strain="ISO4T" cmphy:id="AFB28762" editRecord="[3__B]">Alcanivorax venustensis ISO4T (AF328762)</otu>
+  <otu id="otu4" cmphy:genus="Alcanivorax" cmphy:species="hongdengensis" cmphy:strain="A-11-3T" cmphy:id="EU438901" editRecord="[]">Alcanivorax hongdengensis A-11-3T (EU438901)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Alcanivorax" cmphy:species="jadensis" cmphy:strain="T9T" cmphy:id="AJO01150" editRecord="[O__0]">Alcanivorax jadensis T9T (AJOO1150)</otu>
+  <otu id="otu6" cmphy:genus="Pseudomonas" cmphy:species="fluorescens" cmphy:strain="IAM 12O22T" cmphy:id="D84013" editRecord="[]">Pseudomonas fluorescens IAM 12O22T (D84013)</otu>
+  <otu id="otu7" cmphy:genus="Alcanivorax" cmphy:species="borkumensis" cmphy:strain="SKZT" cmphy:id="Y12579" editRecord="[]">Alcanivorax borkumensis SKZT (Y12579)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="146.0" y="221.0"/>
+   <node id="NT1.2" label="NT1.2" x="169.0" y="147.0"/>
+   <node id="NT1.3" label="NT1.3" x="243.0" y="93.0"/>
+   <node id="NT1.4" label="NT1.4" x="259.0" y="325.0" otu="otu1"/>
+   <node id="NT1.5" x="259.0" y="292.0" label="100"/>
+   <node id="NT1.6" label="NT1.6" x="276.0" y="47.0"/>
+   <node id="NT1.7" label="NT1.7" x="287.0" y="262.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="328.0" y="200.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="329.0" y="139.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="334.0" y="77.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="346.0" y="385.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="349.0" y="16.0" otu="otu7"/>
+   <node id="NT1.13" label="NT1.13" x="3.0" y="303.0" root="true"/>
+   <edge id="e.0" source="NT1.3" target="NT1.9"/>
+   <edge id="e.1" source="NT1.5" target="NT1.4"/>
+   <edge id="e.2" source="NT1.3" target="NT1.6"/>
+   <edge id="e.3" source="NT1.2" target="NT1.3"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.5" source="NT1.1" target="NT1.5"/>
+   <edge id="e.6" source="NT1.13" target="NT1.1"/>
+   <edge id="e.7" source="NT1.13" target="NT1.11"/>
+   <edge id="e.8" source="NT1.2" target="NT1.8"/>
+   <edge id="e.9" source="NT1.5" target="NT1.7"/>
+   <edge id="e.10" source="NT1.6" target="NT1.10"/>
+   <edge id="e.11" source="NT1.6" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

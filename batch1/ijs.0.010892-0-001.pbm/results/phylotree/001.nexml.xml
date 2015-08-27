@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Chlorobium" cmphy:species="limicola" cmphy:strain="DSM 245T" cmphy:id="CPO01097" editRecord="[0__O]">Chlorobium limicola DSM 245T (CP001097)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Rhodothermus" cmphy:species="marinus" cmphy:strain="JCM 9785" cmphy:id="AFZ17493" editRecord="[2__Z]">Rhodothermus marinus JCM 9785 (AF217493)</otu>
+  <otu id="otu3">Rhodothermus marinus DSM 45257 (AF21 7494)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Thermonema" cmphy:species="rossianum" cmphy:strain="NR-2 77" cmphy:id="Y08956" editRecord="[O__0]">Thermonema rossianum NR-2 77 (YO8956)</otu>
+  <otu id="otu5">Salisaeta Ionga S4-4T (EU426570)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Salinibacter" cmphy:species="ruber" cmphy:strain="M31 T" cmphy:id="AFB23500" editRecord="[3__B]">Salinibacter ruber M31 T (AF323500)</otu>
+  <otu id="otu7" cmphy:edit="[O__0]" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="ATCC 334O6T" cmphy:id="NC_008255" editRecord="[O__0]">Cytophaga hutchinsonii ATCC 334O6T (NC_0O8255)</otu>
+  <otu id="otu8">Bacteroides fragilis DJF_B083 (EU 728 706)</otu>
+  <otu id="otu9">Flavobacterium aquatile ATCC 1 1947T (M62797)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="128.0" y="157.0"/>
+   <node id="NT1.2" label="NT1.2" x="166.0" y="96.0"/>
+   <node id="NT1.3" label="NT1.3" x="233.0" y="217.0"/>
+   <node id="NT1.6" label="NT1.6" x="272.0" y="310.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="380.0" y="162.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="396.0" y="126.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="461.0" y="236.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="539.0" y="52.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="3.0" y="233.0" root="true"/>
+   <edge id="e.0" source="NT1.2" target="NT1.11"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.5" source="NT1.1" target="NT1.3"/>
+   <edge id="e.8" target="NT1.9" source="NT1.3"/>
+   <edge id="e.9" source="NT1.17" target="NT1.1"/>
+   <edge id="e.10" source="NT1.17" target="NT1.6"/>
+   <edge id="e.11" target="NT1.13" source="NT1.3"/>
+   <edge id="e.12" target="NT1.14" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

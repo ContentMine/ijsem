@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">0Asenella UUATCC 496277 (AF292373)</otu>
+  <otu id="otu2">(ii Clone M3_f06_3 t (DQ015649)</otu>
+  <otu id="otu3" cmphy:genus="Coriabacterium" cmphy:species="glamerans" cmphy:strain="DSM 206427" cmphy:id="X79048" editRecord="[]">Coriabacterium glamerans DSM 206427 (X79048)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">57acI(I'a exlgua ATCC 7001227 (AF101240)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Eggerthema" cmphy:species="slnenslls" cmphy:strain="HKU14T" cmphy:id="AYB21958" editRecord="[3__B]">Eggerthema slnenslls HKU14T (AY321958)</otu>
+  <otu id="otu9">Asaccharobacter celafus doO3T (AB2661 02)</otu>
+  <otu id="otu10">Eggerthella hongkongensxls HKU1OT (AY28851 7)</otu>
+  <otu id="otu11" cmphy:genus="Atapobium" cmphy:species="minutum" cmphy:strain="NCFB 27517" cmphy:id="X67148" editRecord="[]">Atapobium minutum NCFB 27517 (X67148)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Human" cmphy:species="intestinal" cmphy:strain="bacterium SNU-Julong732" cmphy:id="AYB10748" editRecord="[3__B]">Human intestinal bacterium SNU-Julong732 (AY310748)</otu>
+  <otu id="otu13" cmphy:genus="Eggenwewa" cmphy:species="lenfa" cmphy:strain="SECO-Mt75m2" cmphy:id="AY937380" editRecord="[]">Eggenwewa lenfa SECO-Mt75m2 (AY937380)</otu>
+  <otu id="otu14">Denltrobacterfum detoX1'f1'cans NPOH1T (U 43492)</otu>
+  <otu id="otu15">Clone SWPT5_aaaO4e11 ' (EF100091)</otu>
+  <otu id="otu16">Bacterium B7 t (DQ789120)</otu>
+  <otu id="otu17">Clone obob2_aaaO3g05 1 (EFO96493)</otu>
+  <otu id="otu18">Cxyptobacferium curtum DSM 15641 T (ABO19260)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">Clone RL176_aah44cO5 (DQ793846)</otu>
+  <otu id="otu21">C0M'nseHa aerofaciens ATCC 259861 (AB01 1816)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24"> Clone SWPT12_aaa04f04 1 (EFOQBO44)</otu>
+  <otu id="otu25">Eubaolerium Hmosum ATCC 84867 1' (M59120)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="68.0" y="811.0"/>
+   <node id="NT1.2" label="NT1.2" x="118.0" y="651.0"/>
+   <node id="NT1.8" x="189.0" y="407.0" label="316"/>
+   <node id="NT1.11" label="NT1.11" x="258.0" y="485.0"/>
+   <node id="NT1.16" label="NT1.16" x="302.0" y="750.0" otu="otu3"/>
+   <node id="NT1.22" label="NT1.22" x="329.0" y="506.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="336.0" y="791.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="340.0" y="424.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="342.0" y="465.0" otu="otu13"/>
+   <node id="NT1.46" label="NT1.46" x="67.0" y="841.0" root="true"/>
+   <edge id="e.11" target="NT1.27" source="NT1.8"/>
+   <edge id="e.13" source="NT1.11" target="NT1.22"/>
+   <edge id="e.14" source="NT1.11" target="NT1.30"/>
+   <edge id="e.18" target="NT1.16" source="NT1.2"/>
+   <edge id="e.21" target="NT1.25" source="NT1.1"/>
+   <edge id="e.33" target="NT1.8" source="NT1.2"/>
+   <edge id="e.35" target="NT1.11" source="NT1.8"/>
+   <edge id="e.38" source="NT1.1" target="NT1.2"/>
+   <edge id="e.42" source="NT1.46" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Pichia" cmphy:species="strasburgensis" cmphy:strain="NRRL Y-2383T" cmphy:id="U74591" editRecord="[]">Pichia strasburgensis NRRL Y-2383T (U74591)</otu>
+  <otu id="otu2">Wiiliopsis satumus var. mrakii NRRL Y-1364 T (U94929)</otu>
+  <otu id="otu3">Vwlliopsis satumus var. subsufficiens NRRL YB-1657 T (U75960)</otu>
+  <otu id="otu4">Williopsis satumus var. satumus NRRL Y-17396T (U75958)</otu>
+  <otu id="otu5">Williopsis satumus var. sargentensis NRRL YB-4139 T (U94936)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Candida" cmphy:species="mengyuniae" cmphy:strain="JHLT" cmphy:id="EUO43158" editRecord="[0__O]">Candida mengyuniae JHLT (EU043158)</otu>
+  <otu id="otu7">Candida vartiovaarae NRRL Y-6701 T (U69875)</otu>
+  <otu id="otu8">VWIiopsis mucosa NRRL YB-1344T (U75961)</otu>
+  <otu id="otu9" cmphy:genus="Pichia" cmphy:species="silvicola" cmphy:strain="NRRL Y-1678T" cmphy:id="U74588" editRecord="[]">Pichia silvicola NRRL Y-1678T (U74588)</otu>
+  <otu id="otu10">Pichia misumaiensis N RRL Y-17389 T (U73581)</otu>
+  <otu id="otu11">VWliopsis pratensis NRRL Y-12696 T (U75964)</otu>
+  <otu id="otu12">Pichia wickerhamii NRRL Y-2435 T (U75419)</otu>
+  <otu id="otu13">Williopsis salicomiae NRRL Y-12834 T (U75966)</otu>
+  <otu id="otu14">Pichia petersonii N RRL YB-3808 T (U73572)</otu>
+  <otu id="otu15">Williopsis californica NRRL Y-17395 T (U75957)</otu>
+  <otu id="otu16">Candida montana NRRL Y-17326 T (U62305)</otu>
+  <otu id="otu17">Pichia populi NRRL Y-12728 T (U75427)</otu>
+  <otu id="otu18" cmphy:genus="Pichia" cmphy:species="anomala" cmphy:strain="Y-366 T" cmphy:id="U74592" editRecord="[]">Pichia anomala Y-366 T (U74592)</otu>
+  <otu id="otu19">Pichia rhodanensis NRRL Y-7854 T (U73571)</otu>
+  <otu id="otu20">Pichia hawaiiensis NRRL Y-27270 T (AF153675)</otu>
+  <otu id="otu21">Candida norvegica NRRL Y-17660 T (U62299)</otu>
+  <otu id="otu22">Pichia jadinii NRRL Y-1542 T (U73570)</otu>
+  <otu id="otu23">Pichia salictaria NRRL Y-6780 T (U75420)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.5" x="309.0" y="392.0" label="55"/>
+   <node id="NT1.7" x="362.0" y="502.0" label="63"/>
+   <node id="NT1.11" x="437.0" y="538.0" label="63"/>
+   <node id="NT1.19" label="NT1.19" x="519.0" y="467.0" otu="otu1"/>
+   <node id="NT1.27" label="NT1.27" x="559.0" y="262.0" otu="otu6"/>
+   <node id="NT1.30" label="NT1.30" x="649.0" y="508.0" otu="otu9"/>
+   <node id="NT1.39" label="NT1.39" x="766.0" y="591.0" otu="otu18"/>
+   <node id="NT1.45" label="NT1.45" x="2.0" y="645.0" root="true"/>
+   <edge id="e.5" source="NT1.7" target="NT1.19"/>
+   <edge id="e.7" source="NT1.11" target="NT1.30"/>
+   <edge id="e.8" target="NT1.39" source="NT1.11"/>
+   <edge id="e.20" target="NT1.5" source="NT1.45"/>
+   <edge id="e.21" source="NT1.5" target="NT1.7"/>
+   <edge id="e.23" source="NT1.7" target="NT1.11"/>
+   <edge id="e.36" target="NT1.27" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

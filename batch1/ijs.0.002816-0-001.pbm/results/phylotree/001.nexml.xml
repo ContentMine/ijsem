@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Proteocatella" cmphy:species="sphenisci" cmphy:strain="PPP27" cmphy:id="AF450134" editRecord="[]">Proteocatella sphenisci PPP27 (AF450134)</otu>
+  <otu id="otu2" cmphy:edit="[O__0]" cmphy:genus="Clostridium" cmphy:species="sticklandii" cmphy:strain="SR" cmphy:id="L04167" editRecord="[O__0]">Clostridium sticklandii SR (LO4167)</otu>
+  <otu id="otu3">Sporacetigenium mesophilum ZLJ1 1 57 (AY682207)</otu>
+  <otu id="otu4">Clostrfdium sordellii ATCC 97147 (ABO757 71)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Clostridium" cmphy:species="irregulare" cmphy:strain="DSM 26357" cmphy:id="X73447" editRecord="[]">Clostridium irregulare DSM 26357 (X73447)</otu>
+  <otu id="otu8" cmphy:genus="Clostridium" cmphy:species="bartlettfi" cmphy:strain="WAL 161387" cmphy:id="AY438672" editRecord="[]">Clostridium bartlettfi WAL 161387 (AY438672)</otu>
+  <otu id="otu9" cmphy:genus="Clostridium" cmphy:species="bifermentans" cmphy:strain="ATCC 6387" cmphy:id="X75906" editRecord="[]">Clostridium bifermentans ATCC 6387 (X75906)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Eubacterium acidaminophilum DSM 39537 (AFO7141 6)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Peptostreptococcus" cmphy:species="stomatis" cmphy:strain="W22787" cmphy:id="DQI60208" editRecord="[1__I]">Peptostreptococcus stomatis W22787 (DQ160208)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">Alkaliphilus crotonatoxidans B1 1-27 (AF467 248)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Clostridium" cmphy:species="felsineum" cmphy:strain="DSM 7947" cmphy:id="X77851" editRecord="[]">Clostridium felsineum DSM 7947 (X77851)</otu>
+  <otu id="otu17" cmphy:genus="Geosporobacter" cmphy:species="subterraneus" cmphy:strain="VNs687" cmphy:id="DQ643978" editRecord="[]">Geosporobacter subterraneus VNs687 (DQ643978)</otu>
+  <otu id="otu18"> Fusibacter paucivorans SEBR 421 17 (AFO50099)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">Filifactor villosus DSM 16457 (AF53721 1)</otu>
+  <otu id="otu21">Natronincola histidinovorans Z-794O7(Y16716)</otu>
+  <otu id="otu22" cmphy:edit="[O__0]" cmphy:genus="Filifactor" cmphy:species="alocis" cmphy:strain="ATCC 358967" cmphy:id="AJO06962" editRecord="[O__0]">Filifactor alocis ATCC 358967 (AJOO6962)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="22.0" y="522.0"/>
+   <node id="NT1.2" label="NT1.2" x="27.0" y="736.0"/>
+   <node id="NT1.3" x="56.0" y="370.0" label="79"/>
+   <node id="NT1.7" label="NT1.7" x="175.0" y="221.0"/>
+   <node id="NT1.8" label="NT1.8" x="210.0" y="558.0"/>
+   <node id="NT1.9" x="256.0" y="153.0" label="56"/>
+   <node id="NT1.14" label="NT1.14" x="289.0" y="91.0"/>
+   <node id="NT1.17" label="NT1.17" x="358.0" y="710.0" otu="otu1"/>
+   <node id="NT1.18" label="NT1.18" x="364.0" y="673.0" otu="otu2"/>
+   <node id="NT1.26" label="NT1.26" x="433.0" y="160.0" otu="otu7"/>
+   <node id="NT1.27" label="NT1.27" x="442.0" y="123.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="443.0" y="87.0" otu="otu9"/>
+   <node id="NT1.32" label="NT1.32" x="526.0" y="307.0" otu="otu12"/>
+   <node id="NT1.36" label="NT1.36" x="570.0" y="600.0" otu="otu16"/>
+   <node id="NT1.37" label="NT1.37" x="580.0" y="526.0" otu="otu17"/>
+   <node id="NT1.42" label="NT1.42" x="616.0" y="783.0" otu="otu22"/>
+   <node id="NT1.43" label="NT1.43" x="2.0" y="539.0" root="true"/>
+   <edge id="e.2" target="NT1.28" source="NT1.14"/>
+   <edge id="e.3" source="NT1.14" target="NT1.27"/>
+   <edge id="e.4" target="NT1.26" source="NT1.9"/>
+   <edge id="e.8" target="NT1.32" source="NT1.7"/>
+   <edge id="e.12" source="NT1.1" target="NT1.18"/>
+   <edge id="e.15" source="NT1.8" target="NT1.37"/>
+   <edge id="e.17" target="NT1.36" source="NT1.8"/>
+   <edge id="e.20" target="NT1.42" source="NT1.2"/>
+   <edge id="e.23" source="NT1.9" target="NT1.14"/>
+   <edge id="e.24" source="NT1.7" target="NT1.9"/>
+   <edge id="e.27" target="NT1.7" source="NT1.3"/>
+   <edge id="e.30" source="NT1.1" target="NT1.3"/>
+   <edge id="e.34" target="NT1.8" source="NT1.3"/>
+   <edge id="e.39" source="NT1.43" target="NT1.1"/>
+   <edge id="e.40" source="NT1.43" target="NT1.2"/>
+   <edge id="e.41" source="NT1.2" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

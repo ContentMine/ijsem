@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Desulfuromonas michiganensis' BB1 (AF357915)</otu>
+  <otu id="otu2">Pelobacter venetianus</otu>
+  <otu id="otu3"> Pelobacter acetylenicus</otu>
+  <otu id="otu4">Pelobacter carbinolicus</otu>
+  <otu id="otu5">Desulfuromonas chloroethenica TT4BT</otu>
+  <otu id="otu6">Desulfuromonas palmitatis</otu>
+  <otu id="otu7">Desulfuromonas acetexigens</otu>
+  <otu id="otu8">Geothermobacter ehrlichii</otu>
+  <otu id="otu9">Desulfuromonas thiophila</otu>
+  <otu id="otu10">Geoalkalibacter ferrihydriticus</otu>
+  <otu id="otu11">Geobacterpelophilus</otu>
+  <otu id="otu12">Desulfuromonas acetoxidans</otu>
+  <otu id="otu13">Geobacterpickeringii</otu>
+  <otu id="otu14">Geobacter hydrogenophilus</otu>
+  <otu id="otu15">Geoalkalibacter subterraneus Red1T</otu>
+  <otu id="otu16"> Geobactergrbiciae TACP-2T (AF335182)</otu>
+  <otu id="otu17" cmphy:genus="Geobacter" cmphy:species="metallireducens" cmphy:strain="GS-15T" cmphy:id="L07834" editRecord="[]"> Geobacter metallireducens GS-15T (L07834)</otu>
+  <otu id="otu18" cmphy:genus="Geobacter" cmphy:species="sulfurreducens" cmphy:strain="PCAT" cmphy:id="U13928" editRecord="[]">Geobacter sulfurreducens PCAT (U13928)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.19" label="NT1.19" x="316.0" y="602.0"/>
+   <node id="NT1.33" label="NT1.33" x="539.0" y="693.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="576.0" y="563.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="1.0" y="587.0" root="true"/>
+   <edge id="e.13" source="NT1.19" target="NT1.34"/>
+   <edge id="e.14" target="NT1.33" source="NT1.19"/>
+   <edge id="e.25" target="NT1.19" source="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

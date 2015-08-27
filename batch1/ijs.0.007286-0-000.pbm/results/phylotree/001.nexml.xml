@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Arcobacler" cmphy:species="skirrowi" cmphy:strain="CCUG 103747" cmphy:id="L14625" editRecord="[]">Arcobacler skirrowi CCUG 103747 (L14625)</otu>
+  <otu id="otu3" cmphy:genus="Arcobacter" cmphy:species="butzleri" cmphy:strain="ATCC 496167" cmphy:id="AY621116" editRecord="[]">Arcobacter butzleri ATCC 496167 (AY621116)</otu>
+  <otu id="otu4" cmphy:genus="Helicobaoter" cmphy:species="pylori" cmphy:strain="ATCC 435047" cmphy:id="U01330" editRecord="[]">Helicobaoter pylori ATCC 435047 (U01330)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="817.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="180.0" y="971.0"/>
+   <node id="NT1.3" x="642.0" y="1001.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="755.0" y="988.0" otu="otu2"/>
+   <node id="NT1.5" label="NT1.5" x="775.0" y="1018.0" otu="otu3"/>
+   <node id="NT1.6" label="NT1.6" x="795.0" y="928.0" otu="otu4"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.3" target="NT1.4"/>
+   <edge id="e.2" source="NT1.3" target="NT1.5"/>
+   <edge id="e.3" source="NT1.2" target="NT1.6"/>
+   <edge id="e.4" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

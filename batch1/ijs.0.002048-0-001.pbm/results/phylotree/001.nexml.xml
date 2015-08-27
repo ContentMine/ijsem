@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Sporolactobacillus" cmphy:species="putidus" cmphy:strain="QC81-067" cmphy:id="ABB74529" editRecord="[3__B]">Sporolactobacillus putidus QC81-067 (AB374529)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Sporolactobacillus" cmphy:species="terrae" cmphy:strain="JCM 35167" cmphy:id="ABB74527" editRecord="[3__B]">Sporolactobacillus terrae JCM 35167 (AB374527)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Sporolactobacillus" cmphy:species="laevolacticus" cmphy:strain="IAM 12321T" cmphy:id="ABB74523" editRecord="[3__B]">Sporolactobacillus laevolacticus IAM 12321T (AB374523)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Bacillus subtilis IAM 12118T (Z9 91 04)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Sporolactobacillus" cmphy:species="inulinus" cmphy:strain="IFO 13595T" cmphy:id="ABB74528" editRecord="[3__B]">Sporolactobacillus inulinus IFO 13595T (AB374528)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="116.0" y="301.0" label="98"/>
+   <node id="NT1.2" label="NT1.2" x="194.0" y="224.0"/>
+   <node id="NT1.3" label="NT1.3" x="212.0" y="130.0"/>
+   <node id="NT1.7" label="NT1.7" x="404.0" y="378.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="444.0" y="258.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="469.0" y="77.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="483.0" y="318.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="2.0" y="369.0" root="true"/>
+   <edge id="e.1" target="NT1.11" source="NT1.3"/>
+   <edge id="e.2" target="NT1.9" source="NT1.3"/>
+   <edge id="e.5" source="NT1.2" target="NT1.14"/>
+   <edge id="e.6" source="NT1.1" target="NT1.7"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.11" source="NT1.1" target="NT1.2"/>
+   <edge id="e.13" source="NT1.15" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Ij Leifsonia kafniensis KFC-227 (AM889135)</otu>
+  <otu id="otu2" cmphy:genus="Leifsonia" cmphy:species="antarctica" cmphy:strain="SPC-207" cmphy:id="AM931710" editRecord="[]">Leifsonia antarctica SPC-207 (AM931710)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Agreia" cmphy:species="bicolorata" cmphy:strain="VKM Ac-18O4T" cmphy:id="AFI59363" editRecord="[1__I]">Agreia bicolorata VKM Ac-18O4T (AF159363)</otu>
+  <otu id="otu4" cmphy:genus="Leifsonia" cmphy:species="bigeumensis" cmphy:strain="MSL-277" cmphy:id="EF466124" editRecord="[]">Leifsonia bigeumensis MSL-277 (EF466124)</otu>
+  <otu id="otu5">Le-ifsonia rubra CMS 76rT (AJ438585)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="134.0" y="537.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="149.0" y="429.0"/>
+   <node id="NT1.3" label="NT1.3" x="186.0" y="297.0"/>
+   <node id="NT1.5" label="NT1.5" x="331.0" y="570.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="391.0" y="296.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="420.0" y="258.0" otu="otu4"/>
+   <edge id="e.0" source="NT1.3" target="NT1.7"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" target="NT1.6" source="NT1.3"/>
+   <edge id="e.3" source="NT1.2" target="NT1.5"/>
+   <edge id="e.4" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

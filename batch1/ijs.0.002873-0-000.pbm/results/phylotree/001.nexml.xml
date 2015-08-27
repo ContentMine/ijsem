@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> Novosphingobium naphthalenivorans TUT562T(AB177883)</otu>
+  <otu id="otu3">Erythrobacter longus OCh101T(L017B6)</otu>
+  <otu id="otu4">Novosphingobium rosa IAM 14222T(D13945)</otu>
+  <otu id="otu5">Novosphingobium subarcticum KF1T(X94102)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Novosphingobium subterraneumIFO16086T(AB025014)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Altererythlobacter" cmphy:species="indicus" cmphy:strain="MSSRF26T" cmphy:id="DQB99262" editRecord="[3__B]">Altererythlobacter indicus MSSRF26T (DQ399262)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Altererythrobacter" cmphy:species="epoxidivorans" cmphy:strain="JCS350T" cmphy:id="DQB04436" editRecord="[3__B]">Altererythrobacter epoxidivorans JCS350T (DQ304436)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Novosphingobium" cmphy:species="pentaromativorans" cmphy:strain="US6-1 T" cmphy:id="AFS02400" editRecord="[5__S]"> Novosphingobium pentaromativorans US6-1 T (AF502400)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Novosphingobium" cmphy:species="taihuense" cmphy:strain="T3-B9T" cmphy:id="AYS00142" editRecord="[5__S]"> Novosphingobium taihuense T3-B9T (AY500142)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Novosphingobium" cmphy:species="indicum" cmphy:strain="H25T" cmphy:id="EFS49586" editRecord="[5__S]">Novosphingobium indicum H25T (EF549586)</otu>
+  <otu id="otu14">Porphyrobacter dokdonensis DSW-74T(DOO11529)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">Novosphingobium stygiumIFO16085T(ABO25O13)</otu>
+  <otu id="otu17">Novosphingobium hassiacum W-51T(AJ416411)</otu>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Novosphingobium" cmphy:species="tardaugens" cmphy:strain="ARI-1T" cmphy:id="ABO70237" editRecord="[0__O]">Novosphingobium tardaugens ARI-1T (AB070237)</otu>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="Novosphingobium" cmphy:species="lentum" cmphy:strain="MT1 T" cmphy:id="AJB03009" editRecord="[3__B]">Novosphingobium lentum MT1 T (AJ303009)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22">Novosphingobium capsulatum GlFU11526T(D16147)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25">Sphingomonas echinoides ATCC14820T(ABO21370)</otu>
+  <otu id="otu26">Sphingomonas dokdonensis DS-4T (DQ1 789 75)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="767.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="18.0" y="767.0"/>
+   <node id="NT1.5" x="73.0" y="444.0" label="81"/>
+   <node id="NT1.7" x="113.0" y="860.0" label="74"/>
+   <node id="NT1.10" label="NT1.10" x="133.0" y="470.0"/>
+   <node id="NT1.12" label="NT1.12" x="151.0" y="298.0"/>
+   <node id="NT1.14" label="NT1.14" x="171.0" y="291.0"/>
+   <node id="NT1.32" label="NT1.32" x="287.0" y="828.0" otu="otu9"/>
+   <node id="NT1.33" label="NT1.33" x="293.0" y="913.0" otu="otu10"/>
+   <node id="NT1.34" label="NT1.34" x="298.0" y="490.0" otu="otu11"/>
+   <node id="NT1.35" label="NT1.35" x="305.0" y="279.0" otu="otu12"/>
+   <node id="NT1.36" label="NT1.36" x="308.0" y="448.0" otu="otu13"/>
+   <node id="NT1.41" label="NT1.41" x="328.0" y="406.0" otu="otu18"/>
+   <node id="NT1.43" label="NT1.43" x="348.0" y="364.0" otu="otu19"/>
+   <edge id="e.2" target="NT1.35" source="NT1.14"/>
+   <edge id="e.6" target="NT1.43" source="NT1.14"/>
+   <edge id="e.8" source="NT1.12" target="NT1.41"/>
+   <edge id="e.10" source="NT1.10" target="NT1.34"/>
+   <edge id="e.13" source="NT1.10" target="NT1.36"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.20" source="NT1.7" target="NT1.32"/>
+   <edge id="e.21" target="NT1.33" source="NT1.7"/>
+   <edge id="e.27" target="NT1.14" source="NT1.12"/>
+   <edge id="e.31" source="NT1.5" target="NT1.12"/>
+   <edge id="e.34" target="NT1.5" source="NT1.2"/>
+   <edge id="e.38" target="NT1.10" source="NT1.5"/>
+   <edge id="e.45" target="NT1.7" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

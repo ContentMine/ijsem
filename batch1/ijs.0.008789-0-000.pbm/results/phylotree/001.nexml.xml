@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Lachancea" cmphy:species="kluyveri" cmphy:strain="NRRL Y-12651T" cmphy:id="U68552" editRecord="[]">Lachancea kluyveri NRRL Y-12651T (U68552)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Lachancea" cmphy:species="dasiensis" cmphy:strain="ES12S06" cmphy:id="FJI53149" editRecord="[1__I]">Lachancea dasiensis ES12S06 (FJ153149)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Lachancea" cmphy:species="dasiensis" cmphy:strain="SC5L02T" cmphy:id="EUS23636" editRecord="[5__S]">Lachancea dasiensis SC5L02T (EU523636)</otu>
+  <otu id="otu4" cmphy:genus="Lachancea" cmphy:species="waltii" cmphy:strain="NRRL Y-8285T" cmphy:id="U69582" editRecord="[]">Lachancea waltii NRRL Y-8285T (U69582)</otu>
+  <otu id="otu5" cmphy:genus="Lachancea" cmphy:species="ferrnentati" cmphy:strain="NRRL Y-15597" cmphy:id="U84239" editRecord="[]">Lachancea ferrnentati NRRL Y-15597 (U84239)</otu>
+  <otu id="otu6" cmphy:genus="Lachancea" cmphy:species="thermotolerans" cmphy:strain="NRRL Y-8284T" cmphy:id="U69581" editRecord="[]">Lachancea thermotolerans NRRL Y-8284T (U69581)</otu>
+  <otu id="otu7">Lachancea cidri NRRL Y-12634T(U84236)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Kluyveromyces" cmphy:species="rnarxianus" cmphy:strain="CBS 834T" cmphy:id="AJS08567" editRecord="[5__S]">Kluyveromyces rnarxianus CBS 834T (AJ508567)</otu>
+  <otu id="otu9" cmphy:genus="Lachancea" cmphy:species="meyersii" cmphy:strain="NRRL Y-27269T" cmphy:id="AY645656" editRecord="[]">Lachancea meyersii NRRL Y-27269T (AY645656)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="280.0" y="291.0"/>
+   <node id="NT1.2" x="337.0" y="228.0" label="64"/>
+   <node id="NT1.3" x="471.0" y="166.0" label="84"/>
+   <node id="NT1.4" x="519.0" y="108.0" label="63"/>
+   <node id="NT1.5" x="539.0" y="160.0" label="50"/>
+   <node id="NT1.6" label="NT1.6" x="557.0" y="354.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="624.0" y="54.0"/>
+   <node id="NT1.9" label="NT1.9" x="625.0" y="10.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="625.0" y="97.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="630.0" y="182.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="630.0" y="311.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="635.0" y="139.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="712.0" y="396.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="723.0" y="225.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="2.0" y="343.0" root="true"/>
+   <edge id="e.0" source="NT1.8" target="NT1.9"/>
+   <edge id="e.1" source="NT1.8" target="NT1.10"/>
+   <edge id="e.2" source="NT1.5" target="NT1.11"/>
+   <edge id="e.3" source="NT1.5" target="NT1.13"/>
+   <edge id="e.4" source="NT1.3" target="NT1.16"/>
+   <edge id="e.5" target="NT1.12" source="NT1.2"/>
+   <edge id="e.7" source="NT1.1" target="NT1.6"/>
+   <edge id="e.8" source="NT1.4" target="NT1.8"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.10" source="NT1.4" target="NT1.5"/>
+   <edge id="e.11" source="NT1.2" target="NT1.3"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" source="NT1.17" target="NT1.15"/>
+   <edge id="e.15" source="NT1.17" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

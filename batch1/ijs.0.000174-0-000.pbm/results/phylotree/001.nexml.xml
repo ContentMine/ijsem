@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Rhadaplanes elegans AS130T (D2531 1)</otu>
+  <otu id="otu3">(Rhodoplanes cryptolactif</otu>
+  <otu id="otu4">Strain TUT3530T (AB087717)</otu>
+  <otu id="otu5">(Rhodoplanes cryptolactif</otu>
+  <otu id="otu6">Rhodapseudomonas palustris ATCC 17001T(D25312)</otu>
+  <otu id="otu7" cmphy:genus="Rhodoplanes" cmphy:species="roseus" cmphy:strain="DSM 5909T" cmphy:id="D25313" editRecord="[]">Rhodoplanes roseus DSM 5909T (D25313)</otu>
+  <otu id="otu8" cmphy:genus="Rhodoblastus" cmphy:species="acidophilus" cmphy:strain="ATCC 25092T" cmphy:id="M34128" editRecord="[]">Rhodoblastus acidophilus ATCC 25092T (M34128)</otu>
+  <otu id="otu9">Blastochlaris viridis ATCC 19567T(D25314)</otu>
+  <otu id="otu10" cmphy:genus="Blastochloris" cmphy:species="sulfoviridis" cmphy:strain="DSM 72971." cmphy:id="D86514" editRecord="[]">Blastochloris sulfoviridis DSM 72971. (D86514)</otu>
+  <otu id="otu11" cmphy:genus="Blastochloris" cmphy:species="sulfoviridis" cmphy:strain="DSM 72971." cmphy:id="D86514" editRecord="[]">Blastochloris sulfoviridis DSM 72971. (D86514)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="390.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="6.0" y="390.0"/>
+   <node id="NT1.4" label="NT1.4" x="146.0" y="245.0"/>
+   <node id="NT1.14" label="NT1.14" x="267.0" y="82.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="270.0" y="497.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="293.0" y="360.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="293.0" y="358.0"/>
+   <node id="NT1.20" label="NT1.20" x="319.0" y="357.0" otu="otu11"/>
+   <edge id="e.2" source="NT1.19" target="NT1.18"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.19" target="NT1.20"/>
+   <edge id="e.9" target="NT1.4" source="NT1.2"/>
+   <edge id="e.12" target="NT1.19" source="NT1.4"/>
+   <edge id="e.17" target="NT1.14" source="NT1.4"/>
+   <edge id="e.18" source="NT1.2" target="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>
