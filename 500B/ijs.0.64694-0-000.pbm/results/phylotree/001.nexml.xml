@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Chromobacterium violaceum ATCC</otu>
+  <otu id="otu3">Vitreoscilla stercoraria ATCC</otu>
+  <otu id="otu4">Vogesella indigofera ATCC</otu>
+  <otu id="otu5" cmphy:genus="Eikenella" cmphy:species="corrodens" cmphy:strain="ATCC 23834T" cmphy:id="M22512" editRecord="[]">Eikenella corrodens ATCC 23834T (M22512)</otu>
+  <otu id="otu6" cmphy:genus="Kingella" cmphy:species="kingae" cmphy:strain="ATCC 23330T" cmphy:id="M22517" editRecord="[]">Kingella kingae ATCC 23330T (M22517)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.4" x="506.0" y="308.0" label="99"/>
+   <node id="NT1.9" label="NT1.9" x="840.0" y="276.0" otu="otu5"/>
+   <node id="NT1.10" label="NT1.10" x="931.0" y="342.0" otu="otu6"/>
+   <node id="NT1.11" label="NT1.11" x="1.0" y="354.0" root="true"/>
+   <edge id="e.3" source="NT1.4" target="NT1.9"/>
+   <edge id="e.4" source="NT1.4" target="NT1.10"/>
+   <edge id="e.9" target="NT1.4" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

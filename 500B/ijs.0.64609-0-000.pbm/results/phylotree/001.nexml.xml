@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">P. ruminicola ATCC 191897 (L16482)</otu>
+  <otu id="otu2">P. salivae JCM 12084T (AB108826)</otu>
+  <otu id="otu3">P. buccalis ATCC 353107 (L16476)</otu>
+  <otu id="otu4">P1 oris ATCC 335737 ( L16474)</otu>
+  <otu id="otu5">P. veroralis ATCC 337797 (L16473)</otu>
+  <otu id="otu6">P. timonensis 4401737T (DQ518919)</otu>
+  <otu id="otu7">P. shahii EHS11T (AB108825)</otu>
+  <otu id="otu8">P. albensis M384T (AJO11683)</otu>
+  <otu id="otu9">P. denticola ATCC 353087 (AY323524)</otu>
+  <otu id="otu10">P. oralis ATCC 332697 (AY323522)</otu>
+  <otu id="otu11">P. enoeca ATCC 512617 (AJO05635)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Bacteroides" cmphy:species="tectus" cmphy:strain="JCM 100037" cmphy:id="ABZ00228" editRecord="[2__Z]">Bacteroides tectus JCM 100037 (AB200228)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.22" label="NT1.22" x="752.0" y="529.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="2.0" y="441.0" root="true"/>
+   <edge id="e.20" source="NT1.23" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

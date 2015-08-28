@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Escherichia coii ATCC</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Chromohaiobacter" cmphy:species="israeiensis" cmphy:strain="ATCC 439857" cmphy:id="AJZ95144" editRecord="[2__Z]">Chromohaiobacter israeiensis ATCC 439857 (AJ295144)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Halotalea" cmphy:species="alkalilenta" cmphy:strain="Aw-7T" cmphy:id="DQ421388" editRecord="[]">Halotalea alkalilenta Aw-7T (DQ421388)</otu>
+  <otu id="otu9" cmphy:genus="Chromohalobacter" cmphy:species="beijerinckii" cmphy:strain="ATCC 19372T" cmphy:id="ABO21386" editRecord="[]">Chromohalobacter beijerinckii ATCC 19372T (ABO21386)</otu>
+  <otu id="otu10" cmphy:genus="Chromohalobacter" cmphy:species="marismoriui" cmphy:strain="ATCC 17056T" cmphy:id="X87219" editRecord="[]"> Chromohalobacter marismoriui ATCC 17056T (X87219)</otu>
+  <otu id="otu11" cmphy:genus="Carnimonas" cmphy:species="nigrificans" cmphy:strain="CECT 4437T" cmphy:id="Y13299" editRecord="[]">Carnimonas nigrificans CECT 4437T (Y13299)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Halomonas" cmphy:species="venusta" cmphy:strain="DSM 4743T" cmphy:id="AJB06894" editRecord="[3__B]">Halomonas venusta DSM 4743T (AJ306894)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Halomonas" cmphy:species="aquamarina" cmphy:strain="DSM 30161T" cmphy:id="AJB06888" editRecord="[3__B]">Halomonas aquamarina DSM 30161T (AJ306888)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[3__B]" cmphy:genus="Cobetia" cmphy:species="marina" cmphy:strain="DSM 47417" cmphy:id="AJB06890" editRecord="[3__B]">Cobetia marina DSM 47417 (AJ306890)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Zymobacter" cmphy:species="paimae" cmphy:strain="DSM 10491T" cmphy:id="D14555" editRecord="[]">Zymobacter paimae DSM 10491T (D14555)</otu>
+  <otu id="otu19" cmphy:edit="[0__O]" cmphy:genus="Halovibriu" cmphy:species="denitrificans" cmphy:strain="DSM 155037" cmphy:id="DQO72718" editRecord="[0__O]">Halovibriu denitrificans DSM 155037 (DQ072718)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="236.0" y="900.0" label="100"/>
+   <node id="NT1.3" x="334.0" y="802.0" label="100"/>
+   <node id="NT1.5" x="377.0" y="534.0" label="88"/>
+   <node id="NT1.6" x="393.0" y="433.0" label="39"/>
+   <node id="NT1.9" label="NT1.9" x="413.0" y="917.0"/>
+   <node id="NT1.11" x="448.0" y="943.0" label="87"/>
+   <node id="NT1.12" label="NT1.12" x="450.0" y="634.0"/>
+   <node id="NT1.14" label="NT1.14" x="483.0" y="677.0"/>
+   <node id="NT1.17" x="496.0" y="460.0" label="100"/>
+   <node id="NT1.20" label="NT1.20" x="512.0" y="609.0" otu="otu5"/>
+   <node id="NT1.24" label="NT1.24" x="528.0" y="961.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="529.0" y="679.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="538.0" y="644.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="542.0" y="890.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="552.0" y="432.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="556.0" y="503.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="559.0" y="538.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="573.0" y="925.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="579.0" y="996.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="1.0" y="965.0" root="true"/>
+   <edge id="e.1" source="NT1.17" target="NT1.28"/>
+   <edge id="e.4" target="NT1.30" source="NT1.17"/>
+   <edge id="e.6" source="NT1.6" target="NT1.32"/>
+   <edge id="e.8" target="NT1.20" source="NT1.12"/>
+   <edge id="e.9" target="NT1.25" source="NT1.14"/>
+   <edge id="e.11" source="NT1.14" target="NT1.26"/>
+   <edge id="e.14" source="NT1.11" target="NT1.24"/>
+   <edge id="e.15" source="NT1.9" target="NT1.27"/>
+   <edge id="e.16" source="NT1.11" target="NT1.35"/>
+   <edge id="e.17" source="NT1.1" target="NT1.36"/>
+   <edge id="e.20" source="NT1.5" target="NT1.6"/>
+   <edge id="e.21" target="NT1.17" source="NT1.6"/>
+   <edge id="e.24" target="NT1.5" source="NT1.3"/>
+   <edge id="e.25" source="NT1.5" target="NT1.12"/>
+   <edge id="e.26" source="NT1.12" target="NT1.14"/>
+   <edge id="e.31" source="NT1.1" target="NT1.3"/>
+   <edge id="e.32" source="NT1.3" target="NT1.9"/>
+   <edge id="e.33" source="NT1.9" target="NT1.11"/>
+   <edge id="e.35" source="NT1.37" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

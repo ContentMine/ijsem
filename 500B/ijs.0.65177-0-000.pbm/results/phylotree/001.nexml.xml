@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Staphylococcus" cmphy:species="aureus" cmphy:strain="DSM 20231T" cmphy:id="AY688035" editRecord="[]">Staphylococcus aureus DSM 20231T (AY688035)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">B. pseudofirmus DSM 87157 (X76439)</otu>
+  <otu id="otu6">B. habdurans DSM 497T(AJ3O2709)</otu>
+  <otu id="otu7">B. okuhidensis DSM 13666T(AB047684)</otu>
+  <otu id="otu8">B. decolorationis DSM 195O7T(AJ315O75)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">B. okuhidensis DSM 13666T(AB047684)</otu>
+  <otu id="otu11">B. alcalophilus DSM 4857 (X76436)</otu>
+  <otu id="otu12">B. hwajinpoensis JCM 11807T (AF541966)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">B. pseudalcaliphilus DSM 87257 (X76449)</otu>
+  <otu id="otu15">B. krulwichiae NCIMB 13904T(AB086897)</otu>
+  <otu id="otu16">B. c1ausiiDSM 8716T(X76440)</otu>
+  <otu id="otu17">B. patagoniensis DSM 16117T(AY258614)</otu>
+  <otu id="otu18">B. agaradhaerens DSM 8721T (X76445)</otu>
+  <otu id="otu19">B. murimartini LMG 21005"(AJ316316)</otu>
+  <otu id="otu20">B. plakortidis P2o3T(AJ8s0oo3)</otu>
+  <otu id="otu21">B. clarkii DSM 87207 (X76444)</otu>
+  <otu id="otu22">B. plakortidis P2o3T(AJ8s0oo3)</otu>
+  <otu id="otu23">B. gibsonii DSM 87221 (X76446)</otu>
+  <otu id="otu24">B. vedderi DSM 97687 (Z48306)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="793.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="238.0" y="996.0" otu="otu2"/>
+   <edge id="e.35" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

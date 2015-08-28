@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">MLA 49</otu>
+  <otu id="otu2"> Clone L50 (DQ235468)</otu>
+  <otu id="otu3"> Clone L22 mb661 (DQ235463)</otu>
+  <otu id="otu4"> pLWpmoA2 (DQ067086)</otu>
+  <otu id="otu5">Clone L53 mb661 (DQ235469)</otu>
+  <otu id="otu6" cmphy:genus="Methylobacter" cmphy:species="tundripaludum" cmphy:strain="SV96T" cmphy:id="AJ414658" editRecord="[]">Methylobacter tundripaludum SV96T (AJ414658)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Methylobacter sp. LW12 (AYO07285)</otu>
+  <otu id="otu9">Methylobacter sp. strain BB5.1 (AF016982)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Gradient" cmphy:species="clone" cmphy:strain="C1" cmphy:id="DQI19045" editRecord="[1__I]">Gradient clone C1 (DQ119045)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Methylosoma" cmphy:species="difficile" cmphy:strain="LC 27" cmphy:id="DQI19047" editRecord="[1__I]">Methylosoma difficile LC 27 (DQ119047)</otu>
+  <otu id="otu12">pLWpmoA11 (DQ067081)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Methylomicrobium" cmphy:species="buryatense" cmphy:strain="5BT" cmphy:id="AFB07139" editRecord="[3__B]">Methylomicrobium buryatense 5BT (AF307139)</otu>
+  <otu id="otu14">Methylomonas sp. strain LC 1 (DQ119046)</otu>
+  <otu id="otu15">Methylomonas sp. LW 15 (AF150795)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Methylocaldum" cmphy:species="gracile" cmphy:strain="VKM-14LT" cmphy:id="U89301" editRecord="[]">Methylocaldum gracile VKM-14LT (U89301)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="35.0" y="327.0"/>
+   <node id="NT1.6" label="NT1.6" x="76.0" y="58.0"/>
+   <node id="NT1.8" label="NT1.8" x="85.0" y="408.0"/>
+   <node id="NT1.19" label="NT1.19" x="176.0" y="16.0" otu="otu6"/>
+   <node id="NT1.23" label="NT1.23" x="261.0" y="69.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="265.0" y="313.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="336.0" y="395.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="1220.0" y="448.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="4.0" y="219.0" root="true"/>
+   <edge id="e.0" target="NT1.19" source="NT1.6"/>
+   <edge id="e.3" target="NT1.23" source="NT1.6"/>
+   <edge id="e.11" source="NT1.2" target="NT1.24"/>
+   <edge id="e.12" target="NT1.26" source="NT1.8"/>
+   <edge id="e.16" target="NT1.32" source="NT1.8"/>
+   <edge id="e.18" target="NT1.6" source="NT1.33"/>
+   <edge id="e.26" source="NT1.2" target="NT1.8"/>
+   <edge id="e.31" source="NT1.33" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

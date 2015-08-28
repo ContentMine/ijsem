@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Rhodocista pekingensis JCM 1 1669T (AF523824)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">Azospirillum Iipoferum DSM 1691T (M59061)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Strain 5416T-32T (DQ672568)</otu>
+  <otu id="otu6" cmphy:genus="Rhodocista" cmphy:species="centenaria" cmphy:strain="IAM 14193T" cmphy:id="D12701" editRecord="[]">Rhodocista centenaria IAM 14193T (D12701)</otu>
+  <otu id="otu7" cmphy:genus="Azospirillum" cmphy:species="brasilense" cmphy:strain="DSM 2298" cmphy:id="X79734" editRecord="[]">Azospirillum brasilense DSM 2298 (X79734)</otu>
+  <otu id="otu8">Rhodospirillum rubrum ATCC 11 170T (D30778)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Azospirillum" cmphy:species="doebereinerae" cmphy:strain="DSM 131317" cmphy:id="AJZ38567" editRecord="[2__Z]">Azospirillum doebereinerae DSM 131317 (AJ238567)</otu>
+  <otu id="otu10" cmphy:genus="Phaeospirillum" cmphy:species="fulvum" cmphy:strain="ATCC 15798T" cmphy:id="M59065" editRecord="[]">Phaeospirillum fulvum ATCC 15798T (M59065)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Azospirillum" cmphy:species="melinis" cmphy:strain="TMCY o552T" cmphy:id="DQO22958" editRecord="[0__O]">Azospirillum melinis TMCY o552T (DQ022958)</otu>
+  <otu id="otu13" cmphy:genus="Azospirillum" cmphy:species="halopraeferens" cmphy:strain="DSM 3675T" cmphy:id="Z29618" editRecord="[]">Azospirillum halopraeferens DSM 3675T (Z29618)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Stella" cmphy:species="vacuolata" cmphy:strain="DSM 5901T" cmphy:id="AJS35711" editRecord="[5__S]"> Stella vacuolata DSM 5901T (AJ535711)</otu>
+  <otu id="otu15" cmphy:genus="Rhodospira" cmphy:species="trueperi" cmphy:strain="ATCC 7O0224T" cmphy:id="AJO01276" editRecord="[]">Rhodospira trueperi ATCC 7O0224T (AJO01276)</otu>
+  <otu id="otu16" cmphy:genus="Azospirillum" cmphy:species="irakense" cmphy:strain="DSM 11586T" cmphy:id="Z29583" editRecord="[]">Azospirillum irakense DSM 11586T (Z29583)</otu>
+  <otu id="otu17">(Magnetospirillum magneticum7 AMB-1</otu>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:genus="Skermanella" cmphy:species="parooensis" cmphy:strain="DSM 9527T" cmphy:id="X90760" editRecord="[]">Skermanella parooensis DSM 9527T (X90760)</otu>
+  <otu id="otu20" cmphy:genus="Rhodothalassium" cmphy:species="salexigens" cmphy:strain="DSM 2132T" cmphy:id="M59070" editRecord="[]">Rhodothalassium salexigens DSM 2132T (M59070)</otu>
+  <otu id="otu21" cmphy:genus="Azospirillum" cmphy:species="amazonense" cmphy:strain="DSM 27877" cmphy:id="X79735" editRecord="[]">Azospirillum amazonense DSM 27877 (X79735)</otu>
+  <otu id="otu22" cmphy:edit="[0__O, O__0]" cmphy:genus="Roseospira" cmphy:species="mediosalina" cmphy:strain="BN 280T" cmphy:id="AJO00989" editRecord="[0__O, O__0]">Roseospira mediosalina BN 280T (AJ00O989)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="28.0" y="624.0"/>
+   <node id="NT1.3" x="125.0" y="532.0" label="77"/>
+   <node id="NT1.4" label="NT1.4" x="131.0" y="803.0"/>
+   <node id="NT1.5" x="190.0" y="428.0" label="88"/>
+   <node id="NT1.6" x="243.0" y="303.0" label="65"/>
+   <node id="NT1.7" label="NT1.7" x="275.0" y="392.0"/>
+   <node id="NT1.8" label="NT1.8" x="294.0" y="343.0"/>
+   <node id="NT1.10" x="405.0" y="213.0" label="99"/>
+   <node id="NT1.12" x="477.0" y="173.0" label="97"/>
+   <node id="NT1.13" x="528.0" y="135.0" label="95"/>
+   <node id="NT1.14" x="534.0" y="442.0" label="100"/>
+   <node id="NT1.26" label="NT1.26" x="658.0" y="493.0" otu="otu6"/>
+   <node id="NT1.27" label="NT1.27" x="663.0" y="211.0" otu="otu7"/>
+   <node id="NT1.29" label="NT1.29" x="665.0" y="171.0" otu="otu9"/>
+   <node id="NT1.30" label="NT1.30" x="674.0" y="654.0" otu="otu10"/>
+   <node id="NT1.32" label="NT1.32" x="686.0" y="90.0" otu="otu12"/>
+   <node id="NT1.33" label="NT1.33" x="691.0" y="251.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="699.0" y="532.0" otu="otu14"/>
+   <node id="NT1.35" label="NT1.35" x="700.0" y="814.0" otu="otu15"/>
+   <node id="NT1.36" label="NT1.36" x="723.0" y="412.0" otu="otu16"/>
+   <node id="NT1.39" label="NT1.39" x="753.0" y="332.0" otu="otu19"/>
+   <node id="NT1.40" label="NT1.40" x="771.0" y="693.0" otu="otu20"/>
+   <node id="NT1.41" label="NT1.41" x="927.0" y="372.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="927.0" y="774.0" otu="otu22"/>
+   <node id="NT1.43" label="NT1.43" x="1.0" y="713.0" root="true"/>
+   <edge id="e.2" target="NT1.32" source="NT1.13"/>
+   <edge id="e.4" source="NT1.13" target="NT1.29"/>
+   <edge id="e.7" target="NT1.26" source="NT1.14"/>
+   <edge id="e.8" source="NT1.14" target="NT1.36"/>
+   <edge id="e.10" target="NT1.34" source="NT1.5"/>
+   <edge id="e.11" target="NT1.30" source="NT1.3"/>
+   <edge id="e.14" target="NT1.40" source="NT1.1"/>
+   <edge id="e.19" source="NT1.12" target="NT1.13"/>
+   <edge id="e.20" source="NT1.10" target="NT1.12"/>
+   <edge id="e.21" source="NT1.6" target="NT1.10"/>
+   <edge id="e.22" source="NT1.5" target="NT1.6"/>
+   <edge id="e.23" source="NT1.6" target="NT1.7"/>
+   <edge id="e.24" source="NT1.7" target="NT1.14"/>
+   <edge id="e.25" source="NT1.7" target="NT1.8"/>
+   <edge id="e.26" source="NT1.3" target="NT1.5"/>
+   <edge id="e.29" source="NT1.1" target="NT1.3"/>
+   <edge id="e.34" source="NT1.43" target="NT1.1"/>
+   <edge id="e.35" source="NT1.43" target="NT1.4"/>
+   <edge id="e.36" target="NT1.35" source="NT1.4"/>
+   <edge id="e.37" source="NT1.4" target="NT1.42"/>
+   <edge id="e.38" source="NT1.10" target="NT1.33"/>
+   <edge id="e.39" source="NT1.8" target="NT1.41"/>
+   <edge id="e.40" source="NT1.12" target="NT1.27"/>
+   <edge id="e.41" target="NT1.39" source="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

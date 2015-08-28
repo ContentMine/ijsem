@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Aeromicrobium" cmphy:species="erythreum" cmphy:strain="NRRL B-3381T" cmphy:id="AFO05021" editRecord="[0__O]">Aeromicrobium erythreum NRRL B-3381T (AF005021)</otu>
+  <otu id="otu3" cmphy:genus="Kribbella" cmphy:species="flavida" cmphy:strain="KCTC 9580T" cmphy:id="AFO05017" editRecord="[]">Kribbella flavida KCTC 9580T (AFO05017)</otu>
+  <otu id="otu4" cmphy:genus="Friedmanniella" cmphy:species="antarctica" cmphy:strain="DSM 110537" cmphy:id="Z78206" editRecord="[]">Friedmanniella antarctica DSM 110537 (Z78206)</otu>
+  <otu id="otu5" cmphy:genus="Microlunatus" cmphy:species="phosphovoms" cmphy:strain="DSM 10555T" cmphy:id="Z78207" editRecord="[]">Microlunatus phosphovoms DSM 10555T (Z78207)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Propionicimonas" cmphy:species="paludicola" cmphy:strain="WdT" cmphy:id="ABO78858" editRecord="[0__O]">Propionicimonas paludicola WdT (AB078858)</otu>
+  <otu id="otu7" cmphy:edit="[O__0]" cmphy:genus="Nocardioides" cmphy:species="albus" cmphy:strain="KCTC 9186T" cmphy:id="AFO04988" editRecord="[O__0]">Nocardioides albus KCTC 9186T (AFOO4988)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Aestuariimicrobium" cmphy:species="kwangyangense" cmphy:strain="R27&quot;'" cmphy:id="DQB30982" editRecord="[8__B]">Aestuariimicrobium kwangyangense R27"' (DQ830982)</otu>
+  <otu id="otu9">Lureococcusjaponicus DSM 1O546T (Z78208)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Terrabacter" cmphy:species="tumescens" cmphy:strain="ATCC 6947T" cmphy:id="AFO05023" editRecord="[0__O]">Terrabacter tumescens ATCC 6947T (AF005023)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Brooklawnia" cmphy:species="cerclae" cmphy:strain="BL-34T" cmphy:id="DQI96625" editRecord="[1__I]">Brooklawnia cerclae BL-34T (DQ196625)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Propioniferax" cmphy:species="innocua" cmphy:strain="ATCC 49929T" cmphy:id="AFZ27165" editRecord="[2__Z]">Propioniferax innocua ATCC 49929T (AF227165)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Micropruina" cmphy:species="glycogenica" cmphy:strain="Lg2T" cmphy:id="ABO12607" editRecord="[0__O]">Micropruina glycogenica Lg2T (AB012607)</otu>
+  <otu id="otu14" cmphy:genus="Tessaracoccus" cmphy:species="bendigoensis" cmphy:strain="Ben 106T" cmphy:id="AFO38504" editRecord="[]">Tessaracoccus bendigoensis Ben 106T (AFO38504)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Actinopolymorpha" cmphy:species="singaporensis" cmphy:strain="JCM 10761T" cmphy:id="AFZ37815" editRecord="[2__Z]">Actinopolymorpha singaporensis JCM 10761T (AF237815)</otu>
+  <otu id="otu16" cmphy:edit="[O__0]" cmphy:genus="Propionimicrobium" cmphy:species="lymphophilum" cmphy:strain="DSM 49O3T" cmphy:id="AJO03056" editRecord="[O__0]">Propionimicrobium lymphophilum DSM 49O3T (AJOO3056)</otu>
+  <otu id="otu17">Propionibacterium freudenreichii DSM 20271 T (X53217)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="648.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="576.0"/>
+   <node id="NT1.3" label="NT1.3" x="50.0" y="303.0"/>
+   <node id="NT1.4" label="NT1.4" x="51.0" y="557.0"/>
+   <node id="NT1.5" label="NT1.5" x="122.0" y="500.0"/>
+   <node id="NT1.6" label="NT1.6" x="132.0" y="145.0"/>
+   <node id="NT1.8" label="NT1.8" x="138.0" y="348.0"/>
+   <node id="NT1.9" label="NT1.9" x="145.0" y="82.0"/>
+   <node id="NT1.11" label="NT1.11" x="195.0" y="32.0"/>
+   <node id="NT1.12" label="NT1.12" x="228.0" y="562.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="254.0" y="478.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="281.0" y="436.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="282.0" y="394.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="300.0" y="353.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="305.0" y="604.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="309.0" y="186.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="320.0" y="645.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="321.0" y="19.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="334.0" y="269.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="338.0" y="311.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="367.0" y="144.0" otu="otu14"/>
+   <node id="NT1.25" label="NT1.25" x="376.0" y="520.0" otu="otu15"/>
+   <node id="NT1.26" label="NT1.26" x="421.0" y="60.0" otu="otu16"/>
+   <edge id="e.0" source="NT1.11" target="NT1.21"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.8" target="NT1.23"/>
+   <edge id="e.4" source="NT1.4" target="NT1.17"/>
+   <edge id="e.5" source="NT1.2" target="NT1.20"/>
+   <edge id="e.6" source="NT1.9" target="NT1.11"/>
+   <edge id="e.8" source="NT1.6" target="NT1.9"/>
+   <edge id="e.9" source="NT1.3" target="NT1.6"/>
+   <edge id="e.11" source="NT1.3" target="NT1.8"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" source="NT1.4" target="NT1.5"/>
+   <edge id="e.15" source="NT1.3" target="NT1.22"/>
+   <edge id="e.16" source="NT1.8" target="NT1.14"/>
+   <edge id="e.17" source="NT1.4" target="NT1.12"/>
+   <edge id="e.18" source="NT1.5" target="NT1.13"/>
+   <edge id="e.20" source="NT1.8" target="NT1.15"/>
+   <edge id="e.21" target="NT1.18" source="NT1.6"/>
+   <edge id="e.22" source="NT1.5" target="NT1.25"/>
+   <edge id="e.23" source="NT1.8" target="NT1.16"/>
+   <edge id="e.24" source="NT1.11" target="NT1.26"/>
+   <edge id="e.25" target="NT1.24" source="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Mesorhizobium" cmphy:species="ciceri" cmphy:strain="UPM-Ca7T" cmphy:id="DQ407295" editRecord="[]"> Mesorhizobium ciceri UPM-Ca7T (DQ407295)</otu>
+  <otu id="otu2" cmphy:genus="Azospirillum" cmphy:species="lipoferum" cmphy:strain="sp. 59bT" cmphy:id="DQ787334" editRecord="[]">Azospirillum lipoferum sp. 59bT (DQ787334)</otu>
+  <otu id="otu3" cmphy:genus="Azospirillum" cmphy:species="brasilense" cmphy:strain="sp. 7T" cmphy:id="S15747" editRecord="[]"> Azospirillum brasilense sp. 7T (S15747)</otu>
+  <otu id="otu4" cmphy:genus="Herbaspirillum" cmphy:species="seropedicae" cmphy:strain="Z877" cmphy:id="U97121" editRecord="[]">Herbaspirillum seropedicae Z877 (U97121)</otu>
+  <otu id="otu5">'BurkhoIderia brasilensisi M130 (AAM22271)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Klebsiella" cmphy:species="pneumoniae" cmphy:strain="342" cmphy:id="AAO85881" editRecord="[]">Klebsiella pneumoniae 342 (AAO85881)</otu>
+  <otu id="otu8">Strain JH95 (DQ364792 )</otu>
+  <otu id="otu9"> Strain JT34 (DQ364791)</otu>
+  <otu id="otu10" cmphy:genus="Methylobacter" cmphy:species="vinelandif" cmphy:strain="INMI 87" cmphy:id="AAO49405" editRecord="[]">Methylobacter vinelandif INMI 87 (AAO49405)</otu>
+  <otu id="otu11"> Strain JH31 (DQ364789)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Strain JH8 (DQ364790)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="polymyxa" cmphy:strain="ATCC 842T" cmphy:id="AJZ23997" editRecord="[2__Z]">Paenibacillus polymyxa ATCC 842T (AJ223997)</otu>
+  <otu id="otu16" cmphy:edit="[8__B]" cmphy:genus="Paenibacillus" cmphy:species="wynnii" cmphy:strain="LMG 22'l76T" cmphy:id="AJB67247" editRecord="[8__B]">Paenibacillus wynnii LMG 22'l76T (AJ867247)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="macerans" cmphy:strain="ATCC 82447" cmphy:id="AJZ23993" editRecord="[2__Z]">Paenibacillus macerans ATCC 82447 (AJ223993)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="graminis" cmphy:strain="RSA19T" cmphy:id="AJZ23994" editRecord="[2__Z]">Paenibacillus graminis RSA19T (AJ223994)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="84.0" y="510.0"/>
+   <node id="NT1.2" label="NT1.2" x="85.0" y="735.0" otu="otu1"/>
+   <node id="NT1.3" x="107.0" y="634.0" label="97"/>
+   <node id="NT1.5" label="NT1.5" x="161.0" y="674.0"/>
+   <node id="NT1.6" label="NT1.6" x="162.0" y="696.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="176.0" y="382.0"/>
+   <node id="NT1.8" label="NT1.8" x="185.0" y="656.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="247.0" y="616.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="284.0" y="485.0"/>
+   <node id="NT1.12" label="NT1.12" x="329.0" y="276.0"/>
+   <node id="NT1.17" label="NT1.17" x="454.0" y="536.0" otu="otu7"/>
+   <node id="NT1.24" label="NT1.24" x="479.0" y="457.0" otu="otu10"/>
+   <node id="NT1.29" label="NT1.29" x="537.0" y="257.0" otu="otu15"/>
+   <node id="NT1.30" x="545.0" y="366.0" label="65"/>
+   <node id="NT1.31" label="NT1.31" x="570.0" y="395.0"/>
+   <node id="NT1.32" label="NT1.32" x="631.0" y="337.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="698.0" y="417.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="706.0" y="377.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="3.0" y="622.0" root="true"/>
+   <edge id="e.5" target="NT1.29" source="NT1.12"/>
+   <edge id="e.7" source="NT1.30" target="NT1.32"/>
+   <edge id="e.8" source="NT1.31" target="NT1.33"/>
+   <edge id="e.9" source="NT1.31" target="NT1.34"/>
+   <edge id="e.11" target="NT1.17" source="NT1.11"/>
+   <edge id="e.12" source="NT1.11" target="NT1.24"/>
+   <edge id="e.13" source="NT1.5" target="NT1.6"/>
+   <edge id="e.14" source="NT1.5" target="NT1.8"/>
+   <edge id="e.15" target="NT1.9" source="NT1.3"/>
+   <edge id="e.22" source="NT1.7" target="NT1.12"/>
+   <edge id="e.24" target="NT1.30" source="NT1.12"/>
+   <edge id="e.25" source="NT1.1" target="NT1.7"/>
+   <edge id="e.26" source="NT1.7" target="NT1.11"/>
+   <edge id="e.27" source="NT1.30" target="NT1.31"/>
+   <edge id="e.29" source="NT1.1" target="NT1.3"/>
+   <edge id="e.30" source="NT1.3" target="NT1.5"/>
+   <edge id="e.32" source="NT1.35" target="NT1.2"/>
+   <edge id="e.33" source="NT1.35" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

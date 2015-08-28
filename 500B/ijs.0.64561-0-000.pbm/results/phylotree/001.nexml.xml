@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Bactemides" cmphy:species="caccae" cmphy:strain="ATCC 431857" cmphy:id="X83951" editRecord="[]">Bactemides caccae ATCC 431857 (X83951)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Pedobacter ginsengisoli Gsoil 1047 (A82-15371)</otu>
+  <otu id="otu6" cmphy:genus="Pedobacter" cmphy:species="africanus" cmphy:strain="DSM 121267" cmphy:id="AJ438171" editRecord="[]">Pedobacter africanus DSM 121267 (AJ438171)</otu>
+  <otu id="otu7">Flexibacter wnadensis (F0 151307 (AB078046)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Pedobacter" cmphy:species="panacirerrae" cmphy:strain="Gsoil 0427" cmphy:id="ABZ45368" editRecord="[2__Z]">Pedobacter panacirerrae Gsoil 0427 (AB245368)</otu>
+  <otu id="otu9" cmphy:genus="Pedobacter" cmphy:species="czeni" cmphy:strain="LMG 228627" cmphy:id="AJ786798" editRecord="[]">Pedobacter czeni LMG 228627 (AJ786798)</otu>
+  <otu id="otu10">Pedobacter heparinus DSM 23667(AJ438172)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Pedobacter" cmphy:species="aquatilis" cmphy:strain="AR107" cmphy:id="AMI14396" editRecord="[1__I]">Pedobacter aquatilis AR107 (AM114396)</otu>
+  <otu id="otu12">'Candidarus comitans' (X91814)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="283.0" y="1117.0" otu="otu1"/>
+   <node id="NT1.2" label="NT1.2" x="284.0" y="829.0"/>
+   <node id="NT1.3" label="NT1.3" x="339.0" y="573.0"/>
+   <node id="NT1.4" label="NT1.4" x="340.0" y="635.0" otu="otu2"/>
+   <node id="NT1.5" label="NT1.5" x="363.0" y="473.0"/>
+   <node id="NT1.6" x="414.0" y="388.0" label="100"/>
+   <node id="NT1.7" label="NT1.7" x="415.0" y="415.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="436.0" y="339.0"/>
+   <node id="NT1.9" label="NT1.9" x="452.0" y="251.0"/>
+   <node id="NT1.10" label="NT1.10" x="453.0" y="271.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="457.0" y="195.0"/>
+   <node id="NT1.12" label="NT1.12" x="477.0" y="163.0"/>
+   <node id="NT1.13" x="482.0" y="123.0" label="54"/>
+   <node id="NT1.14" x="488.0" y="109.0" label="54"/>
+   <node id="NT1.15" label="NT1.15" x="497.0" y="223.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="498.0" y="158.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="499.0" y="1084.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="514.0" y="92.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="516.0" y="190.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="526.0" y="125.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="539.0" y="389.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="568.0" y="556.0" otu="otu12"/>
+   <edge source="NT1.20" target="NT1.14" id="e.0"/>
+   <edge source="NT1.19" target="NT1.12" id="e.1"/>
+   <edge source="NT1.15" target="NT1.11" id="e.2"/>
+   <edge source="NT1.10" target="NT1.9" id="e.3"/>
+   <edge source="NT1.7" target="NT1.6" id="e.4"/>
+   <edge source="NT1.4" target="NT1.3" id="e.5"/>
+   <edge source="NT1.17" target="NT1.2" id="e.6"/>
+   <edge source="NT1.14" target="NT1.13" id="e.7"/>
+   <edge source="NT1.13" target="NT1.12" id="e.8"/>
+   <edge source="NT1.13" target="NT1.16" id="e.9"/>
+   <edge source="NT1.12" target="NT1.11" id="e.10"/>
+   <edge source="NT1.11" target="NT1.9" id="e.11"/>
+   <edge source="NT1.9" target="NT1.8" id="e.12"/>
+   <edge source="NT1.6" target="NT1.5" id="e.13"/>
+   <edge source="NT1.5" target="NT1.3" id="e.14"/>
+   <edge source="NT1.3" target="NT1.2" id="e.15"/>
+   <edge source="NT1.1" target="NT1.2" id="e.16"/>
+   <edge source="NT1.8" target="NT1.6" id="e.17"/>
+   <edge source="NT1.22" target="NT1.5" id="e.18"/>
+   <edge source="NT1.21" target="NT1.8" id="e.19"/>
+   <edge source="NT1.18" target="NT1.14" id="e.20"/>
+  </tree>
+ </trees>
+</nexml>

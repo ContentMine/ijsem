@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"> N. beijingensis AS 4.1521T (AF154129)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Rhodococcus" cmphy:species="erythropolis" cmphy:strain="ATCC 4277T" cmphy:id="X81929" editRecord="[]">Rhodococcus erythropolis ATCC 4277T (X81929)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">N. higoensis IFM 10O84T (AB108778)</otu>
+  <otu id="otu8">N. puris IMMIB R-145T (AJ508748)</otu>
+  <otu id="otu9">N. pneumoniae IFM 0784T (AB108780)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.14" label="NT1.14" x="205.0" y="544.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="5.0" y="400.0" root="true"/>
+   <edge id="e.16" source="NT1.21" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

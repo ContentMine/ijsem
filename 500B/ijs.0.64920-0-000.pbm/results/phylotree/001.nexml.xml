@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Psychroserpens" cmphy:species="burtonensis" cmphy:strain="ACAM 1887" cmphy:id="U62913" editRecord="[]">Psychroserpens burtonensis ACAM 1887 (U62913)</otu>
+  <otu id="otu2" cmphy:genus="Polaribacter" cmphy:species="irgensii" cmphy:strain="23-P7" cmphy:id="M61002" editRecord="[]">Polaribacter irgensii 23-P7 (M61002)</otu>
+  <otu id="otu3" cmphy:genus="Polaribacter" cmphy:species="glomeratus" cmphy:strain="ATCC 438447" cmphy:id="M58775" editRecord="[]"> Polaribacter glomeratus ATCC 438447 (M58775)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Tenacibaculum" cmphy:species="aestuarii" cmphy:strain="SMK-47" cmphy:id="DQB14760" editRecord="[3__B]"> Tenacibaculum aestuarii SMK-47 (DQ314760)</otu>
+  <otu id="otu5"> Polaribacter franzmannii 3017 (U 14586)</otu>
+  <otu id="otu6" cmphy:genus="Tenacibaculum" cmphy:species="marilimum" cmphy:strain="IFO 159467" cmphy:id="ABO78057" editRecord="[]">Tenacibaculum marilimum IFO 159467 (ABO78057)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Tenacibaculum" cmphy:species="lutimaris" cmphy:strain="TF-267" cmphy:id="AY661691" editRecord="[]"> Tenacibaculum lutimaris TF-267 (AY661691)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Cellulophaga Iytica ATCC 231787 (M62796)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Tenacibaculum" cmphy:species="skagerrakense" cmphy:strain="D307" cmphy:id="AF469612" editRecord="[]"> Tenacibaculum skagerrakense D307 (AF469612)</otu>
+  <otu id="otu14" cmphy:genus="Tenacibaculum" cmphy:species="litoreum" cmphy:strain="CL-TF137" cmphy:id="AY962294" editRecord="[]"> Tenacibaculum litoreum CL-TF137 (AY962294)</otu>
+  <otu id="otu15" cmphy:genus="Flavobactenum" cmphy:species="aquatile" cmphy:strain="ATCC 119477" cmphy:id="M62797" editRecord="[]">Flavobactenum aquatile ATCC 119477 (M62797)</otu>
+  <otu id="otu16">Tenacibaculum Iitopenaei B-I7 (DQ822561)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Tenacibaculum" cmphy:species="amylolyticum" cmphy:strain="MBIC43557" cmphy:id="ABO32505" editRecord="[0__O]">Tenacibaculum amylolyticum MBIC43557 (AB032505)</otu>
+  <otu id="otu18" cmphy:genus="Gelidibacter" cmphy:species="algens" cmphy:strain="ACAM 5367" cmphy:id="U62914" editRecord="[]">Gelidibacter algens ACAM 5367 (U62914)</otu>
+  <otu id="otu19" cmphy:genus="Coenonia" cmphy:species="anatina" cmphy:strain="LMG 143827" cmphy:id="Y17612" editRecord="[]">Coenonia anatina LMG 143827 (Y17612)</otu>
+  <otu id="otu20" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="ATCC 334067" cmphy:id="M58768" editRecord="[]">Cytophaga hutchinsonii ATCC 334067 (M58768)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="256.0" y="599.0"/>
+   <node id="NT1.2" x="296.0" y="754.0" label="57"/>
+   <node id="NT1.4" label="NT1.4" x="317.0" y="677.0"/>
+   <node id="NT1.5" label="NT1.5" x="352.0" y="644.0"/>
+   <node id="NT1.6" x="358.0" y="443.0" label="100"/>
+   <node id="NT1.7" x="408.0" y="346.0" label="96"/>
+   <node id="NT1.9" x="468.0" y="540.0" label="100"/>
+   <node id="NT1.12" x="507.0" y="123.0" label="86"/>
+   <node id="NT1.13" label="NT1.13" x="519.0" y="37.0"/>
+   <node id="NT1.16" label="NT1.16" x="526.0" y="123.0"/>
+   <node id="NT1.17" label="NT1.17" x="533.0" y="665.0" otu="otu1"/>
+   <node id="NT1.18" label="NT1.18" x="536.0" y="579.0" otu="otu2"/>
+   <node id="NT1.19" label="NT1.19" x="537.0" y="492.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="548.0" y="15.0" otu="otu4"/>
+   <node id="NT1.22" label="NT1.22" x="552.0" y="405.0" otu="otu6"/>
+   <node id="NT1.24" label="NT1.24" x="565.0" y="58.0" otu="otu8"/>
+   <node id="NT1.30" label="NT1.30" x="577.0" y="145.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="583.0" y="188.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="583.0" y="796.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="605.0" y="101.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="615.0" y="622.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="675.0" y="709.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="675.0" y="839.0" otu="otu20"/>
+   <node id="NT1.38" label="NT1.38" x="5.0" y="719.0" root="true"/>
+   <edge id="e.0" source="NT1.13" target="NT1.20"/>
+   <edge id="e.1" source="NT1.13" target="NT1.24"/>
+   <edge id="e.2" source="NT1.16" target="NT1.30"/>
+   <edge id="e.3" source="NT1.16" target="NT1.34"/>
+   <edge id="e.5" target="NT1.31" source="NT1.12"/>
+   <edge id="e.8" source="NT1.9" target="NT1.18"/>
+   <edge id="e.10" target="NT1.19" source="NT1.9"/>
+   <edge id="e.12" source="NT1.2" target="NT1.32"/>
+   <edge id="e.14" source="NT1.5" target="NT1.17"/>
+   <edge id="e.15" source="NT1.5" target="NT1.35"/>
+   <edge id="e.16" source="NT1.4" target="NT1.36"/>
+   <edge id="e.17" source="NT1.12" target="NT1.13"/>
+   <edge id="e.18" source="NT1.12" target="NT1.16"/>
+   <edge id="e.19" target="NT1.12" source="NT1.7"/>
+   <edge id="e.25" source="NT1.6" target="NT1.7"/>
+   <edge id="e.26" source="NT1.1" target="NT1.6"/>
+   <edge id="e.27" source="NT1.6" target="NT1.9"/>
+   <edge id="e.29" source="NT1.1" target="NT1.2"/>
+   <edge id="e.32" target="NT1.4" source="NT1.2"/>
+   <edge id="e.33" source="NT1.4" target="NT1.5"/>
+   <edge id="e.34" source="NT1.38" target="NT1.37"/>
+   <edge id="e.35" source="NT1.38" target="NT1.1"/>
+   <edge id="e.36" source="NT1.7" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

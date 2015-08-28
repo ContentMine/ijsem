@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I, 3__B]" cmphy:genus="Caulobacter" cmphy:species="segnis" cmphy:strain="ATCC 21756T" cmphy:id="IB13947" editRecord="[1__I, 3__B]">Caulobacter segnis ATCC 21756T (1313947)</otu>
+  <otu id="otu3">Brevundimonas intermedia ATCC</otu>
+  <otu id="otu4">Caulobacterfuszformis ATCC</otu>
+  <otu id="otu5" cmphy:genus="Phenylobacterium" cmphy:species="immobile" cmphy:strain="ET" cmphy:id="Y18216" editRecord="[]">Phenylobacterium immobile ET (Y18216)</otu>
+  <otu id="otu6">Caulobacter vibrioides CBSIT (AJ 00995 7)</otu>
+  <otu id="otu7">Caulobacter henricii ATCC</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="vesicularis" cmphy:strain="LMG 2350T" cmphy:id="AJZ27780" editRecord="[2__Z]">Brevundimonas vesicularis LMG 2350T (AJ227780)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="auramiaca" cmphy:strain="DSM 4731T" cmphy:id="AJZ27787" editRecord="[2__Z]">Brevundimonas auramiaca DSM 4731T (AJ227787)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Brevundimonas" cmphy:species="nasdae" cmphy:strain="W1-ZBT" cmphy:id="ABO71954" editRecord="[0__O]">Brevundimonas nasdae W1-ZBT (AB071954)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="diminuta" cmphy:strain="LMG 2089T" cmphy:id="AJZ27778" editRecord="[2__Z]">Brevundimonas diminuta LMG 2089T (AJ227778)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="mediterranea" cmphy:strain="V4.BO.10T" cmphy:id="AJZ27801" editRecord="[2__Z]">Brevundimonas mediterranea V4.BO.10T (AJ227801)</otu>
+  <otu id="otu13" cmphy:genus="Brevundimonas" cmphy:species="kwcmgchunensis" cmphy:strain="KSL-102T" cmphy:id="AY971368" editRecord="[]">Brevundimonas kwcmgchunensis KSL-102T (AY971368)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="alba" cmphy:strain="CB88T" cmphy:id="AJZ27785" editRecord="[2__Z]">Brevundimonas alba CB88T (AJ227785)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="diminuta" cmphy:strain="LMG 2089T" cmphy:id="AJZ27778" editRecord="[2__Z]">Brevundimonas diminuta LMG 2089T (AJ227778)</otu>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Brevundimonas" cmphy:species="terrae" cmphy:strain="KSL-145T" cmphy:id="DQB35215" editRecord="[3__B]">Brevundimonas terrae KSL-145T (DQ335215)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Asticcacaulis" cmphy:species="excentricus" cmphy:strain="DSM 4724T" cmphy:id="AJZ47194" editRecord="[2__Z]">Asticcacaulis excentricus DSM 4724T (AJ247194)</otu>
+  <otu id="otu18">Strain EMB102T (DQ372984)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="bacteroides" cmphy:strain="CB7T" cmphy:id="AJZ27782" editRecord="[2__Z]">Brevundimonas bacteroides CB7T (AJ227782)</otu>
+  <otu id="otu20" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="subvibrioides" cmphy:strain="CB81T" cmphy:id="AJZ27784" editRecord="[2__Z]">Brevundimonas subvibrioides CB81T (AJ227784)</otu>
+  <otu id="otu21">Maricaulis maris ATCC</otu>
+  <otu id="otu22">Brevzmdimonas variabilis ATCC</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="58.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="112.0" y="373.0"/>
+   <node id="NT1.4" label="NT1.4" x="231.0" y="502.0"/>
+   <node id="NT1.5" x="257.0" y="1131.0" label="75"/>
+   <node id="NT1.8" label="NT1.8" x="352.0" y="944.0"/>
+   <node id="NT1.9" label="NT1.9" x="390.0" y="748.0"/>
+   <node id="NT1.12" label="NT1.12" x="412.0" y="701.0"/>
+   <node id="NT1.13" label="NT1.13" x="423.0" y="322.0"/>
+   <node id="NT1.14" x="431.0" y="1136.0" label="100"/>
+   <node id="NT1.15" label="NT1.15" x="434.0" y="1487.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="437.0" y="364.0"/>
+   <node id="NT1.19" label="NT1.19" x="446.0" y="769.0"/>
+   <node id="NT1.21" label="NT1.21" x="450.0" y="92.0" otu="otu5"/>
+   <node id="NT1.24" label="NT1.24" x="455.0" y="559.0" otu="otu8"/>
+   <node id="NT1.25" x="455.0" y="518.0" label="93"/>
+   <node id="NT1.26" label="NT1.26" x="457.0" y="248.0" otu="otu9"/>
+   <node id="NT1.27" label="NT1.27" x="457.0" y="479.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="465.0" y="1178.0" otu="otu11"/>
+   <node id="NT1.29" x="466.0" y="1176.0" label="100"/>
+   <node id="NT1.30" label="NT1.30" x="478.0" y="326.0" otu="otu12"/>
+   <node id="NT1.32" label="NT1.32" x="497.0" y="944.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="500.0" y="712.0" otu="otu14"/>
+   <node id="NT1.34" label="NT1.34" x="506.0" y="1176.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="526.0" y="1099.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="542.0" y="170.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="547.0" y="634.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="555.0" y="867.0" otu="otu20"/>
+   <edge id="e.1" source="NT1.3" target="NT1.21"/>
+   <edge id="e.2" source="NT1.4" target="NT1.36"/>
+   <edge id="e.5" source="NT1.29" target="NT1.28"/>
+   <edge id="e.6" source="NT1.29" target="NT1.34"/>
+   <edge id="e.7" source="NT1.14" target="NT1.35"/>
+   <edge id="e.8" source="NT1.19" target="NT1.33"/>
+   <edge id="e.9" target="NT1.39" source="NT1.19"/>
+   <edge id="e.11" target="NT1.32" source="NT1.9"/>
+   <edge id="e.13" source="NT1.13" target="NT1.26"/>
+   <edge id="e.14" source="NT1.16" target="NT1.30"/>
+   <edge id="e.15" source="NT1.25" target="NT1.27"/>
+   <edge id="e.16" source="NT1.25" target="NT1.24"/>
+   <edge id="e.17" target="NT1.3" source="NT1.1"/>
+   <edge id="e.18" source="NT1.3" target="NT1.4"/>
+   <edge id="e.19" source="NT1.4" target="NT1.5"/>
+   <edge id="e.20" source="NT1.5" target="NT1.8"/>
+   <edge id="e.23" source="NT1.8" target="NT1.14"/>
+   <edge id="e.24" source="NT1.8" target="NT1.9"/>
+   <edge id="e.26" source="NT1.14" target="NT1.29"/>
+   <edge id="e.28" source="NT1.9" target="NT1.12"/>
+   <edge id="e.29" source="NT1.12" target="NT1.13"/>
+   <edge id="e.30" source="NT1.12" target="NT1.19"/>
+   <edge id="e.32" source="NT1.13" target="NT1.16"/>
+   <edge id="e.34" target="NT1.25" source="NT1.16"/>
+   <edge id="e.36" source="NT1.12" target="NT1.38"/>
+   <edge id="e.37" target="NT1.15" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

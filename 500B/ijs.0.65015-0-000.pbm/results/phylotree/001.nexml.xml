@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Nocardioides furvisabuli SBS-26T (DQ411 542)</otu>
+  <otu id="otu3" cmphy:genus="Nocardioides" cmphy:species="ganghwensis" cmphy:strain="JC2055T" cmphy:id="AY423718" editRecord="[]"> Nocardioides ganghwensis JC2055T (AY423718)</otu>
+  <otu id="otu4" cmphy:genus="Nocardioides" cmphy:species="oleivorans" cmphy:strain="DSM 16090T" cmphy:id="AJ698724" editRecord="[]">Nocardioides oleivorans DSM 16090T (AJ698724)</otu>
+  <otu id="otu5">HFW-21T (AM295258)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Nocardioides" cmphy:species="plantarum" cmphy:strain="NCIMB 12834T" cmphy:id="AFO05008" editRecord="[0__O]">Nocardioides plantarum NCIMB 12834T (AF005008)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="91.0" y="349.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="134.0" y="350.0"/>
+   <node id="NT1.5" label="NT1.5" x="397.0" y="86.0"/>
+   <node id="NT1.7" label="NT1.7" x="452.0" y="106.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="495.0" y="24.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="523.0" y="446.0" otu="otu6"/>
+   <edge id="e.0" source="NT1.5" target="NT1.8"/>
+   <edge id="e.1" source="NT1.5" target="NT1.7"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.2" target="NT1.10"/>
+   <edge id="e.4" target="NT1.5" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Rose-omonas aquatica TR537 (AM231587)</otu>
+  <otu id="otu2" cmphy:genus="Paracraurococcus" cmphy:species="ruber" cmphy:strain="NS897" cmphy:id="D85827" editRecord="[]">Paracraurococcus ruber NS897 (D85827)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Muricoccus" cmphy:species="roseus" cmphy:strain="173l967" cmphy:id="AJ488505" editRecord="[]">Muricoccus roseus 173l967 (AJ488505)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Roseomonas" cmphy:species="mucosa" cmphy:strain="ATCC BAA-6927" cmphy:id="AFS38712" editRecord="[5__S]">Roseomonas mucosa ATCC BAA-6927 (AF538712)</otu>
+  <otu id="otu6" cmphy:genus="Gluconobacter" cmphy:species="oxydans" cmphy:strain="DSM 35037" cmphy:id="X73820" editRecord="[]">Gluconobacter oxydans DSM 35037 (X73820)</otu>
+  <otu id="otu7">Roseomonas genomospecies 5 ATCC 49960 (AY150049)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">Roseomonas genomospecies 4 ATCC 49959 (AY150048)</otu>
+  <otu id="otu11">Roseomonas gilardii subsp. gilardii ATCC 499567 (AY150045)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Acetobacter" cmphy:species="lovaniensis" cmphy:strain="IFO 137537" cmphy:id="ABO32351" editRecord="[0__O]">Acetobacter lovaniensis IFO 137537 (AB032351)</otu>
+  <otu id="otu13">Teichococcus Iudipueritiae 1704967 (AJ488504)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Roseomonas" cmphy:species="cenxicalis" cmphy:strain="ATCC 499577" cmphy:id="AYI50047" editRecord="[1__I]">Roseomonas cenxicalis ATCC 499577 (AY150047)</otu>
+  <otu id="otu15" cmphy:genus="Roseococcus" cmphy:species="thiosulfatophilus" cmphy:strain="RB37" cmphy:id="X72908" editRecord="[]">Roseococcus thiosulfatophilus RB37 (X72908)</otu>
+  <otu id="otu16" cmphy:genus="Roseomonas" cmphy:species="lacus" cmphy:strain="TH4G337" cmphy:id="AJ786000" editRecord="[]">Roseomonas lacus TH4G337 (AJ786000)</otu>
+  <otu id="otu17" cmphy:edit="[3__B]" cmphy:genus="Roseomonas" cmphy:species="terrae" cmphy:strain="DS-487" cmphy:id="EFB63116" editRecord="[3__B]">Roseomonas terrae DS-487 (EF363116)</otu>
+  <otu id="otu18" cmphy:genus="Methylobacterium" cmphy:species="organophilum" cmphy:strain="JCM 28337" cmphy:id="D32226" editRecord="[]">Methylobacterium organophilum JCM 28337 (D32226)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="17.0" y="407.0"/>
+   <node id="NT1.2" x="95.0" y="340.0" label="100"/>
+   <node id="NT1.3" x="112.0" y="279.0" label="562"/>
+   <node id="NT1.4" label="NT1.4" x="136.0" y="72.0"/>
+   <node id="NT1.5" label="NT1.5" x="136.0" y="301.0"/>
+   <node id="NT1.6" label="NT1.6" x="146.0" y="473.0"/>
+   <node id="NT1.8" label="NT1.8" x="185.0" y="154.0"/>
+   <node id="NT1.14" label="NT1.14" x="220.0" y="362.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="225.0" y="329.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="228.0" y="298.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="230.0" y="458.0" otu="otu6"/>
+   <node id="NT1.25" label="NT1.25" x="243.0" y="522.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="255.0" y="73.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="261.0" y="394.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="278.0" y="169.0" otu="otu16"/>
+   <node id="NT1.30" label="NT1.30" x="288.0" y="137.0" otu="otu17"/>
+   <node id="NT1.31" label="NT1.31" x="398.0" y="554.0" otu="otu18"/>
+   <node id="NT1.32" label="NT1.32" x="2.0" y="418.0" root="true"/>
+   <edge id="e.2" target="NT1.27" source="NT1.4"/>
+   <edge id="e.4" source="NT1.8" target="NT1.29"/>
+   <edge id="e.5" source="NT1.8" target="NT1.30"/>
+   <edge id="e.6" source="NT1.5" target="NT1.16"/>
+   <edge id="e.7" target="NT1.17" source="NT1.5"/>
+   <edge id="e.10" source="NT1.3" target="NT1.14"/>
+   <edge id="e.12" target="NT1.18" source="NT1.6"/>
+   <edge id="e.16" source="NT1.4" target="NT1.8"/>
+   <edge id="e.17" source="NT1.3" target="NT1.4"/>
+   <edge id="e.18" source="NT1.3" target="NT1.5"/>
+   <edge id="e.19" source="NT1.2" target="NT1.3"/>
+   <edge id="e.21" source="NT1.1" target="NT1.2"/>
+   <edge id="e.23" source="NT1.1" target="NT1.6"/>
+   <edge id="e.26" source="NT1.32" target="NT1.1"/>
+   <edge id="e.27" source="NT1.32" target="NT1.31"/>
+   <edge id="e.28" source="NT1.2" target="NT1.28"/>
+   <edge id="e.29" target="NT1.25" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

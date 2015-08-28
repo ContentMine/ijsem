@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Actinosynnema" cmphy:species="mirum" cmphy:strain="DSM 438277" cmphy:id="X84447" editRecord="[]">Actinosynnema mirum DSM 438277 (X84447)</otu>
+  <otu id="otu2">Strain Z67 (AY114175)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Saccharothrix" cmphy:species="longispora" cmphy:strain="NRRL B-161167" cmphy:id="AFI14809" editRecord="[1__I]">Saccharothrix longispora NRRL B-161167 (AF114809)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Saccharothrix" cmphy:species="australiensis" cmphy:strain="NRRL 112397" cmphy:id="AFI14803" editRecord="[1__I]">Saccharothrix australiensis NRRL 112397 (AF114803)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[O__0]" cmphy:genus="Lentzea" cmphy:species="albida" cmphy:strain="NRRL B-240737" cmphy:id="ABO06176" editRecord="[O__0]">Lentzea albida NRRL B-240737 (ABOO6176)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Saccharothrix" cmphy:species="algeriensis" cmphy:strain="NRRL B-241377" cmphy:id="AYO54972" editRecord="[]">Saccharothrix algeriensis NRRL B-241377 (AYO54972)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Saccharothrix" cmphy:species="coeruleofusca" cmphy:strain="NRRL B-161157" cmphy:id="AFI14805" editRecord="[1__I]">Saccharothrix coeruleofusca NRRL B-161157 (AF114805)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Saccharothrix" cmphy:species="tangerinus" cmphy:strain="JCM 103027" cmphy:id="ABO20031" editRecord="[0__O]">Saccharothrix tangerinus JCM 103027 (AB020031)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Saccharothrix" cmphy:species="syringae" cmphy:strain="NRRL B-164687" cmphy:id="AFI14812" editRecord="[1__I]">Saccharothrix syringae NRRL B-164687 (AF114812)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Saccharothrix" cmphy:species="texasensis" cmphy:strain="NRRL B-161347" cmphy:id="AFI14814" editRecord="[1__I]">Saccharothrix texasensis NRRL B-161347 (AF114814)</otu>
+  <otu id="otu19" cmphy:edit="[1__I]" cmphy:genus="Actinokineospora" cmphy:species="riparia" cmphy:strain="NRRL B-164327" cmphy:id="AFI14802" editRecord="[1__I]">Actinokineospora riparia NRRL B-164327 (AF114802)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25" cmphy:edit="[1__I]" cmphy:genus="Lenlzea" cmphy:species="californiensis" cmphy:strain="NRRL B-161377" cmphy:id="AFI74435" editRecord="[1__I]">Lenlzea californiensis NRRL B-161377 (AF174435)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27" cmphy:edit="[1__I]" cmphy:genus="Crossiella" cmphy:species="cryophila" cmphy:strain="NRRL B-162387" cmphy:id="AFI14806" editRecord="[1__I]">Crossiella cryophila NRRL B-162387 (AF114806)</otu>
+  <otu id="otu28"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="77.0" y="1026.0" label="yr"/>
+   <node id="NT1.2" label="NT1.2" x="77.0" y="1503.0"/>
+   <node id="NT1.3" label="NT1.3" x="111.0" y="720.0"/>
+   <node id="NT1.4" x="149.0" y="892.0" label="537"/>
+   <node id="NT1.5" label="NT1.5" x="154.0" y="546.0"/>
+   <node id="NT1.11" label="NT1.11" x="249.0" y="1034.0"/>
+   <node id="NT1.13" x="267.0" y="1135.0" label="f"/>
+   <node id="NT1.16" label="NT1.16" x="287.0" y="1199.0"/>
+   <node id="NT1.18" x="298.0" y="294.0" label="557"/>
+   <node id="NT1.19" label="NT1.19" x="313.0" y="693.0" otu="otu1"/>
+   <node id="NT1.21" label="NT1.21" x="323.0" y="1069.0"/>
+   <node id="NT1.22" label="NT1.22" x="324.0" y="752.0" otu="otu3"/>
+   <node id="NT1.25" label="NT1.25" x="345.0" y="1272.0" otu="otu4"/>
+   <node id="NT1.29" label="NT1.29" x="402.0" y="346.0" otu="otu6"/>
+   <node id="NT1.31" label="NT1.31" x="415.0" y="1157.0" otu="otu8"/>
+   <node id="NT1.33" label="NT1.33" x="420.0" y="1040.0" otu="otu10"/>
+   <node id="NT1.34" label="NT1.34" x="420.0" y="1330.0" otu="otu11"/>
+   <node id="NT1.36" label="NT1.36" x="421.0" y="1099.0" otu="otu13"/>
+   <node id="NT1.44" label="NT1.44" x="485.0" y="982.0" otu="otu18"/>
+   <node id="NT1.45" label="NT1.45" x="511.0" y="1677.0" otu="otu19"/>
+   <node id="NT1.51" label="NT1.51" x="610.0" y="289.0" otu="otu25"/>
+   <node id="NT1.53" label="NT1.53" x="642.0" y="1445.0" otu="otu27"/>
+   <node id="NT1.55" label="NT1.55" x="73.0" y="1264.0" root="true"/>
+   <edge id="e.3" source="NT1.18" target="NT1.29"/>
+   <edge id="e.4" target="NT1.51" source="NT1.18"/>
+   <edge id="e.9" target="NT1.19" source="NT1.5"/>
+   <edge id="e.11" source="NT1.4" target="NT1.22"/>
+   <edge id="e.12" target="NT1.25" source="NT1.16"/>
+   <edge id="e.13" source="NT1.21" target="NT1.33"/>
+   <edge id="e.14" source="NT1.21" target="NT1.36"/>
+   <edge id="e.15" source="NT1.16" target="NT1.31"/>
+   <edge id="e.17" target="NT1.44" source="NT1.11"/>
+   <edge id="e.20" source="NT1.1" target="NT1.34"/>
+   <edge id="e.24" target="NT1.45" source="NT1.2"/>
+   <edge id="e.26" target="NT1.53" source="NT1.2"/>
+   <edge id="e.29" target="NT1.18" source="NT1.5"/>
+   <edge id="e.34" source="NT1.3" target="NT1.5"/>
+   <edge id="e.36" source="NT1.1" target="NT1.3"/>
+   <edge id="e.37" source="NT1.3" target="NT1.4"/>
+   <edge id="e.38" source="NT1.4" target="NT1.11"/>
+   <edge id="e.39" source="NT1.11" target="NT1.13"/>
+   <edge id="e.41" source="NT1.13" target="NT1.16"/>
+   <edge id="e.42" source="NT1.13" target="NT1.21"/>
+   <edge id="e.50" source="NT1.55" target="NT1.2"/>
+   <edge id="e.51" source="NT1.55" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

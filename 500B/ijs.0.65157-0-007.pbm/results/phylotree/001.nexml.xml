@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Pirellula" cmphy:species="staleyi" cmphy:strain="DSM 60687" cmphy:id="X81946" editRecord="[]">Pirellula staleyi DSM 60687 (X81946)</otu>
+  <otu id="otu3">Candidatus Brocadia anammoxidans' (AF375994)</otu>
+  <otu id="otu4" cmphy:genus="Blastopirellula" cmphy:species="marina" cmphy:strain="IFAM 1313T" cmphy:id="X62912" editRecord="[]">Blastopirellula marina IFAM 1313T (X62912)</otu>
+  <otu id="otu5">1Candidatus Kuenenia stuttgartiensis1 (AF375995)</otu>
+  <otu id="otu6">1Candidatus Scalindua sorokinii' (AY257181)</otu>
+  <otu id="otu7" cmphy:genus="Planctomyces" cmphy:species="limnophilus" cmphy:strain="DSM 37767" cmphy:id="X62911" editRecord="[]">Planctomyces limnophilus DSM 37767 (X62911)</otu>
+  <otu id="otu8">Candidatus Scalindua brodae1 (AY254883)</otu>
+  <otu id="otu9">Planctomyces sp. Schlesner 668 (X81956)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Planctomyces" cmphy:species="maris" cmphy:strain="DSM 87977" cmphy:id="AJZ31184" editRecord="[2__Z]"> Planctomyces maris DSM 87977 (AJ231184)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Planctomyces" cmphy:species="brasmensis" cmphy:strain="DSM 53O5T" cmphy:id="AJZ31190" editRecord="[2__Z]">Planctomyces brasmensis DSM 53O5T (AJ231190)</otu>
+  <otu id="otu12">Gemmata-like isolate .JW10-3f1 (AF239695)</otu>
+  <otu id="otu13">Candidatus Scalindua wagneri' (AY254882)</otu>
+  <otu id="otu14">Gernmata-like strain JW9-3f1 (AF239697)</otu>
+  <otu id="otu15">lsosphaera sp. Schlesner 666 (X81958)</otu>
+  <otu id="otu16" cmphy:genus="Gemmata" cmphy:species="obscuriglobus" cmphy:strain="UQM 2246T" cmphy:id="X54522" editRecord="[]">Gemmata obscuriglobus UQM 2246T (X54522)</otu>
+  <otu id="otu17">Planctomyces sp. Schlesner 130 (X81952)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">Planctomyces sp. Schlesner 642 (X81950)</otu>
+  <otu id="otu20">Strain MOB77</otu>
+  <otu id="otu21">Strain SB2</otu>
+  <otu id="otu22">Isosphaera-like strain C2-3 (AF239692)</otu>
+  <otu id="otu23">lsosphaera pallida DSM 963OT (AJ231195)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="556.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="213.0" y="350.0"/>
+   <node id="NT1.4" label="NT1.4" x="224.0" y="291.0"/>
+   <node id="NT1.6" label="NT1.6" x="334.0" y="319.0"/>
+   <node id="NT1.7" label="NT1.7" x="357.0" y="175.0"/>
+   <node id="NT1.12" label="NT1.12" x="502.0" y="233.0"/>
+   <node id="NT1.17" label="NT1.17" x="664.0" y="334.0" otu="otu2"/>
+   <node id="NT1.20" label="NT1.20" x="693.0" y="304.0" otu="otu4"/>
+   <node id="NT1.25" label="NT1.25" x="751.0" y="159.0" otu="otu7"/>
+   <node id="NT1.28" label="NT1.28" x="776.0" y="187.0" otu="otu10"/>
+   <node id="NT1.29" label="NT1.29" x="780.0" y="246.0" otu="otu11"/>
+   <node id="NT1.35" label="NT1.35" x="798.0" y="363.0" otu="otu16"/>
+   <edge id="e.4" target="NT1.25" source="NT1.7"/>
+   <edge id="e.6" source="NT1.12" target="NT1.29"/>
+   <edge id="e.7" target="NT1.28" source="NT1.12"/>
+   <edge id="e.10" source="NT1.6" target="NT1.17"/>
+   <edge id="e.11" source="NT1.6" target="NT1.20"/>
+   <edge id="e.13" target="NT1.35" source="NT1.3"/>
+   <edge id="e.25" source="NT1.4" target="NT1.7"/>
+   <edge id="e.27" target="NT1.12" source="NT1.7"/>
+   <edge id="e.28" source="NT1.3" target="NT1.4"/>
+   <edge id="e.29" source="NT1.4" target="NT1.6"/>
+   <edge id="e.31" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

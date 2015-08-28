@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Aquaspirillum" cmphy:species="putridiconchylium" cmphy:strain="IAM 14964T" cmphy:id="ABO76000" editRecord="[0__O]">Aquaspirillum putridiconchylium IAM 14964T (AB076000)</otu>
+  <otu id="otu15" cmphy:genus="Formivibrio" cmphy:species="citricus" cmphy:strain="DSM 6150T" cmphy:id="Y17602" editRecord="[]">Formivibrio citricus DSM 6150T (Y17602)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Vogesella indigofera ATCC 197O6T(AB021385)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">Spirillum voIutansATCC 1 9554T (M34131)</otu>
+  <otu id="otu20" cmphy:genus="Microvirgula" cmphy:species="aerodenitrificans" cmphy:strain="SgIy2T" cmphy:id="U89333" editRecord="[]">Microvirgula aerodenitrificans SgIy2T (U89333)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Chitinimonas" cmphy:species="koreensis" cmphy:strain="R2A43-10T" cmphy:id="DQZ56782" editRecord="[2__Z]">Chitinimonas koreensis R2A43-10T (DQ256782)</otu>
+  <otu id="otu22" cmphy:edit="[3__B]" cmphy:genus="Chitinimonas" cmphy:species="taiwanensis" cmphy:strain="cF" cmphy:id="AYB23827" editRecord="[3__B]">Chitinimonas taiwanensis cF (AY323827)</otu>
+  <otu id="otu23">Chitinilyticum aquatile c14T(DQ314581)</otu>
+  <otu id="otu24">Vitreoscilla stercorariaATCC15218T(L06174)</otu>
+  <otu id="otu25">Eikenella corrodensATCC 23834T (M22512)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28">AIysieIIafiIiformisATCC15532T(AF487710)</otu>
+  <otu id="otu29">Deefgea rivuIiWB 3.4-79T (AM397080)</otu>
+  <otu id="otu30" cmphy:edit="[0__O]" cmphy:genus="Hydrogenophilus" cmphy:species="thermolutealus" cmphy:strain="TH-1T" cmphy:id="ABO09828" editRecord="[0__O]">Hydrogenophilus thermolutealus TH-1T (AB009828)</otu>
+  <otu id="otu31">Silvlmonasterrae KM-45T(AB194302)</otu>
+  <otu id="otu32"/>
+  <otu id="otu33">Kingella kingaeATCC 23330T (M22517)</otu>
+  <otu id="otu34" cmphy:genus="Comamonas" cmphy:species="terrigena" cmphy:strain="LMG 1253T" cmphy:id="AJ430342" editRecord="[]">Comamonas terrigena LMG 1253T (AJ430342)</otu>
+  <otu id="otu35">Gallionella ferruginea (LO7897)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="29.0" y="1040.0" label="57"/>
+   <node id="NT1.7" x="118.0" y="415.0" label="88"/>
+   <node id="NT1.12" label="NT1.12" x="181.0" y="544.0"/>
+   <node id="NT1.20" label="NT1.20" x="214.0" y="364.0"/>
+   <node id="NT1.33" x="406.0" y="489.0" label="100"/>
+   <node id="NT1.44" label="NT1.44" x="592.0" y="330.0" otu="otu14"/>
+   <node id="NT1.45" label="NT1.45" x="595.0" y="603.0" otu="otu15"/>
+   <node id="NT1.50" label="NT1.50" x="629.0" y="421.0" otu="otu20"/>
+   <node id="NT1.51" label="NT1.51" x="629.0" y="512.0" otu="otu21"/>
+   <node id="NT1.52" label="NT1.52" x="638.0" y="466.0" otu="otu22"/>
+   <node id="NT1.60" label="NT1.60" x="668.0" y="1012.0" otu="otu30"/>
+   <node id="NT1.64" label="NT1.64" x="717.0" y="1057.0" otu="otu34"/>
+   <node id="NT1.66" label="NT1.66" x="15.0" y="908.0" root="true"/>
+   <edge id="e.13" source="NT1.20" target="NT1.44"/>
+   <edge id="e.15" target="NT1.50" source="NT1.20"/>
+   <edge id="e.18" source="NT1.33" target="NT1.51"/>
+   <edge id="e.19" source="NT1.33" target="NT1.52"/>
+   <edge id="e.20" target="NT1.45" source="NT1.12"/>
+   <edge id="e.33" target="NT1.60" source="NT1.2"/>
+   <edge id="e.34" target="NT1.64" source="NT1.2"/>
+   <edge id="e.44" target="NT1.20" source="NT1.7"/>
+   <edge id="e.46" target="NT1.7" source="NT1.66"/>
+   <edge id="e.47" source="NT1.7" target="NT1.12"/>
+   <edge id="e.50" source="NT1.12" target="NT1.33"/>
+   <edge id="e.64" source="NT1.66" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

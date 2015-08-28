@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Terrabacter" cmphy:species="terrae" cmphy:strain="PPLBT" cmphy:id="AY944176" editRecord="[]">Terrabacter terrae PPLBT (AY944176)</otu>
+  <otu id="otu3">Janibacter limosus DSM</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Humibacillus" cmphy:species="xanthopallidus" cmphy:strain="KV-6637" cmphy:id="ABZ82888" editRecord="[2__Z]">Humibacillus xanthopallidus KV-6637 (AB282888)</otu>
+  <otu id="otu5">Terracoccus luteus DSM 44267T(Y11928)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Humibacillus" cmphy:species="xanthopallidus" cmphy:strain="YM21-029" cmphy:id="ABZ86022" editRecord="[2__Z]">Humibacillus xanthopallidus YM21-029 (AB286022)</otu>
+  <otu id="otu7">lntrasporangium calvum IFO</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="50.0" y="309.0"/>
+   <node id="NT1.2" x="129.0" y="197.0" label="100"/>
+   <node id="NT1.3" label="NT1.3" x="129.0" y="420.0"/>
+   <node id="NT1.4" label="NT1.4" x="152.0" y="467.0" otu="otu1"/>
+   <node id="NT1.5" x="165.0" y="162.0" label="100"/>
+   <node id="NT1.6" label="NT1.6" x="180.0" y="380.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="201.0" y="555.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="204.0" y="207.0" otu="otu4"/>
+   <node id="NT1.9" label="NT1.9" x="222.0" y="292.0" otu="otu5"/>
+   <node id="NT1.10" label="NT1.10" x="242.0" y="121.0" otu="otu6"/>
+   <node id="NT1.11" label="NT1.11" x="272.0" y="32.0" otu="otu7"/>
+   <edge source="NT1.5" target="NT1.2" id="e.0"/>
+   <edge source="NT1.2" target="NT1.1" id="e.1"/>
+   <edge source="NT1.1" target="NT1.3" id="e.2"/>
+   <edge source="NT1.7" target="NT1.1" id="e.3"/>
+   <edge source="NT1.4" target="NT1.3" id="e.4"/>
+   <edge source="NT1.6" target="NT1.3" id="e.5"/>
+   <edge source="NT1.9" target="NT1.2" id="e.6"/>
+   <edge source="NT1.11" target="NT1.5" id="e.7"/>
+   <edge source="NT1.8" target="NT1.5" id="e.8"/>
+   <edge source="NT1.10" target="NT1.5" id="e.9"/>
+  </tree>
+ </trees>
+</nexml>

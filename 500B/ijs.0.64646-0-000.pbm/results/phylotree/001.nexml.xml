@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Thermoactinomyces" cmphy:species="vulgaris" cmphy:strain="KCTC 9076T" cmphy:id="AFI38739" editRecord="[1__I]">Thermoactinomyces vulgaris KCTC 9076T (AF138739)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Thermoactinomyces" cmphy:species="intermedius" cmphy:strain="KCTC 9646T" cmphy:id="AJZ51775" editRecord="[2__Z]">Thermoactinomyces intermedius KCTC 9646T (AJ251775)</otu>
+  <otu id="otu3">Laceyella sacohari KCTC 9789</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Seinonella" cmphy:species="peptonophila" cmphy:strain="KCTC 9740T" cmphy:id="AFI38735" editRecord="[1__I]">Seinonella peptonophila KCTC 9740T (AF138735)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Strain LA5T (DQ119659)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Planifilum" cmphy:species="fimeticola" cmphy:strain="H0165T" cmphy:id="ABO88364" editRecord="[]">Planifilum fimeticola H0165T (ABO88364)</otu>
+  <otu id="otu10">Bacillus subtilis DSM 618</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="163.0" y="488.0"/>
+   <node id="NT1.2" label="NT1.2" x="373.0" y="327.0"/>
+   <node id="NT1.5" label="NT1.5" x="795.0" y="380.0"/>
+   <node id="NT1.6" label="NT1.6" x="833.0" y="340.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="858.0" y="418.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="1101.0" y="649.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="1294.0" y="187.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="9.0" y="607.0" root="true"/>
+   <edge id="e.0" target="NT1.17" source="NT1.2"/>
+   <edge id="e.2" source="NT1.5" target="NT1.6"/>
+   <edge id="e.3" source="NT1.5" target="NT1.8"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.5" source="NT1.2"/>
+   <edge id="e.11" source="NT1.19" target="NT1.1"/>
+   <edge id="e.13" source="NT1.1" target="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

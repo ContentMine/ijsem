@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Natronococcus" cmphy:species="amylolyticus" cmphy:strain="Ah-36T" cmphy:id="D43628" editRecord="[]">Natronococcus amylolyticus Ah-36T (D43628)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Halobiforma" cmphy:species="haloterrestris" cmphy:strain="1357" cmphy:id="AFB33760" editRecord="[3__B]"> Halobiforma haloterrestris 1357 (AF333760)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Natronococcus" cmphy:species="occultus" cmphy:strain="SP4T" cmphy:id="Z28378" editRecord="[2__Z]">Natronococcus occultus SP4T (228378)</otu>
+  <otu id="otu5">Natronococcusjeotgali B17 (EF077631)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Natrinema" cmphy:species="versiforme" cmphy:strain="XF10T" cmphy:id="ABO23426" editRecord="[0__O]">Natrinema versiforme XF10T (AB023426)</otu>
+  <otu id="otu7" cmphy:genus="Natronobacterium" cmphy:species="gregoiyi" cmphy:strain="NCIMB 2189T" cmphy:id="D87970" editRecord="[]">Natronobacterium gregoiyi NCIMB 2189T (D87970)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Halovivax" cmphy:species="asiaticus" cmphy:strain="EJ-46T" cmphy:id="AMO39978" editRecord="[0__O]">Halovivax asiaticus EJ-46T (AM039978)</otu>
+  <otu id="otu9" cmphy:genus="Natrinema" cmphy:species="pellirubrum" cmphy:strain="NCIMB 786T" cmphy:id="AJO02947" editRecord="[]">Natrinema pellirubrum NCIMB 786T (AJO02947)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Natrinema" cmphy:species="altunense" cmphy:strain="AJ2T" cmphy:id="AYZ08972" editRecord="[2__Z]">Natrinema altunense AJ2T (AY208972)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Halorubrum" cmphy:species="aidingense" cmphy:strain="31 -hongT" cmphy:id="DQB55813" editRecord="[3__B]">Halorubrum aidingense 31 -hongT (DQ355813)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="323.0" y="346.0"/>
+   <node id="NT1.2" label="NT1.2" x="339.0" y="191.0"/>
+   <node id="NT1.3" label="NT1.3" x="358.0" y="279.0"/>
+   <node id="NT1.4" x="391.0" y="501.0" label="65"/>
+   <node id="NT1.5" x="414.0" y="563.0" label="52"/>
+   <node id="NT1.7" label="NT1.7" x="562.0" y="509.0" otu="otu1"/>
+   <node id="NT1.9" x="595.0" y="104.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="625.0" y="296.0" otu="otu3"/>
+   <node id="NT1.12" x="630.0" y="50.0" label="99"/>
+   <node id="NT1.13" label="NT1.13" x="646.0" y="652.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="681.0" y="156.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="691.0" y="226.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="694.0" y="438.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="715.0" y="85.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="747.0" y="14.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="747.0" y="722.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="1.0" y="534.0" root="true"/>
+   <edge id="e.0" source="NT1.12" target="NT1.19"/>
+   <edge id="e.1" source="NT1.12" target="NT1.18"/>
+   <edge id="e.2" source="NT1.9" target="NT1.15"/>
+   <edge id="e.4" target="NT1.11" source="NT1.3"/>
+   <edge id="e.5" source="NT1.3" target="NT1.16"/>
+   <edge id="e.6" source="NT1.5" target="NT1.7"/>
+   <edge id="e.7" source="NT1.4" target="NT1.17"/>
+   <edge id="e.8" target="NT1.13" source="NT1.5"/>
+   <edge id="e.9" source="NT1.9" target="NT1.12"/>
+   <edge id="e.10" source="NT1.2" target="NT1.9"/>
+   <edge id="e.11" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.1" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.5"/>
+   <edge id="e.17" source="NT1.21" target="NT1.20"/>
+   <edge id="e.18" source="NT1.21" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

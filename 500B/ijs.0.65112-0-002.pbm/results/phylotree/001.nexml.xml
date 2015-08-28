@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Azospirillum" cmphy:species="brasilense" cmphy:strain="DSM 16907" cmphy:id="AJZ24912" editRecord="[2__Z]">Azospirillum brasilense DSM 16907 (AJ224912)</otu>
+  <otu id="otu3">Thauera aromatica T-1</otu>
+  <otu id="otu4">Acidovorax sp. 2FB7 (AYO78273)</otu>
+  <otu id="otu5" cmphy:genus="Pseudomonas" cmphy:species="stutzeri" cmphy:strain="ATCC 14405" cmphy:id="X56813" editRecord="[]">Pseudomonas stutzeri ATCC 14405 (X56813)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Azoarcus" cmphy:species="evansii" cmphy:strain="KB 7407" cmphy:id="AYO78269" editRecord="[0__O]">Azoarcus evansii KB 7407 (AY078269)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Ralstonia" cmphy:species="eutropha" cmphy:strain="H16" cmphy:id="X91394" editRecord="[]">Ralstonia eutropha H16 (X91394)</otu>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Thiobacillus" cmphy:species="denitrificans" cmphy:strain="ATCC 25259" cmphy:id="NC_007404" editRecord="[O__0]">Thiobacillus denitrificans ATCC 25259 (NC_0O7404)</otu>
+  <otu id="otu10">Marinobactersp. CG157051</otu>
+  <otu id="otu11">Pseudomonas aeruginosa PAO1</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Pseudomonas" cmphy:species="fluorescens" cmphy:strain="C7R12" cmphy:id="AFI97466" editRecord="[1__I]">Pseudomonas fluorescens C7R12 (AF197466)</otu>
+  <otu id="otu13" cmphy:genus="Thiohalomonas" cmphy:species="denitrificans" cmphy:strain="HLD 27" cmphy:id="AM492191" editRecord="[]">Thiohalomonas denitrificans HLD 27 (AM492191)</otu>
+  <otu id="otu14" cmphy:edit="[O__0]" cmphy:genus="Paracoccus" cmphy:species="denitrificans" cmphy:strain="Pd 12227" cmphy:id="U05002" editRecord="[O__0]">Paracoccus denitrificans Pd 12227 (UO5002)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Azoarcus" cmphy:species="tolulyticus" cmphy:strain="Tol-4T" cmphy:id="AYO78271" editRecord="[0__O]">Azoarcus tolulyticus Tol-4T (AY078271)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z, B__8]" cmphy:genus="Marine" cmphy:species="denitrifying" cmphy:strain="isolate B9-12" cmphy:id="AJZ48393" editRecord="[2__Z, B__8]">Marine denitrifying isolate B9-12 (AJ24B393)</otu>
+  <otu id="otu17">Roseobacter denitrificans Och 1 14T (CPOOOS62)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="707.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="9.0" y="707.0"/>
+   <node id="NT1.3" label="NT1.3" x="113.0" y="877.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="114.0" y="623.0"/>
+   <node id="NT1.6" x="343.0" y="790.0" label="78"/>
+   <node id="NT1.8" label="NT1.8" x="394.0" y="509.0"/>
+   <node id="NT1.11" label="NT1.11" x="413.0" y="820.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="425.0" y="395.0"/>
+   <node id="NT1.14" label="NT1.14" x="445.0" y="338.0"/>
+   <node id="NT1.15" label="NT1.15" x="458.0" y="281.0"/>
+   <node id="NT1.16" label="NT1.16" x="482.0" y="171.0"/>
+   <node id="NT1.17" label="NT1.17" x="484.0" y="763.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="543.0" y="114.0"/>
+   <node id="NT1.23" label="NT1.23" x="638.0" y="592.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="716.0" y="308.0" otu="otu9"/>
+   <node id="NT1.27" label="NT1.27" x="742.0" y="251.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="750.0" y="142.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="802.0" y="479.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="809.0" y="365.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="830.0" y="85.0" otu="otu16"/>
+   <edge id="e.0" target="NT1.31" source="NT1.19"/>
+   <edge id="e.1" source="NT1.19" target="NT1.28"/>
+   <edge id="e.2" target="NT1.29" source="NT1.13"/>
+   <edge id="e.3" target="NT1.23" source="NT1.8"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" source="NT1.6" target="NT1.11"/>
+   <edge id="e.10" source="NT1.16" target="NT1.19"/>
+   <edge id="e.11" source="NT1.15" target="NT1.16"/>
+   <edge id="e.13" source="NT1.14" target="NT1.15"/>
+   <edge id="e.14" source="NT1.13" target="NT1.14"/>
+   <edge id="e.15" source="NT1.8" target="NT1.13"/>
+   <edge id="e.17" source="NT1.4" target="NT1.8"/>
+   <edge id="e.20" source="NT1.2" target="NT1.4"/>
+   <edge id="e.22" target="NT1.6" source="NT1.4"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+   <edge id="e.25" source="NT1.6" target="NT1.17"/>
+   <edge id="e.26" source="NT1.15" target="NT1.24"/>
+   <edge id="e.27" source="NT1.14" target="NT1.30"/>
+   <edge id="e.29" target="NT1.27" source="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

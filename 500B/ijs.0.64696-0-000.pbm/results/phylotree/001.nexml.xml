@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Nocardioides" cmphy:species="dubius" cmphy:strain="KSL-104T" cmphy:id="AY928902" editRecord="[]">Nocardioides dubius KSL-104T (AY928902)</otu>
+  <otu id="otu3">Nocardioidesjensenii KCTC 9134T (AF005006)</otu>
+  <otu id="otu4" cmphy:edit="[8__B]" cmphy:genus="Nocardioides" cmphy:species="kribbensis" cmphy:strain="KS L-2T" cmphy:id="AYB35924" editRecord="[8__B]">Nocardioides kribbensis KS L-2T (AY835924)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Aeromicrobium" cmphy:species="erythreum" cmphy:strain="NRRL B-3381T" cmphy:id="AFO05021" editRecord="[O__0]">Aeromicrobium erythreum NRRL B-3381T (AFOO5021)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Aeromicrobium" cmphy:species="fastidiosum" cmphy:strain="KCTC 9576T" cmphy:id="AFO05022" editRecord="[0__O]">Aeromicrobium fastidiosum KCTC 9576T (AF005022)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Nocardioides" cmphy:species="aquiterrae" cmphy:strain="KCCM 41647T" cmphy:id="AFS29063" editRecord="[5__S]">Nocardioides aquiterrae KCCM 41647T (AF529063)</otu>
+  <otu id="otu8" cmphy:genus="Nocardioides" cmphy:species="pyridinolyticus" cmphy:strain="KCTC 0074BPT" cmphy:id="U61298" editRecord="[]">Nocardioides pyridinolyticus KCTC 0074BPT (U61298)</otu>
+  <otu id="otu9" cmphy:genus="Nocardioides" cmphy:species="alkalitolerans" cmphy:strain="KSL-1T" cmphy:id="AY633969" editRecord="[]">Nocardioides alkalitolerans KSL-1T (AY633969)</otu>
+  <otu id="otu10" cmphy:genus="Marmoricola" cmphy:species="aurantiacus" cmphy:strain="DSM 12652T" cmphy:id="Y18629" editRecord="[]">Marmoricola aurantiacus DSM 12652T (Y18629)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Marmoricola" cmphy:species="aequoreus" cmphy:strain="SST-457" cmphy:id="AMZ95338" editRecord="[2__Z]">Marmoricola aequoreus SST-457 (AM295338)</otu>
+  <otu id="otu12" cmphy:genus="Nocardioides" cmphy:species="aquaticus" cmphy:strain="DSM 11439T" cmphy:id="X94145" editRecord="[]">Nocardioides aquaticus DSM 11439T (X94145)</otu>
+  <otu id="otu13" cmphy:genus="Nocardioides" cmphy:species="aestuarii" cmphy:strain="JC2056T" cmphy:id="AY423719" editRecord="[]">Nocardioides aestuarii JC2056T (AY423719)</otu>
+  <otu id="otu14" cmphy:edit="[O__0]" cmphy:genus="Nocardioides" cmphy:species="plantarum" cmphy:strain="NCIMB 12834T" cmphy:id="AFO05008" editRecord="[O__0]">Nocardioides plantarum NCIMB 12834T (AFOO5008)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Nocardioides" cmphy:species="aromaticivorans" cmphy:strain="H-1T" cmphy:id="ABO87721" editRecord="[0__O]">Nocardioides aromaticivorans H-1T (AB087721)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Nocardioides" cmphy:species="simplex" cmphy:strain="KCTC 9106T" cmphy:id="AFO05009" editRecord="[0__O]">Nocardioides simplex KCTC 9106T (AF005009)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Nocardioides" cmphy:species="nitrophenolicus" cmphy:strain="KCTC 0457BPT" cmphy:id="AFO05024" editRecord="[0__O]">Nocardioides nitrophenolicus KCTC 0457BPT (AF005024)</otu>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Nocardioides" cmphy:species="lentus" cmphy:strain="KSL-17T" cmphy:id="DQI21389" editRecord="[1__I]">Nocardioides lentus KSL-17T (DQ121389)</otu>
+  <otu id="otu19" cmphy:genus="Nocardioides" cmphy:species="ganghwensis" cmphy:strain="JC2055T" cmphy:id="AY423718" editRecord="[]">Nocardioides ganghwensis JC2055T (AY423718)</otu>
+  <otu id="otu20">Nocardioides Iuteus KCTC 9575T (AF005007)</otu>
+  <otu id="otu21" cmphy:genus="Nocardioides" cmphy:species="albus" cmphy:strain="KCTC 9186T" cmphy:id="AFO04988" editRecord="[]">Nocardioides albus KCTC 9186T (AFO04988)</otu>
+  <otu id="otu22" cmphy:genus="Nocardioides" cmphy:species="oleivorans" cmphy:strain="DSM 16O90T" cmphy:id="AJ698724" editRecord="[]">Nocardioides oleivorans DSM 16O90T (AJ698724)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="306.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="99.0" y="651.0"/>
+   <node id="NT1.3" label="NT1.3" x="123.0" y="84.0"/>
+   <node id="NT1.4" label="NT1.4" x="137.0" y="327.0"/>
+   <node id="NT1.6" label="NT1.6" x="221.0" y="1033.0"/>
+   <node id="NT1.7" label="NT1.7" x="232.0" y="786.0"/>
+   <node id="NT1.8" label="NT1.8" x="247.0" y="902.0"/>
+   <node id="NT1.9" label="NT1.9" x="260.0" y="1302.0"/>
+   <node id="NT1.10" label="NT1.10" x="296.0" y="1550.0"/>
+   <node id="NT1.11" label="NT1.11" x="335.0" y="237.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="343.0" y="490.0"/>
+   <node id="NT1.13" label="NT1.13" x="366.0" y="1833.0"/>
+   <node id="NT1.15" label="NT1.15" x="435.0" y="850.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="444.0" y="30.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="450.0" y="132.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="451.0" y="1080.0"/>
+   <node id="NT1.19" label="NT1.19" x="509.0" y="1156.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="525.0" y="1053.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="528.0" y="646.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="557.0" y="441.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="583.0" y="543.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="599.0" y="952.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="606.0" y="1360.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="611.0" y="1948.0"/>
+   <node id="NT1.27" label="NT1.27" x="616.0" y="1976.0"/>
+   <node id="NT1.28" label="NT1.28" x="692.0" y="1720.0"/>
+   <node id="NT1.29" label="NT1.29" x="693.0" y="1258.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="715.0" y="1874.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="718.0" y="1975.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="722.0" y="2077.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="725.0" y="747.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="748.0" y="1771.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="773.0" y="1465.0" otu="otu21"/>
+   <node id="NT1.38" label="NT1.38" x="805.0" y="1669.0" otu="otu22"/>
+   <edge id="e.0" source="NT1.1" target="NT1.3"/>
+   <edge id="e.1" source="NT1.12" target="NT1.22"/>
+   <edge id="e.2" source="NT1.18" target="NT1.20"/>
+   <edge id="e.3" source="NT1.7" target="NT1.34"/>
+   <edge id="e.4" source="NT1.9" target="NT1.29"/>
+   <edge id="e.5" source="NT1.27" target="NT1.32"/>
+   <edge id="e.6" source="NT1.3" target="NT1.2"/>
+   <edge id="e.7" source="NT1.2" target="NT1.4"/>
+   <edge id="e.8" source="NT1.2" target="NT1.6"/>
+   <edge id="e.10" target="NT1.12" source="NT1.4"/>
+   <edge id="e.11" source="NT1.6" target="NT1.9"/>
+   <edge id="e.12" source="NT1.6" target="NT1.7"/>
+   <edge id="e.13" source="NT1.9" target="NT1.18"/>
+   <edge id="e.14" source="NT1.9" target="NT1.10"/>
+   <edge id="e.15" source="NT1.7" target="NT1.8"/>
+   <edge id="e.17" source="NT1.10" target="NT1.13"/>
+   <edge id="e.18" source="NT1.13" target="NT1.26"/>
+   <edge id="e.19" source="NT1.13" target="NT1.28"/>
+   <edge id="e.20" source="NT1.26" target="NT1.27"/>
+   <edge id="e.21" source="NT1.4" target="NT1.11"/>
+   <edge id="e.22" source="NT1.2" target="NT1.21"/>
+   <edge id="e.24" source="NT1.8" target="NT1.15"/>
+   <edge id="e.25" source="NT1.8" target="NT1.24"/>
+   <edge id="e.26" source="NT1.3" target="NT1.17"/>
+   <edge id="e.27" source="NT1.3" target="NT1.16"/>
+   <edge id="e.28" source="NT1.10" target="NT1.25"/>
+   <edge id="e.29" source="NT1.12" target="NT1.23"/>
+   <edge id="e.30" source="NT1.18" target="NT1.19"/>
+   <edge id="e.31" source="NT1.26" target="NT1.31"/>
+   <edge id="e.32" source="NT1.27" target="NT1.33"/>
+   <edge id="e.33" source="NT1.28" target="NT1.35"/>
+   <edge id="e.35" target="NT1.37" source="NT1.10"/>
+   <edge id="e.36" source="NT1.28" target="NT1.38"/>
+  </tree>
+ </trees>
+</nexml>

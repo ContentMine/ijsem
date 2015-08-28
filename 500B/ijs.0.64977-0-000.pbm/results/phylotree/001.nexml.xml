@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Persicobacter" cmphy:species="diffluens" cmphy:strain="NCIMB 14O2T" cmphy:id="D12660" editRecord="[]">Persicobacter diffluens NCIMB 14O2T (D12660)</otu>
+  <otu id="otu3">Flammeovirga arenaria NBRC 15982T(ABO78O78)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Flammeovirga" cmphy:species="aprica" cmphy:strain="NBRC 159417" cmphy:id="ABZ47553" editRecord="[2__Z]">Flammeovirga aprica NBRC 159417 (AB247553)</otu>
+  <otu id="otu5">Flammeovirga arenaria NBRC 15982T(ABO78O78)</otu>
+  <otu id="otu6" cmphy:edit="[O__0]" cmphy:genus="Thermonema" cmphy:species="rossianum" cmphy:strain="NR-27T" cmphy:id="Y08956" editRecord="[O__0]">Thermonema rossianum NR-27T (YO8956)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Thermonema lapsum ATCC 43542T (L1 1703)</otu>
+  <otu id="otu9" cmphy:genus="Flexithrix" cmphy:species="dorotheae" cmphy:strain="NBRC 15987T" cmphy:id="ABO78077" editRecord="[]">Flexithrix dorotheae NBRC 15987T (ABO78077)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Flammeovirga" cmphy:species="yaeyamensis" cmphy:strain="NBRC 1O0898T" cmphy:id="ABZ47554" editRecord="[2__Z]">Flammeovirga yaeyamensis NBRC 1O0898T (AB247554)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Flammeovirga" cmphy:species="kamogawensis" cmphy:strain="YS101" cmphy:id="ABZ51933" editRecord="[2__Z]">Flammeovirga kamogawensis YS101 (AB251933)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Flammeovirga" cmphy:species="kamogawensis" cmphy:strain="YM L5" cmphy:id="ABZ51934" editRecord="[2__Z]">Flammeovirga kamogawensis YM L5 (AB251934)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="838.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="46.0" y="668.0"/>
+   <node id="NT1.4" label="NT1.4" x="87.0" y="488.0"/>
+   <node id="NT1.5" label="NT1.5" x="114.0" y="631.0"/>
+   <node id="NT1.6" label="NT1.6" x="309.0" y="580.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="316.0" y="339.0"/>
+   <node id="NT1.8" label="NT1.8" x="322.0" y="205.0"/>
+   <node id="NT1.13" label="NT1.13" x="348.0" y="151.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="374.0" y="794.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="379.0" y="688.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="397.0" y="473.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="405.0" y="367.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="405.0" y="311.0"/>
+   <node id="NT1.22" label="NT1.22" x="407.0" y="257.0" otu="otu12"/>
+   <edge id="e.2" source="NT1.21" target="NT1.20"/>
+   <edge id="e.3" source="NT1.7" target="NT1.19"/>
+   <edge id="e.5" source="NT1.5" target="NT1.18"/>
+   <edge id="e.6" target="NT1.15" source="NT1.3"/>
+   <edge id="e.10" source="NT1.8" target="NT1.21"/>
+   <edge id="e.11" source="NT1.7" target="NT1.8"/>
+   <edge id="e.12" source="NT1.4" target="NT1.7"/>
+   <edge id="e.13" source="NT1.21" target="NT1.22"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.5"/>
+   <edge id="e.16" target="NT1.3" source="NT1.1"/>
+   <edge id="e.18" source="NT1.5" target="NT1.6"/>
+   <edge id="e.19" target="NT1.13" source="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Clostridium" cmphy:species="drakei" cmphy:strain="SL1T" cmphy:id="Y18813" editRecord="[]">Clostridium drakei SL1T (Y18813)</otu>
+  <otu id="otu3">Clostridium aciditolerans JWIYJL-B3T(DQ114945)</otu>
+  <otu id="otu4" cmphy:genus="Clostridium" cmphy:species="magnum" cmphy:strain="DSM 2767T" cmphy:id="X77835" editRecord="[]">Clostridium magnum DSM 2767T (X77835)</otu>
+  <otu id="otu5" cmphy:genus="Clostridium" cmphy:species="butyricum" cmphy:strain="DSM 10702T" cmphy:id="M59085" editRecord="[]">Clostridium butyricum DSM 10702T (M59085)</otu>
+  <otu id="otu6" cmphy:genus="Clostridium" cmphy:species="tetanomorphum" cmphy:strain="NCIMB 11547T" cmphy:id="X68184" editRecord="[]">Clostridium tetanomorphum NCIMB 11547T (X68184)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Clostridium" cmphy:species="peptidivorans" cmphy:strain="DSM 125057" cmphy:id="AFI56796" editRecord="[1__I]">Clostridium peptidivorans DSM 125057 (AF156796)</otu>
+  <otu id="otu8" cmphy:genus="Clostridium" cmphy:species="subterminale" cmphy:strain="DSM 6970T" cmphy:id="X68451" editRecord="[]">Clostridium subterminale DSM 6970T (X68451)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Clostridium" cmphy:species="thiosulfatireducens" cmphy:strain="DSM 13105" cmphy:id="AFB17650" editRecord="[3__B]">Clostridium thiosulfatireducens DSM 13105 (AF317650)</otu>
+  <otu id="otu10" cmphy:genus="Clostridium" cmphy:species="proteolyticum" cmphy:strain="DSM 3090T" cmphy:id="X73448" editRecord="[]">Clostridium proteolyticum DSM 3090T (X73448)</otu>
+  <otu id="otu11">Clostridium tyrobutyricum ATCC 25755T (M591 13)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="13.0" y="184.0"/>
+   <node id="NT1.2" label="NT1.2" x="83.0" y="302.0"/>
+   <node id="NT1.4" x="147.0" y="193.0" label="82"/>
+   <node id="NT1.6" label="NT1.6" x="158.0" y="430.0"/>
+   <node id="NT1.7" label="NT1.7" x="186.0" y="247.0"/>
+   <node id="NT1.8" label="NT1.8" x="207.0" y="139.0"/>
+   <node id="NT1.11" label="NT1.11" x="297.0" y="454.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="340.0" y="405.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="367.0" y="67.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="368.0" y="212.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="398.0" y="259.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="406.0" y="114.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="421.0" y="163.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="496.0" y="551.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="3.0" y="367.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.14"/>
+   <edge id="e.1" source="NT1.6" target="NT1.11"/>
+   <edge id="e.3" source="NT1.7" target="NT1.15"/>
+   <edge id="e.4" source="NT1.8" target="NT1.17"/>
+   <edge id="e.5" source="NT1.8" target="NT1.18"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" source="NT1.2" target="NT1.4"/>
+   <edge id="e.10" source="NT1.4" target="NT1.7"/>
+   <edge id="e.11" source="NT1.4" target="NT1.8"/>
+   <edge id="e.12" target="NT1.6" source="NT1.2"/>
+   <edge id="e.14" source="NT1.21" target="NT1.19"/>
+   <edge id="e.15" source="NT1.21" target="NT1.1"/>
+   <edge id="e.16" source="NT1.6" target="NT1.13"/>
+   <edge id="e.18" target="NT1.16" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

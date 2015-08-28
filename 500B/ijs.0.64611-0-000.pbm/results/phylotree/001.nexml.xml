@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">lodobacter fluviatilis ATCC 330517 (M22511)</otu>
+  <otu id="otu2" cmphy:genus="Burkholderia" cmphy:species="cepacia" cmphy:strain="ATCC 25416T" cmphy:id="M22518" editRecord="[]">Burkholderia cepacia ATCC 25416T (M22518)</otu>
+  <otu id="otu3" cmphy:genus="Achromobacter" cmphy:species="xylosoxidans" cmphy:strain="ATCC 15173" cmphy:id="M22509" editRecord="[]"> Achromobacter xylosoxidans ATCC 15173 (M22509)</otu>
+  <otu id="otu4" cmphy:edit="[O__0, O__0]" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="K-12 MG1655" cmphy:id="U00096" editRecord="[O__0, O__0]">Escherichia coli K-12 MG1655 (UO0O96)</otu>
+  <otu id="otu5" cmphy:genus="Alcaligenes" cmphy:species="faecalis" cmphy:strain="ATCC 87507" cmphy:id="M22508" editRecord="[]"> Alcaligenes faecalis ATCC 87507 (M22508)</otu>
+  <otu id="otu6" cmphy:genus="Vogesella" cmphy:species="indigofera" cmphy:strain="ATCC 197O6T" cmphy:id="U45995" editRecord="[]">Vogesella indigofera ATCC 197O6T (U45995)</otu>
+  <otu id="otu7" cmphy:genus="Vitreoscilla" cmphy:species="stercoraria" cmphy:strain="VT1" cmphy:id="M22519" editRecord="[]"> Vitreoscilla stercoraria VT1 (M22519)</otu>
+  <otu id="otu8">Chromobacterium sp. strain 71 (AY117572)</otu>
+  <otu id="otu9">Chromobacterium sp. strain 66 (AY117567)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Chromobacterium" cmphy:species="subtsugae" cmphy:strain="PRAA4-17" cmphy:id="AYB44056" editRecord="[3__B]"> Chromobacterium subtsugae PRAA4-17 (AY344056)</otu>
+  <otu id="otu11">Chromobacterium sp. strain 52 (AY117554)</otu>
+  <otu id="otu12" cmphy:genus="Chromobacterium" cmphy:species="violaceum" cmphy:strain="ATCC 124727" cmphy:id="M22510" editRecord="[]">Chromobacterium violaceum ATCC 124727 (M22510)</otu>
+  <otu id="otu13"> Chromobacterium sp. MBIC3901 (ABO17487)</otu>
+  <otu id="otu14">Chromobacterium sp. strain 07 (AY117557)</otu>
+  <otu id="otu15" cmphy:genus="Kingella" cmphy:species="kingae" cmphy:strain="ATCC 2333oT" cmphy:id="M22517" editRecord="[]"> Kingella kingae ATCC 2333oT (M22517)</otu>
+  <otu id="otu16">Chromobacterium sp. strain 48 (AY117552)</otu>
+  <otu id="otu17">Chromobacterium sp. strain 23 (AY117556)</otu>
+  <otu id="otu18">Chromobacterium sp. strain 44</otu>
+  <otu id="otu19">Chromobacterium sp. strain 70</otu>
+  <otu id="otu20" cmphy:genus="Kingella" cmphy:species="denitrificans" cmphy:strain="ATCC 33394T" cmphy:id="M22516" editRecord="[]"> Kingella denitrificans ATCC 33394T (M22516)</otu>
+  <otu id="otu21" cmphy:genus="Eikenella" cmphy:species="corrodens" cmphy:strain="ATCC 23834T" cmphy:id="M22512" editRecord="[]"> Eikenella corrodens ATCC 23834T (M22512)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="59.0" y="922.0" label="84"/>
+   <node id="NT1.3" x="93.0" y="613.0" label="73"/>
+   <node id="NT1.4" label="NT1.4" x="187.0" y="487.0"/>
+   <node id="NT1.6" label="NT1.6" x="229.0" y="956.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="236.0" y="889.0"/>
+   <node id="NT1.8" label="NT1.8" x="293.0" y="736.0"/>
+   <node id="NT1.9" label="NT1.9" x="296.0" y="378.0"/>
+   <node id="NT1.10" label="NT1.10" x="297.0" y="911.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="297.0" y="1001.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="318.0" y="865.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="367.0" y="597.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="372.0" y="777.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="390.0" y="698.0"/>
+   <node id="NT1.22" label="NT1.22" x="443.0" y="553.0" otu="otu10"/>
+   <node id="NT1.23" x="445.0" y="665.0" label="86"/>
+   <node id="NT1.26" label="NT1.26" x="451.0" y="373.0" otu="otu12"/>
+   <node id="NT1.29" label="NT1.29" x="460.0" y="730.0" otu="otu15"/>
+   <node id="NT1.37" label="NT1.37" x="493.0" y="687.0" otu="otu20"/>
+   <node id="NT1.38" label="NT1.38" x="495.0" y="642.0" otu="otu21"/>
+   <node id="NT1.39" label="NT1.39" x="10.0" y="819.0" root="true"/>
+   <edge id="e.7" target="NT1.26" source="NT1.9"/>
+   <edge id="e.8" target="NT1.22" source="NT1.9"/>
+   <edge id="e.11" source="NT1.4" target="NT1.13"/>
+   <edge id="e.13" source="NT1.8" target="NT1.14"/>
+   <edge id="e.14" source="NT1.15" target="NT1.29"/>
+   <edge id="e.15" source="NT1.23" target="NT1.37"/>
+   <edge id="e.16" source="NT1.23" target="NT1.38"/>
+   <edge id="e.17" source="NT1.2" target="NT1.6"/>
+   <edge id="e.18" source="NT1.7" target="NT1.10"/>
+   <edge id="e.19" source="NT1.7" target="NT1.12"/>
+   <edge id="e.20" source="NT1.2" target="NT1.11"/>
+   <edge id="e.27" source="NT1.4" target="NT1.9"/>
+   <edge id="e.29" source="NT1.3" target="NT1.4"/>
+   <edge id="e.31" target="NT1.3" source="NT1.39"/>
+   <edge id="e.32" source="NT1.3" target="NT1.8"/>
+   <edge id="e.33" source="NT1.8" target="NT1.15"/>
+   <edge id="e.34" source="NT1.2" target="NT1.7"/>
+   <edge id="e.35" source="NT1.15" target="NT1.23"/>
+   <edge id="e.37" source="NT1.39" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

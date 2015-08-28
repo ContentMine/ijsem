@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Phyllobacterium" cmphy:species="myrsinacearum" cmphy:strain="IAM 13584T" cmphy:id="D12789" editRecord="[]">Phyllobacterium myrsinacearum IAM 13584T (D12789)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Aurantimonas" cmphy:species="altamirensis" cmphy:strain="S21 BT" cmphy:id="DQB72921" editRecord="[3__B]">Aurantimonas altamirensis S21 BT (DQ372921)</otu>
+  <otu id="otu3"> Strain 57153-127 (DQ883810)</otu>
+  <otu id="otu4"> Mesorhizobium Ioti LMG 6125T (X67229)</otu>
+  <otu id="otu5">Manganese-oxidizing bacterium SI85-9A1 (U53824)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Ensifer" cmphy:species="fredii" cmphy:strain="LMG 6217T" cmphy:id="X67231" editRecord="[]">Ensifer fredii LMG 6217T (X67231)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Mycoplana" cmphy:species="dimorpha" cmphy:strain="IAM 13154T" cmphy:id="D12786" editRecord="[]">Mycoplana dimorpha IAM 13154T (D12786)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Fulvimarina" cmphy:species="pelagi" cmphy:strain="HTCC2506T" cmphy:id="AYI78860" editRecord="[1__I]">Fulvimarina pelagi HTCC2506T (AY178860)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Pseudaminobacter" cmphy:species="salicylatoxidans" cmphy:strain="BN 12T" cmphy:id="AFO72542" editRecord="[0__O]">Pseudaminobacter salicylatoxidans BN 12T (AF072542)</otu>
+  <otu id="otu13" cmphy:genus="Brucella" cmphy:species="melitensis" cmphy:strain="ATCC 234567" cmphy:id="L26166" editRecord="[]"> Brucella melitensis ATCC 234567 (L26166)</otu>
+  <otu id="otu14" cmphy:genus="Ochrobactrum" cmphy:species="anthropi" cmphy:strain="IAM 141197" cmphy:id="D12794" editRecord="[]">Ochrobactrum anthropi IAM 141197 (D12794)</otu>
+  <otu id="otu15" cmphy:genus="Bartonella" cmphy:species="bacilliformis" cmphy:strain="NCTC 12138T" cmphy:id="X60042" editRecord="[]">Bartonella bacilliformis NCTC 12138T (X60042)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Rhizobium Ieguminosarum IAM 12609T (D14513)</otu>
+  <otu id="otu18" cmphy:genus="Rhizobium" cmphy:species="radiobacter" cmphy:strain="IAM 13129" cmphy:id="D12784" editRecord="[]">Rhizobium radiobacter IAM 13129 (D12784)</otu>
+  <otu id="otu19" cmphy:genus="Ahrensia" cmphy:species="kielensis" cmphy:strain="IAM 126187" cmphy:id="D88524" editRecord="[]">Ahrensia kielensis IAM 126187 (D88524)</otu>
+  <otu id="otu20" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 11775T" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 11775T (X80725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="322.0" y="463.0"/>
+   <node id="NT1.2" label="NT1.2" x="344.0" y="556.0"/>
+   <node id="NT1.3" label="NT1.3" x="385.0" y="372.0"/>
+   <node id="NT1.5" label="NT1.5" x="407.0" y="262.0"/>
+   <node id="NT1.6" label="NT1.6" x="423.0" y="333.0"/>
+   <node id="NT1.8" x="435.0" y="189.0" label="74"/>
+   <node id="NT1.10" x="473.0" y="131.0" label="90"/>
+   <node id="NT1.12" label="NT1.12" x="481.0" y="188.0"/>
+   <node id="NT1.14" label="NT1.14" x="503.0" y="285.0" otu="otu1"/>
+   <node id="NT1.16" label="NT1.16" x="511.0" y="111.0"/>
+   <node id="NT1.17" label="NT1.17" x="523.0" y="595.0" otu="otu2"/>
+   <node id="NT1.24" label="NT1.24" x="549.0" y="208.0" otu="otu7"/>
+   <node id="NT1.27" label="NT1.27" x="557.0" y="169.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="558.0" y="517.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="577.0" y="441.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="578.0" y="92.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="587.0" y="131.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="587.0" y="247.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="639.0" y="15.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="639.0" y="480.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="640.0" y="750.0" otu="otu20"/>
+   <node id="NT1.38" label="NT1.38" x="3.0" y="606.0" root="true"/>
+   <edge id="e.0" target="NT1.35" source="NT1.16"/>
+   <edge id="e.2" source="NT1.16" target="NT1.30"/>
+   <edge id="e.3" source="NT1.16" target="NT1.31"/>
+   <edge id="e.4" source="NT1.12" target="NT1.24"/>
+   <edge id="e.5" source="NT1.12" target="NT1.27"/>
+   <edge id="e.6" source="NT1.8" target="NT1.32"/>
+   <edge id="e.7" source="NT1.6" target="NT1.14"/>
+   <edge id="e.11" target="NT1.29" source="NT1.6"/>
+   <edge id="e.12" source="NT1.3" target="NT1.36"/>
+   <edge id="e.13" source="NT1.2" target="NT1.28"/>
+   <edge id="e.19" source="NT1.10" target="NT1.16"/>
+   <edge id="e.20" source="NT1.8" target="NT1.10"/>
+   <edge id="e.21" source="NT1.10" target="NT1.12"/>
+   <edge id="e.22" source="NT1.5" target="NT1.8"/>
+   <edge id="e.23" source="NT1.3" target="NT1.5"/>
+   <edge id="e.24" source="NT1.5" target="NT1.6"/>
+   <edge id="e.26" source="NT1.1" target="NT1.3"/>
+   <edge id="e.29" source="NT1.1" target="NT1.2"/>
+   <edge id="e.34" source="NT1.38" target="NT1.1"/>
+   <edge id="e.35" source="NT1.38" target="NT1.37"/>
+   <edge id="e.36" target="NT1.17" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

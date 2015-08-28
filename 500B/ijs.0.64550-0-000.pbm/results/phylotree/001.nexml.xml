@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Virgibacillus" cmphy:species="necropolis" cmphy:strain="LMG 194887" cmphy:id="AJB15056" editRecord="[3__B]">Virgibacillus necropolis LMG 194887 (AJ315056)</otu>
+  <otu id="otu3" cmphy:genus="Bacillus" cmphy:species="subtills" cmphy:strain="NCDO 1769T" cmphy:id="X60646" editRecord="[]">Bacillus subtills NCDO 1769T (X60646)</otu>
+  <otu id="otu4">Lentlbacillusjurispiscarius IS40-37 (AB127980)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Lentibacillus" cmphy:species="salicampi" cmphy:strain="SF-207" cmphy:id="AYO57394" editRecord="[0__O]">Lentibacillus salicampi SF-207 (AY057394)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Oceanobacillus" cmphy:species="oncorhynchi" cmphy:strain="R927" cmphy:id="ABI88089" editRecord="[1__I]">Oceanobacillus oncorhynchi R927 (AB188089)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="543.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="5.0" y="543.0"/>
+   <node id="NT1.3" label="NT1.3" x="88.0" y="348.0"/>
+   <node id="NT1.4" label="NT1.4" x="114.0" y="401.0"/>
+   <node id="NT1.6" label="NT1.6" x="314.0" y="379.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="496.0" y="815.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="541.0" y="514.0" otu="otu5"/>
+   <node id="NT1.10" label="NT1.10" x="561.0" y="313.0" otu="otu6"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.3" target="NT1.4"/>
+   <edge id="e.3" source="NT1.2" target="NT1.3"/>
+   <edge id="e.4" source="NT1.3" target="NT1.10"/>
+   <edge id="e.5" source="NT1.4" target="NT1.6"/>
+   <edge id="e.7" target="NT1.9" source="NT1.4"/>
+   <edge id="e.8" source="NT1.2" target="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

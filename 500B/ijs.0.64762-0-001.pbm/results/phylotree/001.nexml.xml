@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Alteromonas stellipolaris DSM 15691T (AJ 295715)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Alteromonas tagae AT1T (DQ 836765)</otu>
+  <otu id="otu8" cmphy:genus="Alteromonas" cmphy:species="macleodii" cmphy:strain="ATCC 271267" cmphy:id="X82145" editRecord="[]">Alteromonas macleodii ATCC 271267 (X82145)</otu>
+  <otu id="otu9">Aestuariibacter salexigens JC 2042T (AY 207502)</otu>
+  <otu id="otu10" cmphy:edit="[8__B]" cmphy:genus="Alteromonas" cmphy:species="simiduii" cmphy:strain="AS1'" cmphy:id="DQB36766" editRecord="[8__B]"> Alteromonas simiduii AS1' (DQ836766)</otu>
+  <otu id="otu11"> Glaciecola mesophila KMM 2412 (AJ 488501)</otu>
+  <otu id="otu12">acleco a po arts</otu>
+  <otu id="otu13">Salinimonas chungwhensis BHO30046T (AY 553295)</otu>
+  <otu id="otu14" cmphy:genus="Glaciecola" cmphy:species="pallidula" cmphy:strain="ACAM 615T" cmphy:id="U85854" editRecord="[]">Glaciecola pallidula ACAM 615T (U85854)</otu>
+  <otu id="otu15"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.16" label="NT1.16" x="265.0" y="179.0"/>
+   <node id="NT1.21" label="NT1.21" x="349.0" y="145.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="367.0" y="212.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="459.0" y="758.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="12.0" y="518.0" root="true"/>
+   <edge id="e.5" source="NT1.16" target="NT1.21"/>
+   <edge id="e.6" source="NT1.16" target="NT1.23"/>
+   <edge id="e.13" target="NT1.27" source="NT1.29"/>
+   <edge id="e.20" target="NT1.16" source="NT1.29"/>
+  </tree>
+ </trees>
+</nexml>

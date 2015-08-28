@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Methermicoccus" cmphy:species="shengliensis" cmphy:strain="ZC-1T" cmphy:id="DQ787474" editRecord="[]">Methermicoccus shengliensis ZC-1T (DQ787474)</otu>
+  <otu id="otu3" cmphy:edit="[8__B]" cmphy:genus="Methanosaeta" cmphy:species="harundinacea" cmphy:strain="8AcT" cmphy:id="AYB17738" editRecord="[8__B]">Methanosaeta harundinacea 8AcT (AY817738)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Methanomethylovorans" cmphy:species="hollandica" cmphy:strain="DMS1T" cmphy:id="AYZ60433" editRecord="[2__Z]">Methanomethylovorans hollandica DMS1T (AY260433)</otu>
+  <otu id="otu5" cmphy:genus="Methanohalophilus" cmphy:species="mahii" cmphy:strain="SLPT" cmphy:id="M59133" editRecord="[]">Methanohalophilus mahii SLPT (M59133)</otu>
+  <otu id="otu6" cmphy:genus="Methanohalobium" cmphy:species="evestigatum" cmphy:strain="Z-7303T" cmphy:id="U20149" editRecord="[]">Methanohalobium evestigatum Z-7303T (U20149)</otu>
+  <otu id="otu7" cmphy:genus="Methanococcoides" cmphy:species="methylutens" cmphy:strain="TMA-1OT" cmphy:id="M59127" editRecord="[]">Methanococcoides methylutens TMA-1OT (M59127)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Methanosarcina" cmphy:species="barkeri" cmphy:strain="DSM 800T" cmphy:id="AJO12094" editRecord="[0__O]">Methanosarcina barkeri DSM 800T (AJ012094)</otu>
+  <otu id="otu9" cmphy:genus="Methanolobus" cmphy:species="tindarius" cmphy:strain="DSM 2278T" cmphy:id="M59135" editRecord="[]">Methanolobus tindarius DSM 2278T (M59135)</otu>
+  <otu id="otu10" cmphy:genus="Methanosaeta" cmphy:species="concilii" cmphy:strain="DSM 3013" cmphy:id="M59146" editRecord="[]">Methanosaeta concilii DSM 3013 (M59146)</otu>
+  <otu id="otu11" cmphy:genus="Methanothrix" cmphy:species="thermophila" cmphy:strain="DSM 3870" cmphy:id="M59141" editRecord="[]">Methanothrix thermophila DSM 3870 (M59141)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Methanimicrococcus" cmphy:species="blatticola" cmphy:strain="PAT" cmphy:id="AJZ38002" editRecord="[2__Z]">Methanimicrococcus blatticola PAT (AJ238002)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="62.0" y="495.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="97.0" y="495.0"/>
+   <node id="NT1.3" x="112.0" y="364.0" label="51"/>
+   <node id="NT1.4" label="NT1.4" x="140.0" y="451.0"/>
+   <node id="NT1.5" label="NT1.5" x="151.0" y="275.0"/>
+   <node id="NT1.6" label="NT1.6" x="156.0" y="197.0"/>
+   <node id="NT1.7" label="NT1.7" x="164.0" y="266.0"/>
+   <node id="NT1.8" label="NT1.8" x="166.0" y="126.0"/>
+   <node id="NT1.9" x="169.0" y="494.0" label="97"/>
+   <node id="NT1.10" label="NT1.10" x="171.0" y="69.0"/>
+   <node id="NT1.11" label="NT1.11" x="172.0" y="580.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="190.0" y="409.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="209.0" y="182.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="216.0" y="12.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="217.0" y="353.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="221.0" y="125.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="223.0" y="239.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="226.0" y="69.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="229.0" y="466.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="236.0" y="523.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="295.0" y="296.0" otu="otu12"/>
+   <edge id="e.0" source="NT1.10" target="NT1.14"/>
+   <edge id="e.1" source="NT1.10" target="NT1.18"/>
+   <edge id="e.2" source="NT1.10" target="NT1.16"/>
+   <edge id="e.3" source="NT1.7" target="NT1.17"/>
+   <edge id="e.4" source="NT1.5" target="NT1.15"/>
+   <edge id="e.5" source="NT1.7" target="NT1.21"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.4" target="NT1.12"/>
+   <edge id="e.8" source="NT1.8" target="NT1.10"/>
+   <edge id="e.9" source="NT1.6" target="NT1.8"/>
+   <edge id="e.10" source="NT1.5" target="NT1.6"/>
+   <edge id="e.11" source="NT1.6" target="NT1.7"/>
+   <edge id="e.12" source="NT1.3" target="NT1.5"/>
+   <edge id="e.13" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.9"/>
+   <edge id="e.16" source="NT1.2" target="NT1.11"/>
+   <edge id="e.17" source="NT1.8" target="NT1.13"/>
+   <edge id="e.18" source="NT1.9" target="NT1.19"/>
+   <edge id="e.19" source="NT1.9" target="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>

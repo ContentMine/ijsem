@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Oceanospirillum" cmphy:species="beijerinckii" cmphy:strain="ATCC 271197" cmphy:id="ABO06760" editRecord="[O__0]">Oceanospirillum beijerinckii ATCC 271197 (ABOO6760)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Microbulbifer" cmphy:species="salipaludis" cmphy:strain="SM-1T" cmphy:id="AF479688" editRecord="[]">Microbulbifer salipaludis SM-1T (AF479688)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Oceanospirillum linum ATCC 1 1336 (M22365)</otu>
+  <otu id="otu10" cmphy:edit="[5__S, O__0]" cmphy:genus="Microbulbifer" cmphy:species="elongatus" cmphy:strain="DSM 6810T" cmphy:id="AFS00006" editRecord="[5__S, O__0]">Microbulbifer elongatus DSM 6810T (AF5000O6)</otu>
+  <otu id="otu11">Marinobacter h ydrocarbonoclasticus ATCC 49840T (X67022)</otu>
+  <otu id="otu12" cmphy:genus="Microbulbifer" cmphy:species="hydrolyticus" cmphy:strain="ATCC 70OO72T" cmphy:id="U58338" editRecord="[]">Microbulbifer hydrolyticus ATCC 70OO72T (U58338)</otu>
+  <otu id="otu13">(Microbulbifer arenaceous' RSBr-1T (AJ510266)</otu>
+  <otu id="otu14">Marinobacterlitoralis SW-457 (AF479689)</otu>
+  <otu id="otu15" cmphy:genus="Pseudomonas" cmphy:species="putida" cmphy:strain="DSM 291T" cmphy:id="Z76667" editRecord="[]">Pseudomonas putida DSM 291T (Z76667)</otu>
+  <otu id="otu16" cmphy:genus="Halomonas" cmphy:species="elongata" cmphy:strain="ATCC 33173T" cmphy:id="M93355" editRecord="[]">Halomonas elongata ATCC 33173T (M93355)</otu>
+  <otu id="otu17">Microbulbifer celer sp. nov. ISL-397 (EF486352)</otu>
+  <otu id="otu18" cmphy:edit="[3__B]" cmphy:genus="Microbulbifer" cmphy:species="maritimus" cmphy:strain="TF-17T" cmphy:id="AYB77986" editRecord="[3__B]">Microbulbifer maritimus TF-17T (AY377986)</otu>
+  <otu id="otu19">Pseudomonas fluorescens IAM</otu>
+  <otu id="otu20" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="LMG 1242T" cmphy:id="Z76651" editRecord="[]">Pseudomonas aeruginosa LMG 1242T (Z76651)</otu>
+  <otu id="otu21" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 11775T" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 11775T (X80725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="648.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="604.0"/>
+   <node id="NT1.3" label="NT1.3" x="102.0" y="443.0"/>
+   <node id="NT1.4" label="NT1.4" x="214.0" y="342.0"/>
+   <node id="NT1.5" label="NT1.5" x="241.0" y="168.0"/>
+   <node id="NT1.10" label="NT1.10" x="281.0" y="115.0"/>
+   <node id="NT1.11" label="NT1.11" x="305.0" y="76.0"/>
+   <node id="NT1.13" label="NT1.13" x="311.0" y="556.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="332.0" y="109.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="353.0" y="153.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="362.0" y="64.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="396.0" y="332.0" otu="otu15"/>
+   <node id="NT1.25" label="NT1.25" x="396.0" y="601.0" otu="otu16"/>
+   <node id="NT1.27" label="NT1.27" x="403.0" y="242.0" otu="otu18"/>
+   <node id="NT1.29" label="NT1.29" x="418.0" y="377.0" otu="otu20"/>
+   <node id="NT1.30" label="NT1.30" x="591.0" y="645.0" otu="otu21"/>
+   <edge id="e.1" target="NT1.21" source="NT1.11"/>
+   <edge id="e.2" source="NT1.10" target="NT1.19"/>
+   <edge id="e.5" target="NT1.27" source="NT1.5"/>
+   <edge id="e.9" source="NT1.4" target="NT1.24"/>
+   <edge id="e.10" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" source="NT1.2" target="NT1.30"/>
+   <edge id="e.16" source="NT1.10" target="NT1.11"/>
+   <edge id="e.17" source="NT1.5" target="NT1.10"/>
+   <edge id="e.18" source="NT1.4" target="NT1.5"/>
+   <edge id="e.20" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.23" source="NT1.3" target="NT1.25"/>
+   <edge id="e.24" source="NT1.4" target="NT1.29"/>
+   <edge id="e.26" source="NT1.3" target="NT1.13"/>
+   <edge id="e.27" source="NT1.11" target="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

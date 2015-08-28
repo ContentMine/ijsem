@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Tistrella" cmphy:species="mobilis" cmphy:strain="IAM 14872T" cmphy:id="ABO71665" editRecord="[]">Tistrella mobilis IAM 14872T (ABO71665)</otu>
+  <otu id="otu2" cmphy:genus="Acetobacter" cmphy:species="cerevisiae" cmphy:strain="DSM 14362T" cmphy:id="AJ419843" editRecord="[]">Acetobacter cerevisiae DSM 14362T (AJ419843)</otu>
+  <otu id="otu3">DR41_18T (DQ665839)</otu>
+  <otu id="otu4">Rose-ospira marina CE21O5T (AJ298879)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Blastochloris" cmphy:species="sulfoviridis" cmphy:strain="DSM 729T" cmphy:id="ABI10414" editRecord="[1__I]">Blastochloris sulfoviridis DSM 729T (AB110414)</otu>
+  <otu id="otu6">DR41_21T (DQ665838)</otu>
+  <otu id="otu7" cmphy:genus="Azospirillum" cmphy:species="irakense" cmphy:strain="DSM 11586T" cmphy:id="Z29583" editRecord="[]">Azospirillum irakense DSM 11586T (Z29583)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Azospirillum" cmphy:species="doebereinerae" cmphy:strain="DSM 13131T" cmphy:id="AJZ38567" editRecord="[2__Z]">Azospirillum doebereinerae DSM 13131T (AJ238567)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Methylocystis" cmphy:species="parvus" cmphy:strain="ACM 33o9T" cmphy:id="AFI50805" editRecord="[1__I]">Methylocystis parvus ACM 33o9T (AF150805)</otu>
+  <otu id="otu10" cmphy:genus="Methylocystis" cmphy:species="echinoides" cmphy:strain="IMET 1O491T" cmphy:id="AJ458473" editRecord="[]">Methylocystis echinoides IMET 1O491T (AJ458473)</otu>
+  <otu id="otu11">Azospirillum brasilense ATCC 29145T (AY3241 10)</otu>
+  <otu id="otu12"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="25.0" y="1037.0"/>
+   <node id="NT1.2" label="NT1.2" x="72.0" y="784.0"/>
+   <node id="NT1.3" label="NT1.3" x="149.0" y="442.0"/>
+   <node id="NT1.4" label="NT1.4" x="197.0" y="1002.0"/>
+   <node id="NT1.5" label="NT1.5" x="317.0" y="1288.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="435.0" y="1415.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="454.0" y="404.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="466.0" y="56.0"/>
+   <node id="NT1.15" label="NT1.15" x="469.0" y="909.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="483.0" y="1034.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="495.0" y="25.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="498.0" y="151.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="4.0" y="1393.0" root="true"/>
+   <edge id="e.0" source="NT1.13" target="NT1.17"/>
+   <edge id="e.1" source="NT1.13" target="NT1.18"/>
+   <edge id="e.2" source="NT1.3" target="NT1.12"/>
+   <edge id="e.6" source="NT1.1" target="NT1.5"/>
+   <edge id="e.7" target="NT1.13" source="NT1.3"/>
+   <edge id="e.9" source="NT1.2" target="NT1.3"/>
+   <edge id="e.11" source="NT1.2" target="NT1.4"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" source="NT1.21" target="NT1.8"/>
+   <edge id="e.15" source="NT1.21" target="NT1.1"/>
+   <edge id="e.16" source="NT1.4" target="NT1.15"/>
+   <edge id="e.17" target="NT1.16" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

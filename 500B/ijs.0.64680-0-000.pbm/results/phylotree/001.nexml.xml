@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Rhizobium" cmphy:species="mongolense" cmphy:strain="USDA 18447" cmphy:id="U89817" editRecord="[]">Rhizobium mongolense USDA 18447 (U89817)</otu>
+  <otu id="otu3" cmphy:genus="Rhizobium" cmphy:species="sullae" cmphy:strain="IS 123T" cmphy:id="Y10170" editRecord="[]"> Rhizobium sullae IS 123T (Y10170)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="indigoferae" cmphy:strain="CCBAU 71O42T" cmphy:id="AFB64068" editRecord="[3__B]"> Rhizobium indigoferae CCBAU 71O42T (AF364068)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Rhizobium" cmphy:species="etli" cmphy:strain="CFN 427" cmphy:id="U28916" editRecord="[]">Rhizobium etli CFN 427 (U28916)</otu>
+  <otu id="otu8">RhizobIum huautlense SO27 (AFO25852)</otu>
+  <otu id="otu9" cmphy:genus="Rhizobium" cmphy:species="leguminosarum" cmphy:strain="ATCC 10004T" cmphy:id="U29386" editRecord="[]">Rhizobium leguminosarum ATCC 10004T (U29386)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Rhizobium" cmphy:species="haiananense" cmphy:strain="I66T" cmphy:id="U71078" editRecord="[]">Rhizobium haiananense I66T (U71078)</otu>
+  <otu id="otu12" cmphy:genus="Rhizobium" cmphy:species="giardinii" cmphy:strain="H1527" cmphy:id="U86344" editRecord="[]">Rhizobium giardinii H1527 (U86344)</otu>
+  <otu id="otu13" cmphy:genus="Rhizobium" cmphy:species="rhizogenes" cmphy:strain="IFO 13257T" cmphy:id="D14501" editRecord="[]">Rhizobium rhizogenes IFO 13257T (D14501)</otu>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="daejeonense" cmphy:strain="L61T" cmphy:id="AYB41343" editRecord="[3__B]">Rhizobium daejeonense L61T (AY341343)</otu>
+  <otu id="otu15" cmphy:edit="[8__B]" cmphy:genus="Rhizobium" cmphy:species="cellulosilyticum" cmphy:strain="ALA10B2T" cmphy:id="DQB55376" editRecord="[8__B]">Rhizobium cellulosilyticum ALA10B2T (DQ855376)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Bradyrhizobium" cmphy:species="japonicum" cmphy:strain="ATCC 'l0324T" cmphy:id="U69638" editRecord="[]">Bradyrhizobium japonicum ATCC 'l0324T (U69638)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="304.0" y="418.0"/>
+   <node id="NT1.2" label="NT1.2" x="319.0" y="288.0"/>
+   <node id="NT1.3" label="NT1.3" x="373.0" y="165.0"/>
+   <node id="NT1.5" x="400.0" y="100.0" label="83j"/>
+   <node id="NT1.6" x="404.0" y="235.0" label="60"/>
+   <node id="NT1.7" label="NT1.7" x="409.0" y="140.0"/>
+   <node id="NT1.10" x="443.0" y="268.0" label="68"/>
+   <node id="NT1.12" label="NT1.12" x="446.0" y="559.0"/>
+   <node id="NT1.13" label="NT1.13" x="463.0" y="86.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="469.0" y="159.0" otu="otu3"/>
+   <node id="NT1.16" x="474.0" y="300.0" label="64"/>
+   <node id="NT1.17" label="NT1.17" x="481.0" y="122.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="494.0" y="236.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="538.0" y="273.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="562.0" y="200.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="590.0" y="573.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="599.0" y="346.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="609.0" y="536.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="641.0" y="425.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="649.0" y="615.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="3.0" y="516.0" root="true"/>
+   <edge id="e.2" target="NT1.13" source="NT1.5"/>
+   <edge id="e.3" source="NT1.7" target="NT1.14"/>
+   <edge id="e.4" source="NT1.7" target="NT1.17"/>
+   <edge id="e.5" source="NT1.10" target="NT1.20"/>
+   <edge id="e.6" source="NT1.6" target="NT1.25"/>
+   <edge id="e.7" source="NT1.16" target="NT1.23"/>
+   <edge id="e.8" target="NT1.28" source="NT1.16"/>
+   <edge id="e.13" target="NT1.30" source="NT1.2"/>
+   <edge id="e.14" source="NT1.12" target="NT1.27"/>
+   <edge id="e.15" source="NT1.12" target="NT1.29"/>
+   <edge id="e.18" source="NT1.3" target="NT1.5"/>
+   <edge id="e.19" source="NT1.5" target="NT1.7"/>
+   <edge id="e.20" source="NT1.2" target="NT1.3"/>
+   <edge id="e.21" source="NT1.3" target="NT1.6"/>
+   <edge id="e.22" source="NT1.6" target="NT1.10"/>
+   <edge id="e.23" source="NT1.10" target="NT1.16"/>
+   <edge id="e.24" source="NT1.1" target="NT1.2"/>
+   <edge id="e.27" source="NT1.1" target="NT1.12"/>
+   <edge id="e.29" source="NT1.33" target="NT1.32"/>
+   <edge id="e.30" source="NT1.33" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

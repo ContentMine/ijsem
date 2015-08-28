@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Actinosynnema" cmphy:species="mirum" cmphy:strain="DSM 438277" cmphy:id="X84447" editRecord="[]">Actinosynnema mirum DSM 438277 (X84447)</otu>
+  <otu id="otu6" cmphy:genus="Lentzea" cmphy:species="albida" cmphy:strain="IFO 161027" cmphy:id="ABO06176" editRecord="[]">Lentzea albida IFO 161027 (ABO06176)</otu>
+  <otu id="otu7">Saccharothrix Iongispora NRRL B-1161167 (AF114B09)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Lentzea" cmphy:species="waywayandensis" cmphy:strain="NRRL B-161597" cmphy:id="AI14813" editRecord="[1__I]"> Lentzea waywayandensis NRRL B-161597 (A114813)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Lentzea" cmphy:species="flaviverrucosa" cmphy:strain="AS 4.05787" cmphy:id="AFI83957" editRecord="[1__I]">Lentzea flaviverrucosa AS 4.05787 (AF183957)</otu>
+  <otu id="otu10" cmphy:genus="Lentzea" cmphy:species="albidocapillata" cmphy:strain="DSM 440737" cmphy:id="X84321" editRecord="[]">Lentzea albidocapillata DSM 440737 (X84321)</otu>
+  <otu id="otu11"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="501.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="76.0" y="372.0" label="e"/>
+   <node id="NT1.9" label="NT1.9" x="166.0" y="174.0"/>
+   <node id="NT1.10" label="NT1.10" x="189.0" y="136.0"/>
+   <node id="NT1.12" label="NT1.12" x="206.0" y="411.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="237.0" y="172.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="260.0" y="212.0" otu="otu8"/>
+   <node id="NT1.17" x="291.0" y="63.0" label="90"/>
+   <node id="NT1.18" label="NT1.18" x="362.0" y="92.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="400.0" y="13.0" otu="otu10"/>
+   <edge id="e.0" source="NT1.17" target="NT1.19"/>
+   <edge id="e.1" source="NT1.17" target="NT1.18"/>
+   <edge id="e.2" source="NT1.10" target="NT1.14"/>
+   <edge id="e.4" source="NT1.9" target="NT1.16"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" target="NT1.12" source="NT1.2"/>
+   <edge id="e.11" target="NT1.17" source="NT1.10"/>
+   <edge id="e.13" source="NT1.9" target="NT1.10"/>
+   <edge id="e.14" target="NT1.9" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

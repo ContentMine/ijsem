@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Dermabacter" cmphy:species="hominis" cmphy:strain="DSM 7083T" cmphy:id="X91034" editRecord="[]">Dermabacter hominis DSM 7083T (X91034)</otu>
+  <otu id="otu2">B. zhongshanense JBT (EF125186)</otu>
+  <otu id="otu3">B. sacelli LMG 20345T (AJ415384)</otu>
+  <otu id="otu4">B. muris DSM 15460T (AJ537574)</otu>
+  <otu id="otu5">B. nesterenkovii DSM 9573T (X91033)</otu>
+  <otu id="otu6">B. fresconis LMG 203367 (AJ415378)</otu>
+  <otu id="otu7">B. rhamnosum LMG 19848T (AJ415376)</otu>
+  <otu id="otu8">B. alimentarium LMG 19551T (X91031)</otu>
+  <otu id="otu9">1B. arcticum' Lact 5.2 (AF434185)</otu>
+  <otu id="otu10">B. paraconglomeratum LMG 198617 (AJ415377)</otu>
+  <otu id="otu11">B. tyrofermentans LMG 19552T (X91657)</otu>
+  <otu id="otu12">B. faecium DSM 48107 (X83810)</otu>
+  <otu id="otu13">B. conglomeratum DSM 10241T (X91030)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="165.0" y="895.0" otu="otu1"/>
+   <node id="NT1.25" label="NT1.25" x="14.0" y="780.0" root="true"/>
+   <edge id="e.13" source="NT1.25" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

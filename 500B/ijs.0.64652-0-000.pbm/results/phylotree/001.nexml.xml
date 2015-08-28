@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 11775T" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 11775T (X80725)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Paenibacillus" cmphy:species="illinoisensis" cmphy:strain="DSM 11733T" cmphy:id="D85397" editRecord="[]">Paenibacillus illinoisensis DSM 11733T (D85397)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="massiliensis" cmphy:strain="CIP 107935-JT" cmphy:id="AYB23608" editRecord="[3__B]">Paenibacillus massiliensis CIP 107935-JT (AY323608)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Strain JH8 (DQ358724)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13">Strain JT34 (DQ358726)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16">Strain JH95 (DQ358727)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="467.0" y="696.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="497.0" y="634.0"/>
+   <node id="NT1.22" label="NT1.22" x="595.0" y="616.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="598.0" y="656.0" otu="otu8"/>
+   <node id="NT1.37" label="NT1.37" x="3.0" y="594.0" root="true"/>
+   <edge id="e.11" source="NT1.5" target="NT1.22"/>
+   <edge id="e.12" source="NT1.5" target="NT1.23"/>
+   <edge id="e.27" target="NT1.5" source="NT1.37"/>
+   <edge id="e.28" source="NT1.37" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

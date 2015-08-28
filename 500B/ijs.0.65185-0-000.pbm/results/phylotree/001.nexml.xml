@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Phyllobacterium" cmphy:species="myrsinacearum" cmphy:strain="IAM 13584T" cmphy:id="D12789" editRecord="[]">Phyllobacterium myrsinacearum IAM 13584T (D12789)</otu>
+  <otu id="otu2" cmphy:genus="Devosia" cmphy:species="insulae" cmphy:strain="DS-567" cmphy:id="EFO12357" editRecord="[]"> Devosia insulae DS-567 (EFO12357)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Devosia" cmphy:species="ginsengisolf" cmphy:strain="Gsoil 326" cmphy:id="ABZ71045" editRecord="[2__Z]"> Devosia ginsengisolf Gsoil 326 (AB271045)</otu>
+  <otu id="otu4">Devosia terrae' DCY11 (EF067859)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Devosia" cmphy:species="subaequoris" cmphy:strain="HST3-147" cmphy:id="AMZ93857" editRecord="[2__Z]"> Devosia subaequoris HST3-147 (AM293857)</otu>
+  <otu id="otu6" cmphy:genus="Devosia" cmphy:species="neptuniae" cmphy:strain="J17" cmphy:id="AF469072" editRecord="[]">Devosia neptuniae J17 (AF469072)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Devosia" cmphy:species="limi" cmphy:strain="LMG 22951T" cmphy:id="AJ786801" editRecord="[]">Devosia limi LMG 22951T (AJ786801)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Candidatus Devosia euplotis' LIV5 (AJ548825)</otu>
+  <otu id="otu12" cmphy:genus="Methylobacterium" cmphy:species="organophilum" cmphy:strain="JCM 2833T" cmphy:id="D32226" editRecord="[]">Methylobacterium organophilum JCM 2833T (D32226)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="9.0" y="526.0"/>
+   <node id="NT1.3" label="NT1.3" x="100.0" y="335.0"/>
+   <node id="NT1.5" label="NT1.5" x="141.0" y="163.0"/>
+   <node id="NT1.7" label="NT1.7" x="163.0" y="419.0"/>
+   <node id="NT1.8" label="NT1.8" x="166.0" y="553.0" otu="otu1"/>
+   <node id="NT1.9" x="167.0" y="83.0" label="96"/>
+   <node id="NT1.10" label="NT1.10" x="174.0" y="446.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="186.0" y="392.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="205.0" y="284.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="223.0" y="123.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="233.0" y="69.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="354.0" y="607.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="8.0" y="566.0" root="true"/>
+   <edge id="e.1" target="NT1.18" source="NT1.9"/>
+   <edge id="e.2" source="NT1.9" target="NT1.16"/>
+   <edge id="e.3" target="NT1.15" source="NT1.5"/>
+   <edge id="e.7" source="NT1.7" target="NT1.12"/>
+   <edge id="e.10" source="NT1.5" target="NT1.9"/>
+   <edge id="e.11" target="NT1.5" source="NT1.3"/>
+   <edge id="e.15" source="NT1.1" target="NT1.3"/>
+   <edge id="e.16" source="NT1.3" target="NT1.7"/>
+   <edge id="e.18" source="NT1.23" target="NT1.22"/>
+   <edge id="e.19" source="NT1.23" target="NT1.1"/>
+   <edge id="e.20" target="NT1.8" source="NT1.1"/>
+   <edge id="e.21" source="NT1.7" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Thermoleophilum" cmphy:species="album" cmphy:strain="ATCC 35263T" cmphy:id="AJ458462" editRecord="[]">Thermoleophilum album ATCC 35263T (AJ458462)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Solirubrobacter" cmphy:species="soli" cmphy:strain="Gsoil 355T" cmphy:id="ABZ45334" editRecord="[2__Z]">Solirubrobacter soli Gsoil 355T (AB245334)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Solirubrobacter" cmphy:species="pauli" cmphy:strain="B33D1T" cmphy:id="AYO39806" editRecord="[0__O]">Solirubrobacter pauli B33D1T (AY039806)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Patulibacter" cmphy:species="minatonensis" cmphy:strain="KV-614T" cmphy:id="ABI93261" editRecord="[1__I]">Patulibacter minatonensis KV-614T (AB193261)</otu>
+  <otu id="otu5" cmphy:genus="Conexibacter" cmphy:species="woesei" cmphy:strain="DSM 146847" cmphy:id="AJ440237" editRecord="[]">Conexibacter woesei DSM 146847 (AJ440237)</otu>
+  <otu id="otu6">Micrococcus Iuteus IFO 162507 (AB023371)</otu>
+  <otu id="otu7" cmphy:genus="Rubrobacter" cmphy:species="radiotolerans" cmphy:strain="DSM 58687" cmphy:id="X98372" editRecord="[]">Rubrobacter radiotolerans DSM 58687 (X98372)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="47.0" y="183.0"/>
+   <node id="NT1.2" label="NT1.2" x="87.0" y="135.0"/>
+   <node id="NT1.3" x="166.0" y="94.0" label="100"/>
+   <node id="NT1.4" x="191.0" y="69.0" label="87"/>
+   <node id="NT1.5" x="244.0" y="36.0" label="100"/>
+   <node id="NT1.6" label="NT1.6" x="270.0" y="164.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="276.0" y="53.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="283.0" y="18.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="288.0" y="124.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="296.0" y="89.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="333.0" y="240.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="385.0" y="203.0" otu="otu7"/>
+   <edge source="NT1.8" target="NT1.5" id="e.0"/>
+   <edge source="NT1.7" target="NT1.5" id="e.1"/>
+   <edge source="NT1.10" target="NT1.4" id="e.2"/>
+   <edge source="NT1.9" target="NT1.3" id="e.3"/>
+   <edge source="NT1.12" target="NT1.1" id="e.4"/>
+   <edge source="NT1.11" target="NT1.1" id="e.5"/>
+   <edge source="NT1.5" target="NT1.4" id="e.6"/>
+   <edge source="NT1.4" target="NT1.3" id="e.7"/>
+   <edge source="NT1.3" target="NT1.2" id="e.8"/>
+   <edge source="NT1.2" target="NT1.1" id="e.9"/>
+   <edge source="NT1.6" target="NT1.2" id="e.10"/>
+  </tree>
+ </trees>
+</nexml>

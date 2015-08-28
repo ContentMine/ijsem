@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Desulfotalea sp. SFA4 (AJ318381)</otu>
+  <otu id="otu3">Deltaproteobacterium LacK4 (AY771929)</otu>
+  <otu id="otu4">Desulfobacterium corrodens' IS4 (AY274450)</otu>
+  <otu id="otu5">Deltaproteobacterium LacK9 (AY771933)</otu>
+  <otu id="otu6">5 )Desulfobacterium1 catecholicum DSM 3882T (AJ237602)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Desulfobulbus" cmphy:species="propionicus" cmphy:strain="DSM 2O32T" cmphy:id="AYS48789" editRecord="[5__S]">Desulfobulbus propionicus DSM 2O32T (AY548789)</otu>
+  <otu id="otu8">Desulforhopalus singaporensis Spore T17 (AF1 18453)</otu>
+  <otu id="otu9">Desulfopila aestuarii MS L867 (AB1 10542)</otu>
+  <otu id="otu10">Strain MSL53 (AB110538)</otu>
+  <otu id="otu11" cmphy:genus="Desulfotalea" cmphy:species="arctica" cmphy:strain="LSv514T" cmphy:id="AFO99061" editRecord="[]">Desulfotalea arctica LSv514T (AFO99061)</otu>
+  <otu id="otu12" cmphy:genus="Desulfotalea" cmphy:species="psychrophila" cmphy:strain="LSv54T" cmphy:id="AFO99062" editRecord="[]">Desulfotalea psychrophila LSv54T (AFO99062)</otu>
+  <otu id="otu13" cmphy:genus="Desulfocapsa" cmphy:species="sulfexigens" cmphy:strain="SB164P1T" cmphy:id="Y13672" editRecord="[]">Desulfocapsa sulfexigens SB164P1T (Y13672)</otu>
+  <otu id="otu14">Desulfobacterium indolIcum DSM 3383T (AJ237607)</otu>
+  <otu id="otu15" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 117757" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 117757 (X80725)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Desulfosarcina" cmphy:species="cetonica" cmphy:strain="DSM 7267T" cmphy:id="AJZ37603" editRecord="[2__Z]">Desulfosarcina cetonica DSM 7267T (AJ237603)</otu>
+  <otu id="otu17" cmphy:genus="Desulforhopalus" cmphy:species="vacuolatus" cmphy:strain="Itk 10T" cmphy:id="L42613" editRecord="[]">Desulforhopalus vacuolatus Itk 10T (L42613)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Desulfobacterium" cmphy:species="anilini" cmphy:strain="DSM 466OT" cmphy:id="AJZ37601" editRecord="[2__Z]">Desulfobacterium anilini DSM 466OT (AJ237601)</otu>
+  <otu id="otu19" cmphy:genus="Desulfobacterium" cmphy:species="vacuolatum" cmphy:strain="DSM 3385T" cmphy:id="M34408" editRecord="[]">Desulfobacterium vacuolatum DSM 3385T (M34408)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="611.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="5.0" y="611.0"/>
+   <node id="NT1.3" label="NT1.3" x="76.0" y="521.0"/>
+   <node id="NT1.4" label="NT1.4" x="127.0" y="373.0"/>
+   <node id="NT1.5" label="NT1.5" x="140.0" y="660.0"/>
+   <node id="NT1.6" label="NT1.6" x="169.0" y="713.0"/>
+   <node id="NT1.7" label="NT1.7" x="202.0" y="177.0"/>
+   <node id="NT1.9" label="NT1.9" x="213.0" y="304.0"/>
+   <node id="NT1.17" label="NT1.17" x="270.0" y="270.0"/>
+   <node id="NT1.24" label="NT1.24" x="303.0" y="566.0" otu="otu7"/>
+   <node id="NT1.28" label="NT1.28" x="321.0" y="294.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="327.0" y="250.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="329.0" y="23.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="347.0" y="794.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="358.0" y="704.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="370.0" y="386.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="383.0" y="614.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="428.0" y="749.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.4" target="NT1.24"/>
+   <edge id="e.3" source="NT1.4" target="NT1.7"/>
+   <edge id="e.4" source="NT1.7" target="NT1.9"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" target="NT1.17" source="NT1.9"/>
+   <edge id="e.14" source="NT1.2" target="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.5"/>
+   <edge id="e.16" source="NT1.5" target="NT1.6"/>
+   <edge id="e.18" source="NT1.2" target="NT1.32"/>
+   <edge id="e.19" source="NT1.5" target="NT1.35"/>
+   <edge id="e.21" source="NT1.6" target="NT1.36"/>
+   <edge id="e.26" target="NT1.33" source="NT1.6"/>
+   <edge id="e.27" target="NT1.30" source="NT1.7"/>
+   <edge id="e.30" source="NT1.17" target="NT1.28"/>
+   <edge id="e.31" target="NT1.34" source="NT1.9"/>
+   <edge id="e.32" source="NT1.17" target="NT1.29"/>
+  </tree>
+ </trees>
+</nexml>

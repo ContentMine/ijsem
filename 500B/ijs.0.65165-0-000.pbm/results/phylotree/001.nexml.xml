@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Algibacter" cmphy:species="lectus" cmphy:strain="KMM 39027" cmphy:id="AYI87689" editRecord="[1__I]">Algibacter lectus KMM 39027 (AY187689)</otu>
+  <otu id="otu2">Algibacterlectus KMM 3914 (AY187690)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="thalassocola" cmphy:strain="KMM 39O7T" cmphy:id="AYS21223" editRecord="[5__S]"> Winogradskyella thalassocola KMM 39O7T (AY521223)</otu>
+  <otu id="otu4" cmphy:genus="Bizionia" cmphy:species="paragorgiae" cmphy:strain="KMM 6029T" cmphy:id="AY651070" editRecord="[]"> Bizionia paragorgiae KMM 6029T (AY651070)</otu>
+  <otu id="otu5" cmphy:genus="Bizionia" cmphy:species="saleffrena" cmphy:strain="HFDT" cmphy:id="AY694005" editRecord="[]"> Bizionia saleffrena HFDT (AY694005)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Formosa" cmphy:species="agariphila" cmphy:strain="KMM 3901T" cmphy:id="AYI87688" editRecord="[1__I]">Formosa agariphila KMM 3901T (AY187688)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="eximia" cmphy:strain="KMM 3944T" cmphy:id="AYS21225" editRecord="[5__S]"> Winogradskyella eximia KMM 3944T (AY521225)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Mariniflexile" cmphy:species="gromovii" cmphy:strain="KMM 6O38T" cmphy:id="DQB12294" editRecord="[3__B]">Mariniflexile gromovii KMM 6O38T (DQ312294)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="epiphytica" cmphy:strain="KMM 39O6T" cmphy:id="AYS21224" editRecord="[5__S]">Winogradskyella epiphytica KMM 39O6T (AY521224)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 3553T" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 3553T (AY228461)</otu>
+  <otu id="otu11" cmphy:genus="Bizionia" cmphy:species="algoritergicola" cmphy:strain="APA-1T" cmphy:id="AY694003" editRecord="[]"> Bizionia algoritergicola APA-1T (AY694003)</otu>
+  <otu id="otu12">Algibacter mikhailo vii KMM 6171T (AM491809)</otu>
+  <otu id="otu13" cmphy:edit="[8__B]" cmphy:genus="Winogradskyella" cmphy:species="poriferorum" cmphy:strain="UST030701-295T" cmphy:id="AYB48823" editRecord="[8__B]">Winogradskyella poriferorum UST030701-295T (AY848823)</otu>
+  <otu id="otu14" cmphy:genus="Bizioma" cmphy:species="gelidisalsuginis" cmphy:strain="IC164T" cmphy:id="AY694004" editRecord="[]"> Bizioma gelidisalsuginis IC164T (AY694004)</otu>
+  <otu id="otu15" cmphy:genus="Bizionia" cmphy:species="myxarmorum" cmphy:strain="ADA-4T" cmphy:id="AY694002" editRecord="[]"> Bizionia myxarmorum ADA-4T (AY694002)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="37.0" y="196.0"/>
+   <node id="NT1.2" label="NT1.2" x="44.0" y="895.0"/>
+   <node id="NT1.3" label="NT1.3" x="72.0" y="1228.0"/>
+   <node id="NT1.4" label="NT1.4" x="95.0" y="279.0"/>
+   <node id="NT1.5" label="NT1.5" x="96.0" y="565.0"/>
+   <node id="NT1.6" label="NT1.6" x="99.0" y="350.0"/>
+   <node id="NT1.7" label="NT1.7" x="99.0" y="1039.0"/>
+   <node id="NT1.8" x="129.0" y="1109.0" label="100"/>
+   <node id="NT1.9" label="NT1.9" x="144.0" y="635.0"/>
+   <node id="NT1.10" label="NT1.10" x="144.0" y="826.0"/>
+   <node id="NT1.11" label="NT1.11" x="154.0" y="1299.0"/>
+   <node id="NT1.12" label="NT1.12" x="155.0" y="683.0" otu="otu1"/>
+   <node id="NT1.13" label="NT1.13" x="158.0" y="588.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="167.0" y="303.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="167.0" y="967.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="170.0" y="1062.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="184.0" y="777.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="188.0" y="399.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="193.0" y="19.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="194.0" y="209.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="195.0" y="873.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="197.0" y="1252.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="198.0" y="493.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="204.0" y="113.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="206.0" y="1157.0" otu="otu14"/>
+   <node id="NT1.26" label="NT1.26" x="225.0" y="1347.0" otu="otu15"/>
+   <edge source="NT1.24" target="NT1.1" id="e.0"/>
+   <edge source="NT1.20" target="NT1.4" id="e.1"/>
+   <edge source="NT1.14" target="NT1.6" id="e.2"/>
+   <edge source="NT1.18" target="NT1.6" id="e.3"/>
+   <edge source="NT1.12" target="NT1.9" id="e.4"/>
+   <edge source="NT1.23" target="NT1.5" id="e.5"/>
+   <edge source="NT1.13" target="NT1.9" id="e.6"/>
+   <edge source="NT1.17" target="NT1.10" id="e.7"/>
+   <edge source="NT1.21" target="NT1.10" id="e.8"/>
+   <edge source="NT1.15" target="NT1.7" id="e.9"/>
+   <edge source="NT1.22" target="NT1.11" id="e.10"/>
+   <edge source="NT1.26" target="NT1.11" id="e.11"/>
+   <edge source="NT1.16" target="NT1.8" id="e.12"/>
+   <edge source="NT1.25" target="NT1.8" id="e.13"/>
+   <edge source="NT1.1" target="NT1.2" id="e.14"/>
+   <edge source="NT1.1" target="NT1.4" id="e.15"/>
+   <edge source="NT1.4" target="NT1.6" id="e.16"/>
+   <edge source="NT1.2" target="NT1.5" id="e.17"/>
+   <edge source="NT1.2" target="NT1.10" id="e.18"/>
+   <edge source="NT1.2" target="NT1.3" id="e.19"/>
+   <edge source="NT1.5" target="NT1.9" id="e.20"/>
+   <edge source="NT1.3" target="NT1.7" id="e.21"/>
+   <edge source="NT1.3" target="NT1.11" id="e.22"/>
+   <edge source="NT1.7" target="NT1.8" id="e.23"/>
+   <edge source="NT1.19" target="NT1.1" id="e.24"/>
+  </tree>
+ </trees>
+</nexml>

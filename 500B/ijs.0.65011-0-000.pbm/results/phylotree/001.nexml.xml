@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">I'lavolJaclerizm1uquazile ATCC 1947"' (M62797)</otu>
+  <otu id="otu2">11alZ.s'c0mer1obacIeI' hydrossis ATCC 277751 (M58790)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Flexibucfer" cmphy:species="raseulus" cmphy:strain="lFO l6707T" cmphy:id="ABO78063" editRecord="[0__O]">Flexibucfer raseulus lFO l6707T (AB078063)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">Saprmpira grandix ATC C 231 l9T (V158795)</otu>
+  <otu id="otu7">(lhiIinophugu.s'anc1i IFO 150577 (AB078066)</otu>
+  <otu id="otu8">Ch1'fiIwp1'1aga arverI.vicalu IAM 126507 (Dl2657)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Uncultured" cmphy:species="bacterial" cmphy:strain="AK1W428" cmphy:id="DQI29288" editRecord="[1__I]">Uncultured bacterial AK1W428 (DQ129288)</otu>
+  <otu id="otu12">Uncultured bacterial clone AKYG539 (AY92l817)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Fltlvimlibllcier" cmphy:species="gilmengiterrue" cmphy:strain="Gsoil 492T" cmphy:id="ABZ67476" editRecord="[2__Z]">Fltlvimlibllcier gilmengiterrue Gsoil 492T (AB267476)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Flavisolilzacter" cmphy:species="ginsengisoli" cmphy:strain="Gsoil 6437" cmphy:id="ABZ67477" editRecord="[2__Z]">Flavisolilzacter ginsengisoli Gsoil 6437 (AB267477)</otu>
+  <otu id="otu15" cmphy:edit="[8__B]" cmphy:genus="Uncultured" cmphy:species="bacterial" cmphy:strain="clone 28Rl-ll-748" cmphy:id="AJB63367" editRecord="[8__B]">Uncultured bacterial clone 28Rl-ll-748 (AJ863367)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Uncultured" cmphy:species="bacterial" cmphy:strain="clone E26" cmphy:id="AMO85477" editRecord="[0__O]">Uncultured bacterial clone E26 (AM085477)</otu>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Uncultured" cmphy:species="bacterial" cmphy:strain="clone AK1W709" cmphy:id="DQI29647" editRecord="[1__I]">Uncultured bacterial clone AK1W709 (DQ129647)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">7) iuxtclla lmreeI1.s'fs GR20-101 (DQ244077)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:edit="[1__I]" cmphy:genus="Terrinznnax" cmphy:species="lutea" cmphy:strain="DYT" cmphy:id="ABI92292" editRecord="[1__I]">Terrinznnax lutea DYT (AB192292)</otu>
+  <otu id="otu25"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="162.0" y="588.0"/>
+   <node id="NT1.11" label="NT1.11" x="531.0" y="212.0"/>
+   <node id="NT1.13" label="NT1.13" x="544.0" y="127.0"/>
+   <node id="NT1.16" label="NT1.16" x="581.0" y="170.0"/>
+   <node id="NT1.19" label="NT1.19" x="596.0" y="681.0" otu="otu3"/>
+   <node id="NT1.24" x="626.0" y="61.0" label="100"/>
+   <node id="NT1.25" x="633.0" y="348.0" label="32"/>
+   <node id="NT1.32" x="663.0" y="32.0" label="100"/>
+   <node id="NT1.33" label="NT1.33" x="664.0" y="142.0" otu="otu11"/>
+   <node id="NT1.35" label="NT1.35" x="669.0" y="17.0" otu="otu13"/>
+   <node id="NT1.36" label="NT1.36" x="671.0" y="48.0" otu="otu14"/>
+   <node id="NT1.38" label="NT1.38" x="675.0" y="365.0" otu="otu15"/>
+   <node id="NT1.40" label="NT1.40" x="688.0" y="174.0" otu="otu17"/>
+   <node id="NT1.41" label="NT1.41" x="690.0" y="80.0" otu="otu18"/>
+   <node id="NT1.47" label="NT1.47" x="703.0" y="333.0" otu="otu24"/>
+   <node id="NT1.49" label="NT1.49" x="8.0" y="682.0" root="true"/>
+   <edge id="e.0" source="NT1.32" target="NT1.35"/>
+   <edge id="e.1" source="NT1.32" target="NT1.36"/>
+   <edge id="e.2" source="NT1.24" target="NT1.41"/>
+   <edge id="e.4" source="NT1.16" target="NT1.33"/>
+   <edge id="e.5" target="NT1.40" source="NT1.16"/>
+   <edge id="e.9" source="NT1.25" target="NT1.38"/>
+   <edge id="e.11" source="NT1.25" target="NT1.47"/>
+   <edge id="e.20" target="NT1.19" source="NT1.1"/>
+   <edge id="e.22" source="NT1.24" target="NT1.32"/>
+   <edge id="e.23" target="NT1.24" source="NT1.13"/>
+   <edge id="e.25" source="NT1.11" target="NT1.13"/>
+   <edge id="e.26" source="NT1.13" target="NT1.16"/>
+   <edge id="e.28" target="NT1.11" source="NT1.1"/>
+   <edge id="e.32" target="NT1.25" source="NT1.11"/>
+   <edge id="e.45" source="NT1.49" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

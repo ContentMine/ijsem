@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Rheinheimera" cmphy:species="baltica" cmphy:strain="OSBAC5" cmphy:id="AJ441082" editRecord="[]">Rheinheimera baltica OSBAC5 (AJ441082)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Rheinheimera" cmphy:species="baltica" cmphy:strain="OS140" cmphy:id="AJO02008" editRecord="[0__O]">Rheinheimera baltica OS140 (AJ002008)</otu>
+  <otu id="otu3" cmphy:genus="Rheinheimera" cmphy:species="baltica" cmphy:strain="OSBAC1T" cmphy:id="AJ441080" editRecord="[]">Rheinheimera baltica OSBAC1T (AJ441080)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Rheinheimera" cmphy:species="pacifica" cmphy:strain="KMM 1406T" cmphy:id="ABO73132" editRecord="[0__O]">Rheinheimera pacifica KMM 1406T (AB073132)</otu>
+  <otu id="otu5">Rheinheimera perlucida BA1 317 (AM 1 83347)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Rheinheimera" cmphy:species="chironomi" cmphy:strain="K19414&quot;'" cmphy:id="DQZ98025" editRecord="[2__Z]">Rheinheimera chironomi K19414"' (DQ298025)</otu>
+  <otu id="otu7">Alishewane-Ila fetaIIs CCUG 308117 (AF144407)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Brenneria" cmphy:species="salicis" cmphy:strain="DSM 30166T" cmphy:id="AJZ33419" editRecord="[2__Z]">Brenneria salicis DSM 30166T (AJ233419)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Colwellia" cmphy:species="piezophila" cmphy:strain="Y223GT" cmphy:id="ABO94412" editRecord="[0__O]">Colwellia piezophila Y223GT (AB094412)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="74.0" y="255.0"/>
+   <node id="NT1.2" label="NT1.2" x="335.0" y="145.0"/>
+   <node id="NT1.4" label="NT1.4" x="391.0" y="183.0"/>
+   <node id="NT1.6" label="NT1.6" x="454.0" y="52.0"/>
+   <node id="NT1.7" label="NT1.7" x="455.0" y="14.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="456.0" y="64.0"/>
+   <node id="NT1.9" label="NT1.9" x="461.0" y="64.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="464.0" y="112.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="500.0" y="206.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="521.0" y="159.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="604.0" y="349.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="604.0" y="397.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="6.0" y="326.0" root="true"/>
+   <edge id="e.0" source="NT1.6" target="NT1.7"/>
+   <edge id="e.1" source="NT1.8" target="NT1.9"/>
+   <edge id="e.2" source="NT1.4" target="NT1.11"/>
+   <edge id="e.4" source="NT1.1" target="NT1.15"/>
+   <edge id="e.5" source="NT1.2" target="NT1.6"/>
+   <edge id="e.6" source="NT1.6" target="NT1.8"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.4" source="NT1.2"/>
+   <edge id="e.11" source="NT1.17" target="NT1.1"/>
+   <edge id="e.12" source="NT1.17" target="NT1.16"/>
+   <edge id="e.14" source="NT1.4" target="NT1.13"/>
+   <edge id="e.15" source="NT1.8" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

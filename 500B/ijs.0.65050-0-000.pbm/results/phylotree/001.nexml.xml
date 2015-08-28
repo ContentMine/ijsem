@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Loktanella maricola sp. nov. DSW-18T (EF2o2613)</otu>
+  <otu id="otu6" cmphy:genus="Loktanella" cmphy:species="rosea" cmphy:strain="Fg36T" cmphy:id="AY682199" editRecord="[]">Loktanella rosea Fg36T (AY682199)</otu>
+  <otu id="otu7" cmphy:genus="Jannaschia" cmphy:species="helgolandensis" cmphy:strain="Hel 1OT" cmphy:id="AJ438157" editRecord="[]">Jannaschia helgolandensis Hel 1OT (AJ438157)</otu>
+  <otu id="otu8" cmphy:genus="Thalassobacter" cmphy:species="stenotrophicus" cmphy:strain="CECT 5294T" cmphy:id="AJ631302" editRecord="[]">Thalassobacter stenotrophicus CECT 5294T (AJ631302)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Sulmobacter" cmphy:species="pontiacus" cmphy:strain="ChLG 10T" cmphy:id="Y13155" editRecord="[]">Sulmobacter pontiacus ChLG 10T (Y13155)</otu>
+  <otu id="otu11" cmphy:genus="Loktanella" cmphy:species="agnita" cmphy:strain="R10sW5T" cmphy:id="AY682198" editRecord="[]">Loktanella agnita R10sW5T (AY682198)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Loktanella" cmphy:species="koreensis" cmphy:strain="GA2-M3T" cmphy:id="DQB44498" editRecord="[3__B]">Loktanella koreensis GA2-M3T (DQ344498)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Loktanella" cmphy:species="vestfoldensis" cmphy:strain="LMG 22O03T" cmphy:id="AJS82226" editRecord="[5__S]">Loktanella vestfoldensis LMG 22O03T (AJ582226)</otu>
+  <otu id="otu14" cmphy:genus="Staleya" cmphy:species="guttiformis" cmphy:strain="EL-38T" cmphy:id="Y16427" editRecord="[]">Staleya guttiformis EL-38T (Y16427)</otu>
+  <otu id="otu15">Roseobacter Iitoralis ATCC 495667 (X78312)</otu>
+  <otu id="otu16" cmphy:genus="Loktanella" cmphy:species="salsilacus" cmphy:strain="LMG 21507T" cmphy:id="AJ440997" editRecord="[]">Loktanella salsilacus LMG 21507T (AJ440997)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Loktanella" cmphy:species="fryxellensis" cmphy:strain="LMG 22OO7T" cmphy:id="AJS82225" editRecord="[5__S]">Loktanella fryxellensis LMG 22OO7T (AJ582225)</otu>
+  <otu id="otu18" cmphy:genus="Loktanella" cmphy:species="hongkongensis" cmphy:strain="UST9507O1-009PT" cmphy:id="AY600300" editRecord="[]">Loktanella hongkongensis UST9507O1-009PT (AY600300)</otu>
+  <otu id="otu19">Antarctobacter heliothermus EL-219T (Y1 1552)</otu>
+  <otu id="otu20" cmphy:genus="Stappia" cmphy:species="stellulata" cmphy:strain="IAM 12621T" cmphy:id="D88525" editRecord="[]">Stappia stellulata IAM 12621T (D88525)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="41.0" y="417.0"/>
+   <node id="NT1.2" label="NT1.2" x="47.0" y="417.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="76.0" y="515.0"/>
+   <node id="NT1.4" label="NT1.4" x="99.0" y="265.0"/>
+   <node id="NT1.5" label="NT1.5" x="112.0" y="517.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="151.0" y="95.0"/>
+   <node id="NT1.7" label="NT1.7" x="159.0" y="400.0"/>
+   <node id="NT1.8" label="NT1.8" x="166.0" y="361.0"/>
+   <node id="NT1.9" label="NT1.9" x="187.0" y="153.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="197.0" y="234.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="237.0" y="214.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="241.0" y="254.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="244.0" y="535.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="248.0" y="495.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="255.0" y="35.0"/>
+   <node id="NT1.16" label="NT1.16" x="257.0" y="33.0"/>
+   <node id="NT1.17" label="NT1.17" x="262.0" y="33.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="262.0" y="375.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="266.0" y="134.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="268.0" y="295.0" otu="otu12"/>
+   <node id="NT1.21" label="NT1.21" x="269.0" y="174.0" otu="otu13"/>
+   <node id="NT1.22" label="NT1.22" x="278.0" y="415.0" otu="otu14"/>
+   <node id="NT1.23" label="NT1.23" x="286.0" y="335.0" otu="otu15"/>
+   <node id="NT1.24" label="NT1.24" x="301.0" y="14.0" otu="otu16"/>
+   <node id="NT1.25" label="NT1.25" x="304.0" y="54.0" otu="otu17"/>
+   <node id="NT1.26" label="NT1.26" x="328.0" y="94.0" otu="otu18"/>
+   <node id="NT1.27" label="NT1.27" x="359.0" y="455.0" otu="otu19"/>
+   <node id="NT1.28" label="NT1.28" x="586.0" y="575.0" otu="otu20"/>
+   <edge source="NT1.17" target="NT1.16" id="e.0"/>
+   <edge source="NT1.9" target="NT1.6" id="e.1"/>
+   <edge source="NT1.26" target="NT1.6" id="e.2"/>
+   <edge source="NT1.19" target="NT1.6" id="e.3"/>
+   <edge source="NT1.10" target="NT1.4" id="e.4"/>
+   <edge source="NT1.11" target="NT1.4" id="e.5"/>
+   <edge source="NT1.2" target="NT1.1" id="e.6"/>
+   <edge source="NT1.5" target="NT1.3" id="e.7"/>
+   <edge source="NT1.18" target="NT1.8" id="e.8"/>
+   <edge source="NT1.22" target="NT1.7" id="e.9"/>
+   <edge source="NT1.23" target="NT1.8" id="e.10"/>
+   <edge source="NT1.14" target="NT1.3" id="e.11"/>
+   <edge source="NT1.15" target="NT1.16" id="e.12"/>
+   <edge source="NT1.15" target="NT1.6" id="e.13"/>
+   <edge source="NT1.6" target="NT1.4" id="e.14"/>
+   <edge source="NT1.4" target="NT1.1" id="e.15"/>
+   <edge source="NT1.4" target="NT1.7" id="e.16"/>
+   <edge source="NT1.1" target="NT1.3" id="e.17"/>
+   <edge source="NT1.7" target="NT1.8" id="e.18"/>
+   <edge source="NT1.28" target="NT1.1" id="e.19"/>
+   <edge source="NT1.13" target="NT1.3" id="e.20"/>
+   <edge source="NT1.27" target="NT1.4" id="e.21"/>
+   <edge source="NT1.21" target="NT1.6" id="e.22"/>
+   <edge source="NT1.20" target="NT1.4" id="e.23"/>
+   <edge source="NT1.12" target="NT1.4" id="e.24"/>
+   <edge source="NT1.24" target="NT1.16" id="e.25"/>
+   <edge source="NT1.25" target="NT1.15" id="e.26"/>
+  </tree>
+ </trees>
+</nexml>

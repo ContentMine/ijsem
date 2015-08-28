@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Methylopila capsulata IM 1 T (AF004844)</otu>
+  <otu id="otu2">Methylobacterium organophilum JCM 2833T</otu>
+  <otu id="otu3">AlbobactermethylovoransDM1OT</otu>
+  <otu id="otu4">MethylosinustrichosporiumOB3bT (M29024)</otu>
+  <otu id="otu5">Methylobacterium aminovoransCcM 4612 T (AJ851o86)</otu>
+  <otu id="otu6">Methylobacterium popuIiBJO01T</otu>
+  <otu id="otu7">Methylobacterium extorquensJCM 2802T</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Methylorhabdus" cmphy:species="multivorans" cmphy:strain="DM13T" cmphy:id="AFO04845" editRecord="[0__O]">Methylorhabdus multivorans DM13T (AF004845)</otu>
+  <otu id="otu9">MP2 (EF015479)</otu>
+  <otu id="otu10">Methylobacterium suomiense</otu>
+  <otu id="otu11">Methylobacterium adhaesivum AR27T</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Methylobacteriurn" cmphy:species="thiocyanatum" cmphy:strain="ALLISCN-PT" cmphy:id="U58018" editRecord="[]">Methylobacteriurn thiocyanatum ALLISCN-PT (U58018)</otu>
+  <otu id="otu14">Methylobacterium rhodesianum JCM 281 OT (D32228)</otu>
+  <otu id="otu15">Methylobacterium rhodinum JCM 2811 T (D32229)</otu>
+  <otu id="otu16">Methylobacterium fujisawaense DSM 5686T</otu>
+  <otu id="otu17" cmphy:genus="Methylobacterium" cmphy:species="oryzae" cmphy:strain="CBMB20T" cmphy:id="AY683045" editRecord="[]">Methylobacterium oryzae CBMB20T (AY683045)</otu>
+  <otu id="otu18">MRT</otu>
+  <otu id="otu19">Methylobacterium radiotoIeransJCM 2831 T (D32227)</otu>
+  <otu id="otu20" cmphy:edit="[2__Z]" cmphy:genus="Methylobacterium" cmphy:species="dichloromethanicum" cmphy:strain="DM4T" cmphy:id="AFZ27128" editRecord="[2__Z]">Methylobacterium dichloromethanicum DM4T (AF227128)</otu>
+  <otu id="otu21">MP1 (EF015477)</otu>
+  <otu id="otu22" cmphy:genus="Methylobacterium" cmphy:species="mesophilicum" cmphy:strain="JCM 2829T" cmphy:id="D32225" editRecord="[]">Methylobacterium mesophilicum JCM 2829T (D32225)</otu>
+  <otu id="otu23">Methylobacterium variabiIeGR3T (AJ851087)</otu>
+  <otu id="otu24">Methylobacterium Iusitanum RXMT (AY009403)</otu>
+  <otu id="otu25" cmphy:genus="Methylobacterium" cmphy:species="aquaticum" cmphy:strain="GR16T" cmphy:id="AJ635303" editRecord="[]">Methylobacterium aquaticum GR16T (AJ635303)</otu>
+  <otu id="otu26">Methylobacterium chloromethanicumCM4T (AF198624)</otu>
+  <otu id="otu27"/>
+  <otu id="otu28">Methylobacterium hispanicum GP34T</otu>
+  <otu id="otu29" cmphy:genus="Methylocystis" cmphy:species="parvus" cmphy:strain="OBBP T" cmphy:id="M29026" editRecord="[]">Methylocystis parvus OBBP T (M29026)</otu>
+  <otu id="otu30">Methylobacterium noduIansORS 2060T (AF220763)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="134.0" y="980.0"/>
+   <node id="NT1.5" label="NT1.5" x="446.0" y="794.0"/>
+   <node id="NT1.9" label="NT1.9" x="489.0" y="600.0"/>
+   <node id="NT1.11" label="NT1.11" x="534.0" y="463.0"/>
+   <node id="NT1.21" label="NT1.21" x="591.0" y="979.0"/>
+   <node id="NT1.30" label="NT1.30" x="622.0" y="1168.0" otu="otu8"/>
+   <node id="NT1.35" label="NT1.35" x="646.0" y="152.0" otu="otu13"/>
+   <node id="NT1.41" label="NT1.41" x="667.0" y="1121.0" otu="otu17"/>
+   <node id="NT1.45" label="NT1.45" x="676.0" y="522.0" otu="otu20"/>
+   <node id="NT1.47" label="NT1.47" x="685.0" y="935.0" otu="otu22"/>
+   <node id="NT1.51" label="NT1.51" x="735.0" y="613.0" otu="otu25"/>
+   <node id="NT1.55" label="NT1.55" x="827.0" y="1305.0" otu="otu29"/>
+   <node id="NT1.57" label="NT1.57" x="3.0" y="1217.0" root="true"/>
+   <edge id="e.3" target="NT1.35" source="NT1.11"/>
+   <edge id="e.10" source="NT1.11" target="NT1.45"/>
+   <edge id="e.14" target="NT1.51" source="NT1.9"/>
+   <edge id="e.17" source="NT1.21" target="NT1.47"/>
+   <edge id="e.21" target="NT1.41" source="NT1.21"/>
+   <edge id="e.22" source="NT1.2" target="NT1.30"/>
+   <edge id="e.25" target="NT1.55" source="NT1.57"/>
+   <edge id="e.34" target="NT1.11" source="NT1.9"/>
+   <edge id="e.36" target="NT1.9" source="NT1.5"/>
+   <edge id="e.41" source="NT1.2" target="NT1.5"/>
+   <edge id="e.44" target="NT1.21" source="NT1.5"/>
+   <edge id="e.48" target="NT1.2" source="NT1.57"/>
+  </tree>
+ </trees>
+</nexml>

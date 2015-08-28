@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Termite" cmphy:species="gut" cmphy:strain="clone Rs-H09" cmphy:id="ABO88910" editRecord="[0__O]">Termite gut clone Rs-H09 (AB088910)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Treponema" cmphy:species="primitia" cmphy:strain="ZAS-2T" cmphy:id="AFO93252" editRecord="[0__O]"> Treponema primitia ZAS-2T (AF093252)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Treponema" cmphy:species="azotonutricium" cmphy:strain="ZAS-97" cmphy:id="AFB20287" editRecord="[3__B]">Treponema azotonutricium ZAS-97 (AF320287)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Termite" cmphy:species="gut" cmphy:strain="clone NkS97" cmphy:id="ABO84973" editRecord="[0__O]"> Termite gut clone NkS97 (AB084973)</otu>
+  <otu id="otu5" cmphy:genus="Termite" cmphy:species="gut" cmphy:strain="clone Za29" cmphy:id="AJ419823" editRecord="[]">Termite gut clone Za29 (AJ419823)</otu>
+  <otu id="otu6" cmphy:genus="Spirochaeta" cmphy:species="coccoides" cmphy:strain="SPN1T" cmphy:id="AJ698092" editRecord="[]">Spirochaeta coccoides SPN1T (AJ698092)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Termite" cmphy:species="gut" cmphy:strain="clone NkS34" cmphy:id="ABO84961" editRecord="[]">Termite gut clone NkS34 (ABO84961)</otu>
+  <otu id="otu9" cmphy:genus="Termite" cmphy:species="gut" cmphy:strain="clone sp40_11" cmphy:id="X89048" editRecord="[]">Termite gut clone sp40_11 (X89048)</otu>
+  <otu id="otu10" cmphy:genus="Spirochaeta" cmphy:species="aurantia" cmphy:strain="ATCC 250827" cmphy:id="M57740" editRecord="[]">Spirochaeta aurantia ATCC 250827 (M57740)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Treponema" cmphy:species="isoptericolens" cmphy:strain="SPIT5T" cmphy:id="AMI82455" editRecord="[1__I]">Treponema isoptericolens SPIT5T (AM182455)</otu>
+  <otu id="otu13" cmphy:genus="Termite" cmphy:species="gut" cmphy:strain="clone HsPySp20" cmphy:id="ABO32004" editRecord="[]">Termite gut clone HsPySp20 (ABO32004)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Termite" cmphy:species="gut" cmphy:strain="clone RsDiSp3" cmphy:id="ABO32001" editRecord="[0__O]">Termite gut clone RsDiSp3 (AB032001)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Termite" cmphy:species="gut" cmphy:strain="clone RFS2" cmphy:id="AFO68429" editRecord="[0__O]">Termite gut clone RFS2 (AF068429)</otu>
+  <otu id="otu16" cmphy:genus="Treponema" cmphy:species="brennaborense" cmphy:strain="DSM 12168T" cmphy:id="Y16568" editRecord="[]">Treponema brennaborense DSM 12168T (Y16568)</otu>
+  <otu id="otu17" cmphy:genus="Treponema" cmphy:species="bryantii" cmphy:strain="RUS-1T" cmphy:id="M57737" editRecord="[]">Treponema bryantii RUS-1T (M57737)</otu>
+  <otu id="otu18" cmphy:genus="Treponema" cmphy:species="saccharophilum" cmphy:strain="ATCC 432617" cmphy:id="M71238" editRecord="[]">Treponema saccharophilum ATCC 432617 (M71238)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="42.0" y="562.0"/>
+   <node id="NT1.2" x="51.0" y="463.0" label="57"/>
+   <node id="NT1.3" x="95.0" y="335.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="137.0" y="589.0"/>
+   <node id="NT1.5" label="NT1.5" x="139.0" y="459.0"/>
+   <node id="NT1.6" x="142.0" y="210.0" label="100"/>
+   <node id="NT1.7" x="147.0" y="162.0" label="54"/>
+   <node id="NT1.8" x="154.0" y="109.0" label="52"/>
+   <node id="NT1.9" label="NT1.9" x="157.0" y="421.0"/>
+   <node id="NT1.10" label="NT1.10" x="157.0" y="559.0"/>
+   <node id="NT1.11" label="NT1.11" x="167.0" y="64.0"/>
+   <node id="NT1.13" label="NT1.13" x="167.0" y="383.0"/>
+   <node id="NT1.14" label="NT1.14" x="188.0" y="539.0" otu="otu1"/>
+   <node id="NT1.16" label="NT1.16" x="192.0" y="175.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="192.0" y="215.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="194.0" y="94.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="194.0" y="580.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="195.0" y="702.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="201.0" y="621.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="205.0" y="255.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="208.0" y="661.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="222.0" y="54.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="242.0" y="348.0"/>
+   <node id="NT1.28" x="247.0" y="318.0" label="92"/>
+   <node id="NT1.29" label="NT1.29" x="257.0" y="378.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="262.0" y="296.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="267.0" y="337.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="269.0" y="418.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="282.0" y="458.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="345.0" y="499.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="3.0" y="632.0" root="true"/>
+   <edge id="e.0" target="NT1.26" source="NT1.11"/>
+   <edge id="e.1" source="NT1.11" target="NT1.18"/>
+   <edge id="e.2" target="NT1.16" source="NT1.8"/>
+   <edge id="e.3" source="NT1.5" target="NT1.34"/>
+   <edge id="e.4" source="NT1.27" target="NT1.29"/>
+   <edge id="e.5" source="NT1.28" target="NT1.31"/>
+   <edge id="e.6" source="NT1.4" target="NT1.22"/>
+   <edge id="e.7" source="NT1.10" target="NT1.19"/>
+   <edge id="e.9" source="NT1.8" target="NT1.11"/>
+   <edge id="e.10" source="NT1.7" target="NT1.8"/>
+   <edge id="e.12" source="NT1.6" target="NT1.7"/>
+   <edge id="e.13" source="NT1.3" target="NT1.6"/>
+   <edge id="e.14" source="NT1.2" target="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.5"/>
+   <edge id="e.16" source="NT1.5" target="NT1.9"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" source="NT1.2" target="NT1.4"/>
+   <edge id="e.19" source="NT1.9" target="NT1.13"/>
+   <edge id="e.20" source="NT1.13" target="NT1.27"/>
+   <edge id="e.21" source="NT1.27" target="NT1.28"/>
+   <edge id="e.22" source="NT1.4" target="NT1.10"/>
+   <edge id="e.23" source="NT1.35" target="NT1.20"/>
+   <edge id="e.24" source="NT1.35" target="NT1.1"/>
+   <edge id="e.25" source="NT1.1" target="NT1.24"/>
+   <edge id="e.26" source="NT1.7" target="NT1.17"/>
+   <edge id="e.27" source="NT1.6" target="NT1.23"/>
+   <edge id="e.28" source="NT1.10" target="NT1.14"/>
+   <edge id="e.30" source="NT1.9" target="NT1.33"/>
+   <edge id="e.32" source="NT1.13" target="NT1.32"/>
+   <edge id="e.33" source="NT1.28" target="NT1.30"/>
+  </tree>
+ </trees>
+</nexml>

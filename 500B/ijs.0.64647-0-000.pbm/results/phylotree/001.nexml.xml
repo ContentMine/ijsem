@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Natronomonas" cmphy:species="pharaonis" cmphy:strain="JCM 88587" cmphy:id="D87971" editRecord="[]">Natronomonas pharaonis JCM 88587 (D87971)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[8__B]" cmphy:genus="Haloarcula" cmphy:species="amylolytica" cmphy:strain="BD-37 rrnc" cmphy:id="DQB54818" editRecord="[8__B]"> Haloarcula amylolytica BD-37 rrnc (DQ854818)</otu>
+  <otu id="otu4"> Haloarcula hispanica ATCC 339607 rmA (AB090167)</otu>
+  <otu id="otu5">Haloarcula quadrata 801 OSOI17 rrnB (ABO10965)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Haloarcula" cmphy:species="argentinensis" cmphy:strain="JCM 97377" cmphy:id="D50849" editRecord="[]"> Haloarcula argentinensis JCM 97377 (D50849)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Haloarcula" cmphy:species="amylolytica" cmphy:strain="BD-37 rmA" cmphy:id="DQB26512" editRecord="[8__B]">Haloarcula amylolytica BD-37 rmA (DQ826512)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"> Haloarcula quadrata 801 030117 rrnA (AB010964)</otu>
+  <otu id="otu13" cmphy:genus="Haloarcula" cmphy:species="vallismortis" cmphy:strain="NBRC 147417" cmphy:id="D50851" editRecord="[]">Haloarcula vallismortis NBRC 147417 (D50851)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Haloarcula" cmphy:species="japonica" cmphy:strain="TR-17" cmphy:id="D28872" editRecord="[]">Haloarcula japonica TR-17 (D28872)</otu>
+  <otu id="otu16" cmphy:genus="Halomicrobium" cmphy:species="mukohataei" cmphy:strain="JCM 97387" cmphy:id="D50850" editRecord="[]">Halomicrobium mukohataei JCM 97387 (D50850)</otu>
+  <otu id="otu17" cmphy:genus="Methanospirillum" cmphy:species="hungatei" cmphy:strain="DSM 8647" cmphy:id="M60880" editRecord="[]">Methanospirillum hungatei DSM 8647 (M60880)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="320.0" y="634.0"/>
+   <node id="NT1.2" x="414.0" y="545.0" label="98"/>
+   <node id="NT1.3" label="NT1.3" x="522.0" y="415.0"/>
+   <node id="NT1.5" x="589.0" y="484.0" label="99"/>
+   <node id="NT1.6" label="NT1.6" x="590.0" y="723.0" otu="otu1"/>
+   <node id="NT1.8" x="611.0" y="299.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="631.0" y="252.0"/>
+   <node id="NT1.12" label="NT1.12" x="647.0" y="534.0" otu="otu3"/>
+   <node id="NT1.21" label="NT1.21" x="666.0" y="204.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="672.0" y="299.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="685.0" y="346.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="735.0" y="439.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="767.0" y="676.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="767.0" y="769.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="2.0" y="702.0" root="true"/>
+   <edge id="e.4" target="NT1.21" source="NT1.11"/>
+   <edge id="e.6" source="NT1.11" target="NT1.22"/>
+   <edge id="e.7" source="NT1.8" target="NT1.28"/>
+   <edge id="e.10" target="NT1.12" source="NT1.5"/>
+   <edge id="e.11" source="NT1.5" target="NT1.30"/>
+   <edge id="e.14" source="NT1.2" target="NT1.31"/>
+   <edge id="e.15" source="NT1.1" target="NT1.6"/>
+   <edge id="e.21" source="NT1.8" target="NT1.11"/>
+   <edge id="e.22" target="NT1.8" source="NT1.3"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+   <edge id="e.25" source="NT1.3" target="NT1.5"/>
+   <edge id="e.28" source="NT1.1" target="NT1.2"/>
+   <edge id="e.30" source="NT1.33" target="NT1.32"/>
+   <edge id="e.31" source="NT1.33" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

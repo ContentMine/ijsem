@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Planococcus" cmphy:species="citreus" cmphy:strain="NCIMB 14937" cmphy:id="X62172" editRecord="[]">Planococcus citreus NCIMB 14937 (X62172)</otu>
+  <otu id="otu2" cmphy:genus="Halobacillus" cmphy:species="litoralis" cmphy:strain="SL-4T" cmphy:id="X94558" editRecord="[]">Halobacillus litoralis SL-4T (X94558)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Salinicoccus" cmphy:species="alkaliphilus" cmphy:strain="T87" cmphy:id="AFZ75710" editRecord="[2__Z]">Salinicoccus alkaliphilus T87 (AF275710)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Macrococcus" cmphy:species="bovicus" cmphy:strain="C2F4T" cmphy:id="Y15714" editRecord="[]">Macrococcus bovicus C2F4T (Y15714)</otu>
+  <otu id="otu7" cmphy:genus="Macrococcus" cmphy:species="carouselicus" cmphy:strain="H8b16T" cmphy:id="Y15713" editRecord="[]">Macrococcus carouselicus H8b16T (Y15713)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Jeotgalicoccus" cmphy:species="halotolerans" cmphy:strain="YKJ-1017" cmphy:id="AYO28925" editRecord="[]"> Jeotgalicoccus halotolerans YKJ-1017 (AYO28925)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Salinicocous" cmphy:species="hispanicus" cmphy:strain="DSM 5352T" cmphy:id="AYO28927" editRecord="[0__O]">Salinicocous hispanicus DSM 5352T (AY028927)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Staphylococcus" cmphy:species="carnosus" cmphy:strain="DSM 205017" cmphy:id="AFO41356" editRecord="[0__O]">Staphylococcus carnosus DSM 205017 (AF041356)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Tetragenococcus" cmphy:species="muriaticus" cmphy:strain="X-17" cmphy:id="D88824" editRecord="[]">Tetragenococcus muriaticus X-17 (D88824)</otu>
+  <otu id="otu16" cmphy:genus="Marinococcus" cmphy:species="albus" cmphy:strain="DSM 2O748T" cmphy:id="X90834" editRecord="[]">Marinococcus albus DSM 2O748T (X90834)</otu>
+  <otu id="otu17" cmphy:genus="Marinococcus" cmphy:species="halophilus" cmphy:strain="DSM 204087" cmphy:id="X90835" editRecord="[]">Marinococcus halophilus DSM 204087 (X90835)</otu>
+  <otu id="otu18" cmphy:edit="[8__B]" cmphy:genus="Marinococcus" cmphy:species="halotolerans" cmphy:strain="YIM 7o157T" cmphy:id="AYB17493" editRecord="[8__B]">Marinococcus halotolerans YIM 7o157T (AY817493)</otu>
+  <otu id="otu19" cmphy:genus="Nesterenkonia" cmphy:species="halobia" cmphy:strain="Rh-59" cmphy:id="Y13857" editRecord="[]">Nesterenkonia halobia Rh-59 (Y13857)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="240.0" y="386.0" label="L"/>
+   <node id="NT1.2" label="NT1.2" x="247.0" y="306.0"/>
+   <node id="NT1.3" x="292.0" y="461.0" label="80"/>
+   <node id="NT1.4" x="351.0" y="229.0" label="98"/>
+   <node id="NT1.5" label="NT1.5" x="354.0" y="158.0"/>
+   <node id="NT1.6" x="367.0" y="505.0" label="99"/>
+   <node id="NT1.7" x="372.0" y="299.0" label="56"/>
+   <node id="NT1.8" x="383.0" y="117.0" label="69"/>
+   <node id="NT1.10" label="NT1.10" x="424.0" y="543.0"/>
+   <node id="NT1.11" label="NT1.11" x="427.0" y="417.0" otu="otu1"/>
+   <node id="NT1.14" label="NT1.14" x="449.0" y="586.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="450.0" y="148.0" otu="otu3"/>
+   <node id="NT1.19" x="465.0" y="266.0" label="100"/>
+   <node id="NT1.20" label="NT1.20" x="466.0" y="283.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="466.0" y="248.0" otu="otu7"/>
+   <node id="NT1.25" label="NT1.25" x="476.0" y="181.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="477.0" y="115.0" otu="otu10"/>
+   <node id="NT1.29" label="NT1.29" x="500.0" y="350.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="518.0" y="384.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="531.0" y="518.0" otu="otu16"/>
+   <node id="NT1.33" x="621.0" y="468.0" label="100"/>
+   <node id="NT1.34" label="NT1.34" x="622.0" y="450.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="635.0" y="485.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="638.0" y="622.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="3.0" y="504.0" root="true"/>
+   <edge id="e.3" target="NT1.26" source="NT1.8"/>
+   <edge id="e.4" source="NT1.8" target="NT1.15"/>
+   <edge id="e.5" target="NT1.25" source="NT1.5"/>
+   <edge id="e.7" source="NT1.19" target="NT1.20"/>
+   <edge id="e.8" source="NT1.19" target="NT1.21"/>
+   <edge id="e.9" target="NT1.29" source="NT1.7"/>
+   <edge id="e.11" source="NT1.2" target="NT1.31"/>
+   <edge id="e.12" source="NT1.3" target="NT1.11"/>
+   <edge id="e.13" target="NT1.14" source="NT1.10"/>
+   <edge id="e.15" source="NT1.10" target="NT1.32"/>
+   <edge id="e.16" source="NT1.33" target="NT1.34"/>
+   <edge id="e.17" source="NT1.33" target="NT1.35"/>
+   <edge id="e.21" source="NT1.5" target="NT1.8"/>
+   <edge id="e.22" source="NT1.4" target="NT1.5"/>
+   <edge id="e.24" source="NT1.2" target="NT1.4"/>
+   <edge id="e.25" source="NT1.4" target="NT1.7"/>
+   <edge id="e.27" source="NT1.7" target="NT1.19"/>
+   <edge id="e.28" source="NT1.1" target="NT1.2"/>
+   <edge id="e.29" source="NT1.1" target="NT1.3"/>
+   <edge id="e.30" source="NT1.3" target="NT1.6"/>
+   <edge id="e.31" source="NT1.6" target="NT1.10"/>
+   <edge id="e.32" source="NT1.6" target="NT1.33"/>
+   <edge id="e.34" source="NT1.37" target="NT1.36"/>
+   <edge id="e.35" source="NT1.37" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

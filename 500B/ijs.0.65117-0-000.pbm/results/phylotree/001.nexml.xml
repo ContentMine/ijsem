@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Moniliella sp. UWOPS 95-766.4 (AF313370)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Moniliella" cmphy:species="acetoabutens" cmphy:strain="CBS169.66T" cmphy:id="EUZ52153" editRecord="[2__Z]">Moniliella acetoabutens CBS169.66T (EU252153)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Moniliella" cmphy:species="mellis" cmphy:strain="CBS 35O.33T" cmphy:id="EUS45185" editRecord="[5__S]">Moniliella mellis CBS 35O.33T (EU545185)</otu>
+  <otu id="otu10">Moniliella (Trichosporonoides) nigrescens CBS 269.81T (EF137917)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Moniliella" cmphy:species="suaveolens" cmphy:strain="CBS 542.787" cmphy:id="AFB35524" editRecord="[3__B]">Moniliella suaveolens CBS 542.787 (AF335524)</otu>
+  <otu id="otu12">Moniliella (Trichosporonoides) nigrescens CBS 269.81T (EF137917)</otu>
+  <otu id="otu13">Moniliella sp. UWOPS 95-766.4 (AF313370)</otu>
+  <otu id="otu14">Moniliella (Trichosporonoides) spathulata CBS 241.797 (AF335526)</otu>
+  <otu id="otu15">Moniliella (Trichosporonoides) madida CBS 240.79T (AF335522)</otu>
+  <otu id="otu16">Moniliella (Trichosporonoides) megachiliensis CBS 190.927 (EF137916)</otu>
+  <otu id="otu17">Phylloporia pectinata R. Coveny 113 (AF411823)</otu>
+  <otu id="otu18">Moniliella (Trichosporonoides) megachiliensis CBS 190.927 (EF137916)</otu>
+  <otu id="otu19">Moniliella (Trichosporonoides) oedocephalis CBS 649.66T (AF335521)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:genus="Moniliella" cmphy:species="fonsecae" cmphy:strain="BCC 77267" cmphy:id="DQ400366" editRecord="[]">Moniliella fonsecae BCC 77267 (DQ400366)</otu>
+  <otu id="otu22" cmphy:genus="Moniliella" cmphy:species="fonsecae" cmphy:strain="CRGF-832" cmphy:id="AM947064" editRecord="[]">Moniliella fonsecae CRGF-832 (AM947064)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="519.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="206.0" y="267.0"/>
+   <node id="NT1.7" label="NT1.7" x="240.0" y="296.0"/>
+   <node id="NT1.8" label="NT1.8" x="267.0" y="223.0"/>
+   <node id="NT1.22" label="NT1.22" x="399.0" y="267.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="401.0" y="12.0" otu="otu9"/>
+   <node id="NT1.27" label="NT1.27" x="412.0" y="329.0" otu="otu11"/>
+   <node id="NT1.38" label="NT1.38" x="522.0" y="175.0"/>
+   <node id="NT1.40" label="NT1.40" x="523.0" y="138.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="527.0" y="202.0" otu="otu22"/>
+   <edge id="e.0" target="NT1.24" source="NT1.5"/>
+   <edge id="e.9" target="NT1.27" source="NT1.7"/>
+   <edge id="e.11" target="NT1.22" source="NT1.8"/>
+   <edge id="e.18" target="NT1.42" source="NT1.38"/>
+   <edge id="e.20" source="NT1.38" target="NT1.40"/>
+   <edge id="e.24" target="NT1.5" source="NT1.1"/>
+   <edge id="e.27" target="NT1.7" source="NT1.5"/>
+   <edge id="e.30" source="NT1.7" target="NT1.8"/>
+   <edge id="e.32" source="NT1.8" target="NT1.38"/>
+  </tree>
+ </trees>
+</nexml>

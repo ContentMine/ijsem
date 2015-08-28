@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Strain BM2T (AB264528)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Filobacillus" cmphy:species="milosensis" cmphy:strain="DSM 13259T" cmphy:id="AJZ38042" editRecord="[2__Z]">Filobacillus milosensis DSM 13259T (AJ238042)</otu>
+  <otu id="otu3" cmphy:genus="Alkalibacillus" cmphy:species="filiformis" cmphy:strain="4AGT" cmphy:id="AJ493661" editRecord="[]">Alkalibacillus filiformis 4AGT (AJ493661)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Alkalibacillus" cmphy:species="haloalkaliphilus" cmphy:strain="DSM 5271T" cmphy:id="AJZ38041" editRecord="[2__Z]">Alkalibacillus haloalkaliphilus DSM 5271T (AJ238041)</otu>
+  <otu id="otu5" cmphy:genus="Halobacillus" cmphy:species="halophilus" cmphy:strain="NCIMB 9251T" cmphy:id="X62174" editRecord="[]">Halobacillus halophilus NCIMB 9251T (X62174)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Tenuibacillus" cmphy:species="multivorans" cmphy:strain="28-1 T" cmphy:id="AYB19933" editRecord="[3__B]">Tenuibacillus multivorans 28-1 T (AY319933)</otu>
+  <otu id="otu7" cmphy:genus="Alkalibacillus" cmphy:species="salilacus" cmphy:strain="BH163T" cmphy:id="AY671976" editRecord="[]">Alkalibacillus salilacus BH163T (AY671976)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="76.0" y="206.0"/>
+   <node id="NT1.2" label="NT1.2" x="124.0" y="113.0"/>
+   <node id="NT1.3" label="NT1.3" x="142.0" y="303.0"/>
+   <node id="NT1.4" label="NT1.4" x="173.0" y="177.0"/>
+   <node id="NT1.5" label="NT1.5" x="222.0" y="188.0"/>
+   <node id="NT1.6" label="NT1.6" x="243.0" y="118.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="250.0" y="329.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="253.0" y="227.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="257.0" y="174.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="277.0" y="14.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="288.0" y="276.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="323.0" y="66.0" otu="otu7"/>
+   <edge source="NT1.7" target="NT1.3" id="e.0"/>
+   <edge source="NT1.8" target="NT1.5" id="e.1"/>
+   <edge source="NT1.9" target="NT1.5" id="e.2"/>
+   <edge source="NT1.1" target="NT1.3" id="e.3"/>
+   <edge source="NT1.1" target="NT1.2" id="e.4"/>
+   <edge source="NT1.2" target="NT1.4" id="e.5"/>
+   <edge source="NT1.4" target="NT1.5" id="e.6"/>
+   <edge source="NT1.10" target="NT1.1" id="e.7"/>
+   <edge source="NT1.12" target="NT1.2" id="e.8"/>
+   <edge source="NT1.11" target="NT1.3" id="e.9"/>
+   <edge source="NT1.6" target="NT1.4" id="e.10"/>
+  </tree>
+ </trees>
+</nexml>

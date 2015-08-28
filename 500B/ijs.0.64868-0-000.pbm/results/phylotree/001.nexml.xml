@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Luteococcus" cmphy:species="peritonei" cmphy:strain="CCUG 38120T" cmphy:id="AJI32334" editRecord="[1__I]">Luteococcus peritonei CCUG 38120T (AJ132334)</otu>
+  <otu id="otu3"> Strain SST-39T (AM393882)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Propionibacterium" cmphy:species="propionicum" cmphy:strain="DSM 43307" cmphy:id="AJB15953" editRecord="[3__B]">Propionibacterium propionicum DSM 43307 (AJ315953)</otu>
+  <otu id="otu5" cmphy:genus="Luteococcus" cmphy:species="japonicus" cmphy:strain="DSM 105467" cmphy:id="Z78208" editRecord="[]">Luteococcus japonicus DSM 105467 (Z78208)</otu>
+  <otu id="otu6" cmphy:edit="[8__B]" cmphy:genus="Propioniferax" cmphy:species="innocua" cmphy:strain="DSM 82517" cmphy:id="B93388" editRecord="[8__B]">Propioniferax innocua DSM 82517 (893388)</otu>
+  <otu id="otu7">Tessaracoccus bendigoensis ACM 51 19T (AF038504)</otu>
+  <otu id="otu8" cmphy:edit="[O__0]" cmphy:genus="Propionimicrobium" cmphy:species="lymphophilum" cmphy:strain="DSM 49O3T" cmphy:id="AJO03056" editRecord="[O__0]">Propionimicrobium lymphophilum DSM 49O3T (AJOO3056)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Propionibacterium avidum DSM 49O1T (A.JO03055)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="Propionibacterium" cmphy:species="granulosum" cmphy:strain="DSM 2O70OT" cmphy:id="AJO03057" editRecord="[O__0]">Propionibacterium granulosum DSM 2O70OT (AJOO3057)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Propionibacterium" cmphy:species="freudenreichii" cmphy:strain="DSM 2O271T" cmphy:id="X53217" editRecord="[]">Propionibacterium freudenreichii DSM 2O271T (X53217)</otu>
+  <otu id="otu15" cmphy:genus="Propionibaoterium" cmphy:species="jensenii" cmphy:strain="DSM 205357" cmphy:id="AJ704571" editRecord="[]">Propionibaoterium jensenii DSM 205357 (AJ704571)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="553.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="13.0" y="553.0"/>
+   <node id="NT1.3" label="NT1.3" x="51.0" y="478.0"/>
+   <node id="NT1.4" label="NT1.4" x="79.0" y="556.0"/>
+   <node id="NT1.5" label="NT1.5" x="81.0" y="399.0"/>
+   <node id="NT1.6" label="NT1.6" x="85.0" y="311.0"/>
+   <node id="NT1.8" label="NT1.8" x="128.0" y="217.0"/>
+   <node id="NT1.9" label="NT1.9" x="170.0" y="580.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="226.0" y="115.0"/>
+   <node id="NT1.15" label="NT1.15" x="235.0" y="439.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="235.0" y="533.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="241.0" y="627.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="310.0" y="486.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="351.0" y="156.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="369.0" y="250.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="437.0" y="109.0" otu="otu15"/>
+   <edge id="e.1" target="NT1.28" source="NT1.14"/>
+   <edge id="e.2" source="NT1.14" target="NT1.24"/>
+   <edge id="e.5" target="NT1.27" source="NT1.8"/>
+   <edge id="e.6" target="NT1.15" source="NT1.6"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" source="NT1.4" target="NT1.9"/>
+   <edge id="e.11" source="NT1.4" target="NT1.16"/>
+   <edge id="e.12" source="NT1.2" target="NT1.17"/>
+   <edge id="e.15" target="NT1.14" source="NT1.8"/>
+   <edge id="e.17" source="NT1.6" target="NT1.8"/>
+   <edge id="e.19" source="NT1.5" target="NT1.6"/>
+   <edge id="e.21" source="NT1.3" target="NT1.5"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.24" source="NT1.3" target="NT1.4"/>
+   <edge id="e.25" source="NT1.5" target="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>

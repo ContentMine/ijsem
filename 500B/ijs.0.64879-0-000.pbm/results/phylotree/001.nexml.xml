@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Mannheimla" cmphy:species="haemolytica" cmphy:strain="NCTC 938OT" cmphy:id="AFO60699" editRecord="[0__O]">Mannheimla haemolytica NCTC 938OT (AF060699)</otu>
+  <otu id="otu2" cmphy:genus="Actinobacillus" cmphy:species="lignieresii" cmphy:strain="NCTC 41897" cmphy:id="M75068" editRecord="[]">Actinobacillus lignieresii NCTC 41897 (M75068)</otu>
+  <otu id="otu3">1Pasteurella1 trehalosi NCTC 103707 (AY362927)</otu>
+  <otu id="otu4" cmphy:genus="Lonepinella" cmphy:species="koalarum" cmphy:strain="ACM 3666T" cmphy:id="Y17189" editRecord="[]">Lonepinella koalarum ACM 3666T (Y17189)</otu>
+  <otu id="otu5">Pasteurella multocida subsp. multocida NCTC 103227 (AF294410)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Nicoletella" cmphy:species="semolina" cmphy:strain="CCUG 43639T" cmphy:id="AYS08835" editRecord="[5__S]">Nicoletella semolina CCUG 43639T (AY508835)</otu>
+  <otu id="otu7" cmphy:genus="Avibacterium" cmphy:species="endocarditidis" cmphy:strain="20186H4H1T" cmphy:id="DQ465412" editRecord="[]">Avibacterium endocarditidis 20186H4H1T (DQ465412)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Histophilus" cmphy:species="somni" cmphy:strain="Hsso25T" cmphy:id="AFS49387" editRecord="[5__S]">Histophilus somni Hsso25T (AF549387)</otu>
+  <otu id="otu9" cmphy:genus="Phocoenobacter" cmphy:species="uteri" cmphy:strain="NCTC 12872T" cmphy:id="X89379" editRecord="[]">Phocoenobacter uteri NCTC 12872T (X89379)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Volucribacter" cmphy:species="psittacicida" cmphy:strain="Gerl.236l81T" cmphy:id="AYZ16868" editRecord="[2__Z]">Volucribacter psittacicida Gerl.236l81T (AY216868)</otu>
+  <otu id="otu12">Volucribacter amazonae 146lS8l89Y (AY21 6869)</otu>
+  <otu id="otu13" cmphy:genus="Avibacterium" cmphy:species="avium" cmphy:strain="NCTC 11297T" cmphy:id="M75058" editRecord="[]">Avibacterium avium NCTC 11297T (M75058)</otu>
+  <otu id="otu14" cmphy:genus="Avibacterium" cmphy:species="gallinarum" cmphy:strain="NCTC 111887" cmphy:id="M75059" editRecord="[]">Avibacterium gallinarum NCTC 111887 (M75059)</otu>
+  <otu id="otu15" cmphy:genus="Avibacterium" cmphy:species="volantium" cmphy:strain="NCTC 34387" cmphy:id="M75070" editRecord="[]">Avibacterium volantium NCTC 34387 (M75070)</otu>
+  <otu id="otu16" cmphy:genus="Haemophilus" cmphy:species="influenzae" cmphy:strain="ATCC 33391T" cmphy:id="M35019" editRecord="[]">Haemophilus influenzae ATCC 33391T (M35019)</otu>
+  <otu id="otu17" cmphy:genus="Avibacterium" cmphy:species="paragallinarum" cmphy:strain="NCTC 112961" cmphy:id="AY498868" editRecord="[]">Avibacterium paragallinarum NCTC 112961 (AY498868)</otu>
+  <otu id="otu18" cmphy:genus="Aggregatibacter" cmphy:species="actinomycetemcomitans" cmphy:strain="ATCC 333847" cmphy:id="M75039" editRecord="[]">Aggregatibacter actinomycetemcomitans ATCC 333847 (M75039)</otu>
+  <otu id="otu19">Taxon 3 of Bisgaard CCUG 15565 (L06079)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="8.0" y="920.0"/>
+   <node id="NT1.2" label="NT1.2" x="72.0" y="920.0" otu="otu1"/>
+   <node id="NT1.4" label="NT1.4" x="97.0" y="965.0" otu="otu2"/>
+   <node id="NT1.5" label="NT1.5" x="129.0" y="732.0"/>
+   <node id="NT1.6" label="NT1.6" x="151.0" y="659.0"/>
+   <node id="NT1.7" label="NT1.7" x="151.0" y="805.0"/>
+   <node id="NT1.10" label="NT1.10" x="192.0" y="598.0"/>
+   <node id="NT1.11" label="NT1.11" x="226.0" y="782.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="226.0" y="547.0"/>
+   <node id="NT1.13" label="NT1.13" x="270.0" y="260.0"/>
+   <node id="NT1.15" label="NT1.15" x="297.0" y="737.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="319.0" y="70.0"/>
+   <node id="NT1.18" label="NT1.18" x="332.0" y="9.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="340.0" y="647.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="350.0" y="829.0" otu="otu9"/>
+   <node id="NT1.22" x="353.0" y="487.0" label="32"/>
+   <node id="NT1.25" label="NT1.25" x="373.0" y="554.0" otu="otu11"/>
+   <node id="NT1.27" x="391.0" y="178.0" label="71"/>
+   <node id="NT1.28" x="393.0" y="191.0" label="71"/>
+   <node id="NT1.30" label="NT1.30" x="404.0" y="191.0" otu="otu13"/>
+   <node id="NT1.31" x="421.0" y="122.0" label="93"/>
+   <node id="NT1.32" label="NT1.32" x="424.0" y="99.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="424.0" y="146.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="435.0" y="464.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="445.0" y="236.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="482.0" y="511.0" otu="otu18"/>
+   <node id="NT1.43" label="NT1.43" x="7.0" y="942.0" root="true"/>
+   <edge id="e.0" source="NT1.17" target="NT1.18"/>
+   <edge id="e.2" source="NT1.28" target="NT1.30"/>
+   <edge id="e.3" source="NT1.31" target="NT1.32"/>
+   <edge id="e.4" source="NT1.31" target="NT1.33"/>
+   <edge id="e.5" source="NT1.28" target="NT1.36"/>
+   <edge id="e.6" source="NT1.22" target="NT1.37"/>
+   <edge id="e.8" target="NT1.25" source="NT1.12"/>
+   <edge id="e.14" source="NT1.7" target="NT1.11"/>
+   <edge id="e.16" source="NT1.7" target="NT1.21"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" source="NT1.13" target="NT1.17"/>
+   <edge id="e.20" target="NT1.27" source="NT1.17"/>
+   <edge id="e.21" source="NT1.27" target="NT1.28"/>
+   <edge id="e.22" source="NT1.27" target="NT1.31"/>
+   <edge id="e.23" source="NT1.12" target="NT1.13"/>
+   <edge id="e.25" target="NT1.22" source="NT1.13"/>
+   <edge id="e.27" source="NT1.10" target="NT1.12"/>
+   <edge id="e.31" source="NT1.6" target="NT1.10"/>
+   <edge id="e.32" source="NT1.5" target="NT1.6"/>
+   <edge id="e.34" target="NT1.5" source="NT1.1"/>
+   <edge id="e.35" source="NT1.5" target="NT1.7"/>
+   <edge id="e.37" source="NT1.43" target="NT1.4"/>
+   <edge id="e.38" source="NT1.43" target="NT1.1"/>
+   <edge id="e.39" target="NT1.15" source="NT1.6"/>
+   <edge id="e.40" source="NT1.10" target="NT1.19"/>
+   <edge id="e.41" source="NT1.22" target="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

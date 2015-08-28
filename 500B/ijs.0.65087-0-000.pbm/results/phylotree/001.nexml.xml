@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Thsrmanema Iapsum DSM 57187 (L11703)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Rhodothermus" cmphy:species="marmus" cmphy:strain="DSM 42527" cmphy:id="X80994" editRecord="[]">Rhodothermus marmus DSM 42527 (X80994)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Persicobacter" cmphy:species="diffluens" cmphy:strain="NBRC 159407" cmphy:id="ABZ60929" editRecord="[2__Z]">Persicobacter diffluens NBRC 159407 (AB260929)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Rapidithrix" cmphy:species="fhailandica" cmphy:strain="TISTR 1736" cmphy:id="ABZ84517" editRecord="[2__Z]">Rapidithrix fhailandica TISTR 1736 (AB284517)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Hexfthrix" cmphy:species="dorotheas" cmphy:strain="IFO 159877" cmphy:id="ABO78077" editRecord="[0__O]">Hexfthrix dorotheas IFO 159877 (AB078077)</otu>
+  <otu id="otu9" cmphy:genus="Cyclobaclerfum" cmphy:species="marinum" cmphy:strain="ATCC 43824" cmphy:id="M62788" editRecord="[]">Cyclobaclerfum marinum ATCC 43824 (M62788)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Perexihbacter" cmphy:species="aurannacus" cmphy:strain="IAM 154137" cmphy:id="ABZ76355" editRecord="[2__Z]">Perexihbacter aurannacus IAM 154137 (AB276355)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Flammeovfrga" cmphy:species="yaeyamensls" cmphy:strain="NBRC 1008987" cmphy:id="ABZ47554" editRecord="[2__Z]">Flammeovfrga yaeyamensls NBRC 1008987 (AB247554)</otu>
+  <otu id="otu13">Flammeovirga kamogawensfs IAM 15451'(AB251933)</otu>
+  <otu id="otu14" cmphy:genus="Flammeavfrga" cmphy:species="apnea" cmphy:strain="ATCC 231267" cmphy:id="D12655" editRecord="[]">Flammeavfrga apnea ATCC 231267 (D12655)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="159.0" y="178.0"/>
+   <node id="NT1.3" x="192.0" y="287.0" label="809"/>
+   <node id="NT1.4" x="237.0" y="414.0" label="936"/>
+   <node id="NT1.5" label="NT1.5" x="288.0" y="163.0"/>
+   <node id="NT1.7" label="NT1.7" x="377.0" y="466.0"/>
+   <node id="NT1.10" label="NT1.10" x="456.0" y="705.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="526.0" y="208.0"/>
+   <node id="NT1.12" label="NT1.12" x="537.0" y="362.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="564.0" y="509.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="577.0" y="410.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="596.0" y="68.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="640.0" y="117.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="664.0" y="166.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="731.0" y="263.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="6.0" y="555.0" root="true"/>
+   <edge id="e.0" source="NT1.2" target="NT1.21"/>
+   <edge id="e.1" source="NT1.4" target="NT1.12"/>
+   <edge id="e.2" source="NT1.7" target="NT1.20"/>
+   <edge id="e.3" source="NT1.5" target="NT1.23"/>
+   <edge id="e.5" target="NT1.17" source="NT1.7"/>
+   <edge id="e.7" source="NT1.11" target="NT1.24"/>
+   <edge id="e.10" target="NT1.26" source="NT1.11"/>
+   <edge id="e.13" target="NT1.2" source="NT1.27"/>
+   <edge id="e.14" source="NT1.2" target="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.4"/>
+   <edge id="e.16" source="NT1.3" target="NT1.5"/>
+   <edge id="e.17" source="NT1.4" target="NT1.7"/>
+   <edge id="e.19" source="NT1.5" target="NT1.11"/>
+   <edge id="e.24" source="NT1.27" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

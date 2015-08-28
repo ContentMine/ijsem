@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Bacillus macauensis JCM 1 32857 (AY37301B)</otu>
+  <otu id="otu3" cmphy:genus="Bacillus" cmphy:species="saliphilus" cmphy:strain="DSM 154027" cmphy:id="AJ493660" editRecord="[]">Bacillus saliphilus DSM 154027 (AJ493660)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="72.0" y="837.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="494.0" y="240.0" otu="otu3"/>
+   <edge id="e.1" target="NT1.4" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

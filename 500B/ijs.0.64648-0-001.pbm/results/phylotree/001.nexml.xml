@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Natrialba" cmphy:species="asiatica" cmphy:strain="Aidin-3" cmphy:id="ABO46875" editRecord="[0__O]">Natrialba asiatica Aidin-3 (AB046875)</otu>
+  <otu id="otu2" cmphy:genus="Halobacterium" cmphy:species="salinarum" cmphy:strain="DSM 37547" cmphy:id="AJ496185" editRecord="[]">Halobacterium salinarum DSM 37547 (AJ496185)</otu>
+  <otu id="otu3" cmphy:genus="Haloferax" cmphy:species="mediterranei" cmphy:strain="ATCC 335007" cmphy:id="D11107" editRecord="[]"> Haloferax mediterranei ATCC 335007 (D11107)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">RE-102 (DQ417340)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Halogeometricum" cmphy:species="borinquense" cmphy:strain="PR 3T" cmphy:id="AFO02984" editRecord="[O__0]">Halogeometricum borinquense PR 3T (AFOO2984)</otu>
+  <otu id="otu10"> RE-101T (DQ417339)</otu>
+  <otu id="otu11" cmphy:genus="Halorubrum" cmphy:species="saccharovorum" cmphy:strain="NCIMB 2081T" cmphy:id="X82167" editRecord="[]"> Halorubrum saccharovorum NCIMB 2081T (X82167)</otu>
+  <otu id="otu12" cmphy:genus="Haloarcula" cmphy:species="vallismonis" cmphy:strain="ATCC 29715T" cmphy:id="U17593" editRecord="[]">Haloarcula vallismonis ATCC 29715T (U17593)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="87.0" y="463.0"/>
+   <node id="NT1.2" x="124.0" y="376.0" label="74"/>
+   <node id="NT1.3" label="NT1.3" x="159.0" y="241.0"/>
+   <node id="NT1.5" label="NT1.5" x="223.0" y="593.0" otu="otu1"/>
+   <node id="NT1.6" x="245.0" y="341.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="402.0" y="551.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="456.0" y="343.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="480.0" y="301.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="541.0" y="93.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="545.0" y="510.0" otu="otu12"/>
+   <node id="NT1.29" label="NT1.29" x="1.0" y="528.0" root="true"/>
+   <edge id="e.2" target="NT1.24" source="NT1.3"/>
+   <edge id="e.7" source="NT1.6" target="NT1.20"/>
+   <edge id="e.8" target="NT1.14" source="NT1.6"/>
+   <edge id="e.12" source="NT1.1" target="NT1.8"/>
+   <edge id="e.13" source="NT1.2" target="NT1.25"/>
+   <edge id="e.19" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" source="NT1.3" target="NT1.6"/>
+   <edge id="e.21" source="NT1.1" target="NT1.2"/>
+   <edge id="e.26" source="NT1.29" target="NT1.5"/>
+   <edge id="e.27" source="NT1.29" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

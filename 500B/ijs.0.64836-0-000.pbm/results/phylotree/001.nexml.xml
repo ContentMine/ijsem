@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Lactobacillus malefermentans</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Lactobacillus paracollinoides</otu>
+  <otu id="otu6">Lactobacillus collinoides</otu>
+  <otu id="otu7">Lactobacillus pentosus</otu>
+  <otu id="otu8">Lactobacillus paraplantarum</otu>
+  <otu id="otu9">Lactobacillus paralimentarius</otu>
+  <otu id="otu10">Lactobacillusfarciminis</otu>
+  <otu id="otu11">Lactobacillus ncmtensis</otu>
+  <otu id="otu12">Lactobacillus versmoldensis</otu>
+  <otu id="otu13">Lactobacillus alimentarius</otu>
+  <otu id="otu14">Lactobacillus crustorum LMG 23702</otu>
+  <otu id="otu15">Lactobacillus plantarum</otu>
+  <otu id="otu16">Lactobacillus crustorum LMG 23701</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Lactobacillus" cmphy:species="crustorum" cmphy:strain="LMG 23699T" cmphy:id="AMZ85025" editRecord="[2__Z]">Lactobacillus crustorum LMG 23699T (AM285025)</otu>
+  <otu id="otu18">Lactobacillus kimchii</otu>
+  <otu id="otu19">Lactobacillus mindensis</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="12.0" y="871.0" otu="otu1" root="true"/>
+   <node id="NT1.34" label="NT1.34" x="789.0" y="1044.0" otu="otu17"/>
+   <edge id="e.5" target="NT1.34" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

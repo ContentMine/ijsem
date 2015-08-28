@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Dechloromonas" cmphy:species="agitata" cmphy:strain="CKBT" cmphy:id="AFO47462" editRecord="[0__O]">Dechloromonas agitata CKBT (AF047462)</otu>
+  <otu id="otu3" cmphy:genus="Azonexus" cmphy:species="fungiphilus" cmphy:strain="BS5-8T" cmphy:id="AFO11350" editRecord="[]">Azonexus fungiphilus BS5-8T (AFO11350)</otu>
+  <otu id="otu4">Clone 249ds10 (AY212697)</otu>
+  <otu id="otu5">Clone Run-S38 (AB247469)</otu>
+  <otu id="otu6">Clone Run-SP13O (AB247492)</otu>
+  <otu id="otu7">Clone DFAW-034 (AY823978)</otu>
+  <otu id="otu8">Ferribacterium Iimneticum CdA-1T (Y17060)</otu>
+  <otu id="otu9">Azospira sp. strain R-25019 (AM084030)</otu>
+  <otu id="otu10">Clone DFAW-027 (AY823971)</otu>
+  <otu id="otu11" cmphy:genus="Azospira" cmphy:species="oryzae" cmphy:strain="strain 6a3T" cmphy:id="AFO11347" editRecord="[]">Azospira oryzae strain 6a3T (AFO11347)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Azospira" cmphy:species="oryzae" cmphy:strain="strain PS" cmphy:id="AFI70348" editRecord="[1__I]">Azospira oryzae strain PS (AF170348)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Azospira" cmphy:species="oryzae" cmphy:strain="strain GR-1" cmphy:id="AYZ77622" editRecord="[2__Z]">Azospira oryzae strain GR-1 (AY277622)</otu>
+  <otu id="otu14">Strain SUAZT (DQ974114)</otu>
+  <otu id="otu15" cmphy:genus="Propionivibrio" cmphy:species="dicarboxylicus" cmphy:strain="DSM 5885T" cmphy:id="Y17601" editRecord="[]">Propionivibrio dicarboxylicus DSM 5885T (Y17601)</otu>
+  <otu id="otu16" cmphy:genus="Rhodocyclus" cmphy:species="purpureus" cmphy:strain="DSM 168T" cmphy:id="M34132" editRecord="[]">Rhodocyclus purpureus DSM 168T (M34132)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="9.0" y="530.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="12.0" y="530.0"/>
+   <node id="NT1.3" label="NT1.3" x="159.0" y="447.0"/>
+   <node id="NT1.4" label="NT1.4" x="211.0" y="570.0"/>
+   <node id="NT1.5" label="NT1.5" x="228.0" y="700.0"/>
+   <node id="NT1.10" label="NT1.10" x="633.0" y="765.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="649.0" y="662.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="728.0" y="401.0"/>
+   <node id="NT1.21" label="NT1.21" x="732.0" y="429.0"/>
+   <node id="NT1.25" label="NT1.25" x="747.0" y="428.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="758.0" y="377.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="780.0" y="480.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="849.0" y="539.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="1033.0" y="598.0" otu="otu16"/>
+   <edge id="e.1" source="NT1.21" target="NT1.25"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.4" target="NT1.29"/>
+   <edge id="e.11" target="NT1.20" source="NT1.3"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" source="NT1.20" target="NT1.21"/>
+   <edge id="e.16" source="NT1.2" target="NT1.5"/>
+   <edge id="e.18" source="NT1.5" target="NT1.11"/>
+   <edge id="e.19" target="NT1.10" source="NT1.5"/>
+   <edge id="e.21" source="NT1.4" target="NT1.30"/>
+   <edge id="e.27" target="NT1.26" source="NT1.20"/>
+   <edge id="e.28" source="NT1.21" target="NT1.27"/>
+  </tree>
+ </trees>
+</nexml>

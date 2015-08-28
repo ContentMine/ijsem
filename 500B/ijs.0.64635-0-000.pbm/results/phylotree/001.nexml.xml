@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Dermacoccaceae</otu>
+  <otu id="otu3" cmphy:genus="Beutenbergia" cmphy:species="cavernae" cmphy:strain="DSM 123337" cmphy:id="Y18378" editRecord="[]"> Beutenbergia cavernae DSM 123337 (Y18378)</otu>
+  <otu id="otu4">Sangulbacteraceae</otu>
+  <otu id="otu5">Sangulbacteraceae</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">Cellulomonadaceae</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Ruania" cmphy:species="albidiflava" cmphy:strain="3-6T" cmphy:id="DQB43153" editRecord="[3__B]">Ruania albidiflava 3-6T (DQ343153)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Saccharothrix" cmphy:species="australiensis" cmphy:strain="NRRL 11239T" cmphy:id="AFI14803" editRecord="[1__I]">Saccharothrix australiensis NRRL 11239T (AF114803)</otu>
+  <otu id="otu14">Micrococcaceae</otu>
+  <otu id="otu15">Micrococcaceae</otu>
+  <otu id="otu16">Micrococcaceae</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:genus="Bogoriella" cmphy:species="caseilytica" cmphy:strain="HKI 00887" cmphy:id="Y09911" editRecord="[]">Bogoriella caseilytica HKI 00887 (Y09911)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21">Rarobacteraceae</otu>
+  <otu id="otu22" cmphy:genus="Salana" cmphy:species="multivorans" cmphy:strain="Se-31 11T" cmphy:id="AJ400627" editRecord="[]">Salana multivorans Se-31 11T (AJ400627)</otu>
+  <otu id="otu23">Microbacteriaceae</otu>
+  <otu id="otu24">Dermabacteraceae</otu>
+  <otu id="otu25">Microbacteriaceae</otu>
+  <otu id="otu26">Microbacteriaceae</otu>
+  <otu id="otu27" cmphy:genus="Nocardioides" cmphy:species="plantarum" cmphy:strain="DSM 11O54T" cmphy:id="Z78211" editRecord="[]">Nocardioides plantarum DSM 11O54T (Z78211)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="34.0" y="642.0"/>
+   <node id="NT1.6" label="NT1.6" x="107.0" y="312.0"/>
+   <node id="NT1.8" label="NT1.8" x="122.0" y="359.0"/>
+   <node id="NT1.14" x="203.0" y="267.0" label="98"/>
+   <node id="NT1.17" label="NT1.17" x="312.0" y="288.0" otu="otu3"/>
+   <node id="NT1.29" label="NT1.29" x="351.0" y="328.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="352.0" y="622.0" otu="otu13"/>
+   <node id="NT1.39" label="NT1.39" x="390.0" y="410.0" otu="otu19"/>
+   <node id="NT1.42" label="NT1.42" x="406.0" y="246.0" otu="otu22"/>
+   <node id="NT1.49" label="NT1.49" x="528.0" y="664.0" otu="otu27"/>
+   <node id="NT1.50" label="NT1.50" x="3.0" y="558.0" root="true"/>
+   <edge id="e.12" source="NT1.14" target="NT1.17"/>
+   <edge id="e.13" source="NT1.8" target="NT1.29"/>
+   <edge id="e.14" source="NT1.14" target="NT1.42"/>
+   <edge id="e.15" target="NT1.39" source="NT1.8"/>
+   <edge id="e.24" source="NT1.1" target="NT1.30"/>
+   <edge id="e.25" source="NT1.1" target="NT1.49"/>
+   <edge id="e.35" target="NT1.6" source="NT1.50"/>
+   <edge id="e.36" source="NT1.6" target="NT1.8"/>
+   <edge id="e.37" source="NT1.6" target="NT1.14"/>
+   <edge id="e.47" source="NT1.50" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

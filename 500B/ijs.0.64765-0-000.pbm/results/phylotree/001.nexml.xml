@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">F. tularensis subsp. cf. subsp. noviciday FSC 156 (AY968238)</otu>
+  <otu id="otu3">F. tularensis subsp.</otu>
+  <otu id="otu4">F. tularensis subsp. tularensis</otu>
+  <otu id="otu5">F. tularensis subsp. holarctica</otu>
+  <otu id="otu6">F. tularensis subsp.</otu>
+  <otu id="otu7">F. tularensis subsp. mediasiatica</otu>
+  <otu id="otu8">F. tularensis subsp. mediasiatica</otu>
+  <otu id="otu9">F. philomiragia ATCC 25O15T (AJ698862)</otu>
+  <otu id="otu10">F. philomiragia blood from CGD patient (DQ314206)</otu>
+  <otu id="otu11">F. philomiragia</otu>
+  <otu id="otu12">F. philomiragia subsp. noatunensis subsp. nov.</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[O__0]" cmphy:genus="Ornithodoros" cmphy:species="moubata" cmphy:strain="symbiote B" cmphy:id="ABO01522" editRecord="[O__0]">Ornithodoros moubata symbiote B (ABOO1522)</otu>
+  <otu id="otu15">cf. Francisella sp. CYH-20 (AF385857)1</otu>
+  <otu id="otu16">Francisella sp. AF-03-27 (AY928393)0</otu>
+  <otu id="otu17">Francisella sp. AF-01-22 (DQ007456)5</otu>
+  <otu id="otu18">Francisella sp. AF-01-23</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21">Francisella sp. AF-01-6 (AY928389)1</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="15.0" y="725.0" otu="otu1" root="true"/>
+   <node id="NT1.28" label="NT1.28" x="702.0" y="1299.0" otu="otu14"/>
+   <edge id="e.12" target="NT1.28" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

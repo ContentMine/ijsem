@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Psychromonas" cmphy:species="antarctica" cmphy:strain="DSM 107047" cmphy:id="Y14697" editRecord="[]">Psychromonas antarctica DSM 107047 (Y14697)</otu>
+  <otu id="otu3" cmphy:genus="Psychromonas" cmphy:species="ingrahamii" cmphy:strain="377" cmphy:id="U73721" editRecord="[]">Psychromonas ingrahamii 377 (U73721)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Psychromonas" cmphy:species="profunda" cmphy:strain="28257" cmphy:id="AJ416756" editRecord="[]">Psychromonas profunda 28257 (AJ416756)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Idiomarina" cmphy:species="abyssalis" cmphy:strain="KMM 227T" cmphy:id="AFO52740" editRecord="[0__O]">Idiomarina abyssalis KMM 227T (AF052740)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Psychromonas" cmphy:species="arctica" cmphy:strain="Pull 5.3T" cmphy:id="AFB74385" editRecord="[3__B]">Psychromonas arctica Pull 5.3T (AF374385)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Psychromonas" cmphy:species="kaikoae" cmphy:strain="J T7304T" cmphy:id="ABO52160" editRecord="[0__O]">Psychromonas kaikoae J T7304T (AB052160)</otu>
+  <otu id="otu9">Psyclxromonas hadalis K4lGT (AB0944l3)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="238.0" y="310.0"/>
+   <node id="NT1.3" label="NT1.3" x="475.0" y="224.0"/>
+   <node id="NT1.5" label="NT1.5" x="630.0" y="113.0"/>
+   <node id="NT1.6" label="NT1.6" x="662.0" y="414.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="663.0" y="347.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="691.0" y="153.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="702.0" y="482.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="725.0" y="275.0" otu="otu7"/>
+   <node id="NT1.13" label="NT1.13" x="735.0" y="89.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="3.0" y="439.0" root="true"/>
+   <edge id="e.1" target="NT1.13" source="NT1.5"/>
+   <edge id="e.3" source="NT1.3" target="NT1.12"/>
+   <edge id="e.5" target="NT1.5" source="NT1.3"/>
+   <edge id="e.7" source="NT1.1" target="NT1.3"/>
+   <edge id="e.8" source="NT1.15" target="NT1.11"/>
+   <edge id="e.9" source="NT1.15" target="NT1.1"/>
+   <edge id="e.10" source="NT1.1" target="NT1.6"/>
+   <edge id="e.11" source="NT1.1" target="NT1.7"/>
+   <edge id="e.13" source="NT1.5" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

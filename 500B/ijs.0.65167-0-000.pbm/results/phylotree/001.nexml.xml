@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Roseisalinus" cmphy:species="antarcticus" cmphy:strain="EL-887" cmphy:id="AJ605747" editRecord="[]">Roseisalinus antarcticus EL-887 (AJ605747)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Ketogulonicigenium" cmphy:species="vulgare" cmphy:strain="DSM 4025T" cmphy:id="AFI36849" editRecord="[1__I]">Ketogulonicigenium vulgare DSM 4025T (AF136849)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Strain H1-M8T (DQ643999)</otu>
+  <otu id="otu12" cmphy:genus="Loktanella" cmphy:species="salsilacus" cmphy:strain="LMG 215077" cmphy:id="AJ440997" editRecord="[]">Loktanella salsilacus LMG 215077 (AJ440997)</otu>
+  <otu id="otu13" cmphy:genus="Jannaschia" cmphy:species="helgolandensis" cmphy:strain="Hel 1OT" cmphy:id="AJ438157" editRecord="[]">Jannaschia helgolandensis Hel 1OT (AJ438157)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Jannaschia" cmphy:species="donghaensis" cmphy:strain="DSW-177" cmphy:id="EFZ02612" editRecord="[2__Z]">Jannaschia donghaensis DSW-177 (EF202612)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">Jannaschia seosinensis KCCM 42113T(AY906862)</otu>
+  <otu id="otu17">Thalassobacter stenotrophicus CECT 5294T(AJ631302)</otu>
+  <otu id="otu18" cmphy:genus="Octadecabacter" cmphy:species="arcticus" cmphy:strain="238T" cmphy:id="U73725" editRecord="[]">Octadecabacter arcticus 238T (U73725)</otu>
+  <otu id="otu19" cmphy:genus="Paracoccus" cmphy:species="denitrificans" cmphy:strain="IAM 12479" cmphy:id="Y17512" editRecord="[]">Paracoccus denitrificans IAM 12479 (Y17512)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="46.0" y="339.0"/>
+   <node id="NT1.2" label="NT1.2" x="62.0" y="399.0"/>
+   <node id="NT1.3" label="NT1.3" x="106.0" y="277.0"/>
+   <node id="NT1.7" x="147.0" y="234.0" label="I"/>
+   <node id="NT1.12" x="265.0" y="148.0" label="93o"/>
+   <node id="NT1.18" label="NT1.18" x="296.0" y="455.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="319.0" y="366.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="377.0" y="322.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="392.0" y="11.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="406.0" y="189.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="443.0" y="278.0" otu="otu18"/>
+   <node id="NT1.32" label="NT1.32" x="443.0" y="500.0" otu="otu19"/>
+   <node id="NT1.33" label="NT1.33" x="2.0" y="419.0" root="true"/>
+   <edge id="e.1" target="NT1.26" source="NT1.12"/>
+   <edge id="e.8" source="NT1.12" target="NT1.27"/>
+   <edge id="e.12" source="NT1.7" target="NT1.31"/>
+   <edge id="e.14" source="NT1.3" target="NT1.25"/>
+   <edge id="e.15" target="NT1.18" source="NT1.2"/>
+   <edge id="e.17" source="NT1.2" target="NT1.20"/>
+   <edge id="e.23" target="NT1.12" source="NT1.7"/>
+   <edge id="e.26" source="NT1.3" target="NT1.7"/>
+   <edge id="e.27" source="NT1.1" target="NT1.3"/>
+   <edge id="e.28" source="NT1.1" target="NT1.2"/>
+   <edge id="e.30" source="NT1.33" target="NT1.32"/>
+   <edge id="e.31" source="NT1.33" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

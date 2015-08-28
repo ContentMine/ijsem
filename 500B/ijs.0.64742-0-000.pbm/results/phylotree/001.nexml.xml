@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Paenibacillus polymyxa</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Planococcus" cmphy:species="maritimus" cmphy:strain="JCM 11543T" cmphy:id="AFS00007" editRecord="[5__S]">Planococcus maritimus JCM 11543T (AF500007)</otu>
+  <otu id="otu7">Planococcus rifietoensis</otu>
+  <otu id="otu8">Planococcus maitriensis</otu>
+  <otu id="otu9">Planomicrobium okeanokoites</otu>
+  <otu id="otu10">Planomicrobium koreense</otu>
+  <otu id="otu11" cmphy:genus="Planococcus" cmphy:species="citreus" cmphy:strain="NCIMB 14937" cmphy:id="X62172" editRecord="[]">Planococcus citreus NCIMB 14937 (X62172)</otu>
+  <otu id="otu12" cmphy:genus="Planomicrobium" cmphy:species="mcmeekinii" cmphy:strain="ATCC 700539T" cmphy:id="AFO41791" editRecord="[]">Planomicrobium mcmeekinii ATCC 700539T (AFO41791)</otu>
+  <otu id="otu13">Planomicrobium psychrophilum</otu>
+  <otu id="otu14">Planococcus kocurii</otu>
+  <otu id="otu15">Planomiorobium alkanoclasticum</otu>
+  <otu id="otu16" cmphy:genus="Planomicrobium" cmphy:species="chinense" cmphy:strain="DX3-12T" cmphy:id="AJ697862" editRecord="[]">Planomicrobium chinense DX3-12T (AJ697862)</otu>
+  <otu id="otu17">Planococcus stackebranditii</otu>
+  <otu id="otu18">Strain PgEx11T (AJ966515)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="808.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="664.0" y="468.0"/>
+   <node id="NT1.7" label="NT1.7" x="706.0" y="642.0"/>
+   <node id="NT1.11" label="NT1.11" x="736.0" y="228.0"/>
+   <node id="NT1.20" label="NT1.20" x="787.0" y="574.0" otu="otu6"/>
+   <node id="NT1.25" label="NT1.25" x="834.0" y="722.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="838.0" y="278.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="880.0" y="205.0" otu="otu16"/>
+   <edge id="e.8" target="NT1.11" source="NT1.5"/>
+   <edge id="e.13" target="NT1.5" source="NT1.1"/>
+   <edge id="e.14" source="NT1.5" target="NT1.7"/>
+   <edge id="e.20" source="NT1.7" target="NT1.20"/>
+   <edge id="e.24" source="NT1.11" target="NT1.26"/>
+   <edge id="e.27" source="NT1.11" target="NT1.30"/>
+   <edge id="e.28" target="NT1.25" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Cellulomonas" cmphy:species="cellasea" cmphy:strain="DSM 201187" cmphy:id="X83804" editRecord="[]"> Cellulomonas cellasea DSM 201187 (X83804)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Cellulomonas" cmphy:species="chitinilytica" cmphy:strain="X.bu-b7" cmphy:id="ABZ68586" editRecord="[2__Z]"> Cellulomonas chitinilytica X.bu-b7 (AB268586)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[8__B]" cmphy:genus="Cellulomonas" cmphy:species="terrae" cmphy:strain="DB57" cmphy:id="AYB84570" editRecord="[8__B]">Cellulomonas terrae DB57 (AY884570)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Cellulomonas" cmphy:species="fimi" cmphy:strain="DSM 201137" cmphy:id="X79460" editRecord="[]">Cellulomonas fimi DSM 201137 (X79460)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Cellulomonas" cmphy:species="xylanilytica" cmphy:strain="XIL1 17" cmphy:id="AYB03668" editRecord="[3__B]">Cellulomonas xylanilytica XIL1 17 (AY303668)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Cellulomonas" cmphy:species="denverensis" cmphy:strain="ATCC BAA-7887" cmphy:id="AYS01362" editRecord="[5__S]">Cellulomonas denverensis ATCC BAA-7887 (AY501362)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Cellulomonas" cmphy:species="bogoriensis" cmphy:strain="69B47" cmphy:id="X92152" editRecord="[]">Cellulomonas bogoriensis 69B47 (X92152)</otu>
+  <otu id="otu17" cmphy:genus="Sanguibacter" cmphy:species="suarezii" cmphy:strain="ST267" cmphy:id="X79452" editRecord="[]">Sanguibacter suarezii ST267 (X79452)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="28.0" y="487.0"/>
+   <node id="NT1.2" label="NT1.2" x="42.0" y="387.0"/>
+   <node id="NT1.3" label="NT1.3" x="86.0" y="494.0"/>
+   <node id="NT1.4" x="91.0" y="277.0" label="Q."/>
+   <node id="NT1.6" x="124.0" y="372.0" label="51"/>
+   <node id="NT1.8" label="NT1.8" x="135.0" y="586.0" otu="otu3"/>
+   <node id="NT1.9" x="146.0" y="250.0" label="Q."/>
+   <node id="NT1.11" label="NT1.11" x="185.0" y="342.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="228.0" y="219.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="257.0" y="424.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="266.0" y="301.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="274.0" y="545.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="467.0" y="464.0" otu="otu16"/>
+   <node id="NT1.28" label="NT1.28" x="467.0" y="628.0" otu="otu17"/>
+   <node id="NT1.29" label="NT1.29" x="3.0" y="557.0" root="true"/>
+   <edge id="e.2" source="NT1.9" target="NT1.16"/>
+   <edge id="e.5" target="NT1.23" source="NT1.9"/>
+   <edge id="e.7" source="NT1.6" target="NT1.11"/>
+   <edge id="e.9" target="NT1.21" source="NT1.6"/>
+   <edge id="e.12" source="NT1.1" target="NT1.8"/>
+   <edge id="e.13" target="NT1.24" source="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.27"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+   <edge id="e.17" source="NT1.4" target="NT1.9"/>
+   <edge id="e.18" source="NT1.4" target="NT1.6"/>
+   <edge id="e.22" source="NT1.1" target="NT1.2"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.26" source="NT1.29" target="NT1.28"/>
+   <edge id="e.27" source="NT1.29" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

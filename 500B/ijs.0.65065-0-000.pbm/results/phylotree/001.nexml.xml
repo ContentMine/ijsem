@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Magnetospirillum" cmphy:species="gryphiswaldense" cmphy:strain="DSM 63617" cmphy:id="Y10109" editRecord="[]">Magnetospirillum gryphiswaldense DSM 63617 (Y10109)</otu>
+  <otu id="otu3" cmphy:genus="Azospirillum" cmphy:species="brasilense" cmphy:strain="NCIMB 11860T" cmphy:id="Z29617" editRecord="[]">Azospirillum brasilense NCIMB 11860T (Z29617)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Azospirillum" cmphy:species="oryzae" cmphy:strain="C0087" cmphy:id="ABI85396" editRecord="[1__I]">Azospirillum oryzae C0087 (AB185396)</otu>
+  <otu id="otu5" cmphy:genus="Azospirillum" cmphy:species="rugosum" cmphy:strain="IMMIB AFH-61" cmphy:id="AM419042" editRecord="[]">Azospirillum rugosum IMMIB AFH-61 (AM419042)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Azospirillum" cmphy:species="doebereinerae" cmphy:strain="DSM 13131T" cmphy:id="AJZ38567" editRecord="[2__Z]">Azospirillum doebereinerae DSM 13131T (AJ238567)</otu>
+  <otu id="otu7" cmphy:genus="Azospirillum" cmphy:species="lipoferum" cmphy:strain="ATCC 29707" cmphy:id="M59061" editRecord="[]">Azospirillum lipoferum ATCC 29707 (M59061)</otu>
+  <otu id="otu8" cmphy:genus="Azospirillum" cmphy:species="halopraeferens" cmphy:strain="Au 4T" cmphy:id="X79731" editRecord="[]">Azospirillum halopraeferens Au 4T (X79731)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Azospirillum" cmphy:species="canadense" cmphy:strain="D827" cmphy:id="DQB93891" editRecord="[3__B]">Azospirillum canadense D827 (DQ393891)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Azospirillum" cmphy:species="melinis" cmphy:strain="TMCY 05527" cmphy:id="DQO22958" editRecord="[0__O]">Azospirillum melinis TMCY 05527 (DQ022958)</otu>
+  <otu id="otu11" cmphy:genus="Azospirillum" cmphy:species="largimobile" cmphy:strain="ACM 20417" cmphy:id="X90759" editRecord="[]">Azospirillum largimobile ACM 20417 (X90759)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Azospirillum" cmphy:species="amazonense" cmphy:strain="DSM 27877" cmphy:id="Z29616" editRecord="[2__Z]">Azospirillum amazonense DSM 27877 (229616)</otu>
+  <otu id="otu13" cmphy:genus="Azospirillum" cmphy:species="irakense" cmphy:strain="KBC1T" cmphy:id="Z29583" editRecord="[]">Azospirillum irakense KBC1T (Z29583)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="403.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="8.0" y="403.0"/>
+   <node id="NT1.3" label="NT1.3" x="303.0" y="455.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="542.0" y="357.0"/>
+   <node id="NT1.5" label="NT1.5" x="644.0" y="318.0"/>
+   <node id="NT1.6" label="NT1.6" x="719.0" y="199.0"/>
+   <node id="NT1.7" label="NT1.7" x="757.0" y="235.0"/>
+   <node id="NT1.8" label="NT1.8" x="787.0" y="159.0"/>
+   <node id="NT1.9" label="NT1.9" x="808.0" y="394.0"/>
+   <node id="NT1.10" label="NT1.10" x="844.0" y="119.0"/>
+   <node id="NT1.11" label="NT1.11" x="861.0" y="80.0"/>
+   <node id="NT1.12" label="NT1.12" x="874.0" y="216.0" otu="otu3"/>
+   <node id="NT1.13" x="876.0" y="275.0" label="98"/>
+   <node id="NT1.14" label="NT1.14" x="890.0" y="40.0"/>
+   <node id="NT1.15" label="NT1.15" x="928.0" y="138.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="929.0" y="296.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="938.0" y="177.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="944.0" y="98.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="990.0" y="336.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="1029.0" y="256.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="1051.0" y="58.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="1075.0" y="18.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="1106.0" y="375.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="1251.0" y="415.0" otu="otu13"/>
+   <edge id="e.0" source="NT1.11" target="NT1.18"/>
+   <edge id="e.1" source="NT1.14" target="NT1.21"/>
+   <edge id="e.2" source="NT1.10" target="NT1.15"/>
+   <edge id="e.3" source="NT1.8" target="NT1.17"/>
+   <edge id="e.4" source="NT1.7" target="NT1.12"/>
+   <edge id="e.5" source="NT1.13" target="NT1.16"/>
+   <edge id="e.6" source="NT1.5" target="NT1.19"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" source="NT1.9" target="NT1.23"/>
+   <edge id="e.9" source="NT1.9" target="NT1.24"/>
+   <edge id="e.10" source="NT1.2" target="NT1.3"/>
+   <edge id="e.11" source="NT1.11" target="NT1.14"/>
+   <edge id="e.12" source="NT1.10" target="NT1.11"/>
+   <edge id="e.13" source="NT1.8" target="NT1.10"/>
+   <edge id="e.14" source="NT1.6" target="NT1.8"/>
+   <edge id="e.15" source="NT1.5" target="NT1.6"/>
+   <edge id="e.16" source="NT1.6" target="NT1.7"/>
+   <edge id="e.17" source="NT1.7" target="NT1.13"/>
+   <edge id="e.18" source="NT1.4" target="NT1.5"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.20" source="NT1.4" target="NT1.9"/>
+   <edge id="e.21" source="NT1.13" target="NT1.20"/>
+   <edge id="e.22" source="NT1.14" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

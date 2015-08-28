@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">B. aqulmaris KCCM415897 (AF483625)</otu>
+  <otu id="otu2">B. vietnamensis JCM 111247 (ABO99708)</otu>
+  <otu id="otu3">B. marisflavi KCCM 415887 (AF483624)</otu>
+  <otu id="otu4">m4-4b CECT 71977 (EF014451)</otu>
+  <otu id="otu5">B. seohaeanensis DSM 164647 (AY667495)</otu>
+  <otu id="otu6">m4-4a CECT 71977 (EF014450)</otu>
+  <otu id="otu7">B. firmus IAM 124647 (D16268)</otu>
+  <otu id="otu8">B. lfchenlformis DSM 137 (X68416)</otu>
+  <otu id="otu9" cmphy:genus="Vfrgfbacillus" cmphy:species="koreensfs" cmphy:strain="JCM 123877" cmphy:id="AY616012" editRecord="[]">Vfrgfbacillus koreensfs JCM 123877 (AY616012)</otu>
+  <otu id="otu10">B. megaterfum IAM 134187 (D16273)</otu>
+  <otu id="otu11">m4-4c CECT 71977 (EF014452)</otu>
+  <otu id="otu12">B. pseudofirmus DSM 87157 (X76439)</otu>
+  <otu id="otu13">B. jeotgali KCCM41O407 (AF221061)</otu>
+  <otu id="otu14">B. benzoevorans DSM53917 (D78311)</otu>
+  <otu id="otu15">B. subtilis NCDO 17697 (X60646)</otu>
+  <otu id="otu16">B. methanolicus NCIMB 131137 (X64465)</otu>
+  <otu id="otu17">B. Ientus IAM 124667 (D16272)</otu>
+  <otu id="otu18">B. cohnif DSM 63077 (X76437)</otu>
+  <otu id="otu19">B. oleronius DSM 93567 (X82492)</otu>
+  <otu id="otu20">B. pumilus NCDO 17667 (X60637)</otu>
+  <otu id="otu21">B. halodurans DSM 4977 (AJ302709)</otu>
+  <otu id="otu22">B. circulans IAM 124627 (D78312)</otu>
+  <otu id="otu23">B. fumarioli LMG 174897 (AJ250056)</otu>
+  <otu id="otu24">B. horikoshii DSM 87197 (X76443)</otu>
+  <otu id="otu25">B. hahnapalus DSM 87237 (X76447)</otu>
+  <otu id="otu26">B. badius ATCC 145747 (D78310)</otu>
+  <otu id="otu27">B. coagulans JCM22577 (D78313)</otu>
+  <otu id="otu28" cmphy:edit="[1__I]" cmphy:genus="Exiguobacterium" cmphy:species="oxidotolerans" cmphy:strain="JCM 122807" cmphy:id="ABI05164" editRecord="[1__I]">Exiguobacterium oxidotolerans JCM 122807 (AB105164)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.33" label="NT1.33" x="386.0" y="977.0" otu="otu9"/>
+   <node id="NT1.53" label="NT1.53" x="661.0" y="1099.0" otu="otu28"/>
+   <node id="NT1.54" label="NT1.54" x="4.0" y="1020.0" root="true"/>
+   <edge id="e.10" target="NT1.33" source="NT1.54"/>
+   <edge id="e.39" source="NT1.54" target="NT1.53"/>
+  </tree>
+ </trees>
+</nexml>

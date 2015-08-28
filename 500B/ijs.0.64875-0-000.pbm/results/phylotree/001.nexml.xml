@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Arrhrobacter" cmphy:species="ramosus" cmphy:strain="DSM 2O546T" cmphy:id="X80742" editRecord="[]">Arrhrobacter ramosus DSM 2O546T (X80742)</otu>
+  <otu id="otu2" cmphy:genus="Arthrobacter" cmphy:species="pascens" cmphy:strain="DSM 20545T" cmphy:id="X80740" editRecord="[]">Arthrobacter pascens DSM 20545T (X80740)</otu>
+  <otu id="otu3" cmphy:genus="Arthrobacter" cmphy:species="globiformis" cmphy:strain="JCM 1327" cmphy:id="ABO89841" editRecord="[]">Arthrobacter globiformis JCM 1327 (ABO89841)</otu>
+  <otu id="otu4">Micrococcus Iuteus DSM 2O03OT (AJ536198)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Arthrobacter" cmphy:species="oryzae" cmphy:strain="KV-6517" cmphy:id="ABZ79889" editRecord="[2__Z]">Arthrobacter oryzae KV-6517 (AB279889)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Arthrobacter" cmphy:species="humicola" cmphy:strain="KV-6537" cmphy:id="ABZ79890" editRecord="[2__Z]">Arthrobacter humicola KV-6537 (AB279890)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="219.0" y="333.0"/>
+   <node id="NT1.2" label="NT1.2" x="255.0" y="481.0"/>
+   <node id="NT1.3" label="NT1.3" x="260.0" y="401.0"/>
+   <node id="NT1.4" label="NT1.4" x="261.0" y="348.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="261.0" y="455.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="270.0" y="564.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="280.0" y="185.0"/>
+   <node id="NT1.8" label="NT1.8" x="298.0" y="21.0" otu="otu4"/>
+   <node id="NT1.9" label="NT1.9" x="324.0" y="239.0" otu="otu5"/>
+   <node id="NT1.10" label="NT1.10" x="335.0" y="129.0" otu="otu6"/>
+   <edge source="NT1.9" target="NT1.7" id="e.0"/>
+   <edge source="NT1.4" target="NT1.3" id="e.1"/>
+   <edge source="NT1.5" target="NT1.3" id="e.2"/>
+   <edge source="NT1.1" target="NT1.2" id="e.3"/>
+   <edge source="NT1.1" target="NT1.7" id="e.4"/>
+   <edge source="NT1.2" target="NT1.6" id="e.5"/>
+   <edge source="NT1.2" target="NT1.3" id="e.6"/>
+   <edge source="NT1.8" target="NT1.1" id="e.7"/>
+   <edge source="NT1.10" target="NT1.7" id="e.8"/>
+  </tree>
+ </trees>
+</nexml>

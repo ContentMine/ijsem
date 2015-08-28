@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Kacuria</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Arthrobacter" cmphy:species="ramosus" cmphy:strain="DSM 20546T" cmphy:id="X80742" editRecord="[]">Arthrobacter ramosus DSM 20546T (X80742)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Rothia</otu>
+  <otu id="otu6">Kocuria palustris DSM11925T(Y16263)</otu>
+  <otu id="otu7">Rothia</otu>
+  <otu id="otu8">Kocuria</otu>
+  <otu id="otu9">Micrococcus</otu>
+  <otu id="otu10">Rothia</otu>
+  <otu id="otu11">Kocuria</otu>
+  <otu id="otu12">Rothia</otu>
+  <otu id="otu13">Kytococcus</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.13" label="NT1.13" x="539.0" y="625.0" otu="otu3"/>
+   <node id="NT1.25" label="NT1.25" x="1.0" y="560.0" root="true"/>
+   <edge id="e.8" target="NT1.13" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Persicobacter" cmphy:species="diffluens" cmphy:strain="ATCC 23140" cmphy:id="M58765" editRecord="[]">Persicobacter diffluens ATCC 23140 (M58765)</otu>
+  <otu id="otu4">1MicroscilIa furvescens' ATCC 23129 (M58792)</otu>
+  <otu id="otu5" cmphy:genus="Flexibacter" cmphy:species="tractuosus" cmphy:strain="ATCC 231687" cmphy:id="M58789" editRecord="[]">Flexibacter tractuosus ATCC 231687 (M58789)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Thermonema" cmphy:species="rossianum" cmphy:strain="AG3-1" cmphy:id="Y08958" editRecord="[]">Thermonema rossianum AG3-1 (Y08958)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Dyadobacter" cmphy:species="fermentans" cmphy:strain="N81 147" cmphy:id="AFI37029" editRecord="[1__I]">Dyadobacter fermentans N81 147 (AF137029)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Dyadobacter" cmphy:species="beiiingensis" cmphy:strain="A547" cmphy:id="DQB35125" editRecord="[3__B]">Dyadobacter beiiingensis A547 (DQ335125)</otu>
+  <otu id="otu10">Spirosoma Iinguale ATCC 23276 (M62789)</otu>
+  <otu id="otu11" cmphy:genus="Runella" cmphy:species="slithyformis" cmphy:strain="LMG 115O0T" cmphy:id="M62786" editRecord="[]">Runella slithyformis LMG 115O0T (M62786)</otu>
+  <otu id="otu12" cmphy:genus="Flavobacterium" cmphy:species="ferrugineum" cmphy:strain="ATCC 13524T" cmphy:id="M62798" editRecord="[]">Flavobacterium ferrugineum ATCC 13524T (M62798)</otu>
+  <otu id="otu13" cmphy:genus="Geotoga" cmphy:species="subterranea" cmphy:strain="CC-1T" cmphy:id="L10659" editRecord="[]">Geotoga subterranea CC-1T (L10659)</otu>
+  <otu id="otu14">Planctomyces Iimnophilus IFAM 1008T (X62911)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="732.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="3.0" y="732.0"/>
+   <node id="NT1.3" label="NT1.3" x="133.0" y="658.0"/>
+   <node id="NT1.5" label="NT1.5" x="158.0" y="556.0"/>
+   <node id="NT1.6" label="NT1.6" x="188.0" y="250.0"/>
+   <node id="NT1.7" label="NT1.7" x="195.0" y="306.0"/>
+   <node id="NT1.12" x="350.0" y="105.0" label="100"/>
+   <node id="NT1.13" label="NT1.13" x="451.0" y="282.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="461.0" y="316.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="500.0" y="758.0" otu="otu7"/>
+   <node id="NT1.19" x="509.0" y="26.0" label="100"/>
+   <node id="NT1.20" label="NT1.20" x="544.0" y="44.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="574.0" y="10.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="598.0" y="146.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="603.0" y="724.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="678.0" y="792.0" otu="otu13"/>
+   <edge id="e.2" target="NT1.15" source="NT1.7"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" target="NT1.19" source="NT1.12"/>
+   <edge id="e.6" target="NT1.12" source="NT1.6"/>
+   <edge id="e.9" source="NT1.6" target="NT1.7"/>
+   <edge id="e.11" source="NT1.3" target="NT1.5"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.5" target="NT1.6"/>
+   <edge id="e.15" source="NT1.7" target="NT1.13"/>
+   <edge id="e.16" source="NT1.3" target="NT1.18"/>
+   <edge id="e.17" target="NT1.25" source="NT1.2"/>
+   <edge id="e.21" source="NT1.5" target="NT1.24"/>
+   <edge id="e.22" source="NT1.12" target="NT1.23"/>
+   <edge id="e.23" source="NT1.19" target="NT1.20"/>
+   <edge id="e.24" source="NT1.19" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

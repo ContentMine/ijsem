@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 11775T" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 11775T (X80725)</otu>
+  <otu id="otu2">Cycloclasticus pugetii PS-1T (U 1 2624)</otu>
+  <otu id="otu3" cmphy:genus="Achromatium" cmphy:species="oxaliferum" cmphy:strain="strain Rydal" cmphy:id="L79968" editRecord="[]">Achromatium oxaliferum strain Rydal (L79968)</otu>
+  <otu id="otu4" cmphy:genus="Methylophaga" cmphy:species="marina" cmphy:strain="ATCC 35842T" cmphy:id="X87338" editRecord="[]">Methylophaga marina ATCC 35842T (X87338)</otu>
+  <otu id="otu5" cmphy:genus="Piscirickettsia" cmphy:species="salmonis" cmphy:strain="LF-89T" cmphy:id="U36941" editRecord="[]">Piscirickettsia salmonis LF-89T (U36941)</otu>
+  <otu id="otu6" cmphy:genus="Thiothrix" cmphy:species="nivea" cmphy:strain="JP2T" cmphy:id="L40993" editRecord="[]">Thiothrix nivea JP2T (L40993)</otu>
+  <otu id="otu7" cmphy:genus="Leucothrix" cmphy:species="mucor" cmphy:strain="DSM 2157T" cmphy:id="X87277" editRecord="[]">Leucothrix mucor DSM 2157T (X87277)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Thiomicrospira" cmphy:species="pelophila" cmphy:strain="DSM 15347" cmphy:id="AJ404731" editRecord="[]"> Thiomicrospira pelophila DSM 15347 (AJ404731)</otu>
+  <otu id="otu10" cmphy:genus="Hydrogenovibrio" cmphy:species="marinus" cmphy:strain="JCM 76887" cmphy:id="D86374" editRecord="[]">Hydrogenovibrio marinus JCM 76887 (D86374)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Beggiatoa" cmphy:species="alba" cmphy:strain="ATCC 33555T" cmphy:id="AFI10274" editRecord="[1__I]">Beggiatoa alba ATCC 33555T (AF110274)</otu>
+  <otu id="otu12">Thioploca ingrica (L40998)</otu>
+  <otu id="otu13">Francisella tularensis subsp. mediasiatica strain FSC 147 (AJ698863)</otu>
+  <otu id="otu14" cmphy:genus="Francisella" cmphy:species="novicida" cmphy:strain="ATCC 154827" cmphy:id="AY968237" editRecord="[]">Francisella novicida ATCC 154827 (AY968237)</otu>
+  <otu id="otu15">Francisella tularensis subsp. holarctioa strain LVS (AJ698866)</otu>
+  <otu id="otu16">Francisella tularensis subsp. tularensis ATCC 6223T (221931)</otu>
+  <otu id="otu17" cmphy:genus="Wolbachia" cmphy:species="persica" cmphy:strain="ATCC VR-331T" cmphy:id="M21292" editRecord="[]"> Wolbachia persica ATCC VR-331T (M21292)</otu>
+  <otu id="otu18" cmphy:genus="Francisella" cmphy:species="philomiragia" cmphy:strain="ATCC 250157" cmphy:id="AJ698862" editRecord="[]">Francisella philomiragia ATCC 250157 (AJ698862)</otu>
+  <otu id="otu19" cmphy:edit="[1__I]" cmphy:genus="Fangia" cmphy:species="hongkongensis" cmphy:strain="UST040201-0027" cmphy:id="ABI76554" editRecord="[1__I]">Fangia hongkongensis UST040201-0027 (AB176554)</otu>
+  <otu id="otu20">Caedibacter taeniospiralis (AY102612)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="106.0" y="557.0"/>
+   <node id="NT1.2" label="NT1.2" x="129.0" y="399.0"/>
+   <node id="NT1.3" label="NT1.3" x="129.0" y="715.0"/>
+   <node id="NT1.4" label="NT1.4" x="144.0" y="642.0"/>
+   <node id="NT1.5" label="NT1.5" x="146.0" y="326.0"/>
+   <node id="NT1.6" label="NT1.6" x="150.0" y="790.0"/>
+   <node id="NT1.7" x="167.0" y="687.0" label="61"/>
+   <node id="NT1.10" label="NT1.10" x="251.0" y="894.0" otu="otu1"/>
+   <node id="NT1.11" x="280.0" y="469.0" label="100"/>
+   <node id="NT1.12" x="284.0" y="262.0" label="100"/>
+   <node id="NT1.15" label="NT1.15" x="375.0" y="756.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="375.0" y="618.0" otu="otu4"/>
+   <node id="NT1.18" label="NT1.18" x="377.0" y="389.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="384.0" y="711.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="388.0" y="664.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="413.0" y="527.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="428.0" y="434.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="434.0" y="802.0" otu="otu11"/>
+   <node id="NT1.26" x="460.0" y="207.0" label="100"/>
+   <node id="NT1.27" label="NT1.27" x="467.0" y="163.0"/>
+   <node id="NT1.31" label="NT1.31" x="484.0" y="113.0" otu="otu14"/>
+   <node id="NT1.35" label="NT1.35" x="490.0" y="251.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="498.0" y="205.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="515.0" y="296.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="9.0" y="725.0" root="true"/>
+   <edge id="e.2" target="NT1.31" source="NT1.27"/>
+   <edge id="e.4" source="NT1.27" target="NT1.36"/>
+   <edge id="e.5" source="NT1.26" target="NT1.35"/>
+   <edge id="e.6" target="NT1.37" source="NT1.12"/>
+   <edge id="e.8" source="NT1.5" target="NT1.18"/>
+   <edge id="e.10" source="NT1.11" target="NT1.23"/>
+   <edge id="e.11" target="NT1.22" source="NT1.11"/>
+   <edge id="e.12" source="NT1.6" target="NT1.15"/>
+   <edge id="e.14" target="NT1.16" source="NT1.4"/>
+   <edge id="e.15" source="NT1.7" target="NT1.19"/>
+   <edge id="e.16" source="NT1.7" target="NT1.20"/>
+   <edge id="e.17" target="NT1.24" source="NT1.6"/>
+   <edge id="e.22" source="NT1.26" target="NT1.27"/>
+   <edge id="e.23" source="NT1.12" target="NT1.26"/>
+   <edge id="e.24" source="NT1.5" target="NT1.12"/>
+   <edge id="e.26" source="NT1.2" target="NT1.5"/>
+   <edge id="e.27" source="NT1.1" target="NT1.2"/>
+   <edge id="e.28" source="NT1.2" target="NT1.11"/>
+   <edge id="e.29" source="NT1.1" target="NT1.3"/>
+   <edge id="e.31" source="NT1.3" target="NT1.6"/>
+   <edge id="e.32" source="NT1.3" target="NT1.4"/>
+   <edge id="e.33" source="NT1.4" target="NT1.7"/>
+   <edge id="e.36" source="NT1.39" target="NT1.10"/>
+   <edge id="e.37" source="NT1.39" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

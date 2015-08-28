@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">930</otu>
+  <otu id="otu3">981</otu>
+  <otu id="otu4">786</otu>
+  <otu id="otu5">Reichenbachiella agariperforans KMM 3525T(AB058919)</otu>
+  <otu id="otu6" cmphy:genus="Microscilla" cmphy:species="sericed" cmphy:strain="IFO 16561" cmphy:id="ABO78082" editRecord="[]">Microscilla sericed IFO 16561 (ABO78082)</otu>
+  <otu id="otu7" cmphy:genus="Marinicola" cmphy:species="seohaensis" cmphy:strain="SW-1527" cmphy:id="AY739663" editRecord="[]">Marinicola seohaensis SW-1527 (AY739663)</otu>
+  <otu id="otu8" cmphy:genus="Persicobacter" cmphy:species="diffluens" cmphy:strain="ATCC 23140" cmphy:id="M58765" editRecord="[]">Persicobacter diffluens ATCC 23140 (M58765)</otu>
+  <otu id="otu9">Roseivirga ehrenbergii KMM 6017T(AY608410)</otu>
+  <otu id="otu10">1000</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Flexithrix" cmphy:species="dorotheae" cmphy:strain="IFO 159877" cmphy:id="ABO78077" editRecord="[0__O]">Flexithrix dorotheae IFO 159877 (AB078077)</otu>
+  <otu id="otu12">1000</otu>
+  <otu id="otu13">1MicroscllIa fuIvescens1 IFO 15994 (ABO78079)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Sediminitomix" cmphy:species="flava" cmphy:strain="Mok-1-85T" cmphy:id="ABZ55370" editRecord="[2__Z]">Sediminitomix flava Mok-1-85T (AB255370)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Flexibacter" cmphy:species="tractuosus" cmphy:strain="IFO 159897" cmphy:id="ABO78072" editRecord="[0__O]">Flexibacter tractuosus IFO 159897 (AB078072)</otu>
+  <otu id="otu16" cmphy:genus="Chlorobium" cmphy:species="limicola" cmphy:strain="M1 T" cmphy:id="ABO54671" editRecord="[]">Chlorobium limicola M1 T (ABO54671)</otu>
+  <otu id="otu17">1MicrosCiIIa sericea' IFO 15983 (ABO78081)</otu>
+  <otu id="otu18">Thermonema Iapsum (L11703)</otu>
+  <otu id="otu19">1000</otu>
+  <otu id="otu20" cmphy:edit="[2__Z]" cmphy:genus="Flammeovirga" cmphy:species="aprica" cmphy:strain="NBRC 15941T" cmphy:id="ABZ47553" editRecord="[2__Z]">Flammeovirga aprica NBRC 15941T (AB247553)</otu>
+  <otu id="otu21" cmphy:edit="[0__O]" cmphy:genus="Flammeovirga" cmphy:species="arenaria" cmphy:strain="NBRC 159827" cmphy:id="ABO78078" editRecord="[0__O]">Flammeovirga arenaria NBRC 159827 (AB078078)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" x="222.0" y="819.0" label="647"/>
+   <node id="NT1.4" label="NT1.4" x="250.0" y="488.0"/>
+   <node id="NT1.5" label="NT1.5" x="264.0" y="269.0"/>
+   <node id="NT1.6" label="NT1.6" x="269.0" y="110.0"/>
+   <node id="NT1.8" label="NT1.8" x="316.0" y="199.0"/>
+   <node id="NT1.10" label="NT1.10" x="329.0" y="879.0"/>
+   <node id="NT1.16" label="NT1.16" x="504.0" y="1150.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="505.0" y="1049.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="511.0" y="20.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="519.0" y="430.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="532.0" y="121.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="533.0" y="740.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="533.0" y="1355.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="584.0" y="275.0"/>
+   <node id="NT1.35" label="NT1.35" x="600.0" y="327.0" otu="otu20"/>
+   <node id="NT1.36" label="NT1.36" x="621.0" y="225.0" otu="otu21"/>
+   <node id="NT1.37" label="NT1.37" x="4.0" y="1195.0" root="true"/>
+   <edge id="e.1" source="NT1.6" target="NT1.20"/>
+   <edge id="e.2" source="NT1.8" target="NT1.28"/>
+   <edge id="e.4" source="NT1.33" target="NT1.35"/>
+   <edge id="e.5" source="NT1.33" target="NT1.36"/>
+   <edge id="e.6" source="NT1.5" target="NT1.25"/>
+   <edge id="e.12" target="NT1.18" source="NT1.10"/>
+   <edge id="e.16" target="NT1.29" source="NT1.10"/>
+   <edge id="e.18" source="NT1.3" target="NT1.16"/>
+   <edge id="e.20" source="NT1.5" target="NT1.6"/>
+   <edge id="e.21" source="NT1.6" target="NT1.8"/>
+   <edge id="e.22" source="NT1.8" target="NT1.33"/>
+   <edge id="e.23" source="NT1.4" target="NT1.5"/>
+   <edge id="e.24" source="NT1.3" target="NT1.4"/>
+   <edge id="e.26" target="NT1.10" source="NT1.4"/>
+   <edge id="e.27" target="NT1.3" source="NT1.37"/>
+   <edge id="e.34" source="NT1.37" target="NT1.30"/>
+  </tree>
+ </trees>
+</nexml>

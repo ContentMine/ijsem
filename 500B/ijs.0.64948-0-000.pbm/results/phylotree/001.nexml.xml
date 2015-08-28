@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Sphingobacterium" cmphy:species="thalpophilum" cmphy:strain="ATCC 43320T" cmphy:id="M58779" editRecord="[]">Sphingobacterium thalpophilum ATCC 43320T (M58779)</otu>
+  <otu id="otu2">Sphingobacterium multivorum IFO</otu>
+  <otu id="otu3" cmphy:genus="Sphingobacterium" cmphy:species="mizutaii" cmphy:strain="ATCC 33299T" cmphy:id="M58796" editRecord="[]">Sphingobacterium mizutaii ATCC 33299T (M58796)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Sphingobacterium" cmphy:species="daejeonense" cmphy:strain="TR6-04T" cmphy:id="ABZ49372" editRecord="[2__Z]">Sphingobacterium daejeonense TR6-04T (AB249372)</otu>
+  <otu id="otu5">Pedobacter heparinus DSM 2366T (AJ438l72)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="150.0" y="320.0"/>
+   <node id="NT1.3" label="NT1.3" x="531.0" y="72.0"/>
+   <node id="NT1.4" label="NT1.4" x="533.0" y="538.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="688.0" y="113.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="712.0" y="28.0" otu="otu4"/>
+   <node id="NT1.9" label="NT1.9" x="6.0" y="386.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.3"/>
+   <edge id="e.2" source="NT1.9" target="NT1.1"/>
+   <edge id="e.4" target="NT1.4" source="NT1.1"/>
+   <edge id="e.6" source="NT1.3" target="NT1.6"/>
+   <edge id="e.7" source="NT1.3" target="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

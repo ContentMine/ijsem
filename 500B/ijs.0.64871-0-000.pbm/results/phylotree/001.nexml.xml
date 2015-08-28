@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">A. panaciterrae Gsoil 161T (AB245387)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">A. tamlense SSW1-577 (DQ411541)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Nocardioides" cmphy:species="albus" cmphy:strain="DSM 431097" cmphy:id="X53211" editRecord="[]">Nocardioides albus DSM 431097 (X53211)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.14" label="NT1.14" x="353.0" y="288.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="3.0" y="275.0" root="true"/>
+   <edge id="e.10" source="NT1.15" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

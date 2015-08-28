@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">W succinogenes ATCC 295437 (M88159)</otu>
+  <otu id="otu3">H. pylori ATCC 435047 (M88157)</otu>
+  <otu id="otu4">C. jejuni subsp.jejuni NCTC 113517 (AF372091)</otu>
+  <otu id="otu5">C. jejunisubsp. doylei LMG 88437 (DQ174144)</otu>
+  <otu id="otu6">C. coli LMG 64407 (AF372092)</otu>
+  <otu id="otu7">C. insulaenigrae NCTC 129277 (AJ620504)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Sulfurospirillum" cmphy:species="halorespirans" cmphy:strain="PCE-M27" cmphy:id="AFZ18076" editRecord="[2__Z]">Sulfurospirillum halorespirans PCE-M27 (AF218076)</otu>
+  <otu id="otu9">C. Iari NCTC 113527 (DQ174145)</otu>
+  <otu id="otu10">C. hyointestinalis subsp. Iawsonii CCUG 345387 (DQ195237)</otu>
+  <otu id="otu11" cmphy:genus="Sulfurospilillum" cmphy:species="deleyianum" cmphy:strain="Spirillum 51757" cmphy:id="Y13671" editRecord="[]">Sulfurospilillum deleyianum Spirillum 51757 (Y13671)</otu>
+  <otu id="otu12">C. helveticus NCTC 124707 (DQ174161)</otu>
+  <otu id="otu13">C. Ianienae NCTC 130047 (DQ174181)</otu>
+  <otu id="otu14">C. upsaliensis CCUG 149137 (DQ174157)</otu>
+  <otu id="otu15">Sulfurospirillum oarboxydovorans7 MV (AY740528)</otu>
+  <otu id="otu16">C. fetus subsp. venerealis NCTC 103547 (DQ174131)</otu>
+  <otu id="otu17">C. fetus subsp. fetus ATCC 273747 (DQ174127)</otu>
+  <otu id="otu18">C. hyointestinalis subsp. hyointestinalis LMG 78177 (DQ174177)</otu>
+  <otu id="otu19">C. canadensis L279 (EF621900)</otu>
+  <otu id="otu20">C. canadensis L267 (EF621896)</otu>
+  <otu id="otu21">C. mucosalis ATCC 432647 (DQ174173)</otu>
+  <otu id="otu22">A. cryaerophilus CCUG 178017 (L14624)</otu>
+  <otu id="otu23">C. canadensis L277 (EF621903)</otu>
+  <otu id="otu24">A. butzleri CCUG 10373 (L14626)</otu>
+  <otu id="otu25">A. skirrowii CCUG 103747 (L14625)</otu>
+  <otu id="otu26">A. cibarius LMG 219967 (AJ607391)</otu>
+  <otu id="otu27">C. concisus ATCC 332377 (DQ174166)</otu>
+  <otu id="otu28" cmphy:genus="Bactemides" cmphy:species="ureolytious" cmphy:strain="ATCC 333877" cmphy:id="M88159" editRecord="[]">Bactemides ureolytious ATCC 333877 (M88159)</otu>
+  <otu id="otu29">C. rectus CCUG 20446B7 (DQ174169)</otu>
+  <otu id="otu30">C. cunzus ATCC 352247 (DQ174165)</otu>
+  <otu id="otu31">A. nitrofigilis CCUG 158937 (L14627)</otu>
+  <otu id="otu32">C. showae CCUG 302547 (DQ174155)</otu>
+  <otu id="otu33">C. sputorurn bv. Sputorum LMG 7795N7 (DQ174149)</otu>
+  <otu id="otu34">C. gracilis ATCC 332367 (DQ174168)</otu>
+  <otu id="otu35">C. hominis NCTC 131467 (AJ251584)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="296.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="324.0" y="864.0"/>
+   <node id="NT1.15" label="NT1.15" x="683.0" y="1227.0"/>
+   <node id="NT1.29" label="NT1.29" x="764.0" y="1247.0" otu="otu8"/>
+   <node id="NT1.33" label="NT1.33" x="791.0" y="1211.0" otu="otu11"/>
+   <node id="NT1.60" label="NT1.60" x="970.0" y="435.0" otu="otu28"/>
+   <edge id="e.13" target="NT1.5" source="NT1.1"/>
+   <edge id="e.20" target="NT1.15" source="NT1.5"/>
+   <edge id="e.46" source="NT1.15" target="NT1.29"/>
+   <edge id="e.48" source="NT1.15" target="NT1.33"/>
+   <edge id="e.51" target="NT1.60" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

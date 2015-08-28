@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Pseudoalteromonas" cmphy:species="haloplanktis" cmphy:strain="ATCC 143937" cmphy:id="X67024" editRecord="[]">Pseudoalteromonas haloplanktis ATCC 143937 (X67024)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Idiomarina" cmphy:species="abyssalis" cmphy:strain="KMM 2277" cmphy:id="AFO52740" editRecord="[]">Idiomarina abyssalis KMM 2277 (AFO52740)</otu>
+  <otu id="otu5" cmphy:genus="Shewanella" cmphy:species="putrefaciens" cmphy:strain="ATCC 80717" cmphy:id="X82133" editRecord="[]">Shewanella putrefaciens ATCC 80717 (X82133)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="460.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="57.0" y="642.0"/>
+   <node id="NT1.3" label="NT1.3" x="75.0" y="560.0"/>
+   <node id="NT1.7" label="NT1.7" x="650.0" y="610.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="738.0" y="544.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="750.0" y="741.0" otu="otu5"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.3" target="NT1.7"/>
+   <edge id="e.3" target="NT1.9" source="NT1.3"/>
+   <edge id="e.4" target="NT1.10" source="NT1.2"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

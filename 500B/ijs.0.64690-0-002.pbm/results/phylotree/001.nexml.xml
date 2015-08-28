@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Haloterrigena" cmphy:species="turkmenica" cmphy:strain="VKM B-1734T" cmphy:id="ABO04878" editRecord="[0__O]">Haloterrigena turkmenica VKM B-1734T (AB004878)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Haloferax" cmphy:species="volcanii" cmphy:strain="NCIMB 20127" cmphy:id="K00421" editRecord="[]">Haloferax volcanii NCIMB 20127 (K00421)</otu>
+  <otu id="otu8" cmphy:genus="Haloferax" cmphy:species="volcanii" cmphy:strain="NCIMB 20127" cmphy:id="K00421" editRecord="[]">Haloferax volcanii NCIMB 20127 (K00421)</otu>
+  <otu id="otu9" cmphy:genus="Haloarcula" cmphy:species="vallismonis" cmphy:strain="ATCC 29715T" cmphy:id="D50851" editRecord="[]">Haloarcula vallismonis ATCC 29715T (D50851)</otu>
+  <otu id="otu10" cmphy:genus="Haloferax" cmphy:species="gibbonsii" cmphy:strain="ATCC 33959T" cmphy:id="D13378" editRecord="[]">Haloferax gibbonsii ATCC 33959T (D13378)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Halogeometricum" cmphy:species="borinquense" cmphy:strain="PR 37" cmphy:id="AFO02984" editRecord="[0__O]">Halogeometricum borinquense PR 37 (AF002984)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Halobaculum" cmphy:species="gomorrense" cmphy:strain="ATCC 700876T" cmphy:id="L37444" editRecord="[]">Halobaculum gomorrense ATCC 700876T (L37444)</otu>
+  <otu id="otu14" cmphy:genus="Halorubrum" cmphy:species="saccharovorum" cmphy:strain="NCIMB 2O81T" cmphy:id="X82167" editRecord="[]">Halorubrum saccharovorum NCIMB 2O81T (X82167)</otu>
+  <otu id="otu15" cmphy:genus="Halorubrum" cmphy:species="sodomense" cmphy:strain="ATCC 33755T" cmphy:id="X82169" editRecord="[]">Halorubrum sodomense ATCC 33755T (X82169)</otu>
+  <otu id="otu16">Strain C237 (AY676200)</otu>
+  <otu id="otu17">Strain HBSQ001 (AM180088)</otu>
+  <otu id="otu18"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="294.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="30.0" y="294.0"/>
+   <node id="NT1.4" label="NT1.4" x="95.0" y="252.0"/>
+   <node id="NT1.5" label="NT1.5" x="129.0" y="204.0"/>
+   <node id="NT1.6" label="NT1.6" x="153.0" y="249.0"/>
+   <node id="NT1.8" label="NT1.8" x="205.0" y="134.0"/>
+   <node id="NT1.10" label="NT1.10" x="234.0" y="332.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="269.0" y="185.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="269.0" y="168.0"/>
+   <node id="NT1.15" label="NT1.15" x="276.0" y="169.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="276.0" y="301.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="285.0" y="148.0" otu="otu10"/>
+   <node id="NT1.18" label="NT1.18" x="301.0" y="113.0" otu="otu11"/>
+   <node id="NT1.19" label="NT1.19" x="316.0" y="231.0"/>
+   <node id="NT1.22" label="NT1.22" x="323.0" y="271.0" otu="otu13"/>
+   <node id="NT1.23" label="NT1.23" x="342.0" y="244.0" otu="otu14"/>
+   <node id="NT1.24" label="NT1.24" x="377.0" y="212.0" otu="otu15"/>
+   <edge id="e.5" source="NT1.14" target="NT1.13"/>
+   <edge id="e.6" source="NT1.14" target="NT1.15"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" source="NT1.2" target="NT1.10"/>
+   <edge id="e.14" source="NT1.5" target="NT1.8"/>
+   <edge id="e.15" source="NT1.8" target="NT1.14"/>
+   <edge id="e.16" source="NT1.4" target="NT1.5"/>
+   <edge id="e.17" source="NT1.5" target="NT1.6"/>
+   <edge id="e.18" source="NT1.6" target="NT1.19"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.21" source="NT1.4" target="NT1.16"/>
+   <edge id="e.22" source="NT1.6" target="NT1.22"/>
+   <edge id="e.23" target="NT1.18" source="NT1.8"/>
+   <edge id="e.24" source="NT1.14" target="NT1.17"/>
+   <edge id="e.25" source="NT1.19" target="NT1.23"/>
+   <edge id="e.26" target="NT1.24" source="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Glycomyces tenuis lFO159O4T(D85482)</otu>
+  <otu id="otu3" cmphy:genus="Glycomyces" cmphy:species="sambucus" cmphy:strain="E717" cmphy:id="DQ460469" editRecord="[]"> Glycomyces sambucus E717 (DQ460469)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="302.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="343.0" y="219.0" otu="otu3"/>
+   <edge id="e.0" target="NT1.4" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

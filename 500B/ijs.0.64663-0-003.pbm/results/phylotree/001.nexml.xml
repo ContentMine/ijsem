@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Aquabacterium commune DSM 1 1901 T (AF035054)</otu>
+  <otu id="otu2">Aquabacterium citratiphilum DSM 1 1900T (AF035050)</otu>
+  <otu id="otu3">Strains L1 OTIL1 08 (DQ656489lDQ436455)</otu>
+  <otu id="otu4">Strain CIP I-2052 (AF244133)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Methylibium" cmphy:species="petroleiphilum" cmphy:strain="ATCC BAA-1232T" cmphy:id="AFI76594" editRecord="[1__I]">Methylibium petroleiphilum ATCC BAA-1232T (AF176594)</otu>
+  <otu id="otu6" cmphy:genus="Leptothrix" cmphy:species="mobilis" cmphy:strain="DSM 10617T" cmphy:id="X97071" editRecord="[]">Leptothrix mobilis DSM 10617T (X97071)</otu>
+  <otu id="otu7" cmphy:genus="Leptothrix" cmphy:species="cholodnii" cmphy:strain="COM 1827" cmphy:id="X97070" editRecord="[]">Leptothrix cholodnii COM 1827 (X97070)</otu>
+  <otu id="otu8" cmphy:genus="Ideonella" cmphy:species="dechloratans" cmphy:strain="CCUG 3O977T" cmphy:id="X72724" editRecord="[]">Ideonella dechloratans CCUG 3O977T (X72724)</otu>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Roseateles" cmphy:species="depolymerans" cmphy:strain="DSM 11814" cmphy:id="ABO03625" editRecord="[O__0]">Roseateles depolymerans DSM 11814 (ABOO3625)</otu>
+  <otu id="otu10" cmphy:genus="Rubrivivax" cmphy:species="gelatinosus" cmphy:strain="DSM 17O9T" cmphy:id="D16213" editRecord="[]">Rubrivivax gelatinosus DSM 17O9T (D16213)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="Mitsuaria" cmphy:species="chitosanitabida" cmphy:strain="ATCC BAA-476T" cmphy:id="ABO06851" editRecord="[O__0]">Mitsuaria chitosanitabida ATCC BAA-476T (ABOO6851)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Hydrogenophaga" cmphy:species="palleroni" cmphy:strain="CCUG 20334T" cmphy:id="AFO78769" editRecord="[0__O]">Hydrogenophaga palleroni CCUG 20334T (AF078769)</otu>
+  <otu id="otu13" cmphy:genus="Delftia" cmphy:species="acidovorans" cmphy:strain="IAM 124O9T" cmphy:id="ABO21417" editRecord="[]">Delftia acidovorans IAM 124O9T (ABO21417)</otu>
+  <otu id="otu14" cmphy:genus="Rhodoferax" cmphy:species="fermentans" cmphy:strain="JCM 7819T" cmphy:id="D16211" editRecord="[]">Rhodoferax fermentans JCM 7819T (D16211)</otu>
+  <otu id="otu15" cmphy:genus="Polaromonas" cmphy:species="vacuolata" cmphy:strain="ATCC 51984T" cmphy:id="U14585" editRecord="[]">Polaromonas vacuolata ATCC 51984T (U14585)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Acidovorax" cmphy:species="facilis" cmphy:strain="CCUG 2113T" cmphy:id="AFO78765" editRecord="[0__O]">Acidovorax facilis CCUG 2113T (AF078765)</otu>
+  <otu id="otu17">Comamonas testosteroni ATCC 1 1996 (M1 1224)</otu>
+  <otu id="otu18" cmphy:genus="Alcaligenes" cmphy:species="faecalis" cmphy:strain="ATCC 8750T" cmphy:id="M22508" editRecord="[]">Alcaligenes faecalis ATCC 8750T (M22508)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="440.0"/>
+   <node id="NT1.2" label="NT1.2" x="134.0" y="906.0"/>
+   <node id="NT1.4" label="NT1.4" x="163.0" y="1015.0"/>
+   <node id="NT1.5" label="NT1.5" x="166.0" y="798.0"/>
+   <node id="NT1.6" label="NT1.6" x="178.0" y="397.0"/>
+   <node id="NT1.7" label="NT1.7" x="198.0" y="503.0"/>
+   <node id="NT1.10" label="NT1.10" x="224.0" y="414.0"/>
+   <node id="NT1.11" label="NT1.11" x="226.0" y="850.0"/>
+   <node id="NT1.12" label="NT1.12" x="242.0" y="654.0"/>
+   <node id="NT1.13" label="NT1.13" x="272.0" y="294.0"/>
+   <node id="NT1.20" label="NT1.20" x="322.0" y="82.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="325.0" y="383.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="331.0" y="444.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="333.0" y="685.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="335.0" y="323.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="354.0" y="624.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="391.0" y="262.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="433.0" y="745.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="441.0" y="927.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="452.0" y="987.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="452.0" y="1047.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="481.0" y="806.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="675.0" y="22.0" otu="otu18"/>
+   <node id="NT1.34" label="NT1.34" x="3.0" y="905.0" root="true"/>
+   <edge id="e.1" source="NT1.1" target="NT1.33"/>
+   <edge id="e.3" source="NT1.10" target="NT1.22"/>
+   <edge id="e.5" source="NT1.12" target="NT1.25"/>
+   <edge id="e.6" target="NT1.28" source="NT1.11"/>
+   <edge id="e.8" target="NT1.6" source="NT1.1"/>
+   <edge id="e.10" source="NT1.6" target="NT1.7"/>
+   <edge id="e.11" source="NT1.6" target="NT1.13"/>
+   <edge id="e.13" source="NT1.7" target="NT1.10"/>
+   <edge id="e.14" target="NT1.12" source="NT1.7"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+   <edge id="e.17" source="NT1.2" target="NT1.5"/>
+   <edge id="e.18" source="NT1.5" target="NT1.11"/>
+   <edge id="e.20" source="NT1.34" target="NT1.1"/>
+   <edge id="e.21" source="NT1.34" target="NT1.2"/>
+   <edge id="e.22" source="NT1.1" target="NT1.20"/>
+   <edge id="e.23" source="NT1.5" target="NT1.27"/>
+   <edge id="e.24" source="NT1.10" target="NT1.21"/>
+   <edge id="e.25" source="NT1.4" target="NT1.29"/>
+   <edge id="e.26" source="NT1.4" target="NT1.30"/>
+   <edge id="e.27" source="NT1.12" target="NT1.23"/>
+   <edge id="e.28" source="NT1.13" target="NT1.24"/>
+   <edge id="e.29" source="NT1.11" target="NT1.31"/>
+   <edge id="e.30" source="NT1.13" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

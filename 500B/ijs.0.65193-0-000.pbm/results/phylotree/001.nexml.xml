@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="mannanilyticus" cmphy:strain="JCM 105967" cmphy:id="ABO43864" editRecord="[0__O]">Bacillus mannanilyticus JCM 105967 (AB043864)</otu>
+  <otu id="otu2">Bacillus halodurans ATCC 27557) (ABO21 187)</otu>
+  <otu id="otu3" cmphy:genus="Bacillus" cmphy:species="holti" cmphy:strain="JCM 9943)" cmphy:id="D87035" editRecord="[]">Bacillus holti JCM 9943) (D87035)</otu>
+  <otu id="otu4" cmphy:genus="Bacillus" cmphy:species="clarkii" cmphy:strain="DSM 8720'" cmphy:id="X76444" editRecord="[]">Bacillus clarkii DSM 8720' (X76444)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="polygoni" cmphy:strain="YN-1T" cmphy:id="ABZ92819" editRecord="[2__Z]">Bacillus polygoni YN-1T (AB292819)</otu>
+  <otu id="otu6" cmphy:genus="Bacillus" cmphy:species="alcalophilus" cmphy:strain="DSM 485)" cmphy:id="X76436" editRecord="[]">Bacillus alcalophilus DSM 485) (X76436)</otu>
+  <otu id="otu7" cmphy:genus="Bacillus" cmphy:species="agaradhaerens" cmphy:strain="DSM 87217" cmphy:id="X76445" editRecord="[]">Bacillus agaradhaerens DSM 87217 (X76445)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="cellulosilyticus" cmphy:strain="JCM 9156'" cmphy:id="ABO43852" editRecord="[0__O]">Bacillus cellulosilyticus JCM 9156' (AB043852)</otu>
+  <otu id="otu9" cmphy:genus="Bacillus" cmphy:species="veclderi" cmphy:strain="DSM 97esT" cmphy:id="Z48306" editRecord="[]">Bacillus veclderi DSM 97esT (Z48306)</otu>
+  <otu id="otu10">Bacillus krulwichiae JCM 11691T(AB086897)</otu>
+  <otu id="otu11" cmphy:genus="Bacillus" cmphy:species="clausii" cmphy:strain="DSM 8716'" cmphy:id="X76440" editRecord="[]">Bacillus clausii DSM 8716' (X76440)</otu>
+  <otu id="otu12" cmphy:genus="Bacillus" cmphy:species="saliphilus" cmphy:strain="DSM 15402'" cmphy:id="AJ493660" editRecord="[]">Bacillus saliphilus DSM 15402' (AJ493660)</otu>
+  <otu id="otu13">Bacillus subtilis IAM 121 18) (AB042061)</otu>
+  <otu id="otu14" cmphy:genus="Bacillus" cmphy:species="cohnii" cmphy:strain="DSM 63071" cmphy:id="X76437" editRecord="[]">Bacillus cohnii DSM 63071 (X76437)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="selenitireducens" cmphy:strain="ATCC 70O615T" cmphy:id="AFO64704" editRecord="[0__O]">Bacillus selenitireducens ATCC 70O615T (AF064704)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="101.0" y="305.0"/>
+   <node id="NT1.2" label="NT1.2" x="155.0" y="666.0"/>
+   <node id="NT1.3" label="NT1.3" x="254.0" y="441.0"/>
+   <node id="NT1.5" label="NT1.5" x="339.0" y="543.0"/>
+   <node id="NT1.6" label="NT1.6" x="356.0" y="89.0"/>
+   <node id="NT1.8" label="NT1.8" x="375.0" y="703.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="394.0" y="248.0"/>
+   <node id="NT1.11" label="NT1.11" x="410.0" y="283.0"/>
+   <node id="NT1.12" label="NT1.12" x="507.0" y="39.0"/>
+   <node id="NT1.13" label="NT1.13" x="538.0" y="137.0"/>
+   <node id="NT1.15" label="NT1.15" x="607.0" y="654.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="611.0" y="64.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="625.0" y="14.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="635.0" y="555.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="637.0" y="309.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="752.0" y="112.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="768.0" y="162.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="820.0" y="506.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="834.0" y="260.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="907.0" y="408.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="942.0" y="211.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="5.0" y="491.0" root="true"/>
+   <edge id="e.0" source="NT1.12" target="NT1.16"/>
+   <edge id="e.1" source="NT1.13" target="NT1.20"/>
+   <edge id="e.2" source="NT1.13" target="NT1.21"/>
+   <edge id="e.3" source="NT1.11" target="NT1.19"/>
+   <edge id="e.4" source="NT1.11" target="NT1.24"/>
+   <edge id="e.5" source="NT1.9" target="NT1.27"/>
+   <edge id="e.6" target="NT1.18" source="NT1.5"/>
+   <edge id="e.9" target="NT1.26" source="NT1.3"/>
+   <edge id="e.10" source="NT1.2" target="NT1.15"/>
+   <edge id="e.11" source="NT1.6" target="NT1.12"/>
+   <edge id="e.12" source="NT1.6" target="NT1.13"/>
+   <edge id="e.13" source="NT1.1" target="NT1.6"/>
+   <edge id="e.14" source="NT1.6" target="NT1.9"/>
+   <edge id="e.15" source="NT1.9" target="NT1.11"/>
+   <edge id="e.16" source="NT1.1" target="NT1.3"/>
+   <edge id="e.19" target="NT1.5" source="NT1.3"/>
+   <edge id="e.21" source="NT1.2" target="NT1.8"/>
+   <edge id="e.22" source="NT1.28" target="NT1.1"/>
+   <edge id="e.23" source="NT1.28" target="NT1.2"/>
+   <edge id="e.24" source="NT1.5" target="NT1.23"/>
+   <edge id="e.26" source="NT1.12" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

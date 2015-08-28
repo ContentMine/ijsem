@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Lysobacter daejeonensis GH1-97 (DQ191 178)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">L ysobacter concretionis Ko07T (AB 1 61 359)</otu>
+  <otu id="otu8">L ysobacter yangpyeongensis GH19-37 (DQ191179)</otu>
+  <otu id="otu9" cmphy:genus="Xanthomonas" cmphy:species="campestris" cmphy:strain="LMG 568T" cmphy:id="X95917" editRecord="[]">Xanthomonas campestris LMG 568T (X95917)</otu>
+  <otu id="otu10">L ysobacter koreensis Dae161(AB166878)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Lysobacter" cmphy:species="enzymogenes" cmphy:strain="DSM 20437" cmphy:id="AJZ98291" editRecord="[2__Z]">Lysobacter enzymogenes DSM 20437 (AJ298291)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Lysobacter" cmphy:species="defluvii" cmphy:strain="IMMIB APB-9'" cmphy:id="AMZ83465" editRecord="[2__Z]">Lysobacter defluvii IMMIB APB-9' (AM283465)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Lysobacter" cmphy:species="brunescens" cmphy:strain="LMG 8761T" cmphy:id="ABI61360" editRecord="[1__I]">Lysobacter brunescens LMG 8761T (AB161360)</otu>
+  <otu id="otu14" cmphy:genus="Pseudoxanthomonas" cmphy:species="broegbernensis" cmphy:strain="B1616l1T" cmphy:id="AJO12231" editRecord="[]">Pseudoxanthomonas broegbernensis B1616l1T (AJO12231)</otu>
+  <otu id="otu15" cmphy:genus="Stenotrophomonas" cmphy:species="maltophilia" cmphy:strain="DSM 501707" cmphy:id="M59158" editRecord="[]">Stenotrophomonas maltophilia DSM 501707 (M59158)</otu>
+  <otu id="otu16" cmphy:edit="[1__I]" cmphy:genus="Xylella" cmphy:species="fastidiosa" cmphy:strain="ATCC 35879'" cmphy:id="AFI92343" editRecord="[1__I]">Xylella fastidiosa ATCC 35879' (AF192343)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="314.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="314.0"/>
+   <node id="NT1.3" label="NT1.3" x="67.0" y="198.0"/>
+   <node id="NT1.10" label="NT1.10" x="174.0" y="159.0"/>
+   <node id="NT1.15" label="NT1.15" x="252.0" y="119.0"/>
+   <node id="NT1.17" label="NT1.17" x="300.0" y="80.0"/>
+   <node id="NT1.20" label="NT1.20" x="327.0" y="40.0"/>
+   <node id="NT1.23" label="NT1.23" x="433.0" y="58.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="445.0" y="255.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="452.0" y="492.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="511.0" y="176.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="547.0" y="18.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="547.0" y="97.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="672.0" y="136.0" otu="otu16"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" target="NT1.25" source="NT1.3"/>
+   <edge id="e.5" source="NT1.17" target="NT1.20"/>
+   <edge id="e.6" source="NT1.15" target="NT1.17"/>
+   <edge id="e.7" source="NT1.10" target="NT1.15"/>
+   <edge id="e.8" source="NT1.3" target="NT1.10"/>
+   <edge id="e.9" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" target="NT1.26" source="NT1.2"/>
+   <edge id="e.24" source="NT1.10" target="NT1.27"/>
+   <edge id="e.25" source="NT1.20" target="NT1.23"/>
+   <edge id="e.26" source="NT1.17" target="NT1.29"/>
+   <edge id="e.27" source="NT1.15" target="NT1.30"/>
+   <edge id="e.28" source="NT1.20" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

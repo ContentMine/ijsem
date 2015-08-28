@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">ASL1 (AF544224)</otu>
+  <otu id="otu2" cmphy:genus="Picrophilus" cmphy:species="oshimae" cmphy:strain="KAW2l2T" cmphy:id="X84901" editRecord="[]">Picrophilus oshimae KAW2l2T (X84901)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Thermogymnomonas" cmphy:species="acidicola" cmphy:strain="IC-189T" cmphy:id="ABZ69873" editRecord="[2__Z]">Thermogymnomonas acidicola IC-189T (AB269873)</otu>
+  <otu id="otu4" cmphy:edit="[O__0, O__0]" cmphy:genus="Thermoplasma" cmphy:species="acidophilum" cmphy:strain="DSM 17287" cmphy:id="NC_002578" editRecord="[O__0, O__0]">Thermoplasma acidophilum DSM 17287 (NC_OO2578)</otu>
+  <otu id="otu5" cmphy:genus="Picrophilus" cmphy:species="torridus" cmphy:strain="DSM 97907" cmphy:id="NC_005877" editRecord="[]">Picrophilus torridus DSM 97907 (NC_005877)</otu>
+  <otu id="otu6">ant-b7 (DQ303249)</otu>
+  <otu id="otu7" cmphy:genus="Thermoplasma" cmphy:species="volcanium" cmphy:strain="GSS1T" cmphy:id="NC_002689" editRecord="[]">Thermoplasma volcanium GSS1T (NC_002689)</otu>
+  <otu id="otu8">ARCP1-21 (AF523936)</otu>
+  <otu id="otu9">AS1 (AF544219)</otu>
+  <otu id="otu10">ARCP1-27 (AF523937)</otu>
+  <otu id="otu11">AS4 (AF544223)</otu>
+  <otu id="otu12">AciduIiprofundum boonef T469 (DQ451875)</otu>
+  <otu id="otu13">ARCP1-60 (AF523941)</otu>
+  <otu id="otu14">FerropIasma cupricumulans BH2 (AY907888)</otu>
+  <otu id="otu15">A510 (AF544221)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Ferroplasma" cmphy:species="acidiphilum" cmphy:strain="DSM 126587" cmphy:id="AJZ24936" editRecord="[2__Z]">Ferroplasma acidiphilum DSM 126587 (AJ224936)</otu>
+  <otu id="otu17">Ferroplasma Sp. MT17 (AF513710)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="156.0" y="600.0"/>
+   <node id="NT1.2" label="NT1.2" x="175.0" y="464.0"/>
+   <node id="NT1.5" label="NT1.5" x="241.0" y="734.0"/>
+   <node id="NT1.9" label="NT1.9" x="369.0" y="537.0"/>
+   <node id="NT1.13" label="NT1.13" x="404.0" y="809.0"/>
+   <node id="NT1.14" label="NT1.14" x="405.0" y="840.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="406.0" y="458.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="406.0" y="565.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="409.0" y="783.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="414.0" y="511.0" otu="otu7"/>
+   <node id="NT1.31" label="NT1.31" x="582.0" y="730.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="2.0" y="746.0" root="true"/>
+   <edge id="e.3" target="NT1.15" source="NT1.2"/>
+   <edge id="e.4" source="NT1.9" target="NT1.16"/>
+   <edge id="e.5" source="NT1.9" target="NT1.19"/>
+   <edge id="e.6" source="NT1.13" target="NT1.14"/>
+   <edge id="e.7" target="NT1.31" source="NT1.5"/>
+   <edge id="e.16" source="NT1.1" target="NT1.2"/>
+   <edge id="e.17" source="NT1.2" target="NT1.9"/>
+   <edge id="e.18" source="NT1.1" target="NT1.5"/>
+   <edge id="e.19" source="NT1.5" target="NT1.13"/>
+   <edge id="e.23" source="NT1.33" target="NT1.1"/>
+   <edge id="e.28" source="NT1.13" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

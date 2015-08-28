@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Curtobacterium" cmphy:species="pusillum" cmphy:strain="DSM 205277" cmphy:id="AJ784400" editRecord="[]">Curtobacterium pusillum DSM 205277 (AJ784400)</otu>
+  <otu id="otu4" cmphy:genus="Curtobacterium" cmphy:species="citreum" cmphy:strain="DSM 2o52sT" cmphy:id="X77436" editRecord="[]">Curtobacterium citreum DSM 2o52sT (X77436)</otu>
+  <otu id="otu5">Strain B557 (AB266597)</otu>
+  <otu id="otu6" cmphy:genus="Clavibacter" cmphy:species="michiganensis" cmphy:strain="DSM 463647" cmphy:id="X77435" editRecord="[]">Clavibacter michiganensis DSM 463647 (X77435)</otu>
+  <otu id="otu7">Strain SA72 (AB266600)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="302.0" y="279.0"/>
+   <node id="NT1.8" label="NT1.8" x="344.0" y="389.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="364.0" y="153.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="386.0" y="13.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="4.0" y="216.0" root="true"/>
+   <edge id="e.2" source="NT1.3" target="NT1.8"/>
+   <edge id="e.4" target="NT1.10" source="NT1.3"/>
+   <edge id="e.10" target="NT1.3" source="NT1.19"/>
+   <edge id="e.16" source="NT1.19" target="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

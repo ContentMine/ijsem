@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Z ymobacter palmae T109T (D14555)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Cobetia" cmphy:species="marina" cmphy:strain="DSM 4741T" cmphy:id="AJB06890" editRecord="[3__B]">Cobetia marina DSM 4741T (AJ306890)</otu>
+  <otu id="otu6" cmphy:genus="Halomonas" cmphy:species="anticariensis" cmphy:strain="FP35T" cmphy:id="AY489405" editRecord="[]">Halomonas anticariensis FP35T (AY489405)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Chromohalobacter marismonui ATCC 1 7056T (X8721 9)</otu>
+  <otu id="otu9" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 11775" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 11775 (X80725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="267.0" y="758.0"/>
+   <node id="NT1.10" label="NT1.10" x="513.0" y="894.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="515.0" y="704.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="593.0" y="971.0" otu="otu9"/>
+   <node id="NT1.15" label="NT1.15" x="5.0" y="913.0" root="true"/>
+   <edge id="e.3" target="NT1.11" source="NT1.2"/>
+   <edge id="e.6" source="NT1.2" target="NT1.10"/>
+   <edge id="e.11" target="NT1.2" source="NT1.15"/>
+   <edge id="e.12" source="NT1.15" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

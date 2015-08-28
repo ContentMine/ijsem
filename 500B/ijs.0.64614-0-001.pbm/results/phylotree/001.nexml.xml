@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Niastella" cmphy:species="koreensis" cmphy:strain="GR20-10T" cmphy:id="DQZ44077" editRecord="[2__Z]"> Niastella koreensis GR20-10T (DQ244077)</otu>
+  <otu id="otu3">Flexibacterjaponensis IFO 16O41T (AB078055)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Flexibacter" cmphy:species="filiformis" cmphy:strain="IFO 15056T" cmphy:id="ABO78049" editRecord="[0__O]"> Flexibacter filiformis IFO 15056T (AB078049)</otu>
+  <otu id="otu5" cmphy:genus="Cytophaga" cmphy:species="arvensicola" cmphy:strain="IAM 1265OT" cmphy:id="D12657" editRecord="[]">Cytophaga arvensicola IAM 1265OT (D12657)</otu>
+  <otu id="otu6" cmphy:genus="Terrimonas" cmphy:species="ferruginea" cmphy:strain="ATCC 135247" cmphy:id="M62798" editRecord="[]">Terrimonas ferruginea ATCC 135247 (M62798)</otu>
+  <otu id="otu7">Terrimonas Iutea DYT(AB192292)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Flexibacter" cmphy:species="sancti" cmphy:strain="IFO 15057T" cmphy:id="ABO78066" editRecord="[0__O]">Flexibacter sancti IFO 15057T (AB078066)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"> R2A15-117 (DQ457019)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Uncultured" cmphy:species="bacterial" cmphy:strain="clone Ebpr2" cmphy:id="AFZ55627" editRecord="[2__Z]">Uncultured bacterial clone Ebpr2 (AF255627)</otu>
+  <otu id="otu12">Flavobacterium aquatile ATCC 1 19477 (M82797)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="293.0" y="245.0"/>
+   <node id="NT1.2" label="NT1.2" x="336.0" y="144.0"/>
+   <node id="NT1.3" x="388.0" y="80.0" label="74"/>
+   <node id="NT1.4" x="391.0" y="343.0" label="99"/>
+   <node id="NT1.7" label="NT1.7" x="438.0" y="392.0"/>
+   <node id="NT1.11" label="NT1.11" x="528.0" y="187.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="540.0" y="447.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="553.0" y="273.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="554.0" y="15.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="563.0" y="360.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="669.0" y="144.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="2.0" y="367.0" root="true"/>
+   <edge id="e.0" target="NT1.15" source="NT1.3"/>
+   <edge id="e.3" target="NT1.21" source="NT1.3"/>
+   <edge id="e.5" target="NT1.11" source="NT1.2"/>
+   <edge id="e.7" target="NT1.14" source="NT1.4"/>
+   <edge id="e.8" target="NT1.13" source="NT1.7"/>
+   <edge id="e.11" source="NT1.2" target="NT1.3"/>
+   <edge id="e.13" source="NT1.1" target="NT1.2"/>
+   <edge id="e.15" source="NT1.1" target="NT1.4"/>
+   <edge id="e.16" source="NT1.4" target="NT1.7"/>
+   <edge id="e.20" source="NT1.23" target="NT1.1"/>
+   <edge id="e.21" source="NT1.7" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

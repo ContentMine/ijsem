@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="lini" cmphy:strain="CFBP 57377" cmphy:id="AYO35996" editRecord="[0__O]">Pseudomonas lini CFBP 57377 (AY035996)</otu>
+  <otu id="otu2">Pseudomonasjessenii CIP 1052747 (AF068259)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="migulae" cmphy:strain="CIP 1054707" cmphy:id="AFO74383" editRecord="[0__O]"> Pseudomonas migulae CIP 1054707 (AF074383)</otu>
+  <otu id="otu4" cmphy:genus="Pseudomonas" cmphy:species="corrugata" cmphy:strain="ATCC 297367" cmphy:id="D84012" editRecord="[]">Pseudomonas corrugata ATCC 297367 (D84012)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">Pseudomonas chlororaphis</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="LMG 12427" cmphy:id="Z76651" editRecord="[]">Pseudomonas aeruginosa LMG 12427 (Z76651)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Pseudomonas" cmphy:species="brassicacearum" cmphy:strain="DBK117" cmphy:id="AFI00321" editRecord="[1__I]"> Pseudomonas brassicacearum DBK117 (AF100321)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Pseudomonas" cmphy:species="grimontii" cmphy:strain="CFML 97-5147" cmphy:id="AFZ68029" editRecord="[2__Z]">Pseudomonas grimontii CFML 97-5147 (AF268029)</otu>
+  <otu id="otu11" cmphy:genus="Pseudomonas" cmphy:species="syringae" cmphy:strain="ATCC 193107" cmphy:id="D84026" editRecord="[]">Pseudomonas syringae ATCC 193107 (D84026)</otu>
+  <otu id="otu12">Pseudomonas Iutea CECT 58227 (AY364537 )</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Pseudomonas" cmphy:species="gessardii" cmphy:strain="CIP 1054697" cmphy:id="AFO74384" editRecord="[]">Pseudomonas gessardii CIP 1054697 (AFO74384)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Pseudomonas" cmphy:species="agarici" cmphy:strain="ATCC 259417" cmphy:id="D84005" editRecord="[]">Pseudomonas agarici ATCC 259417 (D84005)</otu>
+  <otu id="otu19" cmphy:genus="Pseudomonas" cmphy:species="tolaasii" cmphy:strain="ATCC 336187" cmphy:id="D84028" editRecord="[]"> Pseudomonas tolaasii ATCC 336187 (D84028)</otu>
+  <otu id="otu20" cmphy:edit="[3__B]" cmphy:genus="Azotobacter" cmphy:species="vinelandii" cmphy:strain="DSM 576" cmphy:id="AYB36565" editRecord="[3__B]">Azotobacter vinelandii DSM 576 (AY336565)</otu>
+  <otu id="otu21" cmphy:genus="Pseudomonas" cmphy:species="fluorescens" cmphy:strain="IAM 120227" cmphy:id="D84013" editRecord="[]"> Pseudomonas fluorescens IAM 120227 (D84013)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="132.0" y="758.0"/>
+   <node id="NT1.2" label="NT1.2" x="303.0" y="548.0"/>
+   <node id="NT1.3" label="NT1.3" x="366.0" y="477.0"/>
+   <node id="NT1.5" label="NT1.5" x="395.0" y="403.0"/>
+   <node id="NT1.7" label="NT1.7" x="412.0" y="294.0"/>
+   <node id="NT1.8" label="NT1.8" x="420.0" y="354.0"/>
+   <node id="NT1.10" x="452.0" y="234.0" label="83"/>
+   <node id="NT1.12" label="NT1.12" x="470.0" y="317.0" otu="otu1"/>
+   <node id="NT1.15" label="NT1.15" x="495.0" y="190.0"/>
+   <node id="NT1.16" label="NT1.16" x="499.0" y="279.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="503.0" y="510.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="503.0" y="139.0"/>
+   <node id="NT1.23" label="NT1.23" x="525.0" y="739.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="528.0" y="356.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="536.0" y="92.0"/>
+   <node id="NT1.28" label="NT1.28" x="561.0" y="87.0" otu="otu10"/>
+   <node id="NT1.30" label="NT1.30" x="571.0" y="548.0" otu="otu11"/>
+   <node id="NT1.33" label="NT1.33" x="590.0" y="202.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="615.0" y="624.0" otu="otu18"/>
+   <node id="NT1.38" label="NT1.38" x="629.0" y="241.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="683.0" y="778.0" otu="otu20"/>
+   <node id="NT1.40" label="NT1.40" x="685.0" y="126.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="2.0" y="653.0" root="true"/>
+   <edge id="e.2" source="NT1.25" target="NT1.40"/>
+   <edge id="e.4" source="NT1.10" target="NT1.16"/>
+   <edge id="e.5" source="NT1.15" target="NT1.38"/>
+   <edge id="e.6" source="NT1.8" target="NT1.12"/>
+   <edge id="e.7" target="NT1.24" source="NT1.8"/>
+   <edge id="e.11" source="NT1.5" target="NT1.18"/>
+   <edge id="e.12" source="NT1.3" target="NT1.30"/>
+   <edge id="e.16" target="NT1.37" source="NT1.2"/>
+   <edge id="e.17" source="NT1.1" target="NT1.23"/>
+   <edge id="e.18" source="NT1.1" target="NT1.39"/>
+   <edge id="e.20" source="NT1.19" target="NT1.25"/>
+   <edge id="e.21" source="NT1.15" target="NT1.19"/>
+   <edge id="e.23" source="NT1.10" target="NT1.15"/>
+   <edge id="e.24" source="NT1.7" target="NT1.10"/>
+   <edge id="e.25" source="NT1.5" target="NT1.7"/>
+   <edge id="e.26" source="NT1.7" target="NT1.8"/>
+   <edge id="e.29" source="NT1.3" target="NT1.5"/>
+   <edge id="e.30" source="NT1.2" target="NT1.3"/>
+   <edge id="e.34" source="NT1.41" target="NT1.2"/>
+   <edge id="e.35" source="NT1.41" target="NT1.1"/>
+   <edge id="e.38" target="NT1.28" source="NT1.25"/>
+   <edge id="e.39" target="NT1.33" source="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

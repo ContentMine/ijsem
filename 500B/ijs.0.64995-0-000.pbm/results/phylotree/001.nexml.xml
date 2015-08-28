@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Marinilactibacillus" cmphy:species="piezotolerans" cmphy:strain="LT2OT" cmphy:id="AY485792" editRecord="[]">Marinilactibacillus piezotolerans LT2OT (AY485792)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Marinilactibacillus" cmphy:species="psychrotolerans" cmphy:strain="M13-2T" cmphy:id="ABO83406" editRecord="[0__O]">Marinilactibacillus psychrotolerans M13-2T (AB083406)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Alkalibacterium" cmphy:species="olivapovliticus" cmphy:strain="WW2-SN4aT" cmphy:id="AFI43511" editRecord="[1__I]">Alkalibacterium olivapovliticus WW2-SN4aT (AF143511)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Alkalibacterium" cmphy:species="indicireducens" cmphy:strain="A11T" cmphy:id="ABZ68549" editRecord="[2__Z]">Alkalibacterium indicireducens A11T (AB268549)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Alkalibacterium" cmphy:species="psychrvtolerans" cmphy:strain="IDR2-27" cmphy:id="ABI25938" editRecord="[1__I]">Alkalibacterium psychrvtolerans IDR2-27 (AB125938)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Alkalibacterium" cmphy:species="indicireducens" cmphy:strain="F12" cmphy:id="ABZ68551" editRecord="[2__Z]">Alkalibacterium indicireducens F12 (AB268551)</otu>
+  <otu id="otu8" cmphy:genus="Alloiococcus" cmphy:species="otitis" cmphy:strain="NCFB 289OT" cmphy:id="X59765" editRecord="[]">Alloiococcus otitis NCFB 289OT (X59765)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Alkalibacterium" cmphy:species="iburiense" cmphy:strain="M3T" cmphy:id="ABI88091" editRecord="[1__I]">Alkalibacterium iburiense M3T (AB188091)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Alkalibacterium" cmphy:species="indicireducens" cmphy:strain="F11" cmphy:id="ABZ68550" editRecord="[2__Z]">Alkalibacterium indicireducens F11 (AB268550)</otu>
+  <otu id="otu11" cmphy:genus="Dolosigranulum" cmphy:species="pigrum" cmphy:strain="NCFB 29757" cmphy:id="X70907" editRecord="[]">Dolosigranulum pigrum NCFB 29757 (X70907)</otu>
+  <otu id="otu12">Clostridium isatidis</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="8.0" y="228.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="11.0" y="228.0"/>
+   <node id="NT1.3" label="NT1.3" x="30.0" y="183.0"/>
+   <node id="NT1.4" label="NT1.4" x="89.0" y="642.0"/>
+   <node id="NT1.5" label="NT1.5" x="140.0" y="885.0"/>
+   <node id="NT1.6" label="NT1.6" x="145.0" y="403.0"/>
+   <node id="NT1.7" label="NT1.7" x="146.0" y="455.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="159.0" y="668.0"/>
+   <node id="NT1.9" label="NT1.9" x="179.0" y="766.0"/>
+   <node id="NT1.10" label="NT1.10" x="203.0" y="347.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="209.0" y="862.0"/>
+   <node id="NT1.12" label="NT1.12" x="227.0" y="674.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="230.0" y="783.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="232.0" y="564.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="242.0" y="1000.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="242.0" y="945.0"/>
+   <node id="NT1.17" label="NT1.17" x="279.0" y="238.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="279.0" y="1110.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="290.0" y="891.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="325.0" y="129.0" otu="otu11"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.6" target="NT1.7"/>
+   <edge id="e.2" source="NT1.5" target="NT1.18"/>
+   <edge id="e.3" source="NT1.8" target="NT1.14"/>
+   <edge id="e.4" source="NT1.16" target="NT1.15"/>
+   <edge id="e.5" source="NT1.16" target="NT1.19"/>
+   <edge id="e.6" source="NT1.2" target="NT1.3"/>
+   <edge id="e.7" source="NT1.2" target="NT1.4"/>
+   <edge id="e.8" source="NT1.4" target="NT1.5"/>
+   <edge id="e.9" source="NT1.4" target="NT1.6"/>
+   <edge id="e.10" source="NT1.5" target="NT1.8"/>
+   <edge id="e.11" source="NT1.8" target="NT1.9"/>
+   <edge id="e.12" source="NT1.9" target="NT1.11"/>
+   <edge id="e.13" source="NT1.11" target="NT1.16"/>
+   <edge id="e.14" source="NT1.3" target="NT1.20"/>
+   <edge id="e.15" source="NT1.3" target="NT1.17"/>
+   <edge id="e.16" source="NT1.6" target="NT1.10"/>
+   <edge id="e.17" source="NT1.9" target="NT1.12"/>
+   <edge id="e.18" source="NT1.11" target="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Hydrocarboniphaga" cmphy:species="effusa" cmphy:strain="AP103T" cmphy:id="AYB63245" editRecord="[3__B]">Hydrocarboniphaga effusa AP103T (AY363245)</otu>
+  <otu id="otu3"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="379.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="420.0" y="388.0" otu="otu2"/>
+   <edge id="e.0" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

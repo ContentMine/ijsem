@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Catellatospora" cmphy:species="citrea" cmphy:strain="DSM 44907T" cmphy:id="X93197" editRecord="[]">Catellatospora citrea DSM 44907T (X93197)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="495.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="523.0" y="611.0" otu="otu2"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

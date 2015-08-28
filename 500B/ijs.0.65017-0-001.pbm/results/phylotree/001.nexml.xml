@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Vibrio as-stuarianus ATCC 35048T (X74689)</otu>
+  <otu id="otu2" cmphy:genus="Vibrio" cmphy:species="navarrensis" cmphy:strain="CIP 1033817" cmphy:id="X74715" editRecord="[]">Vibrio navarrensis CIP 1033817 (X74715)</otu>
+  <otu id="otu3" cmphy:genus="Vibrio" cmphy:species="vulnificus" cmphy:strain="ATCC 27562T" cmphy:id="X76333" editRecord="[]">Vibrio vulnificus ATCC 27562T (X76333)</otu>
+  <otu id="otu4" cmphy:genus="Vibrio" cmphy:species="diazotrophicus" cmphy:strain="ATCC 334667" cmphy:id="X74701" editRecord="[]">Vibrio diazotrophicus ATCC 334667 (X74701)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Vibrio" cmphy:species="metschnikovii" cmphy:strain="NCTC 111707" cmphy:id="X74712" editRecord="[]">Vibrio metschnikovii NCTC 111707 (X74712)</otu>
+  <otu id="otu7" cmphy:genus="Vibrio" cmphy:species="scophthalmi" cmphy:strain="CECT 46387" cmphy:id="U46579" editRecord="[]">Vibrio scophthalmi CECT 46387 (U46579)</otu>
+  <otu id="otu8" cmphy:genus="Vibrio" cmphy:species="splendidus" cmphy:strain="ATCC 33125T" cmphy:id="X74724" editRecord="[]">Vibrio splendidus ATCC 33125T (X74724)</otu>
+  <otu id="otu9" cmphy:genus="Vibrio" cmphy:species="tapetis" cmphy:strain="CECT 4600T" cmphy:id="Y08430" editRecord="[]">Vibrio tapetis CECT 4600T (Y08430)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Vibrio" cmphy:species="aerogenes" cmphy:strain="ATCC 7007977" cmphy:id="AFI24055" editRecord="[1__I]">Vibrio aerogenes ATCC 7007977 (AF124055)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Vibrio" cmphy:species="mimicus" cmphy:strain="ATCC 33653)" cmphy:id="X74713" editRecord="[]">Vibrio mimicus ATCC 33653) (X74713)</otu>
+  <otu id="otu13">Strain MSSRF3T LMG 237907 (DQ847123)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Vibrio" cmphy:species="ruber" cmphy:strain="VR1T" cmphy:id="AF462458" editRecord="[]"> Vibrio ruber VR1T (AF462458)</otu>
+  <otu id="otu16" cmphy:genus="Vibrio" cmphy:species="pectenicida" cmphy:strain="CIP 105190T" cmphy:id="Y13830" editRecord="[]">Vibrio pectenicida CIP 105190T (Y13830)</otu>
+  <otu id="otu17" cmphy:genus="Vibrio" cmphy:species="gazogenes" cmphy:strain="ATCC 29988T" cmphy:id="X74705" editRecord="[]">Vibrio gazogenes ATCC 29988T (X74705)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="70.0" y="410.0"/>
+   <node id="NT1.2" label="NT1.2" x="76.0" y="263.0"/>
+   <node id="NT1.3" label="NT1.3" x="96.0" y="169.0"/>
+   <node id="NT1.4" label="NT1.4" x="107.0" y="375.0"/>
+   <node id="NT1.5" label="NT1.5" x="108.0" y="101.0"/>
+   <node id="NT1.6" label="NT1.6" x="113.0" y="735.0"/>
+   <node id="NT1.8" label="NT1.8" x="139.0" y="542.0"/>
+   <node id="NT1.11" label="NT1.11" x="159.0" y="431.0"/>
+   <node id="NT1.13" label="NT1.13" x="206.0" y="568.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="237.0" y="238.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="260.0" y="126.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="283.0" y="74.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="283.0" y="293.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="286.0" y="460.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="299.0" y="404.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="379.0" y="681.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="397.0" y="955.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="430.0" y="902.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="436.0" y="515.0" otu="otu16"/>
+   <node id="NT1.30" label="NT1.30" x="456.0" y="624.0" otu="otu17"/>
+   <node id="NT1.31" label="NT1.31" x="38.0" y="490.0" root="true"/>
+   <edge id="e.0" target="NT1.17" source="NT1.5"/>
+   <edge id="e.2" source="NT1.11" target="NT1.19"/>
+   <edge id="e.3" source="NT1.11" target="NT1.20"/>
+   <edge id="e.5" target="NT1.28" source="NT1.6"/>
+   <edge id="e.6" source="NT1.6" target="NT1.25"/>
+   <edge id="e.8" source="NT1.3" target="NT1.5"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" source="NT1.2" target="NT1.4"/>
+   <edge id="e.11" source="NT1.4" target="NT1.11"/>
+   <edge id="e.13" source="NT1.1" target="NT1.8"/>
+   <edge id="e.16" source="NT1.31" target="NT1.1"/>
+   <edge id="e.17" source="NT1.31" target="NT1.6"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" target="NT1.18" source="NT1.4"/>
+   <edge id="e.21" source="NT1.8" target="NT1.13"/>
+   <edge id="e.23" source="NT1.3" target="NT1.14"/>
+   <edge id="e.24" target="NT1.15" source="NT1.5"/>
+   <edge id="e.25" source="NT1.6" target="NT1.23"/>
+   <edge id="e.26" source="NT1.6" target="NT1.30"/>
+   <edge id="e.29" source="NT1.8" target="NT1.29"/>
+  </tree>
+ </trees>
+</nexml>

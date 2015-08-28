@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Gillisia" cmphy:species="hiemivivida" cmphy:strain="IC154T" cmphy:id="AY694006" editRecord="[]"> Gillisia hiemivivida IC154T (AY694006)</otu>
+  <otu id="otu2" cmphy:genus="Gillisia" cmphy:species="limnaea" cmphy:strain="LMG 21470T" cmphy:id="AJ440991" editRecord="[]">Gillisia limnaea LMG 21470T (AJ440991)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Gillisia" cmphy:species="mitskevichiae" cmphy:strain="KMM 6034T" cmphy:id="AYS76655" editRecord="[5__S]">Gillisia mitskevichiae KMM 6034T (AY576655)</otu>
+  <otu id="otu4">Strain HYIT (DQ640642)</otu>
+  <otu id="otu5" cmphy:genus="Gillisia" cmphy:species="illustrilutea" cmphy:strain="IC157T" cmphy:id="AY694008" editRecord="[]">Gillisia illustrilutea IC157T (AY694008)</otu>
+  <otu id="otu6">Salegentibacterflavus Fg 69T (AY682200)</otu>
+  <otu id="otu7" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="ACAM 48T" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens ACAM 48T (M92279)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Salegentibacter" cmphy:species="holathuriarum" cmphy:strain="KMM 3524T" cmphy:id="ABI16148" editRecord="[1__I]"> Salegentibacter holathuriarum KMM 3524T (AB116148)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Gillisia" cmphy:species="sandarakina" cmphy:strain="IC148T" cmphy:id="AY694007" editRecord="[]">Gillisia sandarakina IC148T (AY694007)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="153.0" y="383.0" label="100"/>
+   <node id="NT1.3" x="178.0" y="436.0" label="34"/>
+   <node id="NT1.4" label="NT1.4" x="183.0" y="331.0"/>
+   <node id="NT1.5" x="207.0" y="472.0" label="46"/>
+   <node id="NT1.7" label="NT1.7" x="269.0" y="448.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="352.0" y="401.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="359.0" y="497.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="441.0" y="122.0"/>
+   <node id="NT1.14" label="NT1.14" x="480.0" y="306.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="537.0" y="164.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="587.0" y="21.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="592.0" y="354.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="2.0" y="226.0" root="true"/>
+   <edge id="e.0" target="NT1.17" source="NT1.11"/>
+   <edge id="e.2" source="NT1.11" target="NT1.16"/>
+   <edge id="e.6" source="NT1.5" target="NT1.7"/>
+   <edge id="e.7" source="NT1.3" target="NT1.8"/>
+   <edge id="e.8" source="NT1.5" target="NT1.9"/>
+   <edge id="e.9" source="NT1.4" target="NT1.14"/>
+   <edge id="e.10" source="NT1.4" target="NT1.20"/>
+   <edge id="e.13" target="NT1.11" source="NT1.21"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+   <edge id="e.17" source="NT1.3" target="NT1.5"/>
+   <edge id="e.19" source="NT1.21" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

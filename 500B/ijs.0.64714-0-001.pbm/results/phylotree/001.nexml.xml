@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Pseudochrobactrum" cmphy:species="saccharolyticum" cmphy:strain="CCUG 338527" cmphy:id="AMI18082" editRecord="[1__I]">Pseudochrobactrum saccharolyticum CCUG 338527 (AM118082)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Pseudochrobactrum" cmphy:species="kiredjianiae" cmphy:strain="CCUG 49584T" cmphy:id="AMZ63419" editRecord="[2__Z]">Pseudochrobactrum kiredjianiae CCUG 49584T (AM263419)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Pseudochrobactrum" cmphy:species="asaccharolyticum" cmphy:strain="CCUG 46O16T" cmphy:id="AMI18081" editRecord="[1__I]">Pseudochrobactrum asaccharolyticum CCUG 46O16T (AM118081)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Ochrobactrum" cmphy:species="anthropi" cmphy:strain="LMG 3331T" cmphy:id="AMO87899" editRecord="[]">Ochrobactrum anthropi LMG 3331T (AMO87899)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Ochrobactrum" cmphy:species="intermedium" cmphy:strain="CCUG 24694T" cmphy:id="AMO87913" editRecord="[0__O]">Ochrobactrum intermedium CCUG 24694T (AM087913)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Ochrobactrum" cmphy:species="oryzae" cmphy:strain="DSM 174717" cmphy:id="AMZ63421" editRecord="[2__Z]">Ochrobactrum oryzae DSM 174717 (AM263421)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Ochrobactrum" cmphy:species="lupini" cmphy:strain="LMG 22726T" cmphy:id="AMI13737" editRecord="[1__I]">Ochrobactrum lupini LMG 22726T (AM113737)</otu>
+  <otu id="otu13" cmphy:genus="Ochrobactrum" cmphy:species="anthropi" cmphy:strain="LMG 3331T" cmphy:id="AMO87899" editRecord="[]">Ochrobactrum anthropi LMG 3331T (AMO87899)</otu>
+  <otu id="otu14" cmphy:genus="Brucella" cmphy:species="melitensis" cmphy:strain="NCTC 1O094T" cmphy:id="AMO87912" editRecord="[]">Brucella melitensis NCTC 1O094T (AMO87912)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Ochrobactrum" cmphy:species="tritici" cmphy:strain="SCll24T" cmphy:id="AMO87914" editRecord="[0__O]">Ochrobactrum tritici SCll24T (AM087914)</otu>
+  <otu id="otu16" cmphy:edit="[O__0]" cmphy:genus="Bartonella" cmphy:species="henselae" cmphy:strain="Houston-1T" cmphy:id="NC_005956" editRecord="[O__0]">Bartonella henselae Houston-1T (NC_O05956)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="158.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="7.0" y="158.0"/>
+   <node id="NT1.3" label="NT1.3" x="98.0" y="144.0"/>
+   <node id="NT1.4" label="NT1.4" x="238.0" y="195.0"/>
+   <node id="NT1.7" label="NT1.7" x="286.0" y="450.0"/>
+   <node id="NT1.8" label="NT1.8" x="382.0" y="583.0"/>
+   <node id="NT1.9" label="NT1.9" x="400.0" y="88.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="407.0" y="465.0"/>
+   <node id="NT1.11" label="NT1.11" x="456.0" y="244.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="462.0" y="166.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="521.0" y="529.0"/>
+   <node id="NT1.20" label="NT1.20" x="631.0" y="586.0"/>
+   <node id="NT1.21" label="NT1.21" x="642.0" y="632.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="642.0" y="629.0"/>
+   <node id="NT1.23" label="NT1.23" x="649.0" y="707.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="661.0" y="396.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="661.0" y="551.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="670.0" y="628.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="682.0" y="321.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="701.0" y="474.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="1005.0" y="13.0" otu="otu16"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" target="NT1.9" source="NT1.3"/>
+   <edge id="e.4" target="NT1.29" source="NT1.3"/>
+   <edge id="e.6" target="NT1.23" source="NT1.8"/>
+   <edge id="e.8" source="NT1.22" target="NT1.21"/>
+   <edge id="e.9" source="NT1.22" target="NT1.26"/>
+   <edge id="e.10" target="NT1.28" source="NT1.17"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.16" source="NT1.8" target="NT1.10"/>
+   <edge id="e.17" source="NT1.10" target="NT1.17"/>
+   <edge id="e.19" source="NT1.20" target="NT1.22"/>
+   <edge id="e.20" source="NT1.2" target="NT1.7"/>
+   <edge id="e.21" source="NT1.7" target="NT1.8"/>
+   <edge id="e.22" source="NT1.4" target="NT1.11"/>
+   <edge id="e.23" source="NT1.4" target="NT1.12"/>
+   <edge id="e.24" source="NT1.7" target="NT1.27"/>
+   <edge id="e.25" source="NT1.10" target="NT1.24"/>
+   <edge id="e.26" source="NT1.17" target="NT1.20"/>
+   <edge id="e.27" source="NT1.20" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

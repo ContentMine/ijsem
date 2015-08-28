@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">TL6T (AB258305)</otu>
+  <otu id="otu2"> Haloferax Iucentense JCM 9276T (AB081732)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Haloferax" cmphy:species="alexandrinus" cmphy:strain="TMT" cmphy:id="ABO37474" editRecord="[0__O]">Haloferax alexandrinus TMT (AB037474)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Haloferax" cmphy:species="volcanii" cmphy:strain="ATCC 296O5T" cmphy:id="K00421" editRecord="[O__0]">Haloferax volcanii ATCC 296O5T (K0O421)</otu>
+  <otu id="otu5" cmphy:genus="Haloferax" cmphy:species="gibbonsii" cmphy:strain="ATCC 33959T" cmphy:id="D13378" editRecord="[]"> Haloferax gibbonsii ATCC 33959T (D13378)</otu>
+  <otu id="otu6">Haloferax denitrificans ATCC 3596GT</otu>
+  <otu id="otu7" cmphy:genus="Haloferax" cmphy:species="sulfurifontis" cmphy:strain="MGT" cmphy:id="AY458601" editRecord="[]">Haloferax sulfurifontis MGT (AY458601)</otu>
+  <otu id="otu8">Haloferax mediterranei ATCC 33500T (D1 1 107)</otu>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Halogeometricum" cmphy:species="borinquense" cmphy:strain="PR 3T" cmphy:id="AFO02984" editRecord="[O__0]">Halogeometricum borinquense PR 3T (AFOO2984)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="101.0" y="526.0"/>
+   <node id="NT1.4" label="NT1.4" x="174.0" y="186.0"/>
+   <node id="NT1.7" label="NT1.7" x="197.0" y="136.0"/>
+   <node id="NT1.10" label="NT1.10" x="228.0" y="97.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="237.0" y="177.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="249.0" y="335.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="336.0" y="611.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="369.0" y="667.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="4.0" y="596.0" root="true"/>
+   <edge id="e.0" source="NT1.7" target="NT1.11"/>
+   <edge id="e.2" target="NT1.12" source="NT1.4"/>
+   <edge id="e.5" source="NT1.1" target="NT1.14"/>
+   <edge id="e.6" target="NT1.7" source="NT1.4"/>
+   <edge id="e.8" target="NT1.4" source="NT1.1"/>
+   <edge id="e.12" source="NT1.17" target="NT1.16"/>
+   <edge id="e.13" source="NT1.17" target="NT1.1"/>
+   <edge id="e.14" source="NT1.7" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Sporacetigenium" cmphy:species="mesophilum" cmphy:strain="DSM 1679GT" cmphy:id="AY682207" editRecord="[]">Sporacetigenium mesophilum DSM 1679GT (AY682207)</otu>
+  <otu id="otu2">C. novyi ATCC 17861T (L37594)</otu>
+  <otu id="otu3" cmphy:genus="c." cmphy:species="pascui" cmphy:strain="DSM 10365T" cmphy:id="X96736">c. pascui DSM 10365T (X96736)</otu>
+  <otu id="otu4">C. sporogenes ATCC 35847 (X68189)</otu>
+  <otu id="otu5">C. scatologenes ATCC 25775T(M59104)</otu>
+  <otu id="otu6" cmphy:genus="c." cmphy:species="drakei" cmphy:strain="SL1T" cmphy:id="Y18813">c. drakei SL1T (Y18813)</otu>
+  <otu id="otu7">C. baratiiATCC 27638T (M59102)</otu>
+  <otu id="otu8">C. tetanomorphum ATCC 492737 (X68184)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="c." cmphy:species="aciditolerans" cmphy:strain="JWIYJL-B3T" cmphy:id="DQI14945">c. aciditolerans JWIYJL-B3T (DQ114945)</otu>
+  <otu id="otu10">C. Iimosum ATCC 2562GT (M59096)</otu>
+  <otu id="otu11">C. pasteurianum ATCC 6013T(M23930)</otu>
+  <otu id="otu12">C. carboxidivorans P7T(AY170379)</otu>
+  <otu id="otu13">Strain 1DT (AM261414)</otu>
+  <otu id="otu14">C. cellulovorans ATCC 35296T (X71849)</otu>
+  <otu id="otu15">c. magnumATCC 49199T (X77835)</otu>
+  <otu id="otu16" cmphy:genus="c." cmphy:species="histolyticum" cmphy:strain="ATCC 1940f" cmphy:id="M59094">c. histolyticum ATCC 1940f (M59094)</otu>
+  <otu id="otu17">C. butyricum ATCC 193929 (M59085)</otu>
+  <otu id="otu18" cmphy:genus="c." cmphy:species="proteolyticum" cmphy:strain="ATCC 49002" cmphy:id="X73448">c. proteolyticum ATCC 49002 (X73448)</otu>
+  <otu id="otu19">C. paraputrificum ATCC 2578OT (X73445)</otu>
+  <otu id="otu20">C. tyrobutyricum ATCC 25755T (M59113)</otu>
+  <otu id="otu21">C. aIgidicarnisDSM 15O99T(X77676)</otu>
+  <otu id="otu22">C. Ijungdahlii ATCC 553831 (M59097)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="406.0" y="918.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="436.0" y="594.0"/>
+   <node id="NT1.6" label="NT1.6" x="502.0" y="359.0"/>
+   <node id="NT1.11" label="NT1.11" x="562.0" y="107.0"/>
+   <node id="NT1.15" label="NT1.15" x="656.0" y="765.0"/>
+   <node id="NT1.18" label="NT1.18" x="685.0" y="448.0" otu="otu3"/>
+   <node id="NT1.26" label="NT1.26" x="730.0" y="192.0" otu="otu6"/>
+   <node id="NT1.29" label="NT1.29" x="751.0" y="21.0" otu="otu9"/>
+   <node id="NT1.36" label="NT1.36" x="776.0" y="790.0" otu="otu16"/>
+   <node id="NT1.38" label="NT1.38" x="806.0" y="747.0" otu="otu18"/>
+   <node id="NT1.43" label="NT1.43" x="6.0" y="895.0" root="true"/>
+   <edge id="e.6" target="NT1.11" source="NT1.6"/>
+   <edge id="e.12" target="NT1.6" source="NT1.3"/>
+   <edge id="e.17" target="NT1.3" source="NT1.43"/>
+   <edge id="e.21" target="NT1.15" source="NT1.3"/>
+   <edge id="e.23" source="NT1.43" target="NT1.2"/>
+   <edge id="e.26" target="NT1.18" source="NT1.6"/>
+   <edge id="e.34" source="NT1.15" target="NT1.38"/>
+   <edge id="e.35" target="NT1.36" source="NT1.15"/>
+   <edge id="e.38" target="NT1.26" source="NT1.11"/>
+   <edge id="e.40" target="NT1.29" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

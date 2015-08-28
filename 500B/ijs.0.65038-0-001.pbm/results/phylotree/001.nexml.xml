@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">M. deminutum KV-4837 (AB234026)</otu>
+  <otu id="otu3">M. marinilacus YM11-6077 (AB286020)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">M. schleiferi IFO 15075T (ABOO4723)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">M. aoyamense KV-492T (AB234028)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">M. terregens IFO 12961T (ABOO4721)</otu>
+  <otu id="otu10">M. arborescens DSM 2O754T (X77443)</otu>
+  <otu id="otu11">M. imperiale IFO 126107 (ABOO7414)</otu>
+  <otu id="otu12">M. ulmi XIL02T (AYO62021)</otu>
+  <otu id="otu13">M. sediminicola YM10-8477 (AB286021)</otu>
+  <otu id="otu14">M. paludicola US15T (AJ853909)</otu>
+  <otu id="otu15">M. gubbeenense LMG S-19263T (AF263563)</otu>
+  <otu id="otu16">M. barkeri DSM 201457 (X77446)</otu>
+  <otu id="otu17" cmphy:genus="Rarobacter" cmphy:species="faecitabidus" cmphy:strain="DSM 4813T" cmphy:id="Y17870" editRecord="[]">Rarobacter faecitabidus DSM 4813T (Y17870)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.32" label="NT1.32" x="664.0" y="650.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="3.0" y="470.0" root="true"/>
+   <edge id="e.29" source="NT1.33" target="NT1.32"/>
+  </tree>
+ </trees>
+</nexml>

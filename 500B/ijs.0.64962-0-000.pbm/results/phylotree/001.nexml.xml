@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Sporosarcina" cmphy:species="saromensis" cmphy:strain="HG711" cmphy:id="ABZ43864" editRecord="[2__Z]">Sporosarcina saromensis HG711 (AB243864)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Sporosarcina" cmphy:species="saromensis" cmphy:strain="HG645T" cmphy:id="ABZ43859" editRecord="[2__Z]">Sporosarcina saromensis HG645T (AB243859)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Sporosarcina" cmphy:species="aquimarina" cmphy:strain="SW 287" cmphy:id="AFZ02056" editRecord="[2__Z]">Sporosarcina aquimarina SW 287 (AF202056)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Sporosarcina" cmphy:species="macmurdoensis" cmphy:strain="CMS 21wT" cmphy:id="AJS14408" editRecord="[5__S]">Sporosarcina macmurdoensis CMS 21wT (AJ514408)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Sporosarcina" cmphy:species="psychrophila" cmphy:strain="IAM 124687" cmphy:id="D16277" editRecord="[]">Sporosarcina psychrophila IAM 124687 (D16277)</otu>
+  <otu id="otu8" cmphy:genus="Sporosarcina" cmphy:species="globispora" cmphy:strain="DSM 4T" cmphy:id="X68415" editRecord="[]">Sporosarcina globispora DSM 4T (X68415)</otu>
+  <otu id="otu9" cmphy:genus="Sporosarcina" cmphy:species="pasteurii" cmphy:strain="NCIMB 8841T" cmphy:id="X60631" editRecord="[]">Sporosarcina pasteurii NCIMB 8841T (X60631)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="252.0" y="376.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="273.0" y="270.0"/>
+   <node id="NT1.4" label="NT1.4" x="343.0" y="139.0"/>
+   <node id="NT1.5" label="NT1.5" x="348.0" y="78.0"/>
+   <node id="NT1.6" label="NT1.6" x="363.0" y="117.0"/>
+   <node id="NT1.7" x="465.0" y="199.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="467.0" y="219.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="467.0" y="179.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="469.0" y="139.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="482.0" y="302.0" otu="otu5"/>
+   <node id="NT1.12" x="485.0" y="37.0" label="100"/>
+   <node id="NT1.14" label="NT1.14" x="509.0" y="16.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="514.0" y="57.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="575.0" y="97.0" otu="otu9"/>
+   <edge id="e.0" source="NT1.12" target="NT1.15"/>
+   <edge id="e.1" source="NT1.6" target="NT1.10"/>
+   <edge id="e.2" source="NT1.7" target="NT1.8"/>
+   <edge id="e.3" source="NT1.6" target="NT1.16"/>
+   <edge id="e.5" source="NT1.2" target="NT1.11"/>
+   <edge id="e.6" source="NT1.5" target="NT1.12"/>
+   <edge id="e.7" source="NT1.4" target="NT1.5"/>
+   <edge id="e.8" source="NT1.5" target="NT1.6"/>
+   <edge id="e.9" target="NT1.4" source="NT1.2"/>
+   <edge id="e.10" source="NT1.4" target="NT1.7"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.13" source="NT1.7" target="NT1.9"/>
+   <edge id="e.14" source="NT1.12" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

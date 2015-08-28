@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Natronobacterium" cmphy:species="gregoryi" cmphy:strain="NCIMB 21897" cmphy:id="D87970" editRecord="[]">Natronobacterium gregoryi NCIMB 21897 (D87970)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Haloterrigena" cmphy:species="turkmenica" cmphy:strain="VKM B-1734T" cmphy:id="ABO04878" editRecord="[0__O]"> Haloterrigena turkmenica VKM B-1734T (AB004878)</otu>
+  <otu id="otu6">Natronolimnobius innermongolicus N-131 1T (AB 1 251 08)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Natronococcus" cmphy:species="occultus" cmphy:strain="NCIMB 21927" cmphy:id="Z28378" editRecord="[2__Z]">Natronococcus occultus NCIMB 21927 (228378)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Natronorubrum" cmphy:species="tibetense" cmphy:strain="GA33T" cmphy:id="ABO05656" editRecord="[0__O]">Natronorubrum tibetense GA33T (AB005656)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Natronolimnobius" cmphy:species="baerhuensis" cmphy:strain="IHC-005T" cmphy:id="ABI25106" editRecord="[1__I]">Natronolimnobius baerhuensis IHC-005T (AB125106)</otu>
+  <otu id="otu12" cmphy:genus="Natrialba" cmphy:species="asiatica" cmphy:strain="172P1T" cmphy:id="D14123" editRecord="[]">Natrialba asiatica 172P1T (D14123)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Natronorubrum" cmphy:species="aibiense" cmphy:strain="7-3T" cmphy:id="DQZ05516" editRecord="[2__Z]"> Natronorubrum aibiense 7-3T (DQ205516)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="46.0" y="465.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="69.0" y="448.0"/>
+   <node id="NT1.4" label="NT1.4" x="97.0" y="398.0"/>
+   <node id="NT1.5" x="125.0" y="338.0" label="79"/>
+   <node id="NT1.6" label="NT1.6" x="133.0" y="257.0"/>
+   <node id="NT1.7" label="NT1.7" x="138.0" y="156.0"/>
+   <node id="NT1.10" label="NT1.10" x="172.0" y="211.0"/>
+   <node id="NT1.15" label="NT1.15" x="221.0" y="499.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="231.0" y="136.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="232.0" y="458.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="242.0" y="176.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="257.0" y="377.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="260.0" y="418.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="273.0" y="297.0" otu="otu15"/>
+   <edge id="e.3" target="NT1.17" source="NT1.7"/>
+   <edge id="e.4" source="NT1.10" target="NT1.20"/>
+   <edge id="e.7" target="NT1.27" source="NT1.10"/>
+   <edge id="e.9" target="NT1.23" source="NT1.6"/>
+   <edge id="e.11" source="NT1.1" target="NT1.3"/>
+   <edge id="e.12" source="NT1.5" target="NT1.24"/>
+   <edge id="e.13" source="NT1.3" target="NT1.15"/>
+   <edge id="e.17" source="NT1.6" target="NT1.7"/>
+   <edge id="e.18" source="NT1.7" target="NT1.10"/>
+   <edge id="e.20" source="NT1.5" target="NT1.6"/>
+   <edge id="e.23" source="NT1.4" target="NT1.5"/>
+   <edge id="e.24" source="NT1.3" target="NT1.4"/>
+   <edge id="e.25" source="NT1.4" target="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

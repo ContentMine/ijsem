@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Pseudoxanthomonas suwonensis 4M 1 T (AY927994)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Pseudoxanthomonas" cmphy:species="daejeonensis" cmphy:strain="TR6-087" cmphy:id="AYS50264" editRecord="[5__S]">Pseudoxanthomonas daejeonensis TR6-087 (AY550264)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Pseudoxanthomonas" cmphy:species="broegbernensis" cmphy:strain="B1616l1T" cmphy:id="AJO12231" editRecord="[0__O]">Pseudoxanthomonas broegbernensis B1616l1T (AJ012231)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Pseudoxanthomonas" cmphy:species="koreensis" cmphy:strain="T7-O9T" cmphy:id="AYS50263" editRecord="[5__S]">Pseudoxanthomonas koreensis T7-O9T (AY550263)</otu>
+  <otu id="otu6" cmphy:genus="Pseudoxanthomonas" cmphy:species="kaohsiungensis" cmphy:strain="J 36T" cmphy:id="AY650027" editRecord="[]">Pseudoxanthomonas kaohsiungensis J 36T (AY650027)</otu>
+  <otu id="otu7">Pseudoxanthomonas mexicana AMX 26BT(AF273082)</otu>
+  <otu id="otu8">Pseudoxanthomonasjaponensis CCUG 48231T (AB008507)</otu>
+  <otu id="otu9" cmphy:genus="Xanthomonas" cmphy:species="campestris" cmphy:strain="LMG 568T" cmphy:id="X95917" editRecord="[]">Xanthomonas campestris LMG 568T (X95917)</otu>
+  <otu id="otu10" cmphy:genus="Pseudoxanthomonas" cmphy:species="kalamensis" cmphy:strain="JA40T" cmphy:id="AY686710" editRecord="[]">Pseudoxanthomonas kalamensis JA40T (AY686710)</otu>
+  <otu id="otu11" cmphy:genus="Pseudoxanthomonas" cmphy:species="taiwanensis" cmphy:strain="CB-226T" cmphy:id="AF427039" editRecord="[]">Pseudoxanthomonas taiwanensis CB-226T (AF427039)</otu>
+  <otu id="otu12" cmphy:genus="Pseudoxanthomonas" cmphy:species="yeongjuensis" cmphy:strain="GR12-1T" cmphy:id="DQ438977" editRecord="[]">Pseudoxanthomonas yeongjuensis GR12-1T (DQ438977)</otu>
+  <otu id="otu13" cmphy:genus="Pseudoxanthomonas" cmphy:species="spadix" cmphy:strain="IMMIB AFH-57" cmphy:id="AM418384" editRecord="[]">Pseudoxanthomonas spadix IMMIB AFH-57 (AM418384)</otu>
+  <otu id="otu14" cmphy:genus="Stenotrophomonas" cmphy:species="maltophilia" cmphy:strain="ATCC 136377" cmphy:id="M59158" editRecord="[]">Stenotrophomonas maltophilia ATCC 136377 (M59158)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Xylella" cmphy:species="fastidiosa" cmphy:strain="ATCC 35879T" cmphy:id="AFZ03391" editRecord="[2__Z]">Xylella fastidiosa ATCC 35879T (AF203391)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Lysobacter" cmphy:species="enzymogenes" cmphy:strain="DSM 20437" cmphy:id="AJZ98291" editRecord="[2__Z]">Lysobacter enzymogenes DSM 20437 (AJ298291)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="436.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="38.0" y="395.0"/>
+   <node id="NT1.5" label="NT1.5" x="57.0" y="360.0"/>
+   <node id="NT1.6" label="NT1.6" x="90.0" y="324.0"/>
+   <node id="NT1.7" label="NT1.7" x="120.0" y="428.0"/>
+   <node id="NT1.9" label="NT1.9" x="150.0" y="464.0"/>
+   <node id="NT1.10" label="NT1.10" x="184.0" y="145.0"/>
+   <node id="NT1.11" label="NT1.11" x="187.0" y="448.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="190.0" y="377.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="192.0" y="484.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="240.0" y="109.0"/>
+   <node id="NT1.15" label="NT1.15" x="241.0" y="412.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="264.0" y="178.0"/>
+   <node id="NT1.17" label="NT1.17" x="267.0" y="74.0"/>
+   <node id="NT1.19" label="NT1.19" x="319.0" y="214.0"/>
+   <node id="NT1.22" label="NT1.22" x="420.0" y="126.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="431.0" y="38.0"/>
+   <node id="NT1.24" label="NT1.24" x="565.0" y="162.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="598.0" y="342.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="615.0" y="234.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="639.0" y="198.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="645.0" y="55.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="847.0" y="91.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="1125.0" y="19.0" otu="otu16"/>
+   <edge id="e.0" source="NT1.23" target="NT1.28"/>
+   <edge id="e.2" source="NT1.16" target="NT1.24"/>
+   <edge id="e.4" source="NT1.17" target="NT1.29"/>
+   <edge id="e.5" source="NT1.5" target="NT1.12"/>
+   <edge id="e.7" source="NT1.9" target="NT1.11"/>
+   <edge id="e.8" source="NT1.9" target="NT1.13"/>
+   <edge id="e.9" source="NT1.6" target="NT1.25"/>
+   <edge id="e.10" source="NT1.17" target="NT1.23"/>
+   <edge id="e.11" source="NT1.14" target="NT1.17"/>
+   <edge id="e.12" source="NT1.10" target="NT1.14"/>
+   <edge id="e.13" target="NT1.10" source="NT1.6"/>
+   <edge id="e.14" source="NT1.10" target="NT1.16"/>
+   <edge id="e.15" source="NT1.16" target="NT1.19"/>
+   <edge id="e.18" source="NT1.5" target="NT1.6"/>
+   <edge id="e.19" source="NT1.4" target="NT1.5"/>
+   <edge id="e.20" target="NT1.4" source="NT1.1"/>
+   <edge id="e.21" source="NT1.4" target="NT1.7"/>
+   <edge id="e.22" source="NT1.7" target="NT1.9"/>
+   <edge id="e.23" source="NT1.7" target="NT1.15"/>
+   <edge id="e.24" source="NT1.14" target="NT1.22"/>
+   <edge id="e.26" source="NT1.19" target="NT1.26"/>
+   <edge id="e.27" source="NT1.19" target="NT1.27"/>
+   <edge id="e.28" source="NT1.23" target="NT1.30"/>
+  </tree>
+ </trees>
+</nexml>

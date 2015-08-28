@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Brachybacterium sacelli</otu>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Brachybacterium" cmphy:species="muris" cmphy:strain="C3H-217" cmphy:id="AJS37574" editRecord="[5__S]">Brachybacterium muris C3H-217 (AJ537574)</otu>
+  <otu id="otu3" cmphy:genus="Brachybacterium" cmphy:species="nesterenkovii" cmphy:strain="DSM 9573T" cmphy:id="X91033" editRecord="[]">Brachybacterium nesterenkovii DSM 9573T (X91033)</otu>
+  <otu id="otu4" cmphy:genus="Brachybacterium" cmphy:species="fresconis" cmphy:strain="LMG 203367" cmphy:id="AJ415378" editRecord="[]">Brachybacterium fresconis LMG 203367 (AJ415378)</otu>
+  <otu id="otu5" cmphy:genus="Brachybacterium" cmphy:species="rhamnosum" cmphy:strain="LMG 19848T" cmphy:id="AJ415376" editRecord="[]">Brachybacterium rhamnosum LMG 19848T (AJ415376)</otu>
+  <otu id="otu6" cmphy:genus="Brachybacterium" cmphy:species="alimentarium" cmphy:strain="CNRZ 925T" cmphy:id="X91031" editRecord="[]">Brachybacterium alimentarium CNRZ 925T (X91031)</otu>
+  <otu id="otu7">Brachybacterium paraconglomeratum</otu>
+  <otu id="otu8" cmphy:genus="Brachybacterium" cmphy:species="tyrofermentans" cmphy:strain="CNRZ 926T" cmphy:id="X91657" editRecord="[]">Brachybacterium tyrofermentans CNRZ 926T (X91657)</otu>
+  <otu id="otu9" cmphy:genus="Brachybacterlum" cmphy:species="faecium" cmphy:strain="DSM 4810T" cmphy:id="X83810" editRecord="[]">Brachybacterlum faecium DSM 4810T (X83810)</otu>
+  <otu id="otu10" cmphy:genus="Brachybacterium" cmphy:species="conglomeratum" cmphy:strain="NCIB 9859" cmphy:id="X91030" editRecord="[]">Brachybacterium conglomeratum NCIB 9859 (X91030)</otu>
+  <otu id="otu11" cmphy:edit="[8__B]" cmphy:genus="Brachybacterium" cmphy:species="strain" cmphy:strain="phenol-AT" cmphy:id="DQB22566" editRecord="[8__B]">Brachybacterium strain phenol-AT (DQ822566)</otu>
+  <otu id="otu12" cmphy:genus="Dermabacter" cmphy:species="hominis" cmphy:strain="DSM 70837" cmphy:id="X91034" editRecord="[]">Dermabacter hominis DSM 70837 (X91034)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="257.0" y="317.0"/>
+   <node id="NT1.2" label="NT1.2" x="277.0" y="418.0"/>
+   <node id="NT1.3" label="NT1.3" x="323.0" y="463.0"/>
+   <node id="NT1.4" label="NT1.4" x="350.0" y="502.0"/>
+   <node id="NT1.5" x="390.0" y="214.0" label="84"/>
+   <node id="NT1.6" label="NT1.6" x="434.0" y="133.0"/>
+   <node id="NT1.8" x="544.0" y="75.0" label="95"/>
+   <node id="NT1.10" label="NT1.10" x="586.0" y="373.0" otu="otu2"/>
+   <node id="NT1.11" x="587.0" y="191.0" label="98"/>
+   <node id="NT1.12" label="NT1.12" x="604.0" y="529.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="655.0" y="321.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="678.0" y="425.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="746.0" y="165.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="805.0" y="217.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="810.0" y="114.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="870.0" y="10.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="880.0" y="476.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="880.0" y="581.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="1.0" y="449.0" root="true"/>
+   <edge id="e.1" target="NT1.20" source="NT1.8"/>
+   <edge id="e.2" source="NT1.8" target="NT1.19"/>
+   <edge id="e.3" source="NT1.11" target="NT1.15"/>
+   <edge id="e.5" source="NT1.11" target="NT1.18"/>
+   <edge id="e.6" target="NT1.13" source="NT1.5"/>
+   <edge id="e.7" source="NT1.2" target="NT1.10"/>
+   <edge id="e.8" source="NT1.4" target="NT1.12"/>
+   <edge id="e.9" source="NT1.3" target="NT1.14"/>
+   <edge id="e.10" source="NT1.4" target="NT1.21"/>
+   <edge id="e.12" source="NT1.6" target="NT1.8"/>
+   <edge id="e.13" source="NT1.5" target="NT1.6"/>
+   <edge id="e.14" source="NT1.6" target="NT1.11"/>
+   <edge id="e.15" source="NT1.1" target="NT1.5"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.19" source="NT1.3" target="NT1.4"/>
+   <edge id="e.20" source="NT1.23" target="NT1.22"/>
+   <edge id="e.21" source="NT1.23" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>
