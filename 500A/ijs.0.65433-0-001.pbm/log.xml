@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log date="2015-08-28T08:58:58.207+01:00">
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.ensureOutputDirectory" message="PhyloTree output to: target/junk/1440748738207; suggest you setOutputDir()" millis="0"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX []" millis="4768"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX []" millis="4768"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [Cyclobacterium man'num DSM 7457 (AY533665)]" millis="4768"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [ Algoriphagus terrigena DS-44T(DQ178979)]" millis="4768"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: Not a tip (has childNodes 1): NT1.1[NT1.2 ]" millis="4768"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="deleted node NT1.4" millis="4769"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="deleted node NT1.5" millis="4769"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="deleted node NT1.6" millis="4769"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.createTree" message="Analyzed pixels for tree successfully" millis="4777"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNexml" message="wrote NEXML: ../ijsem/500A/ijs.0.65433-0-001.pbm/results/phylotree/001.nexml.xml" millis="4778"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNewick" message="wrote Newick: ../ijsem/500A/ijs.0.65433-0-001.pbm/results/phylotree/001.nwk" millis="4780"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputHocrSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65433-0-001.pbm/results/phylotree/001.hocr.svg" millis="4787"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65433-0-001.pbm/results/phylotree/001.svg" millis="4793"/>
+</log>

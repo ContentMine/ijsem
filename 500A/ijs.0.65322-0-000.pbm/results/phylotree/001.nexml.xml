@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> H. ventosae CECT 57977 (A4268080)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">H. pacifica CECT 574T (L42616)</otu>
+  <otu id="otu4">H. denitrificans DSM 180457 (AM229317)</otu>
+  <otu id="otu5" cmphy:genus="Cobetfa" cmphy:species="marina" cmphy:strain="ATCC 253747" cmphy:id="M93354" editRecord="[]">Cobetfa marina ATCC 253747 (M93354)</otu>
+  <otu id="otu6">H. cupida CECT 5oo1T (AY035894)</otu>
+  <otu id="otu7">H. organivorans CECT 59957 (AJ616910)</otu>
+  <otu id="otu8"> H. alimentaria JCM 108887 (AF211860)</otu>
+  <otu id="otu9">H. campaniensis DSM 152937 (AJ515365)</otu>
+  <otu id="otu10">H. maura CECT 52987 (AJ271864)</otu>
+  <otu id="otu11">R53 (EF613110)</otu>
+  <otu id="otu12">SP47 (EF613112)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">H. campisalis ATCC 7005977 (AFO54286)</otu>
+  <otu id="otu15"> H. eurihalina ATCC 493367 (X8721 8)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">H. halophila CCM 36627 (M93353)</otu>
+  <otu id="otu18">H. gudaonensis LMG 236107 (DQ421808)</otu>
+  <otu id="otu19" cmphy:genus="Carnimonas" cmphy:species="nigrificans" cmphy:strain="CECT 44377" cmphy:id="Y13299" editRecord="[]">Carnimonas nigrificans CECT 44377 (Y13299)</otu>
+  <otu id="otu20">H. halmophila ATCC 197177 (AJ306889)</otu>
+  <otu id="otu21">H. almeriensis CECT 70507 (AY858696)</otu>
+  <otu id="otu22">H. desiderata DSM 95027 (X92417)</otu>
+  <otu id="otu23">Zymobacterpalmae IAM 142337 (D14555)</otu>
+  <otu id="otu24">H. halodenitrificans CECT 5o12T (LO4942)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="9.0" y="1031.0"/>
+   <node id="NT1.21" label="NT1.21" x="392.0" y="997.0" otu="otu5"/>
+   <node id="NT1.41" label="NT1.41" x="644.0" y="1087.0" otu="otu19"/>
+   <node id="NT1.47" label="NT1.47" x="5.0" y="762.0" root="true"/>
+   <edge id="e.21" source="NT1.1" target="NT1.21"/>
+   <edge id="e.22" target="NT1.41" source="NT1.1"/>
+   <edge id="e.45" source="NT1.47" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

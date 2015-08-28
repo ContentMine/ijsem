@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Tuberibacillus" cmphy:species="calidus" cmphy:strain="JCM 13397T" cmphy:id="ABZ31786" editRecord="[2__Z]">Tuberibacillus calidus JCM 13397T (AB231786)</otu>
+  <otu id="otu3" cmphy:genus="Marinococcus" cmphy:species="albus" cmphy:strain="DSM 20748T" cmphy:id="X90834" editRecord="[]">Marinococcus albus DSM 20748T (X90834)</otu>
+  <otu id="otu4" cmphy:genus="Sporolactobacillus" cmphy:species="inulinus" cmphy:strain="JCM 6014T" cmphy:id="D16283" editRecord="[]">Sporolactobacillus inulinus JCM 6014T (D16283)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Marinococcus" cmphy:species="halophilus" cmphy:strain="DSM 2O4O8T" cmphy:id="X90835" editRecord="[]"> Marinococcus halophilus DSM 2O4O8T (X90835)</otu>
+  <otu id="otu9">Strain sL153T (EF581819)</otu>
+  <otu id="otu10">Strain SL1153 (EF581818)</otu>
+  <otu id="otu11">Sporolactobacillus nakayamae subsp. racemicus JCM 3417T (D16291)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="191.0" y="746.0" label="100"/>
+   <node id="NT1.3" x="203.0" y="437.0" label="52"/>
+   <node id="NT1.5" label="NT1.5" x="411.0" y="536.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="540.0" y="795.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="613.0" y="277.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="684.0" y="731.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="1.0" y="632.0" root="true"/>
+   <edge id="e.2" target="NT1.10" source="NT1.3"/>
+   <edge id="e.5" source="NT1.3" target="NT1.5"/>
+   <edge id="e.7" source="NT1.2" target="NT1.8"/>
+   <edge id="e.8" target="NT1.17" source="NT1.2"/>
+   <edge id="e.17" target="NT1.3" source="NT1.25"/>
+   <edge id="e.20" source="NT1.25" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

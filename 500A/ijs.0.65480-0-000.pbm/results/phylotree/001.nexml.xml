@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Streptacidiphilus" cmphy:species="albus" cmphy:strain="DSM 41753T" cmphy:id="AFO74415" editRecord="[0__O]"> Streptacidiphilus albus DSM 41753T (AF074415)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Kitasatospora" cmphy:species="azatica" cmphy:strain="IFO 138O3T" cmphy:id="U93312" editRecord="[]">Kitasatospora azatica IFO 138O3T (U93312)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Kitasatospora" cmphy:species="phosalacinea" cmphy:strain="DSM 43860T" cmphy:id="M55223" editRecord="[]">Kitasatospora phosalacinea DSM 43860T (M55223)</otu>
+  <otu id="otu7" cmphy:genus="Streptacidiphilus" cmphy:species="rugosus" cmphy:strain="AM-16T" cmphy:id="DQ904547" editRecord="[]"> Streptacidiphilus rugosus AM-16T (DQ904547)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Kitasatospora" cmphy:species="setae" cmphy:strain="DSM 43861T" cmphy:id="M55220" editRecord="[]">Kitasatospora setae DSM 43861T (M55220)</otu>
+  <otu id="otu11">Streptomyces rimosus subsp. rimosus JCM 4667T (AB045883)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Streptacidiphilus" cmphy:species="oryzae" cmphy:strain="TH49T" cmphy:id="DQZ08700" editRecord="[2__Z]">Streptacidiphilus oryzae TH49T (DQ208700)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="mirabilis" cmphy:strain="NBRC 1345OT" cmphy:id="ABI84412" editRecord="[1__I]">Streptomyces mirabilis NBRC 1345OT (AB184412)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="25.0" y="490.0"/>
+   <node id="NT1.2" x="39.0" y="89.0" label="86"/>
+   <node id="NT1.3" label="NT1.3" x="57.0" y="159.0"/>
+   <node id="NT1.9" label="NT1.9" x="129.0" y="469.0"/>
+   <node id="NT1.14" label="NT1.14" x="173.0" y="146.0" otu="otu1"/>
+   <node id="NT1.16" label="NT1.16" x="181.0" y="577.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="197.0" y="447.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="205.0" y="189.0" otu="otu7"/>
+   <node id="NT1.25" label="NT1.25" x="222.0" y="491.0" otu="otu10"/>
+   <node id="NT1.29" label="NT1.29" x="255.0" y="18.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="297.0" y="620.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="3.0" y="289.0" root="true"/>
+   <edge id="e.0" source="NT1.2" target="NT1.29"/>
+   <edge id="e.1" target="NT1.14" source="NT1.3"/>
+   <edge id="e.3" target="NT1.22" source="NT1.3"/>
+   <edge id="e.10" source="NT1.9" target="NT1.19"/>
+   <edge id="e.12" source="NT1.9" target="NT1.25"/>
+   <edge id="e.15" target="NT1.32" source="NT1.1"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.27" target="NT1.9" source="NT1.1"/>
+   <edge id="e.31" source="NT1.35" target="NT1.2"/>
+   <edge id="e.32" source="NT1.35" target="NT1.1"/>
+   <edge id="e.33" target="NT1.16" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

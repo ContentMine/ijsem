@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">N. marinus CL-DD14T (DQ401093)</otu>
+  <otu id="otu2">N. terrigena DS-17T (EF363712)</otu>
+  <otu id="otu3">N. aquiterrae GW-9T (AF529063)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">N. alkalitolerans KSL-1T (AY633969)</otu>
+  <otu id="otu6">N. pyridinolyticus KCTC 0074BPT (U61298)</otu>
+  <otu id="otu7">N. kribbensis KSL-2T (AY835924)</otu>
+  <otu id="otu8">N. panacihumi Gsoil 616T (AB271053)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">N. nitrophenolicus NSP41T (AFOO5024)</otu>
+  <otu id="otu11">N. aestuarii JC2056T (AY423719)</otu>
+  <otu id="otu12">N. kongjuensis A2-4T (DQ218275)</otu>
+  <otu id="otu13">N. furvisabuli SBS-26T (DQ41 1542)</otu>
+  <otu id="otu14"> N. aromaticivorans H-1T (AB087721)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">N. plantarum NCIMB 12834T (AFOOSOO8)</otu>
+  <otu id="otu17">N. luteus KCTC 95757 (AF005007)</otu>
+  <otu id="otu18"> N. ganghwensis JC2055T (AY423718)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21">N. albus KCTC 9186T (AFOO4988)</otu>
+  <otu id="otu22">N. koreensis MSL-09T (EF466115)</otu>
+  <otu id="otu23">N. bigeumensis MSL-19T(EF466114)</otu>
+  <otu id="otu24">N. agariphilus MSL-287 (EF466113)</otu>
+  <otu id="otu25" cmphy:genus="Terrabacter" cmphy:species="tumescens" cmphy:strain="DSM 203O8T" cmphy:id="X83812" editRecord="[]">Terrabacter tumescens DSM 203O8T (X83812)</otu>
+  <otu id="otu26">N. insulae DS-51T (DQ786794)</otu>
+  <otu id="otu27"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.50" label="NT1.50" x="685.0" y="1038.0" otu="otu25"/>
+   <node id="NT1.53" label="NT1.53" x="1.0" y="908.0" root="true"/>
+   <edge id="e.47" source="NT1.53" target="NT1.50"/>
+  </tree>
+ </trees>
+</nexml>

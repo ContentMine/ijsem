@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[O__0]" cmphy:genus="Bartonella" cmphy:species="henselae" cmphy:strain="Houston-17" cmphy:id="YFL033437" editRecord="[O__0]">Bartonella henselae Houston-17 (YFLO33437)</otu>
+  <otu id="otu2">Mesorhizobium sp. BNC1 (YP_674379)</otu>
+  <otu id="otu3">Rhizobium erli CFN 427 (YP_469187)</otu>
+  <otu id="otu4" cmphy:genus="Brucella" cmphy:species="suis" cmphy:strain="13307" cmphy:id="NP_698250" editRecord="[]">Brucella suis 13307 (NP_698250)</otu>
+  <otu id="otu5">Sinorhizobium meliloti 1021 (NP 385452)</otu>
+  <otu id="otu6" cmphy:genus="Agrobacterium" cmphy:species="tumefaciens" cmphy:strain="C58" cmphy:id="NP_354933" editRecord="[]">Agrobacterium tumefaciens C58 (NP_354933)</otu>
+  <otu id="otu7">1052. L. africanus subsp. oapensisn Africa (Q9L5W5)</otu>
+  <otu id="otu8">1Ca. L. africanus1 Nelspruit (P41191)</otu>
+  <otu id="otu9">Ce. L. asiaticus Japan (AAR13269)</otu>
+  <otu id="otu10">Ce. L. asiaticus1 Poona (2002224D)</otu>
+  <otu id="otu11">Ce. L. asiaticus1 China (AAZ81564)</otu>
+  <otu id="otu12">Ca. L. americanus1S51o Paulo (EF122254)</otu>
+  <otu id="otu13">Escherichia coliW311O (BAE77335)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="244.0" y="380.0"/>
+   <node id="NT1.5" label="NT1.5" x="295.0" y="449.0"/>
+   <node id="NT1.7" label="NT1.7" x="392.0" y="344.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="427.0" y="417.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="467.0" y="528.0" otu="otu6"/>
+   <node id="NT1.25" label="NT1.25" x="3.0" y="443.0" root="true"/>
+   <edge id="e.4" source="NT1.2" target="NT1.7"/>
+   <edge id="e.5" target="NT1.15" source="NT1.5"/>
+   <edge id="e.11" target="NT1.2" source="NT1.25"/>
+   <edge id="e.13" target="NT1.5" source="NT1.2"/>
+   <edge id="e.19" source="NT1.5" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> P. anaericanus MH21T (AJ318909)</otu>
+  <otu id="otu2">P. chibensis JCM 9905T (AB073194)</otu>
+  <otu id="otu3">P. cookii LMG 18419T (AJ250317)</otu>
+  <otu id="otu4">P. turicensfs MOL722T (AF378694)</otu>
+  <otu id="otu5">P. borealis KK19T (AJ011322)</otu>
+  <otu id="otu6">P. cineris LMG 184397 (AJ575658)</otu>
+  <otu id="otu7">P. azoreducens CM1T (AJ272249)</otu>
+  <otu id="otu8">P. favisporus GMP01T (AY208751)</otu>
+  <otu id="otu9">P. glucanolyticus DSM 5162T (ABO731B9)</otu>
+  <otu id="otu10">P. illinoisensis JCM 9907T (AB073192)</otu>
+  <otu id="otu11">P. motobuensis MC10T (AY741810)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">P. durus DSM 1735T (X77846)</otu>
+  <otu id="otu14">P. amylolyticus JCM 9906T (AB073190)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">P. taichungensis BCRC 177577 (EU179327)</otu>
+  <otu id="otu17">P. macquariensis DSM 2T (AB073193)</otu>
+  <otu id="otu18">P. stellifer IST (AJ316013)</otu>
+  <otu id="otu19">P. antarcticus LMG 220787 (AJ605292)</otu>
+  <otu id="otu20">P. odorifer TOD45T (AJ223990)</otu>
+  <otu id="otu21">P. Wynnii LMG 221767 (AJ633847)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23">P. graminis RSA19T (AJ223987)</otu>
+  <otu id="otu24" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="subtilfs" cmphy:strain="DSM 10T" cmphy:id="AJZ76351" editRecord="[2__Z]">Bacillus subtilfs DSM 10T (AJ276351)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.46" label="NT1.46" x="761.0" y="891.0" otu="otu24"/>
+   <node id="NT1.47" label="NT1.47" x="7.0" y="818.0" root="true"/>
+   <edge id="e.40" source="NT1.47" target="NT1.46"/>
+  </tree>
+ </trees>
+</nexml>

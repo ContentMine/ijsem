@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Chelatococcus" cmphy:species="asaccharovorans" cmphy:strain="TE2T" cmphy:id="AJZ94349" editRecord="[2__Z]">Chelatococcus asaccharovorans TE2T (AJ294349)</otu>
+  <otu id="otu10" cmphy:genus="Methylosinus" cmphy:species="trichosporium" cmphy:strain="OB3bT" cmphy:id="Y18947" editRecord="[]">Methylosinus trichosporium OB3bT (Y18947)</otu>
+  <otu id="otu11" cmphy:genus="Methylocystis" cmphy:species="parvus" cmphy:strain="OBBPT" cmphy:id="Y18945" editRecord="[]">Methylocystis parvus OBBPT (Y18945)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="thiooxidans" cmphy:strain="DSM 9653T" cmphy:id="AJZ50796" editRecord="[2__Z]">Bosea thiooxidans DSM 9653T (AJ250796)</otu>
+  <otu id="otu13">Chelatococcus daeguensis K1067 (EF5845o7)</otu>
+  <otu id="otu14" cmphy:genus="Beijerinckia" cmphy:species="indica" cmphy:strain="ATCC 9039T" cmphy:id="M59060" editRecord="[]">Beijerinckia indica ATCC 9039T (M59060)</otu>
+  <otu id="otu15" cmphy:genus="Methylocella" cmphy:species="palustris" cmphy:strain="ATCC 70O799T" cmphy:id="Y17144" editRecord="[]">Methylocella palustris ATCC 70O799T (Y17144)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Methylocapsa" cmphy:species="acidiphila" cmphy:strain="B2T" cmphy:id="AJZ78726" editRecord="[2__Z]">Methylocapsa acidiphila B2T (AJ278726)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Methylobacterium" cmphy:species="organophilum" cmphy:strain="JCM 2833T" cmphy:id="D32226" editRecord="[]">Methylobacterium organophilum JCM 2833T (D32226)</otu>
+  <otu id="otu19" cmphy:genus="Rhodoblastus" cmphy:species="acidophilus" cmphy:strain="DSM 137T" cmphy:id="M34128" editRecord="[]">Rhodoblastus acidophilus DSM 137T (M34128)</otu>
+  <otu id="otu20" cmphy:genus="Bradyrhizobium" cmphy:species="japonicum" cmphy:strain="DSM 3O131T" cmphy:id="X87272" editRecord="[]">Bradyrhizobium japonicum DSM 3O131T (X87272)</otu>
+  <otu id="otu21" cmphy:genus="Methylobacterium" cmphy:species="mesophilicum" cmphy:strain="JCM 2829T" cmphy:id="D32225" editRecord="[]">Methylobacterium mesophilicum JCM 2829T (D32225)</otu>
+  <otu id="otu22" cmphy:genus="Rhodopseudomonas" cmphy:species="palustris" cmphy:strain="ATCC 17001T" cmphy:id="D25312" editRecord="[]">Rhodopseudomonas palustris ATCC 17001T (D25312)</otu>
+  <otu id="otu23"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="555.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="23.0" y="322.0"/>
+   <node id="NT1.4" label="NT1.4" x="51.0" y="430.0"/>
+   <node id="NT1.6" label="NT1.6" x="64.0" y="164.0"/>
+   <node id="NT1.8" label="NT1.8" x="106.0" y="356.0"/>
+   <node id="NT1.10" label="NT1.10" x="122.0" y="64.0"/>
+   <node id="NT1.14" label="NT1.14" x="154.0" y="34.0"/>
+   <node id="NT1.17" label="NT1.17" x="187.0" y="496.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="188.0" y="174.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="189.0" y="214.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="192.0" y="416.0" otu="otu12"/>
+   <node id="NT1.22" label="NT1.22" x="196.0" y="94.0" otu="otu14"/>
+   <node id="NT1.23" label="NT1.23" x="208.0" y="14.0" otu="otu15"/>
+   <node id="NT1.24" label="NT1.24" x="209.0" y="54.0" otu="otu16"/>
+   <node id="NT1.25" label="NT1.25" x="222.0" y="274.0"/>
+   <node id="NT1.28" label="NT1.28" x="233.0" y="335.0" otu="otu18"/>
+   <node id="NT1.29" label="NT1.29" x="234.0" y="134.0" otu="otu19"/>
+   <node id="NT1.30" label="NT1.30" x="261.0" y="255.0" otu="otu20"/>
+   <node id="NT1.31" label="NT1.31" x="264.0" y="375.0" otu="otu21"/>
+   <node id="NT1.32" label="NT1.32" x="270.0" y="295.0" otu="otu22"/>
+   <edge id="e.3" source="NT1.6" target="NT1.18"/>
+   <edge id="e.10" source="NT1.8" target="NT1.28"/>
+   <edge id="e.12" source="NT1.10" target="NT1.14"/>
+   <edge id="e.13" source="NT1.6" target="NT1.10"/>
+   <edge id="e.14" source="NT1.3" target="NT1.6"/>
+   <edge id="e.15" source="NT1.6" target="NT1.25"/>
+   <edge id="e.16" target="NT1.3" source="NT1.1"/>
+   <edge id="e.17" source="NT1.3" target="NT1.4"/>
+   <edge id="e.18" source="NT1.4" target="NT1.8"/>
+   <edge id="e.21" source="NT1.8" target="NT1.20"/>
+   <edge id="e.22" source="NT1.6" target="NT1.29"/>
+   <edge id="e.23" target="NT1.17" source="NT1.4"/>
+   <edge id="e.25" source="NT1.10" target="NT1.22"/>
+   <edge id="e.26" source="NT1.6" target="NT1.19"/>
+   <edge id="e.27" source="NT1.14" target="NT1.24"/>
+   <edge id="e.28" source="NT1.14" target="NT1.23"/>
+   <edge id="e.29" source="NT1.8" target="NT1.31"/>
+   <edge id="e.30" source="NT1.25" target="NT1.30"/>
+   <edge id="e.31" target="NT1.32" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

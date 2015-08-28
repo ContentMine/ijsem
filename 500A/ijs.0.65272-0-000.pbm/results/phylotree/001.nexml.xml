@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Goodfellowiella" cmphy:species="coeruleoviolacea" cmphy:strain="NBRC 149887" cmphy:id="ABB27258" editRecord="[3__B]">Goodfellowiella coeruleoviolacea NBRC 149887 (AB327258)</otu>
+  <otu id="otu2" cmphy:genus="Streptoalloteichus" cmphy:species="hindustanus" cmphy:strain="NBRC 15115T" cmphy:id="D85497" editRecord="[]">Streptoalloteichus hindustanus NBRC 15115T (D85497)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Streptoalloteichus" cmphy:species="tenebrarius" cmphy:strain="NBRC 16177T" cmphy:id="ABI84722" editRecord="[1__I]">Streptoalloteichus tenebrarius NBRC 16177T (AB184722)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Crossiella" cmphy:species="cryophila" cmphy:strain="NRRL B-162387" cmphy:id="AFI14806" editRecord="[1__I]">Crossiella cryophila NRRL B-162387 (AF114806)</otu>
+  <otu id="otu5" cmphy:genus="Actinosynnema" cmphy:species="mirum" cmphy:strain="NBRC 14O64T" cmphy:id="D85475" editRecord="[]">Actinosynnema mirum NBRC 14O64T (D85475)</otu>
+  <otu id="otu6" cmphy:genus="Streptomyces" cmphy:species="ambofaciens" cmphy:strain="ATCC 23877T" cmphy:id="M27245" editRecord="[]">Streptomyces ambofaciens ATCC 23877T (M27245)</otu>
+  <otu id="otu7" cmphy:genus="Actinoalloteichus" cmphy:species="cyanogriseus" cmphy:strain="NBRC 14455T" cmphy:id="ABO06178" editRecord="[]">Actinoalloteichus cyanogriseus NBRC 14455T (ABO06178)</otu>
+  <otu id="otu8" cmphy:genus="Jiangella" cmphy:species="gansuensis" cmphy:strain="YIM 002T" cmphy:id="AY631071" editRecord="[]">Jiangella gansuensis YIM 002T (AY631071)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Pseudonocardia" cmphy:species="thermophila" cmphy:strain="IMSNU 20112T" cmphy:id="AJZ52830" editRecord="[2__Z]">Pseudonocardia thermophila IMSNU 20112T (AJ252830)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Prauserella" cmphy:species="rugosa" cmphy:strain="NBRC 145067" cmphy:id="ABB27259" editRecord="[3__B]">Prauserella rugosa NBRC 145067 (AB327259)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="98.0" y="265.0"/>
+   <node id="NT1.2" label="NT1.2" x="113.0" y="385.0"/>
+   <node id="NT1.3" label="NT1.3" x="120.0" y="154.0"/>
+   <node id="NT1.4" label="NT1.4" x="129.0" y="320.0"/>
+   <node id="NT1.5" label="NT1.5" x="134.0" y="265.0"/>
+   <node id="NT1.6" label="NT1.6" x="160.0" y="122.0"/>
+   <node id="NT1.7" label="NT1.7" x="160.0" y="385.0"/>
+   <node id="NT1.8" label="NT1.8" x="235.0" y="296.0"/>
+   <node id="NT1.9" label="NT1.9" x="257.0" y="363.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="258.0" y="319.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="265.0" y="275.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="329.0" y="231.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="344.0" y="452.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="355.0" y="496.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="366.0" y="407.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="415.0" y="187.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="475.0" y="143.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="491.0" y="98.0" otu="otu10"/>
+   <edge source="NT1.17" target="NT1.6" id="e.0"/>
+   <edge source="NT1.10" target="NT1.8" id="e.1"/>
+   <edge source="NT1.11" target="NT1.8" id="e.2"/>
+   <edge source="NT1.6" target="NT1.3" id="e.3"/>
+   <edge source="NT1.3" target="NT1.1" id="e.4"/>
+   <edge source="NT1.1" target="NT1.2" id="e.5"/>
+   <edge source="NT1.2" target="NT1.4" id="e.6"/>
+   <edge source="NT1.4" target="NT1.7" id="e.7"/>
+   <edge source="NT1.4" target="NT1.5" id="e.8"/>
+   <edge source="NT1.5" target="NT1.8" id="e.9"/>
+   <edge source="NT1.14" target="NT1.1" id="e.10"/>
+   <edge source="NT1.13" target="NT1.2" id="e.11"/>
+   <edge source="NT1.9" target="NT1.7" id="e.12"/>
+   <edge source="NT1.12" target="NT1.5" id="e.13"/>
+   <edge source="NT1.16" target="NT1.3" id="e.14"/>
+   <edge source="NT1.15" target="NT1.7" id="e.15"/>
+   <edge source="NT1.18" target="NT1.6" id="e.16"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log date="2015-08-28T09:17:39.591+01:00">
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.ensureOutputDirectory" message="PhyloTree output to: target/junk/1440749859591; suggest you setOutputDir()" millis="0"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [Haloferax mediterranei ATCC 33500T (D1 1107)]" millis="4598"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [ Halobacterium noricense DSM 15987T (AJ 548827)]" millis="4598"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [Haloterrigena thermotolerans]" millis="4598"/>
+ <warn method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="corrected to: Haloferax denitrificans" millis="4599"/>
+ <warn method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="corrected to: Haloarcula vallismortis" millis="4600"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [Strain AI-5T (EF533994)]" millis="4600"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [Strain K-1 (EU409597)]" millis="4600"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: NULL parent node for: otu1; not deleted" millis="4600"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: NULL parent node for: otu2; not deleted" millis="4601"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: NULL parent node for: otu3; not deleted" millis="4601"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: NULL parent node for: otu10; not deleted" millis="4601"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: NULL parent node for: otu11; not deleted" millis="4601"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.createTree" message="Analyzed pixels for tree successfully" millis="4617"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNexml" message="wrote NEXML: ../ijsem/500A/ijs.0.65662-0-000.pbm/results/phylotree/001.nexml.xml" millis="4618"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNewick" message="wrote Newick: ../ijsem/500A/ijs.0.65662-0-000.pbm/results/phylotree/001.nwk" millis="4620"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputHocrSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65662-0-000.pbm/results/phylotree/001.hocr.svg" millis="4626"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65662-0-000.pbm/results/phylotree/001.svg" millis="4631"/>
+</log>

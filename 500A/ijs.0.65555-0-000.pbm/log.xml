@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log date="2015-08-28T09:07:15.101+01:00">
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.ensureOutputDirectory" message="PhyloTree output to: target/junk/1440749235101; suggest you setOutputDir()" millis="0"/>
+ <warn method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="corrected to: Rhodothermus marinus" millis="3602"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [Strain CM41_14bT (EU008564)]" millis="3602"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: NULL parent node for: otu9; not deleted" millis="3602"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.createTree" message="Analyzed pixels for tree successfully" millis="3619"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNexml" message="wrote NEXML: ../ijsem/500A/ijs.0.65555-0-000.pbm/results/phylotree/001.nexml.xml" millis="3621"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNewick" message="wrote Newick: ../ijsem/500A/ijs.0.65555-0-000.pbm/results/phylotree/001.nwk" millis="3623"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputHocrSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65555-0-000.pbm/results/phylotree/001.hocr.svg" millis="3628"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65555-0-000.pbm/results/phylotree/001.svg" millis="3633"/>
+</log>

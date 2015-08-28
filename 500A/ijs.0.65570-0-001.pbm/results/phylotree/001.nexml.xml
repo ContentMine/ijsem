@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Persephonella" cmphy:species="guaymasensis" cmphy:strain="EX-H2T" cmphy:id="AFB85630" editRecord="[3__B]">Persephonella guaymasensis EX-H2T (AF385630)</otu>
+  <otu id="otu3" cmphy:genus="Aquificales" cmphy:species="strain" cmphy:strain="CP.B2" cmphy:id="DQ989208" editRecord="[]">Aquificales strain CP.B2 (DQ989208)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">W100 Aquificales strain HGMK-3 (ABO71325)</otu>
+  <otu id="otu6">Uncultured Aquificales clone SRI-40 (AF255598)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Sulfurihydrogenibium" cmphy:species="azorense" cmphy:strain="Az-Fu1T" cmphy:id="AFS28192" editRecord="[5__S]">Sulfurihydrogenibium azorense Az-Fu1T (AF528192)</otu>
+  <otu id="otu8">Uncultured Aquificales clone pAz4 (AF453508)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Sulfurihydrogenibium subterraneum H G M K-1T (AB071 324)</otu>
+  <otu id="otu11" cmphy:genus="Sulfurihydrogenibium" cmphy:species="kristianssonii" cmphy:strain="l6628T" cmphy:id="AM778960" editRecord="[]">Sulfurihydrogenibium kristianssonii l6628T (AM778960)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Sulfurihydrogenibium" cmphy:species="strain" cmphy:strain="Y04ACS1" cmphy:id="AMZ59493" editRecord="[2__Z]">Sulfurihydrogenibium strain Y04ACS1 (AM259493)</otu>
+  <otu id="otu13">Uncultured Aquificales clone SRI-240 (AF255597)</otu>
+  <otu id="otu14" cmphy:genus="Sulfurihydrogenibium" cmphy:species="yellowstonense" cmphy:strain="SS-5T" cmphy:id="AY686713" editRecord="[]">Sulfurihydrogenibium yellowstonense SS-5T (AY686713)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Sulfurihydrogenibium" cmphy:species="rodmanii" cmphy:strain="UZ3-5T" cmphy:id="AMZ59502" editRecord="[2__Z]">Sulfurihydrogenibium rodmanii UZ3-5T (AM259502)</otu>
+  <otu id="otu16">Uncultured Aquificales clone pBB (AF113542)</otu>
+  <otu id="otu17">Sulfurihydrogenibium rodmanii UZ1 -1 C1 (AM259495)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="503.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="13.0" y="480.0"/>
+   <node id="NT1.3" label="NT1.3" x="30.0" y="577.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="252.0" y="431.0"/>
+   <node id="NT1.5" label="NT1.5" x="332.0" y="326.0"/>
+   <node id="NT1.6" label="NT1.6" x="382.0" y="535.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="393.0" y="224.0"/>
+   <node id="NT1.16" label="NT1.16" x="416.0" y="312.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="443.0" y="77.0"/>
+   <node id="NT1.22" label="NT1.22" x="470.0" y="462.0"/>
+   <node id="NT1.25" label="NT1.25" x="478.0" y="16.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="486.0" y="494.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="493.0" y="452.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="513.0" y="139.0" otu="otu15"/>
+   <edge id="e.5" target="NT1.16" source="NT1.7"/>
+   <edge id="e.6" source="NT1.22" target="NT1.26"/>
+   <edge id="e.7" target="NT1.28" source="NT1.22"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.18" source="NT1.7"/>
+   <edge id="e.16" source="NT1.5" target="NT1.7"/>
+   <edge id="e.19" source="NT1.4" target="NT1.5"/>
+   <edge id="e.20" source="NT1.5" target="NT1.22"/>
+   <edge id="e.21" source="NT1.2" target="NT1.4"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.24" source="NT1.4" target="NT1.6"/>
+   <edge id="e.27" target="NT1.25" source="NT1.18"/>
+   <edge id="e.30" target="NT1.30" source="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

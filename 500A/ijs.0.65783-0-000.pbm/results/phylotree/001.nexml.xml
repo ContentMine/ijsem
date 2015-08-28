@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Pedobacter" cmphy:species="lentus" cmphy:strain="DS-40T" cmphy:id="EF446146" editRecord="[]">Pedobacter lentus DS-40T (EF446146)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Pedobacter" cmphy:species="roseus" cmphy:strain="CL-GP80T" cmphy:id="DQI12353" editRecord="[1__I]">Pedobacter roseus CL-GP80T (DQ112353)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Pedobacter" cmphy:species="ginsengisoli" cmphy:strain="Gsoil 104T" cmphy:id="ABZ45371" editRecord="[2__Z]">Pedobacter ginsengisoli Gsoil 104T (AB245371)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Pedobacter koreensis</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="ATCC 33406" cmphy:id="M58768" editRecord="[]">Cytophaga hutchinsonii ATCC 33406 (M58768)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="221.0" y="822.0"/>
+   <node id="NT1.3" label="NT1.3" x="327.0" y="628.0"/>
+   <node id="NT1.12" label="NT1.12" x="488.0" y="945.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="496.0" y="759.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="497.0" y="343.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="775.0" y="1130.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="4.0" y="976.0" root="true"/>
+   <edge id="e.2" target="NT1.14" source="NT1.3"/>
+   <edge id="e.5" source="NT1.3" target="NT1.13"/>
+   <edge id="e.6" target="NT1.12" source="NT1.1"/>
+   <edge id="e.14" source="NT1.1" target="NT1.3"/>
+   <edge id="e.18" source="NT1.21" target="NT1.20"/>
+   <edge id="e.19" source="NT1.21" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

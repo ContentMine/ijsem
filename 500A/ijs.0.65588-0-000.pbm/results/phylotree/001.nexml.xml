@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Hymenobacter" cmphy:species="gelipurpurascens" cmphy:strain="Txg1T" cmphy:id="Y18836" editRecord="[]">Hymenobacter gelipurpurascens Txg1T (Y18836)</otu>
+  <otu id="otu4">Hymenobacter Xinjiangensis X2-1gT (DQ888329)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="273.0" y="226.0" otu="otu1"/>
+   <node id="NT1.2" x="405.0" y="447.0" label="7B"/>
+   <node id="NT1.3" label="NT1.3" x="411.0" y="506.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="411.0" y="503.0"/>
+   <node id="NT1.5" label="NT1.5" x="499.0" y="431.0" otu="otu3"/>
+   <node id="NT1.6" label="NT1.6" x="508.0" y="473.0" otu="otu4"/>
+   <edge source="NT1.3" target="NT1.4" id="e.0"/>
+   <edge source="NT1.5" target="NT1.2" id="e.1"/>
+   <edge source="NT1.2" target="NT1.4" id="e.2"/>
+   <edge source="NT1.1" target="NT1.2" id="e.3"/>
+   <edge source="NT1.6" target="NT1.4" id="e.4"/>
+  </tree>
+ </trees>
+</nexml>

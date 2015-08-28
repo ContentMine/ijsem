@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log date="2015-08-28T08:58:43.763+01:00">
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.ensureOutputDirectory" message="PhyloTree output to: target/junk/1440748723763; suggest you setOutputDir()" millis="0"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [Rose-lnatronobacter thiooxidans ALG 1T (AF249749)]" millis="4914"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [Strain DSZT (DQ280370)]" millis="4915"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: NULL parent node for: otu5; not deleted" millis="4916"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: NULL parent node for: otu13; not deleted" millis="4916"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.createTree" message="Analyzed pixels for tree successfully" millis="4932"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNexml" message="wrote NEXML: ../ijsem/500A/ijs.0.65429-0-000.pbm/results/phylotree/001.nexml.xml" millis="4933"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNewick" message="wrote Newick: ../ijsem/500A/ijs.0.65429-0-000.pbm/results/phylotree/001.nwk" millis="4935"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputHocrSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65429-0-000.pbm/results/phylotree/001.hocr.svg" millis="4942"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65429-0-000.pbm/results/phylotree/001.svg" millis="4947"/>
+</log>

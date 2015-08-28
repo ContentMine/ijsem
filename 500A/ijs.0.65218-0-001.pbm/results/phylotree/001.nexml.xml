@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Natronobacterium" cmphy:species="pharaonis" cmphy:strain="JCM 88587" cmphy:id="D87971" editRecord="[]">Natronobacterium pharaonis JCM 88587 (D87971)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Methanobacterium" cmphy:species="beijingense" cmphy:strain="8-27" cmphy:id="AYB50742" editRecord="[3__B]">Methanobacterium beijingense 8-27 (AY350742)</otu>
+  <otu id="otu6" cmphy:edit="[O__0]" cmphy:genus="Haloterrigena" cmphy:species="turkmenica" cmphy:strain="VKM B-1734T" cmphy:id="ABO04878" editRecord="[O__0]">Haloterrigena turkmenica VKM B-1734T (ABOO4878)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Natronocoocus" cmphy:species="occultus" cmphy:strain="NCIMB 21927" cmphy:id="Z28378" editRecord="[]">Natronocoocus occultus NCIMB 21927 (Z28378)</otu>
+  <otu id="otu9" cmphy:genus="Halococcus" cmphy:species="dombrowskii" cmphy:strain="H47" cmphy:id="AJ420376" editRecord="[]">Halococcus dombrowskii H47 (AJ420376)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Halococcus" cmphy:species="hamelinensis" cmphy:strain="100A6T" cmphy:id="DQO17835" editRecord="[0__O]">Halococcus hamelinensis 100A6T (DQ017835)</otu>
+  <otu id="otu12" cmphy:genus="Haloferax" cmphy:species="denitrificans" cmphy:strain="ATCC 359607" cmphy:id="D14128" editRecord="[]">Haloferax denitrificans ATCC 359607 (D14128)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Halococcus" cmphy:species="morrhuae" cmphy:strain="NRC 16008T" cmphy:id="D11106" editRecord="[]">Halococcus morrhuae NRC 16008T (D11106)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Halococcus" cmphy:species="qingdaonensis" cmphy:strain="CMST" cmphy:id="AYZ43109" editRecord="[2__Z]">Halococcus qingdaonensis CMST (AY243109)</otu>
+  <otu id="otu16">Strain HDB5-2T (AB220647)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="141.0" y="359.0"/>
+   <node id="NT1.2" label="NT1.2" x="147.0" y="215.0"/>
+   <node id="NT1.4" label="NT1.4" x="151.0" y="284.0"/>
+   <node id="NT1.5" x="200.0" y="380.0" label="100"/>
+   <node id="NT1.10" label="NT1.10" x="234.0" y="153.0"/>
+   <node id="NT1.11" label="NT1.11" x="262.0" y="475.0" otu="otu1"/>
+   <node id="NT1.15" label="NT1.15" x="277.0" y="590.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="278.0" y="437.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="278.0" y="362.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="286.0" y="207.0"/>
+   <node id="NT1.22" label="NT1.22" x="287.0" y="170.0"/>
+   <node id="NT1.23" label="NT1.23" x="289.0" y="209.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="292.0" y="93.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="294.0" y="284.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="298.0" y="170.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="298.0" y="132.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="6.0" y="474.0" root="true"/>
+   <edge id="e.2" source="NT1.21" target="NT1.23"/>
+   <edge id="e.3" source="NT1.10" target="NT1.25"/>
+   <edge id="e.5" source="NT1.22" target="NT1.28"/>
+   <edge id="e.6" source="NT1.22" target="NT1.29"/>
+   <edge id="e.7" source="NT1.4" target="NT1.26"/>
+   <edge id="e.9" target="NT1.18" source="NT1.5"/>
+   <edge id="e.10" target="NT1.11" source="NT1.1"/>
+   <edge id="e.15" target="NT1.10" source="NT1.2"/>
+   <edge id="e.17" target="NT1.21" source="NT1.10"/>
+   <edge id="e.18" source="NT1.21" target="NT1.22"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.20" source="NT1.1" target="NT1.2"/>
+   <edge id="e.21" source="NT1.4" target="NT1.5"/>
+   <edge id="e.26" source="NT1.31" target="NT1.15"/>
+   <edge id="e.27" source="NT1.31" target="NT1.1"/>
+   <edge id="e.29" target="NT1.16" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

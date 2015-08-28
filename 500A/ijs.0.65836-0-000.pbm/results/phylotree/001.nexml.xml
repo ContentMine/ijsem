@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Anaplasma" cmphy:species="phagocytophilum" cmphy:strain="USG3" cmphy:id="AYO55469" editRecord="[0__O]">Anaplasma phagocytophilum USG3 (AY055469)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Anaplasma" cmphy:species="marginale" cmphy:strain="Florida" cmphy:id="AFB09867" editRecord="[3__B]">Anaplasma marginale Florida (AF309867)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Anaplasma" cmphy:species="platys" cmphy:strain="Okinawa 1" cmphy:id="AFS36828" editRecord="[5__S]">Anaplasma platys Okinawa 1 (AF536828)</otu>
+  <otu id="otu4">1Candidatus Neoehrlichia lotoris1 RAC413R (EF633744)</otu>
+  <otu id="otu5" cmphy:genus="Anaplasma" cmphy:species="ovis" cmphy:strain="Zhangjiachuan" cmphy:id="AJ633051" editRecord="[]">Anaplasma ovis Zhangjiachuan (AJ633051)</otu>
+  <otu id="otu6">Candidatus Neoehrlichia mikurensis1 I858 (AB074460)</otu>
+  <otu id="otu7">Anaplasma centrale (AF283007)</otu>
+  <otu id="otu8" cmphy:genus="Ehdichia" cmphy:species="chaffeensis" cmphy:strain="91HE17" cmphy:id="U23503" editRecord="[]">Ehdichia chaffeensis 91HE17 (U23503)</otu>
+  <otu id="otu9" cmphy:genus="Ehrlichia" cmphy:species="ewingii" cmphy:strain="95E9-TS" cmphy:id="U96436" editRecord="[]">Ehrlichia ewingii 95E9-TS (U96436)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Ehrlichia" cmphy:species="muris" cmphy:strain="FN2619" cmphy:id="ABI96302" editRecord="[1__I]">Ehrlichia muris FN2619 (AB196302)</otu>
+  <otu id="otu11" cmphy:genus="Ehrlichia" cmphy:species="ruminantium" cmphy:strain="Senegal stock" cmphy:id="X62432" editRecord="[]">Ehrlichia ruminantium Senegal stock (X62432)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Ehrlichia" cmphy:species="canis" cmphy:strain="VDE" cmphy:id="AFB73613" editRecord="[3__B]">Ehrlichia canis VDE (AF373613)</otu>
+  <otu id="otu13">Candidatus Neoehrlichia mikurensis1 TK4456R (ABO84582)</otu>
+  <otu id="otu14">Anaplasma bovis (AB211163)</otu>
+  <otu id="otu15" cmphy:genus="Neorickettsia" cmphy:species="sennetsu" cmphy:strain="11908" cmphy:id="M73225" editRecord="[]">Neorickettsia sennetsu 11908 (M73225)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[1__I]" cmphy:genus="Rickettsia" cmphy:species="rickettsii" cmphy:strain="1989001" cmphy:id="DQI50682" editRecord="[1__I]">Rickettsia rickettsii 1989001 (DQ150682)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="30.0" y="445.0"/>
+   <node id="NT1.2" x="245.0" y="305.0" label="100"/>
+   <node id="NT1.3" label="NT1.3" x="312.0" y="183.0"/>
+   <node id="NT1.4" label="NT1.4" x="366.0" y="424.0"/>
+   <node id="NT1.5" label="NT1.5" x="391.0" y="376.0"/>
+   <node id="NT1.6" x="413.0" y="347.0" label="89"/>
+   <node id="NT1.7" x="415.0" y="130.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="416.0" y="474.0"/>
+   <node id="NT1.9" label="NT1.9" x="428.0" y="235.0"/>
+   <node id="NT1.10" label="NT1.10" x="431.0" y="92.0"/>
+   <node id="NT1.11" label="NT1.11" x="431.0" y="504.0"/>
+   <node id="NT1.12" label="NT1.12" x="434.0" y="326.0" otu="otu1"/>
+   <node id="NT1.13" label="NT1.13" x="441.0" y="486.0" otu="otu2"/>
+   <node id="NT1.14" x="445.0" y="58.0" label="65"/>
+   <node id="NT1.15" label="NT1.15" x="448.0" y="366.0" otu="otu3"/>
+   <node id="NT1.16" x="449.0" y="46.0" label="65"/>
+   <node id="NT1.17" x="456.0" y="265.0" label="99"/>
+   <node id="NT1.18" label="NT1.18" x="459.0" y="206.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="460.0" y="525.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="465.0" y="246.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="470.0" y="445.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="472.0" y="7.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="472.0" y="87.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="472.0" y="126.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="472.0" y="167.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="484.0" y="47.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="485.0" y="286.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="503.0" y="405.0" otu="otu14"/>
+   <node id="NT1.29" x="550.0" y="584.0" label="100"/>
+   <node id="NT1.30" label="NT1.30" x="565.0" y="605.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="574.0" y="564.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="574.0" y="644.0" otu="otu17"/>
+   <edge source="NT1.26" target="NT1.16" id="e.0"/>
+   <edge source="NT1.25" target="NT1.7" id="e.1"/>
+   <edge source="NT1.12" target="NT1.6" id="e.2"/>
+   <edge source="NT1.15" target="NT1.6" id="e.3"/>
+   <edge source="NT1.21" target="NT1.8" id="e.4"/>
+   <edge source="NT1.28" target="NT1.5" id="e.5"/>
+   <edge source="NT1.31" target="NT1.29" id="e.6"/>
+   <edge source="NT1.16" target="NT1.14" id="e.7"/>
+   <edge source="NT1.14" target="NT1.10" id="e.8"/>
+   <edge source="NT1.10" target="NT1.7" id="e.9"/>
+   <edge source="NT1.7" target="NT1.3" id="e.10"/>
+   <edge source="NT1.3" target="NT1.2" id="e.11"/>
+   <edge source="NT1.3" target="NT1.9" id="e.12"/>
+   <edge source="NT1.9" target="NT1.17" id="e.13"/>
+   <edge source="NT1.2" target="NT1.1" id="e.14"/>
+   <edge source="NT1.2" target="NT1.4" id="e.15"/>
+   <edge source="NT1.4" target="NT1.8" id="e.16"/>
+   <edge source="NT1.4" target="NT1.5" id="e.17"/>
+   <edge source="NT1.5" target="NT1.6" id="e.18"/>
+   <edge source="NT1.8" target="NT1.11" id="e.19"/>
+   <edge source="NT1.1" target="NT1.29" id="e.20"/>
+   <edge source="NT1.32" target="NT1.1" id="e.21"/>
+   <edge source="NT1.13" target="NT1.11" id="e.22"/>
+   <edge source="NT1.18" target="NT1.9" id="e.23"/>
+   <edge source="NT1.19" target="NT1.11" id="e.24"/>
+   <edge source="NT1.24" target="NT1.10" id="e.25"/>
+   <edge source="NT1.23" target="NT1.14" id="e.26"/>
+   <edge source="NT1.22" target="NT1.16" id="e.27"/>
+   <edge source="NT1.20" target="NT1.17" id="e.28"/>
+   <edge source="NT1.27" target="NT1.17" id="e.29"/>
+   <edge source="NT1.30" target="NT1.29" id="e.30"/>
+  </tree>
+ </trees>
+</nexml>

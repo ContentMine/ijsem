@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log date="2015-08-28T08:52:50.281+01:00">
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.ensureOutputDirectory" message="PhyloTree output to: target/junk/1440748370281; suggest you setOutputDir()" millis="0"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX []" millis="3021"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX []" millis="3022"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX []" millis="3022"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: Not a tip (has childNodes 1): NT1.1[NT1.2 ]" millis="3022"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="deleted node NT1.4" millis="3022"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="deleted node NT1.6" millis="3022"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.createTree" message="Analyzed pixels for tree successfully" millis="3037"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNexml" message="wrote NEXML: ../ijsem/500A/ijs.0.65363-0-000.pbm/results/phylotree/001.nexml.xml" millis="3038"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNewick" message="wrote Newick: ../ijsem/500A/ijs.0.65363-0-000.pbm/results/phylotree/001.nwk" millis="3041"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputHocrSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65363-0-000.pbm/results/phylotree/001.hocr.svg" millis="3046"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65363-0-000.pbm/results/phylotree/001.svg" millis="3051"/>
+</log>

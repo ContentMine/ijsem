@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Spongiispira" cmphy:species="norvegica" cmphy:strain="Gp_4_7.1T" cmphy:id="AMI17931" editRecord="[1__I]">Spongiispira norvegica Gp_4_7.1T (AM117931)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Uncultured" cmphy:species="gammaproteobacterium" cmphy:strain="clone Arctic95B-13" cmphy:id="AFB53237" editRecord="[3__B]">Uncultured gammaproteobacterium clone Arctic95B-13 (AF353237)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Uncultured" cmphy:species="gammaproteobacterium" cmphy:strain="clone Arctic95B-7" cmphy:id="AFB53238" editRecord="[3__B]">Uncultured gammaproteobacterium clone Arctic95B-7 (AF353238)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Oleispira" cmphy:species="antarctica" cmphy:strain="RB-9" cmphy:id="AJ426421" editRecord="[]"> Oleispira antarctica RB-9 (AJ426421)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"> Oleispira sp. ice-oil-381 (DQ521390)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">Uncultured Oleispira sp. clone F3C18 (AY697896)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="455.0" otu="otu1" root="true"/>
+   <node id="NT1.3" x="273.0" y="315.0" label="100"/>
+   <node id="NT1.9" label="NT1.9" x="485.0" y="437.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="515.0" y="210.0"/>
+   <node id="NT1.12" label="NT1.12" x="572.0" y="279.0"/>
+   <node id="NT1.14" label="NT1.14" x="577.0" y="297.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="580.0" y="227.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="602.0" y="19.0" otu="otu9"/>
+   <edge id="e.0" target="NT1.21" source="NT1.10"/>
+   <edge id="e.6" source="NT1.12" target="NT1.14"/>
+   <edge id="e.8" target="NT1.15" source="NT1.12"/>
+   <edge id="e.9" target="NT1.9" source="NT1.3"/>
+   <edge id="e.20" source="NT1.3" target="NT1.10"/>
+   <edge id="e.21" source="NT1.10" target="NT1.12"/>
+   <edge id="e.23" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

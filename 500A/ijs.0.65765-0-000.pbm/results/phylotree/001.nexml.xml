@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">P. chloroethenivorans SL-17 (AF454510)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">P. hydrocarbonoxydans IMSNU 2214OT (AJ252826)</otu>
+  <otu id="otu5">P. yunnanensis IMSNU 22o19T (AJ252822)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">P. thermophila IMSNU 201127 (AJ252830)</otu>
+  <otu id="otu8">P. saturnea IMSNU 200527 (AJ252829)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">P. halophobica IMSNU 213277 (AJ252827)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">P. petroleophila IMSNU 220727 (AJ252828)</otu>
+  <otu id="otu13">P. zijingensis 6330T (AF325725)</otu>
+  <otu id="otu14">Strain Y8T(EF114314)</otu>
+  <otu id="otu15">P. alni IMSNU 2oo49T (AJ252823)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">1P. oallicarpae1YlM 56051 (EU200680)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">P. spinosispora LM 1417 (AJ249206)</otu>
+  <otu id="otu20">1P. endophyticd YIM 56035 (DQ887489)</otu>
+  <otu id="otu21"> P. kongjuensis LM 157T (AJ252833)</otu>
+  <otu id="otu22">P. asaccharolytica DSM 442477 (Y08536)</otu>
+  <otu id="otu23">P. autotrophica IMSNU 200507 (AJ252824)</otu>
+  <otu id="otu24"/>
+  <otu id="otu25" cmphy:genus="Nocardia" cmphy:species="vaccinii" cmphy:strain="DSM 43285T" cmphy:id="AF430045" editRecord="[]">Nocardia vaccinii DSM 43285T (AF430045)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.48" label="NT1.48" x="673.0" y="975.0" otu="otu25"/>
+   <node id="NT1.49" label="NT1.49" x="7.0" y="903.0" root="true"/>
+   <edge id="e.45" source="NT1.49" target="NT1.48"/>
+  </tree>
+ </trees>
+</nexml>

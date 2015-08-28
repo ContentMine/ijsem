@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log date="2015-08-28T09:15:35.157+01:00">
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.ensureOutputDirectory" message="PhyloTree output to: target/junk/1440749735157; suggest you setOutputDir()" millis="0"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.processOtu" message="ERR_BAD_SYNTAX [ Halostagnicola Iarsenii XH-487 (AM1 17571)]" millis="3892"/>
+ <error method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.pruneBadTips" message="cannot delete tip java.lang.RuntimeException: NULL parent node for: otu12; not deleted" millis="3893"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.createTree" message="Analyzed pixels for tree successfully" millis="3907"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNexml" message="wrote NEXML: ../ijsem/500A/ijs.0.65644-0-001.pbm/results/phylotree/001.nexml.xml" millis="3908"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputNewick" message="wrote Newick: ../ijsem/500A/ijs.0.65644-0-001.pbm/results/phylotree/001.nwk" millis="3910"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputHocrSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65644-0-001.pbm/results/phylotree/001.hocr.svg" millis="3915"/>
+ <info method="org.xmlcml.ami2.plugins.phylotree.PhyloTreeArgProcessor.outputSvg" message="wrote HOCSVG: ../ijsem/500A/ijs.0.65644-0-001.pbm/results/phylotree/001.svg" millis="3920"/>
+</log>

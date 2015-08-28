@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Kordia" cmphy:species="algicida" cmphy:strain="OT-1T" cmphy:id="AYI95836" editRecord="[1__I]">Kordia algicida OT-1T (AY195836)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Fulvibacter" cmphy:species="tottoriensis" cmphy:strain="MTT-397" cmphy:id="ABZ94107" editRecord="[2__Z]"> Fulvibacter tottoriensis MTT-397 (AB294107)</otu>
+  <otu id="otu4">Lutibacter Iitoralis CL-TFO9T (AY962293)</otu>
+  <otu id="otu5" cmphy:genus="Tenacibaculum" cmphy:species="maritimum" cmphy:strain="ATCC 43398T" cmphy:id="M64629" editRecord="[]">Tenacibaculum maritimum ATCC 43398T (M64629)</otu>
+  <otu id="otu6" cmphy:genus="Polaribacter" cmphy:species="mamentus" cmphy:strain="215T" cmphy:id="U73726" editRecord="[]">Polaribacter mamentus 215T (U73726)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="339.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="66.0" y="339.0"/>
+   <node id="NT1.3" label="NT1.3" x="118.0" y="242.0"/>
+   <node id="NT1.5" label="NT1.5" x="320.0" y="436.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="369.0" y="332.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="389.0" y="73.0"/>
+   <node id="NT1.9" label="NT1.9" x="549.0" y="125.0" otu="otu5"/>
+   <node id="NT1.10" label="NT1.10" x="634.0" y="20.0" otu="otu6"/>
+   <edge id="e.0" source="NT1.7" target="NT1.9"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.3" target="NT1.6"/>
+   <edge id="e.4" source="NT1.2" target="NT1.5"/>
+   <edge id="e.5" target="NT1.7" source="NT1.3"/>
+   <edge id="e.7" source="NT1.2" target="NT1.3"/>
+   <edge id="e.8" source="NT1.7" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

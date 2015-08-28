@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Paraliobacillus" cmphy:species="ryukyuensis" cmphy:strain="DSM 1514OT" cmphy:id="ABO87828" editRecord="[0__O]">Paraliobacillus ryukyuensis DSM 1514OT (AB087828)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Gracilibacillus" cmphy:species="boraciitolerans" cmphy:strain="DSM 172567" cmphy:id="ABI97126" editRecord="[1__I]">Gracilibacillus boraciitolerans DSM 172567 (AB197126)</otu>
+  <otu id="otu4">Strain H-5T (EF554593)</otu>
+  <otu id="otu5">Gracilibacillus dipsosauri DSM 1 1 125T (AB101591 )</otu>
+  <otu id="otu6" cmphy:genus="Gracilibacillus" cmphy:species="halotolerans" cmphy:strain="DSM 118O5T" cmphy:id="AFO36922" editRecord="[]">Gracilibacillus halotolerans DSM 118O5T (AFO36922)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="337.0" otu="otu1" root="true"/>
+   <node id="NT1.3" x="174.0" y="139.0" label="58"/>
+   <node id="NT1.4" x="267.0" y="89.0" label="77"/>
+   <node id="NT1.6" label="NT1.6" x="479.0" y="189.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="568.0" y="131.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="730.0" y="17.0" otu="otu6"/>
+   <edge id="e.1" target="NT1.10" source="NT1.4"/>
+   <edge id="e.2" source="NT1.4" target="NT1.7"/>
+   <edge id="e.3" source="NT1.3" target="NT1.6"/>
+   <edge id="e.7" source="NT1.3" target="NT1.4"/>
+   <edge id="e.8" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

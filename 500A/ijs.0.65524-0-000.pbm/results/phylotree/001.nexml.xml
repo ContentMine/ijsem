@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">De-sulfovibrio carbinolicus DSM 3852T(AY626035)</otu>
+  <otu id="otu3" cmphy:genus="Desulfovibrio" cmphy:species="sulfodismutans" cmphy:strain="ThAc01T" cmphy:id="Y17764" editRecord="[]">Desulfovibrio sulfodismutans ThAc01T (Y17764)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Desulfovibrio" cmphy:species="buminensis" cmphy:strain="HDVT" cmphy:id="AFO53752" editRecord="[0__O]">Desulfovibrio buminensis HDVT (AF053752)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Desulfovibrio" cmphy:species="carbinoliphilus" cmphy:strain="D41 T" cmphy:id="DQI86200" editRecord="[1__I]">Desulfovibrio carbinoliphilus D41 T (DQ186200)</otu>
+  <otu id="otu6">Desulfovibrio alcoholivorans DSM 5433T(AF053751)</otu>
+  <otu id="otu7">Desulfovibrio putealis DSM 16O56T(AY574979)</otu>
+  <otu id="otu8" cmphy:genus="Desulfovibrio" cmphy:species="africanus" cmphy:strain="DSM 2603T" cmphy:id="X99236" editRecord="[]">Desulfovibrio africanus DSM 2603T (X99236)</otu>
+  <otu id="otu9">Desulfovibrio Iongus DSM 6739T (AY359867)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Desulfovibrio" cmphy:species="fructosivorans" cmphy:strain="DSM 36047" cmphy:id="AFO50101" editRecord="[0__O]">Desulfovibrio fructosivorans DSM 36047 (AF050101)</otu>
+  <otu id="otu11">De-sulfovibrio vulgaris DSM 644T (AF418179)</otu>
+  <otu id="otu12">Desulfovibrio halophilus</otu>
+  <otu id="otu13" cmphy:genus="Desulfovibrio" cmphy:species="termitidis" cmphy:strain="HI 17" cmphy:id="X87409" editRecord="[]">Desulfovibrio termitidis HI 17 (X87409)</otu>
+  <otu id="otu14">Desulfovibrio desulfuricans subsp. desulfulicans ATCC 27774 (AF192154)</otu>
+  <otu id="otu15" cmphy:genus="Desulfomicrobium" cmphy:species="norvegicum" cmphy:strain="NCIB 8310T" cmphy:id="M37312" editRecord="[]">Desulfomicrobium norvegicum NCIB 8310T (M37312)</otu>
+  <otu id="otu16" cmphy:genus="Desulfovibrio" cmphy:species="salexigens" cmphy:strain="ATCC 14822T" cmphy:id="M34401" editRecord="[]">Desulfovibrio salexigens ATCC 14822T (M34401)</otu>
+  <otu id="otu17" cmphy:genus="Desulfuromonas" cmphy:species="acetoxidans" cmphy:strain="DSM 6847" cmphy:id="M26634" editRecord="[]">Desulfuromonas acetoxidans DSM 6847 (M26634)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="109.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="5.0" y="109.0"/>
+   <node id="NT1.3" label="NT1.3" x="46.0" y="293.0"/>
+   <node id="NT1.4" label="NT1.4" x="74.0" y="453.0"/>
+   <node id="NT1.5" label="NT1.5" x="86.0" y="549.0"/>
+   <node id="NT1.7" label="NT1.7" x="93.0" y="626.0"/>
+   <node id="NT1.8" label="NT1.8" x="145.0" y="158.0"/>
+   <node id="NT1.13" label="NT1.13" x="244.0" y="223.0"/>
+   <node id="NT1.17" label="NT1.17" x="322.0" y="108.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="324.0" y="338.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="327.0" y="200.0" otu="otu5"/>
+   <node id="NT1.22" label="NT1.22" x="357.0" y="588.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="377.0" y="246.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="401.0" y="542.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="421.0" y="383.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="456.0" y="726.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="544.0" y="17.0" otu="otu17"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.2" target="NT1.3"/>
+   <edge id="e.2" source="NT1.3" target="NT1.4"/>
+   <edge id="e.4" source="NT1.4" target="NT1.5"/>
+   <edge id="e.5" target="NT1.8" source="NT1.3"/>
+   <edge id="e.6" source="NT1.5" target="NT1.7"/>
+   <edge id="e.12" target="NT1.13" source="NT1.8"/>
+   <edge id="e.15" source="NT1.7" target="NT1.22"/>
+   <edge id="e.16" source="NT1.4" target="NT1.29"/>
+   <edge id="e.17" source="NT1.8" target="NT1.17"/>
+   <edge id="e.22" source="NT1.2" target="NT1.31"/>
+   <edge id="e.23" source="NT1.13" target="NT1.19"/>
+   <edge id="e.24" target="NT1.30" source="NT1.7"/>
+   <edge id="e.25" source="NT1.13" target="NT1.24"/>
+   <edge id="e.27" target="NT1.18" source="NT1.13"/>
+   <edge id="e.29" target="NT1.27" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

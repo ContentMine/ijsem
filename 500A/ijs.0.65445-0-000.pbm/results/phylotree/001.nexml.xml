@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">P. mendelii LMG 230027 (AF537343)</otu>
+  <otu id="otu2">P. agarexedens DSM 1327T (AJ345020)</otu>
+  <otu id="otu3">P. agaridevorans DSM 1355T (AJ345023)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">P. kobensis DSM 1o249T (AB073363)</otu>
+  <otu id="otu6">Strain SA-7-67 (EF125184)</otu>
+  <otu id="otu7">P. glycanilyticus JCM 1 12217 (AB042938)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">P. terrae KCCM 41557T (AF391124)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">P. xylanilyticus LMG 21957T (AY427832)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">P. ginsengarvi Gsoil 139T (AB271057)</otu>
+  <otu id="otu17">P. amylolyticus NRRL NRS-290T (D85396)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">P. larvae DSM 3615 (AY530295)</otu>
+  <otu id="otu20">P. fonticola ZLT (DQ453131)</otu>
+  <otu id="otu21">P. apiarius DSM 55817 (AJ320492)</otu>
+  <otu id="otu22">P. naphthalenovorans PR-N1T (AF353681)</otu>
+  <otu id="otu23" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="NCDO 17697" cmphy:id="X60646" editRecord="[]">Bacillus subtilis NCDO 17697 (X60646)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.43" label="NT1.43" x="1495.0" y="1292.0" otu="otu23"/>
+   <node id="NT1.44" label="NT1.44" x="5.0" y="1041.0" root="true"/>
+   <edge id="e.34" source="NT1.44" target="NT1.43"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Kribbella" cmphy:species="flavida" cmphy:strain="KACC 202487" cmphy:id="AYZ53863" editRecord="[2__Z]"> Kribbella flavida KACC 202487 (AY253863)</otu>
+  <otu id="otu4" cmphy:genus="Kribbella" cmphy:species="karoonensis" cmphy:strain="Q41T" cmphy:id="AY995146" editRecord="[]">Kribbella karoonensis Q41T (AY995146)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Kribbella" cmphy:species="alba" cmphy:strain="YIM 310757" cmphy:id="AYO82062" editRecord="[0__O]">Kribbella alba YIM 310757 (AY082062)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Kribbella" cmphy:species="yunnanensis" cmphy:strain="YIM 300067" cmphy:id="AYO82061" editRecord="[]"> Kribbella yunnanensis YIM 300067 (AYO82061)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Kribbella" cmphy:species="solani" cmphy:strain="DSA1T" cmphy:id="AYZ53862" editRecord="[2__Z]"> Kribbella solani DSA1T (AY253862)</otu>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Kribbella" cmphy:species="lupini" cmphy:strain="LU14T" cmphy:id="AJB11962" editRecord="[8__B]">Kribbella lupini LU14T (AJ811962)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Kribbella" cmphy:species="koreensis" cmphy:strain="LM 1617" cmphy:id="Y09159" editRecord="[]">Kribbella koreensis LM 1617 (Y09159)</otu>
+  <otu id="otu12" cmphy:genus="Kribbella" cmphy:species="antibiotica" cmphy:strain="YIM 315307" cmphy:id="AYO82063" editRecord="[]">Kribbella antibiotica YIM 315307 (AYO82063)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Kribbella" cmphy:species="jejuensis" cmphy:strain="HD9T" cmphy:id="AYZ53866" editRecord="[2__Z]">Kribbella jejuensis HD9T (AY253866)</otu>
+  <otu id="otu14" cmphy:genus="Aeromicrobium" cmphy:species="erythreum" cmphy:strain="NRRL B-33817" cmphy:id="M37200" editRecord="[]">Aeromicrobium erythreum NRRL B-33817 (M37200)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Actinopolymorpha" cmphy:species="singaporensis" cmphy:strain="IM7744T" cmphy:id="AFZ37815" editRecord="[2__Z]">Actinopolymorpha singaporensis IM7744T (AF237815)</otu>
+  <otu id="otu16" cmphy:genus="Nocardioides" cmphy:species="albus" cmphy:strain="KCTC 91867" cmphy:id="AFO04988" editRecord="[]">Nocardioides albus KCTC 91867 (AFO04988)</otu>
+  <otu id="otu17" cmphy:genus="Streptosporangium" cmphy:species="roseum" cmphy:strain="DSM 43O21T" cmphy:id="X89947" editRecord="[]">Streptosporangium roseum DSM 43O21T (X89947)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="10.0" y="618.0"/>
+   <node id="NT1.2" label="NT1.2" x="88.0" y="507.0"/>
+   <node id="NT1.3" label="NT1.3" x="173.0" y="424.0"/>
+   <node id="NT1.4" label="NT1.4" x="443.0" y="299.0"/>
+   <node id="NT1.5" label="NT1.5" x="459.0" y="188.0"/>
+   <node id="NT1.6" label="NT1.6" x="462.0" y="126.0"/>
+   <node id="NT1.7" label="NT1.7" x="469.0" y="249.0"/>
+   <node id="NT1.8" label="NT1.8" x="474.0" y="74.0"/>
+   <node id="NT1.9" x="475.0" y="280.0" label="28"/>
+   <node id="NT1.10" label="NT1.10" x="476.0" y="410.0"/>
+   <node id="NT1.11" label="NT1.11" x="488.0" y="115.0"/>
+   <node id="NT1.18" label="NT1.18" x="518.0" y="219.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="530.0" y="177.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="535.0" y="302.0" otu="otu5"/>
+   <node id="NT1.22" label="NT1.22" x="555.0" y="53.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="556.0" y="383.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="566.0" y="260.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="582.0" y="136.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="583.0" y="94.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="604.0" y="508.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="615.0" y="549.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="644.0" y="591.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="711.0" y="632.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="711.0" y="673.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="9.0" y="653.0" root="true"/>
+   <edge id="e.1" target="NT1.22" source="NT1.8"/>
+   <edge id="e.2" source="NT1.11" target="NT1.26"/>
+   <edge id="e.3" source="NT1.11" target="NT1.27"/>
+   <edge id="e.4" source="NT1.7" target="NT1.18"/>
+   <edge id="e.5" source="NT1.9" target="NT1.20"/>
+   <edge id="e.6" source="NT1.9" target="NT1.24"/>
+   <edge id="e.8" target="NT1.23" source="NT1.10"/>
+   <edge id="e.11" target="NT1.28" source="NT1.10"/>
+   <edge id="e.12" source="NT1.2" target="NT1.30"/>
+   <edge id="e.13" source="NT1.1" target="NT1.31"/>
+   <edge id="e.15" source="NT1.6" target="NT1.8"/>
+   <edge id="e.16" source="NT1.8" target="NT1.11"/>
+   <edge id="e.17" source="NT1.5" target="NT1.6"/>
+   <edge id="e.18" source="NT1.4" target="NT1.5"/>
+   <edge id="e.19" source="NT1.5" target="NT1.7"/>
+   <edge id="e.20" source="NT1.7" target="NT1.9"/>
+   <edge id="e.21" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" source="NT1.4" target="NT1.10"/>
+   <edge id="e.25" source="NT1.2" target="NT1.3"/>
+   <edge id="e.26" source="NT1.1" target="NT1.2"/>
+   <edge id="e.27" source="NT1.33" target="NT1.32"/>
+   <edge id="e.28" source="NT1.33" target="NT1.1"/>
+   <edge id="e.29" source="NT1.3" target="NT1.29"/>
+   <edge id="e.30" source="NT1.6" target="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

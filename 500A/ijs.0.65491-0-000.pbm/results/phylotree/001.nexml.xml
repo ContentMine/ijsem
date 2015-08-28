@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Chryseobacterium" cmphy:species="formosense" cmphy:strain="CC-H3-27" cmphy:id="AJ715377" editRecord="[]">Chryseobacterium formosense CC-H3-27 (AJ715377)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13">C. scophthalmum LMG 130287 (AJ271009)</otu>
+  <otu id="otu14">C. indoltheticum LMG 4025T (AY468448)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">C. indologenes ATCC 29897 (M58773)</otu>
+  <otu id="otu17">C. aquaticum 10-46T (AM748690)</otu>
+  <otu id="otu18">C. aquaticum 10-106 (AM748691)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">Chryseobacterium hispanicum VP48T (AM 1 591 83)</otu>
+  <otu id="otu21">C. balustinum ATCC 33487 (M58771)</otu>
+  <otu id="otu22">C. piscium LMG 23o89T (AM040439)</otu>
+  <otu id="otu23">C. soldanellicola PSD1-4T (AY883415)</otu>
+  <otu id="otu24">C. joostei LMG 182127 (AJ271010)</otu>
+  <otu id="otu25">C. caeni N4T (DQ336714)</otu>
+  <otu id="otu26" cmphy:edit="[5__S]" cmphy:genus="Cloacibacterium" cmphy:species="normanense" cmphy:strain="CCUG 462937" cmphy:id="AJS75430" editRecord="[5__S]">Cloacibacterium normanense CCUG 462937 (AJ575430)</otu>
+  <otu id="otu27" cmphy:edit="[5__S]" cmphy:genus="Sejongia" cmphy:species="antarctica" cmphy:strain="AT1013T" cmphy:id="AYS53293" editRecord="[5__S]">Sejongia antarctica AT1013T (AY553293)</otu>
+  <otu id="otu28">C. vrystaatense R-23566T (AJ871397)</otu>
+  <otu id="otu29" cmphy:genus="Riemerella" cmphy:species="anatipestifer" cmphy:strain="ATCC 118457" cmphy:id="U60101" editRecord="[]">Riemerella anatipestifer ATCC 118457 (U60101)</otu>
+  <otu id="otu30" cmphy:edit="[3__B]" cmphy:genus="Kaistella" cmphy:species="koreensis" cmphy:strain="Chj7O7T" cmphy:id="AFB44179" editRecord="[3__B]">Kaistella koreensis Chj7O7T (AF344179)</otu>
+  <otu id="otu31" cmphy:genus="Bergeyella" cmphy:species="zoohelcum" cmphy:strain="ATCC 43767T" cmphy:id="M93153" editRecord="[]">Bergeyella zoohelcum ATCC 43767T (M93153)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="1067.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="54.0" y="967.0"/>
+   <node id="NT1.4" label="NT1.4" x="109.0" y="846.0"/>
+   <node id="NT1.6" label="NT1.6" x="126.0" y="1089.0"/>
+   <node id="NT1.19" x="314.0" y="904.0" label="99"/>
+   <node id="NT1.22" label="NT1.22" x="334.0" y="1071.0" otu="otu9"/>
+   <node id="NT1.26" x="393.0" y="933.0" label="88"/>
+   <node id="NT1.47" label="NT1.47" x="670.0" y="876.0" otu="otu26"/>
+   <node id="NT1.48" label="NT1.48" x="672.0" y="1111.0" otu="otu27"/>
+   <node id="NT1.50" label="NT1.50" x="729.0" y="954.0" otu="otu29"/>
+   <node id="NT1.51" label="NT1.51" x="834.0" y="1032.0" otu="otu30"/>
+   <node id="NT1.52" label="NT1.52" x="866.0" y="915.0" otu="otu31"/>
+   <edge id="e.17" source="NT1.26" target="NT1.50"/>
+   <edge id="e.18" target="NT1.52" source="NT1.26"/>
+   <edge id="e.19" target="NT1.51" source="NT1.4"/>
+   <edge id="e.20" source="NT1.6" target="NT1.48"/>
+   <edge id="e.34" target="NT1.19" source="NT1.4"/>
+   <edge id="e.36" source="NT1.2" target="NT1.4"/>
+   <edge id="e.38" source="NT1.2" target="NT1.6"/>
+   <edge id="e.39" source="NT1.19" target="NT1.26"/>
+   <edge id="e.41" source="NT1.1" target="NT1.2"/>
+   <edge id="e.42" source="NT1.6" target="NT1.22"/>
+   <edge id="e.49" source="NT1.19" target="NT1.47"/>
+  </tree>
+ </trees>
+</nexml>

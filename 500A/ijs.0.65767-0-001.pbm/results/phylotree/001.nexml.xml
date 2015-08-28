@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Oceanospirillum" cmphy:species="beijerinckii" cmphy:strain="IFO 15445T" cmphy:id="ABO06760" editRecord="[]">Oceanospirillum beijerinckii IFO 15445T (ABO06760)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Oceanospirillum" cmphy:species="multiglobuliferum" cmphy:strain="IFO 136147" cmphy:id="ABO06764" editRecord="[0__O]">Oceanospirillum multiglobuliferum IFO 136147 (AB006764)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Oceanospirillum" cmphy:species="maris" cmphy:strain="IFO 15468T" cmphy:id="ABO06763" editRecord="[O__0]">Oceanospirillum maris IFO 15468T (ABOO6763)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Neptuniibacter" cmphy:species="caesariensis" cmphy:strain="MED92T" cmphy:id="AYI36116" editRecord="[1__I]"> Neptuniibacter caesariensis MED92T (AY136116)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Oceaniserpentilla" cmphy:species="haliotis" cmphy:strain="DSM 195037" cmphy:id="AM747817" editRecord="[]"> Oceaniserpentilla haliotis DSM 195037 (AM747817)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Pseudomonas" cmphy:species="pseudoalcaligenes" cmphy:strain="DSM 5O188T" cmphy:id="Z76675" editRecord="[]">Pseudomonas pseudoalcaligenes DSM 5O188T (Z76675)</otu>
+  <otu id="otu14" cmphy:genus="Oleispira" cmphy:species="antarctica" cmphy:strain="RB-8T" cmphy:id="AJ426420" editRecord="[]">Oleispira antarctica RB-8T (AJ426420)</otu>
+  <otu id="otu15" cmphy:edit="[O__0]" cmphy:genus="Marinospirillum" cmphy:species="megaterium" cmphy:strain="JCM 10129T" cmphy:id="ABO06770" editRecord="[O__0]">Marinospirillum megaterium JCM 10129T (ABOO6770)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="14.0" y="264.0"/>
+   <node id="NT1.4" label="NT1.4" x="45.0" y="445.0"/>
+   <node id="NT1.6" label="NT1.6" x="61.0" y="91.0"/>
+   <node id="NT1.10" x="165.0" y="125.0" label="99"/>
+   <node id="NT1.11" x="173.0" y="329.0" label="100"/>
+   <node id="NT1.13" label="NT1.13" x="229.0" y="357.0"/>
+   <node id="NT1.18" label="NT1.18" x="335.0" y="333.0" otu="otu2"/>
+   <node id="NT1.19" label="NT1.19" x="346.0" y="301.0" otu="otu3"/>
+   <node id="NT1.21" label="NT1.21" x="353.0" y="398.0" otu="otu5"/>
+   <node id="NT1.22" label="NT1.22" x="384.0" y="78.0" otu="otu6"/>
+   <node id="NT1.24" label="NT1.24" x="420.0" y="110.0" otu="otu8"/>
+   <node id="NT1.29" label="NT1.29" x="464.0" y="462.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="470.0" y="142.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="490.0" y="429.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="1.0" y="372.0" root="true"/>
+   <edge id="e.2" target="NT1.22" source="NT1.6"/>
+   <edge id="e.3" source="NT1.10" target="NT1.24"/>
+   <edge id="e.5" source="NT1.10" target="NT1.30"/>
+   <edge id="e.8" source="NT1.11" target="NT1.19"/>
+   <edge id="e.9" source="NT1.13" target="NT1.18"/>
+   <edge id="e.11" target="NT1.21" source="NT1.13"/>
+   <edge id="e.15" source="NT1.4" target="NT1.29"/>
+   <edge id="e.16" source="NT1.4" target="NT1.31"/>
+   <edge id="e.20" target="NT1.6" source="NT1.1"/>
+   <edge id="e.21" source="NT1.6" target="NT1.10"/>
+   <edge id="e.26" source="NT1.1" target="NT1.11"/>
+   <edge id="e.27" source="NT1.11" target="NT1.13"/>
+   <edge id="e.29" target="NT1.4" source="NT1.35"/>
+   <edge id="e.32" source="NT1.35" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

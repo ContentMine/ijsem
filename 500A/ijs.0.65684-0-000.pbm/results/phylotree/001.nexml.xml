@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Xanthomonas" cmphy:species="campestris" cmphy:strain="LMG 5687" cmphy:id="X95917" editRecord="[]">Xanthomonas campestris LMG 5687 (X95917)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Luteimonas" cmphy:species="mephitis" cmphy:strain="B1953l27.17" cmphy:id="AJO12228" editRecord="[0__O]">Luteimonas mephitis B1953l27.17 (AJ012228)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="459.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="357.0" y="184.0"/>
+   <node id="NT1.3" label="NT1.3" x="490.0" y="23.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="542.0" y="233.0" otu="otu3"/>
+   <edge id="e.0" source="NT1.2" target="NT1.3"/>
+   <edge id="e.1" source="NT1.2" target="NT1.4"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

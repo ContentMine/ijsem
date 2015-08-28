@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Curtobacterium" cmphy:species="citreum" cmphy:strain="DSM 205287" cmphy:id="X77436" editRecord="[]"> Curtobacterium citreum DSM 205287 (X77436)</otu>
+  <otu id="otu6">Clavibacter michiganensis subsp. michiganensis DSM 463647 (X77435)</otu>
+  <otu id="otu7" cmphy:genus="Microcella" cmphy:species="putealis" cmphy:strain="CV27" cmphy:id="AJ717388" editRecord="[]"> Microcella putealis CV27 (AJ717388)</otu>
+  <otu id="otu8" cmphy:genus="Leifsonia" cmphy:species="aquatica" cmphy:strain="DSM 201467" cmphy:id="X77450" editRecord="[]">Leifsonia aquatica DSM 201467 (X77450)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Subtercola" cmphy:species="boreus" cmphy:strain="DSM 130567" cmphy:id="AFZ24722" editRecord="[2__Z]">Subtercola boreus DSM 130567 (AF224722)</otu>
+  <otu id="otu11" cmphy:genus="Leucobacter" cmphy:species="komagatae" cmphy:strain="JCM 94147" cmphy:id="D45063" editRecord="[]">Leucobacter komagatae JCM 94147 (D45063)</otu>
+  <otu id="otu12" cmphy:genus="Rhodoglobus" cmphy:species="vestalii" cmphy:strain="LV37" cmphy:id="AJ459101" editRecord="[]">Rhodoglobus vestalii LV37 (AJ459101)</otu>
+  <otu id="otu13" cmphy:genus="Cryobacterium" cmphy:species="psychrophilum" cmphy:strain="JCM 14637" cmphy:id="D45058" editRecord="[]"> Cryobacterium psychrophilum JCM 14637 (D45058)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Agromyces" cmphy:species="ramosus" cmphy:strain="DSM 430457" cmphy:id="X77447" editRecord="[]"> Agromyces ramosus DSM 430457 (X77447)</otu>
+  <otu id="otu16"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="59.0" y="771.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="189.0" y="609.0" label="85"/>
+   <node id="NT1.3" x="220.0" y="445.0" label="5"/>
+   <node id="NT1.4" label="NT1.4" x="234.0" y="303.0"/>
+   <node id="NT1.5" label="NT1.5" x="239.0" y="389.0"/>
+   <node id="NT1.8" label="NT1.8" x="273.0" y="215.0"/>
+   <node id="NT1.11" x="316.0" y="296.0" label="23"/>
+   <node id="NT1.12" x="327.0" y="198.0" label="67"/>
+   <node id="NT1.19" label="NT1.19" x="487.0" y="477.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="513.0" y="345.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="533.0" y="313.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="551.0" y="214.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="567.0" y="773.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="581.0" y="182.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="588.0" y="542.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="602.0" y="280.0" otu="otu15"/>
+   <edge id="e.4" target="NT1.24" source="NT1.12"/>
+   <edge id="e.5" target="NT1.26" source="NT1.12"/>
+   <edge id="e.6" source="NT1.11" target="NT1.29"/>
+   <edge id="e.9" source="NT1.5" target="NT1.21"/>
+   <edge id="e.11" target="NT1.19" source="NT1.5"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.13" source="NT1.2" target="NT1.25"/>
+   <edge id="e.16" target="NT1.12" source="NT1.8"/>
+   <edge id="e.17" source="NT1.4" target="NT1.8"/>
+   <edge id="e.18" source="NT1.8" target="NT1.11"/>
+   <edge id="e.21" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" source="NT1.4" target="NT1.5"/>
+   <edge id="e.25" source="NT1.2" target="NT1.3"/>
+   <edge id="e.27" source="NT1.3" target="NT1.27"/>
+   <edge id="e.28" source="NT1.11" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

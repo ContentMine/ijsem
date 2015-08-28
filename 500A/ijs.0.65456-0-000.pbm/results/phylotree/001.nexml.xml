@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[O__0]" cmphy:genus="Bordetella" cmphy:species="pertussis" cmphy:strain="ATCC 97977" cmphy:id="U04950" editRecord="[O__0]">Bordetella pertussis ATCC 97977 (UO4950)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Pigmentiphaga" cmphy:species="kullae" cmphy:strain="K24T" cmphy:id="AFZ82916" editRecord="[2__Z]">Pigmentiphaga kullae K24T (AF282916)</otu>
+  <otu id="otu3">Achromobacter xylosoxidans subsp. xylosoxidans DSM 10346T (Y14908)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Kerstersia" cmphy:species="gyiorurn" cmphy:strain="LMG 59O6T" cmphy:id="AYI31213" editRecord="[1__I]">Kerstersia gyiorurn LMG 59O6T (AY131213)</otu>
+  <otu id="otu5">Alcaligenes faecalis subsp. faecalis ATCC 8750 (M22508)</otu>
+  <otu id="otu6" cmphy:genus="Pelistega" cmphy:species="europaea" cmphy:strain="LMG 10982T" cmphy:id="Y11890" editRecord="[]">Pelistega europaea LMG 10982T (Y11890)</otu>
+  <otu id="otu7" cmphy:genus="Oxalobacter" cmphy:species="formigenes" cmphy:strain="OXBT" cmphy:id="U49757" editRecord="[]">Oxalobacter formigenes OXBT (U49757)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Sutterella" cmphy:species="parvirubra" cmphy:strain="YIT 11816T" cmphy:id="ABB00989" editRecord="[3__B]">Sutterella parvirubra YIT 11816T (AB300989)</otu>
+  <otu id="otu9" cmphy:genus="Taylorella" cmphy:species="equigenitalis" cmphy:strain="NCTC 111847" cmphy:id="X68645" editRecord="[]">Taylorella equigenitalis NCTC 111847 (X68645)</otu>
+  <otu id="otu10" cmphy:genus="Burkholderia" cmphy:species="cepacia" cmphy:strain="ATCC 25416T" cmphy:id="U96927" editRecord="[]">Burkholderia cepacia ATCC 25416T (U96927)</otu>
+  <otu id="otu11" cmphy:genus="Comamonas" cmphy:species="terrigena" cmphy:strain="DSM 7099T" cmphy:id="AJ420326" editRecord="[]">Comamonas terrigena DSM 7099T (AJ420326)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Brackiella" cmphy:species="oedipodis" cmphy:strain="LMG 19451T" cmphy:id="AJZ77742" editRecord="[2__Z]">Brackiella oedipodis LMG 19451T (AJ277742)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Sutterelia" cmphy:species="stercoricanis" cmphy:strain="CCUG 47620T" cmphy:id="AJS66849" editRecord="[5__S]">Sutterelia stercoricanis CCUG 47620T (AJ566849)</otu>
+  <otu id="otu14" cmphy:genus="Sutterella" cmphy:species="wadsworthensis" cmphy:strain="WAL 7877" cmphy:id="L37785" editRecord="[]">Sutterella wadsworthensis WAL 7877 (L37785)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Oligella" cmphy:species="urethralis" cmphy:strain="ATCC 17960" cmphy:id="AFZ27163" editRecord="[2__Z]">Oligella urethralis ATCC 17960 (AF227163)</otu>
+  <otu id="otu16" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 117757" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 117757 (X80725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="62.0"/>
+   <node id="NT1.2" label="NT1.2" x="20.0" y="250.0"/>
+   <node id="NT1.3" label="NT1.3" x="26.0" y="368.0"/>
+   <node id="NT1.4" label="NT1.4" x="38.0" y="134.0"/>
+   <node id="NT1.5" label="NT1.5" x="72.0" y="497.0"/>
+   <node id="NT1.6" label="NT1.6" x="80.0" y="417.0"/>
+   <node id="NT1.7" label="NT1.7" x="84.0" y="578.0"/>
+   <node id="NT1.8" label="NT1.8" x="94.0" y="623.0"/>
+   <node id="NT1.9" label="NT1.9" x="95.0" y="463.0"/>
+   <node id="NT1.10" label="NT1.10" x="106.0" y="665.0"/>
+   <node id="NT1.11" label="NT1.11" x="116.0" y="240.0"/>
+   <node id="NT1.12" label="NT1.12" x="117.0" y="370.0"/>
+   <node id="NT1.13" label="NT1.13" x="127.0" y="700.0"/>
+   <node id="NT1.14" label="NT1.14" x="132.0" y="274.0"/>
+   <node id="NT1.15" label="NT1.15" x="158.0" y="724.0" otu="otu1"/>
+   <node id="NT1.16" label="NT1.16" x="161.0" y="582.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="161.0" y="677.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="165.0" y="630.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="174.0" y="535.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="177.0" y="346.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="178.0" y="109.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="184.0" y="204.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="184.0" y="393.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="185.0" y="157.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="202.0" y="62.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="203.0" y="440.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="204.0" y="299.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="228.0" y="251.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="238.0" y="488.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="459.0" y="14.0" otu="otu16"/>
+   <edge source="NT1.25" target="NT1.1" id="e.0"/>
+   <edge source="NT1.21" target="NT1.4" id="e.1"/>
+   <edge source="NT1.24" target="NT1.4" id="e.2"/>
+   <edge source="NT1.28" target="NT1.14" id="e.3"/>
+   <edge source="NT1.16" target="NT1.8" id="e.4"/>
+   <edge source="NT1.23" target="NT1.12" id="e.5"/>
+   <edge source="NT1.26" target="NT1.9" id="e.6"/>
+   <edge source="NT1.2" target="NT1.3" id="e.7"/>
+   <edge source="NT1.2" target="NT1.4" id="e.8"/>
+   <edge source="NT1.3" target="NT1.5" id="e.9"/>
+   <edge source="NT1.3" target="NT1.11" id="e.10"/>
+   <edge source="NT1.5" target="NT1.7" id="e.11"/>
+   <edge source="NT1.5" target="NT1.6" id="e.12"/>
+   <edge source="NT1.11" target="NT1.14" id="e.13"/>
+   <edge source="NT1.6" target="NT1.9" id="e.14"/>
+   <edge source="NT1.6" target="NT1.12" id="e.15"/>
+   <edge source="NT1.7" target="NT1.8" id="e.16"/>
+   <edge source="NT1.8" target="NT1.10" id="e.17"/>
+   <edge source="NT1.10" target="NT1.13" id="e.18"/>
+   <edge source="NT1.1" target="NT1.2" id="e.19"/>
+   <edge source="NT1.19" target="NT1.7" id="e.20"/>
+   <edge source="NT1.18" target="NT1.10" id="e.21"/>
+   <edge source="NT1.27" target="NT1.14" id="e.22"/>
+   <edge source="NT1.20" target="NT1.12" id="e.23"/>
+   <edge source="NT1.15" target="NT1.13" id="e.24"/>
+   <edge source="NT1.17" target="NT1.13" id="e.25"/>
+   <edge source="NT1.22" target="NT1.11" id="e.26"/>
+   <edge source="NT1.29" target="NT1.9" id="e.27"/>
+   <edge source="NT1.30" target="NT1.1" id="e.28"/>
+  </tree>
+ </trees>
+</nexml>

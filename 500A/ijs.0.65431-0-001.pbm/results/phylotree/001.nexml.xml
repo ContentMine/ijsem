@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Persephonella" cmphy:species="marina" cmphy:strain="EX-H17" cmphy:id="AFI88332" editRecord="[1__I]">Persephonella marina EX-H17 (AF188332)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Hydrogenothermus" cmphy:species="marinus" cmphy:strain="VM1T" cmphy:id="AJZ92525" editRecord="[2__Z]">Hydrogenothermus marinus VM1T (AJ292525)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Sulfurihydrogenibium" cmphy:species="azorense" cmphy:strain="Az-Fu1T" cmphy:id="AFS28192" editRecord="[5__S]">Sulfurihydrogenibium azorense Az-Fu1T (AF528192)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Sulfurihydrogenibium" cmphy:species="subterraneum" cmphy:strain="HGMK-1T" cmphy:id="ABO71324" editRecord="[0__O]">Sulfurihydrogenibium subterraneum HGMK-1T (AB071324)</otu>
+  <otu id="otu6" cmphy:genus="Aquifex" cmphy:species="pyrophilus" cmphy:strain="KoI5AT" cmphy:id="M83548" editRecord="[]">Aquifex pyrophilus KoI5AT (M83548)</otu>
+  <otu id="otu7">Sulfurihydrogenibium rodmanii UZ1 -1 C1</otu>
+  <otu id="otu8">Kamchatka hot-spring clone GV2-1A1O (AM690758)</otu>
+  <otu id="otu9">Kamchatka hot-spring clone pKB (AF453506)</otu>
+  <otu id="otu10" cmphy:genus="Sulfurihydrogenibium" cmphy:species="yellowstonense" cmphy:strain="SS-5T" cmphy:id="AY686713" editRecord="[]">Sulfurihydrogenibium yellowstonense SS-5T (AY686713)</otu>
+  <otu id="otu11" cmphy:genus="Hydrogenobaculum" cmphy:species="acidophilum" cmphy:strain="3H-1T" cmphy:id="D16296" editRecord="[]">Hydrogenobaculum acidophilum 3H-1T (D16296)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="23.0" y="486.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="102.0" y="486.0"/>
+   <node id="NT1.3" label="NT1.3" x="234.0" y="573.0"/>
+   <node id="NT1.4" label="NT1.4" x="305.0" y="392.0"/>
+   <node id="NT1.5" label="NT1.5" x="343.0" y="441.0"/>
+   <node id="NT1.6" label="NT1.6" x="410.0" y="462.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="427.0" y="325.0"/>
+   <node id="NT1.9" label="NT1.9" x="458.0" y="289.0"/>
+   <node id="NT1.10" label="NT1.10" x="461.0" y="415.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="471.0" y="276.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="501.0" y="324.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="501.0" y="533.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="515.0" y="361.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="671.0" y="594.0" otu="otu11"/>
+   <edge id="e.1" source="NT1.9" target="NT1.11"/>
+   <edge id="e.2" source="NT1.9" target="NT1.13"/>
+   <edge id="e.3" source="NT1.7" target="NT1.19"/>
+   <edge id="e.4" source="NT1.5" target="NT1.6"/>
+   <edge id="e.5" source="NT1.5" target="NT1.10"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.3" target="NT1.20"/>
+   <edge id="e.11" target="NT1.9" source="NT1.7"/>
+   <edge id="e.12" source="NT1.4" target="NT1.7"/>
+   <edge id="e.13" source="NT1.2" target="NT1.4"/>
+   <edge id="e.14" source="NT1.4" target="NT1.5"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" source="NT1.3" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

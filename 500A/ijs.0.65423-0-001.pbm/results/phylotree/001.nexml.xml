@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Photobacterium" cmphy:species="phosphoreum" cmphy:strain="NCIMB 13479" cmphy:id="AJ746358" editRecord="[]">Photobacterium phosphoreum NCIMB 13479 (AJ746358)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Pseudoalteromonas" cmphy:species="haloplanktis" cmphy:strain="ATCC 143937" cmphy:id="X67024" editRecord="[]">Pseudoalteromonas haloplanktis ATCC 143937 (X67024)</otu>
+  <otu id="otu9">Vibrio Vulnificus ATCC 27562T (X56582)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Salinivibrio costicola subsp. costicola NCIMB 701T (X95527)</otu>
+  <otu id="otu12" cmphy:genus="Grimontia" cmphy:species="hollisae" cmphy:strain="ATCC 335e4T" cmphy:id="X56583" editRecord="[]">Grimontia hollisae ATCC 335e4T (X56583)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="431.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="165.0" y="363.0"/>
+   <node id="NT1.5" x="381.0" y="150.0" label="65"/>
+   <node id="NT1.8" label="NT1.8" x="587.0" y="192.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="681.0" y="457.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="736.0" y="147.0" otu="otu12"/>
+   <edge id="e.3" source="NT1.5" target="NT1.8"/>
+   <edge id="e.4" target="NT1.22" source="NT1.5"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" source="NT1.2" target="NT1.17"/>
+   <edge id="e.15" target="NT1.5" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

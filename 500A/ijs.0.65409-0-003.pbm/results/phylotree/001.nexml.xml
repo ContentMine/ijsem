@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Iron Mountain clone BA84 (AF225451)</otu>
+  <otu id="otu3">Coal spoil drainage clone RCP1-77 (AF523906)</otu>
+  <otu id="otu4">Ferrimicrobium acidiphilum T237 (A F251436)</otu>
+  <otu id="otu5">Iron-oxidizing acidophile C811 (AY765999)</otu>
+  <otu id="otu6">Iron Mountain clone TRA2a1O (AFO47642)</otu>
+  <otu id="otu7">Ferrithrix thermotolerans YOO5T (AY 1 402 37)</otu>
+  <otu id="otu8">Iron Mountain clone BA46 (AF225450)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[8__B]" cmphy:genus="Bioleaching" cmphy:species="bacterium" cmphy:strain="clone JTCD4" cmphy:id="AYB05539" editRecord="[8__B]"> Bioleaching bacterium clone JTCD4 (AY805539)</otu>
+  <otu id="otu11"> Iron-oxidizing acidophile WJ25 (AY495954)</otu>
+  <otu id="otu12">Coal spoil drainage clone RCP1-83 (AF523909)</otu>
+  <otu id="otu13" cmphy:genus="Acidimicrobium" cmphy:species="ferrooxidans" cmphy:strain="TH3" cmphy:id="EF621760" editRecord="[]">Acidimicrobium ferrooxidans TH3 (EF621760)</otu>
+  <otu id="otu14" cmphy:edit="[8__B]" cmphy:genus="Acidimicrobium" cmphy:species="clone" cmphy:strain="SK297" cmphy:id="AYB82846" editRecord="[8__B]"> Acidimicrobium clone SK297 (AY882846)</otu>
+  <otu id="otu15" cmphy:genus="Acidimicrobium" cmphy:species="ferrooxidans" cmphy:strain="ICPT" cmphy:id="U75647" editRecord="[]"> Acidimicrobium ferrooxidans ICPT (U75647)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.15" label="NT1.15" x="309.0" y="400.0"/>
+   <node id="NT1.21" label="NT1.21" x="374.0" y="341.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="433.0" y="458.0"/>
+   <node id="NT1.25" label="NT1.25" x="466.0" y="509.0"/>
+   <node id="NT1.26" label="NT1.26" x="467.0" y="476.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="471.0" y="408.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="492.0" y="543.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="1.0" y="242.0" root="true"/>
+   <edge id="e.9" source="NT1.15" target="NT1.21"/>
+   <edge id="e.10" source="NT1.24" target="NT1.27"/>
+   <edge id="e.11" source="NT1.25" target="NT1.26"/>
+   <edge id="e.12" source="NT1.25" target="NT1.28"/>
+   <edge id="e.19" target="NT1.15" source="NT1.29"/>
+   <edge id="e.22" source="NT1.15" target="NT1.24"/>
+   <edge id="e.23" source="NT1.24" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

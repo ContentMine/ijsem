@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">P. taichungensis BCRC 17757T(EU272O29)</otu>
+  <otu id="otu3">P. pabuli BCRC 15857T(EU272025)</otu>
+  <otu id="otu4">P. barcinonensis BCRC 17560T(EU272027)</otu>
+  <otu id="otu5">P. Iautus NBRC 1538OT (gy11201)</otu>
+  <otu id="otu6">P. polymyxa IAM 13419T (gy12417)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="52.0" y="296.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

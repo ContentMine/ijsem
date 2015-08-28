@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Sphingobium aromaticiconvertens RW1 6'(AM181012)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">Novosphingobium</otu>
+  <otu id="otu5" cmphy:genus="Sphingobium" cmphy:species="olei" cmphy:strain="IMMIB HF-1'" cmphy:id="AM489507" editRecord="[]">Sphingobium olei IMMIB HF-1' (AM489507)</otu>
+  <otu id="otu6">Strain CC-FH12-1T (E F465534)</otu>
+  <otu id="otu7" cmphy:genus="Porphyrobacter" cmphy:species="cryptus" cmphy:strain="ALC-2T" cmphy:id="AF465834" editRecord="[]">Porphyrobacter cryptus ALC-2T (AF465834)</otu>
+  <otu id="otu8">Sphingobium xenophagum</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Novosphingobium" cmphy:species="hassiacum" cmphy:strain="W-517" cmphy:id="AJ416411" editRecord="[]">Novosphingobium hassiacum W-517 (AJ416411)</otu>
+  <otu id="otu11">Novosphingobium capsulatum GIFU 115267(D16147)</otu>
+  <otu id="otu12">Sphingomonas asaccharolytica</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Sphingobium" cmphy:species="cloacae" cmphy:strain="S-37" cmphy:id="ABO40739" editRecord="[0__O]">Sphingobium cloacae S-37 (AB040739)</otu>
+  <otu id="otu14">Sphingomonas adhaesiva GIFU11458'(D16146)</otu>
+  <otu id="otu15">Sphingobium japonicum UT26T(AFO39168)</otu>
+  <otu id="otu16" cmphy:genus="Sphingobium" cmphy:species="chlorophenolicum" cmphy:strain="ATCC 33790'" cmphy:id="X87161" editRecord="[]">Sphingobium chlorophenolicum ATCC 33790' (X87161)</otu>
+  <otu id="otu17">Sphingobium indicum MTCC 6364'(AY519129)</otu>
+  <otu id="otu18">Sphingobium francense</otu>
+  <otu id="otu19" cmphy:genus="Sphingomonas" cmphy:species="phyllosphaerae" cmphy:strain="FA2'" cmphy:id="AY453855" editRecord="[]">Sphingomonas phyllosphaerae FA2' (AY453855)</otu>
+  <otu id="otu20">Sphingobium chungbukense DJ77'(AF159257)</otu>
+  <otu id="otu21" cmphy:edit="[0__O]" cmphy:genus="Sphingobium" cmphy:species="fuliginis" cmphy:strain="TKP'" cmphy:id="DQO92757" editRecord="[0__O]">Sphingobium fuliginis TKP' (DQ092757)</otu>
+  <otu id="otu22">Sphingobium yanoikuyae</otu>
+  <otu id="otu23" cmphy:genus="Sphingomonas" cmphy:species="paucimobilis" cmphy:strain="GIFU 2395'" cmphy:id="D16144" editRecord="[]">Sphingomonas paucimobilis GIFU 2395' (D16144)</otu>
+  <otu id="otu24">Sphingobium herbicidovorans</otu>
+  <otu id="otu25">Escherichia coli(J01859)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="1192.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="528.0" y="1118.0"/>
+   <node id="NT1.4" x="544.0" y="949.0" label="51"/>
+   <node id="NT1.5" label="NT1.5" x="618.0" y="821.0"/>
+   <node id="NT1.8" x="717.0" y="520.0" label="50"/>
+   <node id="NT1.10" x="760.0" y="366.0" label="51"/>
+   <node id="NT1.11" label="NT1.11" x="774.0" y="925.0"/>
+   <node id="NT1.13" label="NT1.13" x="782.0" y="265.0"/>
+   <node id="NT1.21" label="NT1.21" x="827.0" y="652.0" otu="otu5"/>
+   <node id="NT1.23" label="NT1.23" x="833.0" y="1287.0" otu="otu7"/>
+   <node id="NT1.26" label="NT1.26" x="848.0" y="1113.0" otu="otu10"/>
+   <node id="NT1.31" label="NT1.31" x="883.0" y="422.0" otu="otu13"/>
+   <node id="NT1.35" label="NT1.35" x="907.0" y="249.0" otu="otu16"/>
+   <node id="NT1.38" label="NT1.38" x="920.0" y="998.0" otu="otu19"/>
+   <node id="NT1.40" label="NT1.40" x="928.0" y="364.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="956.0" y="882.0" otu="otu23"/>
+   <edge id="e.4" target="NT1.31" source="NT1.10"/>
+   <edge id="e.9" source="NT1.10" target="NT1.13"/>
+   <edge id="e.11" source="NT1.8" target="NT1.10"/>
+   <edge id="e.15" target="NT1.8" source="NT1.5"/>
+   <edge id="e.17" source="NT1.4" target="NT1.5"/>
+   <edge id="e.19" source="NT1.5" target="NT1.11"/>
+   <edge id="e.20" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" target="NT1.3" source="NT1.1"/>
+   <edge id="e.23" source="NT1.3" target="NT1.23"/>
+   <edge id="e.29" target="NT1.26" source="NT1.4"/>
+   <edge id="e.30" source="NT1.8" target="NT1.21"/>
+   <edge id="e.35" source="NT1.11" target="NT1.42"/>
+   <edge id="e.37" target="NT1.38" source="NT1.11"/>
+   <edge id="e.39" target="NT1.40" source="NT1.13"/>
+   <edge id="e.41" target="NT1.35" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

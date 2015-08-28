@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">V. cholerae ATCC 140357 (X74695)</otu>
+  <otu id="otu2">V. brasiliensis LMG 205467 (AJ316172)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">CAIM 695 (DQ451210)</otu>
+  <otu id="otu5">CAIM 636 (EU043382)</otu>
+  <otu id="otu6">CAIM 798 (EU043379)</otu>
+  <otu id="otu7">CAIM 752 (EU043380)</otu>
+  <otu id="otu8">V. tubiashii ATCC 191097 (X74725)</otu>
+  <otu id="otu9">CAIM 648 (EU043381)</otu>
+  <otu id="otu10">V. hepatarius LMG 203627 (AJ345063)</otu>
+  <otu id="otu11">V. fonis LMG 21557T (AJ514916)</otu>
+  <otu id="otu12">V. nereis ATCC 259177 (X74716)</otu>
+  <otu id="otu13">V. xuii LMG 213467 (AJ316181)</otu>
+  <otu id="otu14" cmphy:genus="Listonella" cmphy:species="pelagia" cmphy:strain="ATCC 25916T" cmphy:id="X74722" editRecord="[]">Listonella pelagia ATCC 25916T (X74722)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="509.0" y="540.0" otu="otu1" root="true"/>
+   <node id="NT1.21" label="NT1.21" x="935.0" y="500.0" otu="otu14"/>
+   <edge id="e.8" target="NT1.21" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

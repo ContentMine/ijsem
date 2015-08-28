@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Virgibacillus" cmphy:species="marismortui" cmphy:strain="1237" cmphy:id="AJO09793" editRecord="[]">Virgibacillus marismortui 1237 (AJO09793)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Virgibacillus" cmphy:species="halodenitrificans" cmphy:strain="DSM 1O037T" cmphy:id="AYS43169" editRecord="[5__S]"> Virgibacillus halodenitrificans DSM 1O037T (AY543169)</otu>
+  <otu id="otu4" cmphy:genus="Virgibacillus" cmphy:species="proomii" cmphy:strain="LMG 12370T" cmphy:id="AJO12667" editRecord="[]">Virgibacillus proomii LMG 12370T (AJO12667)</otu>
+  <otu id="otu5" cmphy:genus="Virgibacillus" cmphy:species="pantothenticus" cmphy:strain="IAM 11061T" cmphy:id="D78477" editRecord="[]">Virgibacillus pantothenticus IAM 11061T (D78477)</otu>
+  <otu id="otu6" cmphy:edit="[8__B]" cmphy:genus="Virgibacillus" cmphy:species="dokdonensis" cmphy:strain="DSW-10T" cmphy:id="AYB22043" editRecord="[8__B]">Virgibacillus dokdonensis DSW-10T (AY822043)</otu>
+  <otu id="otu7">Strain BH113T (AY762976)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Lentibacillus" cmphy:species="kapialis" cmphy:strain="PN7-6T" cmphy:id="ABZ31905" editRecord="[2__Z]">Lentibacillus kapialis PN7-6T (AB231905)</otu>
+  <otu id="otu10" cmphy:genus="Lentibacillus" cmphy:species="salinarum" cmphy:strain="AHS-1T" cmphy:id="EF601571" editRecord="[]">Lentibacillus salinarum AHS-1T (EF601571)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Lentibacillus" cmphy:species="salicampi" cmphy:strain="SF-207" cmphy:id="AYO57394" editRecord="[0__O]">Lentibacillus salicampi SF-207 (AY057394)</otu>
+  <otu id="otu15" cmphy:genus="Virgibacillus" cmphy:species="salexigens" cmphy:strain="C-20MoT" cmphy:id="Y11603" editRecord="[]">Virgibacillus salexigens C-20MoT (Y11603)</otu>
+  <otu id="otu16" cmphy:genus="Brevibacillus" cmphy:species="brevis" cmphy:strain="JCM 2503T" cmphy:id="D78457" editRecord="[]">Brevibacillus brevis JCM 2503T (D78457)</otu>
+  <otu id="otu17" cmphy:edit="[1__I]" cmphy:genus="Lentibacillus" cmphy:species="halophilus" cmphy:strain="PS11-2T" cmphy:id="ABI91345" editRecord="[1__I]">Lentibacillus halophilus PS11-2T (AB191345)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="183.0" y="401.0"/>
+   <node id="NT1.2" x="202.0" y="541.0" label="96"/>
+   <node id="NT1.3" x="228.0" y="259.0" label="95"/>
+   <node id="NT1.4" x="233.0" y="478.0" label="53"/>
+   <node id="NT1.5" x="239.0" y="192.0" label="59"/>
+   <node id="NT1.6" x="242.0" y="607.0" label="as"/>
+   <node id="NT1.7" label="NT1.7" x="248.0" y="325.0"/>
+   <node id="NT1.8" x="250.0" y="441.0" label="53"/>
+   <node id="NT1.9" x="253.0" y="141.0" label="62"/>
+   <node id="NT1.10" label="NT1.10" x="267.0" y="101.0"/>
+   <node id="NT1.11" x="280.0" y="65.0" label="64"/>
+   <node id="NT1.12" x="283.0" y="576.0" label="mo"/>
+   <node id="NT1.13" x="290.0" y="410.0" label="100"/>
+   <node id="NT1.14" label="NT1.14" x="294.0" y="430.0" otu="otu1"/>
+   <node id="NT1.15" label="NT1.15" x="298.0" y="388.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="309.0" y="514.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="312.0" y="34.0"/>
+   <node id="NT1.18" label="NT1.18" x="317.0" y="241.0"/>
+   <node id="NT1.19" label="NT1.19" x="318.0" y="638.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="318.0" y="597.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="328.0" y="555.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="335.0" y="304.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="356.0" y="347.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="360.0" y="179.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="362.0" y="95.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="364.0" y="221.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="365.0" y="13.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="365.0" y="53.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="374.0" y="138.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="418.0" y="472.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="432.0" y="682.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="433.0" y="263.0" otu="otu17"/>
+   <edge source="NT1.27" target="NT1.17" id="e.0"/>
+   <edge source="NT1.28" target="NT1.17" id="e.1"/>
+   <edge source="NT1.25" target="NT1.11" id="e.2"/>
+   <edge source="NT1.29" target="NT1.10" id="e.3"/>
+   <edge source="NT1.24" target="NT1.9" id="e.4"/>
+   <edge source="NT1.26" target="NT1.18" id="e.5"/>
+   <edge source="NT1.32" target="NT1.18" id="e.6"/>
+   <edge source="NT1.22" target="NT1.7" id="e.7"/>
+   <edge source="NT1.23" target="NT1.7" id="e.8"/>
+   <edge source="NT1.16" target="NT1.4" id="e.9"/>
+   <edge source="NT1.19" target="NT1.6" id="e.10"/>
+   <edge source="NT1.20" target="NT1.12" id="e.11"/>
+   <edge source="NT1.14" target="NT1.13" id="e.12"/>
+   <edge source="NT1.21" target="NT1.12" id="e.13"/>
+   <edge source="NT1.15" target="NT1.13" id="e.14"/>
+   <edge source="NT1.17" target="NT1.11" id="e.15"/>
+   <edge source="NT1.11" target="NT1.10" id="e.16"/>
+   <edge source="NT1.10" target="NT1.9" id="e.17"/>
+   <edge source="NT1.9" target="NT1.5" id="e.18"/>
+   <edge source="NT1.5" target="NT1.3" id="e.19"/>
+   <edge source="NT1.5" target="NT1.18" id="e.20"/>
+   <edge source="NT1.3" target="NT1.1" id="e.21"/>
+   <edge source="NT1.3" target="NT1.7" id="e.22"/>
+   <edge source="NT1.1" target="NT1.2" id="e.23"/>
+   <edge source="NT1.2" target="NT1.4" id="e.24"/>
+   <edge source="NT1.2" target="NT1.6" id="e.25"/>
+   <edge source="NT1.4" target="NT1.8" id="e.26"/>
+   <edge source="NT1.6" target="NT1.12" id="e.27"/>
+   <edge source="NT1.8" target="NT1.13" id="e.28"/>
+   <edge source="NT1.31" target="NT1.1" id="e.29"/>
+   <edge source="NT1.30" target="NT1.8" id="e.30"/>
+  </tree>
+ </trees>
+</nexml>

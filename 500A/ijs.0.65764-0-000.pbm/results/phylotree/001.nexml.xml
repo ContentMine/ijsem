@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Filobasidiella" cmphy:species="neoformans" cmphy:strain="CBS 132T" cmphy:id="AFB35984" editRecord="[3__B]">Filobasidiella neoformans CBS 132T (AF335984)</otu>
+  <otu id="otu3" cmphy:genus="Cryptococcus" cmphy:species="heveanensis" cmphy:strain="VKM Y-14577" cmphy:id="AFO75467" editRecord="[]">Cryptococcus heveanensis VKM Y-14577 (AFO75467)</otu>
+  <otu id="otu4" cmphy:genus="Cryptococcus" cmphy:species="heveanensis" cmphy:strain="CBS 8976" cmphy:id="AF406890" editRecord="[]">Cryptococcus heveanensis CBS 8976 (AF406890)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Bullera" cmphy:species="dendrophila" cmphy:strain="VKM Y-2167T" cmphy:id="AFI89870" editRecord="[1__I]">Bullera dendrophila VKM Y-2167T (AF189870)</otu>
+  <otu id="otu6" cmphy:genus="Cryptococcus" cmphy:species="pinus" cmphy:strain="VKM Y-2958T" cmphy:id="EF672245" editRecord="[]">Cryptococcus pinus VKM Y-2958T (EF672245)</otu>
+  <otu id="otu7" cmphy:genus="Cryptococcus" cmphy:species="dejecticola" cmphy:strain="CBS 1O117T" cmphy:id="AY917102" editRecord="[]">Cryptococcus dejecticola CBS 1O117T (AY917102)</otu>
+  <otu id="otu8" cmphy:genus="Kwoniella" cmphy:species="mangroviensis" cmphy:strain="VKM Y-296OT" cmphy:id="AF444742" editRecord="[]">Kwoniella mangroviensis VKM Y-296OT (AF444742)</otu>
+  <otu id="otu9" cmphy:genus="Kwoniella" cmphy:species="mangroviensis" cmphy:strain="VKM Y-296OT" cmphy:id="AF444742" editRecord="[]">Kwoniella mangroviensis VKM Y-296OT (AF444742)</otu>
+  <otu id="otu10">Cryptococcus sp. CECT11979 (AY296055)</otu>
+  <otu id="otu11" cmphy:genus="Cryptococcus" cmphy:species="bestiolae" cmphy:strain="CBS 10118T" cmphy:id="AY917100" editRecord="[]">Cryptococcus bestiolae CBS 10118T (AY917100)</otu>
+  <otu id="otu12">Cryptococcus sp. CECT11979 (AY296055)</otu>
+  <otu id="otu13">Cryptococcus sp. CECT11955 (AY167602)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="79.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="3.0" y="79.0"/>
+   <node id="NT1.3" label="NT1.3" x="9.0" y="11.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="245.0" y="216.0"/>
+   <node id="NT1.5" label="NT1.5" x="247.0" y="165.0"/>
+   <node id="NT1.6" label="NT1.6" x="350.0" y="165.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="380.0" y="345.0"/>
+   <node id="NT1.8" label="NT1.8" x="395.0" y="450.0"/>
+   <node id="NT1.9" label="NT1.9" x="397.0" y="87.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="405.0" y="243.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="421.0" y="338.0"/>
+   <node id="NT1.12" x="436.0" y="541.0" label="91"/>
+   <node id="NT1.13" label="NT1.13" x="437.0" y="320.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="446.0" y="398.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="457.0" y="550.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="458.0" y="552.0"/>
+   <node id="NT1.18" label="NT1.18" x="462.0" y="552.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="468.0" y="474.0" otu="otu11"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.5" target="NT1.6"/>
+   <edge id="e.2" source="NT1.11" target="NT1.13"/>
+   <edge id="e.3" source="NT1.17" target="NT1.16"/>
+   <edge id="e.4" source="NT1.17" target="NT1.18"/>
+   <edge id="e.8" source="NT1.2" target="NT1.4"/>
+   <edge id="e.9" source="NT1.4" target="NT1.7"/>
+   <edge id="e.10" source="NT1.4" target="NT1.5"/>
+   <edge id="e.11" source="NT1.7" target="NT1.8"/>
+   <edge id="e.12" source="NT1.8" target="NT1.11"/>
+   <edge id="e.13" source="NT1.8" target="NT1.12"/>
+   <edge id="e.16" target="NT1.17" source="NT1.12"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.19" source="NT1.5" target="NT1.9"/>
+   <edge id="e.20" source="NT1.7" target="NT1.10"/>
+   <edge id="e.21" source="NT1.11" target="NT1.14"/>
+   <edge id="e.22" source="NT1.12" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

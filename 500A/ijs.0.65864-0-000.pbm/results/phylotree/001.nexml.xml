@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Strain CW 1867 (EU364817)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Sphingobacterium" cmphy:species="composti" cmphy:strain="LMG 234O1T" cmphy:id="ABZ44764" editRecord="[2__Z]">Sphingobacterium composti LMG 234O1T (AB244764)</otu>
+  <otu id="otu4" cmphy:genus="Sphingobacterium" cmphy:species="thalpophilum" cmphy:strain="ATCC 43320T" cmphy:id="M58779" editRecord="[]">Sphingobacterium thalpophilum ATCC 43320T (M58779)</otu>
+  <otu id="otu5" cmphy:genus="Sphingobacterium" cmphy:species="spiritivorum" cmphy:strain="ATCC 338617" cmphy:id="M58778" editRecord="[]">Sphingobacterium spiritivorum ATCC 338617 (M58778)</otu>
+  <otu id="otu6" cmphy:genus="Sphingobacterium" cmphy:species="multivorum" cmphy:strain="NBRC 14947T" cmphy:id="D14025" editRecord="[]">Sphingobacterium multivorum NBRC 14947T (D14025)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Sphingobacterium" cmphy:species="daejeonense" cmphy:strain="LMG 23402T" cmphy:id="ABZ49372" editRecord="[2__Z]">Sphingobacterium daejeonense LMG 23402T (AB249372)</otu>
+  <otu id="otu8" cmphy:genus="Sphingobacterium" cmphy:species="mizutaii" cmphy:strain="ATCC 33299T" cmphy:id="M58796" editRecord="[]">Sphingobacterium mizutaii ATCC 33299T (M58796)</otu>
+  <otu id="otu9" cmphy:genus="Pedobacter" cmphy:species="cryoconitis" cmphy:strain="DSM 14825T" cmphy:id="AJ438170" editRecord="[]">Pedobacter cryoconitis DSM 14825T (AJ438170)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Sphingobacterium" cmphy:species="composti" cmphy:strain="DSM 18850T" cmphy:id="EFI22436" editRecord="[1__I]">Sphingobacterium composti DSM 18850T (EF122436)</otu>
+  <otu id="otu11"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="103.0" y="290.0"/>
+   <node id="NT1.3" x="155.0" y="169.0" label="45"/>
+   <node id="NT1.4" x="224.0" y="120.0" label="88"/>
+   <node id="NT1.5" x="277.0" y="360.0" label="100"/>
+   <node id="NT1.6" x="336.0" y="74.0" label="100"/>
+   <node id="NT1.9" x="423.0" y="35.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="442.0" y="165.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="454.0" y="321.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="473.0" y="217.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="491.0" y="373.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="553.0" y="9.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="554.0" y="61.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="578.0" y="478.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="587.0" y="113.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="1.0" y="397.0" root="true"/>
+   <edge id="e.0" source="NT1.9" target="NT1.16"/>
+   <edge id="e.1" source="NT1.9" target="NT1.17"/>
+   <edge id="e.2" source="NT1.6" target="NT1.19"/>
+   <edge id="e.3" source="NT1.4" target="NT1.11"/>
+   <edge id="e.4" source="NT1.3" target="NT1.13"/>
+   <edge id="e.6" source="NT1.5" target="NT1.12"/>
+   <edge id="e.8" target="NT1.14" source="NT1.5"/>
+   <edge id="e.9" target="NT1.18" source="NT1.21"/>
+   <edge id="e.11" source="NT1.6" target="NT1.9"/>
+   <edge id="e.12" source="NT1.4" target="NT1.6"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" target="NT1.3" source="NT1.1"/>
+   <edge id="e.16" source="NT1.1" target="NT1.5"/>
+   <edge id="e.18" source="NT1.21" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

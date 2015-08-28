@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> H. ventosae AI12T (AY268080)</otu>
+  <otu id="otu2"> Strain 11ST (EF613113)</otu>
+  <otu id="otu3">H. pacifica DSM 47427 (L42616)</otu>
+  <otu id="otu4">H. denitrificans MZQT (AM229317)</otu>
+  <otu id="otu5">H. koreensis SSZOT (AY382579)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Cobetia" cmphy:species="marina" cmphy:strain="DSM 4741T" cmphy:id="AJB06890" editRecord="[3__B]">Cobetia marina DSM 4741T (AJ306890)</otu>
+  <otu id="otu7">H. cupida DSM 47407 (L42615)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">H. campaniensis 5AGT (AJ515365)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"> H. salina ATCC 495O9T (AJ243447)</otu>
+  <otu id="otu14">H. eurihalina ATCC 4933GT (X87218)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">H. halophila DSM 4770T (M93353)</otu>
+  <otu id="otu17">H. gudaonensis SLO14B-69A1T (DQ421808)</otu>
+  <otu id="otu18" cmphy:genus="Carnimonas" cmphy:species="nigrificans" cmphy:strain="CTCBS1T" cmphy:id="Y13299" editRecord="[]">Carnimonas nigrificans CTCBS1T (Y13299)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">H. almeriensis MST (AY858696)</otu>
+  <otu id="otu21"> H. halmophila ATCC 19717T (AJ306889)</otu>
+  <otu id="otu22"> H. halodenitrificans ATCC 135117 (L04942)</otu>
+  <otu id="otu23" cmphy:genus="Zymobacter" cmphy:species="palmae" cmphy:strain="T1 OQT" cmphy:id="D14555" editRecord="[]">Zymobacter palmae T1 OQT (D14555)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="10.0" y="923.0"/>
+   <node id="NT1.7" label="NT1.7" x="246.0" y="956.0"/>
+   <node id="NT1.23" label="NT1.23" x="384.0" y="891.0" otu="otu6"/>
+   <node id="NT1.39" label="NT1.39" x="646.0" y="979.0" otu="otu18"/>
+   <node id="NT1.44" label="NT1.44" x="732.0" y="934.0" otu="otu23"/>
+   <node id="NT1.45" label="NT1.45" x="3.0" y="805.0" root="true"/>
+   <edge id="e.16" source="NT1.1" target="NT1.23"/>
+   <edge id="e.17" source="NT1.7" target="NT1.39"/>
+   <edge id="e.18" source="NT1.7" target="NT1.44"/>
+   <edge id="e.37" source="NT1.1" target="NT1.7"/>
+   <edge id="e.39" source="NT1.45" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Kaislia" cmphy:species="granuli" cmphy:strain="K004T" cmphy:id="ABZ44762" editRecord="[2__Z]">Kaislia granuli K004T (AB244762)</otu>
+  <otu id="otu2" cmphy:genus="Pseudoxanthobacter" cmphy:species="soli" cmphy:strain="CC4T" cmphy:id="EF465533" editRecord="[]">Pseudoxanthobacter soli CC4T (EF465533)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Prosthecomicrobium" cmphy:species="pneumaticum" cmphy:strain="DSM 8972T" cmphy:id="ABO17203" editRecord="[0__O]">Prosthecomicrobium pneumaticum DSM 8972T (AB017203)</otu>
+  <otu id="otu4" cmphy:genus="Hoeflea" cmphy:species="alexandrii" cmphy:strain="DSM 16655T" cmphy:id="AJ786600" editRecord="[]">Hoeflea alexandrii DSM 16655T (AJ786600)</otu>
+  <otu id="otu5"> Rhodobium 0r1'entz's DSM 112901 (D30792)</otu>
+  <otu id="otu6">Phyllabacterium trifolii LMG</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Kaistia" cmphy:species="adipata" cmphy:strain="KCTC 12095T" cmphy:id="AYO39817" editRecord="[0__O]">Kaistia adipata KCTC 12095T (AY039817)</otu>
+  <otu id="otu8">Phyllobacterium myrsinacearum</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Ochrobaclrum" cmphy:species="inlermedium" cmphy:strain="LMG 3301T" cmphy:id="AJZ42582" editRecord="[2__Z]">Ochrobaclrum inlermedium LMG 3301T (AJ242582)</otu>
+  <otu id="otu10" cmphy:genus="Ochrobactrum" cmphy:species="anthropi" cmphy:strain="LMG 3306" cmphy:id="U88440" editRecord="[]">Ochrobactrum anthropi LMG 3306 (U88440)</otu>
+  <otu id="otu11">Blastochloris sulfoviridis DSM 729.1</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Blastochloris" cmphy:species="viridis" cmphy:strain="LMG 4321T" cmphy:id="AFO84498" editRecord="[0__O]">Blastochloris viridis LMG 4321T (AF084498)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="48.0" y="529.0"/>
+   <node id="NT1.3" label="NT1.3" x="121.0" y="430.0"/>
+   <node id="NT1.4" label="NT1.4" x="174.0" y="334.0"/>
+   <node id="NT1.5" label="NT1.5" x="424.0" y="1075.0"/>
+   <node id="NT1.7" label="NT1.7" x="730.0" y="534.0"/>
+   <node id="NT1.9" label="NT1.9" x="833.0" y="491.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="844.0" y="627.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="901.0" y="424.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="952.0" y="1101.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="991.0" y="559.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="1035.0" y="1001.0"/>
+   <node id="NT1.20" label="NT1.20" x="1036.0" y="1035.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="1073.0" y="966.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="1110.0" y="356.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="18.0" y="743.0" root="true"/>
+   <edge id="e.1" target="NT1.24" source="NT1.4"/>
+   <edge id="e.2" source="NT1.7" target="NT1.9"/>
+   <edge id="e.3" source="NT1.1" target="NT1.10"/>
+   <edge id="e.4" target="NT1.14" source="NT1.5"/>
+   <edge id="e.7" source="NT1.19" target="NT1.20"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.10" source="NT1.1" target="NT1.3"/>
+   <edge id="e.11" source="NT1.3" target="NT1.7"/>
+   <edge id="e.12" target="NT1.5" source="NT1.25"/>
+   <edge id="e.15" source="NT1.5" target="NT1.19"/>
+   <edge id="e.17" source="NT1.25" target="NT1.1"/>
+   <edge id="e.19" source="NT1.4" target="NT1.13"/>
+   <edge id="e.21" source="NT1.7" target="NT1.17"/>
+   <edge id="e.23" source="NT1.19" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

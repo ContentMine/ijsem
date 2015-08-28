@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Agreia" cmphy:species="bicolorata" cmphy:strain="VKM Ac-1804T" cmphy:id="AFI59363" editRecord="[1__I]">Agreia bicolorata VKM Ac-1804T (AF159363)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Leifsonia" cmphy:species="bigeumensis" cmphy:strain="MSL-277" cmphy:id="EF466124" editRecord="[]">Leifsonia bigeumensis MSL-277 (EF466124)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Leifsonia" cmphy:species="poae" cmphy:strain="VKM Ac-14O1T" cmphy:id="AFI16342" editRecord="[1__I]">Leifsonia poae VKM Ac-14O1T (AF116342)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Subtercola" cmphy:species="boreus" cmphy:strain="K300T" cmphy:id="AFZ24722" editRecord="[2__Z]">Subtercola boreus K300T (AF224722)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Okibacterium" cmphy:species="fritillariae" cmphy:strain="DSM 15271T" cmphy:id="AM410675" editRecord="[]">Okibacterium fritillariae DSM 15271T (AM410675)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Leifsonia" cmphy:species="aquatica" cmphy:strain="DSM 2O146T" cmphy:id="X77450" editRecord="[]">Leifsonia aquatica DSM 2O146T (X77450)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Subtercola" cmphy:species="frigoramans" cmphy:strain="K2657" cmphy:id="AFZ24723" editRecord="[2__Z]">Subtercola frigoramans K2657 (AF224723)</otu>
+  <otu id="otu14" cmphy:genus="Leifsonia" cmphy:species="aurea" cmphy:strain="CMS 81yT" cmphy:id="AJ438586" editRecord="[]">Leifsonia aurea CMS 81yT (AJ438586)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="89.0" y="304.0"/>
+   <node id="NT1.2" x="148.0" y="196.0" label="60"/>
+   <node id="NT1.3" x="170.0" y="411.0" label="89"/>
+   <node id="NT1.4" x="196.0" y="138.0" label="55"/>
+   <node id="NT1.5" label="NT1.5" x="247.0" y="442.0"/>
+   <node id="NT1.6" label="NT1.6" x="323.0" y="381.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="368.0" y="86.0"/>
+   <node id="NT1.11" label="NT1.11" x="439.0" y="177.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="443.0" y="136.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="448.0" y="422.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="524.0" y="511.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="567.0" y="13.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="587.0" y="463.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="605.0" y="258.0" otu="otu14"/>
+   <node id="NT1.26" label="NT1.26" x="1.0" y="407.0" root="true"/>
+   <edge id="e.0" target="NT1.21" source="NT1.8"/>
+   <edge id="e.4" source="NT1.8" target="NT1.12"/>
+   <edge id="e.5" source="NT1.4" target="NT1.11"/>
+   <edge id="e.8" source="NT1.3" target="NT1.6"/>
+   <edge id="e.10" target="NT1.25" source="NT1.2"/>
+   <edge id="e.11" source="NT1.5" target="NT1.14"/>
+   <edge id="e.12" source="NT1.5" target="NT1.24"/>
+   <edge id="e.15" source="NT1.4" target="NT1.8"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.19" source="NT1.1" target="NT1.3"/>
+   <edge id="e.22" source="NT1.3" target="NT1.5"/>
+   <edge id="e.23" source="NT1.26" target="NT1.18"/>
+   <edge id="e.24" source="NT1.26" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

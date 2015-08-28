@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Dehalobacter" cmphy:species="restrictus" cmphy:strain="PER-K237" cmphy:id="U84497" editRecord="[]">Dehalobacter restrictus PER-K237 (U84497)</otu>
+  <otu id="otu3" cmphy:genus="Syntrophobotulus" cmphy:species="glycolicus" cmphy:strain="FIGIyRT" cmphy:id="X99706" editRecord="[]">Syntrophobotulus glycolicus FIGIyRT (X99706)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Desulfitobacterium" cmphy:species="metallireducens" cmphy:strain="853-15AT" cmphy:id="AFZ97871" editRecord="[2__Z]">Desulfitobacterium metallireducens 853-15AT (AF297871)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Desulfosporosinus" cmphy:species="lacus" cmphy:strain="STP12T" cmphy:id="AJS82757" editRecord="[5__S]">Desulfosporosinus lacus STP12T (AJ582757)</otu>
+  <otu id="otu6" cmphy:genus="Desulfosporosinus" cmphy:species="hippei" cmphy:strain="DSM 83447" cmphy:id="Y11571" editRecord="[]">Desulfosporosinus hippei DSM 83447 (Y11571)</otu>
+  <otu id="otu7" cmphy:genus="Desulfosporosinus" cmphy:species="meridiei" cmphy:strain="S1 OT" cmphy:id="AFO76527" editRecord="[]">Desulfosporosinus meridiei S1 OT (AFO76527)</otu>
+  <otu id="otu8" cmphy:genus="Desulfosporosinus" cmphy:species="auripigmenti" cmphy:strain="DSM 13351T" cmphy:id="AJ493051" editRecord="[]">Desulfosporosinus auripigmenti DSM 13351T (AJ493051)</otu>
+  <otu id="otu9" cmphy:genus="Desulfosporosinus" cmphy:species="orientis" cmphy:strain="DSM 765T" cmphy:id="Y11570" editRecord="[]">Desulfosporosinus orientis DSM 765T (Y11570)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Desulfitobacterium" cmphy:species="dichloroeliminans" cmphy:strain="LMG P-21439" cmphy:id="AJS65938" editRecord="[5__S]">Desulfitobacterium dichloroeliminans LMG P-21439 (AJ565938)</otu>
+  <otu id="otu11" cmphy:genus="Desulfitobacterium" cmphy:species="dehalogenans" cmphy:strain="JWIIU-DC1T" cmphy:id="L28946" editRecord="[]">Desulfitobacterium dehalogenans JWIIU-DC1T (L28946)</otu>
+  <otu id="otu12" cmphy:genus="Desulfitobacterium" cmphy:species="hafniense" cmphy:strain="DCB-2T" cmphy:id="X94975" editRecord="[]">Desulfitobacterium hafniense DCB-2T (X94975)</otu>
+  <otu id="otu13" cmphy:genus="Desulfitobacterium" cmphy:species="chlororespirans" cmphy:strain="Co23T" cmphy:id="U68528" editRecord="[]">Desulfitobacterium chlororespirans Co23T (U68528)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="392.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="29.0" y="321.0"/>
+   <node id="NT1.3" label="NT1.3" x="107.0" y="431.0"/>
+   <node id="NT1.4" x="108.0" y="195.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="152.0" y="76.0"/>
+   <node id="NT1.6" label="NT1.6" x="186.0" y="452.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="186.0" y="412.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="186.0" y="233.0"/>
+   <node id="NT1.9" label="NT1.9" x="204.0" y="108.0"/>
+   <node id="NT1.10" label="NT1.10" x="213.0" y="35.0"/>
+   <node id="NT1.11" label="NT1.11" x="234.0" y="154.0"/>
+   <node id="NT1.12" label="NT1.12" x="243.0" y="272.0"/>
+   <node id="NT1.13" label="NT1.13" x="265.0" y="213.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="283.0" y="95.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="298.0" y="16.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="298.0" y="55.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="313.0" y="135.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="313.0" y="174.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="314.0" y="312.0"/>
+   <node id="NT1.20" label="NT1.20" x="322.0" y="253.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="383.0" y="346.0"/>
+   <node id="NT1.22" label="NT1.22" x="393.0" y="293.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="462.0" y="373.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="462.0" y="333.0" otu="otu13"/>
+   <edge id="e.0" source="NT1.10" target="NT1.15"/>
+   <edge id="e.1" source="NT1.9" target="NT1.14"/>
+   <edge id="e.2" source="NT1.11" target="NT1.17"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.12" target="NT1.20"/>
+   <edge id="e.5" source="NT1.19" target="NT1.22"/>
+   <edge id="e.6" source="NT1.3" target="NT1.6"/>
+   <edge id="e.7" source="NT1.21" target="NT1.23"/>
+   <edge id="e.8" source="NT1.21" target="NT1.24"/>
+   <edge id="e.9" source="NT1.5" target="NT1.10"/>
+   <edge id="e.10" source="NT1.5" target="NT1.9"/>
+   <edge id="e.11" source="NT1.4" target="NT1.5"/>
+   <edge id="e.12" source="NT1.9" target="NT1.11"/>
+   <edge id="e.13" source="NT1.2" target="NT1.4"/>
+   <edge id="e.14" source="NT1.4" target="NT1.8"/>
+   <edge id="e.15" source="NT1.8" target="NT1.12"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.12" target="NT1.19"/>
+   <edge id="e.18" source="NT1.19" target="NT1.21"/>
+   <edge id="e.19" source="NT1.3" target="NT1.7"/>
+   <edge id="e.20" source="NT1.8" target="NT1.13"/>
+   <edge id="e.21" source="NT1.10" target="NT1.16"/>
+   <edge id="e.22" source="NT1.11" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

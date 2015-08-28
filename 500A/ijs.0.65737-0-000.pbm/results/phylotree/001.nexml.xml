@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Marinomonas" cmphy:species="communis" cmphy:strain="LMG 28647" cmphy:id="DQO11528" editRecord="[0__O]">Marinomonas communis LMG 28647 (DQ011528)</otu>
+  <otu id="otu2">Marinomonas dokdonensis DSW10-1O7(DQ01 1526)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Marinomonas" cmphy:species="ostreistagni" cmphy:strain="JCM 136727" cmphy:id="ABZ42868" editRecord="[2__Z]">Marinomonas ostreistagni JCM 136727 (AB242868)</otu>
+  <otu id="otu6" cmphy:genus="Vibrio" cmphy:species="cholerae" cmphy:strain="ATCC 140357" cmphy:id="X74695" editRecord="[]">Vibrio cholerae ATCC 140357 (X74695)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Marinomonas" cmphy:species="mediterranea" cmphy:strain="ATCC 7004927" cmphy:id="AFO63027" editRecord="[0__O]">Marinomonas mediterranea ATCC 7004927 (AF063027)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Marinomonas" cmphy:species="pontica" cmphy:strain="46-167" cmphy:id="AYS39835" editRecord="[5__S]">Marinomonas pontica 46-167 (AY539835)</otu>
+  <otu id="otu9" cmphy:genus="Marinomonas" cmphy:species="ushuaiensis" cmphy:strain="U17" cmphy:id="AJ627909" editRecord="[]">Marinomonas ushuaiensis U17 (AJ627909)</otu>
+  <otu id="otu10">Marinomonas primoryensis KMM 36337 (AB0741 93)</otu>
+  <otu id="otu11" cmphy:edit="[8__B]" cmphy:genus="Marinomonas" cmphy:species="polarls" cmphy:strain="CK137" cmphy:id="AJB33000" editRecord="[8__B]">Marinomonas polarls CK137 (AJ833000)</otu>
+  <otu id="otu12" cmphy:genus="Alteromonas" cmphy:species="macleodii" cmphy:strain="IAM 129207" cmphy:id="X82145" editRecord="[]">Alteromonas macleodii IAM 129207 (X82145)</otu>
+  <otu id="otu13"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="47.0" y="506.0"/>
+   <node id="NT1.2" x="374.0" y="291.0" label="100"/>
+   <node id="NT1.3" label="NT1.3" x="386.0" y="230.0"/>
+   <node id="NT1.5" x="436.0" y="389.0" label="67"/>
+   <node id="NT1.8" x="477.0" y="147.0" label="76"/>
+   <node id="NT1.9" label="NT1.9" x="510.0" y="357.0" otu="otu1"/>
+   <node id="NT1.10" x="521.0" y="107.0" label="66"/>
+   <node id="NT1.15" label="NT1.15" x="548.0" y="442.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="560.0" y="528.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="584.0" y="272.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="586.0" y="145.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="597.0" y="187.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="636.0" y="102.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="711.0" y="485.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="1.0" y="398.0" root="true"/>
+   <edge id="e.1" target="NT1.22" source="NT1.10"/>
+   <edge id="e.3" source="NT1.10" target="NT1.19"/>
+   <edge id="e.4" source="NT1.8" target="NT1.20"/>
+   <edge id="e.6" source="NT1.3" target="NT1.18"/>
+   <edge id="e.7" source="NT1.5" target="NT1.9"/>
+   <edge id="e.10" target="NT1.15" source="NT1.5"/>
+   <edge id="e.11" source="NT1.1" target="NT1.17"/>
+   <edge id="e.12" source="NT1.1" target="NT1.23"/>
+   <edge id="e.15" source="NT1.8" target="NT1.10"/>
+   <edge id="e.16" target="NT1.8" source="NT1.3"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" target="NT1.5" source="NT1.2"/>
+   <edge id="e.22" source="NT1.25" target="NT1.2"/>
+   <edge id="e.23" source="NT1.25" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

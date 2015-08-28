@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">RS167 (AM709608)</otu>
+  <otu id="otu3">Promicromonospora citrea DSM 43110</otu>
+  <otu id="otu4">Promicromonospora sp. YlMC653 (EU135639)</otu>
+  <otu id="otu5" cmphy:genus="Promicromonospora" cmphy:species="vindobonensis" cmphy:strain="V457" cmphy:id="AJ487302" editRecord="[]">Promicromonospora vindobonensis V457 (AJ487302)</otu>
+  <otu id="otu6">Promicromonospora sukumoe DSM 44121T</otu>
+  <otu id="otu7">Promicromonospora aerolata V54AT</otu>
+  <otu id="otu8">Promicromonospora sp. MEO2-6983B (EUO80946)</otu>
+  <otu id="otu9">Promicromonospora sp. 4 C7l16 30 (EF540492)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Myceligenerans" cmphy:species="xiligouense" cmphy:strain="XLG9A10.2T" cmphy:id="AYB54285" editRecord="[3__B]">Myceligenerans xiligouense XLG9A10.2T (AY354285)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="477.0" otu="otu1"/>
+   <node id="NT1.2" label="NT1.2" x="26.0" y="405.0"/>
+   <node id="NT1.3" x="301.0" y="352.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="361.0" y="294.0"/>
+   <node id="NT1.5" label="NT1.5" x="386.0" y="229.0"/>
+   <node id="NT1.6" label="NT1.6" x="425.0" y="145.0"/>
+   <node id="NT1.7" label="NT1.7" x="439.0" y="78.0"/>
+   <node id="NT1.8" label="NT1.8" x="450.0" y="41.0"/>
+   <node id="NT1.9" label="NT1.9" x="470.0" y="358.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="489.0" y="407.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="497.0" y="112.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="518.0" y="63.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="526.0" y="309.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="561.0" y="14.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="624.0" y="209.0"/>
+   <node id="NT1.16" label="NT1.16" x="625.0" y="162.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="664.0" y="259.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="828.0" y="456.0" otu="otu10"/>
+   <edge source="NT1.16" target="NT1.15" id="e.0"/>
+   <edge source="NT1.8" target="NT1.7" id="e.1"/>
+   <edge source="NT1.7" target="NT1.6" id="e.2"/>
+   <edge source="NT1.6" target="NT1.5" id="e.3"/>
+   <edge source="NT1.6" target="NT1.15" id="e.4"/>
+   <edge source="NT1.5" target="NT1.4" id="e.5"/>
+   <edge source="NT1.4" target="NT1.3" id="e.6"/>
+   <edge source="NT1.3" target="NT1.2" id="e.7"/>
+   <edge source="NT1.1" target="NT1.2" id="e.8"/>
+   <edge source="NT1.18" target="NT1.2" id="e.9"/>
+   <edge source="NT1.10" target="NT1.3" id="e.10"/>
+   <edge source="NT1.9" target="NT1.4" id="e.11"/>
+   <edge source="NT1.13" target="NT1.5" id="e.12"/>
+   <edge source="NT1.11" target="NT1.7" id="e.13"/>
+   <edge source="NT1.12" target="NT1.8" id="e.14"/>
+   <edge source="NT1.14" target="NT1.8" id="e.15"/>
+   <edge source="NT1.17" target="NT1.15" id="e.16"/>
+  </tree>
+ </trees>
+</nexml>

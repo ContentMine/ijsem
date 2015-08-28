@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Mesorhizobium" cmphy:species="tianshanense" cmphy:strain="USDA 35927" cmphy:id="AJZ94392" editRecord="[2__Z]">Mesorhizobium tianshanense USDA 35927 (AJ294392)</otu>
+  <otu id="otu3">Mesorhizobium huakuii USDA 47797 (AJ294394 )</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Mesofhizqbium" cmphy:species="giceri" cmphy:strain="USDA 33837" cmphy:id="AJZ94395" editRecord="[2__Z]">Mesofhizqbium giceri USDA 33837 (AJ294395)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Ensifer" cmphy:species="saheli" cmphy:strain="HAMBI 217" cmphy:id="AJZ94399" editRecord="[2__Z]">Ensifer saheli HAMBI 217 (AJ294399)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Ensifer" cmphy:species="terangae" cmphy:strain="HAMBI 2207" cmphy:id="AJZ94403" editRecord="[2__Z]">Ensifer terangae HAMBI 2207 (AJ294403)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Rhizobium" cmphy:species="rhizogenes" cmphy:strain="NCPPB 29917" cmphy:id="AJZ94398" editRecord="[2__Z]">Rhizobium rhizogenes NCPPB 29917 (AJ294398)</otu>
+  <otu id="otu10">Rhizobium phaseoli ATCC 144827 (EF1 13151)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Phyllobacterium" cmphy:species="myrsinacearum" cmphy:strain="ATCC 435907" cmphy:id="AJZ94387" editRecord="[2__Z]">Phyllobacterium myrsinacearum ATCC 435907 (AJ294387)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Ensifer" cmphy:species="fredii" cmphy:strain="USDA 2057" cmphy:id="AJZ94402" editRecord="[2__Z]"> Ensifer fredii USDA 2057 (AJ294402)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Rhizobium" cmphy:species="radiobacter" cmphy:strain="NCPPB 24377" cmphy:id="AJZ94407" editRecord="[2__Z]">Rhizobium radiobacter NCPPB 24377 (AJ294407)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+  <otu id="otu23" cmphy:edit="[2__Z]" cmphy:genus="Bradyrhizobium" cmphy:species="japonicum" cmphy:strain="USDA 67" cmphy:id="AJZ94388" editRecord="[2__Z]">Bradyrhizobium japonicum USDA 67 (AJ294388)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="25.0" y="597.0"/>
+   <node id="NT1.3" label="NT1.3" x="180.0" y="467.0"/>
+   <node id="NT1.4" label="NT1.4" x="192.0" y="728.0"/>
+   <node id="NT1.5" label="NT1.5" x="221.0" y="323.0"/>
+   <node id="NT1.10" label="NT1.10" x="301.0" y="445.0"/>
+   <node id="NT1.11" label="NT1.11" x="303.0" y="97.0"/>
+   <node id="NT1.16" label="NT1.16" x="326.0" y="531.0"/>
+   <node id="NT1.21" label="NT1.21" x="402.0" y="705.0" otu="otu2"/>
+   <node id="NT1.23" label="NT1.23" x="406.0" y="742.0" otu="otu4"/>
+   <node id="NT1.25" label="NT1.25" x="465.0" y="397.0" otu="otu6"/>
+   <node id="NT1.27" label="NT1.27" x="494.0" y="551.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="504.0" y="54.0" otu="otu9"/>
+   <node id="NT1.35" label="NT1.35" x="569.0" y="609.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="577.0" y="512.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="579.0" y="130.0" otu="otu18"/>
+   <node id="NT1.43" label="NT1.43" x="681.0" y="857.0" otu="otu23"/>
+   <node id="NT1.44" label="NT1.44" x="1.0" y="736.0" root="true"/>
+   <edge id="e.1" target="NT1.28" source="NT1.11"/>
+   <edge id="e.3" source="NT1.11" target="NT1.37"/>
+   <edge id="e.9" source="NT1.10" target="NT1.25"/>
+   <edge id="e.13" source="NT1.16" target="NT1.27"/>
+   <edge id="e.14" source="NT1.16" target="NT1.36"/>
+   <edge id="e.15" source="NT1.3" target="NT1.35"/>
+   <edge id="e.16" target="NT1.21" source="NT1.4"/>
+   <edge id="e.18" target="NT1.23" source="NT1.4"/>
+   <edge id="e.22" target="NT1.43" source="NT1.44"/>
+   <edge id="e.25" target="NT1.11" source="NT1.5"/>
+   <edge id="e.31" source="NT1.3" target="NT1.5"/>
+   <edge id="e.32" source="NT1.5" target="NT1.10"/>
+   <edge id="e.34" source="NT1.1" target="NT1.3"/>
+   <edge id="e.36" target="NT1.16" source="NT1.10"/>
+   <edge id="e.37" source="NT1.1" target="NT1.4"/>
+   <edge id="e.41" source="NT1.44" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

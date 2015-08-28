@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Rhizobium galegae LMG 6214T</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="tropici" cmphy:strain="CIAT 899T" cmphy:id="AFB45278" editRecord="[3__B]">Rhizobium tropici CIAT 899T (AF345278)</otu>
+  <otu id="otu4">Rhizobium pisi DSM 301 321' (DQ200174)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="gallicum" cmphy:strain="R6O2spT" cmphy:id="AFB45267" editRecord="[3__B]"> Rhizobium gallicum R6O2spT (AF345267)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="hainanense" cmphy:strain="I667" cmphy:id="AFB45269" editRecord="[3__B]">Rhizobium hainanense I667 (AF345269)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Rhizobium rubi</otu>
+  <otu id="otu10">Rhizobium Iusitanum P1-7T (AY943641 )</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="rhizogenes" cmphy:strain="IFO 13257T" cmphy:id="AFB45275" editRecord="[3__B]">Rhizobium rhizogenes IFO 13257T (AF345275)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Rhizobium mongolense</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Rhizobium" cmphy:species="phaseoli" cmphy:strain="ATCC 14482T" cmphy:id="EFI41341" editRecord="[1__I]">Rhizobium phaseoli ATCC 14482T (EF141341)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="huautlense" cmphy:strain="SO2T" cmphy:id="AFB45270" editRecord="[3__B]">Rhizobium huautlense SO2T (AF345270)</otu>
+  <otu id="otu17" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="undicola" cmphy:strain="LMG 11875T" cmphy:id="AFB45280" editRecord="[3__B]">Rhizobium undicola LMG 11875T (AF345280)</otu>
+  <otu id="otu18" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="giardinii" cmphy:strain="H1527" cmphy:id="AFB45268" editRecord="[3__B]">Rhizobium giardinii H1527 (AF345268)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="123.0" y="856.0"/>
+   <node id="NT1.4" x="274.0" y="340.0" label="82"/>
+   <node id="NT1.5" x="318.0" y="236.0" label="35"/>
+   <node id="NT1.6" label="NT1.6" x="323.0" y="546.0"/>
+   <node id="NT1.9" label="NT1.9" x="387.0" y="341.0"/>
+   <node id="NT1.11" label="NT1.11" x="409.0" y="290.0"/>
+   <node id="NT1.19" label="NT1.19" x="567.0" y="263.0" otu="otu3"/>
+   <node id="NT1.22" label="NT1.22" x="578.0" y="522.0" otu="otu6"/>
+   <node id="NT1.23" label="NT1.23" x="582.0" y="316.0" otu="otu7"/>
+   <node id="NT1.27" label="NT1.27" x="636.0" y="367.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="720.0" y="160.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="840.0" y="883.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="862.0" y="573.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="862.0" y="831.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="1.0" y="750.0" root="true"/>
+   <edge id="e.4" target="NT1.30" source="NT1.5"/>
+   <edge id="e.5" source="NT1.11" target="NT1.19"/>
+   <edge id="e.6" source="NT1.11" target="NT1.23"/>
+   <edge id="e.8" target="NT1.22" source="NT1.6"/>
+   <edge id="e.12" target="NT1.33" source="NT1.6"/>
+   <edge id="e.14" source="NT1.1" target="NT1.32"/>
+   <edge id="e.19" source="NT1.4" target="NT1.5"/>
+   <edge id="e.20" source="NT1.5" target="NT1.9"/>
+   <edge id="e.21" target="NT1.4" source="NT1.35"/>
+   <edge id="e.22" source="NT1.4" target="NT1.6"/>
+   <edge id="e.24" source="NT1.9" target="NT1.11"/>
+   <edge id="e.30" source="NT1.35" target="NT1.1"/>
+   <edge id="e.31" source="NT1.1" target="NT1.34"/>
+   <edge id="e.33" target="NT1.27" source="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

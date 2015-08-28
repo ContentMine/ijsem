@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Debaryomyces" cmphy:species="hansenii" cmphy:strain="NRRL Y-7426T" cmphy:id="U45808" editRecord="[]">Debaryomyces hansenii NRRL Y-7426T (U45808)</otu>
+  <otu id="otu3" cmphy:genus="Candida" cmphy:species="multigemmis" cmphy:strain="NRRL Y-17659T" cmphy:id="U45782" editRecord="[]">Candida multigemmis NRRL Y-17659T (U45782)</otu>
+  <otu id="otu4" cmphy:genus="Candida" cmphy:species="santamariae" cmphy:strain="NRRL Y-6656T" cmphy:id="U45794" editRecord="[]">Candida santamariae NRRL Y-6656T (U45794)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Candida" cmphy:species="anglica" cmphy:strain="NRRL Y-27079T" cmphy:id="AFZ45403" editRecord="[2__Z]">Candida anglica NRRL Y-27079T (AF245403)</otu>
+  <otu id="otu6" cmphy:genus="Candida" cmphy:species="santamariae" cmphy:strain="NRRL Y-6656T" cmphy:id="U45794" editRecord="[]">Candida santamariae NRRL Y-6656T (U45794)</otu>
+  <otu id="otu7" cmphy:genus="Candida" cmphy:species="zeylanoides" cmphy:strain="NRRL Y-1774T" cmphy:id="U45832" editRecord="[]">Candida zeylanoides NRRL Y-1774T (U45832)</otu>
+  <otu id="otu8" cmphy:genus="Candida" cmphy:species="railenensis" cmphy:strain="NRRL Y-17762T" cmphy:id="U45800" editRecord="[]">Candida railenensis NRRL Y-17762T (U45800)</otu>
+  <otu id="otu9" cmphy:genus="Candida" cmphy:species="oleophila" cmphy:strain="NRRL Y-2317T" cmphy:id="U45793" editRecord="[]">Candida oleophila NRRL Y-2317T (U45793)</otu>
+  <otu id="otu10" cmphy:genus="Candida" cmphy:species="quercitrusa" cmphy:strain="NRRL Y-5392T" cmphy:id="U45831" editRecord="[]">Candida quercitrusa NRRL Y-5392T (U45831)</otu>
+  <otu id="otu11">Kurtzmaniella</otu>
+  <otu id="otu12" cmphy:genus="Candida" cmphy:species="boleticola" cmphy:strain="NRRL Y-1708OT" cmphy:id="U45777" editRecord="[]">Candida boleticola NRRL Y-1708OT (U45777)</otu>
+  <otu id="otu13" cmphy:genus="Candida" cmphy:species="natalensis" cmphy:strain="NRRL Y-17680T" cmphy:id="U45818" editRecord="[]">Candida natalensis NRRL Y-17680T (U45818)</otu>
+  <otu id="otu14" cmphy:genus="Candida" cmphy:species="fragi" cmphy:strain="NRRL Y-1791OT" cmphy:id="U71071" editRecord="[]">Candida fragi NRRL Y-1791OT (U71071)</otu>
+  <otu id="otu15">Candida sp. CBS 9669 (AJ716104)</otu>
+  <otu id="otu16" cmphy:genus="Candida" cmphy:species="schatavii" cmphy:strain="NRRL Y-17078T" cmphy:id="U45795" editRecord="[]">Candida schatavii NRRL Y-17078T (U45795)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="14.0" y="113.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="59.0" y="113.0"/>
+   <node id="NT1.3" label="NT1.3" x="89.0" y="210.0"/>
+   <node id="NT1.4" label="NT1.4" x="103.0" y="296.0"/>
+   <node id="NT1.5" label="NT1.5" x="113.0" y="15.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="127.0" y="473.0"/>
+   <node id="NT1.7" label="NT1.7" x="147.0" y="60.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="152.0" y="428.0"/>
+   <node id="NT1.9" label="NT1.9" x="155.0" y="215.0"/>
+   <node id="NT1.10" label="NT1.10" x="164.0" y="494.0"/>
+   <node id="NT1.11" label="NT1.11" x="164.0" y="359.0"/>
+   <node id="NT1.12" label="NT1.12" x="165.0" y="383.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="166.0" y="381.0"/>
+   <node id="NT1.14" label="NT1.14" x="168.0" y="610.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="168.0" y="381.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="189.0" y="540.0"/>
+   <node id="NT1.17" label="NT1.17" x="191.0" y="266.0"/>
+   <node id="NT1.18" label="NT1.18" x="198.0" y="335.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="202.0" y="564.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="204.0" y="518.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="229.0" y="290.0" otu="otu10"/>
+   <node id="NT1.24" x="239.0" y="440.0" label="100"/>
+   <node id="NT1.25" label="NT1.25" x="242.0" y="426.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="248.0" y="243.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="259.0" y="152.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="280.0" y="473.0" otu="otu16"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.3" target="NT1.7"/>
+   <edge id="e.2" source="NT1.17" target="NT1.21"/>
+   <edge id="e.3" source="NT1.17" target="NT1.27"/>
+   <edge id="e.4" source="NT1.13" target="NT1.15"/>
+   <edge id="e.5" source="NT1.13" target="NT1.12"/>
+   <edge id="e.7" source="NT1.11" target="NT1.18"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.10" source="NT1.4" target="NT1.6"/>
+   <edge id="e.11" source="NT1.4" target="NT1.9"/>
+   <edge id="e.12" source="NT1.6" target="NT1.8"/>
+   <edge id="e.13" source="NT1.9" target="NT1.17"/>
+   <edge id="e.15" source="NT1.8" target="NT1.10"/>
+   <edge id="e.16" source="NT1.8" target="NT1.11"/>
+   <edge id="e.18" source="NT1.10" target="NT1.16"/>
+   <edge id="e.19" source="NT1.10" target="NT1.24"/>
+   <edge id="e.20" source="NT1.11" target="NT1.13"/>
+   <edge id="e.21" source="NT1.24" target="NT1.25"/>
+   <edge id="e.22" source="NT1.2" target="NT1.5"/>
+   <edge id="e.23" source="NT1.6" target="NT1.14"/>
+   <edge id="e.24" source="NT1.16" target="NT1.19"/>
+   <edge id="e.25" source="NT1.16" target="NT1.20"/>
+   <edge id="e.27" target="NT1.28" source="NT1.9"/>
+   <edge id="e.28" source="NT1.24" target="NT1.30"/>
+  </tree>
+ </trees>
+</nexml>

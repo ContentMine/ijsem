@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[5__S]" cmphy:genus="Zygoascus" cmphy:species="hellenicus" cmphy:strain="CBS 58397" cmphy:id="AJS08584" editRecord="[5__S]">Zygoascus hellenicus CBS 58397 (AJ508584)</otu>
+  <otu id="otu2">Zygoasous steatolyticus var. steatolyticus CBS 9640T (AY447019)</otu>
+  <otu id="otu3">Saccharomyces cerevisiae CBS 1171 T (AY048154)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="digboiensis" cmphy:strain="CBS 98007" cmphy:id="AJS49213" editRecord="[5__S]">Candida digboiensis CBS 98007 (AJ549213)</otu>
+  <otu id="otu5" cmphy:genus="Candida" cmphy:species="incommunis" cmphy:strain="CBS 5604T" cmphy:id="U62303" editRecord="[]">Candida incommunis CBS 5604T (U62303)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Candida" cmphy:species="galli" cmphy:strain="NCAIM Y.01482T" cmphy:id="AYI16080" editRecord="[1__I]">Candida galli NCAIM Y.01482T (AY116080)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Candida" cmphy:species="phangngensis" cmphy:strain="TM2-16" cmphy:id="ABB04771" editRecord="[3__B]">Candida phangngensis TM2-16 (AB304771)</otu>
+  <otu id="otu8" cmphy:genus="Candida" cmphy:species="hispaniensis" cmphy:strain="CBS 9996T" cmphy:id="AY789654" editRecord="[]">Candida hispaniensis CBS 9996T (AY789654)</otu>
+  <otu id="otu9" cmphy:genus="Yarrowia" cmphy:species="lipolytica" cmphy:strain="CBS 6124T" cmphy:id="U40080" editRecord="[]">Yarrowia lipolytica CBS 6124T (U40080)</otu>
+  <otu id="otu10" cmphy:genus="Aciculoconidium" cmphy:species="aculeatum" cmphy:strain="CBS 5578T" cmphy:id="U40087" editRecord="[]">Aciculoconidium aculeatum CBS 5578T (U40087)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="27.0" y="302.0" label="89"/>
+   <node id="NT1.2" label="NT1.2" x="59.0" y="441.0"/>
+   <node id="NT1.3" label="NT1.3" x="64.0" y="417.0" otu="otu1"/>
+   <node id="NT1.4" label="NT1.4" x="64.0" y="467.0" otu="otu2"/>
+   <node id="NT1.5" label="NT1.5" x="76.0" y="516.0" otu="otu3"/>
+   <node id="NT1.6" label="NT1.6" x="104.0" y="366.0" otu="otu4"/>
+   <node id="NT1.7" label="NT1.7" x="106.0" y="210.0"/>
+   <node id="NT1.8" x="138.0" y="112.0" label="100"/>
+   <node id="NT1.9" label="NT1.9" x="165.0" y="316.0" otu="otu5"/>
+   <node id="NT1.10" label="NT1.10" x="173.0" y="40.0"/>
+   <node id="NT1.11" label="NT1.11" x="203.0" y="64.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="209.0" y="114.0" otu="otu7"/>
+   <node id="NT1.13" label="NT1.13" x="217.0" y="215.0" otu="otu8"/>
+   <node id="NT1.14" label="NT1.14" x="218.0" y="14.0" otu="otu9"/>
+   <node id="NT1.15" label="NT1.15" x="220.0" y="266.0" otu="otu10"/>
+   <edge source="NT1.11" target="NT1.10" id="e.0"/>
+   <edge source="NT1.13" target="NT1.8" id="e.1"/>
+   <edge source="NT1.15" target="NT1.7" id="e.2"/>
+   <edge source="NT1.9" target="NT1.1" id="e.3"/>
+   <edge source="NT1.6" target="NT1.1" id="e.4"/>
+   <edge source="NT1.10" target="NT1.8" id="e.5"/>
+   <edge source="NT1.8" target="NT1.7" id="e.6"/>
+   <edge source="NT1.7" target="NT1.1" id="e.7"/>
+   <edge source="NT1.1" target="NT1.2" id="e.8"/>
+   <edge source="NT1.5" target="NT1.1" id="e.9"/>
+   <edge source="NT1.3" target="NT1.2" id="e.10"/>
+   <edge source="NT1.4" target="NT1.2" id="e.11"/>
+   <edge source="NT1.14" target="NT1.10" id="e.12"/>
+   <edge source="NT1.12" target="NT1.8" id="e.13"/>
+  </tree>
+ </trees>
+</nexml>

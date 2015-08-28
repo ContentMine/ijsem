@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[O__0]" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="W168 PY79" cmphy:id="K00637" editRecord="[O__0]">Bacillus subtilis W168 PY79 (K0O637)</otu>
+  <otu id="otu4"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="43.0" y="413.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="322.0" y="400.0" otu="otu3"/>
+   <edge id="e.3" target="NT1.5" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

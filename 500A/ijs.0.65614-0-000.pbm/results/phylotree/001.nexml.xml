@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Sphingopyxis" cmphy:species="macrogoltabida" cmphy:strain="NBRC 15033T" cmphy:id="D13723" editRecord="[]">Sphingopyxis macrogoltabida NBRC 15033T (D13723)</otu>
+  <otu id="otu8" cmphy:genus="Sphingopyxis" cmphy:species="witflariensis" cmphy:strain="W-50T" cmphy:id="AJ416410" editRecord="[]">Sphingopyxis witflariensis W-50T (AJ416410)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Sphingopyxis" cmphy:species="chilensis" cmphy:strain="837T" cmphy:id="AFB67204" editRecord="[3__B]">Sphingopyxis chilensis 837T (AF367204)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Sphingopyxis" cmphy:species="alaskensis" cmphy:strain="RB2256T" cmphy:id="AYB37601" editRecord="[3__B]">Sphingopyxis alaskensis RB2256T (AY337601)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Sphingopyxis" cmphy:species="taejonensis" cmphy:strain="JSS54T" cmphy:id="AFI31297" editRecord="[1__I]">Sphingopyxis taejonensis JSS54T (AF131297)</otu>
+  <otu id="otu13" cmphy:genus="Sphingopyxis" cmphy:species="terrae" cmphy:strain="NBRC 15098T" cmphy:id="D13727" editRecord="[]">Sphingopyxis terrae NBRC 15098T (D13727)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Sphingopyxis" cmphy:species="baekryungensis" cmphy:strain="SW-150T" cmphy:id="AY608604" editRecord="[]">Sphingopyxis baekryungensis SW-150T (AY608604)</otu>
+  <otu id="otu16">Sphingopyxis fiavimaris SW-1517 (AY55401 0)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Strain FR1087T (DQ781320)</otu>
+  <otu id="otu19">Strain FR1O93T (DQ781321)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="258.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="38.0" y="258.0"/>
+   <node id="NT1.4" label="NT1.4" x="96.0" y="428.0"/>
+   <node id="NT1.8" label="NT1.8" x="110.0" y="511.0"/>
+   <node id="NT1.10" label="NT1.10" x="135.0" y="586.0"/>
+   <node id="NT1.13" label="NT1.13" x="175.0" y="661.0"/>
+   <node id="NT1.15" label="NT1.15" x="196.0" y="726.0"/>
+   <node id="NT1.16" label="NT1.16" x="197.0" y="513.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="205.0" y="430.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="219.0" y="763.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="219.0" y="681.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="234.0" y="596.0" otu="otu12"/>
+   <node id="NT1.22" label="NT1.22" x="244.0" y="348.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="291.0" y="18.0" otu="otu15"/>
+   <edge id="e.1" target="NT1.26" source="NT1.2"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" source="NT1.8" target="NT1.17"/>
+   <edge id="e.13" source="NT1.10" target="NT1.16"/>
+   <edge id="e.15" source="NT1.13" target="NT1.21"/>
+   <edge id="e.16" source="NT1.15" target="NT1.19"/>
+   <edge id="e.17" source="NT1.15" target="NT1.20"/>
+   <edge id="e.20" source="NT1.2" target="NT1.4"/>
+   <edge id="e.24" target="NT1.8" source="NT1.4"/>
+   <edge id="e.25" source="NT1.8" target="NT1.10"/>
+   <edge id="e.27" target="NT1.13" source="NT1.10"/>
+   <edge id="e.28" source="NT1.13" target="NT1.15"/>
+   <edge id="e.29" source="NT1.4" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Niastella" cmphy:species="koreensis" cmphy:strain="KACC 11465T" cmphy:id="DQZ44077" editRecord="[2__Z]"> Niastella koreensis KACC 11465T (DQ244077)</otu>
+  <otu id="otu3" cmphy:genus="Chitinophaga" cmphy:species="japonensis" cmphy:strain="DSM 134847" cmphy:id="ABO78055" editRecord="[]">Chitinophaga japonensis DSM 134847 (ABO78055)</otu>
+  <otu id="otu4" cmphy:genus="Chitinophaga" cmphy:species="arvensicola" cmphy:strain="IAM 1265OT" cmphy:id="D12657" editRecord="[]">Chitinophaga arvensicola IAM 1265OT (D12657)</otu>
+  <otu id="otu5" cmphy:genus="Terrimonas" cmphy:species="ferruginea" cmphy:strain="ATCC 13524T" cmphy:id="M62798" editRecord="[]">Terrimonas ferruginea ATCC 13524T (M62798)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Chitinophaga" cmphy:species="sancti" cmphy:strain="DSM 7847" cmphy:id="ABO78066" editRecord="[0__O]">Chitinophaga sancti DSM 7847 (AB078066)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Niabella" cmphy:species="aurantiaca" cmphy:strain="KACC 116987" cmphy:id="DQ457019" editRecord="[]">Niabella aurantiaca KACC 116987 (DQ457019)</otu>
+  <otu id="otu9" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 119477" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 119477 (M62797)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="291.0" y="278.0"/>
+   <node id="NT1.2" x="339.0" y="187.0" label="93"/>
+   <node id="NT1.3" x="377.0" y="370.0" label="99"/>
+   <node id="NT1.4" x="386.0" y="417.0" label="45"/>
+   <node id="NT1.5" x="417.0" y="81.0" label="60"/>
+   <node id="NT1.8" label="NT1.8" x="499.0" y="220.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="499.0" y="372.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="513.0" y="322.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="538.0" y="119.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="545.0" y="423.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="617.0" y="68.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="618.0" y="576.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="4.0" y="427.0" root="true"/>
+   <edge id="e.1" target="NT1.15" source="NT1.5"/>
+   <edge id="e.2" source="NT1.5" target="NT1.12"/>
+   <edge id="e.4" target="NT1.8" source="NT1.2"/>
+   <edge id="e.5" source="NT1.3" target="NT1.10"/>
+   <edge id="e.6" source="NT1.4" target="NT1.9"/>
+   <edge id="e.7" source="NT1.4" target="NT1.13"/>
+   <edge id="e.9" source="NT1.2" target="NT1.5"/>
+   <edge id="e.10" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" source="NT1.1" target="NT1.3"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" source="NT1.17" target="NT1.16"/>
+   <edge id="e.15" source="NT1.17" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

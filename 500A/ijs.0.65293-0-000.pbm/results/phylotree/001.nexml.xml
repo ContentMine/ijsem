@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[5__S]" cmphy:genus="Janibacter" cmphy:species="melonis" cmphy:strain="CM2104T" cmphy:id="AYS22568" editRecord="[5__S]">Janibacter melonis CM2104T (AY522568)</otu>
+  <otu id="otu2" cmphy:genus="Terrabacter" cmphy:species="tumescens" cmphy:strain="DSM 203087" cmphy:id="X83812" editRecord="[]"> Terrabacter tumescens DSM 203087 (X83812)</otu>
+  <otu id="otu3"> Terrabacterterrae PPLBT (AY944176)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Janibacter" cmphy:species="terrae" cmphy:strain="CS12T" cmphy:id="AFI76948" editRecord="[1__I]">Janibacter terrae CS12T (AF176948)</otu>
+  <otu id="otu6" cmphy:genus="Janibacter" cmphy:species="limosus" cmphy:strain="DSM 111407" cmphy:id="Y08539" editRecord="[]">Janibacter limosus DSM 111407 (Y08539)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Intrasporangium" cmphy:species="calvum" cmphy:strain="DSM 43043T" cmphy:id="AJS66282" editRecord="[5__S]">Intrasporangium calvum DSM 43043T (AJ566282)</otu>
+  <otu id="otu8" cmphy:genus="Terracoccus" cmphy:species="luteus" cmphy:strain="DSM 44267T" cmphy:id="Y11928" editRecord="[]">Terracoccus luteus DSM 44267T (Y11928)</otu>
+  <otu id="otu9">Strain 53178-217 (EF553529)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Knoellia" cmphy:species="subterranea" cmphy:strain="HKI 01207" cmphy:id="AJZ94413" editRecord="[2__Z]">Knoellia subterranea HKI 01207 (AJ294413)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Tetrasphaera" cmphy:species="japonica" cmphy:strain="T1 -X7T" cmphy:id="AFI25092" editRecord="[1__I]">Tetrasphaera japonica T1 -X7T (AF125092)</otu>
+  <otu id="otu12" cmphy:genus="Tetrasphaera" cmphy:species="elongate" cmphy:strain="Lp2T" cmphy:id="ABO30911" editRecord="[]">Tetrasphaera elongate Lp2T (ABO30911)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Tetrasphaera" cmphy:species="australiensis" cmphy:strain="Ben 109T" cmphy:id="AFI25091" editRecord="[1__I]">Tetrasphaera australiensis Ben 109T (AF125091)</otu>
+  <otu id="otu14" cmphy:genus="Arfhrobacter" cmphy:species="globiformis" cmphy:strain="DSM 20124T" cmphy:id="X80736" editRecord="[]">Arfhrobacter globiformis DSM 20124T (X80736)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="99.0" y="326.0"/>
+   <node id="NT1.2" x="178.0" y="203.0" label="98"/>
+   <node id="NT1.3" label="NT1.3" x="195.0" y="446.0"/>
+   <node id="NT1.4" label="NT1.4" x="219.0" y="115.0"/>
+   <node id="NT1.5" x="224.0" y="290.0" label="96"/>
+   <node id="NT1.6" x="234.0" y="406.0" label="67"/>
+   <node id="NT1.8" x="287.0" y="166.0" label="52"/>
+   <node id="NT1.9" label="NT1.9" x="296.0" y="322.0"/>
+   <node id="NT1.11" label="NT1.11" x="304.0" y="260.0" otu="otu1"/>
+   <node id="NT1.13" label="NT1.13" x="328.0" y="197.0"/>
+   <node id="NT1.14" label="NT1.14" x="343.0" y="509.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="371.0" y="343.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="375.0" y="301.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="389.0" y="384.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="399.0" y="426.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="427.0" y="53.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="472.0" y="135.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="487.0" y="219.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="561.0" y="176.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="561.0" y="550.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="2.0" y="438.0" root="true"/>
+   <edge id="e.1" target="NT1.22" source="NT1.4"/>
+   <edge id="e.3" source="NT1.8" target="NT1.23"/>
+   <edge id="e.4" source="NT1.13" target="NT1.24"/>
+   <edge id="e.5" source="NT1.5" target="NT1.11"/>
+   <edge id="e.6" source="NT1.13" target="NT1.25"/>
+   <edge id="e.7" source="NT1.9" target="NT1.17"/>
+   <edge id="e.8" source="NT1.9" target="NT1.18"/>
+   <edge id="e.9" target="NT1.14" source="NT1.3"/>
+   <edge id="e.11" source="NT1.6" target="NT1.19"/>
+   <edge id="e.12" source="NT1.6" target="NT1.20"/>
+   <edge id="e.15" source="NT1.2" target="NT1.4"/>
+   <edge id="e.16" source="NT1.4" target="NT1.8"/>
+   <edge id="e.17" source="NT1.8" target="NT1.13"/>
+   <edge id="e.18" source="NT1.1" target="NT1.2"/>
+   <edge id="e.19" source="NT1.2" target="NT1.5"/>
+   <edge id="e.20" source="NT1.5" target="NT1.9"/>
+   <edge id="e.21" source="NT1.1" target="NT1.3"/>
+   <edge id="e.23" source="NT1.3" target="NT1.6"/>
+   <edge id="e.24" source="NT1.27" target="NT1.26"/>
+   <edge id="e.25" source="NT1.27" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

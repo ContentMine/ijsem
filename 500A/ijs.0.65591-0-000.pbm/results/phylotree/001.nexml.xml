@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Curtobacterium Iuteum DSM 20542T (X77437)</otu>
+  <otu id="otu2" cmphy:genus="Rathayibacter" cmphy:species="toxicus" cmphy:strain="JCM 9669T" cmphy:id="D84127" editRecord="[]">Rathayibacter toxicus JCM 9669T (D84127)</otu>
+  <otu id="otu3" cmphy:genus="Curtobacterium" cmphy:species="pusillum" cmphy:strain="DSM 20527T" cmphy:id="AJ784400" editRecord="[]">Curtobacterium pusillum DSM 20527T (AJ784400)</otu>
+  <otu id="otu4" cmphy:genus="Curtobacterium" cmphy:species="albidum" cmphy:strain="DSM 2O512T" cmphy:id="AMO42692" editRecord="[]">Curtobacterium albidum DSM 2O512T (AMO42692)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Cunobacterium" cmphy:species="flaccumfaciens" cmphy:strain="LMG 36457" cmphy:id="AJB12209" editRecord="[3__B]">Cunobacterium flaccumfaciens LMG 36457 (AJ312209)</otu>
+  <otu id="otu6" cmphy:genus="Curtobacterium" cmphy:species="citreum" cmphy:strain="DSM 205287" cmphy:id="X77436" editRecord="[]">Curtobacterium citreum DSM 205287 (X77436)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Curfobacterium" cmphy:species="ammoniigenes" cmphy:strain="NBRC 1017867" cmphy:id="ABZ66597" editRecord="[2__Z]">Curfobacterium ammoniigenes NBRC 1017867 (AB266597)</otu>
+  <otu id="otu8">Rathayibactertritici DSM 7486T (X77438)</otu>
+  <otu id="otu9" cmphy:genus="Clavibacter" cmphy:species="michiganensis" cmphy:strain="DSM 463647" cmphy:id="X77435" editRecord="[]">Clavibacter michiganensis DSM 463647 (X77435)</otu>
+  <otu id="otu10" cmphy:genus="Rathayibacter" cmphy:species="rathayi" cmphy:strain="DSM 7485T" cmphy:id="X77439" editRecord="[]">Rathayibacter rathayi DSM 7485T (X77439)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Curtobaoterium" cmphy:species="herbarum" cmphy:strain="DSM 14O13T" cmphy:id="AJB10413" editRecord="[3__B]">Curtobaoterium herbarum DSM 14O13T (AJ310413)</otu>
+  <otu id="otu12" cmphy:genus="Rathayibacter" cmphy:species="iranicus" cmphy:strain="ICMP 34967" cmphy:id="AM410684" editRecord="[]">Rathayibacter iranicus ICMP 34967 (AM410684)</otu>
+  <otu id="otu13">Rathayibacter caricis VKM Ac-1799T (AF 1 59364)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Rathayibacter" cmphy:species="festucae" cmphy:strain="VKM Ac-13907" cmphy:id="AFI59365" editRecord="[1__I]">Rathayibacter festucae VKM Ac-13907 (AF159365)</otu>
+  <otu id="otu15" cmphy:edit="[5__S]" cmphy:genus="Curtobacterium" cmphy:species="ginsengisoli" cmphy:strain="DCY26T" cmphy:id="EFS87758" editRecord="[5__S]">Curtobacterium ginsengisoli DCY26T (EF587758)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="12.0" y="390.0"/>
+   <node id="NT1.2" x="104.0" y="484.0" label="93"/>
+   <node id="NT1.3" label="NT1.3" x="110.0" y="297.0"/>
+   <node id="NT1.4" label="NT1.4" x="174.0" y="215.0"/>
+   <node id="NT1.5" label="NT1.5" x="178.0" y="193.0"/>
+   <node id="NT1.6" label="NT1.6" x="180.0" y="274.0"/>
+   <node id="NT1.9" label="NT1.9" x="198.0" y="309.0"/>
+   <node id="NT1.10" label="NT1.10" x="201.0" y="424.0" otu="otu2"/>
+   <node id="NT1.11" x="205.0" y="79.0" label="93"/>
+   <node id="NT1.12" label="NT1.12" x="206.0" y="240.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="208.0" y="102.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="209.0" y="286.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="211.0" y="55.0" otu="otu6"/>
+   <node id="NT1.16" x="216.0" y="545.0" label="100"/>
+   <node id="NT1.17" label="NT1.17" x="217.0" y="194.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="218.0" y="517.0"/>
+   <node id="NT1.21" label="NT1.21" x="231.0" y="10.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="235.0" y="471.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="245.0" y="333.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="255.0" y="517.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="278.0" y="609.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="361.0" y="379.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="1.0" y="200.0" root="true"/>
+   <edge id="e.0" source="NT1.2" target="NT1.10"/>
+   <edge id="e.1" source="NT1.5" target="NT1.17"/>
+   <edge id="e.3" source="NT1.18" target="NT1.25"/>
+   <edge id="e.5" source="NT1.9" target="NT1.24"/>
+   <edge id="e.7" source="NT1.11" target="NT1.13"/>
+   <edge id="e.8" target="NT1.27" source="NT1.16"/>
+   <edge id="e.9" source="NT1.11" target="NT1.15"/>
+   <edge id="e.10" source="NT1.3" target="NT1.28"/>
+   <edge id="e.11" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" source="NT1.1" target="NT1.3"/>
+   <edge id="e.13" source="NT1.2" target="NT1.16"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.6"/>
+   <edge id="e.16" source="NT1.4" target="NT1.5"/>
+   <edge id="e.19" source="NT1.16" target="NT1.18"/>
+   <edge id="e.20" source="NT1.6" target="NT1.9"/>
+   <edge id="e.21" target="NT1.11" source="NT1.5"/>
+   <edge id="e.23" source="NT1.29" target="NT1.21"/>
+   <edge id="e.24" source="NT1.29" target="NT1.1"/>
+   <edge id="e.25" source="NT1.6" target="NT1.12"/>
+   <edge id="e.26" source="NT1.9" target="NT1.14"/>
+   <edge id="e.27" source="NT1.18" target="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

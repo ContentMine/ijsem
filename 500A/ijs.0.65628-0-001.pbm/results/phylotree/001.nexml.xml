@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="erumpens" cmphy:strain="NBRC 15403T" cmphy:id="ABI84654" editRecord="[1__I]">S. erumpens NBRC 15403T (AB184654)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="baarnensis" cmphy:strain="NBRC 14727T" cmphy:id="ABI84615" editRecord="[1__I]">S. baarnensis NBRC 14727T (AB184615)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="spiroverticillatus" cmphy:strain="NBRC 12821T" cmphy:id="ABZ49921" editRecord="[2__Z]">S. spiroverticillatus NBRC 12821T (AB249921)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="alboviridis" cmphy:strain="NBRC 13O13T" cmphy:id="ABI84256" editRecord="[1__I]">S. alboviridis NBRC 13O13T (AB184256)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="microflavus" cmphy:strain="NBRC 13O62T" cmphy:id="ABI84284" editRecord="[1__I]">S. microflavus NBRC 13O62T (AB184284)</otu>
+  <otu id="otu6"> S. mauve-color NBRC 13854T (AB184532)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="griseobrunneus" cmphy:strain="NBRC 12775T" cmphy:id="ABZ49912" editRecord="[2__Z]">S. griseobrunneus NBRC 12775T (AB249912)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="albolongus" cmphy:strain="NBRC 13465T" cmphy:id="ABI84425" editRecord="[1__I]">S. albolongus NBRC 13465T (AB184425)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="sanglieri" cmphy:strain="NBRC 1O0784T" cmphy:id="ABZ49945" editRecord="[2__Z]">S. sanglieri NBRC 1O0784T (AB249945)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="naraensis" cmphy:strain="NBRC 15618" cmphy:id="ABI84691" editRecord="[1__I]">S. naraensis NBRC 15618 (AB184691)</otu>
+  <otu id="otu12">S. Iitmocidini JCM 4394T (D44109)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="goshikiensis" cmphy:strain="NBRC 12868T" cmphy:id="ABI84204" editRecord="[1__I]">S. goshikiensis NBRC 12868T (AB184204)</otu>
+  <otu id="otu14">S. exfoliatus NRRL B-1 237T (AY999796)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="173.0" y="463.0" label="68"/>
+   <node id="NT1.3" x="487.0" y="596.0" label="86"/>
+   <node id="NT1.4" label="NT1.4" x="509.0" y="328.0"/>
+   <node id="NT1.6" label="NT1.6" x="566.0" y="197.0"/>
+   <node id="NT1.7" label="NT1.7" x="603.0" y="222.0" otu="otu1"/>
+   <node id="NT1.8" x="603.0" y="301.0" label="55"/>
+   <node id="NT1.9" label="NT1.9" x="604.0" y="381.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="649.0" y="537.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="649.0" y="655.0"/>
+   <node id="NT1.12" x="685.0" y="92.0" label="54"/>
+   <node id="NT1.13" label="NT1.13" x="686.0" y="171.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="687.0" y="12.0" otu="otu5"/>
+   <node id="NT1.18" x="735.0" y="720.0" label="58"/>
+   <node id="NT1.19" label="NT1.19" x="736.0" y="642.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="736.0" y="800.0" otu="otu9"/>
+   <node id="NT1.21" x="771.0" y="458.0" label="85"/>
+   <node id="NT1.22" label="NT1.22" x="772.0" y="432.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="772.0" y="485.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="879.0" y="589.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="6.0" y="827.0" root="true"/>
+   <edge id="e.0" source="NT1.12" target="NT1.14"/>
+   <edge id="e.1" source="NT1.12" target="NT1.13"/>
+   <edge id="e.2" source="NT1.8" target="NT1.7"/>
+   <edge id="e.3" source="NT1.8" target="NT1.9"/>
+   <edge id="e.4" source="NT1.21" target="NT1.22"/>
+   <edge id="e.5" source="NT1.21" target="NT1.23"/>
+   <edge id="e.6" source="NT1.3" target="NT1.10"/>
+   <edge id="e.7" source="NT1.18" target="NT1.19"/>
+   <edge id="e.8" source="NT1.18" target="NT1.20"/>
+   <edge id="e.9" source="NT1.11" target="NT1.25"/>
+   <edge id="e.14" source="NT1.6" target="NT1.12"/>
+   <edge id="e.15" source="NT1.4" target="NT1.6"/>
+   <edge id="e.16" source="NT1.6" target="NT1.8"/>
+   <edge id="e.17" source="NT1.2" target="NT1.4"/>
+   <edge id="e.18" source="NT1.4" target="NT1.21"/>
+   <edge id="e.19" target="NT1.2" source="NT1.27"/>
+   <edge id="e.20" source="NT1.2" target="NT1.3"/>
+   <edge id="e.22" source="NT1.3" target="NT1.11"/>
+   <edge id="e.23" source="NT1.11" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

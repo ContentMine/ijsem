@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">V. metschnikoviiATCC 7000407 (X74711)</otu>
+  <otu id="otu3" cmphy:genus="v." cmphy:species="ordalii" cmphy:strain="ATCC 33509T" cmphy:id="X74718">v. ordalii ATCC 33509T (X74718)</otu>
+  <otu id="otu4">V. aestuarianus ATCC 350487 (X74689)</otu>
+  <otu id="otu5">V. orientalis ATCC 33934T (X74719)</otu>
+  <otu id="otu6">V. shflonii AK-1T (AF007115)</otu>
+  <otu id="otu7">V. tubiashii ATCC 191 O9T (X74725)</otu>
+  <otu id="otu8">V. neptunius LMG 20536T (AJ316171)</otu>
+  <otu id="otu9"> V. areninigrae J74T (EU143360)</otu>
+  <otu id="otu10">V. pectenicida ATCC 7oo783T (Y13830)</otu>
+  <otu id="otu11">V. hispanicus LMG 132407 (AY254040)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"> V. furnissil ATCC 3501GT (X74704)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="655.0" otu="otu1" root="true"/>
+   <node id="NT1.11" label="NT1.11" x="300.0" y="680.0" otu="otu3"/>
+   <edge id="e.10" target="NT1.11" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

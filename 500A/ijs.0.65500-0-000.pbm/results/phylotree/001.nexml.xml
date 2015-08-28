@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Riemerella" cmphy:species="columbina" cmphy:strain="LMG 116077" cmphy:id="AFI81448" editRecord="[1__I]">Riemerella columbina LMG 116077 (AF181448)</otu>
+  <otu id="otu2">C. formosense CC-H3-27 (AY315443)</otu>
+  <otu id="otu3"> C. indologenes ATCC 298977 (M58773)</otu>
+  <otu id="otu4"> C. gleum ATCC 359107 (M58772)</otu>
+  <otu id="otu5"> C. scophthalmum LMG 130287 (AJ271009)</otu>
+  <otu id="otu6">C. indoltheticum ATCC 279507 (M58774)</otu>
+  <otu id="otu7"> C. taiwanense BCRC 174127 (DQ318789)</otu>
+  <otu id="otu8">C. daecheongense CPW4067 (AJ457206)</otu>
+  <otu id="otu9">C. haifense H387 (EF204450)</otu>
+  <otu id="otu10"> C. balustinum ATCC 334877 (M58771)</otu>
+  <otu id="otu11">C. daeguense K1057 (EF076759)</otu>
+  <otu id="otu12">C. soldanellicola PSD1-47 (AY883415)</otu>
+  <otu id="otu13">C. wanjuense R2A10-27 (DQ256729)</otu>
+  <otu id="otu14"> C. defiuvii B27 (AJ309324)</otu>
+  <otu id="otu15"> C. piscium LMG 230897 (AM040439)</otu>
+  <otu id="otu16">C. joostei LMG 182127 (AJ271010)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">C. caeni N47 (DQ336714)</otu>
+  <otu id="otu19">C. hispanicum VP487 (AM159183)</otu>
+  <otu id="otu20">C. taichungense CC-TWGS1487 (AJ843132)</otu>
+  <otu id="otu21">C. taeanense PHA3-47 (AY883416)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23">C. bovis H15 (EF204448)</otu>
+  <otu id="otu24">C. bovis H10 (EF204447)</otu>
+  <otu id="otu25"/>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28">Riemerella anatipestifer ATCC 1 18457 (U10877)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.11" label="NT1.11" x="290.0" y="982.0" otu="otu1"/>
+   <node id="NT1.54" label="NT1.54" x="2.0" y="941.0" root="true"/>
+   <edge id="e.25" target="NT1.11" source="NT1.54"/>
+  </tree>
+ </trees>
+</nexml>

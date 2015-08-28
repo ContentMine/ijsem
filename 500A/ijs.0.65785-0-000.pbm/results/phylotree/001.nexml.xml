@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Aeromicrobium" cmphy:species="erythreum" cmphy:strain="NRRL B-3381T" cmphy:id="AFO05021" editRecord="[0__O]">Aeromicrobium erythreum NRRL B-3381T (AF005021)</otu>
+  <otu id="otu2" cmphy:genus="Nocardioides" cmphy:species="dubius" cmphy:strain="KCTC 99927" cmphy:id="AY928902" editRecord="[]">Nocardioides dubius KCTC 99927 (AY928902)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Nocardioidesjensenii DSM 20641T (278210)</otu>
+  <otu id="otu6" cmphy:edit="[8__B]" cmphy:genus="Nocardioides" cmphy:species="kribbensis" cmphy:strain="KCTC 190387" cmphy:id="AYB35924" editRecord="[8__B]">Nocardioides kribbensis KCTC 190387 (AY835924)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Nocardioides" cmphy:species="aquiterrae" cmphy:strain="GW-9T" cmphy:id="AFS29063" editRecord="[5__S]"> Nocardioides aquiterrae GW-9T (AF529063)</otu>
+  <otu id="otu8" cmphy:genus="Nocardioides" cmphy:species="alkalitolerans" cmphy:strain="KCTC 19O37T" cmphy:id="AY633969" editRecord="[]">Nocardioides alkalitolerans KCTC 19O37T (AY633969)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Nocardioides" cmphy:species="daphniae" cmphy:strain="D287T" cmphy:id="AMB98438" editRecord="[3__B]">Nocardioides daphniae D287T (AM398438)</otu>
+  <otu id="otu10" cmphy:genus="Nocardioides" cmphy:species="aquaticus" cmphy:strain="DSM 11439T" cmphy:id="X94145" editRecord="[]">Nocardioides aquaticus DSM 11439T (X94145)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Marmoricola" cmphy:species="aurantiacus" cmphy:strain="BC 361T" cmphy:id="Y18629" editRecord="[]">Marmoricola aurantiacus BC 361T (Y18629)</otu>
+  <otu id="otu13">Nocardioides Ientus KSL-17T (DQ121389)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="127.0" y="962.0"/>
+   <node id="NT1.2" x="148.0" y="895.0" label="49"/>
+   <node id="NT1.3" x="165.0" y="1027.0" label="66"/>
+   <node id="NT1.4" label="NT1.4" x="183.0" y="826.0"/>
+   <node id="NT1.5" x="203.0" y="727.0" label="57"/>
+   <node id="NT1.8" x="238.0" y="618.0" label="48"/>
+   <node id="NT1.10" label="NT1.10" x="323.0" y="1110.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="349.0" y="1000.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="476.0" y="744.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="485.0" y="671.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="496.0" y="927.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="518.0" y="963.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="527.0" y="817.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="548.0" y="1036.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="1.0" y="1036.0" root="true"/>
+   <edge id="e.0" target="NT1.18" source="NT1.8"/>
+   <edge id="e.1" source="NT1.8" target="NT1.17"/>
+   <edge id="e.5" target="NT1.21" source="NT1.5"/>
+   <edge id="e.6" source="NT1.4" target="NT1.19"/>
+   <edge id="e.7" source="NT1.3" target="NT1.12"/>
+   <edge id="e.9" source="NT1.2" target="NT1.20"/>
+   <edge id="e.11" target="NT1.23" source="NT1.3"/>
+   <edge id="e.12" source="NT1.5" target="NT1.8"/>
+   <edge id="e.14" source="NT1.4" target="NT1.5"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+   <edge id="e.19" source="NT1.1" target="NT1.2"/>
+   <edge id="e.20" source="NT1.1" target="NT1.3"/>
+   <edge id="e.22" source="NT1.25" target="NT1.10"/>
+   <edge id="e.23" source="NT1.25" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

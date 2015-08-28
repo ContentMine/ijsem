@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Cellulophaga" cmphy:species="lytica" cmphy:strain="ATCC 23178T" cmphy:id="M62796" editRecord="[]">Cellulophaga lytica ATCC 23178T (M62796)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Aequorivita" cmphy:species="antarctica" cmphy:strain="ACAM 640T" cmphy:id="AYO27802" editRecord="[0__O]">Aequorivita antarctica ACAM 640T (AY027802)</otu>
+  <otu id="otu6">Muricauda Iutimaris SMK-1087 (EU156065)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Zobellia" cmphy:species="galactanivorans" cmphy:strain="DsijT" cmphy:id="AFZ08293" editRecord="[2__Z]">Zobellia galactanivorans DsijT (AF208293)</otu>
+  <otu id="otu8" cmphy:genus="Robiginitalea" cmphy:species="biformata" cmphy:strain="HTCC2501T" cmphy:id="AY424899" editRecord="[]">Robiginitalea biformata HTCC2501T (AY424899)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Maribacter" cmphy:species="sedimenticola" cmphy:strain="KMM 39O3T" cmphy:id="AYZ71623" editRecord="[2__Z]">Maribacter sedimenticola KMM 39O3T (AY271623)</otu>
+  <otu id="otu10" cmphy:genus="Muricauda" cmphy:species="aquimarina" cmphy:strain="SW-63T" cmphy:id="AY445075" editRecord="[]">Muricauda aquimarina SW-63T (AY445075)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Flagellimonas" cmphy:species="eckloniae" cmphy:strain="DOKDO 007T" cmphy:id="DQI91180" editRecord="[1__I]">Flagellimonas eckloniae DOKDO 007T (DQ191180)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Muricauda" cmphy:species="ruestringensis" cmphy:strain="B17" cmphy:id="AFZ18782" editRecord="[2__Z]">Muricauda ruestringensis B17 (AF218782)</otu>
+  <otu id="otu13">Arenibacterlatericius KMM 4267 (AF052742)</otu>
+  <otu id="otu14" cmphy:genus="Muricauda" cmphy:species="flavescens" cmphy:strain="SW-62T" cmphy:id="AY445073" editRecord="[]">Muricauda flavescens SW-62T (AY445073)</otu>
+  <otu id="otu15">Costertonia aggregata COPRI</otu>
+  <otu id="otu16" cmphy:genus="Bacteroides" cmphy:species="fragilis" cmphy:strain="ATCC 25285" cmphy:id="X83935" editRecord="[]">Bacteroides fragilis ATCC 25285 (X83935)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="74.0" y="451.0"/>
+   <node id="NT1.3" label="NT1.3" x="165.0" y="354.0"/>
+   <node id="NT1.6" label="NT1.6" x="238.0" y="248.0"/>
+   <node id="NT1.8" label="NT1.8" x="242.0" y="151.0"/>
+   <node id="NT1.10" label="NT1.10" x="334.0" y="499.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="371.0" y="455.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="381.0" y="280.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="384.0" y="411.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="385.0" y="236.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="386.0" y="105.0" otu="otu10"/>
+   <node id="NT1.18" label="NT1.18" x="392.0" y="192.0" otu="otu11"/>
+   <node id="NT1.19" label="NT1.19" x="403.0" y="61.0" otu="otu12"/>
+   <node id="NT1.21" label="NT1.21" x="425.0" y="149.0" otu="otu14"/>
+   <node id="NT1.23" label="NT1.23" x="650.0" y="543.0" otu="otu16"/>
+   <node id="NT1.24" label="NT1.24" x="5.0" y="520.0" root="true"/>
+   <edge id="e.1" source="NT1.8" target="NT1.18"/>
+   <edge id="e.6" target="NT1.8" source="NT1.3"/>
+   <edge id="e.9" target="NT1.6" source="NT1.8"/>
+   <edge id="e.10" source="NT1.1" target="NT1.3"/>
+   <edge id="e.11" source="NT1.24" target="NT1.1"/>
+   <edge id="e.12" source="NT1.1" target="NT1.12"/>
+   <edge id="e.13" source="NT1.3" target="NT1.15"/>
+   <edge id="e.14" source="NT1.1" target="NT1.10"/>
+   <edge id="e.15" source="NT1.24" target="NT1.23"/>
+   <edge id="e.17" source="NT1.6" target="NT1.14"/>
+   <edge id="e.18" source="NT1.6" target="NT1.16"/>
+   <edge id="e.19" source="NT1.8" target="NT1.21"/>
+   <edge id="e.20" source="NT1.8" target="NT1.17"/>
+   <edge id="e.22" target="NT1.19" source="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

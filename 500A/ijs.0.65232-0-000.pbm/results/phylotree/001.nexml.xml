@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Ureibacillus" cmphy:species="terrenus" cmphy:strain="DSM 12654T" cmphy:id="AJZ76403" editRecord="[2__Z]">Ureibacillus terrenus DSM 12654T (AJ276403)</otu>
+  <otu id="otu4" cmphy:genus="Ureibacillus" cmphy:species="thermosphaericus" cmphy:strain="P-11T" cmphy:id="X90640" editRecord="[]">Ureibacillus thermosphaericus P-11T (X90640)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="thermocloacae" cmphy:strain="DSM 52507" cmphy:id="Z26939" editRecord="[2__Z]">Bacillus thermocloacae DSM 52507 (226939)</otu>
+  <otu id="otu7">Bacillus subtilis subsp. subtilis</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="20.0" y="182.0"/>
+   <node id="NT1.2" x="207.0" y="142.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="302.0" y="138.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="303.0" y="180.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="349.0" y="221.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="3.0" y="222.0" root="true"/>
+   <edge id="e.3" target="NT1.8" source="NT1.2"/>
+   <edge id="e.4" source="NT1.2" target="NT1.9"/>
+   <edge id="e.5" source="NT1.1" target="NT1.11"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" source="NT1.13" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

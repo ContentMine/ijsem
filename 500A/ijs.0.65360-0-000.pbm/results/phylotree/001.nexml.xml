@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Haloferax" cmphy:species="prahovense" cmphy:strain="TL6T" cmphy:id="ABZ58305" editRecord="[2__Z]">Haloferax prahovense TL6T (AB258305)</otu>
+  <otu id="otu3">Haloferax voIcaniiATCC 296057 (K0O421)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Haloferax" cmphy:species="lucentense" cmphy:strain="JCM 9276T" cmphy:id="ABO81732" editRecord="[0__O]">Haloferax lucentense JCM 9276T (AB081732)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Halogeometricum" cmphy:species="borinquense" cmphy:strain="PR3T" cmphy:id="AFO02984" editRecord="[O__0]">Halogeometricum borinquense PR3T (AFOO2984)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Haloferax" cmphy:species="alexandrinus" cmphy:strain="TMT" cmphy:id="ABO37474" editRecord="[0__O]">Haloferax alexandrinus TMT (AB037474)</otu>
+  <otu id="otu7">Haloferax gibbonsiiATCC 33959T (D13378)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Haloferax" cmphy:species="larsenii" cmphy:strain="ZJ2O6T" cmphy:id="AYB38278" editRecord="[8__B]">Haloferax larsenii ZJ2O6T (AY838278)</otu>
+  <otu id="otu9" cmphy:genus="Haloferax" cmphy:species="denitrificans" cmphy:strain="ATCC 35960T" cmphy:id="D14128" editRecord="[]">Haloferax denitrificans ATCC 35960T (D14128)</otu>
+  <otu id="otu10" cmphy:genus="Haloferax" cmphy:species="sulfurifontis" cmphy:strain="M6T" cmphy:id="AY458601" editRecord="[]">Haloferax sulfurifontis M6T (AY458601)</otu>
+  <otu id="otu11">PA1 27 (DQ860980)</otu>
+  <otu id="otu12">SA5T (DQ860977)</otu>
+  <otu id="otu13">Haloferax mediterraneiATCC 335OOT (D1 1 107)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="506.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="11.0" y="505.0"/>
+   <node id="NT1.3" x="280.0" y="426.0" label="100"/>
+   <node id="NT1.4" x="312.0" y="350.0" label="77"/>
+   <node id="NT1.6" x="372.0" y="202.0" label="75"/>
+   <node id="NT1.7" label="NT1.7" x="379.0" y="134.0"/>
+   <node id="NT1.9" label="NT1.9" x="387.0" y="270.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="390.0" y="76.0"/>
+   <node id="NT1.14" label="NT1.14" x="411.0" y="218.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="413.0" y="580.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="416.0" y="63.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="437.0" y="476.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="440.0" y="115.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="445.0" y="425.0" otu="otu10"/>
+   <edge id="e.1" target="NT1.16" source="NT1.10"/>
+   <edge id="e.4" source="NT1.4" target="NT1.21"/>
+   <edge id="e.5" target="NT1.19" source="NT1.3"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.2" target="NT1.15"/>
+   <edge id="e.9" source="NT1.7" target="NT1.10"/>
+   <edge id="e.10" source="NT1.6" target="NT1.7"/>
+   <edge id="e.12" target="NT1.6" source="NT1.4"/>
+   <edge id="e.15" source="NT1.3" target="NT1.4"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.18" source="NT1.6" target="NT1.9"/>
+   <edge id="e.19" source="NT1.10" target="NT1.20"/>
+   <edge id="e.20" target="NT1.14" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

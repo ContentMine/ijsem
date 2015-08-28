@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">H. ventosae CECT 57977 (AY268080)</otu>
+  <otu id="otu2">H. campaniensis DSM 152937 (AJ515365)</otu>
+  <otu id="otu3">H. denitrificans DSM 180457</otu>
+  <otu id="otu4"> H. shengliensis LMG 238977 (EF121853)</otu>
+  <otu id="otu5">H. koreensis JCM 122377 (AY382579)</otu>
+  <otu id="otu6">H. gudaonensis LMG 236107 (DQ421808)</otu>
+  <otu id="otu7">H. alimentaria JCM 108887 (AF211860)</otu>
+  <otu id="otu8">H. pacifica DSM 47427 (L42616)</otu>
+  <otu id="otu9">H. organivorans CECT 59957 (AJ616910)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Chromohalobacter" cmphy:species="canadensis" cmphy:strain="ATCC 439847" cmphy:id="AJZ95143" editRecord="[2__Z]">Chromohalobacter canadensis ATCC 439847 (AJ295143)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Chromohalobacter" cmphy:species="israelensis" cmphy:strain="ATCC 439857" cmphy:id="AJZ95144" editRecord="[2__Z]">Chromohalobacter israelensis ATCC 439857 (AJ295144)</otu>
+  <otu id="otu12">H. muralis LMG 209697 (AJ320530)</otu>
+  <otu id="otu13">H. campisalis ATCC 7005977 (AF054286)</otu>
+  <otu id="otu14">H. desiderata DSM 95027 (X92417)</otu>
+  <otu id="otu15">H. cupida DSM 474oT (L42615)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">H. sulfidaeris ATCC BAA-8037 (AF212204)</otu>
+  <otu id="otu18">H. hydrothermalis ATCC BAA-8007 (AF212218)</otu>
+  <otu id="otu19">H. taeanensis DSM 164637</otu>
+  <otu id="otu20">H. salina F8-117 (AJ295145)</otu>
+  <otu id="otu21">H. venusta DSM 47437 (AJ306894)</otu>
+  <otu id="otu22">H. salaria DSM 180447 (AM229316)</otu>
+  <otu id="otu23">H. eurihalina ATCC 493367 (X87218)</otu>
+  <otu id="otu24">H. halophila DSM 477oT (M93353)</otu>
+  <otu id="otu25">H. gomseomensis DSM 180427 (AM229314)</otu>
+  <otu id="otu26">H. axialensis ATCC BAA-8027 (AF212206)</otu>
+  <otu id="otu27">H. meridiana DSM 54257 (AJ306891)</otu>
+  <otu id="otu28">H. janggokensis DSM 180437 (AM229315)</otu>
+  <otu id="otu29">1H. alkaliantarctica DSM 15686 (AJ306892)</otu>
+  <otu id="otu30">H. neptunia ATCC BAA-8057 (AF212202)</otu>
+  <otu id="otu31">H. elongata ATCC 331737 (X67023)</otu>
+  <otu id="otu32">H. boliviensis DSM 155167 (AY245449)</otu>
+  <otu id="otu33">H. halocynthiae DSM 145737 (AJ417388)</otu>
+  <otu id="otu34">H. halodurans DSM 51607 (L42619)</otu>
+  <otu id="otu35">H. almeriensis CECT 70507 (AY858696)</otu>
+  <otu id="otu36">7H. glacier JCM 11692 (AJ431369)</otu>
+  <otu id="otu37">H. subglaciescola DSM 46837 (AJ306892)</otu>
+  <otu id="otu38"/>
+  <otu id="otu39">H. variabilis DSM 30517 (AJ306893)</otu>
+  <otu id="otu40">H. halmophila ATCC 197177 (AJ306889)</otu>
+  <otu id="otu41">H. avicenniae CECT 71937 (DQ888315)</otu>
+  <otu id="otu42">H. marina DSM 47417 (AJ306890)</otu>
+  <otu id="otu43"/>
+  <otu id="otu44"/>
+  <otu id="otu45">H. indalinina CECT 59027 (AJ427627)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.18" x="247.0" y="1819.0" label="99"/>
+   <node id="NT1.39" label="NT1.39" x="423.0" y="1795.0" otu="otu10"/>
+   <node id="NT1.40" label="NT1.40" x="432.0" y="1840.0" otu="otu11"/>
+   <node id="NT1.89" label="NT1.89" x="3.0" y="1287.0" root="true"/>
+   <edge id="e.26" source="NT1.18" target="NT1.39"/>
+   <edge id="e.55" target="NT1.18" source="NT1.89"/>
+   <edge id="e.75" source="NT1.18" target="NT1.40"/>
+  </tree>
+ </trees>
+</nexml>

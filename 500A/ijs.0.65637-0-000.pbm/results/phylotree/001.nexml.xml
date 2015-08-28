@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Rathayibacter" cmphy:species="tritici" cmphy:strain="DSM 7486T" cmphy:id="X77438" editRecord="[]"> Rathayibacter tritici DSM 7486T (X77438)</otu>
+  <otu id="otu3" cmphy:genus="Rathayibacter" cmphy:species="rathayi" cmphy:strain="DSM 74857" cmphy:id="X77439" editRecord="[]"> Rathayibacter rathayi DSM 74857 (X77439)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Frigoribacterium" cmphy:species="faeni" cmphy:strain="DSM 10309T" cmphy:id="Y18807" editRecord="[]">Frigoribacterium faeni DSM 10309T (Y18807)</otu>
+  <otu id="otu6" cmphy:genus="Mycetocola" cmphy:species="lacteus" cmphy:strain="DSM 15177T" cmphy:id="ABO12648" editRecord="[]"> Mycetocola lacteus DSM 15177T (ABO12648)</otu>
+  <otu id="otu7" cmphy:genus="Curtobacterium" cmphy:species="luteum" cmphy:strain="DSM 20542T" cmphy:id="X77437" editRecord="[]">Curtobacterium luteum DSM 20542T (X77437)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Yonghaparkia" cmphy:species="alkaliphila" cmphy:strain="KCTC 19126T" cmphy:id="DQZ56087" editRecord="[2__Z]">Yonghaparkia alkaliphila KCTC 19126T (DQ256087)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Frigoribacterium mesophilum sp. nov. MSL- 087 (EF466126)</otu>
+  <otu id="otu11" cmphy:genus="Microbacterium" cmphy:species="barkeri" cmphy:strain="DSM 2O145T" cmphy:id="X77446" editRecord="[]">Microbacterium barkeri DSM 2O145T (X77446)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Cryobacterium" cmphy:species="psychrophilum" cmphy:strain="JCM 1463T" cmphy:id="D45058" editRecord="[]">Cryobacterium psychrophilum JCM 1463T (D45058)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="706.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="191.0" y="576.0"/>
+   <node id="NT1.3" label="NT1.3" x="217.0" y="409.0"/>
+   <node id="NT1.4" label="NT1.4" x="258.0" y="553.0"/>
+   <node id="NT1.5" label="NT1.5" x="273.0" y="491.0"/>
+   <node id="NT1.6" label="NT1.6" x="316.0" y="265.0"/>
+   <node id="NT1.7" label="NT1.7" x="333.0" y="166.0"/>
+   <node id="NT1.9" x="394.0" y="743.0" label="100"/>
+   <node id="NT1.10" label="NT1.10" x="415.0" y="712.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="432.0" y="775.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="527.0" y="205.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="538.0" y="585.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="573.0" y="522.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="627.0" y="143.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="713.0" y="459.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="760.0" y="328.0" otu="otu14"/>
+   <edge id="e.2" target="NT1.19" source="NT1.7"/>
+   <edge id="e.3" target="NT1.14" source="NT1.7"/>
+   <edge id="e.6" target="NT1.26" source="NT1.6"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" target="NT1.16" source="NT1.4"/>
+   <edge id="e.10" source="NT1.5" target="NT1.18"/>
+   <edge id="e.11" source="NT1.9" target="NT1.10"/>
+   <edge id="e.12" source="NT1.9" target="NT1.11"/>
+   <edge id="e.13" source="NT1.5" target="NT1.23"/>
+   <edge id="e.16" source="NT1.6" target="NT1.7"/>
+   <edge id="e.18" source="NT1.3" target="NT1.6"/>
+   <edge id="e.20" source="NT1.2" target="NT1.3"/>
+   <edge id="e.21" source="NT1.3" target="NT1.4"/>
+   <edge id="e.23" source="NT1.4" target="NT1.5"/>
+   <edge id="e.24" source="NT1.2" target="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

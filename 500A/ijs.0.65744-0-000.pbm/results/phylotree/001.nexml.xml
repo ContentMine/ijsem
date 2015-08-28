@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> Psychromonas profunda JCM 11437T(AJ416756)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Psychromonas" cmphy:species="arctica" cmphy:strain="DSM 14288T" cmphy:id="AFB74385" editRecord="[3__B]">Psychromonas arctica DSM 14288T (AF374385)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="LMG 1242T" cmphy:id="Z76651" editRecord="[]">Pseudomonas aeruginosa LMG 1242T (Z76651)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Psychromonas" cmphy:species="hadalis" cmphy:strain="K41 GT" cmphy:id="ABO94413" editRecord="[]">Psychromonas hadalis K41 GT (ABO94413)</otu>
+  <otu id="otu11">Psychromonasjaponica JAMM 0394T (AB304804)</otu>
+  <otu id="otu12" cmphy:genus="Psychromonas" cmphy:species="ingrahamii" cmphy:strain="CIP 108865T" cmphy:id="U73721" editRecord="[]">Psychromonas ingrahamii CIP 108865T (U73721)</otu>
+  <otu id="otu13"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="403.0" y="396.0"/>
+   <node id="NT1.2" x="422.0" y="520.0" label="59"/>
+   <node id="NT1.14" label="NT1.14" x="599.0" y="456.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="614.0" y="758.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="630.0" y="518.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="660.0" y="96.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="1.0" y="577.0" root="true"/>
+   <edge id="e.1" target="NT1.23" source="NT1.1"/>
+   <edge id="e.7" source="NT1.2" target="NT1.14"/>
+   <edge id="e.10" target="NT1.21" source="NT1.2"/>
+   <edge id="e.18" source="NT1.1" target="NT1.2"/>
+   <edge id="e.22" source="NT1.25" target="NT1.16"/>
+   <edge id="e.23" source="NT1.25" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

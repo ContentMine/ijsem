@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Methanospirillum" cmphy:species="hungatei" cmphy:strain="DSM 864T" cmphy:id="M60880" editRecord="[]">Methanospirillum hungatei DSM 864T (M60880)</otu>
+  <otu id="otu2" cmphy:genus="Natronomonas" cmphy:species="pharaonis" cmphy:strain="JCM 8858T" cmphy:id="D87971" editRecord="[]">Natronomonas pharaonis JCM 8858T (D87971)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Halorhabdus" cmphy:species="utahensis" cmphy:strain="AX-2T" cmphy:id="AFO71880" editRecord="[0__O]">Halorhabdus utahensis AX-2T (AF071880)</otu>
+  <otu id="otu4">Halorhabdus tiamatea sp. nov. SARL4BT (EF127229)</otu>
+  <otu id="otu5" cmphy:genus="Halobaculum" cmphy:species="gomorrense" cmphy:strain="DSM 9297T" cmphy:id="L37444" editRecord="[]">Halobaculum gomorrense DSM 9297T (L37444)</otu>
+  <otu id="otu6" cmphy:edit="[O__0]" cmphy:genus="Haloterrigena" cmphy:species="turkmenica" cmphy:strain="VKM B-1734T" cmphy:id="ABO04878" editRecord="[O__0]"> Haloterrigena turkmenica VKM B-1734T (ABOO4878)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Natrinema" cmphy:species="pellirubrum" cmphy:strain="NCIMB 786T" cmphy:id="AJO02947" editRecord="[0__O]"> Natrinema pellirubrum NCIMB 786T (AJ002947)</otu>
+  <otu id="otu9" cmphy:genus="Halobacterium" cmphy:species="salinarum" cmphy:strain="DSM 3754T" cmphy:id="AJ496185" editRecord="[]">Halobacterium salinarum DSM 3754T (AJ496185)</otu>
+  <otu id="otu10" cmphy:genus="Halorubrum" cmphy:species="saccharovorum" cmphy:strain="JCM 8865T" cmphy:id="U17364" editRecord="[]">Halorubrum saccharovorum JCM 8865T (U17364)</otu>
+  <otu id="otu11" cmphy:genus="Natrialba" cmphy:species="taiwanensis" cmphy:strain="B1TT" cmphy:id="D14124" editRecord="[]"> Natrialba taiwanensis B1TT (D14124)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Halosimplex" cmphy:species="carlsbadense" cmphy:strain="2-9-1 T" cmphy:id="AFB20479" editRecord="[3__B]">Halosimplex carlsbadense 2-9-1 T (AF320479)</otu>
+  <otu id="otu13" cmphy:genus="Halococcus" cmphy:species="morrhuae" cmphy:strain="ATCC 17082T" cmphy:id="X00662" editRecord="[]">Halococcus morrhuae ATCC 17082T (X00662)</otu>
+  <otu id="otu14" cmphy:genus="Haloferax" cmphy:species="volcanii" cmphy:strain="ATCC 296O5T" cmphy:id="K00421" editRecord="[]">Haloferax volcanii ATCC 296O5T (K00421)</otu>
+  <otu id="otu15" cmphy:genus="Halogeometricum" cmphy:species="borinquense" cmphy:strain="PR-3T" cmphy:id="AFO02984" editRecord="[]">Halogeometricum borinquense PR-3T (AFO02984)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="219.0" y="792.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="228.0" y="100.0"/>
+   <node id="NT1.3" label="NT1.3" x="239.0" y="711.0"/>
+   <node id="NT1.4" label="NT1.4" x="243.0" y="655.0"/>
+   <node id="NT1.5" label="NT1.5" x="244.0" y="40.0"/>
+   <node id="NT1.6" label="NT1.6" x="252.0" y="544.0"/>
+   <node id="NT1.7" label="NT1.7" x="255.0" y="488.0"/>
+   <node id="NT1.8" label="NT1.8" x="260.0" y="433.0"/>
+   <node id="NT1.9" label="NT1.9" x="271.0" y="211.0"/>
+   <node id="NT1.11" label="NT1.11" x="317.0" y="266.0"/>
+   <node id="NT1.12" label="NT1.12" x="325.0" y="155.0"/>
+   <node id="NT1.13" label="NT1.13" x="327.0" y="322.0"/>
+   <node id="NT1.15" label="NT1.15" x="347.0" y="737.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="352.0" y="570.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="369.0" y="70.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="370.0" y="348.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="380.0" y="292.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="382.0" y="459.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="396.0" y="14.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="399.0" y="236.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="404.0" y="681.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="407.0" y="514.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="416.0" y="125.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="436.0" y="181.0" otu="otu15"/>
+   <edge id="e.0" source="NT1.5" target="NT1.23"/>
+   <edge id="e.1" source="NT1.5" target="NT1.18"/>
+   <edge id="e.2" source="NT1.3" target="NT1.15"/>
+   <edge id="e.3" source="NT1.4" target="NT1.25"/>
+   <edge id="e.5" target="NT1.16" source="NT1.6"/>
+   <edge id="e.6" source="NT1.8" target="NT1.22"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" source="NT1.12" target="NT1.27"/>
+   <edge id="e.9" source="NT1.12" target="NT1.28"/>
+   <edge id="e.11" source="NT1.11" target="NT1.24"/>
+   <edge id="e.12" source="NT1.13" target="NT1.19"/>
+   <edge id="e.13" source="NT1.13" target="NT1.21"/>
+   <edge id="e.14" source="NT1.2" target="NT1.5"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" source="NT1.3" target="NT1.4"/>
+   <edge id="e.17" source="NT1.4" target="NT1.6"/>
+   <edge id="e.19" source="NT1.6" target="NT1.7"/>
+   <edge id="e.20" source="NT1.7" target="NT1.8"/>
+   <edge id="e.21" source="NT1.8" target="NT1.9"/>
+   <edge id="e.23" source="NT1.9" target="NT1.12"/>
+   <edge id="e.24" target="NT1.11" source="NT1.9"/>
+   <edge id="e.25" source="NT1.11" target="NT1.13"/>
+   <edge id="e.26" source="NT1.7" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

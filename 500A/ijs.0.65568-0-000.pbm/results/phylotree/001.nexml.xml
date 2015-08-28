@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">R. giardinii H1527 (U86344)</otu>
+  <otu id="otu2">R. etli CFN 427 (U28916)</otu>
+  <otu id="otu3">R. Ieguminosarum USDA 23707 (U29386)</otu>
+  <otu id="otu4">R. huautlense SO27 (AF025852)</otu>
+  <otu id="otu5">R. daejeonense L617 (AY341343)</otu>
+  <otu id="otu6">R. Iusitanum P1-77 (AY738130)</otu>
+  <otu id="otu7">R. sullae IS1237 (Y10170)</otu>
+  <otu id="otu8">R. gallicum R6O2sp7 (U86343)</otu>
+  <otu id="otu9">R. rhizogenes LMG 152 (X67224)</otu>
+  <otu id="otu10">R. rhizogenes NBRC 132577 (D14501)</otu>
+  <otu id="otu11">R. galegae ATCC 436777 (D11343)</otu>
+  <otu id="otu12">R. multihospitium CCBAU 83345 (EF035059)</otu>
+  <otu id="otu13">R. multihospitium CCBAU 83523 (EF035077)</otu>
+  <otu id="otu14">R. mongolense USDA 18447 (U89817)</otu>
+  <otu id="otu15">R. yanglingense SH 226237 (AFO03375)</otu>
+  <otu id="otu16">R. hainanense I667 (U71078)</otu>
+  <otu id="otu17">R. indigoferae CCBAU 710427 (AY034027)</otu>
+  <otu id="otu18">tumefaciens IAM 131297 (D12784)</otu>
+  <otu id="otu19">R. tropici IIB CIAT 8997 (U89832)</otu>
+  <otu id="otu20">R. tropici IIA LMG 9517 (X67234)</otu>
+  <otu id="otu21">A. vitis NCPPB 35547 (D14502)</otu>
+  <otu id="otu22">A. rubi NBRC 132617 (D14503)</otu>
+  <otu id="otu23" cmphy:genus="Bradyrhizobium" cmphy:species="elkanii" cmphy:strain="USDA 767" cmphy:id="U35000" editRecord="[]">Bradyrhizobium elkanii USDA 767 (U35000)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.44" label="NT1.44" x="674.0" y="924.0" otu="otu23"/>
+   <node id="NT1.45" label="NT1.45" x="2.0" y="735.0" root="true"/>
+   <edge id="e.38" source="NT1.45" target="NT1.44"/>
+  </tree>
+ </trees>
+</nexml>

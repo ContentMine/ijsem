@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Loktanella" cmphy:species="hongkongensis" cmphy:strain="UST95O7O1-O09PT" cmphy:id="AY600300" editRecord="[]">Loktanella hongkongensis UST95O7O1-O09PT (AY600300)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Loktanella" cmphy:species="rosea" cmphy:strain="Fg36T" cmphy:id="AY682199" editRecord="[]">Loktanella rosea Fg36T (AY682199)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Loktanella" cmphy:species="vestfoldensis" cmphy:strain="LMG 220037" cmphy:id="AJS82226" editRecord="[5__S]">Loktanella vestfoldensis LMG 220037 (AJ582226)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Loktanella" cmphy:species="salsilacus" cmphy:strain="LMG 215077" cmphy:id="AJ440997" editRecord="[]">Loktanella salsilacus LMG 215077 (AJ440997)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Loktanella" cmphy:species="fryxellensis" cmphy:strain="LMG 220O7T" cmphy:id="AJS82225" editRecord="[5__S]">Loktanella fryxellensis LMG 220O7T (AJ582225)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Loktanella" cmphy:species="atrilutea" cmphy:strain="lG8T" cmphy:id="ABZ46747" editRecord="[2__Z]">Loktanella atrilutea lG8T (AB246747)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:genus="Jannaschia" cmphy:species="helgolandensis" cmphy:strain="Hel 107" cmphy:id="AJ438157" editRecord="[]">Jannaschia helgolandensis Hel 107 (AJ438157)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24">Strain GA2-M157 (EU342372)</otu>
+  <otu id="otu25" cmphy:genus="Jannaschia" cmphy:species="seosinensis" cmphy:strain="CL-SP26T" cmphy:id="AY906862" editRecord="[]">Jannaschia seosinensis CL-SP26T (AY906862)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29"/>
+  <otu id="otu30" cmphy:genus="Octadecabacter" cmphy:species="arcticus" cmphy:strain="238T" cmphy:id="U73725" editRecord="[]">Octadecabacter arcticus 238T (U73725)</otu>
+  <otu id="otu31"/>
+  <otu id="otu32" cmphy:edit="[8__B]" cmphy:genus="Thalassobius" cmphy:species="mediterraneus" cmphy:strain="CECT 53837" cmphy:id="AJB78874" editRecord="[8__B]">Thalassobius mediterraneus CECT 53837 (AJ878874)</otu>
+  <otu id="otu33" cmphy:genus="Paracoccus" cmphy:species="denitrificans" cmphy:strain="IAM 12479T" cmphy:id="Y17512" editRecord="[]">Paracoccus denitrificans IAM 12479T (Y17512)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="21.0" y="518.0"/>
+   <node id="NT1.2" x="69.0" y="371.0" label="59"/>
+   <node id="NT1.3" label="NT1.3" x="93.0" y="505.0"/>
+   <node id="NT1.5" label="NT1.5" x="112.0" y="568.0"/>
+   <node id="NT1.7" x="150.0" y="236.0" label="91"/>
+   <node id="NT1.16" x="283.0" y="308.0" label="98'"/>
+   <node id="NT1.17" label="NT1.17" x="285.0" y="103.0"/>
+   <node id="NT1.21" label="NT1.21" x="295.0" y="664.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="297.0" y="444.0"/>
+   <node id="NT1.25" label="NT1.25" x="304.0" y="415.0"/>
+   <node id="NT1.28" label="NT1.28" x="330.0" y="626.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="349.0" y="549.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="370.0" y="434.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="389.0" y="472.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="407.0" y="395.0" otu="otu19"/>
+   <node id="NT1.42" label="NT1.42" x="442.0" y="318.0" otu="otu22"/>
+   <node id="NT1.46" label="NT1.46" x="470.0" y="280.0" otu="otu25"/>
+   <node id="NT1.51" label="NT1.51" x="527.0" y="165.0" otu="otu30"/>
+   <node id="NT1.53" label="NT1.53" x="587.0" y="50.0" otu="otu32"/>
+   <node id="NT1.54" label="NT1.54" x="587.0" y="703.0" otu="otu33"/>
+   <node id="NT1.55" label="NT1.55" x="1.0" y="610.0" root="true"/>
+   <edge id="e.3" target="NT1.53" source="NT1.17"/>
+   <edge id="e.10" target="NT1.51" source="NT1.17"/>
+   <edge id="e.16" target="NT1.42" source="NT1.16"/>
+   <edge id="e.18" source="NT1.16" target="NT1.46"/>
+   <edge id="e.24" target="NT1.28" source="NT1.5"/>
+   <edge id="e.26" target="NT1.30" source="NT1.5"/>
+   <edge id="e.27" source="NT1.25" target="NT1.33"/>
+   <edge id="e.28" source="NT1.22" target="NT1.34"/>
+   <edge id="e.29" target="NT1.37" source="NT1.25"/>
+   <edge id="e.31" source="NT1.1" target="NT1.21"/>
+   <edge id="e.36" target="NT1.17" source="NT1.7"/>
+   <edge id="e.40" source="NT1.2" target="NT1.7"/>
+   <edge id="e.41" source="NT1.7" target="NT1.16"/>
+   <edge id="e.43" source="NT1.1" target="NT1.2"/>
+   <edge id="e.44" source="NT1.2" target="NT1.3"/>
+   <edge id="e.45" source="NT1.3" target="NT1.5"/>
+   <edge id="e.46" source="NT1.3" target="NT1.22"/>
+   <edge id="e.50" target="NT1.25" source="NT1.22"/>
+   <edge id="e.52" source="NT1.55" target="NT1.54"/>
+   <edge id="e.53" source="NT1.55" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

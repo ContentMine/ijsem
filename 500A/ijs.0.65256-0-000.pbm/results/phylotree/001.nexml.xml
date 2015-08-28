@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Bacillus" cmphy:species="insolilus" cmphy:strain="DSM 5T" cmphy:id="X60642" editRecord="[]">Bacillus insolilus DSM 5T (X60642)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="IAM 12118T" cmphy:id="ABO42061" editRecord="[0__O]">Bacillus subtilis IAM 12118T (AB042061)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Lysinibacillus" cmphy:species="fusiformis" cmphy:strain="DSM 2898T" cmphy:id="AJB10083" editRecord="[3__B]">Lysinibacillus fusiformis DSM 2898T (AJ310083)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Lysinibacillus" cmphy:species="sphaericus" cmphy:strain="DSM 28T" cmphy:id="AJB10084" editRecord="[3__B]">Lysinibacillus sphaericus DSM 28T (AJ310084)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="psychrotolerans" cmphy:strain="DSM 117O8T" cmphy:id="AJZ77983" editRecord="[2__Z]">Bacillus psychrotolerans DSM 117O8T (AJ277983)</otu>
+  <otu id="otu6" cmphy:genus="Viridibacillus" cmphy:species="arenosi" cmphy:strain="LMG 22166T" cmphy:id="AJ627212" editRecord="[]">Viridibacillus arenosi LMG 22166T (AJ627212)</otu>
+  <otu id="otu7" cmphy:genus="Virldlbacillus" cmphy:species="arvi" cmphy:strain="DSM 16317T" cmphy:id="AJ627211" editRecord="[]">Virldlbacillus arvi DSM 16317T (AJ627211)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Viridibacillus" cmphy:species="anli" cmphy:strain="433-D9" cmphy:id="AYZ68991" editRecord="[2__Z]">Viridibacillus anli 433-D9 (AY268991)</otu>
+  <otu id="otu9" cmphy:genus="Caryophanon" cmphy:species="latum" cmphy:strain="NCIMB 9533T" cmphy:id="X70314" editRecord="[]">Caryophanon latum NCIMB 9533T (X70314)</otu>
+  <otu id="otu10">Bacillus pycnus NRS-1691T(AF169531)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="silvestris" cmphy:strain="HR3-23T" cmphy:id="AJO06086" editRecord="[0__O]"> Bacillus silvestris HR3-23T (AJ006086)</otu>
+  <otu id="otu12" cmphy:genus="Caryophanon" cmphy:species="tenue" cmphy:strain="NCDO 2324T" cmphy:id="X70315" editRecord="[]">Caryophanon tenue NCDO 2324T (X70315)</otu>
+  <otu id="otu13" cmphy:genus="Kurthla" cmphy:species="gibsonii" cmphy:strain="NCIMB 9758T" cmphy:id="X70320" editRecord="[]">Kurthla gibsonii NCIMB 9758T (X70320)</otu>
+  <otu id="otu14" cmphy:genus="Kurthia" cmphy:species="sibirlca" cmphy:strain="DSM 4747T" cmphy:id="AJ605774" editRecord="[]">Kurthia sibirlca DSM 4747T (AJ605774)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Viridibacillus" cmphy:species="neidei" cmphy:strain="BD-87T" cmphy:id="AFI69520" editRecord="[1__I]">Viridibacillus neidei BD-87T (AF169520)</otu>
+  <otu id="otu16">Kurthia zopfiiATCC 33403T (M58800)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="216.0" y="409.0"/>
+   <node id="NT1.2" label="NT1.2" x="265.0" y="313.0"/>
+   <node id="NT1.3" label="NT1.3" x="402.0" y="376.0"/>
+   <node id="NT1.4" label="NT1.4" x="422.0" y="125.0"/>
+   <node id="NT1.5" label="NT1.5" x="432.0" y="439.0"/>
+   <node id="NT1.6" label="NT1.6" x="456.0" y="425.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="471.0" y="282.0"/>
+   <node id="NT1.9" label="NT1.9" x="507.0" y="534.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="507.0" y="94.0"/>
+   <node id="NT1.11" label="NT1.11" x="526.0" y="267.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="526.0" y="299.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="527.0" y="187.0"/>
+   <node id="NT1.14" label="NT1.14" x="568.0" y="457.0" otu="otu5"/>
+   <node id="NT1.15" x="577.0" y="62.0" label="83"/>
+   <node id="NT1.16" label="NT1.16" x="584.0" y="76.0" otu="otu6"/>
+   <node id="NT1.17" x="586.0" y="31.0" label="83"/>
+   <node id="NT1.18" label="NT1.18" x="587.0" y="44.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="588.0" y="13.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="599.0" y="346.0"/>
+   <node id="NT1.22" label="NT1.22" x="667.0" y="362.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="689.0" y="394.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="694.0" y="330.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="725.0" y="236.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="728.0" y="172.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="784.0" y="108.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="3.0" y="471.0" root="true"/>
+   <edge id="e.0" source="NT1.17" target="NT1.19"/>
+   <edge id="e.1" source="NT1.17" target="NT1.18"/>
+   <edge id="e.2" source="NT1.15" target="NT1.16"/>
+   <edge id="e.3" source="NT1.10" target="NT1.28"/>
+   <edge id="e.5" source="NT1.13" target="NT1.27"/>
+   <edge id="e.6" target="NT1.26" source="NT1.13"/>
+   <edge id="e.8" source="NT1.8" target="NT1.11"/>
+   <edge id="e.9" source="NT1.8" target="NT1.12"/>
+   <edge id="e.10" source="NT1.5" target="NT1.6"/>
+   <edge id="e.11" source="NT1.5" target="NT1.14"/>
+   <edge id="e.12" source="NT1.3" target="NT1.24"/>
+   <edge id="e.13" source="NT1.20" target="NT1.25"/>
+   <edge id="e.14" source="NT1.15" target="NT1.17"/>
+   <edge id="e.15" source="NT1.10" target="NT1.15"/>
+   <edge id="e.16" source="NT1.4" target="NT1.10"/>
+   <edge id="e.17" source="NT1.2" target="NT1.4"/>
+   <edge id="e.19" target="NT1.13" source="NT1.4"/>
+   <edge id="e.21" source="NT1.1" target="NT1.2"/>
+   <edge id="e.22" source="NT1.2" target="NT1.8"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.24" source="NT1.1" target="NT1.5"/>
+   <edge id="e.25" source="NT1.3" target="NT1.20"/>
+   <edge id="e.26" source="NT1.30" target="NT1.9"/>
+   <edge id="e.27" source="NT1.30" target="NT1.1"/>
+   <edge id="e.28" source="NT1.20" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

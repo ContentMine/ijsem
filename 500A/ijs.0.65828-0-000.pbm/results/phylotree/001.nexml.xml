@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[8__B]" cmphy:genus="Barfonella" cmphy:species="henselae" cmphy:strain="Houston-1T" cmphy:id="BXB97699" editRecord="[8__B]">Barfonella henselae Houston-1T (BX897699)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Ochrobactrum" cmphy:species="pseudintermedium" cmphy:strain="ADV31T" cmphy:id="DQB65921" editRecord="[3__B]">Ochrobactrum pseudintermedium ADV31T (DQ365921)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Brucella" cmphy:species="abortus" cmphy:strain="NCTC 100937" cmphy:id="AMI58979" editRecord="[1__I]">Brucella abortus NCTC 100937 (AM158979)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Ochrobactrum" cmphy:species="anthropi" cmphy:strain="ATCC 49188T" cmphy:id="CPO00759" editRecord="[O__0]">Ochrobactrum anthropi ATCC 49188T (CPO0O759)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Ochrobactrum" cmphy:species="gallinifaecis" cmphy:strain="DSM 15295T" cmphy:id="AJS19939" editRecord="[5__S]">Ochrobactrum gallinifaecis DSM 15295T (AJ519939)</otu>
+  <otu id="otu8" cmphy:genus="Ochrobactrum" cmphy:species="grignonense" cmphy:strain="OgA9aT" cmphy:id="AM490619" editRecord="[]">Ochrobactrum grignonense OgA9aT (AM490619)</otu>
+  <otu id="otu9">KMM 3858T (AB369864)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Pseudochrobactrum" cmphy:species="asaccharolyticum" cmphy:strain="CCUG 46016T" cmphy:id="AMI80485" editRecord="[1__I]">Pseudochrobactrum asaccharolyticum CCUG 46016T (AM180485)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Pseudochrobactrum" cmphy:species="kiredjianiae" cmphy:strain="CCUG 49584T" cmphy:id="AMZ63420" editRecord="[2__Z]">Pseudochrobactrum kiredjianiae CCUG 49584T (AM263420)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="267.0" y="235.0"/>
+   <node id="NT1.3" x="349.0" y="154.0" label="73"/>
+   <node id="NT1.4" label="NT1.4" x="376.0" y="364.0"/>
+   <node id="NT1.6" label="NT1.6" x="549.0" y="568.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="554.0" y="91.0"/>
+   <node id="NT1.9" label="NT1.9" x="657.0" y="41.0"/>
+   <node id="NT1.11" label="NT1.11" x="665.0" y="216.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="765.0" y="115.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="820.0" y="15.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="881.0" y="317.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="924.0" y="66.0" otu="otu8"/>
+   <node id="NT1.18" x="1070.0" y="454.0" label="100"/>
+   <node id="NT1.21" label="NT1.21" x="1134.0" y="517.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="1137.0" y="417.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="4.0" y="401.0" root="true"/>
+   <edge id="e.0" source="NT1.9" target="NT1.13"/>
+   <edge id="e.1" source="NT1.9" target="NT1.16"/>
+   <edge id="e.2" target="NT1.12" source="NT1.7"/>
+   <edge id="e.5" source="NT1.4" target="NT1.15"/>
+   <edge id="e.7" source="NT1.18" target="NT1.22"/>
+   <edge id="e.8" target="NT1.21" source="NT1.18"/>
+   <edge id="e.9" source="NT1.7" target="NT1.9"/>
+   <edge id="e.10" source="NT1.3" target="NT1.7"/>
+   <edge id="e.12" source="NT1.1" target="NT1.3"/>
+   <edge id="e.14" target="NT1.4" source="NT1.1"/>
+   <edge id="e.16" target="NT1.18" source="NT1.4"/>
+   <edge id="e.18" source="NT1.23" target="NT1.6"/>
+   <edge id="e.19" source="NT1.23" target="NT1.1"/>
+   <edge id="e.20" source="NT1.3" target="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

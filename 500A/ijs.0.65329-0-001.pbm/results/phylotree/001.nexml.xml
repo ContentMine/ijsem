@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[O__0]" cmphy:genus="Thermoanaerobacter" cmphy:species="ethanolicus" cmphy:strain="JW-2007" cmphy:id="L09162" editRecord="[O__0]">Thermoanaerobacter ethanolicus JW-2007 (LO9162)</otu>
+  <otu id="otu2" cmphy:genus="Moorella" cmphy:species="thermoacetica" cmphy:strain="DSM 5217" cmphy:id="AY656675" editRecord="[]">Moorella thermoacetica DSM 5217 (AY656675)</otu>
+  <otu id="otu3">Caldanaerobacter subterraneus subsp. subterraneus SEBR 7858T (AF195797)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Thermoanaerobacterium" cmphy:species="thermosaccharolyticum" cmphy:strain="D120-707" cmphy:id="AFZ47003" editRecord="[2__Z]"> Thermoanaerobacterium thermosaccharolyticum D120-707 (AF247003)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[O__0]" cmphy:genus="Thermoanaerobacterium" cmphy:species="thermosulfurigenes" cmphy:strain="4BT" cmphy:id="L09171" editRecord="[O__0]">Thermoanaerobacterium thermosulfurigenes 4BT (LO9171)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Caldanaerobius" cmphy:species="fijiensis" cmphy:strain="JWIYJ L-F37" cmphy:id="EFS07903" editRecord="[5__S]"> Caldanaerobius fijiensis JWIYJ L-F37 (EF507903)</otu>
+  <otu id="otu9" cmphy:genus="Caldanaerobius" cmphy:species="polysaccharolyticus" cmphy:strain="KMTHCJT" cmphy:id="U40229" editRecord="[]">Caldanaerobius polysaccharolyticus KMTHCJT (U40229)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="16.0" y="334.0"/>
+   <node id="NT1.2" x="74.0" y="234.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="210.0" y="459.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="241.0" y="508.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="262.0" y="169.0"/>
+   <node id="NT1.9" x="274.0" y="300.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="291.0" y="215.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="313.0" y="68.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="334.0" y="263.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="336.0" y="312.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="3.0" y="421.0" root="true"/>
+   <edge id="e.1" target="NT1.15" source="NT1.7"/>
+   <edge id="e.4" source="NT1.7" target="NT1.11"/>
+   <edge id="e.5" source="NT1.9" target="NT1.16"/>
+   <edge id="e.6" target="NT1.18" source="NT1.9"/>
+   <edge id="e.8" target="NT1.4" source="NT1.1"/>
+   <edge id="e.13" source="NT1.2" target="NT1.7"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.15" source="NT1.2" target="NT1.9"/>
+   <edge id="e.18" source="NT1.21" target="NT1.5"/>
+   <edge id="e.19" source="NT1.21" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

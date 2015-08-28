@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="alcaliphila" cmphy:strain="AL15-21T" cmphy:id="ABO30583" editRecord="[0__O]">Pseudomonas alcaliphila AL15-21T (AB030583)</otu>
+  <otu id="otu2" cmphy:genus="Pseudomonas" cmphy:species="mendocina" cmphy:strain="ATCC 254117" cmphy:id="M59154" editRecord="[]">Pseudomonas mendocina ATCC 254117 (M59154)</otu>
+  <otu id="otu3" cmphy:genus="Pseudomonas" cmphy:species="flavescens" cmphy:strain="B62T" cmphy:id="U01916" editRecord="[]">Pseudomonas flavescens B62T (U01916)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Pseudomonas" cmphy:species="alcaligenes" cmphy:strain="LMG 12247" cmphy:id="Z76653" editRecord="[2__Z]">Pseudomonas alcaligenes LMG 12247 (276653)</otu>
+  <otu id="otu5" cmphy:genus="Pseudomonas" cmphy:species="stutzeri" cmphy:strain="CCUG 112567" cmphy:id="U26262" editRecord="[]">Pseudomonas stutzeri CCUG 112567 (U26262)</otu>
+  <otu id="otu6" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="DSM 50071T" cmphy:id="X06684" editRecord="[]">Pseudomonas aeruginosa DSM 50071T (X06684)</otu>
+  <otu id="otu7" cmphy:genus="Pseudomonas" cmphy:species="multiresinivorans" cmphy:strain="ATCC 7006907" cmphy:id="X96787" editRecord="[]">Pseudomonas multiresinivorans ATCC 7006907 (X96787)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="nitroreducens" cmphy:strain="DSM 143997" cmphy:id="AMO88474" editRecord="[0__O]">Pseudomonas nitroreducens DSM 143997 (AM088474)</otu>
+  <otu id="otu9" cmphy:genus="Pseudomonas" cmphy:species="panipatensis" cmphy:strain="Esp-17" cmphy:id="EF424401" editRecord="[]">Pseudomonas panipatensis Esp-17 (EF424401)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="knackmussii" cmphy:strain="DSM 69787" cmphy:id="AFO39489" editRecord="[0__O]">Pseudomonas knackmussii DSM 69787 (AF039489)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Pseudomonas" cmphy:species="citronellolis" cmphy:strain="DSM 503327" cmphy:id="Z76659" editRecord="[2__Z]">Pseudomonas citronellolis DSM 503327 (276659)</otu>
+  <otu id="otu12">Pseudomonas delhiensis MTCC 7601 T (DQ339153)</otu>
+  <otu id="otu13">Pseudomonasjinjuensis DSM 16612T (AF468448)</otu>
+  <otu id="otu14">Rhodanobacter Iindaniclasticus RP5557T (AF039167)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="162.0" y="287.0"/>
+   <node id="NT1.3" label="NT1.3" x="242.0" y="202.0"/>
+   <node id="NT1.4" label="NT1.4" x="321.0" y="156.0"/>
+   <node id="NT1.5" label="NT1.5" x="321.0" y="372.0"/>
+   <node id="NT1.6" label="NT1.6" x="400.0" y="112.0"/>
+   <node id="NT1.7" label="NT1.7" x="400.0" y="428.0"/>
+   <node id="NT1.8" x="479.0" y="71.0" label="92"/>
+   <node id="NT1.9" label="NT1.9" x="479.0" y="467.0"/>
+   <node id="NT1.10" x="558.0" y="37.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="558.0" y="318.0"/>
+   <node id="NT1.13" label="NT1.13" x="638.0" y="14.0" otu="otu1"/>
+   <node id="NT1.14" label="NT1.14" x="638.0" y="60.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="638.0" y="107.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="638.0" y="154.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="638.0" y="200.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="638.0" y="247.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="638.0" y="341.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="638.0" y="293.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="638.0" y="387.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="638.0" y="433.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="638.0" y="527.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="5.0" y="526.0" root="true"/>
+   <edge id="e.0" source="NT1.10" target="NT1.13"/>
+   <edge id="e.1" source="NT1.10" target="NT1.14"/>
+   <edge id="e.2" source="NT1.8" target="NT1.15"/>
+   <edge id="e.3" source="NT1.6" target="NT1.16"/>
+   <edge id="e.4" source="NT1.4" target="NT1.17"/>
+   <edge id="e.5" source="NT1.3" target="NT1.18"/>
+   <edge id="e.6" source="NT1.11" target="NT1.19"/>
+   <edge id="e.7" source="NT1.11" target="NT1.20"/>
+   <edge id="e.8" source="NT1.7" target="NT1.21"/>
+   <edge id="e.9" source="NT1.9" target="NT1.22"/>
+   <edge id="e.11" source="NT1.8" target="NT1.10"/>
+   <edge id="e.12" source="NT1.6" target="NT1.8"/>
+   <edge id="e.13" source="NT1.4" target="NT1.6"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" target="NT1.2" source="NT1.27"/>
+   <edge id="e.17" source="NT1.5" target="NT1.7"/>
+   <edge id="e.18" source="NT1.5" target="NT1.11"/>
+   <edge id="e.19" source="NT1.7" target="NT1.9"/>
+   <edge id="e.23" source="NT1.2" target="NT1.5"/>
+   <edge id="e.25" target="NT1.23" source="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Ancylobacter" cmphy:species="polymorphus" cmphy:strain="DSM 2457T" cmphy:id="AYZ11516" editRecord="[2__Z]">Ancylobacter polymorphus DSM 2457T (AY211516)</otu>
+  <otu id="otu4"> Ancylobacter rudongensis AS 1.1761 T (AY056830)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Xanthobacter" cmphy:species="aminoxidans" cmphy:strain="14aT" cmphy:id="AFB99969" editRecord="[3__B]">Xanthobacter aminoxidans 14aT (AF399969)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Ancylobacter" cmphy:species="vacuolatus" cmphy:strain="DSM 1277T" cmphy:id="AYZ11515" editRecord="[2__Z]">Ancylobacter vacuolatus DSM 1277T (AY211515)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Xanthobacter" cmphy:species="tagetidis" cmphy:strain="TagT2CT" cmphy:id="X99469" editRecord="[]">Xanthobacter tagetidis TagT2CT (X99469)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Angulomicrobium" cmphy:species="amanitiforme" cmphy:strain="NCIMB 1785T" cmphy:id="AJS35709" editRecord="[5__S]">Angulomicrobium amanitiforme NCIMB 1785T (AJ535709)</otu>
+  <otu id="otu11">Strain NS05T (AM778407)</otu>
+  <otu id="otu12" cmphy:genus="Starkeya" cmphy:species="novella" cmphy:strain="IAM 121OOT" cmphy:id="D32247" editRecord="[]">Starkeya novella IAM 121OOT (D32247)</otu>
+  <otu id="otu13"> Xanthobacter viscosus 7dT (AF39997D)</otu>
+  <otu id="otu14" cmphy:genus="Azorhizobium" cmphy:species="caulinodans" cmphy:strain="ORS 571T" cmphy:id="D11342" editRecord="[]">Azorhizobium caulinodans ORS 571T (D11342)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="190.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="18.0" y="190.0"/>
+   <node id="NT1.4" x="154.0" y="93.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="164.0" y="360.0"/>
+   <node id="NT1.6" label="NT1.6" x="167.0" y="36.0"/>
+   <node id="NT1.8" label="NT1.8" x="176.0" y="384.0"/>
+   <node id="NT1.12" label="NT1.12" x="209.0" y="221.0"/>
+   <node id="NT1.13" label="NT1.13" x="217.0" y="205.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="230.0" y="401.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="247.0" y="238.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="251.0" y="368.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="255.0" y="43.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="266.0" y="10.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="279.0" y="336.0" otu="otu14"/>
+   <edge id="e.0" source="NT1.6" target="NT1.24"/>
+   <edge id="e.2" target="NT1.22" source="NT1.6"/>
+   <edge id="e.5" source="NT1.12" target="NT1.13"/>
+   <edge id="e.7" source="NT1.12" target="NT1.19"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" source="NT1.8" target="NT1.15"/>
+   <edge id="e.12" source="NT1.8" target="NT1.21"/>
+   <edge id="e.13" source="NT1.4" target="NT1.6"/>
+   <edge id="e.18" target="NT1.12" source="NT1.4"/>
+   <edge id="e.20" target="NT1.5" source="NT1.2"/>
+   <edge id="e.22" source="NT1.5" target="NT1.8"/>
+   <edge id="e.23" source="NT1.2" target="NT1.4"/>
+   <edge id="e.24" source="NT1.5" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

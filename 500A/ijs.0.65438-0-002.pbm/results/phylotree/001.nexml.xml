@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Pseudomonas sp. LAB-26 (ABO51700)</otu>
+  <otu id="otu3">Pseudomonas Iuteola IAM 13000T (D84002)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Pseudomonas" cmphy:species="fluorescens" cmphy:strain="KU-7" cmphy:id="ABZ66613" editRecord="[2__Z]">Pseudomonas fluorescens KU-7 (AB266613)</otu>
+  <otu id="otu6">Pseudomonas sp. ISO1 (AF326376)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone ARKICE-74" cmphy:id="AF468306" editRecord="[]"> Uncultured bacterium clone ARKICE-74 (AF468306)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Uncultured" cmphy:species="organism" cmphy:strain="clone ctg_CGOF124" cmphy:id="DQB95870" editRecord="[3__B]">Uncultured organism clone ctg_CGOF124 (DQ395870)</otu>
+  <otu id="otu10">Carbazole-degrading bacterium CAR-SF (AB086227)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Spongiibacter" cmphy:species="marinus" cmphy:strain="HAL40bT" cmphy:id="AMI17932" editRecord="[1__I]">Spongiibacter marinus HAL40bT (AM117932)</otu>
+  <otu id="otu15">Gammaproteobacterium RED77 (AY136133)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="387.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="16.0" y="387.0"/>
+   <node id="NT1.3" x="72.0" y="316.0" label="88"/>
+   <node id="NT1.7" label="NT1.7" x="251.0" y="175.0"/>
+   <node id="NT1.15" label="NT1.15" x="415.0" y="440.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="566.0" y="369.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="632.0" y="192.0" otu="otu9"/>
+   <node id="NT1.28" label="NT1.28" x="732.0" y="87.0" otu="otu14"/>
+   <edge id="e.2" target="NT1.28" source="NT1.7"/>
+   <edge id="e.5" source="NT1.7" target="NT1.22"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" target="NT1.20" source="NT1.3"/>
+   <edge id="e.15" target="NT1.15" source="NT1.2"/>
+   <edge id="e.20" target="NT1.7" source="NT1.3"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

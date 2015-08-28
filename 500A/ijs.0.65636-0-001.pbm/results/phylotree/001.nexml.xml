@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Streptococcus" cmphy:species="suis" cmphy:strain="CIP 1O3217T" cmphy:id="Z95920" editRecord="[]">Streptococcus suis CIP 1O3217T (Z95920)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Streptococcus" cmphy:species="ovis" cmphy:strain="CIP 1O7O97T" cmphy:id="DQZ32556" editRecord="[2__Z]">Streptococcus ovis CIP 1O7O97T (DQ232556)</otu>
+  <otu id="otu4" cmphy:genus="Streptococcus" cmphy:species="plurextorum" cmphy:strain="1956-02T" cmphy:id="AM774230" editRecord="[]">Streptococcus plurextorum 1956-02T (AM774230)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Streptococcus" cmphy:species="urinalis" cmphy:strain="2285-97T" cmphy:id="DQZ32561" editRecord="[2__Z]">Streptococcus urinalis 2285-97T (DQ232561)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Streptococcus" cmphy:species="macacae" cmphy:strain="CIP 1O2912T" cmphy:id="DQZ32553" editRecord="[2__Z]">Streptococcus macacae CIP 1O2912T (DQ232553)</otu>
+  <otu id="otu7" cmphy:genus="Streptococcus" cmphy:species="acidominimus" cmphy:strain="CIP 82.47" cmphy:id="Z95892" editRecord="[]">Streptococcus acidominimus CIP 82.47 (Z95892)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Streptococcus" cmphy:species="minor" cmphy:strain="CIP 1083147" cmphy:id="DQZ32572" editRecord="[2__Z]">Streptococcus minor CIP 1083147 (DQ232572)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Streptococcus" cmphy:species="ferus" cmphy:strain="ATCC 33477" cmphy:id="DQI32986" editRecord="[1__I]">Streptococcus ferus ATCC 33477 (DQ132986)</otu>
+  <otu id="otu10">Streptococcus halichoeri M512lO2l1T (DQ232571 )</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="315.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="36.0" y="315.0"/>
+   <node id="NT1.3" label="NT1.3" x="66.0" y="214.0"/>
+   <node id="NT1.4" label="NT1.4" x="116.0" y="295.0"/>
+   <node id="NT1.6" label="NT1.6" x="150.0" y="258.0"/>
+   <node id="NT1.7" label="NT1.7" x="151.0" y="133.0"/>
+   <node id="NT1.8" label="NT1.8" x="189.0" y="87.0"/>
+   <node id="NT1.9" label="NT1.9" x="287.0" y="49.0"/>
+   <node id="NT1.10" label="NT1.10" x="634.0" y="74.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="690.0" y="127.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="711.0" y="23.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="714.0" y="389.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="731.0" y="283.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="739.0" y="336.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="750.0" y="179.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="806.0" y="231.0" otu="otu9"/>
+   <edge id="e.0" source="NT1.9" target="NT1.12"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.8" target="NT1.11"/>
+   <edge id="e.3" source="NT1.6" target="NT1.17"/>
+   <edge id="e.4" target="NT1.13" source="NT1.2"/>
+   <edge id="e.5" source="NT1.8" target="NT1.9"/>
+   <edge id="e.6" source="NT1.7" target="NT1.8"/>
+   <edge id="e.7" source="NT1.3" target="NT1.7"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.11" source="NT1.4" target="NT1.6"/>
+   <edge id="e.12" source="NT1.4" target="NT1.15"/>
+   <edge id="e.13" source="NT1.6" target="NT1.14"/>
+   <edge id="e.14" source="NT1.7" target="NT1.16"/>
+   <edge id="e.16" source="NT1.9" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="DSM 107" cmphy:id="ABO42061" editRecord="[]">Bacillus subtilis DSM 107 (ABO42061)</otu>
+  <otu id="otu2">2Anoxybacillus beppuensis' (AB243446)</otu>
+  <otu id="otu3" cmphy:edit="[8__B]" cmphy:genus="Anoxybacillus" cmphy:species="rupiensis" cmphy:strain="DSM 17127T" cmphy:id="AJB79076" editRecord="[8__B]">Anoxybacillus rupiensis DSM 17127T (AJ879076)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Anoxybacillus" cmphy:species="voinovskiensis" cmphy:strain="NCIMB 13956T" cmphy:id="ABI10008" editRecord="[1__I]">Anoxybacillus voinovskiensis NCIMB 13956T (AB110008)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Anoxybacillus" cmphy:species="contaminans" cmphy:strain="DSM 15866T" cmphy:id="AJS51330" editRecord="[5__S]">Anoxybacillus contaminans DSM 15866T (AJ551330)</otu>
+  <otu id="otu6" cmphy:genus="Anoxybacillus" cmphy:species="amylolyticus" cmphy:strain="DSM 159397" cmphy:id="AJ618979" editRecord="[]">Anoxybacillus amylolyticus DSM 159397 (AJ618979)</otu>
+  <otu id="otu7" cmphy:genus="Anoxybacillus" cmphy:species="flavithermus" cmphy:strain="DSM 2641T" cmphy:id="Z26932" editRecord="[]">Anoxybacillus flavithermus DSM 2641T (Z26932)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Anoxybacillus" cmphy:species="ayderensis" cmphy:strain="NCIMB 13972T" cmphy:id="AFO01963" editRecord="[0__O]">Anoxybacillus ayderensis NCIMB 13972T (AF001963)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Anoxybacillus" cmphy:species="kamchatkensis" cmphy:strain="DSM 14988T" cmphy:id="AFS10985" editRecord="[5__S]"> Anoxybacillus kamchatkensis DSM 14988T (AF510985)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Anoxybacillus" cmphy:species="gonensis" cmphy:strain="NCIMB 13933T" cmphy:id="AYI22325" editRecord="[1__I]">Anoxybacillus gonensis NCIMB 13933T (AY122325)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Geobacillus" cmphy:species="stearothermophilus" cmphy:strain="DSM 22T" cmphy:id="AJZ94817" editRecord="[2__Z]">Geobacillus stearothermophilus DSM 22T (AJ294817)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Anoxybacillus" cmphy:species="kestanbolensis" cmphy:strain="NCIMB 13971T" cmphy:id="AYZ48711" editRecord="[2__Z]">Anoxybacillus kestanbolensis NCIMB 13971T (AY248711)</otu>
+  <otu id="otu13" cmphy:genus="Anoxybacillus" cmphy:species="pushchinoensis" cmphy:strain="DSM 12423T" cmphy:id="AJO10478" editRecord="[]">Anoxybacillus pushchinoensis DSM 12423T (AJO10478)</otu>
+  <otu id="otu14" cmphy:genus="Anoxybacillus" cmphy:species="bogrovensis" cmphy:strain="DSM 17956T" cmphy:id="AM409184" editRecord="[]">Anoxybacillus bogrovensis DSM 17956T (AM409184)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="434.0" y="14.0" otu="otu1"/>
+   <node id="NT1.2" label="NT1.2" x="434.0" y="74.0"/>
+   <node id="NT1.3" label="NT1.3" x="471.0" y="477.0"/>
+   <node id="NT1.4" label="NT1.4" x="557.0" y="359.0"/>
+   <node id="NT1.6" label="NT1.6" x="642.0" y="397.0"/>
+   <node id="NT1.8" label="NT1.8" x="651.0" y="497.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="682.0" y="460.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="695.0" y="438.0"/>
+   <node id="NT1.11" label="NT1.11" x="707.0" y="377.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="712.0" y="317.0"/>
+   <node id="NT1.13" label="NT1.13" x="779.0" y="417.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="795.0" y="196.0"/>
+   <node id="NT1.15" label="NT1.15" x="838.0" y="234.0"/>
+   <node id="NT1.16" label="NT1.16" x="840.0" y="159.0"/>
+   <node id="NT1.17" label="NT1.17" x="845.0" y="116.0"/>
+   <node id="NT1.18" label="NT1.18" x="881.0" y="214.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="905.0" y="177.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="905.0" y="137.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="907.0" y="274.0"/>
+   <node id="NT1.22" label="NT1.22" x="959.0" y="96.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="1034.0" y="57.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="1044.0" y="297.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="1056.0" y="256.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="1061.0" y="337.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="4.0" y="44.0" root="true"/>
+   <edge id="e.0" source="NT1.2" target="NT1.23"/>
+   <edge id="e.1" source="NT1.10" target="NT1.9"/>
+   <edge id="e.2" source="NT1.16" target="NT1.19"/>
+   <edge id="e.3" source="NT1.12" target="NT1.26"/>
+   <edge id="e.4" source="NT1.17" target="NT1.20"/>
+   <edge id="e.5" source="NT1.17" target="NT1.22"/>
+   <edge id="e.6" source="NT1.21" target="NT1.24"/>
+   <edge id="e.7" source="NT1.2" target="NT1.3"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.10" source="NT1.4" target="NT1.6"/>
+   <edge id="e.11" source="NT1.4" target="NT1.12"/>
+   <edge id="e.12" source="NT1.6" target="NT1.10"/>
+   <edge id="e.13" source="NT1.12" target="NT1.14"/>
+   <edge id="e.14" source="NT1.14" target="NT1.15"/>
+   <edge id="e.15" source="NT1.14" target="NT1.16"/>
+   <edge id="e.16" source="NT1.16" target="NT1.17"/>
+   <edge id="e.17" source="NT1.15" target="NT1.21"/>
+   <edge id="e.18" source="NT1.27" target="NT1.2"/>
+   <edge id="e.19" source="NT1.27" target="NT1.1"/>
+   <edge id="e.21" target="NT1.8" source="NT1.3"/>
+   <edge id="e.22" source="NT1.6" target="NT1.11"/>
+   <edge id="e.23" source="NT1.10" target="NT1.13"/>
+   <edge id="e.24" source="NT1.15" target="NT1.18"/>
+   <edge id="e.25" source="NT1.21" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Marinobacterium" cmphy:species="georgiense" cmphy:strain="ATCC 700O74T" cmphy:id="U58339" editRecord="[]">Marinobacterium georgiense ATCC 700O74T (U58339)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Neptuniibacter" cmphy:species="caesariensis" cmphy:strain="MED92T" cmphy:id="AYI36116" editRecord="[1__I]">Neptuniibacter caesariensis MED92T (AY136116)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">clone R21</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Oceanospirillum" cmphy:species="multiglobuliferum" cmphy:strain="IFO 13614T" cmphy:id="ABO06764" editRecord="[0__O]">Oceanospirillum multiglobuliferum IFO 13614T (AB006764)</otu>
+  <otu id="otu14" cmphy:genus="Oceanospirillum" cmphy:species="linum" cmphy:strain="ATCC 11336T" cmphy:id="M22365" editRecord="[]">Oceanospirillum linum ATCC 11336T (M22365)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="74.0" y="579.0"/>
+   <node id="NT1.4" label="NT1.4" x="216.0" y="388.0"/>
+   <node id="NT1.9" label="NT1.9" x="384.0" y="650.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="406.0" y="419.0"/>
+   <node id="NT1.14" label="NT1.14" x="464.0" y="496.0" otu="otu3"/>
+   <node id="NT1.25" label="NT1.25" x="619.0" y="393.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="631.0" y="445.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="3.0" y="666.0" root="true"/>
+   <edge id="e.4" source="NT1.4" target="NT1.14"/>
+   <edge id="e.6" source="NT1.11" target="NT1.25"/>
+   <edge id="e.7" source="NT1.11" target="NT1.26"/>
+   <edge id="e.11" target="NT1.9" source="NT1.1"/>
+   <edge id="e.17" target="NT1.11" source="NT1.4"/>
+   <edge id="e.19" target="NT1.4" source="NT1.1"/>
+   <edge id="e.24" source="NT1.27" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

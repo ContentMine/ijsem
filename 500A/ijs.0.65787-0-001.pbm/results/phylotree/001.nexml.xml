@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Verrucomicrobium spinosum DSM 41 367 (X9051 5)</otu>
+  <otu id="otu3" cmphy:genus="Prosthecobacter" cmphy:species="vanneervenii" cmphy:strain="FCZT" cmphy:id="U60013" editRecord="[]">Prosthecobacter vanneervenii FCZT (U60013)</otu>
+  <otu id="otu4">Strain HAQ-1T (AB305640)</otu>
+  <otu id="otu5" cmphy:genus="Prosthecobacter" cmphy:species="fusiformis" cmphy:strain="FC4T" cmphy:id="U60015" editRecord="[]">Prosthecobacter fusiformis FC4T (U60015)</otu>
+  <otu id="otu6" cmphy:genus="Prosthecobacter" cmphy:species="dejongeii" cmphy:strain="FC1T" cmphy:id="U60012" editRecord="[]">Prosthecobacter dejongeii FC1T (U60012)</otu>
+  <otu id="otu7" cmphy:genus="Prosthecobacter" cmphy:species="debontii" cmphy:strain="FC3T" cmphy:id="U60014" editRecord="[]">Prosthecobacter debontii FC3T (U60014)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="212.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="162.0" y="142.0"/>
+   <node id="NT1.6" label="NT1.6" x="276.0" y="85.0"/>
+   <node id="NT1.7" label="NT1.7" x="291.0" y="44.0"/>
+   <node id="NT1.8" label="NT1.8" x="300.0" y="231.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="342.0" y="15.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="344.0" y="70.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="361.0" y="126.0" otu="otu7"/>
+   <edge id="e.0" source="NT1.7" target="NT1.11"/>
+   <edge id="e.1" source="NT1.6" target="NT1.12"/>
+   <edge id="e.5" source="NT1.6" target="NT1.7"/>
+   <edge id="e.6" source="NT1.3" target="NT1.6"/>
+   <edge id="e.7" target="NT1.3" source="NT1.1"/>
+   <edge id="e.9" target="NT1.8" source="NT1.3"/>
+   <edge id="e.10" source="NT1.7" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

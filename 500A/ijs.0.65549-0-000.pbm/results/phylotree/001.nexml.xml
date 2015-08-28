@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Marlbacter" cmphy:species="orienialis" cmphy:strain="KMM 39477" cmphy:id="AYZ71624" editRecord="[2__Z]">Marlbacter orienialis KMM 39477 (AY271624)</otu>
+  <otu id="otu2" cmphy:genus="Maribacter" cmphy:species="arcticus" cmphy:strain="KOPRI 209411" cmphy:id="AY771762" editRecord="[]">Maribacter arcticus KOPRI 209411 (AY771762)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Pibocella" cmphy:species="ponti" cmphy:strain="KMM 60317" cmphy:id="AYS76654" editRecord="[5__S]">Pibocella ponti KMM 60317 (AY576654)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Maribacter" cmphy:species="aquivivus" cmphy:strain="KMM 39497" cmphy:id="AYZ71625" editRecord="[2__Z]">Maribacter aquivivus KMM 39497 (AY271625)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Marlbacter" cmphy:species="ulvicola" cmphy:strain="KMM 39517" cmphy:id="AYZ71626" editRecord="[2__Z]">Marlbacter ulvicola KMM 39517 (AY271626)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Zobeilia" cmphy:species="galactanivorans" cmphy:strain="Dsij1" cmphy:id="AFZ08293" editRecord="[2__Z]">Zobeilia galactanivorans Dsij1 (AF208293)</otu>
+  <otu id="otu7" cmphy:genus="Marlbacter" cmphy:species="dokdonensis" cmphy:strain="DSW-ST" cmphy:id="AY960749" editRecord="[]">Marlbacter dokdonensis DSW-ST (AY960749)</otu>
+  <otu id="otu8"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="183.0"/>
+   <node id="NT1.2" label="NT1.2" x="212.0" y="310.0"/>
+   <node id="NT1.3" label="NT1.3" x="229.0" y="232.0" otu="otu1"/>
+   <node id="NT1.4" label="NT1.4" x="271.0" y="159.0" otu="otu2"/>
+   <node id="NT1.5" x="328.0" y="388.0" label="65"/>
+   <node id="NT1.6" label="NT1.6" x="361.0" y="87.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="418.0" y="306.0" otu="otu4"/>
+   <node id="NT1.8" x="450.0" y="471.0" label="88"/>
+   <node id="NT1.10" label="NT1.10" x="606.0" y="526.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="614.0" y="13.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="638.0" y="453.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="2.0" y="34.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.6"/>
+   <edge id="e.1" source="NT1.2" target="NT1.3"/>
+   <edge id="e.2" source="NT1.8" target="NT1.10"/>
+   <edge id="e.3" target="NT1.12" source="NT1.8"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" source="NT1.2" target="NT1.5"/>
+   <edge id="e.7" source="NT1.5" target="NT1.8"/>
+   <edge id="e.9" source="NT1.14" target="NT1.11"/>
+   <edge id="e.10" source="NT1.14" target="NT1.1"/>
+   <edge id="e.11" source="NT1.1" target="NT1.4"/>
+   <edge id="e.12" source="NT1.5" target="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

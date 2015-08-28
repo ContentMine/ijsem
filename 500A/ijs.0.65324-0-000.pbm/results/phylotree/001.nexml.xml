@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Bacillus Subtilis DSM 107 (AJ276351)</otu>
+  <otu id="otu2" cmphy:genus="Rhodospirillum" cmphy:species="rubrum" cmphy:strain="DSM 107" cmphy:id="X87278" editRecord="[]">Rhodospirillum rubrum DSM 107 (X87278)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Lysobacter" cmphy:species="antibioticus" cmphy:strain="DSM 20447" cmphy:id="ABO19582" editRecord="[0__O]">Lysobacter antibioticus DSM 20447 (AB019582)</otu>
+  <otu id="otu4" cmphy:genus="Xanthomonas" cmphy:species="campestris" cmphy:strain="LMG 568T" cmphy:id="X95917" editRecord="[]"> Xanthomonas campestris LMG 568T (X95917)</otu>
+  <otu id="otu5" cmphy:genus="Stenotrophomonas" cmphy:species="maltophilia" cmphy:strain="LMG 9581" cmphy:id="X95923" editRecord="[]"> Stenotrophomonas maltophilia LMG 9581 (X95923)</otu>
+  <otu id="otu6"> E43 (AJ517825)</otu>
+  <otu id="otu7">Desulfovibrio desulfuricans ATCC 27774 (M341 13)</otu>
+  <otu id="otu8" cmphy:genus="Sphingomonas" cmphy:species="paucimobilis" cmphy:strain="ATCC 29837T" cmphy:id="U37337" editRecord="[]">Sphingomonas paucimobilis ATCC 29837T (U37337)</otu>
+  <otu id="otu9">lgnarzschineria larvae L271 1 (AJ2S2146)</otu>
+  <otu id="otu10">lgnatzschineria larvae DSM 13226 (AJ252143)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Xylella" cmphy:species="fastidiosa" cmphy:strain="ATCC 35871" cmphy:id="AFZ03388" editRecord="[2__Z]">Xylella fastidiosa ATCC 35871 (AF203388)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Frateuria" cmphy:species="aurantla" cmphy:strain="IFO 3245T" cmphy:id="AJO10481" editRecord="[0__O]">Frateuria aurantla IFO 3245T (AJ010481)</otu>
+  <otu id="otu13">Rhodanobacterlindaniclasticus LMG 18358T (AF039167)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Pseudomonas" cmphy:species="pachastrellae" cmphy:strain="KMM 330T" cmphy:id="ABI25367" editRecord="[1__I]">Pseudomonas pachastrellae KMM 330T (AB125367)</otu>
+  <otu id="otu15"> SST(AM397O63)</otu>
+  <otu id="otu16" cmphy:genus="Cardiobacterium" cmphy:species="hominis" cmphy:strain="ATCC 158267" cmphy:id="M35014" editRecord="[]">Cardiobacterium hominis ATCC 158267 (M35014)</otu>
+  <otu id="otu17">Suttonella indologenes ATCC 25869T(M35015)</otu>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Shewanella" cmphy:species="surugensis" cmphy:strain="DSM 17177" cmphy:id="ABO94597" editRecord="[0__O]">Shewanella surugensis DSM 17177 (AB094597)</otu>
+  <otu id="otu19" cmphy:edit="[O__0, O__0]" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="K-12" cmphy:id="U00096" editRecord="[O__0, O__0]">Escherichia coli K-12 (UO0O96)</otu>
+  <otu id="otu20" cmphy:genus="Proteus" cmphy:species="vulgaris" cmphy:strain="IFAM 1737" cmphy:id="X07652" editRecord="[]">Proteus vulgaris IFAM 1737 (X07652)</otu>
+  <otu id="otu21">Comamonas testosteroni ATCC 1 1996T(M11224)</otu>
+  <otu id="otu22" cmphy:genus="Wolinella" cmphy:species="succinogenes" cmphy:strain="ATCC 29543T" cmphy:id="M88159" editRecord="[]">Wolinella succinogenes ATCC 29543T (M88159)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="293.0" y="722.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="293.0" y="607.0"/>
+   <node id="NT1.4" x="347.0" y="570.0" label="90"/>
+   <node id="NT1.5" x="405.0" y="638.0" label="67"/>
+   <node id="NT1.7" x="493.0" y="337.0" label="85"/>
+   <node id="NT1.9" x="534.0" y="136.0" label="56"/>
+   <node id="NT1.10" x="567.0" y="101.0" label="94"/>
+   <node id="NT1.11" x="583.0" y="471.0" label="100"/>
+   <node id="NT1.12" x="691.0" y="67.0" label="100"/>
+   <node id="NT1.13" x="711.0" y="436.0" label="100"/>
+   <node id="NT1.16" x="755.0" y="405.0" label="96"/>
+   <node id="NT1.17" label="NT1.17" x="773.0" y="656.0" otu="otu2"/>
+   <node id="NT1.19" x="789.0" y="370.0" label="94"/>
+   <node id="NT1.20" label="NT1.20" x="818.0" y="455.0" otu="otu3"/>
+   <node id="NT1.21" label="NT1.21" x="820.0" y="352.0" otu="otu4"/>
+   <node id="NT1.22" x="837.0" y="35.0" label="100"/>
+   <node id="NT1.24" label="NT1.24" x="855.0" y="388.0" otu="otu5"/>
+   <node id="NT1.27" label="NT1.27" x="870.0" y="621.0" otu="otu8"/>
+   <node id="NT1.31" label="NT1.31" x="881.0" y="420.0" otu="otu11"/>
+   <node id="NT1.32" label="NT1.32" x="884.0" y="521.0" otu="otu12"/>
+   <node id="NT1.34" label="NT1.34" x="891.0" y="117.0" otu="otu14"/>
+   <node id="NT1.36" label="NT1.36" x="903.0" y="149.0" otu="otu16"/>
+   <node id="NT1.38" label="NT1.38" x="938.0" y="85.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="1004.0" y="16.0" otu="otu19"/>
+   <node id="NT1.40" label="NT1.40" x="1017.0" y="52.0" otu="otu20"/>
+   <node id="NT1.42" label="NT1.42" x="1040.0" y="587.0" otu="otu22"/>
+   <edge id="e.0" source="NT1.22" target="NT1.39"/>
+   <edge id="e.1" source="NT1.22" target="NT1.40"/>
+   <edge id="e.2" source="NT1.12" target="NT1.38"/>
+   <edge id="e.3" source="NT1.10" target="NT1.34"/>
+   <edge id="e.4" target="NT1.36" source="NT1.9"/>
+   <edge id="e.10" source="NT1.13" target="NT1.20"/>
+   <edge id="e.11" source="NT1.19" target="NT1.21"/>
+   <edge id="e.12" target="NT1.32" source="NT1.11"/>
+   <edge id="e.14" source="NT1.16" target="NT1.31"/>
+   <edge id="e.15" source="NT1.19" target="NT1.24"/>
+   <edge id="e.17" source="NT1.5" target="NT1.17"/>
+   <edge id="e.18" source="NT1.4" target="NT1.42"/>
+   <edge id="e.20" source="NT1.5" target="NT1.27"/>
+   <edge id="e.21" source="NT1.1" target="NT1.2"/>
+   <edge id="e.22" source="NT1.12" target="NT1.22"/>
+   <edge id="e.23" source="NT1.10" target="NT1.12"/>
+   <edge id="e.24" source="NT1.9" target="NT1.10"/>
+   <edge id="e.25" target="NT1.9" source="NT1.7"/>
+   <edge id="e.29" target="NT1.7" source="NT1.4"/>
+   <edge id="e.30" source="NT1.7" target="NT1.11"/>
+   <edge id="e.35" source="NT1.11" target="NT1.13"/>
+   <edge id="e.36" source="NT1.2" target="NT1.4"/>
+   <edge id="e.37" source="NT1.13" target="NT1.16"/>
+   <edge id="e.38" source="NT1.16" target="NT1.19"/>
+   <edge id="e.40" target="NT1.5" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

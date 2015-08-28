@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Rhizobium Ieguminosarum USDA 23707 (U29386)</otu>
+  <otu id="otu2" cmphy:genus="Devosia" cmphy:species="chinhatensis" cmphy:strain="lPL187" cmphy:id="EF433462" editRecord="[]">Devosia chinhatensis lPL187 (EF433462)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Devosia" cmphy:species="insulae" cmphy:strain="DS-567" cmphy:id="EFO12357" editRecord="[0__O]">Devosia insulae DS-567 (EF012357)</otu>
+  <otu id="otu5"> Devasia limi LMG 22951 T (AJ786801)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Devosia" cmphy:species="soli" cmphy:strain="GH2-107" cmphy:id="DQB03125" editRecord="[3__B]">Devosia soli GH2-107 (DQ303125)</otu>
+  <otu id="otu7" cmphy:genus="Devosia" cmphy:species="neptuniae" cmphy:strain="J17" cmphy:id="AF469072" editRecord="[]">Devosia neptuniae J17 (AF469072)</otu>
+  <otu id="otu8">CandidaIus D. eupIotis LlV5 (AJ548825)</otu>
+  <otu id="otu9">Candidatus D. eupIotis' CAMP4.4 (AJ548824)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="298.0" y="366.0"/>
+   <node id="NT1.3" x="331.0" y="293.0" label="775"/>
+   <node id="NT1.4" label="NT1.4" x="338.0" y="226.0"/>
+   <node id="NT1.8" label="NT1.8" x="431.0" y="278.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="441.0" y="438.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="489.0" y="330.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="491.0" y="225.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="4.0" y="428.0" root="true"/>
+   <edge id="e.3" target="NT1.13" source="NT1.4"/>
+   <edge id="e.4" source="NT1.4" target="NT1.8"/>
+   <edge id="e.6" target="NT1.12" source="NT1.3"/>
+   <edge id="e.7" source="NT1.1" target="NT1.10"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.1" target="NT1.3"/>
+   <edge id="e.15" source="NT1.17" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

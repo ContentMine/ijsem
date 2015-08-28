@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Gillisia Iimnaea R-82827 (AJ440991)</otu>
+  <otu id="otu5" cmphy:genus="Salegentibacter" cmphy:species="catena" cmphy:strain="HY1T" cmphy:id="DQ640642" editRecord="[]">Salegentibacter catena HY1T (DQ640642)</otu>
+  <otu id="otu6" cmphy:genus="Salegentibacter" cmphy:species="salinarum" cmphy:strain="ISL-47" cmphy:id="EF612764" editRecord="[]">Salegentibacter salinarum ISL-47 (EF612764)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 5424T" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens DSM 5424T (M92279)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Salegentibacter" cmphy:species="holothuriorum" cmphy:strain="KMM 3524T" cmphy:id="ABI16148" editRecord="[1__I]">Salegentibacter holothuriorum KMM 3524T (AB116148)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Salegentibacter" cmphy:species="agarivorans" cmphy:strain="KMM 70197" cmphy:id="DQI91176" editRecord="[1__I]">Salegentibacter agarivorans KMM 70197 (DQ191176)</otu>
+  <otu id="otu11" cmphy:genus="Salegentibacter" cmphy:species="flavus" cmphy:strain="Fg 69T" cmphy:id="AY682200" editRecord="[]">Salegentibacter flavus Fg 69T (AY682200)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Salegentibacter" cmphy:species="mishustinae" cmphy:strain="KMM 6049T" cmphy:id="AYS76653" editRecord="[5__S]">Salegentibacter mishustinae KMM 6049T (AY576653)</otu>
+  <otu id="otu13" cmphy:genus="Salegentibacter" cmphy:species="salarius" cmphy:strain="ISL-67" cmphy:id="EF486353" editRecord="[]">Salegentibacter salarius ISL-67 (EF486353)</otu>
+  <otu id="otu14" cmphy:genus="Aquimarina" cmphy:species="latemula" cmphy:strain="ATCC 231777" cmphy:id="M58769" editRecord="[]">Aquimarina latemula ATCC 231777 (M58769)</otu>
+  <otu id="otu15" cmphy:edit="[5__S]" cmphy:genus="Mesonia" cmphy:species="algae" cmphy:strain="KMM 3909T" cmphy:id="AFS36383" editRecord="[5__S]">Mesonia algae KMM 3909T (AF536383)</otu>
+  <otu id="otu16" cmphy:genus="Gramella" cmphy:species="echinicola" cmphy:strain="KMM 60507" cmphy:id="AY608409" editRecord="[]">Gramella echinicola KMM 60507 (AY608409)</otu>
+  <otu id="otu17" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 119477" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 119477 (M62797)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="22.0" y="383.0"/>
+   <node id="NT1.2" label="NT1.2" x="32.0" y="338.0"/>
+   <node id="NT1.3" label="NT1.3" x="67.0" y="293.0"/>
+   <node id="NT1.4" label="NT1.4" x="105.0" y="236.0"/>
+   <node id="NT1.5" label="NT1.5" x="109.0" y="236.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="116.0" y="290.0"/>
+   <node id="NT1.7" label="NT1.7" x="138.0" y="290.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="151.0" y="210.0"/>
+   <node id="NT1.9" label="NT1.9" x="156.0" y="185.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="213.0" y="419.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="218.0" y="111.0"/>
+   <node id="NT1.12" label="NT1.12" x="223.0" y="382.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="236.0" y="179.0"/>
+   <node id="NT1.14" x="246.0" y="62.0" label=" 67"/>
+   <node id="NT1.15" label="NT1.15" x="259.0" y="162.0" otu="otu6"/>
+   <node id="NT1.16" x="266.0" y="33.0" label="76"/>
+   <node id="NT1.17" label="NT1.17" x="271.0" y="33.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="275.0" y="125.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="294.0" y="88.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="295.0" y="198.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="296.0" y="235.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="302.0" y="52.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="310.0" y="15.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="320.0" y="345.0" otu="otu14"/>
+   <node id="NT1.25" label="NT1.25" x="353.0" y="272.0" otu="otu15"/>
+   <node id="NT1.26" label="NT1.26" x="369.0" y="309.0" otu="otu16"/>
+   <node id="NT1.27" label="NT1.27" x="373.0" y="456.0" otu="otu17"/>
+   <edge source="NT1.17" target="NT1.16" id="e.0"/>
+   <edge source="NT1.18" target="NT1.11" id="e.1"/>
+   <edge source="NT1.15" target="NT1.13" id="e.2"/>
+   <edge source="NT1.9" target="NT1.8" id="e.3"/>
+   <edge source="NT1.5" target="NT1.4" id="e.4"/>
+   <edge source="NT1.7" target="NT1.6" id="e.5"/>
+   <edge source="NT1.21" target="NT1.8" id="e.6"/>
+   <edge source="NT1.25" target="NT1.6" id="e.7"/>
+   <edge source="NT1.26" target="NT1.6" id="e.8"/>
+   <edge source="NT1.16" target="NT1.14" id="e.9"/>
+   <edge source="NT1.14" target="NT1.11" id="e.10"/>
+   <edge source="NT1.11" target="NT1.8" id="e.11"/>
+   <edge source="NT1.11" target="NT1.13" id="e.12"/>
+   <edge source="NT1.8" target="NT1.4" id="e.13"/>
+   <edge source="NT1.6" target="NT1.4" id="e.14"/>
+   <edge source="NT1.6" target="NT1.3" id="e.15"/>
+   <edge source="NT1.3" target="NT1.2" id="e.16"/>
+   <edge source="NT1.2" target="NT1.1" id="e.17"/>
+   <edge source="NT1.24" target="NT1.3" id="e.18"/>
+   <edge source="NT1.10" target="NT1.1" id="e.19"/>
+   <edge source="NT1.12" target="NT1.2" id="e.20"/>
+   <edge source="NT1.27" target="NT1.1" id="e.21"/>
+   <edge source="NT1.19" target="NT1.14" id="e.22"/>
+   <edge source="NT1.20" target="NT1.13" id="e.23"/>
+   <edge source="NT1.23" target="NT1.16" id="e.24"/>
+   <edge source="NT1.22" target="NT1.16" id="e.25"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"> LeptonemaiIIini305ST (M88719)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Splrochaeta" cmphy:species="halophlla" cmphy:strain="RS1T" cmphy:id="M88722" editRecord="[]">Splrochaeta halophlla RS1T (M88722)</otu>
+  <otu id="otu8" cmphy:genus="Leptospira" cmphy:species="noguchii" cmphy:strain="NB36" cmphy:id="U12671" editRecord="[]"> Leptospira noguchii NB36 (U12671)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Spirochaeta" cmphy:species="bajacaliforniensis" cmphy:strain="ATCC 35968T" cmphy:id="M71239" editRecord="[]">Spirochaeta bajacaliforniensis ATCC 35968T (M71239)</otu>
+  <otu id="otu11" cmphy:genus="Spirochaeta" cmphy:species="thermophila" cmphy:strain="DSM 6192" cmphy:id="X62809" editRecord="[]">Spirochaeta thermophila DSM 6192 (X62809)</otu>
+  <otu id="otu12" cmphy:genus="Treponema" cmphy:species="pallidum" cmphy:strain="Nichols strain" cmphy:id="M88726" editRecord="[]">Treponema pallidum Nichols strain (M88726)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Borrelia" cmphy:species="valaisiana" cmphy:strain="CKA1" cmphy:id="ABO22141" editRecord="[0__O]">Borrelia valaisiana CKA1 (AB022141)</otu>
+  <otu id="otu14"> Brachyspira pilosicoli ATCC 51 139T (AY155458)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[O__0, O__0]" cmphy:genus="Brachyspira" cmphy:species="aalborgi" cmphy:strain="W1" cmphy:id="AFZ00693" editRecord="[O__0, O__0]">Brachyspira aalborgi W1 (AFZOO693)</otu>
+  <otu id="otu18" cmphy:genus="Spirochaeta" cmphy:species="coccoides" cmphy:strain="SPN1T" cmphy:id="AJ698092" editRecord="[]">Spirochaeta coccoides SPN1T (AJ698092)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:genus="Treponema" cmphy:species="denticola" cmphy:strain="ATCC 33520" cmphy:id="M71236" editRecord="[]">Treponema denticola ATCC 33520 (M71236)</otu>
+  <otu id="otu21" cmphy:genus="Treponema" cmphy:species="pectinovorum" cmphy:strain="ATCC 33768T" cmphy:id="M71237" editRecord="[]">Treponema pectinovorum ATCC 33768T (M71237)</otu>
+  <otu id="otu22" cmphy:genus="Brevinema" cmphy:species="andersonii" cmphy:strain="FS-47" cmphy:id="L31543" editRecord="[]">Brevinema andersonii FS-47 (L31543)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:genus="Cristispira" cmphy:species="pectinis" cmphy:strain="CP1" cmphy:id="U42638" editRecord="[]"> Cristispira pectinis CP1 (U42638)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="613.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="62.0" y="613.0"/>
+   <node id="NT1.5" label="NT1.5" x="96.0" y="526.0"/>
+   <node id="NT1.8" label="NT1.8" x="147.0" y="411.0"/>
+   <node id="NT1.11" label="NT1.11" x="186.0" y="330.0"/>
+   <node id="NT1.12" label="NT1.12" x="213.0" y="210.0"/>
+   <node id="NT1.13" label="NT1.13" x="248.0" y="311.0"/>
+   <node id="NT1.14" label="NT1.14" x="253.0" y="272.0"/>
+   <node id="NT1.15" label="NT1.15" x="261.0" y="240.0"/>
+   <node id="NT1.17" label="NT1.17" x="288.0" y="424.0"/>
+   <node id="NT1.18" label="NT1.18" x="293.0" y="102.0"/>
+   <node id="NT1.21" label="NT1.21" x="373.0" y="141.0"/>
+   <node id="NT1.25" label="NT1.25" x="479.0" y="234.0" otu="otu7"/>
+   <node id="NT1.26" label="NT1.26" x="490.0" y="629.0" otu="otu8"/>
+   <node id="NT1.30" label="NT1.30" x="548.0" y="270.0" otu="otu10"/>
+   <node id="NT1.31" label="NT1.31" x="556.0" y="342.0" otu="otu11"/>
+   <node id="NT1.32" label="NT1.32" x="564.0" y="161.0" otu="otu12"/>
+   <node id="NT1.33" label="NT1.33" x="564.0" y="415.0" otu="otu13"/>
+   <node id="NT1.37" label="NT1.37" x="599.0" y="556.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="601.0" y="306.0" otu="otu18"/>
+   <node id="NT1.40" label="NT1.40" x="612.0" y="124.0" otu="otu20"/>
+   <node id="NT1.41" label="NT1.41" x="649.0" y="16.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="686.0" y="487.0" otu="otu22"/>
+   <node id="NT1.44" label="NT1.44" x="777.0" y="451.0" otu="otu24"/>
+   <edge id="e.1" target="NT1.41" source="NT1.18"/>
+   <edge id="e.3" source="NT1.21" target="NT1.32"/>
+   <edge id="e.5" source="NT1.21" target="NT1.40"/>
+   <edge id="e.8" target="NT1.25" source="NT1.15"/>
+   <edge id="e.9" source="NT1.13" target="NT1.31"/>
+   <edge id="e.10" source="NT1.15" target="NT1.30"/>
+   <edge id="e.11" source="NT1.14" target="NT1.38"/>
+   <edge id="e.12" source="NT1.1" target="NT1.4"/>
+   <edge id="e.13" target="NT1.33" source="NT1.17"/>
+   <edge id="e.16" source="NT1.17" target="NT1.44"/>
+   <edge id="e.17" source="NT1.8" target="NT1.42"/>
+   <edge id="e.19" target="NT1.37" source="NT1.5"/>
+   <edge id="e.21" target="NT1.26" source="NT1.4"/>
+   <edge id="e.25" source="NT1.12" target="NT1.18"/>
+   <edge id="e.26" source="NT1.18" target="NT1.21"/>
+   <edge id="e.27" source="NT1.11" target="NT1.12"/>
+   <edge id="e.28" source="NT1.12" target="NT1.13"/>
+   <edge id="e.29" source="NT1.13" target="NT1.14"/>
+   <edge id="e.31" source="NT1.8" target="NT1.11"/>
+   <edge id="e.32" source="NT1.11" target="NT1.17"/>
+   <edge id="e.33" source="NT1.14" target="NT1.15"/>
+   <edge id="e.35" target="NT1.8" source="NT1.5"/>
+   <edge id="e.38" source="NT1.4" target="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

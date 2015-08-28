@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[8__B]" cmphy:genus="Aeromicrobium" cmphy:species="alkaliterrae" cmphy:strain="KSL-107T" cmphy:id="AYB22044" editRecord="[8__B]">Aeromicrobium alkaliterrae KSL-107T (AY822044)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Aeromicrobium" cmphy:species="panaciterrae" cmphy:strain="Gsoil 161T" cmphy:id="ABZ45387" editRecord="[2__Z]">Aeromicrobium panaciterrae Gsoil 161T (AB245387)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Aeromicrobium" cmphy:species="marinum" cmphy:strain="DSM 15272T" cmphy:id="AYI66703" editRecord="[1__I]">Aeromicrobium marinum DSM 15272T (AY166703)</otu>
+  <otu id="otu5" cmphy:genus="Aeromicrobium" cmphy:species="tamlense" cmphy:strain="SSW1-57T" cmphy:id="DQ411541" editRecord="[]">Aeromicrobium tamlense SSW1-57T (DQ411541)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Aeromicrobium" cmphy:species="erythreum" cmphy:strain="NRRL B-3381T" cmphy:id="AFO05021" editRecord="[0__O]">Aeromicrobium erythreum NRRL B-3381T (AF005021)</otu>
+  <otu id="otu7">Strain HSW-1T (AM778683)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Aeromicrobium" cmphy:species="fastidiosum" cmphy:strain="KCTC 9576T" cmphy:id="AFO05022" editRecord="[0__O]">Aeromicrobium fastidiosum KCTC 9576T (AF005022)</otu>
+  <otu id="otu9">1Aeromicrobium ginsengisolf Gsoil 137 (AB245395)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="139.0" y="840.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="177.0" y="840.0"/>
+   <node id="NT1.4" label="NT1.4" x="243.0" y="485.0"/>
+   <node id="NT1.5" label="NT1.5" x="279.0" y="651.0"/>
+   <node id="NT1.6" label="NT1.6" x="280.0" y="318.0"/>
+   <node id="NT1.8" x="350.0" y="89.0" label="56"/>
+   <node id="NT1.9" label="NT1.9" x="405.0" y="441.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="408.0" y="582.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="409.0" y="723.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="444.0" y="1003.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="446.0" y="160.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="502.0" y="18.0" otu="otu8"/>
+   <edge id="e.0" source="NT1.8" target="NT1.13"/>
+   <edge id="e.2" source="NT1.6" target="NT1.9"/>
+   <edge id="e.3" source="NT1.5" target="NT1.10"/>
+   <edge id="e.4" source="NT1.5" target="NT1.11"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.2" target="NT1.12"/>
+   <edge id="e.8" target="NT1.8" source="NT1.6"/>
+   <edge id="e.10" source="NT1.4" target="NT1.6"/>
+   <edge id="e.11" target="NT1.4" source="NT1.2"/>
+   <edge id="e.12" source="NT1.4" target="NT1.5"/>
+   <edge id="e.14" source="NT1.8" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

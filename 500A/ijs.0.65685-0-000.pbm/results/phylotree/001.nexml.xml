@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Alcanivorax" cmphy:species="borkumensis" cmphy:strain="Sk2T" cmphy:id="Y12579" editRecord="[]">Alcanivorax borkumensis Sk2T (Y12579)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Haliea" cmphy:species="salexigens" cmphy:strain="3XlA02l235T" cmphy:id="AYS76769" editRecord="[5__S]"> Haliea salexigens 3XlA02l235T (AY576769)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Acinetobacter" cmphy:species="calcoaceticus" cmphy:strain="ATCC 23055T" cmphy:id="AJB88984" editRecord="[8__B]">Acinetobacter calcoaceticus ATCC 23055T (AJ888984)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Psychrobacter" cmphy:species="immobilis" cmphy:strain="DSM 72297" cmphy:id="AJB09942" editRecord="[3__B]">Psychrobacter immobilis DSM 72297 (AJ309942)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="15.0" y="235.0"/>
+   <node id="NT1.5" label="NT1.5" x="125.0" y="319.0"/>
+   <node id="NT1.10" label="NT1.10" x="166.0" y="394.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="176.0" y="180.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="297.0" y="351.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="301.0" y="308.0" otu="otu10"/>
+   <node id="NT1.19" x="8.0" y="314.0" root="true" label="100"/>
+   <edge id="e.4" target="NT1.14" source="NT1.1"/>
+   <edge id="e.6" source="NT1.5" target="NT1.16"/>
+   <edge id="e.8" target="NT1.18" source="NT1.5"/>
+   <edge id="e.13" source="NT1.1" target="NT1.5"/>
+   <edge id="e.15" source="NT1.19" target="NT1.10"/>
+   <edge id="e.16" source="NT1.19" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

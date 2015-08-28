@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Duganella violaceinigra YIM 313277 (AY3761 63)</otu>
+  <otu id="otu2" cmphy:genus="Naxibacter" cmphy:species="alkalitolerans" cmphy:strain="YIM 317757" cmphy:id="AY679161" editRecord="[]">Naxibacter alkalitolerans YIM 317757 (AY679161)</otu>
+  <otu id="otu3" cmphy:genus="Oxalobacter" cmphy:species="formigenes" cmphy:strain="OXB7" cmphy:id="U49757" editRecord="[]">Oxalobacter formigenes OXB7 (U49757)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="338.0" y="425.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="556.0" y="560.0" otu="otu3"/>
+   <node id="NT1.5" label="NT1.5" x="4.0" y="499.0" root="true"/>
+   <edge id="e.1" target="NT1.3" source="NT1.5"/>
+   <edge id="e.2" source="NT1.5" target="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

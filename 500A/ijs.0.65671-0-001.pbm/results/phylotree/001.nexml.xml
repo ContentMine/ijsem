@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Nocardia" cmphy:species="asteroides" cmphy:strain="ATCC 19247T" cmphy:id="DQ659898" editRecord="[]">Nocardia asteroides ATCC 19247T (DQ659898)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Cryptosporangium" cmphy:species="minutisporangium" cmphy:strain="IFO 159627" cmphy:id="ABO37007" editRecord="[0__O]">Cryptosporangium minutisporangium IFO 159627 (AB037007)</otu>
+  <otu id="otu3" cmphy:genus="Cryptosporangium" cmphy:species="arvum" cmphy:strain="IFO 159657" cmphy:id="D85465" editRecord="[]">Cryptosporangium arvum IFO 159657 (D85465)</otu>
+  <otu id="otu4" cmphy:genus="Cryptosporangium" cmphy:species="aurantiacum" cmphy:strain="IFO 13967T" cmphy:id="ABO47490" editRecord="[]">Cryptosporangium aurantiacum IFO 13967T (ABO47490)</otu>
+  <otu id="otu5" cmphy:genus="Cryptosporangium" cmphy:species="japonicum" cmphy:strain="IFO 15966T" cmphy:id="D85466" editRecord="[]">Cryptosporangium japonicum IFO 15966T (D85466)</otu>
+  <otu id="otu6">Kineococcus radiotolerans DSM 14245T(AF247813)</otu>
+  <otu id="otu7" cmphy:genus="Kineococcus" cmphy:species="aurantiacus" cmphy:strain="IFO 15268T" cmphy:id="X77958" editRecord="[]">Kineococcus aurantiacus IFO 15268T (X77958)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Kineosporia" cmphy:species="rhamnosa" cmphy:strain="JCM 9954T" cmphy:id="ABO03935" editRecord="[0__O]">Kineosporia rhamnosa JCM 9954T (AB003935)</otu>
+  <otu id="otu9">strain KKD096T (EF667339)</otu>
+  <otu id="otu10" cmphy:genus="Kineosporia" cmphy:species="aurantiaca" cmphy:strain="JCM 3230T" cmphy:id="ABO03931" editRecord="[]">Kineosporia aurantiaca JCM 3230T (ABO03931)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="Kineosporia" cmphy:species="succinea" cmphy:strain="JCM 9957T" cmphy:id="ABO03932" editRecord="[O__0]">Kineosporia succinea JCM 9957T (ABOO3932)</otu>
+  <otu id="otu12" cmphy:edit="[O__0]" cmphy:genus="Kineosporia" cmphy:species="rhizophila" cmphy:strain="JCM 996OT" cmphy:id="ABO03933" editRecord="[O__0]">Kineosporia rhizophila JCM 996OT (ABOO3933)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Kineococcus" cmphy:species="marinus" cmphy:strain="NRRL B-24439T" cmphy:id="DQZ00982" editRecord="[2__Z]">Kineococcus marinus NRRL B-24439T (DQ200982)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="154.0" y="730.0" otu="otu1"/>
+   <node id="NT1.2" label="NT1.2" x="154.0" y="410.0"/>
+   <node id="NT1.3" label="NT1.3" x="209.0" y="335.0"/>
+   <node id="NT1.4" label="NT1.4" x="251.0" y="263.0"/>
+   <node id="NT1.5" label="NT1.5" x="265.0" y="583.0"/>
+   <node id="NT1.6" x="277.0" y="546.0" label="91"/>
+   <node id="NT1.7" label="NT1.7" x="287.0" y="214.0"/>
+   <node id="NT1.8" label="NT1.8" x="291.0" y="521.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="303.0" y="649.0"/>
+   <node id="NT1.11" label="NT1.11" x="305.0" y="573.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="312.0" y="626.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="337.0" y="154.0"/>
+   <node id="NT1.15" label="NT1.15" x="338.0" y="678.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="355.0" y="417.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="361.0" y="259.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="373.0" y="207.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="380.0" y="103.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="414.0" y="155.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="437.0" y="312.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="2.0" y="476.0" root="true"/>
+   <edge id="e.0" source="NT1.14" target="NT1.22"/>
+   <edge id="e.1" source="NT1.14" target="NT1.20"/>
+   <edge id="e.2" source="NT1.7" target="NT1.18"/>
+   <edge id="e.4" source="NT1.10" target="NT1.15"/>
+   <edge id="e.5" source="NT1.7" target="NT1.14"/>
+   <edge id="e.6" source="NT1.4" target="NT1.7"/>
+   <edge id="e.7" source="NT1.3" target="NT1.4"/>
+   <edge id="e.9" source="NT1.2" target="NT1.3"/>
+   <edge id="e.10" source="NT1.2" target="NT1.5"/>
+   <edge id="e.13" target="NT1.17" source="NT1.3"/>
+   <edge id="e.14" source="NT1.5" target="NT1.10"/>
+   <edge id="e.15" source="NT1.5" target="NT1.6"/>
+   <edge id="e.16" source="NT1.10" target="NT1.12"/>
+   <edge id="e.17" source="NT1.24" target="NT1.2"/>
+   <edge id="e.18" source="NT1.24" target="NT1.1"/>
+   <edge id="e.19" source="NT1.4" target="NT1.23"/>
+   <edge id="e.20" source="NT1.6" target="NT1.8"/>
+   <edge id="e.21" source="NT1.6" target="NT1.11"/>
+   <edge id="e.22" source="NT1.14" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

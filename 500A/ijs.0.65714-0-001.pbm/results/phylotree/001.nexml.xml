@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Caldithrix" cmphy:species="abyssi" cmphy:strain="LF13T" cmphy:id="AJ430587" editRecord="[]">Caldithrix abyssi LF13T (AJ430587)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Deferribacter" cmphy:species="desulfuricans" cmphy:strain="SSM1T" cmphy:id="ABO86060" editRecord="[0__O]">Deferribacter desulfuricans SSM1T (AB086060)</otu>
+  <otu id="otu4" cmphy:genus="Deferribacter" cmphy:species="thermophilus" cmphy:strain="BMAT" cmphy:id="U75602" editRecord="[]">Deferribacter thermophilus BMAT (U75602)</otu>
+  <otu id="otu5" cmphy:genus="Aquifex" cmphy:species="pyrophilus" cmphy:strain="KoI5aT" cmphy:id="M83548" editRecord="[]">Aquifex pyrophilus KoI5aT (M83548)</otu>
+  <otu id="otu6">Strain Yu37-1T (AB364234)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Flexistipes" cmphy:species="sinusarabici" cmphy:strain="DSM 4947T" cmphy:id="M59231" editRecord="[]">Flexistipes sinusarabici DSM 4947T (M59231)</otu>
+  <otu id="otu9" cmphy:genus="Geovibrio" cmphy:species="ferrireducens" cmphy:strain="PAL-1T" cmphy:id="X95744" editRecord="[]"> Geovibrio ferrireducens PAL-1T (X95744)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Mucispirillum" cmphy:species="schaedleri" cmphy:strain="HRI l17T" cmphy:id="AYB87670" editRecord="[3__B]">Mucispirillum schaedleri HRI l17T (AY387670)</otu>
+  <otu id="otu11" cmphy:genus="Synergistes" cmphy:species="jonesii" cmphy:strain="ATCC 49833T" cmphy:id="L08066" editRecord="[]">Synergistes jonesii ATCC 49833T (L08066)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Denitrovibrio" cmphy:species="acetiphilus" cmphy:strain="N2460T" cmphy:id="AFI46526" editRecord="[1__I]">Denitrovibrio acetiphilus N2460T (AF146526)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="53.0" y="395.0"/>
+   <node id="NT1.2" label="NT1.2" x="73.0" y="329.0"/>
+   <node id="NT1.3" label="NT1.3" x="148.0" y="241.0"/>
+   <node id="NT1.5" label="NT1.5" x="166.0" y="109.0"/>
+   <node id="NT1.6" label="NT1.6" x="175.0" y="332.0"/>
+   <node id="NT1.7" label="NT1.7" x="176.0" y="70.0"/>
+   <node id="NT1.9" label="NT1.9" x="257.0" y="461.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="287.0" y="260.0"/>
+   <node id="NT1.13" label="NT1.13" x="296.0" y="237.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="299.0" y="282.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="321.0" y="506.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="333.0" y="371.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="337.0" y="59.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="349.0" y="148.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="354.0" y="417.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="363.0" y="103.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="3.0" y="450.0" root="true"/>
+   <edge id="e.1" target="NT1.19" source="NT1.7"/>
+   <edge id="e.2" source="NT1.7" target="NT1.22"/>
+   <edge id="e.3" source="NT1.5" target="NT1.20"/>
+   <edge id="e.6" source="NT1.6" target="NT1.18"/>
+   <edge id="e.7" source="NT1.10" target="NT1.13"/>
+   <edge id="e.8" source="NT1.10" target="NT1.14"/>
+   <edge id="e.9" source="NT1.1" target="NT1.9"/>
+   <edge id="e.10" source="NT1.2" target="NT1.21"/>
+   <edge id="e.12" source="NT1.5" target="NT1.7"/>
+   <edge id="e.14" source="NT1.2" target="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.6"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" target="NT1.10" source="NT1.6"/>
+   <edge id="e.19" source="NT1.23" target="NT1.15"/>
+   <edge id="e.20" source="NT1.23" target="NT1.1"/>
+   <edge id="e.21" target="NT1.5" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

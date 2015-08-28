@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Isolate 49-3</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">Isolate 44-3</otu>
+  <otu id="otu4" cmphy:genus="Clostridium" cmphy:species="leptum" cmphy:strain="ATCC 290657" cmphy:id="M59095" editRecord="[]">Clostridium leptum ATCC 290657 (M59095)</otu>
+  <otu id="otu5">Isolate 11-3</otu>
+  <otu id="otu6">Isolate 54-3</otu>
+  <otu id="otu7"> Clostridium sporosphaeroides ATCC 257817 (M591 16)</otu>
+  <otu id="otu8">Strain 25-37 (EU410376)</otu>
+  <otu id="otu9" cmphy:genus="Eubacterium" cmphy:species="desmolans" cmphy:strain="ATCC 43058T" cmphy:id="L34618" editRecord="[]"> Eubacterium desmolans ATCC 43058T (L34618)</otu>
+  <otu id="otu10" cmphy:genus="Clostridium" cmphy:species="viride" cmphy:strain="DSM 6836T" cmphy:id="X81125" editRecord="[]">Clostridium viride DSM 6836T (X81125)</otu>
+  <otu id="otu11">Papillibacter cinnamivorans DSM 12816T(AF16771 1)</otu>
+  <otu id="otu12">Clostridium orbiscindens DSM 6740T</otu>
+  <otu id="otu13" cmphy:genus="Eubacterium" cmphy:species="plautii" cmphy:strain="CCUG 28093T" cmphy:id="AY724678" editRecord="[]">Eubacterium plautii CCUG 28093T (AY724678)</otu>
+  <otu id="otu14" cmphy:genus="Faecalibacterium" cmphy:species="prausnitzii" cmphy:strain="ATCC 27768T" cmphy:id="AJ413954" editRecord="[]">Faecalibacterium prausnitzii ATCC 27768T (AJ413954)</otu>
+  <otu id="otu15" cmphy:genus="Clostridium" cmphy:species="perfringens" cmphy:strain="ATCC 13124T" cmphy:id="M59103" editRecord="[]">Clostridium perfringens ATCC 13124T (M59103)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="174.0"/>
+   <node id="NT1.2" label="NT1.2" x="14.0" y="174.0"/>
+   <node id="NT1.3" x="51.0" y="299.0" label="86"/>
+   <node id="NT1.7" x="153.0" y="417.0" label="100"/>
+   <node id="NT1.14" label="NT1.14" x="212.0" y="501.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="239.0" y="275.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="244.0" y="388.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="255.0" y="464.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="273.0" y="48.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="426.0" y="11.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="2.0" y="92.0" root="true"/>
+   <edge id="e.4" target="NT1.20" source="NT1.3"/>
+   <edge id="e.6" target="NT1.14" source="NT1.1"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.13" target="NT1.7" source="NT1.3"/>
+   <edge id="e.19" source="NT1.28" target="NT1.27"/>
+   <edge id="e.20" source="NT1.28" target="NT1.1"/>
+   <edge id="e.21" source="NT1.2" target="NT1.26"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.24" source="NT1.7" target="NT1.21"/>
+   <edge id="e.26" target="NT1.25" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

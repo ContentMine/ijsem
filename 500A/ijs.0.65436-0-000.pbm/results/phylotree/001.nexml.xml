@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">H. ventosae AI12T (AY268080)</otu>
+  <otu id="otu2">H. campaniensis 5AGT (AJ515365)</otu>
+  <otu id="otu3">H. pacifica DSM 4742T (L42616)</otu>
+  <otu id="otu4">H. alimentaria YKJ-16T (AF211860)</otu>
+  <otu id="otu5">H. campisalis ATCC 7005977 (AFO54286)</otu>
+  <otu id="otu6">H. cupida DSM 47407 (L42615)</otu>
+  <otu id="otu7">H. maura S-31T (AJ271864)</otu>
+  <otu id="otu8"> H. desiderata FB2T (X92417)</otu>
+  <otu id="otu9">H. pantelleriensis AAPT (X93493)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">H. eurihalina ATCC 49336T (X87218)</otu>
+  <otu id="otu12">H. salina ATCC 49509T (AJ243447)</otu>
+  <otu id="otu13">H. elongata ATCC 331737 (X67023)</otu>
+  <otu id="otu14">H. halodurans DSM 516OT (L42619)</otu>
+  <otu id="otu15">H. halophila DSM 4770T(M93353)</otu>
+  <otu id="otu16">H. muralis LMG 209697 (AJ320530)</otu>
+  <otu id="otu17">H. subterranea ZG16T (EF144148)</otu>
+  <otu id="otu18"> H. kribbensis BH843T (DQ280368)</otu>
+  <otu id="otu19">H. halmophila ATCC 197177 (AJ306889)</otu>
+  <otu id="otu20">H. halodenitrificans ATCC 13511T (LO4942)</otu>
+  <otu id="otu21" cmphy:genus="Carnimonas" cmphy:species="nigrificans" cmphy:strain="CTCBS1T" cmphy:id="Y13299" editRecord="[]">Carnimonas nigrificans CTCBS1T (Y13299)</otu>
+  <otu id="otu22">H. variabilis DSM 3051T (AJ306893)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.41" label="NT1.41" x="423.0" y="795.0" otu="otu21"/>
+   <node id="NT1.43" label="NT1.43" x="2.0" y="499.0" root="true"/>
+   <edge id="e.36" source="NT1.43" target="NT1.41"/>
+  </tree>
+ </trees>
+</nexml>

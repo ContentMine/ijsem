@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Sphingomonas" cmphy:species="soli" cmphy:strain="T5-O47" cmphy:id="ABI66883" editRecord="[1__I]">Sphingomonas soli T5-O47 (AB166883)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Sphingomonas" cmphy:species="mucosissima" cmphy:strain="CP173-2T" cmphy:id="AMZ29669" editRecord="[2__Z]">Sphingomonas mucosissima CP173-2T (AM229669)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Sphingomonas" cmphy:species="dokdonensis" cmphy:strain="DS-4T" cmphy:id="DQI78975" editRecord="[1__I]">Sphingomonas dokdonensis DS-4T (DQ178975)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Sphingomonas" cmphy:species="aerolata" cmphy:strain="NW12T" cmphy:id="AJ429240" editRecord="[]">Sphingomonas aerolata NW12T (AJ429240)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="172.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="26.0" y="328.0"/>
+   <node id="NT1.5" x="210.0" y="460.0" label="95"/>
+   <node id="NT1.6" label="NT1.6" x="232.0" y="271.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="249.0" y="426.0"/>
+   <node id="NT1.8" label="NT1.8" x="298.0" y="458.0" otu="otu4"/>
+   <node id="NT1.9" label="NT1.9" x="306.0" y="495.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="719.0" y="383.0" otu="otu8"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.2" target="NT1.6"/>
+   <edge id="e.3" source="NT1.5" target="NT1.9"/>
+   <edge id="e.4" source="NT1.7" target="NT1.8"/>
+   <edge id="e.7" target="NT1.14" source="NT1.7"/>
+   <edge id="e.9" target="NT1.5" source="NT1.2"/>
+   <edge id="e.10" source="NT1.5" target="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

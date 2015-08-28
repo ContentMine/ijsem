@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">F. aquatile ATCC 119477 (M62797)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">F. hibernum ATCC 514687 (L39067)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"> F. micromati LMG 219197 (AJ557888)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">F. flevense ATCC 279447 (M58767)</otu>
+  <otu id="otu13">F. succinicans IFO 149057 (D12673)</otu>
+  <otu id="otu14">F. frigidarium ATCC 7008107 (AF162266)</otu>
+  <otu id="otu15">F. defIuviiEMB1177 (DQ372986)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">F. gillisiae ICO017 (U85889)</otu>
+  <otu id="otu18">F. johnsoniae DSM 20647 (M59051)</otu>
+  <otu id="otu19">F. pectinovorum NCIMB 90597 (D12669)</otu>
+  <otu id="otu20">F. soli DS-67 (DQ178976)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">F. anhuiense D37 (EU046269)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24">F. branchiophilum IFO 150307 (D14017)</otu>
+  <otu id="otu25">F. columnare IAM 143017 (AB010951)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27">F. daejeonense GH1-107 (DQ222427)</otu>
+  <otu id="otu28">F. psychrophilum ATCC 494187 (AF090991)</otu>
+  <otu id="otu29">F. suncheonense GH29-57 (DQ222428)</otu>
+  <otu id="otu30" cmphy:genus="Myroides" cmphy:species="odoratus" cmphy:strain="ATCC 46517" cmphy:id="M58777" editRecord="[]">Myroides odoratus ATCC 46517 (M58777)</otu>
+  <otu id="otu31">F. gelidilacus LMG 214777 (AJ440996)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.59" label="NT1.59" x="679.0" y="1229.0" otu="otu30"/>
+   <node id="NT1.61" label="NT1.61" x="1.0" y="1155.0" root="true"/>
+   <edge id="e.58" source="NT1.61" target="NT1.59"/>
+  </tree>
+ </trees>
+</nexml>

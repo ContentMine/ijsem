@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Bacillus" cmphy:species="lehensis" cmphy:strain="MLB-2T" cmphy:id="AY793550" editRecord="[]">Bacillus lehensis MLB-2T (AY793550)</otu>
+  <otu id="otu2" cmphy:genus="Sulfobacillus" cmphy:species="thermosulfidooxidans" cmphy:strain="DSM 92937" cmphy:id="X91080" editRecord="[]">Sulfobacillus thermosulfidooxidans DSM 92937 (X91080)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="292.0" y="483.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="300.0" y="536.0" otu="otu2"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

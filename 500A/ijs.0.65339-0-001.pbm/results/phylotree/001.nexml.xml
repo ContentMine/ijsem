@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">D. thermobenzoicum subsp. thermobenzoicum DSM 6193T (Y11574)</otu>
+  <otu id="otu2">D. thermobenzoicum subsp. thermosyntrophicum TPOT (AYOO7190)</otu>
+  <otu id="otu3">D. solfataricum V21T (AY084078)</otu>
+  <otu id="otu4">D. kuznetsovii DSM 61157 (Y11569)</otu>
+  <otu id="otu5">D. thermosubterraneum RJ5O.JlllT (DQ208688)</otu>
+  <otu id="otu6">D. Iuciae DSM 12396T (AF69293)</otu>
+  <otu id="otu7">D. geothermicum DSM 36697 (Y11567)</otu>
+  <otu id="otu8">D. thermoacetoxidans DSM 5813T (Y11573)</otu>
+  <otu id="otu9">Strain Hbr7 (EF494253)</otu>
+  <otu id="otu10">D. thermocisternum STQOT (U33455)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">D. australicum AB33T (M96665)</otu>
+  <otu id="otu13">D. arcticum 15T (DQ148942)</otu>
+  <otu id="otu14">D. sapomandens DSM 3223T (AF168365)</otu>
+  <otu id="otu15">D. putei SMCC W459T (AFO53929)</otu>
+  <otu id="otu16">Strain Lam5T (EF081293)</otu>
+  <otu id="otu17">Strain Hbr5 (EF081294)</otu>
+  <otu id="otu18">D. carboxydivorans CO-1-SRBT (AY961415)</otu>
+  <otu id="otu19">D. halophilum SEBR 3139T (U88891)</otu>
+  <otu id="otu20">D. aeronauticum DSM 10349T (X98407)</otu>
+  <otu id="otu21">D. nigrificans NCIMB 83957 (X62176)</otu>
+  <otu id="otu22">D. alkaliphilum S17 (AF097024)</otu>
+  <otu id="otu23" cmphy:genus="Thermodesulfovibrio" cmphy:species="islandicus" cmphy:strain="R1 Ha3T" cmphy:id="X96726" editRecord="[]">Thermodesulfovibrio islandicus R1 Ha3T (X96726)</otu>
+  <otu id="otu24">D. ruminis DSM 21547 (Y11572)</otu>
+  <otu id="otu25" cmphy:edit="[2__Z]" cmphy:genus="Thermodesulfovibrio" cmphy:species="yellowstonii" cmphy:strain="YP87T" cmphy:id="ABZ31858" editRecord="[2__Z]">Thermodesulfovibrio yellowstonii YP87T (AB231858)</otu>
+  <otu id="otu26">D. acetoxidans DSM 7717 (Y11566)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.46" x="559.0" y="992.0" label="100"/>
+   <node id="NT1.47" label="NT1.47" x="561.0" y="1013.0" otu="otu23"/>
+   <node id="NT1.49" label="NT1.49" x="574.0" y="975.0" otu="otu25"/>
+   <node id="NT1.51" label="NT1.51" x="2.0" y="501.0" root="true"/>
+   <edge id="e.18" source="NT1.46" target="NT1.49"/>
+   <edge id="e.40" target="NT1.46" source="NT1.51"/>
+   <edge id="e.41" source="NT1.46" target="NT1.47"/>
+  </tree>
+ </trees>
+</nexml>

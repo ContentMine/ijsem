@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Alishewanella" cmphy:species="aestuarii" cmphy:strain="B117" cmphy:id="EF660759" editRecord="[]">Alishewanella aestuarii B117 (EF660759)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"> Alkalimonas delamerensis 1 E1 T (X92130)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Ferrimonas" cmphy:species="marina" cmphy:strain="A4D-4T" cmphy:id="ABI93751" editRecord="[1__I]">Ferrimonas marina A4D-4T (AB193751)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Alkalimonas" cmphy:species="amylolytica" cmphy:strain="N1 OT" cmphy:id="AFZ50323" editRecord="[2__Z]">Alkalimonas amylolytica N1 OT (AF250323)</otu>
+  <otu id="otu7" cmphy:genus="Rheinheimera" cmphy:species="baltica" cmphy:strain="OSBAC1T" cmphy:id="AJ441080" editRecord="[]">Rheinheimera baltica OSBAC1T (AJ441080)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Rheinheimera" cmphy:species="perlucida" cmphy:strain="BA131T" cmphy:id="AMI83347" editRecord="[1__I]">Rheinheimera perlucida BA131T (AM183347)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Rheinheimera" cmphy:species="chironomi" cmphy:strain="K19414T" cmphy:id="DQZ98025" editRecord="[2__Z]">Rheinheimera chironomi K19414T (DQ298025)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="146.0" y="322.0"/>
+   <node id="NT1.2" label="NT1.2" x="219.0" y="246.0"/>
+   <node id="NT1.3" label="NT1.3" x="253.0" y="188.0"/>
+   <node id="NT1.5" x="269.0" y="140.0" label="58"/>
+   <node id="NT1.9" label="NT1.9" x="292.0" y="328.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="356.0" y="9.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="362.0" y="375.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="377.0" y="54.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="382.0" y="237.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="397.0" y="192.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="6.0" y="165.0" root="true"/>
+   <edge id="e.1" target="NT1.9" source="NT1.2"/>
+   <edge id="e.2" target="NT1.13" source="NT1.1"/>
+   <edge id="e.5" source="NT1.3" target="NT1.15"/>
+   <edge id="e.6" source="NT1.5" target="NT1.16"/>
+   <edge id="e.7" target="NT1.14" source="NT1.5"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" source="NT1.2" target="NT1.3"/>
+   <edge id="e.11" source="NT1.3" target="NT1.5"/>
+   <edge id="e.13" source="NT1.17" target="NT1.12"/>
+   <edge id="e.14" source="NT1.17" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

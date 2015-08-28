@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Variovorax" cmphy:species="paradoxus" cmphy:strain="LMG 17977" cmphy:id="D30793" editRecord="[]">Variovorax paradoxus LMG 17977 (D30793)</otu>
+  <otu id="otu2">A. valerianellae CFBP 4730T (AJ431731)</otu>
+  <otu id="otu3">A. anthuriiCIP 1070587 (A.J007013)</otu>
+  <otu id="otu4">A. avenae subsp. citrulli LMG 53767 (AFO78761)</otu>
+  <otu id="otu5">A. avenae subsp. avenae LMG 21177 (AF078759)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"> A. temperans LMG 7169T (AF078766)</otu>
+  <otu id="otu8">A. facilis LMG 21929 (AFO78765)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">A. caeni R-24607 (AM084011)</otu>
+  <otu id="otu11">A. caeni R-24614 (AM084008)</otu>
+  <otu id="otu12">A. defluvii DSM 126447 (Y18616)</otu>
+  <otu id="otu13">A. delafieldii LMG 59437 (AFO78764)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="179.0" y="650.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

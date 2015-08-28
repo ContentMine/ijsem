@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Algibacterlectus KMM 39027 (AY187689)</otu>
+  <otu id="otu5" cmphy:genus="Bizionia" cmphy:species="paragorgiae" cmphy:strain="KMM 6029T" cmphy:id="AY651070" editRecord="[]">Bizionia paragorgiae KMM 6029T (AY651070)</otu>
+  <otu id="otu6" cmphy:genus="Bizionia" cmphy:species="algoritergicola" cmphy:strain="APA-1T" cmphy:id="AY694003" editRecord="[]">Bizionia algoritergicola APA-1T (AY694003)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 3553T" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 3553T (AY228461)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Bizionia" cmphy:species="argentinensis" cmphy:strain="JUB59T" cmphy:id="EUO21217" editRecord="[0__O]">Bizionia argentinensis JUB59T (EU021217)</otu>
+  <otu id="otu9" cmphy:genus="Bizionia" cmphy:species="saleffrena" cmphy:strain="HFDT" cmphy:id="AY694005" editRecord="[]">Bizionia saleffrena HFDT (AY694005)</otu>
+  <otu id="otu10" cmphy:genus="Bizionia" cmphy:species="myxarmorum" cmphy:strain="ADA-4T" cmphy:id="AY694002" editRecord="[]">Bizionia myxarmorum ADA-4T (AY694002)</otu>
+  <otu id="otu11">Bizionia gelidisalsuginis IC164T(AY694OO4)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Olleya" cmphy:species="marilimosa" cmphy:strain="CAMOSOT" cmphy:id="AYS86527" editRecord="[5__S]">Olleya marilimosa CAMOSOT (AY586527)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="thalassocola" cmphy:strain="KMM 3907T" cmphy:id="AYS21223" editRecord="[5__S]">Winogradskyella thalassocola KMM 3907T (AY521223)</otu>
+  <otu id="otu14" cmphy:genus="Lacinutrix" cmphy:species="copepodicola" cmphy:strain="DJ3T" cmphy:id="AY694001" editRecord="[]">Lacinutrix copepodicola DJ3T (AY694001)</otu>
+  <otu id="otu15">Psychroserpens burtonensis ACAM</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="368.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="11.0" y="368.0"/>
+   <node id="NT1.3" label="NT1.3" x="24.0" y="273.0"/>
+   <node id="NT1.4" label="NT1.4" x="37.0" y="175.0"/>
+   <node id="NT1.7" label="NT1.7" x="70.0" y="118.0"/>
+   <node id="NT1.8" label="NT1.8" x="99.0" y="375.0"/>
+   <node id="NT1.9" label="NT1.9" x="136.0" y="74.0"/>
+   <node id="NT1.12" label="NT1.12" x="152.0" y="178.0"/>
+   <node id="NT1.13" label="NT1.13" x="173.0" y="207.0"/>
+   <node id="NT1.17" label="NT1.17" x="227.0" y="105.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="244.0" y="190.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="244.0" y="272.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="246.0" y="147.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="257.0" y="62.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="278.0" y="230.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="302.0" y="358.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="302.0" y="440.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="316.0" y="398.0" otu="otu14"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.4" target="NT1.19"/>
+   <edge id="e.5" source="NT1.8" target="NT1.26"/>
+   <edge id="e.6" target="NT1.25" source="NT1.2"/>
+   <edge id="e.9" source="NT1.7" target="NT1.9"/>
+   <edge id="e.10" source="NT1.4" target="NT1.7"/>
+   <edge id="e.11" source="NT1.7" target="NT1.12"/>
+   <edge id="e.12" source="NT1.3" target="NT1.4"/>
+   <edge id="e.13" source="NT1.12" target="NT1.13"/>
+   <edge id="e.14" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" target="NT1.8" source="NT1.3"/>
+   <edge id="e.19" source="NT1.8" target="NT1.24"/>
+   <edge id="e.20" source="NT1.9" target="NT1.17"/>
+   <edge id="e.21" source="NT1.12" target="NT1.20"/>
+   <edge id="e.22" source="NT1.13" target="NT1.18"/>
+   <edge id="e.23" target="NT1.21" source="NT1.9"/>
+   <edge id="e.24" source="NT1.13" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

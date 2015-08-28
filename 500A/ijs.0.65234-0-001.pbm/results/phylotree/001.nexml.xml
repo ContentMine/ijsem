@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Escherichia coli ATCC 11775T</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Oleiphilus" cmphy:species="messinensis" cmphy:strain="DSM 13489T" cmphy:id="AJZ95154" editRecord="[2__Z]"> Oleiphilus messinensis DSM 13489T (AJ295154)</otu>
+  <otu id="otu3"> Saccharospirillum impatiens</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Oceanobacter" cmphy:species="kriegii" cmphy:strain="IFO 15467T" cmphy:id="ABO06767" editRecord="[O__0]">Oceanobacter kriegii IFO 15467T (ABOO6767)</otu>
+  <otu id="otu5"> Reinekea marinisedimentorum DSM 153887 (AJ561 121)</otu>
+  <otu id="otu6" cmphy:genus="Marinomonas" cmphy:species="vaga" cmphy:strain="ATCC 27119" cmphy:id="X67025" editRecord="[]"> Marinomonas vaga ATCC 27119 (X67025)</otu>
+  <otu id="otu7" cmphy:genus="Marinomonas" cmphy:species="mediterranea" cmphy:strain="ATCC 7004927" cmphy:id="AFO63027" editRecord="[]"> Marinomonas mediterranea ATCC 7004927 (AFO63027)</otu>
+  <otu id="otu8">uncultured sediment clone (AF505721)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Neptunomonas" cmphy:species="naphthovorans" cmphy:strain="ATCC 7006377" cmphy:id="AFO53734" editRecord="[0__O]"> Neptunomonas naphthovorans ATCC 7006377 (AF053734)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Marinobacterium" cmphy:species="stanieri" cmphy:strain="ATCC 27130" cmphy:id="ABO21367" editRecord="[0__O]"> Marinobacterium stanieri ATCC 27130 (AB021367)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="Marinobacterium" cmphy:species="jannaschii" cmphy:strain="IFO 154667" cmphy:id="ABO06765" editRecord="[O__0]">Marinobacterium jannaschii IFO 154667 (ABOO6765)</otu>
+  <otu id="otu12" cmphy:genus="Marinobacterium" cmphy:species="georgiense" cmphy:strain="ATCC 7000747" cmphy:id="U58339" editRecord="[]"> Marinobacterium georgiense ATCC 7000747 (U58339)</otu>
+  <otu id="otu13">uncultured biofilm-forming marine bacterium (AF505726)</otu>
+  <otu id="otu14">carbazole-degrading bacterium CAR-SF (AB086227)</otu>
+  <otu id="otu15">uncultured bacterium from warm pool sediment (AY375069)</otu>
+  <otu id="otu16">uncultured sediment clone (AY910901)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Oceanospirillum" cmphy:species="multiglobuliferum" cmphy:strain="IFO 13614T" cmphy:id="ABO06764" editRecord="[]">Oceanospirillum multiglobuliferum IFO 13614T (ABO06764)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:edit="[O__0, B__8]" cmphy:genus="Oceanospirillum" cmphy:species="maris" cmphy:strain="ATCC 27509" cmphy:id="ABO08771" editRecord="[O__0, B__8]"> Oceanospirillum maris ATCC 27509 (ABOOB771)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="167.0" y="57.0"/>
+   <node id="NT1.4" label="NT1.4" x="280.0" y="43.0" otu="otu2"/>
+   <node id="NT1.5" x="284.0" y="578.0" label="56"/>
+   <node id="NT1.7" x="348.0" y="514.0" label="55"/>
+   <node id="NT1.9" label="NT1.9" x="387.0" y="592.0" otu="otu4"/>
+   <node id="NT1.10" x="396.0" y="383.0" label="70"/>
+   <node id="NT1.11" label="NT1.11" x="425.0" y="416.0"/>
+   <node id="NT1.12" x="428.0" y="544.0" label="100"/>
+   <node id="NT1.13" x="440.0" y="124.0" label="55"/>
+   <node id="NT1.17" label="NT1.17" x="481.0" y="559.0" otu="otu6"/>
+   <node id="NT1.18" x="487.0" y="448.0" label="93"/>
+   <node id="NT1.19" label="NT1.19" x="494.0" y="528.0" otu="otu7"/>
+   <node id="NT1.24" label="NT1.24" x="540.0" y="107.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="542.0" y="431.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="547.0" y="397.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="550.0" y="464.0" otu="otu12"/>
+   <node id="NT1.34" x="603.0" y="254.0" label="99"/>
+   <node id="NT1.37" label="NT1.37" x="669.0" y="236.0" otu="otu18"/>
+   <node id="NT1.40" label="NT1.40" x="730.0" y="334.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="1.0" y="33.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.4"/>
+   <edge id="e.2" source="NT1.5" target="NT1.9"/>
+   <edge id="e.4" source="NT1.12" target="NT1.17"/>
+   <edge id="e.5" source="NT1.12" target="NT1.19"/>
+   <edge id="e.6" source="NT1.11" target="NT1.26"/>
+   <edge id="e.8" source="NT1.18" target="NT1.25"/>
+   <edge id="e.9" source="NT1.18" target="NT1.27"/>
+   <edge id="e.11" target="NT1.24" source="NT1.13"/>
+   <edge id="e.16" source="NT1.34" target="NT1.37"/>
+   <edge id="e.19" target="NT1.40" source="NT1.34"/>
+   <edge id="e.22" target="NT1.5" source="NT1.1"/>
+   <edge id="e.23" source="NT1.5" target="NT1.7"/>
+   <edge id="e.24" source="NT1.7" target="NT1.12"/>
+   <edge id="e.25" source="NT1.7" target="NT1.10"/>
+   <edge id="e.26" source="NT1.10" target="NT1.11"/>
+   <edge id="e.27" source="NT1.10" target="NT1.13"/>
+   <edge id="e.29" target="NT1.18" source="NT1.11"/>
+   <edge id="e.34" target="NT1.34" source="NT1.13"/>
+   <edge id="e.39" source="NT1.41" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

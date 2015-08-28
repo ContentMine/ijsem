@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Serratia" cmphy:species="entomophila" cmphy:strain="DSM 12358T" cmphy:id="AJZ33427" editRecord="[2__Z]">Serratia entomophila DSM 12358T (AJ233427)</otu>
+  <otu id="otu4" cmphy:genus="Alkalimonas" cmphy:species="delamerensis" cmphy:strain="DSM 18314T" cmphy:id="X92130" editRecord="[]">Alkalimonas delamerensis DSM 18314T (X92130)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Alishewanella" cmphy:species="fetalis" cmphy:strain="CCUG 308117" cmphy:id="AFI44407" editRecord="[1__I]">Alishewanella fetalis CCUG 308117 (AF144407)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Alkalimonas" cmphy:species="amylolytica" cmphy:strain="DSM 18337T" cmphy:id="AFZ50323" editRecord="[2__Z]">Alkalimonas amylolytica DSM 18337T (AF250323)</otu>
+  <otu id="otu7" cmphy:genus="Rheinheimera" cmphy:species="aquimaris" cmphy:strain="SW-353T" cmphy:id="EFO76757" editRecord="[]">Rheinheimera aquimaris SW-353T (EFO76757)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Rheinheimera" cmphy:species="chironomi" cmphy:strain="K19414T" cmphy:id="DQZ98025" editRecord="[2__Z]">Rheinheimera chironomi K19414T (DQ298025)</otu>
+  <otu id="otu9" cmphy:genus="Rheinheimera" cmphy:species="baltica" cmphy:strain="OSBAC1T" cmphy:id="AJ441080" editRecord="[]">Rheinheimera baltica OSBAC1T (AJ441080)</otu>
+  <otu id="otu10" cmphy:genus="Rheinheimera" cmphy:species="texasensis" cmphy:strain="A62-14BT" cmphy:id="AY701891" editRecord="[]">Rheinheimera texasensis A62-14BT (AY701891)</otu>
+  <otu id="otu11" cmphy:genus="Shewanella" cmphy:species="putrefaciens" cmphy:strain="LMG 262687" cmphy:id="X81623" editRecord="[]">Shewanella putrefaciens LMG 262687 (X81623)</otu>
+  <otu id="otu12">Strain BD-d46T (EF575565)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Rheinheimera" cmphy:species="pacifica" cmphy:strain="KMM 14067" cmphy:id="ABO73132" editRecord="[0__O]">Rheinheimera pacifica KMM 14067 (AB073132)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="LMG 1242T" cmphy:id="Z76651" editRecord="[2__Z]">Pseudomonas aeruginosa LMG 1242T (276651)</otu>
+  <otu id="otu15">Rheinheimera perlucida BA131T (AM 1 83347)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="34.0" y="148.0"/>
+   <node id="NT1.2" label="NT1.2" x="78.0" y="237.0"/>
+   <node id="NT1.3" label="NT1.3" x="154.0" y="371.0"/>
+   <node id="NT1.4" label="NT1.4" x="203.0" y="222.0"/>
+   <node id="NT1.5" label="NT1.5" x="204.0" y="521.0"/>
+   <node id="NT1.6" label="NT1.6" x="208.0" y="292.0"/>
+   <node id="NT1.7" label="NT1.7" x="210.0" y="265.0"/>
+   <node id="NT1.8" label="NT1.8" x="211.0" y="279.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="216.0" y="266.0"/>
+   <node id="NT1.10" label="NT1.10" x="218.0" y="265.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="220.0" y="225.0"/>
+   <node id="NT1.12" label="NT1.12" x="221.0" y="361.0"/>
+   <node id="NT1.13" label="NT1.13" x="229.0" y="257.0"/>
+   <node id="NT1.14" label="NT1.14" x="232.0" y="400.0"/>
+   <node id="NT1.15" label="NT1.15" x="249.0" y="433.0"/>
+   <node id="NT1.16" label="NT1.16" x="254.0" y="104.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="257.0" y="500.0" otu="otu4"/>
+   <node id="NT1.18" label="NT1.18" x="272.0" y="148.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="279.0" y="543.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="279.0" y="455.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="281.0" y="280.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="281.0" y="367.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="285.0" y="192.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="287.0" y="60.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="288.0" y="235.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="290.0" y="411.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="299.0" y="17.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="299.0" y="324.0" otu="otu15"/>
+   <edge source="NT1.24" target="NT1.1" id="e.0"/>
+   <edge source="NT1.16" target="NT1.2" id="e.1"/>
+   <edge source="NT1.17" target="NT1.5" id="e.2"/>
+   <edge source="NT1.10" target="NT1.9" id="e.3"/>
+   <edge source="NT1.8" target="NT1.9" id="e.4"/>
+   <edge source="NT1.18" target="NT1.4" id="e.5"/>
+   <edge source="NT1.21" target="NT1.13" id="e.6"/>
+   <edge source="NT1.28" target="NT1.12" id="e.7"/>
+   <edge source="NT1.25" target="NT1.13" id="e.8"/>
+   <edge source="NT1.22" target="NT1.14" id="e.9"/>
+   <edge source="NT1.26" target="NT1.15" id="e.10"/>
+   <edge source="NT1.1" target="NT1.2" id="e.11"/>
+   <edge source="NT1.2" target="NT1.3" id="e.12"/>
+   <edge source="NT1.3" target="NT1.5" id="e.13"/>
+   <edge source="NT1.3" target="NT1.4" id="e.14"/>
+   <edge source="NT1.4" target="NT1.6" id="e.15"/>
+   <edge source="NT1.6" target="NT1.12" id="e.16"/>
+   <edge source="NT1.6" target="NT1.7" id="e.17"/>
+   <edge source="NT1.7" target="NT1.9" id="e.18"/>
+   <edge source="NT1.7" target="NT1.11" id="e.19"/>
+   <edge source="NT1.12" target="NT1.14" id="e.20"/>
+   <edge source="NT1.11" target="NT1.13" id="e.21"/>
+   <edge source="NT1.14" target="NT1.15" id="e.22"/>
+   <edge source="NT1.27" target="NT1.1" id="e.23"/>
+   <edge source="NT1.23" target="NT1.11" id="e.24"/>
+   <edge source="NT1.19" target="NT1.5" id="e.25"/>
+   <edge source="NT1.20" target="NT1.15" id="e.26"/>
+  </tree>
+ </trees>
+</nexml>

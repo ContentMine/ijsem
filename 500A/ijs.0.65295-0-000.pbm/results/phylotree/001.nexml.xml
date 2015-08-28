@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">C. indoltheticum ATCC 2795OT (AY468448)</otu>
+  <otu id="otu2">C. formosense CIP 108367T (AJ715377)</otu>
+  <otu id="otu3"> C. scophthalmum LMG 130287 (AJ271009)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="c." cmphy:species="hispanicum" cmphy:strain="CCM 7359T" cmphy:id="AMI59183">c. hispanicum CCM 7359T (AM159183)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">C. soldanellicola KCTC 12382T (AY883415)</otu>
+  <otu id="otu8">JS17-87 (EF591303)</otu>
+  <otu id="otu9"> C. indologenes ATCC 29897T (M58773)</otu>
+  <otu id="otu10" cmphy:genus="c." cmphy:species="gleum" cmphy:strain="ATCC 3591oT" cmphy:id="M58772">c. gleum ATCC 3591oT (M58772)</otu>
+  <otu id="otu11">JS6-6T (EF591302)</otu>
+  <otu id="otu12">C. Iuteum DSM 186O5T(AM4896O9)</otu>
+  <otu id="otu13">C. daeguense K1O5T (EF076759)</otu>
+  <otu id="otu14">C. taiwanense BCRC 17412T (DQ318789)</otu>
+  <otu id="otu15">C. daecheongense DSM 15235T (AJ457206)</otu>
+  <otu id="otu16"> C. shigense DSM 17126T (AB193101 )</otu>
+  <otu id="otu17">C. joostei KCTC 12128T (AJ271010)</otu>
+  <otu id="otu18">C. defluvii DSM 142197 (AJ309324)</otu>
+  <otu id="otu19">C. wanjuense KACC 11468T (DQ256729)</otu>
+  <otu id="otu20">C. caeni DSM 177107 (DQ336714)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">C. vrystaatense LMG 22846T (AJ871397)</otu>
+  <otu id="otu23">C. taeanense KCTC 12381T (AY883416)</otu>
+  <otu id="otu24">Elizabethkingia meningoseptica CIP 60.57T</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="68.0" y="643.0"/>
+   <node id="NT1.26" label="NT1.26" x="474.0" y="824.0" otu="otu4"/>
+   <node id="NT1.32" label="NT1.32" x="563.0" y="16.0" otu="otu10"/>
+   <node id="NT1.47" label="NT1.47" x="6.0" y="751.0" root="true"/>
+   <edge id="e.0" target="NT1.32" source="NT1.1"/>
+   <edge id="e.22" source="NT1.1" target="NT1.26"/>
+   <edge id="e.45" source="NT1.47" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

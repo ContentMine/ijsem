@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">G. oxydans NBRC 148197 (AB178433)</otu>
+  <otu id="otu3">G. kondonii NBRC 3266T (AB178392)</otu>
+  <otu id="otu4">G. cerinus NBRC 32677 (ABO63286)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">G. thailandicus F149-1T (AB128050)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">G. japonicus NBRC 3260 (AB178400)</otu>
+  <otu id="otu9">A. aceti NCIMB 8621T (X74066)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="480.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

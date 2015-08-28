@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Hrr. arcis AJ201T (DQ355793)</otu>
+  <otu id="otu3"> Hrr. lipolyticum 9-3T (DQ355814)</otu>
+  <otu id="otu4">Hrr. Iacusprofundi ACAM 34T (X82170)</otu>
+  <otu id="otu5">Hrr. orientale EJ-527 (AM235786)</otu>
+  <otu id="otu6">Hrr. aidingense 31-hongT (DQ355813)</otu>
+  <otu id="otu7">Strain CGSA15T (DQ987877)</otu>
+  <otu id="otu8">Hrr. tibetense 8W8T (AY149598)</otu>
+  <otu id="otu9">Hrr. alkaliphilum DZ-17 (AY510708)</otu>
+  <otu id="otu10" cmphy:genus="Halobaculum" cmphy:species="gomorrense" cmphy:strain="DSM 9297T" cmphy:id="L37444" editRecord="[]">Halobaculum gomorrense DSM 9297T (L37444)</otu>
+  <otu id="otu11"> Hrr. litoreum Fa-1T (EFO28067)</otu>
+  <otu id="otu12"> Hrr. coriense Ch2T (870839)</otu>
+  <otu id="otu13">Hrr. terrestre VKM B-17397 (ABO90169)</otu>
+  <otu id="otu14"> Hrr. trapanicum NRC 34021T (X82168)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"> Hrr. xinjiangense BD-1T (AY510707)</otu>
+  <otu id="otu17">Hrr. vacuolatum JCM 906OT (D87972)</otu>
+  <otu id="otu18">Hrr. distributum JCM 910OT (D63572)</otu>
+  <otu id="otu19"> Hrr. sodomense ATCC 337557 (D13379)</otu>
+  <otu id="otu20"> Hrr. ejinorense EJ-32T (AM491830)</otu>
+  <otu id="otu21"> Hrr. tebenquichense ALT6-92T (AJ276887)</otu>
+  <otu id="otu22">Hrr. ezzemoulense 5.1T (DQ118426)</otu>
+  <otu id="otu23" cmphy:genus="Halobacterium" cmphy:species="salinarum" cmphy:strain="DSM 3754T" cmphy:id="M38280" editRecord="[]">Halobacterium salinarum DSM 3754T (M38280)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="32.0" y="802.0"/>
+   <node id="NT1.30" label="NT1.30" x="544.0" y="773.0" otu="otu10"/>
+   <node id="NT1.44" label="NT1.44" x="683.0" y="850.0" otu="otu23"/>
+   <node id="NT1.45" label="NT1.45" x="1.0" y="660.0" root="true"/>
+   <edge id="e.20" source="NT1.1" target="NT1.30"/>
+   <edge id="e.21" target="NT1.44" source="NT1.1"/>
+   <edge id="e.42" source="NT1.45" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

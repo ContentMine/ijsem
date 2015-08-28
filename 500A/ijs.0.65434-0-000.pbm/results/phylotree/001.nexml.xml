@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Azovibrio</otu>
+  <otu id="otu2">Azonexus</otu>
+  <otu id="otu3">Zoogloea</otu>
+  <otu id="otu4">Azonexus</otu>
+  <otu id="otu5">Azospira</otu>
+  <otu id="otu6"> Dechloromonas</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Dechloromonas" cmphy:species="agitata" cmphy:strain="CKBT" cmphy:id="AFO47462" editRecord="[]">Dechloromonas agitata CKBT (AFO47462)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Azonexus" cmphy:species="hydrophilus" cmphy:strain="d8-2" cmphy:id="EFI58391" editRecord="[1__I]">Azonexus hydrophilus d8-2 (EF158391)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Ferribacterium</otu>
+  <otu id="otu13">Rhodocyclus</otu>
+  <otu id="otu14">Propionivibrio</otu>
+  <otu id="otu15">Azoarcus</otu>
+  <otu id="otu16">Azoarcus</otu>
+  <otu id="otu17" cmphy:edit="[O__0]" cmphy:genus="Quatrionicoccus" cmphy:species="australiensis" cmphy:strain="Ben 117T" cmphy:id="AYO07722" editRecord="[O__0]">Quatrionicoccus australiensis Ben 117T (AYOO7722)</otu>
+  <otu id="otu18">Cupriavidus</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.6" x="251.0" y="259.0" label="78"/>
+   <node id="NT1.11" label="NT1.11" x="405.0" y="135.0"/>
+   <node id="NT1.23" label="NT1.23" x="582.0" y="110.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="594.0" y="451.0" otu="otu10"/>
+   <node id="NT1.33" label="NT1.33" x="731.0" y="165.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="3.0" y="799.0" root="true"/>
+   <edge id="e.2" target="NT1.23" source="NT1.11"/>
+   <edge id="e.4" target="NT1.33" source="NT1.11"/>
+   <edge id="e.8" target="NT1.26" source="NT1.6"/>
+   <edge id="e.19" source="NT1.6" target="NT1.11"/>
+   <edge id="e.21" target="NT1.6" source="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

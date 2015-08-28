@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Microbacterium" cmphy:species="oleivorans" cmphy:strain="DSM 16O91T" cmphy:id="AJ698725" editRecord="[]">Microbacterium oleivorans DSM 16O91T (AJ698725)</otu>
+  <otu id="otu2" cmphy:genus="Microbacterium" cmphy:species="hydrocarbonoxydans" cmphy:strain="DSM 16O89T" cmphy:id="AJ698726" editRecord="[]">Microbacterium hydrocarbonoxydans DSM 16O89T (AJ698726)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Microbacterium" cmphy:species="natoriense" cmphy:strain="TNJL143-2T" cmphy:id="AYS66291" editRecord="[5__S]">Microbacterium natoriense TNJL143-2T (AY566291)</otu>
+  <otu id="otu4">Microbacterium chocolatum</otu>
+  <otu id="otu5">Microbacterium arabinogalactanolyticum</otu>
+  <otu id="otu6">Miorobacterium</otu>
+  <otu id="otu7">Microbacterium</otu>
+  <otu id="otu8">Microbacterium</otu>
+  <otu id="otu9">Microbacterium Iacticum DSM 20427T (X77441)</otu>
+  <otu id="otu10">Microbacterium imperiale</otu>
+  <otu id="otu11">Microbacterium</otu>
+  <otu id="otu12">Microbacterium xylanilyticum S3-ET</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Microbacterium" cmphy:species="indicum" cmphy:strain="BBH6T" cmphy:id="AMI58907" editRecord="[1__I]">Microbacterium indicum BBH6T (AM158907)</otu>
+  <otu id="otu14">SC-087BT</otu>
+  <otu id="otu15">Microbacterium</otu>
+  <otu id="otu16">Arthrobacter</otu>
+  <otu id="otu17">Microbacterium gubbeenense LMG S-19263T</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="16.0" y="784.0"/>
+   <node id="NT1.6" label="NT1.6" x="141.0" y="155.0"/>
+   <node id="NT1.9" label="NT1.9" x="171.0" y="229.0"/>
+   <node id="NT1.11" label="NT1.11" x="211.0" y="143.0" otu="otu1"/>
+   <node id="NT1.13" label="NT1.13" x="226.0" y="202.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="239.0" y="258.0" otu="otu3"/>
+   <node id="NT1.27" label="NT1.27" x="516.0" y="1051.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="2.0" y="1003.0" root="true"/>
+   <edge id="e.5" target="NT1.6" source="NT1.1"/>
+   <edge id="e.6" source="NT1.6" target="NT1.9"/>
+   <edge id="e.18" source="NT1.33" target="NT1.1"/>
+   <edge id="e.20" source="NT1.9" target="NT1.13"/>
+   <edge id="e.21" target="NT1.11" source="NT1.6"/>
+   <edge id="e.22" source="NT1.9" target="NT1.14"/>
+   <edge id="e.30" target="NT1.27" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

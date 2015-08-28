@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Oenococcus" cmphy:species="oeni" cmphy:strain="DSM 2O252T" cmphy:id="M35820" editRecord="[]">Oenococcus oeni DSM 2O252T (M35820)</otu>
+  <otu id="otu2">L. paraplantarum DSM 106677 (AJ306297)</otu>
+  <otu id="otu3">L. pentosus JCM 1558T (D79211)</otu>
+  <otu id="otu4">L. plantarum JCM 1149T (D79210)</otu>
+  <otu id="otu5"> L. versmoldensis KU-3T (AJ496791)</otu>
+  <otu id="otu6">L. tucceti CECT 5920T (AJ576006)</otu>
+  <otu id="otu7">L. mindensis TMW 1.80T (AJ313530)</otu>
+  <otu id="otu8">L. kimchii MT-1O77T (AF183558)</otu>
+  <otu id="otu9">L. crustorum LMG 23699T (AM285450)</otu>
+  <otu id="otu10">L. paralimentarius DSM 132387 (AJ417500)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">L. arizonensis NRRL B-14768T (AFO93757)</otu>
+  <otu id="otu13">L. farciminis ATCC 29644T (M58817)</otu>
+  <otu id="otu14"> L. alimentarius DSM 202497 (M58804)</otu>
+  <otu id="otu15">L. nantensis LP33T (AY690834)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="330.0" y="554.0" otu="otu1"/>
+   <node id="NT1.29" label="NT1.29" x="3.0" y="368.0" root="true"/>
+   <edge id="e.25" source="NT1.29" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

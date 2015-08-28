@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Methanobacterium" cmphy:species="bryantii" cmphy:strain="M.o.H.T" cmphy:id="AFB13806" editRecord="[3__B]">Methanobacterium bryantii M.o.H.T (AF313806)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Methanolinea" cmphy:species="tarda" cmphy:strain="NOBI-17" cmphy:id="ABB00466" editRecord="[3__B]"> Methanolinea tarda NOBI-17 (AB300466)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Thermophilic" cmphy:species="archaeon" cmphy:strain="RC-I" cmphy:id="AMI14193" editRecord="[1__I]"> Thermophilic archaeon RC-I (AM114193)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Strain SANAE (AB300467)</otu>
+  <otu id="otu6" cmphy:genus="Methanoculleus" cmphy:species="bourgensis" cmphy:strain="M527" cmphy:id="AF414036" editRecord="[]"> Methanoculleus bourgensis M527 (AF414036)</otu>
+  <otu id="otu7" cmphy:genus="Methanosarcina" cmphy:species="rnazei" cmphy:strain="S-6T" cmphy:id="AF414043" editRecord="[]">Methanosarcina rnazei S-6T (AF414043)</otu>
+  <otu id="otu8">Merhanosaeta conciliiGP6T (AF313802)</otu>
+  <otu id="otu9">Methanospirillum hungateiJF-1T (AF313805)</otu>
+  <otu id="otu10" cmphy:genus="Methanomicrobium" cmphy:species="mobile" cmphy:strain="BPT" cmphy:id="AF414044" editRecord="[]">Methanomicrobium mobile BPT (AF414044)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="200.0" y="265.0"/>
+   <node id="NT1.2" label="NT1.2" x="201.0" y="410.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="252.0" y="320.0"/>
+   <node id="NT1.5" label="NT1.5" x="334.0" y="202.0"/>
+   <node id="NT1.7" label="NT1.7" x="383.0" y="233.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="421.0" y="304.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="438.0" y="73.0"/>
+   <node id="NT1.16" label="NT1.16" x="481.0" y="56.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="487.0" y="339.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="549.0" y="127.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="1.0" y="337.0" root="true"/>
+   <edge id="e.0" target="NT1.16" source="NT1.11"/>
+   <edge id="e.2" target="NT1.20" source="NT1.11"/>
+   <edge id="e.6" source="NT1.5" target="NT1.7"/>
+   <edge id="e.7" target="NT1.10" source="NT1.3"/>
+   <edge id="e.9" target="NT1.17" source="NT1.3"/>
+   <edge id="e.12" target="NT1.11" source="NT1.5"/>
+   <edge id="e.16" source="NT1.1" target="NT1.5"/>
+   <edge id="e.17" source="NT1.1" target="NT1.3"/>
+   <edge id="e.20" source="NT1.23" target="NT1.2"/>
+   <edge id="e.21" source="NT1.23" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

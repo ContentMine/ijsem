@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">M. daepoensis SW-156T (AY517633)</otu>
+  <otu id="otu3">M. vinifirmus FB1T (DQ235263)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">M. excellens KMM 3809T (AY180101)</otu>
+  <otu id="otu6">M. hydrocarbonoclasticus ATCC 4984OT (X67022)</otu>
+  <otu id="otu7">M. gudaonensis SLO14B61AT (DQ414419)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">M. Iipolyticus SM19T (AY147906)</otu>
+  <otu id="otu10">M. koreensis DD-M3T (DQ325514)</otu>
+  <otu id="otu11">M. pelagius HS225T (DQ458821)</otu>
+  <otu id="otu12">M. Iutaoensis T5054T (AF288157)</otu>
+  <otu id="otu13">M. Iitoralis SW-45T (AF479689)</otu>
+  <otu id="otu14">M. sediminum KMM 36577 (AJ609270)</otu>
+  <otu id="otu15">M. flavimaris SW-145T (AY517632)</otu>
+  <otu id="otu16">M. bryozoorum KMM 3840T (AJ609271)</otu>
+  <otu id="otu17">M. salsuginis SD-14BT (EF028328)</otu>
+  <otu id="otu18">M. algicola DG893T (AY258110)</otu>
+  <otu id="otu19" cmphy:genus="Alteromonas" cmphy:species="macleodii" cmphy:strain="DSM 6062T" cmphy:id="Y18228" editRecord="[]">Alteromonas macleodii DSM 6062T (Y18228)</otu>
+  <otu id="otu20">M. maritimus CK 47T (AJ704395)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.33" label="NT1.33" x="360.0" y="659.0" otu="otu19"/>
+   <node id="NT1.35" label="NT1.35" x="2.0" y="564.0" root="true"/>
+   <edge id="e.27" source="NT1.35" target="NT1.33"/>
+  </tree>
+ </trees>
+</nexml>
