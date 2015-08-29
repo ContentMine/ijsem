@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Isoptericola" cmphy:species="variabilis" cmphy:strain="DSM10177T" cmphy:id="AJZ98873" editRecord="[2__Z]"> Isoptericola variabilis DSM10177T (AJ298873)</otu>
+  <otu id="otu3" cmphy:genus="Promicromonospora" cmphy:species="citrea" cmphy:strain="DSM43110T" cmphy:id="X83808" editRecord="[]"> Promicromonospora citrea DSM43110T (X83808)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Xylanimonas" cmphy:species="cellulosilytica" cmphy:strain="LMG 2O990T" cmphy:id="AF403541" editRecord="[]">Xylanimonas cellulosilytica LMG 2O990T (AF403541)</otu>
+  <otu id="otu8" cmphy:genus="Promicromonospora" cmphy:species="vindobonesis" cmphy:strain="V45T" cmphy:id="AJ487302" editRecord="[]"> Promicromonospora vindobonesis V45T (AJ487302)</otu>
+  <otu id="otu9" cmphy:genus="Promicromonospora" cmphy:species="aerolata" cmphy:strain="V54AT" cmphy:id="AJ487303" editRecord="[]"> Promicromonospora aerolata V54AT (AJ487303)</otu>
+  <otu id="otu10">XLG9A10.2' (AY354285)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="15.0" y="333.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="72.0" y="333.0" label="899"/>
+   <node id="NT1.3" label="NT1.3" x="86.0" y="442.0"/>
+   <node id="NT1.6" label="NT1.6" x="152.0" y="554.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="172.0" y="161.0"/>
+   <node id="NT1.10" label="NT1.10" x="219.0" y="220.0" otu="otu3"/>
+   <node id="NT1.11" x="219.0" y="49.0" label="928"/>
+   <node id="NT1.15" label="NT1.15" x="241.0" y="357.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="243.0" y="15.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="243.0" y="84.0" otu="otu9"/>
+   <edge id="e.0" source="NT1.11" target="NT1.16"/>
+   <edge id="e.1" source="NT1.11" target="NT1.17"/>
+   <edge id="e.3" source="NT1.7" target="NT1.10"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" source="NT1.3" target="NT1.6"/>
+   <edge id="e.7" target="NT1.15" source="NT1.3"/>
+   <edge id="e.9" target="NT1.11" source="NT1.7"/>
+   <edge id="e.11" target="NT1.7" source="NT1.2"/>
+   <edge id="e.13" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

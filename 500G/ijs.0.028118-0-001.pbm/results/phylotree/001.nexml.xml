@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Methylococcus" cmphy:species="capsulatus" cmphy:strain="Bath" cmphy:id="M90050" editRecord="[]">Methylococcus capsulatus Bath (M90050)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Methylocella" cmphy:species="silvestris" cmphy:strain="BLT" cmphy:id="AJ491848" editRecord="[]">Methylocella silvestris BLT (AJ491848)</otu>
+  <otu id="otu10" cmphy:genus="Methylosinus" cmphy:species="sporium" cmphy:strain="SC8" cmphy:id="AJ458528" editRecord="[]">Methylosinus sporium SC8 (AJ458528)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Methylocella" cmphy:species="tundrae" cmphy:strain="T4T" cmphy:id="AJS55245" editRecord="[5__S]">Methylocella tundrae T4T (AJ555245)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Methylosinus sp. LW4 (AYOO7288)</otu>
+  <otu id="otu14">Methylocystis sp. 51</otu>
+  <otu id="otu15">Methylocystis sp. LR1 (AJ458522)</otu>
+  <otu id="otu16" cmphy:genus="Methylosinus" cmphy:species="sporium" cmphy:strain="D15a" cmphy:id="AJ458534" editRecord="[]">Methylosinus sporium D15a (AJ458534)</otu>
+  <otu id="otu17">Methylocystis sp. M (U81594)</otu>
+  <otu id="otu18" cmphy:genus="Methylocella" cmphy:species="palustris" cmphy:strain="KT" cmphy:id="AJ458535" editRecord="[]">Methylocella palustris KT (AJ458535)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:genus="Methylosinus" cmphy:species="trichosporium" cmphy:strain="KS18" cmphy:id="AJ458530" editRecord="[]">Methylosinus trichosporium KS18 (AJ458530)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">Strain AR4T (FR686346)</otu>
+  <otu id="otu23">Strain LAY (FR686348)</otu>
+  <otu id="otu24">Strain SOP9 (FR686347)</otu>
+  <otu id="otu25"/>
+  <otu id="otu26">Methylomonas sp. KSPIII (AB025021)</otu>
+  <otu id="otu27">Methylomonas sp. LW13 (AY007290)</otu>
+  <otu id="otu28" cmphy:genus="Methylosinus" cmphy:species="trichosporium" cmphy:strain="OB3bT" cmphy:id="X55394" editRecord="[]">Methylosinus trichosporium OB3bT (X55394)</otu>
+  <otu id="otu29"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="458.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="6.0" y="458.0"/>
+   <node id="NT1.4" label="NT1.4" x="220.0" y="282.0"/>
+   <node id="NT1.8" label="NT1.8" x="528.0" y="423.0"/>
+   <node id="NT1.13" label="NT1.13" x="642.0" y="458.0"/>
+   <node id="NT1.15" label="NT1.15" x="648.0" y="658.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="679.0" y="443.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="710.0" y="140.0"/>
+   <node id="NT1.22" label="NT1.22" x="773.0" y="124.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="773.0" y="102.0"/>
+   <node id="NT1.24" label="NT1.24" x="774.0" y="479.0" otu="otu11"/>
+   <node id="NT1.31" label="NT1.31" x="841.0" y="87.0" otu="otu16"/>
+   <node id="NT1.33" x="856.0" y="173.0" label="100"/>
+   <node id="NT1.34" label="NT1.34" x="857.0" y="408.0" otu="otu18"/>
+   <node id="NT1.38" label="NT1.38" x="894.0" y="194.0" otu="otu20"/>
+   <node id="NT1.49" label="NT1.49" x="920.0" y="158.0" otu="otu28"/>
+   <edge id="e.1" source="NT1.23" target="NT1.22"/>
+   <edge id="e.4" target="NT1.38" source="NT1.33"/>
+   <edge id="e.5" source="NT1.33" target="NT1.49"/>
+   <edge id="e.10" source="NT1.1" target="NT1.2"/>
+   <edge id="e.15" target="NT1.34" source="NT1.8"/>
+   <edge id="e.21" target="NT1.15" source="NT1.2"/>
+   <edge id="e.27" target="NT1.23" source="NT1.19"/>
+   <edge id="e.28" target="NT1.19" source="NT1.4"/>
+   <edge id="e.29" source="NT1.19" target="NT1.33"/>
+   <edge id="e.34" source="NT1.2" target="NT1.4"/>
+   <edge id="e.35" source="NT1.4" target="NT1.8"/>
+   <edge id="e.39" target="NT1.13" source="NT1.8"/>
+   <edge id="e.45" source="NT1.13" target="NT1.18"/>
+   <edge id="e.46" source="NT1.13" target="NT1.24"/>
+   <edge id="e.47" source="NT1.23" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

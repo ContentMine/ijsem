@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Leisingera" cmphy:species="methylohalidivorans" cmphy:strain="MB2T" cmphy:id="AYO05463" editRecord="[]">Leisingera methylohalidivorans MB2T (AYO05463)</otu>
+  <otu id="otu2">Phaeobacter inhibens T5T(AY177712)</otu>
+  <otu id="otu3">Leisingera aquimarina LMG 24366T(AM90O415)</otu>
+  <otu id="otu4">Phaeobactergallaeciensis BS107T(Y13244)</otu>
+  <otu id="otu5">Roseobacterlitoralis ATCC 49566T(X78312)</otu>
+  <otu id="otu6">Phaeobacter daeponensis TF-218T(DQ981486)</otu>
+  <otu id="otu7">Thalassococcus halodurans USTO50418-052T(DO.397336)</otu>
+  <otu id="otu8">Roseobacter denitrificans OCh 1 147 (M96746)</otu>
+  <otu id="otu9" cmphy:genus="Donghicola" cmphy:species="eburneus" cmphy:strain="SW-2777" cmphy:id="DQ667965" editRecord="[]">Donghicola eburneus SW-2777 (DQ667965)</otu>
+  <otu id="otu10" cmphy:genus="Phaeobacter" cmphy:species="caeruleus" cmphy:strain="LMG 24369T" cmphy:id="AM943630" editRecord="[]">Phaeobacter caeruleus LMG 24369T (AM943630)</otu>
+  <otu id="otu11">Marinovum algicola ATCC 51440 T(X78315)</otu>
+  <otu id="otu12">Citreicella thiooxidans CH LG 1T ( AY63988 7)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Leisingera" cmphy:species="nanhaiensis" cmphy:strain="NH52FT" cmphy:id="FJZ32451" editRecord="[2__Z]">Leisingera nanhaiensis NH52FT (FJ232451)</otu>
+  <otu id="otu14">Yangia pacifica DX5-10T(AJ877265)</otu>
+  <otu id="otu15" cmphy:genus="Nereida" cmphy:species="ignava" cmphy:strain="2SM4T" cmphy:id="AJ748748" editRecord="[]">Nereida ignava 2SM4T (AJ748748)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="36.0" y="286.0"/>
+   <node id="NT1.7" label="NT1.7" x="158.0" y="364.0"/>
+   <node id="NT1.8" label="NT1.8" x="167.0" y="428.0"/>
+   <node id="NT1.13" label="NT1.13" x="259.0" y="419.0" otu="otu1"/>
+   <node id="NT1.21" label="NT1.21" x="346.0" y="83.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="354.0" y="318.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="405.0" y="454.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="468.0" y="523.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="36.0" y="480.0" root="true"/>
+   <edge id="e.8" target="NT1.7" source="NT1.1"/>
+   <edge id="e.9" source="NT1.7" target="NT1.8"/>
+   <edge id="e.13" target="NT1.13" source="NT1.8"/>
+   <edge id="e.14" source="NT1.28" target="NT1.1"/>
+   <edge id="e.17" target="NT1.27" source="NT1.28"/>
+   <edge id="e.18" target="NT1.21" source="NT1.1"/>
+   <edge id="e.20" source="NT1.8" target="NT1.25"/>
+   <edge id="e.24" target="NT1.22" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

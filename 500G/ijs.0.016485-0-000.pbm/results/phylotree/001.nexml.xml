@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[O__0]" cmphy:genus="Methylopila" cmphy:species="capsulata" cmphy:strain="IM1T" cmphy:id="AFO04844" editRecord="[O__0]">Methylopila capsulata IM1T (AFOO4844)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Methylocapsa" cmphy:species="acidiphila" cmphy:strain="B27" cmphy:id="AJZ78726" editRecord="[2__Z]">Methylocapsa acidiphila B27 (AJ278726)</otu>
+  <otu id="otu3">Methylosinus Irichosporium OB3bT (Y18947)</otu>
+  <otu id="otu4">Agaricicola taiwanensis CC-SBABM117T(FJ594057)</otu>
+  <otu id="otu5">Prosthecomicrobium pneumaticum MBIC3489T(AB0172O3)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Chelatococcus" cmphy:species="asaccharovorans" cmphy:strain="TE2T" cmphy:id="AJZ94349" editRecord="[2__Z]">Chelatococcus asaccharovorans TE2T (AJ294349)</otu>
+  <otu id="otu7">Rhodobium orientis MB312T(D3O792)</otu>
+  <otu id="otu8" cmphy:genus="Blastochloris" cmphy:species="viridis" cmphy:strain="DSM 133T" cmphy:id="AFO84495" editRecord="[]">Blastochloris viridis DSM 133T (AFO84495)</otu>
+  <otu id="otu9">Nesiotobacter exalbescens LA33BT(AF513441)</otu>
+  <otu id="otu10">Stappia stellulataIAM12621T(D88525)</otu>
+  <otu id="otu11"> Pannonibacterphragmitetus C6l19T(AJ40O704)</otu>
+  <otu id="otu12" cmphy:genus="Roseibium" cmphy:species="denhamense" cmphy:strain="OCh 254T" cmphy:id="D85832" editRecord="[]">Roseibium denhamense OCh 254T (D85832)</otu>
+  <otu id="otu13"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="73.0" y="104.0"/>
+   <node id="NT1.2" label="NT1.2" x="86.0" y="260.0"/>
+   <node id="NT1.3" x="141.0" y="60.0" label="62"/>
+   <node id="NT1.8" label="NT1.8" x="287.0" y="226.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="305.0" y="86.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="408.0" y="50.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="456.0" y="156.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="630.0" y="401.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="3.0" y="182.0" root="true"/>
+   <edge id="e.1" target="NT1.15" source="NT1.3"/>
+   <edge id="e.2" source="NT1.3" target="NT1.9"/>
+   <edge id="e.5" target="NT1.17" source="NT1.1"/>
+   <edge id="e.6" source="NT1.2" target="NT1.8"/>
+   <edge id="e.11" target="NT1.23" source="NT1.2"/>
+   <edge id="e.14" source="NT1.1" target="NT1.3"/>
+   <edge id="e.22" source="NT1.25" target="NT1.1"/>
+   <edge id="e.23" source="NT1.25" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

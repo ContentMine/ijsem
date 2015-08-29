@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Microbulbifer hydrolyticus DSM 1 1 5257 (AJ608704)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Microbulbifer" cmphy:species="salipaludis" cmphy:strain="SM-17" cmphy:id="AF479688" editRecord="[]">Microbulbifer salipaludis SM-17 (AF479688)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Microbulbifer hydrolyticus DSM 1 1 5257 (AJ608704)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Microbulbifer" cmphy:species="celer" cmphy:strain="ISL-397" cmphy:id="EF486352" editRecord="[]">Microbulbifer celer ISL-397 (EF486352)</otu>
+  <otu id="otu10" cmphy:genus="Microbulbifer" cmphy:species="elongatus" cmphy:strain="ATCC 101447" cmphy:id="ABO21368" editRecord="[]">Microbulbifer elongatus ATCC 101447 (ABO21368)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Microbulbifer" cmphy:species="okinawensis" cmphy:strain="ABABA211" cmphy:id="ABS00895" editRecord="[5__S]">Microbulbifer okinawensis ABABA211 (AB500895)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Microbulbifer" cmphy:species="okinawensis" cmphy:strain="ABABA237" cmphy:id="ABS00893" editRecord="[5__S]">Microbulbifer okinawensis ABABA237 (AB500893)</otu>
+  <otu id="otu13">Microbulbifer agarilyticus JAMB A37 (AB1 5851 5)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Microbulbifer" cmphy:species="maritimus" cmphy:strain="TF-1 77" cmphy:id="AYB77986" editRecord="[3__B]">Microbulbifer maritimus TF-1 77 (AY377986)</otu>
+  <otu id="otu17" cmphy:edit="[3__B]" cmphy:genus="Microbulbifer" cmphy:species="donghaiensis" cmphy:strain="CN857" cmphy:id="EUB65694" editRecord="[3__B]">Microbulbifer donghaiensis CN857 (EU365694)</otu>
+  <otu id="otu18" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="LMG 12427" cmphy:id="Z76651" editRecord="[]">Pseudomonas aeruginosa LMG 12427 (Z76651)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21">Microbulbifer variabilis Ni-20887 (AB1 67354)</otu>
+  <otu id="otu22">Microbulbifer halophilus YIM 91 1 1 87 (EF674853)</otu>
+  <otu id="otu23" cmphy:edit="[2__Z]" cmphy:genus="Microbulbifer" cmphy:species="epialgicus" cmphy:strain="F-1 O47" cmphy:id="ABZ66054" editRecord="[2__Z]">Microbulbifer epialgicus F-1 O47 (AB266054)</otu>
+  <otu id="otu24" cmphy:genus="Marinobacter" cmphy:species="hydrocarbonoclasticus" cmphy:strain="ATCC 498407" cmphy:id="X67022" editRecord="[]">Marinobacter hydrocarbonoclasticus ATCC 498407 (X67022)</otu>
+  <otu id="otu25" cmphy:genus="Saccharophagus" cmphy:species="degradans" cmphy:strain="2-407" cmphy:id="AFO55269" editRecord="[]">Saccharophagus degradans 2-407 (AFO55269)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="25.0" y="639.0"/>
+   <node id="NT1.2" x="44.0" y="529.0" label="74"/>
+   <node id="NT1.4" label="NT1.4" x="104.0" y="361.0"/>
+   <node id="NT1.7" x="138.0" y="500.0" label="97"/>
+   <node id="NT1.10" x="153.0" y="588.0" label="72"/>
+   <node id="NT1.11" x="156.0" y="95.0" label="72"/>
+   <node id="NT1.14" label="NT1.14" x="161.0" y="154.0"/>
+   <node id="NT1.16" label="NT1.16" x="171.0" y="551.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="185.0" y="197.0"/>
+   <node id="NT1.22" label="NT1.22" x="199.0" y="453.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="205.0" y="601.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="211.0" y="14.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="211.0" y="62.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="211.0" y="38.0"/>
+   <node id="NT1.30" label="NT1.30" x="220.0" y="160.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="221.0" y="111.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="222.0" y="798.0" otu="otu18"/>
+   <node id="NT1.38" label="NT1.38" x="255.0" y="259.0" otu="otu23"/>
+   <node id="NT1.39" label="NT1.39" x="259.0" y="749.0" otu="otu24"/>
+   <node id="NT1.40" label="NT1.40" x="281.0" y="700.0" otu="otu25"/>
+   <node id="NT1.41" label="NT1.41" x="2.0" y="718.0" root="true"/>
+   <edge id="e.0" source="NT1.27" target="NT1.24"/>
+   <edge id="e.2" source="NT1.27" target="NT1.25"/>
+   <edge id="e.5" source="NT1.20" target="NT1.30"/>
+   <edge id="e.8" target="NT1.38" source="NT1.20"/>
+   <edge id="e.15" source="NT1.7" target="NT1.22"/>
+   <edge id="e.17" source="NT1.10" target="NT1.16"/>
+   <edge id="e.20" source="NT1.2" target="NT1.40"/>
+   <edge id="e.21" source="NT1.1" target="NT1.39"/>
+   <edge id="e.22" source="NT1.11" target="NT1.27"/>
+   <edge id="e.23" target="NT1.11" source="NT1.4"/>
+   <edge id="e.24" source="NT1.11" target="NT1.14"/>
+   <edge id="e.27" source="NT1.14" target="NT1.20"/>
+   <edge id="e.30" source="NT1.2" target="NT1.4"/>
+   <edge id="e.31" source="NT1.4" target="NT1.7"/>
+   <edge id="e.33" source="NT1.1" target="NT1.2"/>
+   <edge id="e.34" target="NT1.10" source="NT1.7"/>
+   <edge id="e.36" source="NT1.41" target="NT1.32"/>
+   <edge id="e.37" source="NT1.41" target="NT1.1"/>
+   <edge id="e.38" source="NT1.14" target="NT1.31"/>
+   <edge id="e.39" target="NT1.23" source="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Arenimonas" cmphy:species="malthae" cmphy:strain="CC-JY-1 T" cmphy:id="DQZ39766" editRecord="[2__Z]">Arenimonas malthae CC-JY-1 T (DQ239766)</otu>
+  <otu id="otu2">Thermomonas haemolytica A50-7-3T(AJ300185)</otu>
+  <otu id="otu3">Lysobactersoli DCY21T (EF628862)</otu>
+  <otu id="otu4"> Dyellajaponica XD53T(AB110498)</otu>
+  <otu id="otu5">Xanthomonas melonis LMG 8670T(Y10756)</otu>
+  <otu id="otu6"> RhodanobacterginsengisoliGR17-7T(EF166O75)</otu>
+  <otu id="otu7">Luteimonas mephitis B1953727.1T(AJ012228)</otu>
+  <otu id="otu8">Pseudoxanthomonas yeongjuensis GR12-1T(DO438977)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Hydrocarboniphaga effusa AP103T(AY363245)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15">Solimonas (Sinobacter) flava CW-KD 4T (EF1 5451 5)</otu>
+  <otu id="otu16">Solimonas soliDCY1 21 (EFO67861)</otu>
+  <otu id="otu17">Escherichia coliATCC 1 1 775T (X80725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.12" label="NT1.12" x="262.0" y="349.0" otu="otu1"/>
+   <node id="NT1.33" label="NT1.33" x="5.0" y="393.0" root="true"/>
+   <edge id="e.5" target="NT1.12" source="NT1.33"/>
+  </tree>
+ </trees>
+</nexml>

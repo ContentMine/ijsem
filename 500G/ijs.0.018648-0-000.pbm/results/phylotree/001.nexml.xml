@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22">Undibacterium parvum</otu>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25">Undibacterium oligocarboniphilum</otu>
+  <otu id="otu26">Undibacterium oligocarboniphilum</otu>
+  <otu id="otu27" cmphy:genus="Telluria" cmphy:species="mixta" cmphy:strain="CCUG 35206Y" cmphy:id="X65589" editRecord="[]">Telluria mixta CCUG 35206Y (X65589)</otu>
+  <otu id="otu28" cmphy:genus="Telluria" cmphy:species="mixta" cmphy:strain="CCUG 35206Y" cmphy:id="X65589" editRecord="[]">Telluria mixta CCUG 35206Y (X65589)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="368.0" y="441.0" otu="otu1" root="true"/>
+   <node id="NT1.46" label="NT1.46" x="834.0" y="943.0" otu="otu27"/>
+   <node id="NT1.47" label="NT1.47" x="834.0" y="939.0"/>
+   <node id="NT1.48" label="NT1.48" x="836.0" y="938.0" otu="otu28"/>
+   <edge id="e.25" source="NT1.47" target="NT1.46"/>
+   <edge id="e.26" source="NT1.47" target="NT1.48"/>
+   <edge id="e.44" target="NT1.47" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

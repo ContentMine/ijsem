@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Paenibacillus" cmphy:species="apiarius" cmphy:strain="DSM 5581T" cmphy:id="ABO73201" editRecord="[0__O]">Paenibacillus apiarius DSM 5581T (AB073201)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="dendritiformis" cmphy:strain="CIP 1O5967T" cmphy:id="AYB59885" editRecord="[3__B]">Paenibacillus dendritiformis CIP 1O5967T (AY359885)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="polymyxa" cmphy:strain="DSM 367" cmphy:id="AJB20493" editRecord="[3__B]">Paenibacillus polymyxa DSM 367 (AJ320493)</otu>
+  <otu id="otu8">Paenibacillus pocheonensis Gsoil 1 1387 (AB245386)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Brevibacillus brevis DSM 307 (AB101 593)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="205.0" y="217.0"/>
+   <node id="NT1.4" label="NT1.4" x="441.0" y="205.0"/>
+   <node id="NT1.6" label="NT1.6" x="649.0" y="179.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="685.0" y="233.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="783.0" y="287.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="3.0" y="227.0" root="true"/>
+   <edge id="e.6" source="NT1.4" target="NT1.6"/>
+   <edge id="e.7" source="NT1.4" target="NT1.9"/>
+   <edge id="e.8" source="NT1.1" target="NT1.12"/>
+   <edge id="e.12" target="NT1.4" source="NT1.1"/>
+   <edge id="e.13" source="NT1.16" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

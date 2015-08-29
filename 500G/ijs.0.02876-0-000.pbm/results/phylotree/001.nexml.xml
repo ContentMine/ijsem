@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Prevotella" cmphy:species="buccae" cmphy:strain="ATCC 335747" cmphy:id="L16477" editRecord="[]"> Prevotella buccae ATCC 335747 (L16477)</otu>
+  <otu id="otu2">Prevotella Ioesoheii ATCC 15930T (L16481)</otu>
+  <otu id="otu3" cmphy:edit="[O__0]" cmphy:genus="Prevotella" cmphy:species="tannerae" cmphy:strain="ATCC 51259T" cmphy:id="AJO05634" editRecord="[O__0]">Prevotella tannerae ATCC 51259T (AJOO5634)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Prevotella" cmphy:species="salivae" cmphy:strain="EPSA11T" cmphy:id="ABI08826" editRecord="[1__I]">Prevotella salivae EPSA11T (AB108826)</otu>
+  <otu id="otu5" cmphy:genus="Prevorella" cmphy:species="oris" cmphy:strain="ATCC 335737" cmphy:id="L16474" editRecord="[]">Prevorella oris ATCC 335737 (L16474)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Prevotella" cmphy:species="shahii" cmphy:strain="EHS11T" cmphy:id="ABI08825" editRecord="[1__I]">Prevotella shahii EHS11T (AB108825)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Prevotella" cmphy:species="oralis" cmphy:strain="ATCC 33269" cmphy:id="L16480" editRecord="[]">Prevotella oralis ATCC 33269 (L16480)</otu>
+  <otu id="otu9" cmphy:genus="Prevotella" cmphy:species="albensis" cmphy:strain="DSM 1137OT" cmphy:id="AJO11683" editRecord="[]">Prevotella albensis DSM 1137OT (AJO11683)</otu>
+  <otu id="otu10"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="133.0" y="283.0"/>
+   <node id="NT1.2" x="171.0" y="168.0" label="97"/>
+   <node id="NT1.3" x="195.0" y="63.0" label="87"/>
+   <node id="NT1.5" label="NT1.5" x="236.0" y="248.0"/>
+   <node id="NT1.7" x="284.0" y="327.0" label="90"/>
+   <node id="NT1.9" label="NT1.9" x="318.0" y="400.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="357.0" y="447.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="381.0" y="302.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="383.0" y="351.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="386.0" y="109.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="397.0" y="61.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="406.0" y="206.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="12.0" y="425.0" root="true"/>
+   <edge id="e.0" target="NT1.16" source="NT1.3"/>
+   <edge id="e.3" target="NT1.14" source="NT1.3"/>
+   <edge id="e.4" source="NT1.5" target="NT1.17"/>
+   <edge id="e.5" source="NT1.7" target="NT1.12"/>
+   <edge id="e.6" source="NT1.1" target="NT1.9"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.10" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" source="NT1.2" target="NT1.5"/>
+   <edge id="e.13" target="NT1.7" source="NT1.5"/>
+   <edge id="e.14" source="NT1.19" target="NT1.11"/>
+   <edge id="e.15" source="NT1.19" target="NT1.1"/>
+   <edge id="e.17" source="NT1.7" target="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

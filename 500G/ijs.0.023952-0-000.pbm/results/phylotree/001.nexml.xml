@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Cellvibrio" cmphy:species="japonicus" cmphy:strain="NCIMB 104627" cmphy:id="AF452103" editRecord="[]">Cellvibrio japonicus NCIMB 104627 (AF452103)</otu>
+  <otu id="otu2" cmphy:edit="[5__S, O__0]" cmphy:genus="Microbulbifer" cmphy:species="elongatus" cmphy:strain="DSM 68107" cmphy:id="AFS00006" editRecord="[5__S, O__0]">Microbulbifer elongatus DSM 68107 (AF5000O6)</otu>
+  <otu id="otu3" cmphy:genus="Pseudomonas" cmphy:species="oleovorans" cmphy:strain="IAM 15087" cmphy:id="D84018" editRecord="[]">Pseudomonas oleovorans IAM 15087 (D84018)</otu>
+  <otu id="otu4" cmphy:genus="Saccharophagus" cmphy:species="degradans" cmphy:strain="DSM 170247" cmphy:id="AFO55269" editRecord="[]">Saccharophagus degradans DSM 170247 (AFO55269)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Teredinibacter" cmphy:species="turnerae" cmphy:strain="DSM 151527" cmphy:id="AYO28398" editRecord="[]">Teredinibacter turnerae DSM 151527 (AYO28398)</otu>
+  <otu id="otu7" cmphy:genus="Dasania" cmphy:species="marina" cmphy:strain="JCM 134417" cmphy:id="AY771747" editRecord="[]">Dasania marina JCM 134417 (AY771747)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Bugula" cmphy:species="turbinata" cmphy:strain="endosymbiont" cmphy:id="AY633980" editRecord="[]">Bugula turbinata endosymbiont (AY633980)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Haliea" cmphy:species="salexigens" cmphy:strain="DSM 195377" cmphy:id="AYS76769" editRecord="[5__S]">Haliea salexigens DSM 195377 (AY576769)</otu>
+  <otu id="otu12">7Candidatus Endobugula sertuIa' (AFOO6606)</otu>
+  <otu id="otu13"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="15.0" y="341.0"/>
+   <node id="NT1.2" label="NT1.2" x="28.0" y="293.0"/>
+   <node id="NT1.3" label="NT1.3" x="37.0" y="232.0"/>
+   <node id="NT1.4" x="48.0" y="186.0" label="84"/>
+   <node id="NT1.5" x="54.0" y="152.0" label="84"/>
+   <node id="NT1.6" label="NT1.6" x="59.0" y="278.0"/>
+   <node id="NT1.11" label="NT1.11" x="124.0" y="355.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="125.0" y="389.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="125.0" y="423.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="145.0" y="220.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="146.0" y="185.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="146.0" y="252.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="167.0" y="84.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="182.0" y="286.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="10.0" y="382.0" root="true"/>
+   <edge id="e.2" target="NT1.21" source="NT1.5"/>
+   <edge id="e.4" source="NT1.5" target="NT1.17"/>
+   <edge id="e.5" source="NT1.4" target="NT1.15"/>
+   <edge id="e.6" source="NT1.6" target="NT1.18"/>
+   <edge id="e.7" source="NT1.2" target="NT1.11"/>
+   <edge id="e.8" target="NT1.22" source="NT1.6"/>
+   <edge id="e.10" source="NT1.1" target="NT1.12"/>
+   <edge id="e.14" source="NT1.4" target="NT1.5"/>
+   <edge id="e.15" source="NT1.3" target="NT1.4"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.3" target="NT1.6"/>
+   <edge id="e.19" source="NT1.1" target="NT1.2"/>
+   <edge id="e.20" source="NT1.25" target="NT1.13"/>
+   <edge id="e.21" source="NT1.25" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Lysobacter" cmphy:species="antibioticus" cmphy:strain="DSM 20447" cmphy:id="ABO19582" editRecord="[0__O]">Lysobacter antibioticus DSM 20447 (AB019582)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Stenotrophomonas" cmphy:species="rhizophila" cmphy:strain="DSM 144O5T" cmphy:id="AJZ93463" editRecord="[2__Z]">Stenotrophomonas rhizophila DSM 144O5T (AJ293463)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Fulvimonas" cmphy:species="soli" cmphy:strain="LMG 199817" cmphy:id="AJB11653" editRecord="[3__B]">Fulvimonas soli LMG 199817 (AJ311653)</otu>
+  <otu id="otu7">Pseudoxanthomonas broegbemensis B1616l1T (AJ012231 )</otu>
+  <otu id="otu8" cmphy:genus="Stenotrophomonas" cmphy:species="maltophilia" cmphy:strain="LMG 9587" cmphy:id="X95923" editRecord="[]">Stenotrophomonas maltophilia LMG 9587 (X95923)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Stenotrophomonas" cmphy:species="acidaminiphila" cmphy:strain="DSM 131177" cmphy:id="AFZ73080" editRecord="[2__Z]">Stenotrophomonas acidaminiphila DSM 131177 (AF273080)</otu>
+  <otu id="otu10" cmphy:genus="Stenotrophomonas" cmphy:species="nitritireducens" cmphy:strain="DSM 125757" cmphy:id="AJO12229" editRecord="[]">Stenotrophomonas nitritireducens DSM 125757 (AJO12229)</otu>
+  <otu id="otu11" cmphy:genus="Stenotrophomonas" cmphy:species="africana" cmphy:strain="MGBT" cmphy:id="U62646" editRecord="[]">Stenotrophomonas africana MGBT (U62646)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Stenotrophomonas" cmphy:species="koreensis" cmphy:strain="TR6-01&quot;" cmphy:id="ABI66885" editRecord="[1__I]">Stenotrophomonas koreensis TR6-01" (AB166885)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="320.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="22.0" y="319.0"/>
+   <node id="NT1.3" label="NT1.3" x="140.0" y="261.0"/>
+   <node id="NT1.7" label="NT1.7" x="403.0" y="115.0"/>
+   <node id="NT1.10" label="NT1.10" x="430.0" y="337.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="450.0" y="186.0"/>
+   <node id="NT1.12" label="NT1.12" x="468.0" y="211.0"/>
+   <node id="NT1.13" label="NT1.13" x="504.0" y="65.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="505.0" y="239.0"/>
+   <node id="NT1.15" label="NT1.15" x="521.0" y="377.0" otu="otu6"/>
+   <node id="NT1.17" x="549.0" y="124.0" label="100"/>
+   <node id="NT1.18" label="NT1.18" x="571.0" y="143.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="573.0" y="220.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="600.0" y="259.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="622.0" y="104.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="624.0" y="182.0" otu="otu12"/>
+   <edge id="e.2" source="NT1.7" target="NT1.13"/>
+   <edge id="e.3" source="NT1.14" target="NT1.19"/>
+   <edge id="e.4" source="NT1.14" target="NT1.20"/>
+   <edge id="e.5" source="NT1.12" target="NT1.22"/>
+   <edge id="e.6" source="NT1.3" target="NT1.10"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.7" source="NT1.3"/>
+   <edge id="e.11" source="NT1.7" target="NT1.11"/>
+   <edge id="e.13" source="NT1.11" target="NT1.17"/>
+   <edge id="e.14" source="NT1.11" target="NT1.12"/>
+   <edge id="e.15" source="NT1.12" target="NT1.14"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.2" target="NT1.15"/>
+   <edge id="e.19" source="NT1.17" target="NT1.21"/>
+   <edge id="e.20" source="NT1.17" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Thiococcus" cmphy:species="pfennigii" cmphy:strain="42507" cmphy:id="Y12373" editRecord="[]"> Thiococcus pfennigii 42507 (Y12373)</otu>
+  <otu id="otu2">Thiorhodococcus minor CE22O3T (Y1 1316)</otu>
+  <otu id="otu3">Methylococcus capsulatus ACM 1 292T (X72770)</otu>
+  <otu id="otu4">ioflavicoccus mobilis 83217 (AJ01 O1 26)</otu>
+  <otu id="otu5">Spongiibacter marinus HAL40bT (AM1 1 7932)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Nitrincola lacisaponensis 4CAT (AY56 74 73)</otu>
+  <otu id="otu8" cmphy:edit="[O__0, O__0]" cmphy:genus="Saccharophagus" cmphy:species="degradans" cmphy:strain="2-4OT" cmphy:id="CPO00282" editRecord="[O__0, O__0]">Saccharophagus degradans 2-4OT (CPOOO282)</otu>
+  <otu id="otu9">Methylobacter mteus NCIMB 1 1914T(AF304195)</otu>
+  <otu id="otu10" cmphy:genus="Microbulbifer" cmphy:species="salipaludis" cmphy:strain="SM-1T" cmphy:id="AF479688" editRecord="[]"> Microbulbifer salipaludis SM-1T (AF479688)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Arenicella" cmphy:species="xantha" cmphy:strain="KMM 38957" cmphy:id="ABS00096" editRecord="[5__S]">Arenicella xantha KMM 38957 (AB500096)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Kangiella" cmphy:species="aquimarina" cmphy:strain="SW-1 547" cmphy:id="AYS20561" editRecord="[5__S]"> Kangiella aquimarina SW-1 547 (AY520561)</otu>
+  <otu id="otu13"> KangieHa koreensis SW-125T (AY520560)</otu>
+  <otu id="otu14">Alcanfvorax borkumensis Sk2T (Y1 2579)</otu>
+  <otu id="otu15" cmphy:genus="Microbulbifer" cmphy:species="hydrolyticus" cmphy:strain="IRE-317" cmphy:id="U58338" editRecord="[]"> Microbulbifer hydrolyticus IRE-317 (U58338)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="LMG 1242T" cmphy:id="Z76651" editRecord="[2__Z]">Pseudomonas aeruginosa LMG 1242T (276651)</otu>
+  <otu id="otu17" cmphy:genus="Xanthomonas" cmphy:species="campestris" cmphy:strain="LMG 568T" cmphy:id="X95917" editRecord="[]">Xanthomonas campestris LMG 568T (X95917)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="41.0" y="455.0"/>
+   <node id="NT1.4" x="79.0" y="255.0" label="85"/>
+   <node id="NT1.6" label="NT1.6" x="106.0" y="322.0"/>
+   <node id="NT1.10" label="NT1.10" x="161.0" y="98.0"/>
+   <node id="NT1.11" label="NT1.11" x="170.0" y="64.0"/>
+   <node id="NT1.14" label="NT1.14" x="307.0" y="571.0" otu="otu1"/>
+   <node id="NT1.21" label="NT1.21" x="363.0" y="94.0" otu="otu8"/>
+   <node id="NT1.22" x="367.0" y="34.0" label="100"/>
+   <node id="NT1.25" label="NT1.25" x="395.0" y="54.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="401.0" y="292.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="403.0" y="332.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="416.0" y="14.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="426.0" y="134.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="426.0" y="651.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="1.0" y="553.0" root="true"/>
+   <edge id="e.0" source="NT1.22" target="NT1.30"/>
+   <edge id="e.1" source="NT1.22" target="NT1.25"/>
+   <edge id="e.2" source="NT1.10" target="NT1.31"/>
+   <edge id="e.6" source="NT1.6" target="NT1.26"/>
+   <edge id="e.7" target="NT1.27" source="NT1.6"/>
+   <edge id="e.13" target="NT1.14" source="NT1.1"/>
+   <edge id="e.15" source="NT1.11" target="NT1.22"/>
+   <edge id="e.16" source="NT1.10" target="NT1.11"/>
+   <edge id="e.17" target="NT1.10" source="NT1.4"/>
+   <edge id="e.21" target="NT1.4" source="NT1.1"/>
+   <edge id="e.22" source="NT1.4" target="NT1.6"/>
+   <edge id="e.29" source="NT1.33" target="NT1.32"/>
+   <edge id="e.30" source="NT1.33" target="NT1.1"/>
+   <edge id="e.31" source="NT1.11" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

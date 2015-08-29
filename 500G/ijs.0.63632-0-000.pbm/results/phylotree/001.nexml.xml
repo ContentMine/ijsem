@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Xylanimicrobium" cmphy:species="pachnodae" cmphy:strain="VPCX2T" cmphy:id="AFI05422" editRecord="[1__I]">Xylanimicrobium pachnodae VPCX2T (AF105422)</otu>
+  <otu id="otu2">Isoptericola variabilis MX5T(A.1298873)</otu>
+  <otu id="otu3">Promicromonospora citrea DSM 431 10 (X83808)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Promicromonospora" cmphy:species="sukumoe" cmphy:strain="DSM 441217" cmphy:id="AJZ72024" editRecord="[2__Z]">Promicromonospora sukumoe DSM 441217 (AJ272024)</otu>
+  <otu id="otu5" cmphy:edit="[8__B]" cmphy:genus="Isoptericola" cmphy:species="hypogeus" cmphy:strain="HKI 0342T" cmphy:id="AJB54061" editRecord="[8__B]">Isoptericola hypogeus HKI 0342T (AJ854061)</otu>
+  <otu id="otu6" cmphy:genus="Promicromonospora" cmphy:species="aerolata" cmphy:strain="V54AT" cmphy:id="AJ487303" editRecord="[]">Promicromonospora aerolata V54AT (AJ487303)</otu>
+  <otu id="otu7" cmphy:genus="Promicromonospora" cmphy:species="vindobonensis" cmphy:strain="V45T" cmphy:id="AJ487302" editRecord="[]">Promicromonospora vindobonensis V45T (AJ487302)</otu>
+  <otu id="otu8" cmphy:genus="Cellulosimicrobium" cmphy:species="cellulans" cmphy:strain="DSM 43879T" cmphy:id="X83809" editRecord="[]">Cellulosimicrobium cellulans DSM 43879T (X83809)</otu>
+  <otu id="otu9">X ylanimonas cellulosilytica XlL07T (AF403541)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Xylanibacterium" cmphy:species="ulmi" cmphy:strain="XIL08T" cmphy:id="AYZ73185" editRecord="[2__Z]">Xylanibacterium ulmi XIL08T (AY273185)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Myceligenerans" cmphy:species="xiligouense" cmphy:strain="XLG9A10.2T" cmphy:id="AYB54285" editRecord="[3__B]">Myceligenerans xiligouense XLG9A10.2T (AY354285)</otu>
+  <otu id="otu12" cmphy:genus="Arthrobacter" cmphy:species="globiformis" cmphy:strain="DSM 201247" cmphy:id="X80736" editRecord="[]">Arthrobacter globiformis DSM 201247 (X80736)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="123.0" y="237.0"/>
+   <node id="NT1.2" label="NT1.2" x="146.0" y="299.0"/>
+   <node id="NT1.3" label="NT1.3" x="168.0" y="149.0"/>
+   <node id="NT1.4" label="NT1.4" x="175.0" y="378.0"/>
+   <node id="NT1.8" label="NT1.8" x="296.0" y="456.0"/>
+   <node id="NT1.9" label="NT1.9" x="339.0" y="58.0"/>
+   <node id="NT1.10" label="NT1.10" x="373.0" y="443.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="380.0" y="39.0"/>
+   <node id="NT1.14" label="NT1.14" x="402.0" y="111.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="407.0" y="304.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="413.0" y="62.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="426.0" y="14.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="437.0" y="256.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="451.0" y="493.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="485.0" y="209.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="494.0" y="537.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="5.0" y="379.0" root="true"/>
+   <edge id="e.0" source="NT1.11" target="NT1.16"/>
+   <edge id="e.2" target="NT1.15" source="NT1.4"/>
+   <edge id="e.3" source="NT1.8" target="NT1.10"/>
+   <edge id="e.4" source="NT1.2" target="NT1.18"/>
+   <edge id="e.5" source="NT1.9" target="NT1.11"/>
+   <edge id="e.6" target="NT1.9" source="NT1.3"/>
+   <edge id="e.8" source="NT1.1" target="NT1.3"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" source="NT1.2" target="NT1.4"/>
+   <edge id="e.13" target="NT1.8" source="NT1.4"/>
+   <edge id="e.14" source="NT1.23" target="NT1.1"/>
+   <edge id="e.15" source="NT1.23" target="NT1.22"/>
+   <edge id="e.16" source="NT1.3" target="NT1.21"/>
+   <edge id="e.17" source="NT1.8" target="NT1.20"/>
+   <edge id="e.19" source="NT1.9" target="NT1.14"/>
+   <edge id="e.20" source="NT1.11" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

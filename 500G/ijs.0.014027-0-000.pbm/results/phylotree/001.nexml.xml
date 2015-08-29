@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Erythrobacter" cmphy:species="gaetbuli" cmphy:strain="SW-1617" cmphy:id="AYS62220" editRecord="[5__S]">Erythrobacter gaetbuli SW-1617 (AY562220)</otu>
+  <otu id="otu4">Porphyrobacter neustonensis DSM 9434 T (ABO33327)</otu>
+  <otu id="otu5" cmphy:genus="Porphyrobacter" cmphy:species="cryptus" cmphy:strain="ALC42T" cmphy:id="AF465834" editRecord="[]">Porphyrobacter cryptus ALC42T (AF465834)</otu>
+  <otu id="otu6" cmphy:genus="Erythrobacter" cmphy:species="vulgaris" cmphy:strain="O22-2-107" cmphy:id="AY706935" editRecord="[]"> Erythrobacter vulgaris O22-2-107 (AY706935)</otu>
+  <otu id="otu7">Erythromicrobium ramosum DSM 851 OT (ABO13355)</otu>
+  <otu id="otu8"> Erythrobacter nanhaisediminis T3OT (FJ6544 73)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Erythrobacter" cmphy:species="citreus" cmphy:strain="RE35Fl1T" cmphy:id="AFI18020" editRecord="[1__I]">Erythrobacter citreus RE35Fl1T (AF118020)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">Sandaracinobacter sibiricus RB1 6-1 7 T(Y1O678)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Sphingomonas" cmphy:species="paucimobilis" cmphy:strain="ATCC 29837T" cmphy:id="U37337" editRecord="[]">Sphingomonas paucimobilis ATCC 29837T (U37337)</otu>
+  <otu id="otu17" cmphy:edit="[O__0]" cmphy:genus="Erythrobacter" cmphy:species="longus" cmphy:strain="OCh101T" cmphy:id="L01786" editRecord="[O__0]">Erythrobacter longus OCh101T (LO1786)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="803.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="359.0" y="678.0"/>
+   <node id="NT1.4" label="NT1.4" x="642.0" y="508.0"/>
+   <node id="NT1.7" label="NT1.7" x="716.0" y="349.0"/>
+   <node id="NT1.12" label="NT1.12" x="786.0" y="198.0"/>
+   <node id="NT1.13" label="NT1.13" x="800.0" y="219.0"/>
+   <node id="NT1.16" label="NT1.16" x="844.0" y="419.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="848.0" y="533.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="859.0" y="305.0" otu="otu6"/>
+   <node id="NT1.25" label="NT1.25" x="880.0" y="249.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="930.0" y="818.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="997.0" y="77.0" otu="otu17"/>
+   <edge id="e.2" target="NT1.31" source="NT1.12"/>
+   <edge id="e.3" source="NT1.13" target="NT1.25"/>
+   <edge id="e.4" source="NT1.13" target="NT1.19"/>
+   <edge id="e.7" source="NT1.7" target="NT1.16"/>
+   <edge id="e.9" target="NT1.18" source="NT1.4"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" target="NT1.30" source="NT1.2"/>
+   <edge id="e.19" target="NT1.12" source="NT1.7"/>
+   <edge id="e.20" source="NT1.12" target="NT1.13"/>
+   <edge id="e.22" target="NT1.7" source="NT1.4"/>
+   <edge id="e.24" source="NT1.2" target="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

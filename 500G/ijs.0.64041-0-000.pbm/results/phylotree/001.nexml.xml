@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">W3855</otu>
+  <otu id="otu3">AHC 15114</otu>
+  <otu id="otu4">Peptostreptococcus D1 (AF044947)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Peptostreptococcus" cmphy:species="anaerobius" cmphy:strain="NCTC 114607" cmphy:id="AYB26462" editRecord="[3__B]">Peptostreptococcus anaerobius NCTC 114607 (AY326462)</otu>
+  <otu id="otu6">AHC 50011</otu>
+  <otu id="otu7">AHC 14540</otu>
+  <otu id="otu8">Peptostreptococcus CK035 (AF287763)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Clostridium" cmphy:species="hiranonis" cmphy:strain="HD-17" cmphy:id="ABO23971" editRecord="[0__O]">Clostridium hiranonis HD-17 (AB023971)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Filifactor" cmphy:species="villosus" cmphy:strain="DSM 16457" cmphy:id="AFS37211" editRecord="[5__S]">Filifactor villosus DSM 16457 (AF537211)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Filifactor" cmphy:species="alocis" cmphy:strain="ATCC 358967" cmphy:id="AJO06962" editRecord="[0__O]">Filifactor alocis ATCC 358967 (AJ006962)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Peptoniphilus" cmphy:species="asaccharolyticus" cmphy:strain="CCUG 99887" cmphy:id="AFS42228" editRecord="[5__S]">Peptoniphilus asaccharolyticus CCUG 99887 (AF542228)</otu>
+  <otu id="otu13" cmphy:genus="Peptoniphilus" cmphy:species="harei" cmphy:strain="DSM 100207" cmphy:id="Y07839" editRecord="[]">Peptoniphilus harei DSM 100207 (Y07839)</otu>
+  <otu id="otu14">Anaerococcus prevotii ATCC 9321 T (D14139)</otu>
+  <otu id="otu15" cmphy:genus="Anaerococcus" cmphy:species="vaginalis" cmphy:strain="JCM 8138T" cmphy:id="D14146" editRecord="[]">Anaerococcus vaginalis JCM 8138T (D14146)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="205.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="22.0" y="205.0"/>
+   <node id="NT1.3" x="83.0" y="316.0" label="82"/>
+   <node id="NT1.4" x="181.0" y="61.0" label="100"/>
+   <node id="NT1.5" x="253.0" y="122.0" label="95"/>
+   <node id="NT1.6" x="286.0" y="398.0" label="100"/>
+   <node id="NT1.7" x="341.0" y="234.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="495.0" y="755.0" otu="otu5"/>
+   <node id="NT1.22" label="NT1.22" x="507.0" y="309.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="540.0" y="259.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="540.0" y="209.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="549.0" y="160.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="633.0" y="109.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="713.0" y="60.0" otu="otu15"/>
+   <edge id="e.1" target="NT1.28" source="NT1.4"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.5" target="NT1.25"/>
+   <edge id="e.4" source="NT1.5" target="NT1.26"/>
+   <edge id="e.5" source="NT1.7" target="NT1.23"/>
+   <edge id="e.6" source="NT1.7" target="NT1.24"/>
+   <edge id="e.7" source="NT1.6" target="NT1.22"/>
+   <edge id="e.13" source="NT1.2" target="NT1.4"/>
+   <edge id="e.14" source="NT1.4" target="NT1.5"/>
+   <edge id="e.15" source="NT1.3" target="NT1.6"/>
+   <edge id="e.16" source="NT1.3" target="NT1.7"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.26" target="NT1.16" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

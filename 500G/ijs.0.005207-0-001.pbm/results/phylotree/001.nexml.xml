@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[O__0]" cmphy:genus="Thermoanaerobacter" cmphy:species="ethanolicus" cmphy:strain="JW 200T" cmphy:id="L09162" editRecord="[O__0]">Thermoanaerobacter ethanolicus JW 200T (LO9162)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Thermovenabulum" cmphy:species="ferriorganovorum" cmphy:strain="Z-98O1T" cmphy:id="AYO33493" editRecord="[0__O]">Thermovenabulum ferriorganovorum Z-98O1T (AY033493)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Caldanaerobius" cmphy:species="polysaccharolyticus" cmphy:strain="KMTHCJT" cmphy:id="U40229" editRecord="[]">Caldanaerobius polysaccharolyticus KMTHCJT (U40229)</otu>
+  <otu id="otu6">Thermosediminibacter Iitoriperuensis JWIYJL-1230-7l2T (AY703479)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Caldanaerovirga" cmphy:species="acetigignens" cmphy:strain="JWISA-NV4T" cmphy:id="EFS30069" editRecord="[5__S]">Caldanaerovirga acetigignens JWISA-NV4T (EF530069)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Caldanaerobius" cmphy:species="fijiensis" cmphy:strain="JWlYJ L-F37" cmphy:id="EFS07903" editRecord="[5__S]">Caldanaerobius fijiensis JWlYJ L-F37 (EF507903)</otu>
+  <otu id="otu10">Tepidanaerobacter syntrophicus J L7 (AB 1 06353)</otu>
+  <otu id="otu11" cmphy:genus="Thermoanaerobacterium" cmphy:species="aotearoense" cmphy:strain="JWISL-NZ613T" cmphy:id="X93359" editRecord="[]">Thermoanaerobacterium aotearoense JWISL-NZ613T (X93359)</otu>
+  <otu id="otu12" cmphy:genus="Thermoanaerobacterium" cmphy:species="thermosulfurigenes" cmphy:strain="4BT" cmphy:id="X58351" editRecord="[]">Thermoanaerobacterium thermosulfurigenes 4BT (X58351)</otu>
+  <otu id="otu13" cmphy:genus="Thermoanaerobactermm" cmphy:species="xylanolyticum" cmphy:strain="LX-1 1T" cmphy:id="L09172" editRecord="[]">Thermoanaerobactermm xylanolyticum LX-1 1T (L09172)</otu>
+  <otu id="otu14" cmphy:edit="[O__0]" cmphy:genus="Thermoanaerobacterium" cmphy:species="saccharolyticum" cmphy:strain="BSA-RIT" cmphy:id="L09169" editRecord="[O__0]">Thermoanaerobacterium saccharolyticum BSA-RIT (LO9169)</otu>
+  <otu id="otu15">Caldicellulosiruptor kristjanssonii I77R1 B7 (AJO0481 1)</otu>
+  <otu id="otu16" cmphy:genus="Caldicellulosiruptor" cmphy:species="lactoaceticus" cmphy:strain="6AT" cmphy:id="X82842" editRecord="[]">Caldicellulosiruptor lactoaceticus 6AT (X82842)</otu>
+  <otu id="otu17" cmphy:genus="Caldicellulosiruptor" cmphy:species="owensensis" cmphy:strain="OLT" cmphy:id="U80596" editRecord="[]">Caldicellulosiruptor owensensis OLT (U80596)</otu>
+  <otu id="otu18"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="35.0" y="411.0"/>
+   <node id="NT1.3" x="126.0" y="272.0" label="97"/>
+   <node id="NT1.5" x="263.0" y="173.0" label="100"/>
+   <node id="NT1.6" x="349.0" y="590.0" label="97"/>
+   <node id="NT1.8" label="NT1.8" x="516.0" y="729.0" otu="otu1"/>
+   <node id="NT1.10" x="589.0" y="231.0" label="100"/>
+   <node id="NT1.12" label="NT1.12" x="611.0" y="552.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="659.0" y="242.0" otu="otu5"/>
+   <node id="NT1.17" x="694.0" y="115.0" label="100"/>
+   <node id="NT1.19" x="723.0" y="369.0" label="100"/>
+   <node id="NT1.20" label="NT1.20" x="725.0" y="596.0" otu="otu8"/>
+   <node id="NT1.21" x="731.0" y="77.0" label="95"/>
+   <node id="NT1.22" label="NT1.22" x="738.0" y="198.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="739.0" y="154.0" otu="otu11"/>
+   <node id="NT1.25" x="758.0" y="35.0" label="93"/>
+   <node id="NT1.26" label="NT1.26" x="779.0" y="21.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="790.0" y="65.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="797.0" y="110.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="829.0" y="374.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="846.0" y="330.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="2.0" y="581.0" root="true"/>
+   <edge id="e.0" source="NT1.25" target="NT1.28"/>
+   <edge id="e.1" source="NT1.21" target="NT1.29"/>
+   <edge id="e.2" source="NT1.17" target="NT1.24"/>
+   <edge id="e.3" target="NT1.15" source="NT1.10"/>
+   <edge id="e.5" source="NT1.10" target="NT1.22"/>
+   <edge id="e.6" source="NT1.19" target="NT1.33"/>
+   <edge id="e.7" target="NT1.32" source="NT1.19"/>
+   <edge id="e.10" source="NT1.6" target="NT1.12"/>
+   <edge id="e.14" target="NT1.8" source="NT1.35"/>
+   <edge id="e.15" target="NT1.20" source="NT1.6"/>
+   <edge id="e.17" source="NT1.21" target="NT1.25"/>
+   <edge id="e.18" source="NT1.17" target="NT1.21"/>
+   <edge id="e.19" source="NT1.5" target="NT1.17"/>
+   <edge id="e.20" source="NT1.3" target="NT1.5"/>
+   <edge id="e.21" source="NT1.5" target="NT1.10"/>
+   <edge id="e.22" source="NT1.1" target="NT1.3"/>
+   <edge id="e.23" source="NT1.3" target="NT1.19"/>
+   <edge id="e.26" target="NT1.6" source="NT1.1"/>
+   <edge id="e.31" source="NT1.35" target="NT1.1"/>
+   <edge id="e.33" source="NT1.25" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

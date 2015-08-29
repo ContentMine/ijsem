@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Marinomonas communis ATCC 271 187 (D001 1528)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Oleiphilus messinensis DSM 134897 (NR_025432)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Oceanobacter kriegii DSM 6294T (NR_O24655)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Marinimicrobium" cmphy:species="koreense" cmphy:strain="DSM 169747" cmphy:id="AYB39869" editRecord="[8__B]">Marinimicrobium koreense DSM 169747 (AY839869)</otu>
+  <otu id="otu9">Microbulbifer hydrolyticus DSM 1 1525T (AJ608704)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">Alcanivorax borkumensis DSM 1 1573T (Y12579)</otu>
+  <otu id="otu13">Kangiella koreensis DSM 1 6O69T (N R_02 7574)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Kangiella" cmphy:species="japonica" cmphy:strain="KMM 3899T" cmphy:id="ABS05051" editRecord="[5__S]">Kangiella japonica KMM 3899T (AB505051)</otu>
+  <otu id="otu15">Kangiella aqulmarina DSM 160717 (NR_O25801)</otu>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Kangiella" cmphy:species="spongicola" cmphy:strain="A797" cmphy:id="GUB39304" editRecord="[3__B]">Kangiella spongicola A797 (GU339304)</otu>
+  <otu id="otu17" cmphy:edit="[8__B]" cmphy:genus="Marichromatium" cmphy:species="gracile" cmphy:strain="DSM 203T" cmphy:id="EUB50806" editRecord="[8__B]">Marichromatium gracile DSM 203T (EU850806)</otu>
+  <otu id="otu18">Thioflavicoccus mobilis ATCC 7OO959T (AJO1 O1 25)</otu>
+  <otu id="otu19">Escherichia coli ATCC 11775T(EU130557)</otu>
+  <otu id="otu20" cmphy:edit="[O__0]" cmphy:genus="Lamprocystis" cmphy:species="roseopersicina" cmphy:strain="DSM 229T" cmphy:id="AJO06063" editRecord="[O__0]">Lamprocystis roseopersicina DSM 229T (AJOO6063)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="593.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="167.0" y="252.0"/>
+   <node id="NT1.6" label="NT1.6" x="186.0" y="368.0"/>
+   <node id="NT1.11" label="NT1.11" x="491.0" y="448.0"/>
+   <node id="NT1.20" label="NT1.20" x="600.0" y="119.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="645.0" y="242.0"/>
+   <node id="NT1.29" label="NT1.29" x="689.0" y="266.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="706.0" y="216.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="713.0" y="412.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="786.0" y="461.0" otu="otu20"/>
+   <edge id="e.8" target="NT1.5" source="NT1.1"/>
+   <edge id="e.9" source="NT1.5" target="NT1.6"/>
+   <edge id="e.10" source="NT1.6" target="NT1.11"/>
+   <edge id="e.18" target="NT1.25" source="NT1.6"/>
+   <edge id="e.25" target="NT1.20" source="NT1.5"/>
+   <edge id="e.27" source="NT1.11" target="NT1.32"/>
+   <edge id="e.29" target="NT1.35" source="NT1.11"/>
+   <edge id="e.32" source="NT1.25" target="NT1.29"/>
+   <edge id="e.33" source="NT1.25" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Phatobacterium leiognathi ATCC 2552l' (AFl36385)</otu>
+  <otu id="otu2">Photobacterium angustum ATCC 259l5T (AFl36383)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Vibriu" cmphy:species="diazotraphicus" cmphy:strain="ATCC 334667" cmphy:id="ABO14951" editRecord="[0__O]">Vibriu diazotraphicus ATCC 334667 (AB014951)</otu>
+  <otu id="otu4">Phulabacterium damselae ATCC 29690 (AJ 249849)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Photobacterium" cmphy:species="phasphoreum" cmphy:strain="ATCC 11040'" cmphy:id="AFI36386" editRecord="[1__I]">Photobacterium phasphoreum ATCC 11040' (AF136386)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Alteromzmax" cmphy:species="macleodii" cmphy:strain="ATCC 27l26T" cmphy:id="AFO07272" editRecord="[0__O]">Alteromzmax macleodii ATCC 27l26T (AF007272)</otu>
+  <otu id="otu7" cmphy:edit="[1__I, S__5]" cmphy:genus="Hyphomicrobium" cmphy:species="indicum" cmphy:strain="NBRC 14233T" cmphy:id="ABI59514" editRecord="[1__I, S__5]">Hyphomicrobium indicum NBRC 14233T (AB1S9514)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Vibrio" cmphy:species="parahaemalyticus" cmphy:strain="ATCC 178027" cmphy:id="AFO07287" editRecord="[0__O]">Vibrio parahaemalyticus ATCC 178027 (AF007287)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Vibrio" cmphy:species="campbellii" cmphy:strain="ATCC 25920" cmphy:id="ABO14950" editRecord="[0__O]">Vibrio campbellii ATCC 25920 (AB014950)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Pseudoaltemmonas" cmphy:species="umiina" cmphy:strain="ATCC 296601" cmphy:id="AFO07284" editRecord="[0__O]">Pseudoaltemmonas umiina ATCC 296601 (AF007284)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Pseudoalteromnnas" cmphy:species="carmgeenovora" cmphy:strain="ATCC 43555T" cmphy:id="AFO07276" editRecord="[0__O]">Pseudoalteromnnas carmgeenovora ATCC 43555T (AF007276)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Pxeudoalteromonas" cmphy:species="nigrifaciens" cmphy:strain="ATCC 19375'" cmphy:id="AFO07281" editRecord="[0__O]">Pxeudoalteromonas nigrifaciens ATCC 19375' (AF007281)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Vibrio" cmphy:species="alginalyticus" cmphy:strain="ATCC 17749T" cmphy:id="AFO07288" editRecord="[0__O]">Vibrio alginalyticus ATCC 17749T (AF007288)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="38.0" y="301.0"/>
+   <node id="NT1.2" label="NT1.2" x="93.0" y="155.0"/>
+   <node id="NT1.4" label="NT1.4" x="114.0" y="59.0"/>
+   <node id="NT1.6" x="139.0" y="314.0" label="95"/>
+   <node id="NT1.9" label="NT1.9" x="267.0" y="286.0"/>
+   <node id="NT1.10" label="NT1.10" x="272.0" y="448.0"/>
+   <node id="NT1.11" x="283.0" y="316.0" label="67"/>
+   <node id="NT1.12" label="NT1.12" x="285.0" y="480.0"/>
+   <node id="NT1.15" label="NT1.15" x="462.0" y="376.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="487.0" y="63.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="496.0" y="570.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="498.0" y="27.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="506.0" y="259.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="510.0" y="298.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="510.0" y="531.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="519.0" y="453.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="540.0" y="414.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="560.0" y="337.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="14.0" y="435.0" root="true"/>
+   <edge id="e.0" source="NT1.4" target="NT1.20"/>
+   <edge id="e.3" target="NT1.18" source="NT1.4"/>
+   <edge id="e.6" source="NT1.12" target="NT1.26"/>
+   <edge id="e.7" source="NT1.10" target="NT1.27"/>
+   <edge id="e.9" source="NT1.2" target="NT1.4"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" target="NT1.6" source="NT1.2"/>
+   <edge id="e.15" source="NT1.1" target="NT1.10"/>
+   <edge id="e.17" target="NT1.9" source="NT1.6"/>
+   <edge id="e.18" source="NT1.9" target="NT1.11"/>
+   <edge id="e.19" source="NT1.10" target="NT1.12"/>
+   <edge id="e.21" source="NT1.29" target="NT1.19"/>
+   <edge id="e.22" source="NT1.29" target="NT1.1"/>
+   <edge id="e.23" source="NT1.6" target="NT1.15"/>
+   <edge id="e.24" source="NT1.9" target="NT1.22"/>
+   <edge id="e.25" source="NT1.11" target="NT1.24"/>
+   <edge id="e.26" source="NT1.11" target="NT1.28"/>
+   <edge id="e.27" target="NT1.25" source="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

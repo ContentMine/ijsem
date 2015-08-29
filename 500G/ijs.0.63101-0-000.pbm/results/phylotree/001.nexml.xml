@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Pelistega" cmphy:species="europaea" cmphy:strain="LMG 10982T" cmphy:id="Y11890" editRecord="[]">Pelistega europaea LMG 10982T (Y11890)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">B. fungorum LMG 16225T (AF215705)</otu>
+  <otu id="otu4">B. phenazinium LMG 2247T (U96936)</otu>
+  <otu id="otu5">B. glathei LMG 14190T (Y17052)</otu>
+  <otu id="otu6">B. terricola LMG 20594T (AYO40362)</otu>
+  <otu id="otu7">B. calyophylli ATCC 25418T (X67039)</otu>
+  <otu id="otu8">B. cepacia ATCC 25416T (AFO97530)</otu>
+  <otu id="otu9">Burkholderia sp. N3P2 (U37344)</otu>
+  <otu id="otu10">B. xenovorans LB400T (U86373)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Pandoraea" cmphy:species="apista" cmphy:strain="LMG 164077" cmphy:id="AFI39173" editRecord="[1__I]">Pandoraea apista LMG 164077 (AF139173)</otu>
+  <otu id="otu12">B. caledonica LMG 190767 (AF215704)</otu>
+  <otu id="otu13">B. caribensis MWAP64T (Y17009)</otu>
+  <otu id="otu14">B. phymatum LMG 21445T (AJ302312)</otu>
+  <otu id="otu15">B. glumae LMG 2196T (U96931)</otu>
+  <otu id="otu16">Burkholderia sp. N2P6 (U37343)</otu>
+  <otu id="otu17">B. graminis LMG 189247 (U96939)</otu>
+  <otu id="otu18">B. hospita LMG 20598T (AY040365)</otu>
+  <otu id="otu19">B. tuberum LMG 21444T (AJ302311)</otu>
+  <otu id="otu20">B. kururiensis KP23T (AB024310)</otu>
+  <otu id="otu21">B. sacchari IPT101T (AF263278)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="327.0" y="1118.0" otu="otu1" root="true"/>
+   <node id="NT1.29" label="NT1.29" x="641.0" y="1063.0" otu="otu11"/>
+   <edge id="e.28" target="NT1.29" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

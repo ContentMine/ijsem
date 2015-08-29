@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Maricaulis" cmphy:species="maris" cmphy:strain="ATCC 152687" cmphy:id="AJZ27802" editRecord="[2__Z]">Maricaulis maris ATCC 152687 (AJ227802)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Hyphomonas" cmphy:species="jannaschiana" cmphy:strain="ATCC 338837" cmphy:id="AJZ27814" editRecord="[2__Z]">Hyphomonas jannaschiana ATCC 338837 (AJ227814)</otu>
+  <otu id="otu4">MCS33 (AJ227811)</otu>
+  <otu id="otu5">Maricaulis parjfmensis MCS 257</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Maricaulis" cmphy:species="washingtonensis" cmphy:strain="MCS 67" cmphy:id="AJZ27804" editRecord="[2__Z]">Maricaulis washingtonensis MCS 67 (AJ227804)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Hyphomonas" cmphy:species="polymorpha" cmphy:strain="DSM 26657" cmphy:id="AJZ27813" editRecord="[2__Z]">Hyphomonas polymorpha DSM 26657 (AJ227813)</otu>
+  <otu id="otu8" cmphy:genus="Hirschia" cmphy:species="baltica" cmphy:strain="IFAM 14187" cmphy:id="X52909" editRecord="[]">Hirschia baltica IFAM 14187 (X52909)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Oceanicaulis" cmphy:species="alexandrii" cmphy:strain="C116-18'" cmphy:id="AJB09862" editRecord="[3__B]">Oceanicaulis alexandrii C116-18' (AJ309862)</otu>
+  <otu id="otu10">Brevundimonas diminuta</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Oceanicaulis" cmphy:species="alexandrii" cmphy:strain="C116-3" cmphy:id="AJB09863" editRecord="[3__B]">Oceanicaulis alexandrii C116-3 (AJ309863)</otu>
+  <otu id="otu12">Caulobacter vibrioides</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="314.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="43.0" y="314.0"/>
+   <node id="NT1.4" label="NT1.4" x="117.0" y="416.0"/>
+   <node id="NT1.5" label="NT1.5" x="159.0" y="162.0"/>
+   <node id="NT1.6" label="NT1.6" x="187.0" y="375.0"/>
+   <node id="NT1.9" label="NT1.9" x="305.0" y="47.0"/>
+   <node id="NT1.11" label="NT1.11" x="376.0" y="12.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="376.0" y="340.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="435.0" y="82.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="450.0" y="411.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="470.0" y="456.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="486.0" y="200.0"/>
+   <node id="NT1.19" label="NT1.19" x="487.0" y="223.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="505.0" y="177.0" otu="otu11"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.18" target="NT1.19"/>
+   <edge id="e.3" source="NT1.18" target="NT1.21"/>
+   <edge id="e.4" source="NT1.6" target="NT1.16"/>
+   <edge id="e.5" target="NT1.9" source="NT1.5"/>
+   <edge id="e.7" source="NT1.2" target="NT1.5"/>
+   <edge id="e.9" target="NT1.18" source="NT1.5"/>
+   <edge id="e.12" target="NT1.4" source="NT1.2"/>
+   <edge id="e.13" source="NT1.4" target="NT1.6"/>
+   <edge id="e.14" source="NT1.4" target="NT1.17"/>
+   <edge id="e.15" source="NT1.6" target="NT1.12"/>
+   <edge id="e.17" source="NT1.9" target="NT1.11"/>
+   <edge id="e.18" source="NT1.9" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

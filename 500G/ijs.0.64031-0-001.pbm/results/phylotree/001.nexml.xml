@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="hiltneri" cmphy:strain="N9" cmphy:id="DQI50554" editRecord="[1__I]">Herbaspirillum hiltneri N9 (DQ150554)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="autotrophicum" cmphy:strain="DSM 7327" cmphy:id="DQI50562" editRecord="[1__I]">Herbaspirillum autotrophicum DSM 7327 (DQ150562)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="hiltneri" cmphy:strain="N5" cmphy:id="DQI50553" editRecord="[1__I]">Herbaspirillum hiltneri N5 (DQ150553)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="hiltneri" cmphy:strain="N37" cmphy:id="DQI50552" editRecord="[1__I]">Herbaspirillum hiltneri N37 (DQ150552)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="chlorophenolicum" cmphy:strain="IAM 150247" cmphy:id="DQI50557" editRecord="[1__I]">Herbaspirillum chlorophenolicum IAM 150247 (DQ150557)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="seropedicae" cmphy:strain="DSM 64457" cmphy:id="DQI50556" editRecord="[1__I]">Herbaspirillum seropedicae DSM 64457 (DQ150556)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="frisingense" cmphy:strain="GSF307" cmphy:id="DQI50558" editRecord="[1__I]">Herbaspirillum frisingense GSF307 (DQ150558)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="lusitanum" cmphy:strain="P6-127" cmphy:id="DQI50555" editRecord="[1__I]">Herbaspirillum lusitanum P6-127 (DQ150555)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="putei" cmphy:strain="IAM 150327" cmphy:id="DQI50560" editRecord="[1__I]">Herbaspirillum putei IAM 150327 (DQ150560)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Comamonas" cmphy:species="testosteroni" cmphy:strain="LMG 18007" cmphy:id="DQI50550" editRecord="[1__I]">Comamonas testosteroni LMG 18007 (DQ150550)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Herbaspirillum" cmphy:species="rubrisubalbicans" cmphy:strain="DSM 94407" cmphy:id="DQI50559" editRecord="[1__I]">Herbaspirillum rubrisubalbicans DSM 94407 (DQ150559)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Burkholderia" cmphy:species="cepacia" cmphy:strain="LA3" cmphy:id="DQI50551" editRecord="[1__I]">Burkholderia cepacia LA3 (DQ150551)</otu>
+  <otu id="otu16" cmphy:genus="Bordelella" cmphy:species="pertussis" cmphy:strain="Tohama" cmphy:id="X68323" editRecord="[]">Bordelella pertussis Tohama (X68323)</otu>
+  <otu id="otu17" cmphy:edit="[3__B]" cmphy:genus="Collimonas" cmphy:species="fungivorans" cmphy:strain="LMG 219737" cmphy:id="DQB14864" editRecord="[3__B]">Collimonas fungivorans LMG 219737 (DQ314864)</otu>
+  <otu id="otu18" cmphy:edit="[3__B]" cmphy:genus="Collimonas" cmphy:species="fungivorans" cmphy:strain="LMG 21588" cmphy:id="DQB14863" editRecord="[3__B]">Collimonas fungivorans LMG 21588 (DQ314863)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="487.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="39.0" y="487.0"/>
+   <node id="NT1.5" label="NT1.5" x="178.0" y="432.0"/>
+   <node id="NT1.6" label="NT1.6" x="258.0" y="479.0"/>
+   <node id="NT1.7" label="NT1.7" x="444.0" y="234.0"/>
+   <node id="NT1.8" label="NT1.8" x="475.0" y="119.0"/>
+   <node id="NT1.9" label="NT1.9" x="492.0" y="397.0"/>
+   <node id="NT1.10" label="NT1.10" x="513.0" y="167.0"/>
+   <node id="NT1.11" label="NT1.11" x="549.0" y="367.0"/>
+   <node id="NT1.12" x="551.0" y="133.0" label="61"/>
+   <node id="NT1.13" label="NT1.13" x="552.0" y="148.0" otu="otu4"/>
+   <node id="NT1.14" x="553.0" y="117.0" label="61"/>
+   <node id="NT1.15" label="NT1.15" x="556.0" y="217.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="557.0" y="117.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="557.0" y="84.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="566.0" y="332.0"/>
+   <node id="NT1.19" label="NT1.19" x="580.0" y="301.0"/>
+   <node id="NT1.20" label="NT1.20" x="585.0" y="414.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="605.0" y="350.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="613.0" y="380.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="618.0" y="184.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="619.0" y="284.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="623.0" y="513.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="624.0" y="317.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="627.0" y="446.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="628.0" y="480.0" otu="otu16"/>
+   <node id="NT1.29" label="NT1.29" x="628.0" y="35.0"/>
+   <node id="NT1.30" label="NT1.30" x="646.0" y="15.0" otu="otu17"/>
+   <node id="NT1.31" label="NT1.31" x="654.0" y="53.0" otu="otu18"/>
+   <edge id="e.0" source="NT1.14" target="NT1.16"/>
+   <edge id="e.1" source="NT1.12" target="NT1.13"/>
+   <edge id="e.2" source="NT1.10" target="NT1.23"/>
+   <edge id="e.5" source="NT1.1" target="NT1.4"/>
+   <edge id="e.6" source="NT1.6" target="NT1.28"/>
+   <edge id="e.7" source="NT1.8" target="NT1.29"/>
+   <edge id="e.8" source="NT1.7" target="NT1.8"/>
+   <edge id="e.9" source="NT1.8" target="NT1.10"/>
+   <edge id="e.10" source="NT1.10" target="NT1.12"/>
+   <edge id="e.11" source="NT1.5" target="NT1.7"/>
+   <edge id="e.12" source="NT1.7" target="NT1.9"/>
+   <edge id="e.13" source="NT1.12" target="NT1.14"/>
+   <edge id="e.14" source="NT1.9" target="NT1.11"/>
+   <edge id="e.15" source="NT1.11" target="NT1.18"/>
+   <edge id="e.16" source="NT1.18" target="NT1.19"/>
+   <edge id="e.17" source="NT1.6" target="NT1.5"/>
+   <edge id="e.18" source="NT1.4" target="NT1.6"/>
+   <edge id="e.19" source="NT1.5" target="NT1.27"/>
+   <edge id="e.20" source="NT1.4" target="NT1.25"/>
+   <edge id="e.21" source="NT1.9" target="NT1.20"/>
+   <edge id="e.22" source="NT1.10" target="NT1.15"/>
+   <edge id="e.23" source="NT1.14" target="NT1.17"/>
+   <edge id="e.24" source="NT1.18" target="NT1.21"/>
+   <edge id="e.25" source="NT1.11" target="NT1.22"/>
+   <edge id="e.26" source="NT1.19" target="NT1.26"/>
+   <edge id="e.27" source="NT1.19" target="NT1.24"/>
+   <edge id="e.28" source="NT1.29" target="NT1.30"/>
+   <edge id="e.29" source="NT1.29" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

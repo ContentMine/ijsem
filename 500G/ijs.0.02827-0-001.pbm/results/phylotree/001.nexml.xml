@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Pseudomonas" cmphy:species="putida" cmphy:strain="IAM 12367" cmphy:id="D84020" editRecord="[]">Pseudomonas putida IAM 12367 (D84020)</otu>
+  <otu id="otu3" cmphy:genus="Pseudomonas" cmphy:species="migulae" cmphy:strain="CIP 1054707" cmphy:id="AFO74383" editRecord="[]">Pseudomonas migulae CIP 1054707 (AFO74383)</otu>
+  <otu id="otu4">Pseudomonas costantinii CF BP 57057 (AF374472)</otu>
+  <otu id="otu5" cmphy:genus="Pseudomonas" cmphy:species="tolaasii" cmphy:strain="ATCC 336187" cmphy:id="D84028" editRecord="[]">Pseudomonas tolaasii ATCC 336187 (D84028)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="orientalis" cmphy:strain="CFML 96-1707" cmphy:id="AFO64457" editRecord="[0__O]">Pseudomonas orientalis CFML 96-1707 (AF064457)</otu>
+  <otu id="otu7" cmphy:genus="Pseudomonas" cmphy:species="extremorientalis" cmphy:strain="KMM 34477" cmphy:id="AF405328" editRecord="[]">Pseudomonas extremorientalis KMM 34477 (AF405328)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="veronii" cmphy:strain="CIP 1046637" cmphy:id="AFO64460" editRecord="[0__O]">Pseudomonas veronii CIP 1046637 (AF064460)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="marginalis" cmphy:strain="ATCC 108447" cmphy:id="ABO21401" editRecord="[0__O]">Pseudomonas marginalis ATCC 108447 (AB021401)</otu>
+  <otu id="otu10" cmphy:genus="Pseudomonas" cmphy:species="rhodesiae" cmphy:strain="CIP 1046647" cmphy:id="AFO64459" editRecord="[]">Pseudomonas rhodesiae CIP 1046647 (AFO64459)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Pseudomonas" cmphy:species="proteolytica" cmphy:strain="CMS 647" cmphy:id="AJS37603" editRecord="[5__S]">Pseudomonas proteolytica CMS 647 (AJ537603)</otu>
+  <otu id="otu12">Pseudomonas brennen' CFML 97-3917 (AF268968)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Pseudomonas" cmphy:species="antarctica" cmphy:strain="CMS 357" cmphy:id="AJS37601" editRecord="[5__S]">Pseudomonas antarctica CMS 357 (AJ537601)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Pseudomonas" cmphy:species="meridiana" cmphy:strain="CMS 387" cmphy:id="AJS37602" editRecord="[5__S]">Pseudomonas meridiana CMS 387 (AJ537602)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="573.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="39.0" y="587.0"/>
+   <node id="NT1.3" label="NT1.3" x="213.0" y="365.0"/>
+   <node id="NT1.4" label="NT1.4" x="249.0" y="638.0"/>
+   <node id="NT1.6" label="NT1.6" x="320.0" y="33.0"/>
+   <node id="NT1.7" label="NT1.7" x="335.0" y="200.0"/>
+   <node id="NT1.8" label="NT1.8" x="359.0" y="747.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="364.0" y="684.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="377.0" y="439.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="423.0" y="381.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="433.0" y="18.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="434.0" y="79.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="450.0" y="139.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="450.0" y="198.0" otu="otu10"/>
+   <node id="NT1.18" label="NT1.18" x="460.0" y="562.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="523.0" y="319.0" otu="otu13"/>
+   <node id="NT1.21" label="NT1.21" x="525.0" y="259.0" otu="otu14"/>
+   <edge id="e.0" source="NT1.6" target="NT1.14"/>
+   <edge id="e.1" source="NT1.7" target="NT1.16"/>
+   <edge id="e.2" source="NT1.7" target="NT1.17"/>
+   <edge id="e.3" source="NT1.7" target="NT1.13"/>
+   <edge id="e.4" source="NT1.7" target="NT1.20"/>
+   <edge id="e.5" source="NT1.7" target="NT1.21"/>
+   <edge id="e.7" target="NT1.11" source="NT1.3"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" source="NT1.4" target="NT1.9"/>
+   <edge id="e.10" target="NT1.18" source="NT1.4"/>
+   <edge id="e.12" source="NT1.2" target="NT1.8"/>
+   <edge id="e.13" source="NT1.7" target="NT1.6"/>
+   <edge id="e.14" source="NT1.3" target="NT1.7"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.19" source="NT1.6" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

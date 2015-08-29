@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Rhodocyclus" cmphy:species="tenuis" cmphy:strain="DSM 1097" cmphy:id="D16208" editRecord="[]">Rhodocyclus tenuis DSM 1097 (D16208)</otu>
+  <otu id="otu4" cmphy:edit="[8__B]" cmphy:genus="Tetrathiobacter" cmphy:species="mimigardefordensis" cmphy:strain="DPN77" cmphy:id="AYB80023" editRecord="[8__B]">Tetrathiobacter mimigardefordensis DPN77 (AY880023)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Ramlibacter tataouinensis TFB31 07</otu>
+  <otu id="otu8">Rubrivivax gelatinosus A'I'I'C 1 70117 (D16213)</otu>
+  <otu id="otu9">Curvibacter delicatus</otu>
+  <otu id="otu10">Variovorax soli GH9-37</otu>
+  <otu id="otu11" cmphy:genus="Curvibacter" cmphy:species="lanceolatus" cmphy:strain="IAM 149477" cmphy:id="ABO21390" editRecord="[]">Curvibacter lanceolatus IAM 149477 (ABO21390)</otu>
+  <otu id="otu12">Curvibacter gracilis</otu>
+  <otu id="otu13">Ramlibacter henchirensis</otu>
+  <otu id="otu14">TBEA37 (EU825700)</otu>
+  <otu id="otu15">7Variovorax ginsengisolf GsoiI3165</otu>
+  <otu id="otu16" cmphy:genus="Variovorax" cmphy:species="paradoxus" cmphy:strain="DSM 667" cmphy:id="AJ420329" editRecord="[]">Variovorax paradoxus DSM 667 (AJ420329)</otu>
+  <otu id="otu17">Acidovorax avenae</otu>
+  <otu id="otu18">Rhodoferax ferrireducens</otu>
+  <otu id="otu19" cmphy:genus="Rhodoferax" cmphy:species="antarcticus" cmphy:strain="Fryx1" cmphy:id="AY609198" editRecord="[]">Rhodoferax antarcticus Fryx1 (AY609198)</otu>
+  <otu id="otu20">SB17 (AJ606333)</otu>
+  <otu id="otu21">Acidovorax caeni</otu>
+  <otu id="otu22" cmphy:edit="[B__8]" cmphy:genus="Acidovorax" cmphy:species="temperans" cmphy:strain="LMG 71697" cmphy:id="AFO78768" editRecord="[B__8]">Acidovorax temperans LMG 71697 (AFO7876B)</otu>
+  <otu id="otu23">Acfdovorax delafieldii</otu>
+  <otu id="otu24" cmphy:edit="[3__B]" cmphy:genus="Caenimonas" cmphy:species="koreensis" cmphy:strain="EMB3207" cmphy:id="DQB49098" editRecord="[3__B]">Caenimonas koreensis EMB3207 (DQ349098)</otu>
+  <otu id="otu25">Acidovorax konjaci</otu>
+  <otu id="otu26">Acidovorax defluvii</otu>
+  <otu id="otu27">Acidovorax facilis</otu>
+  <otu id="otu28">Pseudacidovorax intermedius</otu>
+  <otu id="otu29" cmphy:genus="Rhodoferax" cmphy:species="fermentans" cmphy:strain="FR27" cmphy:id="D16211" editRecord="[]">Rhodoferax fermentans FR27 (D16211)</otu>
+  <otu id="otu30">Variovorax dokdonensis</otu>
+  <otu id="otu31">Polaromonas aquatica</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="25.0" y="1527.0"/>
+   <node id="NT1.4" label="NT1.4" x="347.0" y="668.0"/>
+   <node id="NT1.8" label="NT1.8" x="359.0" y="1692.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="363.0" y="894.0"/>
+   <node id="NT1.10" label="NT1.10" x="389.0" y="1757.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="390.0" y="1182.0"/>
+   <node id="NT1.13" label="NT1.13" x="400.0" y="1040.0"/>
+   <node id="NT1.29" x="487.0" y="601.0" label="775"/>
+   <node id="NT1.37" label="NT1.37" x="521.0" y="1029.0" otu="otu11"/>
+   <node id="NT1.42" label="NT1.42" x="533.0" y="1362.0" otu="otu16"/>
+   <node id="NT1.45" label="NT1.45" x="543.0" y="632.0" otu="otu19"/>
+   <node id="NT1.48" label="NT1.48" x="555.0" y="103.0" otu="otu22"/>
+   <node id="NT1.50" label="NT1.50" x="565.0" y="1163.0" otu="otu24"/>
+   <node id="NT1.55" label="NT1.55" x="585.0" y="567.0" otu="otu29"/>
+   <node id="NT1.58" label="NT1.58" x="6.0" y="1642.0" root="true"/>
+   <edge id="e.12" target="NT1.37" source="NT1.13"/>
+   <edge id="e.15" source="NT1.1" target="NT1.8"/>
+   <edge id="e.23" target="NT1.4" source="NT1.1"/>
+   <edge id="e.24" source="NT1.4" target="NT1.9"/>
+   <edge id="e.25" source="NT1.9" target="NT1.12"/>
+   <edge id="e.32" source="NT1.12" target="NT1.13"/>
+   <edge id="e.33" target="NT1.29" source="NT1.9"/>
+   <edge id="e.40" source="NT1.58" target="NT1.10"/>
+   <edge id="e.41" source="NT1.58" target="NT1.1"/>
+   <edge id="e.43" target="NT1.50" source="NT1.13"/>
+   <edge id="e.48" target="NT1.42" source="NT1.12"/>
+   <edge id="e.49" source="NT1.29" target="NT1.45"/>
+   <edge id="e.51" target="NT1.48" source="NT1.4"/>
+   <edge id="e.55" source="NT1.29" target="NT1.55"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">2B. bacteroides LMG 150967 (AJ227782)</otu>
+  <otu id="otu2">B. diminuta LMG 20897 (AJ227778)</otu>
+  <otu id="otu3">B. intermedia DSM 47327 (AJ227786)</otu>
+  <otu id="otu4">B. aurantiaca DSM 4731T (AJ227787)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">B. nasdae sp. nov. W1-2B7 (AB071954)</otu>
+  <otu id="otu7">B. variabilis ATCC 152557 (AJ227783)</otu>
+  <otu id="otu8">B. vesicularis ATCC 114267 (AB021414)</otu>
+  <otu id="otu9">B. subvibrioides LMG 149037 (AJ227784)</otu>
+  <otu id="otu10" cmphy:genus="S." cmphy:species="sanguinis" cmphy:strain="IFO 139377" cmphy:id="D13726" editRecord="[]">S. sanguinis IFO 139377 (D13726)</otu>
+  <otu id="otu11">S. yabuuchiae sp. nov. W1 -2B7 (AB071955)</otu>
+  <otu id="otu12">2B. bacteroides LMG 150967 (AJ227782)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="pituitosa" cmphy:strain="DSM 131017" cmphy:id="AJZ43751" editRecord="[2__Z]">S. pituitosa DSM 131017 (AJ243751)</otu>
+  <otu id="otu14">S. trueperiATCC 12417T (X97776)</otu>
+  <otu id="otu15" cmphy:genus="S." cmphy:species="paucimobilis" cmphy:strain="ATCC 298377" cmphy:id="D16144" editRecord="[]">S. paucimobilis ATCC 298377 (D16144)</otu>
+  <otu id="otu16" cmphy:genus="S." cmphy:species="roseiflava" cmphy:strain="MK3417" cmphy:id="D84520" editRecord="[]">S. roseiflava MK3417 (D84520)</otu>
+  <otu id="otu17" cmphy:genus="S." cmphy:species="parapaucimobilis" cmphy:strain="JCM 75107" cmphy:id="X72721" editRecord="[]">S. parapaucimobilis JCM 75107 (X72721)</otu>
+  <otu id="otu18"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="608.0"/>
+   <node id="NT1.10" label="NT1.10" x="186.0" y="611.0"/>
+   <node id="NT1.12" label="NT1.12" x="191.0" y="576.0"/>
+   <node id="NT1.20" x="202.0" y="475.0" label="334"/>
+   <node id="NT1.24" label="NT1.24" x="210.0" y="609.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="214.0" y="706.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="221.0" y="658.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="233.0" y="509.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="240.0" y="460.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="5.0" y="356.0" root="true"/>
+   <edge id="e.6" source="NT1.10" target="NT1.29"/>
+   <edge id="e.7" source="NT1.12" target="NT1.24"/>
+   <edge id="e.9" source="NT1.20" target="NT1.30"/>
+   <edge id="e.17" source="NT1.1" target="NT1.10"/>
+   <edge id="e.19" source="NT1.10" target="NT1.12"/>
+   <edge id="e.22" target="NT1.20" source="NT1.12"/>
+   <edge id="e.24" source="NT1.33" target="NT1.1"/>
+   <edge id="e.29" target="NT1.27" source="NT1.1"/>
+   <edge id="e.30" source="NT1.20" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

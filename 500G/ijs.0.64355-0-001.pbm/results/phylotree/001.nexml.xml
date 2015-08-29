@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Cobetia" cmphy:species="marina" cmphy:strain="ATCC 25374T" cmphy:id="M93354" editRecord="[]">Cobetia marina ATCC 25374T (M93354)</otu>
+  <otu id="otu2" cmphy:genus="Halomonas" cmphy:species="salina" cmphy:strain="ATCC 495O9T" cmphy:id="X87217" editRecord="[]">Halomonas salina ATCC 495O9T (X87217)</otu>
+  <otu id="otu3" cmphy:genus="Halomonas" cmphy:species="halophila" cmphy:strain="DSM 4770T" cmphy:id="M93353" editRecord="[]">Halomonas halophila DSM 4770T (M93353)</otu>
+  <otu id="otu4" cmphy:genus="Halomonas" cmphy:species="eurihalina" cmphy:strain="ATCC 4933GT" cmphy:id="X87218" editRecord="[]"> Halomonas eurihalina ATCC 4933GT (X87218)</otu>
+  <otu id="otu5" cmphy:genus="Halomonas" cmphy:species="elongata" cmphy:strain="ATCC 331737" cmphy:id="X67023" editRecord="[]"> Halomonas elongata ATCC 331737 (X67023)</otu>
+  <otu id="otu6" cmphy:genus="Halomonas" cmphy:species="halmophila" cmphy:strain="ATCC 19717T" cmphy:id="M59153" editRecord="[]">Halomonas halmophila ATCC 19717T (M59153)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Chrornohalobacter" cmphy:species="canadensis" cmphy:strain="ATCC 439847" cmphy:id="AJZ95143" editRecord="[2__Z]"> Chrornohalobacter canadensis ATCC 439847 (AJ295143)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Chromohalobacter" cmphy:species="israelensis" cmphy:strain="ATCC 439857" cmphy:id="AJZ95144" editRecord="[2__Z]">Chromohalobacter israelensis ATCC 439857 (AJ295144)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Chromohalobacter" cmphy:species="salexigens" cmphy:strain="DSM 30437" cmphy:id="AJZ95146" editRecord="[2__Z]"> Chromohalobacter salexigens DSM 30437 (AJ295146)</otu>
+  <otu id="otu10" cmphy:genus="Chromohalobacter" cmphy:species="marismortui" cmphy:strain="ATCC 17056T" cmphy:id="X87219" editRecord="[]">Chromohalobacter marismortui ATCC 17056T (X87219)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Chromohalobacter" cmphy:species="sarecensls" cmphy:strain="LV4T" cmphy:id="AYB73448" editRecord="[3__B]">Chromohalobacter sarecensls LV4T (AY373448)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"> Chromohalobacter sp. strain 3b (AM048787)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="108.0" y="304.0"/>
+   <node id="NT1.2" x="129.0" y="468.0" label="70"/>
+   <node id="NT1.3" x="162.0" y="431.0" label="13"/>
+   <node id="NT1.4" x="259.0" y="388.0" label="98"/>
+   <node id="NT1.5" label="NT1.5" x="296.0" y="544.0" otu="otu1"/>
+   <node id="NT1.6" x="318.0" y="344.0" label="84"/>
+   <node id="NT1.7" label="NT1.7" x="327.0" y="207.0"/>
+   <node id="NT1.8" label="NT1.8" x="328.0" y="498.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="338.0" y="455.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="352.0" y="323.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="357.0" y="368.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="399.0" y="411.0" otu="otu6"/>
+   <node id="NT1.13" x="402.0" y="164.0" label="94"/>
+   <node id="NT1.14" x="434.0" y="120.0" label="87"/>
+   <node id="NT1.15" x="438.0" y="77.0" label="87"/>
+   <node id="NT1.16" label="NT1.16" x="455.0" y="143.0" otu="otu7"/>
+   <node id="NT1.17" x="486.0" y="249.0" label="100"/>
+   <node id="NT1.18" label="NT1.18" x="492.0" y="229.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="507.0" y="274.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="536.0" y="33.0"/>
+   <node id="NT1.21" label="NT1.21" x="538.0" y="187.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="562.0" y="100.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="579.0" y="13.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="606.0" y="56.0" otu="otu13"/>
+   <edge source="NT1.23" target="NT1.20" id="e.0"/>
+   <edge source="NT1.24" target="NT1.20" id="e.1"/>
+   <edge source="NT1.16" target="NT1.14" id="e.2"/>
+   <edge source="NT1.22" target="NT1.15" id="e.3"/>
+   <edge source="NT1.21" target="NT1.13" id="e.4"/>
+   <edge source="NT1.19" target="NT1.17" id="e.5"/>
+   <edge source="NT1.8" target="NT1.2" id="e.6"/>
+   <edge source="NT1.9" target="NT1.3" id="e.7"/>
+   <edge source="NT1.10" target="NT1.6" id="e.8"/>
+   <edge source="NT1.12" target="NT1.4" id="e.9"/>
+   <edge source="NT1.11" target="NT1.6" id="e.10"/>
+   <edge source="NT1.20" target="NT1.15" id="e.11"/>
+   <edge source="NT1.15" target="NT1.14" id="e.12"/>
+   <edge source="NT1.14" target="NT1.13" id="e.13"/>
+   <edge source="NT1.13" target="NT1.7" id="e.14"/>
+   <edge source="NT1.7" target="NT1.1" id="e.15"/>
+   <edge source="NT1.7" target="NT1.17" id="e.16"/>
+   <edge source="NT1.1" target="NT1.2" id="e.17"/>
+   <edge source="NT1.2" target="NT1.3" id="e.18"/>
+   <edge source="NT1.3" target="NT1.4" id="e.19"/>
+   <edge source="NT1.4" target="NT1.6" id="e.20"/>
+   <edge source="NT1.5" target="NT1.1" id="e.21"/>
+   <edge source="NT1.18" target="NT1.17" id="e.22"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Thalassobacillus devorans G-1 9.1 T (AJ71 7299)</otu>
+  <otu id="otu3">Halobacillus trueperi DSM 1O4O4T(AJ310149)</otu>
+  <otu id="otu4" cmphy:genus="Halobacillus" cmphy:species="litoralis" cmphy:strain="SL-4T" cmphy:id="X94558" editRecord="[]">Halobacillus litoralis SL-4T (X94558)</otu>
+  <otu id="otu5">Halobacillus trueperi DSM 1O4O4T(AJ310149)</otu>
+  <otu id="otu6">Anoxybacillus voinovskiensis TH13T(AB1 10008)</otu>
+  <otu id="otu7">Halobacillus locisalis MSS-155T(AY190534)</otu>
+  <otu id="otu8">Salirhabdus euzebyiCVS-14T(AM292417)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Salinibacillus" cmphy:species="aidingensis" cmphy:strain="25-77" cmphy:id="AYB21436" editRecord="[3__B]">Salinibacillus aidingensis 25-77 (AY321436)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Halobacillus" cmphy:species="salinus" cmphy:strain="HSL-3T" cmphy:id="AFS00003" editRecord="[5__S]">Halobacillus salinus HSL-3T (AF500003)</otu>
+  <otu id="otu11">Anoxybacillus flavithermus DSM 2641 T (AFO04589)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Pontibacillus" cmphy:species="litoralis" cmphy:strain="JSM 072002T" cmphy:id="EUS83724" editRecord="[5__S]">Pontibacillus litoralis JSM 072002T (EU583724)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Salinibacillus" cmphy:species="kushneri" cmphy:strain="8-2T" cmphy:id="AYB21434" editRecord="[3__B]">Salinibacillus kushneri 8-2T (AY321434)</otu>
+  <otu id="otu14">Pontibacillus marinus KCTC 391 7T (FJ808613)</otu>
+  <otu id="otu15" cmphy:edit="[5__S]" cmphy:genus="Pontibacillus" cmphy:species="yanchengensis" cmphy:strain="Y32T" cmphy:id="EFS33969" editRecord="[5__S]">Pontibacillus yanchengensis Y32T (EF533969)</otu>
+  <otu id="otu16">Gracilibacillus boraciitolerans T-16XT(AB1971 26)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Pontibacillus" cmphy:species="halophflus" cmphy:strain="JSM 076O56T" cmphy:id="EUS83728" editRecord="[5__S]">Pontibacillus halophflus JSM 076O56T (EU583728)</otu>
+  <otu id="otu18" cmphy:edit="[5__S]" cmphy:genus="Pontibacillus" cmphy:species="chungwhensis" cmphy:strain="BH03OO62T" cmphy:id="AYS53296" editRecord="[5__S]">Pontibacillus chungwhensis BH03OO62T (AY553296)</otu>
+  <otu id="otu19" cmphy:genus="Gracilibacillus" cmphy:species="halotolerans" cmphy:strain="NNT" cmphy:id="AFO36922" editRecord="[]">Gracilibacillus halotolerans NNT (AFO36922)</otu>
+  <otu id="otu20" cmphy:edit="[1__I]" cmphy:genus="Gracilibacillus" cmphy:species="dipsosauri" cmphy:strain="ATCC 7oo347T" cmphy:id="ABI01591" editRecord="[1__I]">Gracilibacillus dipsosauri ATCC 7oo347T (AB101591)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Geobacillus" cmphy:species="subterraneus" cmphy:strain="34T" cmphy:id="AFZ76306" editRecord="[2__Z]">Geobacillus subterraneus 34T (AF276306)</otu>
+  <otu id="otu22" cmphy:genus="Marinococcus" cmphy:species="albus" cmphy:strain="DSM 2O748T" cmphy:id="X90834" editRecord="[]">Marinococcus albus DSM 2O748T (X90834)</otu>
+  <otu id="otu23">Geobacillus stearothermophilus NBRC 1255OT(AB271757)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="745.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="745.0"/>
+   <node id="NT1.3" label="NT1.3" x="183.0" y="379.0"/>
+   <node id="NT1.4" label="NT1.4" x="283.0" y="718.0"/>
+   <node id="NT1.8" label="NT1.8" x="395.0" y="181.0"/>
+   <node id="NT1.10" x="467.0" y="113.0" label="100"/>
+   <node id="NT1.11" x="470.0" y="431.0" label="60"/>
+   <node id="NT1.13" x="485.0" y="778.0" label="75"/>
+   <node id="NT1.17" x="526.0" y="536.0" label="100"/>
+   <node id="NT1.18" label="NT1.18" x="539.0" y="87.0" otu="otu4"/>
+   <node id="NT1.24" label="NT1.24" x="605.0" y="509.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="611.0" y="194.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="653.0" y="721.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="661.0" y="565.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="677.0" y="773.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="694.0" y="667.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="697.0" y="884.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="715.0" y="403.0" otu="otu19"/>
+   <node id="NT1.36" label="NT1.36" x="733.0" y="459.0" otu="otu20"/>
+   <node id="NT1.37" label="NT1.37" x="750.0" y="988.0" otu="otu21"/>
+   <node id="NT1.38" label="NT1.38" x="815.0" y="247.0" otu="otu22"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.13" target="NT1.27"/>
+   <edge id="e.7" source="NT1.8" target="NT1.10"/>
+   <edge id="e.9" target="NT1.8" source="NT1.3"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" target="NT1.11" source="NT1.3"/>
+   <edge id="e.15" source="NT1.4" target="NT1.17"/>
+   <edge id="e.16" source="NT1.4" target="NT1.13"/>
+   <edge id="e.24" target="NT1.18" source="NT1.10"/>
+   <edge id="e.26" source="NT1.4" target="NT1.33"/>
+   <edge id="e.27" target="NT1.25" source="NT1.10"/>
+   <edge id="e.28" source="NT1.8" target="NT1.38"/>
+   <edge id="e.29" source="NT1.11" target="NT1.35"/>
+   <edge id="e.30" source="NT1.17" target="NT1.24"/>
+   <edge id="e.31" source="NT1.11" target="NT1.36"/>
+   <edge id="e.32" source="NT1.17" target="NT1.28"/>
+   <edge id="e.33" source="NT1.13" target="NT1.30"/>
+   <edge id="e.35" target="NT1.34" source="NT1.13"/>
+   <edge id="e.36" target="NT1.37" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

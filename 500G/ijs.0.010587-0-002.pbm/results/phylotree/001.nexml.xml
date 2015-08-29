@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Prauserella" cmphy:species="rugosa" cmphy:strain="DSM 431947" cmphy:id="AFO51342" editRecord="[0__O]">Prauserella rugosa DSM 431947 (AF051342)</otu>
+  <otu id="otu2">A. methanolica IMSNU 200557 (AJ249135)</otu>
+  <otu id="otu3">A. methanolica IMSNU 200557 (AJ249135)</otu>
+  <otu id="otu4">A. palatopharyngis BDZT (AF479268)</otu>
+  <otu id="otu5">A. thermoflava N1165T(AFO5239O)</otu>
+  <otu id="otu6">A. eurytherma N202T (AJOOO285)</otu>
+  <otu id="otu7">Strain ABOT (DQ886938)</otu>
+  <otu id="otu8">A. sulphurea DSM 48092T (AF051343)</otu>
+  <otu id="otu9">A. sacchari K24T (AF223354)</otu>
+  <otu id="otu10">A. fastidiosa IMSNU 2OO54T (AJ400710)</otu>
+  <otu id="otu11">A. jejuensis N7-3T (DQ000200)</otu>
+  <otu id="otu12">A. taiwanensis 0345M-7T (DQ160215)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="126.0" y="286.0"/>
+   <node id="NT1.2" label="NT1.2" x="183.0" y="190.0"/>
+   <node id="NT1.3" label="NT1.3" x="221.0" y="126.0"/>
+   <node id="NT1.4" label="NT1.4" x="223.0" y="252.0"/>
+   <node id="NT1.5" label="NT1.5" x="271.0" y="423.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="297.0" y="288.0"/>
+   <node id="NT1.7" label="NT1.7" x="382.0" y="318.0"/>
+   <node id="NT1.8" label="NT1.8" x="383.0" y="74.0"/>
+   <node id="NT1.9" x="429.0" y="113.0" label="0"/>
+   <node id="NT1.10" label="NT1.10" x="430.0" y="92.0" otu="otu2"/>
+   <node id="NT1.11" x="431.0" y="94.0" label="0"/>
+   <node id="NT1.12" label="NT1.12" x="435.0" y="94.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="435.0" y="217.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="442.0" y="135.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="456.0" y="34.0"/>
+   <node id="NT1.16" label="NT1.16" x="457.0" y="54.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="467.0" y="12.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="484.0" y="340.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="487.0" y="258.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="493.0" y="381.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="522.0" y="299.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="583.0" y="176.0" otu="otu12"/>
+   <edge source="NT1.16" target="NT1.15" id="e.0"/>
+   <edge source="NT1.11" target="NT1.10" id="e.1"/>
+   <edge source="NT1.12" target="NT1.11" id="e.2"/>
+   <edge source="NT1.18" target="NT1.7" id="e.3"/>
+   <edge source="NT1.15" target="NT1.8" id="e.4"/>
+   <edge source="NT1.8" target="NT1.3" id="e.5"/>
+   <edge source="NT1.8" target="NT1.9" id="e.6"/>
+   <edge source="NT1.9" target="NT1.11" id="e.7"/>
+   <edge source="NT1.3" target="NT1.2" id="e.8"/>
+   <edge source="NT1.2" target="NT1.1" id="e.9"/>
+   <edge source="NT1.2" target="NT1.4" id="e.10"/>
+   <edge source="NT1.4" target="NT1.6" id="e.11"/>
+   <edge source="NT1.6" target="NT1.7" id="e.12"/>
+   <edge source="NT1.5" target="NT1.1" id="e.13"/>
+   <edge source="NT1.20" target="NT1.1" id="e.14"/>
+   <edge source="NT1.13" target="NT1.4" id="e.15"/>
+   <edge source="NT1.22" target="NT1.3" id="e.16"/>
+   <edge source="NT1.19" target="NT1.6" id="e.17"/>
+   <edge source="NT1.21" target="NT1.7" id="e.18"/>
+   <edge source="NT1.14" target="NT1.9" id="e.19"/>
+   <edge source="NT1.17" target="NT1.15" id="e.20"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> KMM 39O2T (AY187689)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 3553T" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 3553T (AY228461)</otu>
+  <otu id="otu3"> KMM 3914 (AY187690)</otu>
+  <otu id="otu4" cmphy:genus="Psychroserpens" cmphy:species="burtonensis" cmphy:strain="ACAM 188T" cmphy:id="U62913" editRecord="[]">Psychroserpens burtonensis ACAM 188T (U62913)</otu>
+  <otu id="otu5" cmphy:genus="Cytophaga" cmphy:species="latercula" cmphy:strain="ATCC 23177T" cmphy:id="M58769" editRecord="[]">Cytophaga latercula ATCC 23177T (M58769)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Kordia" cmphy:species="algicida" cmphy:strain="OT-1T" cmphy:id="AYI95836" editRecord="[1__I]">Kordia algicida OT-1T (AY195836)</otu>
+  <otu id="otu7" cmphy:genus="Gelidibacter" cmphy:species="algens" cmphy:strain="ACAM 536T" cmphy:id="U62914" editRecord="[]">Gelidibacter algens ACAM 536T (U62914)</otu>
+  <otu id="otu8" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 11947T" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 11947T (M62797)</otu>
+  <otu id="otu9">Cellulophaga Iytica ATCC 23178T (M62796)</otu>
+  <otu id="otu10" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 5424T" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens DSM 5424T (M92279)</otu>
+  <otu id="otu11" cmphy:genus="Polaribacter" cmphy:species="filamentus" cmphy:strain="215T" cmphy:id="U73726" editRecord="[]"> Polaribacter filamentus 215T (U73726)</otu>
+  <otu id="otu12" cmphy:genus="Tenacibaculum" cmphy:species="maritimum" cmphy:strain="ATCC 43398T" cmphy:id="M64629" editRecord="[]"> Tenacibaculum maritimum ATCC 43398T (M64629)</otu>
+  <otu id="otu13" cmphy:genus="Psychroflexus" cmphy:species="torquis" cmphy:strain="ACAM 623T" cmphy:id="U85881" editRecord="[]">Psychroflexus torquis ACAM 623T (U85881)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="21.0" y="170.0" label="71"/>
+   <node id="NT1.2" label="NT1.2" x="24.0" y="618.0"/>
+   <node id="NT1.3" x="35.0" y="712.0" label="53"/>
+   <node id="NT1.4" label="NT1.4" x="41.0" y="243.0"/>
+   <node id="NT1.7" label="NT1.7" x="65.0" y="853.0"/>
+   <node id="NT1.8" label="NT1.8" x="75.0" y="911.0"/>
+   <node id="NT1.10" x="124.0" y="525.0" label="100"/>
+   <node id="NT1.12" label="NT1.12" x="135.0" y="98.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="191.0" y="176.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="195.0" y="872.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="196.0" y="640.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="209.0" y="253.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="210.0" y="22.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="224.0" y="951.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="252.0" y="549.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="253.0" y="471.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="271.0" y="795.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="8.0" y="95.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.12"/>
+   <edge id="e.1" source="NT1.4" target="NT1.14"/>
+   <edge id="e.4" target="NT1.17" source="NT1.4"/>
+   <edge id="e.5" source="NT1.3" target="NT1.16"/>
+   <edge id="e.6" source="NT1.10" target="NT1.21"/>
+   <edge id="e.7" source="NT1.10" target="NT1.22"/>
+   <edge id="e.9" source="NT1.8" target="NT1.15"/>
+   <edge id="e.10" source="NT1.8" target="NT1.20"/>
+   <edge id="e.11" source="NT1.7" target="NT1.23"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.13" source="NT1.1" target="NT1.4"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.2" target="NT1.10"/>
+   <edge id="e.19" target="NT1.7" source="NT1.3"/>
+   <edge id="e.20" source="NT1.7" target="NT1.8"/>
+   <edge id="e.21" source="NT1.24" target="NT1.18"/>
+   <edge id="e.22" source="NT1.24" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

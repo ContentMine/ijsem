@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Lebetimonas" cmphy:species="acidiphila" cmphy:strain="Pd55T" cmphy:id="ABI67820" editRecord="[1__I]">Lebetimonas acidiphila Pd55T (AB167820)</otu>
+  <otu id="otu3" cmphy:genus="Desulfurella" cmphy:species="acetivorans" cmphy:strain="DSM 5264T" cmphy:id="X72768" editRecord="[]">Desulfurella acetivorans DSM 5264T (X72768)</otu>
+  <otu id="otu4">Naufilia Iilhotrophica 525T (AJ404370)</otu>
+  <otu id="otu5">Caminibacter hydrogeniphilus AM1 1 16T (AJ309655)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Nitratiruptor" cmphy:species="tergarcus" cmphy:strain="MI55-1T" cmphy:id="ABI75499" editRecord="[1__I]">Nitratiruptor tergarcus MI55-1T (AB175499)</otu>
+  <otu id="otu7">Hydrogenimonas thermophila</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Thioreductor" cmphy:species="mfcantisoli" cmphy:strain="BKB25TsYT" cmphy:id="ABI75498" editRecord="[1__I]">Thioreductor mfcantisoli BKB25TsYT (AB175498)</otu>
+  <otu id="otu9">Sulfurospirillum sp.</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Nitratifractor" cmphy:species="salsuginis" cmphy:strain="E9I37r1 T" cmphy:id="ABI75500" editRecord="[1__I]">Nitratifractor salsuginis E9I37r1 T (AB175500)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Wolinella" cmphy:species="succinogenes" cmphy:strain="ATCC 29543T" cmphy:id="M26636" editRecord="[]">Wolinella succinogenes ATCC 29543T (M26636)</otu>
+  <otu id="otu13" cmphy:genus="Sulfurospirillum" cmphy:species="multivorans" cmphy:strain="KT" cmphy:id="X82931" editRecord="[]">Sulfurospirillum multivorans KT (X82931)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Sulfurimonas" cmphy:species="autotrophica" cmphy:strain="OK10'" cmphy:id="ABO88431" editRecord="[0__O]">Sulfurimonas autotrophica OK10' (AB088431)</otu>
+  <otu id="otu16" cmphy:genus="Helicobacter" cmphy:species="pylori" cmphy:strain="ATCC 43504T" cmphy:id="U01330" editRecord="[]">Helicobacter pylori ATCC 43504T (U01330)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Sulfurovum Hthotrophicum 42BKTT (ABO91292)</otu>
+  <otu id="otu19">Env. clone Alvinella pompejana epib1ontAPB13b (L35520)</otu>
+  <otu id="otu20" cmphy:genus="Sulfurfmonas" cmphy:species="denirrfficans" cmphy:strain="DSM1251T" cmphy:id="L40808" editRecord="[]">Sulfurfmonas denirrfficans DSM1251T (L40808)</otu>
+  <otu id="otu21">Campylobacterjejuni subsp. doylei CCUG 24567T (L14630)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="126.0" y="153.0"/>
+   <node id="NT1.2" label="NT1.2" x="182.0" y="211.0"/>
+   <node id="NT1.3" label="NT1.3" x="210.0" y="254.0"/>
+   <node id="NT1.4" x="248.0" y="311.0" label="50"/>
+   <node id="NT1.7" x="280.0" y="381.0" label="41"/>
+   <node id="NT1.9" x="323.0" y="529.0" label="45"/>
+   <node id="NT1.16" label="NT1.16" x="432.0" y="52.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="435.0" y="18.0" otu="otu3"/>
+   <node id="NT1.21" label="NT1.21" x="448.0" y="169.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="456.0" y="244.0"/>
+   <node id="NT1.25" label="NT1.25" x="509.0" y="198.0" otu="otu8"/>
+   <node id="NT1.29" label="NT1.29" x="567.0" y="656.0"/>
+   <node id="NT1.30" label="NT1.30" x="577.0" y="286.0" otu="otu10"/>
+   <node id="NT1.32" label="NT1.32" x="590.0" y="227.0" otu="otu12"/>
+   <node id="NT1.34" label="NT1.34" x="599.0" y="465.0" otu="otu13"/>
+   <node id="NT1.36" label="NT1.36" x="633.0" y="640.0" otu="otu15"/>
+   <node id="NT1.37" label="NT1.37" x="640.0" y="257.0" otu="otu16"/>
+   <node id="NT1.41" label="NT1.41" x="683.0" y="673.0" otu="otu20"/>
+   <node id="NT1.45" label="NT1.45" x="3.0" y="85.0" root="true"/>
+   <edge id="e.2" target="NT1.16" source="NT1.1"/>
+   <edge id="e.4" source="NT1.3" target="NT1.25"/>
+   <edge id="e.5" source="NT1.22" target="NT1.32"/>
+   <edge id="e.7" source="NT1.22" target="NT1.37"/>
+   <edge id="e.8" target="NT1.30" source="NT1.7"/>
+   <edge id="e.12" target="NT1.34" source="NT1.9"/>
+   <edge id="e.14" source="NT1.29" target="NT1.36"/>
+   <edge id="e.18" source="NT1.29" target="NT1.41"/>
+   <edge id="e.20" source="NT1.1" target="NT1.2"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.23" source="NT1.3" target="NT1.4"/>
+   <edge id="e.26" source="NT1.4" target="NT1.7"/>
+   <edge id="e.27" source="NT1.4" target="NT1.22"/>
+   <edge id="e.30" target="NT1.9" source="NT1.7"/>
+   <edge id="e.38" target="NT1.29" source="NT1.9"/>
+   <edge id="e.40" source="NT1.45" target="NT1.1"/>
+   <edge id="e.41" source="NT1.45" target="NT1.17"/>
+   <edge id="e.42" source="NT1.2" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

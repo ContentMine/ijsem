@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Thiobacter" cmphy:species="subterraneus" cmphy:strain="C55T" cmphy:id="ABI80857" editRecord="[1__I]">Thiobacter subterraneus C55T (AB180857)</otu>
+  <otu id="otu2">Azospira oryzae N1</otu>
+  <otu id="otu3">Thiobacillus plumbophiIus' DSM 6690 (AJ316618)</otu>
+  <otu id="otu4" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone SLB720" cmphy:id="DQ787730" editRecord="[]">Uncultured bacterium clone SLB720 (DQ787730)</otu>
+  <otu id="otu5" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone SLB74" cmphy:id="DQ787726" editRecord="[]">Uncultured bacterium clone SLB74 (DQ787726)</otu>
+  <otu id="otu6">Uncultured bacterium clone SLB111</otu>
+  <otu id="otu7" cmphy:genus="Neisseria" cmphy:species="gonorrhoeae" cmphy:strain="NCTC 83757" cmphy:id="X07714" editRecord="[]">Neisseria gonorrhoeae NCTC 83757 (X07714)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Sulfuricella" cmphy:species="denitrificans" cmphy:strain="skB26T" cmphy:id="ABS06456" editRecord="[5__S]"> Sulfuricella denitrificans skB26T (AB506456)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Oxalobacter" cmphy:species="formigenes" cmphy:strain="OXBT" cmphy:id="U49757" editRecord="[]">Oxalobacter formigenes OXBT (U49757)</otu>
+  <otu id="otu11">Burkholderia cepacia ATCC 2541 ST (U96927)</otu>
+  <otu id="otu12">Thiobacillus aquaesulis DSM 4255T(U58O19)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Alcaligenes" cmphy:species="faecalis" cmphy:strain="ATCC 8750T" cmphy:id="M22508" editRecord="[]">Alcaligenes faecalis ATCC 8750T (M22508)</otu>
+  <otu id="otu19" cmphy:edit="[O__0]" cmphy:genus="Gallionella" cmphy:species="ferruginea" cmphy:strain="Johan" cmphy:id="L07897" editRecord="[O__0]"> Gallionella ferruginea Johan (LO7897)</otu>
+  <otu id="otu20" cmphy:genus="Spirillum" cmphy:species="volutans" cmphy:strain="ATCC 19554T" cmphy:id="M34131" editRecord="[]">Spirillum volutans ATCC 19554T (M34131)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:genus="Methylophilus" cmphy:species="methylotrophus" cmphy:strain="ATCC 5352BT" cmphy:id="L15475" editRecord="[]">Methylophilus methylotrophus ATCC 5352BT (L15475)</otu>
+  <otu id="otu23">Thiovirga sulfuroxydans SOO7T (AB1 1 8236)</otu>
+  <otu id="otu24">Comamonas terrigena IAM 1 20527 (AB021418)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="101.0" y="716.0"/>
+   <node id="NT1.2" x="145.0" y="624.0" label="65"/>
+   <node id="NT1.3" label="NT1.3" x="154.0" y="496.0"/>
+   <node id="NT1.5" label="NT1.5" x="176.0" y="370.0"/>
+   <node id="NT1.10" label="NT1.10" x="203.0" y="680.0"/>
+   <node id="NT1.11" label="NT1.11" x="209.0" y="238.0"/>
+   <node id="NT1.12" label="NT1.12" x="244.0" y="173.0"/>
+   <node id="NT1.18" label="NT1.18" x="358.0" y="735.0" otu="otu1"/>
+   <node id="NT1.22" x="425.0" y="58.0" label="100"/>
+   <node id="NT1.24" x="437.0" y="31.0" label="90"/>
+   <node id="NT1.26" label="NT1.26" x="445.0" y="49.0" otu="otu4"/>
+   <node id="NT1.27" label="NT1.27" x="449.0" y="12.0" otu="otu5"/>
+   <node id="NT1.29" label="NT1.29" x="450.0" y="808.0" otu="otu7"/>
+   <node id="NT1.30" label="NT1.30" x="453.0" y="85.0" otu="otu8"/>
+   <node id="NT1.32" label="NT1.32" x="456.0" y="700.0" otu="otu10"/>
+   <node id="NT1.40" label="NT1.40" x="500.0" y="662.0" otu="otu18"/>
+   <node id="NT1.41" label="NT1.41" x="506.0" y="193.0" otu="otu19"/>
+   <node id="NT1.42" label="NT1.42" x="519.0" y="409.0" otu="otu20"/>
+   <node id="NT1.44" label="NT1.44" x="547.0" y="302.0" otu="otu22"/>
+   <node id="NT1.47" label="NT1.47" x="2.0" y="780.0" root="true"/>
+   <edge id="e.0" source="NT1.24" target="NT1.27"/>
+   <edge id="e.1" source="NT1.24" target="NT1.26"/>
+   <edge id="e.2" source="NT1.22" target="NT1.30"/>
+   <edge id="e.7" target="NT1.41" source="NT1.12"/>
+   <edge id="e.9" source="NT1.11" target="NT1.44"/>
+   <edge id="e.13" target="NT1.42" source="NT1.5"/>
+   <edge id="e.17" target="NT1.18" source="NT1.2"/>
+   <edge id="e.18" source="NT1.10" target="NT1.32"/>
+   <edge id="e.19" source="NT1.10" target="NT1.40"/>
+   <edge id="e.22" source="NT1.1" target="NT1.29"/>
+   <edge id="e.23" source="NT1.22" target="NT1.24"/>
+   <edge id="e.24" target="NT1.22" source="NT1.12"/>
+   <edge id="e.27" source="NT1.11" target="NT1.12"/>
+   <edge id="e.30" target="NT1.11" source="NT1.5"/>
+   <edge id="e.33" source="NT1.3" target="NT1.5"/>
+   <edge id="e.36" source="NT1.2" target="NT1.3"/>
+   <edge id="e.39" source="NT1.1" target="NT1.2"/>
+   <edge id="e.42" target="NT1.10" source="NT1.3"/>
+   <edge id="e.45" source="NT1.47" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

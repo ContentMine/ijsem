@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Roseobacter" cmphy:species="litoralis" cmphy:strain="ATCC 49566T" cmphy:id="X78312" editRecord="[]">Roseobacter litoralis ATCC 49566T (X78312)</otu>
+  <otu id="otu3" cmphy:genus="Jannaschia" cmphy:species="helgolandensis" cmphy:strain="Hel 107" cmphy:id="AJ438157" editRecord="[]">Jannaschia helgolandensis Hel 107 (AJ438157)</otu>
+  <otu id="otu4" cmphy:genus="Roseobacter" cmphy:species="denitrificans" cmphy:strain="OCh1 14T" cmphy:id="M96746" editRecord="[]">Roseobacter denitrificans OCh1 14T (M96746)</otu>
+  <otu id="otu5" cmphy:genus="Roseobacter" cmphy:species="denitrificans" cmphy:strain="OCh1 147" cmphy:id="L01784" editRecord="[]">Roseobacter denitrificans OCh1 147 (L01784)</otu>
+  <otu id="otu6">Sulfitobacter pontiacus 4301-1 Ol3 (AJ 542654)</otu>
+  <otu id="otu7" cmphy:genus="Sulfitobacter" cmphy:species="pontiacus" cmphy:strain="DSM 1oo14T" cmphy:id="Y13155" editRecord="[]">Sulfitobacter pontiacus DSM 1oo14T (Y13155)</otu>
+  <otu id="otu8" cmphy:genus="Roseovarius" cmphy:species="tolerans" cmphy:strain="EL-1727" cmphy:id="Y11551" editRecord="[]">Roseovarius tolerans EL-1727 (Y11551)</otu>
+  <otu id="otu9">Paracoccus denitrificans LMG 4218 T (X69159)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Sulfitobacter" cmphy:species="dubius" cmphy:strain="KMM 3554T" cmphy:id="AYI80102" editRecord="[1__I]">Sulfitobacter dubius KMM 3554T (AY180102)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Sulfitobacter" cmphy:species="delicatus" cmphy:strain="KMM 35847" cmphy:id="AYI80103" editRecord="[1__I]">Sulfitobacter delicatus KMM 35847 (AY180103)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="51.0" y="288.0"/>
+   <node id="NT1.4" label="NT1.4" x="65.0" y="635.0"/>
+   <node id="NT1.5" label="NT1.5" x="84.0" y="180.0"/>
+   <node id="NT1.7" label="NT1.7" x="137.0" y="395.0"/>
+   <node id="NT1.8" label="NT1.8" x="150.0" y="675.0"/>
+   <node id="NT1.9" label="NT1.9" x="151.0" y="595.0" otu="otu2"/>
+   <node id="NT1.12" x="209.0" y="50.0" label="40"/>
+   <node id="NT1.13" label="NT1.13" x="223.0" y="434.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="236.0" y="702.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="236.0" y="648.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="255.0" y="276.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="271.0" y="381.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="295.0" y="10.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="330.0" y="63.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="1.0" y="518.0" root="true"/>
+   <edge id="e.0" source="NT1.12" target="NT1.22"/>
+   <edge id="e.2" target="NT1.24" source="NT1.12"/>
+   <edge id="e.5" target="NT1.18" source="NT1.5"/>
+   <edge id="e.7" source="NT1.7" target="NT1.13"/>
+   <edge id="e.8" target="NT1.19" source="NT1.7"/>
+   <edge id="e.10" source="NT1.4" target="NT1.9"/>
+   <edge id="e.11" source="NT1.8" target="NT1.14"/>
+   <edge id="e.12" source="NT1.8" target="NT1.15"/>
+   <edge id="e.13" target="NT1.12" source="NT1.5"/>
+   <edge id="e.16" source="NT1.3" target="NT1.5"/>
+   <edge id="e.18" target="NT1.3" source="NT1.25"/>
+   <edge id="e.19" source="NT1.3" target="NT1.7"/>
+   <edge id="e.20" source="NT1.4" target="NT1.8"/>
+   <edge id="e.22" source="NT1.25" target="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

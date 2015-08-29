@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Rhodobacter capsulatus ATCC 1 1 166T (D16427)</otu>
+  <otu id="otu2">Strain AST4T (AB101543)</otu>
+  <otu id="otu3" cmphy:genus="Rhodobacter" cmphy:species="sphaeroides" cmphy:strain="NCIB 82537" cmphy:id="D16425" editRecord="[]">Rhodobacter sphaeroides NCIB 82537 (D16425)</otu>
+  <otu id="otu4" cmphy:genus="Paracoccus" cmphy:species="aminophilus" cmphy:strain="JCM 76867" cmphy:id="D32239" editRecord="[]">Paracoccus aminophilus JCM 76867 (D32239)</otu>
+  <otu id="otu5" cmphy:genus="Paracoccus" cmphy:species="marcusii" cmphy:strain="DSM 11574T" cmphy:id="Y12703" editRecord="[]">Paracoccus marcusii DSM 11574T (Y12703)</otu>
+  <otu id="otu6">glfaracoccus denitrificans ATCC 19367T (Y16930)</otu>
+  <otu id="otu7" cmphy:genus="Paracoccus" cmphy:species="thiocyanatus" cmphy:strain="IAM 12816T" cmphy:id="D32242" editRecord="[]">Paracoccus thiocyanatus IAM 12816T (D32242)</otu>
+  <otu id="otu8" cmphy:genus="Rhodovulum" cmphy:species="strictum" cmphy:strain="JCM 9207" cmphy:id="D16419" editRecord="[]">Rhodovulum strictum JCM 9207 (D16419)</otu>
+  <otu id="otu9" cmphy:genus="Rhodovulum" cmphy:species="sulfidophilum" cmphy:strain="DSM 1374T" cmphy:id="D16423" editRecord="[]">Rhodovulum sulfidophilum DSM 1374T (D16423)</otu>
+  <otu id="otu10" cmphy:genus="Rhodopseudomonas" cmphy:species="palustris" cmphy:strain="JCM 2524T" cmphy:id="D25312" editRecord="[]">Rhodopseudomonas palustris JCM 2524T (D25312)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="31.0" y="174.0"/>
+   <node id="NT1.2" label="NT1.2" x="45.0" y="132.0"/>
+   <node id="NT1.5" label="NT1.5" x="66.0" y="345.0"/>
+   <node id="NT1.6" label="NT1.6" x="85.0" y="381.0"/>
+   <node id="NT1.8" x="100.0" y="73.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="111.0" y="146.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="116.0" y="416.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="121.0" y="280.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="128.0" y="370.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="147.0" y="103.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="151.0" y="60.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="230.0" y="16.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="13.0" y="109.0" root="true"/>
+   <edge id="e.1" target="NT1.11" source="NT1.2"/>
+   <edge id="e.2" source="NT1.8" target="NT1.17"/>
+   <edge id="e.3" source="NT1.5" target="NT1.13"/>
+   <edge id="e.4" source="NT1.6" target="NT1.12"/>
+   <edge id="e.6" target="NT1.15" source="NT1.6"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" source="NT1.2" target="NT1.8"/>
+   <edge id="e.11" target="NT1.5" source="NT1.1"/>
+   <edge id="e.12" source="NT1.5" target="NT1.6"/>
+   <edge id="e.14" source="NT1.19" target="NT1.18"/>
+   <edge id="e.15" source="NT1.19" target="NT1.1"/>
+   <edge id="e.17" source="NT1.8" target="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

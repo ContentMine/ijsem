@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Exiguobacterium" cmphy:species="aurantiacum" cmphy:strain="NCDO 2321T" cmphy:id="X70316" editRecord="[]">Exiguobacterium aurantiacum NCDO 2321T (X70316)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Alkalibacterium olivapovliticus WW2-SN4aT (AF14351 1)</otu>
+  <otu id="otu5" cmphy:genus="Camobacterium" cmphy:species="alterfunditum" cmphy:strain="ACAM 313T" cmphy:id="L08623" editRecord="[]">Camobacterium alterfunditum ACAM 313T (L08623)</otu>
+  <otu id="otu6" cmphy:genus="Trichococcus" cmphy:species="pasteurii" cmphy:strain="KoTa2T" cmphy:id="X87150" editRecord="[]">Trichococcus pasteurii KoTa2T (X87150)</otu>
+  <otu id="otu7">Desemzia incerta DSM 20581 T (Y17300)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Dolosigranulum" cmphy:species="pigrum" cmphy:strain="NCFB 29757" cmphy:id="X70907" editRecord="[]">Dolosigranulum pigrum NCFB 29757 (X70907)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="149.0" y="461.0" otu="otu1"/>
+   <node id="NT1.2" label="NT1.2" x="149.0" y="264.0"/>
+   <node id="NT1.4" label="NT1.4" x="197.0" y="376.0"/>
+   <node id="NT1.12" label="NT1.12" x="301.0" y="292.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="304.0" y="405.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="404.0" y="236.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="3.0" y="452.0" root="true"/>
+   <edge id="e.4" target="NT1.16" source="NT1.2"/>
+   <edge id="e.5" source="NT1.4" target="NT1.13"/>
+   <edge id="e.6" target="NT1.12" source="NT1.4"/>
+   <edge id="e.10" source="NT1.2" target="NT1.4"/>
+   <edge id="e.12" source="NT1.17" target="NT1.1"/>
+   <edge id="e.13" source="NT1.17" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

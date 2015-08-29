@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">C. campinensis LMG 192827 (AF312020)</otu>
+  <otu id="otu2">C. necator LMG 84537 (AF191737)</otu>
+  <otu id="otu3">C. necator (formerly W. eutropha) LMG 1199 (M32021)</otu>
+  <otu id="otu4"> C. taiwanensis LMG 194247 (AF300324)</otu>
+  <otu id="otu5">R. syzygii LMG 106627 (ABO21403)</otu>
+  <otu id="otu6">C. respiraculi LMG 215107 (AF500583)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">R. solanacearum LMG 22997 (X67036)</otu>
+  <otu id="otu9">C. basilensis LMG 189907 (AF312022)</otu>
+  <otu id="otu10">R. insidiosa LMG 214217 (AF488779)</otu>
+  <otu id="otu11"> R. mannitolilytica LMG 68667 (AJ270258)</otu>
+  <otu id="otu12">R. pickettii ATCC 27512 (X67042)</otu>
+  <otu id="otu13">C. oxalaticus LMG 22357 (AF155567)</otu>
+  <otu id="otu14"> C. metallidurans LMG 11957 (D87999)</otu>
+  <otu id="otu15">C. gilardii LMG 58867 (AF076645)</otu>
+  <otu id="otu16" cmphy:edit="[1__I]" cmphy:genus="Pandoraea" cmphy:species="apista" cmphy:strain="LMG 164077" cmphy:id="AFI39173" editRecord="[1__I]">Pandoraea apista LMG 164077 (AF139173)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.32" label="NT1.32" x="324.0" y="693.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="6.0" y="400.0" root="true"/>
+   <edge id="e.14" target="NT1.32" source="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

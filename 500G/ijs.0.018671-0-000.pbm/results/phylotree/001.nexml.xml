@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Thalassolituus oleivorans MIL-1T(AJ431 699)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Oleispira" cmphy:species="antarctica" cmphy:strain="RB-8T" cmphy:id="AJ426420" editRecord="[]">Oleispira antarctica RB-8T (AJ426420)</otu>
+  <otu id="otu12"> Oceanospirillum sp. ME101 (AJ302699)</otu>
+  <otu id="otu13">Uncultured marine bacterium clone Surf1.32 (DQ071156)</otu>
+  <otu id="otu14">Oceaniserpentilla haliotis DSM 195O3T (AM 74781 7)</otu>
+  <otu id="otu15" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="LMG 1242T" cmphy:id="Z76651" editRecord="[]">Pseudomonas aeruginosa LMG 1242T (Z76651)</otu>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Uncultured" cmphy:species="gammaproteobacterium" cmphy:strain="clone Arctic95B-8" cmphy:id="AFB53239" editRecord="[3__B]">Uncultured gammaproteobacterium clone Arctic95B-8 (AF353239)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Oceanobacter" cmphy:species="kriegii" cmphy:strain="IFO 15467T" cmphy:id="ABO06767" editRecord="[0__O]">Oceanobacter kriegii IFO 15467T (AB006767)</otu>
+  <otu id="otu18" cmphy:genus="Oleibacter" cmphy:species="marinus" cmphy:strain="1018" cmphy:id="AB435651" editRecord="[]">Oleibacter marinus 1018 (AB435651)</otu>
+  <otu id="otu19" cmphy:genus="Oleibacter" cmphy:species="marinus" cmphy:strain="1014" cmphy:id="AB435650" editRecord="[]">Oleibacter marinus 1014 (AB435650)</otu>
+  <otu id="otu20" cmphy:edit="[3__B]" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone ZA3706c" cmphy:id="AFB82127" editRecord="[3__B]">Uncultured bacterium clone ZA3706c (AF382127)</otu>
+  <otu id="otu21" cmphy:genus="Oleibacter" cmphy:species="marinus" cmphy:strain="1014" cmphy:id="AB435650" editRecord="[]">Oleibacter marinus 1014 (AB435650)</otu>
+  <otu id="otu22" cmphy:genus="Oleibacter" cmphy:species="marinus" cmphy:strain="201 T" cmphy:id="AB435649" editRecord="[]">Oleibacter marinus 201 T (AB435649)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="37.0" y="316.0"/>
+   <node id="NT1.2" label="NT1.2" x="74.0" y="315.0" otu="otu1"/>
+   <node id="NT1.3" x="83.0" y="373.0" label="524"/>
+   <node id="NT1.4" label="NT1.4" x="88.0" y="374.0" otu="otu2"/>
+   <node id="NT1.5" label="NT1.5" x="169.0" y="264.0"/>
+   <node id="NT1.6" x="169.0" y="403.0" label="963"/>
+   <node id="NT1.7" label="NT1.7" x="173.0" y="264.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="173.0" y="402.0" otu="otu4"/>
+   <node id="NT1.9" label="NT1.9" x="246.0" y="220.0"/>
+   <node id="NT1.10" label="NT1.10" x="250.0" y="220.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="252.0" y="385.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="262.0" y="170.0" otu="otu7"/>
+   <node id="NT1.13" label="NT1.13" x="262.0" y="309.0" otu="otu8"/>
+   <node id="NT1.14" x="284.0" y="115.0" label="-o"/>
+   <node id="NT1.15" label="NT1.15" x="286.0" y="218.0"/>
+   <node id="NT1.16" label="NT1.16" x="288.0" y="220.0"/>
+   <node id="NT1.17" label="NT1.17" x="289.0" y="123.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="291.0" y="220.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="306.0" y="345.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="307.0" y="162.0" otu="otu12"/>
+   <node id="NT1.21" label="NT1.21" x="309.0" y="239.0" otu="otu13"/>
+   <node id="NT1.22" label="NT1.22" x="314.0" y="423.0" otu="otu14"/>
+   <node id="NT1.23" label="NT1.23" x="314.0" y="463.0" otu="otu15"/>
+   <node id="NT1.24" label="NT1.24" x="317.0" y="200.0" otu="otu16"/>
+   <node id="NT1.25" label="NT1.25" x="331.0" y="273.0" otu="otu17"/>
+   <node id="NT1.26" label="NT1.26" x="336.0" y="124.0" otu="otu18"/>
+   <node id="NT1.27" label="NT1.27" x="340.0" y="86.0" otu="otu19"/>
+   <node id="NT1.28" label="NT1.28" x="343.0" y="15.0" otu="otu20"/>
+   <node id="NT1.29" label="NT1.29" x="343.0" y="50.0"/>
+   <node id="NT1.30" label="NT1.30" x="345.0" y="87.0" otu="otu21"/>
+   <node id="NT1.31" label="NT1.31" x="348.0" y="50.0" otu="otu22"/>
+   <edge source="NT1.28" target="NT1.29" id="e.0"/>
+   <edge source="NT1.31" target="NT1.29" id="e.1"/>
+   <edge source="NT1.27" target="NT1.14" id="e.2"/>
+   <edge source="NT1.30" target="NT1.29" id="e.3"/>
+   <edge source="NT1.26" target="NT1.14" id="e.4"/>
+   <edge source="NT1.17" target="NT1.14" id="e.5"/>
+   <edge source="NT1.20" target="NT1.14" id="e.6"/>
+   <edge source="NT1.12" target="NT1.14" id="e.7"/>
+   <edge source="NT1.10" target="NT1.9" id="e.8"/>
+   <edge source="NT1.18" target="NT1.16" id="e.9"/>
+   <edge source="NT1.21" target="NT1.16" id="e.10"/>
+   <edge source="NT1.24" target="NT1.15" id="e.11"/>
+   <edge source="NT1.7" target="NT1.5" id="e.12"/>
+   <edge source="NT1.25" target="NT1.9" id="e.13"/>
+   <edge source="NT1.13" target="NT1.5" id="e.14"/>
+   <edge source="NT1.2" target="NT1.1" id="e.15"/>
+   <edge source="NT1.4" target="NT1.3" id="e.16"/>
+   <edge source="NT1.8" target="NT1.6" id="e.17"/>
+   <edge source="NT1.11" target="NT1.6" id="e.18"/>
+   <edge source="NT1.19" target="NT1.3" id="e.19"/>
+   <edge source="NT1.22" target="NT1.6" id="e.20"/>
+   <edge source="NT1.23" target="NT1.1" id="e.21"/>
+   <edge source="NT1.29" target="NT1.14" id="e.22"/>
+   <edge source="NT1.14" target="NT1.9" id="e.23"/>
+   <edge source="NT1.14" target="NT1.15" id="e.24"/>
+   <edge source="NT1.9" target="NT1.5" id="e.25"/>
+   <edge source="NT1.16" target="NT1.15" id="e.26"/>
+   <edge source="NT1.5" target="NT1.1" id="e.27"/>
+   <edge source="NT1.1" target="NT1.3" id="e.28"/>
+   <edge source="NT1.3" target="NT1.6" id="e.29"/>
+  </tree>
+ </trees>
+</nexml>

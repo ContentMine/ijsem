@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Methylosinus sporium NCIMB 1 11267 (Y18946)</otu>
+  <otu id="otu12">Methylosinus tnbhosporium NCIMB 1 11317 (Y18947)</otu>
+  <otu id="otu13" cmphy:genus="Methylocystis" cmphy:species="echinoides" cmphy:strain="IMET 104917" cmphy:id="AJ458473" editRecord="[]">Methylocystis echinoides IMET 104917 (AJ458473)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Prosthecomicrobium" cmphy:species="pneumaticum" cmphy:strain="ATCC 236337" cmphy:id="ABO17203" editRecord="[0__O]">Prosthecomicrobium pneumaticum ATCC 236337 (AB017203)</otu>
+  <otu id="otu19" cmphy:edit="[1__I]" cmphy:genus="Pleomorphomonas" cmphy:species="koreensis" cmphy:strain="Y97" cmphy:id="ABI27972" editRecord="[1__I]">Pleomorphomonas koreensis Y97 (AB127972)</otu>
+  <otu id="otu20" cmphy:genus="Methylocella" cmphy:species="palustris" cmphy:strain="ATCC 7007997" cmphy:id="Y17144" editRecord="[]">Methylocella palustris ATCC 7007997 (Y17144)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+  <otu id="otu23" cmphy:genus="Hyphomicrobium" cmphy:species="vulgare" cmphy:strain="ATCC 275007" cmphy:id="Y14302" editRecord="[]">Hyphomicrobium vulgare ATCC 275007 (Y14302)</otu>
+  <otu id="otu24" cmphy:genus="Bradyrhizobium" cmphy:species="japonicum" cmphy:strain="LMG 61387" cmphy:id="X66024" editRecord="[]">Bradyrhizobium japonicum LMG 61387 (X66024)</otu>
+  <otu id="otu25" cmphy:edit="[0__O]" cmphy:genus="Methylorhabdus" cmphy:species="multivorans" cmphy:strain="DM137" cmphy:id="AFO04845" editRecord="[0__O]">Methylorhabdus multivorans DM137 (AF004845)</otu>
+  <otu id="otu26">Rhodobacter capsulatus ATCC 1 1 1667 (D16428)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="48.0" y="488.0"/>
+   <node id="NT1.4" label="NT1.4" x="65.0" y="419.0"/>
+   <node id="NT1.5" label="NT1.5" x="97.0" y="343.0"/>
+   <node id="NT1.6" label="NT1.6" x="162.0" y="250.0"/>
+   <node id="NT1.10" label="NT1.10" x="189.0" y="142.0"/>
+   <node id="NT1.11" x="223.0" y="355.0" label="81"/>
+   <node id="NT1.28" label="NT1.28" x="417.0" y="295.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="435.0" y="456.0" otu="otu18"/>
+   <node id="NT1.34" label="NT1.34" x="436.0" y="576.0" otu="otu19"/>
+   <node id="NT1.35" label="NT1.35" x="458.0" y="133.0" otu="otu20"/>
+   <node id="NT1.38" label="NT1.38" x="481.0" y="496.0" otu="otu23"/>
+   <node id="NT1.39" label="NT1.39" x="617.0" y="375.0" otu="otu24"/>
+   <node id="NT1.40" label="NT1.40" x="634.0" y="335.0" otu="otu25"/>
+   <node id="NT1.42" label="NT1.42" x="2.0" y="563.0" root="true"/>
+   <edge id="e.4" target="NT1.35" source="NT1.10"/>
+   <edge id="e.12" target="NT1.28" source="NT1.10"/>
+   <edge id="e.16" source="NT1.11" target="NT1.39"/>
+   <edge id="e.17" source="NT1.11" target="NT1.40"/>
+   <edge id="e.18" target="NT1.33" source="NT1.5"/>
+   <edge id="e.21" source="NT1.4" target="NT1.38"/>
+   <edge id="e.23" target="NT1.34" source="NT1.2"/>
+   <edge id="e.28" source="NT1.5" target="NT1.6"/>
+   <edge id="e.29" source="NT1.6" target="NT1.11"/>
+   <edge id="e.31" source="NT1.4" target="NT1.5"/>
+   <edge id="e.33" source="NT1.2" target="NT1.4"/>
+   <edge id="e.35" source="NT1.42" target="NT1.2"/>
+   <edge id="e.38" source="NT1.6" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

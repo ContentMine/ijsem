@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Symphyonema Sp.</otu>
+  <otu id="otu3">Symphyonema Sp.</otu>
+  <otu id="otu4">Mastigocladopsis repens MORA</otu>
+  <otu id="otu5">Stigonema ocellatum SAG 48.90</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Scytonema hqfmanni PCC 71 10 (AF132781)</otu>
+  <otu id="otu8">Scytonema Sp. U-3-3 (AY069954)</otu>
+  <otu id="otu9">Fischerella Sp.</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Nostoc" cmphy:species="microscopicum" cmphy:strain="DM103" cmphy:id="AJB44563" editRecord="[3__B]">Nostoc microscopicum DM103 (AJ344563)</otu>
+  <otu id="otu11">Chroococcidiopsis Sp. SAG 20.23 (AJ344552)</otu>
+  <otu id="otu12">Westiellopsis Sp. 985-1</otu>
+  <otu id="otu13">Fischerella Sp. SAG 20.27 (AJ344560)</otu>
+  <otu id="otu14">Nostochopsis lobatus BB92.1</otu>
+  <otu id="otu15">Nostochopsis Sp. 89-45</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Hapalosiphon welwitschii (AY034793)</otu>
+  <otu id="otu18">Nostoc Sp. ATCC 53789 (AF062638)</otu>
+  <otu id="otu19">Westiellopsisprolzfica SAG 16.93</otu>
+  <otu id="otu20">Aphanizomenon Sp. PCC 7905 (AJ 133154)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">Anabaena Sp. 90 (AJ133156)</otu>
+  <otu id="otu23">Nodularia sp. PCC 7310471</otu>
+  <otu id="otu24">Chlorogloeopsis Sp. PCC 6718 (AFl32777)</otu>
+  <otu id="otu25">Nodularia Sp. PCC 7804 (AJ133181)</otu>
+  <otu id="otu26">Nodularia Sp. BCNOD94027 (AJ224447)</otu>
+  <otu id="otu27">Anabaerza Sp. N-C 8371(AJ133158)</otu>
+  <otu id="otu28">Nodularia Sp. NSOR-12 (AJ133180)</otu>
+  <otu id="otu29" cmphy:edit="[1__I]" cmphy:genus="Fischerella" cmphy:species="muscicola" cmphy:strain="PCC 7414" cmphy:id="AJI32788" editRecord="[1__I]">Fischerella muscicola PCC 7414 (AJ132788)</otu>
+  <otu id="otu30">Hapalosiphon Sp. 804-1</otu>
+  <otu id="otu31">Cylindrospermopsis AWT205 (AF092504)</otu>
+  <otu id="otu32">Cylindrospermopsis (AF067818)</otu>
+  <otu id="otu33">Chroococcidiopsis Sp. SAG 20.24 (AJ 344553)</otu>
+  <otu id="otu34">Chroococcidiopsis Sp. SAG 20.25 (AJ344554)</otu>
+  <otu id="otu35"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="8.0" y="1448.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="176.0" y="755.0"/>
+   <node id="NT1.33" label="NT1.33" x="669.0" y="1164.0" otu="otu10"/>
+   <node id="NT1.59" label="NT1.59" x="790.0" y="600.0" otu="otu29"/>
+   <edge id="e.28" target="NT1.5" source="NT1.1"/>
+   <edge id="e.54" target="NT1.33" source="NT1.5"/>
+   <edge id="e.56" target="NT1.59" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

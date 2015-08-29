@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Paenibacillus" cmphy:species="curdlanolyticus" cmphy:strain="NBRC 157247" cmphy:id="D78466" editRecord="[]">Paenibacillus curdlanolyticus NBRC 157247 (D78466)</otu>
+  <otu id="otu3" cmphy:genus="Paenibacillus" cmphy:species="macerans" cmphy:strain="ATCC 82447" cmphy:id="X57306" editRecord="[]"> Paenibacillus macerans ATCC 82447 (X57306)</otu>
+  <otu id="otu4" cmphy:genus="Paenibacillus" cmphy:species="illinoisensis" cmphy:strain="NRRL NRS-13567" cmphy:id="D85397" editRecord="[]">Paenibacillus illinoisensis NRRL NRS-13567 (D85397)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="azoreducens" cmphy:strain="CM17" cmphy:id="AJZ72249" editRecord="[2__Z]"> Paenibacillus azoreducens CM17 (AJ272249)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Thermobacillus Xylanilyticus XE7 (AJOO5795)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Paenibacillus" cmphy:species="lautus" cmphy:strain="NRRL NRS-6667" cmphy:id="D78473" editRecord="[]"> Paenibacillus lautus NRRL NRS-6667 (D78473)</otu>
+  <otu id="otu11">Strain 5YN10-147 (EF363008)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Paenibacillus" cmphy:species="larvae" cmphy:strain="DSM 70307" cmphy:id="AYS30294" editRecord="[5__S]"> Paenibacillus larvae DSM 70307 (AY530294)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Paenibacillus" cmphy:species="macquariensis" cmphy:strain="NCTC 104197" cmphy:id="X60625" editRecord="[]"> Paenibacillus macquariensis NCTC 104197 (X60625)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Cohnella" cmphy:species="phaseoli" cmphy:strain="GSPC17" cmphy:id="EUO14872" editRecord="[0__O]">Cohnella phaseoli GSPC17 (EU014872)</otu>
+  <otu id="otu19" cmphy:genus="Cohnella" cmphy:species="laeviribosi" cmphy:strain="RI-397" cmphy:id="DQ459874" editRecord="[]">Cohnella laeviribosi RI-397 (DQ459874)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:genus="Cohnella" cmphy:species="thermotolerans" cmphy:strain="CCUG 472427" cmphy:id="AJ971483" editRecord="[]">Cohnella thermotolerans CCUG 472427 (AJ971483)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="765.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="224.0" y="534.0"/>
+   <node id="NT1.4" x="241.0" y="430.0" label="55"/>
+   <node id="NT1.5" label="NT1.5" x="283.0" y="329.0"/>
+   <node id="NT1.7" label="NT1.7" x="325.0" y="207.0"/>
+   <node id="NT1.8" label="NT1.8" x="343.0" y="130.0"/>
+   <node id="NT1.9" label="NT1.9" x="352.0" y="64.0"/>
+   <node id="NT1.13" x="379.0" y="639.0" label="546"/>
+   <node id="NT1.15" label="NT1.15" x="398.0" y="689.0"/>
+   <node id="NT1.22" label="NT1.22" x="507.0" y="551.0" otu="otu2"/>
+   <node id="NT1.23" label="NT1.23" x="528.0" y="283.0" otu="otu3"/>
+   <node id="NT1.24" label="NT1.24" x="532.0" y="130.0" otu="otu4"/>
+   <node id="NT1.25" label="NT1.25" x="537.0" y="92.0" otu="otu5"/>
+   <node id="NT1.30" label="NT1.30" x="560.0" y="206.0" otu="otu10"/>
+   <node id="NT1.33" label="NT1.33" x="565.0" y="360.0" otu="otu13"/>
+   <node id="NT1.36" label="NT1.36" x="576.0" y="54.0" otu="otu16"/>
+   <node id="NT1.38" label="NT1.38" x="577.0" y="742.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="582.0" y="589.0" otu="otu19"/>
+   <node id="NT1.41" label="NT1.41" x="621.0" y="627.0" otu="otu21"/>
+   <edge id="e.1" target="NT1.36" source="NT1.9"/>
+   <edge id="e.2" source="NT1.9" target="NT1.25"/>
+   <edge id="e.3" source="NT1.8" target="NT1.24"/>
+   <edge id="e.6" target="NT1.30" source="NT1.8"/>
+   <edge id="e.7" source="NT1.7" target="NT1.23"/>
+   <edge id="e.9" target="NT1.33" source="NT1.5"/>
+   <edge id="e.12" target="NT1.22" source="NT1.4"/>
+   <edge id="e.16" source="NT1.13" target="NT1.39"/>
+   <edge id="e.20" target="NT1.38" source="NT1.15"/>
+   <edge id="e.21" target="NT1.41" source="NT1.15"/>
+   <edge id="e.24" source="NT1.8" target="NT1.9"/>
+   <edge id="e.25" source="NT1.7" target="NT1.8"/>
+   <edge id="e.27" target="NT1.7" source="NT1.5"/>
+   <edge id="e.30" source="NT1.4" target="NT1.5"/>
+   <edge id="e.33" source="NT1.3" target="NT1.4"/>
+   <edge id="e.36" target="NT1.3" source="NT1.1"/>
+   <edge id="e.37" source="NT1.3" target="NT1.13"/>
+   <edge id="e.38" source="NT1.13" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

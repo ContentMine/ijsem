@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Nocardiopsis" cmphy:species="trehalosi" cmphy:strain="VKM Ac-942T" cmphy:id="AFI05972" editRecord="[1__I]">Nocardiopsis trehalosi VKM Ac-942T (AF105972)</otu>
+  <otu id="otu3"> Nocardiopsis Iucentensis DSM 44048T (X97888)</otu>
+  <otu id="otu4"> Nocardiopsis dassonvillei subsp. dassonvillei DSM 431117 (X97886)</otu>
+  <otu id="otu5" cmphy:genus="Nocardiopsis" cmphy:species="alba" cmphy:strain="DSM 43377T" cmphy:id="X97883" editRecord="[]">Nocardiopsis alba DSM 43377T (X97883)</otu>
+  <otu id="otu6" cmphy:genus="Nocardiopsis" cmphy:species="synnemataformans" cmphy:strain="DSM 44143T" cmphy:id="Y13593" editRecord="[]">Nocardiopsis synnemataformans DSM 44143T (Y13593)</otu>
+  <otu id="otu7" cmphy:genus="Nocardiopsis" cmphy:species="halophila" cmphy:strain="DSM 44494T" cmphy:id="AJ421018" editRecord="[]">Nocardiopsis halophila DSM 44494T (AJ421018)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Nocardiopsis" cmphy:species="exhalans" cmphy:strain="DSM 44407T" cmphy:id="AYO36000" editRecord="[]"> Nocardiopsis exhalans DSM 44407T (AYO36000)</otu>
+  <otu id="otu10"> Nocardiopsis Iisteri DSM 402977 (X97887)</otu>
+  <otu id="otu11">Nocardiopsis halotolerans DSM 4441 OT (AJ290448)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Nocardiopsis" cmphy:species="umidischolae" cmphy:strain="DSM 43662T" cmphy:id="AYO36001" editRecord="[0__O]"> Nocardiopsis umidischolae DSM 43662T (AY036001)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Nocardiopsis" cmphy:species="tropica" cmphy:strain="VKM Ac-14577" cmphy:id="AFI05971" editRecord="[1__I]"> Nocardiopsis tropica VKM Ac-14577 (AF105971)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Nocardiopsis" cmphy:species="alkaliphila" cmphy:strain="YIM 8O379T" cmphy:id="AYZ30848" editRecord="[2__Z]">Nocardiopsis alkaliphila YIM 8O379T (AY230848)</otu>
+  <otu id="otu16" cmphy:edit="[1__I]" cmphy:genus="Nocardiopsis" cmphy:species="kunsanensis" cmphy:strain="KCTC 9831T" cmphy:id="AFI95412" editRecord="[1__I]">Nocardiopsis kunsanensis KCTC 9831T (AF195412)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Nocardiopsis" cmphy:species="xinjiangensis" cmphy:strain="YIM 90004T" cmphy:id="AFZ51709" editRecord="[2__Z]">Nocardiopsis xinjiangensis YIM 90004T (AF251709)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="31.0" y="921.0"/>
+   <node id="NT1.3" label="NT1.3" x="110.0" y="641.0"/>
+   <node id="NT1.4" x="118.0" y="522.0" label="598"/>
+   <node id="NT1.7" x="151.0" y="343.0" label="719"/>
+   <node id="NT1.9" label="NT1.9" x="153.0" y="253.0"/>
+   <node id="NT1.11" label="NT1.11" x="169.0" y="965.0" otu="otu2"/>
+   <node id="NT1.12" x="177.0" y="161.0" label="7"/>
+   <node id="NT1.16" label="NT1.16" x="189.0" y="433.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="189.0" y="611.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="205.0" y="759.0"/>
+   <node id="NT1.20" label="NT1.20" x="210.0" y="848.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="225.0" y="345.0"/>
+   <node id="NT1.24" label="NT1.24" x="233.0" y="21.0" otu="otu9"/>
+   <node id="NT1.28" label="NT1.28" x="255.0" y="316.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="268.0" y="375.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="271.0" y="197.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="283.0" y="788.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="291.0" y="730.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="26.0" y="781.0" root="true"/>
+   <edge id="e.3" target="NT1.30" source="NT1.12"/>
+   <edge id="e.4" source="NT1.23" target="NT1.28"/>
+   <edge id="e.5" source="NT1.23" target="NT1.29"/>
+   <edge id="e.8" target="NT1.17" source="NT1.4"/>
+   <edge id="e.9" source="NT1.19" target="NT1.31"/>
+   <edge id="e.10" source="NT1.19" target="NT1.32"/>
+   <edge id="e.11" source="NT1.1" target="NT1.11"/>
+   <edge id="e.13" target="NT1.20" source="NT1.1"/>
+   <edge id="e.16" source="NT1.9" target="NT1.12"/>
+   <edge id="e.18" source="NT1.9" target="NT1.23"/>
+   <edge id="e.19" source="NT1.7" target="NT1.9"/>
+   <edge id="e.20" target="NT1.7" source="NT1.4"/>
+   <edge id="e.22" source="NT1.3" target="NT1.4"/>
+   <edge id="e.25" source="NT1.33" target="NT1.3"/>
+   <edge id="e.26" source="NT1.33" target="NT1.1"/>
+   <edge id="e.28" source="NT1.3" target="NT1.19"/>
+   <edge id="e.30" source="NT1.7" target="NT1.16"/>
+   <edge id="e.31" target="NT1.24" source="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

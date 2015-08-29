@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Saccharothrix syringae NRRL B-16468T(AF1 14812)</otu>
+  <otu id="otu3">Saccharothrix texasensis NRRL B-16134T (NR_O24966)</otu>
+  <otu id="otu4">Saccharothrix texasensis NRRL B-16134T (AF1 14815)</otu>
+  <otu id="otu5" cmphy:genus="Kutzneria" cmphy:species="viridogrisea" cmphy:strain="JCM 32827" cmphy:id="U58530" editRecord="[]">Kutzneria viridogrisea JCM 32827 (U58530)</otu>
+  <otu id="otu6">Crossiella equi NRRL B-241O4T(AF245O17)</otu>
+  <otu id="otu7">Crossiella cryophila NRRL B-16238T(NR_O24964)</otu>
+  <otu id="otu8" cmphy:genus="Actinoalloteichus" cmphy:species="spitiensis" cmphy:strain="RMV-13787" cmphy:id="AY426714" editRecord="[]">Actinoalloteichus spitiensis RMV-13787 (AY426714)</otu>
+  <otu id="otu9">Actinoalloteichus cyanogriseus IFO 144557 (AB0061 78)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Actinoalloteichus" cmphy:species="hymeniacidonis" cmphy:strain="HPA1 777" cmphy:id="DQI44222" editRecord="[1__I]">Actinoalloteichus hymeniacidonis HPA1 777 (DQ144222)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Actinoalloteichus" cmphy:species="nanshanensis" cmphy:strain="NEAU 1197" cmphy:id="GO926935" editRecord="[0__O]">Actinoalloteichus nanshanensis NEAU 1197 (G0926935)</otu>
+  <otu id="otu12">Saccharothrix coeruleofusca NRRL B-161 157 (AF1 14805)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Saccharothrix" cmphy:species="violacea" cmphy:strain="LM O44" cmphy:id="AJZ42634" editRecord="[2__Z]">Saccharothrix violacea LM O44 (AJ242634)</otu>
+  <otu id="otu14">Saccharothrix flava NRRL B-16131T (AF1 14808)</otu>
+  <otu id="otu15">Saccharothrix cryophilis NRRL B-16238T (AF1 14806)</otu>
+  <otu id="otu16" cmphy:genus="Streptomyces" cmphy:species="ambofaciens" cmphy:strain="ATCC 23877T" cmphy:id="M27245" editRecord="[]">Streptomyces ambofaciens ATCC 23877T (M27245)</otu>
+  <otu id="otu17">Kutzneria kofuensis NRRL B-240617 (AF1 14801)</otu>
+  <otu id="otu18" cmphy:edit="[5__S]" cmphy:genus="Kutzneria" cmphy:species="albida" cmphy:strain="NRRL B-240607" cmphy:id="EFS43522" editRecord="[5__S]">Kutzneria albida NRRL B-240607 (EF543522)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="658.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="658.0"/>
+   <node id="NT1.3" label="NT1.3" x="83.0" y="568.0"/>
+   <node id="NT1.5" label="NT1.5" x="241.0" y="307.0"/>
+   <node id="NT1.11" label="NT1.11" x="476.0" y="715.0"/>
+   <node id="NT1.14" label="NT1.14" x="555.0" y="413.0"/>
+   <node id="NT1.16" label="NT1.16" x="555.0" y="667.0"/>
+   <node id="NT1.21" label="NT1.21" x="631.0" y="388.0" otu="otu5"/>
+   <node id="NT1.24" label="NT1.24" x="631.0" y="741.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="631.0" y="691.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="631.0" y="640.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="632.0" y="237.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="632.0" y="841.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="633.0" y="439.0" otu="otu18"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" target="NT1.24" source="NT1.11"/>
+   <edge id="e.5" source="NT1.16" target="NT1.27"/>
+   <edge id="e.11" target="NT1.5" source="NT1.3"/>
+   <edge id="e.15" target="NT1.14" source="NT1.5"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.3" target="NT1.11"/>
+   <edge id="e.20" source="NT1.11" target="NT1.16"/>
+   <edge id="e.21" source="NT1.2" target="NT1.32"/>
+   <edge id="e.23" target="NT1.29" source="NT1.5"/>
+   <edge id="e.26" source="NT1.14" target="NT1.21"/>
+   <edge id="e.28" source="NT1.16" target="NT1.26"/>
+   <edge id="e.32" source="NT1.14" target="NT1.34"/>
+  </tree>
+ </trees>
+</nexml>

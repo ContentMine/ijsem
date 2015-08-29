@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">R. calyptogene JCM 108997 (AB025996)</otu>
+  <otu id="otu3">R. 1ySfniphI'laJCM 5951 T (AB078501)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Occultifur" cmphy:species="externus" cmphy:strain="CBS 87327" cmphy:id="AFI31062" editRecord="[1__I]">Occultifur externus CBS 87327 (AF131062)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="239.0" y="1296.0" otu="otu1" root="true"/>
+   <node id="NT1.6" label="NT1.6" x="722.0" y="1167.0" otu="otu4"/>
+   <edge id="e.2" target="NT1.6" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

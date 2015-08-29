@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Pseudomonas" cmphy:species="putida" cmphy:strain="IAM 1236T" cmphy:id="D84020" editRecord="[]">Pseudomonas putida IAM 1236T (D84020)</otu>
+  <otu id="otu2" cmphy:genus="Pseudomonas" cmphy:species="oryzihabitans" cmphy:strain="IAM 1568T" cmphy:id="D84004" editRecord="[]">Pseudomonas oryzihabitans IAM 1568T (D84004)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="fuscovaginae" cmphy:strain="MAFF 3O1177T" cmphy:id="ABO21381" editRecord="[0__O]">Pseudomonas fuscovaginae MAFF 3O1177T (AB021381)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="fulva" cmphy:strain="NRIC 018OT" cmphy:id="ABO60136" editRecord="[0__O]">Pseudomonas fulva NRIC 018OT (AB060136)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="parafulva" cmphy:strain="AJ 2129T" cmphy:id="ABO60132" editRecord="[0__O]">Pseudomonas parafulva AJ 2129T (AB060132)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="cremoricolorata" cmphy:strain="IAM 1541T" cmphy:id="ABO60137" editRecord="[0__O]">Pseudomonas cremoricolorata IAM 1541T (AB060137)</otu>
+  <otu id="otu7">Pseudomonas graminis DSM 11363T(Y11150)</otu>
+  <otu id="otu8">Pseudomonas Iutea CECT 5822T (AY364537)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Pseudomonas" cmphy:species="rhizosphaerae" cmphy:strain="CECT 5726T" cmphy:id="AYI52673" editRecord="[1__I]">Pseudomonas rhizosphaerae CECT 5726T (AY152673)</otu>
+  <otu id="otu10" cmphy:genus="Pseudomonas" cmphy:species="agarici" cmphy:strain="ATCC 25941T" cmphy:id="D84005" editRecord="[]">Pseudomonas agarici ATCC 25941T (D84005)</otu>
+  <otu id="otu11" cmphy:genus="Pseudomonas" cmphy:species="flavescens" cmphy:strain="NCPPB 3063T" cmphy:id="U01916" editRecord="[]">Pseudomonas flavescens NCPPB 3063T (U01916)</otu>
+  <otu id="otu12" cmphy:genus="Pseudomonas" cmphy:species="straminea" cmphy:strain="IAM 159sT" cmphy:id="D84023" editRecord="[]">Pseudomonas straminea IAM 159sT (D84023)</otu>
+  <otu id="otu13" cmphy:genus="Pseudomonas" cmphy:species="chlororaphis" cmphy:strain="IAM 12354T" cmphy:id="D84011" editRecord="[]">Pseudomonas chlororaphis IAM 12354T (D84011)</otu>
+  <otu id="otu14">Pseudomonas argentinensis CHD1T CECT 70107 (AY691188)</otu>
+  <otu id="otu15">Pseudomonas argentinensis PA01 CECT 7011</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="fragi" cmphy:strain="ATCC 4973T" cmphy:id="AFO94733" editRecord="[0__O]">Pseudomonas fragi ATCC 4973T (AF094733)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="gessardii" cmphy:strain="CIP 105469T" cmphy:id="AFO74384" editRecord="[0__O]">Pseudomonas gessardii CIP 105469T (AF074384)</otu>
+  <otu id="otu18">Pseudomonas syn'ngae ATCC 1931 OT (D84026)</otu>
+  <otu id="otu19" cmphy:genus="Pseudomonas" cmphy:species="luteola" cmphy:strain="IAM 130007" cmphy:id="D84002" editRecord="[]">Pseudomonas luteola IAM 130007 (D84002)</otu>
+  <otu id="otu20" cmphy:genus="Pseudomonas" cmphy:species="fluorescens" cmphy:strain="IAM 12022T" cmphy:id="D84013" editRecord="[]">Pseudomonas fluorescens IAM 12022T (D84013)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="32.0" y="397.0"/>
+   <node id="NT1.2" label="NT1.2" x="72.0" y="504.0"/>
+   <node id="NT1.3" x="112.0" y="286.0" label="58"/>
+   <node id="NT1.4" label="NT1.4" x="122.0" y="743.0"/>
+   <node id="NT1.5" label="NT1.5" x="162.0" y="551.0"/>
+   <node id="NT1.6" label="NT1.6" x="236.0" y="209.0"/>
+   <node id="NT1.7" label="NT1.7" x="255.0" y="837.0"/>
+   <node id="NT1.8" x="264.0" y="962.0" label="61"/>
+   <node id="NT1.9" label="NT1.9" x="288.0" y="457.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="296.0" y="584.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="322.0" y="648.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="388.0" y="361.0"/>
+   <node id="NT1.13" label="NT1.13" x="389.0" y="329.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="389.0" y="395.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="408.0" y="855.0"/>
+   <node id="NT1.16" label="NT1.16" x="421.0" y="520.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="453.0" y="808.0"/>
+   <node id="NT1.18" label="NT1.18" x="493.0" y="148.0"/>
+   <node id="NT1.19" label="NT1.19" x="554.0" y="839.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="578.0" y="1068.0"/>
+   <node id="NT1.21" label="NT1.21" x="630.0" y="775.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="638.0" y="998.0"/>
+   <node id="NT1.23" label="NT1.23" x="668.0" y="1140.0"/>
+   <node id="NT1.24" label="NT1.24" x="669.0" y="903.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="684.0" y="711.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="688.0" y="93.0"/>
+   <node id="NT1.27" label="NT1.27" x="761.0" y="1187.0"/>
+   <node id="NT1.28" label="NT1.28" x="765.0" y="45.0"/>
+   <node id="NT1.29" label="NT1.29" x="774.0" y="203.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="833.0" y="139.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="884.0" y="966.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="943.0" y="12.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="944.0" y="76.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="1054.0" y="1093.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="1057.0" y="1220.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="1063.0" y="1030.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="1136.0" y="266.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="1136.0" y="1157.0" otu="otu20"/>
+   <edge source="NT1.13" target="NT1.12" id="e.0"/>
+   <edge source="NT1.14" target="NT1.12" id="e.1"/>
+   <edge source="NT1.37" target="NT1.6" id="e.2"/>
+   <edge source="NT1.11" target="NT1.4" id="e.3"/>
+   <edge source="NT1.31" target="NT1.22" id="e.4"/>
+   <edge source="NT1.34" target="NT1.23" id="e.5"/>
+   <edge source="NT1.28" target="NT1.26" id="e.6"/>
+   <edge source="NT1.26" target="NT1.18" id="e.7"/>
+   <edge source="NT1.18" target="NT1.6" id="e.8"/>
+   <edge source="NT1.6" target="NT1.3" id="e.9"/>
+   <edge source="NT1.3" target="NT1.12" id="e.10"/>
+   <edge source="NT1.3" target="NT1.1" id="e.11"/>
+   <edge source="NT1.1" target="NT1.2" id="e.12"/>
+   <edge source="NT1.2" target="NT1.5" id="e.13"/>
+   <edge source="NT1.4" target="NT1.7" id="e.14"/>
+   <edge source="NT1.7" target="NT1.8" id="e.15"/>
+   <edge source="NT1.8" target="NT1.20" id="e.16"/>
+   <edge source="NT1.8" target="NT1.15" id="e.17"/>
+   <edge source="NT1.15" target="NT1.17" id="e.18"/>
+   <edge source="NT1.20" target="NT1.23" id="e.19"/>
+   <edge source="NT1.20" target="NT1.22" id="e.20"/>
+   <edge source="NT1.23" target="NT1.27" id="e.21"/>
+   <edge source="NT1.1" target="NT1.4" id="e.22"/>
+   <edge source="NT1.9" target="NT1.2" id="e.23"/>
+   <edge source="NT1.10" target="NT1.5" id="e.24"/>
+   <edge source="NT1.16" target="NT1.5" id="e.25"/>
+   <edge source="NT1.25" target="NT1.7" id="e.26"/>
+   <edge source="NT1.19" target="NT1.17" id="e.27"/>
+   <edge source="NT1.24" target="NT1.15" id="e.28"/>
+   <edge source="NT1.21" target="NT1.17" id="e.29"/>
+   <edge source="NT1.29" target="NT1.18" id="e.30"/>
+   <edge source="NT1.30" target="NT1.26" id="e.31"/>
+   <edge source="NT1.36" target="NT1.22" id="e.32"/>
+   <edge source="NT1.33" target="NT1.28" id="e.33"/>
+   <edge source="NT1.32" target="NT1.28" id="e.34"/>
+   <edge source="NT1.35" target="NT1.27" id="e.35"/>
+   <edge source="NT1.38" target="NT1.27" id="e.36"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Natmnobacterium" cmphy:species="gregoryi" cmphy:strain="NCIMB 2189T" cmphy:id="D87970" editRecord="[]">Natmnobacterium gregoryi NCIMB 2189T (D87970)</otu>
+  <otu id="otu3" cmphy:genus="Natronococcus" cmphy:species="occultus" cmphy:strain="NCIMB 21927" cmphy:id="Z28378" editRecord="[]">Natronococcus occultus NCIMB 21927 (Z28378)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Haloterrigena" cmphy:species="turkmenica" cmphy:strain="VKM B-1734T" cmphy:id="ABO04878" editRecord="[O__0]">Haloterrigena turkmenica VKM B-1734T (ABOO4878)</otu>
+  <otu id="otu5"> Haloterrigena thermotolerans PRST (AF1 15478)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Natronolimnobius" cmphy:species="innermongolicus" cmphy:strain="N-131 1T" cmphy:id="ABI25108" editRecord="[1__I]">Natronolimnobius innermongolicus N-131 1T (AB125108)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Natrinema" cmphy:species="versifonne" cmphy:strain="XF10T" cmphy:id="ABO23426" editRecord="[]"> Natrinema versifonne XF10T (ABO23426)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Natrinerna" cmphy:species="pellirubrum" cmphy:strain="NCIMB 786T" cmphy:id="AJO02947" editRecord="[0__O]"> Natrinerna pellirubrum NCIMB 786T (AJ002947)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Natronorubrum" cmphy:species="tibetense" cmphy:strain="GA33T" cmphy:id="ABO05656" editRecord="[0__O]"> Natronorubrum tibetense GA33T (AB005656)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Natronolimnobius" cmphy:species="baerhuensis" cmphy:strain="IHC-0057" cmphy:id="ABI25106" editRecord="[1__I]">Natronolimnobius baerhuensis IHC-0057 (AB125106)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Natronorubrum" cmphy:species="aibiense" cmphy:strain="7-37" cmphy:id="DQZ05516" editRecord="[2__Z]"> Natronorubrum aibiense 7-37 (DQ205516)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="530.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="452.0" y="475.0"/>
+   <node id="NT1.3" label="NT1.3" x="463.0" y="406.0"/>
+   <node id="NT1.5" label="NT1.5" x="524.0" y="196.0"/>
+   <node id="NT1.6" label="NT1.6" x="540.0" y="119.0"/>
+   <node id="NT1.7" x="551.0" y="272.0" label="93"/>
+   <node id="NT1.8" x="580.0" y="69.0" label="99"/>
+   <node id="NT1.9" x="580.0" y="168.0" label="95"/>
+   <node id="NT1.11" label="NT1.11" x="609.0" y="543.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="617.0" y="344.0"/>
+   <node id="NT1.15" label="NT1.15" x="646.0" y="499.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="647.0" y="234.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="664.0" y="191.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="671.0" y="366.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="676.0" y="322.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="680.0" y="102.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="697.0" y="146.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="733.0" y="57.0" otu="otu14"/>
+   <edge id="e.1" target="NT1.26" source="NT1.8"/>
+   <edge id="e.2" source="NT1.8" target="NT1.23"/>
+   <edge id="e.3" source="NT1.9" target="NT1.19"/>
+   <edge id="e.4" source="NT1.9" target="NT1.25"/>
+   <edge id="e.5" source="NT1.7" target="NT1.16"/>
+   <edge id="e.7" source="NT1.12" target="NT1.21"/>
+   <edge id="e.8" source="NT1.12" target="NT1.22"/>
+   <edge id="e.11" source="NT1.3" target="NT1.15"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" source="NT1.6" target="NT1.8"/>
+   <edge id="e.15" source="NT1.5" target="NT1.6"/>
+   <edge id="e.16" source="NT1.6" target="NT1.9"/>
+   <edge id="e.20" target="NT1.12" source="NT1.7"/>
+   <edge id="e.21" source="NT1.2" target="NT1.3"/>
+   <edge id="e.22" source="NT1.2" target="NT1.11"/>
+   <edge id="e.23" target="NT1.5" source="NT1.3"/>
+   <edge id="e.24" source="NT1.5" target="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

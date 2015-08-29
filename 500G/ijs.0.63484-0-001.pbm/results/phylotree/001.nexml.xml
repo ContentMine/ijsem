@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Bacillus" cmphy:species="halodurans" cmphy:strain="DSM 497T" cmphy:id="AJB02709" editRecord="[3__B]">Bacillus halodurans DSM 497T (AJ302709)</otu>
+  <otu id="otu3" cmphy:genus="Bacillus" cmphy:species="alcalophilus" cmphy:strain="DSM 4857" cmphy:id="X76436" editRecord="[]">Bacillus alcalophilus DSM 4857 (X76436)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Paenibacilus" cmphy:species="anaericanus" cmphy:strain="MH21T" cmphy:id="AJB18909" editRecord="[3__B]">Paenibacilus anaericanus MH21T (AJ318909)</otu>
+  <otu id="otu5" cmphy:genus="Paenibacillus" cmphy:species="chibensis" cmphy:strain="NRRL B-1427" cmphy:id="D85395" editRecord="[]">Paenibacillus chibensis NRRL B-1427 (D85395)</otu>
+  <otu id="otu6" cmphy:genus="Bacillus" cmphy:species="cereus" cmphy:strain="IAM 12605T" cmphy:id="D16266" editRecord="[]">Bacillus cereus IAM 12605T (D16266)</otu>
+  <otu id="otu7" cmphy:genus="Paenibacillus" cmphy:species="borealis" cmphy:strain="DSM 131887" cmphy:id="AJO11322" editRecord="[]">Paenibacillus borealis DSM 131887 (AJO11322)</otu>
+  <otu id="otu8">Paenibacillus terrae AM 1 41T (AF391 124)</otu>
+  <otu id="otu9">Paenibacillus terrae AM 1 41T (AF391 124)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="terrae" cmphy:strain="MH72" cmphy:id="AJB18910" editRecord="[3__B]">Paenibacillus terrae MH72 (AJ318910)</otu>
+  <otu id="otu11" cmphy:genus="Paenibacillus" cmphy:species="durus" cmphy:strain="DSM 17357" cmphy:id="X77846" editRecord="[]">Paenibacillus durus DSM 17357 (X77846)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="polymyxa" cmphy:strain="DSM 367" cmphy:id="AJB20493" editRecord="[3__B]">Paenibacillus polymyxa DSM 367 (AJ320493)</otu>
+  <otu id="otu13" cmphy:genus="Paenibacillus" cmphy:species="macquariensis" cmphy:strain="NCTC 104197" cmphy:id="X60625" editRecord="[]">Paenibacillus macquariensis NCTC 104197 (X60625)</otu>
+  <otu id="otu14">Paenibacillus kribbensis AM49T (AF391 123)</otu>
+  <otu id="otu15" cmphy:genus="Paenibacillus" cmphy:species="peoriae" cmphy:strain="IFO 15541T" cmphy:id="D78476" editRecord="[]">Paenibacillus peoriae IFO 15541T (D78476)</otu>
+  <otu id="otu16">Paenibacillus azotofixans ATCC 35681 T (AJ251 192)</otu>
+  <otu id="otu17" cmphy:genus="Sporosarcina" cmphy:species="psychrophila" cmphy:strain="IAM 12468T" cmphy:id="D16277" editRecord="[]">Sporosarcina psychrophila IAM 12468T (D16277)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="23.0" y="1520.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="86.0" y="1520.0"/>
+   <node id="NT1.3" label="NT1.3" x="210.0" y="1657.0"/>
+   <node id="NT1.4" label="NT1.4" x="245.0" y="1697.0"/>
+   <node id="NT1.5" label="NT1.5" x="253.0" y="1624.0"/>
+   <node id="NT1.6" label="NT1.6" x="301.0" y="1357.0"/>
+   <node id="NT1.7" label="NT1.7" x="349.0" y="1505.0"/>
+   <node id="NT1.8" label="NT1.8" x="352.0" y="1642.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="359.0" y="1603.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="370.0" y="1472.0"/>
+   <node id="NT1.11" label="NT1.11" x="370.0" y="1545.0"/>
+   <node id="NT1.12" label="NT1.12" x="431.0" y="1490.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="438.0" y="1433.0"/>
+   <node id="NT1.14" label="NT1.14" x="449.0" y="1526.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="455.0" y="1679.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="458.0" y="1281.0"/>
+   <node id="NT1.17" label="NT1.17" x="471.0" y="1451.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="490.0" y="1298.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="494.0" y="1414.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="501.0" y="1243.0"/>
+   <node id="NT1.26" label="NT1.26" x="502.0" y="1263.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="502.0" y="1566.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="536.0" y="1223.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="567.0" y="1718.0" otu="otu17"/>
+   <edge id="e.0" source="NT1.25" target="NT1.26"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" target="NT1.24" source="NT1.13"/>
+   <edge id="e.6" source="NT1.16" target="NT1.25"/>
+   <edge id="e.7" source="NT1.6" target="NT1.16"/>
+   <edge id="e.10" source="NT1.2" target="NT1.6"/>
+   <edge id="e.11" source="NT1.6" target="NT1.7"/>
+   <edge id="e.12" source="NT1.7" target="NT1.11"/>
+   <edge id="e.13" source="NT1.7" target="NT1.10"/>
+   <edge id="e.14" source="NT1.10" target="NT1.13"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.3" target="NT1.4"/>
+   <edge id="e.18" source="NT1.3" target="NT1.5"/>
+   <edge id="e.19" source="NT1.5" target="NT1.8"/>
+   <edge id="e.20" source="NT1.5" target="NT1.9"/>
+   <edge id="e.21" source="NT1.4" target="NT1.15"/>
+   <edge id="e.22" source="NT1.4" target="NT1.32"/>
+   <edge id="e.23" source="NT1.10" target="NT1.12"/>
+   <edge id="e.24" source="NT1.11" target="NT1.14"/>
+   <edge id="e.25" source="NT1.11" target="NT1.27"/>
+   <edge id="e.26" source="NT1.13" target="NT1.17"/>
+   <edge id="e.27" target="NT1.22" source="NT1.16"/>
+   <edge id="e.30" target="NT1.30" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

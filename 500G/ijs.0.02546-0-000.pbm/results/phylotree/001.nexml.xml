@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Arthrobacter" cmphy:species="globiformis" cmphy:strain="JCM 1332i" cmphy:id="ABO89841" editRecord="[0__O]">Arthrobacter globiformis JCM 1332i (AB089841)</otu>
+  <otu id="otu2">B. subtilis IAM 12113T(AB042061)</otu>
+  <otu id="otu3" cmphy:edit="[B__8, B__8, S__5]" cmphy:genus="S." cmphy:species="thermosulfidooxidans" cmphy:strain="DSM 92937" cmphy:id="ABO85844" editRecord="[B__8, B__8, S__5]">S. thermosulfidooxidans DSM 92937 (ABOBSB44)</otu>
+  <otu id="otu4">B. Iusciae IFO 15312i (AB042062)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="acidophilus" cmphy:strain="DSM 103327" cmphy:id="ABO89842" editRecord="[0__O]">S. acidophilus DSM 103327 (AB089842)</otu>
+  <otu id="otu6">A. herbarius CP17 (AB042055)</otu>
+  <otu id="otu7">A. cycloheptanicus DSM 40067 (ABD42059)</otu>
+  <otu id="otu8" cmphy:genus="S." cmphy:species="disulfidooxidans" cmphy:strain="DSM 120647" cmphy:id="ABD89843" editRecord="[]">S. disulfidooxidans DSM 120647 (ABD89843)</otu>
+  <otu id="otu9"> A. pomorum 3A7 (AB089B40)</otu>
+  <otu id="otu10">A. hesperidum DSM 12489' (AB059678)</otu>
+  <otu id="otu11">A. acidocaldarius subsp. rittmannii DSM 112971 (ABOB9859)</otu>
+  <otu id="otu12"> A. acidoterreslris ATCC 49025T (AB042057)</otu>
+  <otu id="otu13">Alicyclobacillus genomic species 2 MlH332 (AB060165)</otu>
+  <otu id="otu14">Alicyclobacillus genomic species 1 DSM 11984 (AB05966B)</otu>
+  <otu id="otu15"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="22.0" y="443.0"/>
+   <node id="NT1.4" label="NT1.4" x="231.0" y="484.0"/>
+   <node id="NT1.5" label="NT1.5" x="241.0" y="540.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="330.0" y="505.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="335.0" y="469.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="401.0" y="328.0" otu="otu8"/>
+   <node id="NT1.29" label="NT1.29" x="2.0" y="447.0" root="true"/>
+   <edge id="e.8" source="NT1.4" target="NT1.9"/>
+   <edge id="e.9" source="NT1.4" target="NT1.11"/>
+   <edge id="e.20" source="NT1.1" target="NT1.4"/>
+   <edge id="e.21" source="NT1.29" target="NT1.1"/>
+   <edge id="e.22" source="NT1.29" target="NT1.5"/>
+   <edge id="e.25" target="NT1.16" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

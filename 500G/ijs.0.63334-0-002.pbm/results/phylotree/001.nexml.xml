@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Phenylobacterium immobile DSM 1 9867 (Y1 821 6)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Caulobacter" cmphy:species="fusiforrnis" cmphy:strain="ATCC 152577" cmphy:id="AJZ27759" editRecord="[2__Z]"> Caulobacter fusiforrnis ATCC 152577 (AJ227759)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">Caulobacter vibn'oides CB51T (AJ009957)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="vesicularis" cmphy:strain="LMG 11141" cmphy:id="AJZ27781" editRecord="[2__Z]">Brevundimonas vesicularis LMG 11141 (AJ227781)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="aurantiaca" cmphy:strain="CB-RT" cmphy:id="AJZ27787" editRecord="[2__Z]">Brevundimonas aurantiaca CB-RT (AJ227787)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Mycoplana" cmphy:species="bullata" cmphy:strain="IAM 131537" cmphy:id="D12785" editRecord="[]">Mycoplana bullata IAM 131537 (D12785)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="alba" cmphy:strain="CB88T" cmphy:id="AJZ27785" editRecord="[2__Z]">Brevundimonas alba CB88T (AJ227785)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="bacteroides" cmphy:strain="CB7T" cmphy:id="AJZ27782" editRecord="[2__Z]">Brevundimonas bacteroides CB7T (AJ227782)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Brevundimonas" cmphy:species="diminuta" cmphy:strain="DSM 1635" cmphy:id="X87274" editRecord="[]">Brevundimonas diminuta DSM 1635 (X87274)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Asticcacaulis" cmphy:species="biprosthecium" cmphy:strain="DSM 47237" cmphy:id="AJZ47193" editRecord="[2__Z]">Asticcacaulis biprosthecium DSM 47237 (AJ247193)</otu>
+  <otu id="otu15">T3-B7T (AY500141)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Asticcacaulis" cmphy:species="excentricus" cmphy:strain="DSM 4724T" cmphy:id="AJZ47194" editRecord="[2__Z]">Asticcacaulis excentricus DSM 4724T (AJ247194)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="148.0" y="426.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="184.0" y="322.0"/>
+   <node id="NT1.5" label="NT1.5" x="245.0" y="236.0"/>
+   <node id="NT1.6" label="NT1.6" x="261.0" y="153.0"/>
+   <node id="NT1.8" label="NT1.8" x="280.0" y="502.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="289.0" y="100.0"/>
+   <node id="NT1.13" x="297.0" y="228.0" label="50"/>
+   <node id="NT1.14" x="299.0" y="309.0" label="92"/>
+   <node id="NT1.16" x="311.0" y="408.0" label="100"/>
+   <node id="NT1.17" label="NT1.17" x="320.0" y="257.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="329.0" y="217.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="336.0" y="338.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="368.0" y="94.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="384.0" y="135.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="389.0" y="297.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="443.0" y="419.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="499.0" y="376.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="3.0" y="559.0" root="true"/>
+   <edge id="e.1" source="NT1.11" target="NT1.23"/>
+   <edge id="e.3" source="NT1.13" target="NT1.17"/>
+   <edge id="e.4" source="NT1.13" target="NT1.18"/>
+   <edge id="e.5" source="NT1.14" target="NT1.25"/>
+   <edge id="e.9" source="NT1.6" target="NT1.11"/>
+   <edge id="e.10" source="NT1.5" target="NT1.6"/>
+   <edge id="e.12" target="NT1.13" source="NT1.6"/>
+   <edge id="e.13" source="NT1.4" target="NT1.5"/>
+   <edge id="e.14" source="NT1.5" target="NT1.14"/>
+   <edge id="e.15" source="NT1.4" target="NT1.16"/>
+   <edge id="e.19" source="NT1.31" target="NT1.1"/>
+   <edge id="e.21" source="NT1.1" target="NT1.4"/>
+   <edge id="e.22" target="NT1.8" source="NT1.1"/>
+   <edge id="e.24" source="NT1.14" target="NT1.21"/>
+   <edge id="e.25" target="NT1.22" source="NT1.11"/>
+   <edge id="e.27" target="NT1.28" source="NT1.16"/>
+   <edge id="e.29" source="NT1.16" target="NT1.30"/>
+  </tree>
+ </trees>
+</nexml>

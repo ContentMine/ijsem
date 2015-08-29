@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="S." cmphy:species="bangladeshensis" cmphy:strain="AAB-4T" cmphy:id="AY750056" editRecord="[]">S. bangladeshensis AAB-4T (AY750056)</otu>
+  <otu id="otu3" cmphy:genus="S." cmphy:species="thermoviolaceus" cmphy:strain="DSM 40443T" cmphy:id="Z68096" editRecord="[]">S. thermoviolaceus DSM 40443T (Z68096)</otu>
+  <otu id="otu4" cmphy:genus="S." cmphy:species="thermodiastaticus" cmphy:strain="JCM 48407" cmphy:id="ABO18096" editRecord="[]">S. thermodiastaticus JCM 48407 (ABO18096)</otu>
+  <otu id="otu5" cmphy:genus="S." cmphy:species="tendae" cmphy:strain="ATCC 198127" cmphy:id="D63873" editRecord="[]">S. tendae ATCC 198127 (D63873)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="violaceus" cmphy:strain="NRRL-ISP 5209T" cmphy:id="AJB99480" editRecord="[3__B]">S. violaceus NRRL-ISP 5209T (AJ399480)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="roseoviolaceus" cmphy:strain="NRRL-ISP 52777" cmphy:id="AJB99484" editRecord="[3__B]">S. roseoviolaceus NRRL-ISP 52777 (AJ399484)</otu>
+  <otu id="otu8">Streptomyces sp. 40005 (AY295793)</otu>
+  <otu id="otu9">Streptomyces sp. 40003 (AY177662)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="S." cmphy:species="violaceoruber" cmphy:strain="ICSSB 1018" cmphy:id="AFS03494" editRecord="[5__S]">S. violaceoruber ICSSB 1018 (AF503494)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="S." cmphy:species="coelescens" cmphy:strain="DSM 40421T" cmphy:id="AFS03496" editRecord="[5__S]">S. coelescens DSM 40421T (AF503496)</otu>
+  <otu id="otu12">'S. lividans' NRRL B-16637 (AF503498)</otu>
+  <otu id="otu13">'3. caesius' DSM 40419 (AF503495)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="S." cmphy:species="coelescens" cmphy:strain="DSM 40421T" cmphy:id="AFS03496" editRecord="[5__S]">S. coelescens DSM 40421T (AF503496)</otu>
+  <otu id="otu15">'8. cyanogenus1 DSM 40426 (AF503500)</otu>
+  <otu id="otu16">S. violaceolatus DSM 40438T (AF5034Q7)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="S." cmphy:species="humiferus" cmphy:strain="DSM 43030T" cmphy:id="AFS03491" editRecord="[5__S]">S. humiferus DSM 43030T (AF503491)</otu>
+  <otu id="otu18">Streptomyces sp. 40002 (AY295791)</otu>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="janthinus" cmphy:strain="NRRL-ISP 5206T" cmphy:id="AJB99478" editRecord="[3__B]">S. janthinus NRRL-ISP 5206T (AJ399478)</otu>
+  <otu id="otu20">Streptomyces sp. MS-165 (AY645904)</otu>
+  <otu id="otu21">s. coelicolor A3(2) (Y00411)</otu>
+  <otu id="otu22">S. Iongisporus NRRL-ISP 51667</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="22.0" y="1038.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="25.0" y="1038.0"/>
+   <node id="NT1.3" label="NT1.3" x="31.0" y="1305.0"/>
+   <node id="NT1.5" label="NT1.5" x="227.0" y="906.0"/>
+   <node id="NT1.6" label="NT1.6" x="294.0" y="1240.0"/>
+   <node id="NT1.7" label="NT1.7" x="361.0" y="1342.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="424.0" y="1272.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="552.0" y="1203.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="589.0" y="761.0"/>
+   <node id="NT1.11" label="NT1.11" x="610.0" y="924.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="624.0" y="1044.0"/>
+   <node id="NT1.13" label="NT1.13" x="628.0" y="1081.0"/>
+   <node id="NT1.14" label="NT1.14" x="629.0" y="1062.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="631.0" y="1149.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="748.0" y="231.0"/>
+   <node id="NT1.22" label="NT1.22" x="755.0" y="16.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="756.0" y="418.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="769.0" y="415.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="782.0" y="576.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="797.0" y="994.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.21" target="NT1.22"/>
+   <edge id="e.4" source="NT1.21" target="NT1.23"/>
+   <edge id="e.5" source="NT1.21" target="NT1.27"/>
+   <edge id="e.6" target="NT1.32" source="NT1.21"/>
+   <edge id="e.11" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" source="NT1.13" target="NT1.14"/>
+   <edge id="e.14" target="NT1.21" source="NT1.10"/>
+   <edge id="e.20" source="NT1.5" target="NT1.10"/>
+   <edge id="e.21" source="NT1.2" target="NT1.5"/>
+   <edge id="e.22" source="NT1.5" target="NT1.12"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.24" source="NT1.12" target="NT1.13"/>
+   <edge id="e.26" source="NT1.3" target="NT1.6"/>
+   <edge id="e.27" target="NT1.7" source="NT1.3"/>
+   <edge id="e.29" source="NT1.6" target="NT1.8"/>
+   <edge id="e.30" source="NT1.6" target="NT1.9"/>
+   <edge id="e.31" source="NT1.10" target="NT1.11"/>
+   <edge id="e.32" source="NT1.13" target="NT1.15"/>
+   <edge id="e.33" source="NT1.12" target="NT1.34"/>
+  </tree>
+ </trees>
+</nexml>

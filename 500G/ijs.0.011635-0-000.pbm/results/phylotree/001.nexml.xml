@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Kocuria rosea</otu>
+  <otu id="otu2">Citricoccus zhacaiensis</otu>
+  <otu id="otu3">Citricoccus alkalitolerans YIM 7001 OT (AY376164)</otu>
+  <otu id="otu4">Micrococcus Iuteus DSM 20030T (AJ536198)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Citricoccus" cmphy:species="muralis" cmphy:strain="4-OT" cmphy:id="AJB44143" editRecord="[3__B]">Citricoccus muralis 4-OT (AJ344143)</otu>
+  <otu id="otu6" cmphy:genus="Arthrobacter" cmphy:species="agilis" cmphy:strain="DSM 205507" cmphy:id="X80748" editRecord="[]">Arthrobacter agilis DSM 205507 (X80748)</otu>
+  <otu id="otu7">Micrococcus lylae</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Micrococcus" cmphy:species="antarcticus" cmphy:strain="T2T" cmphy:id="AJO05932" editRecord="[0__O]">Micrococcus antarcticus T2T (AJ005932)</otu>
+  <otu id="otu9">Kocuria kristinae</otu>
+  <otu id="otu10">Kocuria</otu>
+  <otu id="otu11">Micrococcus flavus</otu>
+  <otu id="otu12">Nesterenkonia halobia</otu>
+  <otu id="otu13">Kytococcus sedentarius</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="23.0" y="335.0"/>
+   <node id="NT1.2" label="NT1.2" x="54.0" y="252.0"/>
+   <node id="NT1.3" label="NT1.3" x="54.0" y="416.0"/>
+   <node id="NT1.4" label="NT1.4" x="120.0" y="455.0"/>
+   <node id="NT1.5" label="NT1.5" x="126.0" y="172.0"/>
+   <node id="NT1.6" label="NT1.6" x="160.0" y="489.0"/>
+   <node id="NT1.7" label="NT1.7" x="199.0" y="229.0"/>
+   <node id="NT1.8" label="NT1.8" x="207.0" y="112.0"/>
+   <node id="NT1.9" label="NT1.9" x="228.0" y="73.0"/>
+   <node id="NT1.10" label="NT1.10" x="231.0" y="422.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="233.0" y="196.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="250.0" y="39.0"/>
+   <node id="NT1.13" label="NT1.13" x="257.0" y="263.0"/>
+   <node id="NT1.14" label="NT1.14" x="272.0" y="241.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="282.0" y="106.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="283.0" y="287.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="296.0" y="332.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="307.0" y="151.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="335.0" y="15.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="366.0" y="468.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="367.0" y="513.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="399.0" y="60.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="399.0" y="377.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="399.0" y="558.0" otu="otu13"/>
+   <edge source="NT1.23" target="NT1.3" id="e.0"/>
+   <edge source="NT1.21" target="NT1.6" id="e.1"/>
+   <edge source="NT1.12" target="NT1.9" id="e.2"/>
+   <edge source="NT1.9" target="NT1.8" id="e.3"/>
+   <edge source="NT1.8" target="NT1.5" id="e.4"/>
+   <edge source="NT1.5" target="NT1.2" id="e.5"/>
+   <edge source="NT1.5" target="NT1.7" id="e.6"/>
+   <edge source="NT1.7" target="NT1.13" id="e.7"/>
+   <edge source="NT1.2" target="NT1.1" id="e.8"/>
+   <edge source="NT1.1" target="NT1.3" id="e.9"/>
+   <edge source="NT1.3" target="NT1.4" id="e.10"/>
+   <edge source="NT1.4" target="NT1.6" id="e.11"/>
+   <edge source="NT1.24" target="NT1.1" id="e.12"/>
+   <edge source="NT1.17" target="NT1.2" id="e.13"/>
+   <edge source="NT1.10" target="NT1.4" id="e.14"/>
+   <edge source="NT1.11" target="NT1.7" id="e.15"/>
+   <edge source="NT1.20" target="NT1.6" id="e.16"/>
+   <edge source="NT1.18" target="NT1.8" id="e.17"/>
+   <edge source="NT1.15" target="NT1.9" id="e.18"/>
+   <edge source="NT1.14" target="NT1.13" id="e.19"/>
+   <edge source="NT1.16" target="NT1.13" id="e.20"/>
+   <edge source="NT1.19" target="NT1.12" id="e.21"/>
+   <edge source="NT1.22" target="NT1.12" id="e.22"/>
+  </tree>
+ </trees>
+</nexml>

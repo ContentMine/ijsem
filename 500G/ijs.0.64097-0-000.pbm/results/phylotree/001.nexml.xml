@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="hawaiiana" cmphy:strain="CBS 9146T" cmphy:id="AFS14293" editRecord="[5__S]">Candida hawaiiana CBS 9146T (AF514293)</otu>
+  <otu id="otu3">Me-tschnikowia agaves CBS 7744T (U84243)</otu>
+  <otu id="otu4" cmphy:genus="Metschnikowia" cmphy:species="pulcherrima" cmphy:strain="CBS 5833T" cmphy:id="U45736" editRecord="[]">Metschnikowia pulcherrima CBS 5833T (U45736)</otu>
+  <otu id="otu5" cmphy:genus="Clavispora" cmphy:species="opuntiae" cmphy:strain="CBS 7O68T" cmphy:id="U44818" editRecord="[]">Clavispora opuntiae CBS 7O68T (U44818)</otu>
+  <otu id="otu6" cmphy:genus="Candida" cmphy:species="saopaulonensis" cmphy:strain="UNESP 00-99T" cmphy:id="AY695398" editRecord="[]">Candida saopaulonensis UNESP 00-99T (AY695398)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="picinguabensis" cmphy:strain="UNESP 00-897" cmphy:id="AYS66407" editRecord="[5__S]">Candida picinguabensis UNESP 00-897 (AY566407)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Metschnikowia" cmphy:species="drosophilae" cmphy:strain="CBS 88097" cmphy:id="AFZ79303" editRecord="[2__Z]">Metschnikowia drosophilae CBS 88097 (AF279303)</otu>
+  <otu id="otu9" cmphy:genus="Metschnikowia" cmphy:species="lunata" cmphy:strain="CBS 5946T" cmphy:id="U45733" editRecord="[]">Metschnikowia lunata CBS 5946T (U45733)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="kipukae" cmphy:strain="CBS 9147T" cmphy:id="AFS14294" editRecord="[5__S]">Candida kipukae CBS 9147T (AF514294)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="57.0" y="319.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="94.0" y="319.0"/>
+   <node id="NT1.3" label="NT1.3" x="119.0" y="227.0"/>
+   <node id="NT1.5" label="NT1.5" x="147.0" y="266.0"/>
+   <node id="NT1.6" label="NT1.6" x="162.0" y="150.0"/>
+   <node id="NT1.7" label="NT1.7" x="183.0" y="185.0"/>
+   <node id="NT1.8" label="NT1.8" x="218.0" y="399.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="305.0" y="110.0"/>
+   <node id="NT1.11" label="NT1.11" x="308.0" y="245.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="310.0" y="363.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="336.0" y="128.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="341.0" y="89.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="349.0" y="284.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="392.0" y="207.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="407.0" y="168.0" otu="otu10"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" target="NT1.12" source="NT1.5"/>
+   <edge id="e.2" source="NT1.6" target="NT1.10"/>
+   <edge id="e.3" source="NT1.3" target="NT1.6"/>
+   <edge id="e.4" source="NT1.6" target="NT1.7"/>
+   <edge id="e.5" source="NT1.2" target="NT1.3"/>
+   <edge id="e.6" source="NT1.3" target="NT1.5"/>
+   <edge id="e.8" source="NT1.2" target="NT1.8"/>
+   <edge id="e.10" source="NT1.5" target="NT1.11"/>
+   <edge id="e.11" source="NT1.5" target="NT1.15"/>
+   <edge id="e.12" source="NT1.7" target="NT1.16"/>
+   <edge id="e.13" source="NT1.7" target="NT1.17"/>
+   <edge id="e.14" source="NT1.10" target="NT1.13"/>
+   <edge id="e.15" source="NT1.10" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

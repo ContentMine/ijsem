@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Bacillus" cmphy:species="acidicola" cmphy:strain="105-2T" cmphy:id="AFS47209" editRecord="[5__S]">Bacillus acidicola 105-2T (AF547209)</otu>
+  <otu id="otu3">Bacillus shackletonii LMG 18485T(AJ25O318)</otu>
+  <otu id="otu4">Bacillus aquimaris TF-12T(AF483625)</otu>
+  <otu id="otu5">Bacillus soli LMG 21838T(AJ542513)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Bacillus vireti LMG 21834T(AJ5425O9)</otu>
+  <otu id="otu8">Bacillus novalis LMG 21837T(AJ542512)</otu>
+  <otu id="otu9">Bacillus hwajinpoensis SW-72T(AF541966)</otu>
+  <otu id="otu10">Bacillus alkalinitrilicus ANL-iso4T (EF42241 1)</otu>
+  <otu id="otu11">Bacillus alkalidiazotrophicus MS 6T(EU14368O)</otu>
+  <otu id="otu12" cmphy:genus="Bacillus" cmphy:species="akibai" cmphy:strain="1 139T" cmphy:id="ABO43858" editRecord="[]">Bacillus akibai 1 139T (ABO43858)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="okhensis" cmphy:strain="Kh1O-1017" cmphy:id="DQO26060" editRecord="[0__O]">Bacillus okhensis Kh1O-1017 (DQ026060)</otu>
+  <otu id="otu15" cmphy:genus="Bacillus" cmphy:species="macyae" cmphy:strain="JMM-4T" cmphy:id="AYO82601" editRecord="[]">Bacillus macyae JMM-4T (AYO82601)</otu>
+  <otu id="otu16" cmphy:genus="Bacillus" cmphy:species="arseniciselenatis" cmphy:strain="E1 HT" cmphy:id="AFO64705" editRecord="[]">Bacillus arseniciselenatis E1 HT (AFO64705)</otu>
+  <otu id="otu17">Bacillus taeanensis BHO3O017T(AY603978)</otu>
+  <otu id="otu18" cmphy:genus="Staphylococcus" cmphy:species="aureus" cmphy:strain="ATCC 29740" cmphy:id="AFO15929" editRecord="[]">Staphylococcus aureus ATCC 29740 (AFO15929)</otu>
+  <otu id="otu19" cmphy:genus="Bacillus" cmphy:species="hemicentroti" cmphy:strain="JSM O76093T" cmphy:id="HM460885" editRecord="[]">Bacillus hemicentroti JSM O76093T (HM460885)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="495.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="495.0"/>
+   <node id="NT1.3" label="NT1.3" x="110.0" y="422.0"/>
+   <node id="NT1.7" label="NT1.7" x="225.0" y="248.0"/>
+   <node id="NT1.9" label="NT1.9" x="257.0" y="163.0"/>
+   <node id="NT1.12" label="NT1.12" x="323.0" y="433.0" otu="otu2"/>
+   <node id="NT1.19" label="NT1.19" x="385.0" y="91.0"/>
+   <node id="NT1.20" label="NT1.20" x="389.0" y="201.0"/>
+   <node id="NT1.29" label="NT1.29" x="488.0" y="221.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="503.0" y="186.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="513.0" y="115.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="549.0" y="80.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="569.0" y="644.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="574.0" y="292.0" otu="otu19"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" target="NT1.19" source="NT1.9"/>
+   <edge id="e.5" source="NT1.7" target="NT1.9"/>
+   <edge id="e.6" source="NT1.9" target="NT1.20"/>
+   <edge id="e.7" target="NT1.7" source="NT1.3"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.18" source="NT1.2" target="NT1.35"/>
+   <edge id="e.22" target="NT1.12" source="NT1.3"/>
+   <edge id="e.28" source="NT1.20" target="NT1.29"/>
+   <edge id="e.30" source="NT1.20" target="NT1.31"/>
+   <edge id="e.31" source="NT1.19" target="NT1.32"/>
+   <edge id="e.33" target="NT1.33" source="NT1.19"/>
+   <edge id="e.34" target="NT1.36" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

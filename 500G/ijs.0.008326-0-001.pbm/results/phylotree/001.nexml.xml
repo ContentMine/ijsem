@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Maricaulis" cmphy:species="salignorans" cmphy:strain="MCS 18T" cmphy:id="AJZ27806" editRecord="[2__Z]">Maricaulis salignorans MCS 18T (AJ227806)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Maricaulis" cmphy:species="washingtonensis" cmphy:strain="MCS 6'" cmphy:id="AJZ27804" editRecord="[2__Z]">Maricaulis washingtonensis MCS 6' (AJ227804)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Hyphomonas" cmphy:species="jannaschiana" cmphy:strain="ATCC 33883T" cmphy:id="AJZ27814" editRecord="[2__Z]">Hyphomonas jannaschiana ATCC 33883T (AJ227814)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Maricaulis virginensis VC-5T (AJ301 667)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Maricaulis" cmphy:species="parjimensis" cmphy:strain="MCS 25'" cmphy:id="AJZ27808" editRecord="[2__Z]">Maricaulis parjimensis MCS 25' (AJ227808)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17">Hyph</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:edit="[0__O]" cmphy:genus="Hyphomonas" cmphy:species="rosenbergii" cmphy:strain="VP6T" cmphy:id="AFO82795" editRecord="[0__O]"> Hyphomonas rosenbergii VP6T (AF082795)</otu>
+  <otu id="otu23" cmphy:edit="[0__O]" cmphy:genus="Hyphomonas" cmphy:species="hirschiana" cmphy:strain="VP5T" cmphy:id="AFO82794" editRecord="[0__O]"> Hyphomonas hirschiana VP5T (AF082794)</otu>
+  <otu id="otu24">Rhodobacter capsulatus ATCC 1 1 166 (D1 6428)</otu>
+  <otu id="otu25"/>
+  <otu id="otu26">Oceanicaulis alexandrii C1 1 6-3 (AJ309863)</otu>
+  <otu id="otu27"> Hirschia baltica DSM 5e3aT (A1421 782)</otu>
+  <otu id="otu28"/>
+  <otu id="otu29">Roseobacter Iitoralis ATCC 49566T (X7831 2)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="1083.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="86.0" y="841.0"/>
+   <node id="NT1.12" label="NT1.12" x="201.0" y="984.0"/>
+   <node id="NT1.14" label="NT1.14" x="270.0" y="301.0"/>
+   <node id="NT1.19" label="NT1.19" x="340.0" y="1070.0"/>
+   <node id="NT1.20" label="NT1.20" x="341.0" y="1028.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="343.0" y="1112.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="348.0" y="269.0" otu="otu10"/>
+   <node id="NT1.30" label="NT1.30" x="364.0" y="858.0" otu="otu14"/>
+   <node id="NT1.38" label="NT1.38" x="383.0" y="395.0"/>
+   <node id="NT1.43" label="NT1.43" x="400.0" y="437.0" otu="otu22"/>
+   <node id="NT1.44" label="NT1.44" x="400.0" y="353.0" otu="otu23"/>
+   <edge id="e.4" target="NT1.26" source="NT1.14"/>
+   <edge id="e.9" target="NT1.43" source="NT1.38"/>
+   <edge id="e.10" source="NT1.38" target="NT1.44"/>
+   <edge id="e.23" source="NT1.19" target="NT1.20"/>
+   <edge id="e.24" target="NT1.30" source="NT1.12"/>
+   <edge id="e.30" target="NT1.14" source="NT1.3"/>
+   <edge id="e.33" target="NT1.38" source="NT1.14"/>
+   <edge id="e.39" target="NT1.3" source="NT1.1"/>
+   <edge id="e.43" target="NT1.12" source="NT1.3"/>
+   <edge id="e.44" source="NT1.12" target="NT1.19"/>
+   <edge id="e.47" source="NT1.19" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

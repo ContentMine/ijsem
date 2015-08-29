@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Saccharomonospora" cmphy:species="caesia" cmphy:strain="SB-58" cmphy:id="Z38024" editRecord="[]">Saccharomonospora caesia SB-58 (Z38024)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Prauserella" cmphy:species="rugosa" cmphy:strain="DSM 43194T" cmphy:id="AFO51342" editRecord="[0__O]">Prauserella rugosa DSM 43194T (AF051342)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Saccharomonospora" cmphy:species="xinjiangensis" cmphy:strain="DSM 44391T" cmphy:id="AJB06300" editRecord="[3__B]">Saccharomonospora xinjiangensis DSM 44391T (AJ306300)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Saccharomonospora" cmphy:species="saliphila" cmphy:strain="YIM 9O5O2T" cmphy:id="DQB67416" editRecord="[3__B]">Saccharomonospora saliphila YIM 9O5O2T (DQ367416)</otu>
+  <otu id="otu5" cmphy:genus="Saccharomonospora" cmphy:species="cyanea" cmphy:strain="NA-134T" cmphy:id="Z38018" editRecord="[]">Saccharomonospora cyanea NA-134T (Z38018)</otu>
+  <otu id="otu6">Saccharomonospora halophila DSM 4441 17 (AJ278497)</otu>
+  <otu id="otu7" cmphy:genus="Saccharomonospora" cmphy:species="glauca" cmphy:strain="DSM 437697" cmphy:id="Z38003" editRecord="[]">Saccharomonospora glauca DSM 437697 (Z38003)</otu>
+  <otu id="otu8">Prauserella alba YIM 90O05T (AF43507 7)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Saccharomonospora" cmphy:species="paurometabolica" cmphy:strain="YIM 9OOO7T" cmphy:id="AFS40959" editRecord="[5__S]">Saccharomonospora paurometabolica YIM 9OOO7T (AF540959)</otu>
+  <otu id="otu10">Prauserella halophila YIM 90001 T (AF4661 90)</otu>
+  <otu id="otu11">Saccharomonospora marina XMU15T (F181 2357)</otu>
+  <otu id="otu12">Amycolatopsis methanolica IMSNU 2O055T(AJ249135)</otu>
+  <otu id="otu13" cmphy:genus="Saccharomonospora" cmphy:species="viridis" cmphy:strain="NCIB 9602T" cmphy:id="Z38007" editRecord="[]">Saccharomonospora viridis NCIB 9602T (Z38007)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="48.0" y="285.0"/>
+   <node id="NT1.2" x="118.0" y="222.0" label="77"/>
+   <node id="NT1.3" label="NT1.3" x="154.0" y="155.0"/>
+   <node id="NT1.4" label="NT1.4" x="180.0" y="211.0"/>
+   <node id="NT1.5" label="NT1.5" x="222.0" y="98.0"/>
+   <node id="NT1.6" x="255.0" y="59.0" label="65"/>
+   <node id="NT1.7" label="NT1.7" x="258.0" y="347.0"/>
+   <node id="NT1.8" x="273.0" y="34.0" label="65"/>
+   <node id="NT1.9" label="NT1.9" x="281.0" y="134.0"/>
+   <node id="NT1.10" label="NT1.10" x="362.0" y="84.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="377.0" y="323.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="377.0" y="236.0"/>
+   <node id="NT1.13" label="NT1.13" x="378.0" y="16.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="380.0" y="186.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="385.0" y="50.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="403.0" y="373.0"/>
+   <node id="NT1.17" label="NT1.17" x="411.0" y="254.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="427.0" y="152.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="466.0" y="391.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="473.0" y="220.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="492.0" y="357.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="494.0" y="288.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="573.0" y="425.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="574.0" y="118.0" otu="otu13"/>
+   <edge source="NT1.14" target="NT1.4" id="e.0"/>
+   <edge source="NT1.17" target="NT1.12" id="e.1"/>
+   <edge source="NT1.21" target="NT1.16" id="e.2"/>
+   <edge source="NT1.8" target="NT1.6" id="e.3"/>
+   <edge source="NT1.6" target="NT1.5" id="e.4"/>
+   <edge source="NT1.5" target="NT1.3" id="e.5"/>
+   <edge source="NT1.5" target="NT1.9" id="e.6"/>
+   <edge source="NT1.3" target="NT1.2" id="e.7"/>
+   <edge source="NT1.3" target="NT1.4" id="e.8"/>
+   <edge source="NT1.4" target="NT1.12" id="e.9"/>
+   <edge source="NT1.2" target="NT1.1" id="e.10"/>
+   <edge source="NT1.1" target="NT1.7" id="e.11"/>
+   <edge source="NT1.7" target="NT1.16" id="e.12"/>
+   <edge source="NT1.23" target="NT1.1" id="e.13"/>
+   <edge source="NT1.22" target="NT1.2" id="e.14"/>
+   <edge source="NT1.10" target="NT1.6" id="e.15"/>
+   <edge source="NT1.11" target="NT1.7" id="e.16"/>
+   <edge source="NT1.15" target="NT1.8" id="e.17"/>
+   <edge source="NT1.13" target="NT1.8" id="e.18"/>
+   <edge source="NT1.18" target="NT1.9" id="e.19"/>
+   <edge source="NT1.24" target="NT1.9" id="e.20"/>
+   <edge source="NT1.20" target="NT1.12" id="e.21"/>
+   <edge source="NT1.19" target="NT1.16" id="e.22"/>
+  </tree>
+ </trees>
+</nexml>

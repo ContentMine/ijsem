@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Dialister pneumosintes ATCC 33048T (AY851 486)</otu>
+  <otu id="otu2">ADV 04.017 (AY851488)4 ADV 5155.03 (AY851497)1</otu>
+  <otu id="otu3">ADV 1417.04 (AY851499) </otu>
+  <otu id="otu4">ADV 5347.03 (AY851498)</otu>
+  <otu id="otu5">ADV 1413.03 (AY851504)</otu>
+  <otu id="otu6">ADV 4318.03 (AY851493)</otu>
+  <otu id="otu7">ADV 7057.03 (AY851495) </otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Megasphaera" cmphy:species="micronuciformis" cmphy:strain="CIP 107280T" cmphy:id="AYB51485" editRecord="[8__B]">Megasphaera micronuciformis CIP 107280T (AY851485)</otu>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Dialister" cmphy:species="invisus" cmphy:strain="DSM 154707" cmphy:id="AYB51487" editRecord="[8__B]">Dialister invisus DSM 154707 (AY851487)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">ADV 2463.03 (AY851502)</otu>
+  <otu id="otu12">ADV 4162.03 (AY851501) </otu>
+  <otu id="otu13"> ADV 1o53.o3T (AY851500) </otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.16" label="NT1.16" x="452.0" y="869.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="492.0" y="749.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="5.0" y="782.0" root="true"/>
+   <edge id="e.10" target="NT1.17" source="NT1.25"/>
+   <edge id="e.21" source="NT1.25" target="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

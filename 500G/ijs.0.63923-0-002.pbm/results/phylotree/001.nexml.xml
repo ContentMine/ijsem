@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Actinomyces bovis</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Arcanobacterium" cmphy:species="bernardiae" cmphy:strain="DSM 9152T" cmphy:id="X79224" editRecord="[]">Arcanobacterium bernardiae DSM 9152T (X79224)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Arcanobacterium" cmphy:species="pluranimalium" cmphy:strain="DSM 13483T" cmphy:id="AJZ50959" editRecord="[2__Z]">Arcanobacterium pluranimalium DSM 13483T (AJ250959)</otu>
+  <otu id="otu6">Mobiluncus curtisii subsp. holmesii ATCC 35242T (X86006)</otu>
+  <otu id="otu7">Arcanobacterium phocae DSM</otu>
+  <otu id="otu8">Arcanobacterium hippocoleae DSM</otu>
+  <otu id="otu9">Arcanobacterium haemolyticum</otu>
+  <otu id="otu10">1ActinobacuIum massiliae( CIP 107404 (AF487679)</otu>
+  <otu id="otu11">Arcanobacterium bonasi sp.</otu>
+  <otu id="otu12">Arcanobacterium bialowiezense sp. nov.</otu>
+  <otu id="otu13"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.4" label="NT1.4" x="367.0" y="165.0"/>
+   <node id="NT1.15" label="NT1.15" x="607.0" y="111.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="622.0" y="244.0" otu="otu5"/>
+   <node id="NT1.25" label="NT1.25" x="4.0" y="449.0" root="true"/>
+   <edge id="e.3" target="NT1.15" source="NT1.4"/>
+   <edge id="e.5" target="NT1.16" source="NT1.4"/>
+   <edge id="e.16" target="NT1.4" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

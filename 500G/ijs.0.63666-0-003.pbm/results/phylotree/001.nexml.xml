@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">V. lentus CIP 107166T (AY751359)</otu>
+  <otu id="otu2">V. harveyi IFO 15634T (AY247418)</otu>
+  <otu id="otu3">V. crassostreae LGP 8 (AY751340)</otu>
+  <otu id="otu4" cmphy:genus="v." cmphy:species="chagasii" cmphy:strain="LMG 21353T" cmphy:id="AY751345">v. chagasii LMG 21353T (AY751345)</otu>
+  <otu id="otu5" cmphy:genus="v." cmphy:species="splendidus" cmphy:strain="LMG 4o42T" cmphy:id="AY751344">v. splendidus LMG 4o42T (AY751344)</otu>
+  <otu id="otu6">LGP 45 (AY751339)</otu>
+  <otu id="otu7">LGP 37 (AY751338)</otu>
+  <otu id="otu8">V. pomeroyi LMG 2O537T (AY751342)</otu>
+  <otu id="otu9">LGP 13T (AY751336)</otu>
+  <otu id="otu10">V. cyclitrophicus LMG 21580 (AY751346)</otu>
+  <otu id="otu11">V. tasmaniensis LMG 20012T (AY751343)</otu>
+  <otu id="otu12"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="250.0" y="517.0"/>
+   <node id="NT1.2" label="NT1.2" x="315.0" y="333.0"/>
+   <node id="NT1.3" label="NT1.3" x="344.0" y="126.0"/>
+   <node id="NT1.4" label="NT1.4" x="396.0" y="299.0"/>
+   <node id="NT1.5" label="NT1.5" x="411.0" y="387.0"/>
+   <node id="NT1.6" label="NT1.6" x="473.0" y="297.0"/>
+   <node id="NT1.7" label="NT1.7" x="486.0" y="598.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="486.0" y="215.0"/>
+   <node id="NT1.9" label="NT1.9" x="496.0" y="99.0"/>
+   <node id="NT1.10" label="NT1.10" x="539.0" y="657.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="554.0" y="245.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="564.0" y="539.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="570.0" y="377.0"/>
+   <node id="NT1.14" label="NT1.14" x="574.0" y="334.0"/>
+   <node id="NT1.15" label="NT1.15" x="578.0" y="480.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="583.0" y="422.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="585.0" y="363.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="587.0" y="185.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="597.0" y="303.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="621.0" y="10.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="642.0" y="127.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="651.0" y="68.0" otu="otu12"/>
+   <edge source="NT1.20" target="NT1.3" id="e.0"/>
+   <edge source="NT1.15" target="NT1.5" id="e.1"/>
+   <edge source="NT1.22" target="NT1.9" id="e.2"/>
+   <edge source="NT1.11" target="NT1.8" id="e.3"/>
+   <edge source="NT1.18" target="NT1.8" id="e.4"/>
+   <edge source="NT1.16" target="NT1.13" id="e.5"/>
+   <edge source="NT1.12" target="NT1.2" id="e.6"/>
+   <edge source="NT1.17" target="NT1.14" id="e.7"/>
+   <edge source="NT1.19" target="NT1.14" id="e.8"/>
+   <edge source="NT1.7" target="NT1.1" id="e.9"/>
+   <edge source="NT1.3" target="NT1.4" id="e.10"/>
+   <edge source="NT1.3" target="NT1.2" id="e.11"/>
+   <edge source="NT1.4" target="NT1.9" id="e.12"/>
+   <edge source="NT1.4" target="NT1.5" id="e.13"/>
+   <edge source="NT1.2" target="NT1.1" id="e.14"/>
+   <edge source="NT1.5" target="NT1.6" id="e.15"/>
+   <edge source="NT1.6" target="NT1.13" id="e.16"/>
+   <edge source="NT1.6" target="NT1.8" id="e.17"/>
+   <edge source="NT1.13" target="NT1.14" id="e.18"/>
+   <edge source="NT1.10" target="NT1.1" id="e.19"/>
+   <edge source="NT1.21" target="NT1.9" id="e.20"/>
+  </tree>
+ </trees>
+</nexml>

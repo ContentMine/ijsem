@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Sporosarcina" cmphy:species="ureae" cmphy:strain="NCIMB 9251T" cmphy:id="X62175" editRecord="[]"> Sporosarcina ureae NCIMB 9251T (X62175)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Marinibacillus" cmphy:species="marinus" cmphy:strain="DSM 12977" cmphy:id="AJZ37708" editRecord="[2__Z]"> Marinibacillus marinus DSM 12977 (AJ237708)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Planomicrobium" cmphy:species="koreense" cmphy:strain="JGO7T" cmphy:id="AFI44750" editRecord="[1__I]">Planomicrobium koreense JGO7T (AF144750)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Jeotgalibacillus" cmphy:species="alimentarius" cmphy:strain="YKJ-13T" cmphy:id="AFZ81158" editRecord="[2__Z]">Jeotgalibacillus alimentarius YKJ-13T (AF281158)</otu>
+  <otu id="otu7" cmphy:genus="Macrococcus" cmphy:species="carouselicus" cmphy:strain="Kloos H8b16T" cmphy:id="Y15713" editRecord="[]">Macrococcus carouselicus Kloos H8b16T (Y15713)</otu>
+  <otu id="otu8" cmphy:genus="Macrococcus" cmphy:species="caseolyticus" cmphy:strain="ATCC 13548T" cmphy:id="Y15711" editRecord="[]">Macrococcus caseolyticus ATCC 13548T (Y15711)</otu>
+  <otu id="otu9" cmphy:genus="Macrococcus" cmphy:species="equipercicus" cmphy:strain="Kloos H8h3T" cmphy:id="Y15712" editRecord="[]">Macrococcus equipercicus Kloos H8h3T (Y15712)</otu>
+  <otu id="otu10" cmphy:genus="Macrococcus" cmphy:species="bovicus" cmphy:strain="Kloos C2F4T" cmphy:id="Y15714" editRecord="[]">Macrococcus bovicus Kloos C2F4T (Y15714)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Salinicoccus" cmphy:species="alkaliphilus" cmphy:strain="T8T" cmphy:id="AFZ75710" editRecord="[2__Z]">Salinicoccus alkaliphilus T8T (AF275710)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Salinicoccus" cmphy:species="hispanicus" cmphy:strain="DSM 53527" cmphy:id="AYO28927" editRecord="[0__O]"> Salinicoccus hispanicus DSM 53527 (AY028927)</otu>
+  <otu id="otu14" cmphy:edit="[O__0]" cmphy:genus="Staphylococcus" cmphy:species="vitulinus" cmphy:strain="ATCC 51145T" cmphy:id="ABO09946" editRecord="[O__0]">Staphylococcus vitulinus ATCC 51145T (ABOO9946)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Jeotgalicoccus" cmphy:species="psychrophilus" cmphy:strain="YKJ-1 15T" cmphy:id="AYO28926" editRecord="[]"> Jeotgalicoccus psychrophilus YKJ-1 15T (AYO28926)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Jeotgalicoccus" cmphy:species="pinnipedialis" cmphy:strain="CCUG 42722T" cmphy:id="AJZ51530" editRecord="[2__Z]">Jeotgalicoccus pinnipedialis CCUG 42722T (AJ251530)</otu>
+  <otu id="otu18">Marinococcus halophilus NC M B 2178T (X62171)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="274.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="45.0" y="274.0"/>
+   <node id="NT1.3" label="NT1.3" x="58.0" y="516.0"/>
+   <node id="NT1.4" label="NT1.4" x="90.0" y="482.0"/>
+   <node id="NT1.5" x="100.0" y="210.0" label="99"/>
+   <node id="NT1.6" label="NT1.6" x="101.0" y="559.0"/>
+   <node id="NT1.7" label="NT1.7" x="126.0" y="507.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="128.0" y="311.0"/>
+   <node id="NT1.10" label="NT1.10" x="142.0" y="92.0"/>
+   <node id="NT1.11" label="NT1.11" x="163.0" y="576.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="165.0" y="436.0" otu="otu4"/>
+   <node id="NT1.14" x="174.0" y="255.0" label="100"/>
+   <node id="NT1.15" label="NT1.15" x="176.0" y="540.0" otu="otu6"/>
+   <node id="NT1.16" x="177.0" y="370.0" label="00"/>
+   <node id="NT1.18" label="NT1.18" x="182.0" y="118.0"/>
+   <node id="NT1.19" x="199.0" y="148.0" label="91"/>
+   <node id="NT1.20" label="NT1.20" x="203.0" y="174.0"/>
+   <node id="NT1.21" label="NT1.21" x="204.0" y="156.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="210.0" y="87.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="210.0" y="122.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="213.0" y="192.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="231.0" y="367.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="235.0" y="401.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="241.0" y="52.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="271.0" y="297.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="284.0" y="227.0" otu="otu17"/>
+   <edge id="e.0" source="NT1.10" target="NT1.29"/>
+   <edge id="e.1" source="NT1.18" target="NT1.22"/>
+   <edge id="e.2" source="NT1.19" target="NT1.23"/>
+   <edge id="e.3" source="NT1.20" target="NT1.21"/>
+   <edge id="e.4" source="NT1.20" target="NT1.24"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" target="NT1.26" source="NT1.16"/>
+   <edge id="e.8" source="NT1.16" target="NT1.27"/>
+   <edge id="e.10" target="NT1.31" source="NT1.14"/>
+   <edge id="e.11" source="NT1.14" target="NT1.32"/>
+   <edge id="e.12" source="NT1.4" target="NT1.7"/>
+   <edge id="e.13" source="NT1.6" target="NT1.11"/>
+   <edge id="e.14" source="NT1.6" target="NT1.15"/>
+   <edge id="e.15" target="NT1.12" source="NT1.4"/>
+   <edge id="e.18" source="NT1.5" target="NT1.10"/>
+   <edge id="e.19" source="NT1.10" target="NT1.18"/>
+   <edge id="e.20" source="NT1.18" target="NT1.19"/>
+   <edge id="e.21" source="NT1.19" target="NT1.20"/>
+   <edge id="e.22" source="NT1.2" target="NT1.5"/>
+   <edge id="e.23" source="NT1.5" target="NT1.8"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+   <edge id="e.25" source="NT1.8" target="NT1.16"/>
+   <edge id="e.26" source="NT1.8" target="NT1.14"/>
+   <edge id="e.29" source="NT1.3" target="NT1.4"/>
+   <edge id="e.30" source="NT1.3" target="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

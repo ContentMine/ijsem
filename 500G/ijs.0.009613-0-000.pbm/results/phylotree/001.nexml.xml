@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Planomonospora" cmphy:species="parontospora" cmphy:strain="IFO 138807" cmphy:id="D85495" editRecord="[]">Planomonospora parontospora IFO 138807 (D85495)</otu>
+  <otu id="otu3">Sphaerisporangium melleum 3-28(8)T (AB208714)</otu>
+  <otu id="otu4" cmphy:genus="Herbidospora" cmphy:species="cretacea" cmphy:strain="JCM 85537" cmphy:id="D85485" editRecord="[]">Herbidospora cretacea JCM 85537 (D85485)</otu>
+  <otu id="otu5">Planobispora longispora IFO 13918T(DB5494)</otu>
+  <otu id="otu6">Acrocarpospora pleiomorpha R-317 (AB0061 74)</otu>
+  <otu id="otu7" cmphy:genus="Nonomuraea" cmphy:species="pusilla" cmphy:strain="IFO 146847" cmphy:id="D85491" editRecord="[]">Nonomuraea pusilla IFO 146847 (D85491)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"> Microbispora rosea subsp. rosea (M. amethystogenes) NBRC 101907 (U48988)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Streptosporangium" cmphy:species="roseum" cmphy:strain="DSM 430217" cmphy:id="U48996" editRecord="[]">Streptosporangium roseum DSM 430217 (U48996)</otu>
+  <otu id="otu13" cmphy:genus="Microtetraspora" cmphy:species="glauca" cmphy:strain="IFO 147617" cmphy:id="U48974" editRecord="[]">Microtetraspora glauca IFO 147617 (U48974)</otu>
+  <otu id="otu14">Microbispora rosea subsp. rosea NBRC 140447 (D86936)</otu>
+  <otu id="otu15">Microbispora rosea subsp. rosea (M. parva) ATCC 33326 (U489B5)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"> Microbispora rosea subsp. aerata (M. thermorosea) ATCC 27099 (U48987)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:edit="[1__I]" cmphy:genus="Microbispora" cmphy:species="siamensis" cmphy:strain="DMKUA 2457" cmphy:id="FJI99993" editRecord="[1__I]">Microbispora siamensis DMKUA 2457 (FJ199993)</otu>
+  <otu id="otu21">Thermopolyspora flexuosa DSM 431 86T (AYO39253)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="910.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="114.0" y="821.0"/>
+   <node id="NT1.3" x="174.0" y="750.0" label="64"/>
+   <node id="NT1.7" x="263.0" y="928.0" label="54"/>
+   <node id="NT1.8" x="316.0" y="538.0" label="B8"/>
+   <node id="NT1.10" x="347.0" y="438.0" label="60"/>
+   <node id="NT1.11" label="NT1.11" x="366.0" y="953.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="413.0" y="664.0" otu="otu4"/>
+   <node id="NT1.22" label="NT1.22" x="476.0" y="808.0" otu="otu7"/>
+   <node id="NT1.27" label="NT1.27" x="525.0" y="904.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="528.0" y="567.0" otu="otu13"/>
+   <node id="NT1.39" label="NT1.39" x="721.0" y="470.0" otu="otu20"/>
+   <edge id="e.10" source="NT1.10" target="NT1.28"/>
+   <edge id="e.11" target="NT1.39" source="NT1.10"/>
+   <edge id="e.12" target="NT1.14" source="NT1.8"/>
+   <edge id="e.15" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" source="NT1.3" target="NT1.22"/>
+   <edge id="e.17" source="NT1.7" target="NT1.11"/>
+   <edge id="e.20" source="NT1.7" target="NT1.27"/>
+   <edge id="e.30" source="NT1.8" target="NT1.10"/>
+   <edge id="e.31" target="NT1.8" source="NT1.3"/>
+   <edge id="e.35" source="NT1.2" target="NT1.3"/>
+   <edge id="e.37" target="NT1.7" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

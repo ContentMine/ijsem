@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Rhodobacter sphaeroidesIFO 122O3T (D15425)</otu>
+  <otu id="otu3">Rhodobacter capsulatus ATCC 1 1 166T(D16428)</otu>
+  <otu id="otu4" cmphy:genus="Ruegeria" cmphy:species="gelatinovorans" cmphy:strain="IAM 12617T" cmphy:id="D88523" editRecord="[]">Ruegeria gelatinovorans IAM 12617T (D88523)</otu>
+  <otu id="otu5" cmphy:genus="Ruegeria" cmphy:species="atlantica" cmphy:strain="IAM 14463T" cmphy:id="D83525" editRecord="[]">Ruegeria atlantica IAM 14463T (D83525)</otu>
+  <otu id="otu6" cmphy:genus="Sulfitobacter" cmphy:species="pontiacus" cmphy:strain="ChLG-10T" cmphy:id="Y13155" editRecord="[]">Sulfitobacter pontiacus ChLG-10T (Y13155)</otu>
+  <otu id="otu7">Leisingera methyIohaIidivoransMB2T (AYO05463)</otu>
+  <otu id="otu8">Silicibacter Iacuscaerulensis ITI-1 157T (U77644)</otu>
+  <otu id="otu9">Sulmobacter mediterraneus CH-B427T (Y1 7387)</otu>
+  <otu id="otu10" cmphy:genus="Ruegeria" cmphy:species="algicola" cmphy:strain="ATCC 51440T" cmphy:id="X78315" editRecord="[]">Ruegeria algicola ATCC 51440T (X78315)</otu>
+  <otu id="otu11" cmphy:genus="Roseovarius" cmphy:species="nubinhibens" cmphy:strain="ISMT" cmphy:id="AFO98495" editRecord="[]">Roseovarius nubinhibens ISMT (AFO98495)</otu>
+  <otu id="otu12">Silicibacter pomeroyi DSS-3T</otu>
+  <otu id="otu13">Roseobacter gallaeciensis BS1 07T (Y1 3244)</otu>
+  <otu id="otu14">Roseovarius crassostreaesp. nov. CV919-312T(AF114484)</otu>
+  <otu id="otu15">Roseobacterlitoralis ATCC 49566T</otu>
+  <otu id="otu16" cmphy:genus="Staleya" cmphy:species="guttiformis" cmphy:strain="EL-387" cmphy:id="Y16427" editRecord="[]">Staleya guttiformis EL-387 (Y16427)</otu>
+  <otu id="otu17">Roseovarius tolerans EL-172T (Y1 1551)</otu>
+  <otu id="otu18" cmphy:genus="Octadecabacter" cmphy:species="antarcticus" cmphy:strain="307T" cmphy:id="U14533" editRecord="[]">Octadecabacter antarcticus 307T (U14533)</otu>
+  <otu id="otu19">Roseobacterdenitrificans</otu>
+  <otu id="otu20" cmphy:genus="Sagittula" cmphy:species="stellata" cmphy:strain="IAM 12621T" cmphy:id="U58356" editRecord="[]">Sagittula stellata IAM 12621T (U58356)</otu>
+  <otu id="otu21">Antarctobacter heliothermus EL-219T (Y1 1552)</otu>
+  <otu id="otu22" cmphy:genus="Octadecabacter" cmphy:species="arcticus" cmphy:strain="238T" cmphy:id="U73725" editRecord="[]">Octadecabacter arcticus 238T (U73725)</otu>
+  <otu id="otu23">Stappia sp. CV812-530 (AF246614)</otu>
+  <otu id="otu24" cmphy:genus="Ahrensia" cmphy:species="kielensis" cmphy:strain="IAM 12618T" cmphy:id="D88524" editRecord="[]">Ahrensia kielensis IAM 12618T (D88524)</otu>
+  <otu id="otu25">Stappia stellulata</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="943.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="137.0" y="797.0"/>
+   <node id="NT1.7" label="NT1.7" x="258.0" y="497.0"/>
+   <node id="NT1.8" label="NT1.8" x="282.0" y="404.0"/>
+   <node id="NT1.9" label="NT1.9" x="294.0" y="523.0"/>
+   <node id="NT1.10" label="NT1.10" x="299.0" y="244.0"/>
+   <node id="NT1.11" label="NT1.11" x="300.0" y="701.0"/>
+   <node id="NT1.16" label="NT1.16" x="360.0" y="773.0"/>
+   <node id="NT1.20" label="NT1.20" x="401.0" y="444.0" otu="otu4"/>
+   <node id="NT1.21" label="NT1.21" x="415.0" y="177.0" otu="otu5"/>
+   <node id="NT1.23" label="NT1.23" x="434.0" y="815.0" otu="otu6"/>
+   <node id="NT1.27" label="NT1.27" x="437.0" y="868.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="439.0" y="72.0" otu="otu11"/>
+   <node id="NT1.33" label="NT1.33" x="455.0" y="708.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="464.0" y="366.0"/>
+   <node id="NT1.36" label="NT1.36" x="486.0" y="391.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="505.0" y="550.0" otu="otu20"/>
+   <node id="NT1.41" label="NT1.41" x="510.0" y="337.0" otu="otu22"/>
+   <node id="NT1.43" label="NT1.43" x="666.0" y="1134.0" otu="otu24"/>
+   <edge id="e.4" source="NT1.8" target="NT1.10"/>
+   <edge id="e.6" source="NT1.7" target="NT1.8"/>
+   <edge id="e.7" source="NT1.8" target="NT1.34"/>
+   <edge id="e.8" source="NT1.5" target="NT1.7"/>
+   <edge id="e.9" source="NT1.7" target="NT1.9"/>
+   <edge id="e.10" source="NT1.9" target="NT1.11"/>
+   <edge id="e.13" source="NT1.11" target="NT1.16"/>
+   <edge id="e.15" target="NT1.5" source="NT1.1"/>
+   <edge id="e.21" source="NT1.8" target="NT1.20"/>
+   <edge id="e.23" target="NT1.28" source="NT1.10"/>
+   <edge id="e.24" target="NT1.27" source="NT1.11"/>
+   <edge id="e.26" target="NT1.21" source="NT1.10"/>
+   <edge id="e.28" source="NT1.16" target="NT1.23"/>
+   <edge id="e.31" source="NT1.9" target="NT1.39"/>
+   <edge id="e.35" target="NT1.33" source="NT1.16"/>
+   <edge id="e.38" target="NT1.43" source="NT1.5"/>
+   <edge id="e.39" source="NT1.34" target="NT1.36"/>
+   <edge id="e.40" source="NT1.34" target="NT1.41"/>
+  </tree>
+ </trees>
+</nexml>

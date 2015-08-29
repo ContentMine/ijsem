@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Saccharomonospora halophila DSM 4441 17 (AJ278497)</otu>
+  <otu id="otu2" cmphy:genus="Prauserella" cmphy:species="aidingensis" cmphy:strain="YIM 906367" cmphy:id="FJ444994" editRecord="[]">Prauserella aidingensis YIM 906367 (FJ444994)</otu>
+  <otu id="otu3" cmphy:genus="Prauserella" cmphy:species="alba" cmphy:strain="YIM 900057" cmphy:id="AF435077" editRecord="[]"> Prauserella alba YIM 900057 (AF435077)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Saccharomonospora" cmphy:species="xinjiangensis" cmphy:strain="DSM 443917" cmphy:id="AJB06300" editRecord="[3__B]">Saccharomonospora xinjiangensis DSM 443917 (AJ306300)</otu>
+  <otu id="otu5" cmphy:genus="Prauserella" cmphy:species="flava" cmphy:strain="YIM 9oe3oT" cmphy:id="FJ444993" editRecord="[]">Prauserella flava YIM 9oe3oT (FJ444993)</otu>
+  <otu id="otu6" cmphy:genus="Prauserella" cmphy:species="salsuginis" cmphy:strain="YIM 906257" cmphy:id="FJ444992" editRecord="[]">Prauserella salsuginis YIM 906257 (FJ444992)</otu>
+  <otu id="otu7" cmphy:genus="Prauserella" cmphy:species="sediminis" cmphy:strain="YIM 906941" cmphy:id="FJ444995" editRecord="[]">Prauserella sediminis YIM 906941 (FJ444995)</otu>
+  <otu id="otu8" cmphy:genus="Prauserella" cmphy:species="halophila" cmphy:strain="YIM 90001T" cmphy:id="AF466190" editRecord="[]">Prauserella halophila YIM 90001T (AF466190)</otu>
+  <otu id="otu9" cmphy:genus="Saccharomonospora" cmphy:species="viridis" cmphy:strain="NCIB 9602T" cmphy:id="Z38007" editRecord="[]">Saccharomonospora viridis NCIB 9602T (Z38007)</otu>
+  <otu id="otu10">Pseudonocardia compacta IMSNU 201 1 1T (AJ252825)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="316.0" y="387.0"/>
+   <node id="NT1.3" x="593.0" y="510.0" label="83"/>
+   <node id="NT1.4" x="787.0" y="249.0" label="99"/>
+   <node id="NT1.5" label="NT1.5" x="792.0" y="193.0"/>
+   <node id="NT1.7" label="NT1.7" x="847.0" y="248.0" otu="otu2"/>
+   <node id="NT1.8" x="878.0" y="138.0" label="98"/>
+   <node id="NT1.9" label="NT1.9" x="924.0" y="189.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="929.0" y="481.0" otu="otu4"/>
+   <node id="NT1.11" x="939.0" y="87.0" label="100"/>
+   <node id="NT1.12" label="NT1.12" x="944.0" y="131.0" otu="otu5"/>
+   <node id="NT1.13" x="951.0" y="44.0" label="67"/>
+   <node id="NT1.14" label="NT1.14" x="956.0" y="14.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="964.0" y="72.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="1003.0" y="307.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="1045.0" y="540.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="7.0" y="493.0" root="true"/>
+   <edge id="e.0" source="NT1.13" target="NT1.14"/>
+   <edge id="e.1" source="NT1.13" target="NT1.15"/>
+   <edge id="e.2" source="NT1.11" target="NT1.12"/>
+   <edge id="e.3" source="NT1.8" target="NT1.9"/>
+   <edge id="e.4" source="NT1.5" target="NT1.7"/>
+   <edge id="e.5" source="NT1.4" target="NT1.16"/>
+   <edge id="e.7" source="NT1.3" target="NT1.10"/>
+   <edge id="e.8" source="NT1.3" target="NT1.17"/>
+   <edge id="e.9" source="NT1.11" target="NT1.13"/>
+   <edge id="e.10" source="NT1.5" target="NT1.8"/>
+   <edge id="e.11" source="NT1.4" target="NT1.5"/>
+   <edge id="e.12" source="NT1.1" target="NT1.4"/>
+   <edge id="e.14" target="NT1.3" source="NT1.1"/>
+   <edge id="e.16" source="NT1.19" target="NT1.1"/>
+   <edge id="e.17" source="NT1.8" target="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

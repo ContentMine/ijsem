@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Sphingomonas suberifaciens IFO 1521 17 (D13737)</otu>
+  <otu id="otu2" cmphy:genus="Sphingobium" cmphy:species="yanoikuyae" cmphy:strain="IFO 151027" cmphy:id="D13728" editRecord="[]">Sphingobium yanoikuyae IFO 151027 (D13728)</otu>
+  <otu id="otu3"> N. rosa ATCC 518377 (D13945)</otu>
+  <otu id="otu4"> N. subterraneum DSM 124477 (AB025014)</otu>
+  <otu id="otu5">N. subarcticum JCM 103987 (X94102)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">N. capsulatum ATCC 146667 (D16147)</otu>
+  <otu id="otu8">N. pentaromativorans KCTC 104547 (AF502400)</otu>
+  <otu id="otu9">T3-B97 (AY500142)</otu>
+  <otu id="otu10">N. stygium ATCC 7002807 (AB025013)</otu>
+  <otu id="otu11">N. hassiacum DSM 145527 (AJ416411)</otu>
+  <otu id="otu12">N. Ientum DSM 136637 (AJ303009)</otu>
+  <otu id="otu13">N. tardaugens JCM 114347 (ABO70237)</otu>
+  <otu id="otu14" cmphy:genus="Sphingopyxis" cmphy:species="macrogoltabida" cmphy:strain="IFO 150337" cmphy:id="D13723" editRecord="[]">Sphingopyxis macrogoltabida IFO 150337 (D13723)</otu>
+  <otu id="otu15" cmphy:genus="Sphingomonas" cmphy:species="paucimobilis" cmphy:strain="GIFU 23957" cmphy:id="D16144" editRecord="[]">Sphingomonas paucimobilis GIFU 23957 (D16144)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="64.0" y="528.0"/>
+   <node id="NT1.3" label="NT1.3" x="107.0" y="500.0"/>
+   <node id="NT1.15" label="NT1.15" x="245.0" y="601.0" otu="otu2"/>
+   <node id="NT1.27" label="NT1.27" x="351.0" y="476.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="378.0" y="558.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="7.0" y="597.0" root="true"/>
+   <edge id="e.9" target="NT1.27" source="NT1.3"/>
+   <edge id="e.10" source="NT1.1" target="NT1.15"/>
+   <edge id="e.11" source="NT1.3" target="NT1.28"/>
+   <edge id="e.22" source="NT1.1" target="NT1.3"/>
+   <edge id="e.24" source="NT1.29" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

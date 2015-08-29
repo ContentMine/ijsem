@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Sphingomonas" cmphy:species="paucimobilis" cmphy:strain="GIFU 23957" cmphy:id="D16144" editRecord="[]">Sphingomonas paucimobilis GIFU 23957 (D16144)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Azospirillum" cmphy:species="brasilense" cmphy:strain="ATCC 291457" cmphy:id="AYB24110" editRecord="[3__B]">Azospirillum brasilense ATCC 291457 (AY324110)</otu>
+  <otu id="otu3">Rhizobium Iegumfnosarum ATCC 100047 (U29386)</otu>
+  <otu id="otu4" cmphy:genus="Methylosinus" cmphy:species="sporium" cmphy:strain="ACM 33067" cmphy:id="Y18946" editRecord="[]"> Methylosinus sporium ACM 33067 (Y18946)</otu>
+  <otu id="otu5" cmphy:genus="Methylocystis" cmphy:species="parvus" cmphy:strain="ACM 33097" cmphy:id="Y18945" editRecord="[]"> Methylocystis parvus ACM 33097 (Y18945)</otu>
+  <otu id="otu6" cmphy:genus="Paraccccus" cmphy:species="denitrificans" cmphy:strain="ATCC 177417" cmphy:id="Y16929" editRecord="[]">Paraccccus denitrificans ATCC 177417 (Y16929)</otu>
+  <otu id="otu7" cmphy:genus="Pedomicrobium" cmphy:species="fusiforme" cmphy:strain="ATCC 351587" cmphy:id="Y14313" editRecord="[]">Pedomicrobium fusiforme ATCC 351587 (Y14313)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Brevundimonas" cmphy:species="vesicularis" cmphy:strain="ATCC 114267" cmphy:id="AJZ27780" editRecord="[2__Z]">Brevundimonas vesicularis ATCC 114267 (AJ227780)</otu>
+  <otu id="otu9"> Brevundimonas nasdae W1 -2 B7 (AB071954)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Asticcacaulis" cmphy:species="excentricus" cmphy:strain="DSM 47247" cmphy:id="AJZ47194" editRecord="[2__Z]">Asticcacaulis excentricus DSM 47247 (AJ247194)</otu>
+  <otu id="otu11" cmphy:genus="Caulobacter" cmphy:species="vibrioides" cmphy:strain="CB517" cmphy:id="AJO09957" editRecord="[]">Caulobacter vibrioides CB517 (AJO09957)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Meganema" cmphy:species="perideroedes" cmphy:strain="Gr17" cmphy:id="AFI80468" editRecord="[1__I]"> Meganema perideroedes Gr17 (AF180468)</otu>
+  <otu id="otu13" cmphy:genus="Mycoplana" cmphy:species="bullata" cmphy:strain="IAM 131537" cmphy:id="D12785" editRecord="[]">Mycoplana bullata IAM 131537 (D12785)</otu>
+  <otu id="otu14" cmphy:genus="Bradyrhizobium" cmphy:species="japonicum" cmphy:strain="DSM 301317" cmphy:id="L41530" editRecord="[]">Bradyrhizobium japonicum DSM 301317 (L41530)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Meganema" cmphy:species="perideroedes" cmphy:strain="Gr10" cmphy:id="AYI70119" editRecord="[1__I]">Meganema perideroedes Gr10 (AY170119)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="164.0" y="52.0"/>
+   <node id="NT1.2" label="NT1.2" x="165.0" y="12.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="274.0" y="106.0"/>
+   <node id="NT1.4" label="NT1.4" x="314.0" y="295.0"/>
+   <node id="NT1.6" label="NT1.6" x="378.0" y="241.0"/>
+   <node id="NT1.7" label="NT1.7" x="417.0" y="376.0"/>
+   <node id="NT1.8" label="NT1.8" x="479.0" y="349.0"/>
+   <node id="NT1.9" label="NT1.9" x="501.0" y="39.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="545.0" y="215.0"/>
+   <node id="NT1.12" label="NT1.12" x="569.0" y="323.0"/>
+   <node id="NT1.13" label="NT1.13" x="606.0" y="134.0"/>
+   <node id="NT1.14" label="NT1.14" x="612.0" y="309.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="613.0" y="337.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="643.0" y="66.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="668.0" y="187.0"/>
+   <node id="NT1.18" label="NT1.18" x="672.0" y="391.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="687.0" y="268.0"/>
+   <node id="NT1.21" label="NT1.21" x="689.0" y="175.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="708.0" y="229.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="720.0" y="120.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="737.0" y="283.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="744.0" y="202.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="752.0" y="364.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="835.0" y="255.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="3.0" y="32.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.9"/>
+   <edge id="e.2" target="NT1.16" source="NT1.3"/>
+   <edge id="e.3" source="NT1.12" target="NT1.14"/>
+   <edge id="e.4" source="NT1.12" target="NT1.15"/>
+   <edge id="e.5" source="NT1.7" target="NT1.18"/>
+   <edge id="e.6" source="NT1.11" target="NT1.23"/>
+   <edge id="e.7" source="NT1.19" target="NT1.25"/>
+   <edge id="e.8" source="NT1.8" target="NT1.27"/>
+   <edge id="e.9" source="NT1.13" target="NT1.24"/>
+   <edge id="e.10" source="NT1.19" target="NT1.28"/>
+   <edge id="e.11" target="NT1.21" source="NT1.17"/>
+   <edge id="e.13" source="NT1.17" target="NT1.26"/>
+   <edge id="e.14" source="NT1.1" target="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.4"/>
+   <edge id="e.17" source="NT1.4" target="NT1.7"/>
+   <edge id="e.18" source="NT1.4" target="NT1.6"/>
+   <edge id="e.19" source="NT1.6" target="NT1.19"/>
+   <edge id="e.20" source="NT1.6" target="NT1.11"/>
+   <edge id="e.21" source="NT1.7" target="NT1.8"/>
+   <edge id="e.22" source="NT1.8" target="NT1.12"/>
+   <edge id="e.23" source="NT1.11" target="NT1.13"/>
+   <edge id="e.24" source="NT1.13" target="NT1.17"/>
+   <edge id="e.26" source="NT1.29" target="NT1.2"/>
+   <edge id="e.27" source="NT1.29" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

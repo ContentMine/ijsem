@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Aquaspirillum" cmphy:species="sinunsum" cmphy:strain="LMG 43937" cmphy:id="AFO78754" editRecord="[0__O]">Aquaspirillum sinunsum LMG 43937 (AF078754)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Acidovorax" cmphy:species="konjaci" cmphy:strain="ATCC 339967" cmphy:id="AFO78760" editRecord="[0__O]"> Acidovorax konjaci ATCC 339967 (AF078760)</otu>
+  <otu id="otu7"> Acidavorax avenue subsp. avenae ATCC 193077 (AB021421)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Aciduvorax" cmphy:species="temperans" cmphy:strain="CCUG 117797" cmphy:id="AFO78766" editRecord="[0__O]"> Aciduvorax temperans CCUG 117797 (AF078766)</otu>
+  <otu id="otu9">Acidovorzvc valerianellue CFBP 47307 (AJ43173 1)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Acidovorax" cmphy:species="anthurii" cmphy:strain="CFBP 32327" cmphy:id="AJO07013" editRecord="[0__O]"> Acidovorax anthurii CFBP 32327 (AJ007013)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Aqumpirillum melamorphum DSM 18377 (Yl86l8)</otu>
+  <otu id="otu13"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="68.0" y="466.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="94.0" y="470.0"/>
+   <node id="NT1.3" label="NT1.3" x="104.0" y="641.0"/>
+   <node id="NT1.4" label="NT1.4" x="114.0" y="557.0"/>
+   <node id="NT1.13" label="NT1.13" x="227.0" y="448.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="265.0" y="492.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="292.0" y="792.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="302.0" y="579.0" otu="otu10"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.2" target="NT1.13"/>
+   <edge id="e.2" target="NT1.17" source="NT1.4"/>
+   <edge id="e.5" target="NT1.21" source="NT1.4"/>
+   <edge id="e.9" target="NT1.19" source="NT1.3"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

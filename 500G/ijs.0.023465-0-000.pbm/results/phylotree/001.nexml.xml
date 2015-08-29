@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Adhaeribacter" cmphy:species="aquaticus" cmphy:strain="DSM 163917" cmphy:id="AJ626894" editRecord="[]">Adhaeribacter aquaticus DSM 163917 (AJ626894)</otu>
+  <otu id="otu2" cmphy:genus="Pontibacter" cmphy:species="actiniarum" cmphy:strain="KMM 61567" cmphy:id="AY989908" editRecord="[]">Pontibacter actiniarum KMM 61567 (AY989908)</otu>
+  <otu id="otu3" cmphy:genus="Hymenobacter" cmphy:species="ocellatus" cmphy:strain="Myx 21057" cmphy:id="Y18835" editRecord="[]">Hymenobacter ocellatus Myx 21057 (Y18835)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Hymenobacter" cmphy:species="deserti" cmphy:strain="ZLB-37" cmphy:id="EUB25941" editRecord="[3__B]">Hymenobacter deserti ZLB-37 (EU325941)</otu>
+  <otu id="otu6">Hymenobacter chitmlvorans Txc17 (Y1 8837)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Hymenobacter" cmphy:species="daecheongensis" cmphy:strain="Dae147" cmphy:id="EUB70958" editRecord="[3__B]">Hymenobacter daecheongensis Dae147 (EU370958)</otu>
+  <otu id="otu9"> Hymenobacter riguiWPCB1317 (DQ089669)</otu>
+  <otu id="otu10"> Hymenobacter psychrotolerans DSM 185697 (DO1 77475)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Hymenobacter" cmphy:species="norwichensis" cmphy:strain="NS7507" cmphy:id="AJS49285" editRecord="[5__S]"> Hymenobacter norwichensis NS7507 (AJ549285)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Hymenobacter" cmphy:species="soli" cmphy:strain="PB1 77" cmphy:id="ABZ51884" editRecord="[2__Z]">Hymenobacter soli PB1 77 (AB251884)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">Hymenobacter roseosalivarius DSM 1 1 6227 (Y18833)</otu>
+  <otu id="otu16" cmphy:genus="Hymenobacter" cmphy:species="gelipurpurascens" cmphy:strain="Txg17" cmphy:id="Y18836" editRecord="[]">Hymenobacter gelipurpurascens Txg17 (Y18836)</otu>
+  <otu id="otu17">Flavobacteriurn aquatile ATCC 1 1 9477 (M62797)</otu>
+  <otu id="otu18">Hymenobacter Xinjiangensis X2-1 g7 (DQ888329)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="170.0" y="497.0"/>
+   <node id="NT1.2" x="206.0" y="459.0" label="77"/>
+   <node id="NT1.3" x="309.0" y="412.0" label="100"/>
+   <node id="NT1.4" x="356.0" y="370.0" label="99"/>
+   <node id="NT1.5" label="NT1.5" x="386.0" y="537.0" otu="otu1"/>
+   <node id="NT1.6" x="400.0" y="454.0" label="100"/>
+   <node id="NT1.7" label="NT1.7" x="401.0" y="334.0"/>
+   <node id="NT1.10" label="NT1.10" x="434.0" y="192.0"/>
+   <node id="NT1.17" label="NT1.17" x="500.0" y="505.0" otu="otu2"/>
+   <node id="NT1.19" label="NT1.19" x="515.0" y="438.0" otu="otu3"/>
+   <node id="NT1.21" label="NT1.21" x="521.0" y="472.0" otu="otu5"/>
+   <node id="NT1.24" label="NT1.24" x="530.0" y="373.0" otu="otu8"/>
+   <node id="NT1.27" label="NT1.27" x="540.0" y="242.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="557.0" y="406.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="569.0" y="79.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="3.0" y="533.0" root="true"/>
+   <edge id="e.2" target="NT1.32" source="NT1.10"/>
+   <edge id="e.8" target="NT1.27" source="NT1.10"/>
+   <edge id="e.11" source="NT1.7" target="NT1.24"/>
+   <edge id="e.12" source="NT1.4" target="NT1.29"/>
+   <edge id="e.13" source="NT1.6" target="NT1.19"/>
+   <edge id="e.14" source="NT1.6" target="NT1.21"/>
+   <edge id="e.15" source="NT1.1" target="NT1.5"/>
+   <edge id="e.16" source="NT1.2" target="NT1.17"/>
+   <edge id="e.22" target="NT1.10" source="NT1.7"/>
+   <edge id="e.25" source="NT1.4" target="NT1.7"/>
+   <edge id="e.26" source="NT1.3" target="NT1.4"/>
+   <edge id="e.27" source="NT1.2" target="NT1.3"/>
+   <edge id="e.28" source="NT1.3" target="NT1.6"/>
+   <edge id="e.29" source="NT1.1" target="NT1.2"/>
+   <edge id="e.31" source="NT1.35" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

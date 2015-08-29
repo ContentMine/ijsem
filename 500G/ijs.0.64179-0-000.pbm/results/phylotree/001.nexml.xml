@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> C. indologenes ATCC 298977 (M58773)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"> C. wanjuense R2A10-27 (DQ256729)</otu>
+  <otu id="otu7">C. taichungense ccue 5ooo1T (AJ843132)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="c." cmphy:species="shigense" cmphy:strain="DSM 17126" cmphy:id="ABI93101">c. shigense DSM 17126 (AB193101)</otu>
+  <otu id="otu10" cmphy:genus="c." cmphy:species="indoltheticum" cmphy:strain="ATCC 27950T" cmphy:id="AY468448">c. indoltheticum ATCC 27950T (AY468448)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13">C. balustinum ATCC 334877 (M58771)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.20" label="NT1.20" x="348.0" y="487.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="359.0" y="99.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="6.0" y="267.0" root="true"/>
+   <edge id="e.2" target="NT1.21" source="NT1.25"/>
+   <edge id="e.20" target="NT1.20" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

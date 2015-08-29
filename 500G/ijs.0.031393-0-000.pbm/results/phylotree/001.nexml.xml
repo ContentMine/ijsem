@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Cupriavidus" cmphy:species="campinensis" cmphy:strain="LMG 19282T" cmphy:id="AFB12020" editRecord="[3__B]">Cupriavidus campinensis LMG 19282T (AF312020)</otu>
+  <otu id="otu3">Burkholderia cepacia ATCC 254161</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Bordetella" cmphy:species="pertussis" cmphy:strain="ATCC 97977" cmphy:id="U04950" editRecord="[O__0]">Bordetella pertussis ATCC 97977 (UO4950)</otu>
+  <otu id="otu5">Ralstonia solanacearum ATCC 1 16967 (X67036)</otu>
+  <otu id="otu6">Cupriavidus metallidurans LMG 1 195T (Y10824)</otu>
+  <otu id="otu7">Ralstonia pickettii ATCC 2751 11 (AY741342)</otu>
+  <otu id="otu8">AM-8B5T (FM208181)</otu>
+  <otu id="otu9">Polynucieobacter necessarius subsp. asymbioticus OLW-P1DMWA-1T (AJ879783)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Polynucleobacter" cmphy:species="rarus" cmphy:strain="MT-CBb6A5T" cmphy:id="FMZ08182" editRecord="[2__Z]">Polynucleobacter rarus MT-CBb6A5T (FM208182)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Polynucleobacter" cmphy:species="cosmopolitanus" cmphy:strain="MWH-MoIso2T" cmphy:id="AJS50672" editRecord="[5__S]">Polynucleobacter cosmopolitanus MWH-MoIso2T (AJ550672)</otu>
+  <otu id="otu12">Polynucieobacter necessarius subsp. asymbioticus OLW-P1DMWA-1T (AJ879783)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Polynucleobacter" cmphy:species="acidiphobus" cmphy:strain="MWH-PoolGreenA8T" cmphy:id="FMZ08180" editRecord="[2__Z]">Polynucleobacter acidiphobus MWH-PoolGreenA8T (FM208180)</otu>
+  <otu id="otu14">Polynucleobacter necessarius subsp. necessarius E24 (AM397067)</otu>
+  <otu id="otu15" cmphy:genus="Comamonas" cmphy:species="terrigena" cmphy:strain="LMG 1253T" cmphy:id="AJ430342" editRecord="[]">Comamonas terrigena LMG 1253T (AJ430342)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="27.0" y="466.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="29.0" y="466.0"/>
+   <node id="NT1.3" label="NT1.3" x="69.0" y="585.0"/>
+   <node id="NT1.5" label="NT1.5" x="276.0" y="301.0"/>
+   <node id="NT1.8" label="NT1.8" x="531.0" y="463.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="593.0" y="211.0"/>
+   <node id="NT1.12" label="NT1.12" x="630.0" y="561.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="644.0" y="155.0"/>
+   <node id="NT1.23" label="NT1.23" x="809.0" y="265.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="813.0" y="216.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="818.0" y="116.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="853.0" y="612.0" otu="otu15"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" source="NT1.11" target="NT1.15"/>
+   <edge id="e.9" source="NT1.5" target="NT1.11"/>
+   <edge id="e.10" target="NT1.5" source="NT1.2"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" source="NT1.3" target="NT1.12"/>
+   <edge id="e.18" source="NT1.3" target="NT1.28"/>
+   <edge id="e.19" target="NT1.8" source="NT1.5"/>
+   <edge id="e.23" source="NT1.11" target="NT1.23"/>
+   <edge id="e.24" source="NT1.15" target="NT1.24"/>
+   <edge id="e.25" target="NT1.26" source="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

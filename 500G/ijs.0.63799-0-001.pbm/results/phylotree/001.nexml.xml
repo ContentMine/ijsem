@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Terrabacter" cmphy:species="tumescens" cmphy:strain="DSM 2030GT" cmphy:id="X83812" editRecord="[]">Terrabacter tumescens DSM 2030GT (X83812)</otu>
+  <otu id="otu8" cmphy:genus="Intmsporangium" cmphy:species="calvum" cmphy:strain="IFO 12989T" cmphy:id="D85486" editRecord="[]">Intmsporangium calvum IFO 12989T (D85486)</otu>
+  <otu id="otu9" cmphy:genus="Omithinicoccus" cmphy:species="hortensis" cmphy:strain="DSM l2335T" cmphy:id="Y17869" editRecord="[]">Omithinicoccus hortensis DSM l2335T (Y17869)</otu>
+  <otu id="otu10">Knoellia</otu>
+  <otu id="otu11" cmphy:genus="Terracoccus" cmphy:species="luteus" cmphy:strain="DSM 44267T" cmphy:id="Y11928" editRecord="[]">Terracoccus luteus DSM 44267T (Y11928)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Oryzihumus leptocrescens KV-656 (AB193l74)</otu>
+  <otu id="otu14">Oryzihumus leptocrescens KV-628T (AB193l72)</otu>
+  <otu id="otu15" cmphy:genus="Dermucoccus" cmphy:species="nishinonziyaensis" cmphy:strain="DSM 20448T" cmphy:id="X87757" editRecord="[]">Dermucoccus nishinonziyaensis DSM 20448T (X87757)</otu>
+  <otu id="otu16" cmphy:genus="Kytococcus" cmphy:species="sedentarius" cmphy:strain="DSM 2054717" cmphy:id="X87755" editRecord="[]">Kytococcus sedentarius DSM 2054717 (X87755)</otu>
+  <otu id="otu17">Oryzihumus leptocrescens KV-641</otu>
+  <otu id="otu18">Janibacterlimosus DSM 11140T (Y08539)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:edit="[5__S]" cmphy:genus="Arsenicicoccus" cmphy:species="bolidensis" cmphy:strain="CCUG 47306T" cmphy:id="AJS58133" editRecord="[5__S]">Arsenicicoccus bolidensis CCUG 47306T (AJ558133)</otu>
+  <otu id="otu21">Tetrasphaerajaponicu</otu>
+  <otu id="otu22">Rarobacterfaecitabidus IFO 14760T (Y I 7870)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:edit="[2__Z]" cmphy:genus="Ornithinimicrobium" cmphy:species="humiphilmn" cmphy:strain="DSM 12362T" cmphy:id="AJZ77650" editRecord="[2__Z]">Ornithinimicrobium humiphilmn DSM 12362T (AJ277650)</otu>
+  <otu id="otu25">Demetria terrangena DSM 11295T (Y 14152)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="449.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="114.0" y="280.0"/>
+   <node id="NT1.6" label="NT1.6" x="132.0" y="471.0"/>
+   <node id="NT1.8" label="NT1.8" x="167.0" y="300.0"/>
+   <node id="NT1.9" label="NT1.9" x="171.0" y="82.0"/>
+   <node id="NT1.12" label="NT1.12" x="188.0" y="401.0"/>
+   <node id="NT1.15" label="NT1.15" x="229.0" y="675.0"/>
+   <node id="NT1.20" label="NT1.20" x="255.0" y="714.0"/>
+   <node id="NT1.21" label="NT1.21" x="326.0" y="638.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="329.0" y="742.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="352.0" y="327.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="362.0" y="690.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="383.0" y="67.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="383.0" y="119.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="388.0" y="430.0" otu="otu20"/>
+   <node id="NT1.40" label="NT1.40" x="433.0" y="380.0" otu="otu24"/>
+   <edge id="e.8" source="NT1.8" target="NT1.23"/>
+   <edge id="e.9" target="NT1.35" source="NT1.12"/>
+   <edge id="e.17" target="NT1.9" source="NT1.3"/>
+   <edge id="e.19" target="NT1.3" source="NT1.1"/>
+   <edge id="e.20" source="NT1.3" target="NT1.6"/>
+   <edge id="e.22" source="NT1.6" target="NT1.8"/>
+   <edge id="e.23" source="NT1.8" target="NT1.12"/>
+   <edge id="e.25" target="NT1.15" source="NT1.6"/>
+   <edge id="e.29" source="NT1.15" target="NT1.20"/>
+   <edge id="e.31" source="NT1.9" target="NT1.31"/>
+   <edge id="e.32" source="NT1.15" target="NT1.21"/>
+   <edge id="e.33" source="NT1.12" target="NT1.40"/>
+   <edge id="e.35" source="NT1.20" target="NT1.22"/>
+   <edge id="e.36" target="NT1.30" source="NT1.9"/>
+   <edge id="e.38" source="NT1.20" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

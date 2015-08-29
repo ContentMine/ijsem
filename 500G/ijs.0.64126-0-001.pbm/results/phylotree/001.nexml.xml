@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Ralstonia" cmphy:species="eutmpha" cmphy:strain="DSM 531T" cmphy:id="AFO27407" editRecord="[]">Ralstonia eutmpha DSM 531T (AFO27407)</otu>
+  <otu id="otu3" cmphy:genus="Burkholderia" cmphy:species="kururiensis" cmphy:strain="LMG 194477" cmphy:id="ABO24310" editRecord="[]">Burkholderia kururiensis LMG 194477 (ABO24310)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Ralstonla" cmphy:species="taiwanensfs" cmphy:strain="LMG 194247" cmphy:id="AFB00324" editRecord="[3__B]">Ralstonla taiwanensfs LMG 194247 (AF300324)</otu>
+  <otu id="otu5" cmphy:genus="Ralstonia" cmphy:species="metallidulans" cmphy:strain="ATCC 43123T" cmphy:id="Y10824" editRecord="[]">Ralstonia metallidulans ATCC 43123T (Y10824)</otu>
+  <otu id="otu6" cmphy:genus="Bordetella" cmphy:species="parapertussis" cmphy:strain="LMG 14449T" cmphy:id="U04949" editRecord="[]">Bordetella parapertussis LMG 14449T (U04949)</otu>
+  <otu id="otu7" cmphy:genus="Bordetella" cmphy:species="pertussis" cmphy:strain="LMG 144557" cmphy:id="U04950" editRecord="[]">Bordetella pertussis LMG 144557 (U04950)</otu>
+  <otu id="otu8" cmphy:genus="Achromobacter" cmphy:species="xylosoxidans" cmphy:strain="LMG 1862" cmphy:id="D88005" editRecord="[]">Achromobacter xylosoxidans LMG 1862 (D88005)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Castellaniella" cmphy:species="defragrans" cmphy:strain="LMG 18538T" cmphy:id="AJO05447" editRecord="[0__O]">Castellaniella defragrans LMG 18538T (AJ005447)</otu>
+  <otu id="otu10" cmphy:edit="[8__B]" cmphy:genus="Tetrathiobacter" cmphy:species="kashmirensis" cmphy:strain="LMG 226957" cmphy:id="AJB64470" editRecord="[8__B]">Tetrathiobacter kashmirensis LMG 226957 (AJ864470)</otu>
+  <otu id="otu11" cmphy:genus="Alcaligenes" cmphy:species="latus" cmphy:strain="LMG 33217" cmphy:id="D88007" editRecord="[]">Alcaligenes latus LMG 33217 (D88007)</otu>
+  <otu id="otu12">Tetrathiobacter mimigardefordensis DPN7T (AY88DO23)</otu>
+  <otu id="otu13">Alcaligenes faecalis subsp. parafaecalis GT (AJ242986)</otu>
+  <otu id="otu14" cmphy:genus="Variovorax" cmphy:species="paradoxus" cmphy:strain="DSM 30034T" cmphy:id="AJ420329" editRecord="[]">Variovorax paradoxus DSM 30034T (AJ420329)</otu>
+  <otu id="otu15">Alcaligenes faecalis subsp. faecalis LMG 1229T (D88008)</otu>
+  <otu id="otu16" cmphy:genus="Taylorella" cmphy:species="equigenitalis" cmphy:strain="LMG 6222T" cmphy:id="AF408197" editRecord="[]">Taylorella equigenitalis LMG 6222T (AF408197)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Taylorella" cmphy:species="asinigenitalis" cmphy:strain="ATCC 7009337" cmphy:id="AFO67729" editRecord="[0__O]">Taylorella asinigenitalis ATCC 7009337 (AF067729)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="902.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="3.0" y="902.0"/>
+   <node id="NT1.3" label="NT1.3" x="18.0" y="789.0"/>
+   <node id="NT1.4" label="NT1.4" x="73.0" y="608.0"/>
+   <node id="NT1.5" label="NT1.5" x="204.0" y="800.0"/>
+   <node id="NT1.6" label="NT1.6" x="255.0" y="967.0"/>
+   <node id="NT1.7" label="NT1.7" x="261.0" y="988.0"/>
+   <node id="NT1.8" label="NT1.8" x="293.0" y="412.0"/>
+   <node id="NT1.9" label="NT1.9" x="299.0" y="987.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="304.0" y="1134.0" otu="otu3"/>
+   <node id="NT1.11" x="321.0" y="222.0" label="690"/>
+   <node id="NT1.12" label="NT1.12" x="322.0" y="913.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="362.0" y="1060.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="363.0" y="357.0"/>
+   <node id="NT1.16" label="NT1.16" x="368.0" y="597.0"/>
+   <node id="NT1.17" label="NT1.17" x="435.0" y="653.0"/>
+   <node id="NT1.18" label="NT1.18" x="441.0" y="691.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="453.0" y="618.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="464.0" y="543.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="477.0" y="27.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="490.0" y="322.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="498.0" y="765.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="535.0" y="431.0"/>
+   <node id="NT1.29" label="NT1.29" x="550.0" y="839.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="604.0" y="470.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="612.0" y="396.0" otu="otu17"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.7" target="NT1.9"/>
+   <edge id="e.4" source="NT1.8" target="NT1.11"/>
+   <edge id="e.5" source="NT1.11" target="NT1.15"/>
+   <edge id="e.6" source="NT1.15" target="NT1.27"/>
+   <edge id="e.8" source="NT1.4" target="NT1.8"/>
+   <edge id="e.9" source="NT1.8" target="NT1.16"/>
+   <edge id="e.10" source="NT1.16" target="NT1.17"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.4" target="NT1.5"/>
+   <edge id="e.13" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.3" target="NT1.6"/>
+   <edge id="e.15" source="NT1.6" target="NT1.7"/>
+   <edge id="e.16" source="NT1.2" target="NT1.10"/>
+   <edge id="e.17" source="NT1.6" target="NT1.12"/>
+   <edge id="e.18" source="NT1.7" target="NT1.14"/>
+   <edge id="e.19" source="NT1.5" target="NT1.24"/>
+   <edge id="e.20" source="NT1.5" target="NT1.29"/>
+   <edge id="e.21" source="NT1.16" target="NT1.21"/>
+   <edge id="e.22" target="NT1.22" source="NT1.11"/>
+   <edge id="e.23" source="NT1.17" target="NT1.18"/>
+   <edge id="e.24" source="NT1.17" target="NT1.19"/>
+   <edge id="e.25" target="NT1.23" source="NT1.15"/>
+   <edge id="e.29" source="NT1.27" target="NT1.31"/>
+   <edge id="e.30" source="NT1.27" target="NT1.32"/>
+  </tree>
+ </trees>
+</nexml>

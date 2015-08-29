@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="carpaticus" cmphy:strain="NBRC 153907" cmphy:id="ABI84641" editRecord="[1__I]">S. carpaticus NBRC 153907 (AB184641)</otu>
+  <otu id="otu2" cmphy:edit="[8__B]" cmphy:genus="S." cmphy:species="cheonanensis" cmphy:strain="JCM 14549T" cmphy:id="AYB22606" editRecord="[8__B]">S. cheonanensis JCM 14549T (AY822606)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="avicenniae" cmphy:strain="MCCC 1A01535T" cmphy:id="EUB99234" editRecord="[3__B]">S. avicenniae MCCC 1A01535T (EU399234)</otu>
+  <otu id="otu6" cmphy:genus="S." cmphy:species="speoialis" cmphy:strain="GW41-15647" cmphy:id="AM934703" editRecord="[]">S. speoialis GW41-15647 (AM934703)</otu>
+  <otu id="otu7">S. cacaoisubsp. cacaoi NBRC 12748T (AB184115)</otu>
+  <otu id="otu8" cmphy:genus="s." cmphy:species="endus" cmphy:strain="NRRL 2339T" cmphy:id="AY999911">s. endus NRRL 2339T (AY999911)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="s." cmphy:species="almquistii" cmphy:strain="NBRC 13o15T" cmphy:id="ABI84258">s. almquistii NBRC 13o15T (AB184258)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="phaeopurpureus" cmphy:strain="NRRL B-2258T" cmphy:id="DQO26665" editRecord="[0__O]">S. phaeopurpureus NRRL B-2258T (DQ026665)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="sporoclivatus" cmphy:strain="NBRC 1007677" cmphy:id="ABZ49934" editRecord="[2__Z]">S. sporoclivatus NBRC 1007677 (AB249934)</otu>
+  <otu id="otu14" cmphy:edit="[O__0]" cmphy:genus="Micrococcus" cmphy:species="psychrophilum" cmphy:strain="AS 1.2372T" cmphy:id="AJO05932" editRecord="[O__0]">Micrococcus psychrophilum AS 1.2372T (AJOO5932)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="316.0" y="339.0"/>
+   <node id="NT1.2" x="329.0" y="235.0" label="54"/>
+   <node id="NT1.3" x="418.0" y="151.0" label="97"/>
+   <node id="NT1.4" label="NT1.4" x="429.0" y="442.0"/>
+   <node id="NT1.5" x="458.0" y="402.0" label="69"/>
+   <node id="NT1.8" x="523.0" y="318.0" label="100"/>
+   <node id="NT1.10" x="565.0" y="61.0" label="96"/>
+   <node id="NT1.11" label="NT1.11" x="576.0" y="298.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="608.0" y="340.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="610.0" y="378.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="611.0" y="425.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="633.0" y="8.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="635.0" y="215.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="641.0" y="502.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="663.0" y="92.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="664.0" y="546.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="3.0" y="442.0" root="true"/>
+   <edge id="e.0" target="NT1.20" source="NT1.10"/>
+   <edge id="e.2" source="NT1.10" target="NT1.25"/>
+   <edge id="e.6" source="NT1.8" target="NT1.11"/>
+   <edge id="e.7" source="NT1.8" target="NT1.12"/>
+   <edge id="e.9" source="NT1.5" target="NT1.15"/>
+   <edge id="e.10" source="NT1.5" target="NT1.16"/>
+   <edge id="e.11" target="NT1.23" source="NT1.4"/>
+   <edge id="e.13" target="NT1.10" source="NT1.3"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.18" source="NT1.1" target="NT1.2"/>
+   <edge id="e.19" source="NT1.2" target="NT1.8"/>
+   <edge id="e.20" source="NT1.1" target="NT1.4"/>
+   <edge id="e.22" source="NT1.4" target="NT1.5"/>
+   <edge id="e.23" source="NT1.27" target="NT1.26"/>
+   <edge id="e.24" source="NT1.27" target="NT1.1"/>
+   <edge id="e.25" target="NT1.21" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

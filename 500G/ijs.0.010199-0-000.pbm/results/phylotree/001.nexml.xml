@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Streptomyces albus subsp. albus</otu>
+  <otu id="otu2">Sporichthya polymorpha</otu>
+  <otu id="otu3">Catenulispora acidiphila</otu>
+  <otu id="otu4">Nakamurella multipartita</otu>
+  <otu id="otu5">Kineosporia aurantiaca ATCC 297277</otu>
+  <otu id="otu6">Micromonospora chalcea</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Actinospica robiniae</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Micrococcus luteus</otu>
+  <otu id="otu12">Sanguibacter keddieii</otu>
+  <otu id="otu13">Tsukamurella paurometabola</otu>
+  <otu id="otu14">Dietzia maris DSM 436727</otu>
+  <otu id="otu15">Acidothermus cellulolyticus</otu>
+  <otu id="otu16">Rarobacter faecitabidus</otu>
+  <otu id="otu17">Dermatophilus congolensis</otu>
+  <otu id="otu18">Beutenbergia cavernae</otu>
+  <otu id="otu19">Geodermatophilus obscurus</otu>
+  <otu id="otu20">Williamsia muralis</otu>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:genus="Nocardia" cmphy:species="asteroides" cmphy:strain="ATCC 192477" cmphy:id="DQ659898" editRecord="[]">Nocardia asteroides ATCC 192477 (DQ659898)</otu>
+  <otu id="otu23">Gordonia bronchialis</otu>
+  <otu id="otu24">Segniliparus rotundus</otu>
+  <otu id="otu25" cmphy:genus="Cellulomonas" cmphy:species="flavigena" cmphy:strain="DSM 201097" cmphy:id="X83799" editRecord="[]"> Cellulomonas flavigena DSM 201097 (X83799)</otu>
+  <otu id="otu26">Dermabacter hominis</otu>
+  <otu id="otu27"/>
+  <otu id="otu28">Promfcromonospora citrea</otu>
+  <otu id="otu29">Pseudonocardia thermophila</otu>
+  <otu id="otu30">Yaniella halotolerans</otu>
+  <otu id="otu31">Mycobacterium tuberculosis</otu>
+  <otu id="otu32">Clone NM1</otu>
+  <otu id="otu33">Corynebacterium diphtheriae NCTC 1 13977 (X84248)</otu>
+  <otu id="otu34">Nocardioides albus</otu>
+  <otu id="otu35">Thermomonospora curvata</otu>
+  <otu id="otu36">Jonesia denitrificans</otu>
+  <otu id="otu37"/>
+  <otu id="otu38" cmphy:genus="Brevibacterium" cmphy:species="linens" cmphy:strain="DSM 204257" cmphy:id="X77451" editRecord="[]">Brevibacterium linens DSM 204257 (X77451)</otu>
+  <otu id="otu39">Nocardiopsis dassonvillei subspdassonvillei DSM 431 1 17 (X97886)</otu>
+  <otu id="otu40" cmphy:genus="Microbacterium" cmphy:species="lacticum" cmphy:strain="DSM 204277" cmphy:id="X77441" editRecord="[]">Microbacterium lacticum DSM 204277 (X77441)</otu>
+  <otu id="otu41">Propionibacterium freudenreichii</otu>
+  <otu id="otu42">Clone SW10 (AJ575554)</otu>
+  <otu id="otu43"/>
+  <otu id="otu44">Actinomyces bovis</otu>
+  <otu id="otu45">Glycomyces harbinensis</otu>
+  <otu id="otu46" cmphy:edit="[1__I]" cmphy:genus="Patulibacter" cmphy:species="minatonensis" cmphy:strain="KV-6147" cmphy:id="ABI93261" editRecord="[1__I]">Patulibacter minatonensis KV-6147 (AB193261)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.5" label="NT1.5" x="100.0" y="930.0"/>
+   <node id="NT1.15" x="169.0" y="411.0" label="61"/>
+   <node id="NT1.27" label="NT1.27" x="223.0" y="662.0"/>
+   <node id="NT1.65" label="NT1.65" x="444.0" y="1531.0" otu="otu22"/>
+   <node id="NT1.69" label="NT1.69" x="458.0" y="673.0" otu="otu25"/>
+   <node id="NT1.82" label="NT1.82" x="551.0" y="268.0" otu="otu38"/>
+   <node id="NT1.84" label="NT1.84" x="561.0" y="628.0" otu="otu40"/>
+   <node id="NT1.90" label="NT1.90" x="751.0" y="2117.0" otu="otu46"/>
+   <node id="NT1.91" label="NT1.91" x="1.0" y="2012.0" root="true"/>
+   <edge id="e.7" target="NT1.82" source="NT1.15"/>
+   <edge id="e.12" target="NT1.69" source="NT1.27"/>
+   <edge id="e.15" source="NT1.27" target="NT1.84"/>
+   <edge id="e.28" target="NT1.65" source="NT1.5"/>
+   <edge id="e.51" target="NT1.15" source="NT1.5"/>
+   <edge id="e.56" target="NT1.27" source="NT1.15"/>
+   <edge id="e.62" target="NT1.5" source="NT1.91"/>
+   <edge id="e.87" source="NT1.91" target="NT1.90"/>
+  </tree>
+ </trees>
+</nexml>

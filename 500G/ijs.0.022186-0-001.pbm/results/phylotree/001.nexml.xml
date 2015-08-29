@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Sinosporangium" cmphy:species="album" cmphy:strain="60147" cmphy:id="EU438912" editRecord="[]">Sinosporangium album 60147 (EU438912)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Sphaerisporangium" cmphy:species="cinnabarinum" cmphy:strain="DSM 440947" cmphy:id="X89939" editRecord="[]">Sphaerisporangium cinnabarinum DSM 440947 (X89939)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Planotetraspora silvatica TT 009517 (AB1 12082)</otu>
+  <otu id="otu13" cmphy:edit="[O__0]" cmphy:genus="Acrocarpospora" cmphy:species="pleiomorpha" cmphy:strain="R-317" cmphy:id="ABO06174" editRecord="[O__0]">Acrocarpospora pleiomorpha R-317 (ABOO6174)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">Acrocarpospora macrocephala IFO 162667 (AB02531 8)</otu>
+  <otu id="otu16" cmphy:genus="Acrocarpospora" cmphy:species="corrugata" cmphy:strain="DSM 433167" cmphy:id="X89941" editRecord="[]">Acrocarpospora corrugata DSM 433167 (X89941)</otu>
+  <otu id="otu17" cmphy:genus="Herbidospora" cmphy:species="cretacea" cmphy:strain="IFO 154747" cmphy:id="D85485" editRecord="[]">Herbidospora cretacea IFO 154747 (D85485)</otu>
+  <otu id="otu18" cmphy:genus="Planotetraspora" cmphy:species="mira" cmphy:strain="IFO 154357" cmphy:id="D85496" editRecord="[]">Planotetraspora mira IFO 154357 (D85496)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:genus="Microtetraspora" cmphy:species="glauca" cmphy:strain="IFO 147617" cmphy:id="X97891" editRecord="[]">Microtetraspora glauca IFO 147617 (X97891)</otu>
+  <otu id="otu23">Planobispora rosea JCM 31667(AB028654)</otu>
+  <otu id="otu24">Planomonospora parontospora subsp. parontospora IFO 138807 (D85495)</otu>
+  <otu id="otu25"/>
+  <otu id="otu26"/>
+  <otu id="otu27">Microbispora rosea subsp. rosea IFO 140447 (D86936)</otu>
+  <otu id="otu28" cmphy:genus="Planobispora" cmphy:species="longispora" cmphy:strain="IFO 139187" cmphy:id="D85494" editRecord="[]">Planobispora longispora IFO 139187 (D85494)</otu>
+  <otu id="otu29" cmphy:genus="Microtetraspora" cmphy:species="fusca" cmphy:strain="IFO 139157" cmphy:id="U48973" editRecord="[]">Microtetraspora fusca IFO 139157 (U48973)</otu>
+  <otu id="otu30" cmphy:genus="Nonomuraea" cmphy:species="fastidiosa" cmphy:strain="IFO 146807" cmphy:id="U48844" editRecord="[]">Nonomuraea fastidiosa IFO 146807 (U48844)</otu>
+  <otu id="otu31" cmphy:genus="Thermopolyspora" cmphy:species="flexuosa" cmphy:strain="DSM 431867" cmphy:id="AYO39253" editRecord="[]">Thermopolyspora flexuosa DSM 431867 (AYO39253)</otu>
+  <otu id="otu32" cmphy:genus="Streptosporangium" cmphy:species="album" cmphy:strain="DSM 430237" cmphy:id="X89934" editRecord="[]">Streptosporangium album DSM 430237 (X89934)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="395.0" y="687.0"/>
+   <node id="NT1.3" label="NT1.3" x="395.0" y="586.0"/>
+   <node id="NT1.4" label="NT1.4" x="401.0" y="718.0"/>
+   <node id="NT1.5" label="NT1.5" x="411.0" y="994.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="430.0" y="790.0"/>
+   <node id="NT1.8" label="NT1.8" x="467.0" y="178.0"/>
+   <node id="NT1.10" label="NT1.10" x="479.0" y="84.0"/>
+   <node id="NT1.21" label="NT1.21" x="561.0" y="668.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="576.0" y="17.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="582.0" y="98.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="587.0" y="139.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="587.0" y="261.0" otu="otu18"/>
+   <node id="NT1.38" x="596.0" y="423.0" label="99"/>
+   <node id="NT1.40" label="NT1.40" x="613.0" y="465.0" otu="otu22"/>
+   <node id="NT1.46" label="NT1.46" x="655.0" y="750.0" otu="otu28"/>
+   <node id="NT1.47" label="NT1.47" x="658.0" y="383.0" otu="otu29"/>
+   <node id="NT1.48" label="NT1.48" x="661.0" y="546.0" otu="otu30"/>
+   <node id="NT1.49" label="NT1.49" x="672.0" y="954.0" otu="otu31"/>
+   <node id="NT1.50" label="NT1.50" x="698.0" y="872.0" otu="otu32"/>
+   <node id="NT1.51" label="NT1.51" x="216.0" y="777.0" root="true"/>
+   <edge id="e.15" source="NT1.2" target="NT1.49"/>
+   <edge id="e.16" target="NT1.28" source="NT1.10"/>
+   <edge id="e.20" source="NT1.8" target="NT1.10"/>
+   <edge id="e.22" source="NT1.2" target="NT1.8"/>
+   <edge id="e.25" source="NT1.2" target="NT1.3"/>
+   <edge id="e.26" target="NT1.38" source="NT1.2"/>
+   <edge id="e.30" source="NT1.3" target="NT1.4"/>
+   <edge id="e.32" source="NT1.4" target="NT1.6"/>
+   <edge id="e.37" source="NT1.51" target="NT1.2"/>
+   <edge id="e.38" source="NT1.51" target="NT1.5"/>
+   <edge id="e.39" target="NT1.21" source="NT1.4"/>
+   <edge id="e.40" source="NT1.3" target="NT1.48"/>
+   <edge id="e.41" source="NT1.10" target="NT1.33"/>
+   <edge id="e.42" target="NT1.34" source="NT1.10"/>
+   <edge id="e.44" target="NT1.35" source="NT1.8"/>
+   <edge id="e.45" target="NT1.46" source="NT1.6"/>
+   <edge id="e.46" source="NT1.38" target="NT1.40"/>
+   <edge id="e.48" target="NT1.50" source="NT1.6"/>
+   <edge id="e.49" source="NT1.38" target="NT1.47"/>
+  </tree>
+ </trees>
+</nexml>

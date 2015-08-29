@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Desmospora" cmphy:species="activa" cmphy:strain="DSM 451697" cmphy:id="AM940019" editRecord="[]">Desmospora activa DSM 451697 (AM940019)</otu>
+  <otu id="otu2" cmphy:genus="Kroppenstedtia" cmphy:species="eburnea" cmphy:strain="JFMB-ATET" cmphy:id="FN665656" editRecord="[]">Kroppenstedtia eburnea JFMB-ATET (FN665656)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Thermoflavimicrobium" cmphy:species="dichotomicum" cmphy:strain="KCTC 3667T" cmphy:id="AFI38733" editRecord="[1__I]">Thermoflavimicrobium dichotomicum KCTC 3667T (AF138733)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Planifilum yunnanense CCTCC AA2O6O02T (DO1 19659)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Mechercharimyces" cmphy:species="asporophorigenens" cmphy:strain="MBICO6487T" cmphy:id="ABZ39532" editRecord="[2__Z]">Mechercharimyces asporophorigenens MBICO6487T (AB239532)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="14.0" y="340.0"/>
+   <node id="NT1.3" label="NT1.3" x="90.0" y="468.0"/>
+   <node id="NT1.4" label="NT1.4" x="140.0" y="534.0"/>
+   <node id="NT1.9" label="NT1.9" x="243.0" y="567.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="245.0" y="439.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="251.0" y="273.0" otu="otu3"/>
+   <node id="NT1.26" label="NT1.26" x="384.0" y="525.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="5.0" y="484.0" root="true"/>
+   <edge id="e.5" target="NT1.11" source="NT1.1"/>
+   <edge id="e.7" source="NT1.4" target="NT1.9"/>
+   <edge id="e.8" target="NT1.10" source="NT1.3"/>
+   <edge id="e.10" target="NT1.26" source="NT1.4"/>
+   <edge id="e.22" source="NT1.1" target="NT1.3"/>
+   <edge id="e.23" source="NT1.3" target="NT1.4"/>
+   <edge id="e.28" source="NT1.31" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

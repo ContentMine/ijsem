@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Streptococcus" cmphy:species="pyogenes" cmphy:strain="NCTC 81987" cmphy:id="X59029" editRecord="[]">Streptococcus pyogenes NCTC 81987 (X59029)</otu>
+  <otu id="otu13" cmphy:genus="Streptococcus" cmphy:species="canis" cmphy:strain="DSM 20715T" cmphy:id="ABO02483" editRecord="[]">Streptococcus canis DSM 20715T (ABO02483)</otu>
+  <otu id="otu14" cmphy:edit="[O__0]" cmphy:genus="Streptococcus" cmphy:species="agalactiae" cmphy:strain="NCTC 8181T" cmphy:id="ABO02479" editRecord="[O__0]">Streptococcus agalactiae NCTC 8181T (ABOO2479)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Streptococcus" cmphy:species="iniae" cmphy:strain="ATCC 29178T" cmphy:id="AFB35572" editRecord="[3__B]">Streptococcus iniae ATCC 29178T (AF335572)</otu>
+  <otu id="otu17" cmphy:edit="[O__0]" cmphy:genus="Streptococcus" cmphy:species="suis" cmphy:strain="ATCC 43765T" cmphy:id="ABO02525" editRecord="[O__0]">Streptococcus suis ATCC 43765T (ABOO2525)</otu>
+  <otu id="otu18" cmphy:genus="Streptococcus" cmphy:species="sinensis" cmphy:strain="DSM 1499oT" cmphy:id="AF432856" editRecord="[]">Streptococcus sinensis DSM 1499oT (AF432856)</otu>
+  <otu id="otu19" cmphy:genus="Streptococcus" cmphy:species="vestibularis" cmphy:strain="NCTC 12166T" cmphy:id="X58321" editRecord="[]">Streptococcus vestibularis NCTC 12166T (X58321)</otu>
+  <otu id="otu20" cmphy:genus="Streptococcus" cmphy:species="ovis" cmphy:strain="CCUG 39485T" cmphy:id="Y17358" editRecord="[]">Streptococcus ovis CCUG 39485T (Y17358)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Streptococcus" cmphy:species="phocae" cmphy:strain="NCTC 12719T" cmphy:id="AFZ35052" editRecord="[2__Z]">Streptococcus phocae NCTC 12719T (AF235052)</otu>
+  <otu id="otu22" cmphy:genus="Streptococcus" cmphy:species="acidominimus" cmphy:strain="NCDO 2025T" cmphy:id="X58301" editRecord="[]">Streptococcus acidominimus NCDO 2025T (X58301)</otu>
+  <otu id="otu23" cmphy:edit="[0__O]" cmphy:genus="Streptococcus" cmphy:species="cristatus" cmphy:strain="NCTC 124797" cmphy:id="ABO08313" editRecord="[0__O]">Streptococcus cristatus NCTC 124797 (AB008313)</otu>
+  <otu id="otu24" cmphy:edit="[2__Z]" cmphy:genus="Streptococcus" cmphy:species="minor" cmphy:strain="LMG 21734T" cmphy:id="AYZ32832" editRecord="[2__Z]">Streptococcus minor LMG 21734T (AY232832)</otu>
+  <otu id="otu25">Streptococcus didelphis WADDL 94-11374-1T(AF176103)</otu>
+  <otu id="otu26">Streptococcus marimammalium sp. nov. M54I01l1T (AJ634751)</otu>
+  <otu id="otu27" cmphy:genus="Streptococcus" cmphy:species="pluranimalium" cmphy:strain="LMG 14177T" cmphy:id="Y18026" editRecord="[]">Streptococcus pluranimalium LMG 14177T (Y18026)</otu>
+  <otu id="otu28" cmphy:genus="Streptococcus" cmphy:species="entericus" cmphy:strain="CECT 5353T" cmphy:id="AJ409287" editRecord="[]">Streptococcus entericus CECT 5353T (AJ409287)</otu>
+  <otu id="otu29" cmphy:genus="Streptococcus" cmphy:species="thoraltensis" cmphy:strain="DSM 12221T" cmphy:id="Y09007" editRecord="[]">Streptococcus thoraltensis DSM 12221T (Y09007)</otu>
+  <otu id="otu30" cmphy:genus="Streptococcus" cmphy:species="macacae" cmphy:strain="NCTC 11558T" cmphy:id="AJ420199" editRecord="[]">Streptococcus macacae NCTC 11558T (AJ420199)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="215.0" y="214.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="219.0" y="117.0"/>
+   <node id="NT1.4" label="NT1.4" x="317.0" y="605.0"/>
+   <node id="NT1.6" label="NT1.6" x="394.0" y="900.0"/>
+   <node id="NT1.7" x="410.0" y="730.0" label="22"/>
+   <node id="NT1.8" label="NT1.8" x="414.0" y="197.0"/>
+   <node id="NT1.9" x="434.0" y="860.0" label="88"/>
+   <node id="NT1.10" label="NT1.10" x="463.0" y="594.0"/>
+   <node id="NT1.11" label="NT1.11" x="465.0" y="1064.0"/>
+   <node id="NT1.12" x="468.0" y="929.0" label="28"/>
+   <node id="NT1.14" label="NT1.14" x="534.0" y="526.0"/>
+   <node id="NT1.15" label="NT1.15" x="546.0" y="332.0"/>
+   <node id="NT1.18" x="591.0" y="116.0" label="100"/>
+   <node id="NT1.23" x="633.0" y="798.0" label="99"/>
+   <node id="NT1.24" label="NT1.24" x="634.0" y="383.0"/>
+   <node id="NT1.37" x="735.0" y="657.0" label="100"/>
+   <node id="NT1.38" label="NT1.38" x="755.0" y="79.0" otu="otu12"/>
+   <node id="NT1.39" label="NT1.39" x="767.0" y="148.0" otu="otu13"/>
+   <node id="NT1.40" label="NT1.40" x="800.0" y="420.0" otu="otu14"/>
+   <node id="NT1.43" label="NT1.43" x="831.0" y="283.0" otu="otu16"/>
+   <node id="NT1.44" label="NT1.44" x="834.0" y="897.0" otu="otu17"/>
+   <node id="NT1.45" label="NT1.45" x="852.0" y="830.0" otu="otu18"/>
+   <node id="NT1.46" label="NT1.46" x="877.0" y="966.0" otu="otu19"/>
+   <node id="NT1.47" label="NT1.47" x="883.0" y="489.0" otu="otu20"/>
+   <node id="NT1.48" label="NT1.48" x="889.0" y="351.0" otu="otu21"/>
+   <node id="NT1.49" label="NT1.49" x="898.0" y="1102.0" otu="otu22"/>
+   <node id="NT1.50" label="NT1.50" x="919.0" y="761.0" otu="otu23"/>
+   <node id="NT1.51" label="NT1.51" x="945.0" y="558.0" otu="otu24"/>
+   <node id="NT1.54" label="NT1.54" x="997.0" y="625.0" otu="otu27"/>
+   <node id="NT1.55" label="NT1.55" x="1034.0" y="1033.0" otu="otu28"/>
+   <node id="NT1.56" label="NT1.56" x="1071.0" y="694.0" otu="otu29"/>
+   <node id="NT1.57" label="NT1.57" x="1096.0" y="20.0" otu="otu30"/>
+   <edge id="e.1" source="NT1.1" target="NT1.3"/>
+   <edge id="e.2" source="NT1.3" target="NT1.57"/>
+   <edge id="e.8" target="NT1.40" source="NT1.24"/>
+   <edge id="e.9" target="NT1.43" source="NT1.15"/>
+   <edge id="e.14" target="NT1.49" source="NT1.11"/>
+   <edge id="e.17" target="NT1.44" source="NT1.12"/>
+   <edge id="e.18" target="NT1.55" source="NT1.11"/>
+   <edge id="e.19" target="NT1.46" source="NT1.12"/>
+   <edge id="e.20" target="NT1.47" source="NT1.14"/>
+   <edge id="e.21" target="NT1.50" source="NT1.23"/>
+   <edge id="e.22" target="NT1.54" source="NT1.37"/>
+   <edge id="e.23" source="NT1.3" target="NT1.4"/>
+   <edge id="e.25" source="NT1.4" target="NT1.8"/>
+   <edge id="e.26" target="NT1.6" source="NT1.4"/>
+   <edge id="e.28" source="NT1.8" target="NT1.18"/>
+   <edge id="e.29" source="NT1.6" target="NT1.11"/>
+   <edge id="e.30" source="NT1.6" target="NT1.7"/>
+   <edge id="e.31" target="NT1.15" source="NT1.8"/>
+   <edge id="e.33" source="NT1.15" target="NT1.24"/>
+   <edge id="e.35" source="NT1.7" target="NT1.9"/>
+   <edge id="e.36" source="NT1.7" target="NT1.10"/>
+   <edge id="e.40" source="NT1.9" target="NT1.12"/>
+   <edge id="e.41" source="NT1.9" target="NT1.23"/>
+   <edge id="e.42" source="NT1.10" target="NT1.37"/>
+   <edge id="e.43" source="NT1.10" target="NT1.14"/>
+   <edge id="e.49" source="NT1.18" target="NT1.38"/>
+   <edge id="e.50" source="NT1.18" target="NT1.39"/>
+   <edge id="e.51" source="NT1.14" target="NT1.51"/>
+   <edge id="e.53" source="NT1.23" target="NT1.45"/>
+   <edge id="e.54" source="NT1.24" target="NT1.48"/>
+   <edge id="e.55" source="NT1.37" target="NT1.56"/>
+  </tree>
+ </trees>
+</nexml>

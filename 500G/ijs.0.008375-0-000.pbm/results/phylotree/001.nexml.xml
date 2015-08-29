@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Comamonas" cmphy:species="terrigena" cmphy:strain="IMI 359870" cmphy:id="AFO78772" editRecord="[0__O]">Comamonas terrigena IMI 359870 (AF078772)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"> Comamonas testosteroni ATCC 1 19967 (M1 1 224)</otu>
+  <otu id="otu6">Neisseria gonorrhoeae NCTC 837857 (X0771 4)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Comamonas" cmphy:species="badia" cmphy:strain="IAM 148397" cmphy:id="ABI64432" editRecord="[1__I]">Comamonas badia IAM 148397 (AB164432)</otu>
+  <otu id="otu8">Strain 3327 (EU888308)</otu>
+  <otu id="otu9">Delftia tsuruhatensis T77 (AB07501 7)</otu>
+  <otu id="otu10"> Delftia acidovorans IAM 1 24097 (AB02141 7)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="139.0" y="155.0" label="90"/>
+   <node id="NT1.9" label="NT1.9" x="243.0" y="255.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="265.0" y="74.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="1.0" y="84.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.13"/>
+   <edge id="e.3" target="NT1.9" source="NT1.1"/>
+   <edge id="e.17" source="NT1.19" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

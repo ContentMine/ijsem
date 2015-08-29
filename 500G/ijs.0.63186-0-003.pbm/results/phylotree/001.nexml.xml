@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Rhodococcus" cmphy:species="ruber" cmphy:strain="DSM 43338T" cmphy:id="X80625" editRecord="[]">Rhodococcus ruber DSM 43338T (X80625)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Moorella" cmphy:species="glycerini" cmphy:strain="DSM 11254T" cmphy:id="U82327" editRecord="[]">Moorella glycerini DSM 11254T (U82327)</otu>
+  <otu id="otu5">Moorella thermoacetica DSM</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">T hermosyntropha lipolytica DSM</otu>
+  <otu id="otu8">Thermacetogenium phaeum DSM</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Desulfotomaculum thermabenzoicum subsp. thermabenzoicum DSM 6193T (Y11574)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">T hermoterrabaclerium ferrireducens DSM</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">T hermoterrabaclerium ferrireducens DSM</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">Desulfotomaculum thermosapovorans DSM 6562T (Y1 1575)</otu>
+  <otu id="otu17" cmphy:genus="Thermocmaerobacter" cmphy:species="ethcmolicus" cmphy:strain="ATCC 33223" cmphy:id="L09164" editRecord="[]">Thermocmaerobacter ethcmolicus ATCC 33223 (L09164)</otu>
+  <otu id="otu18">Caldamzerobacter subterraneus subsp. pacificus DSM 12653T (AF174484)</otu>
+  <otu id="otu19">T hermoanaerobacter siderophilus DSM 12299T (AF120479)</otu>
+  <otu id="otu20">Ammonifex degensii DSM</otu>
+  <otu id="otu21" cmphy:edit="[0__O]" cmphy:genus="Dendrosporobacter" cmphy:species="quercicolus" cmphy:strain="DSM 1736T" cmphy:id="AJO10962" editRecord="[0__O]">Dendrosporobacter quercicolus DSM 1736T (AJ010962)</otu>
+  <otu id="otu22">T hermosinus carboxydivorans N0r1T (AY519200)</otu>
+  <otu id="otu23">T hermanaerovibrio velox DSM 12556T (AF161069)</otu>
+  <otu id="otu24">Selenomonas ruminantium subsp. ruminantium DSM 2150T (AF161581)</otu>
+  <otu id="otu25">Anaerosinus glycerini DSM 5192T (AJ 010960)</otu>
+  <otu id="otu26" cmphy:edit="[0__O]" cmphy:genus="Acetonema" cmphy:species="longum" cmphy:strain="DSM 6540T" cmphy:id="AJO10964" editRecord="[0__O]">Acetonema longum DSM 6540T (AJ010964)</otu>
+  <otu id="otu27" cmphy:edit="[0__O]" cmphy:genus="Acetonema" cmphy:species="longum" cmphy:strain="DSM 6540T" cmphy:id="AJO10964" editRecord="[0__O]">Acetonema longum DSM 6540T (AJ010964)</otu>
+  <otu id="otu28" cmphy:edit="[2__Z]" cmphy:genus="Sporomusa" cmphy:species="acidovorans" cmphy:strain="DSM 3132T" cmphy:id="AJZ79798" editRecord="[2__Z]">Sporomusa acidovorans DSM 3132T (AJ279798)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="8.0" y="259.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="12.0" y="259.0"/>
+   <node id="NT1.3" label="NT1.3" x="238.0" y="716.0"/>
+   <node id="NT1.6" label="NT1.6" x="315.0" y="763.0"/>
+   <node id="NT1.8" label="NT1.8" x="370.0" y="30.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="444.0" y="799.0" otu="otu4"/>
+   <node id="NT1.34" label="NT1.34" x="630.0" y="1496.0" otu="otu17"/>
+   <node id="NT1.38" x="678.0" y="522.0" label="58"/>
+   <node id="NT1.41" label="NT1.41" x="751.0" y="412.0" otu="otu21"/>
+   <node id="NT1.43" x="754.0" y="602.0" label="60"/>
+   <node id="NT1.47" label="NT1.47" x="885.0" y="563.0" otu="otu26"/>
+   <node id="NT1.48" label="NT1.48" x="885.0" y="565.0"/>
+   <node id="NT1.49" label="NT1.49" x="896.0" y="566.0" otu="otu27"/>
+   <node id="NT1.50" label="NT1.50" x="907.0" y="644.0" otu="otu28"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" source="NT1.48" target="NT1.47"/>
+   <edge id="e.15" source="NT1.48" target="NT1.49"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.3" target="NT1.6"/>
+   <edge id="e.30" target="NT1.38" source="NT1.3"/>
+   <edge id="e.33" source="NT1.38" target="NT1.43"/>
+   <edge id="e.36" source="NT1.43" target="NT1.48"/>
+   <edge id="e.37" source="NT1.2" target="NT1.8"/>
+   <edge id="e.40" source="NT1.6" target="NT1.13"/>
+   <edge id="e.43" target="NT1.34" source="NT1.6"/>
+   <edge id="e.46" target="NT1.41" source="NT1.38"/>
+   <edge id="e.48" source="NT1.43" target="NT1.50"/>
+  </tree>
+ </trees>
+</nexml>

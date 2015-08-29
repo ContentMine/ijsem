@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">V. diazotrophicus ATCC 334667 (X74701)</otu>
+  <otu id="otu2">V. vulnificus ATCC 275627 (X74726)</otu>
+  <otu id="otu3"> V. proteolyticus ATCC 153387 (X74723)</otu>
+  <otu id="otu4">LMG 13211 (AY254041)</otu>
+  <otu id="otu5"> LMG 13240"' clone1 (AY254039)</otu>
+  <otu id="otu6">V. alginolyticus ATCC 17749 (X74690)</otu>
+  <otu id="otu7"> LMG 132407 clone 2 (AY254040)</otu>
+  <otu id="otu8" cmphy:genus="v." cmphy:species="nigripulchritudo" cmphy:strain="ATCC 27o43T" cmphy:id="X74717">v. nigripulchritudo ATCC 27o43T (X74717)</otu>
+  <otu id="otu9"> V. parahaemolyticus ATCC 17802T (X74720)</otu>
+  <otu id="otu10"> LMG 13213 (AY254042)</otu>
+  <otu id="otu11"> V. natriegens ATCC 14048T (X74714)</otu>
+  <otu id="otu12"> V. harveyiATCC 141267 (X74706)</otu>
+  <otu id="otu13"> V. campbellii ATCC 259207 (X74692)</otu>
+  <otu id="otu14">V. cholerae El Tor strain N16961</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.20" label="NT1.20" x="383.0" y="614.0" otu="otu8"/>
+   <node id="NT1.27" label="NT1.27" x="3.0" y="700.0" root="true"/>
+   <edge id="e.4" target="NT1.20" source="NT1.27"/>
+  </tree>
+ </trees>
+</nexml>

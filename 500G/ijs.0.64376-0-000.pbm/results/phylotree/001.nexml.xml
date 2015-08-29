@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Strain KMM 60597 (DQ367409)</otu>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Mesonia" cmphy:species="algae" cmphy:strain="KMM 3910" cmphy:id="AFS36384" editRecord="[5__S]">Mesonia algae KMM 3910 (AF536384)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Mesonia" cmphy:species="algae" cmphy:strain="KMM 3909T" cmphy:id="AFS36383" editRecord="[5__S]">Mesonia algae KMM 3909T (AF536383)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Salegentibacter" cmphy:species="mishustinae" cmphy:strain="KMM 60497" cmphy:id="AYS76653" editRecord="[5__S]"> Salegentibacter mishustinae KMM 60497 (AY576653)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Salegentibacter" cmphy:species="holothuriorum" cmphy:strain="KMM 3524T" cmphy:id="ABI16148" editRecord="[1__I]"> Salegentibacter holothuriorum KMM 3524T (AB116148)</otu>
+  <otu id="otu6" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 54247" cmphy:id="M92279" editRecord="[]"> Salegentibacter salegens DSM 54247 (M92279)</otu>
+  <otu id="otu7">Grams-Ila echinicola KMM 6050T (AY608409)</otu>
+  <otu id="otu8" cmphy:genus="Psychroflexus" cmphy:species="torquis" cmphy:strain="ACAM 623T" cmphy:id="U85881" editRecord="[]">Psychroflexus torquis ACAM 623T (U85881)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="262.0"/>
+   <node id="NT1.4" label="NT1.4" x="110.0" y="265.0"/>
+   <node id="NT1.5" label="NT1.5" x="127.0" y="229.0"/>
+   <node id="NT1.6" x="128.0" y="72.0" label="100"/>
+   <node id="NT1.7" label="NT1.7" x="129.0" y="108.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="131.0" y="11.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="147.0" y="302.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="156.0" y="253.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="165.0" y="204.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="236.0" y="399.0" otu="otu8"/>
+   <node id="NT1.14" label="NT1.14" x="2.0" y="397.0" root="true"/>
+   <edge id="e.0" source="NT1.6" target="NT1.8"/>
+   <edge id="e.1" source="NT1.6" target="NT1.7"/>
+   <edge id="e.3" source="NT1.4" target="NT1.9"/>
+   <edge id="e.5" source="NT1.5" target="NT1.11"/>
+   <edge id="e.6" target="NT1.6" source="NT1.1"/>
+   <edge id="e.8" source="NT1.1" target="NT1.4"/>
+   <edge id="e.9" source="NT1.4" target="NT1.5"/>
+   <edge id="e.10" source="NT1.14" target="NT1.13"/>
+   <edge id="e.11" source="NT1.14" target="NT1.1"/>
+   <edge id="e.12" source="NT1.5" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

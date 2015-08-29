@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Vibrio" cmphy:species="cholerae" cmphy:strain="ATCC 140357" cmphy:id="X74695" editRecord="[]">Vibrio cholerae ATCC 140357 (X74695)</otu>
+  <otu id="otu2" cmphy:genus="Shewanella" cmphy:species="putrefaciens" cmphy:strain="ATCC 80717" cmphy:id="X82133" editRecord="[]">Shewanella putrefaciens ATCC 80717 (X82133)</otu>
+  <otu id="otu3" cmphy:genus="Pseudoalteromonas" cmphy:species="haloplanktis" cmphy:strain="ATCC 143937" cmphy:id="X67024" editRecord="[]"> Pseudoalteromonas haloplanktis ATCC 143937 (X67024)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Colwellia" cmphy:species="psychrerythraea" cmphy:strain="ATCC 273647" cmphy:id="AFO01375" editRecord="[0__O]"> Colwellia psychrerythraea ATCC 273647 (AF001375)</otu>
+  <otu id="otu7"> Colwellia man's JCM 100857 (AB002630)</otu>
+  <otu id="otu8" cmphy:genus="Colwellia" cmphy:species="psychrotropica" cmphy:strain="ACAM 1797" cmphy:id="U85846" editRecord="[]">Colwellia psychrotropica ACAM 1797 (U85846)</otu>
+  <otu id="otu9" cmphy:genus="Colwellia" cmphy:species="rossensis" cmphy:strain="ACAM 6087" cmphy:id="U14581" editRecord="[]">Colwellia rossensis ACAM 6087 (U14581)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Aestuariibacter" cmphy:species="halophilus" cmphy:strain="DSM 152667" cmphy:id="AYZ07503" editRecord="[2__Z]"> Aestuariibacter halophilus DSM 152667 (AY207503)</otu>
+  <otu id="otu11"> )Alteromonas infernus' GY 785 (X85175)</otu>
+  <otu id="otu12" cmphy:genus="Alteromonas" cmphy:species="macleodif" cmphy:strain="IAM 129207" cmphy:id="X82145" editRecord="[]">Alteromonas macleodif IAM 129207 (X82145)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Alteromonas" cmphy:species="stellipolaris" cmphy:strain="LMG 218617" cmphy:id="AJZ95715" editRecord="[2__Z]"> Alteromonas stellipolaris LMG 218617 (AJ295715)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Aneromonas" cmphy:species="marina" cmphy:strain="SW-477" cmphy:id="AFS29060" editRecord="[5__S]">Aneromonas marina SW-477 (AF529060)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Aestuariibacter" cmphy:species="salexigens" cmphy:strain="DSM 153007" cmphy:id="AYZ07502" editRecord="[2__Z]">Aestuariibacter salexigens DSM 153007 (AY207502)</otu>
+  <otu id="otu16" cmphy:genus="Glaciecola" cmphy:species="pallidula" cmphy:strain="ACAM 6157" cmphy:id="U85854" editRecord="[]">Glaciecola pallidula ACAM 6157 (U85854)</otu>
+  <otu id="otu17" cmphy:genus="Glaciecola" cmphy:species="punicea" cmphy:strain="ACAM B117" cmphy:id="U85853" editRecord="[]">Glaciecola punicea ACAM B117 (U85853)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="81.0" y="512.0" label="100"/>
+   <node id="NT1.2" label="NT1.2" x="82.0" y="640.0" otu="otu1"/>
+   <node id="NT1.3" x="137.0" y="419.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="140.0" y="315.0"/>
+   <node id="NT1.5" label="NT1.5" x="193.0" y="603.0" otu="otu2"/>
+   <node id="NT1.8" x="251.0" y="385.0" label="100"/>
+   <node id="NT1.9" label="NT1.9" x="259.0" y="244.0"/>
+   <node id="NT1.10" label="NT1.10" x="262.0" y="188.0"/>
+   <node id="NT1.11" label="NT1.11" x="264.0" y="568.0" otu="otu3"/>
+   <node id="NT1.12" x="266.0" y="415.0" label="68"/>
+   <node id="NT1.16" label="NT1.16" x="289.0" y="352.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="296.0" y="228.0"/>
+   <node id="NT1.19" label="NT1.19" x="297.0" y="389.0" otu="otu8"/>
+   <node id="NT1.20" x="299.0" y="299.0" label="E"/>
+   <node id="NT1.22" label="NT1.22" x="304.0" y="425.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="308.0" y="112.0"/>
+   <node id="NT1.24" label="NT1.24" x="321.0" y="211.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="322.0" y="85.0"/>
+   <node id="NT1.27" label="NT1.27" x="327.0" y="68.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="333.0" y="139.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="336.0" y="103.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="367.0" y="247.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="384.0" y="283.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="406.0" y="316.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="3.0" y="577.0" root="true"/>
+   <edge id="e.0" source="NT1.25" target="NT1.27"/>
+   <edge id="e.1" source="NT1.25" target="NT1.29"/>
+   <edge id="e.2" source="NT1.23" target="NT1.28"/>
+   <edge id="e.4" source="NT1.18" target="NT1.24"/>
+   <edge id="e.5" source="NT1.18" target="NT1.30"/>
+   <edge id="e.6" source="NT1.20" target="NT1.31"/>
+   <edge id="e.7" source="NT1.20" target="NT1.32"/>
+   <edge id="e.8" source="NT1.8" target="NT1.16"/>
+   <edge id="e.9" source="NT1.12" target="NT1.19"/>
+   <edge id="e.11" target="NT1.22" source="NT1.12"/>
+   <edge id="e.13" target="NT1.11" source="NT1.3"/>
+   <edge id="e.15" source="NT1.1" target="NT1.5"/>
+   <edge id="e.16" source="NT1.23" target="NT1.25"/>
+   <edge id="e.17" target="NT1.23" source="NT1.10"/>
+   <edge id="e.19" source="NT1.9" target="NT1.10"/>
+   <edge id="e.20" source="NT1.10" target="NT1.18"/>
+   <edge id="e.21" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" source="NT1.4" target="NT1.8"/>
+   <edge id="e.23" source="NT1.1" target="NT1.3"/>
+   <edge id="e.25" source="NT1.8" target="NT1.12"/>
+   <edge id="e.28" source="NT1.33" target="NT1.2"/>
+   <edge id="e.29" source="NT1.33" target="NT1.1"/>
+   <edge id="e.30" source="NT1.4" target="NT1.9"/>
+   <edge id="e.31" source="NT1.9" target="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>

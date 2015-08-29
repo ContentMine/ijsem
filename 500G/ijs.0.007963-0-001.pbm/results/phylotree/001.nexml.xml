@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Thermus" cmphy:species="ruber" cmphy:strain="ATCC 35948T" cmphy:id="Z15059" editRecord="[]">Thermus ruber ATCC 35948T (Z15059)</otu>
+  <otu id="otu3" cmphy:genus="Thermus" cmphy:species="thermophilus" cmphy:strain="HB27" cmphy:id="L09659" editRecord="[]">Thermus thermophilus HB27 (L09659)</otu>
+  <otu id="otu4">D. pimensis KR-235T (AY743277)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">D. maricopensis LB-34) (AY743274)</otu>
+  <otu id="otu9">D. cellulosilyticus DSM 18568T (DQ883809)</otu>
+  <otu id="otu10">D. alpinitundrae LMG 24283T (EF635408)</otu>
+  <otu id="otu11">D. peraridilitoris KR-2007 (EF141348)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">D. sanorensis KR-877 (AY743288)</otu>
+  <otu id="otu15">D. proteolyticus DSM 205407 (Y1 1331)</otu>
+  <otu id="otu16">108. radiomollis LMG 24O19T (EF635404)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">D. grandis DSM 3963T (Y11329)</otu>
+  <otu id="otu19">5D. deserti VCD115T (AY876378)</otu>
+  <otu id="otu20">D. claudionis LMG 24282T (EF635406)</otu>
+  <otu id="otu21">D. navajonensis KR-1 14T (AY743259)</otu>
+  <otu id="otu22">D. grandis DSM 3963T (Y11329)</otu>
+  <otu id="otu23">D. claudionis LMG 24282T (EF635406)</otu>
+  <otu id="otu24">D. papagonensis KR-2417 (AY743280)</otu>
+  <otu id="otu25">D. hopiensis KR-140T (AY743262)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28">D. yavapaiensis KR-2367 (AY743279)</otu>
+  <otu id="otu29"/>
+  <otu id="otu30">D. indicus WtHaT (AJ549111)</otu>
+  <otu id="otu31">D. indicus WtHaT (AJ549111)</otu>
+  <otu id="otu32"/>
+  <otu id="otu33">D. mumbaiensis DSM 174247 (DQ003135)</otu>
+  <otu id="otu34"/>
+  <otu id="otu35">D.yunweiensis DSM 170057 (DQ344634)</otu>
+  <otu id="otu36">D. murrayi ALT-1bT (Y13041)</otu>
+  <otu id="otu37">D. radiodurans DSM 20539) (Y1 1332)</otu>
+  <otu id="otu38"/>
+  <otu id="otu39"/>
+  <otu id="otu40">Strain TR0125T (AB087233)</otu>
+  <otu id="otu41">D. saxicola AA-14447 (AJ585984)</otu>
+  <otu id="otu42"/>
+  <otu id="otu43"/>
+  <otu id="otu44">D. geothermalis AG-3a) (Y13038)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="71.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="5.0" y="57.0"/>
+   <node id="NT1.4" label="NT1.4" x="110.0" y="56.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="300.0" y="11.0" otu="otu3"/>
+   <edge id="e.1" source="NT1.3" target="NT1.4"/>
+   <edge id="e.24" target="NT1.3" source="NT1.1"/>
+   <edge id="e.64" source="NT1.3" target="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

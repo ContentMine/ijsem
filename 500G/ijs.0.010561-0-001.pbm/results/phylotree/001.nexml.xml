@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Actinoplanes" cmphy:species="digitatls" cmphy:strain="DSM 431497" cmphy:id="ABO37000" editRecord="[0__O]">Actinoplanes digitatls DSM 431497 (AB037000)</otu>
+  <otu id="otu2" cmphy:genus="Actinoplanes" cmphy:species="deccanensis" cmphy:strain="DSM 438067" cmphy:id="ABO36998" editRecord="[]">Actinoplanes deccanensis DSM 438067 (ABO36998)</otu>
+  <otu id="otu3">Actinoplanes</otu>
+  <otu id="otu4">Actinoplanes durhamensis</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Actinoplanes" cmphy:species="xinjiangensis" cmphy:strain="03-8772T" cmphy:id="EUS31457" editRecord="[5__S]">Actinoplanes xinjiangensis 03-8772T (EU531457)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Actinoplanes" cmphy:species="sichuanensis" cmphy:strain="03-723'" cmphy:id="EUS31458" editRecord="[5__S]">Actinoplanes sichuanensis 03-723' (EU531458)</otu>
+  <otu id="otu7">Actinoplanes lobatus</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Actinoplanes" cmphy:species="capillaceus" cmphy:strain="DSM 448591" cmphy:id="ABO13495" editRecord="[0__O]">Actinoplanes capillaceus DSM 448591 (AB013495)</otu>
+  <otu id="otu11">Actinoplanes</otu>
+  <otu id="otu12">Dactylosporangium aurantiacum</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="105.0" y="976.0"/>
+   <node id="NT1.3" label="NT1.3" x="198.0" y="1162.0"/>
+   <node id="NT1.5" x="455.0" y="639.0" label="78"/>
+   <node id="NT1.6" label="NT1.6" x="493.0" y="1111.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="538.0" y="1180.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="567.0" y="710.0"/>
+   <node id="NT1.13" label="NT1.13" x="676.0" y="566.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="686.0" y="634.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="841.0" y="907.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="3.0" y="1146.0" root="true"/>
+   <edge id="e.3" source="NT1.3" target="NT1.6"/>
+   <edge id="e.5" target="NT1.20" source="NT1.9"/>
+   <edge id="e.7" target="NT1.7" source="NT1.3"/>
+   <edge id="e.10" target="NT1.5" source="NT1.1"/>
+   <edge id="e.11" source="NT1.5" target="NT1.9"/>
+   <edge id="e.12" source="NT1.1" target="NT1.3"/>
+   <edge id="e.18" source="NT1.23" target="NT1.1"/>
+   <edge id="e.20" source="NT1.5" target="NT1.13"/>
+   <edge id="e.21" source="NT1.9" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

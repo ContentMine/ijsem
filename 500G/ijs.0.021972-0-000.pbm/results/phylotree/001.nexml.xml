@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Ensifer" cmphy:species="fredii" cmphy:strain="ATCC 354237" cmphy:id="D14516" editRecord="[]">Ensifer fredii ATCC 354237 (D14516)</otu>
+  <otu id="otu3" cmphy:genus="Mycoplana" cmphy:species="ramosa" cmphy:strain="DSM 72927" cmphy:id="EUO22308" editRecord="[]">Mycoplana ramosa DSM 72927 (EUO22308)</otu>
+  <otu id="otu4">Phyllobacterium myrsinacearum IAM 135847 (D1 2789)</otu>
+  <otu id="otu5" cmphy:genus="Mesorhizobium" cmphy:species="mediterraneum" cmphy:strain="UPM-Ca367" cmphy:id="L38825" editRecord="[]">Mesorhizobium mediterraneum UPM-Ca367 (L38825)</otu>
+  <otu id="otu6">Hoeflea alexandrii AM 1 V307 (AJ786600)</otu>
+  <otu id="otu7" cmphy:genus="Ochrobactrum" cmphy:species="cytisi" cmphy:strain="ESC17" cmphy:id="AY776289" editRecord="[]">Ochrobactrum cytisi ESC17 (AY776289)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Brucella" cmphy:species="pinnipedialis" cmphy:strain="BCCN 94-737" cmphy:id="AMI58981" editRecord="[1__I]">Brucella pinnipedialis BCCN 94-737 (AM158981)</otu>
+  <otu id="otu10">Aminobacter aminovorans DSM 70487 (AJO1 1 759)</otu>
+  <otu id="otu11" cmphy:genus="Rhodobium" cmphy:species="orientis" cmphy:strain="JCM 93377" cmphy:id="D30792" editRecord="[]">Rhodobium orientis JCM 93377 (D30792)</otu>
+  <otu id="otu12">Daeguia caeni K1 O77 (EF5327Q4)</otu>
+  <otu id="otu13">Hoeflea phototrophica DFL-43 7 (ABlA0200001 8)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[3__B]" cmphy:genus="Cohaesibacter" cmphy:species="gelatinilyticus" cmphy:strain="CL-GR157" cmphy:id="DQB86307" editRecord="[3__B]">Cohaesibacter gelatinilyticus CL-GR157 (DQ386307)</otu>
+  <otu id="otu16">Ancylobacter polymorphus DSM 24577 (AY21 1516)</otu>
+  <otu id="otu17">Azorhizobium caulinodans LMG 6465 7(X67221)</otu>
+  <otu id="otu18" cmphy:edit="[5__S]" cmphy:genus="Nesiotobacter" cmphy:species="exalbescens" cmphy:strain="LA83137" cmphy:id="AFS13441" editRecord="[5__S]">Nesiotobacter exalbescens LA83137 (AF513441)</otu>
+  <otu id="otu19" cmphy:genus="Xanthobacter" cmphy:species="autotrophicus" cmphy:strain="7c7" cmphy:id="X94201" editRecord="[]">Xanthobacter autotrophicus 7c7 (X94201)</otu>
+  <otu id="otu20"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="25.0" y="369.0"/>
+   <node id="NT1.2" x="31.0" y="646.0" label="74"/>
+   <node id="NT1.3" label="NT1.3" x="99.0" y="228.0"/>
+   <node id="NT1.4" label="NT1.4" x="105.0" y="694.0"/>
+   <node id="NT1.6" label="NT1.6" x="138.0" y="143.0"/>
+   <node id="NT1.9" label="NT1.9" x="205.0" y="96.0"/>
+   <node id="NT1.14" label="NT1.14" x="275.0" y="33.0"/>
+   <node id="NT1.15" label="NT1.15" x="286.0" y="168.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="291.0" y="130.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="320.0" y="363.0" otu="otu5"/>
+   <node id="NT1.24" label="NT1.24" x="331.0" y="13.0" otu="otu7"/>
+   <node id="NT1.26" label="NT1.26" x="336.0" y="52.0" otu="otu9"/>
+   <node id="NT1.28" label="NT1.28" x="354.0" y="598.0" otu="otu11"/>
+   <node id="NT1.33" label="NT1.33" x="485.0" y="676.0" otu="otu15"/>
+   <node id="NT1.36" label="NT1.36" x="569.0" y="754.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="570.0" y="519.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="11.0" y="507.0" root="true"/>
+   <edge id="e.0" source="NT1.14" target="NT1.24"/>
+   <edge id="e.1" source="NT1.14" target="NT1.26"/>
+   <edge id="e.2" source="NT1.9" target="NT1.17"/>
+   <edge id="e.4" target="NT1.15" source="NT1.6"/>
+   <edge id="e.6" target="NT1.20" source="NT1.3"/>
+   <edge id="e.10" source="NT1.2" target="NT1.28"/>
+   <edge id="e.11" target="NT1.37" source="NT1.1"/>
+   <edge id="e.13" target="NT1.33" source="NT1.4"/>
+   <edge id="e.15" target="NT1.14" source="NT1.9"/>
+   <edge id="e.17" source="NT1.6" target="NT1.9"/>
+   <edge id="e.18" source="NT1.3" target="NT1.6"/>
+   <edge id="e.20" source="NT1.1" target="NT1.3"/>
+   <edge id="e.27" source="NT1.2" target="NT1.4"/>
+   <edge id="e.31" source="NT1.39" target="NT1.1"/>
+   <edge id="e.32" source="NT1.39" target="NT1.2"/>
+   <edge id="e.36" target="NT1.36" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>
