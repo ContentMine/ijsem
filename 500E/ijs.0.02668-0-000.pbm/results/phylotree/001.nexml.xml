@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Oxobacterpfermigii DSM</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Caloranaerabacter" cmphy:species="azorensis" cmphy:strain="CNCM I-25437" cmphy:id="AJZ72422" editRecord="[2__Z]"> Caloranaerabacter azorensis CNCM I-25437 (AJ272422)</otu>
+  <otu id="otu3" cmphy:genus="Clostridium" cmphy:species="acidurici" cmphy:strain="ATCC 79067" cmphy:id="M59084" editRecord="[]">Clostridium acidurici ATCC 79067 (M59084)</otu>
+  <otu id="otu4">Caloramatorfervidus ATCC 432047 (L09187)</otu>
+  <otu id="otu5"> 'Eubacterium therm0marinus' (L10086)</otu>
+  <otu id="otu6" cmphy:genus="Clostridium" cmphy:species="purinilyticum" cmphy:strain="ATCC 339067" cmphy:id="M60491" editRecord="[]">Clostridium purinilyticum ATCC 339067 (M60491)</otu>
+  <otu id="otu7">Thermohalabacter berrensis CNCM</otu>
+  <otu id="otu8">Eubacterium angustum</otu>
+  <otu id="otu9" cmphy:genus="Clastridium" cmphy:species="hastybrme" cmphy:strain="DSM 56757" cmphy:id="X77848" editRecord="[]">Clastridium hastybrme DSM 56757 (X77848)</otu>
+  <otu id="otu10">Tissierella praeacuta</otu>
+  <otu id="otu11" cmphy:genus="Tissierella" cmphy:species="creatinini" cmphy:strain="DSM 95087" cmphy:id="X75909" editRecord="[]">Tissierella creatinini DSM 95087 (X75909)</otu>
+  <otu id="otu12">Strain BOR-Y7 (AY353956)</otu>
+  <otu id="otu13">Tissierella creatinophila DSM</otu>
+  <otu id="otu14">Clostridium ultunense DSM</otu>
+  <otu id="otu15">'ClostridiumfilamenIosum'</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="48.0" y="365.0"/>
+   <node id="NT1.2" label="NT1.2" x="124.0" y="537.0"/>
+   <node id="NT1.4" label="NT1.4" x="178.0" y="431.0"/>
+   <node id="NT1.9" label="NT1.9" x="258.0" y="883.0"/>
+   <node id="NT1.13" label="NT1.13" x="309.0" y="99.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="331.0" y="488.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="341.0" y="409.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="372.0" y="874.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="394.0" y="800.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="3.0" y="733.0" root="true"/>
+   <edge id="e.1" target="NT1.13" source="NT1.1"/>
+   <edge id="e.4" target="NT1.17" source="NT1.4"/>
+   <edge id="e.6" target="NT1.21" source="NT1.9"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" source="NT1.2" target="NT1.4"/>
+   <edge id="e.13" source="NT1.28" target="NT1.1"/>
+   <edge id="e.16" source="NT1.4" target="NT1.14"/>
+   <edge id="e.19" target="NT1.9" source="NT1.2"/>
+   <edge id="e.22" source="NT1.9" target="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

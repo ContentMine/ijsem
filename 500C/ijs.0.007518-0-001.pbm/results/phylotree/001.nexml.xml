@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> Marinobacter Iipolyticus SM19T (AY147906)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Marinobacter" cmphy:species="fla" cmphy:strain="vimaris SW-145T" cmphy:id="AYS17632" editRecord="[5__S]">Marinobacter fla vimaris SW-145T (AY517632)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Marinobacter" cmphy:species="salsuginis" cmphy:strain="SD-14BT" cmphy:id="EFO28328" editRecord="[0__O]">Marinobacter salsuginis SD-14BT (EF028328)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Marinobacter" cmphy:species="guineae" cmphy:strain="M3BT" cmphy:id="AMS03093" editRecord="[5__S]">Marinobacter guineae M3BT (AM503093)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Marinobacter" cmphy:species="sediminum" cmphy:strain="R657" cmphy:id="AJ609270" editRecord="[]">Marinobacter sediminum R657 (AJ609270)</otu>
+  <otu id="otu8" cmphy:genus="Marinobacter" cmphy:species="maritimus" cmphy:strain="CK 47T" cmphy:id="AJ704395" editRecord="[]">Marinobacter maritimus CK 47T (AJ704395)</otu>
+  <otu id="otu9" cmphy:genus="Marmobacter" cmphy:species="salicampi" cmphy:strain="ISL-4OT" cmphy:id="EF486354" editRecord="[]">Marmobacter salicampi ISL-4OT (EF486354)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Marinobacter" cmphy:species="psychrophilus" cmphy:strain="20041 T" cmphy:id="DQO60402" editRecord="[0__O]">Marinobacter psychrophilus 20041 T (DQ060402)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="94.0" y="473.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="180.0" y="239.0"/>
+   <node id="NT1.3" x="229.0" y="165.0" label="65"/>
+   <node id="NT1.4" label="NT1.4" x="258.0" y="112.0"/>
+   <node id="NT1.5" label="NT1.5" x="279.0" y="75.0"/>
+   <node id="NT1.6" x="283.0" y="312.0" label="B4"/>
+   <node id="NT1.10" x="435.0" y="345.0" label="98"/>
+   <node id="NT1.11" label="NT1.11" x="447.0" y="107.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="457.0" y="21.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="501.0" y="237.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="511.0" y="151.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="622.0" y="323.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="657.0" y="280.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="685.0" y="368.0" otu="otu10"/>
+   <edge id="e.0" target="NT1.12" source="NT1.5"/>
+   <edge id="e.1" source="NT1.5" target="NT1.11"/>
+   <edge id="e.2" source="NT1.4" target="NT1.15"/>
+   <edge id="e.4" target="NT1.13" source="NT1.3"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" source="NT1.10" target="NT1.16"/>
+   <edge id="e.7" source="NT1.6" target="NT1.17"/>
+   <edge id="e.8" source="NT1.10" target="NT1.18"/>
+   <edge id="e.10" source="NT1.4" target="NT1.5"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.2" target="NT1.6"/>
+   <edge id="e.15" source="NT1.6" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

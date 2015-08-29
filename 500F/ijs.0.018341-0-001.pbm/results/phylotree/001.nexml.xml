@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Ralstonia pickettii ATCC 2751 1T (AY741342)</otu>
+  <otu id="otu4">Ralstonia solanacearum ATCC 1 1 6967 (X67036)</otu>
+  <otu id="otu5">Cupriavidus campinensis WS2T (AF31 2020)</otu>
+  <otu id="otu6">Cupriavidus necator ATCC 43291 T (AF191737)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Cupriavidus" cmphy:species="respiraculi" cmphy:strain="AU3313T" cmphy:id="AFS00583" editRecord="[5__S]">Cupriavidus respiraculi AU3313T (AF500583)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Cupriavidus" cmphy:species="taiwanensis" cmphy:strain="LMG 19424T" cmphy:id="AFB00324" editRecord="[3__B]">Cupriavidus taiwanensis LMG 19424T (AF300324)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Wautersia" cmphy:species="numazuensis" cmphy:strain="TE26T" cmphy:id="ABI04447" editRecord="[1__I]">Wautersia numazuensis TE26T (AB104447)</otu>
+  <otu id="otu12" cmphy:genus="Cupriavidus" cmphy:species="gilardii" cmphy:strain="LMG 5886T" cmphy:id="AFO76645" editRecord="[]">Cupriavidus gilardii LMG 5886T (AFO76645)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Cupriavidus" cmphy:species="oxalaticus" cmphy:strain="CCUG 20867" cmphy:id="FNS97610" editRecord="[5__S]">Cupriavidus oxalaticus CCUG 20867 (FN597610)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Cupriavidus" cmphy:species="pauculus" cmphy:strain="LMG 3413" cmphy:id="AFO85226" editRecord="[0__O]">Cupriavidus pauculus LMG 3413 (AF085226)</otu>
+  <otu id="otu15" cmphy:genus="Cupriavidus" cmphy:species="metallidurans" cmphy:strain="CH 347" cmphy:id="Y10824" editRecord="[]">Cupriavidus metallidurans CH 347 (Y10824)</otu>
+  <otu id="otu16" cmphy:genus="Cupriavidus" cmphy:species="pampae" cmphy:strain="CPDB6T" cmphy:id="FN430567" editRecord="[]">Cupriavidus pampae CPDB6T (FN430567)</otu>
+  <otu id="otu17">Cupriavidus pinatubonensis CCUG 539O7T (FN59761 1)</otu>
+  <otu id="otu18" cmphy:edit="[5__S]" cmphy:genus="Cupriavidus" cmphy:species="basilensis" cmphy:strain="CCUG 493407" cmphy:id="FNS97608" editRecord="[5__S]">Cupriavidus basilensis CCUG 493407 (FN597608)</otu>
+  <otu id="otu19" cmphy:edit="[5__S]" cmphy:genus="Cupriavidus" cmphy:species="laharis" cmphy:strain="CCUG 539O8T" cmphy:id="FNS97609" editRecord="[5__S]">Cupriavidus laharis CCUG 539O8T (FN597609)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="844.0" otu="otu1" root="true"/>
+   <node id="NT1.10" label="NT1.10" x="349.0" y="553.0"/>
+   <node id="NT1.11" label="NT1.11" x="391.0" y="337.0"/>
+   <node id="NT1.14" label="NT1.14" x="424.0" y="244.0"/>
+   <node id="NT1.15" label="NT1.15" x="450.0" y="314.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="462.0" y="423.0"/>
+   <node id="NT1.17" label="NT1.17" x="482.0" y="174.0"/>
+   <node id="NT1.18" label="NT1.18" x="502.0" y="109.0"/>
+   <node id="NT1.19" label="NT1.19" x="513.0" y="388.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="519.0" y="681.0"/>
+   <node id="NT1.22" label="NT1.22" x="537.0" y="635.0"/>
+   <node id="NT1.23" label="NT1.23" x="542.0" y="53.0"/>
+   <node id="NT1.26" label="NT1.26" x="553.0" y="764.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="563.0" y="240.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="573.0" y="464.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="590.0" y="89.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="638.0" y="14.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="638.0" y="163.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="646.0" y="690.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="703.0" y="615.0" otu="otu19"/>
+   <edge id="e.1" target="NT1.32" source="NT1.18"/>
+   <edge id="e.2" source="NT1.14" target="NT1.15"/>
+   <edge id="e.3" source="NT1.16" target="NT1.19"/>
+   <edge id="e.6" source="NT1.22" target="NT1.34"/>
+   <edge id="e.7" target="NT1.35" source="NT1.22"/>
+   <edge id="e.11" source="NT1.18" target="NT1.23"/>
+   <edge id="e.12" source="NT1.17" target="NT1.18"/>
+   <edge id="e.14" source="NT1.14" target="NT1.17"/>
+   <edge id="e.15" source="NT1.11" target="NT1.14"/>
+   <edge id="e.16" source="NT1.10" target="NT1.11"/>
+   <edge id="e.17" source="NT1.11" target="NT1.16"/>
+   <edge id="e.18" target="NT1.10" source="NT1.1"/>
+   <edge id="e.21" target="NT1.21" source="NT1.10"/>
+   <edge id="e.22" source="NT1.21" target="NT1.22"/>
+   <edge id="e.28" source="NT1.16" target="NT1.28"/>
+   <edge id="e.29" source="NT1.17" target="NT1.27"/>
+   <edge id="e.30" source="NT1.21" target="NT1.26"/>
+   <edge id="e.31" source="NT1.23" target="NT1.29"/>
+   <edge id="e.32" source="NT1.23" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

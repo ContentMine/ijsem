@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">A. phagocytophilum WebsterT (AF237414)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">Escherichia coli</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Ehrlichia" cmphy:species="muris" cmphy:strain="AsukeT" cmphy:id="AF401093" editRecord="[]">Ehrlichia muris AsukeT (AF401093)</otu>
+  <otu id="otu9" cmphy:genus="Ehrlichia" cmphy:species="canis" cmphy:strain="OkIahomaT" cmphy:id="AF401091" editRecord="[]">Ehrlichia canis OkIahomaT (AF401091)</otu>
+  <otu id="otu10" cmphy:genus="Ehrlichia" cmphy:species="ruminantium" cmphy:strain="Kum" cmphy:id="AF401092" editRecord="[]">Ehrlichia ruminantium Kum (AF401092)</otu>
+  <otu id="otu11"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.5" x="239.0" y="122.0" label="100"/>
+   <node id="NT1.10" x="302.0" y="161.0" label="100"/>
+   <node id="NT1.17" label="NT1.17" x="397.0" y="182.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="398.0" y="65.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="398.0" y="142.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="4.0" y="351.0" root="true"/>
+   <edge id="e.0" target="NT1.18" source="NT1.5"/>
+   <edge id="e.3" source="NT1.10" target="NT1.19"/>
+   <edge id="e.4" source="NT1.10" target="NT1.17"/>
+   <edge id="e.11" source="NT1.5" target="NT1.10"/>
+   <edge id="e.19" target="NT1.5" source="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

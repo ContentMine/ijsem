@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Halobacterium" cmphy:species="salinarum" cmphy:strain="DSM 37547" cmphy:id="AJ496185" editRecord="[]">Halobacterium salinarum DSM 37547 (AJ496185)</otu>
+  <otu id="otu2" cmphy:genus="Halorubrum" cmphy:species="vacuolatum" cmphy:strain="JCM 90607" cmphy:id="D87972" editRecord="[]">Halorubrum vacuolatum JCM 90607 (D87972)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Halorubrum" cmphy:species="alkaliphilum" cmphy:strain="JCM 123587" cmphy:id="AYS10708" editRecord="[5__S]">Halorubrum alkaliphilum JCM 123587 (AY510708)</otu>
+  <otu id="otu4"> Halorubrum saccharovorum DSM 1 137T (U17364)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Halorubrum" cmphy:species="tibetense" cmphy:strain="JCM 11889T" cmphy:id="AYI49598" editRecord="[1__I]">Halorubrum tibetense JCM 11889T (AY149598)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Halorubrum" cmphy:species="sodomense" cmphy:strain="ATCC 337557" cmphy:id="X82169" editRecord="[]"> Halorubrum sodomense ATCC 337557 (X82169)</otu>
+  <otu id="otu9" cmphy:genus="Halorubrum" cmphy:species="trapanicum" cmphy:strain="NRC 340217" cmphy:id="X82168" editRecord="[]"> Halorubrum trapanicum NRC 340217 (X82168)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Halorubrum" cmphy:species="tebenquiohense" cmphy:strain="CECT 53177" cmphy:id="AJZ76887" editRecord="[2__Z]">Halorubrum tebenquiohense CECT 53177 (AJ276887)</otu>
+  <otu id="otu13"> Halorubrum distributum JCM 91 OUT (D63572)</otu>
+  <otu id="otu14" cmphy:genus="Methanospirillum" cmphy:species="hungatei" cmphy:strain="DSM 8647" cmphy:id="M60880" editRecord="[]">Methanospirillum hungatei DSM 8647 (M60880)</otu>
+  <otu id="otu15">Strain 5.1T (DQ118426)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="236.0" y="535.0"/>
+   <node id="NT1.2" x="467.0" y="478.0" label="100"/>
+   <node id="NT1.3" label="NT1.3" x="489.0" y="407.0"/>
+   <node id="NT1.5" x="529.0" y="480.0" label="90"/>
+   <node id="NT1.6" label="NT1.6" x="534.0" y="593.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="585.0" y="549.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="590.0" y="458.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="596.0" y="504.0" otu="otu5"/>
+   <node id="NT1.14" x="634.0" y="227.0" label="5"/>
+   <node id="NT1.15" x="640.0" y="175.0" label="51"/>
+   <node id="NT1.21" label="NT1.21" x="678.0" y="234.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="682.0" y="144.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="703.0" y="279.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="751.0" y="638.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="2.0" y="586.0" root="true"/>
+   <edge id="e.3" target="NT1.22" source="NT1.15"/>
+   <edge id="e.5" source="NT1.15" target="NT1.21"/>
+   <edge id="e.6" source="NT1.14" target="NT1.25"/>
+   <edge id="e.10" source="NT1.5" target="NT1.9"/>
+   <edge id="e.11" source="NT1.5" target="NT1.11"/>
+   <edge id="e.12" source="NT1.2" target="NT1.8"/>
+   <edge id="e.13" source="NT1.1" target="NT1.6"/>
+   <edge id="e.18" source="NT1.14" target="NT1.15"/>
+   <edge id="e.19" target="NT1.14" source="NT1.3"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.24" source="NT1.3" target="NT1.5"/>
+   <edge id="e.25" source="NT1.1" target="NT1.2"/>
+   <edge id="e.26" source="NT1.29" target="NT1.27"/>
+   <edge id="e.27" source="NT1.29" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

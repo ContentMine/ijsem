@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Escherichia coli ATCC 1 1775T (X80725)</otu>
+  <otu id="otu2">Oceanimonas doudoroffii ATCC 27123T</otu>
+  <otu id="otu3" cmphy:genus="Agarivorans" cmphy:species="albus" cmphy:strain="MKT106T" cmphy:id="ABO76561" editRecord="[]">Agarivorans albus MKT106T (ABO76561)</otu>
+  <otu id="otu4" cmphy:genus="Shewanella" cmphy:species="putrefaciens" cmphy:strain="ATCC 80717" cmphy:id="X82133" editRecord="[]">Shewanella putrefaciens ATCC 80717 (X82133)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Thalassomonas" cmphy:species="viridans" cmphy:strain="CECT 5083T" cmphy:id="AJZ94748" editRecord="[2__Z]">Thalassomonas viridans CECT 5083T (AJ294748)</otu>
+  <otu id="otu7">Colwellia psychroerythraea ACAM 55OTT(AF001375)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Alteromonas" cmphy:species="macleodii" cmphy:strain="IAM 12920T" cmphy:id="X82145" editRecord="[]">Alteromonas macleodii IAM 12920T (X82145)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Aestuariibacter" cmphy:species="halophilus" cmphy:strain="JC2043T" cmphy:id="AYZ07503" editRecord="[2__Z]">Aestuariibacter halophilus JC2043T (AY207503)</otu>
+  <otu id="otu12">Alteromonas addita R1 OSW1 3T (AY682202)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Aestuariibacter" cmphy:species="salexigens" cmphy:strain="JC2O42T" cmphy:id="AYZ07502" editRecord="[2__Z]">Aestuariibacter salexigens JC2O42T (AY207502)</otu>
+  <otu id="otu14">Glaciecola polaris LMG 21857T(AJ293820)</otu>
+  <otu id="otu15" cmphy:edit="[5__S]" cmphy:genus="Salinimonas" cmphy:species="chungwhensis" cmphy:strain="BH030O46T" cmphy:id="AYS53295" editRecord="[5__S]">Salinimonas chungwhensis BH030O46T (AY553295)</otu>
+  <otu id="otu16">Glaciecola punicea ACAM 611T(U85853)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="105.0" y="423.0" label="68"/>
+   <node id="NT1.3" label="NT1.3" x="142.0" y="317.0"/>
+   <node id="NT1.4" x="152.0" y="406.0" label="68"/>
+   <node id="NT1.9" label="NT1.9" x="298.0" y="138.0"/>
+   <node id="NT1.12" label="NT1.12" x="331.0" y="376.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="341.0" y="203.0"/>
+   <node id="NT1.15" label="NT1.15" x="362.0" y="580.0" otu="otu4"/>
+   <node id="NT1.16" x="371.0" y="32.0" label="95"/>
+   <node id="NT1.18" label="NT1.18" x="377.0" y="458.0" otu="otu6"/>
+   <node id="NT1.24" label="NT1.24" x="428.0" y="254.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="431.0" y="51.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="456.0" y="11.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="499.0" y="173.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="1.0" y="522.0" root="true"/>
+   <edge id="e.0" source="NT1.16" target="NT1.27"/>
+   <edge id="e.1" source="NT1.16" target="NT1.25"/>
+   <edge id="e.3" target="NT1.24" source="NT1.14"/>
+   <edge id="e.4" source="NT1.4" target="NT1.12"/>
+   <edge id="e.6" target="NT1.15" source="NT1.1"/>
+   <edge id="e.7" target="NT1.16" source="NT1.9"/>
+   <edge id="e.10" target="NT1.9" source="NT1.3"/>
+   <edge id="e.11" source="NT1.9" target="NT1.14"/>
+   <edge id="e.15" source="NT1.1" target="NT1.3"/>
+   <edge id="e.16" source="NT1.3" target="NT1.4"/>
+   <edge id="e.21" source="NT1.31" target="NT1.1"/>
+   <edge id="e.23" target="NT1.18" source="NT1.4"/>
+   <edge id="e.27" source="NT1.14" target="NT1.29"/>
+  </tree>
+ </trees>
+</nexml>

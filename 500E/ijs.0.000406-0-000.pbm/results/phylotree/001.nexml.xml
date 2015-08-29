@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="agaridevorans" cmphy:strain="DSM 13557" cmphy:id="AJB45023" editRecord="[3__B]"> Paenibacillus agaridevorans DSM 13557 (AJ345023)</otu>
+  <otu id="otu3">MX2-37 (AB265206)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="favisporus" cmphy:strain="GMP017" cmphy:id="AYZ08751" editRecord="[2__Z]">Paenibacillus favisporus GMP017 (AY208751)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Paenibacillus" cmphy:species="validus" cmphy:strain="JCM 90777" cmphy:id="ABO73203" editRecord="[0__O]">Paenibacillus validus JCM 90777 (AB073203)</otu>
+  <otu id="otu6">Paenibacillus rhizosphaerae</otu>
+  <otu id="otu7">Paenibacillus agarexedens</otu>
+  <otu id="otu8">Paenibacillus lentimorbus ATCC 147077 (AF071861 )</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Paenibacillus" cmphy:species="glycanilyticus" cmphy:strain="DS-17" cmphy:id="ABO42938" editRecord="[0__O]">Paenibacillus glycanilyticus DS-17 (AB042938)</otu>
+  <otu id="otu10" cmphy:genus="Aneurinibacillus" cmphy:species="aneurinilyticus" cmphy:strain="DSM 55627" cmphy:id="X94194" editRecord="[]">Aneurinibacillus aneurinilyticus DSM 55627 (X94194)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="granivorans" cmphy:strain="A307" cmphy:id="AFZ37682" editRecord="[2__Z]">Paenibacillus granivorans A307 (AF237682)</otu>
+  <otu id="otu12">Paenibacillus alkaliterrae</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Paenibacillus" cmphy:species="kobensis" cmphy:strain="DSM 102497" cmphy:id="ABO73363" editRecord="[0__O]"> Paenibacillus kobensis DSM 102497 (AB073363)</otu>
+  <otu id="otu14" cmphy:genus="Paenibacillus" cmphy:species="thiaminolyticus" cmphy:strain="JCM 83607" cmphy:id="D78475" editRecord="[]">Paenibacillus thiaminolyticus JCM 83607 (D78475)</otu>
+  <otu id="otu15">Paenibacillus naphthalenovorans</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Paenibacillus" cmphy:species="curdlanolyticus" cmphy:strain="DSM 102477" cmphy:id="ABO73202" editRecord="[0__O]"> Paenibacillus curdlanolyticus DSM 102477 (AB073202)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="155.0" y="750.0"/>
+   <node id="NT1.2" x="204.0" y="611.0" label="78"/>
+   <node id="NT1.3" label="NT1.3" x="224.0" y="462.0"/>
+   <node id="NT1.4" x="262.0" y="294.0" label="89"/>
+   <node id="NT1.5" label="NT1.5" x="288.0" y="157.0"/>
+   <node id="NT1.6" x="294.0" y="431.0" label="77"/>
+   <node id="NT1.14" label="NT1.14" x="422.0" y="502.0"/>
+   <node id="NT1.15" label="NT1.15" x="429.0" y="21.0" otu="otu2"/>
+   <node id="NT1.18" label="NT1.18" x="457.0" y="599.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="457.0" y="856.0" otu="otu5"/>
+   <node id="NT1.23" label="NT1.23" x="487.0" y="407.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="489.0" y="985.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="491.0" y="213.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="510.0" y="470.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="515.0" y="793.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="538.0" y="536.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="7.0" y="867.0" root="true"/>
+   <edge id="e.0" target="NT1.15" source="NT1.5"/>
+   <edge id="e.3" source="NT1.5" target="NT1.25"/>
+   <edge id="e.4" target="NT1.23" source="NT1.6"/>
+   <edge id="e.5" source="NT1.14" target="NT1.27"/>
+   <edge id="e.7" source="NT1.14" target="NT1.30"/>
+   <edge id="e.9" target="NT1.18" source="NT1.3"/>
+   <edge id="e.12" target="NT1.28" source="NT1.2"/>
+   <edge id="e.13" target="NT1.19" source="NT1.1"/>
+   <edge id="e.17" source="NT1.4" target="NT1.5"/>
+   <edge id="e.18" source="NT1.3" target="NT1.4"/>
+   <edge id="e.19" source="NT1.4" target="NT1.6"/>
+   <edge id="e.20" source="NT1.6" target="NT1.14"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.25" source="NT1.1" target="NT1.2"/>
+   <edge id="e.28" source="NT1.31" target="NT1.24"/>
+   <edge id="e.29" source="NT1.31" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

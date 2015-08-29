@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="NCDO 1769" cmphy:id="X60646" editRecord="[]">Bacillus subtilis NCDO 1769 (X60646)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Kurthia" cmphy:species="zopfii" cmphy:strain="NCIMB 9878T" cmphy:id="X70321" editRecord="[]">Kurthia zopfii NCIMB 9878T (X70321)</otu>
+  <otu id="otu5" cmphy:genus="Kurthia" cmphy:species="gibsonii" cmphy:strain="NCIMB 97587" cmphy:id="X70320" editRecord="[]">Kurthia gibsonii NCIMB 97587 (X70320)</otu>
+  <otu id="otu6">Sporosarcina pasteurii NCIMB 8841 T (X60631)</otu>
+  <otu id="otu7" cmphy:genus="Planococcus" cmphy:species="kocurii" cmphy:strain="NCIMB 629T" cmphy:id="X62173" editRecord="[]">Planococcus kocurii NCIMB 629T (X62173)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Planococcus" cmphy:species="oitreus" cmphy:strain="ATCC 14404T" cmphy:id="AFZ34858" editRecord="[2__Z]">Planococcus oitreus ATCC 14404T (AF234858)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="silvestris" cmphy:strain="DSM 122237" cmphy:id="AJO06086" editRecord="[0__O]">Bacillus silvestris DSM 122237 (AJ006086)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Bacillus" cmphy:species="fusiformis" cmphy:strain="DSM 2898T" cmphy:id="AJB10083" editRecord="[3__B]">Bacillus fusiformis DSM 2898T (AJ310083)</otu>
+  <otu id="otu11" cmphy:genus="Bacillus" cmphy:species="sphaericus" cmphy:strain="NCDO 1767T" cmphy:id="X60639" editRecord="[]">Bacillus sphaericus NCDO 1767T (X60639)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Sporosarcina" cmphy:species="macmurdoensis" cmphy:strain="CMS 21wT" cmphy:id="AJS14408" editRecord="[5__S]">Sporosarcina macmurdoensis CMS 21wT (AJ514408)</otu>
+  <otu id="otu13" cmphy:genus="Bacillus" cmphy:species="insolitus" cmphy:strain="DSM ST" cmphy:id="X60642" editRecord="[]">Bacillus insolitus DSM ST (X60642)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Sporosarcina" cmphy:species="ureae" cmphy:strain="DSM 22817" cmphy:id="AFZ02057" editRecord="[2__Z]">Sporosarcina ureae DSM 22817 (AF202057)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Sporosarcina" cmphy:species="aquimarina" cmphy:strain="SW28T" cmphy:id="AFZ02056" editRecord="[2__Z]">Sporosarcina aquimarina SW28T (AF202056)</otu>
+  <otu id="otu16" cmphy:genus="Caryophanon" cmphy:species="tenue" cmphy:strain="DSM 141527" cmphy:id="AJ491303" editRecord="[]">Caryophanon tenue DSM 141527 (AJ491303)</otu>
+  <otu id="otu17" cmphy:genus="Sporosarcina" cmphy:species="psychrophila" cmphy:strain="IAM 124687" cmphy:id="D16277" editRecord="[]">Sporosarcina psychrophila IAM 124687 (D16277)</otu>
+  <otu id="otu18" cmphy:genus="Sporosarcina" cmphy:species="globispora" cmphy:strain="DSM 4T" cmphy:id="X68415" editRecord="[]">Sporosarcina globispora DSM 4T (X68415)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="549.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="19.0" y="604.0"/>
+   <node id="NT1.3" label="NT1.3" x="73.0" y="723.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="80.0" y="498.0"/>
+   <node id="NT1.5" label="NT1.5" x="117.0" y="129.0"/>
+   <node id="NT1.7" label="NT1.7" x="169.0" y="518.0"/>
+   <node id="NT1.9" x="178.0" y="44.0" label="100"/>
+   <node id="NT1.10" label="NT1.10" x="181.0" y="676.0"/>
+   <node id="NT1.11" label="NT1.11" x="195.0" y="205.0"/>
+   <node id="NT1.12" label="NT1.12" x="214.0" y="468.0"/>
+   <node id="NT1.13" label="NT1.13" x="222.0" y="633.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="224.0" y="677.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="224.0" y="167.0"/>
+   <node id="NT1.16" label="NT1.16" x="224.0" y="564.0"/>
+   <node id="NT1.18" label="NT1.18" x="229.0" y="10.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="230.0" y="54.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="238.0" y="276.0"/>
+   <node id="NT1.21" label="NT1.21" x="240.0" y="499.0" otu="otu9"/>
+   <node id="NT1.22" x="256.0" y="122.0" label="60"/>
+   <node id="NT1.23" label="NT1.23" x="276.0" y="543.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="276.0" y="588.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="278.0" y="276.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="278.0" y="208.0"/>
+   <node id="NT1.27" label="NT1.27" x="280.0" y="321.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="308.0" y="98.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="308.0" y="143.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="320.0" y="408.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="330.0" y="188.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="330.0" y="232.0" otu="otu18"/>
+   <edge id="e.1" source="NT1.20" target="NT1.25"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.10" target="NT1.14"/>
+   <edge id="e.5" source="NT1.5" target="NT1.9"/>
+   <edge id="e.6" source="NT1.4" target="NT1.5"/>
+   <edge id="e.8" target="NT1.11" source="NT1.5"/>
+   <edge id="e.9" source="NT1.2" target="NT1.4"/>
+   <edge id="e.10" source="NT1.4" target="NT1.7"/>
+   <edge id="e.11" source="NT1.4" target="NT1.10"/>
+   <edge id="e.12" source="NT1.11" target="NT1.20"/>
+   <edge id="e.13" source="NT1.11" target="NT1.15"/>
+   <edge id="e.14" source="NT1.15" target="NT1.26"/>
+   <edge id="e.15" source="NT1.15" target="NT1.22"/>
+   <edge id="e.16" source="NT1.7" target="NT1.16"/>
+   <edge id="e.17" source="NT1.7" target="NT1.12"/>
+   <edge id="e.18" source="NT1.12" target="NT1.21"/>
+   <edge id="e.19" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" source="NT1.10" target="NT1.13"/>
+   <edge id="e.21" source="NT1.9" target="NT1.19"/>
+   <edge id="e.22" source="NT1.9" target="NT1.18"/>
+   <edge id="e.23" source="NT1.16" target="NT1.24"/>
+   <edge id="e.24" source="NT1.16" target="NT1.23"/>
+   <edge id="e.25" source="NT1.20" target="NT1.27"/>
+   <edge id="e.26" source="NT1.12" target="NT1.30"/>
+   <edge id="e.27" source="NT1.22" target="NT1.29"/>
+   <edge id="e.28" source="NT1.22" target="NT1.28"/>
+   <edge id="e.29" source="NT1.26" target="NT1.32"/>
+   <edge id="e.30" source="NT1.26" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

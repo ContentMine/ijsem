@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Bosea minatitlanensis AMX 51 T (AF273081)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="massiliensis" cmphy:strain="63287T" cmphy:id="AFZ88309" editRecord="[2__Z]">Bosea massiliensis 63287T (AF288309)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="eneae" cmphy:strain="34614T" cmphy:id="AFZ88300" editRecord="[2__Z]">Bosea eneae 34614T (AF288300)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Chelatococcus" cmphy:species="daeguensis" cmphy:strain="K1 O6T" cmphy:id="EFS84507" editRecord="[5__S]">Chelatococcus daeguensis K1 O6T (EF584507)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Methylobacterium" cmphy:species="organophilum" cmphy:strain="JCM 2833T" cmphy:id="D32226" editRecord="[]">Methylobacterium organophilum JCM 2833T (D32226)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Methylobacterium aminovorans JCM 8240 (AB1 75629)</otu>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Salinarimonas" cmphy:species="ramus" cmphy:strain="SL014B-41A4T" cmphy:id="GUI25653" editRecord="[1__I]">Salinarimonas ramus SL014B-41A4T (GU125653)</otu>
+  <otu id="otu19">Salinarimonas rosea YIM YD3T (EU8 78006)</otu>
+  <otu id="otu20" cmphy:edit="[3__B]" cmphy:genus="Bradyrhizobium" cmphy:species="betae" cmphy:strain="PL7HG1T" cmphy:id="AYB72184" editRecord="[3__B]">Bradyrhizobium betae PL7HG1T (AY372184)</otu>
+  <otu id="otu21" cmphy:edit="[0__O]" cmphy:genus="Balneimonas" cmphy:species="flocculans" cmphy:strain="TFBT" cmphy:id="ABO98515" editRecord="[0__O]">Balneimonas flocculans TFBT (AB098515)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="400.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="8.0" y="400.0"/>
+   <node id="NT1.3" label="NT1.3" x="15.0" y="311.0"/>
+   <node id="NT1.4" label="NT1.4" x="42.0" y="432.0"/>
+   <node id="NT1.5" label="NT1.5" x="61.0" y="345.0"/>
+   <node id="NT1.6" label="NT1.6" x="89.0" y="402.0"/>
+   <node id="NT1.11" label="NT1.11" x="184.0" y="150.0"/>
+   <node id="NT1.17" label="NT1.17" x="224.0" y="185.0" otu="otu6"/>
+   <node id="NT1.26" label="NT1.26" x="235.0" y="82.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="241.0" y="263.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="289.0" y="503.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="353.0" y="384.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="432.0" y="583.0" otu="otu20"/>
+   <node id="NT1.37" label="NT1.37" x="435.0" y="423.0" otu="otu21"/>
+   <edge id="e.2" target="NT1.26" source="NT1.11"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" target="NT1.30" source="NT1.4"/>
+   <edge id="e.15" target="NT1.11" source="NT1.3"/>
+   <edge id="e.17" source="NT1.2" target="NT1.3"/>
+   <edge id="e.18" source="NT1.3" target="NT1.4"/>
+   <edge id="e.20" source="NT1.4" target="NT1.5"/>
+   <edge id="e.21" source="NT1.5" target="NT1.6"/>
+   <edge id="e.25" source="NT1.2" target="NT1.36"/>
+   <edge id="e.27" target="NT1.28" source="NT1.5"/>
+   <edge id="e.29" source="NT1.11" target="NT1.17"/>
+   <edge id="e.33" target="NT1.37" source="NT1.6"/>
+   <edge id="e.34" target="NT1.34" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

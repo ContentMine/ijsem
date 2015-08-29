@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Dexulfiavibria a'e.ru(fuI'ica11.v ATCC 27741 (M 341 3)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">Strain 13155.1 (AB091304)</otu>
+  <otu id="otu4">Meth_1rlr)(tr1ccus cap.s'ulam.1' Bath (X72771)</otu>
+  <otu id="otu5">Strain B455-1 (AB091297)</otu>
+  <otu id="otu6">Environmental clonc S17sBac16 (AF299l2l)</otu>
+  <otu id="otu7">Nautiliu sp. strain EX-18.2 (AF357196)</otu>
+  <otu id="otu8">Strain BKB55-1 EAB091294)</otu>
+  <otu id="otu9">C'an1ir1ihar'Ierprajundus CRT (AJ535664)</otu>
+  <otu id="otu10">Lebetimonas acidiphila Pd55T (ABl67820)</otu>
+  <otu id="otu11">Nuzriilia IitI70tr0p17ir'u 525T (AJ404370)</otu>
+  <otu id="otu12">Environmenta clone S17sBacl7 (AF 299122)</otu>
+  <otu id="otu13">HvL1)'0gerIi1r1()m1.v thermnphila E131-55-19AuT (AB105048)</otu>
+  <otu id="otu14">Nautilia Sp. Am-H (AF357197)</otu>
+  <otu id="otu15">Pumcuccus (1E'l1lilf(7iCtmS ATC C 17741T (Y16927)</otu>
+  <otu id="otu16">Caminibacter sp. AM1115 (AJ309654)</otu>
+  <otu id="otu17">Caminibacter h_vdr0geniphiIu.s AM1 16T (AJ309655)</otu>
+  <otu id="otu18">HydI'ogen0philus fl7el'm0l1Ife0I14S TH-IT (AB009829)</otu>
+  <otu id="otu19">Sttlfuricztrvzurz kujienxe YK-1 (AB05395 1)</otu>
+  <otu id="otu20">Sulfztrovum 1iIh0traphz'r1n11 42BKT</otu>
+  <otu id="otu21" cmphy:genus="Szllfizrospirillzrm" cmphy:species="deleyianum" cmphy:strain="&quot;Sgrillum&quot; 5175T" cmphy:id="Y13671" editRecord="[]">Szllfizrospirillzrm deleyianum "Sgrillum" 5175T (Y13671)</otu>
+  <otu id="otu22">Strain EX-18.1 (AF357199)</otu>
+  <otu id="otu23">Strain E9837-1 (AB09l300)</otu>
+  <otu id="otu24">Strain Am-N (A1-73571198)</otu>
+  <otu id="otu25" cmphy:genus="Wolfnelln" cmphy:species="succilzngenex" cmphy:strain="ATCC 29543T" cmphy:id="M88159" editRecord="[]">Wolfnelln succilzngenex ATCC 29543T (M88159)</otu>
+  <otu id="otu26">Strain G025-1 (AB091Z95)</otu>
+  <otu id="otu27">Thionlirrospimv _de11itrificans DSM 1251' (L40808)</otu>
+  <otu id="otu28">Campylobacferfkatzls ATCC 27374-1 (M65012)</otu>
+  <otu id="otu29" cmphy:genus="Arcobacler" cmphy:species="crvaeroplzilzts" cmphy:strain="CCUG 17801T" cmphy:id="L14624" editRecord="[]">Arcobacler crvaeroplzilzts CCUG 17801T (L14624)</otu>
+  <otu id="otu30">Sulfizmspirillum wrachonmsr F 1 F 6T (Y 1 1561)</otu>
+  <otu id="otu31" cmphy:genus="Helicolmcter" cmphy:species="pylori" cmphy:strain="ATCC 43504-I" cmphy:id="U01330" editRecord="[]">Helicolmcter pylori ATCC 43504-I (U01330)</otu>
+  <otu id="otu32">Arcobucter nitrafigilis CCUG l5893T (Ll4627)</otu>
+  <otu id="otu33"/>
+  <otu id="otu34">Bac'temicIe'.v ure0lyIiL'u.1' ATCC 33387-F (L04321)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.14" x="682.0" y="250.0" label="50"/>
+   <node id="NT1.22" label="NT1.22" x="738.0" y="348.0"/>
+   <node id="NT1.42" label="NT1.42" x="876.0" y="223.0"/>
+   <node id="NT1.52" label="NT1.52" x="1006.0" y="437.0" otu="otu21"/>
+   <node id="NT1.56" label="NT1.56" x="1052.0" y="238.0" otu="otu25"/>
+   <node id="NT1.61" label="NT1.61" x="1119.0" y="337.0" otu="otu29"/>
+   <node id="NT1.63" label="NT1.63" x="1134.0" y="212.0" otu="otu31"/>
+   <node id="NT1.67" label="NT1.67" x="8.0" y="56.0" root="true"/>
+   <edge id="e.16" source="NT1.42" target="NT1.56"/>
+   <edge id="e.17" target="NT1.52" source="NT1.22"/>
+   <edge id="e.18" source="NT1.42" target="NT1.63"/>
+   <edge id="e.23" target="NT1.61" source="NT1.22"/>
+   <edge id="e.41" target="NT1.14" source="NT1.67"/>
+   <edge id="e.46" source="NT1.14" target="NT1.22"/>
+   <edge id="e.48" target="NT1.42" source="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

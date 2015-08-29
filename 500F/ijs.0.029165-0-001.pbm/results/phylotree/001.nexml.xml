@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Methylophaga" cmphy:species="marina" cmphy:strain="ATCC 358427" cmphy:id="X87338" editRecord="[]">Methylophaga marina ATCC 358427 (X87338)</otu>
+  <otu id="otu3">Methylophilales bacterium strain HTCC2181 (AAUX01000000)</otu>
+  <otu id="otu4" cmphy:genus="Azoarcus" cmphy:species="anaerobius" cmphy:strain="DSM 120817" cmphy:id="Y14701" editRecord="[]">Azoarcus anaerobius DSM 120817 (Y14701)</otu>
+  <otu id="otu5">Thauera aminoaromatica</otu>
+  <otu id="otu6">Dechloromonas agitata DSM 1 3637T (AF047462)</otu>
+  <otu id="otu7">tMethylophilus quaylef MTT (AY772089)</otu>
+  <otu id="otu8">Methylophilus leisingeri DSM 6813T(AB193725)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Methylotenera" cmphy:species="mobilis" cmphy:strain="DSM 1754OT" cmphy:id="DQZ87786" editRecord="[2__Z]">Methylotenera mobilis DSM 1754OT (DQ287786)</otu>
+  <otu id="otu10">Methylotenera versatilis strain 301 T (CP002056)</otu>
+  <otu id="otu11" cmphy:edit="[0__O, O__0]" cmphy:genus="Methylobacillus" cmphy:species="flagellatus" cmphy:strain="KTT" cmphy:id="CPO00284" editRecord="[0__O, O__0]">Methylobacillus flagellatus KTT (CP00O284)</otu>
+  <otu id="otu12" cmphy:genus="Methylovorus" cmphy:species="glucosotrophus" cmphy:strain="ATCC 497587" cmphy:id="AY486133" editRecord="[]">Methylovorus glucosotrophus ATCC 497587 (AY486133)</otu>
+  <otu id="otu13" cmphy:genus="Methylovorus" cmphy:species="mays" cmphy:strain="NCIMB 13992T" cmphy:id="AY486132" editRecord="[]">Methylovorus mays NCIMB 13992T (AY486132)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Methylovorus" cmphy:species="glucosotrophus" cmphy:strain="strain SIP3-4" cmphy:id="CPO01674" editRecord="[0__O]">Methylovorus glucosotrophus strain SIP3-4 (CP001674)</otu>
+  <otu id="otu15">tAminomonas aminovorus1 C2A1 (AYO27801)</otu>
+  <otu id="otu16">Methylobacillus pratensis NCIMB 1 3994T (AY298905)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="499.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="499.0"/>
+   <node id="NT1.3" label="NT1.3" x="70.0" y="430.0"/>
+   <node id="NT1.5" label="NT1.5" x="157.0" y="19.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="281.0" y="615.0"/>
+   <node id="NT1.14" label="NT1.14" x="436.0" y="509.0"/>
+   <node id="NT1.15" label="NT1.15" x="461.0" y="888.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="509.0" y="163.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="561.0" y="561.0"/>
+   <node id="NT1.24" label="NT1.24" x="581.0" y="671.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="590.0" y="453.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="715.0" y="599.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="715.0" y="526.0" otu="otu14"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" target="NT1.20" source="NT1.3"/>
+   <edge id="e.4" target="NT1.24" source="NT1.8"/>
+   <edge id="e.5" source="NT1.14" target="NT1.25"/>
+   <edge id="e.6" source="NT1.22" target="NT1.26"/>
+   <edge id="e.9" target="NT1.15" source="NT1.2"/>
+   <edge id="e.10" source="NT1.2" target="NT1.3"/>
+   <edge id="e.12" source="NT1.3" target="NT1.8"/>
+   <edge id="e.17" source="NT1.8" target="NT1.14"/>
+   <edge id="e.21" source="NT1.14" target="NT1.22"/>
+   <edge id="e.22" source="NT1.3" target="NT1.5"/>
+   <edge id="e.27" source="NT1.22" target="NT1.27"/>
+  </tree>
+ </trees>
+</nexml>

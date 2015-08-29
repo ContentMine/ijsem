@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Mucilagfnibacter daejeonensis Jip 10T (AB267 71 7)</otu>
+  <otu id="otu2" cmphy:genus="Mucilanigibacter" cmphy:species="paludis" cmphy:strain="TPT56&quot;" cmphy:id="AM490402" editRecord="[]">Mucilanigibacter paludis TPT56" (AM490402)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Sphingobacterium mizutaii DSM 1 1 724T (AJ4381 75)</otu>
+  <otu id="otu10">Sphingobacrerium anhuiense CW186" (EU36481 7)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Sphingobacterium kitahiroshimense10CT (AB361248)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Pedobacter" cmphy:species="ginsengisoli" cmphy:strain="Gsoil 1047" cmphy:id="ABZ45371" editRecord="[2__Z]">Pedobacter ginsengisoli Gsoil 1047 (AB245371)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17">Sphingobacterium composti 4M24T (EF1 22436)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:genus="Sphingobacterium" cmphy:species="spiritivorum" cmphy:strain="E7288T" cmphy:id="EFO90267" editRecord="[]">Sphingobacterium spiritivorum E7288T (EFO90267)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Olivlbacter" cmphy:species="ginsengisoli" cmphy:strain="Gsoil 060)" cmphy:id="ABZ67716" editRecord="[2__Z]">Olivlbacter ginsengisoli Gsoil 060) (AB267716)</otu>
+  <otu id="otu22" cmphy:genus="Parapedobacter" cmphy:species="koreensis" cmphy:strain="Jip14T" cmphy:id="DQ680836" editRecord="[]">Parapedobacter koreensis Jip14T (DQ680836)</otu>
+  <otu id="otu23" cmphy:edit="[0__O]" cmphy:genus="Olivibacter" cmphy:species="oleidegradans" cmphy:strain="TBF2720.2T" cmphy:id="HMO21726" editRecord="[0__O]">Olivibacter oleidegradans TBF2720.2T (HM021726)</otu>
+  <otu id="otu24" cmphy:edit="[1__I]" cmphy:genus="Parapedobacter" cmphy:species="soli" cmphy:strain="DCY14T" cmphy:id="EFI51805" editRecord="[1__I]">Parapedobacter soli DCY14T (EF151805)</otu>
+  <otu id="otu25">Olfvibacterterrae Jip18T (AB267714)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29" cmphy:genus="Bacteroides" cmphy:species="caccae" cmphy:strain="ATCC 43185T" cmphy:id="X88951" editRecord="[]">Bacteroides caccae ATCC 43185T (X88951)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="165.0" y="664.0" label="68"/>
+   <node id="NT1.2" x="185.0" y="451.0" label="52"/>
+   <node id="NT1.5" x="227.0" y="258.0" label="98"/>
+   <node id="NT1.12" label="NT1.12" x="297.0" y="480.0"/>
+   <node id="NT1.19" label="NT1.19" x="347.0" y="883.0" otu="otu2"/>
+   <node id="NT1.20" x="349.0" y="433.0" label="99"/>
+   <node id="NT1.32" x="392.0" y="553.0" label="100"/>
+   <node id="NT1.39" label="NT1.39" x="407.0" y="743.0" otu="otu13"/>
+   <node id="NT1.46" label="NT1.46" x="433.0" y="188.0" otu="otu20"/>
+   <node id="NT1.48" label="NT1.48" x="464.0" y="431.0" otu="otu21"/>
+   <node id="NT1.49" label="NT1.49" x="471.0" y="536.0" otu="otu22"/>
+   <node id="NT1.50" label="NT1.50" x="475.0" y="466.0" otu="otu23"/>
+   <node id="NT1.51" label="NT1.51" x="483.0" y="570.0" otu="otu24"/>
+   <node id="NT1.56" label="NT1.56" x="561.0" y="987.0" otu="otu29"/>
+   <node id="NT1.57" label="NT1.57" x="2.0" y="825.0" root="true"/>
+   <edge id="e.5" source="NT1.20" target="NT1.50"/>
+   <edge id="e.6" source="NT1.32" target="NT1.49"/>
+   <edge id="e.7" target="NT1.48" source="NT1.20"/>
+   <edge id="e.15" target="NT1.19" source="NT1.1"/>
+   <edge id="e.23" source="NT1.1" target="NT1.2"/>
+   <edge id="e.26" source="NT1.12" target="NT1.20"/>
+   <edge id="e.28" target="NT1.32" source="NT1.12"/>
+   <edge id="e.37" source="NT1.57" target="NT1.56"/>
+   <edge id="e.38" source="NT1.57" target="NT1.1"/>
+   <edge id="e.40" source="NT1.2" target="NT1.5"/>
+   <edge id="e.46" target="NT1.12" source="NT1.5"/>
+   <edge id="e.47" target="NT1.46" source="NT1.5"/>
+   <edge id="e.50" target="NT1.39" source="NT1.2"/>
+   <edge id="e.55" source="NT1.32" target="NT1.51"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">A. alba DSM 44262T (AF051340)</otu>
+  <otu id="otu4">A. japonica DSM 44213T (X77959)</otu>
+  <otu id="otu5">Kibdelosporangium aridum (X53191)</otu>
+  <otu id="otu6">A. methanolica NCIMB 11946'T (X54274)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="350.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

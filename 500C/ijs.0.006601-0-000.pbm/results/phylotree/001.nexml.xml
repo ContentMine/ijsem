@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Staphylococcus auleus ATCC 126007 (X6841 7)</otu>
+  <otu id="otu2">Trichococcus flocculiformis DSM 20947(AJ306611)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Aerococcus" cmphy:species="urinae" cmphy:strain="NCFB 28937" cmphy:id="M77819" editRecord="[]"> Aerococcus urinae NCFB 28937 (M77819)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Granulicatella balaenopterae CCUG 373807 (Y1 6547)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Carnobacterium" cmphy:species="maltarornaticum" cmphy:strain="DSM 203427" cmphy:id="M58825" editRecord="[]">Carnobacterium maltarornaticum DSM 203427 (M58825)</otu>
+  <otu id="otu11">Carnobacterium divergens DSM 206237 (M5881 6)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">WCC 41887 (FM177901)</otu>
+  <otu id="otu14">WCC 4186</otu>
+  <otu id="otu15">Enterococcus pseudoavium ATCC 493727 (D041 1809)</otu>
+  <otu id="otu16">Enterococcus hirae ATCC 80437 (AF061 O1 1)</otu>
+  <otu id="otu17" cmphy:genus="Enterococcus" cmphy:species="casseliflavus" cmphy:strain="CECT 9697" cmphy:id="AJ420804" editRecord="[]">Enterococcus casseliflavus CECT 9697 (AJ420804)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20">Vagococcus lutrae CCUG 391877(Y17152)</otu>
+  <otu id="otu21" cmphy:genus="Atopobacter" cmphy:species="phocae" cmphy:strain="M1590l94l27" cmphy:id="Y16546" editRecord="[]">Atopobacter phocae M1590l94l27 (Y16546)</otu>
+  <otu id="otu22">Abiotrophfa defecfiva ATCC 491 767 (D50541)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:genus="Streptococcus" cmphy:species="oralis" cmphy:strain="ATCC 350377" cmphy:id="AY485602" editRecord="[]">Streptococcus oralis ATCC 350377 (AY485602)</otu>
+  <otu id="otu25"/>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="192.0" y="745.0"/>
+   <node id="NT1.3" label="NT1.3" x="222.0" y="431.0"/>
+   <node id="NT1.4" label="NT1.4" x="243.0" y="314.0"/>
+   <node id="NT1.5" label="NT1.5" x="246.0" y="428.0"/>
+   <node id="NT1.24" label="NT1.24" x="402.0" y="958.0" otu="otu5"/>
+   <node id="NT1.30" label="NT1.30" x="417.0" y="359.0" otu="otu10"/>
+   <node id="NT1.40" label="NT1.40" x="442.0" y="705.0" otu="otu17"/>
+   <node id="NT1.44" label="NT1.44" x="473.0" y="201.0" otu="otu21"/>
+   <node id="NT1.50" label="NT1.50" x="649.0" y="832.0" otu="otu24"/>
+   <node id="NT1.55" label="NT1.55" x="6.0" y="867.0" root="true"/>
+   <edge id="e.2" target="NT1.44" source="NT1.4"/>
+   <edge id="e.6" target="NT1.30" source="NT1.5"/>
+   <edge id="e.12" target="NT1.40" source="NT1.5"/>
+   <edge id="e.20" target="NT1.24" source="NT1.1"/>
+   <edge id="e.22" target="NT1.50" source="NT1.3"/>
+   <edge id="e.31" source="NT1.3" target="NT1.4"/>
+   <edge id="e.32" source="NT1.4" target="NT1.5"/>
+   <edge id="e.34" source="NT1.1" target="NT1.3"/>
+   <edge id="e.53" source="NT1.55" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Slackia exigua ATCC 7001227 (NR_O24952)</otu>
+  <otu id="otu2">Coriobacterium glomerans DSM 206427 (N R_0261 70)</otu>
+  <otu id="otu3" cmphy:genus="Cryptobacterium" cmphy:species="curtum" cmphy:strain="ATCC 7006837" cmphy:id="ABO19260" editRecord="[]">Cryptobacterium curtum ATCC 7006837 (ABO19260)</otu>
+  <otu id="otu4">Strain A2 (AJ251324)</otu>
+  <otu id="otu5">Strain lac16 (FN178462)</otu>
+  <otu id="otu6">Collinsella aerofaciens JCM 101887 (ABO1 1816)</otu>
+  <otu id="otu7">Eggerthella Ienta ATCC 255597 (AF292375)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Olsenella" cmphy:species="profusa" cmphy:strain="CCUG 45372" cmphy:id="FNI78467" editRecord="[1__I]">Olsenella profusa CCUG 45372 (FN178467)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Olsenella" cmphy:species="profusa" cmphy:strain="D315A-297" cmphy:id="AFZ92374" editRecord="[2__Z]">Olsenella profusa D315A-297 (AF292374)</otu>
+  <otu id="otu10">Olsenella uli DSM 70847 (FN1 78464)</otu>
+  <otu id="otu11">Olsenella uliATCC 496277 (AF292373)</otu>
+  <otu id="otu12" cmphy:genus="Denitrobacterium" cmphy:species="detoxificans" cmphy:strain="NPOH17" cmphy:id="U43492" editRecord="[]">Denitrobacterium detoxificans NPOH17 (U43492)</otu>
+  <otu id="otu13">Enterorhabdus mucosicola mt1 B87 (AM74781 1)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Asaccharobacter" cmphy:species="celatus" cmphy:strain="do037" cmphy:id="ABZ66102" editRecord="[2__Z]">Asaccharobacter celatus do037 (AB266102)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">Paraeggerthella hongkongensis HKU1O7 (AY28851 7)</otu>
+  <otu id="otu17">Atopobium minutum DSM 205867 (FN1 78468)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Gordonibacter" cmphy:species="pamelaeae" cmphy:strain="7-10-1-b7" cmphy:id="AFZ92375" editRecord="[2__Z]">Gordonibacter pamelaeae 7-10-1-b7 (AF292375)</otu>
+  <otu id="otu19"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="149.0" y="598.0"/>
+   <node id="NT1.6" x="280.0" y="661.0" label="88"/>
+   <node id="NT1.8" label="NT1.8" x="345.0" y="707.0"/>
+   <node id="NT1.12" label="NT1.12" x="424.0" y="537.0" otu="otu3"/>
+   <node id="NT1.21" x="528.0" y="205.0" label="99"/>
+   <node id="NT1.22" label="NT1.22" x="529.0" y="258.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="529.0" y="151.0" otu="otu9"/>
+   <node id="NT1.27" label="NT1.27" x="536.0" y="676.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="599.0" y="782.0" otu="otu14"/>
+   <node id="NT1.35" label="NT1.35" x="632.0" y="572.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="3.0" y="455.0" root="true"/>
+   <edge id="e.4" source="NT1.21" target="NT1.22"/>
+   <edge id="e.5" source="NT1.21" target="NT1.23"/>
+   <edge id="e.10" source="NT1.3" target="NT1.12"/>
+   <edge id="e.12" source="NT1.8" target="NT1.27"/>
+   <edge id="e.15" target="NT1.30" source="NT1.8"/>
+   <edge id="e.17" target="NT1.35" source="NT1.6"/>
+   <edge id="e.22" target="NT1.21" source="NT1.37"/>
+   <edge id="e.26" target="NT1.3" source="NT1.37"/>
+   <edge id="e.27" source="NT1.3" target="NT1.6"/>
+   <edge id="e.28" source="NT1.6" target="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

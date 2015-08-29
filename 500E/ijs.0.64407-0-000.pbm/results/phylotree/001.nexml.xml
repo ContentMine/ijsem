@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Pediococcus" cmphy:species="dextrinicus" cmphy:strain="JCM 5887T" cmphy:id="D87679" editRecord="[]">Pediococcus dextrinicus JCM 5887T (D87679)</otu>
+  <otu id="otu11" cmphy:genus="Pediococcus" cmphy:species="parvulus" cmphy:strain="JCM 5889T" cmphy:id="D88528" editRecord="[]"> Pediococcus parvulus JCM 5889T (D88528)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Pediococcus" cmphy:species="ethanolidurans" cmphy:strain="Z-17" cmphy:id="DQ400914" editRecord="[]"> Pediococcus ethanolidurans Z-17 (DQ400914)</otu>
+  <otu id="otu15" cmphy:genus="Pediococcus" cmphy:species="cellicola" cmphy:strain="Z-8T" cmphy:id="AY956788" editRecord="[]"> Pediococcus cellicola Z-8T (AY956788)</otu>
+  <otu id="otu16" cmphy:genus="Pediococcus" cmphy:species="ethanolidurans" cmphy:strain="Z-9T" cmphy:id="AY956789" editRecord="[]"> Pediococcus ethanolidurans Z-9T (AY956789)</otu>
+  <otu id="otu17" cmphy:genus="Pediococccus" cmphy:species="pentosaceus" cmphy:strain="DSM 2O336T" cmphy:id="M58834" editRecord="[]">Pediococccus pentosaceus DSM 2O336T (M58834)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Pedicoccus" cmphy:species="inopinatus" cmphy:strain="DSM 20285T" cmphy:id="AJZ71383" editRecord="[2__Z]">Pedicoccus inopinatus DSM 20285T (AJ271383)</otu>
+  <otu id="otu19" cmphy:genus="Lactobacillus" cmphy:species="casei" cmphy:strain="JCM 11347" cmphy:id="D16551" editRecord="[]">Lactobacillus casei JCM 11347 (D16551)</otu>
+  <otu id="otu20" cmphy:genus="Pediococcus" cmphy:species="stilesii" cmphy:strain="LMG 230827" cmphy:id="AJ973157" editRecord="[]"> Pediococcus stilesii LMG 230827 (AJ973157)</otu>
+  <otu id="otu21" cmphy:genus="Pediococcus" cmphy:species="acidilactici" cmphy:strain="DSM 202847" cmphy:id="M58833" editRecord="[]">Pediococcus acidilactici DSM 202847 (M58833)</otu>
+  <otu id="otu22" cmphy:genus="Pediococcus" cmphy:species="claussenii" cmphy:strain="P067" cmphy:id="AF404716" editRecord="[]">Pediococcus claussenii P067 (AF404716)</otu>
+  <otu id="otu23" cmphy:genus="Lactobacillus" cmphy:species="plantarum" cmphy:strain="JCM 1149T" cmphy:id="D79210" editRecord="[]">Lactobacillus plantarum JCM 1149T (D79210)</otu>
+  <otu id="otu24" cmphy:edit="[O__0]" cmphy:genus="Lactobacillus" cmphy:species="acidophilus" cmphy:strain="NCFM" cmphy:id="NC_006814" editRecord="[O__0]">Lactobacillus acidophilus NCFM (NC_0O6814)</otu>
+  <otu id="otu25" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="NCDO 17697" cmphy:id="X60646" editRecord="[]">Bacillus subtilis NCDO 17697 (X60646)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="28.0" y="542.0"/>
+   <node id="NT1.3" x="98.0" y="488.0" label="88"/>
+   <node id="NT1.5" x="151.0" y="424.0" label="89"/>
+   <node id="NT1.8" label="NT1.8" x="193.0" y="343.0"/>
+   <node id="NT1.10" x="266.0" y="224.0" label="98"/>
+   <node id="NT1.12" x="343.0" y="322.0" label="100"/>
+   <node id="NT1.14" x="362.0" y="361.0" label="53"/>
+   <node id="NT1.15" x="367.0" y="91.0" label="50"/>
+   <node id="NT1.16" label="NT1.16" x="370.0" y="393.0"/>
+   <node id="NT1.19" x="384.0" y="181.0" label="63"/>
+   <node id="NT1.22" label="NT1.22" x="396.0" y="551.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="412.0" y="102.0" otu="otu11"/>
+   <node id="NT1.27" x="424.0" y="214.0" label="100"/>
+   <node id="NT1.29" label="NT1.29" x="433.0" y="237.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="434.0" y="147.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="440.0" y="192.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="440.0" y="371.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="442.0" y="58.0" otu="otu18"/>
+   <node id="NT1.34" label="NT1.34" x="443.0" y="506.0" otu="otu19"/>
+   <node id="NT1.35" label="NT1.35" x="446.0" y="416.0" otu="otu20"/>
+   <node id="NT1.36" label="NT1.36" x="458.0" y="326.0" otu="otu21"/>
+   <node id="NT1.37" label="NT1.37" x="468.0" y="281.0" otu="otu22"/>
+   <node id="NT1.38" label="NT1.38" x="509.0" y="461.0" otu="otu23"/>
+   <node id="NT1.39" label="NT1.39" x="602.0" y="596.0" otu="otu24"/>
+   <node id="NT1.40" label="NT1.40" x="602.0" y="640.0" otu="otu25"/>
+   <node id="NT1.41" label="NT1.41" x="2.0" y="591.0" root="true"/>
+   <edge id="e.2" target="NT1.33" source="NT1.15"/>
+   <edge id="e.5" source="NT1.15" target="NT1.25"/>
+   <edge id="e.7" source="NT1.19" target="NT1.30"/>
+   <edge id="e.8" source="NT1.27" target="NT1.29"/>
+   <edge id="e.9" source="NT1.27" target="NT1.31"/>
+   <edge id="e.14" source="NT1.12" target="NT1.37"/>
+   <edge id="e.15" source="NT1.16" target="NT1.32"/>
+   <edge id="e.16" source="NT1.14" target="NT1.36"/>
+   <edge id="e.17" source="NT1.16" target="NT1.35"/>
+   <edge id="e.20" source="NT1.8" target="NT1.38"/>
+   <edge id="e.21" target="NT1.34" source="NT1.5"/>
+   <edge id="e.22" source="NT1.3" target="NT1.22"/>
+   <edge id="e.23" source="NT1.1" target="NT1.39"/>
+   <edge id="e.26" source="NT1.10" target="NT1.15"/>
+   <edge id="e.27" source="NT1.15" target="NT1.19"/>
+   <edge id="e.29" target="NT1.27" source="NT1.19"/>
+   <edge id="e.30" source="NT1.8" target="NT1.10"/>
+   <edge id="e.31" source="NT1.10" target="NT1.12"/>
+   <edge id="e.32" source="NT1.12" target="NT1.14"/>
+   <edge id="e.33" source="NT1.5" target="NT1.8"/>
+   <edge id="e.34" source="NT1.14" target="NT1.16"/>
+   <edge id="e.35" source="NT1.3" target="NT1.5"/>
+   <edge id="e.37" source="NT1.1" target="NT1.3"/>
+   <edge id="e.38" source="NT1.41" target="NT1.40"/>
+   <edge id="e.39" source="NT1.41" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

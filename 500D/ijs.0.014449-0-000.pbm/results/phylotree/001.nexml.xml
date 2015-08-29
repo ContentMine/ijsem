@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Natronococcus occultus NCMB 2192T(Z28378)</otu>
+  <otu id="otu2" cmphy:genus="Halovivax" cmphy:species="asiatious" cmphy:strain="EJ-467" cmphy:id="AMO39978" editRecord="[]">Halovivax asiatious EJ-467 (AMO39978)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"> Natrialba aegyptiaca 40T(AF251941)</otu>
+  <otu id="otu5">Halostagnicola larsenii JCM 13463T(AB301489)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Natrialba" cmphy:species="hulunbeirensis" cmphy:strain="AS 1.1986T" cmphy:id="AFZ62026" editRecord="[2__Z]">Natrialba hulunbeirensis AS 1.1986T (AF262026)</otu>
+  <otu id="otu7">Halobacterium salinarum DSM 3754T(AJ496185)</otu>
+  <otu id="otu8" cmphy:genus="Halostagnicola" cmphy:species="kamekurae" cmphy:strain="194-1 OT" cmphy:id="AB489220" editRecord="[]">Halostagnicola kamekurae 194-1 OT (AB489220)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Haloterrigena turkmenica DSM 551 1T (ABO04878)</otu>
+  <otu id="otu11">Natrialba magadii NCMB 21 907 (X72495)</otu>
+  <otu id="otu12" cmphy:genus="Natronorubrum" cmphy:species="bangense" cmphy:strain="A33T" cmphy:id="Y14028" editRecord="[]">Natronorubrum bangense A33T (Y14028)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="139.0" y="198.0"/>
+   <node id="NT1.3" label="NT1.3" x="181.0" y="322.0"/>
+   <node id="NT1.5" label="NT1.5" x="258.0" y="194.0"/>
+   <node id="NT1.9" label="NT1.9" x="322.0" y="94.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="382.0" y="253.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="391.0" y="373.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="463.0" y="134.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="3.0" y="279.0" root="true"/>
+   <edge id="e.3" target="NT1.18" source="NT1.3"/>
+   <edge id="e.6" target="NT1.16" source="NT1.5"/>
+   <edge id="e.9" target="NT1.22" source="NT1.5"/>
+   <edge id="e.10" target="NT1.2" source="NT1.23"/>
+   <edge id="e.11" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" target="NT1.5" source="NT1.3"/>
+   <edge id="e.21" target="NT1.9" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

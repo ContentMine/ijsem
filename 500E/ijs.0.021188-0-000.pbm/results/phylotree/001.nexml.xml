@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">41B75EaTPusiIIimonas ginsengisoli DCY25T (EF672088)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">BL Bordetella hinzii LMG 1s5o1T (AF1 77667)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">54_ 59</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Pigmentlphaga" cmphy:species="daeguensls" cmphy:strain="K1 107" cmphy:id="EFI00696" editRecord="[1__I]"> Pigmentlphaga daeguensls K1 107 (EF100696)</otu>
+  <otu id="otu9">Parapusillimonas granuli LMG 2401 2T (DQ466075)</otu>
+  <otu id="otu10">as</otu>
+  <otu id="otu11">7Achromobacter xylosoxidans DSM 103467 (Y14908)</otu>
+  <otu id="otu12">1o0E3Acl1romobacter ruhlandii ATCC 1 5749T (ABO10840)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Candidimonas" cmphy:species="nitroreducens" cmphy:strain="SC-089'" cmphy:id="FNS56191" editRecord="[5__S]">Candidimonas nitroreducens SC-089' (FN556191)</otu>
+  <otu id="otu15"> Pigmentiphaga kullae K247 (AF28291 6)</otu>
+  <otu id="otu16" cmphy:edit="[5__S]" cmphy:genus="Pigmentiphaga" cmphy:species="litolalis" cmphy:strain="JSM O610O1T" cmphy:id="EUS83723" editRecord="[5__S]">Pigmentiphaga litolalis JSM O610O1T (EU583723)</otu>
+  <otu id="otu17">Bordetella petrfi DSM 128047 (AJ24-9861)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:genus="Pusillimonas" cmphy:species="noertemannii" cmphy:strain="BNQT" cmphy:id="AY695828" editRecord="[]">Pusillimonas noertemannii BNQT (AY695828)</otu>
+  <otu id="otu20"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="348.0" y="382.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="410.0" y="382.0" label="74"/>
+   <node id="NT1.6" x="452.0" y="380.0" label="74"/>
+   <node id="NT1.10" x="513.0" y="232.0" label="99"/>
+   <node id="NT1.21" label="NT1.21" x="589.0" y="279.0" otu="otu8"/>
+   <node id="NT1.29" label="NT1.29" x="638.0" y="356.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="666.0" y="204.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="716.0" y="471.0" otu="otu19"/>
+   <edge id="e.0" target="NT1.21" source="NT1.10"/>
+   <edge id="e.1" source="NT1.10" target="NT1.31"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.29" source="NT1.6"/>
+   <edge id="e.17" target="NT1.34" source="NT1.6"/>
+   <edge id="e.20" source="NT1.2" target="NT1.10"/>
+   <edge id="e.24" target="NT1.6" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

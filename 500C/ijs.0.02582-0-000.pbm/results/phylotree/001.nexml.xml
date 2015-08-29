@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">A. marimammalium CCUG 417107 (AJ276405)</otu>
+  <otu id="otu4">A. urogenitalis CCUG 387027 (AJ243791)</otu>
+  <otu id="otu5">A. nasicola sp. nov. ccuc. 46o927(AJ5oa455)</otu>
+  <otu id="otu6">A. canis CCUG 417067 (AJ243891)</otu>
+  <otu id="otu7">A. meyeric1P 1031487 (X82451)</otu>
+  <otu id="otu8">A. hordeovulneris CIP 1031497 (X82448)</otu>
+  <otu id="otu9">A. radicidentis CCUG 367337 (AJ251986)</otu>
+  <otu id="otu10">A. hyovaginalis NCIMB 7029837 (X69616)</otu>
+  <otu id="otu11">A. georgiae DSM 68437 (X80413)</otu>
+  <otu id="otu12">A. bovis NCTC 115357 (X81061)</otu>
+  <otu id="otu13">A. turicensis DSM 91687 (X78720)</otu>
+  <otu id="otu14">A. viscosus NCTC 109517 (X82453)</otu>
+  <otu id="otu15">A. naeslundii NCTC 103017 (X81062)</otu>
+  <otu id="otu16">A. bowdenii CCUG 374217 (AJ234039)</otu>
+  <otu id="otu17">A. howellii NCTC 116367 (X80411)</otu>
+  <otu id="otu18" cmphy:genus="Mobiluncus" cmphy:species="curtisii" cmphy:strain="ATCC 352417" cmphy:id="X53186" editRecord="[]">Mobiluncus curtisii ATCC 352417 (X53186)</otu>
+  <otu id="otu19">A. graevenitzii CCUG 272947 (Y09589)</otu>
+  <otu id="otu20">A. radingae DSM 91697 (X78719)</otu>
+  <otu id="otu21">A. slackii CCUG 327927 (AJ234066)</otu>
+  <otu id="otu22">A. denticolens NCTC 114907 (X80412)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24">A. neuii subsp. anitratus DSM 85777 (X71862)</otu>
+  <otu id="otu25">A. neuiisubsp. neuii DSM 85767 (X71861)</otu>
+  <otu id="otu26">A. israeIiic1P 1032597 (X82450)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.41" label="NT1.41" x="506.0" y="10.0" otu="otu18"/>
+   <node id="NT1.50" label="NT1.50" x="4.0" y="37.0" root="true"/>
+   <edge id="e.35" source="NT1.50" target="NT1.41"/>
+  </tree>
+ </trees>
+</nexml>

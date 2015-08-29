@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Thermus" cmphy:species="aquaticus" cmphy:strain="YT-1" cmphy:id="L09663" editRecord="[]">Thermus aquaticus YT-1 (L09663)</otu>
+  <otu id="otu5" cmphy:genus="Meiothermus" cmphy:species="ruber" cmphy:strain="ATCC 359487" cmphy:id="Z15059" editRecord="[]">Meiothermus ruber ATCC 359487 (Z15059)</otu>
+  <otu id="otu6" cmphy:genus="Deinococcus" cmphy:species="sonorensis" cmphy:strain="KR-877" cmphy:id="AY743283" editRecord="[]">Deinococcus sonorensis KR-877 (AY743283)</otu>
+  <otu id="otu7" cmphy:genus="Deinococcus" cmphy:species="maricopensis" cmphy:strain="LB-347" cmphy:id="AY743274" editRecord="[]">Deinococcus maricopensis LB-347 (AY743274)</otu>
+  <otu id="otu8">Deinococcus deser1iVCD1 157 (AY876378)</otu>
+  <otu id="otu9" cmphy:genus="Deinococcus" cmphy:species="hopiensis" cmphy:strain="KR-1407" cmphy:id="AY743262" editRecord="[]">Deinococcus hopiensis KR-1407 (AY743262)</otu>
+  <otu id="otu10" cmphy:genus="Deinococcus" cmphy:species="hohokamensis" cmphy:strain="KR-407" cmphy:id="AY743256" editRecord="[]">Deinococcus hohokamensis KR-407 (AY743256)</otu>
+  <otu id="otu11" cmphy:genus="Deinococcus" cmphy:species="navajonensis" cmphy:strain="KR-1147" cmphy:id="AY743259" editRecord="[]">Deinococcus navajonensis KR-1147 (AY743259)</otu>
+  <otu id="otu12" cmphy:genus="Deinococcus" cmphy:species="grandis" cmphy:strain="DSM 39637" cmphy:id="Y11329" editRecord="[]">Deinococcus grandis DSM 39637 (Y11329)</otu>
+  <otu id="otu13">Deinococcus murrayi DSM 113037 (Y1 3041)</otu>
+  <otu id="otu14" cmphy:genus="Deinococcus" cmphy:species="pimensis" cmphy:strain="KR-2357" cmphy:id="AY743277" editRecord="[]">Deinococcus pimensis KR-2357 (AY743277)</otu>
+  <otu id="otu15">Deinococcus indicus Wtl1 a7 (AJ5491 1 1)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Deinococcus" cmphy:species="proteolyticus" cmphy:strain="DSM 205407" cmphy:id="Y11331" editRecord="[]">Deinococcus proteolyticus DSM 205407 (Y11331)</otu>
+  <otu id="otu18" cmphy:genus="Deinococcus" cmphy:species="radiophilus" cmphy:strain="DSM 205517" cmphy:id="Y11333" editRecord="[]">Deinococcus radiophilus DSM 205517 (Y11333)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">Deinococcus saxicoIa' DSM 15974 (AJ5859B4)</otu>
+  <otu id="otu21" cmphy:genus="Deinococcus" cmphy:species="radiodurans" cmphy:strain="DSM 205397" cmphy:id="Y11332" editRecord="[]">Deinococcus radiodurans DSM 205397 (Y11332)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25"/>
+  <otu id="otu26"/>
+  <otu id="otu27" cmphy:genus="Thermotoga" cmphy:species="maritima" cmphy:strain="DSM 31097" cmphy:id="M21774" editRecord="[]">Thermotoga maritima DSM 31097 (M21774)</otu>
+  <otu id="otu28" cmphy:genus="Deinococcus" cmphy:species="apachensis" cmphy:strain="KR-367" cmphy:id="AY743264" editRecord="[]">Deinococcus apachensis KR-367 (AY743264)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="875.0"/>
+   <node id="NT1.2" x="35.0" y="1084.0" label="72"/>
+   <node id="NT1.6" label="NT1.6" x="166.0" y="762.0"/>
+   <node id="NT1.9" x="345.0" y="677.0" label="75"/>
+   <node id="NT1.10" x="345.0" y="845.0" label="55"/>
+   <node id="NT1.12" label="NT1.12" x="372.0" y="588.0"/>
+   <node id="NT1.13" label="NT1.13" x="377.0" y="1118.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="384.0" y="985.0" otu="otu5"/>
+   <node id="NT1.15" x="392.0" y="479.0" label="52"/>
+   <node id="NT1.17" x="416.0" y="383.0" label="63"/>
+   <node id="NT1.19" x="438.0" y="149.0" label="54"/>
+   <node id="NT1.21" label="NT1.21" x="445.0" y="696.0"/>
+   <node id="NT1.23" label="NT1.23" x="466.0" y="77.0"/>
+   <node id="NT1.27" label="NT1.27" x="525.0" y="764.0" otu="otu6"/>
+   <node id="NT1.29" x="530.0" y="253.0" label="99"/>
+   <node id="NT1.30" label="NT1.30" x="539.0" y="807.0" otu="otu7"/>
+   <node id="NT1.33" label="NT1.33" x="557.0" y="497.0" otu="otu9"/>
+   <node id="NT1.34" label="NT1.34" x="560.0" y="276.0" otu="otu10"/>
+   <node id="NT1.35" label="NT1.35" x="564.0" y="232.0" otu="otu11"/>
+   <node id="NT1.37" label="NT1.37" x="571.0" y="11.0" otu="otu12"/>
+   <node id="NT1.40" label="NT1.40" x="589.0" y="852.0" otu="otu14"/>
+   <node id="NT1.43" label="NT1.43" x="603.0" y="674.0" otu="otu17"/>
+   <node id="NT1.44" label="NT1.44" x="605.0" y="719.0" otu="otu18"/>
+   <node id="NT1.47" label="NT1.47" x="615.0" y="144.0" otu="otu21"/>
+   <node id="NT1.53" label="NT1.53" x="681.0" y="1028.0" otu="otu27"/>
+   <node id="NT1.54" label="NT1.54" x="682.0" y="630.0" otu="otu28"/>
+   <node id="NT1.55" label="NT1.55" x="3.0" y="979.0" root="true"/>
+   <edge id="e.0" target="NT1.37" source="NT1.23"/>
+   <edge id="e.4" source="NT1.29" target="NT1.35"/>
+   <edge id="e.7" source="NT1.17" target="NT1.33"/>
+   <edge id="e.9" target="NT1.54" source="NT1.15"/>
+   <edge id="e.10" source="NT1.9" target="NT1.27"/>
+   <edge id="e.11" source="NT1.10" target="NT1.30"/>
+   <edge id="e.12" target="NT1.40" source="NT1.10"/>
+   <edge id="e.15" source="NT1.1" target="NT1.14"/>
+   <edge id="e.19" source="NT1.19" target="NT1.23"/>
+   <edge id="e.21" target="NT1.19" source="NT1.17"/>
+   <edge id="e.22" target="NT1.29" source="NT1.19"/>
+   <edge id="e.25" source="NT1.15" target="NT1.17"/>
+   <edge id="e.26" source="NT1.12" target="NT1.15"/>
+   <edge id="e.30" source="NT1.12" target="NT1.21"/>
+   <edge id="e.31" source="NT1.9" target="NT1.12"/>
+   <edge id="e.33" source="NT1.6" target="NT1.9"/>
+   <edge id="e.34" source="NT1.6" target="NT1.10"/>
+   <edge id="e.35" source="NT1.1" target="NT1.6"/>
+   <edge id="e.41" source="NT1.55" target="NT1.1"/>
+   <edge id="e.42" source="NT1.55" target="NT1.2"/>
+   <edge id="e.43" target="NT1.13" source="NT1.2"/>
+   <edge id="e.47" source="NT1.21" target="NT1.43"/>
+   <edge id="e.48" source="NT1.21" target="NT1.44"/>
+   <edge id="e.49" source="NT1.29" target="NT1.34"/>
+   <edge id="e.50" target="NT1.47" source="NT1.23"/>
+   <edge id="e.53" source="NT1.2" target="NT1.53"/>
+  </tree>
+ </trees>
+</nexml>

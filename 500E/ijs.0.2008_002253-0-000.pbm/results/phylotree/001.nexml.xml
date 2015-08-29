@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[8__B]" cmphy:genus="Cellulomonas" cmphy:species="terrae" cmphy:strain="DB57" cmphy:id="AYB84570" editRecord="[8__B]"> Cellulomonas terrae DB57 (AY884570)</otu>
+  <otu id="otu5">44</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Cellulomonas" cmphy:species="chitinilytica" cmphy:strain="X.bu-b7" cmphy:id="ABZ68586" editRecord="[2__Z]">Cellulomonas chitinilytica X.bu-b7 (AB268586)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Cellulomonas" cmphy:species="xylanilytica" cmphy:strain="XIL117" cmphy:id="AYB03668" editRecord="[3__B]">Cellulomonas xylanilytica XIL117 (AY303668)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Cellulomonas" cmphy:species="iranensis" cmphy:strain="O7" cmphy:id="AFO64702" editRecord="[]">Cellulomonas iranensis O7 (AFO64702)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Cellulomonas" cmphy:species="fimi" cmphy:strain="DSM 201137" cmphy:id="X79460" editRecord="[]">Cellulomonas fimi DSM 201137 (X79460)</otu>
+  <otu id="otu17" cmphy:genus="Cellulomonas" cmphy:species="gelida" cmphy:strain="DSM 201117" cmphy:id="X83800" editRecord="[]">Cellulomonas gelida DSM 201117 (X83800)</otu>
+  <otu id="otu18" cmphy:genus="Csllulomonas" cmphy:species="flavigena" cmphy:strain="DSM 201097" cmphy:id="X83799" editRecord="[]">Csllulomonas flavigena DSM 201097 (X83799)</otu>
+  <otu id="otu19" cmphy:genus="Cellulomonas" cmphy:species="biazotea" cmphy:strain="DSM 201127" cmphy:id="X83802" editRecord="[]">Cellulomonas biazotea DSM 201127 (X83802)</otu>
+  <otu id="otu20">Cellulomonas persica I7 (AF064701 )</otu>
+  <otu id="otu21" cmphy:edit="[1__I]" cmphy:genus="Cellulomonas" cmphy:species="composti" cmphy:strain="TR7-067" cmphy:id="ABI66887" editRecord="[1__I]"> Cellulomonas composti TR7-067 (AB166887)</otu>
+  <otu id="otu22" cmphy:genus="Cellulomonas" cmphy:species="cellasea" cmphy:strain="DSM 201187" cmphy:id="X83804" editRecord="[]">Cellulomonas cellasea DSM 201187 (X83804)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:genus="Cellulosimicrobium" cmphy:species="cellulans" cmphy:strain="DSM 438797" cmphy:id="X79455" editRecord="[]">Cellulosimicrobium cellulans DSM 438797 (X79455)</otu>
+  <otu id="otu25">Strain 54205-237 (EU560979)</otu>
+  <otu id="otu26" cmphy:genus="Promicromonospora" cmphy:species="cirrea" cmphy:strain="DSM 431107" cmphy:id="X83808" editRecord="[]">Promicromonospora cirrea DSM 431107 (X83808)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="673.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="86.0" y="453.0"/>
+   <node id="NT1.3" label="NT1.3" x="145.0" y="341.0"/>
+   <node id="NT1.6" label="NT1.6" x="175.0" y="461.0"/>
+   <node id="NT1.9" label="NT1.9" x="191.0" y="216.0"/>
+   <node id="NT1.10" label="NT1.10" x="215.0" y="433.0" otu="otu4"/>
+   <node id="NT1.11" x="244.0" y="289.0" label="48"/>
+   <node id="NT1.13" label="NT1.13" x="248.0" y="140.0"/>
+   <node id="NT1.17" label="NT1.17" x="272.0" y="242.0" otu="otu8"/>
+   <node id="NT1.18" x="282.0" y="566.0" label="99"/>
+   <node id="NT1.19" label="NT1.19" x="283.0" y="337.0"/>
+   <node id="NT1.20" label="NT1.20" x="285.0" y="509.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="289.0" y="94.0"/>
+   <node id="NT1.27" label="NT1.27" x="306.0" y="62.0"/>
+   <node id="NT1.29" x="340.0" y="375.0" label="95"/>
+   <node id="NT1.30" label="NT1.30" x="342.0" y="90.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="351.0" y="396.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="354.0" y="128.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="362.0" y="166.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="362.0" y="357.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="404.0" y="14.0" otu="otu21"/>
+   <node id="NT1.39" label="NT1.39" x="413.0" y="319.0" otu="otu22"/>
+   <node id="NT1.41" label="NT1.41" x="422.0" y="547.0" otu="otu24"/>
+   <node id="NT1.43" label="NT1.43" x="546.0" y="586.0" otu="otu26"/>
+   <edge id="e.0" target="NT1.38" source="NT1.27"/>
+   <edge id="e.9" source="NT1.29" target="NT1.32"/>
+   <edge id="e.11" source="NT1.29" target="NT1.36"/>
+   <edge id="e.12" target="NT1.10" source="NT1.6"/>
+   <edge id="e.15" source="NT1.1" target="NT1.2"/>
+   <edge id="e.17" source="NT1.18" target="NT1.41"/>
+   <edge id="e.19" source="NT1.22" target="NT1.27"/>
+   <edge id="e.20" source="NT1.13" target="NT1.22"/>
+   <edge id="e.21" source="NT1.9" target="NT1.13"/>
+   <edge id="e.23" target="NT1.9" source="NT1.3"/>
+   <edge id="e.24" source="NT1.9" target="NT1.11"/>
+   <edge id="e.25" source="NT1.11" target="NT1.19"/>
+   <edge id="e.27" source="NT1.2" target="NT1.3"/>
+   <edge id="e.28" source="NT1.3" target="NT1.6"/>
+   <edge id="e.29" source="NT1.19" target="NT1.29"/>
+   <edge id="e.33" source="NT1.2" target="NT1.18"/>
+   <edge id="e.34" source="NT1.11" target="NT1.17"/>
+   <edge id="e.35" target="NT1.20" source="NT1.6"/>
+   <edge id="e.37" source="NT1.22" target="NT1.34"/>
+   <edge id="e.38" source="NT1.27" target="NT1.30"/>
+   <edge id="e.39" target="NT1.35" source="NT1.13"/>
+   <edge id="e.40" target="NT1.39" source="NT1.19"/>
+   <edge id="e.41" source="NT1.18" target="NT1.43"/>
+  </tree>
+ </trees>
+</nexml>

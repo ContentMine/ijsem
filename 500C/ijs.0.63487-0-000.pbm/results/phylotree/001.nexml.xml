@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Marinilactibacillus pie.'af0Ieram' DSM 16108 T (AY485792)</otu>
+  <otu id="otu3">Jrlarinilaclibacillznvpsychralalerzms 1AM l4980' (AB083407)</otu>
+  <otu id="otu4">Alkalihaclerizzm olivupovlilicus NCIMB 1371()T (AF I 4351 I)</otu>
+  <otu id="otu5">4Ilkalibacleriumpsychralalerum JCM 12281T (AB125938)</otu>
+  <otu id="otu6">Alkalibacterium iburiense 41A (ABl88092)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Alkalibtlcterium" cmphy:species="iburiense" cmphy:strain="41 C" cmphy:id="ABI88093" editRecord="[1__I]">Alkalibtlcterium iburiense 41 C (AB188093)</otu>
+  <otu id="otu8">WNI6 (X92169)</otu>
+  <otu id="otu9">Alkalilmrterium iburiense M3T (ABl8809l)</otu>
+  <otu id="otu10" cmphy:genus="Alloiococctts" cmphy:species="alilis" cmphy:strain="NCFB 2890T" cmphy:id="X59765" editRecord="[]">Alloiococctts alilis NCFB 2890T (X59765)</otu>
+  <otu id="otu11">l')olosigran1tl1m1 pigrum NCFB 29757 (X70907)</otu>
+  <otu id="otu12">Clasfridium isatidis NCF B 3()71T (X98395)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="248.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="9.0" y="248.0"/>
+   <node id="NT1.15" label="NT1.15" x="366.0" y="905.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="402.0" y="269.0" otu="otu10"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" target="NT1.15" source="NT1.2"/>
+   <edge id="e.14" target="NT1.19" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

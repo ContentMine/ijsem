@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Z. mcfverae CBS 4075 (AY447021)</otu>
+  <otu id="otu2" cmphy:genus="z." cmphy:species="meyerae" cmphy:strain="CBS 7521T" cmphy:id="AY447030">z. meyerae CBS 7521T (AY447030)</otu>
+  <otu id="otu3">Z. hellerticus CBS 4028 (AY447020)</otu>
+  <otu id="otu4">z. lzellenicus CBS s736T(AY447027)</otu>
+  <otu id="otu5" cmphy:edit="[2__[zZ]]" cmphy:genus="[zZ]" cmphy:species="hellenicus" cmphy:strain="CBS ss39T" cmphy:id="AY447023">2. hellenicus CBS ss39T (AY447023)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">C. bi11m7inipltila CBS 8813T (AY5l8583)</otu>
+  <otu id="otu8">Z. meyerae CBS 6173 (AY447024)</otu>
+  <otu id="otu9">2. mcyerae CBS 71 I5T (AY447029)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="693.0" y="786.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="753.0" y="1654.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="784.0" y="141.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="3.0" y="1285.0" root="true"/>
+   <edge id="e.1" target="NT1.11" source="NT1.1"/>
+   <edge id="e.7" target="NT1.5" source="NT1.1"/>
+   <edge id="e.15" source="NT1.17" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

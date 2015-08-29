@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">M. borealis 96-104.27 (AY393864. AF034127)</otu>
+  <otu id="otu3">M. mauinuiana 04-19O.1T (AY796025)</otu>
+  <otu id="otu4">M. continentalis 96-1737 (AY393870. AF034126)</otu>
+  <otu id="otu5">M. hawaiiensis 87-2167.27 (AY393874. U45734)</otu>
+  <otu id="otu6">M. hamakuensis 04-201.2 (AY796338)</otu>
+  <otu id="otu7">M. hamakuensis O4-2O4.1A (AY796026)</otu>
+  <otu id="otu8">Metschnikowia sp. 04-226.1 (AY796028)</otu>
+  <otu id="otu9">Metschnikowia sp. O4-218.3 (AY796027)</otu>
+  <otu id="otu10">M. kamakouana 04-112.5T (AY796024)</otu>
+  <otu id="otu11">M. santaceciliae 01-517a1T (AF514292)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="kipukae" cmphy:strain="00-669.2T" cmphy:id="AFS14294" editRecord="[5__S]">Candida kipukae 00-669.2T (AF514294)</otu>
+  <otu id="otu13">Metsohnikowia sp. O0-154.1 (AY393883. AF313347)</otu>
+  <otu id="otu14">Candida ipomoeae 91-672.17 (AY393887. AF050148)</otu>
+  <otu id="otu15">M. Iochheadii 99-661 .1A (AY393878. AF279304)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="621.0" otu="otu1" root="true"/>
+   <node id="NT1.24" label="NT1.24" x="264.0" y="618.0" otu="otu12"/>
+   <edge id="e.22" target="NT1.24" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

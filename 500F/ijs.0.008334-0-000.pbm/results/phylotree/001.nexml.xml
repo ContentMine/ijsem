@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Psychroserpens" cmphy:species="mesophilus" cmphy:strain="KOPRI 13649T" cmphy:id="DQO01321" editRecord="[0__O]">Psychroserpens mesophilus KOPRI 13649T (DQ001321)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Algibacter" cmphy:species="lectus" cmphy:strain="KMM 39O2T" cmphy:id="AYI87689" editRecord="[1__I]">Algibacter lectus KMM 39O2T (AY187689)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Gaetbulibacter marinus lMCC1914T(EF1O8219)</otu>
+  <otu id="otu6"> Bizionia argentinensis JUB59T (EU021 21 7)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 35537" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 35537 (AY228461)</otu>
+  <otu id="otu8">Winogradskyella thalassocola KMM 3907T(AY521223)</otu>
+  <otu id="otu9" cmphy:genus="Winogradskyella" cmphy:species="rapida" cmphy:strain="SCB361" cmphy:id="U64013" editRecord="[]">Winogradskyella rapida SCB361 (U64013)</otu>
+  <otu id="otu10">Winogradskyella epiphytica KMM 39O6T (AY521 224)</otu>
+  <otu id="otu11">Winogradskyella eximia KMM 3944T (AY521 225)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Flaviramulus" cmphy:species="basaltis" cmphy:strain="H35T" cmphy:id="DQB61033" editRecord="[3__B]">Flaviramulus basaltis H35T (DQ361033)</otu>
+  <otu id="otu13" cmphy:genus="Mariniflexile" cmphy:species="fucanivorans" cmphy:strain="SW57" cmphy:id="AJ628046" editRecord="[]">Mariniflexile fucanivorans SW57 (AJ628046)</otu>
+  <otu id="otu14" cmphy:edit="[8__B]" cmphy:genus="Winogradskyella" cmphy:species="poriferorum" cmphy:strain="USTO30701 -2957" cmphy:id="AYB48823" editRecord="[8__B]">Winogradskyella poriferorum USTO30701 -2957 (AY848823)</otu>
+  <otu id="otu15" cmphy:genus="Lacinutrix" cmphy:species="copepodicola" cmphy:strain="DJ3T" cmphy:id="AY694001" editRecord="[]">Lacinutrix copepodicola DJ3T (AY694001)</otu>
+  <otu id="otu16" cmphy:genus="Psychroserpens" cmphy:species="burtonensis" cmphy:strain="ACAM 188T" cmphy:id="U62913" editRecord="[]">Psychroserpens burtonensis ACAM 188T (U62913)</otu>
+  <otu id="otu17" cmphy:genus="Yeosuana" cmphy:species="aromativorans" cmphy:strain="GW1-1T" cmphy:id="AY682382" editRecord="[]">Yeosuana aromativorans GW1-1T (AY682382)</otu>
+  <otu id="otu18">Tamlana agarivoransJW-26T(EU221275)</otu>
+  <otu id="otu19">Gelidibacter algens ACAM 536T(U62914)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="498.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="14.0" y="498.0"/>
+   <node id="NT1.3" label="NT1.3" x="25.0" y="331.0"/>
+   <node id="NT1.4" label="NT1.4" x="35.0" y="672.0"/>
+   <node id="NT1.6" label="NT1.6" x="50.0" y="486.0"/>
+   <node id="NT1.7" label="NT1.7" x="54.0" y="173.0"/>
+   <node id="NT1.8" label="NT1.8" x="60.0" y="720.0"/>
+   <node id="NT1.9" label="NT1.9" x="63.0" y="106.0"/>
+   <node id="NT1.11" x="73.0" y="445.0" label="76"/>
+   <node id="NT1.12" label="NT1.12" x="75.0" y="238.0"/>
+   <node id="NT1.19" label="NT1.19" x="144.0" y="744.0" otu="otu2"/>
+   <node id="NT1.20" label="NT1.20" x="156.0" y="144.0" otu="otu3"/>
+   <node id="NT1.24" label="NT1.24" x="165.0" y="616.0" otu="otu7"/>
+   <node id="NT1.26" label="NT1.26" x="182.0" y="315.0" otu="otu9"/>
+   <node id="NT1.29" label="NT1.29" x="190.0" y="15.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="192.0" y="272.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="192.0" y="487.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="194.0" y="530.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="203.0" y="701.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="221.0" y="230.0" otu="otu17"/>
+   <edge id="e.1" source="NT1.12" target="NT1.30"/>
+   <edge id="e.2" target="NT1.34" source="NT1.12"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.5" source="NT1.6" target="NT1.32"/>
+   <edge id="e.6" source="NT1.11" target="NT1.31"/>
+   <edge id="e.8" target="NT1.26" source="NT1.11"/>
+   <edge id="e.9" source="NT1.8" target="NT1.19"/>
+   <edge id="e.12" source="NT1.8" target="NT1.33"/>
+   <edge id="e.15" source="NT1.7" target="NT1.9"/>
+   <edge id="e.16" source="NT1.3" target="NT1.7"/>
+   <edge id="e.17" source="NT1.7" target="NT1.12"/>
+   <edge id="e.19" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" source="NT1.3" target="NT1.6"/>
+   <edge id="e.21" source="NT1.2" target="NT1.4"/>
+   <edge id="e.22" source="NT1.6" target="NT1.11"/>
+   <edge id="e.26" source="NT1.4" target="NT1.8"/>
+   <edge id="e.29" source="NT1.9" target="NT1.20"/>
+   <edge id="e.33" target="NT1.24" source="NT1.4"/>
+   <edge id="e.34" target="NT1.29" source="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

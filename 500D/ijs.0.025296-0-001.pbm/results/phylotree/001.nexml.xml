@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Acidovorax temperans CCUG 1 1 7797 (AFO78766)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Acidovorax" cmphy:species="oryzae" cmphy:strain="FC-1437" cmphy:id="DQB60414" editRecord="[3__B]">Acidovorax oryzae FC-1437 (DQ360414)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Acidovorax" cmphy:species="soli" cmphy:strain="BL217" cmphy:id="FJS99672" editRecord="[5__S]">Acidovorax soli BL217 (FJ599672)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Acidovorax" cmphy:species="citrulli" cmphy:strain="ATCC 296257" cmphy:id="AFO78761" editRecord="[]">Acidovorax citrulli ATCC 296257 (AFO78761)</otu>
+  <otu id="otu13" cmphy:genus="Simplicispira" cmphy:species="metamorpha" cmphy:strain="DSM 18377" cmphy:id="Y18618" editRecord="[]">Simplicispira metamorpha DSM 18377 (Y18618)</otu>
+  <otu id="otu14">Acidovorax facilis CCUG 21137(AF078765)</otu>
+  <otu id="otu15" cmphy:genus="Acidovorax" cmphy:species="caeni" cmphy:strain="R-246087" cmphy:id="AMO84006" editRecord="[]">Acidovorax caeni R-246087 (AMO84006)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Acidovorax" cmphy:species="valerianellae" cmphy:strain="CFBP 47307" cmphy:id="AJ431731" editRecord="[]">Acidovorax valerianellae CFBP 47307 (AJ431731)</otu>
+  <otu id="otu18" cmphy:genus="Acidovorax" cmphy:species="konjaci" cmphy:strain="DSM 74817" cmphy:id="AJ420325" editRecord="[]">Acidovorax konjaci DSM 74817 (AJ420325)</otu>
+  <otu id="otu19">Acidovorax delafieldii ATCC 1 75057 (AFO78764)</otu>
+  <otu id="otu20" cmphy:genus="Acidovorax" cmphy:species="defluvii" cmphy:strain="BSB41 17" cmphy:id="Y18616" editRecord="[]">Acidovorax defluvii BSB41 17 (Y18616)</otu>
+  <otu id="otu21" cmphy:edit="[O__0]" cmphy:genus="Acidovorax" cmphy:species="anthurii" cmphy:strain="CFBP 32327" cmphy:id="AJO07013" editRecord="[O__0]">Acidovorax anthurii CFBP 32327 (AJOO7013)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="152.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="20.0" y="152.0"/>
+   <node id="NT1.5" label="NT1.5" x="70.0" y="289.0"/>
+   <node id="NT1.6" label="NT1.6" x="80.0" y="324.0"/>
+   <node id="NT1.8" label="NT1.8" x="84.0" y="107.0"/>
+   <node id="NT1.10" label="NT1.10" x="89.0" y="361.0"/>
+   <node id="NT1.11" label="NT1.11" x="92.0" y="139.0"/>
+   <node id="NT1.15" label="NT1.15" x="114.0" y="71.0"/>
+   <node id="NT1.21" label="NT1.21" x="140.0" y="216.0"/>
+   <node id="NT1.23" label="NT1.23" x="147.0" y="272.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="149.0" y="344.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="161.0" y="199.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="162.0" y="14.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="177.0" y="308.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="182.0" y="87.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="184.0" y="124.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="199.0" y="453.0" otu="otu20"/>
+   <node id="NT1.36" label="NT1.36" x="204.0" y="51.0" otu="otu21"/>
+   <edge id="e.2" source="NT1.1" target="NT1.4"/>
+   <edge id="e.8" source="NT1.4" target="NT1.5"/>
+   <edge id="e.9" source="NT1.5" target="NT1.6"/>
+   <edge id="e.10" source="NT1.5" target="NT1.8"/>
+   <edge id="e.12" target="NT1.10" source="NT1.6"/>
+   <edge id="e.16" source="NT1.8" target="NT1.11"/>
+   <edge id="e.17" source="NT1.8" target="NT1.15"/>
+   <edge id="e.19" target="NT1.21" source="NT1.11"/>
+   <edge id="e.23" source="NT1.4" target="NT1.28"/>
+   <edge id="e.24" source="NT1.10" target="NT1.24"/>
+   <edge id="e.26" source="NT1.6" target="NT1.30"/>
+   <edge id="e.27" source="NT1.11" target="NT1.33"/>
+   <edge id="e.29" source="NT1.15" target="NT1.32"/>
+   <edge id="e.30" source="NT1.21" target="NT1.27"/>
+   <edge id="e.31" source="NT1.21" target="NT1.23"/>
+   <edge id="e.32" target="NT1.36" source="NT1.15"/>
+   <edge id="e.34" target="NT1.35" source="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

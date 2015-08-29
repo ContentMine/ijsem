@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Prosthecomicrobium pneumaticum ATCC23633T (ABO1 7203)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Kaistia" cmphy:species="soli" cmphy:strain="5YN9-87" cmphy:id="EFS92609" editRecord="[5__S]">Kaistia soli 5YN9-87 (EF592609)</otu>
+  <otu id="otu9" cmphy:genus="Methylosinus" cmphy:species="trichosporium" cmphy:strain="OB3bT" cmphy:id="Y18947" editRecord="[]">Methylosinus trichosporium OB3bT (Y18947)</otu>
+  <otu id="otu10">Strain 5YN7-37 (EU723082)</otu>
+  <otu id="otu11">Kaistia adipata Chj4O4T (AY03981 7)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Kaistia" cmphy:species="granuli" cmphy:strain="K0047" cmphy:id="ABZ44762" editRecord="[2__Z]">Kaistia granuli K0047 (AB244762)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Chelatococcus" cmphy:species="asaccharovorans" cmphy:strain="TE2T" cmphy:id="AJZ94349" editRecord="[2__Z]">Chelatococcus asaccharovorans TE2T (AJ294349)</otu>
+  <otu id="otu14" cmphy:genus="Berjerinckia" cmphy:species="indica" cmphy:strain="ATCC 90397" cmphy:id="M59060" editRecord="[]">Berjerinckia indica ATCC 90397 (M59060)</otu>
+  <otu id="otu15">Ochrobactrum anthropi IAM 141 19 (D1 2794)</otu>
+  <otu id="otu16">Methylocella palustris KT (Y1 7144)</otu>
+  <otu id="otu17" cmphy:genus="Ancylobacter" cmphy:species="aquaticus" cmphy:strain="ATCC 253967" cmphy:id="M62790" editRecord="[]">Ancylobacter aquaticus ATCC 253967 (M62790)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="thiooxidans" cmphy:strain="DSM 96537" cmphy:id="AJZ50796" editRecord="[2__Z]">Bosea thiooxidans DSM 96537 (AJ250796)</otu>
+  <otu id="otu19" cmphy:genus="Methylobacterium" cmphy:species="organophilum" cmphy:strain="JCM 28337" cmphy:id="D32226" editRecord="[]">Methylobacterium organophilum JCM 28337 (D32226)</otu>
+  <otu id="otu20">Comamonas testosteroni ATCC 1 19967 (M1 1224)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="321.0" y="248.0"/>
+   <node id="NT1.4" label="NT1.4" x="350.0" y="129.0"/>
+   <node id="NT1.5" label="NT1.5" x="365.0" y="328.0"/>
+   <node id="NT1.7" label="NT1.7" x="371.0" y="284.0"/>
+   <node id="NT1.8" label="NT1.8" x="405.0" y="374.0"/>
+   <node id="NT1.11" label="NT1.11" x="425.0" y="402.0"/>
+   <node id="NT1.13" label="NT1.13" x="431.0" y="95.0"/>
+   <node id="NT1.22" label="NT1.22" x="495.0" y="127.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="500.0" y="311.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="507.0" y="53.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="512.0" y="347.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="512.0" y="237.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="545.0" y="164.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="568.0" y="384.0" otu="otu18"/>
+   <node id="NT1.33" label="NT1.33" x="619.0" y="422.0" otu="otu19"/>
+   <node id="NT1.35" label="NT1.35" x="2.0" y="424.0" root="true"/>
+   <edge id="e.2" target="NT1.26" source="NT1.13"/>
+   <edge id="e.5" source="NT1.13" target="NT1.22"/>
+   <edge id="e.6" source="NT1.4" target="NT1.31"/>
+   <edge id="e.12" target="NT1.27" source="NT1.8"/>
+   <edge id="e.14" source="NT1.11" target="NT1.32"/>
+   <edge id="e.16" source="NT1.11" target="NT1.33"/>
+   <edge id="e.20" source="NT1.4" target="NT1.13"/>
+   <edge id="e.21" target="NT1.4" source="NT1.2"/>
+   <edge id="e.23" target="NT1.2" source="NT1.35"/>
+   <edge id="e.24" source="NT1.2" target="NT1.5"/>
+   <edge id="e.25" source="NT1.5" target="NT1.7"/>
+   <edge id="e.26" source="NT1.5" target="NT1.8"/>
+   <edge id="e.28" source="NT1.8" target="NT1.11"/>
+   <edge id="e.32" source="NT1.7" target="NT1.23"/>
+   <edge id="e.33" target="NT1.28" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

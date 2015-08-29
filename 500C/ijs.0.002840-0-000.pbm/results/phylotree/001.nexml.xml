@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Aquitalea magnusonii TRO-0O1DR8T (DQ0181 17)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Gulbenkiania" cmphy:species="mobilis" cmphy:strain="E4FC31T" cmphy:id="AMZ95491" editRecord="[2__Z]">Gulbenkiania mobilis E4FC31T (AM295491)</otu>
+  <otu id="otu10" cmphy:genus="Vogesella" cmphy:species="indigofera" cmphy:strain="ATCC 19706T" cmphy:id="U45995" editRecord="[]">Vogesella indigofera ATCC 19706T (U45995)</otu>
+  <otu id="otu11" cmphy:genus="Chromobacterium" cmphy:species="violaceum" cmphy:strain="ATCC 124721" cmphy:id="M22510" editRecord="[]">Chromobacterium violaceum ATCC 124721 (M22510)</otu>
+  <otu id="otu12"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="10.0" y="231.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="57.0" y="185.0" label="90"/>
+   <node id="NT1.4" label="NT1.4" x="85.0" y="136.0"/>
+   <node id="NT1.16" label="NT1.16" x="260.0" y="191.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="263.0" y="236.0" otu="otu10"/>
+   <node id="NT1.18" label="NT1.18" x="275.0" y="147.0" otu="otu11"/>
+   <edge id="e.6" target="NT1.18" source="NT1.4"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" source="NT1.4" target="NT1.16"/>
+   <edge id="e.10" source="NT1.2" target="NT1.17"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

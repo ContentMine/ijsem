@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Clostridium" cmphy:species="halophilum" cmphy:strain="DSM 5387T" cmphy:id="X77837" editRecord="[]">Clostridium halophilum DSM 5387T (X77837)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"> Clostridium purinilyticum ATCC 339O6T(M60491)</otu>
+  <otu id="otu4" cmphy:genus="Clostridium" cmphy:species="acidurici" cmphy:strain="ATCC 7906T" cmphy:id="M59084" editRecord="[]">Clostridium acidurici ATCC 7906T (M59084)</otu>
+  <otu id="otu5"> Eubacterium angustum ATCC 43737T(L34612)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Caloranaerobacter" cmphy:species="azorensis" cmphy:strain="DSM 13643T" cmphy:id="AJZ72422" editRecord="[2__Z]"> Caloranaerobacter azorensis DSM 13643T (AJ272422)</otu>
+  <otu id="otu7">Sedimentibacter hydroxybenzoicus ATCC 51151T(L113O5)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">Sporanaerobacter acetigenes DSM 131O6T(AF358114)</otu>
+  <otu id="otu11" cmphy:genus="Tissierella" cmphy:species="praeacuta" cmphy:strain="ATCC 25539T" cmphy:id="X80833" editRecord="[]">Tissierella praeacuta ATCC 25539T (X80833)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Garciella" cmphy:species="nitratireducens" cmphy:strain="DSM 151O2T" cmphy:id="AYI76772" editRecord="[1__I]">Garciella nitratireducens DSM 151O2T (AY176772)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="95.0" y="603.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="118.0" y="318.0"/>
+   <node id="NT1.4" label="NT1.4" x="124.0" y="256.0"/>
+   <node id="NT1.12" label="NT1.12" x="259.0" y="504.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="271.0" y="359.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="298.0" y="66.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="328.0" y="213.0" otu="otu13"/>
+   <edge id="e.1" target="NT1.21" source="NT1.4"/>
+   <edge id="e.4" target="NT1.15" source="NT1.4"/>
+   <edge id="e.5" source="NT1.4" target="NT1.23"/>
+   <edge id="e.8" target="NT1.12" source="NT1.3"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.16" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

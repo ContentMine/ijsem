@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="S." cmphy:species="thermophilus" cmphy:strain="ATCC 43l25T" cmphy:id="L09227" editRecord="[]">S. thermophilus ATCC 43l25T (L09227)</otu>
+  <otu id="otu3">G. caldnxylnsilyticus ATCC 700356T (AF067651)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">B. thermantarcticus MIT (AJ493665)</otu>
+  <otu id="otu6">G. toebii SK-1' (AF326278)</otu>
+  <otu id="otu7">G. thermoglucusidasius ATCC 43742T (X60641)</otu>
+  <otu id="otu8">(G. umlicus' K2 (AY079l51)</otu>
+  <otu id="otu9">G. subterraneus DSM l3552T (AF276306)</otu>
+  <otu id="otu10">)3. caldotenaf DSM 406 (X62180)</otu>
+  <otu id="otu11">4B. caldolyticuf DSM 405 (M77484)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Geobacillus" cmphy:species="vulczmi" cmphy:strain="DSM 13174T" cmphy:id="AJZ93805" editRecord="[2__Z]">Geobacillus vulczmi DSM 13174T (AJ293805)</otu>
+  <otu id="otu13">G. thermacatenulatus DSM 730T (Z26926)</otu>
+  <otu id="otu14">G. stearothermophilus NCDO 1768T (X60640)</otu>
+  <otu id="otu15">G. uzenensis DSM l3551T (AF276304)</otu>
+  <otu id="otu16" cmphy:edit="[1__I]" cmphy:genus="Geobacillus" cmphy:species="gargensis" cmphy:strain="GaT" cmphy:id="AYI93888" editRecord="[1__I]">Geobacillus gargensis GaT (AY193888)</otu>
+  <otu id="otu17">G. thermaderzitrificans DSM 465T (Z26928)</otu>
+  <otu id="otu18">G. thermoleovorans ATCC 43513T (M77488)</otu>
+  <otu id="otu19">7G. anatalicuf SB (AF411064)</otu>
+  <otu id="otu20">(G. Imus HU (Al-7411065)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="989.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="31.0" y="945.0"/>
+   <node id="NT1.5" label="NT1.5" x="104.0" y="1080.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="299.0" y="410.0"/>
+   <node id="NT1.27" label="NT1.27" x="329.0" y="333.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="351.0" y="440.0" otu="otu16"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" target="NT1.17" source="NT1.2"/>
+   <edge id="e.22" source="NT1.2" target="NT1.5"/>
+   <edge id="e.29" target="NT1.27" source="NT1.17"/>
+   <edge id="e.32" source="NT1.17" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

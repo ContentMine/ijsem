@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Paucimonas" cmphy:species="lemoignei" cmphy:strain="LMG 22077" cmphy:id="X92555" editRecord="[]">Paucimonas lemoignei LMG 22077 (X92555)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Limnobacter" cmphy:species="thiooxidans" cmphy:strain="CS-KT" cmphy:id="AJZ89885" editRecord="[2__Z]">Limnobacter thiooxidans CS-KT (AJ289885)</otu>
+  <otu id="otu3">Ralstonia pickettii ATCC 2751 1T(AY741342)</otu>
+  <otu id="otu4">Cupriavidus necator ATCC 43291 T (AF191737)</otu>
+  <otu id="otu5">KP1-22 (AB366177)</otu>
+  <otu id="otu6">KP1-17 (AB366172)</otu>
+  <otu id="otu7">Pandoraea apista LMG 164O7T(AF139173)</otu>
+  <otu id="otu8">Burkholderia cepacia ATCC 2541 GT (U96927)</otu>
+  <otu id="otu9">Polynucleobacter necessarius STIR1 (AJ81 1014)</otu>
+  <otu id="otu10" cmphy:genus="Alcaligenes" cmphy:species="faecalls" cmphy:strain="IAM 12369T" cmphy:id="D88008" editRecord="[]">Alcaligenes faecalls IAM 12369T (D88008)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Chitinimonas" cmphy:species="taiwanensis" cmphy:strain="cfT" cmphy:id="AYB23827" editRecord="[3__B]">Chitinimonas taiwanensis cfT (AY323827)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="51.0"/>
+   <node id="NT1.2" label="NT1.2" x="46.0" y="195.0"/>
+   <node id="NT1.3" label="NT1.3" x="68.0" y="278.0"/>
+   <node id="NT1.4" label="NT1.4" x="94.0" y="114.0"/>
+   <node id="NT1.5" label="NT1.5" x="118.0" y="223.0"/>
+   <node id="NT1.6" label="NT1.6" x="182.0" y="139.0"/>
+   <node id="NT1.7" label="NT1.7" x="190.0" y="247.0"/>
+   <node id="NT1.8" label="NT1.8" x="210.0" y="348.0"/>
+   <node id="NT1.9" label="NT1.9" x="211.0" y="51.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="267.0" y="302.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="271.0" y="159.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="284.0" y="122.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="291.0" y="401.0"/>
+   <node id="NT1.14" label="NT1.14" x="301.0" y="446.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="301.0" y="482.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="302.0" y="230.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="341.0" y="267.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="344.0" y="86.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="356.0" y="15.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="422.0" y="194.0" otu="otu11"/>
+   <edge source="NT1.9" target="NT1.1" id="e.0"/>
+   <edge source="NT1.14" target="NT1.13" id="e.1"/>
+   <edge source="NT1.2" target="NT1.3" id="e.2"/>
+   <edge source="NT1.2" target="NT1.4" id="e.3"/>
+   <edge source="NT1.3" target="NT1.8" id="e.4"/>
+   <edge source="NT1.3" target="NT1.5" id="e.5"/>
+   <edge source="NT1.4" target="NT1.6" id="e.6"/>
+   <edge source="NT1.5" target="NT1.7" id="e.7"/>
+   <edge source="NT1.8" target="NT1.8" id="e.8"/>
+   <edge source="NT1.8" target="NT1.13" id="e.9"/>
+   <edge source="NT1.1" target="NT1.2" id="e.10"/>
+   <edge source="NT1.18" target="NT1.4" id="e.11"/>
+   <edge source="NT1.19" target="NT1.1" id="e.12"/>
+   <edge source="NT1.11" target="NT1.6" id="e.13"/>
+   <edge source="NT1.12" target="NT1.6" id="e.14"/>
+   <edge source="NT1.20" target="NT1.5" id="e.15"/>
+   <edge source="NT1.16" target="NT1.7" id="e.16"/>
+   <edge source="NT1.10" target="NT1.8" id="e.17"/>
+   <edge source="NT1.17" target="NT1.7" id="e.18"/>
+   <edge source="NT1.15" target="NT1.13" id="e.19"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">0</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Nfaszella" cmphy:species="koreensfs" cmphy:strain="GR204 0'" cmphy:id="DQZ44077" editRecord="[2__Z]">Nfaszella koreensfs GR204 0' (DQ244077)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Chrtinophaga" cmphy:species="japonensis" cmphy:strain="NBRC 16041'" cmphy:id="ABO78055" editRecord="[0__O]">Chrtinophaga japonensis NBRC 16041' (AB078055)</otu>
+  <otu id="otu18">Pcnmnophaga Ierrae'1 (35011 238 (AB2B7724)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:edit="[2__Z, B__8]" cmphy:genus="Chilmophaga" cmphy:species="lerrae" cmphy:strain="KP01'" cmphy:id="ABZ78570" editRecord="[2__Z, B__8]">Chilmophaga lerrae KP01' (AB27B570)</otu>
+  <otu id="otu23">Ferruginibacter Iapsinanis H U1 -HG42' (FJ177532)</otu>
+  <otu id="otu24" cmphy:edit="[2__Z]" cmphy:genus="Segetibacter" cmphy:species="koreensis" cmphy:strain="Gsoil 664'" cmphy:id="ABZ67478" editRecord="[2__Z]">Segetibacter koreensis Gsoil 664' (AB267478)</otu>
+  <otu id="otu25">Flavobacterium aquaifle DSM 1 132' (AM230485)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="371.0" y="503.0"/>
+   <node id="NT1.4" label="NT1.4" x="388.0" y="431.0"/>
+   <node id="NT1.12" x="504.0" y="582.0" label="57"/>
+   <node id="NT1.30" label="NT1.30" x="633.0" y="490.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="674.0" y="608.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="694.0" y="578.0" otu="otu22"/>
+   <node id="NT1.40" label="NT1.40" x="728.0" y="431.0" otu="otu24"/>
+   <node id="NT1.42" label="NT1.42" x="3.0" y="674.0" root="true"/>
+   <edge id="e.10" target="NT1.30" source="NT1.4"/>
+   <edge id="e.13" source="NT1.4" target="NT1.40"/>
+   <edge id="e.21" source="NT1.12" target="NT1.32"/>
+   <edge id="e.23" target="NT1.38" source="NT1.12"/>
+   <edge id="e.29" target="NT1.4" source="NT1.1"/>
+   <edge id="e.34" target="NT1.12" source="NT1.1"/>
+   <edge id="e.40" source="NT1.42" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

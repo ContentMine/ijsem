@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">L. fallax NRIC 02107 (AB023239)</otu>
+  <otu id="otu2"> L. palmae TMW 2.6947 (AM940225)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"> L. kimchii IH257 (AF173986)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Fructobacillus" cmphy:species="ficulneus" cmphy:strain="FS-17" cmphy:id="AFB60736" editRecord="[3__B]"> Fructobacillus ficulneus FS-17 (AF360736)</otu>
+  <otu id="otu7">L. holzapfelii LMG 239907 (AM600682)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Fructobacillus" cmphy:species="pseudoficulneus" cmphy:strain="LC-517" cmphy:id="AYI69967" editRecord="[1__I]">Fructobacillus pseudoficulneus LC-517 (AY169967)</otu>
+  <otu id="otu10">L. inhae lH611 (AY117686)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">L. pseudomesenteroides NCDO 7687 (X95979)</otu>
+  <otu id="otu13"> L. Iactis JCM 61237 (AB023968)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[3__B]" cmphy:genus="Fructobacillus" cmphy:species="fructosus" cmphy:strain="DSM 203497" cmphy:id="AFB60737" editRecord="[3__B]"> Fructobacillus fructosus DSM 203497 (AF360737)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Oenococcus" cmphy:species="kitaharae" cmphy:strain="NRIC 06457" cmphy:id="ABZ21475" editRecord="[2__Z]">Oenococcus kitaharae NRIC 06457 (AB221475)</otu>
+  <otu id="otu19" cmphy:edit="[0__O]" cmphy:genus="Oenococcus" cmphy:species="oeni" cmphy:strain="JCM 61257" cmphy:id="ABO22924" editRecord="[0__O]"> Oenococcus oeni JCM 61257 (AB022924)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:edit="[3__B]" cmphy:genus="Weissella" cmphy:species="kimchii" cmphy:strain="CHJ37" cmphy:id="AFB12874" editRecord="[3__B]"> Weissella kimchii CHJ37 (AF312874)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="156.0" y="522.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="322.0" y="69.0"/>
+   <node id="NT1.10" x="384.0" y="106.0" label="100"/>
+   <node id="NT1.20" label="NT1.20" x="431.0" y="125.0" otu="otu6"/>
+   <node id="NT1.22" x="439.0" y="749.0" label="100"/>
+   <node id="NT1.25" label="NT1.25" x="450.0" y="87.0" otu="otu9"/>
+   <node id="NT1.33" label="NT1.33" x="509.0" y="49.0" otu="otu15"/>
+   <node id="NT1.37" label="NT1.37" x="535.0" y="769.0" otu="otu18"/>
+   <node id="NT1.38" label="NT1.38" x="554.0" y="730.0" otu="otu19"/>
+   <node id="NT1.40" label="NT1.40" x="619.0" y="616.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="3.0" y="635.0" root="true"/>
+   <edge id="e.1" target="NT1.33" source="NT1.4"/>
+   <edge id="e.2" source="NT1.10" target="NT1.20"/>
+   <edge id="e.3" source="NT1.10" target="NT1.25"/>
+   <edge id="e.18" target="NT1.40" source="NT1.1"/>
+   <edge id="e.19" source="NT1.22" target="NT1.37"/>
+   <edge id="e.20" source="NT1.22" target="NT1.38"/>
+   <edge id="e.22" target="NT1.4" source="NT1.1"/>
+   <edge id="e.23" source="NT1.4" target="NT1.10"/>
+   <edge id="e.38" source="NT1.41" target="NT1.1"/>
+   <edge id="e.39" source="NT1.41" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

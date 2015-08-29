@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Subtercola" cmphy:species="frigoramans" cmphy:strain="DSM 13057T" cmphy:id="AFZ24723" editRecord="[2__Z]">Subtercola frigoramans DSM 13057T (AF224723)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Subtercola" cmphy:species="pratensis" cmphy:strain="DSM 14246T" cmphy:id="AJB10412" editRecord="[3__B]">Subtercola pratensis DSM 14246T (AJ310412)</otu>
+  <otu id="otu4">Agreia bicolorata VKM Ac-18041.</otu>
+  <otu id="otu5"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="77.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="112.0" y="77.0"/>
+   <node id="NT1.3" label="NT1.3" x="240.0" y="22.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="351.0" y="150.0" otu="otu3"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" target="NT1.6" source="NT1.2"/>
+   <edge id="e.6" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

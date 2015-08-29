@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> alkanivorans HKI 01367 (Y18054)</otu>
+  <otu id="otu2"> vvestfalica Kb2T (AJ312907)</otu>
+  <otu id="otu3"> namibiensis NAM-BN063AT (AF380930)</otu>
+  <otu id="otu4"> rubripertincta DSM 43197 (X80632)</otu>
+  <otu id="otu5">.amicalis IEGMT (AF101418)</otu>
+  <otu id="otu6"> desulfuricans 213ET (AF101416)</otu>
+  <otu id="otu7"> paraffinivorans HD3217 (AF432348)</otu>
+  <otu id="otu8"> hirsute DSM 441407 (X93485)</otu>
+  <otu id="otu9"> malaquae IMMIB WWCC-227 (AM406674)</otu>
+  <otu id="otu10"> shandongensis SD29T (DQ420167)</otu>
+  <otu id="otu11"> hydrophobica DSM 44015 (X87340)</otu>
+  <otu id="otu12"> sihwensis DSM 44576 (AJ416151)</otu>
+  <otu id="otu13"> cholesterolivorans Chol-37 (EU244645)</otu>
+  <otu id="otu14"> defluvii J4T (AY650265)</otu>
+  <otu id="otu15"> amarae DSM 43392T (X80635)</otu>
+  <otu id="otu16"> effusa IFM 1O2O0T (AB162799)</otu>
+  <otu id="otu17"> araii IFM 10211T (AB162800)</otu>
+  <otu id="otu18"> lacunae B827 (EF151959)</otu>
+  <otu id="otu19"> terrae DSM 43249 (X79286)</otu>
+  <otu id="otu20"> bronchialis DSM 43247 (X79287)</otu>
+  <otu id="otu21"> rhlzosphera NBRC 16O68T (ABO04729)</otu>
+  <otu id="otu22"> otitidis IFM 10032T (AB122026)</otu>
+  <otu id="otu23"> sputi DSM 43896T (X80634)</otu>
+  <otu id="otu24"> aichiensis DSM 43978T (X80633)</otu>
+  <otu id="otu25"> soli CC-AB07T (AY995560)</otu>
+  <otu id="otu26"> polyisoprenivorans DSM 443027 (Y18310)</otu>
+  <otu id="otu27">sinesedis DSM 444557 (AF380834)</otu>
+  <otu id="otu28" cmphy:edit="[2__Z]" cmphy:genus="Yliamsia" cmphy:species="serinedens" cmphy:strain="IMMIB SR-4T" cmphy:id="AMZ83464" editRecord="[2__Z]">Yliamsia serinedens IMMIB SR-4T (AM283464)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.54" label="NT1.54" x="488.0" y="995.0" otu="otu28"/>
+   <node id="NT1.55" label="NT1.55" x="11.0" y="933.0" root="true"/>
+   <edge id="e.52" source="NT1.55" target="NT1.54"/>
+  </tree>
+ </trees>
+</nexml>

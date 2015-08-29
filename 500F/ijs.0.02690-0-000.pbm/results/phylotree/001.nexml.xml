@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Serratia" cmphy:species="marcescens" cmphy:strain="DSM 301217" cmphy:id="AJZ33431" editRecord="[2__Z]">Serratia marcescens DSM 301217 (AJ233431)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Enterobacter" cmphy:species="aerogenes" cmphy:strain="NCTC 100067" cmphy:id="AJZ51468" editRecord="[2__Z]">Enterobacter aerogenes NCTC 100067 (AJ251468)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Klebsfella" cmphy:species="terrigena" cmphy:strain="ATCC 332577" cmphy:id="AFI29442" editRecord="[1__I]"> Klebsfella terrigena ATCC 332577 (AF129442)</otu>
+  <otu id="otu4" cmphy:genus="Enterobacter" cmphy:species="nimipressuralis" cmphy:strain="LMG 10245T" cmphy:id="Z96077" editRecord="[]">Enterobacter nimipressuralis LMG 10245T (Z96077)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Klebsiella" cmphy:species="oxytoca" cmphy:strain="ATCC 131821" cmphy:id="AFI29440" editRecord="[1__I]">Klebsiella oxytoca ATCC 131821 (AF129440)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Enterobacter" cmphy:species="asburiae" cmphy:strain="JCM 6051T" cmphy:id="ABO04744" editRecord="[0__O]">Enterobacter asburiae JCM 6051T (AB004744)</otu>
+  <otu id="otu7">Enterobacter intermedius ATCC 331 1 OT (AF310217)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Kluyvera" cmphy:species="ascarbata" cmphy:strain="CDC 0648-74T" cmphy:id="AFI76560" editRecord="[1__I]">Kluyvera ascarbata CDC 0648-74T (AF176560)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Klebsiella" cmphy:species="ornithinolytica" cmphy:strain="ATCC 318987" cmphy:id="AFI29441" editRecord="[1__I]">Klebsiella ornithinolytica ATCC 318987 (AF129441)</otu>
+  <otu id="otu10">Klebsiella pneumoniae subsp. rhinoscleromatfs ATCC 138847 (AF130983)</otu>
+  <otu id="otu11">Klebsiella pneumoniae subsp. ozaenae ATCC 112967 (AF130982)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Citrabacter" cmphy:species="freundii" cmphy:strain="DSM 3oo39T" cmphy:id="AJZ33408" editRecord="[2__Z]">Citrabacter freundii DSM 3oo39T (AJ233408)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">Klebsiella pneumoniae subsp. pneumoniae ATCC 138837 (AF130981)</otu>
+  <otu id="otu15" cmphy:genus="Enterobacter" cmphy:species="cancerogenus" cmphy:strain="LMG 26937" cmphy:id="Z96078" editRecord="[]">Enterobacter cancerogenus LMG 26937 (Z96078)</otu>
+  <otu id="otu16">Klebsiella trev1saniiATCC 335587 (AF129444)</otu>
+  <otu id="otu17"> Klebsiella planticola ATCC 33531 T (AF 129443)</otu>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Klebsiella" cmphy:species="granulomatis" cmphy:strain="KH22" cmphy:id="AFO10251" editRecord="[0__O]">Klebsiella granulomatis KH22 (AF010251)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Klebsiella" cmphy:species="singaporensis" cmphy:strain="LX3'" cmphy:id="AFZ50285" editRecord="[2__Z]">Klebsiella singaporensis LX3' (AF250285)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="19.0" y="215.0" label="46"/>
+   <node id="NT1.2" x="37.0" y="587.0" label="53"/>
+   <node id="NT1.3" label="NT1.3" x="48.0" y="300.0"/>
+   <node id="NT1.4" label="NT1.4" x="51.0" y="132.0"/>
+   <node id="NT1.5" x="66.0" y="335.0" label="30"/>
+   <node id="NT1.6" label="NT1.6" x="67.0" y="185.0"/>
+   <node id="NT1.7" label="NT1.7" x="68.0" y="14.0" otu="otu1"/>
+   <node id="NT1.8" x="79.0" y="78.0" label="43"/>
+   <node id="NT1.10" label="NT1.10" x="97.0" y="648.0"/>
+   <node id="NT1.11" label="NT1.11" x="112.0" y="267.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="130.0" y="303.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="130.0" y="159.0" otu="otu4"/>
+   <node id="NT1.18" label="NT1.18" x="141.0" y="49.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="159.0" y="668.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="177.0" y="195.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="190.0" y="341.0" otu="otu9"/>
+   <node id="NT1.27" x="194.0" y="503.0" label="75"/>
+   <node id="NT1.28" label="NT1.28" x="198.0" y="86.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="222.0" y="631.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="257.0" y="522.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="258.0" y="485.0" otu="otu19"/>
+   <node id="NT1.36" label="NT1.36" x="4.0" y="402.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.7"/>
+   <edge id="e.1" source="NT1.3" target="NT1.11"/>
+   <edge id="e.2" source="NT1.5" target="NT1.15"/>
+   <edge id="e.3" source="NT1.8" target="NT1.18"/>
+   <edge id="e.5" target="NT1.22" source="NT1.6"/>
+   <edge id="e.6" target="NT1.24" source="NT1.5"/>
+   <edge id="e.7" target="NT1.28" source="NT1.8"/>
+   <edge id="e.11" source="NT1.10" target="NT1.20"/>
+   <edge id="e.12" source="NT1.10" target="NT1.31"/>
+   <edge id="e.13" source="NT1.27" target="NT1.35"/>
+   <edge id="e.14" source="NT1.27" target="NT1.34"/>
+   <edge id="e.15" source="NT1.1" target="NT1.4"/>
+   <edge id="e.16" source="NT1.1" target="NT1.3"/>
+   <edge id="e.17" source="NT1.4" target="NT1.6"/>
+   <edge id="e.18" source="NT1.4" target="NT1.8"/>
+   <edge id="e.23" source="NT1.2" target="NT1.10"/>
+   <edge id="e.26" target="NT1.27" source="NT1.2"/>
+   <edge id="e.27" source="NT1.36" target="NT1.1"/>
+   <edge id="e.28" source="NT1.36" target="NT1.2"/>
+   <edge id="e.29" source="NT1.3" target="NT1.5"/>
+   <edge id="e.30" source="NT1.6" target="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

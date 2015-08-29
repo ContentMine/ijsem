@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Aeromicrobium" cmphy:species="elythreum" cmphy:strain="NRRL B-3381T" cmphy:id="AFO05021" editRecord="[0__O]">Aeromicrobium elythreum NRRL B-3381T (AF005021)</otu>
+  <otu id="otu3" cmphy:edit="[O__0]" cmphy:genus="Kribbella" cmphy:species="flavida" cmphy:strain="NBRC 143997" cmphy:id="AFO05017" editRecord="[O__0]">Kribbella flavida NBRC 143997 (AFOO5017)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Kribbella" cmphy:species="sandramycini" cmphy:strain="KACC 202497" cmphy:id="AYZ53864" editRecord="[2__Z]">Kribbella sandramycini KACC 202497 (AY253864)</otu>
+  <otu id="otu5" cmphy:genus="Kribbella" cmphy:species="koreensis" cmphy:strain="IMSNU 505307" cmphy:id="Y09159" editRecord="[]">Kribbella koreensis IMSNU 505307 (Y09159)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Kribbella" cmphy:species="antibiotica" cmphy:strain="DSM 15501T" cmphy:id="AYO82063" editRecord="[0__O]">Kribbella antibiotica DSM 15501T (AY082063)</otu>
+  <otu id="otu7">Kribbella Iupini sp. nov. LU14T (AJ811962)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Kribbella" cmphy:species="solani" cmphy:strain="KACC 2019GT" cmphy:id="AYZ53862" editRecord="[2__Z]">Kribbella solani KACC 2019GT (AY253862)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Kribbella" cmphy:species="jejuensis" cmphy:strain="KACC 202667" cmphy:id="AYZ53866" editRecord="[2__Z]">Kribbella jejuensis KACC 202667 (AY253866)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Nocardioides" cmphy:species="albus" cmphy:strain="KCTC 9186T" cmphy:id="AFO04988" editRecord="[0__O]">Nocardioides albus KCTC 9186T (AF004988)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="346.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="6.0" y="346.0"/>
+   <node id="NT1.3" label="NT1.3" x="112.0" y="306.0"/>
+   <node id="NT1.4" label="NT1.4" x="416.0" y="384.0" otu="otu2"/>
+   <node id="NT1.5" label="NT1.5" x="456.0" y="226.0"/>
+   <node id="NT1.6" label="NT1.6" x="464.0" y="150.0"/>
+   <node id="NT1.7" label="NT1.7" x="471.0" y="296.0"/>
+   <node id="NT1.8" x="472.0" y="89.0" label="67"/>
+   <node id="NT1.10" label="NT1.10" x="515.0" y="197.0"/>
+   <node id="NT1.11" label="NT1.11" x="531.0" y="120.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="536.0" y="67.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="554.0" y="329.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="558.0" y="280.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="587.0" y="218.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="653.0" y="172.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="653.0" y="430.0" otu="otu10"/>
+   <edge id="e.0" source="NT1.10" target="NT1.16"/>
+   <edge id="e.1" source="NT1.10" target="NT1.17"/>
+   <edge id="e.2" source="NT1.7" target="NT1.13"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.5" source="NT1.6" target="NT1.8"/>
+   <edge id="e.6" source="NT1.5" target="NT1.6"/>
+   <edge id="e.7" source="NT1.6" target="NT1.10"/>
+   <edge id="e.8" source="NT1.3" target="NT1.5"/>
+   <edge id="e.9" source="NT1.5" target="NT1.7"/>
+   <edge id="e.10" source="NT1.2" target="NT1.3"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.2" target="NT1.18"/>
+   <edge id="e.13" source="NT1.8" target="NT1.11"/>
+   <edge id="e.14" source="NT1.7" target="NT1.14"/>
+   <edge id="e.15" target="NT1.12" source="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

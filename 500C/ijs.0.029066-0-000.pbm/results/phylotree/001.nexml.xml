@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Paenibacillus tarimensis SA-7-6T (EF1 251 84)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Paenibacillus" cmphy:species="mendelii" cmphy:strain="CI 2T" cmphy:id="AFS37343" editRecord="[5__S]">Paenibacillus mendelii CI 2T (AF537343)</otu>
+  <otu id="otu4">Paenibacillus phyllosphaerae PALXILO4T (AY59881 8)</otu>
+  <otu id="otu5" cmphy:genus="Paenibacillus" cmphy:species="kobensis" cmphy:strain="DSM 10249T" cmphy:id="ABO73363" editRecord="[]">Paenibacillus kobensis DSM 10249T (ABO73363)</otu>
+  <otu id="otu6">Paenibacillus sepulcri CCM 731 1T (D0291 142)</otu>
+  <otu id="otu7">Paenibacillus daejeonensis AP-20T(AF29O916)</otu>
+  <otu id="otu8">Paenibacillus sacheonensis SY01T(GU1 24597)</otu>
+  <otu id="otu9" cmphy:genus="Paenibacillus" cmphy:species="cellulosilyticus" cmphy:strain="PALXIL 08T" cmphy:id="DQ407282" editRecord="[]">Paenibacillus cellulosilyticus PALXIL 08T (DQ407282)</otu>
+  <otu id="otu10">Paenibacillus humicus PC-1 47T (AM41 1 528)</otu>
+  <otu id="otu11">Paenibacillus curdlanolyticus IFO 1 5 724T (D78466)</otu>
+  <otu id="otu12">Cohnella hongkongensis HKU3T (AF4331 65)</otu>
+  <otu id="otu13">Bacillus subtilis NCDO 1 76T (X60646)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="616.0" otu="otu1" root="true"/>
+   <node id="NT1.9" label="NT1.9" x="628.0" y="125.0"/>
+   <node id="NT1.11" label="NT1.11" x="756.0" y="76.0"/>
+   <node id="NT1.13" label="NT1.13" x="848.0" y="234.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="895.0" y="44.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="943.0" y="106.0" otu="otu9"/>
+   <edge id="e.2" source="NT1.9" target="NT1.11"/>
+   <edge id="e.3" target="NT1.9" source="NT1.1"/>
+   <edge id="e.16" target="NT1.13" source="NT1.9"/>
+   <edge id="e.20" source="NT1.11" target="NT1.19"/>
+   <edge id="e.21" source="NT1.11" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

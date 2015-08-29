@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Thermus arciformis TH91</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Thermus" cmphy:species="arciformis" cmphy:strain="TH92T" cmphy:id="EUZ47889" editRecord="[2__Z]">Thermus arciformis TH92T (EU247889)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Thermus" cmphy:species="thermophilus" cmphy:strain="HBBT" cmphy:id="M26923" editRecord="[]">Thermus thermophilus HBBT (M26923)</otu>
+  <otu id="otu9">Thermus aquaticus YT-1T(LO9663)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Thermus igniterrae RF-4T (Y1 8406)</otu>
+  <otu id="otu12">Thermus brockianus YS38T(Y18409)</otu>
+  <otu id="otu13" cmphy:genus="Thermus" cmphy:species="filiformis" cmphy:strain="TG 80" cmphy:id="L09667" editRecord="[]">Thermus filiformis TG 80 (L09667)</otu>
+  <otu id="otu14">Thermus scotoductus SE-1T(AFO32127)</otu>
+  <otu id="otu15">Thermus antranikianiiHN3-7T(Y1841 1)</otu>
+  <otu id="otu16">Thermus oshimai SPS1 7T(Y18416)</otu>
+  <otu id="otu17" cmphy:genus="Meiothermus" cmphy:species="ruber" cmphy:strain="DSM 12797" cmphy:id="Z15059" editRecord="[]">Meiothermus ruber DSM 12797 (Z15059)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="283.0" y="308.0"/>
+   <node id="NT1.3" label="NT1.3" x="304.0" y="256.0"/>
+   <node id="NT1.16" label="NT1.16" x="445.0" y="275.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="454.0" y="317.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="541.0" y="360.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="634.0" y="446.0" otu="otu17"/>
+   <node id="NT1.31" label="NT1.31" x="2.0" y="401.0" root="true"/>
+   <edge id="e.8" target="NT1.16" source="NT1.3"/>
+   <edge id="e.20" source="NT1.2" target="NT1.3"/>
+   <edge id="e.21" target="NT1.2" source="NT1.31"/>
+   <edge id="e.23" source="NT1.31" target="NT1.30"/>
+   <edge id="e.24" source="NT1.3" target="NT1.19"/>
+   <edge id="e.25" source="NT1.2" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

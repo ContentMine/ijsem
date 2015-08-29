@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Aquimonas" cmphy:species="voraii" cmphy:strain="GPTSA 2OT" cmphy:id="AYS44768" editRecord="[5__S]">Aquimonas voraii GPTSA 2OT (AY544768)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Strain KIS28-67 (EU685334)</otu>
+  <otu id="otu8" cmphy:genus="Dokdonella" cmphy:species="fugitive" cmphy:strain="A37" cmphy:id="AJ969432" editRecord="[]">Dokdonella fugitive A37 (AJ969432)</otu>
+  <otu id="otu9">Fulvimonas soli LMG 19981 T (A131 1653)</otu>
+  <otu id="otu10" cmphy:genus="Dokdonella" cmphy:species="koreensis" cmphy:strain="DS-1 23T" cmphy:id="AY987368" editRecord="[]">Dokdonella koreensis DS-1 23T (AY987368)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Dyella" cmphy:species="yeojuensis" cmphy:strain="RQA16-107" cmphy:id="DQI81549" editRecord="[1__I]">Dyella yeojuensis RQA16-107 (DQ181549)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Frateuria" cmphy:species="aurantia" cmphy:strain="DSM 622OT" cmphy:id="AJO10481" editRecord="[0__O]">Frateuria aurantia DSM 622OT (AJ010481)</otu>
+  <otu id="otu15">Rhodanobacter Iindaniclasticus RP5557T (AFO39167)</otu>
+  <otu id="otu16">Xanthomonas campestris LMG 5687 (X9591 7)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="43.0" y="277.0"/>
+   <node id="NT1.2" label="NT1.2" x="85.0" y="345.0"/>
+   <node id="NT1.5" label="NT1.5" x="302.0" y="387.0"/>
+   <node id="NT1.13" label="NT1.13" x="349.0" y="114.0"/>
+   <node id="NT1.14" label="NT1.14" x="354.0" y="303.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="421.0" y="399.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="471.0" y="351.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="532.0" y="157.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="595.0" y="60.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="1.0" y="387.0" root="true"/>
+   <edge id="e.5" source="NT1.13" target="NT1.24"/>
+   <edge id="e.8" source="NT1.2" target="NT1.14"/>
+   <edge id="e.11" target="NT1.19" source="NT1.5"/>
+   <edge id="e.12" source="NT1.5" target="NT1.21"/>
+   <edge id="e.15" target="NT1.13" source="NT1.1"/>
+   <edge id="e.19" source="NT1.1" target="NT1.2"/>
+   <edge id="e.20" source="NT1.2" target="NT1.5"/>
+   <edge id="e.23" source="NT1.28" target="NT1.1"/>
+   <edge id="e.26" target="NT1.25" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

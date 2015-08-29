@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Methanococcus" cmphy:species="vannielii" cmphy:strain="DSM 1224T" cmphy:id="AYI96675" editRecord="[1__I]">Methanococcus vannielii DSM 1224T (AY196675)</otu>
+  <otu id="otu3" cmphy:genus="Staphylothermus" cmphy:species="hellenicus" cmphy:strain="P87" cmphy:id="AJO12645" editRecord="[]">Staphylothermus hellenicus P87 (AJO12645)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Stetteria" cmphy:species="hydrogenophila" cmphy:strain="4ABCT" cmphy:id="Y07963" editRecord="[]"> Stetteria hydrogenophila 4ABCT (Y07963)</otu>
+  <otu id="otu6" cmphy:genus="Desulfurococcus" cmphy:species="mobilis" cmphy:strain="DSM 21617" cmphy:id="M36474" editRecord="[]"> Desulfurococcus mobilis DSM 21617 (M36474)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Thermosphaera" cmphy:species="aggregans" cmphy:strain="M11TLT" cmphy:id="X99556" editRecord="[]"> Thermosphaera aggregans M11TLT (X99556)</otu>
+  <otu id="otu9"> Desulfurococcus saccharovorans' V24K (X99558)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Desulfurococcus" cmphy:species="amylolyticus" cmphy:strain="DSM 38227" cmphy:id="AFZ50331" editRecord="[2__Z]"> Desulfurococcus amylolyticus DSM 38227 (AF250331)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Aeropyrum" cmphy:species="camini" cmphy:strain="SY1T" cmphy:id="ABI09559" editRecord="[1__I]">Aeropyrum camini SY1T (AB109559)</otu>
+  <otu id="otu12" cmphy:genus="Sulfophobococcus" cmphy:species="zilligii" cmphy:strain="K17" cmphy:id="X98064" editRecord="[]">Sulfophobococcus zilligii K17 (X98064)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"> lgnicoccus islandicus KoI8T (X99562)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Desulfurococcus" cmphy:species="fermentans" cmphy:strain="Z-1312T" cmphy:id="AYZ64344" editRecord="[2__Z]"> Desulfurococcus fermentans Z-1312T (AY264344)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Acidilobus" cmphy:species="aceticus" cmphy:strain="DSM 11585T" cmphy:id="AFI91225" editRecord="[1__I]">Acidilobus aceticus DSM 11585T (AF191225)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="638.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="8.0" y="637.0"/>
+   <node id="NT1.3" x="305.0" y="382.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="306.0" y="637.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="337.0" y="200.0"/>
+   <node id="NT1.7" label="NT1.7" x="339.0" y="467.0"/>
+   <node id="NT1.8" label="NT1.8" x="347.0" y="172.0"/>
+   <node id="NT1.9" label="NT1.9" x="351.0" y="99.0"/>
+   <node id="NT1.10" label="NT1.10" x="369.0" y="73.0"/>
+   <node id="NT1.13" label="NT1.13" x="380.0" y="32.0"/>
+   <node id="NT1.14" label="NT1.14" x="381.0" y="303.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="381.0" y="506.0"/>
+   <node id="NT1.18" label="NT1.18" x="397.0" y="470.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="400.0" y="94.0" otu="otu6"/>
+   <node id="NT1.23" label="NT1.23" x="417.0" y="178.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="441.0" y="53.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="441.0" y="555.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="445.0" y="220.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="455.0" y="11.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="494.0" y="428.0" otu="otu18"/>
+   <edge id="e.0" source="NT1.13" target="NT1.31"/>
+   <edge id="e.1" source="NT1.13" target="NT1.26"/>
+   <edge id="e.2" target="NT1.19" source="NT1.10"/>
+   <edge id="e.4" source="NT1.9" target="NT1.23"/>
+   <edge id="e.5" target="NT1.14" source="NT1.6"/>
+   <edge id="e.10" source="NT1.7" target="NT1.34"/>
+   <edge id="e.12" target="NT1.27" source="NT1.15"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.15" source="NT1.2" target="NT1.4"/>
+   <edge id="e.16" source="NT1.10" target="NT1.13"/>
+   <edge id="e.17" source="NT1.9" target="NT1.10"/>
+   <edge id="e.19" source="NT1.8" target="NT1.9"/>
+   <edge id="e.20" source="NT1.6" target="NT1.8"/>
+   <edge id="e.21" target="NT1.6" source="NT1.3"/>
+   <edge id="e.25" source="NT1.2" target="NT1.3"/>
+   <edge id="e.26" source="NT1.3" target="NT1.7"/>
+   <edge id="e.30" source="NT1.7" target="NT1.15"/>
+   <edge id="e.31" source="NT1.8" target="NT1.28"/>
+   <edge id="e.32" source="NT1.15" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

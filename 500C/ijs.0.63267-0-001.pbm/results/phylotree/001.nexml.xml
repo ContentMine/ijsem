@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Paucimonas" cmphy:species="lemoignei" cmphy:strain="LMG 22O7T" cmphy:id="X92555" editRecord="[]">Paucimonas lemoignei LMG 22O7T (X92555)</otu>
+  <otu id="otu3" cmphy:genus="Masillia" cmphy:species="timonae" cmphy:strain="TimoneT" cmphy:id="U54470" editRecord="[]">Masillia timonae TimoneT (U54470)</otu>
+  <otu id="otu4" cmphy:genus="Zoogloea" cmphy:species="ramigera" cmphy:strain="ATCC 19324T" cmphy:id="D14257" editRecord="[]">Zoogloea ramigera ATCC 19324T (D14257)</otu>
+  <otu id="otu5">60</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[O__0]" cmphy:genus="Alcaligenes" cmphy:species="defragrans" cmphy:strain="LMG 18538T" cmphy:id="AJO05447" editRecord="[O__0]">Alcaligenes defragrans LMG 18538T (AJOO5447)</otu>
+  <otu id="otu8" cmphy:genus="Alcaligenes" cmphy:species="faecalis" cmphy:strain="LMG 1229T" cmphy:id="D88008" editRecord="[]">Alcaligenes faecalis LMG 1229T (D88008)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Advenella" cmphy:species="incenata" cmphy:strain="R-1 6599" cmphy:id="AYS69458" editRecord="[5__S]">Advenella incenata R-1 6599 (AY569458)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">Advenella sp. R-20007 (AY569460)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Advenella" cmphy:species="incenata" cmphy:strain="LMG 2225OT" cmphy:id="AYS69457" editRecord="[5__S]">Advenella incenata LMG 2225OT (AY569457)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Kerstersia" cmphy:species="gyiorum" cmphy:strain="LMG 59O6T" cmphy:id="AYI31213" editRecord="[1__I]">Kerstersia gyiorum LMG 59O6T (AY131213)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Achromobacter" cmphy:species="piechaudii" cmphy:strain="ATCC 43552T" cmphy:id="ABO10841" editRecord="[0__O]"> Achromobacter piechaudii ATCC 43552T (AB010841)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18">Achromobacter Xylosoxidans LMG 1863T (D88005)</otu>
+  <otu id="otu19">Bordetella pertussis LMG 14455T</otu>
+  <otu id="otu20"/>
+  <otu id="otu21">Pelistega europaea LMG 1O982T (Y1 1890)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24">Achromobacter denitrificans LMG 1 231T (M22509)</otu>
+  <otu id="otu25" cmphy:genus="Achromobacter" cmphy:species="ruhlandii" cmphy:strain="LMG 1866T" cmphy:id="ABO10840" editRecord="[]">Achromobacter ruhlandii LMG 1866T (ABO10840)</otu>
+  <otu id="otu26" cmphy:edit="[2__Z]" cmphy:genus="Brackiella" cmphy:species="oedipodis" cmphy:strain="LMG 19451T" cmphy:id="AJZ77742" editRecord="[2__Z]">Brackiella oedipodis LMG 19451T (AJ277742)</otu>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29"/>
+  <otu id="otu30"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="36.0" y="947.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="106.0" y="755.0"/>
+   <node id="NT1.3" label="NT1.3" x="232.0" y="896.0"/>
+   <node id="NT1.4" x="246.0" y="613.0" label="49"/>
+   <node id="NT1.5" x="299.0" y="379.0" label="100"/>
+   <node id="NT1.6" x="318.0" y="488.0" label="42"/>
+   <node id="NT1.7" label="NT1.7" x="331.0" y="432.0"/>
+   <node id="NT1.8" label="NT1.8" x="346.0" y="272.0"/>
+   <node id="NT1.12" label="NT1.12" x="388.0" y="911.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="388.0" y="878.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="403.0" y="846.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="415.0" y="606.0"/>
+   <node id="NT1.22" label="NT1.22" x="438.0" y="414.0" otu="otu7"/>
+   <node id="NT1.24" label="NT1.24" x="443.0" y="450.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="459.0" y="50.0" otu="otu9"/>
+   <node id="NT1.27" x="459.0" y="68.0" label="4L"/>
+   <node id="NT1.32" label="NT1.32" x="465.0" y="619.0"/>
+   <node id="NT1.34" label="NT1.34" x="472.0" y="82.0" otu="otu13"/>
+   <node id="NT1.37" label="NT1.37" x="482.0" y="515.0" otu="otu14"/>
+   <node id="NT1.38" label="NT1.38" x="483.0" y="580.0" otu="otu15"/>
+   <node id="NT1.51" label="NT1.51" x="504.0" y="648.0" otu="otu25"/>
+   <node id="NT1.52" label="NT1.52" x="506.0" y="382.0" otu="otu26"/>
+   <edge id="e.0" source="NT1.27" target="NT1.25"/>
+   <edge id="e.1" source="NT1.27" target="NT1.34"/>
+   <edge id="e.8" target="NT1.52" source="NT1.8"/>
+   <edge id="e.10" source="NT1.7" target="NT1.22"/>
+   <edge id="e.11" source="NT1.7" target="NT1.24"/>
+   <edge id="e.14" target="NT1.37" source="NT1.15"/>
+   <edge id="e.16" source="NT1.32" target="NT1.38"/>
+   <edge id="e.23" target="NT1.51" source="NT1.32"/>
+   <edge id="e.24" source="NT1.4" target="NT1.14"/>
+   <edge id="e.25" source="NT1.1" target="NT1.2"/>
+   <edge id="e.26" source="NT1.3" target="NT1.12"/>
+   <edge id="e.27" source="NT1.3" target="NT1.13"/>
+   <edge id="e.28" target="NT1.27" source="NT1.8"/>
+   <edge id="e.34" source="NT1.5" target="NT1.8"/>
+   <edge id="e.38" source="NT1.4" target="NT1.5"/>
+   <edge id="e.39" source="NT1.5" target="NT1.6"/>
+   <edge id="e.41" target="NT1.15" source="NT1.6"/>
+   <edge id="e.42" source="NT1.2" target="NT1.4"/>
+   <edge id="e.45" target="NT1.32" source="NT1.15"/>
+   <edge id="e.51" source="NT1.2" target="NT1.3"/>
+   <edge id="e.52" source="NT1.6" target="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

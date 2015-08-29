@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> C. macginleyi</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"> C. sundsvallense CCUG 366227 (Y09655)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">C. renale CIP 1034217 (X81909)</otu>
+  <otu id="otu8">C. coyleae DSM 441847 (X96497)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"> C. glucuronolyticum CCUG 350557 (X86688)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">C. felinum CCUG 399437 (AJ401282)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"> C. segmentosum NCTC 9347 (X84437)</otu>
+  <otu id="otu16">C. pyruviciproducens O6-1773OT(FJ185225)</otu>
+  <otu id="otu17">C. spheniscorum CCUG 455127(AJ429234)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20">C. pilosum ATCC 295927 (X81908)</otu>
+  <otu id="otu21" cmphy:genus="c." cmphy:species="bovis" cmphy:strain="NCTC 3224T" cmphy:id="X84444"> c. bovis NCTC 3224T (X84444)</otu>
+  <otu id="otu22">C. flavescens CIP 69.57 (X82060)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24">C. cystitidis NCTC 1 18637 (X84252)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.43" label="NT1.43" x="597.0" y="848.0" otu="otu21"/>
+   <node id="NT1.47" label="NT1.47" x="1.0" y="542.0" root="true"/>
+   <edge id="e.21" target="NT1.43" source="NT1.47"/>
+  </tree>
+ </trees>
+</nexml>

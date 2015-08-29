@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Meiothermus ruber DSM 1279T(Z15059)</otu>
+  <otu id="otu2" cmphy:genus="Meiothermus" cmphy:species="cerbereus" cmphy:strain="GY-1 T" cmphy:id="Y13594" editRecord="[]">Meiothermus cerbereus GY-1 T (Y13594)</otu>
+  <otu id="otu3"> Oceanithermus profundus DSM 1 4977T (AJ430586)</otu>
+  <otu id="otu4">Meiothermus taiwanensis NBRC 105868T (B gene) (AB586709)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">Meiothermus silvanus DSM 9946T (X8421 1)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">Meiothermus taiwanensis NBRC 1O5868T (A gene) (AB586708)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Meiothermus" cmphy:species="cateniformans" cmphy:strain="LY1 T" cmphy:id="EUZ47891" editRecord="[2__Z]">Meiothermus cateniformans LY1 T (EU247891)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">Meiothermus granaricius AF-68T (GU58409 7)</otu>
+  <otu id="otu15" cmphy:edit="[5__S]" cmphy:genus="Vulcanithermus" cmphy:species="mediatlanticus" cmphy:strain="TRT" cmphy:id="AJS07298" editRecord="[5__S]">Vulcanithermus mediatlanticus TRT (AJ507298)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.10" label="NT1.10" x="314.0" y="131.0"/>
+   <node id="NT1.14" label="NT1.14" x="360.0" y="166.0" otu="otu2"/>
+   <node id="NT1.24" label="NT1.24" x="400.0" y="15.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="459.0" y="546.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="39.0" y="404.0" root="true"/>
+   <edge id="e.0" target="NT1.24" source="NT1.10"/>
+   <edge id="e.4" source="NT1.10" target="NT1.14"/>
+   <edge id="e.14" target="NT1.28" source="NT1.29"/>
+   <edge id="e.18" target="NT1.10" source="NT1.29"/>
+  </tree>
+ </trees>
+</nexml>

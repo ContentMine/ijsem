@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Phyllobacterium" cmphy:species="myrsinacearum" cmphy:strain="ATCC 4359oT" cmphy:id="AJZ94365" editRecord="[2__Z]">Phyllobacterium myrsinacearum ATCC 4359oT (AJ294365)</otu>
+  <otu id="otu5" cmphy:genus="Rhodobium" cmphy:species="orientfs" cmphy:strain="ATCC 51972T" cmphy:id="D30792" editRecord="[]">Rhodobium orientfs ATCC 51972T (D30792)</otu>
+  <otu id="otu6" cmphy:genus="Roseibium" cmphy:species="denhamense" cmphy:strain="JCM 10543T" cmphy:id="D85832" editRecord="[]"> Roseibium denhamense JCM 10543T (D85832)</otu>
+  <otu id="otu7">Dermvibacter Iusatiensis DSM 110997 (AJ132378)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Albidovulum" cmphy:species="inexpectatum" cmphy:strain="DSM 12O48T" cmphy:id="AF465833" editRecord="[]">Albidovulum inexpectatum DSM 12O48T (AF465833)</otu>
+  <otu id="otu10" cmphy:genus="Vibrio" cmphy:species="furnissii" cmphy:strain="ATCC 3501GT" cmphy:id="X76336" editRecord="[]">Vibrio furnissii ATCC 3501GT (X76336)</otu>
+  <otu id="otu11">Erythrobacter Iongus ATCC 33941 T (X03905)</otu>
+  <otu id="otu12" cmphy:genus="Stappia" cmphy:species="stellulata" cmphy:strain="IAM 126217" cmphy:id="D88525" editRecord="[]">Stappia stellulata IAM 126217 (D88525)</otu>
+  <otu id="otu13" cmphy:genus="Roseobacter" cmphy:species="litoralis" cmphy:strain="DSM 6996T" cmphy:id="X78312" editRecord="[]">Roseobacter litoralis DSM 6996T (X78312)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="134.0" y="464.0"/>
+   <node id="NT1.3" label="NT1.3" x="147.0" y="291.0"/>
+   <node id="NT1.4" label="NT1.4" x="173.0" y="401.0"/>
+   <node id="NT1.5" label="NT1.5" x="176.0" y="635.0"/>
+   <node id="NT1.7" label="NT1.7" x="192.0" y="79.0"/>
+   <node id="NT1.15" label="NT1.15" x="257.0" y="409.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="261.0" y="344.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="268.0" y="216.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="279.0" y="668.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="286.0" y="797.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="293.0" y="22.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="328.0" y="603.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="6.0" y="697.0" root="true"/>
+   <edge id="e.0" source="NT1.7" target="NT1.23"/>
+   <edge id="e.1" target="NT1.17" source="NT1.7"/>
+   <edge id="e.3" source="NT1.4" target="NT1.16"/>
+   <edge id="e.4" target="NT1.15" source="NT1.4"/>
+   <edge id="e.6" source="NT1.5" target="NT1.24"/>
+   <edge id="e.8" target="NT1.7" source="NT1.3"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" target="NT1.2" source="NT1.25"/>
+   <edge id="e.16" source="NT1.2" target="NT1.5"/>
+   <edge id="e.18" source="NT1.25" target="NT1.21"/>
+   <edge id="e.20" source="NT1.5" target="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>

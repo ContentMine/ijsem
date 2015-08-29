@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">lsobaculum melis CCUG 37660T (AJ302648)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">T. coIIinsIi 37AN3T (AJ306612)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">T. pasteurii KoTa2T (X87150)</otu>
+  <otu id="otu6">C. funditum DSM 597OT(S86170)</otu>
+  <otu id="otu7"> C. viridans MPL-11T (AF425608)</otu>
+  <otu id="otu8">T. palustris DSM 91727 (AJ296179)</otu>
+  <otu id="otu9" cmphy:genus="c." cmphy:species="alterfunditum" cmphy:strain="ACAM 313T" cmphy:id="L08623">c. alterfunditum ACAM 313T (L08623)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">C. maltaromaticum JCM 11547 (X54420)</otu>
+  <otu id="otu12">C. gallinarum NCFB 2766T (X54269)</otu>
+  <otu id="otu13">T. flocculiformis DSM 2O94T (Y17301)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.20" label="NT1.20" x="584.0" y="55.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="3.0" y="312.0" root="true"/>
+   <edge id="e.1" target="NT1.20" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

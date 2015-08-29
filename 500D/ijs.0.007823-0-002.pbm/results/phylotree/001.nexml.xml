@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Parabacteroides goldsteiniiJCM 134467 (EU136697)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Tannerella" cmphy:species="forsythia" cmphy:strain="ATCC 430377" cmphy:id="ABO35460" editRecord="[0__O]">Tannerella forsythia ATCC 430377 (AB035460)</otu>
+  <otu id="otu3"> Parabacteroides johnsonii DSM 183157 (AB261 1 28)</otu>
+  <otu id="otu4" cmphy:genus="Dysgonomonas" cmphy:species="gadei" cmphy:strain="CCUG 428827" cmphy:id="Y18530" editRecord="[]"> Dysgonomonas gadei CCUG 428827 (Y18530)</otu>
+  <otu id="otu5" cmphy:genus="Parabacteroides" cmphy:species="merdae" cmphy:strain="ATCC 431847" cmphy:id="X83954" editRecord="[]"> Parabacteroides merdae ATCC 431847 (X83954)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Bacteroides" cmphy:species="acidifaciens" cmphy:strain="JCM 105567" cmphy:id="EUI36694" editRecord="[1__I]"> Bacteroides acidifaciens JCM 105567 (EU136694)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Dysgonomonas" cmphy:species="mossii" cmphy:strain="CCUG 434577" cmphy:id="AJB19867" editRecord="[3__B]"> Dysgonomonas mossii CCUG 434577 (AJ319867)</otu>
+  <otu id="otu8" cmphy:genus="Dysgonomonas" cmphy:species="capnocytophagoides" cmphy:strain="CCUG 179967" cmphy:id="U41355" editRecord="[]">Dysgonomonas capnocytophagoides CCUG 179967 (U41355)</otu>
+  <otu id="otu9">Bacteroides salyersiae JCM 1 29887 (EU136690)</otu>
+  <otu id="otu10" cmphy:genus="Anaerophaga" cmphy:species="thermohalophila" cmphy:strain="Fru227" cmphy:id="AJ418048" editRecord="[]">Anaerophaga thermohalophila Fru227 (AJ418048)</otu>
+  <otu id="otu11" cmphy:edit="[O__0, O__0]" cmphy:genus="Bacteroides" cmphy:species="vulgatus" cmphy:strain="ATCC 84827" cmphy:id="CPO00139" editRecord="[O__0, O__0]"> Bacteroides vulgatus ATCC 84827 (CPOOO139)</otu>
+  <otu id="otu12" cmphy:edit="[O__0]" cmphy:genus="Parabacteroides" cmphy:species="distasonis" cmphy:strain="ATCC 85037" cmphy:id="NC_009615" editRecord="[O__0]">Parabacteroides distasonis ATCC 85037 (NC_O09615)</otu>
+  <otu id="otu13"> Bacteroides doreiJCM 134717 (AB242142)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Porphyromonas" cmphy:species="cangingivalis" cmphy:strain="VPB 48747" cmphy:id="X76259" editRecord="[]">Porphyromonas cangingivalis VPB 48747 (X76259)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Porphyromonas" cmphy:species="gulae" cmphy:strain="Loup-17" cmphy:id="AFZ08290" editRecord="[2__Z]"> Porphyromonas gulae Loup-17 (AF208290)</otu>
+  <otu id="otu17">Porphyromonas asaccharolytica ATCC 252607 (L1 6490)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">Prevotella ruminicola ATCC 191897 (L1 6482)</otu>
+  <otu id="otu20">Uncultured Prevotellaceae clone (AM419955)</otu>
+  <otu id="otu21" cmphy:genus="Phocaeicola" cmphy:species="abscessus" cmphy:strain="74019877" cmphy:id="EU694176" editRecord="[]">Phocaeicola abscessus 74019877 (EU694176)</otu>
+  <otu id="otu22">Prevotella pleuritidis JCM 141 107 (AB278593)</otu>
+  <otu id="otu23" cmphy:genus="Bacillus" cmphy:species="cereus" cmphy:strain="ATCC 10987" cmphy:id="NC_003909" editRecord="[]">Bacillus cereus ATCC 10987 (NC_003909)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="118.0" y="685.0"/>
+   <node id="NT1.2" x="163.0" y="447.0" label="90"/>
+   <node id="NT1.3" x="199.0" y="636.0" label="98"/>
+   <node id="NT1.4" label="NT1.4" x="206.0" y="721.0"/>
+   <node id="NT1.5" x="239.0" y="771.0" label="99"/>
+   <node id="NT1.6" x="242.0" y="257.0" label="99"/>
+   <node id="NT1.9" x="271.0" y="518.0" label="82"/>
+   <node id="NT1.10" x="280.0" y="670.0" label="100"/>
+   <node id="NT1.11" x="282.0" y="375.0" label="69"/>
+   <node id="NT1.13" x="316.0" y="840.0" label="96"/>
+   <node id="NT1.14" x="318.0" y="641.0" label="99"/>
+   <node id="NT1.18" label="NT1.18" x="382.0" y="735.0" otu="otu2"/>
+   <node id="NT1.20" label="NT1.20" x="394.0" y="622.0" otu="otu4"/>
+   <node id="NT1.21" label="NT1.21" x="394.0" y="887.0" otu="otu5"/>
+   <node id="NT1.23" label="NT1.23" x="402.0" y="394.0" otu="otu6"/>
+   <node id="NT1.24" label="NT1.24" x="405.0" y="660.0" otu="otu7"/>
+   <node id="NT1.27" label="NT1.27" x="414.0" y="698.0" otu="otu8"/>
+   <node id="NT1.30" label="NT1.30" x="425.0" y="926.0" otu="otu10"/>
+   <node id="NT1.31" label="NT1.31" x="439.0" y="318.0" otu="otu11"/>
+   <node id="NT1.32" label="NT1.32" x="451.0" y="811.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="454.0" y="546.0" otu="otu15"/>
+   <node id="NT1.36" label="NT1.36" x="454.0" y="508.0" otu="otu16"/>
+   <node id="NT1.42" label="NT1.42" x="617.0" y="129.0" otu="otu21"/>
+   <node id="NT1.44" label="NT1.44" x="635.0" y="964.0" otu="otu23"/>
+   <node id="NT1.45" label="NT1.45" x="1.0" y="824.0" root="true"/>
+   <edge id="e.1" target="NT1.23" source="NT1.11"/>
+   <edge id="e.6" target="NT1.31" source="NT1.11"/>
+   <edge id="e.8" source="NT1.5" target="NT1.18"/>
+   <edge id="e.9" source="NT1.14" target="NT1.20"/>
+   <edge id="e.11" source="NT1.10" target="NT1.27"/>
+   <edge id="e.12" source="NT1.14" target="NT1.24"/>
+   <edge id="e.13" source="NT1.9" target="NT1.35"/>
+   <edge id="e.15" target="NT1.36" source="NT1.9"/>
+   <edge id="e.17" target="NT1.21" source="NT1.13"/>
+   <edge id="e.19" source="NT1.13" target="NT1.32"/>
+   <edge id="e.20" source="NT1.1" target="NT1.30"/>
+   <edge id="e.24" source="NT1.2" target="NT1.6"/>
+   <edge id="e.25" source="NT1.6" target="NT1.11"/>
+   <edge id="e.29" source="NT1.1" target="NT1.2"/>
+   <edge id="e.30" source="NT1.2" target="NT1.3"/>
+   <edge id="e.31" source="NT1.3" target="NT1.4"/>
+   <edge id="e.33" source="NT1.4" target="NT1.5"/>
+   <edge id="e.34" source="NT1.4" target="NT1.10"/>
+   <edge id="e.35" target="NT1.9" source="NT1.3"/>
+   <edge id="e.38" source="NT1.10" target="NT1.14"/>
+   <edge id="e.39" target="NT1.13" source="NT1.5"/>
+   <edge id="e.41" source="NT1.45" target="NT1.44"/>
+   <edge id="e.42" source="NT1.45" target="NT1.1"/>
+   <edge id="e.43" target="NT1.42" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

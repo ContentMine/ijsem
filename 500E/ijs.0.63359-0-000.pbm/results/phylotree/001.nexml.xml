@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">h.39.3D3D.3b3b39.3'9.3b3b39.393b.39.3b.3b.3b</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Actinocorallia" cmphy:species="herbida" cmphy:strain="IFO 15485T" cmphy:id="D85473" editRecord="[]">Actinocorallia herbida IFO 15485T (D85473)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.32" label="NT1.32" x="547.0" y="753.0" otu="otu18"/>
+   <node id="NT1.33" label="NT1.33" x="5.0" y="696.0" root="true"/>
+   <edge id="e.29" source="NT1.33" target="NT1.32"/>
+  </tree>
+ </trees>
+</nexml>

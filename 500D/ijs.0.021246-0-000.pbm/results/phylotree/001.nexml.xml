@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Caenispirillum" cmphy:species="bisanense" cmphy:strain="K92T" cmphy:id="EFI00694" editRecord="[1__I]">Caenispirillum bisanense K92T (EF100694)</otu>
+  <otu id="otu3">Novispirillum itersonii LMG 4337T (EF61 2765)</otu>
+  <otu id="otu4">Marispirillum indicum B1427 (EU64241 0)</otu>
+  <otu id="otu5">lnsolitispirillum peregrinum LMG 434OT (EF61 2767)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Phaeospirillum" cmphy:species="fulvum" cmphy:strain="ATCC 157987" cmphy:id="M59065" editRecord="[]">Phaeospirillum fulvum ATCC 157987 (M59065)</otu>
+  <otu id="otu8" cmphy:genus="Tistrella" cmphy:species="mobilis" cmphy:strain="JCM 2187OT" cmphy:id="ABO71665" editRecord="[]">Tistrella mobilis JCM 2187OT (ABO71665)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Phaeovibrio" cmphy:species="sulfidiphilus" cmphy:strain="JA480T" cmphy:id="FNB91894" editRecord="[3__B]">Phaeovibrio sulfidiphilus JA480T (FN391894)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Telmatospirilum" cmphy:species="siberiense" cmphy:strain="26-4b1T" cmphy:id="AFS24863" editRecord="[5__S]">Telmatospirilum siberiense 26-4b1T (AF524863)</otu>
+  <otu id="otu13" cmphy:genus="Rhodospira" cmphy:species="trueperi" cmphy:strain="831 67" cmphy:id="X99671" editRecord="[]">Rhodospira trueperi 831 67 (X99671)</otu>
+  <otu id="otu14">Azospirillum Iipoferum ATCC 297077 (M59061)</otu>
+  <otu id="otu15">Oceanibaculum indicum P24T (EU6561 13)</otu>
+  <otu id="otu16">lnquilinus limosus AU476T (AYO43374)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:genus="Rhodoclsta" cmphy:species="centenaria" cmphy:strain="IAM 14193T" cmphy:id="D12701" editRecord="[]">Rhodoclsta centenaria IAM 14193T (D12701)</otu>
+  <otu id="otu21">Defluvicocous vanus Ben 1 14T(AF179678)</otu>
+  <otu id="otu22">Pelagibius Iitoralis CL-UU02T (DQ401091)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:genus="Rhodovibrio" cmphy:species="salinarum" cmphy:strain="ATCC 35394T" cmphy:id="M59069" editRecord="[]">Rhodovibrio salinarum ATCC 35394T (M59069)</otu>
+  <otu id="otu25" cmphy:edit="[3__B]" cmphy:genus="Thalassospira" cmphy:species="lucentensis" cmphy:strain="OMT2T" cmphy:id="AFB58664" editRecord="[3__B]">Thalassospira lucentensis OMT2T (AF358664)</otu>
+  <otu id="otu26" cmphy:edit="[8__B]" cmphy:genus="Desertibacter" cmphy:species="roseus" cmphy:strain="2622T" cmphy:id="EUB33987" editRecord="[8__B]">Desertibacter roseus 2622T (EU833987)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="725.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="108.0" y="551.0"/>
+   <node id="NT1.3" label="NT1.3" x="139.0" y="685.0"/>
+   <node id="NT1.4" x="144.0" y="416.0" label="Q"/>
+   <node id="NT1.5" label="NT1.5" x="153.0" y="754.0"/>
+   <node id="NT1.6" x="168.0" y="505.0" label="55"/>
+   <node id="NT1.10" x="203.0" y="215.0" label="66"/>
+   <node id="NT1.11" x="204.0" y="698.0" label="96"/>
+   <node id="NT1.15" label="NT1.15" x="248.0" y="536.0"/>
+   <node id="NT1.20" x="285.0" y="358.0" label="87"/>
+   <node id="NT1.26" label="NT1.26" x="378.0" y="616.0" otu="otu2"/>
+   <node id="NT1.31" label="NT1.31" x="444.0" y="582.0" otu="otu7"/>
+   <node id="NT1.32" label="NT1.32" x="448.0" y="474.0" otu="otu8"/>
+   <node id="NT1.34" label="NT1.34" x="460.0" y="688.0" otu="otu10"/>
+   <node id="NT1.36" label="NT1.36" x="478.0" y="510.0" otu="otu12"/>
+   <node id="NT1.37" label="NT1.37" x="478.0" y="724.0" otu="otu13"/>
+   <node id="NT1.44" label="NT1.44" x="516.0" y="332.0" otu="otu20"/>
+   <node id="NT1.48" label="NT1.48" x="583.0" y="83.0" otu="otu24"/>
+   <node id="NT1.49" label="NT1.49" x="634.0" y="759.0" otu="otu25"/>
+   <node id="NT1.50" label="NT1.50" x="644.0" y="403.0" otu="otu26"/>
+   <edge id="e.2" target="NT1.48" source="NT1.10"/>
+   <edge id="e.7" source="NT1.20" target="NT1.44"/>
+   <edge id="e.9" target="NT1.50" source="NT1.20"/>
+   <edge id="e.11" source="NT1.6" target="NT1.32"/>
+   <edge id="e.12" target="NT1.31" source="NT1.15"/>
+   <edge id="e.14" source="NT1.15" target="NT1.36"/>
+   <edge id="e.15" source="NT1.3" target="NT1.26"/>
+   <edge id="e.18" source="NT1.11" target="NT1.37"/>
+   <edge id="e.24" target="NT1.10" source="NT1.4"/>
+   <edge id="e.29" target="NT1.20" source="NT1.10"/>
+   <edge id="e.31" source="NT1.2" target="NT1.4"/>
+   <edge id="e.32" source="NT1.4" target="NT1.6"/>
+   <edge id="e.33" source="NT1.6" target="NT1.15"/>
+   <edge id="e.34" source="NT1.2" target="NT1.3"/>
+   <edge id="e.36" source="NT1.3" target="NT1.5"/>
+   <edge id="e.38" source="NT1.5" target="NT1.11"/>
+   <edge id="e.42" source="NT1.1" target="NT1.2"/>
+   <edge id="e.45" target="NT1.34" source="NT1.11"/>
+   <edge id="e.47" target="NT1.49" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

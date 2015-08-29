@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Alkaliphilus" cmphy:species="transvaalensis" cmphy:strain="JCM 10712)" cmphy:id="ABO37677" editRecord="[0__O]">Alkaliphilus transvaalensis JCM 10712) (AB037677)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Caminicella" cmphy:species="sporogenes" cmphy:strain="DSM 14501T" cmphy:id="AJB20233" editRecord="[3__B]">Caminicella sporogenes DSM 14501T (AJ320233)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Caloranaerobacter" cmphy:species="azorensis" cmphy:strain="DSM 13643T" cmphy:id="AJZ72422" editRecord="[2__Z]">Caloranaerobacter azorensis DSM 13643T (AJ272422)</otu>
+  <otu id="otu6" cmphy:genus="Clostridium" cmphy:species="formicaceticum" cmphy:strain="DSM 92T" cmphy:id="X77836" editRecord="[]">Clostridium formicaceticum DSM 92T (X77836)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Clostridium" cmphy:species="aceticum" cmphy:strain="DSM 14967" cmphy:id="Y18183" editRecord="[]">Clostridium aceticum DSM 14967 (Y18183)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Tepidibacter" cmphy:species="formicigenes" cmphy:strain="DV1184T" cmphy:id="AYZ45527" editRecord="[2__Z]">Tepidibacter formicigenes DV1184T (AY245527)</otu>
+  <otu id="otu10">Fusibacter paucivorans DSM 121 16T (AF050099)</otu>
+  <otu id="otu11">Tepidibacter thalassicus DSM 15285T(AY158079)</otu>
+  <otu id="otu12" cmphy:genus="Clostridium" cmphy:species="thennoalcaliphilum" cmphy:strain="DSM 73097" cmphy:id="L11304" editRecord="[]">Clostridium thennoalcaliphilum DSM 73097 (L11304)</otu>
+  <otu id="otu13" cmphy:genus="Clostridium" cmphy:species="acidurici" cmphy:strain="ATCC 7906T" cmphy:id="M59084" editRecord="[]">Clostridium acidurici ATCC 7906T (M59084)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[O__0]" cmphy:genus="Clostridium" cmphy:species="paradoxum" cmphy:strain="DSM 7308T" cmphy:id="L06838" editRecord="[O__0]">Clostridium paradoxum DSM 7308T (LO6838)</otu>
+  <otu id="otu16" cmphy:genus="Clostridium" cmphy:species="glycolicum" cmphy:strain="DSM 1288T" cmphy:id="X76750" editRecord="[]">Clostridium glycolicum DSM 1288T (X76750)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="25.0" y="443.0"/>
+   <node id="NT1.2" x="37.0" y="614.0" label="44"/>
+   <node id="NT1.3" label="NT1.3" x="49.0" y="574.0"/>
+   <node id="NT1.4" label="NT1.4" x="87.0" y="507.0"/>
+   <node id="NT1.5" label="NT1.5" x="96.0" y="617.0"/>
+   <node id="NT1.6" label="NT1.6" x="107.0" y="307.0"/>
+   <node id="NT1.7" label="NT1.7" x="119.0" y="62.0"/>
+   <node id="NT1.8" label="NT1.8" x="158.0" y="267.0"/>
+   <node id="NT1.9" label="NT1.9" x="208.0" y="218.0"/>
+   <node id="NT1.10" label="NT1.10" x="209.0" y="631.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="224.0" y="404.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="264.0" y="540.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="269.0" y="335.0"/>
+   <node id="NT1.14" label="NT1.14" x="270.0" y="153.0"/>
+   <node id="NT1.15" x="274.0" y="474.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="309.0" y="586.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="318.0" y="85.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="321.0" y="495.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="333.0" y="242.0"/>
+   <node id="NT1.20" label="NT1.20" x="335.0" y="219.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="336.0" y="221.0"/>
+   <node id="NT1.22" label="NT1.22" x="339.0" y="450.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="361.0" y="131.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="367.0" y="678.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="371.0" y="176.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="372.0" y="268.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="384.0" y="39.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="389.0" y="313.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="402.0" y="221.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="458.0" y="359.0" otu="otu16"/>
+   <edge source="NT1.24" target="NT1.2" id="e.0"/>
+   <edge source="NT1.18" target="NT1.15" id="e.1"/>
+   <edge source="NT1.21" target="NT1.20" id="e.2"/>
+   <edge source="NT1.23" target="NT1.14" id="e.3"/>
+   <edge source="NT1.26" target="NT1.19" id="e.4"/>
+   <edge source="NT1.29" target="NT1.21" id="e.5"/>
+   <edge source="NT1.1" target="NT1.2" id="e.6"/>
+   <edge source="NT1.1" target="NT1.6" id="e.7"/>
+   <edge source="NT1.2" target="NT1.3" id="e.8"/>
+   <edge source="NT1.3" target="NT1.4" id="e.9"/>
+   <edge source="NT1.3" target="NT1.5" id="e.10"/>
+   <edge source="NT1.6" target="NT1.11" id="e.11"/>
+   <edge source="NT1.6" target="NT1.8" id="e.12"/>
+   <edge source="NT1.4" target="NT1.15" id="e.13"/>
+   <edge source="NT1.5" target="NT1.10" id="e.14"/>
+   <edge source="NT1.8" target="NT1.13" id="e.15"/>
+   <edge source="NT1.8" target="NT1.9" id="e.16"/>
+   <edge source="NT1.9" target="NT1.14" id="e.17"/>
+   <edge source="NT1.9" target="NT1.19" id="e.18"/>
+   <edge source="NT1.13" target="NT1.28" id="e.19"/>
+   <edge source="NT1.19" target="NT1.21" id="e.20"/>
+   <edge source="NT1.7" target="NT1.1" id="e.21"/>
+   <edge source="NT1.27" target="NT1.7" id="e.22"/>
+   <edge source="NT1.16" target="NT1.5" id="e.23"/>
+   <edge source="NT1.17" target="NT1.7" id="e.24"/>
+   <edge source="NT1.12" target="NT1.4" id="e.25"/>
+   <edge source="NT1.22" target="NT1.15" id="e.26"/>
+   <edge source="NT1.25" target="NT1.14" id="e.27"/>
+   <edge source="NT1.30" target="NT1.13" id="e.28"/>
+  </tree>
+ </trees>
+</nexml>

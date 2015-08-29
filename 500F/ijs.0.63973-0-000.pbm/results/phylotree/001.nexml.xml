@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Providencia" cmphy:species="rustigianii" cmphy:strain="DSM 4541T" cmphy:id="AMO40489" editRecord="[]"> Providencia rustigianii DSM 4541T (AMO40489)</otu>
+  <otu id="otu2" cmphy:genus="Providencia" cmphy:species="heimbachae" cmphy:strain="DSM 3591T" cmphy:id="AMO40490" editRecord="[]">Providencia heimbachae DSM 3591T (AMO40490)</otu>
+  <otu id="otu3">strain oP1' (AM040495)</otu>
+  <otu id="otu4">Moellerella Wisconsensis DSM 5O76T (AM040754)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Providencia" cmphy:species="rettgeri" cmphy:strain="DSM 4542T" cmphy:id="AMO40492" editRecord="[0__O]">Providencia rettgeri DSM 4542T (AM040492)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Providencia" cmphy:species="stuartii" cmphy:strain="DSM 4539T" cmphy:id="AMO40491" editRecord="[]">Providencia stuartii DSM 4539T (AMO40491)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="40.0" y="227.0"/>
+   <node id="NT1.2" label="NT1.2" x="66.0" y="149.0"/>
+   <node id="NT1.4" x="127.0" y="66.0" label="99"/>
+   <node id="NT1.5" label="NT1.5" x="153.0" y="237.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="161.0" y="288.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="222.0" y="131.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="271.0" y="25.0" otu="otu7"/>
+   <node id="NT1.13" label="NT1.13" x="20.0" y="277.0" root="true"/>
+   <edge id="e.0" source="NT1.4" target="NT1.12"/>
+   <edge id="e.2" target="NT1.10" source="NT1.4"/>
+   <edge id="e.3" target="NT1.5" source="NT1.2"/>
+   <edge id="e.5" source="NT1.1" target="NT1.6"/>
+   <edge id="e.6" source="NT1.2" target="NT1.4"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" source="NT1.13" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

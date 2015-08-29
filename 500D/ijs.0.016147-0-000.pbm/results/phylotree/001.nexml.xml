@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Xanthomonas campestris LMG 5687 (X9591 7)</otu>
+  <otu id="otu2" cmphy:genus="Methylonatrum" cmphy:species="kenyense" cmphy:strain="ATM 17" cmphy:id="DQ789390" editRecord="[]">Methylonatrum kenyense ATM 17 (DQ789390)</otu>
+  <otu id="otu3"> Thiococcus pfennigii 42507 (Y1 2373)</otu>
+  <otu id="otu4">Methylococcus capsulatus ACM 1 2927 (X72770)</otu>
+  <otu id="otu5">Spongiibacter marinus HAL4Ob7 (AM1 17932)</otu>
+  <otu id="otu6" cmphy:genus="Alkalilimnicola" cmphy:species="halodurans" cmphy:strain="34Alc7" cmphy:id="AJ404972" editRecord="[]">Alkalilimnicola halodurans 34Alc7 (AJ404972)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"> Reinekea marinisedimentorum KMM 36557 (AJ561 121)</otu>
+  <otu id="otu9">Strain KMM 39007 (AB500095)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.7" label="NT1.7" x="273.0" y="737.0"/>
+   <node id="NT1.9" label="NT1.9" x="418.0" y="762.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="490.0" y="694.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="2.0" y="640.0" root="true"/>
+   <edge id="e.4" source="NT1.7" target="NT1.9"/>
+   <edge id="e.7" source="NT1.7" target="NT1.13"/>
+   <edge id="e.12" target="NT1.7" source="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Lysobacrer gummosus LMG 8763T (AB16136l)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Thermamonus haemolylica DSM 13605 " (AJ300185)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Slenolrophomonas" cmphy:species="dokdonensis" cmphy:strain="DS-16&quot;" cmphy:id="DQI78977" editRecord="[1__I]">Slenolrophomonas dokdonensis DS-16" (DQ178977)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16">Pseudaxanthomonas broegbernensis DSM 12573T (AJ01 2231)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="639.0" otu="otu1" root="true"/>
+   <node id="NT1.22" label="NT1.22" x="376.0" y="496.0" otu="otu13"/>
+   <edge id="e.18" target="NT1.22" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

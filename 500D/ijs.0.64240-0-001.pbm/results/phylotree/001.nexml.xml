@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">A. palleronii JCM 7626T (AB048216)</otu>
+  <otu id="otu3">A. regularis DSM 43151T (X93188)</otu>
+  <otu id="otu4">A. rectilineatus IFO 13941T (ABO37010)</otu>
+  <otu id="otu5">A. philippinensis DSM 43O19T (X93187)</otu>
+  <otu id="otu6">A. cyaneus DSM 46137T (X93186)</otu>
+  <otu id="otu7">A. liguriensis DSM 43865 (AJ865471)</otu>
+  <otu id="otu8">A. teichomyceticus DSM 43866T (AJ865472)</otu>
+  <otu id="otu9">A. italicus JCM 3165T (AB048217)</otu>
+  <otu id="otu10">A. utahensis IFO 13244T (AB037012)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="375.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

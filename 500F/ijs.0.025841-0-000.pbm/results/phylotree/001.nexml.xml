@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Halosimplex carlsbadense JCM 1 1 222T rrnC (HQ263563)</otu>
+  <otu id="otu2"> Halosimplex carlsbadense JCM 1 1222T rrnD (HO263564)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Halorientalis" cmphy:species="regularis" cmphy:strain="TNN28 T" cmphy:id="GQZ82621" editRecord="[2__Z]"> Halorientalis regularis TNN28 T (GQ282621)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Halorhabdus tfamatea JCM 14471T(AB576122)</otu>
+  <otu id="otu6" cmphy:genus="Haloferax" cmphy:species="volcanii" cmphy:strain="DS2T" cmphy:id="NC_013967" editRecord="[]"> Haloferax volcanii DS2T (NC_013967)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Halopelagius" cmphy:species="inordinatus" cmphy:strain="RO5-2T" cmphy:id="EUB87284" editRecord="[8__B]">Halopelagius inordinatus RO5-2T (EU887284)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Halorientalis" cmphy:species="regularis" cmphy:strain="TBN1 9" cmphy:id="GUB39303" editRecord="[3__B]"> Halorientalis regularis TBN1 9 (GU339303)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Halosarcina" cmphy:species="pallida" cmphy:strain="BZ256T" cmphy:id="HMI85493" editRecord="[1__I]"> Halosarcina pallida BZ256T (HM185493)</otu>
+  <otu id="otu12">Halogianum Iubrum RO2-11T(EU887283)</otu>
+  <otu id="otu13">Haloarcula vallismortis CGMCC 1.20487 rrnA (EF645687)</otu>
+  <otu id="otu14"> Haloferax Iarsenii ZJ2O6T (AY838278)</otu>
+  <otu id="otu15"> Halogeometricum borinquense DSM 1 1551 T (NC_014729)</otu>
+  <otu id="otu16"> Halosimplex carlsbadense JCM 1 12227 rrnA (HQ263561)</otu>
+  <otu id="otu17" cmphy:genus="Halobellus" cmphy:species="clavatus" cmphy:strain="TBN12" cmphy:id="GU951433" editRecord="[]">Halobellus clavatus TBN12 (GU951433)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Halobellus" cmphy:species="clavatus" cmphy:strain="TNN18 7" cmphy:id="GOZ82620" editRecord="[2__Z]">Halobellus clavatus TNN18 7 (GO282620)</otu>
+  <otu id="otu19">Haloarcula vallismortis CGMCC 1.2O48T rrnB (EF645688)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21">Haloquadratum walsbyi DSM 16790 (NC_00821 2)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23">Methanospirillum hungateiJF-17 (NC_OO7796)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="152.0" y="354.0"/>
+   <node id="NT1.8" x="221.0" y="490.0" label="96"/>
+   <node id="NT1.9" x="233.0" y="537.0" label="70"/>
+   <node id="NT1.11" x="247.0" y="584.0" label="71"/>
+   <node id="NT1.18" label="NT1.18" x="310.0" y="99.0"/>
+   <node id="NT1.22" label="NT1.22" x="319.0" y="83.0" otu="otu3"/>
+   <node id="NT1.25" label="NT1.25" x="327.0" y="459.0" otu="otu6"/>
+   <node id="NT1.27" label="NT1.27" x="329.0" y="490.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="330.0" y="115.0" otu="otu9"/>
+   <node id="NT1.30" label="NT1.30" x="332.0" y="553.0" otu="otu11"/>
+   <node id="NT1.36" x="353.0" y="662.0" label="100"/>
+   <node id="NT1.37" label="NT1.37" x="357.0" y="678.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="360.0" y="646.0" otu="otu18"/>
+   <node id="NT1.45" label="NT1.45" x="2.0" y="531.0" root="true"/>
+   <edge id="e.2" source="NT1.18" target="NT1.22"/>
+   <edge id="e.3" source="NT1.18" target="NT1.28"/>
+   <edge id="e.12" target="NT1.25" source="NT1.8"/>
+   <edge id="e.14" source="NT1.9" target="NT1.27"/>
+   <edge id="e.16" target="NT1.30" source="NT1.11"/>
+   <edge id="e.18" source="NT1.36" target="NT1.37"/>
+   <edge id="e.19" source="NT1.36" target="NT1.38"/>
+   <edge id="e.24" target="NT1.18" source="NT1.1"/>
+   <edge id="e.33" target="NT1.8" source="NT1.1"/>
+   <edge id="e.35" source="NT1.8" target="NT1.9"/>
+   <edge id="e.37" source="NT1.9" target="NT1.11"/>
+   <edge id="e.40" target="NT1.36" source="NT1.11"/>
+   <edge id="e.43" source="NT1.45" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

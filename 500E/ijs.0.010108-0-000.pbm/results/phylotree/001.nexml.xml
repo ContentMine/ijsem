@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Tsukarnurelki" cmphy:species="paurometabola" cmphy:strain="DSM 201627" cmphy:id="X80628" editRecord="[]">Tsukarnurelki paurometabola DSM 201627 (X80628)</otu>
+  <otu id="otu2">C. hoagiiATCC 70057 (X82052)</otu>
+  <otu id="otu3">C. hanseniiCIP 1084447 (AY684044)</otu>
+  <otu id="otu4">C. testudinoris CCUG 418237 (AJ295841)</otu>
+  <otu id="otu5"> C. minutfssfmurn NCTC 102887 (X82064)</otu>
+  <otu id="otu6"> C. singulare CCUG 373307 (Y10999)</otu>
+  <otu id="otu7">C. spheniscorum CCUG 455127 (AJ429234)</otu>
+  <otu id="otu8">C. felfnum CCUG 399437 (AJ401282)</otu>
+  <otu id="otu9">C. vitaeluminls DSM 202947 (X84680)</otu>
+  <otu id="otu10">C. halotolerans YIM 700937 (AY226509)</otu>
+  <otu id="otu11">C. freneyi ISPB 66951107(AJ292762)</otu>
+  <otu id="otu12"> C. pseudotuberculosis ATCC 1941 O7 (D38579)</otu>
+  <otu id="otu13"> C. ulcerans NCTC 79107 (X84256)</otu>
+  <otu id="otu14">C. pilusum ATCC 295927 (X81908)</otu>
+  <otu id="otu15">C. flavescens NCDO 13207 (X84441)</otu>
+  <otu id="otu16">C. simulans UCL 5537(AJ012837)</otu>
+  <otu id="otu17">C. kroppeNstedtiI' CCUG 357177(Y10077)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">Strain CAU 2127 (EU998655)</otu>
+  <otu id="otu20">C. efficiens YS-3147 (AB055963)</otu>
+  <otu id="otu21">C. callmae CCUG 287937 (X82053)</otu>
+  <otu id="otu22">C. durum IBS G150367 (Z97069)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="94.0" y="1392.0" otu="otu1"/>
+   <node id="NT1.43" label="NT1.43" x="2.0" y="1303.0" root="true"/>
+   <edge id="e.30" source="NT1.43" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

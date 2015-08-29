@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Bacillus" cmphy:species="barbaricus" cmphy:strain="VII-B3-AZT" cmphy:id="AJ422145" editRecord="[]">Bacillus barbaricus VII-B3-AZT (AJ422145)</otu>
+  <otu id="otu3">Bacillusfirmus 5695111-D2 (AJ509007)</otu>
+  <otu id="otu4"> lsolate 47083 (AF22783 7)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Deep" cmphy:species="sea" cmphy:strain="isolate I-ITA437" cmphy:id="ABO02642" editRecord="[0__O]">Deep sea isolate I-ITA437 (AB002642)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Bacillus" cmphy:species="marinus" cmphy:strain="MBT 0" cmphy:id="AJB44525" editRecord="[3__B]">Bacillus marinus MBT 0 (AJ344525)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Bacillus megaterium AC46bl (A17 1 73 81)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Bacillus" cmphy:species="furziculus" cmphy:strain="NK20.3" cmphy:id="AYI69820" editRecord="[1__I]">Bacillus furziculus NK20.3 (AY169820)</otu>
+  <otu id="otu10"> Bacillus mycaides l0206 (AFl55957)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="anthracis" cmphy:strain="AMES" cmphy:id="NCO03997" editRecord="[0__O]">Bacillus anthracis AMES (NC003997)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Bacillus" cmphy:species="mrtcrtuensis" cmphy:strain="ZFl-lKF- IT" cmphy:id="AYB73018" editRecord="[3__B]">Bacillus mrtcrtuensis ZFl-lKF- IT (AY373018)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="NRRL B-23934" cmphy:id="AY663677" editRecord="[]">Bacillus subtilis NRRL B-23934 (AY663677)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="393.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="376.0" y="297.0"/>
+   <node id="NT1.3" x="414.0" y="225.0" label="56"/>
+   <node id="NT1.4" x="445.0" y="176.0" label="54"/>
+   <node id="NT1.7" x="519.0" y="99.0" label="71"/>
+   <node id="NT1.8" x="530.0" y="369.0" label="100"/>
+   <node id="NT1.9" x="590.0" y="410.0" label="98"/>
+   <node id="NT1.11" label="NT1.11" x="598.0" y="310.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="651.0" y="418.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="653.0" y="275.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="677.0" y="130.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="695.0" y="21.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="702.0" y="383.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="725.0" y="238.0" otu="otu14"/>
+   <edge id="e.0" target="NT1.23" source="NT1.7"/>
+   <edge id="e.3" source="NT1.7" target="NT1.19"/>
+   <edge id="e.6" target="NT1.26" source="NT1.4"/>
+   <edge id="e.7" source="NT1.3" target="NT1.16"/>
+   <edge id="e.8" target="NT1.11" source="NT1.8"/>
+   <edge id="e.10" target="NT1.15" source="NT1.9"/>
+   <edge id="e.12" source="NT1.9" target="NT1.24"/>
+   <edge id="e.13" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" target="NT1.7" source="NT1.4"/>
+   <edge id="e.18" source="NT1.3" target="NT1.4"/>
+   <edge id="e.20" source="NT1.2" target="NT1.3"/>
+   <edge id="e.21" source="NT1.2" target="NT1.8"/>
+   <edge id="e.22" source="NT1.8" target="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

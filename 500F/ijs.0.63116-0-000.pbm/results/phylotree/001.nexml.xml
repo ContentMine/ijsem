@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Eubacterium" cmphy:species="sulci" cmphy:strain="ATCC 35585T" cmphy:id="AJO06963" editRecord="[0__O]">Eubacterium sulci ATCC 35585T (AJ006963)</otu>
+  <otu id="otu2" cmphy:genus="Eubacterium" cmphy:species="saphenum" cmphy:strain="ATCC 49989T" cmphy:id="U65987" editRecord="[]">Eubacterium saphenum ATCC 49989T (U65987)</otu>
+  <otu id="otu3" cmphy:genus="Mogibacterium" cmphy:species="timidum" cmphy:strain="ATCC 33O93T" cmphy:id="U13042" editRecord="[]">Mogibacterium timidum ATCC 33O93T (U13042)</otu>
+  <otu id="otu4" cmphy:genus="Eubacterium" cmphy:species="brachy" cmphy:strain="ATCC 330897" cmphy:id="Z36272" editRecord="[]">Eubacterium brachy ATCC 330897 (Z36272)</otu>
+  <otu id="otu5">Guggenheimella bovis OMZ 91 ST (AY272039)</otu>
+  <otu id="otu6" cmphy:genus="Tindallia" cmphy:species="magadiensis" cmphy:strain="DSM 1O318T" cmphy:id="Y15626" editRecord="[]">Tindallia magadiensis DSM 1O318T (Y15626)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Eubacterium" cmphy:species="nodatum" cmphy:strain="ATCC 330997" cmphy:id="Z36274" editRecord="[2__Z]">Eubacterium nodatum ATCC 330997 (236274)</otu>
+  <otu id="otu8">Eubacterium Iimosum ATCC 8486T (M59120)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="36.0" y="322.0"/>
+   <node id="NT1.3" label="NT1.3" x="46.0" y="258.0"/>
+   <node id="NT1.4" label="NT1.4" x="51.0" y="372.0"/>
+   <node id="NT1.6" label="NT1.6" x="166.0" y="351.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="183.0" y="305.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="218.0" y="213.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="233.0" y="259.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="275.0" y="123.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="275.0" y="396.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="10.0" y="135.0" root="true"/>
+   <edge id="e.0" target="NT1.11" source="NT1.14"/>
+   <edge id="e.1" source="NT1.3" target="NT1.9"/>
+   <edge id="e.2" source="NT1.4" target="NT1.12"/>
+   <edge id="e.4" source="NT1.2" target="NT1.4"/>
+   <edge id="e.5" source="NT1.2" target="NT1.3"/>
+   <edge id="e.6" source="NT1.3" target="NT1.8"/>
+   <edge id="e.7" source="NT1.4" target="NT1.6"/>
+   <edge id="e.9" source="NT1.14" target="NT1.2"/>
+   <edge id="e.10" source="NT1.3" target="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

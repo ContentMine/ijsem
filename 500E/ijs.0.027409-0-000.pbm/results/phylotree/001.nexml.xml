@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Sporacetigenium" cmphy:species="mesophilum" cmphy:strain="ZLJ1 15T" cmphy:id="AY682207" editRecord="[]">Sporacetigenium mesophilum ZLJ1 15T (AY682207)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Eubacterium" cmphy:species="tenue" cmphy:strain="ATCC 25553T" cmphy:id="DQ445863" editRecord="[]">Eubacterium tenue ATCC 25553T (DQ445863)</otu>
+  <otu id="otu6" cmphy:genus="Eubacterium" cmphy:species="tenue" cmphy:strain="ATCC 25553T" cmphy:id="DQ445863" editRecord="[]">Eubacterium tenue ATCC 25553T (DQ445863)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Clostridium thermoalcaliphilum DSM 73O9T (L1 1304)</otu>
+  <otu id="otu10" cmphy:genus="Clostridium" cmphy:species="sordellii" cmphy:strain="ATCC 9714T" cmphy:id="ABO75771" editRecord="[]">Clostridium sordellii ATCC 9714T (ABO75771)</otu>
+  <otu id="otu11" cmphy:genus="Clostridium" cmphy:species="ghonii" cmphy:strain="NCIMB 106367" cmphy:id="X73451" editRecord="[]">Clostridium ghonii NCIMB 106367 (X73451)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Tepidibacter" cmphy:species="formicigenes" cmphy:strain="DSM 155187" cmphy:id="AYZ45527" editRecord="[2__Z]">Tepidibacter formicigenes DSM 155187 (AY245527)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Tepidibacter" cmphy:species="mesophilus" cmphy:strain="B1 7" cmphy:id="GQZ31514" editRecord="[2__Z]">Tepidibacter mesophilus B1 7 (GQ231514)</otu>
+  <otu id="otu14" cmphy:genus="Clostridium" cmphy:species="irregulare" cmphy:strain="DSM 2635T" cmphy:id="X73447" editRecord="[]">Clostridium irregulare DSM 2635T (X73447)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Tepidibacter" cmphy:species="thalassicus" cmphy:strain="DSM 152857" cmphy:id="AYI58079" editRecord="[1__I]">Tepidibacter thalassicus DSM 152857 (AY158079)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="23.0" y="177.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="24.0" y="175.0"/>
+   <node id="NT1.4" label="NT1.4" x="197.0" y="102.0"/>
+   <node id="NT1.5" label="NT1.5" x="282.0" y="312.0"/>
+   <node id="NT1.6" label="NT1.6" x="320.0" y="175.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="397.0" y="98.0" otu="otu5"/>
+   <node id="NT1.10" label="NT1.10" x="433.0" y="95.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="544.0" y="56.0" otu="otu10"/>
+   <node id="NT1.17" label="NT1.17" x="551.0" y="16.0" otu="otu11"/>
+   <node id="NT1.18" label="NT1.18" x="552.0" y="294.0" otu="otu12"/>
+   <node id="NT1.19" label="NT1.19" x="591.0" y="254.0" otu="otu13"/>
+   <node id="NT1.20" label="NT1.20" x="668.0" y="135.0" otu="otu14"/>
+   <node id="NT1.21" label="NT1.21" x="668.0" y="334.0" otu="otu15"/>
+   <edge id="e.2" target="NT1.17" source="NT1.4"/>
+   <edge id="e.3" target="NT1.16" source="NT1.4"/>
+   <edge id="e.4" source="NT1.4" target="NT1.9"/>
+   <edge id="e.5" source="NT1.4" target="NT1.10"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.2" target="NT1.6"/>
+   <edge id="e.10" source="NT1.5" target="NT1.18"/>
+   <edge id="e.11" source="NT1.5" target="NT1.21"/>
+   <edge id="e.14" source="NT1.2" target="NT1.4"/>
+   <edge id="e.16" target="NT1.5" source="NT1.4"/>
+   <edge id="e.18" source="NT1.5" target="NT1.19"/>
+   <edge id="e.19" source="NT1.4" target="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>

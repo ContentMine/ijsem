@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Streptomyces sparsogenes NRRL 294OT(AJ391817)</otu>
+  <otu id="otu3" cmphy:genus="Kribbella" cmphy:species="karoonensis" cmphy:strain="O41T" cmphy:id="AY995146" editRecord="[]">Kribbella karoonensis O41T (AY995146)</otu>
+  <otu id="otu4">Kribbella alba YIM 31 O75T(AYO82O62)</otu>
+  <otu id="otu5">Aeromicrobium alkaliterrae KSL-1O7T(AY822O44)</otu>
+  <otu id="otu6">Friedmanniella antarctica DSM 1 10537 (Z78206)</otu>
+  <otu id="otu7" cmphy:genus="Aeromicrobium" cmphy:species="fastidiosum" cmphy:strain="DSM 105527" cmphy:id="Z78209" editRecord="[]">Aeromicrobium fastidiosum DSM 105527 (Z78209)</otu>
+  <otu id="otu8">Kribbella solani DSA1T (AY25886 2)</otu>
+  <otu id="otu9">Kribbella koreensis LM 161 T (YO9159)</otu>
+  <otu id="otu10">Nocardior'desjenseniI' DSM 20641T (Z7821 O)</otu>
+  <otu id="otu11">Propionicicella superfundia BL-107 (DQ1 76646)</otu>
+  <otu id="otu12" cmphy:genus="Friedmanniella" cmphy:species="capsulata" cmphy:strain="Ben 1087" cmphy:id="AFO84529" editRecord="[]">Friedmanniella capsulata Ben 1087 (AFO84529)</otu>
+  <otu id="otu13">Marmoricola aurantiacus BC 361T(Y18629)</otu>
+  <otu id="otu14">Actinopolymorpha singaporensis IM 7 7447 (AF23 7815)</otu>
+  <otu id="otu15">Micropruina glycogenica Lg2T(ABO126O7)</otu>
+  <otu id="otu16" cmphy:genus="Actinopolymorpha" cmphy:species="cephalotaxi" cmphy:strain="I06-2230T" cmphy:id="EU438909" editRecord="[]">Actinopolymorpha cephalotaxi I06-2230T (EU438909)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Thermasporomyces" cmphy:species="composti" cmphy:strain="I31" cmphy:id="ABS35715" editRecord="[5__S]">Thermasporomyces composti I31 (AB535715)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Uiangella" cmphy:species="ginsengisolf" cmphy:strain="Gsoil 532" cmphy:id="ABZ71058" editRecord="[2__Z]">Uiangella ginsengisolf Gsoil 532 (AB271058)</otu>
+  <otu id="otu19" cmphy:genus="Jiangella" cmphy:species="gansuensis" cmphy:strain="YIM 0027" cmphy:id="AY631071" editRecord="[]">Jiangella gansuensis YIM 0027 (AY631071)</otu>
+  <otu id="otu20" cmphy:edit="[1__I]" cmphy:genus="Jiangella" cmphy:species="alba" cmphy:strain="YIM 615O3T" cmphy:id="FJI57186" editRecord="[1__I]">Jiangella alba YIM 615O3T (FJ157186)</otu>
+  <otu id="otu21">Nocardioides ganghwensis JC2055T(AY423718)</otu>
+  <otu id="otu22">Actinopolymorpha rutila YIM 457251 (EF601 829)</otu>
+  <otu id="otu23" cmphy:genus="Jiangella" cmphy:species="alkaliphila" cmphy:strain="D8-877" cmphy:id="AM422451" editRecord="[]">Jiangella alkaliphila D8-877 (AM422451)</otu>
+  <otu id="otu24" cmphy:genus="Actinopolymorpha" cmphy:species="alba" cmphy:strain="YIM 488681" cmphy:id="EU706350" editRecord="[]">Actinopolymorpha alba YIM 488681 (EU706350)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="1152.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="155.0" y="1008.0"/>
+   <node id="NT1.4" label="NT1.4" x="192.0" y="732.0"/>
+   <node id="NT1.5" label="NT1.5" x="231.0" y="490.0"/>
+   <node id="NT1.8" label="NT1.8" x="310.0" y="311.0"/>
+   <node id="NT1.18" label="NT1.18" x="435.0" y="675.0" otu="otu3"/>
+   <node id="NT1.22" label="NT1.22" x="447.0" y="212.0"/>
+   <node id="NT1.23" label="NT1.23" x="450.0" y="867.0" otu="otu7"/>
+   <node id="NT1.28" label="NT1.28" x="507.0" y="1253.0" otu="otu12"/>
+   <node id="NT1.29" label="NT1.29" x="518.0" y="132.0"/>
+   <node id="NT1.30" label="NT1.30" x="528.0" y="409.0"/>
+   <node id="NT1.36" label="NT1.36" x="590.0" y="98.0" otu="otu16"/>
+   <node id="NT1.37" label="NT1.37" x="590.0" y="465.0"/>
+   <node id="NT1.38" label="NT1.38" x="606.0" y="291.0" otu="otu17"/>
+   <node id="NT1.39" x="615.0" y="513.0" label="99"/>
+   <node id="NT1.40" label="NT1.40" x="616.0" y="481.0" otu="otu18"/>
+   <node id="NT1.41" label="NT1.41" x="617.0" y="418.0" otu="otu19"/>
+   <node id="NT1.42" label="NT1.42" x="627.0" y="547.0" otu="otu20"/>
+   <node id="NT1.45" label="NT1.45" x="668.0" y="354.0" otu="otu23"/>
+   <node id="NT1.46" label="NT1.46" x="686.0" y="227.0" otu="otu24"/>
+   <edge id="e.2" source="NT1.22" target="NT1.29"/>
+   <edge id="e.4" source="NT1.8" target="NT1.22"/>
+   <edge id="e.5" source="NT1.5" target="NT1.8"/>
+   <edge id="e.6" source="NT1.8" target="NT1.30"/>
+   <edge id="e.7" source="NT1.4" target="NT1.5"/>
+   <edge id="e.9" source="NT1.30" target="NT1.37"/>
+   <edge id="e.10" source="NT1.37" target="NT1.39"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.17" target="NT1.3" source="NT1.1"/>
+   <edge id="e.25" target="NT1.23" source="NT1.4"/>
+   <edge id="e.28" target="NT1.18" source="NT1.5"/>
+   <edge id="e.29" target="NT1.28" source="NT1.3"/>
+   <edge id="e.36" source="NT1.22" target="NT1.38"/>
+   <edge id="e.37" target="NT1.36" source="NT1.29"/>
+   <edge id="e.39" source="NT1.30" target="NT1.45"/>
+   <edge id="e.40" source="NT1.37" target="NT1.41"/>
+   <edge id="e.42" target="NT1.46" source="NT1.29"/>
+   <edge id="e.43" source="NT1.39" target="NT1.40"/>
+   <edge id="e.44" source="NT1.39" target="NT1.42"/>
+  </tree>
+ </trees>
+</nexml>

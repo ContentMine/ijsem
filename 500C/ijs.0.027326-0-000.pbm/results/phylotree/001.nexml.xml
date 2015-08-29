@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Alteromonas macleodii IAM 1 29207 (X82145)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Glaciecola" cmphy:species="psychrophila" cmphy:strain="1 70T" cmphy:id="DQO07436" editRecord="[0__O]"> Glaciecola psychrophila 1 70T (DQ007436)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">Glaciecola punicea ACAM 61 1T (UB5853)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="535.0" otu="otu1" root="true"/>
+   <node id="NT1.18" label="NT1.18" x="510.0" y="270.0" otu="otu8"/>
+   <edge id="e.5" target="NT1.18" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Dermacoccus" cmphy:species="nishinomiyaensis" cmphy:strain="DSM 20448T" cmphy:id="X87757" editRecord="[]"> Dermacoccus nishinomiyaensis DSM 20448T (X87757)</otu>
+  <otu id="otu9">Ar1hrobactercumminsiiDSM 1O493T (X93354)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Kytococcus" cmphy:species="sedentarius" cmphy:strain="DSM 20547T" cmphy:id="X87755" editRecord="[]">Kytococcus sedentarius DSM 20547T (X87755)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Arthrobacter" cmphy:species="albus" cmphy:strain="CF-437" cmphy:id="AJZ43421" editRecord="[2__Z]">Arthrobacter albus CF-437 (AJ243421)</otu>
+  <otu id="otu13" cmphy:genus="Intrasporangium" cmphy:species="calvum" cmphy:strain="NBRC 12989T" cmphy:id="D85486" editRecord="[]"> Intrasporangium calvum NBRC 12989T (D85486)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Ornithinimicrobium" cmphy:species="humiphilum" cmphy:strain="DSM 12362T" cmphy:id="AJZ77650" editRecord="[2__Z]">Ornithinimicrobium humiphilum DSM 12362T (AJ277650)</otu>
+  <otu id="otu15" cmphy:genus="Ornithinicoccus" cmphy:species="hortensis" cmphy:strain="DSM 12335T" cmphy:id="Y17869" editRecord="[]">Ornithinicoccus hortensis DSM 12335T (Y17869)</otu>
+  <otu id="otu16" cmphy:genus="Dermatophilus" cmphy:species="congolensis" cmphy:strain="ATCC 146377" cmphy:id="L40615" editRecord="[]">Dermatophilus congolensis ATCC 146377 (L40615)</otu>
+  <otu id="otu17" cmphy:genus="Janibacter" cmphy:species="limosus" cmphy:strain="DSM 1114OT" cmphy:id="Y08539" editRecord="[]">Janibacter limosus DSM 1114OT (Y08539)</otu>
+  <otu id="otu18">Strain JC1078T (AY382898)</otu>
+  <otu id="otu19" cmphy:genus="Dermabacter" cmphy:species="hominis" cmphy:strain="DSM 7083T" cmphy:id="X91034" editRecord="[]">Dermabacter hominis DSM 7083T (X91034)</otu>
+  <otu id="otu20" cmphy:genus="Demetria" cmphy:species="terragena" cmphy:strain="DSM 11295T" cmphy:id="Y14152" editRecord="[]">Demetria terragena DSM 11295T (Y14152)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="128.0" otu="otu1" root="true"/>
+   <node id="NT1.4" x="93.0" y="240.0" label="56"/>
+   <node id="NT1.5" label="NT1.5" x="119.0" y="366.0"/>
+   <node id="NT1.6" x="154.0" y="114.0" label="79"/>
+   <node id="NT1.7" x="159.0" y="488.0" label="91"/>
+   <node id="NT1.11" x="169.0" y="391.0" label="27"/>
+   <node id="NT1.13" x="197.0" y="586.0" label="83"/>
+   <node id="NT1.14" x="206.0" y="448.0" label="91"/>
+   <node id="NT1.15" x="220.0" y="637.0" label="73"/>
+   <node id="NT1.18" label="NT1.18" x="268.0" y="680.0"/>
+   <node id="NT1.21" label="NT1.21" x="295.0" y="477.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="336.0" y="535.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="337.0" y="128.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="347.0" y="651.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="372.0" y="361.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="373.0" y="593.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="388.0" y="244.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="390.0" y="709.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="459.0" y="70.0" otu="otu19"/>
+   <node id="NT1.35" label="NT1.35" x="460.0" y="419.0" otu="otu20"/>
+   <edge id="e.7" target="NT1.27" source="NT1.6"/>
+   <edge id="e.9" source="NT1.5" target="NT1.31"/>
+   <edge id="e.11" source="NT1.14" target="NT1.21"/>
+   <edge id="e.12" source="NT1.13" target="NT1.26"/>
+   <edge id="e.13" target="NT1.29" source="NT1.11"/>
+   <edge id="e.14" source="NT1.15" target="NT1.30"/>
+   <edge id="e.16" source="NT1.14" target="NT1.35"/>
+   <edge id="e.17" source="NT1.4" target="NT1.5"/>
+   <edge id="e.18" source="NT1.4" target="NT1.6"/>
+   <edge id="e.20" source="NT1.7" target="NT1.11"/>
+   <edge id="e.24" target="NT1.4" source="NT1.1"/>
+   <edge id="e.25" source="NT1.5" target="NT1.7"/>
+   <edge id="e.27" source="NT1.6" target="NT1.34"/>
+   <edge id="e.28" target="NT1.13" source="NT1.7"/>
+   <edge id="e.29" source="NT1.11" target="NT1.14"/>
+   <edge id="e.30" source="NT1.13" target="NT1.15"/>
+   <edge id="e.31" source="NT1.15" target="NT1.18"/>
+   <edge id="e.32" target="NT1.32" source="NT1.18"/>
+   <edge id="e.33" source="NT1.18" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

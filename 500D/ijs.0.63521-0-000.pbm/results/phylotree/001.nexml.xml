@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> 1A. infernus' GY785 (X85175)</otu>
+  <otu id="otu3"> A. macleodii ATCC 271267 (X82145)</otu>
+  <otu id="otu4">A. marina SW-47 (AF529060)</otu>
+  <otu id="otu5">A. stellipolaris LMG 218617 (AJ295715)</otu>
+  <otu id="otu6">A. marina SWAQT (AF529061)</otu>
+  <otu id="otu7"> A. Iitorea JCM 121887 (AY428573)</otu>
+  <otu id="otu8">A. addita R1 OSW1 37 (AY682202)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="14.0" y="160.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

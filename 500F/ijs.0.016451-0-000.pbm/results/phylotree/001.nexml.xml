@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Virgisporangium ochraceum YU655-437 (ABOO61 67)</otu>
+  <otu id="otu3" cmphy:edit="[O__0]" cmphy:genus="Virgisporangium" cmphy:species="aurantfacum" cmphy:strain="YU438-57" cmphy:id="ABO06169" editRecord="[O__0]">Virgisporangium aurantfacum YU438-57 (ABOO6169)</otu>
+  <otu id="otu4">D. thailandense DSM 431587 (X92630)</otu>
+  <otu id="otu5">1D. salmoneum1 NRRL B-16294 (FJ973607)</otu>
+  <otu id="otu6"> D. matsuzakiense DSM 438107 (X93193)</otu>
+  <otu id="otu7"> D. roseum DSM 43916T (X93194)</otu>
+  <otu id="otu8"> D. fulvum DSM 43917T(X93192)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="717.0" otu="otu1" root="true"/>
+   <node id="NT1.8" label="NT1.8" x="369.0" y="756.0" otu="otu3"/>
+   <edge id="e.7" target="NT1.8" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Thiohalocapsa" cmphy:species="halophila" cmphy:strain="DSM 62107" cmphy:id="AJO02796" editRecord="[0__O]">Thiohalocapsa halophila DSM 62107 (AJ002796)</otu>
+  <otu id="otu4">Thiocapsa sp. CE2209 (Y12298)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Allochromatium" cmphy:species="vinosum" cmphy:strain="ATCC 178997" cmphy:id="M26629" editRecord="[]">Allochromatium vinosum ATCC 178997 (M26629)</otu>
+  <otu id="otu7">Thiocapsa sp. 10511 (Y12300)</otu>
+  <otu id="otu8" cmphy:genus="Thiocapsa" cmphy:species="marina" cmphy:strain="5812" cmphy:id="Y12302" editRecord="[]">Thiocapsa marina 5812 (Y12302)</otu>
+  <otu id="otu9" cmphy:genus="Thiocapsa" cmphy:species="marina" cmphy:strain="DSM 56537" cmphy:id="Y12301" editRecord="[]">Thiocapsa marina DSM 56537 (Y12301)</otu>
+  <otu id="otu10">Thiocapsa marina BM-3</otu>
+  <otu id="otu11" cmphy:genus="Thiocystis" cmphy:species="violacea" cmphy:strain="DSM 2077" cmphy:id="Y11315" editRecord="[]">Thiocystis violacea DSM 2077 (Y11315)</otu>
+  <otu id="otu12">Thiocapsa sp. DSM 5652 (Y12296)</otu>
+  <otu id="otu13" cmphy:genus="Thiocapsa" cmphy:species="roseopersicina" cmphy:strain="DSM 2177" cmphy:id="Y12364" editRecord="[]">Thiocapsa roseopersicina DSM 2177 (Y12364)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Thiocapsa" cmphy:species="litoralis" cmphy:strain="ATCC 7008947" cmphy:id="AJZ42772" editRecord="[2__Z]">Thiocapsa litoralis ATCC 7008947 (AJ242772)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Thiocapsa" cmphy:species="pendens" cmphy:strain="DSM 2367" cmphy:id="AJO02797" editRecord="[0__O]">Thiocapsa pendens DSM 2367 (AJ002797)</otu>
+  <otu id="otu16" cmphy:genus="Thiolamprovum" cmphy:species="pedioforme" cmphy:strain="DSM 38027" cmphy:id="Y12297" editRecord="[]">Thiolamprovum pedioforme DSM 38027 (Y12297)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Thiocapsa" cmphy:species="rosea" cmphy:strain="DSM 2357" cmphy:id="AJO02798" editRecord="[0__O]">Thiocapsa rosea DSM 2357 (AJ002798)</otu>
+  <otu id="otu18">Halorhodospira halophila</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="94.0" y="124.0"/>
+   <node id="NT1.2" label="NT1.2" x="164.0" y="75.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="192.0" y="595.0"/>
+   <node id="NT1.4" label="NT1.4" x="207.0" y="313.0"/>
+   <node id="NT1.5" label="NT1.5" x="268.0" y="171.0"/>
+   <node id="NT1.6" label="NT1.6" x="273.0" y="372.0"/>
+   <node id="NT1.7" label="NT1.7" x="418.0" y="734.0"/>
+   <node id="NT1.8" label="NT1.8" x="495.0" y="613.0"/>
+   <node id="NT1.9" label="NT1.9" x="502.0" y="851.0"/>
+   <node id="NT1.10" label="NT1.10" x="516.0" y="908.0"/>
+   <node id="NT1.11" label="NT1.11" x="548.0" y="563.0"/>
+   <node id="NT1.12" label="NT1.12" x="557.0" y="646.0"/>
+   <node id="NT1.13" label="NT1.13" x="570.0" y="1055.0"/>
+   <node id="NT1.14" label="NT1.14" x="576.0" y="962.0"/>
+   <node id="NT1.15" label="NT1.15" x="595.0" y="266.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="629.0" y="139.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="646.0" y="645.0" otu="otu4"/>
+   <node id="NT1.18" label="NT1.18" x="646.0" y="862.0"/>
+   <node id="NT1.19" label="NT1.19" x="670.0" y="203.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="670.0" y="329.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="670.0" y="518.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="674.0" y="1088.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="696.0" y="1025.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="700.0" y="961.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="721.0" y="393.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="834.0" y="772.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="845.0" y="582.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="887.0" y="835.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="912.0" y="898.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="919.0" y="455.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="973.0" y="708.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="1419.0" y="12.0" otu="otu18"/>
+   <edge source="NT1.2" target="NT1.1" id="e.0"/>
+   <edge source="NT1.17" target="NT1.12" id="e.1"/>
+   <edge source="NT1.24" target="NT1.14" id="e.2"/>
+   <edge source="NT1.1" target="NT1.5" id="e.3"/>
+   <edge source="NT1.3" target="NT1.4" id="e.4"/>
+   <edge source="NT1.3" target="NT1.7" id="e.5"/>
+   <edge source="NT1.4" target="NT1.6" id="e.6"/>
+   <edge source="NT1.7" target="NT1.8" id="e.7"/>
+   <edge source="NT1.7" target="NT1.9" id="e.8"/>
+   <edge source="NT1.8" target="NT1.12" id="e.9"/>
+   <edge source="NT1.8" target="NT1.11" id="e.10"/>
+   <edge source="NT1.9" target="NT1.10" id="e.11"/>
+   <edge source="NT1.10" target="NT1.14" id="e.12"/>
+   <edge source="NT1.10" target="NT1.18" id="e.13"/>
+   <edge source="NT1.14" target="NT1.13" id="e.14"/>
+   <edge source="NT1.1" target="NT1.3" id="e.15"/>
+   <edge source="NT1.4" target="NT1.15" id="e.16"/>
+   <edge source="NT1.16" target="NT1.5" id="e.17"/>
+   <edge source="NT1.20" target="NT1.6" id="e.18"/>
+   <edge source="NT1.19" target="NT1.5" id="e.19"/>
+   <edge source="NT1.25" target="NT1.6" id="e.20"/>
+   <edge source="NT1.23" target="NT1.13" id="e.21"/>
+   <edge source="NT1.22" target="NT1.13" id="e.22"/>
+   <edge source="NT1.27" target="NT1.11" id="e.23"/>
+   <edge source="NT1.21" target="NT1.11" id="e.24"/>
+   <edge source="NT1.31" target="NT1.12" id="e.25"/>
+   <edge source="NT1.26" target="NT1.9" id="e.26"/>
+   <edge source="NT1.30" target="NT1.3" id="e.27"/>
+   <edge source="NT1.32" target="NT1.1" id="e.28"/>
+   <edge source="NT1.28" target="NT1.18" id="e.29"/>
+   <edge source="NT1.29" target="NT1.18" id="e.30"/>
+  </tree>
+ </trees>
+</nexml>

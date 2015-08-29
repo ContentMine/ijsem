@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Dietzia" cmphy:species="cinnamea" cmphy:strain="IMMIB RIV-399'" cmphy:id="AJ920289" editRecord="[]">Dietzia cinnamea IMMIB RIV-399' (AJ920289)</otu>
+  <otu id="otu3" cmphy:genus="Dietzia" cmphy:species="maris" cmphy:strain="DSM 43672T" cmphy:id="X79290" editRecord="[]">Dietzia maris DSM 43672T (X79290)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Dietzia" cmphy:species="schimae" cmphy:strain="YIM 550011" cmphy:id="EUB75845" editRecord="[3__B]">Dietzia schimae YIM 550011 (EU375845)</otu>
+  <otu id="otu5">sj14aT (FM995533)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Dietzia" cmphy:species="cercidiphylli" cmphy:strain="YIM 650O2T" cmphy:id="EUB75846" editRecord="[3__B]">Dietzia cercidiphylli YIM 650O2T (EU375846)</otu>
+  <otu id="otu7" cmphy:genus="Dietzia" cmphy:species="kunjamensis" cmphy:strain="K30-1OT" cmphy:id="AY972480" editRecord="[]">Dietzia kunjamensis K30-1OT (AY972480)</otu>
+  <otu id="otu8" cmphy:genus="Dietzia" cmphy:species="natronolimnaea" cmphy:strain="CBS 1O7.95T" cmphy:id="X92157" editRecord="[]">Dietzia natronolimnaea CBS 1O7.95T (X92157)</otu>
+  <otu id="otu9" cmphy:genus="Dietzia" cmphy:species="papillomatosis" cmphy:strain="N 128OT" cmphy:id="AY643401" editRecord="[]">Dietzia papillomatosis N 128OT (AY643401)</otu>
+  <otu id="otu10" cmphy:genus="Dietzia" cmphy:species="psychralcaliphila" cmphy:strain="ILA-1T" cmphy:id="ABO49630" editRecord="[]">Dietzia psychralcaliphila ILA-1T (ABO49630)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Tsukamurella" cmphy:species="paurometabola" cmphy:strain="DSM 2O162T" cmphy:id="Z46751" editRecord="[2__Z]">Tsukamurella paurometabola DSM 2O162T (246751)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="324.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="2.0" y="324.0"/>
+   <node id="NT1.3" label="NT1.3" x="196.0" y="272.0"/>
+   <node id="NT1.4" label="NT1.4" x="292.0" y="179.0"/>
+   <node id="NT1.6" label="NT1.6" x="380.0" y="363.0"/>
+   <node id="NT1.7" label="NT1.7" x="381.0" y="340.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="395.0" y="236.0"/>
+   <node id="NT1.9" label="NT1.9" x="400.0" y="271.0"/>
+   <node id="NT1.10" label="NT1.10" x="416.0" y="249.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="423.0" y="203.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="517.0" y="78.0"/>
+   <node id="NT1.14" label="NT1.14" x="542.0" y="44.0"/>
+   <node id="NT1.15" label="NT1.15" x="561.0" y="19.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="637.0" y="295.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="641.0" y="65.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="751.0" y="387.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="769.0" y="111.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="769.0" y="433.0" otu="otu11"/>
+   <edge id="e.0" source="NT1.8" target="NT1.11"/>
+   <edge id="e.1" source="NT1.9" target="NT1.10"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.6" target="NT1.7"/>
+   <edge id="e.4" source="NT1.6" target="NT1.18"/>
+   <edge id="e.5" source="NT1.13" target="NT1.14"/>
+   <edge id="e.6" target="NT1.13" source="NT1.4"/>
+   <edge id="e.8" source="NT1.3" target="NT1.4"/>
+   <edge id="e.9" source="NT1.4" target="NT1.8"/>
+   <edge id="e.10" source="NT1.8" target="NT1.9"/>
+   <edge id="e.11" source="NT1.2" target="NT1.3"/>
+   <edge id="e.12" source="NT1.3" target="NT1.6"/>
+   <edge id="e.13" source="NT1.2" target="NT1.20"/>
+   <edge id="e.15" source="NT1.9" target="NT1.16"/>
+   <edge id="e.16" source="NT1.14" target="NT1.15"/>
+   <edge id="e.17" source="NT1.14" target="NT1.17"/>
+   <edge id="e.18" source="NT1.13" target="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

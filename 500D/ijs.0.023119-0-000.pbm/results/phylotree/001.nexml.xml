@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Natronococcus" cmphy:species="occultus" cmphy:strain="JCM 88597" cmphy:id="AB477981" editRecord="[]">Natronococcus occultus JCM 88597 (AB477981)</otu>
+  <otu id="otu3" cmphy:genus="Halovivax" cmphy:species="ruber" cmphy:strain="XH-707" cmphy:id="AB477228" editRecord="[]">Halovivax ruber XH-707 (AB477228)</otu>
+  <otu id="otu4"> Natrinema ejinorense JCM 138907 (AB47 7229)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">Halostagnicola Iarsenii XH-487 (AB301489)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Halostagnicola" cmphy:species="alkaliphila" cmphy:strain="167-747" cmphy:id="ABS33255" editRecord="[5__S]"> Halostagnicola alkaliphila 167-747 (AB533255)</otu>
+  <otu id="otu8">Halobacterium salinarum DSM 37547 (AJ4961 85)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Halostagnicola" cmphy:species="kamekurae" cmphy:strain="194-107" cmphy:id="AB489220" editRecord="[]">Halostagnicola kamekurae 194-107 (AB489220)</otu>
+  <otu id="otu11" cmphy:genus="Haloterrigena" cmphy:species="longa" cmphy:strain="JCM 135627" cmphy:id="AB477225" editRecord="[]"> Haloterrigena longa JCM 135627 (AB477225)</otu>
+  <otu id="otu12">Haloterrigena turkmenica VKM B-1 7347 (ABO04878)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Natrialba" cmphy:species="aegyptia" cmphy:strain="407" cmphy:id="AFZ51941" editRecord="[2__Z]"> Natrialba aegyptia 407 (AF251941)</otu>
+  <otu id="otu14" cmphy:genus="Natronorubrum" cmphy:species="bangense" cmphy:strain="A337" cmphy:id="Y14028" editRecord="[]">Natronorubrum bangense A337 (Y14028)</otu>
+  <otu id="otu15">Natrialba asiatica 1 72 P17 (D14123)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="101.0" y="136.0"/>
+   <node id="NT1.2" label="NT1.2" x="119.0" y="41.0"/>
+   <node id="NT1.3" x="130.0" y="230.0" label="808"/>
+   <node id="NT1.4" x="146.0" y="316.0" label="623"/>
+   <node id="NT1.5" x="178.0" y="394.0" label="744"/>
+   <node id="NT1.8" x="236.0" y="145.0" label="643"/>
+   <node id="NT1.13" label="NT1.13" x="267.0" y="14.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="267.0" y="48.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="296.0" y="118.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="312.0" y="188.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="312.0" y="256.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="324.0" y="361.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="341.0" y="429.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="3.0" y="318.0" root="true"/>
+   <edge id="e.0" source="NT1.2" target="NT1.13"/>
+   <edge id="e.2" target="NT1.14" source="NT1.2"/>
+   <edge id="e.3" source="NT1.8" target="NT1.19"/>
+   <edge id="e.5" target="NT1.23" source="NT1.8"/>
+   <edge id="e.7" target="NT1.24" source="NT1.4"/>
+   <edge id="e.11" target="NT1.27" source="NT1.5"/>
+   <edge id="e.12" target="NT1.26" source="NT1.5"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" source="NT1.1" target="NT1.3"/>
+   <edge id="e.17" source="NT1.3" target="NT1.4"/>
+   <edge id="e.18" source="NT1.3" target="NT1.8"/>
+   <edge id="e.19" source="NT1.4" target="NT1.5"/>
+   <edge id="e.27" source="NT1.29" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

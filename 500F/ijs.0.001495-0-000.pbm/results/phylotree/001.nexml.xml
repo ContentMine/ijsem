@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">P. kobensis DSM1O249T(AB073363)</otu>
+  <otu id="otu2">P. mendeIiiCCM 4839T (AF537343)</otu>
+  <otu id="otu3">P. phyllosphaerae PALXILO4T (AY598818)</otu>
+  <otu id="otu4">P. chitinolyticus NBRC15660T(AB021183)</otu>
+  <otu id="otu5">P. terrigenaA35T(AB248087)</otu>
+  <otu id="otu6">P. curdlanolyticus DSM 10247T (AB073202)</otu>
+  <otu id="otu7"> P. glycanilyticus DS-1T (ABO42938)</otu>
+  <otu id="otu8">P. cellulosilyticus PALXIL08T (DQ407282)</otu>
+  <otu id="otu9">P. gansuensis B5187 (AY839866)</otu>
+  <otu id="otu10">P. pasadenensis SAFN-007T (AY167820)</otu>
+  <otu id="otu11">P. sepuIcriCCM 7311T (DQ291142)</otu>
+  <otu id="otu12">P. agarexedens DSM 13277 (AJ345020)</otu>
+  <otu id="otu13">P. agaridevorans DSM 13557 (AJ345023)</otu>
+  <otu id="otu14">P. xinjiangensis B538T (AY839868)</otu>
+  <otu id="otu15">Strain CKOBP-67 (EF626690)</otu>
+  <otu id="otu16">P. humicus PC-147T (AM411528)</otu>
+  <otu id="otu17">P. alkaliterrae KSL-134T (AY960748)</otu>
+  <otu id="otu18">P. granivoransA3OT (AF237682)</otu>
+  <otu id="otu19" cmphy:genus="Cohnella" cmphy:species="hongkongensis" cmphy:strain="HKU3T" cmphy:id="AF433165" editRecord="[]">Cohnella hongkongensis HKU3T (AF433165)</otu>
+  <otu id="otu20">Lactobacillus delbrueckii subsp. lactis</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.37" label="NT1.37" x="522.0" y="475.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="1.0" y="607.0" root="true"/>
+   <edge id="e.13" target="NT1.37" source="NT1.39"/>
+  </tree>
+ </trees>
+</nexml>

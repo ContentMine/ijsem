@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Dongia" cmphy:species="mobilis" cmphy:strain="LM22T" cmphy:id="FJ455532" editRecord="[]"> Dongia mobilis LM22T (FJ455532)</otu>
+  <otu id="otu2" cmphy:genus="Nisaea" cmphy:species="nitritireducens" cmphy:strain="DR41_18T" cmphy:id="DQ665839" editRecord="[]">Nisaea nitritireducens DR41_18T (DQ665839)</otu>
+  <otu id="otu3" cmphy:genus="Nisaea" cmphy:species="denitrificans" cmphy:strain="DR41_21T" cmphy:id="DQ665838" editRecord="[]">Nisaea denitrificans DR41_21T (DQ665838)</otu>
+  <otu id="otu4">Oceanibaculum indicum P24T (EU6561 13)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Telmatospirillum" cmphy:species="siberiense" cmphy:strain="26-4b1T" cmphy:id="AFS24863" editRecord="[5__S]">Telmatospirillum siberiense 26-4b1T (AF524863)</otu>
+  <otu id="otu6">Phaeospirillum molischianum ATCC 14031 T (M59067)</otu>
+  <otu id="otu7" cmphy:genus="Skermanella" cmphy:species="aerolata" cmphy:strain="5416T-327" cmphy:id="DQ672568" editRecord="[]">Skermanella aerolata 5416T-327 (DQ672568)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Magnetospirillum magnetotacticum DSM 3856T (Y1 O1 10)</otu>
+  <otu id="otu10">Thalassobaculum Iitoreum CL-GR58T (EF203900)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[O__0]" cmphy:genus="Thalassobaculum" cmphy:species="salexigens" cmphy:strain="CZ41_1OaT" cmphy:id="EUO08565" editRecord="[O__0]">Thalassobaculum salexigens CZ41_1OaT (EUOO8565)</otu>
+  <otu id="otu14" cmphy:genus="Magnetospirillum" cmphy:species="gryphiswaldense" cmphy:strain="MSR-17" cmphy:id="Y10109" editRecord="[]">Magnetospirillum gryphiswaldense MSR-17 (Y10109)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Gluconacetobacter" cmphy:species="diazotrophicus" cmphy:strain="PA1 5T" cmphy:id="X75618" editRecord="[]">Gluconacetobacter diazotrophicus PA1 5T (X75618)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="67.0" y="331.0"/>
+   <node id="NT1.2" label="NT1.2" x="83.0" y="210.0"/>
+   <node id="NT1.3" x="101.0" y="137.0" label="77"/>
+   <node id="NT1.6" x="146.0" y="451.0" label="100"/>
+   <node id="NT1.9" x="186.0" y="327.0" label="93"/>
+   <node id="NT1.12" label="NT1.12" x="305.0" y="162.0" otu="otu1"/>
+   <node id="NT1.14" x="313.0" y="291.0" label="100"/>
+   <node id="NT1.15" label="NT1.15" x="314.0" y="309.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="314.0" y="271.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="316.0" y="418.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="319.0" y="126.0" otu="otu7"/>
+   <node id="NT1.27" label="NT1.27" x="325.0" y="383.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="326.0" y="492.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="331.0" y="566.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="3.0" y="448.0" root="true"/>
+   <edge id="e.3" target="NT1.20" source="NT1.3"/>
+   <edge id="e.4" target="NT1.12" source="NT1.3"/>
+   <edge id="e.7" source="NT1.14" target="NT1.15"/>
+   <edge id="e.8" source="NT1.14" target="NT1.16"/>
+   <edge id="e.10" target="NT1.27" source="NT1.9"/>
+   <edge id="e.11" source="NT1.6" target="NT1.18"/>
+   <edge id="e.14" target="NT1.28" source="NT1.6"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" source="NT1.1" target="NT1.2"/>
+   <edge id="e.22" source="NT1.1" target="NT1.6"/>
+   <edge id="e.23" target="NT1.9" source="NT1.2"/>
+   <edge id="e.25" source="NT1.9" target="NT1.14"/>
+   <edge id="e.28" source="NT1.31" target="NT1.30"/>
+   <edge id="e.29" source="NT1.31" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

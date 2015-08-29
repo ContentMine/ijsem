@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Pyrococcus" cmphy:species="furiosus" cmphy:strain="V01 T" cmphy:id="U20163" editRecord="[]">Pyrococcus furiosus V01 T (U20163)</otu>
+  <otu id="otu2" cmphy:genus="Methanocaldococcus" cmphy:species="jannaschii" cmphy:strain="JAL-1 T" cmphy:id="L77117" editRecord="[]">Methanocaldococcus jannaschii JAL-1 T (L77117)</otu>
+  <otu id="otu3" cmphy:genus="Methanocaldococcus" cmphy:species="villosus" cmphy:strain="KlN24-T80T" cmphy:id="FJ766848" editRecord="[]">Methanocaldococcus villosus KlN24-T80T (FJ766848)</otu>
+  <otu id="otu4" cmphy:genus="Methanocaldococcus" cmphy:species="infernus" cmphy:strain="MET" cmphy:id="AFO25822" editRecord="[]">Methanocaldococcus infernus MET (AFO25822)</otu>
+  <otu id="otu5" cmphy:genus="Methanocaldococcus" cmphy:species="fervens" cmphy:strain="AG86T" cmphy:id="AFO56938" editRecord="[]">Methanocaldococcus fervens AG86T (AFO56938)</otu>
+  <otu id="otu6">Methanotorris igneus Kol 5T (M591 25)</otu>
+  <otu id="otu7" cmphy:genus="Methanocaldococcus" cmphy:species="vulcanius" cmphy:strain="M7T" cmphy:id="AFO51404" editRecord="[]">Methanocaldococcus vulcanius M7T (AFO51404)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Methanocaldococcus" cmphy:species="indicus" cmphy:strain="SL43T" cmphy:id="AFS47621" editRecord="[5__S]">Methanocaldococcus indicus SL43T (AF547621)</otu>
+  <otu id="otu9">Methanothermococcus thermolithotrophicus SN-1 T (M591 28)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="176.0" y="286.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="213.0" y="167.0"/>
+   <node id="NT1.4" label="NT1.4" x="234.0" y="101.0"/>
+   <node id="NT1.5" label="NT1.5" x="254.0" y="133.0"/>
+   <node id="NT1.7" label="NT1.7" x="265.0" y="65.0"/>
+   <node id="NT1.8" label="NT1.8" x="278.0" y="32.0"/>
+   <node id="NT1.9" label="NT1.9" x="285.0" y="48.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="289.0" y="186.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="299.0" y="116.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="301.0" y="14.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="314.0" y="84.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="315.0" y="151.0" otu="otu8"/>
+   <edge id="e.0" source="NT1.7" target="NT1.14"/>
+   <edge id="e.1" source="NT1.5" target="NT1.11"/>
+   <edge id="e.2" source="NT1.5" target="NT1.15"/>
+   <edge id="e.6" source="NT1.7" target="NT1.8"/>
+   <edge id="e.7" source="NT1.4" target="NT1.7"/>
+   <edge id="e.8" source="NT1.3" target="NT1.4"/>
+   <edge id="e.9" source="NT1.4" target="NT1.5"/>
+   <edge id="e.10" target="NT1.3" source="NT1.1"/>
+   <edge id="e.12" source="NT1.3" target="NT1.10"/>
+   <edge id="e.13" source="NT1.8" target="NT1.9"/>
+   <edge id="e.14" source="NT1.8" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

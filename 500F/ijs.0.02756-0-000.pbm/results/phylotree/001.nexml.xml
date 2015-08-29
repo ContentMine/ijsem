@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Rhodococcus" cmphy:species="zopm" cmphy:strain="DSM 44108T" cmphy:id="AFI91343" editRecord="[1__I]">Rhodococcus zopm DSM 44108T (AF191343)</otu>
+  <otu id="otu3" cmphy:genus="Rhodococcus" cmphy:species="coprophilus" cmphy:strain="DSM 43347T" cmphy:id="X80626" editRecord="[]">Rhodococcus coprophilus DSM 43347T (X80626)</otu>
+  <otu id="otu4">(Rhodococcus aetherivorans( 10bc312 (AF447391)</otu>
+  <otu id="otu5">W 49377 (AY233201)</otu>
+  <otu id="otu6" cmphy:genus="Rhodococcus" cmphy:species="rhodochrous" cmphy:strain="DSM 432417" cmphy:id="X79288" editRecord="[]">Rhodococcus rhodochrous DSM 432417 (X79288)</otu>
+  <otu id="otu7">MTCC 1534 (AY223202)</otu>
+  <otu id="otu8" cmphy:genus="Rhodococcus" cmphy:species="ruber" cmphy:strain="DSM 433387" cmphy:id="X80625" editRecord="[]">Rhodococcus ruber DSM 433387 (X80625)</otu>
+  <otu id="otu9">Rhodococcus pyn'dinivorans PDB9T (AF173005)</otu>
+  <otu id="otu10" cmphy:genus="Rhodococcus" cmphy:species="rhodochrous" cmphy:strain="DSM 43274" cmphy:id="X80624" editRecord="[]">Rhodococcus rhodochrous DSM 43274 (X80624)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="1.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="61.0" y="173.0"/>
+   <node id="NT1.3" label="NT1.3" x="66.0" y="234.0"/>
+   <node id="NT1.4" label="NT1.4" x="74.0" y="193.0"/>
+   <node id="NT1.6" label="NT1.6" x="136.0" y="221.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="146.0" y="96.0" otu="otu3"/>
+   <node id="NT1.8" x="150.0" y="395.0" label="99F"/>
+   <node id="NT1.13" label="NT1.13" x="169.0" y="350.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="175.0" y="138.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="197.0" y="393.0" otu="otu10"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.4" target="NT1.6"/>
+   <edge id="e.2" source="NT1.2" target="NT1.3"/>
+   <edge id="e.4" source="NT1.3" target="NT1.4"/>
+   <edge id="e.6" target="NT1.8" source="NT1.3"/>
+   <edge id="e.10" source="NT1.2" target="NT1.7"/>
+   <edge id="e.11" source="NT1.8" target="NT1.13"/>
+   <edge id="e.13" target="NT1.15" source="NT1.4"/>
+   <edge id="e.15" target="NT1.18" source="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

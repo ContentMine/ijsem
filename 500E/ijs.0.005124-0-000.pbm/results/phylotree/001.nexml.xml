@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Tepidimicrobium xylanilyticum sp. nov. PML14T(EF522948)</otu>
+  <otu id="otu12">Tepidimicrobium ferriphilum SB91T (AY65671 8)</otu>
+  <otu id="otu13">Eubacterium angustum ATCC 43737T (L3461 2)</otu>
+  <otu id="otu14">Clostridium aCiduriCiATCC 79O6T (M59084)</otu>
+  <otu id="otu15" cmphy:genus="Tissierella" cmphy:species="praeacuta" cmphy:strain="ATCC 25539T" cmphy:id="X80833" editRecord="[]">Tissierella praeacuta ATCC 25539T (X80833)</otu>
+  <otu id="otu16">Clostridium ultunense DSM 10521 T (Z69293)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Caloranaerobacter" cmphy:species="azorensis" cmphy:strain="MV1O87T" cmphy:id="AJZ72422" editRecord="[2__Z]">Caloranaerobacter azorensis MV1O87T (AJ272422)</otu>
+  <otu id="otu18">Soehngenia saccharolytica DSM 1 2858T (AY353956)</otu>
+  <otu id="otu19">Peptostreptococcus hydrogenalis GIFU 7662T(D14140)</otu>
+  <otu id="otu20"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="137.0" y="311.0"/>
+   <node id="NT1.27" label="NT1.27" x="393.0" y="206.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="428.0" y="504.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="2.0" y="467.0" root="true"/>
+   <edge id="e.8" target="NT1.27" source="NT1.1"/>
+   <edge id="e.16" target="NT1.29" source="NT1.1"/>
+   <edge id="e.31" source="NT1.33" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

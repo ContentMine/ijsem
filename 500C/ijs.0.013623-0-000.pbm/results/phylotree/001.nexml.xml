@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Planomicrobium" cmphy:species="koreense" cmphy:strain="JG077" cmphy:id="AFI44750" editRecord="[1__I]"> Planomicrobium koreense JG077 (AF144750)</otu>
+  <otu id="otu2">Jeotgalibacillus alimentarius YKJ-1 37 (AF281 158)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Marinibacillus" cmphy:species="marinus" cmphy:strain="DSM 12977" cmphy:id="AJZ37708" editRecord="[2__Z]">Marinibacillus marinus DSM 12977 (AJ237708)</otu>
+  <otu id="otu4"> Planococcus citreus NCIMB 14937 (X621 72)</otu>
+  <otu id="otu5">Sporosarcina ureae NCIMB 92517(X62175)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Macrococcus caseolyticus ATCC 135487 (Y1571 1)</otu>
+  <otu id="otu8">Macrococcus equipercicus Kloos H8h37(Y15712)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Staphylococcus vitulinus ATCC 51 1457 (ABO09946)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Salinicoccus" cmphy:species="roseus" cmphy:strain="DSM 53517" cmphy:id="X94559" editRecord="[]">Salinicoccus roseus DSM 53517 (X94559)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Jeotgalicoccus" cmphy:species="huakuii" cmphy:strain="NY-27" cmphy:id="FJI58840" editRecord="[1__I]">Jeotgalicoccus huakuii NY-27 (FJ158840)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17">Jeotgalicoccus psychrophilus YKJ-1 157(AYO28926)</otu>
+  <otu id="otu18">Jeotgalicoccus pinnipedialis NG14l99H07(AJ25153O)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Nosocomiicoccus" cmphy:species="ampullae" cmphy:strain="TRF-17" cmphy:id="EUZ40886" editRecord="[2__Z]">Nosocomiicoccus ampullae TRF-17 (EU240886)</otu>
+  <otu id="otu20">Marinococcus halophilus NCIMB 21787(X62171)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="46.0" y="403.0"/>
+   <node id="NT1.2" label="NT1.2" x="103.0" y="620.0"/>
+   <node id="NT1.8" x="247.0" y="322.0" label="98"/>
+   <node id="NT1.9" label="NT1.9" x="263.0" y="532.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="286.0" y="644.0" otu="otu3"/>
+   <node id="NT1.13" x="297.0" y="420.0" label="97"/>
+   <node id="NT1.29" label="NT1.29" x="472.0" y="272.0" otu="otu12"/>
+   <node id="NT1.32" label="NT1.32" x="490.0" y="383.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="623.0" y="495.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="1.0" y="561.0" root="true"/>
+   <edge id="e.6" target="NT1.29" source="NT1.8"/>
+   <edge id="e.9" target="NT1.32" source="NT1.13"/>
+   <edge id="e.13" target="NT1.37" source="NT1.13"/>
+   <edge id="e.15" target="NT1.9" source="NT1.2"/>
+   <edge id="e.16" target="NT1.11" source="NT1.2"/>
+   <edge id="e.23" target="NT1.8" source="NT1.1"/>
+   <edge id="e.25" source="NT1.8" target="NT1.13"/>
+   <edge id="e.27" source="NT1.1" target="NT1.2"/>
+   <edge id="e.37" source="NT1.39" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

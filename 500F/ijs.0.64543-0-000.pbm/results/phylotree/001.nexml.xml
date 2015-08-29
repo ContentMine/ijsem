@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Fellomyces polyborus CBS 6072T (AF444411 AF189859)</otu>
+  <otu id="otu2">Cryptococcus nemorosus VKM Y-2906T (AF472628 AF472625)</otu>
+  <otu id="otu3">Cryptococcus sp. CBS 7140 (AY315665 AY315663)</otu>
+  <otu id="otu4"> Cryptococcus aureus CBS 3187 (AB035045 AB035041)</otu>
+  <otu id="otu5">Bullera japonica CBS 2013T (AF444666 AF444760)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Bullera unica CBS 82907 (AF444441 AFO75524)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Cryptococcus" cmphy:species="rajasthanensis" cmphy:strain="3-C1" cmphy:id="AMZ62981" editRecord="[2__Z]">Cryptococcus rajasthanensis 3-C1 (AM262981)</otu>
+  <otu id="otu9">Cryptococcus rajasthanensis S-15LT (AM262325 AM262324)</otu>
+  <otu id="otu10">Cryptococcus perniciosus VKM Y-2905T (AF472627 AF472624)</otu>
+  <otu id="otu11">Bullera pseudoalba CBS 7227 (AF444399 AF075504)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"> Cntptococcus flavescens CBS 942T (ABO35046 ABO35042)</otu>
+  <otu id="otu14">Bulleromyces albus CBS 501T (AF444368 AFO75500)</otu>
+  <otu id="otu15">Tremella encephala CBS 6968 (AF410474. AF189867)</otu>
+  <otu id="otu16">Cryptococcus taeanensis KCTC 17149T (AY686645 AY422719)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.21" label="NT1.21" x="207.0" y="453.0" otu="otu8"/>
+   <node id="NT1.31" label="NT1.31" x="1.0" y="677.0" root="true"/>
+   <edge id="e.9" target="NT1.21" source="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

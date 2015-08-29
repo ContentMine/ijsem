@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Pichia" cmphy:species="kudriavzevii" cmphy:strain="NRRL Y-5396T" cmphy:id="EFS50222" editRecord="[5__S]">Pichia kudriavzevii NRRL Y-5396T (EF550222)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Pichia" cmphy:species="membranaefaciens" cmphy:strain="NRRL Y-2O26T" cmphy:id="EFS50227" editRecord="[5__S]">Pichia membranaefaciens NRRL Y-2O26T (EF550227)</otu>
+  <otu id="otu4">Pichia Sp. NRRL YB-4149 (EF550224)</otu>
+  <otu id="otu5">Candida ethanolica NRRL Y-12615T(EF55O225)</otu>
+  <otu id="otu6">Pichia manshurica NRRL Y-1 7349 (EF550228)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="394.0" y="337.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="428.0" y="291.0"/>
+   <node id="NT1.3" label="NT1.3" x="518.0" y="336.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="581.0" y="228.0" otu="otu3"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.2" target="NT1.3"/>
+   <edge id="e.6" target="NT1.7" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Desulfonatronovibrio" cmphy:species="hydrogenovorans" cmphy:strain="DSM 9292T" cmphy:id="X99234" editRecord="[]">Desulfonatronovibrio hydrogenovorans DSM 9292T (X99234)</otu>
+  <otu id="otu2" cmphy:genus="Desulfofaba" cmphy:species="gelida" cmphy:strain="DSM 123447" cmphy:id="AFO99063" editRecord="[]"> Desulfofaba gelida DSM 123447 (AFO99063)</otu>
+  <otu id="otu3" cmphy:genus="Desulfosarcina" cmphy:species="variabilis" cmphy:strain="DSM 20607" cmphy:id="M34407" editRecord="[]"> Desulfosarcina variabilis DSM 20607 (M34407)</otu>
+  <otu id="otu4">Desulfonema magnum DSM 2077T (U4598Q)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Desulfomusa" cmphy:species="hansenii" cmphy:strain="DSM 126427" cmphy:id="AFB21820" editRecord="[3__B]">Desulfomusa hansenii DSM 126427 (AF321820)</otu>
+  <otu id="otu6">Strain AK-01 (AF141328)</otu>
+  <otu id="otu7" cmphy:genus="Desulfococcus" cmphy:species="multivorans" cmphy:strain="DSM 2O59T" cmphy:id="AF418173" editRecord="[]">Desulfococcus multivorans DSM 2O59T (AF418173)</otu>
+  <otu id="otu8">Strain PF2803T (AY493562)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Desulfocella" cmphy:species="halophila" cmphy:strain="DSM 117637" cmphy:id="AFO22936" editRecord="[0__O]">Desulfocella halophila DSM 117637 (AF022936)</otu>
+  <otu id="otu10">Desulfonema Iimicola DSM 2O76T (U45990)</otu>
+  <otu id="otu11" cmphy:genus="Desulfobacula" cmphy:species="toluolica" cmphy:strain="DSM 74677" cmphy:id="X70953" editRecord="[]">Desulfobacula toluolica DSM 74677 (X70953)</otu>
+  <otu id="otu12" cmphy:genus="Desulfobacter" cmphy:species="vibrioformis" cmphy:strain="DSM 8776T" cmphy:id="U12254" editRecord="[]">Desulfobacter vibrioformis DSM 8776T (U12254)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="170.0" y="394.0"/>
+   <node id="NT1.2" label="NT1.2" x="172.0" y="500.0" otu="otu1"/>
+   <node id="NT1.3" x="182.0" y="326.0" label="54"/>
+   <node id="NT1.4" x="218.0" y="252.0" label="97"/>
+   <node id="NT1.5" label="NT1.5" x="251.0" y="186.0"/>
+   <node id="NT1.8" x="276.0" y="316.0" label="100"/>
+   <node id="NT1.10" x="334.0" y="398.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="338.0" y="337.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="356.0" y="255.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="369.0" y="296.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="375.0" y="175.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="403.0" y="458.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="419.0" y="418.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="437.0" y="377.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="5.0" y="447.0" root="true"/>
+   <edge id="e.2" target="NT1.17" source="NT1.5"/>
+   <edge id="e.4" source="NT1.8" target="NT1.11"/>
+   <edge id="e.5" source="NT1.8" target="NT1.15"/>
+   <edge id="e.6" source="NT1.10" target="NT1.21"/>
+   <edge id="e.7" source="NT1.10" target="NT1.22"/>
+   <edge id="e.11" source="NT1.4" target="NT1.5"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" source="NT1.4" target="NT1.8"/>
+   <edge id="e.15" source="NT1.1" target="NT1.3"/>
+   <edge id="e.16" source="NT1.23" target="NT1.2"/>
+   <edge id="e.17" source="NT1.23" target="NT1.1"/>
+   <edge id="e.18" source="NT1.1" target="NT1.19"/>
+   <edge id="e.19" source="NT1.3" target="NT1.10"/>
+   <edge id="e.20" source="NT1.5" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Gluconacetobacter" cmphy:species="liquefacfens" cmphy:strain="NBRC 123887" cmphy:id="X75617" editRecord="[]">Gluconacetobacter liquefacfens NBRC 123887 (X75617)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Asaia" cmphy:species="bogorensis" cmphy:strain="NRIC 0311T" cmphy:id="ABO25928" editRecord="[0__O]">Asaia bogorensis NRIC 0311T (AB025928)</otu>
+  <otu id="otu3" cmphy:genus="Asaia" cmphy:species="siamensis" cmphy:strain="NRIC 03237" cmphy:id="ABO35416" editRecord="[]">Asaia siamensis NRIC 03237 (ABO35416)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Acidomonas" cmphy:species="methanolica" cmphy:strain="NRIC 04987" cmphy:id="ABI10702" editRecord="[1__I]">Acidomonas methanolica NRIC 04987 (AB110702)</otu>
+  <otu id="otu5">Acidomonas methanolica TS 0131 (AB1 1 0711)</otu>
+  <otu id="otu6">Acidomonas methanolica TS 0114 (AB110T07)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Acidomonas" cmphy:species="methanolica" cmphy:strain="LMG 1735" cmphy:id="ABI10705" editRecord="[1__I]">Acidomonas methanolica LMG 1735 (AB110705)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Kozakia" cmphy:species="baliensis" cmphy:strain="NRIC 04887" cmphy:id="ABO56321" editRecord="[0__O]">Kozakia baliensis NRIC 04887 (AB056321)</otu>
+  <otu id="otu9" cmphy:genus="Acidiphilium" cmphy:species="cryptum" cmphy:strain="ATCC 334637" cmphy:id="D30773" editRecord="[]">Acidiphilium cryptum ATCC 334637 (D30773)</otu>
+  <otu id="otu10" cmphy:genus="Gluconacelobacter" cmphy:species="xylinus" cmphy:strain="NBRC 15237T" cmphy:id="X75619" editRecord="[]">Gluconacelobacter xylinus NBRC 15237T (X75619)</otu>
+  <otu id="otu11" cmphy:genus="Acetobacter" cmphy:species="aceti" cmphy:strain="NBRC 148187" cmphy:id="X74066" editRecord="[]">Acetobacter aceti NBRC 148187 (X74066)</otu>
+  <otu id="otu12" cmphy:genus="Gluconobacter" cmphy:species="oxydans" cmphy:strain="NCIB 90137" cmphy:id="X73820" editRecord="[]">Gluconobacter oxydans NCIB 90137 (X73820)</otu>
+  <otu id="otu13">Acetobacterpasteurianus LMG 12627 (X71863)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="244.0" y="501.0"/>
+   <node id="NT1.2" label="NT1.2" x="273.0" y="688.0"/>
+   <node id="NT1.3" label="NT1.3" x="300.0" y="715.0"/>
+   <node id="NT1.4" label="NT1.4" x="335.0" y="625.0"/>
+   <node id="NT1.6" label="NT1.6" x="448.0" y="499.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="472.0" y="579.0"/>
+   <node id="NT1.8" label="NT1.8" x="473.0" y="568.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="500.0" y="603.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="510.0" y="259.0"/>
+   <node id="NT1.13" label="NT1.13" x="511.0" y="16.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="511.0" y="289.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="527.0" y="639.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="539.0" y="776.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="555.0" y="533.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="611.0" y="671.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="641.0" y="740.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="4.0" y="664.0" root="true"/>
+   <edge id="e.0" source="NT1.11" target="NT1.13"/>
+   <edge id="e.3" source="NT1.1" target="NT1.6"/>
+   <edge id="e.4" source="NT1.1" target="NT1.19"/>
+   <edge id="e.5" source="NT1.7" target="NT1.8"/>
+   <edge id="e.6" source="NT1.7" target="NT1.9"/>
+   <edge id="e.7" source="NT1.4" target="NT1.17"/>
+   <edge id="e.8" target="NT1.20" source="NT1.3"/>
+   <edge id="e.10" target="NT1.11" source="NT1.1"/>
+   <edge id="e.11" source="NT1.11" target="NT1.16"/>
+   <edge id="e.13" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" source="NT1.2" target="NT1.4"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.4" target="NT1.7"/>
+   <edge id="e.18" source="NT1.23" target="NT1.18"/>
+   <edge id="e.19" source="NT1.23" target="NT1.1"/>
+   <edge id="e.21" source="NT1.3" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

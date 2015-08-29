@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Geobacillus" cmphy:species="stearothermophilus" cmphy:strain="DSM 22T" cmphy:id="AJZ94817" editRecord="[2__Z]">Geobacillus stearothermophilus DSM 22T (AJ294817)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="DSM 10T" cmphy:id="AJZ76351" editRecord="[2__Z]">Bacillus subtilis DSM 10T (AJ276351)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Thermoactinomyces" cmphy:species="vulgaris" cmphy:strain="KCTC 9557" cmphy:id="AFI38732" editRecord="[1__I]">Thermoactinomyces vulgaris KCTC 9557 (AF138732)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Thermoactinomyces" cmphy:species="vulgaris" cmphy:strain="KCTC 90767" cmphy:id="AFI38739" editRecord="[1__I]">Thermoactinomyces vulgaris KCTC 90767 (AF138739)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Thermoactinomyces" cmphy:species="intermedius" cmphy:strain="KCTC 9646T" cmphy:id="AFI38734" editRecord="[1__I]">Thermoactinomyces intermedius KCTC 9646T (AF138734)</otu>
+  <otu id="otu6">700375 (AB088361)</otu>
+  <otu id="otu7">5002757 (AB088362)</otu>
+  <otu id="otu8">C0170 (ABO88363)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Laceyella" cmphy:species="sacchari" cmphy:strain="KCTC 97907" cmphy:id="AFI38737" editRecord="[1__I]">Laceyella sacchari KCTC 97907 (AF138737)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Laceyella" cmphy:species="sacchari" cmphy:strain="KCTC 9789" cmphy:id="AFI38738" editRecord="[1__I]">Laceyella sacchari KCTC 9789 (AF138738)</otu>
+  <otu id="otu11">H0165T (ABOBB364)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Thermoflavimicrobium" cmphy:species="dichotomicum" cmphy:strain="KCTC 3667T" cmphy:id="AFI38733" editRecord="[1__I]">Thermoflavimicrobium dichotomicum KCTC 3667T (AF138733)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Laceyella" cmphy:species="putida" cmphy:strain="KCTC 36667" cmphy:id="AFI38736" editRecord="[1__I]">Laceyella putida KCTC 36667 (AF138736)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Seinonella" cmphy:species="peptonophila" cmphy:strain="KCTC 9740T" cmphy:id="AFI38736" editRecord="[1__I]">Seinonella peptonophila KCTC 9740T (AF138736)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="51.0"/>
+   <node id="NT1.3" label="NT1.3" x="168.0" y="276.0"/>
+   <node id="NT1.4" label="NT1.4" x="190.0" y="341.0"/>
+   <node id="NT1.5" label="NT1.5" x="199.0" y="404.0"/>
+   <node id="NT1.6" label="NT1.6" x="206.0" y="51.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="270.0" y="462.0"/>
+   <node id="NT1.8" label="NT1.8" x="301.0" y="13.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="305.0" y="348.0"/>
+   <node id="NT1.11" x="319.0" y="375.0" label="100"/>
+   <node id="NT1.12" label="NT1.12" x="320.0" y="356.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="320.0" y="396.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="327.0" y="319.0" otu="otu5"/>
+   <node id="NT1.15" x="349.0" y="491.0" label="100"/>
+   <node id="NT1.21" label="NT1.21" x="368.0" y="471.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="368.0" y="512.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="370.0" y="242.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="378.0" y="434.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="508.0" y="281.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="6.0" y="53.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.6"/>
+   <edge id="e.2" source="NT1.3" target="NT1.24"/>
+   <edge id="e.3" source="NT1.11" target="NT1.12"/>
+   <edge id="e.4" source="NT1.11" target="NT1.13"/>
+   <edge id="e.5" source="NT1.15" target="NT1.21"/>
+   <edge id="e.6" source="NT1.15" target="NT1.22"/>
+   <edge id="e.7" target="NT1.3" source="NT1.27"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.10" source="NT1.4" target="NT1.5"/>
+   <edge id="e.11" source="NT1.5" target="NT1.7"/>
+   <edge id="e.12" source="NT1.5" target="NT1.9"/>
+   <edge id="e.14" source="NT1.7" target="NT1.15"/>
+   <edge id="e.17" source="NT1.9" target="NT1.11"/>
+   <edge id="e.18" source="NT1.27" target="NT1.1"/>
+   <edge id="e.20" source="NT1.1" target="NT1.8"/>
+   <edge id="e.21" source="NT1.9" target="NT1.14"/>
+   <edge id="e.22" source="NT1.4" target="NT1.26"/>
+   <edge id="e.23" source="NT1.7" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

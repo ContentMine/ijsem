@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Devosia" cmphy:species="geojensis" cmphy:strain="BD-c194T" cmphy:id="EFS75560" editRecord="[5__S]">Devosia geojensis BD-c194T (EF575560)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">Devosia chfnhatensis lPL18T(EF433462)</otu>
+  <otu id="otu15" cmphy:edit="[3__B]" cmphy:genus="Devosia" cmphy:species="yakushimensis" cmphy:strain="Yak96BT" cmphy:id="ABB61068" editRecord="[3__B]"> Devosia yakushimensis Yak96BT (AB361068)</otu>
+  <otu id="otu16">Devosia insulae DS-56T(EFO12357)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Blastochloris sulfoviridis DSM 729T(D86514)</otu>
+  <otu id="otu19" cmphy:genus="Blastochloris" cmphy:species="viridis" cmphy:strain="ATCC 19567" cmphy:id="D25314" editRecord="[]">Blastochloris viridis ATCC 19567 (D25314)</otu>
+  <otu id="otu20" cmphy:edit="[5__S]" cmphy:genus="Devosia" cmphy:species="riboflavina" cmphy:strain="DSM 723OT" cmphy:id="AJS49086" editRecord="[5__S]">Devosia riboflavina DSM 723OT (AJ549086)</otu>
+  <otu id="otu21" cmphy:genus="Devosia" cmphy:species="neptuniae" cmphy:strain="J1T" cmphy:id="AF469072" editRecord="[]">Devosia neptuniae J1T (AF469072)</otu>
+  <otu id="otu22" cmphy:edit="[2__Z]" cmphy:genus="Devosia" cmphy:species="subaequoris" cmphy:strain="HST3-14T" cmphy:id="AMZ923857" editRecord="[2__Z]">Devosia subaequoris HST3-14T (AM2923857)</otu>
+  <otu id="otu23" cmphy:genus="Devosia" cmphy:species="limi" cmphy:strain="LMG 22951T" cmphy:id="AJ786801" editRecord="[]">Devosia limi LMG 22951T (AJ786801)</otu>
+  <otu id="otu24">Devosia soliGH2-1OT(DO303125)</otu>
+  <otu id="otu25">Candidatus Devosia eupI01is' LIV5 (AJ548825)</otu>
+  <otu id="otu26">Candidatus Devosia euplotis' CO (AJ548823)</otu>
+  <otu id="otu27">(Candidatus Devosia eupIotis' CAMP4.4 (AJ548824)</otu>
+  <otu id="otu28">Rhodoplanes elegans AS1307 (D2531 1)</otu>
+  <otu id="otu29">Rhodomicrobium vannieIiiTUT 3402 (AB250621)</otu>
+  <otu id="otu30">Sphingomonas paucimobilis NBRC 139357</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="93.0" y="572.0"/>
+   <node id="NT1.5" label="NT1.5" x="368.0" y="493.0"/>
+   <node id="NT1.13" label="NT1.13" x="499.0" y="255.0"/>
+   <node id="NT1.14" label="NT1.14" x="508.0" y="169.0"/>
+   <node id="NT1.18" label="NT1.18" x="530.0" y="342.0"/>
+   <node id="NT1.20" label="NT1.20" x="550.0" y="230.0"/>
+   <node id="NT1.23" label="NT1.23" x="559.0" y="555.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="624.0" y="256.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="672.0" y="755.0" otu="otu19"/>
+   <node id="NT1.36" label="NT1.36" x="678.0" y="355.0" otu="otu20"/>
+   <node id="NT1.37" label="NT1.37" x="690.0" y="205.0" otu="otu21"/>
+   <node id="NT1.38" label="NT1.38" x="709.0" y="305.0" otu="otu22"/>
+   <node id="NT1.39" label="NT1.39" x="715.0" y="156.0" otu="otu23"/>
+   <node id="NT1.48" label="NT1.48" x="8.0" y="688.0" root="true"/>
+   <edge id="e.5" target="NT1.39" source="NT1.14"/>
+   <edge id="e.8" target="NT1.30" source="NT1.20"/>
+   <edge id="e.11" source="NT1.20" target="NT1.37"/>
+   <edge id="e.14" target="NT1.36" source="NT1.18"/>
+   <edge id="e.15" source="NT1.18" target="NT1.38"/>
+   <edge id="e.24" target="NT1.35" source="NT1.1"/>
+   <edge id="e.30" source="NT1.13" target="NT1.14"/>
+   <edge id="e.31" source="NT1.14" target="NT1.20"/>
+   <edge id="e.32" target="NT1.13" source="NT1.5"/>
+   <edge id="e.33" source="NT1.13" target="NT1.18"/>
+   <edge id="e.38" source="NT1.1" target="NT1.5"/>
+   <edge id="e.43" source="NT1.48" target="NT1.1"/>
+   <edge id="e.44" source="NT1.5" target="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

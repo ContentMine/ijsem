@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Pandoraea" cmphy:species="apista" cmphy:strain="HI2804" cmphy:id="AF439534" editRecord="[]">Pandoraea apista HI2804 (AF439534)</otu>
+  <otu id="otu2" cmphy:genus="Pandoraea" cmphy:species="apista" cmphy:strain="Hl2801" cmphy:id="AF439531" editRecord="[]">Pandoraea apista Hl2801 (AF439531)</otu>
+  <otu id="otu3">Pandoraea genomospecies 4 LMG 20603T (AF439536)</otu>
+  <otu id="otu4" cmphy:genus="Pandoraea" cmphy:species="norimbergensis" cmphy:strain="HI2751" cmphy:id="AF439526" editRecord="[]">Pandoraea norimbergensis HI2751 (AF439526)</otu>
+  <otu id="otu5">Pandoraea norimbergensis LMG 18379T(AF439529)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Pandoraea" cmphy:species="sputorum" cmphy:strain="CCM 49807" cmphy:id="ABS53288" editRecord="[5__S]">Pandoraea sputorum CCM 49807 (AB553288)</otu>
+  <otu id="otu7" cmphy:genus="Pandoraea" cmphy:species="oxalativorans" cmphy:strain="TA2" cmphy:id="AB469784" editRecord="[]">Pandoraea oxalativorans TA2 (AB469784)</otu>
+  <otu id="otu8" cmphy:genus="Pandoraea" cmphy:species="oxalativorans" cmphy:strain="TA25T" cmphy:id="AB469785" editRecord="[]">Pandoraea oxalativorans TA25T (AB469785)</otu>
+  <otu id="otu9">Pandoraea genomospecies 2 LMG 206017 (AF439533)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Pandoraea" cmphy:species="faecigallinarum" cmphy:strain="K0xT" cmphy:id="ABS10957" editRecord="[5__S]">Pandoraea faecigallinarum K0xT (AB510957)</otu>
+  <otu id="otu11" cmphy:genus="Pandoraea" cmphy:species="sputorum" cmphy:strain="LMG 188197" cmphy:id="AF439524" editRecord="[]">Pandoraea sputorum LMG 188197 (AF439524)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Pandoraea" cmphy:species="vervacti" cmphy:strain="NS15T" cmphy:id="ABS10956" editRecord="[5__S]">Pandoraea vervacti NS15T (AB510956)</otu>
+  <otu id="otu13" cmphy:genus="Pandoraea" cmphy:species="pulmonicola" cmphy:strain="LMG 181067" cmphy:id="AF439525" editRecord="[]">Pandoraea pulmonicola LMG 181067 (AF439525)</otu>
+  <otu id="otu14">Pandoraea genomospecies 3 LMG 208027 (AF439535)</otu>
+  <otu id="otu15" cmphy:genus="Pandoraea" cmphy:species="pnomenusa" cmphy:strain="Hl2802" cmphy:id="AF439532" editRecord="[]">Pandoraea pnomenusa Hl2802 (AF439532)</otu>
+  <otu id="otu16" cmphy:genus="Pandoraea" cmphy:species="pnomenusa" cmphy:strain="LMG 18087T" cmphy:id="AF439528" editRecord="[]">Pandoraea pnomenusa LMG 18087T (AF439528)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Pandoraea" cmphy:species="pnomenusa" cmphy:strain="CCM 49787" cmphy:id="ABS53289" editRecord="[5__S]">Pandoraea pnomenusa CCM 49787 (AB553289)</otu>
+  <otu id="otu18" cmphy:genus="Burkholderia" cmphy:species="xenovorans" cmphy:strain="NRRL B-180647" cmphy:id="NC_007951" editRecord="[]">Burkholderia xenovorans NRRL B-180647 (NC_007951)</otu>
+  <otu id="otu19" cmphy:genus="Pandoraea" cmphy:species="pnomenusa" cmphy:strain="HI280O" cmphy:id="AF439530" editRecord="[]">Pandoraea pnomenusa HI280O (AF439530)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="160.0" y="878.0"/>
+   <node id="NT1.2" label="NT1.2" x="296.0" y="759.0"/>
+   <node id="NT1.4" label="NT1.4" x="377.0" y="534.0"/>
+   <node id="NT1.5" label="NT1.5" x="444.0" y="360.0"/>
+   <node id="NT1.7" label="NT1.7" x="471.0" y="478.0"/>
+   <node id="NT1.8" label="NT1.8" x="473.0" y="866.0"/>
+   <node id="NT1.9" label="NT1.9" x="474.0" y="813.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="474.0" y="920.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="547.0" y="415.0"/>
+   <node id="NT1.13" x="550.0" y="142.0" label="92"/>
+   <node id="NT1.15" label="NT1.15" x="607.0" y="972.0" otu="otu4"/>
+   <node id="NT1.17" x="635.0" y="214.0" label="100"/>
+   <node id="NT1.18" label="NT1.18" x="639.0" y="175.0" otu="otu6"/>
+   <node id="NT1.19" x="640.0" y="69.0" label="100"/>
+   <node id="NT1.20" label="NT1.20" x="641.0" y="14.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="641.0" y="122.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="657.0" y="388.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="665.0" y="282.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="675.0" y="441.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="699.0" y="707.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="716.0" y="540.0"/>
+   <node id="NT1.29" label="NT1.29" x="734.0" y="587.0"/>
+   <node id="NT1.31" label="NT1.31" x="742.0" y="547.0" otu="otu15"/>
+   <node id="NT1.32" x="758.0" y="627.0" label="91"/>
+   <node id="NT1.33" label="NT1.33" x="759.0" y="654.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="759.0" y="600.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="879.0" y="1080.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="882.0" y="494.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="3.0" y="1055.0" root="true"/>
+   <edge id="e.0" source="NT1.19" target="NT1.20"/>
+   <edge id="e.1" source="NT1.19" target="NT1.21"/>
+   <edge id="e.3" target="NT1.25" source="NT1.17"/>
+   <edge id="e.5" source="NT1.12" target="NT1.24"/>
+   <edge id="e.6" source="NT1.32" target="NT1.33"/>
+   <edge id="e.7" source="NT1.32" target="NT1.34"/>
+   <edge id="e.8" source="NT1.28" target="NT1.36"/>
+   <edge id="e.9" source="NT1.4" target="NT1.27"/>
+   <edge id="e.10" source="NT1.8" target="NT1.9"/>
+   <edge id="e.11" source="NT1.8" target="NT1.10"/>
+   <edge id="e.12" target="NT1.15" source="NT1.1"/>
+   <edge id="e.14" source="NT1.13" target="NT1.19"/>
+   <edge id="e.15" target="NT1.13" source="NT1.5"/>
+   <edge id="e.16" source="NT1.13" target="NT1.17"/>
+   <edge id="e.19" source="NT1.4" target="NT1.5"/>
+   <edge id="e.20" source="NT1.5" target="NT1.7"/>
+   <edge id="e.21" source="NT1.7" target="NT1.28"/>
+   <edge id="e.22" source="NT1.7" target="NT1.12"/>
+   <edge id="e.23" target="NT1.4" source="NT1.2"/>
+   <edge id="e.25" source="NT1.28" target="NT1.29"/>
+   <edge id="e.26" source="NT1.29" target="NT1.32"/>
+   <edge id="e.27" source="NT1.1" target="NT1.2"/>
+   <edge id="e.28" source="NT1.2" target="NT1.8"/>
+   <edge id="e.30" source="NT1.37" target="NT1.35"/>
+   <edge id="e.31" source="NT1.37" target="NT1.1"/>
+   <edge id="e.33" source="NT1.12" target="NT1.26"/>
+   <edge id="e.34" source="NT1.17" target="NT1.18"/>
+   <edge id="e.35" source="NT1.29" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

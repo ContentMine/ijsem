@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Actinocorallia" cmphy:species="glomerata" cmphy:strain="IMSNU 22179T" cmphy:id="AJZ93704" editRecord="[2__Z]">Actinocorallia glomerata IMSNU 22179T (AJ293704)</otu>
+  <otu id="otu3">Actinocorallia Iongicatena IMSNU 2218OT (AJ293707)</otu>
+  <otu id="otu4" cmphy:genus="Actinocorallia" cmphy:species="herbida" cmphy:strain="IFO15485T" cmphy:id="D85473" editRecord="[]">Actinocorallia herbida IFO15485T (D85473)</otu>
+  <otu id="otu5">Actinocorallia Iibanotica IFO 14O95T (U49007)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Actinocorallia" cmphy:species="aurantiaca" cmphy:strain="IMSNU 22193T" cmphy:id="AJZ93701" editRecord="[2__Z]">Actinocorallia aurantiaca IMSNU 22193T (AJ293701)</otu>
+  <otu id="otu7" cmphy:genus="Actinocorallia" cmphy:species="cavernae" cmphy:strain="N3-7T" cmphy:id="AY966427" editRecord="[]">Actinocorallia cavernae N3-7T (AY966427)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="259.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="52.0" y="259.0"/>
+   <node id="NT1.3" x="65.0" y="389.0" label="55"/>
+   <node id="NT1.4" label="NT1.4" x="109.0" y="129.0"/>
+   <node id="NT1.7" label="NT1.7" x="196.0" y="279.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="264.0" y="192.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="284.0" y="104.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="302.0" y="457.0" otu="otu7"/>
+   <edge id="e.1" target="NT1.11" source="NT1.4"/>
+   <edge id="e.2" source="NT1.4" target="NT1.9"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" target="NT1.7" source="NT1.3"/>
+   <edge id="e.6" source="NT1.3" target="NT1.12"/>
+   <edge id="e.8" source="NT1.2" target="NT1.4"/>
+   <edge id="e.9" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

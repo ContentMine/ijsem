@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> V. mediterranei CIP 103203T (X74710)</otu>
+  <otu id="otu3">V. tubiashii ATCC 191 O97 (X74725)</otu>
+  <otu id="otu4"> V. shilonii ATCC BAA-91T(AF007115)</otu>
+  <otu id="otu5"> LMG 21349 (AJ440004)</otu>
+  <otu id="otu6">V. nereis ATCC 25917T (X74716)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"> V. diabolicus LMG 19805T (X99762)</otu>
+  <otu id="otu9" cmphy:genus="v." cmphy:species="mytili" cmphy:strain="LMG 19157T" cmphy:id="X99761">v. mytili LMG 19157T (X99761)</otu>
+  <otu id="otu10"> YB1T (AJ440005)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="578.0" otu="otu1" root="true"/>
+   <node id="NT1.17" label="NT1.17" x="357.0" y="342.0" otu="otu9"/>
+   <edge id="e.6" target="NT1.17" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

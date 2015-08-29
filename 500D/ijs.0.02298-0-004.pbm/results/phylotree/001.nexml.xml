@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> Ideonella dechloratans (X72724)</otu>
+  <otu id="otu3"> Rubrivivax gelatinosus ATCC 1701 1T (D16213)</otu>
+  <otu id="otu4"> Leptothrix mobilis Feox-17 (X97071 )</otu>
+  <otu id="otu5">Ralstonia eutropha DS185 (Y 1 0825)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Aquaspirillum" cmphy:species="gracile" cmphy:strain="ATCC 196247" cmphy:id="AFO78753" editRecord="[0__O]">Aquaspirillum gracile ATCC 196247 (AF078753)</otu>
+  <otu id="otu8" cmphy:genus="Brachymonas" cmphy:species="denitrificans" cmphy:strain="AS-P17" cmphy:id="D14320" editRecord="[]">Brachymonas denitrificans AS-P17 (D14320)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"> Rhodoferax ferrireducens T1187(AF435948)</otu>
+  <otu id="otu12" cmphy:edit="[O__0]" cmphy:genus="Comamanas" cmphy:species="testosteroni" cmphy:strain="MBIC 3840" cmphy:id="ABO07996" editRecord="[O__0]">Comamanas testosteroni MBIC 3840 (ABOO7996)</otu>
+  <otu id="otu13" cmphy:genus="Telluria" cmphy:species="mixta" cmphy:strain="ACM17" cmphy:id="X65589" editRecord="[]">Telluria mixta ACM17 (X65589)</otu>
+  <otu id="otu14" cmphy:genus="Xylophilus" cmphy:species="ampelinus" cmphy:strain="DSM 72507" cmphy:id="AJ420330" editRecord="[]">Xylophilus ampelinus DSM 72507 (AJ420330)</otu>
+  <otu id="otu15"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.4" label="NT1.4" x="485.0" y="723.0"/>
+   <node id="NT1.6" label="NT1.6" x="517.0" y="841.0"/>
+   <node id="NT1.7" x="521.0" y="651.0" label="99"/>
+   <node id="NT1.20" label="NT1.20" x="606.0" y="814.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="608.0" y="632.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="626.0" y="669.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="631.0" y="378.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="631.0" y="887.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="405.0" y="528.0" root="true"/>
+   <edge id="e.1" target="NT1.26" source="NT1.29"/>
+   <edge id="e.7" source="NT1.7" target="NT1.21"/>
+   <edge id="e.8" source="NT1.7" target="NT1.25"/>
+   <edge id="e.9" source="NT1.6" target="NT1.20"/>
+   <edge id="e.13" target="NT1.27" source="NT1.6"/>
+   <edge id="e.16" target="NT1.4" source="NT1.29"/>
+   <edge id="e.19" source="NT1.4" target="NT1.7"/>
+   <edge id="e.22" target="NT1.6" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

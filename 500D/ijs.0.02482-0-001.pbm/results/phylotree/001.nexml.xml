@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Thiomonas" cmphy:species="thermasulfata" cmphy:strain="ATCC 515207" cmphy:id="U27839" editRecord="[]">Thiomonas thermasulfata ATCC 515207 (U27839)</otu>
+  <otu id="otu2">Tepidimonas igmzva</otu>
+  <otu id="otu3">Wseudomonas) saccharaphila</otu>
+  <otu id="otu4">Rubrivivax ge atinosus</otu>
+  <otu id="otu5">Delftia acidovorans</otu>
+  <otu id="otu6">1Aquaspirillum1 sinuosum</otu>
+  <otu id="otu7">(Aquaspirillum1 gracile</otu>
+  <otu id="otu8" cmphy:genus="Ramlibacter" cmphy:species="henchireusis" cmphy:strain="TMB8347" cmphy:id="AF439400" editRecord="[]">Ramlibacter henchireusis TMB8347 (AF439400)</otu>
+  <otu id="otu9">Ramlibacter tataouinensis</otu>
+  <otu id="otu10">Brachymonas denitrzficans</otu>
+  <otu id="otu11">Variovoraxparadoxus</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">Aquaspirillum1 delicatum</otu>
+  <otu id="otu15">Pseudomonas1 lanceolata ATCC 146697 (ABO21390)</otu>
+  <otu id="otu16">7Acidovorax wohlfahrtif B2i74 (AJ400840)</otu>
+  <otu id="otu17">Comamonas testosteroni NCIMB 98727 (AP 172067)</otu>
+  <otu id="otu18">Rhodoferaxfermentans</otu>
+  <otu id="otu19">Rhodoferax antarcticus</otu>
+  <otu id="otu20">Xenophilus azovorans</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">Hydrogenophaga pa leronii</otu>
+  <otu id="otu23">(Aquaspirillum) metamorphum</otu>
+  <otu id="otu24">1Aquaspt'rillum1 psychrophilum LMG 5408</otu>
+  <otu id="otu25">Acidovorax avenue subsp. avenae</otu>
+  <otu id="otu26">Hydrogeno</otu>
+  <otu id="otu27">Acidovarax anthurii</otu>
+  <otu id="otu28">Acidovorax korjaci</otu>
+  <otu id="otu29"/>
+  <otu id="otu30">Hydrogenophaga pseudoflava</otu>
+  <otu id="otu31" cmphy:edit="[2__Z]" cmphy:genus="Comamonas" cmphy:species="denitrificans" cmphy:strain="110" cmphy:id="AFZ33876" editRecord="[2__Z]">Comamonas denitrificans 110 (AF233876)</otu>
+  <otu id="otu32">Hydrogenophaga taeniospiralis</otu>
+  <otu id="otu33">Acidovorax tempemns</otu>
+  <otu id="otu34"/>
+  <otu id="otu35">Acidovoraxfacilis</otu>
+  <otu id="otu36">Acidovorax defluvii</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="256.0" y="1157.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="410.0" y="809.0"/>
+   <node id="NT1.31" label="NT1.31" x="608.0" y="1024.0" otu="otu8"/>
+   <node id="NT1.60" label="NT1.60" x="747.0" y="923.0" otu="otu31"/>
+   <node id="NT1.68" label="NT1.68" x="157.0" y="1139.0" root="true"/>
+   <edge id="e.15" target="NT1.6" source="NT1.68"/>
+   <edge id="e.38" source="NT1.68" target="NT1.2"/>
+   <edge id="e.47" target="NT1.31" source="NT1.6"/>
+   <edge id="e.61" target="NT1.60" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Hymenobacter" cmphy:species="ocellatus" cmphy:strain="Myx21O5T" cmphy:id="Y18835" editRecord="[]">Hymenobacter ocellatus Myx21O5T (Y18835)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Marivirga" cmphy:species="tractuosa" cmphy:strain="NBRC 159897" cmphy:id="ABO78082" editRecord="[0__O]">Marivirga tractuosa NBRC 159897 (AB078082)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Marivirga" cmphy:species="sericea" cmphy:strain="NBRC 15983T" cmphy:id="ABO78081" editRecord="[0__O]">Marivirga sericea NBRC 15983T (AB078081)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Marinoscillum" cmphy:species="furvescens" cmphy:strain="NBRC 159947" cmphy:id="ABO78079" editRecord="[0__O]">Marinoscillum furvescens NBRC 159947 (AB078079)</otu>
+  <otu id="otu5">Rose-ivirga echinicomitans KMM 60587 (AY753206)</otu>
+  <otu id="otu6" cmphy:genus="Cesiribacter" cmphy:species="roseus" cmphy:strain="31 17" cmphy:id="HM775387" editRecord="[]">Cesiribacter roseus 31 17 (HM775387)</otu>
+  <otu id="otu7">Cesiribacter andamanensis AMV16T(FN396961)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Aureibacter" cmphy:species="tunicatorum" cmphy:strain="A50-1 18T" cmphy:id="ABS72584" editRecord="[5__S]">Aureibacter tunicatorum A50-1 18T (AB572584)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Persicobacter" cmphy:species="diffluens" cmphy:strain="NBRC 159407" cmphy:id="ABZ60929" editRecord="[2__Z]">Persicobacter diffluens NBRC 159407 (AB260929)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Flexithrix" cmphy:species="dorotheae" cmphy:strain="IAM 14894T" cmphy:id="ABZ88294" editRecord="[2__Z]">Flexithrix dorotheae IAM 14894T (AB288294)</otu>
+  <otu id="otu11">Rapidithrix thailandica TISTR 1 750T (AB265192)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Sediminitomix" cmphy:species="flava" cmphy:strain="Mok-1-85T" cmphy:id="ABZ55370" editRecord="[2__Z]">Sediminitomix flava Mok-1-85T (AB255370)</otu>
+  <otu id="otu13">Limibaoter armeniacum YM1 1 -185T (AB359907)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Flammeovirga" cmphy:species="aprica" cmphy:strain="JL-4T" cmphy:id="ABZ47553" editRecord="[2__Z]">Flammeovirga aprica JL-4T (AB247553)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Perexilibacter" cmphy:species="aurantiacus" cmphy:strain="Shu-F-UV2-27" cmphy:id="ABZ76355" editRecord="[2__Z]">Perexilibacter aurantiacus Shu-F-UV2-27 (AB276355)</otu>
+  <otu id="otu16">Thermonema lapsum DSM 5718T(L11703)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="92.0" y="301.0"/>
+   <node id="NT1.2" label="NT1.2" x="116.0" y="179.0"/>
+   <node id="NT1.3" label="NT1.3" x="118.0" y="422.0"/>
+   <node id="NT1.6" label="NT1.6" x="145.0" y="478.0"/>
+   <node id="NT1.7" label="NT1.7" x="172.0" y="113.0"/>
+   <node id="NT1.8" label="NT1.8" x="193.0" y="292.0"/>
+   <node id="NT1.10" label="NT1.10" x="216.0" y="190.0"/>
+   <node id="NT1.11" label="NT1.11" x="221.0" y="572.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="249.0" y="218.0"/>
+   <node id="NT1.15" x="287.0" y="515.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="300.0" y="535.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="306.0" y="497.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="309.0" y="386.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="335.0" y="423.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="347.0" y="275.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="363.0" y="312.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="399.0" y="51.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="438.0" y="163.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="488.0" y="200.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="510.0" y="237.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="3.0" y="436.0" root="true"/>
+   <edge id="e.1" source="NT1.8" target="NT1.22"/>
+   <edge id="e.2" source="NT1.8" target="NT1.23"/>
+   <edge id="e.3" source="NT1.12" target="NT1.29"/>
+   <edge id="e.5" source="NT1.15" target="NT1.17"/>
+   <edge id="e.8" target="NT1.7" source="NT1.2"/>
+   <edge id="e.11" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" source="NT1.2" target="NT1.8"/>
+   <edge id="e.13" target="NT1.10" source="NT1.7"/>
+   <edge id="e.14" source="NT1.10" target="NT1.12"/>
+   <edge id="e.15" source="NT1.1" target="NT1.3"/>
+   <edge id="e.16" source="NT1.3" target="NT1.6"/>
+   <edge id="e.18" source="NT1.6" target="NT1.15"/>
+   <edge id="e.20" source="NT1.31" target="NT1.1"/>
+   <edge id="e.21" source="NT1.31" target="NT1.11"/>
+   <edge id="e.22" target="NT1.18" source="NT1.3"/>
+   <edge id="e.23" target="NT1.20" source="NT1.6"/>
+   <edge id="e.24" source="NT1.10" target="NT1.26"/>
+   <edge id="e.25" source="NT1.15" target="NT1.16"/>
+   <edge id="e.27" target="NT1.24" source="NT1.7"/>
+   <edge id="e.28" source="NT1.12" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

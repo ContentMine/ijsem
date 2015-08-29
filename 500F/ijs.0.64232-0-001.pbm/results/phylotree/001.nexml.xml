@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Flexibacter" cmphy:species="flexilis" cmphy:strain="ATCC 23079T" cmphy:id="M62794" editRecord="[]">Flexibacter flexilis ATCC 23079T (M62794)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Cellulophaga" cmphy:species="pacifica" cmphy:strain="KMM 36647" cmphy:id="ABI00840" editRecord="[1__I]">Cellulophaga pacifica KMM 36647 (AB100840)</otu>
+  <otu id="otu3" cmphy:genus="Leeuwenhoekiella" cmphy:species="aequorea" cmphy:strain="KMM 6066" cmphy:id="AJ780980" editRecord="[]">Leeuwenhoekiella aequorea KMM 6066 (AJ780980)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Cellulophaga" cmphy:species="fucicola" cmphy:strain="NNO1586OT" cmphy:id="AJO05973" editRecord="[0__O]">Cellulophaga fucicola NNO1586OT (AJ005973)</otu>
+  <otu id="otu5" cmphy:genus="Leeuwenhoekiella" cmphy:species="marinoflava" cmphy:strain="ATCC 19326T" cmphy:id="M58770" editRecord="[]">Leeuwenhoekiella marinoflava ATCC 19326T (M58770)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Cellulophaga" cmphy:species="baltica" cmphy:strain="NN015840T" cmphy:id="AJO05972" editRecord="[0__O]">Cellulophaga baltica NN015840T (AJ005972)</otu>
+  <otu id="otu7">Strain MED 217T (DQ294291)</otu>
+  <otu id="otu8">Cellulophaga algicola IC166T (AF001 366)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Pibocella" cmphy:species="ponti" cmphy:strain="KMM 6031T" cmphy:id="AYS76654" editRecord="[5__S]">Pibocella ponti KMM 6031T (AY576654)</otu>
+  <otu id="otu10">Cellulophaga Iytica ATCC 23178T (M62796)</otu>
+  <otu id="otu11" cmphy:genus="Zobellia" cmphy:species="uliginosa" cmphy:strain="ATCC 14397T" cmphy:id="M62799" editRecord="[]">Zobellia uliginosa ATCC 14397T (M62799)</otu>
+  <otu id="otu12">Arenibacter Iatericius KMM 426T (AF052742)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Muricauda" cmphy:species="ruestringensis" cmphy:strain="B1T" cmphy:id="AFZ18782" editRecord="[2__Z]">Muricauda ruestringensis B1T (AF218782)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="175.0" y="609.0" otu="otu1"/>
+   <node id="NT1.2" label="NT1.2" x="176.0" y="388.0"/>
+   <node id="NT1.3" label="NT1.3" x="189.0" y="251.0"/>
+   <node id="NT1.4" label="NT1.4" x="202.0" y="367.0"/>
+   <node id="NT1.5" label="NT1.5" x="205.0" y="135.0"/>
+   <node id="NT1.7" label="NT1.7" x="217.0" y="288.0"/>
+   <node id="NT1.9" label="NT1.9" x="238.0" y="508.0"/>
+   <node id="NT1.10" label="NT1.10" x="239.0" y="79.0"/>
+   <node id="NT1.13" label="NT1.13" x="254.0" y="115.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="258.0" y="460.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="260.0" y="165.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="261.0" y="509.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="263.0" y="66.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="268.0" y="411.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="270.0" y="313.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="319.0" y="263.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="8.0" y="498.0" root="true"/>
+   <edge id="e.1" source="NT1.9" target="NT1.16"/>
+   <edge id="e.2" source="NT1.9" target="NT1.14"/>
+   <edge id="e.4" source="NT1.5" target="NT1.10"/>
+   <edge id="e.5" source="NT1.3" target="NT1.5"/>
+   <edge id="e.7" source="NT1.2" target="NT1.3"/>
+   <edge id="e.8" source="NT1.3" target="NT1.4"/>
+   <edge id="e.11" target="NT1.7" source="NT1.4"/>
+   <edge id="e.12" target="NT1.9" source="NT1.2"/>
+   <edge id="e.13" source="NT1.25" target="NT1.2"/>
+   <edge id="e.14" source="NT1.25" target="NT1.1"/>
+   <edge id="e.15" source="NT1.4" target="NT1.20"/>
+   <edge id="e.17" source="NT1.7" target="NT1.22"/>
+   <edge id="e.18" source="NT1.10" target="NT1.13"/>
+   <edge id="e.20" target="NT1.17" source="NT1.10"/>
+   <edge id="e.21" source="NT1.7" target="NT1.24"/>
+   <edge id="e.23" target="NT1.15" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

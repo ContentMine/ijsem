@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Methylophaga" cmphy:species="marina" cmphy:strain="ATCC 35842T" cmphy:id="X87338" editRecord="[]">Methylophaga marina ATCC 35842T (X87338)</otu>
+  <otu id="otu3" cmphy:genus="Methylophaga" cmphy:species="thalassica" cmphy:strain="ATCC 33146T" cmphy:id="X87339" editRecord="[]">Methylophaga thalassica ATCC 33146T (X87339)</otu>
+  <otu id="otu4" cmphy:genus="Methylophaga" cmphy:species="sulfidovorans" cmphy:strain="RB-1 T" cmphy:id="X95461" editRecord="[]">Methylophaga sulfidovorans RB-1 T (X95461)</otu>
+  <otu id="otu5" cmphy:genus="Methylosphaera" cmphy:species="hansonii" cmphy:strain="AM6T" cmphy:id="U67929" editRecord="[]">Methylosphaera hansonii AM6T (U67929)</otu>
+  <otu id="otu6">Leucothrix mucor LJSO601</otu>
+  <otu id="otu7" cmphy:genus="Leucothrix" cmphy:species="mucor" cmphy:strain="DSM 2157T" cmphy:id="X87277" editRecord="[]">Leucothrix mucor DSM 2157T (X87277)</otu>
+  <otu id="otu8">Methylobacter tundripaludum SV96T (AJ41 4655)</otu>
+  <otu id="otu9">Methylosarcina fibrata AML-C1 OT (AF1 77296)</otu>
+  <otu id="otu10">Clone B16 from Shinkaia crosnieri(EU107481)</otu>
+  <otu id="otu11">Methylosarcina quisquiliarum AML-D4T (AF1 77297)</otu>
+  <otu id="otu12">Methylobacter psychrophilus Z-0O21T(AF152597)</otu>
+  <otu id="otu13" cmphy:genus="Cocleimanas" cmphy:species="flava" cmphy:strain="KMM 3898T" cmphy:id="AB495251" editRecord="[]">Cocleimanas flava KMM 3898T (AB495251)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Thiothrix" cmphy:species="caldifontis" cmphy:strain="G1 T" cmphy:id="EU642573" editRecord="[]">Thiothrix caldifontis G1 T (EU642573)</otu>
+  <otu id="otu18" cmphy:genus="Thiothrix" cmphy:species="lacustris" cmphy:strain="BLT" cmphy:id="EU642572" editRecord="[]">Thiothrix lacustris BLT (EU642572)</otu>
+  <otu id="otu19">Thiomicrospira thermophila l78T(AB166731)</otu>
+  <otu id="otu20" cmphy:genus="Thiomicrospira" cmphy:species="arctica" cmphy:strain="SVAL-ET" cmphy:id="AJ404731" editRecord="[]">Thiomicrospira arctica SVAL-ET (AJ404731)</otu>
+  <otu id="otu21" cmphy:genus="Thioihrix" cmphy:species="nivea" cmphy:strain="JP2" cmphy:id="L40993" editRecord="[]">Thioihrix nivea JP2 (L40993)</otu>
+  <otu id="otu22" cmphy:genus="Thiomicrospira" cmphy:species="psychrophila" cmphy:strain="SVAL-DT" cmphy:id="AJ404732" editRecord="[]">Thiomicrospira psychrophila SVAL-DT (AJ404732)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:edit="[1__I]" cmphy:genus="Thioalkalimicrobium" cmphy:species="aerophilum" cmphy:strain="AL 3T" cmphy:id="AFI26548" editRecord="[1__I]">Thioalkalimicrobium aerophilum AL 3T (AF126548)</otu>
+  <otu id="otu25" cmphy:edit="[1__I]" cmphy:genus="Thioalkalimicrobium" cmphy:species="sibiricum" cmphy:strain="AL 7T" cmphy:id="AFI26549" editRecord="[1__I]">Thioalkalimicrobium sibiricum AL 7T (AF126549)</otu>
+  <otu id="otu26" cmphy:genus="Hydrogenovibrio" cmphy:species="marinus" cmphy:strain="JCM 7688T" cmphy:id="D86374" editRecord="[]">Hydrogenovibrio marinus JCM 7688T (D86374)</otu>
+  <otu id="otu27" cmphy:edit="[0__O]" cmphy:genus="Thiothrix" cmphy:species="flexilis" cmphy:strain="EJ2M-BT" cmphy:id="ABO42545" editRecord="[0__O]">Thiothrix flexilis EJ2M-BT (AB042545)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="973.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="217.0" y="835.0"/>
+   <node id="NT1.3" x="247.0" y="644.0" label="75"/>
+   <node id="NT1.4" label="NT1.4" x="282.0" y="448.0"/>
+   <node id="NT1.5" x="336.0" y="318.0" label="71"/>
+   <node id="NT1.8" label="NT1.8" x="456.0" y="466.0"/>
+   <node id="NT1.10" x="492.0" y="205.0" label="100"/>
+   <node id="NT1.11" x="509.0" y="1024.0" label="100"/>
+   <node id="NT1.12" x="525.0" y="1054.0" label="86"/>
+   <node id="NT1.14" x="554.0" y="838.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="567.0" y="996.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="570.0" y="1035.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="591.0" y="1074.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="595.0" y="526.0" otu="otu5"/>
+   <node id="NT1.22" label="NT1.22" x="618.0" y="448.0" otu="otu7"/>
+   <node id="NT1.23" x="620.0" y="138.0" label="100"/>
+   <node id="NT1.29" x="659.0" y="897.0" label="100"/>
+   <node id="NT1.33" label="NT1.33" x="684.0" y="369.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="687.0" y="781.0"/>
+   <node id="NT1.36" x="696.0" y="66.0" label="100"/>
+   <node id="NT1.40" label="NT1.40" x="763.0" y="16.0" otu="otu17"/>
+   <node id="NT1.41" label="NT1.41" x="763.0" y="94.0" otu="otu18"/>
+   <node id="NT1.42" x="768.0" y="936.0" label="100"/>
+   <node id="NT1.44" label="NT1.44" x="777.0" y="918.0" otu="otu20"/>
+   <node id="NT1.45" label="NT1.45" x="780.0" y="173.0" otu="otu21"/>
+   <node id="NT1.46" label="NT1.46" x="782.0" y="956.0" otu="otu22"/>
+   <node id="NT1.48" label="NT1.48" x="829.0" y="761.0" otu="otu24"/>
+   <node id="NT1.49" label="NT1.49" x="832.0" y="800.0" otu="otu25"/>
+   <node id="NT1.50" label="NT1.50" x="847.0" y="839.0" otu="otu26"/>
+   <node id="NT1.51" label="NT1.51" x="875.0" y="330.0" otu="otu27"/>
+   <edge id="e.0" source="NT1.23" target="NT1.45"/>
+   <edge id="e.1" target="NT1.51" source="NT1.10"/>
+   <edge id="e.2" target="NT1.19" source="NT1.4"/>
+   <edge id="e.4" source="NT1.36" target="NT1.41"/>
+   <edge id="e.5" target="NT1.36" source="NT1.23"/>
+   <edge id="e.8" source="NT1.10" target="NT1.23"/>
+   <edge id="e.9" source="NT1.5" target="NT1.10"/>
+   <edge id="e.16" source="NT1.4" target="NT1.5"/>
+   <edge id="e.17" source="NT1.5" target="NT1.8"/>
+   <edge id="e.19" source="NT1.8" target="NT1.22"/>
+   <edge id="e.22" source="NT1.3" target="NT1.4"/>
+   <edge id="e.23" source="NT1.3" target="NT1.14"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+   <edge id="e.27" source="NT1.2" target="NT1.11"/>
+   <edge id="e.30" source="NT1.14" target="NT1.29"/>
+   <edge id="e.31" source="NT1.14" target="NT1.34"/>
+   <edge id="e.32" source="NT1.34" target="NT1.48"/>
+   <edge id="e.33" source="NT1.29" target="NT1.42"/>
+   <edge id="e.35" source="NT1.11" target="NT1.12"/>
+   <edge id="e.37" source="NT1.42" target="NT1.46"/>
+   <edge id="e.38" source="NT1.42" target="NT1.44"/>
+   <edge id="e.39" source="NT1.1" target="NT1.2"/>
+   <edge id="e.40" source="NT1.11" target="NT1.16"/>
+   <edge id="e.41" source="NT1.12" target="NT1.17"/>
+   <edge id="e.42" source="NT1.12" target="NT1.18"/>
+   <edge id="e.45" target="NT1.33" source="NT1.8"/>
+   <edge id="e.47" source="NT1.36" target="NT1.40"/>
+   <edge id="e.48" target="NT1.50" source="NT1.29"/>
+   <edge id="e.49" source="NT1.34" target="NT1.49"/>
+  </tree>
+ </trees>
+</nexml>

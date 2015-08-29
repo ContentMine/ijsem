@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Cellulaphaga lytica ATCC 23 1 781' (M62796)</otu>
+  <otu id="otu10">Palaribacter glameralus ATCC 43 844T (M58775)</otu>
+  <otu id="otu11">Strain CL-TF0911 (AY962293)</otu>
+  <otu id="otu12" cmphy:genus="Psychroserpens" cmphy:species="burtorzensis" cmphy:strain="ACAM 18811" cmphy:id="U62913" editRecord="[]">Psychroserpens burtorzensis ACAM 18811 (U62913)</otu>
+  <otu id="otu13" cmphy:genus="Polaribacter" cmphy:species="irgensii" cmphy:strain="ATCC 49675T" cmphy:id="M61002" editRecord="[]">Polaribacter irgensii ATCC 49675T (M61002)</otu>
+  <otu id="otu14">Poluribacter(fhznznzannii ATCC 700399T (U14586)</otu>
+  <otu id="otu15">Temzcibaculum skagerrakense D30T (AF 469612)</otu>
+  <otu id="otu16">Polarihacterfilamemus ATCC 700397T (U73726)</otu>
+  <otu id="otu17" cmphy:genus="Gelidibacter" cmphy:species="algens" cmphy:strain="ACAM 536T" cmphy:id="U62914" editRecord="[]">Gelidibacter algens ACAM 536T (U62914)</otu>
+  <otu id="otu18" cmphy:genus="Tenacibuculum" cmphy:species="lulimuris" cmphy:strain="TF-26T" cmphy:id="AY661691" editRecord="[]">Tenacibuculum lulimuris TF-26T (AY661691)</otu>
+  <otu id="otu19" cmphy:edit="[0__O]" cmphy:genus="Tenacibaculum" cmphy:species="ovolyticum" cmphy:strain="IAM 14318T" cmphy:id="ABO32506" editRecord="[0__O]">Tenacibaculum ovolyticum IAM 14318T (AB032506)</otu>
+  <otu id="otu20" cmphy:edit="[0__O]" cmphy:genus="Tenacibuculum" cmphy:species="mesophilum" cmphy:strain="MBIC 40T" cmphy:id="ABO32501" editRecord="[0__O]">Tenacibuculum mesophilum MBIC 40T (AB032501)</otu>
+  <otu id="otu21" cmphy:edit="[0__O]" cmphy:genus="Terzucibaculum" cmphy:species="amylolylicum" cmphy:strain="MBIC 4355T" cmphy:id="ABO32505" editRecord="[0__O]">Terzucibaculum amylolylicum MBIC 4355T (AB032505)</otu>
+  <otu id="otu22">T enacibaculum maritimum NCIMB 2154T (D14023)</otu>
+  <otu id="otu23" cmphy:edit="[2__Z]" cmphy:genus="Zobelliu" cmphy:species="gulactunivorans" cmphy:strain="DsijT" cmphy:id="AFZ08293" editRecord="[2__Z]">Zobelliu gulactunivorans DsijT (AF208293)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="52.0" y="737.0"/>
+   <node id="NT1.5" label="NT1.5" x="117.0" y="652.0"/>
+   <node id="NT1.6" label="NT1.6" x="166.0" y="314.0"/>
+   <node id="NT1.12" x="276.0" y="169.0" label="90"/>
+   <node id="NT1.19" label="NT1.19" x="329.0" y="101.0"/>
+   <node id="NT1.20" label="NT1.20" x="351.0" y="155.0"/>
+   <node id="NT1.29" label="NT1.29" x="382.0" y="623.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="386.0" y="348.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="416.0" y="679.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="435.0" y="183.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="442.0" y="238.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="449.0" y="128.0" otu="otu20"/>
+   <node id="NT1.38" label="NT1.38" x="460.0" y="73.0" otu="otu21"/>
+   <node id="NT1.40" label="NT1.40" x="537.0" y="733.0" otu="otu23"/>
+   <node id="NT1.41" label="NT1.41" x="7.0" y="589.0" root="true"/>
+   <edge id="e.2" target="NT1.38" source="NT1.19"/>
+   <edge id="e.4" source="NT1.20" target="NT1.37"/>
+   <edge id="e.15" source="NT1.5" target="NT1.29"/>
+   <edge id="e.16" source="NT1.5" target="NT1.34"/>
+   <edge id="e.18" target="NT1.40" source="NT1.1"/>
+   <edge id="e.21" source="NT1.12" target="NT1.19"/>
+   <edge id="e.22" source="NT1.19" target="NT1.20"/>
+   <edge id="e.23" target="NT1.12" source="NT1.6"/>
+   <edge id="e.27" target="NT1.6" source="NT1.41"/>
+   <edge id="e.33" source="NT1.1" target="NT1.5"/>
+   <edge id="e.35" source="NT1.41" target="NT1.1"/>
+   <edge id="e.36" target="NT1.30" source="NT1.6"/>
+   <edge id="e.37" source="NT1.12" target="NT1.36"/>
+   <edge id="e.38" source="NT1.20" target="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Vibrio" cmphy:species="cholerae" cmphy:strain="ATCC 14O35T" cmphy:id="X74695" editRecord="[]">Vibrio cholerae ATCC 14O35T (X74695)</otu>
+  <otu id="otu2">Shewanella putrefaciens ATCC 8071T</otu>
+  <otu id="otu3">Aeromonas hydrophila DSM 30187</otu>
+  <otu id="otu4">Pseudoalteromonas haloplanktis subsp.</otu>
+  <otu id="otu5">Pseudoalteromonas pisclcida</otu>
+  <otu id="otu6">Pseudoalteromonas rubra</otu>
+  <otu id="otu7">Strain B-10-317 (AB063324)</otu>
+  <otu id="otu8"> Colwellia maris JCM 10085T</otu>
+  <otu id="otu9">Thalassomonas viridans</otu>
+  <otu id="otu10">Idlomarina abyssalls KMM 2277</otu>
+  <otu id="otu11">Idiomarina zobellii KMM 231 T</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Pseudoalteromonas</otu>
+  <otu id="otu14">Alteromonas macleodii</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.9" label="NT1.9" x="364.0" y="908.0" otu="otu1"/>
+   <node id="NT1.27" label="NT1.27" x="2.0" y="904.0" root="true"/>
+   <edge id="e.17" source="NT1.27" target="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

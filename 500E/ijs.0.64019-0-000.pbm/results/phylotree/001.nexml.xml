@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Azospira" cmphy:species="oryzae" cmphy:strain="6a3T" cmphy:id="AFO11347" editRecord="[0__O]">Azospira oryzae 6a3T (AF011347)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Azonexus" cmphy:species="caeni" cmphy:strain="Slu-057" cmphy:id="ABI66882" editRecord="[1__I]">Azonexus caeni Slu-057 (AB166882)</otu>
+  <otu id="otu16">Ferribacterium Iimneticum CdA-1T (Y17060)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Propionivibrio" cmphy:species="dicarboxylicus" cmphy:strain="DSM 5885T" cmphy:id="Y17601" editRecord="[]">Propionivibrio dicarboxylicus DSM 5885T (Y17601)</otu>
+  <otu id="otu19" cmphy:genus="Rhodocyclus" cmphy:species="tenuis" cmphy:strain="DSM 1097" cmphy:id="D16208" editRecord="[]">Rhodocyclus tenuis DSM 1097 (D16208)</otu>
+  <otu id="otu20" cmphy:edit="[0__O]" cmphy:genus="Propionivibrio" cmphy:species="pelophilus" cmphy:strain="asp 66T" cmphy:id="AFO16690" editRecord="[0__O]">Propionivibrio pelophilus asp 66T (AF016690)</otu>
+  <otu id="otu21" cmphy:edit="[O__0]" cmphy:genus="Quadricoccus" cmphy:species="australiensis" cmphy:strain="Ben 117T" cmphy:id="AYO07722" editRecord="[O__0]">Quadricoccus australiensis Ben 117T (AYOO7722)</otu>
+  <otu id="otu22">Azoarcus indigens VB32T (AFO1 1345)</otu>
+  <otu id="otu23"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="38.0" y="259.0"/>
+   <node id="NT1.4" label="NT1.4" x="87.0" y="195.0"/>
+   <node id="NT1.6" label="NT1.6" x="99.0" y="344.0"/>
+   <node id="NT1.8" x="118.0" y="115.0" label="73"/>
+   <node id="NT1.12" label="NT1.12" x="164.0" y="66.0"/>
+   <node id="NT1.26" label="NT1.26" x="265.0" y="229.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="268.0" y="317.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="307.0" y="98.0" otu="otu18"/>
+   <node id="NT1.31" label="NT1.31" x="308.0" y="185.0" otu="otu19"/>
+   <node id="NT1.32" label="NT1.32" x="332.0" y="10.0" otu="otu20"/>
+   <node id="NT1.33" label="NT1.33" x="346.0" y="404.0" otu="otu21"/>
+   <node id="NT1.36" label="NT1.36" x="3.0" y="386.0" root="true"/>
+   <edge id="e.2" target="NT1.32" source="NT1.12"/>
+   <edge id="e.5" source="NT1.12" target="NT1.30"/>
+   <edge id="e.7" target="NT1.31" source="NT1.8"/>
+   <edge id="e.8" source="NT1.4" target="NT1.26"/>
+   <edge id="e.16" target="NT1.27" source="NT1.6"/>
+   <edge id="e.18" target="NT1.33" source="NT1.6"/>
+   <edge id="e.21" source="NT1.8" target="NT1.12"/>
+   <edge id="e.22" source="NT1.4" target="NT1.8"/>
+   <edge id="e.24" source="NT1.1" target="NT1.4"/>
+   <edge id="e.25" source="NT1.1" target="NT1.6"/>
+   <edge id="e.30" source="NT1.36" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

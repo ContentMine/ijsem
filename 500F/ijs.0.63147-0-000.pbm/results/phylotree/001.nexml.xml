@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Helicobacter" cmphy:species="fennelliae" cmphy:strain="COUG 188207" cmphy:id="M88154" editRecord="[]">Helicobacter fennelliae COUG 188207 (M88154)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Helicobacter" cmphy:species="cinaedi" cmphy:strain="ccue 183137" cmphy:id="AFB48748" editRecord="[3__B]">Helicobacter cinaedi ccue 183137 (AF348748)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Campylobacter" cmphy:species="concisus" cmphy:strain="ATCC 332377" cmphy:id="L04322" editRecord="[O__0]">Campylobacter concisus ATCC 332377 (LO4322)</otu>
+  <otu id="otu5">Campylobacter curvus ATCC 352247 (Lo4313)</otu>
+  <otu id="otu6" cmphy:genus="Campylobacter" cmphy:species="mucosalis" cmphy:strain="CCUG 68227" cmphy:id="L06978" editRecord="[]">Campylobacter mucosalis CCUG 68227 (L06978)</otu>
+  <otu id="otu7">Campylobacter fetus subsp. venerealis ATCC194387(M65011)</otu>
+  <otu id="otu8">Campylobacter fetus subsp. fetus ATCC 273747 (M6501 2)</otu>
+  <otu id="otu9">Campylobacter hyointestinalis subsp. hyointestinalis ATCC 352177(M65o1o)</otu>
+  <otu id="otu10">Campylobacter rectus ATCC 332337(Lo4317)</otu>
+  <otu id="otu11" cmphy:genus="Campylobacter" cmphy:species="lanienae" cmphy:strain="NCTC 130047" cmphy:id="AFO43425" editRecord="[]">Campylobacter lanienae NCTC 130047 (AFO43425)</otu>
+  <otu id="otu12" cmphy:edit="[O__0]" cmphy:genus="Campylobacter" cmphy:species="shovvae" cmphy:strain="CCUG 302547" cmphy:id="L06974" editRecord="[O__0]">Campylobacter shovvae CCUG 302547 (LO6974)</otu>
+  <otu id="otu13">Arcobacter cryaerophilus CCUG 178o17(L14624)</otu>
+  <otu id="otu14">Campylobacter coli ccue 112837(L04312)</otu>
+  <otu id="otu15" cmphy:genus="Arcobacter" cmphy:species="butzleri" cmphy:strain="ccue 103737" cmphy:id="L14626" editRecord="[]">Arcobacter butzleri ccue 103737 (L14626)</otu>
+  <otu id="otu16">Cam</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Campylobacterjejuni subsp. doyleiooue 245677 (L14630)</otu>
+  <otu id="otu19">Arcobacter nitrofigilis ccue 153937(L14327)</otu>
+  <otu id="otu20">Camp ylobacter sputorum ATCC 33491 (LO4819)</otu>
+  <otu id="otu21" cmphy:genus="Campylobacter" cmphy:species="insulaenigrae" cmphy:strain="NCTC 129277" cmphy:id="AJ620504" editRecord="[]">Campylobacter insulaenigrae NCTC 129277 (AJ620504)</otu>
+  <otu id="otu22" cmphy:genus="Campylobacter" cmphy:species="lari" cmphy:strain="ccue 239477" cmphy:id="L04316" editRecord="[]">Campylobacter lari ccue 239477 (L04316)</otu>
+  <otu id="otu23">Campylobacter helveticus NCTC 124707 (Uo3o22)</otu>
+  <otu id="otu24">Campylobacter hominis NCTC131467(AJ251584)</otu>
+  <otu id="otu25">Campylobacter upsaliensis CCUG 149137 (L14s2a)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="137.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="3.0" y="137.0"/>
+   <node id="NT1.3" label="NT1.3" x="80.0" y="330.0"/>
+   <node id="NT1.4" x="130.0" y="41.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="173.0" y="542.0"/>
+   <node id="NT1.6" label="NT1.6" x="179.0" y="21.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="185.0" y="764.0"/>
+   <node id="NT1.8" label="NT1.8" x="188.0" y="57.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="195.0" y="324.0"/>
+   <node id="NT1.11" label="NT1.11" x="215.0" y="444.0"/>
+   <node id="NT1.15" label="NT1.15" x="239.0" y="845.0" otu="otu4"/>
+   <node id="NT1.23" label="NT1.23" x="264.0" y="199.0" otu="otu6"/>
+   <node id="NT1.30" label="NT1.30" x="289.0" y="486.0" otu="otu11"/>
+   <node id="NT1.31" label="NT1.31" x="300.0" y="701.0" otu="otu12"/>
+   <node id="NT1.32" label="NT1.32" x="307.0" y="301.0"/>
+   <node id="NT1.35" label="NT1.35" x="310.0" y="164.0" otu="otu15"/>
+   <node id="NT1.44" label="NT1.44" x="337.0" y="307.0" otu="otu21"/>
+   <node id="NT1.45" label="NT1.45" x="341.0" y="271.0" otu="otu22"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.2" target="NT1.4"/>
+   <edge id="e.3" source="NT1.2" target="NT1.3"/>
+   <edge id="e.4" source="NT1.3" target="NT1.5"/>
+   <edge id="e.6" source="NT1.5" target="NT1.7"/>
+   <edge id="e.7" source="NT1.5" target="NT1.9"/>
+   <edge id="e.10" source="NT1.9" target="NT1.11"/>
+   <edge id="e.21" target="NT1.32" source="NT1.11"/>
+   <edge id="e.24" source="NT1.4" target="NT1.8"/>
+   <edge id="e.25" source="NT1.4" target="NT1.6"/>
+   <edge id="e.26" source="NT1.7" target="NT1.15"/>
+   <edge id="e.28" source="NT1.9" target="NT1.23"/>
+   <edge id="e.33" target="NT1.30" source="NT1.11"/>
+   <edge id="e.34" target="NT1.31" source="NT1.7"/>
+   <edge id="e.39" target="NT1.35" source="NT1.3"/>
+   <edge id="e.42" source="NT1.32" target="NT1.45"/>
+   <edge id="e.43" target="NT1.44" source="NT1.32"/>
+  </tree>
+ </trees>
+</nexml>

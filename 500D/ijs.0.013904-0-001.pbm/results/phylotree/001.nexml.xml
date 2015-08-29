@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Epsilonproteobacterium 18.2 (AF357196)</otu>
+  <otu id="otu2" cmphy:genus="Caminibacter" cmphy:species="mediatlanticus" cmphy:strain="TB-2T" cmphy:id="AY691430" editRecord="[]"> Caminibacter mediatlanticus TB-2T (AY691430)</otu>
+  <otu id="otu3"> Caminibacter sp. strain TB-1</otu>
+  <otu id="otu4">Nautilia sp. strain MT3 (EF644827)</otu>
+  <otu id="otu5">Nautilia sp. strain MT4 (EF644828)</otu>
+  <otu id="otu6">Nautilia abyssiPH12O9T(AM937O02)</otu>
+  <otu id="otu7">Nautilia sp. strain MT5 (EF644829)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Caminibacter" cmphy:species="profundus" cmphy:strain="CRT" cmphy:id="AJS35664" editRecord="[5__S]">Caminibacter profundus CRT (AJ535664)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Nautilia lithotrophica 525T (NR_O25497)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Nautilia" cmphy:species="nitratireducens" cmphy:strain="MB-1T" cmphy:id="FJS32475" editRecord="[5__S]">Nautilia nitratireducens MB-1T (FJ532475)</otu>
+  <otu id="otu13">Lebetimonas acidiphila Pd55T (NR_O24833)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" x="150.0" y="599.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="266.0" y="669.0" otu="otu2"/>
+   <node id="NT1.19" label="NT1.19" x="311.0" y="559.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="326.0" y="452.0" otu="otu12"/>
+   <node id="NT1.25" x="2.0" y="467.0" root="true" label="98"/>
+   <edge id="e.8" target="NT1.23" source="NT1.25"/>
+   <edge id="e.9" target="NT1.8" source="NT1.3"/>
+   <edge id="e.10" source="NT1.3" target="NT1.19"/>
+   <edge id="e.20" target="NT1.3" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

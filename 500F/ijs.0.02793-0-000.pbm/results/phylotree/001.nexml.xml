@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Aquamicrobium" cmphy:species="defluvii" cmphy:strain="DSM 11603T" cmphy:id="Y15403" editRecord="[]">Aquamicrobium defluvii DSM 11603T (Y15403)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Mesorhizobium" cmphy:species="chacoense" cmphy:strain="CECT 53367" cmphy:id="AJZ78249" editRecord="[2__Z]">Mesorhizobium chacoense CECT 53367 (AJ278249)</otu>
+  <otu id="otu3" cmphy:genus="Mesorhizobium" cmphy:species="ciceri" cmphy:strain="UPM-Ca7T" cmphy:id="U07934" editRecord="[]">Mesorhizobium ciceri UPM-Ca7T (U07934)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Aminobacter" cmphy:species="aganoensis" cmphy:strain="DSM 70517" cmphy:id="AJO11760" editRecord="[]">Aminobacter aganoensis DSM 70517 (AJO11760)</otu>
+  <otu id="otu6">Defluvibacter Iusatiensis DSM 110997 (AJ132378)</otu>
+  <otu id="otu7" cmphy:genus="Mesorhizobium" cmphy:species="tianshanense" cmphy:strain="A-1BST" cmphy:id="U71079" editRecord="[]">Mesorhizobium tianshanense A-1BST (U71079)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Mesorhizobium" cmphy:species="amorphae" cmphy:strain="ACCC 19665T" cmphy:id="AFO41442" editRecord="[0__O]">Mesorhizobium amorphae ACCC 19665T (AF041442)</otu>
+  <otu id="otu9" cmphy:genus="Mesorhizobium" cmphy:species="mediterraneum" cmphy:strain="UPM-Ca36T" cmphy:id="L38825" editRecord="[]">Mesorhizobium mediterraneum UPM-Ca36T (L38825)</otu>
+  <otu id="otu10">Mesorhizobium Ioti ATCC 7007437 (D14514)</otu>
+  <otu id="otu11" cmphy:genus="Mesorhizobium" cmphy:species="plurifarium" cmphy:strain="LMG 11892T" cmphy:id="Y14158" editRecord="[]">Mesorhizobium plurifarium LMG 11892T (Y14158)</otu>
+  <otu id="otu12" cmphy:genus="Mesorhizobium" cmphy:species="huakuii" cmphy:strain="NBRC 15243T" cmphy:id="D13431" editRecord="[]">Mesorhizobium huakuii NBRC 15243T (D13431)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Phyllobacterium" cmphy:species="myrsinacearum" cmphy:strain="HM35" cmphy:id="AJO11330" editRecord="[0__O]">Phyllobacterium myrsinacearum HM35 (AJ011330)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Nitratireductor" cmphy:species="aquibiodomus" cmphy:strain="NL21T" cmphy:id="AFS34573" editRecord="[5__S]">Nitratireductor aquibiodomus NL21T (AF534573)</otu>
+  <otu id="otu15">Hyphomicrobium denitrificans</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="64.0" y="505.0"/>
+   <node id="NT1.3" label="NT1.3" x="89.0" y="285.0"/>
+   <node id="NT1.4" label="NT1.4" x="109.0" y="216.0"/>
+   <node id="NT1.5" label="NT1.5" x="114.0" y="643.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="118.0" y="328.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="127.0" y="279.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="145.0" y="416.0" otu="otu5"/>
+   <node id="NT1.12" x="145.0" y="143.0" label="59"/>
+   <node id="NT1.13" label="NT1.13" x="154.0" y="214.0"/>
+   <node id="NT1.14" x="164.0" y="69.0" label="93"/>
+   <node id="NT1.15" label="NT1.15" x="165.0" y="192.0" otu="otu7"/>
+   <node id="NT1.16" x="166.0" y="55.0" label="93"/>
+   <node id="NT1.17" label="NT1.17" x="171.0" y="55.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="174.0" y="236.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="188.0" y="10.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="188.0" y="147.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="199.0" y="505.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="223.0" y="595.0" otu="otu14"/>
+   <node id="NT1.26" label="NT1.26" x="4.0" y="391.0" root="true"/>
+   <edge id="e.0" source="NT1.16" target="NT1.17"/>
+   <edge id="e.1" source="NT1.3" target="NT1.6"/>
+   <edge id="e.3" target="NT1.10" source="NT1.2"/>
+   <edge id="e.4" source="NT1.2" target="NT1.23"/>
+   <edge id="e.6" source="NT1.14" target="NT1.16"/>
+   <edge id="e.7" source="NT1.12" target="NT1.14"/>
+   <edge id="e.9" source="NT1.4" target="NT1.12"/>
+   <edge id="e.10" source="NT1.12" target="NT1.13"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.4" target="NT1.7"/>
+   <edge id="e.13" source="NT1.2" target="NT1.3"/>
+   <edge id="e.15" source="NT1.26" target="NT1.2"/>
+   <edge id="e.17" target="NT1.5" source="NT1.26"/>
+   <edge id="e.18" source="NT1.2" target="NT1.24"/>
+   <edge id="e.19" source="NT1.13" target="NT1.15"/>
+   <edge id="e.20" source="NT1.13" target="NT1.19"/>
+   <edge id="e.21" source="NT1.16" target="NT1.21"/>
+   <edge id="e.23" target="NT1.22" source="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

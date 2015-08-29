@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Mycoplasma" cmphy:species="haemomuris" cmphy:strain="Shizuoka" cmphy:id="U82963" editRecord="[]">Mycoplasma haemomuris Shizuoka (U82963)</otu>
+  <otu id="otu2">Candidatus M. haemodideIphidis' IL (AF178676)</otu>
+  <otu id="otu3">Mycoplasma haemocanis (AF197337)</otu>
+  <otu id="otu4">Candidatus M. haemominutum7 CA (U88564)</otu>
+  <otu id="otu5">7Candidatus M. haematoparvum7 (AY383241)</otu>
+  <otu id="otu6" cmphy:genus="Mycoplasma" cmphy:species="suis" cmphy:strain="IL" cmphy:id="U88565" editRecord="[]">Mycoplasma suis IL (U88565)</otu>
+  <otu id="otu7">Mycoplasma wenyonii (AFO16546)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Mycoplasma" cmphy:species="haemofelis" cmphy:strain="OK" cmphy:id="AFI78677" editRecord="[1__I]">Mycoplasma haemofelis OK (AF178677)</otu>
+  <otu id="otu9"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="90.0" y="62.0" label="100"/>
+   <node id="NT1.2" label="NT1.2" x="91.0" y="15.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="217.0" y="397.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="230.0" y="179.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="4.0" y="192.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" target="NT1.15" source="NT1.1"/>
+   <edge id="e.7" target="NT1.12" source="NT1.17"/>
+   <edge id="e.13" source="NT1.17" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> A. hibisca DSM 441487 (AJ420136)</otu>
+  <otu id="otu2"> A. namibiensis DSM 441977 (AJ420134)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"> A. fibrosa ATCC 494597 (AF1 631 14)</otu>
+  <otu id="otu5"> A. flavalba YIM 614357 (FJ157185)</otu>
+  <otu id="otu6"> A. meyerae A2887 (AY273787)</otu>
+  <otu id="otu7">A. oligospora ATCC 432697 (AF1 631 18)</otu>
+  <otu id="otu8">A. nitritigenes DSM 441377 (AY035999)</otu>
+  <otu id="otu9">A. formosensis DSM 439977 (AJ420140)</otu>
+  <otu id="otu10"> A. yumaensis JCM 33697 (AF163122)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">A. atramentaria DSM 439197 (AJ420138)</otu>
+  <otu id="otu15"> A. rudentiformis HMC17 (DQ285420)</otu>
+  <otu id="otu16">A. rugatobispora IFO 143827 (U49010)</otu>
+  <otu id="otu17" cmphy:genus="Streptosporangium" cmphy:species="album" cmphy:strain="DSM 430237" cmphy:id="X89934" editRecord="[]">Streptosporangium album DSM 430237 (X89934)</otu>
+  <otu id="otu18">A. cremea JCM 33087 (AF134067)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">A. echinospora DSM 431637(AJ420135)</otu>
+  <otu id="otu21"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.36" label="NT1.36" x="341.0" y="814.0" otu="otu17"/>
+   <node id="NT1.41" label="NT1.41" x="3.0" y="746.0" root="true"/>
+   <edge id="e.38" source="NT1.41" target="NT1.36"/>
+  </tree>
+ </trees>
+</nexml>

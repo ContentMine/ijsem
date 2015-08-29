@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Hongiella" cmphy:species="omithinivorans" cmphy:strain="IMSNU 140147" cmphy:id="AYZ64840" editRecord="[2__Z]">Hongiella omithinivorans IMSNU 140147 (AY264840)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Algoriphagus" cmphy:species="halophilus" cmphy:strain="IMSNU 140137" cmphy:id="AYZ64839" editRecord="[2__Z]">Algoriphagus halophilus IMSNU 140137 (AY264839)</otu>
+  <otu id="otu11">agflgodphagus chordae KMM 39577 (AJ575265)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Hongiella" cmphy:species="marincola" cmphy:strain="SW-27" cmphy:id="AYS33663" editRecord="[5__S]">Hongiella marincola SW-27 (AY533663)</otu>
+  <otu id="otu13">776 Algoriphagus ratkowskyi LMG 214357 (AJ608641)</otu>
+  <otu id="otu14" cmphy:genus="Algodphagus" cmphy:species="yeomjeoni" cmphy:strain="MSS-1607" cmphy:id="AY699794" editRecord="[]">Algodphagus yeomjeoni MSS-1607 (AY699794)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Hongiella" cmphy:species="mannitolivorans" cmphy:strain="IMSNU 140127" cmphy:id="AYZ64838" editRecord="[2__Z]">Hongiella mannitolivorans IMSNU 140127 (AY264838)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Algoriphagus" cmphy:species="antarcticus" cmphy:strain="LMG 219807" cmphy:id="AJS77141" editRecord="[5__S]">Algoriphagus antarcticus LMG 219807 (AJ577141)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:genus="Algodphagus" cmphy:species="yeomjeoni" cmphy:strain="MSS-1607" cmphy:id="AY699794" editRecord="[]">Algodphagus yeomjeoni MSS-1607 (AY699794)</otu>
+  <otu id="otu21" cmphy:edit="[5__S]" cmphy:genus="Algoriphagus" cmphy:species="winogradskyi" cmphy:strain="KMM 39567" cmphy:id="AJS75263" editRecord="[5__S]">Algoriphagus winogradskyi KMM 39567 (AJ575263)</otu>
+  <otu id="otu22" cmphy:edit="[5__S]" cmphy:genus="Algoriphagus" cmphy:species="aquimarinus" cmphy:strain="KMM 39587" cmphy:id="AJS75264" editRecord="[5__S]">Algoriphagus aquimarinus KMM 39587 (AJ575264)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="ATCC 334067" cmphy:id="M58768" editRecord="[]">Cytophaga hutchinsonii ATCC 334067 (M58768)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27" cmphy:edit="[5__S]" cmphy:genus="Cyclobacterium" cmphy:species="marinum" cmphy:strain="DSM 7457" cmphy:id="AYS33665" editRecord="[5__S]">Cyclobacterium marinum DSM 7457 (AY533665)</otu>
+  <otu id="otu28">Algoriphagus Iocisalis MSS-1707 (AY835922)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="500.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="61.0" y="557.0"/>
+   <node id="NT1.4" label="NT1.4" x="163.0" y="479.0"/>
+   <node id="NT1.6" label="NT1.6" x="236.0" y="368.0"/>
+   <node id="NT1.8" label="NT1.8" x="247.0" y="443.0"/>
+   <node id="NT1.10" label="NT1.10" x="283.0" y="413.0"/>
+   <node id="NT1.12" label="NT1.12" x="288.0" y="316.0"/>
+   <node id="NT1.17" label="NT1.17" x="328.0" y="433.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="335.0" y="168.0"/>
+   <node id="NT1.19" label="NT1.19" x="341.0" y="349.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="342.0" y="475.0" otu="otu12"/>
+   <node id="NT1.22" label="NT1.22" x="347.0" y="110.0"/>
+   <node id="NT1.26" label="NT1.26" x="354.0" y="102.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="359.0" y="391.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="360.0" y="81.0"/>
+   <node id="NT1.32" label="NT1.32" x="368.0" y="265.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="372.0" y="98.0" otu="otu20"/>
+   <node id="NT1.37" label="NT1.37" x="373.0" y="14.0" otu="otu21"/>
+   <node id="NT1.38" label="NT1.38" x="374.0" y="140.0" otu="otu22"/>
+   <node id="NT1.41" label="NT1.41" x="379.0" y="558.0" otu="otu25"/>
+   <node id="NT1.43" label="NT1.43" x="396.0" y="517.0" otu="otu27"/>
+   <edge id="e.0" target="NT1.37" source="NT1.28"/>
+   <edge id="e.3" source="NT1.22" target="NT1.26"/>
+   <edge id="e.4" source="NT1.22" target="NT1.38"/>
+   <edge id="e.16" source="NT1.1" target="NT1.3"/>
+   <edge id="e.17" source="NT1.3" target="NT1.41"/>
+   <edge id="e.20" source="NT1.22" target="NT1.28"/>
+   <edge id="e.21" source="NT1.18" target="NT1.22"/>
+   <edge id="e.22" target="NT1.18" source="NT1.12"/>
+   <edge id="e.28" source="NT1.6" target="NT1.12"/>
+   <edge id="e.29" source="NT1.4" target="NT1.6"/>
+   <edge id="e.30" source="NT1.6" target="NT1.8"/>
+   <edge id="e.31" source="NT1.8" target="NT1.10"/>
+   <edge id="e.32" source="NT1.3" target="NT1.4"/>
+   <edge id="e.34" source="NT1.4" target="NT1.43"/>
+   <edge id="e.35" source="NT1.8" target="NT1.21"/>
+   <edge id="e.36" source="NT1.10" target="NT1.17"/>
+   <edge id="e.37" source="NT1.12" target="NT1.19"/>
+   <edge id="e.38" target="NT1.27" source="NT1.10"/>
+   <edge id="e.39" target="NT1.32" source="NT1.18"/>
+   <edge id="e.40" source="NT1.28" target="NT1.36"/>
+  </tree>
+ </trees>
+</nexml>

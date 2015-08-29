@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Bradyrhizobium" cmphy:species="elkanii" cmphy:strain="USDA 767" cmphy:id="U35000" editRecord="[]">Bradyrhizobium elkanii USDA 767 (U35000)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Rhodopseudomonas palustris ATCC 17001 T (AF123087)</otu>
+  <otu id="otu5">Bradyrhizobiumjaponicum USDA110(APO05940)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Nitrobacter" cmphy:species="winogradskyi" cmphy:strain="IFO 14297" cmphy:id="AFB63288" editRecord="[3__B]">Nitrobacter winogradskyi IFO 14297 (AF363288)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Bradyrhizobium" cmphy:species="betae" cmphy:strain="LMG 219877" cmphy:id="AYB72184" editRecord="[3__B]">Bradyrhizobium betae LMG 219877 (AY372184)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Bradyrhizobium" cmphy:species="yuanmingense" cmphy:strain="CCBAU 110737" cmphy:id="AFI93818" editRecord="[1__I]">Bradyrhizobium yuanmingense CCBAU 110737 (AF193818)</otu>
+  <otu id="otu9" cmphy:genus="Oligotropha" cmphy:species="carboxidovorans" cmphy:strain="S28" cmphy:id="ABO99660" editRecord="[]">Oligotropha carboxidovorans S28 (ABO99660)</otu>
+  <otu id="otu10" cmphy:genus="Agromonas" cmphy:species="oligotrophica" cmphy:strain="DSM 12412T" cmphy:id="D78366" editRecord="[]">Agromonas oligotrophica DSM 12412T (D78366)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Afipia" cmphy:species="felis" cmphy:strain="76713" cmphy:id="AFZ88310" editRecord="[2__Z]">Afipia felis 76713 (AF288310)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="thiooxidans" cmphy:strain="DSM 96537" cmphy:id="AJZ50796" editRecord="[2__Z]">Bosea thiooxidans DSM 96537 (AJ250796)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Blastobacter" cmphy:species="denitrificans" cmphy:strain="LMG 8443T" cmphy:id="AFB38176" editRecord="[3__B]">Blastobacter denitrificans LMG 8443T (AF338176)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="409.0" y="390.0"/>
+   <node id="NT1.2" label="NT1.2" x="462.0" y="303.0"/>
+   <node id="NT1.3" label="NT1.3" x="536.0" y="381.0"/>
+   <node id="NT1.5" x="589.0" y="143.0" label="91"/>
+   <node id="NT1.6" label="NT1.6" x="595.0" y="412.0"/>
+   <node id="NT1.8" label="NT1.8" x="611.0" y="477.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="626.0" y="62.0"/>
+   <node id="NT1.16" label="NT1.16" x="659.0" y="349.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="670.0" y="95.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="678.0" y="265.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="687.0" y="435.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="689.0" y="32.0"/>
+   <node id="NT1.21" label="NT1.21" x="738.0" y="53.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="742.0" y="392.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="760.0" y="519.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="761.0" y="11.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="4.0" y="454.0" root="true"/>
+   <edge id="e.0" source="NT1.20" target="NT1.24"/>
+   <edge id="e.3" target="NT1.18" source="NT1.5"/>
+   <edge id="e.5" source="NT1.6" target="NT1.22"/>
+   <edge id="e.6" source="NT1.12" target="NT1.20"/>
+   <edge id="e.7" source="NT1.5" target="NT1.12"/>
+   <edge id="e.9" target="NT1.5" source="NT1.2"/>
+   <edge id="e.13" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.15" source="NT1.3" target="NT1.6"/>
+   <edge id="e.16" source="NT1.25" target="NT1.1"/>
+   <edge id="e.17" source="NT1.25" target="NT1.23"/>
+   <edge id="e.18" source="NT1.1" target="NT1.8"/>
+   <edge id="e.19" source="NT1.3" target="NT1.16"/>
+   <edge id="e.21" target="NT1.17" source="NT1.12"/>
+   <edge id="e.22" source="NT1.6" target="NT1.19"/>
+   <edge id="e.23" source="NT1.20" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

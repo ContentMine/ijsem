@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">77</otu>
+  <otu id="otu2">Planctomyces brasiliensis DSM 53057 (AJ231 190)</otu>
+  <otu id="otu3">Planctomyces limnophilus IFAM 10087</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone FCPS677" cmphy:id="EFS16786" editRecord="[5__S]">Uncultured bacterium clone FCPS677 (EF516786)</otu>
+  <otu id="otu5">Planctomyces maris DSM 87977 (AJ231 184)</otu>
+  <otu id="otu6" cmphy:genus="Aquisphaera" cmphy:species="giovannonii" cmphy:strain="OJF2T" cmphy:id="DQ986200" editRecord="[]">Aquisphaera giovannonii OJF2T (DQ986200)</otu>
+  <otu id="otu7">planctomycete strain 532 (AJ231 194)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone HSMO5OP-B-19" cmphy:id="ABZ62730" editRecord="[2__Z]">Uncultured bacterium clone HSMO5OP-B-19 (AB262730)</otu>
+  <otu id="otu9">lsosphaera sp. Schlesner 666 (X81958)</otu>
+  <otu id="otu10">Blastopirellula marina IFAM 13137 (X6291 2)</otu>
+  <otu id="otu11">Gemmata obscuriglobus DSM 5831T (AJ231 191)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Schlesneria" cmphy:species="paludicola" cmphy:strain="MPL7T" cmphy:id="AMI62407" editRecord="[1__I]">Schlesneria paludicola MPL7T (AM162407)</otu>
+  <otu id="otu13">Wostocoida limicola' III strain Ben224 (AF244751)</otu>
+  <otu id="otu14">lsosphaera-like strain C2-3 (AF239692)</otu>
+  <otu id="otu15">lsosphaera-like strain CJuql1</otu>
+  <otu id="otu16">lsosphaera sp. Schlesner 640 (X81959)</otu>
+  <otu id="otu17" cmphy:genus="Pirellula" cmphy:species="staleyi" cmphy:strain="DSM 60681" cmphy:id="X81946" editRecord="[]">Pirellula staleyi DSM 60681 (X81946)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Rhodopirellula" cmphy:species="baltica" cmphy:strain="SH1T" cmphy:id="BXZ94149" editRecord="[2__Z]">Rhodopirellula baltica SH1T (BX294149)</otu>
+  <otu id="otu19" cmphy:edit="[8__B]" cmphy:genus="Singulisphaera" cmphy:species="acidiphila" cmphy:strain="ATCC BAA-1392T" cmphy:id="AMB50678" editRecord="[8__B]">Singulisphaera acidiphila ATCC BAA-1392T (AM850678)</otu>
+  <otu id="otu20">lsosphaera pallida DSM 96307 (AJ231 195)</otu>
+  <otu id="otu21">Zavarzinella formosa A1 OT</otu>
+  <otu id="otu22">1Candidatus Brocadia fuIgida' (DQ459989)</otu>
+  <otu id="otu23">1Candidatus Brocadia anammoxidans1 (AF375994)</otu>
+  <otu id="otu24">1Candidatus Jettenia asiatica' AS-1</otu>
+  <otu id="otu25">1Candidatus Anammoxoglobus propionicus' (DQ317601)</otu>
+  <otu id="otu26">1Candidatus Kuenenia stuttgartiensis' (AF375995)</otu>
+  <otu id="otu27">Candidatus Scalindua brodae' EN 8 (AY254883)</otu>
+  <otu id="otu28">1Candidatus Scalindua wagneri1 EN 5 (AY254882)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="644.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="18.0" y="491.0"/>
+   <node id="NT1.5" x="108.0" y="707.0" label="95"/>
+   <node id="NT1.8" x="240.0" y="643.0" label="99"/>
+   <node id="NT1.13" x="377.0" y="255.0" label="60"/>
+   <node id="NT1.15" x="447.0" y="78.0" label="99"/>
+   <node id="NT1.18" x="470.0" y="117.0" label="97"/>
+   <node id="NT1.25" label="NT1.25" x="505.0" y="98.0" otu="otu4"/>
+   <node id="NT1.27" label="NT1.27" x="513.0" y="15.0" otu="otu6"/>
+   <node id="NT1.29" label="NT1.29" x="522.0" y="139.0" otu="otu8"/>
+   <node id="NT1.34" label="NT1.34" x="552.0" y="836.0" otu="otu12"/>
+   <node id="NT1.40" label="NT1.40" x="575.0" y="672.0" otu="otu17"/>
+   <node id="NT1.41" label="NT1.41" x="580.0" y="590.0" otu="otu18"/>
+   <node id="NT1.42" label="NT1.42" x="592.0" y="385.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.18" target="NT1.25"/>
+   <edge id="e.5" source="NT1.8" target="NT1.40"/>
+   <edge id="e.8" target="NT1.15" source="NT1.13"/>
+   <edge id="e.9" source="NT1.15" target="NT1.18"/>
+   <edge id="e.12" target="NT1.13" source="NT1.3"/>
+   <edge id="e.18" target="NT1.3" source="NT1.1"/>
+   <edge id="e.20" target="NT1.5" source="NT1.3"/>
+   <edge id="e.24" source="NT1.5" target="NT1.8"/>
+   <edge id="e.36" target="NT1.34" source="NT1.5"/>
+   <edge id="e.38" target="NT1.41" source="NT1.8"/>
+   <edge id="e.41" source="NT1.18" target="NT1.29"/>
+   <edge id="e.45" source="NT1.15" target="NT1.27"/>
+   <edge id="e.47" target="NT1.42" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

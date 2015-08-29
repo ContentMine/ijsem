@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">acillus0rmus IAM 12464T (D16268)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Oceanobacillus" cmphy:species="picturae" cmphy:strain="LMG 194921" cmphy:id="AJB15060" editRecord="[3__B]">Oceanobacillus picturae LMG 194921 (AJ315060)</otu>
+  <otu id="otu3" cmphy:genus="Bacillus" cmphy:species="muralis" cmphy:strain="LMG 20238T" cmphy:id="AJ628748" editRecord="[]">Bacillus muralis LMG 20238T (AJ628748)</otu>
+  <otu id="otu4">Virgibacillus pantothenticus IAM 1 l061T (Dl6275)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Terribacillus" cmphy:species="halophilus" cmphy:strain="002-051T" cmphy:id="ABZ43849" editRecord="[2__Z]"> Terribacillus halophilus 002-051T (AB243849)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Oceanobacillus" cmphy:species="iheyensis" cmphy:strain="JCM 11309T" cmphy:id="ABO10863" editRecord="[0__O]">Oceanobacillus iheyensis JCM 11309T (AB010863)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Terribacillus" cmphy:species="saccharophilus" cmphy:strain="002-048T" cmphy:id="ABZ43845" editRecord="[2__Z]">Terribacillus saccharophilus 002-048T (AB243845)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Terribacillus" cmphy:species="saccharophilus" cmphy:strain="RB589" cmphy:id="ABZ43847" editRecord="[2__Z]">Terribacillus saccharophilus RB589 (AB243847)</otu>
+  <otu id="otu10">Thalassobacillus devorans DSM l6966T (AJ7l7299)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Paenibacillus" cmphy:species="polymyxa" cmphy:strain="IAM 13419T" cmphy:id="ABO42063" editRecord="[0__O]">Paenibacillus polymyxa IAM 13419T (AB042063)</otu>
+  <otu id="otu12" cmphy:genus="Halobacillus" cmphy:species="halophilus" cmphy:strain="DSM 2266&quot;." cmphy:id="X62174" editRecord="[]">Halobacillus halophilus DSM 2266". (X62174)</otu>
+  <otu id="otu13">Jeatgalibacillus alimentarius JCM 10872T (AF281l58)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Gracilibacillus" cmphy:species="halotolerans" cmphy:strain="DSM 1895T" cmphy:id="AFO36922" editRecord="[0__O]">Gracilibacillus halotolerans DSM 1895T (AF036922)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Sporosarcina" cmphy:species="ureae" cmphy:strain="DSM 2281T" cmphy:id="AFZ02057" editRecord="[2__Z]">Sporosarcina ureae DSM 2281T (AF202057)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Lentibacillus" cmphy:species="salicampi" cmphy:strain="KCCM 4l560T" cmphy:id="AYO57394" editRecord="[0__O]">Lentibacillus salicampi KCCM 4l560T (AY057394)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Pantibacillus" cmphy:species="chungwhensis" cmphy:strain="KCTC 38907" cmphy:id="AYS53296" editRecord="[5__S]">Pantibacillus chungwhensis KCTC 38907 (AY553296)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="234.0" y="584.0"/>
+   <node id="NT1.2" x="292.0" y="413.0" label="87"/>
+   <node id="NT1.3" x="320.0" y="810.0" label="SB"/>
+   <node id="NT1.4" label="NT1.4" x="357.0" y="301.0"/>
+   <node id="NT1.5" label="NT1.5" x="390.0" y="198.0"/>
+   <node id="NT1.7" label="NT1.7" x="428.0" y="102.0"/>
+   <node id="NT1.8" label="NT1.8" x="428.0" y="401.0"/>
+   <node id="NT1.10" label="NT1.10" x="461.0" y="149.0"/>
+   <node id="NT1.14" label="NT1.14" x="673.0" y="375.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="680.0" y="804.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="725.0" y="523.0"/>
+   <node id="NT1.19" label="NT1.19" x="776.0" y="483.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="783.0" y="430.0" otu="otu7"/>
+   <node id="NT1.21" x="783.0" y="563.0" label="100"/>
+   <node id="NT1.22" label="NT1.22" x="784.0" y="590.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="784.0" y="536.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="795.0" y="911.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="805.0" y="215.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="836.0" y="55.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="896.0" y="643.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="933.0" y="268.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="969.0" y="109.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="2.0" y="747.0" root="true"/>
+   <edge id="e.1" target="NT1.26" source="NT1.10"/>
+   <edge id="e.3" source="NT1.10" target="NT1.31"/>
+   <edge id="e.4" source="NT1.8" target="NT1.14"/>
+   <edge id="e.5" target="NT1.30" source="NT1.5"/>
+   <edge id="e.6" source="NT1.8" target="NT1.20"/>
+   <edge id="e.7" source="NT1.16" target="NT1.19"/>
+   <edge id="e.8" source="NT1.21" target="NT1.22"/>
+   <edge id="e.9" source="NT1.21" target="NT1.23"/>
+   <edge id="e.11" source="NT1.3" target="NT1.15"/>
+   <edge id="e.13" target="NT1.29" source="NT1.3"/>
+   <edge id="e.14" source="NT1.5" target="NT1.7"/>
+   <edge id="e.15" source="NT1.7" target="NT1.10"/>
+   <edge id="e.17" source="NT1.4" target="NT1.5"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.20" source="NT1.4" target="NT1.8"/>
+   <edge id="e.21" source="NT1.2" target="NT1.16"/>
+   <edge id="e.22" source="NT1.1" target="NT1.2"/>
+   <edge id="e.23" source="NT1.1" target="NT1.3"/>
+   <edge id="e.24" source="NT1.16" target="NT1.21"/>
+   <edge id="e.27" source="NT1.32" target="NT1.25"/>
+   <edge id="e.28" source="NT1.32" target="NT1.1"/>
+   <edge id="e.29" source="NT1.7" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

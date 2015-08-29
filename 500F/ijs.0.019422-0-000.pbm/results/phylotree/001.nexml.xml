@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15">Xanthomonas sacchari LMG 471T(Y10766)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Lysobacter antibioticus DSM 2044T(ABO19582)</otu>
+  <otu id="otu18">Pseudoxanthomonas broegbernensis B1 61 671 T (AJO1 2231)</otu>
+  <otu id="otu19">Xanthomonas campestris LMG 5687 (X9591 7)</otu>
+  <otu id="otu20">Fulvimonas soli LMG 19981 T (AJ31 1653)</otu>
+  <otu id="otu21" cmphy:genus="Xanthomonas" cmphy:species="melonis" cmphy:strain="LMG 867OT" cmphy:id="Y10756" editRecord="[]">Xanthomonas melonis LMG 867OT (Y10756)</otu>
+  <otu id="otu22" cmphy:genus="Stenotrophomonas" cmphy:species="maltophilia" cmphy:strain="LMG 9587" cmphy:id="X95923" editRecord="[]">Stenotrophomonas maltophilia LMG 9587 (X95923)</otu>
+  <otu id="otu23">Luteimonas mephitis B1953l27.1T(AJ012228)</otu>
+  <otu id="otu24" cmphy:edit="[2__Z]" cmphy:genus="Lysobacter" cmphy:species="enzymogenes" cmphy:strain="DSM 20437" cmphy:id="AJZ98291" editRecord="[2__Z]">Lysobacter enzymogenes DSM 20437 (AJ298291)</otu>
+  <otu id="otu25" cmphy:edit="[1__I]" cmphy:genus="Xylella" cmphy:species="fastidiosa" cmphy:strain="PCE-FFT" cmphy:id="AFI92843" editRecord="[1__I]">Xylella fastidiosa PCE-FFT (AF192843)</otu>
+  <otu id="otu26" cmphy:edit="[0__O]" cmphy:genus="Rhodanobacter" cmphy:species="spathiphylli" cmphy:strain="B39T" cmphy:id="AMO87226" editRecord="[0__O]">Rhodanobacter spathiphylli B39T (AM087226)</otu>
+  <otu id="otu27">Rhodanobacter terrae GP18-1T(EF166076)</otu>
+  <otu id="otu28"/>
+  <otu id="otu29">Dyella japonica XD53T (AB1 10498)</otu>
+  <otu id="otu30" cmphy:edit="[8__B]" cmphy:genus="Dyella" cmphy:species="koreensis" cmphy:strain="BB4T" cmphy:id="AYB84571" editRecord="[8__B]">Dyella koreensis BB4T (AY884571)</otu>
+  <otu id="otu31"/>
+  <otu id="otu32">Rhodanobacterfulvus Jip2T (AB100608)</otu>
+  <otu id="otu33" cmphy:edit="[3__B]" cmphy:genus="Rhodanobacter" cmphy:species="ginsenosidimutans" cmphy:strain="CSC1 7Ta-9OT" cmphy:id="EUB32826" editRecord="[3__B]">Rhodanobacter ginsenosidimutans CSC1 7Ta-9OT (EU332826)</otu>
+  <otu id="otu34">Rhodanobacter ginsengisoliGR17-7T(EF166075)</otu>
+  <otu id="otu35">Frateuria aurantia IFO 3245T (AB091 194)</otu>
+  <otu id="otu36">Rhodanobacter soli DCY45T (FJ6D5268)</otu>
+  <otu id="otu37">Rhodanobacter thiooxydans LCS2T (AB2861 79)</otu>
+  <otu id="otu38">Rhodanobacter lindaniclasticus RP5557T(AFO39167)</otu>
+  <otu id="otu39">Escherichia coli ATCC 1 1 775 (X80725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="195.0" y="466.0"/>
+   <node id="NT1.3" label="NT1.3" x="318.0" y="571.0"/>
+   <node id="NT1.8" label="NT1.8" x="364.0" y="629.0"/>
+   <node id="NT1.14" label="NT1.14" x="402.0" y="660.0"/>
+   <node id="NT1.24" label="NT1.24" x="464.0" y="292.0"/>
+   <node id="NT1.36" x="520.0" y="162.0" label="62"/>
+   <node id="NT1.40" label="NT1.40" x="536.0" y="731.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="540.0" y="617.0" otu="otu22"/>
+   <node id="NT1.44" label="NT1.44" x="549.0" y="505.0" otu="otu24"/>
+   <node id="NT1.45" label="NT1.45" x="549.0" y="580.0" otu="otu25"/>
+   <node id="NT1.49" label="NT1.49" x="577.0" y="204.0" otu="otu26"/>
+   <node id="NT1.53" label="NT1.53" x="583.0" y="354.0" otu="otu30"/>
+   <node id="NT1.57" label="NT1.57" x="602.0" y="15.0" otu="otu33"/>
+   <node id="NT1.64" label="NT1.64" x="3.0" y="636.0" root="true"/>
+   <edge id="e.5" source="NT1.36" target="NT1.49"/>
+   <edge id="e.26" target="NT1.44" source="NT1.3"/>
+   <edge id="e.27" target="NT1.45" source="NT1.8"/>
+   <edge id="e.30" source="NT1.14" target="NT1.41"/>
+   <edge id="e.36" target="NT1.36" source="NT1.24"/>
+   <edge id="e.39" target="NT1.24" source="NT1.1"/>
+   <edge id="e.44" source="NT1.1" target="NT1.3"/>
+   <edge id="e.46" source="NT1.3" target="NT1.8"/>
+   <edge id="e.49" source="NT1.8" target="NT1.14"/>
+   <edge id="e.54" source="NT1.64" target="NT1.1"/>
+   <edge id="e.58" target="NT1.40" source="NT1.14"/>
+   <edge id="e.60" target="NT1.53" source="NT1.24"/>
+   <edge id="e.61" target="NT1.57" source="NT1.36"/>
+  </tree>
+ </trees>
+</nexml>

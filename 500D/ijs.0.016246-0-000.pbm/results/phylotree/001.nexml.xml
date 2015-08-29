@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Marinobacterium" cmphy:species="sediminicola" cmphy:strain="CN47T" cmphy:id="EUS73966" editRecord="[5__S]">Marinobacterium sediminicola CN47T (EU573966)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">Marinobacterium litorale IMCC1877T (D091 7760)</otu>
+  <otu id="otu11" cmphy:genus="Marinobacterium" cmphy:species="stanieri" cmphy:strain="ATCC 271307" cmphy:id="ABO21367" editRecord="[]">Marinobacterium stanieri ATCC 271307 (ABO21367)</otu>
+  <otu id="otu12">Reinekia marinisedimentorum DSM 15388T (AJ561 121)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Marinobacterium" cmphy:species="rhizophilum" cmphy:strain="CL-YJ9T" cmphy:id="EFI92391" editRecord="[1__I]">Marinobacterium rhizophilum CL-YJ9T (EF192391)</otu>
+  <otu id="otu14">Marinobacterium halophilum mano1 17 (AY5(-38030)</otu>
+  <otu id="otu15">0Marinobacterium Iutimaris AN9T (FJ 230839)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">1Marinobacterium marisflavf IMCC4074 (EF46871 7)</otu>
+  <otu id="otu18" cmphy:edit="[5__S]" cmphy:genus="Marinobacterium" cmphy:species="sediminicola" cmphy:strain="CN47T" cmphy:id="EUS73966" editRecord="[5__S]">Marinobacterium sediminicola CN47T (EU573966)</otu>
+  <otu id="otu19">Oleiphilus messinensis ME102T (AJ2951 54)</otu>
+  <otu id="otu20" cmphy:genus="Marinobacterium" cmphy:species="georgiense" cmphy:strain="KW-40T" cmphy:id="U58339" editRecord="[]">Marinobacterium georgiense KW-40T (U58339)</otu>
+  <otu id="otu21" cmphy:edit="[5__S]" cmphy:genus="Marinobacterium" cmphy:species="nitratireducens" cmphy:strain="CN44T" cmphy:id="EUS73965" editRecord="[5__S]">Marinobacterium nitratireducens CN44T (EU573965)</otu>
+  <otu id="otu22" cmphy:edit="[O__0]" cmphy:genus="Marinobacterium" cmphy:species="jannaschii" cmphy:strain="IFO 15466T" cmphy:id="ABO06765" editRecord="[O__0]">Marinobacterium jannaschii IFO 15466T (ABOO6765)</otu>
+  <otu id="otu23" cmphy:genus="Marinobacter" cmphy:species="hydrocarbonoclasticus" cmphy:strain="ATCC 498407" cmphy:id="X67022" editRecord="[]">Marinobacter hydrocarbonoclasticus ATCC 498407 (X67022)</otu>
+  <otu id="otu24" cmphy:genus="Alteromonas" cmphy:species="macleodii" cmphy:strain="DSM 6O62T" cmphy:id="Y18228" editRecord="[]">Alteromonas macleodii DSM 6O62T (Y18228)</otu>
+  <otu id="otu25">Pseudospirillum japonicum ATCC 1 9191T (AB006766)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="48.0" y="363.0"/>
+   <node id="NT1.8" label="NT1.8" x="84.0" y="276.0"/>
+   <node id="NT1.10" x="89.0" y="333.0" label="91"/>
+   <node id="NT1.15" label="NT1.15" x="105.0" y="220.0"/>
+   <node id="NT1.17" label="NT1.17" x="112.0" y="393.0"/>
+   <node id="NT1.18" label="NT1.18" x="114.0" y="395.0"/>
+   <node id="NT1.19" label="NT1.19" x="116.0" y="395.0" otu="otu6"/>
+   <node id="NT1.22" x="125.0" y="342.0" label="91"/>
+   <node id="NT1.30" label="NT1.30" x="145.0" y="313.0" otu="otu11"/>
+   <node id="NT1.32" label="NT1.32" x="149.0" y="238.0" otu="otu13"/>
+   <node id="NT1.37" label="NT1.37" x="153.0" y="389.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="160.0" y="426.0" otu="otu20"/>
+   <node id="NT1.40" label="NT1.40" x="162.0" y="200.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="172.0" y="275.0" otu="otu22"/>
+   <node id="NT1.42" label="NT1.42" x="173.0" y="539.0" otu="otu23"/>
+   <node id="NT1.43" label="NT1.43" x="179.0" y="12.0" otu="otu24"/>
+   <node id="NT1.45" label="NT1.45" x="7.0" y="109.0" root="true"/>
+   <edge id="e.6" target="NT1.42" source="NT1.2"/>
+   <edge id="e.13" source="NT1.15" target="NT1.32"/>
+   <edge id="e.14" source="NT1.18" target="NT1.19"/>
+   <edge id="e.15" source="NT1.15" target="NT1.40"/>
+   <edge id="e.16" source="NT1.10" target="NT1.41"/>
+   <edge id="e.20" target="NT1.30" source="NT1.22"/>
+   <edge id="e.21" target="NT1.39" source="NT1.18"/>
+   <edge id="e.23" target="NT1.2" source="NT1.45"/>
+   <edge id="e.29" target="NT1.8" source="NT1.2"/>
+   <edge id="e.30" source="NT1.8" target="NT1.10"/>
+   <edge id="e.31" source="NT1.8" target="NT1.15"/>
+   <edge id="e.34" target="NT1.17" source="NT1.10"/>
+   <edge id="e.35" source="NT1.17" target="NT1.18"/>
+   <edge id="e.36" source="NT1.17" target="NT1.22"/>
+   <edge id="e.41" source="NT1.45" target="NT1.43"/>
+   <edge id="e.43" target="NT1.37" source="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

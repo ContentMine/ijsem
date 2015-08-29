@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 11947T" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 11947T (M62797)</otu>
+  <otu id="otu3">Ulvibacter Iitoralis KMM 3912T (AY243096)</otu>
+  <otu id="otu4" cmphy:genus="Cellulophaga" cmphy:species="lytica" cmphy:strain="ATCC 23178T" cmphy:id="M62796" editRecord="[]">Cellulophaga lytica ATCC 23178T (M62796)</otu>
+  <otu id="otu5">ICytophaga1 latercula ATCC 231777 (M58769)</otu>
+  <otu id="otu6" cmphy:genus="Cellulophaga" cmphy:species="algicola" cmphy:strain="IC166T" cmphy:id="AFO01366" editRecord="[]">Cellulophaga algicola IC166T (AFO01366)</otu>
+  <otu id="otu7" cmphy:genus="Gelidibacter" cmphy:species="algens" cmphy:strain="ACAM 536T" cmphy:id="U62914" editRecord="[]">Gelidibacter algens ACAM 536T (U62914)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 54247" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens DSM 54247 (M92279)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Aequorivita" cmphy:species="antarctica" cmphy:strain="SW49T" cmphy:id="AYO27802" editRecord="[0__O]">Aequorivita antarctica SW49T (AY027802)</otu>
+  <otu id="otu11" cmphy:genus="Coenonia" cmphy:species="anatina" cmphy:strain="LMG 14382T" cmphy:id="Y17612" editRecord="[]">Coenonia anatina LMG 14382T (Y17612)</otu>
+  <otu id="otu12" cmphy:genus="Psychroflexus" cmphy:species="torquis" cmphy:strain="ACAM 6237" cmphy:id="U85881" editRecord="[]">Psychroflexus torquis ACAM 6237 (U85881)</otu>
+  <otu id="otu13" cmphy:genus="Polaribacter" cmphy:species="mamentus" cmphy:strain="215T" cmphy:id="U73726" editRecord="[]">Polaribacter mamentus 215T (U73726)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16">Arenibacterlatericius KMM 426T (AFO52742)</otu>
+  <otu id="otu17" cmphy:genus="Capnocytophaga" cmphy:species="ochracea" cmphy:strain="ATCC 27872T" cmphy:id="U41350" editRecord="[]">Capnocytophaga ochracea ATCC 27872T (U41350)</otu>
+  <otu id="otu18">Mun'cauda ruestringensis B17 (AF218782)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="20.0" y="859.0"/>
+   <node id="NT1.2" label="NT1.2" x="24.0" y="507.0"/>
+   <node id="NT1.3" label="NT1.3" x="31.0" y="756.0"/>
+   <node id="NT1.4" label="NT1.4" x="37.0" y="490.0"/>
+   <node id="NT1.6" label="NT1.6" x="47.0" y="122.0"/>
+   <node id="NT1.9" label="NT1.9" x="57.0" y="1055.0"/>
+   <node id="NT1.10" label="NT1.10" x="66.0" y="395.0"/>
+   <node id="NT1.16" label="NT1.16" x="167.0" y="22.0" otu="otu2"/>
+   <node id="NT1.18" label="NT1.18" x="171.0" y="360.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="177.0" y="428.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="182.0" y="225.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="194.0" y="1110.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="214.0" y="837.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="215.0" y="157.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="223.0" y="973.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="224.0" y="1245.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="266.0" y="90.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="7.0" y="481.0" root="true"/>
+   <edge id="e.0" source="NT1.6" target="NT1.16"/>
+   <edge id="e.1" source="NT1.6" target="NT1.25"/>
+   <edge id="e.2" source="NT1.6" target="NT1.31"/>
+   <edge id="e.4" source="NT1.9" target="NT1.26"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" source="NT1.2" target="NT1.3"/>
+   <edge id="e.10" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.4" target="NT1.10"/>
+   <edge id="e.14" source="NT1.10" target="NT1.20"/>
+   <edge id="e.19" source="NT1.33" target="NT1.6"/>
+   <edge id="e.20" source="NT1.33" target="NT1.1"/>
+   <edge id="e.22" source="NT1.3" target="NT1.9"/>
+   <edge id="e.23" source="NT1.9" target="NT1.23"/>
+   <edge id="e.26" source="NT1.10" target="NT1.18"/>
+   <edge id="e.27" target="NT1.27" source="NT1.1"/>
+   <edge id="e.28" target="NT1.21" source="NT1.2"/>
+   <edge id="e.30" target="NT1.24" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

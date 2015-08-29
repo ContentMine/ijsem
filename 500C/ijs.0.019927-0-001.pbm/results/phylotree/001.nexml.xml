@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">C. ulcerans CIP 1065047 AY492271</otu>
+  <otu id="otu2">C. pseudotuberculosis CIP 1 029687 AY492239</otu>
+  <otu id="otu3">C. diphtheriae CIP 1007217 AY49223O</otu>
+  <otu id="otu4">C. spheniscorum CCUG 455127 AY492283</otu>
+  <otu id="otu5">C. vitaeruminis CIP.82 77 AY492273</otu>
+  <otu id="otu6">C. argentoratense CIP 1042967 AY492249</otu>
+  <otu id="otu7">C. mastitidis CIP 1055097 AY492281</otu>
+  <otu id="otu8">C. kutscheri CIP 1034237 AY492257</otu>
+  <otu id="otu9">C. durum CIP 1054907 AY492252</otu>
+  <otu id="otu10">C. timonense 54017447 EF217058</otu>
+  <otu id="otu11">C. canis 11707 G0871935</otu>
+  <otu id="otu12">C. testudinoris CCUG 418237 AY492284</otu>
+  <otu id="otu13">C. matruchotii CIP 81.827 AY492238</otu>
+  <otu id="otu14">C. freiburgense 10457 GO913437</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="37.0" y="233.0"/>
+   <node id="NT1.2" label="NT1.2" x="37.0" y="396.0"/>
+   <node id="NT1.3" label="NT1.3" x="79.0" y="436.0"/>
+   <node id="NT1.4" label="NT1.4" x="106.0" y="357.0"/>
+   <node id="NT1.5" label="NT1.5" x="122.0" y="162.0"/>
+   <node id="NT1.6" label="NT1.6" x="166.0" y="102.0"/>
+   <node id="NT1.7" label="NT1.7" x="178.0" y="221.0"/>
+   <node id="NT1.8" x="181.0" y="463.0" label="98"/>
+   <node id="NT1.9" label="NT1.9" x="194.0" y="61.0"/>
+   <node id="NT1.10" label="NT1.10" x="217.0" y="248.0"/>
+   <node id="NT1.11" label="NT1.11" x="220.0" y="140.0"/>
+   <node id="NT1.12" x="261.0" y="34.0" label="75"/>
+   <node id="NT1.13" label="NT1.13" x="308.0" y="446.0" otu="otu1"/>
+   <node id="NT1.14" label="NT1.14" x="367.0" y="482.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="372.0" y="410.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="425.0" y="302.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="476.0" y="87.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="513.0" y="267.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="527.0" y="15.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="532.0" y="338.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="554.0" y="231.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="557.0" y="159.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="558.0" y="195.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="589.0" y="51.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="605.0" y="123.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="605.0" y="374.0" otu="otu14"/>
+   <edge source="NT1.17" target="NT1.9" id="e.0"/>
+   <edge source="NT1.14" target="NT1.8" id="e.1"/>
+   <edge source="NT1.12" target="NT1.9" id="e.2"/>
+   <edge source="NT1.9" target="NT1.6" id="e.3"/>
+   <edge source="NT1.6" target="NT1.5" id="e.4"/>
+   <edge source="NT1.6" target="NT1.11" id="e.5"/>
+   <edge source="NT1.5" target="NT1.1" id="e.6"/>
+   <edge source="NT1.5" target="NT1.7" id="e.7"/>
+   <edge source="NT1.7" target="NT1.10" id="e.8"/>
+   <edge source="NT1.2" target="NT1.3" id="e.9"/>
+   <edge source="NT1.2" target="NT1.4" id="e.10"/>
+   <edge source="NT1.3" target="NT1.8" id="e.11"/>
+   <edge source="NT1.1" target="NT1.2" id="e.12"/>
+   <edge source="NT1.16" target="NT1.1" id="e.13"/>
+   <edge source="NT1.15" target="NT1.3" id="e.14"/>
+   <edge source="NT1.13" target="NT1.8" id="e.15"/>
+   <edge source="NT1.20" target="NT1.4" id="e.16"/>
+   <edge source="NT1.26" target="NT1.4" id="e.17"/>
+   <edge source="NT1.23" target="NT1.7" id="e.18"/>
+   <edge source="NT1.18" target="NT1.10" id="e.19"/>
+   <edge source="NT1.21" target="NT1.10" id="e.20"/>
+   <edge source="NT1.22" target="NT1.11" id="e.21"/>
+   <edge source="NT1.25" target="NT1.11" id="e.22"/>
+   <edge source="NT1.24" target="NT1.12" id="e.23"/>
+   <edge source="NT1.19" target="NT1.12" id="e.24"/>
+  </tree>
+ </trees>
+</nexml>

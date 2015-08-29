@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Oceanobacillus" cmphy:species="picturae" cmphy:strain="LMG 19492T" cmphy:id="AJB15060" editRecord="[3__B]">Oceanobacillus picturae LMG 19492T (AJ315060)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Oceanobacillus" cmphy:species="profundus" cmphy:strain="CL-MP28T" cmphy:id="DQB86635" editRecord="[3__B]">Oceanobacillus profundus CL-MP28T (DQ386635)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Oceanobacillus" cmphy:species="kapialis" cmphy:strain="SSK2-2T" cmphy:id="ABB66005" editRecord="[3__B]">Oceanobacillus kapialis SSK2-2T (AB366005)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Virgibacillus pantothenticus IAM 1 1061 T (D78477)</otu>
+  <otu id="otu10">Oceanobacillus oncorhynchisubsp. oncorhynchi R-2T (AB188089)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Oceanobacillus oncorhynchi subsp. incaldanensis QOAGT (AJ640134)</otu>
+  <otu id="otu13" cmphy:edit="[O__0]" cmphy:genus="Oceanobacillus" cmphy:species="iheyensis" cmphy:strain="HTE831T" cmphy:id="BAO00028" editRecord="[O__0]">Oceanobacillus iheyensis HTE831T (BAO00O28)</otu>
+  <otu id="otu14" cmphy:genus="Gracilibacillus" cmphy:species="halotolerans" cmphy:strain="NNT" cmphy:id="AFO36922" editRecord="[]">Gracilibacillus halotolerans NNT (AFO36922)</otu>
+  <otu id="otu15">BaCiIIus subtilis DSM 107 (AJ276351)</otu>
+  <otu id="otu16">Oceanobacillus caeni S-1 17 (AB2 75883)</otu>
+  <otu id="otu17" cmphy:genus="Lentibacillus" cmphy:species="salicampi" cmphy:strain="SF-207" cmphy:id="AYO57394" editRecord="[]">Lentibacillus salicampi SF-207 (AYO57394)</otu>
+  <otu id="otu18" cmphy:genus="Oceanobacillus" cmphy:species="neutriphilus" cmphy:strain="A1 gT" cmphy:id="EU709018" editRecord="[]">Oceanobacillus neutriphilus A1 gT (EU709018)</otu>
+  <otu id="otu19">Halobacillus halophilus ATCC 356767 (X621 74)</otu>
+  <otu id="otu20">Oceanobacillus chironomiT3944DT (DQ298074)</otu>
+  <otu id="otu21" cmphy:edit="[1__I]" cmphy:genus="Alicyclobacillus" cmphy:species="acidocaldarius" cmphy:strain="DSM 39227" cmphy:id="AJI33631" editRecord="[1__I]">Alicyclobacillus acidocaldarius DSM 39227 (AJ133631)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="138.0" y="294.0"/>
+   <node id="NT1.3" label="NT1.3" x="141.0" y="354.0"/>
+   <node id="NT1.5" label="NT1.5" x="159.0" y="234.0"/>
+   <node id="NT1.9" label="NT1.9" x="178.0" y="186.0"/>
+   <node id="NT1.13" label="NT1.13" x="212.0" y="88.0"/>
+   <node id="NT1.14" label="NT1.14" x="212.0" y="272.0"/>
+   <node id="NT1.18" label="NT1.18" x="234.0" y="291.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="239.0" y="187.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="245.0" y="256.0" otu="otu7"/>
+   <node id="NT1.28" label="NT1.28" x="282.0" y="118.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="292.0" y="360.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="298.0" y="326.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="299.0" y="84.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="334.0" y="499.0" otu="otu21"/>
+   <node id="NT1.37" label="NT1.37" x="3.0" y="379.0" root="true"/>
+   <edge id="e.6" source="NT1.9" target="NT1.19"/>
+   <edge id="e.10" target="NT1.18" source="NT1.14"/>
+   <edge id="e.12" source="NT1.3" target="NT1.32"/>
+   <edge id="e.16" target="NT1.13" source="NT1.9"/>
+   <edge id="e.19" target="NT1.9" source="NT1.5"/>
+   <edge id="e.21" source="NT1.2" target="NT1.5"/>
+   <edge id="e.22" source="NT1.5" target="NT1.14"/>
+   <edge id="e.23" target="NT1.2" source="NT1.37"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+   <edge id="e.29" source="NT1.37" target="NT1.36"/>
+   <edge id="e.31" target="NT1.29" source="NT1.3"/>
+   <edge id="e.32" source="NT1.14" target="NT1.21"/>
+   <edge id="e.33" source="NT1.13" target="NT1.28"/>
+   <edge id="e.34" target="NT1.33" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

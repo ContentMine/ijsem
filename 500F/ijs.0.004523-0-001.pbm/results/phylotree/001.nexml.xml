@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">D. peraridilitoris KR-2007 (EF141348)</otu>
+  <otu id="otu6">D. maricopensis LB-34T (AY743274)</otu>
+  <otu id="otu7">D. pimensis KR-235T (AY743277)</otu>
+  <otu id="otu8">D. deseni VCD1 157 (AY876378)</otu>
+  <otu id="otu9">D. papagonensis KR-241T (AY743280)</otu>
+  <otu id="otu10">D. hopiensis KR-140T (AY743262)</otu>
+  <otu id="otu11">D. grandis DSM 39637 (Y11329)</otu>
+  <otu id="otu12">D. hohokamensis KR-407 (AY743256)</otu>
+  <otu id="otu13">D. yavapaiensis KR-236T (AY743279)</otu>
+  <otu id="otu14">D. sonorensis KR-877 (AY743283)</otu>
+  <otu id="otu15">D. indicus Wtl1aT (AJ549111)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">D. navajonensis KR-114T (AY743259)</otu>
+  <otu id="otu18">D. proteolyticus DSM 20540T (Y11331)</otu>
+  <otu id="otu19"> D. murrayiALT-1bT (Y13041)</otu>
+  <otu id="otu20">D. radiomollis PO-04-20-132T (EF635404)</otu>
+  <otu id="otu21">Strain I-OT (EU427464)</otu>
+  <otu id="otu22">D. altitudinis ME-04801-32T (EF635407)</otu>
+  <otu id="otu23">D4 claudionis PO-O4-19-1257 (EF635406)</otu>
+  <otu id="otu24">D. ficus CC-FR2-1OT (AY941086)</otu>
+  <otu id="otu25"> D. radiodurans DSM 205397 (Y11332)</otu>
+  <otu id="otu26">D. mumbaiensis CON-1T (DQ003135)</otu>
+  <otu id="otu27"/>
+  <otu id="otu28">D. yunweiensis YIM 0077 (DQ344634)</otu>
+  <otu id="otu29">D. marmoris AA-637 (AJ585986)</otu>
+  <otu id="otu30">D. radiopugnans DSM 120277 (Y11334)</otu>
+  <otu id="otu31">D. cellulosilyticus 5516J-15T (DQ883809)</otu>
+  <otu id="otu32"/>
+  <otu id="otu33">D. frigens AA-6927 (AJ585981)</otu>
+  <otu id="otu34"/>
+  <otu id="otu35">D. geothermalis AG-3aT (Y13038)</otu>
+  <otu id="otu36" cmphy:genus="Thermus" cmphy:species="aquaticus" cmphy:strain="YT-1T" cmphy:id="L09663" editRecord="[]">Thermus aquaticus YT-1T (L09663)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.65" label="NT1.65" x="650.0" y="1066.0" otu="otu36"/>
+   <node id="NT1.66" label="NT1.66" x="2.0" y="985.0" root="true"/>
+   <edge id="e.56" source="NT1.66" target="NT1.65"/>
+  </tree>
+ </trees>
+</nexml>

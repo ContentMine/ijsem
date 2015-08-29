@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Marinirhermus" cmphy:species="hydrathermalis" cmphy:strain="JCM 115767" cmphy:id="ABO69382" editRecord="[0__O]">Marinirhermus hydrathermalis JCM 115767 (AB069382)</otu>
+  <otu id="otu3" cmphy:genus="Thermus" cmphy:species="thermophilus" cmphy:strain="ATCC 27634T" cmphy:id="X07998" editRecord="[]"> Thermus thermophilus ATCC 27634T (X07998)</otu>
+  <otu id="otu4" cmphy:genus="Thermus" cmphy:species="aquaticus" cmphy:strain="ATCC 251047" cmphy:id="L09663" editRecord="[]"> Thermus aquaticus ATCC 251047 (L09663)</otu>
+  <otu id="otu5" cmphy:genus="Thermus" cmphy:species="igniterrae" cmphy:strain="DSM 12459T" cmphy:id="Y18406" editRecord="[]"> Thermus igniterrae DSM 12459T (Y18406)</otu>
+  <otu id="otu6" cmphy:genus="Thermus" cmphy:species="ashimai" cmphy:strain="NCIMB 13400T" cmphy:id="Y18416" editRecord="[]">Thermus ashimai NCIMB 13400T (Y18416)</otu>
+  <otu id="otu7" cmphy:genus="Thermus" cmphy:species="scoroductus" cmphy:strain="DSM 8553T" cmphy:id="Y18410" editRecord="[]">Thermus scoroductus DSM 8553T (Y18410)</otu>
+  <otu id="otu8" cmphy:genus="Thermus" cmphy:species="filiformis" cmphy:strain="ATCC 43280T" cmphy:id="L09667" editRecord="[]">Thermus filiformis ATCC 43280T (L09667)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Meiothermus" cmphy:species="ruber" cmphy:strain="ATCC 359487" cmphy:id="Z15059" editRecord="[2__Z]">Meiothermus ruber ATCC 359487 (215059)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Meiothermus" cmphy:species="chliarophilus" cmphy:strain="DSM 99577" cmphy:id="X84212" editRecord="[]">Meiothermus chliarophilus DSM 99577 (X84212)</otu>
+  <otu id="otu12">Meiolhermus silvanus DSM 9946T (X8421 1)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="45.0" y="293.0" label="72"/>
+   <node id="NT1.3" x="69.0" y="368.0" label="90"/>
+   <node id="NT1.4" x="103.0" y="453.0" label="86"/>
+   <node id="NT1.5" x="109.0" y="413.0" label="86"/>
+   <node id="NT1.7" label="NT1.7" x="130.0" y="375.0"/>
+   <node id="NT1.8" label="NT1.8" x="140.0" y="343.0"/>
+   <node id="NT1.9" label="NT1.9" x="146.0" y="138.0"/>
+   <node id="NT1.11" label="NT1.11" x="161.0" y="59.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="162.0" y="493.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="175.0" y="321.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="188.0" y="365.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="189.0" y="278.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="198.0" y="408.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="208.0" y="450.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="281.0" y="192.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="292.0" y="105.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="33.0" y="164.0" root="true"/>
+   <edge id="e.1" target="NT1.11" source="NT1.23"/>
+   <edge id="e.2" source="NT1.3" target="NT1.15"/>
+   <edge id="e.3" source="NT1.5" target="NT1.17"/>
+   <edge id="e.4" source="NT1.8" target="NT1.13"/>
+   <edge id="e.6" source="NT1.7" target="NT1.16"/>
+   <edge id="e.7" source="NT1.8" target="NT1.14"/>
+   <edge id="e.8" source="NT1.9" target="NT1.21"/>
+   <edge id="e.9" target="NT1.19" source="NT1.9"/>
+   <edge id="e.11" source="NT1.2" target="NT1.3"/>
+   <edge id="e.13" target="NT1.9" source="NT1.2"/>
+   <edge id="e.14" source="NT1.4" target="NT1.5"/>
+   <edge id="e.16" source="NT1.5" target="NT1.7"/>
+   <edge id="e.17" source="NT1.7" target="NT1.8"/>
+   <edge id="e.19" source="NT1.23" target="NT1.2"/>
+   <edge id="e.20" source="NT1.3" target="NT1.4"/>
+   <edge id="e.21" source="NT1.4" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

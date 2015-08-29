@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Arthrobacter" cmphy:species="albus" cmphy:strain="CF43)" cmphy:id="AJZ43421" editRecord="[2__Z]">Arthrobacter albus CF43) (AJ243421)</otu>
+  <otu id="otu3" cmphy:genus="Citricoccus" cmphy:species="parietis" cmphy:strain="02-Je-010'" cmphy:id="FM992367" editRecord="[]">Citricoccus parietis 02-Je-010' (FM992367)</otu>
+  <otu id="otu4" cmphy:genus="Kocuria" cmphy:species="rosea" cmphy:strain="DSM 20447" cmphy:id="X87756" editRecord="[]">Kocuria rosea DSM 20447 (X87756)</otu>
+  <otu id="otu5">Kocuria palustris DSM 11925T(Y16263)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Citricoccus" cmphy:species="muralis" cmphy:strain="4-OT" cmphy:id="AJB44143" editRecord="[3__B]">Citricoccus muralis 4-OT (AJ344143)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Kocuria" cmphy:species="polaris" cmphy:strain="DSM 14382)" cmphy:id="AJZ78868" editRecord="[2__Z]">Kocuria polaris DSM 14382) (AJ278868)</otu>
+  <otu id="otu8">Arthrobacter nicotianae DSM 201 2ST (X80739)</otu>
+  <otu id="otu9" cmphy:genus="Arthrobacter" cmphy:species="protophormiae" cmphy:strain="DSM 201681" cmphy:id="X80745" editRecord="[]">Arthrobacter protophormiae DSM 201681 (X80745)</otu>
+  <otu id="otu10" cmphy:genus="Arthrobacter" cmphy:species="atrocyaneus" cmphy:strain="DSM 20127)" cmphy:id="X80746" editRecord="[]">Arthrobacter atrocyaneus DSM 20127) (X80746)</otu>
+  <otu id="otu11" cmphy:genus="Kocuria" cmphy:species="rhizophila" cmphy:strain="DSM 11926'" cmphy:id="Y16264" editRecord="[]">Kocuria rhizophila DSM 11926' (Y16264)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="47.0" y="275.0"/>
+   <node id="NT1.2" label="NT1.2" x="104.0" y="213.0"/>
+   <node id="NT1.3" label="NT1.3" x="231.0" y="143.0"/>
+   <node id="NT1.4" label="NT1.4" x="279.0" y="469.0"/>
+   <node id="NT1.6" label="NT1.6" x="475.0" y="83.0"/>
+   <node id="NT1.8" label="NT1.8" x="607.0" y="417.0"/>
+   <node id="NT1.11" label="NT1.11" x="625.0" y="336.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="656.0" y="123.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="661.0" y="390.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="684.0" y="69.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="700.0" y="443.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="889.0" y="176.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="892.0" y="283.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="893.0" y="496.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="2.0" y="372.0" root="true"/>
+   <edge id="e.1" target="NT1.15" source="NT1.6"/>
+   <edge id="e.2" source="NT1.6" target="NT1.12"/>
+   <edge id="e.4" target="NT1.18" source="NT1.3"/>
+   <edge id="e.5" source="NT1.1" target="NT1.11"/>
+   <edge id="e.6" source="NT1.8" target="NT1.13"/>
+   <edge id="e.8" source="NT1.8" target="NT1.16"/>
+   <edge id="e.9" target="NT1.20" source="NT1.4"/>
+   <edge id="e.11" source="NT1.3" target="NT1.6"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" source="NT1.4" target="NT1.8"/>
+   <edge id="e.17" source="NT1.21" target="NT1.1"/>
+   <edge id="e.18" source="NT1.21" target="NT1.4"/>
+   <edge id="e.19" source="NT1.2" target="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

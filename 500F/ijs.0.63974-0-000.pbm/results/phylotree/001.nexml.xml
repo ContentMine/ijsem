@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">C. terrae DB5T (AY884570)</otu>
+  <otu id="otu9">C. denverensis W6929T (AY501362)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">(C. parahominis) W7336 (AY655731)</otu>
+  <otu id="otu13">C. hominis DMMZ CE40T (X82598)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Oerskovia" cmphy:species="enterophila" cmphy:strain="DSM 43852T" cmphy:id="X83807" editRecord="[]">Oerskovia enterophila DSM 43852T (X83807)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19">C. xylanilytica XIL11T (AY303668)</otu>
+  <otu id="otu20">C. composti TR7-067 (AB166887)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">(C. septica' W7388 (AY655733)</otu>
+  <otu id="otu23" cmphy:edit="[3__B]" cmphy:genus="Oerskovia" cmphy:species="paurometabola" cmphy:strain="DSM 14281T" cmphy:id="AJB14851" editRecord="[3__B]">Oerskovia paurometabola DSM 14281T (AJ314851)</otu>
+  <otu id="otu24" cmphy:edit="[3__B]" cmphy:genus="Oerskovia" cmphy:species="paurometabola" cmphy:strain="DSM 14281T" cmphy:id="AJB14851" editRecord="[3__B]">Oerskovia paurometabola DSM 14281T (AJ314851)</otu>
+  <otu id="otu25" cmphy:edit="[3__B]" cmphy:genus="Oerskovia" cmphy:species="jenensis" cmphy:strain="DSM 46O00T" cmphy:id="AJB14848" editRecord="[3__B]">Oerskovia jenensis DSM 46O00T (AJ314848)</otu>
+  <otu id="otu26">C. humilata ATCC 25174T (X82449)</otu>
+  <otu id="otu27"/>
+  <otu id="otu28" cmphy:genus="Oerskovia" cmphy:species="turbata" cmphy:strain="DSM 20577T" cmphy:id="X83806" editRecord="[]">Oerskovia turbata DSM 20577T (X83806)</otu>
+  <otu id="otu29">C. iranensis OT (AF064702)</otu>
+  <otu id="otu30">C. fimi DSM 20113T (X83803)</otu>
+  <otu id="otu31">C. biazotea DSM 201127 (X79462)</otu>
+  <otu id="otu32">C. flavigena DSM 20109T (X83799)</otu>
+  <otu id="otu33">C. cellasea DSM 201187 (X79459)</otu>
+  <otu id="otu34">C. gelida DSM 20111T (X83800)</otu>
+  <otu id="otu35">C. uda DSM 20107T (X83801)</otu>
+  <otu id="otu36">C. persica IT (AF064701)</otu>
+  <otu id="otu37" cmphy:genus="Cellulosimicrobium" cmphy:species="cellulans" cmphy:strain="DSM 43879T" cmphy:id="X79455" editRecord="[]">Cellulosimicrobium cellulans DSM 43879T (X79455)</otu>
+  <otu id="otu38" cmphy:genus="Xylanimonas" cmphy:species="cellulosilytica" cmphy:strain="XIL07T" cmphy:id="AF403541" editRecord="[]">Xylanimonas cellulosilytica XIL07T (AF403541)</otu>
+  <otu id="otu39" cmphy:edit="[2__Z]" cmphy:genus="Xylanibacterium" cmphy:species="ulmi" cmphy:strain="XILO8T" cmphy:id="AYZ73185" editRecord="[2__Z]">Xylanibacterium ulmi XILO8T (AY273185)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="772.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="87.0" y="637.0"/>
+   <node id="NT1.5" label="NT1.5" x="187.0" y="806.0"/>
+   <node id="NT1.31" label="NT1.31" x="391.0" y="660.0"/>
+   <node id="NT1.34" label="NT1.34" x="404.0" y="834.0"/>
+   <node id="NT1.36" label="NT1.36" x="410.0" y="626.0" otu="otu16"/>
+   <node id="NT1.43" x="432.0" y="692.0" label="97"/>
+   <node id="NT1.45" label="NT1.45" x="439.0" y="693.0" otu="otu23"/>
+   <node id="NT1.46" label="NT1.46" x="439.0" y="716.0"/>
+   <node id="NT1.47" label="NT1.47" x="440.0" y="703.0" otu="otu24"/>
+   <node id="NT1.48" label="NT1.48" x="440.0" y="740.0" otu="otu25"/>
+   <node id="NT1.52" label="NT1.52" x="449.0" y="664.0" otu="otu28"/>
+   <node id="NT1.61" label="NT1.61" x="616.0" y="778.0" otu="otu37"/>
+   <node id="NT1.62" label="NT1.62" x="625.0" y="854.0" otu="otu38"/>
+   <node id="NT1.63" label="NT1.63" x="764.0" y="816.0" otu="otu39"/>
+   <edge id="e.20" source="NT1.1" target="NT1.2"/>
+   <edge id="e.25" source="NT1.31" target="NT1.36"/>
+   <edge id="e.27" source="NT1.43" target="NT1.45"/>
+   <edge id="e.29" source="NT1.46" target="NT1.47"/>
+   <edge id="e.30" target="NT1.48" source="NT1.46"/>
+   <edge id="e.32" source="NT1.34" target="NT1.63"/>
+   <edge id="e.48" target="NT1.31" source="NT1.2"/>
+   <edge id="e.50" source="NT1.2" target="NT1.5"/>
+   <edge id="e.52" source="NT1.31" target="NT1.43"/>
+   <edge id="e.53" source="NT1.5" target="NT1.34"/>
+   <edge id="e.54" source="NT1.43" target="NT1.46"/>
+   <edge id="e.57" source="NT1.5" target="NT1.61"/>
+   <edge id="e.59" source="NT1.43" target="NT1.52"/>
+   <edge id="e.61" source="NT1.34" target="NT1.62"/>
+  </tree>
+ </trees>
+</nexml>

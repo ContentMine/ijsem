@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Pedobacter" cmphy:species="saltans" cmphy:strain="DSM 12145T" cmphy:id="AJ438173" editRecord="[]">Pedobacter saltans DSM 12145T (AJ438173)</otu>
+  <otu id="otu11" cmphy:genus="Sphingobacterium" cmphy:species="faecium" cmphy:strain="DSM 116907" cmphy:id="AJ438176" editRecord="[]"> Sphingobacterium faecium DSM 116907 (AJ438176)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Sphingobacterium" cmphy:species="spiritivorum" cmphy:strain="ATCC 33861T" cmphy:id="M58778" editRecord="[]">Sphingobacterium spiritivorum ATCC 33861T (M58778)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Pedobacter" cmphy:species="heparinus" cmphy:strain="DSM 23667" cmphy:id="AJ438172" editRecord="[]">Pedobacter heparinus DSM 23667 (AJ438172)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Sphingobacterium" cmphy:species="thalpophilum" cmphy:strain="ATCC 4332oT" cmphy:id="M58779" editRecord="[]">Sphingobacterium thalpophilum ATCC 4332oT (M58779)</otu>
+  <otu id="otu19" cmphy:genus="Pedobacter" cmphy:species="piscium" cmphy:strain="DSM 11725T" cmphy:id="AJ438174" editRecord="[]">Pedobacter piscium DSM 11725T (AJ438174)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:genus="Sphingobacterium" cmphy:species="multivorum" cmphy:strain="IFO 149477" cmphy:id="D14025" editRecord="[]">Sphingobacterium multivorum IFO 149477 (D14025)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23" cmphy:edit="[2__Z]" cmphy:genus="Sphingobacterium" cmphy:species="daejeonense" cmphy:strain="TR6-047" cmphy:id="ABZ49372" editRecord="[2__Z]">Sphingobacterium daejeonense TR6-047 (AB249372)</otu>
+  <otu id="otu24" cmphy:edit="[5__S]" cmphy:genus="Pedobacter" cmphy:species="himalayensis" cmphy:strain="HHS22T" cmphy:id="AJS83425" editRecord="[5__S]">Pedobacter himalayensis HHS22T (AJ583425)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="268.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="32.0" y="267.0"/>
+   <node id="NT1.4" x="47.0" y="192.0" label="68"/>
+   <node id="NT1.5" x="156.0" y="342.0" label="99"/>
+   <node id="NT1.7" label="NT1.7" x="166.0" y="395.0"/>
+   <node id="NT1.8" x="203.0" y="439.0" label="eE'"/>
+   <node id="NT1.11" x="294.0" y="132.0" label="100"/>
+   <node id="NT1.13" x="326.0" y="468.0" label="100"/>
+   <node id="NT1.17" label="NT1.17" x="364.0" y="73.0"/>
+   <node id="NT1.21" label="NT1.21" x="397.0" y="250.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="426.0" y="408.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="430.0" y="289.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="434.0" y="211.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="442.0" y="488.0" otu="otu18"/>
+   <node id="NT1.33" label="NT1.33" x="443.0" y="92.0" otu="otu19"/>
+   <node id="NT1.35" label="NT1.35" x="455.0" y="448.0" otu="otu21"/>
+   <node id="NT1.37" label="NT1.37" x="496.0" y="369.0" otu="otu23"/>
+   <node id="NT1.38" label="NT1.38" x="506.0" y="51.0" otu="otu24"/>
+   <edge id="e.3" target="NT1.38" source="NT1.17"/>
+   <edge id="e.7" target="NT1.33" source="NT1.17"/>
+   <edge id="e.11" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" source="NT1.5" target="NT1.26"/>
+   <edge id="e.17" source="NT1.8" target="NT1.24"/>
+   <edge id="e.18" source="NT1.13" target="NT1.32"/>
+   <edge id="e.19" source="NT1.13" target="NT1.35"/>
+   <edge id="e.21" target="NT1.37" source="NT1.7"/>
+   <edge id="e.24" source="NT1.11" target="NT1.17"/>
+   <edge id="e.26" source="NT1.4" target="NT1.11"/>
+   <edge id="e.28" source="NT1.5" target="NT1.7"/>
+   <edge id="e.29" source="NT1.7" target="NT1.8"/>
+   <edge id="e.32" target="NT1.13" source="NT1.8"/>
+   <edge id="e.33" source="NT1.2" target="NT1.4"/>
+   <edge id="e.34" source="NT1.2" target="NT1.5"/>
+   <edge id="e.35" source="NT1.4" target="NT1.21"/>
+   <edge id="e.36" target="NT1.29" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

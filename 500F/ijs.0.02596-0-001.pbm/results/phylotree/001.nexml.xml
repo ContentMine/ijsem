@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Bucillilsp.s'euclqfir7nus DSM 8715' (X76439)</otu>
+  <otu id="otu3" cmphy:genus="Bacillus" cmphy:species="ulmlophilux" cmphy:strain="DSM 485T" cmphy:id="X76436" editRecord="[]">Bacillus ulmlophilux DSM 485T (X76436)</otu>
+  <otu id="otu4">Bacillus pxeudalraliphilus DSM 8725-1 (X76449).</otu>
+  <otu id="otu5">Bacillus l1al0durm1S DSM 8718 (X76644Z)</otu>
+  <otu id="otu6">Sparasrlrcina (formerly Baciilm) pcz.vIem'ii NCIMB 8841 (X60631)</otu>
+  <otu id="otu7">Paerzllaaoillus l)1l1EEFdHSNCDO 1764 (X60624)</otu>
+  <otu id="otu8">EClA'lllllS clazzszz DSM 87161 (X76440)</otu>
+  <otu id="otu9">Barillus sp. DSM 8717 (X76441)</otu>
+  <otu id="otu10" cmphy:genus="Bacillus" cmphy:species="gibxmzii" cmphy:strain="DSM 8722-I" cmphy:id="X76446" editRecord="[]">Bacillus gibxmzii DSM 8722-I (X76446)</otu>
+  <otu id="otu11">Burxllm sp. DSM 8714 (X76438)</otu>
+  <otu id="otu12" cmphy:edit="[S__5]" cmphy:genus="Bacillus" cmphy:species="kmlwichiac" cmphy:strain="AVl3lD&quot;" cmphy:id="ABO86597" editRecord="[S__5]">Bacillus kmlwichiac AVl3lD" (ABO86S97)</otu>
+  <otu id="otu13">Bacillzis ugu7'udl1twrens' DSM 87217 (X76445)</otu>
+  <otu id="otu14" cmphy:genus="Bacillus" cmphy:species="clarkii" cmphy:strain="DSM 87207" cmphy:id="X76444" editRecord="[]">Bacillus clarkii DSM 87207 (X76444)</otu>
+  <otu id="otu15" cmphy:genus="Buoillus" cmphy:species="vedderi" cmphy:strain="DSM 9768T" cmphy:id="Z48306" editRecord="[]">Buoillus vedderi DSM 9768T (Z48306)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="201.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="228.0" y="572.0"/>
+   <node id="NT1.5" label="NT1.5" x="278.0" y="852.0"/>
+   <node id="NT1.7" label="NT1.7" x="364.0" y="950.0"/>
+   <node id="NT1.13" label="NT1.13" x="536.0" y="1012.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="567.0" y="362.0"/>
+   <node id="NT1.21" label="NT1.21" x="687.0" y="513.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="702.0" y="911.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="772.0" y="414.0" otu="otu14"/>
+   <node id="NT1.26" label="NT1.26" x="835.0" y="314.0" otu="otu15"/>
+   <edge id="e.3" source="NT1.7" target="NT1.23"/>
+   <edge id="e.5" target="NT1.4" source="NT1.1"/>
+   <edge id="e.6" source="NT1.4" target="NT1.5"/>
+   <edge id="e.8" source="NT1.5" target="NT1.7"/>
+   <edge id="e.11" target="NT1.14" source="NT1.4"/>
+   <edge id="e.17" source="NT1.5" target="NT1.21"/>
+   <edge id="e.18" target="NT1.13" source="NT1.7"/>
+   <edge id="e.23" source="NT1.14" target="NT1.25"/>
+   <edge id="e.24" source="NT1.14" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

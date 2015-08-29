@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">-Actinoallomurus caesius A8O15T (AB364589)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="amamiensis" cmphy:strain="TTOO-28T" cmphy:id="ABB64583" editRecord="[3__B]">Actinoallomurus amamiensis TTOO-28T (AB364583)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Actinomadura" cmphy:species="madurae" cmphy:strain="NBRC 146237" cmphy:id="D85468" editRecord="[]">Actinomadura madurae NBRC 146237 (D85468)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="luridus" cmphy:strain="TT02-15T" cmphy:id="ABB64585" editRecord="[3__B]">Actinoallomurus luridus TT02-15T (AB364585)</otu>
+  <otu id="otu17" cmphy:edit="[3__B]" cmphy:genus="Acrinoallomurus" cmphy:species="purpureus" cmphy:strain="TFN02-BOT" cmphy:id="ABB64588" editRecord="[3__B]">Acrinoallomurus purpureus TFN02-BOT (AB364588)</otu>
+  <otu id="otu18" cmphy:edit="[3__B]" cmphy:genus="Actinoallomurus" cmphy:species="yoronensis" cmphy:strain="'ITNO2-22T" cmphy:id="ABB64584" editRecord="[3__B]">Actinoallomurus yoronensis 'ITNO2-22T (AB364584)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="153.0" y="246.0"/>
+   <node id="NT1.3" x="208.0" y="332.0" label="98"/>
+   <node id="NT1.8" label="NT1.8" x="231.0" y="109.0"/>
+   <node id="NT1.18" label="NT1.18" x="269.0" y="47.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="280.0" y="393.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="292.0" y="359.0" otu="otu16"/>
+   <node id="NT1.27" label="NT1.27" x="292.0" y="323.0" otu="otu17"/>
+   <node id="NT1.28" label="NT1.28" x="309.0" y="151.0" otu="otu18"/>
+   <node id="NT1.29" label="NT1.29" x="1.0" y="319.0" root="true"/>
+   <edge id="e.2" target="NT1.18" source="NT1.8"/>
+   <edge id="e.7" source="NT1.8" target="NT1.28"/>
+   <edge id="e.14" source="NT1.3" target="NT1.26"/>
+   <edge id="e.16" target="NT1.27" source="NT1.3"/>
+   <edge id="e.20" target="NT1.8" source="NT1.1"/>
+   <edge id="e.24" source="NT1.1" target="NT1.3"/>
+   <edge id="e.25" source="NT1.29" target="NT1.23"/>
+   <edge id="e.26" source="NT1.29" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

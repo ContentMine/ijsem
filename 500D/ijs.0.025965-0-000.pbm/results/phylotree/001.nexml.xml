@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Afifella pfennigiiAR2102T(AJ510235)</otu>
+  <otu id="otu3">Rhodomicrobium vannielii EY38T (M341 27)</otu>
+  <otu id="otu4">Rhodobium orientis MB312T(D3O792)</otu>
+  <otu id="otu5">Afifella marina DSM 2698T(D3O790)</otu>
+  <otu id="otu6">Rhodoplanes serenus TUT353OT (AB08771 7)</otu>
+  <otu id="otu7">Rhodoplanes elegans AS1 3OT (D2531 1)</otu>
+  <otu id="otu8">Rhodobium gokarnenseJA173T(AM180706)</otu>
+  <otu id="otu9">Rhodoplanes roseus 941T(D25313)</otu>
+  <otu id="otu10">1Rhodoplanes stagnf JA333 (AM998822)</otu>
+  <otu id="otu11">1Rhodoplanes piscinae' JA266 (AM712913)</otu>
+  <otu id="otu12">Blastochloris sulfoviridis DSM 729T(D86514)</otu>
+  <otu id="otu13">Rhodoplanes serenus TUT353OT (AB08771 7)</otu>
+  <otu id="otu14">Rhodoplanes pokkaliisoli JA415T(FM202448)</otu>
+  <otu id="otu15" cmphy:edit="[5__S]" cmphy:genus="Blastochloris" cmphy:species="gulmargensis" cmphy:strain="JA248T" cmphy:id="AMS02287" editRecord="[5__S]">Blastochloris gulmargensis JA248T (AM502287)</otu>
+  <otu id="otu16" cmphy:genus="Blastochloris" cmphy:species="viridis" cmphy:strain="DSM 133T" cmphy:id="AFO84495" editRecord="[]">Blastochloris viridis DSM 133T (AFO84495)</otu>
+  <otu id="otu17">Rhodopseudomonas rhenobacensis Klemme RbT(ABO87719)</otu>
+  <otu id="otu18" cmphy:genus="Rhodoblastus" cmphy:species="sphagnicola" cmphy:strain="RST" cmphy:id="AMO40096" editRecord="[]">Rhodoblastus sphagnicola RST (AMO40096)</otu>
+  <otu id="otu19">Rhodopseudomonas palustris ATCC 1 7OO1T(D2531 2)</otu>
+  <otu id="otu20">Rhodopseudomonas faecalis gcT (AF1 23085)</otu>
+  <otu id="otu21">Rhodoblastus acidophilus 7050T(M34128)</otu>
+  <otu id="otu22">Rhodopseudomonas rhenobacensis Klemme RbT(ABO87719)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="91.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="378.0" y="327.0"/>
+   <node id="NT1.20" x="486.0" y="673.0" label="82"/>
+   <node id="NT1.27" label="NT1.27" x="527.0" y="693.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="538.0" y="657.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="552.0" y="264.0" otu="otu18"/>
+   <edge id="e.12" target="NT1.5" source="NT1.1"/>
+   <edge id="e.21" target="NT1.20" source="NT1.5"/>
+   <edge id="e.31" source="NT1.20" target="NT1.27"/>
+   <edge id="e.32" source="NT1.20" target="NT1.28"/>
+   <edge id="e.33" target="NT1.31" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

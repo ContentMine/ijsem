@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Sulfolobus" cmphy:species="solfataricus" cmphy:strain="DSM 1616T" cmphy:id="D26490" editRecord="[]">Sulfolobus solfataricus DSM 1616T (D26490)</otu>
+  <otu id="otu4">Methanocaldococcusjannaschii DSM 2661T (U67517)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Thermococcus" cmphy:species="celer" cmphy:strain="DSM 2476T" cmphy:id="M21529" editRecord="[]">Thermococcus celer DSM 2476T (M21529)</otu>
+  <otu id="otu10"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="413.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="2.0" y="412.0"/>
+   <node id="NT1.6" label="NT1.6" x="136.0" y="413.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="259.0" y="356.0" otu="otu9"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.5" source="NT1.2" target="NT1.6"/>
+   <edge id="e.16" target="NT1.17" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

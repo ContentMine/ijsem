@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Kordia" cmphy:species="algicida" cmphy:strain="OT-17" cmphy:id="AYI95836" editRecord="[1__I]">Kordia algicida OT-17 (AY195836)</otu>
+  <otu id="otu2" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 119477" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 119477 (M62797)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Myroides" cmphy:species="pelagicus" cmphy:strain="SM17" cmphy:id="ABI76662" editRecord="[1__I]">Myroides pelagicus SM17 (AB176662)</otu>
+  <otu id="otu4" cmphy:genus="Myroides" cmphy:species="odoratus" cmphy:strain="JCM 74587" cmphy:id="M58777" editRecord="[]">Myroides odoratus JCM 74587 (M58777)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Flavobacterium" cmphy:species="frigoris" cmphy:strain="LMG 219227" cmphy:id="AJS57887" editRecord="[5__S]">Flavobacterium frigoris LMG 219227 (AJ557887)</otu>
+  <otu id="otu6" cmphy:genus="Sphingobacterium" cmphy:species="spiritivorum" cmphy:strain="DSM 2582" cmphy:id="AJ459411" editRecord="[]">Sphingobacterium spiritivorum DSM 2582 (AJ459411)</otu>
+  <otu id="otu7" cmphy:genus="Capnocytophaga" cmphy:species="granulosa" cmphy:strain="LMG 160227" cmphy:id="U41347" editRecord="[]">Capnocytophaga granulosa LMG 160227 (U41347)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Myroides" cmphy:species="odoratimimus" cmphy:strain="JCM 74607" cmphy:id="AJB54059" editRecord="[8__B]">Myroides odoratimimus JCM 74607 (AJ854059)</otu>
+  <otu id="otu9" cmphy:genus="Flavobacterium" cmphy:species="omnivorum" cmphy:strain="JCM 113137" cmphy:id="AF433174" editRecord="[]">Flavobacterium omnivorum JCM 113137 (AF433174)</otu>
+  <otu id="otu10" cmphy:genus="Flavobacterium" cmphy:species="xinjiangense" cmphy:strain="JCM 113147" cmphy:id="AF433173" editRecord="[]">Flavobacterium xinjiangense JCM 113147 (AF433173)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Tenacibaculum" cmphy:species="ovolyticum" cmphy:strain="IAM 143187" cmphy:id="ABO32506" editRecord="[0__O]">Tenacibaculum ovolyticum IAM 143187 (AB032506)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="275.0" y="459.0"/>
+   <node id="NT1.2" label="NT1.2" x="320.0" y="349.0"/>
+   <node id="NT1.3" x="352.0" y="479.0" label="69"/>
+   <node id="NT1.4" label="NT1.4" x="368.0" y="218.0"/>
+   <node id="NT1.5" label="NT1.5" x="583.0" y="88.0"/>
+   <node id="NT1.6" label="NT1.6" x="615.0" y="347.0"/>
+   <node id="NT1.7" label="NT1.7" x="646.0" y="303.0"/>
+   <node id="NT1.8" label="NT1.8" x="703.0" y="139.0"/>
+   <node id="NT1.9" label="NT1.9" x="723.0" y="184.0"/>
+   <node id="NT1.10" label="NT1.10" x="730.0" y="511.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="790.0" y="36.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="792.0" y="332.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="810.0" y="391.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="814.0" y="154.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="816.0" y="629.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="818.0" y="569.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="833.0" y="273.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="844.0" y="95.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="862.0" y="214.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="873.0" y="450.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="2.0" y="544.0" root="true"/>
+   <edge id="e.0" source="NT1.5" target="NT1.11"/>
+   <edge id="e.1" source="NT1.9" target="NT1.14"/>
+   <edge id="e.2" source="NT1.8" target="NT1.18"/>
+   <edge id="e.3" source="NT1.9" target="NT1.19"/>
+   <edge id="e.4" source="NT1.6" target="NT1.13"/>
+   <edge id="e.5" source="NT1.7" target="NT1.12"/>
+   <edge id="e.6" source="NT1.7" target="NT1.17"/>
+   <edge id="e.7" source="NT1.3" target="NT1.10"/>
+   <edge id="e.8" source="NT1.3" target="NT1.20"/>
+   <edge id="e.9" source="NT1.1" target="NT1.16"/>
+   <edge id="e.10" source="NT1.4" target="NT1.5"/>
+   <edge id="e.11" source="NT1.5" target="NT1.8"/>
+   <edge id="e.12" source="NT1.8" target="NT1.9"/>
+   <edge id="e.13" source="NT1.4" target="NT1.6"/>
+   <edge id="e.14" source="NT1.2" target="NT1.4"/>
+   <edge id="e.15" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.6" target="NT1.7"/>
+   <edge id="e.18" source="NT1.21" target="NT1.15"/>
+   <edge id="e.19" source="NT1.21" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

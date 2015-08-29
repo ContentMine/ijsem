@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Uncultured Sulfobacillus sp. P3-5 (AF460985)</otu>
+  <otu id="otu3">Sulfobacillus sp. Y0017 (AY140239)</otu>
+  <otu id="otu4">Sulfobacillus sp. L15 (AYOO7663)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Sulfobacillus" cmphy:species="thermosulfidooxidans" cmphy:strain="G2" cmphy:id="AYI40233" editRecord="[1__I]">Sulfobacillus thermosulfidooxidans G2 (AY140233)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Sulfobacillus" cmphy:species="thermosulfidooxidans" cmphy:strain="DSM 92937" cmphy:id="ABO89844" editRecord="[0__O]">Sulfobacillus thermosulfidooxidans DSM 92937 (AB089844)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Sulfobacillus" cmphy:species="sibiricus" cmphy:strain="N17" cmphy:id="AYO79150" editRecord="[0__O]">Sulfobacillus sibiricus N17 (AY079150)</otu>
+  <otu id="otu8">Sulfobacillus sp. RlV14 (AY007664)</otu>
+  <otu id="otu9" cmphy:genus="Sulfobacillus" cmphy:species="thermosumdooxidans" cmphy:strain="BC1" cmphy:id="U75648" editRecord="[]">Sulfobacillus thermosumdooxidans BC1 (U75648)</otu>
+  <otu id="otu10">Sulfobacillus sp. YTF-1 (AYO07665)</otu>
+  <otu id="otu11" cmphy:genus="Sulfobacillus" cmphy:species="acidophilus" cmphy:strain="NALT" cmphy:id="AFO50169" editRecord="[]">Sulfobacillus acidophilus NALT (AFO50169)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="483.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="39.0" y="510.0"/>
+   <node id="NT1.7" label="NT1.7" x="124.0" y="384.0"/>
+   <node id="NT1.10" label="NT1.10" x="137.0" y="468.0"/>
+   <node id="NT1.11" label="NT1.11" x="142.0" y="517.0"/>
+   <node id="NT1.13" label="NT1.13" x="143.0" y="556.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="147.0" y="418.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="151.0" y="351.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="170.0" y="488.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="303.0" y="690.0" otu="otu11"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.11" target="NT1.13"/>
+   <edge id="e.4" target="NT1.20" source="NT1.2"/>
+   <edge id="e.9" target="NT1.7" source="NT1.2"/>
+   <edge id="e.10" source="NT1.7" target="NT1.10"/>
+   <edge id="e.12" source="NT1.10" target="NT1.11"/>
+   <edge id="e.16" source="NT1.7" target="NT1.15"/>
+   <edge id="e.17" source="NT1.10" target="NT1.14"/>
+   <edge id="e.18" source="NT1.11" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

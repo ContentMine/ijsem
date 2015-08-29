@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">lnquilinus Iimosus AU0476T (AY043374)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Tistrella" cmphy:species="mobilis" cmphy:strain="IAM 14872T" cmphy:id="ABO71665" editRecord="[]">Tistrella mobilis IAM 14872T (ABO71665)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Defluviicoccus" cmphy:species="vanus" cmphy:strain="Ben 114T" cmphy:id="AFI79678" editRecord="[1__I]">Defluviicoccus vanus Ben 114T (AF179678)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Azospirillum" cmphy:species="halopraeferens" cmphy:strain="Au 47" cmphy:id="X79731" editRecord="[]">Azospirillum halopraeferens Au 47 (X79731)</otu>
+  <otu id="otu16">Strain CL-UU02T (DQ401091)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="277.0" y="573.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="288.0" y="388.0"/>
+   <node id="NT1.3" label="NT1.3" x="318.0" y="477.0"/>
+   <node id="NT1.20" label="NT1.20" x="774.0" y="481.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="826.0" y="424.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="837.0" y="193.0" otu="otu15"/>
+   <edge id="e.8" target="NT1.25" source="NT1.2"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" target="NT1.20" source="NT1.3"/>
+   <edge id="e.13" source="NT1.3" target="NT1.21"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

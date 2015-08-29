@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">E. mexicanus HAMBI 291 OT (DQ41 1930)</otu>
+  <otu id="otu4">KS. chiapanecum) ITTG S70 (EU286550)</otu>
+  <otu id="otu5">E. saheli LMG 7837T (X68390)</otu>
+  <otu id="otu6">CCBAU 05699 (HM997087)</otu>
+  <otu id="otu7">E. (8.) terangae LMG 78377 (X68387)</otu>
+  <otu id="otu8">E. (s.) fredii USDA 205T (AY260149)</otu>
+  <otu id="otu9">CCBAU 05638 (GU593059)</otu>
+  <otu id="otu10">E. fredii CCBAU 1 10 (AF250354)</otu>
+  <otu id="otu11">E. numidicus ORS 1407T (AY500254)</otu>
+  <otu id="otu12">E. (8.) arboris HAMBI 1552T (Z78204)</otu>
+  <otu id="otu13">E. (s.) melilotl USDA 1oo2T (X67222)</otu>
+  <otu id="otu14">E. (8.) kummerowiae CCBAU 71714T(AF364067)</otu>
+  <otu id="otu15">E. (8.) meclicae A321 T (l39882)</otu>
+  <otu id="otu16">E. (8.) kostiensis HAMBI 14897 (Z78203)</otu>
+  <otu id="otu17">E. garamanticus ORS 14007 (AY500255)</otu>
+  <otu id="otu18">E. adhaerens ATCC 33212T(AF191739)</otu>
+  <otu id="otu19" cmphy:genus="S." cmphy:species="morelense" cmphy:strain="LcO4T" cmphy:id="AYO24335" editRecord="[]">S. morelense LcO4T (AYO24335)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="66.0" y="510.0" otu="otu1" root="true"/>
+   <node id="NT1.35" label="NT1.35" x="309.0" y="351.0" otu="otu19"/>
+   <edge id="e.33" target="NT1.35" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

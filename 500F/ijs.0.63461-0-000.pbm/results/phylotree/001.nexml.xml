@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"> SilicibacterIacuscaerulensis DSM 11314T (U77644)</otu>
+  <otu id="otu4" cmphy:genus="Sulfitobacter" cmphy:species="pontiacus" cmphy:strain="DSM 10014T" cmphy:id="Y13155" editRecord="[]">Sulfitobacter pontiacus DSM 10014T (Y13155)</otu>
+  <otu id="otu5">Loktanella rosea Fg1</otu>
+  <otu id="otu6" cmphy:genus="Loktanella" cmphy:species="rosea" cmphy:strain="F9367" cmphy:id="AY682199" editRecord="[]">Loktanella rosea F9367 (AY682199)</otu>
+  <otu id="otu7" cmphy:genus="Staleya" cmphy:species="guttiformis" cmphy:strain="DSM 114587" cmphy:id="Y16427" editRecord="[]">Staleya guttiformis DSM 114587 (Y16427)</otu>
+  <otu id="otu8" cmphy:genus="Roseovarius" cmphy:species="tolerans" cmphy:strain="EL-172T" cmphy:id="Y11551" editRecord="[]">Roseovarius tolerans EL-172T (Y11551)</otu>
+  <otu id="otu9" cmphy:genus="Sagittula" cmphy:species="stellata" cmphy:strain="DSM 11445" cmphy:id="U58356" editRecord="[]">Sagittula stellata DSM 11445 (U58356)</otu>
+  <otu id="otu10" cmphy:genus="Roseobacter" cmphy:species="litoralis" cmphy:strain="ATCC 4956GT" cmphy:id="X78312" editRecord="[]"> Roseobacter litoralis ATCC 4956GT (X78312)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Loktanella" cmphy:species="vestfoldensis" cmphy:strain="LMG 22003T" cmphy:id="AJS82226" editRecord="[5__S]">Loktanella vestfoldensis LMG 22003T (AJ582226)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Jannaschia" cmphy:species="helgolandensis" cmphy:strain="DSM 14858T" cmphy:id="AJ438157" editRecord="[]">Jannaschia helgolandensis DSM 14858T (AJ438157)</otu>
+  <otu id="otu17" cmphy:genus="Octadecabacter" cmphy:species="arcticus" cmphy:strain="CIP 106732T" cmphy:id="U73725" editRecord="[]">Octadecabacter arcticus CIP 106732T (U73725)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:genus="Loktanella" cmphy:species="hongkongensis" cmphy:strain="JCM 124797" cmphy:id="AY600300" editRecord="[]">Loktanella hongkongensis JCM 124797 (AY600300)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="429.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="76.0" y="199.0"/>
+   <node id="NT1.4" label="NT1.4" x="84.0" y="376.0"/>
+   <node id="NT1.5" label="NT1.5" x="103.0" y="174.0"/>
+   <node id="NT1.6" label="NT1.6" x="118.0" y="255.0"/>
+   <node id="NT1.7" label="NT1.7" x="123.0" y="91.0"/>
+   <node id="NT1.10" x="145.0" y="347.0" label="57"/>
+   <node id="NT1.12" label="NT1.12" x="154.0" y="405.0"/>
+   <node id="NT1.13" label="NT1.13" x="168.0" y="125.0"/>
+   <node id="NT1.15" label="NT1.15" x="177.0" y="153.0"/>
+   <node id="NT1.19" label="NT1.19" x="248.0" y="174.0" otu="otu4"/>
+   <node id="NT1.23" label="NT1.23" x="266.0" y="369.0" otu="otu6"/>
+   <node id="NT1.24" label="NT1.24" x="268.0" y="96.0" otu="otu7"/>
+   <node id="NT1.25" label="NT1.25" x="271.0" y="20.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="271.0" y="601.0" otu="otu9"/>
+   <node id="NT1.27" label="NT1.27" x="286.0" y="134.0" otu="otu10"/>
+   <node id="NT1.30" label="NT1.30" x="295.0" y="444.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="304.0" y="213.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="307.0" y="56.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="329.0" y="290.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.3" target="NT1.25"/>
+   <edge id="e.2" target="NT1.26" source="NT1.4"/>
+   <edge id="e.6" source="NT1.15" target="NT1.19"/>
+   <edge id="e.7" source="NT1.13" target="NT1.24"/>
+   <edge id="e.8" source="NT1.7" target="NT1.34"/>
+   <edge id="e.9" source="NT1.6" target="NT1.33"/>
+   <edge id="e.10" source="NT1.15" target="NT1.27"/>
+   <edge id="e.12" source="NT1.10" target="NT1.36"/>
+   <edge id="e.14" target="NT1.23" source="NT1.12"/>
+   <edge id="e.15" target="NT1.30" source="NT1.12"/>
+   <edge id="e.19" target="NT1.3" source="NT1.1"/>
+   <edge id="e.20" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" source="NT1.4" target="NT1.5"/>
+   <edge id="e.24" source="NT1.5" target="NT1.6"/>
+   <edge id="e.25" source="NT1.5" target="NT1.7"/>
+   <edge id="e.27" source="NT1.7" target="NT1.13"/>
+   <edge id="e.28" target="NT1.10" source="NT1.6"/>
+   <edge id="e.29" source="NT1.13" target="NT1.15"/>
+   <edge id="e.30" source="NT1.10" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

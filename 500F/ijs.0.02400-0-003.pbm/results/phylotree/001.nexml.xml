@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Thermoleophilum" cmphy:species="album" cmphy:strain="ATCC 35263T" cmphy:id="AJ458462" editRecord="[]">Thermoleophilum album ATCC 35263T (AJ458462)</otu>
+  <otu id="otu4">Strain B33D1 (AY039806)</otu>
+  <otu id="otu5">Rubrobacter xylanophilus DSM 9941 T (X87135)</otu>
+  <otu id="otu6" cmphy:genus="Conexibacter" cmphy:species="woesei" cmphy:strain="lD131577T" cmphy:id="AJ440237" editRecord="[]">Conexibacter woesei lD131577T (AJ440237)</otu>
+  <otu id="otu7">Clone TM146 (X92699)</otu>
+  <otu id="otu8">Clone TM56 (X92695)</otu>
+  <otu id="otu9">Clone TM36 (X92694)</otu>
+  <otu id="otu10">Acrocarpospora corrugata DSM 43316</otu>
+  <otu id="otu11">Clone TM22O (X92707)</otu>
+  <otu id="otu12">Terrabacter tumescens KCTC 9133T (f1F005023)</otu>
+  <otu id="otu13" cmphy:genus="Acidimicrobium" cmphy:species="ferrooxidans" cmphy:strain="DSM 10331T" cmphy:id="U75647" editRecord="[]">Acidimicrobium ferrooxidans DSM 10331T (U75647)</otu>
+  <otu id="otu14">Clone DA079 (Y11555)</otu>
+  <otu id="otu15" cmphy:edit="[O__0]" cmphy:genus="Aeromicrobium" cmphy:species="erythreum" cmphy:strain="NRRL B-3381T" cmphy:id="AFO05021" editRecord="[O__0]">Aeromicrobium erythreum NRRL B-3381T (AFOO5021)</otu>
+  <otu id="otu16">lcandidatus Microthrix parviceIIa' (X89774)</otu>
+  <otu id="otu17" cmphy:genus="Rubrobacter" cmphy:species="radiotolerans" cmphy:strain="JCM 2153T" cmphy:id="U65647" editRecord="[]">Rubrobacter radiotolerans JCM 2153T (U65647)</otu>
+  <otu id="otu18">Eggerthella Ienta JCM 9979T (ABO11817)</otu>
+  <otu id="otu19">Clone TM167 (X92700)</otu>
+  <otu id="otu20" cmphy:genus="Atopobium" cmphy:species="minutum" cmphy:strain="ATCC 33267T" cmphy:id="M59059" editRecord="[]">Atopobium minutum ATCC 33267T (M59059)</otu>
+  <otu id="otu21" cmphy:edit="[1__I]" cmphy:genus="Slackia" cmphy:species="exigua" cmphy:strain="ATCC 700122T" cmphy:id="AFI01240" editRecord="[1__I]">Slackia exigua ATCC 700122T (AF101240)</otu>
+  <otu id="otu22" cmphy:genus="Sphaerobacter" cmphy:species="thermophilus" cmphy:strain="DSM 20745T" cmphy:id="AJ420142" editRecord="[]">Sphaerobacter thermophilus DSM 20745T (AJ420142)</otu>
+  <otu id="otu23">Bifidobacterium asteroides ATCC 2591 OT (M58730)</otu>
+  <otu id="otu24" cmphy:genus="Coriobacterium" cmphy:species="glomerans" cmphy:strain="DSM 2O642T" cmphy:id="X79048" editRecord="[]">Coriobacterium glomerans DSM 2O642T (X79048)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="186.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="23.0" y="186.0"/>
+   <node id="NT1.3" label="NT1.3" x="40.0" y="355.0"/>
+   <node id="NT1.4" label="NT1.4" x="60.0" y="133.0"/>
+   <node id="NT1.5" x="69.0" y="577.0" label="33"/>
+   <node id="NT1.6" label="NT1.6" x="88.0" y="473.0"/>
+   <node id="NT1.7" label="NT1.7" x="124.0" y="188.0"/>
+   <node id="NT1.16" label="NT1.16" x="176.0" y="404.0"/>
+   <node id="NT1.24" label="NT1.24" x="250.0" y="131.0" otu="otu3"/>
+   <node id="NT1.26" label="NT1.26" x="264.0" y="465.0"/>
+   <node id="NT1.28" label="NT1.28" x="267.0" y="269.0" otu="otu6"/>
+   <node id="NT1.35" label="NT1.35" x="296.0" y="686.0" otu="otu13"/>
+   <node id="NT1.37" label="NT1.37" x="310.0" y="546.0" otu="otu15"/>
+   <node id="NT1.39" label="NT1.39" x="338.0" y="60.0" otu="otu17"/>
+   <node id="NT1.42" label="NT1.42" x="365.0" y="373.0" otu="otu20"/>
+   <node id="NT1.43" label="NT1.43" x="377.0" y="478.0" otu="otu21"/>
+   <node id="NT1.44" label="NT1.44" x="391.0" y="19.0" otu="otu22"/>
+   <node id="NT1.46" label="NT1.46" x="403.0" y="443.0" otu="otu24"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" target="NT1.39" source="NT1.4"/>
+   <edge id="e.6" target="NT1.35" source="NT1.5"/>
+   <edge id="e.13" source="NT1.26" target="NT1.43"/>
+   <edge id="e.14" source="NT1.2" target="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.5"/>
+   <edge id="e.16" source="NT1.3" target="NT1.4"/>
+   <edge id="e.17" source="NT1.4" target="NT1.7"/>
+   <edge id="e.20" source="NT1.5" target="NT1.6"/>
+   <edge id="e.24" source="NT1.6" target="NT1.16"/>
+   <edge id="e.32" target="NT1.24" source="NT1.7"/>
+   <edge id="e.35" target="NT1.26" source="NT1.16"/>
+   <edge id="e.37" source="NT1.2" target="NT1.44"/>
+   <edge id="e.39" target="NT1.37" source="NT1.6"/>
+   <edge id="e.41" source="NT1.16" target="NT1.42"/>
+   <edge id="e.42" target="NT1.28" source="NT1.7"/>
+   <edge id="e.44" source="NT1.26" target="NT1.46"/>
+  </tree>
+ </trees>
+</nexml>

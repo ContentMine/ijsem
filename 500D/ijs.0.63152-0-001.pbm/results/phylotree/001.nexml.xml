@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Saccharomyces cerevisiae NRRL Y-12632NT (AYO48154a outgroup)</otu>
+  <otu id="otu2" cmphy:genus="Candida" cmphy:species="intermedia" cmphy:strain="NRRL Y-981T" cmphy:id="U44809" editRecord="[]">Candida intermedia NRRL Y-981T (U44809)</otu>
+  <otu id="otu3"> Candida musae NRRL Y-17088T(U44814)</otu>
+  <otu id="otu4"> Metschnikowia agaves NRRL Y-17915T(U84243)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Metschnikowia" cmphy:species="hawaiiensis" cmphy:strain="NRRL Y-17272T" cmphy:id="U45734" editRecord="[]"> Metschnikowia hawaiiensis NRRL Y-17272T (U45734)</otu>
+  <otu id="otu8">Candida ipomoeae UWO(PS)91-672.1T (AF050148)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"> Metschnikowia pulcherrima NRRL Y-7111T(U45736)</otu>
+  <otu id="otu11">M. continentalis var. continentalis UFMG96-173T(AF034126)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"> Metschnikowia sp. NRRL Y-7275 (AF017403)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Metschnikowia reukaufii NRRL Y-7112T(U44825)</otu>
+  <otu id="otu18">Candida magnifica NRRL Y-5717</otu>
+  <otu id="otu19">Candida picachoensis NRRL Y-27607T(AY452039)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21">Metschnikowia sp. NRRL Y-5941 (AF017400)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24">Metschnikowia gruessii NRRL Y-178O9T(U45737)</otu>
+  <otu id="otu25"> Me-tschnikowia sp. NRRL Y-17036 (AFO17404)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27" cmphy:genus="Metschnikowia" cmphy:species="australis" cmphy:strain="NRRL Y-174147" cmphy:id="U76526" editRecord="[]"> Metschnikowia australis NRRL Y-174147 (U76526)</otu>
+  <otu id="otu28">Metschnikowia Iunata NRRL Y-7131T (U45733)</otu>
+  <otu id="otu29"/>
+  <otu id="otu30">Metschnikowia drosophilae UWO(PS)83-1 135.3T (AF279303)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="51.0" y="473.0"/>
+   <node id="NT1.7" label="NT1.7" x="192.0" y="65.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="292.0" y="535.0"/>
+   <node id="NT1.21" label="NT1.21" x="370.0" y="575.0" otu="otu7"/>
+   <node id="NT1.51" label="NT1.51" x="419.0" y="209.0" otu="otu27"/>
+   <node id="NT1.55" label="NT1.55" x="5.0" y="251.0" root="true"/>
+   <edge id="e.0" target="NT1.7" source="NT1.1"/>
+   <edge id="e.7" source="NT1.15" target="NT1.21"/>
+   <edge id="e.27" target="NT1.51" source="NT1.15"/>
+   <edge id="e.35" target="NT1.15" source="NT1.1"/>
+   <edge id="e.53" source="NT1.55" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

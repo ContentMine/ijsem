@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="hypolithicus" cmphy:strain="HSMMO1" cmphy:id="EUI96762" editRecord="[1__I]"> Streptomyces hypolithicus HSMMO1 (EU196762)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="microflavus" cmphy:strain="NBRC 13O62T" cmphy:id="ABI84284" editRecord="[1__I]">Streptomyces microflavus NBRC 13O62T (AB184284)</otu>
+  <otu id="otu3">Streptomyces griseus subsp. griseus NBRC 15744T(AB184699)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="flavogriseus" cmphy:strain="NBRC 13040T" cmphy:id="ABI84271" editRecord="[1__I]">Streptomyces flavogriseus NBRC 13040T (AB184271)</otu>
+  <otu id="otu5">Streptomyces parvus NBRC 14599T(AB1846O3)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="chryseus" cmphy:strain="NBRC 13377T" cmphy:id="ABI84876" editRecord="[1__I]">Streptomyces chryseus NBRC 13377T (AB184876)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Streptomyces" cmphy:species="albidochromogenes" cmphy:strain="NBRC 101003T" cmphy:id="ABZ49953" editRecord="[2__Z]">Streptomyces albidochromogenes NBRC 101003T (AB249953)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="zaomyceticus" cmphy:strain="NBRC 133487" cmphy:id="ABI84346" editRecord="[1__I]">Streptomyces zaomyceticus NBRC 133487 (AB184346)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="venezuelae" cmphy:strain="NBRC 13096T" cmphy:id="ABI84308" editRecord="[1__I]">Streptomyces venezuelae NBRC 13096T (AB184308)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Streptomyces" cmphy:species="clavifer" cmphy:strain="NRRL B-2557T" cmphy:id="DQO26670" editRecord="[0__O]">Streptomyces clavifer NRRL B-2557T (DQ026670)</otu>
+  <otu id="otu14">Kftasatospora setae DSM 43861 T (M55220)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">Streptosporangium roseum DSM 43021 T (X89947)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="305.0" y="507.0"/>
+   <node id="NT1.4" label="NT1.4" x="323.0" y="415.0"/>
+   <node id="NT1.5" x="337.0" y="598.0" label="'98"/>
+   <node id="NT1.7" x="361.0" y="321.0" label="88"/>
+   <node id="NT1.8" label="NT1.8" x="365.0" y="555.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="368.0" y="281.0"/>
+   <node id="NT1.11" label="NT1.11" x="373.0" y="285.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="379.0" y="642.0"/>
+   <node id="NT1.14" label="NT1.14" x="380.0" y="363.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="381.0" y="594.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="387.0" y="671.0" otu="otu8"/>
+   <node id="NT1.23" x="390.0" y="497.0" label="(68"/>
+   <node id="NT1.24" label="NT1.24" x="393.0" y="478.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="396.0" y="517.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="415.0" y="324.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="5.0" y="731.0" root="true"/>
+   <edge id="e.2" source="NT1.9" target="NT1.11"/>
+   <edge id="e.3" source="NT1.9" target="NT1.26"/>
+   <edge id="e.4" source="NT1.7" target="NT1.14"/>
+   <edge id="e.7" source="NT1.23" target="NT1.24"/>
+   <edge id="e.8" source="NT1.23" target="NT1.25"/>
+   <edge id="e.9" source="NT1.5" target="NT1.8"/>
+   <edge id="e.10" source="NT1.13" target="NT1.17"/>
+   <edge id="e.11" target="NT1.20" source="NT1.13"/>
+   <edge id="e.16" source="NT1.7" target="NT1.9"/>
+   <edge id="e.17" target="NT1.7" source="NT1.4"/>
+   <edge id="e.19" source="NT1.3" target="NT1.4"/>
+   <edge id="e.21" target="NT1.3" source="NT1.30"/>
+   <edge id="e.22" source="NT1.3" target="NT1.5"/>
+   <edge id="e.23" target="NT1.23" source="NT1.4"/>
+   <edge id="e.24" source="NT1.5" target="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

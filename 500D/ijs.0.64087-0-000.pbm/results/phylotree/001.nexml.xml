@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Salegentibacter" cmphy:species="mishustinae" cmphy:strain="KMM 6049T" cmphy:id="AYS76653" editRecord="[5__S]">Salegentibacter mishustinae KMM 6049T (AY576653)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Mesonia" cmphy:species="algae" cmphy:strain="KMM 3909T" cmphy:id="AFS36383" editRecord="[5__S]">Mesonia algae KMM 3909T (AF536383)</otu>
+  <otu id="otu4" cmphy:genus="Nonlabens" cmphy:species="tegetincola" cmphy:strain="UST03O7O1-3247" cmphy:id="AY987349" editRecord="[]">Nonlabens tegetincola UST03O7O1-3247 (AY987349)</otu>
+  <otu id="otu5" cmphy:genus="Salegentibacter" cmphy:species="flavus" cmphy:strain="Fg 69T" cmphy:id="AY682200" editRecord="[]">Salegentibacter flavus Fg 69T (AY682200)</otu>
+  <otu id="otu6">Salegentibacter holothuriorum KMM 3524T (AB1 16148)</otu>
+  <otu id="otu7" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM S424T" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens DSM S424T (M92279)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Psychroflexus" cmphy:species="tropicus" cmphy:strain="LA1T" cmphy:id="AFS13434" editRecord="[5__S]">Psychroflexus tropicus LA1T (AF513434)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Donghaeana" cmphy:species="dokdonensis" cmphy:strain="DSW-6T" cmphy:id="DQO17065" editRecord="[0__O]">Donghaeana dokdonensis DSW-6T (DQ017065)</otu>
+  <otu id="otu10" cmphy:genus="Psychroflexus" cmphy:species="forquis" cmphy:strain="ACAM 6237" cmphy:id="U85881" editRecord="[]">Psychroflexus forquis ACAM 6237 (U85881)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Gramella" cmphy:species="portivictoriae" cmphy:strain="JCM 13192T" cmphy:id="DQO02871" editRecord="[0__O]">Gramella portivictoriae JCM 13192T (DQ002871)</otu>
+  <otu id="otu12"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="38.0" y="498.0"/>
+   <node id="NT1.4" x="108.0" y="168.0" label="97"/>
+   <node id="NT1.5" x="156.0" y="107.0" label="84"/>
+   <node id="NT1.6" x="250.0" y="41.0" label="99"/>
+   <node id="NT1.7" label="NT1.7" x="255.0" y="535.0"/>
+   <node id="NT1.8" x="294.0" y="462.0" label="100"/>
+   <node id="NT1.9" x="383.0" y="73.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="494.0" y="45.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="501.0" y="226.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="509.0" y="517.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="510.0" y="9.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="516.0" y="83.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="538.0" y="480.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="558.0" y="553.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="568.0" y="444.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="597.0" y="191.0" otu="otu11"/>
+   <node id="NT1.23" x="3.0" y="259.0" root="true" label="85"/>
+   <edge id="e.0" source="NT1.6" target="NT1.15"/>
+   <edge id="e.1" source="NT1.9" target="NT1.11"/>
+   <edge id="e.4" target="NT1.21" source="NT1.5"/>
+   <edge id="e.6" source="NT1.4" target="NT1.12"/>
+   <edge id="e.7" source="NT1.8" target="NT1.18"/>
+   <edge id="e.8" source="NT1.8" target="NT1.20"/>
+   <edge id="e.9" source="NT1.5" target="NT1.6"/>
+   <edge id="e.10" source="NT1.6" target="NT1.9"/>
+   <edge id="e.11" source="NT1.4" target="NT1.5"/>
+   <edge id="e.14" target="NT1.4" source="NT1.23"/>
+   <edge id="e.15" source="NT1.2" target="NT1.7"/>
+   <edge id="e.16" source="NT1.2" target="NT1.8"/>
+   <edge id="e.18" source="NT1.23" target="NT1.2"/>
+   <edge id="e.19" source="NT1.7" target="NT1.19"/>
+   <edge id="e.20" source="NT1.7" target="NT1.14"/>
+   <edge id="e.21" target="NT1.17" source="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

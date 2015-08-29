@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Burkholderiu lerricola LMG 20594T (AY0403 62)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Burkholderia" cmphy:species="culedonica" cmphy:strain="LMG 19076T" cmphy:id="AFZ15704" editRecord="[2__Z]">Burkholderia culedonica LMG 19076T (AF215704)</otu>
+  <otu id="otu4" cmphy:genus="Burkholderia" cmphy:species="phenoliruptrix" cmphy:strain="LMG 21445T" cmphy:id="AY435213" editRecord="[]">Burkholderia phenoliruptrix LMG 21445T (AY435213)</otu>
+  <otu id="otu5">Burkhalderiafungorum LMG 16225T (AF215705)</otu>
+  <otu id="otu6" cmphy:edit="[0__O, S__5]" cmphy:genus="Burkholderia" cmphy:species="hospifa" cmphy:strain="LMG 20598T" cmphy:id="AYO40365" editRecord="[0__O, S__5]">Burkholderia hospifa LMG 20598T (AY04036S)</otu>
+  <otu id="otu7">Burkholderia phymatum LMG 21445T (AJ3023l2)</otu>
+  <otu id="otu8" cmphy:genus="Burkhalderia" cmphy:species="xenovomns" cmphy:strain="LMG 21463T" cmphy:id="U86373" editRecord="[]">Burkhalderia xenovomns LMG 21463T (U86373)</otu>
+  <otu id="otu9" cmphy:genus="Burkhnlderia" cmphy:species="gruminis" cmphy:strain="LMG 18924T" cmphy:id="U96939" editRecord="[]">Burkhnlderia gruminis LMG 18924T (U96939)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Burklwltleria" cmphy:species="terrae" cmphy:strain="KMYOZT" cmphy:id="ABZ01285" editRecord="[2__Z]">Burklwltleria terrae KMYOZT (AB201285)</otu>
+  <otu id="otu11" cmphy:genus="Burkholderia" cmphy:species="cariberzsis" cmphy:strain="LMG 18S31&quot;'" cmphy:id="Y17009" editRecord="[]">Burkholderia cariberzsis LMG 18S31"' (Y17009)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="350.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="75.0" y="350.0"/>
+   <node id="NT1.3" label="NT1.3" x="301.0" y="251.0"/>
+   <node id="NT1.4" label="NT1.4" x="386.0" y="171.0"/>
+   <node id="NT1.5" label="NT1.5" x="444.0" y="100.0"/>
+   <node id="NT1.9" label="NT1.9" x="716.0" y="505.0"/>
+   <node id="NT1.11" label="NT1.11" x="835.0" y="207.0" otu="otu3"/>
+   <node id="NT1.12" x="844.0" y="551.0" label="78"/>
+   <node id="NT1.13" label="NT1.13" x="927.0" y="333.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="1021.0" y="521.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="1107.0" y="82.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="1124.0" y="144.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="1133.0" y="584.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="1213.0" y="458.0" otu="otu11"/>
+   <edge id="e.0" target="NT1.17" source="NT1.5"/>
+   <edge id="e.1" target="NT1.11" source="NT1.4"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.12" target="NT1.15"/>
+   <edge id="e.5" source="NT1.4" target="NT1.5"/>
+   <edge id="e.6" source="NT1.3" target="NT1.4"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.10" target="NT1.9" source="NT1.2"/>
+   <edge id="e.11" source="NT1.9" target="NT1.12"/>
+   <edge id="e.12" source="NT1.3" target="NT1.13"/>
+   <edge id="e.15" source="NT1.5" target="NT1.18"/>
+   <edge id="e.17" source="NT1.9" target="NT1.20"/>
+   <edge id="e.18" source="NT1.12" target="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

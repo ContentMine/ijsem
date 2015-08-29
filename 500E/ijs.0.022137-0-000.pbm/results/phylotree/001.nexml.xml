@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Terrabacter tumescens DSM 203087 (X8381 2)</otu>
+  <otu id="otu10">Terrabacter terrae PPLBT (AY9441 76)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Janibacter limosus DSM 1 1 140T (YO8539)</otu>
+  <otu id="otu13">Phycicoccus bigeumensis MSL-O37 (EF4661 28)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Phycicoccus" cmphy:species="dokdonensis" cmphy:strain="DS-87" cmphy:id="EFS55583" editRecord="[5__S]">Phycicoccus dokdonensis DS-87 (EF555583)</otu>
+  <otu id="otu15">lntrasporangium calvum DSM 43O43T (AJ566282)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Knoellia" cmphy:species="sinensis" cmphy:strain="DSM 12331T" cmphy:id="AJZ94412" editRecord="[2__Z]">Knoellia sinensis DSM 12331T (AJ294412)</otu>
+  <otu id="otu17" cmphy:edit="[3__B]" cmphy:genus="Phycicoccus" cmphy:species="ginsenosidimutans" cmphy:strain="BXN5-137" cmphy:id="EUB32824" editRecord="[3__B]">Phycicoccus ginsenosidimutans BXN5-137 (EU332824)</otu>
+  <otu id="otu18" cmphy:edit="[3__B]" cmphy:genus="Phycicoccus" cmphy:species="jejuensis" cmphy:strain="KSW2-157" cmphy:id="DQB45443" editRecord="[3__B]">Phycicoccus jejuensis KSW2-157 (DQ345443)</otu>
+  <otu id="otu19">Terracoccus Iuteus DSM 442677 (Y1 1928)</otu>
+  <otu id="otu20">Phycicoccus aerophilus 5516T-2OT (EF49384 7)</otu>
+  <otu id="otu21">Tetrasphaera japonica ACM 51 167 (AF1 25092)</otu>
+  <otu id="otu22">Arthrobacter globiformis DSM 201 247 (X80736)</otu>
+  <otu id="otu23">Omithinicoccus hortensis HKI 01257 (Y1 7869)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="458.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="125.0" y="329.0"/>
+   <node id="NT1.6" label="NT1.6" x="269.0" y="165.0"/>
+   <node id="NT1.18" label="NT1.18" x="401.0" y="98.0"/>
+   <node id="NT1.33" label="NT1.33" x="592.0" y="15.0" otu="otu14"/>
+   <node id="NT1.35" label="NT1.35" x="603.0" y="611.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="610.0" y="123.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="616.0" y="232.0" otu="otu18"/>
+   <edge id="e.12" target="NT1.18" source="NT1.6"/>
+   <edge id="e.15" source="NT1.3" target="NT1.6"/>
+   <edge id="e.16" target="NT1.3" source="NT1.1"/>
+   <edge id="e.29" source="NT1.6" target="NT1.37"/>
+   <edge id="e.30" target="NT1.35" source="NT1.3"/>
+   <edge id="e.36" target="NT1.36" source="NT1.18"/>
+   <edge id="e.40" target="NT1.33" source="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

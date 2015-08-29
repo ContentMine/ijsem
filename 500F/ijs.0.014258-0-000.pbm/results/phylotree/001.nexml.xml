@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Pichia kudriavzevii CBS 51 47 (U 76347)</otu>
+  <otu id="otu3" cmphy:genus="Pichia" cmphy:species="pseudocactophila" cmphy:strain="CBS 6929" cmphy:id="U75732" editRecord="[]">Pichia pseudocactophila CBS 6929 (U75732)</otu>
+  <otu id="otu4" cmphy:genus="Pichia" cmphy:species="insulana" cmphy:strain="TSU00-101.1" cmphy:id="EU747338" editRecord="[]">Pichia insulana TSU00-101.1 (EU747338)</otu>
+  <otu id="otu5">glgichia cactopmla CBS 69267 (U75731)</otu>
+  <otu id="otu6" cmphy:genus="Pichia" cmphy:species="insulana" cmphy:strain="TSUOO-115.4" cmphy:id="EU747340" editRecord="[]">Pichia insulana TSUOO-115.4 (EU747340)</otu>
+  <otu id="otu7" cmphy:genus="Pichia" cmphy:species="insulana" cmphy:strain="TSUOO-106.57" cmphy:id="EU747339" editRecord="[]">Pichia insulana TSUOO-106.57 (EU747339)</otu>
+  <otu id="otu8">Candida inconspicua CBS 1807 (U71 O62)</otu>
+  <otu id="otu9" cmphy:genus="Pichia" cmphy:species="insulana" cmphy:strain="TSU00-149.3" cmphy:id="EU747347" editRecord="[]">Pichia insulana TSU00-149.3 (EU747347)</otu>
+  <otu id="otu10" cmphy:genus="Pichia" cmphy:species="insulana" cmphy:strain="TSU00-144.2" cmphy:id="EU747346" editRecord="[]">Pichia insulana TSU00-144.2 (EU747346)</otu>
+  <otu id="otu11" cmphy:genus="Pichia" cmphy:species="insulana" cmphy:strain="TSU00-133.1" cmphy:id="EU747342" editRecord="[]">Pichia insulana TSU00-133.1 (EU747342)</otu>
+  <otu id="otu12">Pichia deserticola CBS 71 19T (U75734)</otu>
+  <otu id="otu13" cmphy:genus="Pichia" cmphy:species="norvegensis" cmphy:strain="CBS 6564T" cmphy:id="U75730" editRecord="[]">Pichia norvegensis CBS 6564T (U75730)</otu>
+  <otu id="otu14" cmphy:genus="Pichia" cmphy:species="nakasei" cmphy:strain="CBS 51417" cmphy:id="U75728" editRecord="[]">Pichia nakasei CBS 51417 (U75728)</otu>
+  <otu id="otu15">PIchia barkeri CBS 72567 (U75735)</otu>
+  <otu id="otu16" cmphy:genus="Pichia" cmphy:species="eremophila" cmphy:strain="CBS 72727" cmphy:id="U75736" editRecord="[]">Pichia eremophila CBS 72727 (U75736)</otu>
+  <otu id="otu17" cmphy:genus="Sgichia" cmphy:species="cephalocereana" cmphy:strain="CBS 7273T" cmphy:id="U75737" editRecord="[]">Sgichia cephalocereana CBS 7273T (U75737)</otu>
+  <otu id="otu18" cmphy:genus="Pichia" cmphy:species="kluyveri" cmphy:strain="CBS 1887" cmphy:id="U75727" editRecord="[]">Pichia kluyveri CBS 1887 (U75727)</otu>
+  <otu id="otu19" cmphy:genus="Pichia" cmphy:species="heedii" cmphy:strain="CBS 69307" cmphy:id="U75733" editRecord="[]">Pichia heedii CBS 69307 (U75733)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="635.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="55.0" y="533.0"/>
+   <node id="NT1.6" label="NT1.6" x="160.0" y="363.0"/>
+   <node id="NT1.7" label="NT1.7" x="183.0" y="470.0"/>
+   <node id="NT1.9" label="NT1.9" x="218.0" y="494.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="228.0" y="11.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="229.0" y="87.0"/>
+   <node id="NT1.14" label="NT1.14" x="232.0" y="209.0"/>
+   <node id="NT1.15" label="NT1.15" x="234.0" y="319.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="236.0" y="55.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="240.0" y="232.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="251.0" y="158.0"/>
+   <node id="NT1.20" label="NT1.20" x="255.0" y="187.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="258.0" y="99.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="286.0" y="701.0"/>
+   <node id="NT1.24" label="NT1.24" x="311.0" y="449.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="353.0" y="588.0"/>
+   <node id="NT1.27" label="NT1.27" x="380.0" y="535.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="392.0" y="626.0"/>
+   <node id="NT1.30" label="NT1.30" x="404.0" y="604.0"/>
+   <node id="NT1.31" label="NT1.31" x="407.0" y="669.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="411.0" y="580.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="419.0" y="625.0" otu="otu18"/>
+   <node id="NT1.34" label="NT1.34" x="532.0" y="756.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.11" target="NT1.10"/>
+   <edge id="e.1" source="NT1.11" target="NT1.16"/>
+   <edge id="e.2" source="NT1.14" target="NT1.21"/>
+   <edge id="e.4" source="NT1.7" target="NT1.9"/>
+   <edge id="e.5" source="NT1.7" target="NT1.24"/>
+   <edge id="e.9" source="NT1.26" target="NT1.27"/>
+   <edge id="e.10" source="NT1.29" target="NT1.31"/>
+   <edge id="e.11" source="NT1.22" target="NT1.34"/>
+   <edge id="e.12" source="NT1.30" target="NT1.32"/>
+   <edge id="e.13" target="NT1.11" source="NT1.6"/>
+   <edge id="e.14" source="NT1.11" target="NT1.14"/>
+   <edge id="e.15" source="NT1.14" target="NT1.19"/>
+   <edge id="e.16" source="NT1.19" target="NT1.20"/>
+   <edge id="e.19" source="NT1.4" target="NT1.6"/>
+   <edge id="e.20" source="NT1.6" target="NT1.7"/>
+   <edge id="e.21" target="NT1.4" source="NT1.1"/>
+   <edge id="e.22" source="NT1.4" target="NT1.22"/>
+   <edge id="e.25" target="NT1.26" source="NT1.22"/>
+   <edge id="e.26" source="NT1.26" target="NT1.29"/>
+   <edge id="e.27" source="NT1.29" target="NT1.30"/>
+   <edge id="e.28" source="NT1.14" target="NT1.15"/>
+   <edge id="e.30" source="NT1.19" target="NT1.18"/>
+   <edge id="e.32" source="NT1.30" target="NT1.33"/>
+  </tree>
+ </trees>
+</nexml>

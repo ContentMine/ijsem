@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Algibacter" cmphy:species="lectus" cmphy:strain="KMM 39027" cmphy:id="AYI87689" editRecord="[1__I]">Algibacter lectus KMM 39027 (AY187689)</otu>
+  <otu id="otu3">Coenonia anatina LMG 143827 (Y1 761 2)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 35537" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 35537 (AY228461)</otu>
+  <otu id="otu5" cmphy:genus="Gfllisia" cmphy:species="limnaea" cmphy:strain="LMG 214707" cmphy:id="AJ440991" editRecord="[]">Gfllisia limnaea LMG 214707 (AJ440991)</otu>
+  <otu id="otu6">Ulvibacter litoralis KMM 391 27 (AY248096)</otu>
+  <otu id="otu7" cmphy:genus="Bizionfa" cmphy:species="paragorgiae" cmphy:strain="KMM 60297" cmphy:id="AY651070" editRecord="[]"> Bizionfa paragorgiae KMM 60297 (AY651070)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Mesonia" cmphy:species="mobilis" cmphy:strain="KMM 60597" cmphy:id="DQB67409" editRecord="[3__B]">Mesonia mobilis KMM 60597 (DQ367409)</otu>
+  <otu id="otu10">Cellulophaga lytica ATCC 231 787 (M62796)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13">Flavobacterium aquatile ATCC 1 19477 (M62797)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 5424" cmphy:id="M92279" editRecord="[]"> Salegentibacter salegens DSM 5424 (M92279)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Gaetbulibacter" cmphy:species="saemankumensis" cmphy:strain="SMK-1 27" cmphy:id="AYB83937" editRecord="[]">Gaetbulibacter saemankumensis SMK-1 27 (AYB83937)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">Winogradskyella thalassocola KMM 39O77(AY521223)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:genus="Lutibacter" cmphy:species="litoralis" cmphy:strain="JCM 180347" cmphy:id="AY962298" editRecord="[]">Lutibacter litoralis JCM 180347 (AY962298)</otu>
+  <otu id="otu25">Persicivirga dokdonensis DSW967(DOO17065)</otu>
+  <otu id="otu26" cmphy:genus="Psychroflexus" cmphy:species="torquis" cmphy:strain="ACAM 6237" cmphy:id="U85881" editRecord="[]">Psychroflexus torquis ACAM 6237 (U85881)</otu>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29"/>
+  <otu id="otu30">Tenacibaculum aestuarif KCTC 1 25697 (DQ314760)</otu>
+  <otu id="otu31"/>
+  <otu id="otu32"> Strain A317 (EU290161)</otu>
+  <otu id="otu33" cmphy:genus="Polaribacter" cmphy:species="filamentus" cmphy:strain="ATCC 7003977" cmphy:id="U73726" editRecord="[]"> Polaribacter filamentus ATCC 7003977 (U73726)</otu>
+  <otu id="otu34"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="1000.0" otu="otu1" root="true"/>
+   <node id="NT1.3" x="114.0" y="816.0" label="82"/>
+   <node id="NT1.5" label="NT1.5" x="138.0" y="538.0"/>
+   <node id="NT1.10" label="NT1.10" x="190.0" y="710.0"/>
+   <node id="NT1.12" label="NT1.12" x="200.0" y="677.0"/>
+   <node id="NT1.13" x="243.0" y="232.0" label="62"/>
+   <node id="NT1.16" x="252.0" y="645.0" label="34"/>
+   <node id="NT1.17" label="NT1.17" x="271.0" y="315.0"/>
+   <node id="NT1.19" x="281.0" y="968.0" label="99"/>
+   <node id="NT1.20" label="NT1.20" x="286.0" y="287.0"/>
+   <node id="NT1.30" label="NT1.30" x="443.0" y="343.0" otu="otu2"/>
+   <node id="NT1.32" label="NT1.32" x="472.0" y="269.0" otu="otu4"/>
+   <node id="NT1.33" label="NT1.33" x="476.0" y="746.0" otu="otu5"/>
+   <node id="NT1.36" label="NT1.36" x="491.0" y="307.0" otu="otu7"/>
+   <node id="NT1.38" label="NT1.38" x="496.0" y="635.0" otu="otu9"/>
+   <node id="NT1.45" label="NT1.45" x="533.0" y="672.0" otu="otu15"/>
+   <node id="NT1.47" label="NT1.47" x="557.0" y="123.0" otu="otu17"/>
+   <node id="NT1.55" label="NT1.55" x="610.0" y="928.0" otu="otu24"/>
+   <node id="NT1.57" label="NT1.57" x="619.0" y="709.0" otu="otu26"/>
+   <node id="NT1.65" label="NT1.65" x="691.0" y="1075.0" otu="otu33"/>
+   <edge id="e.3" target="NT1.47" source="NT1.13"/>
+   <edge id="e.5" source="NT1.17" target="NT1.30"/>
+   <edge id="e.7" source="NT1.20" target="NT1.32"/>
+   <edge id="e.8" source="NT1.20" target="NT1.36"/>
+   <edge id="e.16" source="NT1.10" target="NT1.33"/>
+   <edge id="e.18" target="NT1.38" source="NT1.16"/>
+   <edge id="e.20" source="NT1.16" target="NT1.45"/>
+   <edge id="e.21" source="NT1.12" target="NT1.57"/>
+   <edge id="e.25" target="NT1.55" source="NT1.19"/>
+   <edge id="e.27" target="NT1.65" source="NT1.19"/>
+   <edge id="e.39" target="NT1.13" source="NT1.5"/>
+   <edge id="e.40" source="NT1.13" target="NT1.17"/>
+   <edge id="e.42" source="NT1.17" target="NT1.20"/>
+   <edge id="e.47" source="NT1.3" target="NT1.5"/>
+   <edge id="e.48" source="NT1.5" target="NT1.10"/>
+   <edge id="e.51" source="NT1.10" target="NT1.12"/>
+   <edge id="e.52" source="NT1.12" target="NT1.16"/>
+   <edge id="e.53" target="NT1.3" source="NT1.1"/>
+   <edge id="e.57" target="NT1.19" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Kytococcus" cmphy:species="sedentarfus" cmphy:strain="DSM 205477" cmphy:id="X87755" editRecord="[]">Kytococcus sedentarfus DSM 205477 (X87755)</otu>
+  <otu id="otu3" cmphy:genus="Dermacoccus" cmphy:species="nishinomiyaensis" cmphy:strain="DSM 204487" cmphy:id="X87757" editRecord="[]">Dermacoccus nishinomiyaensis DSM 204487 (X87757)</otu>
+  <otu id="otu4">Kribbia dieselivorans N1 1 37 (DQ372707)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Marihabitans" cmphy:species="asiaticum" cmphy:strain="HG6677" cmphy:id="ABZ86025" editRecord="[2__Z]">Marihabitans asiaticum HG6677 (AB286025)</otu>
+  <otu id="otu6"> Ornithinimicrobium humiphilum DSM 1 23627 (AJ277650)</otu>
+  <otu id="otu7"> Ornithinimicrobium pekingense LW67 (DO51 2860)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Humihabitans" cmphy:species="oryzae" cmphy:strain="KV-6577" cmphy:id="ABZ82887" editRecord="[2__Z]"> Humihabitans oryzae KV-6577 (AB282887)</otu>
+  <otu id="otu9"> Ornithinimicrobium kibberense K22-207 (AY6361 1 1)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Lapillicoccus" cmphy:species="jejuensis" cmphy:strain="R-AcO137" cmphy:id="AMB98397" editRecord="[3__B]">Lapillicoccus jejuensis R-AcO137 (AM398397)</otu>
+  <otu id="otu11" cmphy:genus="Terrabacter" cmphy:species="terrigena" cmphy:strain="ON1 07" cmphy:id="FJ423552" editRecord="[]">Terrabacter terrigena ON1 07 (FJ423552)</otu>
+  <otu id="otu12">Oryzihumus leptocrescens KV-6287 (AB1931 72)</otu>
+  <otu id="otu13">Fodinibacrer Iuteus YIM C0037 (EU878005)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"> Humibacillus Xanthopallidus KV-6637 (AB282888)</otu>
+  <otu id="otu16">Ornithinicoccus hortensis HKI 01 257 (Y1 7869)</otu>
+  <otu id="otu17">Terracoccus luteus DSM 442677 (Y1 1928)</otu>
+  <otu id="otu18">Arsenicicoccus bolidensis CCUG 473067 (AJ5581 33)</otu>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="Phycicoccus" cmphy:species="jejuensis" cmphy:strain="KSW2-1 57" cmphy:id="DQB45443" editRecord="[3__B]">Phycicoccus jejuensis KSW2-1 57 (DQ345443)</otu>
+  <otu id="otu20">Serinicoccus profundi 071456-17(EUB03762)</otu>
+  <otu id="otu21" cmphy:edit="[3__B]" cmphy:genus="Serinicoccus" cmphy:species="marinus" cmphy:strain="JC10787" cmphy:id="AYB82898" editRecord="[3__B]">Serinicoccus marinus JC10787 (AY382898)</otu>
+  <otu id="otu22" cmphy:genus="Tetrasphaera" cmphy:species="veronensis" cmphy:strain="Ver 17" cmphy:id="Y14595" editRecord="[]">Tetrasphaera veronensis Ver 17 (Y14595)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="778.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="16.0" y="778.0"/>
+   <node id="NT1.3" x="50.0" y="700.0" label="45"/>
+   <node id="NT1.4" label="NT1.4" x="62.0" y="583.0"/>
+   <node id="NT1.5" x="92.0" y="478.0" label="38"/>
+   <node id="NT1.12" label="NT1.12" x="171.0" y="231.0"/>
+   <node id="NT1.13" label="NT1.13" x="183.0" y="162.0"/>
+   <node id="NT1.14" x="236.0" y="119.0" label="95"/>
+   <node id="NT1.15" label="NT1.15" x="237.0" y="856.0" otu="otu2"/>
+   <node id="NT1.19" x="281.0" y="338.0" label="99"/>
+   <node id="NT1.20" label="NT1.20" x="292.0" y="818.0" otu="otu3"/>
+   <node id="NT1.24" label="NT1.24" x="317.0" y="549.0" otu="otu5"/>
+   <node id="NT1.27" label="NT1.27" x="332.0" y="128.0" otu="otu8"/>
+   <node id="NT1.30" label="NT1.30" x="340.0" y="205.0" otu="otu10"/>
+   <node id="NT1.31" label="NT1.31" x="342.0" y="167.0" otu="otu11"/>
+   <node id="NT1.39" label="NT1.39" x="414.0" y="358.0" otu="otu19"/>
+   <node id="NT1.41" label="NT1.41" x="444.0" y="665.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="458.0" y="319.0" otu="otu22"/>
+   <edge id="e.2" target="NT1.27" source="NT1.14"/>
+   <edge id="e.4" source="NT1.14" target="NT1.31"/>
+   <edge id="e.5" source="NT1.13" target="NT1.30"/>
+   <edge id="e.6" source="NT1.19" target="NT1.39"/>
+   <edge id="e.8" source="NT1.19" target="NT1.42"/>
+   <edge id="e.13" target="NT1.24" source="NT1.5"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" source="NT1.3" target="NT1.20"/>
+   <edge id="e.20" source="NT1.2" target="NT1.15"/>
+   <edge id="e.21" target="NT1.41" source="NT1.4"/>
+   <edge id="e.25" source="NT1.13" target="NT1.14"/>
+   <edge id="e.26" source="NT1.12" target="NT1.13"/>
+   <edge id="e.27" target="NT1.12" source="NT1.5"/>
+   <edge id="e.28" source="NT1.12" target="NT1.19"/>
+   <edge id="e.33" source="NT1.4" target="NT1.5"/>
+   <edge id="e.35" source="NT1.3" target="NT1.4"/>
+   <edge id="e.37" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

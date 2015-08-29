@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Zobellia" cmphy:species="galactanivorans" cmphy:strain="DsijT" cmphy:id="AFZ08293" editRecord="[2__Z]">Zobellia galactanivorans DsijT (AF208293)</otu>
+  <otu id="otu3"> Maribacter orientalis KMM 3947T (AY271 624)</otu>
+  <otu id="otu4">KMM 6025 (EF536 746)</otu>
+  <otu id="otu5">KMM 6O46T (EU246691)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Maribacter" cmphy:species="aquivivus" cmphy:strain="KMM 3949T" cmphy:id="AYZ71625" editRecord="[2__Z]"> Maribacter aquivivus KMM 3949T (AY271625)</otu>
+  <otu id="otu7" cmphy:genus="Maribacter" cmphy:species="dokdonensis" cmphy:strain="DSW-8T" cmphy:id="AY960749" editRecord="[]">Maribacter dokdonensis DSW-8T (AY960749)</otu>
+  <otu id="otu8">Maribacter sedimenticola KMM 39O3T (AY271 623)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Maribacter" cmphy:species="ulvicola" cmphy:strain="KMM 3951T" cmphy:id="AYZ71626" editRecord="[2__Z]">Maribacter ulvicola KMM 3951T (AY271626)</otu>
+  <otu id="otu10" cmphy:genus="Arenibacter" cmphy:species="latericius" cmphy:strain="KMM 426T" cmphy:id="AFO52742" editRecord="[]">Arenibacter latericius KMM 426T (AFO52742)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="86.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="8.0" y="478.0"/>
+   <node id="NT1.3" label="NT1.3" x="45.0" y="430.0"/>
+   <node id="NT1.4" label="NT1.4" x="121.0" y="647.0"/>
+   <node id="NT1.6" label="NT1.6" x="133.0" y="871.0"/>
+   <node id="NT1.9" label="NT1.9" x="157.0" y="209.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="177.0" y="440.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="186.0" y="1016.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="191.0" y="785.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="195.0" y="1131.0" otu="otu10"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.3" target="NT1.9"/>
+   <edge id="e.3" source="NT1.6" target="NT1.17"/>
+   <edge id="e.4" target="NT1.15" source="NT1.6"/>
+   <edge id="e.6" target="NT1.14" source="NT1.4"/>
+   <edge id="e.7" source="NT1.2" target="NT1.18"/>
+   <edge id="e.9" source="NT1.2" target="NT1.3"/>
+   <edge id="e.10" source="NT1.3" target="NT1.4"/>
+   <edge id="e.11" source="NT1.4" target="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

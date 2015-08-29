@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Actinokineospora" cmphy:species="auranticum" cmphy:strain="NBRC 165187" cmphy:id="ABO58396" editRecord="[0__O]">Actinokineospora auranticum NBRC 165187 (AB058396)</otu>
+  <otu id="otu3" cmphy:genus="Actinokineospora" cmphy:species="terrae" cmphy:strain="NBRC 156687" cmphy:id="ABO58394" editRecord="[]">Actinokineospora terrae NBRC 156687 (ABO58394)</otu>
+  <otu id="otu4">Actinokineospora diospyrosa NRRL B-240477 (AF1 14797)</otu>
+  <otu id="otu5">Actinokineospora globicatena NRRL B-240487 (AF1 14798)</otu>
+  <otu id="otu6">Actinokineospora riparia NRRL B-164327 (AF1 14802)</otu>
+  <otu id="otu7" cmphy:genus="Actinokineospora" cmphy:species="cibodasensis" cmphy:strain="IDO3-07847" cmphy:id="AB447489" editRecord="[]">Actinokineospora cibodasensis IDO3-07847 (AB447489)</otu>
+  <otu id="otu8" cmphy:genus="Actinosynnema" cmphy:species="mirum" cmphy:strain="DSM 438277" cmphy:id="X84447" editRecord="[]">Actinosynnema mirum DSM 438277 (X84447)</otu>
+  <otu id="otu9">Lechevalieria aerocolonigenes NRRL B-32987 (AF1 14804)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Actinokineospora" cmphy:species="fastidiosa" cmphy:strain="NRRL B-166977" cmphy:id="GOZ00601" editRecord="[2__Z]">Actinokineospora fastidiosa NRRL B-166977 (GO200601)</otu>
+  <otu id="otu11">Actinokineospora inagensis NRRL B-240507 (AF1 14799)</otu>
+  <otu id="otu12">Saccharothrix australiensis NRRL 1 12397 (AF1 14803)</otu>
+  <otu id="otu13">Actinokineospora enzanensis NBRC 1651 77 (AB058395)</otu>
+  <otu id="otu14">Umezawaea tangerina MK2 7-91 F27 (ABO20031)</otu>
+  <otu id="otu15" cmphy:genus="Lentzea" cmphy:species="albidocapillata" cmphy:strain="IMMIB D-9587" cmphy:id="X84321" editRecord="[]">Lentzea albidocapillata IMMIB D-9587 (X84321)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="531.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="115.0" y="423.0"/>
+   <node id="NT1.3" label="NT1.3" x="151.0" y="337.0"/>
+   <node id="NT1.6" label="NT1.6" x="192.0" y="212.0"/>
+   <node id="NT1.7" x="193.0" y="551.0" label="44w"/>
+   <node id="NT1.12" x="222.0" y="173.0" label="70"/>
+   <node id="NT1.15" label="NT1.15" x="290.0" y="210.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="293.0" y="54.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="315.0" y="249.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="327.0" y="562.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="337.0" y="406.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="431.0" y="523.0" otu="otu15"/>
+   <edge id="e.1" source="NT1.6" target="NT1.20"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" source="NT1.6" target="NT1.12"/>
+   <edge id="e.11" target="NT1.6" source="NT1.3"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" target="NT1.7" source="NT1.2"/>
+   <edge id="e.20" source="NT1.3" target="NT1.23"/>
+   <edge id="e.21" source="NT1.12" target="NT1.15"/>
+   <edge id="e.22" target="NT1.21" source="NT1.7"/>
+   <edge id="e.24" source="NT1.7" target="NT1.28"/>
+   <edge id="e.25" target="NT1.16" source="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

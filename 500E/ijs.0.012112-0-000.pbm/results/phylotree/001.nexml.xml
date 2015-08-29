@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[8__B]" cmphy:genus="Niastella" cmphy:species="populi" cmphy:strain="THYL-44T" cmphy:id="EUB77262" editRecord="[8__B]">Niastella populi THYL-44T (EU877262)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Terrimonas lutea IAM 15284T(AB192292)</otu>
+  <otu id="otu5">Flavisolibacter ginsengiterrae KCTC 1 2656T (AB267476)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Segetibacter koreensis KCTC 1 2655T (AB267478)</otu>
+  <otu id="otu9">Chitinophaga japonensis NBRC 16041 T (ABO 78055)</otu>
+  <otu id="otu10">Niabella soli KACC 1 26O4T (EF592608)</otu>
+  <otu id="otu11" cmphy:genus="Sediminibacterium" cmphy:species="salmoneum" cmphy:strain="NJ-44T" cmphy:id="EF407879" editRecord="[]">Sediminibacterium salmoneum NJ-44T (EF407879)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Chitinophaga" cmphy:species="pinensis" cmphy:strain="DSM 2588T" cmphy:id="AFO78775" editRecord="[]">Chitinophaga pinensis DSM 2588T (AFO78775)</otu>
+  <otu id="otu14">Flavobacterium aquatile ATCC 1 1947T (M62797)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="345.0" y="394.0"/>
+   <node id="NT1.2" label="NT1.2" x="364.0" y="283.0"/>
+   <node id="NT1.10" label="NT1.10" x="546.0" y="343.0" otu="otu1"/>
+   <node id="NT1.23" label="NT1.23" x="668.0" y="213.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="723.0" y="560.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="2.0" y="498.0" root="true"/>
+   <edge id="e.6" target="NT1.23" source="NT1.2"/>
+   <edge id="e.7" target="NT1.10" source="NT1.2"/>
+   <edge id="e.12" target="NT1.25" source="NT1.1"/>
+   <edge id="e.19" source="NT1.1" target="NT1.2"/>
+   <edge id="e.25" source="NT1.27" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

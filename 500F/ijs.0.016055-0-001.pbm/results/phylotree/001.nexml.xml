@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">ldiomarina abyssalis KMM 2277 (AF052740)</otu>
+  <otu id="otu3" cmphy:genus="Psychromonas" cmphy:species="antarctica" cmphy:strain="DSM 107047" cmphy:id="Y14697" editRecord="[]">Psychromonas antarctica DSM 107047 (Y14697)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="79.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="381.0" y="91.0" otu="otu3"/>
+   <edge id="e.2" target="NT1.4" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

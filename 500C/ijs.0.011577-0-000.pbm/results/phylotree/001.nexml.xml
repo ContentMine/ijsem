@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Metschnikowia" cmphy:species="kareensis" cmphy:strain="KCTC 7998T" cmphy:id="AFZ98438" editRecord="[2__Z]">Metschnikowia kareensis KCTC 7998T (AF298438)</otu>
+  <otu id="otu2" cmphy:genus="Metschnikowia" cmphy:species="noctiluminum" cmphy:strain="NRRL Y-27753T" cmphy:id="AY611609" editRecord="[]">Metschnikowia noctiluminum NRRL Y-27753T (AY611609)</otu>
+  <otu id="otu3" cmphy:genus="Metschnikowia" cmphy:species="reukaufii" cmphy:strain="NRRL Y-71127" cmphy:id="U44825" editRecord="[]">Metschnikowia reukaufii NRRL Y-71127 (U44825)</otu>
+  <otu id="otu4" cmphy:genus="Metschnikowia" cmphy:species="gruessii" cmphy:strain="NRRL Y-17809T" cmphy:id="U45737" editRecord="[]">Metschnikowia gruessii NRRL Y-17809T (U45737)</otu>
+  <otu id="otu5">Candida gelsemii UWO(PS)06-24.17 (DQ988046)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="chrysomelidamm" cmphy:strain="BG02-7-16-002A-1-1T" cmphy:id="AYS20294" editRecord="[5__S]">Candida chrysomelidamm BG02-7-16-002A-1-1T (AY520294)</otu>
+  <otu id="otu7" cmphy:genus="Candida" cmphy:species="aechmeae" cmphy:strain="Bl153'" cmphy:id="EU678950" editRecord="[]">Candida aechmeae Bl153' (EU678950)</otu>
+  <otu id="otu8" cmphy:genus="Candida" cmphy:species="ubatubensis" cmphy:strain="NRRL Y-278127" cmphy:id="AY695395" editRecord="[]">Candida ubatubensis NRRL Y-278127 (AY695395)</otu>
+  <otu id="otu9">Metschnikowia pulcherrima NRRL Y-71 1 1T (U45736)</otu>
+  <otu id="otu10" cmphy:genus="Merschnikowia" cmphy:species="lunata" cmphy:strain="NRRL Y-7131T" cmphy:id="U45733" editRecord="[]">Merschnikowia lunata NRRL Y-7131T (U45733)</otu>
+  <otu id="otu11" cmphy:genus="Candida" cmphy:species="picachoensis" cmphy:strain="NRRL Yr27607T" cmphy:id="AY452039" editRecord="[]">Candida picachoensis NRRL Yr27607T (AY452039)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="kipukae" cmphy:strain="NRRL Y-274747" cmphy:id="AFS14294" editRecord="[5__S]">Candida kipukae NRRL Y-274747 (AF514294)</otu>
+  <otu id="otu13" cmphy:genus="Saccharomyces" cmphy:species="cerevisiae" cmphy:strain="NRRL Y-12632NT" cmphy:id="AYO48154" editRecord="[]">Saccharomyces cerevisiae NRRL Y-12632NT (AYO48154)</otu>
+  <otu id="otu14" cmphy:genus="Metschnikowia" cmphy:species="corniflorae" cmphy:strain="NRRL Y-277507" cmphy:id="AY611610" editRecord="[]">Metschnikowia corniflorae NRRL Y-277507 (AY611610)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Schizosaccharomyces" cmphy:species="pombe" cmphy:strain="NRRL Y-1279GT" cmphy:id="EFS50348" editRecord="[5__S]">Schizosaccharomyces pombe NRRL Y-1279GT (EF550348)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="47.0" y="367.0" label="37"/>
+   <node id="NT1.2" x="82.0" y="493.0" label="25"/>
+   <node id="NT1.3" x="123.0" y="544.0" label="39"/>
+   <node id="NT1.4" label="NT1.4" x="148.0" y="236.0"/>
+   <node id="NT1.5" label="NT1.5" x="173.0" y="325.0"/>
+   <node id="NT1.6" label="NT1.6" x="183.0" y="147.0"/>
+   <node id="NT1.7" x="201.0" y="87.0" label="40"/>
+   <node id="NT1.8" label="NT1.8" x="204.0" y="737.0"/>
+   <node id="NT1.11" x="285.0" y="842.0" label="100"/>
+   <node id="NT1.12" label="NT1.12" x="420.0" y="128.0" otu="otu1"/>
+   <node id="NT1.14" label="NT1.14" x="436.0" y="286.0" otu="otu2"/>
+   <node id="NT1.15" x="440.0" y="48.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="441.0" y="21.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="441.0" y="75.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="450.0" y="234.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="469.0" y="710.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="482.0" y="763.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="578.0" y="446.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="583.0" y="393.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="640.0" y="552.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="652.0" y="816.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="753.0" y="497.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="888.0" y="869.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="4.0" y="551.0" root="true"/>
+   <edge id="e.0" source="NT1.15" target="NT1.16"/>
+   <edge id="e.1" source="NT1.15" target="NT1.17"/>
+   <edge id="e.2" source="NT1.7" target="NT1.12"/>
+   <edge id="e.4" target="NT1.19" source="NT1.6"/>
+   <edge id="e.5" source="NT1.5" target="NT1.14"/>
+   <edge id="e.6" target="NT1.24" source="NT1.5"/>
+   <edge id="e.7" source="NT1.2" target="NT1.23"/>
+   <edge id="e.8" target="NT1.25" source="NT1.3"/>
+   <edge id="e.9" source="NT1.8" target="NT1.20"/>
+   <edge id="e.10" source="NT1.8" target="NT1.21"/>
+   <edge id="e.11" source="NT1.3" target="NT1.28"/>
+   <edge id="e.12" source="NT1.11" target="NT1.31"/>
+   <edge id="e.13" source="NT1.7" target="NT1.15"/>
+   <edge id="e.14" source="NT1.6" target="NT1.7"/>
+   <edge id="e.15" source="NT1.4" target="NT1.6"/>
+   <edge id="e.17" source="NT1.1" target="NT1.4"/>
+   <edge id="e.18" source="NT1.4" target="NT1.5"/>
+   <edge id="e.20" source="NT1.1" target="NT1.2"/>
+   <edge id="e.21" source="NT1.2" target="NT1.3"/>
+   <edge id="e.24" source="NT1.8" target="NT1.11"/>
+   <edge id="e.25" source="NT1.32" target="NT1.1"/>
+   <edge id="e.26" source="NT1.32" target="NT1.8"/>
+   <edge id="e.27" source="NT1.11" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

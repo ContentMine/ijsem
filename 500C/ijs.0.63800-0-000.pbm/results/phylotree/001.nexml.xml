@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Xanthomonas campestris pv. campestris LMG 586T (X95917)</otu>
+  <otu id="otu3">Thalassomonas viridans</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Colwellia" cmphy:species="maris" cmphy:strain="ABE-1T" cmphy:id="ABO02630" editRecord="[0__O]">Colwellia maris ABE-1T (AB002630)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Thalassomonas Ioyana CBMAI 722T (AY643537)</otu>
+  <otu id="otu8" cmphy:genus="Colwellia" cmphy:species="hornerae" cmphy:strain="ACAM 607T" cmphy:id="U85847" editRecord="[]">Colwellia hornerae ACAM 607T (U85847)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Pseudoalteromonas" cmphy:species="phenolica" cmphy:strain="O-BCBOT" cmphy:id="AFB32880" editRecord="[3__B]">Pseudoalteromonas phenolica O-BCBOT (AF332880)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="363.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="214.0" y="306.0"/>
+   <node id="NT1.7" label="NT1.7" x="329.0" y="287.0"/>
+   <node id="NT1.12" label="NT1.12" x="428.0" y="254.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="444.0" y="330.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="549.0" y="405.0" otu="otu9"/>
+   <edge id="e.7" target="NT1.7" source="NT1.4"/>
+   <edge id="e.8" target="NT1.4" source="NT1.1"/>
+   <edge id="e.10" source="NT1.4" target="NT1.16"/>
+   <edge id="e.12" source="NT1.7" target="NT1.12"/>
+   <edge id="e.13" source="NT1.7" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

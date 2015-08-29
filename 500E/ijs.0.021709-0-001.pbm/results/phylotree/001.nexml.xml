@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Paenibacillus" cmphy:species="motobuensis" cmphy:strain="MC1O7" cmphy:id="AY741810" editRecord="[]">Paenibacillus motobuensis MC1O7 (AY741810)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="daejeonensis" cmphy:strain="AP2O7" cmphy:id="AFZ90916" editRecord="[2__Z]">Paenibacillus daejeonensis AP2O7 (AF290916)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="turicensis" cmphy:strain="MOL7227" cmphy:id="AFB78694" editRecord="[3__B]">Paenibacillus turicensis MOL7227 (AF378694)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="brasilensis" cmphy:strain="PB1 727" cmphy:id="AFZ73740" editRecord="[2__Z]">Paenibacillus brasilensis PB1 727 (AF273740)</otu>
+  <otu id="otu6">Paenibacillus jamilae CECT 52667 (AJ271 157)</otu>
+  <otu id="otu7" cmphy:genus="Paenibacillus" cmphy:species="polymyxa" cmphy:strain="IAM 134197" cmphy:id="D16276" editRecord="[]">Paenibacillus polymyxa IAM 134197 (D16276)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="peorfae" cmphy:strain="DSM 83207" cmphy:id="AJB20494" editRecord="[3__B]">Paenibacillus peorfae DSM 83207 (AJ320494)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="stellifer" cmphy:strain="IS 17" cmphy:id="AJB18013" editRecord="[3__B]">Paenibacillus stellifer IS 17 (AJ318013)</otu>
+  <otu id="otu10">Paenibacillus durus DSM 1 7357 (X77846)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Paenibacfllus" cmphy:species="sabinae" cmphy:strain="T2 77" cmphy:id="DQB38444" editRecord="[3__B]">Paenibacfllus sabinae T2 77 (DQ338444)</otu>
+  <otu id="otu12">Strain S277 (GQ985395)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="forsythiae" cmphy:strain="T987" cmphy:id="DQB38443" editRecord="[3__B]">Paenibacillus forsythiae T987 (DQ338443)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="odorifer" cmphy:strain="TOD457" cmphy:id="AJZ23990" editRecord="[2__Z]">Paenibacillus odorifer TOD457 (AJ223990)</otu>
+  <otu id="otu15">Paenibacillus borealis KK197 (AJO1 1322)</otu>
+  <otu id="otu16" cmphy:genus="Paenibacillus" cmphy:species="zanthoxyli" cmphy:strain="JH297" cmphy:id="DQ471303" editRecord="[]">Paenibacillus zanthoxyli JH297 (DQ471303)</otu>
+  <otu id="otu17">Paenibacillus wynnii LMG 221 767 (AJ633647)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="540.0" otu="otu1"/>
+   <node id="NT1.2" label="NT1.2" x="71.0" y="440.0"/>
+   <node id="NT1.3" label="NT1.3" x="153.0" y="583.0"/>
+   <node id="NT1.4" label="NT1.4" x="164.0" y="293.0"/>
+   <node id="NT1.5" label="NT1.5" x="301.0" y="178.0"/>
+   <node id="NT1.6" label="NT1.6" x="307.0" y="565.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="308.0" y="405.0"/>
+   <node id="NT1.8" label="NT1.8" x="345.0" y="441.0"/>
+   <node id="NT1.9" label="NT1.9" x="363.0" y="368.0" otu="otu3"/>
+   <node id="NT1.10" x="364.0" y="475.0" label="e4"/>
+   <node id="NT1.11" label="NT1.11" x="365.0" y="604.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="367.0" y="245.0"/>
+   <node id="NT1.13" label="NT1.13" x="370.0" y="407.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="382.0" y="504.0"/>
+   <node id="NT1.15" label="NT1.15" x="384.0" y="486.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="385.0" y="446.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="389.0" y="109.0"/>
+   <node id="NT1.18" label="NT1.18" x="399.0" y="526.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="428.0" y="65.0"/>
+   <node id="NT1.20" label="NT1.20" x="441.0" y="151.0"/>
+   <node id="NT1.21" label="NT1.21" x="451.0" y="35.0"/>
+   <node id="NT1.22" label="NT1.22" x="452.0" y="279.0"/>
+   <node id="NT1.23" label="NT1.23" x="460.0" y="211.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="475.0" y="308.0"/>
+   <node id="NT1.25" label="NT1.25" x="485.0" y="15.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="485.0" y="172.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="487.0" y="93.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="487.0" y="133.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="494.0" y="250.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="538.0" y="289.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="543.0" y="54.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="659.0" y="329.0" otu="otu17"/>
+   <edge source="NT1.26" target="NT1.20" id="e.0"/>
+   <edge source="NT1.23" target="NT1.12" id="e.1"/>
+   <edge source="NT1.29" target="NT1.22" id="e.2"/>
+   <edge source="NT1.30" target="NT1.24" id="e.3"/>
+   <edge source="NT1.16" target="NT1.10" id="e.4"/>
+   <edge source="NT1.18" target="NT1.14" id="e.5"/>
+   <edge source="NT1.6" target="NT1.3" id="e.6"/>
+   <edge source="NT1.21" target="NT1.19" id="e.7"/>
+   <edge source="NT1.19" target="NT1.17" id="e.8"/>
+   <edge source="NT1.17" target="NT1.5" id="e.9"/>
+   <edge source="NT1.17" target="NT1.20" id="e.10"/>
+   <edge source="NT1.5" target="NT1.4" id="e.11"/>
+   <edge source="NT1.5" target="NT1.12" id="e.12"/>
+   <edge source="NT1.12" target="NT1.22" id="e.13"/>
+   <edge source="NT1.22" target="NT1.24" id="e.14"/>
+   <edge source="NT1.4" target="NT1.2" id="e.15"/>
+   <edge source="NT1.4" target="NT1.7" id="e.16"/>
+   <edge source="NT1.2" target="NT1.3" id="e.17"/>
+   <edge source="NT1.7" target="NT1.8" id="e.18"/>
+   <edge source="NT1.8" target="NT1.10" id="e.19"/>
+   <edge source="NT1.10" target="NT1.14" id="e.20"/>
+   <edge source="NT1.14" target="NT1.15" id="e.21"/>
+   <edge source="NT1.1" target="NT1.2" id="e.22"/>
+   <edge source="NT1.11" target="NT1.3" id="e.23"/>
+   <edge source="NT1.9" target="NT1.7" id="e.24"/>
+   <edge source="NT1.13" target="NT1.8" id="e.25"/>
+   <edge source="NT1.27" target="NT1.19" id="e.26"/>
+   <edge source="NT1.28" target="NT1.20" id="e.27"/>
+   <edge source="NT1.25" target="NT1.21" id="e.28"/>
+   <edge source="NT1.31" target="NT1.21" id="e.29"/>
+   <edge source="NT1.32" target="NT1.24" id="e.30"/>
+  </tree>
+ </trees>
+</nexml>

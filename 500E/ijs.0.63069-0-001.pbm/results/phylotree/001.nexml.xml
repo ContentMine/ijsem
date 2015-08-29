@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Thermotoga" cmphy:species="maritima" cmphy:strain="DSM 31097" cmphy:id="M21774" editRecord="[]">Thermotoga maritima DSM 31097 (M21774)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Thermosipho" cmphy:species="melanesiensis" cmphy:strain="DSM 120297" cmphy:id="Z70248" editRecord="[]"> Thermosipho melanesiensis DSM 120297 (Z70248)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Thermosipho" cmphy:species="africanus" cmphy:strain="DSM 53097" cmphy:id="M83140" editRecord="[]"> Thermosipho africanus DSM 53097 (M83140)</otu>
+  <otu id="otu7" cmphy:genus="Aquifex" cmphy:species="pyrophilus" cmphy:strain="DSM 68587" cmphy:id="M83548" editRecord="[]">Aquifex pyrophilus DSM 68587 (M83548)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Marinitoga" cmphy:species="carnini" cmphy:strain="CNCMI 24137" cmphy:id="AJZ50439" editRecord="[2__Z]">Marinitoga carnini CNCMI 24137 (AJ250439)</otu>
+  <otu id="otu9" cmphy:genus="Fervidobacterium" cmphy:species="nodosum" cmphy:strain="DSM 53067" cmphy:id="M59177" editRecord="[]"> Fervidobacterium nodosum DSM 53067 (M59177)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Petrotoga" cmphy:species="miotherma" cmphy:strain="DSM 1oe91T" cmphy:id="L10657" editRecord="[]">Petrotoga miotherma DSM 1oe91T (L10657)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="57.0" y="393.0"/>
+   <node id="NT1.2" label="NT1.2" x="89.0" y="308.0"/>
+   <node id="NT1.3" label="NT1.3" x="107.0" y="477.0"/>
+   <node id="NT1.4" label="NT1.4" x="109.0" y="245.0"/>
+   <node id="NT1.5" x="156.0" y="176.0" label="100"/>
+   <node id="NT1.6" x="159.0" y="522.0" label="100"/>
+   <node id="NT1.7" label="NT1.7" x="162.0" y="102.0"/>
+   <node id="NT1.8" label="NT1.8" x="185.0" y="41.0"/>
+   <node id="NT1.9" label="NT1.9" x="189.0" y="161.0"/>
+   <node id="NT1.10" label="NT1.10" x="190.0" y="372.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="204.0" y="131.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="215.0" y="252.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="219.0" y="12.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="221.0" y="71.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="228.0" y="192.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="256.0" y="614.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="265.0" y="432.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="276.0" y="313.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="306.0" y="493.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="341.0" y="553.0" otu="otu11"/>
+   <edge source="NT1.13" target="NT1.8" id="e.0"/>
+   <edge source="NT1.14" target="NT1.8" id="e.1"/>
+   <edge source="NT1.11" target="NT1.9" id="e.2"/>
+   <edge source="NT1.15" target="NT1.9" id="e.3"/>
+   <edge source="NT1.12" target="NT1.5" id="e.4"/>
+   <edge source="NT1.18" target="NT1.4" id="e.5"/>
+   <edge source="NT1.10" target="NT1.2" id="e.6"/>
+   <edge source="NT1.17" target="NT1.3" id="e.7"/>
+   <edge source="NT1.19" target="NT1.6" id="e.8"/>
+   <edge source="NT1.20" target="NT1.6" id="e.9"/>
+   <edge source="NT1.8" target="NT1.7" id="e.10"/>
+   <edge source="NT1.7" target="NT1.5" id="e.11"/>
+   <edge source="NT1.7" target="NT1.9" id="e.12"/>
+   <edge source="NT1.5" target="NT1.4" id="e.13"/>
+   <edge source="NT1.1" target="NT1.3" id="e.14"/>
+   <edge source="NT1.3" target="NT1.6" id="e.15"/>
+   <edge source="NT1.16" target="NT1.1" id="e.16"/>
+   <edge source="NT1.2" target="NT1.1" id="e.17"/>
+   <edge source="NT1.4" target="NT1.2" id="e.18"/>
+  </tree>
+ </trees>
+</nexml>

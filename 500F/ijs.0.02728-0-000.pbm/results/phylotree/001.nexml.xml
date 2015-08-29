@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Brachybacterium muris C3H-21 T (AJ 5 37 574)</otu>
+  <otu id="otu2">Brachybacterium nesterenkovii DSM 9 57 3T (X91 O3 3)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"> Brachybacterium sacelli LMG 2O345T (AJ41 5 3 84)</otu>
+  <otu id="otu5" cmphy:genus="Brachybacterium" cmphy:species="tyrofermentans" cmphy:strain="CNRZ 926T" cmphy:id="X91657" editRecord="[]"> Brachybacterium tyrofermentans CNRZ 926T (X91657)</otu>
+  <otu id="otu6"> Brachybacterium alimentarium CNRZ 925T (X91031 )</otu>
+  <otu id="otu7">Brachybacterium rhamnosum LMG 1 9848T (AJ41 5376)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Brachybacterium paraconglomeratum LMG 1 9861 T (AJ41 5377)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Dermabacter" cmphy:species="hominis" cmphy:strain="DSM 7O83T" cmphy:id="X91034" editRecord="[]">Dermabacter hominis DSM 7O83T (X91034)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.12" label="NT1.12" x="105.0" y="602.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="267.0" y="19.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="8.0" y="68.0" root="true"/>
+   <edge id="e.5" target="NT1.12" source="NT1.20"/>
+   <edge id="e.15" source="NT1.20" target="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

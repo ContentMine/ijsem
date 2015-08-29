@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Agreia" cmphy:species="pratensis" cmphy:strain="DSM 14246T" cmphy:id="AJB10412" editRecord="[3__B]">Agreia pratensis DSM 14246T (AJ310412)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Agreia" cmphy:species="bicolorata" cmphy:strain="VKM Ac-18047" cmphy:id="AFI59363" editRecord="[1__I]">Agreia bicolorata VKM Ac-18047 (AF159363)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Okibacterium" cmphy:species="fritillariae" cmphy:strain="VKM Ac-2059T" cmphy:id="ABO42094" editRecord="[0__O]">Okibacterium fritillariae VKM Ac-2059T (AB042094)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Subtercola" cmphy:species="boreus" cmphy:strain="DSM 13O56T" cmphy:id="AFZ24722" editRecord="[2__Z]">Subtercola boreus DSM 13O56T (AF224722)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Plantibacter" cmphy:species="flavus" cmphy:strain="DSM 140127" cmphy:id="AJB10417" editRecord="[3__B]">Plantibacter flavus DSM 140127 (AJ310417)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Subtercola" cmphy:species="frigoramans" cmphy:strain="DSM 13O57T" cmphy:id="AFZ24723" editRecord="[2__Z]">Subtercola frigoramans DSM 13O57T (AF224723)</otu>
+  <otu id="otu8" cmphy:genus="Curtobacterium" cmphy:species="citreum" cmphy:strain="DSM 20528T" cmphy:id="X77436" editRecord="[]">Curtobacterium citreum DSM 20528T (X77436)</otu>
+  <otu id="otu9" cmphy:genus="Curtobacterium" cmphy:species="pusillum" cmphy:strain="DSM 20527T" cmphy:id="AJ784400" editRecord="[]">Curtobacterium pusillum DSM 20527T (AJ784400)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="104.0" y="454.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="111.0" y="454.0" label="58"/>
+   <node id="NT1.3" label="NT1.3" x="168.0" y="522.0"/>
+   <node id="NT1.4" label="NT1.4" x="200.0" y="574.0"/>
+   <node id="NT1.5" label="NT1.5" x="265.0" y="384.0"/>
+   <node id="NT1.6" label="NT1.6" x="265.0" y="611.0"/>
+   <node id="NT1.7" x="304.0" y="471.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="314.0" y="449.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="384.0" y="493.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="426.0" y="406.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="456.0" y="536.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="499.0" y="363.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="602.0" y="579.0" otu="otu7"/>
+   <node id="NT1.14" x="628.0" y="638.0" label="100"/>
+   <node id="NT1.15" label="NT1.15" x="671.0" y="667.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="675.0" y="623.0" otu="otu9"/>
+   <edge id="e.0" source="NT1.5" target="NT1.12"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.7" target="NT1.8"/>
+   <edge id="e.3" source="NT1.6" target="NT1.13"/>
+   <edge id="e.4" source="NT1.14" target="NT1.16"/>
+   <edge id="e.5" source="NT1.2" target="NT1.5"/>
+   <edge id="e.6" source="NT1.2" target="NT1.3"/>
+   <edge id="e.7" source="NT1.3" target="NT1.4"/>
+   <edge id="e.8" source="NT1.3" target="NT1.7"/>
+   <edge id="e.9" source="NT1.4" target="NT1.6"/>
+   <edge id="e.10" source="NT1.6" target="NT1.14"/>
+   <edge id="e.11" source="NT1.4" target="NT1.11"/>
+   <edge id="e.12" source="NT1.5" target="NT1.10"/>
+   <edge id="e.13" source="NT1.7" target="NT1.9"/>
+   <edge id="e.14" source="NT1.14" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

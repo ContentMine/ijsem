@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Verrucosispora" cmphy:species="strain" cmphy:strain="e37" cmphy:id="AYB71893" editRecord="[3__B]">Verrucosispora strain e37 (AY371893)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Verrucosispora" cmphy:species="strain" cmphy:strain="e80" cmphy:id="AYB71894" editRecord="[3__B]">Verrucosispora strain e80 (AY371894)</otu>
+  <otu id="otu3">Mcromonospora carbonacea ATCC 27114T (AF 004000)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Micromonospora" cmphy:species="pallida" cmphy:strain="ATCC 15838T" cmphy:id="AFO04006" editRecord="[0__O]">Micromonospora pallida ATCC 15838T (AF004006)</otu>
+  <otu id="otu5">Micromanospora halophytica</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Micromonospora" cmphy:species="olivasterospora" cmphy:strain="ATCC 21819T" cmphy:id="AFO04004" editRecord="[0__O]">Micromonospora olivasterospora ATCC 21819T (AF004004)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Micromonospora inositola ATCC 21773T (AF 004003)</otu>
+  <otu id="otu9">Mcromonospora auramiaca ATCC 271 15 T (AF 00400 1)</otu>
+  <otu id="otu10">Strain CNB-440T (AY371895)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13">Strain CNH-646 (AY371898)</otu>
+  <otu id="otu14">Strain CNH- 643 T (AY371897)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="88.0" y="489.0"/>
+   <node id="NT1.2" label="NT1.2" x="88.0" y="754.0"/>
+   <node id="NT1.8" label="NT1.8" x="233.0" y="777.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="308.0" y="731.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="370.0" y="636.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="427.0" y="400.0" otu="otu6"/>
+   <node id="NT1.27" label="NT1.27" x="5.0" y="621.0" root="true"/>
+   <edge id="e.5" target="NT1.14" source="NT1.1"/>
+   <edge id="e.8" target="NT1.12" source="NT1.1"/>
+   <edge id="e.12" source="NT1.2" target="NT1.8"/>
+   <edge id="e.13" source="NT1.2" target="NT1.9"/>
+   <edge id="e.24" source="NT1.27" target="NT1.1"/>
+   <edge id="e.25" source="NT1.27" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

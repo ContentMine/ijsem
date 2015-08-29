@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">E. psidii LMG 70347 (Z96085)</otu>
+  <otu id="otu3">E. mallotivora DSM 4565T (AJ233414)</otu>
+  <otu id="otu4">E. papayae CFBP 5189T (AY131237)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Pantoea" cmphy:species="agglomerans" cmphy:strain="DSM 3493T" cmphy:id="AJZ33423" editRecord="[2__Z]">Pantoea agglomerans DSM 3493T (AJ233423)</otu>
+  <otu id="otu6">E. tasmaniensis Et1I99"' (AM055716)</otu>
+  <otu id="otu7">E. amylovora ATCC 15580T (U80195)</otu>
+  <otu id="otu8">E. billingiae Eb661T (Y13249)</otu>
+  <otu id="otu9">E. pyrifoliae Ep1l96 (AJO09930)</otu>
+  <otu id="otu10">E. toletana CFBP 6631T (AF130910)</otu>
+  <otu id="otu11">E. persicina ATCC 35998T (U80205)</otu>
+  <otu id="otu12">E. rhapontici DSM 4484T (AJ233417)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="319.0" otu="otu1" root="true"/>
+   <node id="NT1.13" label="NT1.13" x="530.0" y="241.0" otu="otu5"/>
+   <edge id="e.15" target="NT1.13" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

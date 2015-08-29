@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="K12" cmphy:id="E05133" editRecord="[]">Escherichia coli K12 (E05133)</otu>
+  <otu id="otu3">Silanimonas Ienta 25-47 (AY557615)</otu>
+  <otu id="otu4">Strain GPTSA 207 (AY544768)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone NB-03" cmphy:id="ABI17707" editRecord="[1__I]">Uncultured bacterium clone NB-03 (AB117707)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Frateuria" cmphy:species="aurantia" cmphy:strain="LMG 15587" cmphy:id="AJO10481" editRecord="[0__O]">Frateuria aurantia LMG 15587 (AJ010481)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Lysobacter" cmphy:species="enzymogenes" cmphy:strain="DSM 20437" cmphy:id="AJZ98291" editRecord="[2__Z]">Lysobacter enzymogenes DSM 20437 (AJ298291)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Thermomonas" cmphy:species="fusca" cmphy:strain="LMG 21737T" cmphy:id="AJS19986" editRecord="[5__S]">Thermomonas fusca LMG 21737T (AJ519986)</otu>
+  <otu id="otu9">RhodanobacterIindaniclasticus LMG 18385T (AF039167)</otu>
+  <otu id="otu10">Fulvimonas soli LMG 19981 T (AJ311653)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Luteimonas" cmphy:species="mephitis" cmphy:strain="B1953l27.1T" cmphy:id="AJO12228" editRecord="[0__O]">Luteimonas mephitis B1953l27.1T (AJ012228)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Thermomonas" cmphy:species="brevis" cmphy:strain="LMG 217467" cmphy:id="AJS19989" editRecord="[5__S]">Thermomonas brevis LMG 217467 (AJ519989)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Thermomonas" cmphy:species="haemolytica" cmphy:strain="A50-7-37" cmphy:id="AJB00185" editRecord="[3__B]">Thermomonas haemolytica A50-7-37 (AJ300185)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Thermomonas" cmphy:species="hydrothermalis" cmphy:strain="SGM-67" cmphy:id="AFS42054" editRecord="[5__S]">Thermomonas hydrothermalis SGM-67 (AF542054)</otu>
+  <otu id="otu15" cmphy:genus="Stenotrophomonas" cmphy:species="maltophilia" cmphy:strain="LMG 958T" cmphy:id="X95923" editRecord="[]">Stenotrophomonas maltophilia LMG 958T (X95923)</otu>
+  <otu id="otu16" cmphy:genus="Pseudoxanthomonas" cmphy:species="taiwanensis" cmphy:strain="CB-2267" cmphy:id="AF427039" editRecord="[]">Pseudoxanthomonas taiwanensis CB-2267 (AF427039)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Pseudoxanthomonas" cmphy:species="broegbernensis" cmphy:strain="B1616l1T" cmphy:id="AJO12231" editRecord="[0__O]">Pseudoxanthomonas broegbernensis B1616l1T (AJ012231)</otu>
+  <otu id="otu18" cmphy:genus="Xanthomonas" cmphy:species="axonopodis" cmphy:strain="LMG 5387" cmphy:id="X95919" editRecord="[]">Xanthomonas axonopodis LMG 5387 (X95919)</otu>
+  <otu id="otu19" cmphy:genus="Xanthomonas" cmphy:species="campestris" cmphy:strain="LMG 5687" cmphy:id="X95917" editRecord="[]">Xanthomonas campestris LMG 5687 (X95917)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="544.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="5.0" y="544.0"/>
+   <node id="NT1.3" label="NT1.3" x="31.0" y="666.0"/>
+   <node id="NT1.5" label="NT1.5" x="56.0" y="813.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="90.0" y="312.0"/>
+   <node id="NT1.10" label="NT1.10" x="158.0" y="240.0"/>
+   <node id="NT1.11" label="NT1.11" x="158.0" y="381.0"/>
+   <node id="NT1.14" label="NT1.14" x="159.0" y="577.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="159.0" y="766.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="187.0" y="185.0"/>
+   <node id="NT1.17" label="NT1.17" x="209.0" y="423.0"/>
+   <node id="NT1.18" label="NT1.18" x="210.0" y="293.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="210.0" y="341.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="260.0" y="103.0"/>
+   <node id="NT1.23" label="NT1.23" x="260.0" y="451.0"/>
+   <node id="NT1.24" label="NT1.24" x="261.0" y="246.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="270.0" y="388.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="312.0" y="435.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="312.0" y="71.0"/>
+   <node id="NT1.28" label="NT1.28" x="312.0" y="174.0"/>
+   <node id="NT1.29" label="NT1.29" x="313.0" y="482.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="348.0" y="34.0"/>
+   <node id="NT1.31" label="NT1.31" x="364.0" y="104.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="364.0" y="199.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="364.0" y="152.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="415.0" y="11.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="415.0" y="57.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.27" target="NT1.31"/>
+   <edge id="e.1" source="NT1.28" target="NT1.33"/>
+   <edge id="e.2" source="NT1.10" target="NT1.18"/>
+   <edge id="e.3" source="NT1.11" target="NT1.19"/>
+   <edge id="e.4" source="NT1.17" target="NT1.25"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.3" target="NT1.5"/>
+   <edge id="e.9" target="NT1.14" source="NT1.3"/>
+   <edge id="e.11" source="NT1.27" target="NT1.30"/>
+   <edge id="e.12" source="NT1.22" target="NT1.27"/>
+   <edge id="e.13" source="NT1.16" target="NT1.22"/>
+   <edge id="e.14" source="NT1.22" target="NT1.28"/>
+   <edge id="e.15" source="NT1.10" target="NT1.16"/>
+   <edge id="e.16" source="NT1.7" target="NT1.10"/>
+   <edge id="e.17" source="NT1.7" target="NT1.11"/>
+   <edge id="e.18" target="NT1.7" source="NT1.2"/>
+   <edge id="e.19" source="NT1.11" target="NT1.17"/>
+   <edge id="e.21" source="NT1.17" target="NT1.23"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.26" target="NT1.15" source="NT1.3"/>
+   <edge id="e.28" source="NT1.16" target="NT1.24"/>
+   <edge id="e.29" source="NT1.23" target="NT1.26"/>
+   <edge id="e.30" source="NT1.23" target="NT1.29"/>
+   <edge id="e.31" source="NT1.28" target="NT1.32"/>
+   <edge id="e.32" source="NT1.30" target="NT1.35"/>
+   <edge id="e.33" source="NT1.30" target="NT1.34"/>
+  </tree>
+ </trees>
+</nexml>

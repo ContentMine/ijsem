@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Lactococcus lactis subsp. cremoris LMG 68977 (AB100802)</otu>
+  <otu id="otu2"> Lactococcus lactis</otu>
+  <otu id="otu3">Lactococcus lactis subsp. lactis JCM 5805T (AB100803)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Lactococcus raffinolactis JCM</otu>
+  <otu id="otu6"> Lactococcus plantarum JCM</otu>
+  <otu id="otu7">Lactococcus garvieae JCM</otu>
+  <otu id="otu8">Lactococcus chungangensis JCM 1 71 OOT (EF694028)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Lactococcus" cmphy:species="fujiensis" cmphy:strain="NJ 3177" cmphy:id="AB485959" editRecord="[]">Lactococcus fujiensis NJ 3177 (AB485959)</otu>
+  <otu id="otu12">Bacillus</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.21" label="NT1.21" x="491.0" y="75.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="6.0" y="270.0" root="true"/>
+   <edge id="e.2" target="NT1.21" source="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

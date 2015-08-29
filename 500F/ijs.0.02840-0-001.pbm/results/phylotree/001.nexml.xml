@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Rhizobium" cmphy:species="huautlense" cmphy:strain="UDSA 4900T" cmphy:id="AFO25852" editRecord="[0__O]">Rhizobium huautlense UDSA 4900T (AF025852)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Agrobacterium" cmphy:species="tumefaciens" cmphy:strain="LMG 196" cmphy:id="X67223" editRecord="[]"> Agrobacterium tumefaciens LMG 196 (X67223)</otu>
+  <otu id="otu6" cmphy:genus="Rhizobium" cmphy:species="galegae" cmphy:strain="IAM 13631" cmphy:id="D12793" editRecord="[]">Rhizobium galegae IAM 13631 (D12793)</otu>
+  <otu id="otu7" cmphy:genus="Agrobacterium" cmphy:species="rubi" cmphy:strain="LMG 156T" cmphy:id="X67228" editRecord="[]">Agrobacterium rubi LMG 156T (X67228)</otu>
+  <otu id="otu8" cmphy:genus="Agrobacterium" cmphy:species="larrymaorei" cmphy:strain="3-10" cmphy:id="Z30542" editRecord="[]">Agrobacterium larrymaorei 3-10 (Z30542)</otu>
+  <otu id="otu9">A grobacterium vitis LMG 8750T (X67225)</otu>
+  <otu id="otu10">A llorhizobium undicola LMG 1 1 875T (V1 7047)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="412.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="208.0" y="254.0"/>
+   <node id="NT1.6" label="NT1.6" x="365.0" y="332.0"/>
+   <node id="NT1.8" x="412.0" y="113.0" label="100"/>
+   <node id="NT1.9" label="NT1.9" x="444.0" y="81.0"/>
+   <node id="NT1.11" label="NT1.11" x="508.0" y="301.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="539.0" y="65.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="539.0" y="348.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="586.0" y="113.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="586.0" y="160.0" otu="otu8"/>
+   <edge id="e.1" target="NT1.13" source="NT1.9"/>
+   <edge id="e.2" source="NT1.9" target="NT1.15"/>
+   <edge id="e.3" source="NT1.8" target="NT1.16"/>
+   <edge id="e.8" source="NT1.6" target="NT1.11"/>
+   <edge id="e.10" source="NT1.8" target="NT1.9"/>
+   <edge id="e.11" target="NT1.8" source="NT1.4"/>
+   <edge id="e.14" target="NT1.4" source="NT1.1"/>
+   <edge id="e.15" source="NT1.4" target="NT1.6"/>
+   <edge id="e.16" source="NT1.6" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

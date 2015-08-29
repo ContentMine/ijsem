@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Yeosuana aromativorans JCM 1 2862T (AY682382)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Salegentibacter" cmphy:species="catena" cmphy:strain="HY1T" cmphy:id="DQS40642" editRecord="[5__S]">Salegentibacter catena HY1T (DQ540642)</otu>
+  <otu id="otu4">Gaetbulibacter marinusIMCC1914T(EF108219)</otu>
+  <otu id="otu5">Ulvibacter antarcticus IMCC31O1T(EF554364)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Gilvibacter" cmphy:species="sediminis" cmphy:strain="Mok-1-36T" cmphy:id="ABZ55368" editRecord="[2__Z]">Gilvibacter sediminis Mok-1-36T (AB255368)</otu>
+  <otu id="otu7">Flaviramulus basaltis H35T (D0361 033)</otu>
+  <otu id="otu8">Algibacter lectus DSM 15365T(AY187689)</otu>
+  <otu id="otu9">Gaetbulibacter saemankumensis KCTC 1 2379T (AY883937)</otu>
+  <otu id="otu10">Bizionia paragorgiae KCTC 1 23O4T (AY651070)</otu>
+  <otu id="otu11">Krokinobacter eikastus CIP 108743T(AB198088)</otu>
+  <otu id="otu12">VVinogradskyella thalassocola KCTC 12221 T(AY521 223)</otu>
+  <otu id="otu13" cmphy:genus="Aquimarina" cmphy:species="muelleri" cmphy:strain="KMM 602OT" cmphy:id="AY608406" editRecord="[]">Aquimarina muelleri KMM 602OT (AY608406)</otu>
+  <otu id="otu14" cmphy:genus="Lacinutrix" cmphy:species="copepodicola" cmphy:strain="DJ3T" cmphy:id="AY694001" editRecord="[]">Lacinutrix copepodicola DJ3T (AY694001)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 3553T" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 3553T (AY228461)</otu>
+  <otu id="otu16" cmphy:genus="Mariniflexile" cmphy:species="fucanivorans" cmphy:strain="SW5T" cmphy:id="AJ628046" editRecord="[]">Mariniflexile fucanivorans SW5T (AJ628046)</otu>
+  <otu id="otu17">Mariniflexile gromovii KMM 6O38T (D031 2294)</otu>
+  <otu id="otu18" cmphy:genus="Psychroserpens" cmphy:species="burtonensis" cmphy:strain="ATCC 700359T" cmphy:id="U62913" editRecord="[]">Psychroserpens burtonensis ATCC 700359T (U62913)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Tamlana" cmphy:species="crocina" cmphy:strain="HST1-437" cmphy:id="AMZ86230" editRecord="[2__Z]">Tamlana crocina HST1-437 (AM286230)</otu>
+  <otu id="otu20" cmphy:genus="Jejuia" cmphy:species="pallidilutea" cmphy:strain="EM39T" cmphy:id="EU443204" editRecord="[]">Jejuia pallidilutea EM39T (EU443204)</otu>
+  <otu id="otu21">Polaribacter dokdonensis DSM 1 72O4T (DQ004686)</otu>
+  <otu id="otu22">Gelidibacter algens ATCC 7OO364T (U6291 4)</otu>
+  <otu id="otu23">Subsaximicrobium Wynn williamsii GaiF7T (AY693997)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="356.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="41.0" y="356.0"/>
+   <node id="NT1.3" label="NT1.3" x="56.0" y="507.0"/>
+   <node id="NT1.5" label="NT1.5" x="87.0" y="266.0"/>
+   <node id="NT1.7" label="NT1.7" x="121.0" y="337.0"/>
+   <node id="NT1.9" label="NT1.9" x="146.0" y="519.0"/>
+   <node id="NT1.12" label="NT1.12" x="162.0" y="286.0"/>
+   <node id="NT1.13" label="NT1.13" x="163.0" y="768.0"/>
+   <node id="NT1.19" label="NT1.19" x="194.0" y="901.0"/>
+   <node id="NT1.23" label="NT1.23" x="264.0" y="75.0" otu="otu3"/>
+   <node id="NT1.26" label="NT1.26" x="281.0" y="121.0" otu="otu6"/>
+   <node id="NT1.33" label="NT1.33" x="315.0" y="973.0" otu="otu13"/>
+   <node id="NT1.35" label="NT1.35" x="326.0" y="264.0" otu="otu14"/>
+   <node id="NT1.36" label="NT1.36" x="338.0" y="453.0" otu="otu15"/>
+   <node id="NT1.37" label="NT1.37" x="342.0" y="641.0" otu="otu16"/>
+   <node id="NT1.39" label="NT1.39" x="359.0" y="312.0" otu="otu18"/>
+   <node id="NT1.40" label="NT1.40" x="380.0" y="927.0" otu="otu19"/>
+   <node id="NT1.41" label="NT1.41" x="400.0" y="877.0" otu="otu20"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" target="NT1.33" source="NT1.3"/>
+   <edge id="e.3" target="NT1.26" source="NT1.5"/>
+   <edge id="e.5" source="NT1.12" target="NT1.35"/>
+   <edge id="e.11" source="NT1.19" target="NT1.40"/>
+   <edge id="e.12" source="NT1.19" target="NT1.41"/>
+   <edge id="e.13" source="NT1.2" target="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.5"/>
+   <edge id="e.17" source="NT1.5" target="NT1.7"/>
+   <edge id="e.19" source="NT1.7" target="NT1.9"/>
+   <edge id="e.23" target="NT1.12" source="NT1.7"/>
+   <edge id="e.25" target="NT1.13" source="NT1.9"/>
+   <edge id="e.29" target="NT1.19" source="NT1.13"/>
+   <edge id="e.33" source="NT1.2" target="NT1.23"/>
+   <edge id="e.36" target="NT1.36" source="NT1.9"/>
+   <edge id="e.39" source="NT1.12" target="NT1.39"/>
+   <edge id="e.42" target="NT1.37" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">B. pycnus CIP 1o7434T (AF169531)</otu>
+  <otu id="otu2">B. neidei CIP 1O7432T (AF169520)</otu>
+  <otu id="otu3">B. thuringiensis strain 97-27 (AE017355)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="281.0" y="387.0"/>
+   <node id="NT1.2" label="NT1.2" x="600.0" y="354.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="674.0" y="419.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="674.0" y="482.0" otu="otu3"/>
+   <edge source="NT1.2" target="NT1.1" id="e.0"/>
+   <edge source="NT1.3" target="NT1.1" id="e.1"/>
+   <edge source="NT1.4" target="NT1.1" id="e.2"/>
+  </tree>
+ </trees>
+</nexml>

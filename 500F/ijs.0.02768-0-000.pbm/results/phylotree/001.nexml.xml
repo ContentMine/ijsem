@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="fulva" cmphy:strain="NRIC 01807" cmphy:id="ABO60136" editRecord="[0__O]">Pseudomonas fulva NRIC 01807 (AB060136)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Marinospirillum" cmphy:species="alkaliphilum" cmphy:strain="Z47" cmphy:id="AFZ75713" editRecord="[2__Z]">Marinospirillum alkaliphilum Z47 (AF275713)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="LMG 12427" cmphy:id="Z76651" editRecord="[2__Z]">Pseudomonas aeruginosa LMG 12427 (276651)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Oceanospirillum" cmphy:species="beijerinckii" cmphy:strain="NBRC 154457" cmphy:id="ABO06760" editRecord="[0__O]">Oceanospirillum beijerinckii NBRC 154457 (AB006760)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Terasakiella" cmphy:species="pusilla" cmphy:strain="NBRC 136137" cmphy:id="ABO06768" editRecord="[O__0]">Terasakiella pusilla NBRC 136137 (ABOO6768)</otu>
+  <otu id="otu6" cmphy:edit="[O__0]" cmphy:genus="Oceanospirillum" cmphy:species="multiglobuliferum" cmphy:strain="NBRC 136147" cmphy:id="ABO06764" editRecord="[O__0]">Oceanospirillum multiglobuliferum NBRC 136147 (ABOO6764)</otu>
+  <otu id="otu7">Oceanospirillum man's ATCC 275097 (AB006771)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Marinospirillum" cmphy:species="minutulum" cmphy:strain="ATCC 191937" cmphy:id="ABO06769" editRecord="[0__O]">Marinospirillum minutulum ATCC 191937 (AB006769)</otu>
+  <otu id="otu9" cmphy:genus="Halomonas" cmphy:species="salina" cmphy:strain="ATCC 495097" cmphy:id="X87217" editRecord="[]">Halomonas salina ATCC 495097 (X87217)</otu>
+  <otu id="otu10">Oceanospirillum Iinum ATCC 1 13367 (M22365)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Marinospirillum" cmphy:species="insulare" cmphy:strain="K7" cmphy:id="ABO98510" editRecord="[0__O]">Marinospirillum insulare K7 (AB098510)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Marinospirillum" cmphy:species="megaterium" cmphy:strain="JCM 101297" cmphy:id="ABO06770" editRecord="[0__O]">Marinospirillum megaterium JCM 101297 (AB006770)</otu>
+  <otu id="otu13">Pseudospirillumjaponicum ATCC 191917 (AB006766)</otu>
+  <otu id="otu14" cmphy:genus="Halomonas" cmphy:species="elongata" cmphy:strain="ATCC 331737" cmphy:id="X67023" editRecord="[]">Halomonas elongata ATCC 331737 (X67023)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="202.0" y="453.0"/>
+   <node id="NT1.2" label="NT1.2" x="219.0" y="257.0"/>
+   <node id="NT1.3" label="NT1.3" x="244.0" y="136.0"/>
+   <node id="NT1.4" label="NT1.4" x="259.0" y="402.0"/>
+   <node id="NT1.5" label="NT1.5" x="315.0" y="644.0"/>
+   <node id="NT1.6" label="NT1.6" x="334.0" y="461.0"/>
+   <node id="NT1.7" label="NT1.7" x="356.0" y="176.0"/>
+   <node id="NT1.8" label="NT1.8" x="381.0" y="671.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="394.0" y="506.0"/>
+   <node id="NT1.10" label="NT1.10" x="402.0" y="241.0"/>
+   <node id="NT1.11" label="NT1.11" x="406.0" y="341.0"/>
+   <node id="NT1.12" label="NT1.12" x="413.0" y="418.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="424.0" y="619.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="429.0" y="165.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="432.0" y="15.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="433.0" y="543.0"/>
+   <node id="NT1.17" label="NT1.17" x="439.0" y="116.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="440.0" y="216.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="449.0" y="468.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="452.0" y="317.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="452.0" y="267.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="458.0" y="518.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="464.0" y="569.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="490.0" y="64.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="502.0" y="367.0" otu="otu14"/>
+   <edge source="NT1.13" target="NT1.5" id="e.0"/>
+   <edge source="NT1.12" target="NT1.6" id="e.1"/>
+   <edge source="NT1.24" target="NT1.3" id="e.2"/>
+   <edge source="NT1.14" target="NT1.7" id="e.3"/>
+   <edge source="NT1.18" target="NT1.10" id="e.4"/>
+   <edge source="NT1.25" target="NT1.11" id="e.5"/>
+   <edge source="NT1.22" target="NT1.16" id="e.6"/>
+   <edge source="NT1.1" target="NT1.5" id="e.7"/>
+   <edge source="NT1.1" target="NT1.2" id="e.8"/>
+   <edge source="NT1.2" target="NT1.4" id="e.9"/>
+   <edge source="NT1.2" target="NT1.3" id="e.10"/>
+   <edge source="NT1.3" target="NT1.7" id="e.11"/>
+   <edge source="NT1.4" target="NT1.6" id="e.12"/>
+   <edge source="NT1.4" target="NT1.11" id="e.13"/>
+   <edge source="NT1.7" target="NT1.10" id="e.14"/>
+   <edge source="NT1.6" target="NT1.9" id="e.15"/>
+   <edge source="NT1.9" target="NT1.16" id="e.16"/>
+   <edge source="NT1.15" target="NT1.1" id="e.17"/>
+   <edge source="NT1.8" target="NT1.5" id="e.18"/>
+   <edge source="NT1.17" target="NT1.7" id="e.19"/>
+   <edge source="NT1.21" target="NT1.10" id="e.20"/>
+   <edge source="NT1.20" target="NT1.11" id="e.21"/>
+   <edge source="NT1.19" target="NT1.9" id="e.22"/>
+   <edge source="NT1.23" target="NT1.16" id="e.23"/>
+  </tree>
+ </trees>
+</nexml>

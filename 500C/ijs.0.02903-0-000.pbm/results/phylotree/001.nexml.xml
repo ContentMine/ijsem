@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Syntrophomonas" cmphy:species="curvata" cmphy:strain="GB8-1T" cmphy:id="AYZ90767" editRecord="[2__Z]">Syntrophomonas curvata GB8-1T (AY290767)</otu>
+  <otu id="otu3" cmphy:genus="Syntrophomonas" cmphy:species="sapovorans" cmphy:strain="DSM 3441T" cmphy:id="AFO22249" editRecord="[]">Syntrophomonas sapovorans DSM 3441T (AFO22249)</otu>
+  <otu id="otu4" cmphy:genus="Syntrophospora" cmphy:species="bniantii" cmphy:strain="DSM 3014T" cmphy:id="M26491" editRecord="[]">Syntrophospora bniantii DSM 3014T (M26491)</otu>
+  <otu id="otu5">Thermosyntropha Iipolytica DSM 11O03T (X99980)</otu>
+  <otu id="otu6">Syntrophothermus Iipocalidus DSM 126807 (AB021305)</otu>
+  <otu id="otu7" cmphy:genus="Clostridium" cmphy:species="butyricum" cmphy:strain="DSM 2478" cmphy:id="X68176" editRecord="[]">Clostridium butyricum DSM 2478 (X68176)</otu>
+  <otu id="otu8" cmphy:genus="Syntrophomonas" cmphy:species="wolfei" cmphy:strain="DSM 22457" cmphy:id="M26492" editRecord="[]">Syntrophomonas wolfei DSM 22457 (M26492)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Pelospora" cmphy:species="glutarica" cmphy:strain="DSM 6652T" cmphy:id="AJZ51214" editRecord="[2__Z]">Pelospora glutarica DSM 6652T (AJ251214)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="281.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="42.0" y="321.0"/>
+   <node id="NT1.5" label="NT1.5" x="141.0" y="304.0"/>
+   <node id="NT1.6" label="NT1.6" x="152.0" y="239.0"/>
+   <node id="NT1.7" label="NT1.7" x="162.0" y="351.0"/>
+   <node id="NT1.8" label="NT1.8" x="202.0" y="335.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="210.0" y="399.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="215.0" y="208.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="222.0" y="462.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="235.0" y="272.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="237.0" y="145.0" otu="otu9"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.7" target="NT1.9"/>
+   <edge id="e.5" target="NT1.5" source="NT1.2"/>
+   <edge id="e.6" source="NT1.5" target="NT1.6"/>
+   <edge id="e.7" source="NT1.5" target="NT1.7"/>
+   <edge id="e.8" source="NT1.2" target="NT1.13"/>
+   <edge id="e.10" source="NT1.7" target="NT1.8"/>
+   <edge id="e.11" source="NT1.6" target="NT1.14"/>
+   <edge id="e.12" source="NT1.6" target="NT1.15"/>
+   <edge id="e.13" source="NT1.6" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

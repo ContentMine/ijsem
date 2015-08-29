@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="rubidaea" cmphy:strain="DSM 44807" cmphy:id="AJZ33436" editRecord="[2__Z]">S. rubidaea DSM 44807 (AJ233436)</otu>
+  <otu id="otu3">S. marcescens subsp. sakuensis KREDT(ABO61685)</otu>
+  <otu id="otu4">S. marcescens subsp. marcescens DSM 3O121T(AJ233431)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="odorifera" cmphy:strain="DSM 4582T" cmphy:id="AJZ33432" editRecord="[2__Z]">S. odorifera DSM 4582T (AJ233432)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="ficaria" cmphy:strain="DSM 45697" cmphy:id="AJZ33428" editRecord="[2__Z]">S. ficaria DSM 45697 (AJ233428)</otu>
+  <otu id="otu7">S entomophfla DSM 123587 (AJ233427)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="S." cmphy:species="ureilytica" cmphy:strain="NiVa 51T" cmphy:id="AJB54062" editRecord="[8__B]">S. ureilytica NiVa 51T (AJ854062)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="plymuthica" cmphy:strain="DSM 45407" cmphy:id="AJZ33433" editRecord="[2__Z]">S. plymuthica DSM 45407 (AJ233433)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="quinivorans" cmphy:strain="DSM 4597T" cmphy:id="AJZ33435" editRecord="[2__Z]">S. quinivorans DSM 4597T (AJ233435)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="proteamaculans" cmphy:strain="DSM 4543T" cmphy:id="AJZ38434" editRecord="[2__Z]">S. proteamaculans DSM 4543T (AJ238434)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="grimesii" cmphy:strain="DSM 3OO53T" cmphy:id="AJZ33430" editRecord="[2__Z]">S. grimesii DSM 3OO53T (AJ233430)</otu>
+  <otu id="otu13">S. Iiquefaclens CIP 103238T (AJ306725)</otu>
+  <otu id="otu14" cmphy:genus="S." cmphy:species="glossinae" cmphy:strain="C1 T" cmphy:id="FJ790328" editRecord="[]">S. glossinae C1 T (FJ790328)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="fonticola" cmphy:strain="DSM 45767" cmphy:id="AJZ33429" editRecord="[2__Z]">S. fonticola DSM 45767 (AJ233429)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="231.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="153.0" y="444.0"/>
+   <node id="NT1.3" label="NT1.3" x="154.0" y="508.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="217.0" y="381.0"/>
+   <node id="NT1.9" label="NT1.9" x="266.0" y="333.0"/>
+   <node id="NT1.10" label="NT1.10" x="291.0" y="367.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="304.0" y="261.0"/>
+   <node id="NT1.13" label="NT1.13" x="310.0" y="297.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="333.0" y="473.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="340.0" y="224.0"/>
+   <node id="NT1.17" label="NT1.17" x="342.0" y="263.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="380.0" y="185.0"/>
+   <node id="NT1.19" label="NT1.19" x="381.0" y="226.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="394.0" y="142.0"/>
+   <node id="NT1.21" label="NT1.21" x="396.0" y="192.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="401.0" y="91.0"/>
+   <node id="NT1.23" label="NT1.23" x="403.0" y="50.0" otu="otu12"/>
+   <node id="NT1.26" x="467.0" y="104.0" label="99"/>
+   <node id="NT1.27" label="NT1.27" x="470.0" y="120.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="499.0" y="88.0" otu="otu15"/>
+   <edge id="e.0" source="NT1.20" target="NT1.21"/>
+   <edge id="e.1" source="NT1.18" target="NT1.19"/>
+   <edge id="e.2" source="NT1.16" target="NT1.17"/>
+   <edge id="e.5" source="NT1.2" target="NT1.3"/>
+   <edge id="e.6" target="NT1.15" source="NT1.4"/>
+   <edge id="e.7" source="NT1.20" target="NT1.22"/>
+   <edge id="e.9" target="NT1.26" source="NT1.22"/>
+   <edge id="e.10" source="NT1.18" target="NT1.20"/>
+   <edge id="e.11" source="NT1.16" target="NT1.18"/>
+   <edge id="e.12" source="NT1.26" target="NT1.27"/>
+   <edge id="e.13" source="NT1.12" target="NT1.16"/>
+   <edge id="e.14" target="NT1.12" source="NT1.9"/>
+   <edge id="e.16" source="NT1.4" target="NT1.9"/>
+   <edge id="e.17" source="NT1.2" target="NT1.4"/>
+   <edge id="e.20" source="NT1.1" target="NT1.2"/>
+   <edge id="e.21" source="NT1.9" target="NT1.10"/>
+   <edge id="e.22" source="NT1.12" target="NT1.13"/>
+   <edge id="e.24" source="NT1.22" target="NT1.23"/>
+   <edge id="e.26" source="NT1.26" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

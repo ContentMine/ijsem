@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Metschnikowia gruessii NRRL Y-1 78097 (U45737)</otu>
+  <otu id="otu5">Metschnikowia reukaufii NRRL Y-71 1 2T (U44825)</otu>
+  <otu id="otu6" cmphy:genus="Metschnikowia" cmphy:species="bicuspidata" cmphy:strain="NRRL Y-B4993T" cmphy:id="U44822" editRecord="[]">Metschnikowia bicuspidata NRRL Y-B4993T (U44822)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Metschnikowia" cmphy:species="orientalis" cmphy:strain="UWOPS 99-733.2T" cmphy:id="AFB13363" editRecord="[3__B]">Metschnikowia orientalis UWOPS 99-733.2T (AF313363)</otu>
+  <otu id="otu8">Metschnikowia agaves NRRL Y-1 7915T (U84243)</otu>
+  <otu id="otu9">Metschnikowia hawaiiensis UWOPS 87-2167.2T(DQ641239)</otu>
+  <otu id="otu10">Metschnikowia pulcherrima NRRL Y-71 1 1T (U45738)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Metschnikowia" cmphy:species="arizonensis" cmphy:strain="UWOPS 99-103.1.1T" cmphy:id="AFB13348" editRecord="[3__B]">Metschnikowia arizonensis UWOPS 99-103.1.1T (AF313348)</otu>
+  <otu id="otu12">Schizosaccharomyces pombe NRRL Y-1 2796T (AYO481 71)</otu>
+  <otu id="otu13">Metschnikowia hibisci UWOPS 95-797.2T(AF034128)</otu>
+  <otu id="otu14">Metschnikowia drosophilae UWOPS 83-1 135.3T (AF279303)</otu>
+  <otu id="otu15">Candida kipukae UWOPS 00-699.2T(AF514294)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Metschnikowia" cmphy:species="aberdeeniae" cmphy:strain="SUB 05-213.1T" cmphy:id="DQZ66429" editRecord="[2__Z]">Metschnikowia aberdeeniae SUB 05-213.1T (DQ266429)</otu>
+  <otu id="otu17" cmphy:genus="Metschnikowia" cmphy:species="lunata" cmphy:strain="NRRL Y-7131T" cmphy:id="U45733" editRecord="[]">Metschnikowia lunata NRRL Y-7131T (U45733)</otu>
+  <otu id="otu18">Candida Sp. MAL-2003 (AY225503)</otu>
+  <otu id="otu19" cmphy:genus="Candida" cmphy:species="golubevii" cmphy:strain="BCC 83327" cmphy:id="DQ404455" editRecord="[]">Candida golubevii BCC 83327 (DQ404455)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="129.0" y="503.0"/>
+   <node id="NT1.3" label="NT1.3" x="179.0" y="316.0"/>
+   <node id="NT1.4" label="NT1.4" x="181.0" y="811.0"/>
+   <node id="NT1.9" label="NT1.9" x="225.0" y="125.0"/>
+   <node id="NT1.21" label="NT1.21" x="394.0" y="661.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="401.0" y="918.0" otu="otu7"/>
+   <node id="NT1.25" label="NT1.25" x="438.0" y="423.0"/>
+   <node id="NT1.27" label="NT1.27" x="473.0" y="154.0" otu="otu11"/>
+   <node id="NT1.33" label="NT1.33" x="528.0" y="92.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="549.0" y="409.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="574.0" y="473.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="53.0" y="551.0" root="true"/>
+   <edge id="e.1" target="NT1.33" source="NT1.9"/>
+   <edge id="e.2" target="NT1.27" source="NT1.9"/>
+   <edge id="e.6" target="NT1.22" source="NT1.4"/>
+   <edge id="e.11" target="NT1.9" source="NT1.3"/>
+   <edge id="e.14" source="NT1.1" target="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.25"/>
+   <edge id="e.18" target="NT1.4" source="NT1.1"/>
+   <edge id="e.25" source="NT1.37" target="NT1.1"/>
+   <edge id="e.33" target="NT1.21" source="NT1.4"/>
+   <edge id="e.34" source="NT1.25" target="NT1.36"/>
+   <edge id="e.35" target="NT1.34" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

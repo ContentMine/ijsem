@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[O__0, B__8]" cmphy:genus="Arenibacter" cmphy:species="troitsensis" cmphy:strain="KMM 36747" cmphy:id="ABO80771" editRecord="[O__0, B__8]">Arenibacter troitsensis KMM 36747 (ABOBO771)</otu>
+  <otu id="otu7">Maribacter orientalis KMM 3947T(AY271 624)</otu>
+  <otu id="otu8">Maribacter sedimenticola KMM 39O3T(AY271623)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Zobellia uliginosa ATCC 14397T (M62 799)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Arenibacter" cmphy:species="latericius" cmphy:strain="KMM 426T" cmphy:id="AFO52742" editRecord="[0__O]">Arenibacter latericius KMM 426T (AF052742)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Zobellfa" cmphy:species="galactanivorans" cmphy:strain="DSM 12802T" cmphy:id="AFZ08293" editRecord="[2__Z]">Zobellfa galactanivorans DSM 12802T (AF208293)</otu>
+  <otu id="otu13"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="15.0" y="286.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="82.0" y="94.0"/>
+   <node id="NT1.8" label="NT1.8" x="195.0" y="36.0"/>
+   <node id="NT1.13" label="NT1.13" x="293.0" y="15.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="323.0" y="56.0" otu="otu11"/>
+   <node id="NT1.19" label="NT1.19" x="329.0" y="266.0" otu="otu12"/>
+   <edge id="e.1" source="NT1.8" target="NT1.13"/>
+   <edge id="e.2" source="NT1.8" target="NT1.18"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" target="NT1.19" source="NT1.2"/>
+   <edge id="e.13" source="NT1.2" target="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

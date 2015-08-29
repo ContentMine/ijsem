@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Ruegeria lacuscaerulensis ITI-1 157T (ACNX01000031)</otu>
+  <otu id="otu5" cmphy:genus="Ruegeria" cmphy:species="atlantica" cmphy:strain="IAM 14463T" cmphy:id="D88526" editRecord="[]">Ruegeria atlantica IAM 14463T (D88526)</otu>
+  <otu id="otu6" cmphy:edit="[O__0, O__0, O__0, S__5]" cmphy:genus="Ruegeria" cmphy:species="pomeroyi" cmphy:strain="DSS-ST" cmphy:id="CPO00051" editRecord="[O__0, O__0, O__0, S__5]">Ruegeria pomeroyi DSS-ST (CPOOOOS1)</otu>
+  <otu id="otu7" cmphy:genus="Ruegeria" cmphy:species="scottomollicae" cmphy:strain="LMG 24367T" cmphy:id="AM905330" editRecord="[]">Ruegeria scottomollicae LMG 24367T (AM905330)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Ruegeria" cmphy:species="mobilis" cmphy:strain="NBRC 1010307" cmphy:id="ABZ55401" editRecord="[2__Z]">Ruegeria mobilis NBRC 1010307 (AB255401)</otu>
+  <otu id="otu9">Strain ZH17T (FJ872535)</otu>
+  <otu id="otu10" cmphy:genus="Pseudoruegeria" cmphy:species="aquirnaris" cmphy:strain="SW-255T" cmphy:id="DQ675021" editRecord="[]">Pseudoruegeria aquirnaris SW-255T (DQ675021)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="11.0" y="139.0"/>
+   <node id="NT1.2" label="NT1.2" x="51.0" y="77.0"/>
+   <node id="NT1.3" label="NT1.3" x="119.0" y="36.0"/>
+   <node id="NT1.4" label="NT1.4" x="124.0" y="36.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="149.0" y="196.0"/>
+   <node id="NT1.6" label="NT1.6" x="151.0" y="198.0"/>
+   <node id="NT1.7" label="NT1.7" x="156.0" y="198.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="158.0" y="116.0"/>
+   <node id="NT1.9" label="NT1.9" x="164.0" y="115.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="256.0" y="16.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="273.0" y="56.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="290.0" y="218.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="323.0" y="97.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="327.0" y="137.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="464.0" y="177.0" otu="otu9"/>
+   <node id="NT1.16" label="NT1.16" x="464.0" y="258.0" otu="otu10"/>
+   <edge source="NT1.4" target="NT1.3" id="e.0"/>
+   <edge source="NT1.11" target="NT1.3" id="e.1"/>
+   <edge source="NT1.9" target="NT1.8" id="e.2"/>
+   <edge source="NT1.7" target="NT1.6" id="e.3"/>
+   <edge source="NT1.3" target="NT1.2" id="e.4"/>
+   <edge source="NT1.2" target="NT1.1" id="e.5"/>
+   <edge source="NT1.2" target="NT1.8" id="e.6"/>
+   <edge source="NT1.1" target="NT1.5" id="e.7"/>
+   <edge source="NT1.6" target="NT1.5" id="e.8"/>
+   <edge source="NT1.16" target="NT1.1" id="e.9"/>
+   <edge source="NT1.10" target="NT1.3" id="e.10"/>
+   <edge source="NT1.12" target="NT1.6" id="e.11"/>
+   <edge source="NT1.13" target="NT1.8" id="e.12"/>
+   <edge source="NT1.14" target="NT1.8" id="e.13"/>
+   <edge source="NT1.15" target="NT1.5" id="e.14"/>
+  </tree>
+ </trees>
+</nexml>

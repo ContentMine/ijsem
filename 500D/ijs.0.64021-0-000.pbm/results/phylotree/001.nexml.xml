@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Alloiococcus" cmphy:species="otitis" cmphy:strain="NCFB 2890T" cmphy:id="X59765" editRecord="[]">Alloiococcus otitis NCFB 2890T (X59765)</otu>
+  <otu id="otu2" cmphy:genus="Dolosigranulum" cmphy:species="pigrum" cmphy:strain="NCFB 29757" cmphy:id="X70907" editRecord="[]">Dolosigranulum pigrum NCFB 29757 (X70907)</otu>
+  <otu id="otu3"> L. coryniformis subsp. Iorguens CECT 41297 (AJ575741 </otu>
+  <otu id="otu4">L. parakefiri LMG 151337 (AY026750)</otu>
+  <otu id="otu5"> L. spfcheri LTH 5753T (AJ534844)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">L. bifermentans DSM 20003</otu>
+  <otu id="otu8">L. ferintoshensis R1847 (AF27531 1)</otu>
+  <otu id="otu9">L. diolivorans .JKD6T AF264701 )</otu>
+  <otu id="otu10">L. fomicalis TV 1018T (Y18654A</otu>
+  <otu id="otu11"> L. corymformts subs corynrformls DSM 20001T (M58813)</otu>
+  <otu id="otu12">L. kefiri LMG 9480T (AJ621553)</otu>
+  <otu id="otu13">Lactobacillus sp. YE07 (AF316586)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16">L. rennini CECT 5923 (AJ576008)</otu>
+  <otu id="otu17">L. hilgar ii DSM 20176 (M58821)</otu>
+  <otu id="otu18">L. psittaciCCUG 42378</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">L. kitasatonis JCM 1039T (AB107638)</otu>
+  <otu id="otu21">L. hamsteri D</otu>
+  <otu id="otu22">L. intestinalis DSM 6629T (AJ306299)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24">L. amylolyticus DSM 116647 (Y17361)</otu>
+  <otu id="otu25">L. ultunensis DSM 160477 (AY253660)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27">L. kalixensis DSM 16043T(AY253657)</otu>
+  <otu id="otu28">L. delbrueckii subsp. bulgaricus JCM 1O02T(ABO07908)</otu>
+  <otu id="otu29">L. kefir ranum CECT 5919T (AJ575742)</otu>
+  <otu id="otu30">L. aoidophilus ATCC 4356T (M58802)</otu>
+  <otu id="otu31"/>
+  <otu id="otu32">L. gallinarum ATCC 33199T(AJ242968)</otu>
+  <otu id="otu33">L. delbrueckii subs delbrueckii DSM 200747 SM58814)</otu>
+  <otu id="otu34"/>
+  <otu id="otu35">Ll brews ATCC 148697 (M58810)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="195.0" y="861.0"/>
+   <node id="NT1.10" label="NT1.10" x="588.0" y="837.0" otu="otu1"/>
+   <node id="NT1.15" label="NT1.15" x="615.0" y="874.0" otu="otu2"/>
+   <node id="NT1.69" label="NT1.69" x="8.0" y="470.0" root="true"/>
+   <edge id="e.24" source="NT1.2" target="NT1.10"/>
+   <edge id="e.25" source="NT1.2" target="NT1.15"/>
+   <edge id="e.58" source="NT1.69" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

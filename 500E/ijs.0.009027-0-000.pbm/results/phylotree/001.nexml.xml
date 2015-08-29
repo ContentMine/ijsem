@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Alkaliflexus" cmphy:species="imshenetskii" cmphy:strain="Z-70107" cmphy:id="AJ784993" editRecord="[]">Alkaliflexus imshenetskii Z-70107 (AJ784993)</otu>
+  <otu id="otu9">Cytophaga fermentans NCIMB 22187 (D1 2661)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Marinilabilia salmonicolor NCIMB 221 67 (D1 2672)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Marinifilum" cmphy:species="fragile" cmphy:strain="JC24697" cmphy:id="FJB94546" editRecord="[3__B]">Marinifilum fragile JC24697 (FJ394546)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Prolixibacter" cmphy:species="bellariivorans" cmphy:strain="F27" cmphy:id="AY918928" editRecord="[]">Prolixibacter bellariivorans F27 (AY918928)</otu>
+  <otu id="otu15">Zhouia amylolytfca HN-1717(DO423479)</otu>
+  <otu id="otu16" cmphy:genus="Anaerophaga" cmphy:species="thermohalophila" cmphy:strain="Fru227" cmphy:id="AJ418048" editRecord="[]">Anaerophaga thermohalophila Fru227 (AJ418048)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Actibacter sediminisJC21297 (EF670651)</otu>
+  <otu id="otu19" cmphy:genus="Rikenella" cmphy:species="microfusus" cmphy:strain="ATCC 297287" cmphy:id="L16498" editRecord="[]">Rikenella microfusus ATCC 297287 (L16498)</otu>
+  <otu id="otu20" cmphy:edit="[0__O]" cmphy:genus="Aequorivita" cmphy:species="antarctica" cmphy:strain="SW497" cmphy:id="AYO27802" editRecord="[0__O]">Aequorivita antarctica SW497 (AY027802)</otu>
+  <otu id="otu21" cmphy:genus="Paludibacter" cmphy:species="propionicigenes" cmphy:strain="WB47" cmphy:id="ABO78842" editRecord="[]">Paludibacter propionicigenes WB47 (ABO78842)</otu>
+  <otu id="otu22" cmphy:genus="Alistipes" cmphy:species="putredinis" cmphy:strain="ATCC 298007" cmphy:id="L16497" editRecord="[]">Alistipes putredinis ATCC 298007 (L16497)</otu>
+  <otu id="otu23">7Alistipes massiliensis7 3302398 (AY547271)</otu>
+  <otu id="otu24" cmphy:genus="Dysgonomonas" cmphy:species="gadei" cmphy:strain="1 1455897" cmphy:id="Y18580" editRecord="[]">Dysgonomonas gadei 1 1455897 (Y18580)</otu>
+  <otu id="otu25">Dysgonomonas capnocytophagoides LMG 1 15197 (U41355)</otu>
+  <otu id="otu26" cmphy:genus="Alistipes" cmphy:species="finegoldii" cmphy:strain="CIP 1079997" cmphy:id="AY643084" editRecord="[]">Alistipes finegoldii CIP 1079997 (AY643084)</otu>
+  <otu id="otu27" cmphy:edit="[3__B]" cmphy:genus="Dysgonomonas" cmphy:species="mossii" cmphy:strain="CCUG 434577" cmphy:id="AJB19867" editRecord="[3__B]">Dysgonomonas mossii CCUG 434577 (AJ319867)</otu>
+  <otu id="otu28" cmphy:genus="Bacteroides" cmphy:species="thetaiotaomicron" cmphy:strain="ATCC 291487" cmphy:id="M58763" editRecord="[]">Bacteroides thetaiotaomicron ATCC 291487 (M58763)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="265.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="64.0" y="506.0" label="66"/>
+   <node id="NT1.3" label="NT1.3" x="71.0" y="51.0"/>
+   <node id="NT1.4" label="NT1.4" x="78.0" y="707.0"/>
+   <node id="NT1.5" label="NT1.5" x="86.0" y="307.0"/>
+   <node id="NT1.6" label="NT1.6" x="90.0" y="634.0"/>
+   <node id="NT1.8" x="160.0" y="682.0" label="95"/>
+   <node id="NT1.11" x="228.0" y="416.0" label="100"/>
+   <node id="NT1.13" x="243.0" y="195.0" label="100"/>
+   <node id="NT1.19" x="341.0" y="235.0" label="100"/>
+   <node id="NT1.24" label="NT1.24" x="441.0" y="649.0" otu="otu8"/>
+   <node id="NT1.26" x="489.0" y="310.0" label="99"/>
+   <node id="NT1.29" x="521.0" y="455.0" label="100"/>
+   <node id="NT1.32" label="NT1.32" x="529.0" y="606.0" otu="otu12"/>
+   <node id="NT1.34" label="NT1.34" x="553.0" y="785.0" otu="otu14"/>
+   <node id="NT1.38" label="NT1.38" x="569.0" y="695.0" otu="otu16"/>
+   <node id="NT1.41" label="NT1.41" x="611.0" y="378.0" otu="otu19"/>
+   <node id="NT1.42" label="NT1.42" x="617.0" y="16.0" otu="otu20"/>
+   <node id="NT1.43" label="NT1.43" x="644.0" y="197.0" otu="otu21"/>
+   <node id="NT1.44" label="NT1.44" x="654.0" y="424.0" otu="otu22"/>
+   <node id="NT1.46" label="NT1.46" x="669.0" y="289.0" otu="otu24"/>
+   <node id="NT1.48" label="NT1.48" x="677.0" y="468.0" otu="otu26"/>
+   <node id="NT1.49" label="NT1.49" x="690.0" y="333.0" otu="otu27"/>
+   <node id="NT1.50" label="NT1.50" x="731.0" y="152.0" otu="otu28"/>
+   <edge id="e.0" source="NT1.1" target="NT1.3"/>
+   <edge id="e.6" source="NT1.8" target="NT1.24"/>
+   <edge id="e.12" source="NT1.26" target="NT1.46"/>
+   <edge id="e.13" target="NT1.50" source="NT1.13"/>
+   <edge id="e.14" target="NT1.49" source="NT1.26"/>
+   <edge id="e.16" source="NT1.3" target="NT1.2"/>
+   <edge id="e.17" source="NT1.2" target="NT1.4"/>
+   <edge id="e.18" source="NT1.2" target="NT1.5"/>
+   <edge id="e.19" source="NT1.4" target="NT1.6"/>
+   <edge id="e.20" source="NT1.5" target="NT1.11"/>
+   <edge id="e.21" source="NT1.5" target="NT1.13"/>
+   <edge id="e.22" source="NT1.6" target="NT1.8"/>
+   <edge id="e.25" source="NT1.11" target="NT1.29"/>
+   <edge id="e.26" source="NT1.13" target="NT1.19"/>
+   <edge id="e.31" target="NT1.26" source="NT1.19"/>
+   <edge id="e.36" source="NT1.4" target="NT1.34"/>
+   <edge id="e.38" target="NT1.32" source="NT1.6"/>
+   <edge id="e.41" source="NT1.11" target="NT1.41"/>
+   <edge id="e.43" target="NT1.38" source="NT1.8"/>
+   <edge id="e.44" source="NT1.3" target="NT1.42"/>
+   <edge id="e.45" source="NT1.19" target="NT1.43"/>
+   <edge id="e.47" source="NT1.29" target="NT1.44"/>
+   <edge id="e.48" target="NT1.48" source="NT1.29"/>
+  </tree>
+ </trees>
+</nexml>

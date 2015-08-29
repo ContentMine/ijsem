@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">8. thermocarboxydovorans DSM 44296T (U944B9)</otu>
+  <otu id="otu2">'S. thermotoleIans'ISP5227</otu>
+  <otu id="otu3">S. Ioseaflavus JCM 4154 (AF369704)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="s." cmphy:species="thermodiastaticus" cmphy:strain="JCM 4a4oT" cmphy:id="ABO18096">s. thermodiastaticus JCM 4a4oT (AB018096)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="thermovialaceus" cmphy:strain="AB106" cmphy:id="AYO29353" editRecord="[0__O]">S. thermovialaceus AB106 (AY029353)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="s." cmphy:species="thermodiastaticus" cmphy:strain="DSM 4o57aT" cmphy:id="Z68101">s. thermodiastaticus DSM 4o57aT (268101)</otu>
+  <otu id="otu9">Slreptomyces sp. CH-M-10357 (AF441168)</otu>
+  <otu id="otu10">S. thermoalcalitolerans DSM 41741T (A.l00O284)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="thermocoprophilus" cmphy:strain="DSM 41700T" cmphy:id="AJO07402" editRecord="[0__O]">S. thermocoprophilus DSM 41700T (AJ007402)</otu>
+  <otu id="otu12" cmphy:genus="S." cmphy:species="thermovulgaris" cmphy:strain="DSM 40444T" cmphy:id="Z68094" editRecord="[]">S. thermovulgaris DSM 40444T (Z68094)</otu>
+  <otu id="otu13" cmphy:genus="S." cmphy:species="thermovulgaris" cmphy:strain="DSM 40579" cmphy:id="Z68098" editRecord="[]">S. thermovulgaris DSM 40579 (Z68098)</otu>
+  <otu id="otu14">'S. espinosus' NRRL 5729 (X80826)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="s." cmphy:species="thelmogriseus" cmphy:strain="Y-140461." cmphy:id="AFO56714">s. thelmogriseus Y-140461. (AF056714)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.5" label="NT1.5" x="160.0" y="682.0"/>
+   <node id="NT1.7" label="NT1.7" x="198.0" y="616.0"/>
+   <node id="NT1.11" label="NT1.11" x="255.0" y="451.0"/>
+   <node id="NT1.14" label="NT1.14" x="266.0" y="605.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="296.0" y="297.0"/>
+   <node id="NT1.16" label="NT1.16" x="302.0" y="801.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="321.0" y="867.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="411.0" y="472.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="413.0" y="195.0"/>
+   <node id="NT1.23" label="NT1.23" x="424.0" y="243.0"/>
+   <node id="NT1.24" label="NT1.24" x="427.0" y="146.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="432.0" y="211.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="461.0" y="276.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="8.0" y="21.0" root="true"/>
+   <edge id="e.2" target="NT1.5" source="NT1.28"/>
+   <edge id="e.3" source="NT1.5" target="NT1.7"/>
+   <edge id="e.5" source="NT1.7" target="NT1.11"/>
+   <edge id="e.8" source="NT1.11" target="NT1.15"/>
+   <edge id="e.10" source="NT1.15" target="NT1.22"/>
+   <edge id="e.12" source="NT1.22" target="NT1.23"/>
+   <edge id="e.18" source="NT1.5" target="NT1.18"/>
+   <edge id="e.19" target="NT1.14" source="NT1.11"/>
+   <edge id="e.20" target="NT1.16" source="NT1.7"/>
+   <edge id="e.22" target="NT1.21" source="NT1.15"/>
+   <edge id="e.24" source="NT1.22" target="NT1.24"/>
+   <edge id="e.25" source="NT1.23" target="NT1.25"/>
+   <edge id="e.26" source="NT1.23" target="NT1.27"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Marinomonas" cmphy:species="ushuaiensis" cmphy:strain="JCM 12170T" cmphy:id="AJ627909" editRecord="[]"> Marinomonas ushuaiensis JCM 12170T (AJ627909)</otu>
+  <otu id="otu7" cmphy:edit="[8__B]" cmphy:genus="Marinomonas" cmphy:species="polaris" cmphy:strain="CK13T" cmphy:id="AJB33000" editRecord="[8__B]"> Marinomonas polaris CK13T (AJ833000)</otu>
+  <otu id="otu8" cmphy:genus="Marinomonas" cmphy:species="primoryensis" cmphy:strain="IAM 15O1OT" cmphy:id="ABO74193" editRecord="[]"> Marinomonas primoryensis IAM 15O1OT (ABO74193)</otu>
+  <otu id="otu9">Vibrio cincinnatiensis</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" x="47.0" y="616.0" label="100"/>
+   <node id="NT1.8" x="121.0" y="818.0" label="82"/>
+   <node id="NT1.13" label="NT1.13" x="147.0" y="548.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="183.0" y="764.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="213.0" y="873.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="2.0" y="406.0" root="true"/>
+   <edge id="e.5" target="NT1.13" source="NT1.3"/>
+   <edge id="e.7" source="NT1.8" target="NT1.14"/>
+   <edge id="e.8" source="NT1.8" target="NT1.15"/>
+   <edge id="e.13" target="NT1.8" source="NT1.3"/>
+   <edge id="e.15" source="NT1.17" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

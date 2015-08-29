@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Pedobacter heparinus DSM 23667 (AJ4381 72)</otu>
+  <otu id="otu2">Roseivirga ehrenbergii KMM 601 7T (AY608410)</otu>
+  <otu id="otu3" cmphy:genus="Adhaeribacter" cmphy:species="aquaticus" cmphy:strain="MBRG1.5T" cmphy:id="AJ626894" editRecord="[]">Adhaeribacter aquaticus MBRG1.5T (AJ626894)</otu>
+  <otu id="otu4" cmphy:edit="[8__B]" cmphy:genus="Fulvivirga" cmphy:species="kasyanovii" cmphy:strain="KMM 622OT" cmphy:id="DQB36305" editRecord="[8__B]">Fulvivirga kasyanovii KMM 622OT (DQ836305)</otu>
+  <otu id="otu5">Reichenbachiella agariperforans KMM 3525T(ABO58919)</otu>
+  <otu id="otu6">BeUieNa baltica BA134T (AJ564643)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Rhodocytophaga aerolata 541 6T-29T(EU004198)</otu>
+  <otu id="otu9">Persicobacter diffluens NCIMB 1402T (D1 2660)</otu>
+  <otu id="otu10" cmphy:genus="Algoriphagus" cmphy:species="ratkowskyi" cmphy:strain="LMG 214357" cmphy:id="AJ608641" editRecord="[]">Algoriphagus ratkowskyi LMG 214357 (AJ608641)</otu>
+  <otu id="otu11">Rhodonellum psychrophilum GCM71T (D01 1 2660)</otu>
+  <otu id="otu12" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="ATCC 334O6T" cmphy:id="M58768" editRecord="[]">Cytophaga hutchinsonii ATCC 334O6T (M58768)</otu>
+  <otu id="otu13">Sporocytophaga myxococcoides DSM 1 1 1 18T(AJ310654)</otu>
+  <otu id="otu14" cmphy:genus="Aquiflexum" cmphy:species="balticum" cmphy:strain="BA16OT" cmphy:id="AJ744861" editRecord="[]">Aquiflexum balticum BA16OT (AJ744861)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Flexibacter" cmphy:species="polymorphus" cmphy:strain="ATCC 27a2oT" cmphy:id="ABO78059" editRecord="[0__O]">Flexibacter polymorphus ATCC 27a2oT (AB078059)</otu>
+  <otu id="otu16" cmphy:genus="Microscilla" cmphy:species="marina" cmphy:strain="ATCC 23134T" cmphy:id="M58793" editRecord="[]">Microscilla marina ATCC 23134T (M58793)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Flectobacfllus" cmphy:species="major" cmphy:strain="ATCC 29496T" cmphy:id="M62787" editRecord="[]">Flectobacfllus major ATCC 29496T (M62787)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:genus="Flexibacter" cmphy:species="flexilis" cmphy:strain="ATCC 230797" cmphy:id="M62794" editRecord="[]">Flexibacter flexilis ATCC 230797 (M62794)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">Flammeovirga aprica ATCC 23126T(D12655)</otu>
+  <otu id="otu23" cmphy:genus="Bacteroides" cmphy:species="fragilis" cmphy:strain="ATCC 25285T" cmphy:id="X83935" editRecord="[]">Bacteroides fragilis ATCC 25285T (X83935)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="69.0" y="566.0" label="88"/>
+   <node id="NT1.3" label="NT1.3" x="127.0" y="420.0"/>
+   <node id="NT1.4" label="NT1.4" x="136.0" y="532.0"/>
+   <node id="NT1.5" label="NT1.5" x="147.0" y="307.0"/>
+   <node id="NT1.8" label="NT1.8" x="166.0" y="199.0"/>
+   <node id="NT1.9" label="NT1.9" x="179.0" y="413.0"/>
+   <node id="NT1.11" label="NT1.11" x="203.0" y="441.0"/>
+   <node id="NT1.16" x="306.0" y="127.0" label="100"/>
+   <node id="NT1.23" label="NT1.23" x="442.0" y="497.0" otu="otu3"/>
+   <node id="NT1.24" label="NT1.24" x="458.0" y="609.0" otu="otu4"/>
+   <node id="NT1.31" label="NT1.31" x="553.0" y="163.0" otu="otu10"/>
+   <node id="NT1.33" label="NT1.33" x="567.0" y="349.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="578.0" y="15.0" otu="otu14"/>
+   <node id="NT1.36" label="NT1.36" x="593.0" y="758.0" otu="otu15"/>
+   <node id="NT1.37" label="NT1.37" x="603.0" y="386.0" otu="otu16"/>
+   <node id="NT1.39" label="NT1.39" x="608.0" y="423.0" otu="otu18"/>
+   <node id="NT1.41" label="NT1.41" x="632.0" y="461.0" otu="otu20"/>
+   <node id="NT1.44" label="NT1.44" x="695.0" y="795.0" otu="otu23"/>
+   <node id="NT1.45" label="NT1.45" x="2.0" y="689.0" root="true"/>
+   <edge id="e.0" target="NT1.35" source="NT1.16"/>
+   <edge id="e.4" target="NT1.31" source="NT1.16"/>
+   <edge id="e.7" target="NT1.33" source="NT1.8"/>
+   <edge id="e.8" source="NT1.9" target="NT1.37"/>
+   <edge id="e.9" source="NT1.4" target="NT1.23"/>
+   <edge id="e.10" source="NT1.11" target="NT1.39"/>
+   <edge id="e.12" source="NT1.11" target="NT1.41"/>
+   <edge id="e.13" target="NT1.24" source="NT1.4"/>
+   <edge id="e.21" source="NT1.8" target="NT1.16"/>
+   <edge id="e.23" source="NT1.5" target="NT1.8"/>
+   <edge id="e.26" source="NT1.3" target="NT1.5"/>
+   <edge id="e.27" source="NT1.5" target="NT1.9"/>
+   <edge id="e.29" source="NT1.2" target="NT1.3"/>
+   <edge id="e.30" source="NT1.3" target="NT1.4"/>
+   <edge id="e.31" source="NT1.9" target="NT1.11"/>
+   <edge id="e.37" source="NT1.45" target="NT1.2"/>
+   <edge id="e.39" target="NT1.44" source="NT1.45"/>
+   <edge id="e.41" target="NT1.36" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

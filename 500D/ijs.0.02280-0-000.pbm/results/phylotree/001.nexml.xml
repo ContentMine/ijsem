@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Pseudoalleromonas" cmphy:species="haloplanktis" cmphy:strain="ATCC 143937" cmphy:id="X67024" editRecord="[]">Pseudoalleromonas haloplanktis ATCC 143937 (X67024)</otu>
+  <otu id="otu3" cmphy:genus="Alteromonas" cmphy:species="macleodii" cmphy:strain="IAM 129207" cmphy:id="X82145" editRecord="[]">Alteromonas macleodii IAM 129207 (X82145)</otu>
+  <otu id="otu4" cmphy:genus="Marinobacter" cmphy:species="hydrocarbonoclasticus" cmphy:strain="ATCC 498407" cmphy:id="X67022" editRecord="[]">Marinobacter hydrocarbonoclasticus ATCC 498407 (X67022)</otu>
+  <otu id="otu5" cmphy:genus="Microbulbifer" cmphy:species="hydrolyticus" cmphy:strain="ATCC 7000727" cmphy:id="U58338" editRecord="[]">Microbulbifer hydrolyticus ATCC 7000727 (U58338)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Marinospirillum" cmphy:species="megaterfum" cmphy:strain="JCM 101297" cmphy:id="ABO06770" editRecord="[0__O]">Marinospirillum megaterfum JCM 101297 (AB006770)</otu>
+  <otu id="otu7">Fundibacterjadensis DSM 121787 (AJO01 150)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Oceanospirillum" cmphy:species="linum" cmphy:strain="ATCC 113367" cmphy:id="M22365" editRecord="[]">Oceanospirillum linum ATCC 113367 (M22365)</otu>
+  <otu id="otu10" cmphy:genus="Halomonas" cmphy:species="elongata" cmphy:strain="ATCC 331737" cmphy:id="X67023" editRecord="[]">Halomonas elongata ATCC 331737 (X67023)</otu>
+  <otu id="otu11" cmphy:genus="Marinomonas" cmphy:species="vaga" cmphy:strain="ATCC 271197" cmphy:id="X67025" editRecord="[]">Marinomonas vaga ATCC 271197 (X67025)</otu>
+  <otu id="otu12" cmphy:genus="Marinobacterium" cmphy:species="geargiense" cmphy:strain="ATCC 7000747" cmphy:id="U58339" editRecord="[]">Marinobacterium geargiense ATCC 7000747 (U58339)</otu>
+  <otu id="otu13" cmphy:genus="Balneatrix" cmphy:species="alpica" cmphy:strain="ATCC 512857" cmphy:id="Y17112" editRecord="[]">Balneatrix alpica ATCC 512857 (Y17112)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Marinomonas" cmphy:species="communis" cmphy:strain="ATCC 271187" cmphy:id="AFI73967" editRecord="[1__I]">Marinomonas communis ATCC 271187 (AF173967)</otu>
+  <otu id="otu15">KMM 36337 (AB074193)</otu>
+  <otu id="otu16">KMM 3634 (AB074194)</otu>
+  <otu id="otu17">KMM 36337 (AB074193)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="38.0" y="477.0"/>
+   <node id="NT1.2" label="NT1.2" x="106.0" y="624.0"/>
+   <node id="NT1.4" label="NT1.4" x="179.0" y="329.0"/>
+   <node id="NT1.5" label="NT1.5" x="270.0" y="535.0"/>
+   <node id="NT1.6" label="NT1.6" x="331.0" y="87.0"/>
+   <node id="NT1.7" label="NT1.7" x="349.0" y="224.0"/>
+   <node id="NT1.8" label="NT1.8" x="361.0" y="394.0"/>
+   <node id="NT1.9" label="NT1.9" x="400.0" y="641.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="469.0" y="602.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="515.0" y="283.0"/>
+   <node id="NT1.13" label="NT1.13" x="519.0" y="518.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="521.0" y="557.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="544.0" y="393.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="575.0" y="10.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="579.0" y="432.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="599.0" y="306.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="606.0" y="137.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="610.0" y="55.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="681.0" y="268.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="7.0" y="478.0" root="true"/>
+   <edge id="e.0" source="NT1.6" target="NT1.23"/>
+   <edge id="e.1" target="NT1.24" source="NT1.12"/>
+   <edge id="e.4" source="NT1.8" target="NT1.15"/>
+   <edge id="e.5" source="NT1.4" target="NT1.6"/>
+   <edge id="e.6" source="NT1.6" target="NT1.7"/>
+   <edge id="e.8" source="NT1.1" target="NT1.4"/>
+   <edge id="e.9" source="NT1.4" target="NT1.8"/>
+   <edge id="e.10" source="NT1.4" target="NT1.5"/>
+   <edge id="e.11" target="NT1.12" source="NT1.7"/>
+   <edge id="e.14" source="NT1.12" target="NT1.21"/>
+   <edge id="e.16" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" source="NT1.30" target="NT1.1"/>
+   <edge id="e.20" source="NT1.2" target="NT1.11"/>
+   <edge id="e.21" source="NT1.2" target="NT1.9"/>
+   <edge id="e.22" source="NT1.5" target="NT1.13"/>
+   <edge id="e.23" source="NT1.8" target="NT1.20"/>
+   <edge id="e.25" source="NT1.6" target="NT1.19"/>
+   <edge id="e.26" source="NT1.5" target="NT1.14"/>
+   <edge id="e.27" source="NT1.7" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

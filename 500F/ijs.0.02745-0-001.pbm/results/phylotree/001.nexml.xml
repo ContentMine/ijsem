@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Strain BC521 (AJ316573)</otu>
+  <otu id="otu3" cmphy:genus="Blastococcus" cmphy:species="aggregatus" cmphy:strain="DSM 4725T" cmphy:id="AJ430193" editRecord="[]">Blastococcus aggregatus DSM 4725T (AJ430193)</otu>
+  <otu id="otu4">Strain Bc444T (AJ316571)</otu>
+  <otu id="otu5" cmphy:genus="Modestobacter" cmphy:species="multiseptatus" cmphy:strain="DSM 44406T" cmphy:id="Y18646" editRecord="[]">Modestobacter multiseptatus DSM 44406T (Y18646)</otu>
+  <otu id="otu6">Strain BC412 (AJ316574)</otu>
+  <otu id="otu7" cmphy:genus="Geodermatophilus" cmphy:species="obscurus" cmphy:strain="DSM 431607" cmphy:id="X92356" editRecord="[]">Geodermatophilus obscurus DSM 431607 (X92356)</otu>
+  <otu id="otu8">Frankia sp. (host Coriaria arborea) (AFO63641)</otu>
+  <otu id="otu9"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="265.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="61.0" y="188.0"/>
+   <node id="NT1.4" label="NT1.4" x="91.0" y="128.0"/>
+   <node id="NT1.10" label="NT1.10" x="187.0" y="108.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="229.0" y="248.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="246.0" y="202.0" otu="otu7"/>
+   <edge id="e.1" source="NT1.4" target="NT1.14"/>
+   <edge id="e.2" source="NT1.3" target="NT1.12"/>
+   <edge id="e.7" source="NT1.3" target="NT1.4"/>
+   <edge id="e.8" target="NT1.3" source="NT1.1"/>
+   <edge id="e.13" target="NT1.10" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

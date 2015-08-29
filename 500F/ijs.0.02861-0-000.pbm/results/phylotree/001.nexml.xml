@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">Strain JC2052T (AY264840)</otu>
+  <otu id="otu11" cmphy:genus="Microscilla" cmphy:species="marina" cmphy:strain="ATCC 231347" cmphy:id="M58793" editRecord="[]">Microscilla marina ATCC 231347 (M58793)</otu>
+  <otu id="otu12">Strain JC2051T (AY264839)</otu>
+  <otu id="otu13">Strain JC2050T (AY264838)</otu>
+  <otu id="otu14">Sporocytaphaga myxococcoides DSM 1 1 1 187 (AJ310654)</otu>
+  <otu id="otu15" cmphy:genus="Flectobacillus" cmphy:species="major" cmphy:strain="ATCC 29496T" cmphy:id="M62787" editRecord="[]">Flectobacillus major ATCC 29496T (M62787)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Cyclobacterium" cmphy:species="marinum" cmphy:strain="ATCC 43824" cmphy:id="M62788" editRecord="[]">Cyclobacterium marinum ATCC 43824 (M62788)</otu>
+  <otu id="otu18" cmphy:genus="Flexibacter" cmphy:species="flexilis" cmphy:strain="ATCC 230797" cmphy:id="M62794" editRecord="[]">Flexibacter flexilis ATCC 230797 (M62794)</otu>
+  <otu id="otu19" cmphy:edit="[1__I]" cmphy:genus="Dyadobacter" cmphy:species="fermentans" cmphy:strain="NS114T" cmphy:id="AFI37029" editRecord="[1__I]">Dyadobacter fermentans NS114T (AF137029)</otu>
+  <otu id="otu20">Spirasoma Iinguale ATCC 23276 (M62789)</otu>
+  <otu id="otu21"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="166.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="24.0" y="166.0"/>
+   <node id="NT1.4" label="NT1.4" x="47.0" y="321.0"/>
+   <node id="NT1.6" x="56.0" y="239.0" label="33"/>
+   <node id="NT1.10" label="NT1.10" x="83.0" y="314.0"/>
+   <node id="NT1.22" label="NT1.22" x="279.0" y="14.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="307.0" y="294.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="321.0" y="55.0" otu="otu17"/>
+   <node id="NT1.29" label="NT1.29" x="329.0" y="333.0" otu="otu18"/>
+   <node id="NT1.30" label="NT1.30" x="337.0" y="453.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.2" target="NT1.22"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" source="NT1.10" target="NT1.26"/>
+   <edge id="e.10" source="NT1.10" target="NT1.29"/>
+   <edge id="e.19" target="NT1.28" source="NT1.6"/>
+   <edge id="e.20" source="NT1.2" target="NT1.4"/>
+   <edge id="e.22" source="NT1.4" target="NT1.6"/>
+   <edge id="e.23" source="NT1.6" target="NT1.10"/>
+   <edge id="e.29" target="NT1.30" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

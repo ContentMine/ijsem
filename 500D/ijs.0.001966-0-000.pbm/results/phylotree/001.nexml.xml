@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Gemella" cmphy:species="morblllorum" cmphy:strain="ATCC 27824T" cmphy:id="L14327" editRecord="[]">Gemella morblllorum ATCC 27824T (L14327)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Gemella" cmphy:species="sanguinls" cmphy:strain="2045-94T" cmphy:id="Y13364" editRecord="[]">Gemella sanguinls 2045-94T (Y13364)</otu>
+  <otu id="otu4" cmphy:genus="Granulicatella" cmphy:species="adiacens" cmphy:strain="GIFU 127067" cmphy:id="D50540" editRecord="[]"> Granulicatella adiacens GIFU 127067 (D50540)</otu>
+  <otu id="otu5" cmphy:genus="Ablotrophia" cmphy:species="defectiva" cmphy:strain="GIFU 12707T" cmphy:id="D50541" editRecord="[]"> Ablotrophia defectiva GIFU 12707T (D50541)</otu>
+  <otu id="otu6" cmphy:genus="Facklamia" cmphy:species="hominis" cmphy:strain="ATCC 7O0628T" cmphy:id="Y10772" editRecord="[]"> Facklamia hominis ATCC 7O0628T (Y10772)</otu>
+  <otu id="otu7"> Aerococcus viridans ATCC 1 1563T (M58797)</otu>
+  <otu id="otu8"> Aerococcus urinae NCFB 2893T(M77819)</otu>
+  <otu id="otu9" cmphy:genus="Staphylococcus" cmphy:species="galllnarum" cmphy:strain="ATCC 35539T" cmphy:id="D83366" editRecord="[]">Staphylococcus galllnarum ATCC 35539T (D83366)</otu>
+  <otu id="otu10">Staphylococcus hyicus ATCC 1 1249T (D83368)</otu>
+  <otu id="otu11" cmphy:genus="Staphylococcus" cmphy:species="intermedius" cmphy:strain="ATCC 296637" cmphy:id="D83369" editRecord="[]">Staphylococcus intermedius ATCC 296637 (D83369)</otu>
+  <otu id="otu12" cmphy:genus="Staphylococcus" cmphy:species="schleiferl" cmphy:strain="CD22-1" cmphy:id="D83372" editRecord="[]">Staphylococcus schleiferl CD22-1 (D83372)</otu>
+  <otu id="otu13" cmphy:genus="Gemella" cmphy:species="asaccharolytica" cmphy:strain="WAL 1945JT" cmphy:id="EU427463" editRecord="[]">Gemella asaccharolytica WAL 1945JT (EU427463)</otu>
+  <otu id="otu14" cmphy:genus="Gemella" cmphy:species="palatlcanis" cmphy:strain="M663-98-1T" cmphy:id="Y17280" editRecord="[]">Gemella palatlcanis M663-98-1T (Y17280)</otu>
+  <otu id="otu15"> Gemella bergeri617-937 (Y13365)</otu>
+  <otu id="otu16">Gemella cuniculiM60449l99l1T (AJ251987)</otu>
+  <otu id="otu17" cmphy:genus="Staphylococcus" cmphy:species="felis" cmphy:strain="FD21-2" cmphy:id="D83365" editRecord="[]">Staphylococcus felis FD21-2 (D83365)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="81.0" y="188.0"/>
+   <node id="NT1.3" label="NT1.3" x="243.0" y="55.0"/>
+   <node id="NT1.4" label="NT1.4" x="285.0" y="30.0"/>
+   <node id="NT1.6" label="NT1.6" x="354.0" y="494.0"/>
+   <node id="NT1.8" label="NT1.8" x="393.0" y="537.0"/>
+   <node id="NT1.10" label="NT1.10" x="485.0" y="284.0"/>
+   <node id="NT1.11" label="NT1.11" x="499.0" y="394.0"/>
+   <node id="NT1.12" label="NT1.12" x="511.0" y="254.0"/>
+   <node id="NT1.15" label="NT1.15" x="557.0" y="200.0"/>
+   <node id="NT1.16" label="NT1.16" x="570.0" y="421.0" otu="otu1"/>
+   <node id="NT1.18" label="NT1.18" x="570.0" y="387.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="571.0" y="14.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="571.0" y="48.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="571.0" y="82.0" otu="otu6"/>
+   <node id="NT1.24" label="NT1.24" x="571.0" y="285.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="571.0" y="183.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="571.0" y="217.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="571.0" y="522.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="571.0" y="557.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="572.0" y="318.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="2.0" y="341.0" root="true"/>
+   <edge id="e.0" source="NT1.4" target="NT1.19"/>
+   <edge id="e.1" source="NT1.4" target="NT1.20"/>
+   <edge id="e.2" source="NT1.3" target="NT1.21"/>
+   <edge id="e.5" source="NT1.10" target="NT1.32"/>
+   <edge id="e.6" source="NT1.12" target="NT1.24"/>
+   <edge id="e.7" source="NT1.15" target="NT1.26"/>
+   <edge id="e.8" source="NT1.8" target="NT1.29"/>
+   <edge id="e.11" source="NT1.11" target="NT1.16"/>
+   <edge id="e.13" target="NT1.18" source="NT1.11"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" target="NT1.3" source="NT1.1"/>
+   <edge id="e.18" source="NT1.1" target="NT1.10"/>
+   <edge id="e.19" source="NT1.10" target="NT1.12"/>
+   <edge id="e.21" target="NT1.15" source="NT1.12"/>
+   <edge id="e.22" source="NT1.6" target="NT1.8"/>
+   <edge id="e.25" target="NT1.11" source="NT1.6"/>
+   <edge id="e.27" source="NT1.33" target="NT1.1"/>
+   <edge id="e.28" source="NT1.33" target="NT1.6"/>
+   <edge id="e.29" source="NT1.8" target="NT1.28"/>
+   <edge id="e.31" source="NT1.15" target="NT1.27"/>
+  </tree>
+ </trees>
+</nexml>

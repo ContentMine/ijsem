@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Holdemania" cmphy:species="filiformis" cmphy:strain="ATCC 51649T" cmphy:id="Y11466" editRecord="[]">Holdemania filiformis ATCC 51649T (Y11466)</otu>
+  <otu id="otu2">Strain MF-EP02T (AJ550617)</otu>
+  <otu id="otu3" cmphy:genus="Erysipelothrix" cmphy:species="tonsillarum" cmphy:strain="ATCC 433397" cmphy:id="ABO55906" editRecord="[]">Erysipelothrix tonsillarum ATCC 433397 (ABO55906)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Elysipelothrix" cmphy:species="rhusiopathiae" cmphy:strain="ATCC 19414T" cmphy:id="ABO55905" editRecord="[0__O]">Elysipelothrix rhusiopathiae ATCC 19414T (AB055905)</otu>
+  <otu id="otu5">Bulleidia extructa DSM 13220T(AF220O64)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Solobacterium" cmphy:species="moorei" cmphy:strain="JCM 106457" cmphy:id="ABO31056" editRecord="[0__O]">Solobacterium moorei JCM 106457 (AB031056)</otu>
+  <otu id="otu7" cmphy:genus="Clostridium" cmphy:species="innocuum" cmphy:strain="ATCC 145O1T" cmphy:id="M23732" editRecord="[]">Clostridium innocuum ATCC 145O1T (M23732)</otu>
+  <otu id="otu8" cmphy:genus="Streptococcus" cmphy:species="pleomorphus" cmphy:strain="ATCC 29734T" cmphy:id="M23730" editRecord="[]">Streptococcus pleomorphus ATCC 29734T (M23730)</otu>
+  <otu id="otu9" cmphy:genus="Eubacterium" cmphy:species="biforme" cmphy:strain="ATCC 278067" cmphy:id="M59230" editRecord="[]">Eubacterium biforme ATCC 278067 (M59230)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="14.0" y="142.0"/>
+   <node id="NT1.2" label="NT1.2" x="61.0" y="328.0"/>
+   <node id="NT1.3" label="NT1.3" x="206.0" y="441.0"/>
+   <node id="NT1.4" label="NT1.4" x="218.0" y="70.0"/>
+   <node id="NT1.5" label="NT1.5" x="258.0" y="190.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="259.0" y="134.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="296.0" y="309.0"/>
+   <node id="NT1.8" label="NT1.8" x="299.0" y="47.0"/>
+   <node id="NT1.9" label="NT1.9" x="301.0" y="75.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="304.0" y="17.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="320.0" y="388.0"/>
+   <node id="NT1.12" label="NT1.12" x="335.0" y="252.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="442.0" y="310.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="450.0" y="484.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="492.0" y="426.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="510.0" y="368.0" otu="otu9"/>
+   <edge source="NT1.13" target="NT1.7" id="e.0"/>
+   <edge source="NT1.15" target="NT1.11" id="e.1"/>
+   <edge source="NT1.8" target="NT1.4" id="e.2"/>
+   <edge source="NT1.8" target="NT1.9" id="e.3"/>
+   <edge source="NT1.4" target="NT1.1" id="e.4"/>
+   <edge source="NT1.2" target="NT1.3" id="e.5"/>
+   <edge source="NT1.2" target="NT1.7" id="e.6"/>
+   <edge source="NT1.3" target="NT1.11" id="e.7"/>
+   <edge source="NT1.1" target="NT1.2" id="e.8"/>
+   <edge source="NT1.5" target="NT1.1" id="e.9"/>
+   <edge source="NT1.6" target="NT1.4" id="e.10"/>
+   <edge source="NT1.12" target="NT1.7" id="e.11"/>
+   <edge source="NT1.14" target="NT1.3" id="e.12"/>
+   <edge source="NT1.10" target="NT1.8" id="e.13"/>
+   <edge source="NT1.16" target="NT1.11" id="e.14"/>
+  </tree>
+ </trees>
+</nexml>

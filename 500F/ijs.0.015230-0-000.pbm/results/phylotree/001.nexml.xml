@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Candida bituminiphila NRRL Y-27974T (DQ91 1432)</otu>
+  <otu id="otu2">Sugiyamaella chiloensis NRRL Y-17646T (AF0l7236)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Candida" cmphy:species="valdiviana" cmphy:strain="NRRL Y-77917&quot;" cmphy:id="U45835" editRecord="[]">Candida valdiviana NRRL Y-77917" (U45835)</otu>
+  <otu id="otu5">Pichia Iolelana NRRL YB-4247T (U75720)</otu>
+  <otu id="otu6">Candida natalensis NRRL Y-17680T (U458l8)</otu>
+  <otu id="otu7">Candida santjacobensis NRRL Y-17667T (U458l 1)</otu>
+  <otu id="otu8">Pichia xylosa NRRL Y-l2939T (U757l8)</otu>
+  <otu id="otu9">Sugiyamaella smithiae NRRL Y-17850T (DQ438218 )</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Candida" cmphy:species="novakii" cmphy:strain="NRRI. Y-27346T" cmphy:id="DQ438196" editRecord="[]">Candida novakii NRRI. Y-27346T (DQ438196)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Pachysolen" cmphy:species="tannophilus" cmphy:strain="NRRL Y-24607" cmphy:id="U76346" editRecord="[]">Pachysolen tannophilus NRRL Y-24607 (U76346)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">Schizosaccharamyces pombe NRRL Y-12796T (AY04817l)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Candida ernobii NRRL Y-17782T (U7024l)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:genus="Candida" cmphy:species="paludigena" cmphy:strain="NRRL Y-12697T" cmphy:id="DQ438194" editRecord="[]">Candida paludigena NRRL Y-12697T (DQ438194)</otu>
+  <otu id="otu22" cmphy:genus="Candida" cmphy:species="qingdaonensis" cmphy:strain="AS 2.403lT" cmphy:id="FJ613527" editRecord="[]"> Candida qingdaonensis AS 2.403lT (FJ613527)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25" cmphy:genus="Candida" cmphy:species="marilandica" cmphy:strain="NRRL YB-1847&quot;" cmphy:id="DQ438219" editRecord="[]"> Candida marilandica NRRL YB-1847" (DQ438219)</otu>
+  <otu id="otu26" cmphy:genus="Candida" cmphy:species="peliata" cmphy:strain="NRRL Y-6888T" cmphy:id="U71066" editRecord="[]">Candida peliata NRRL Y-6888T (U71066)</otu>
+  <otu id="otu27" cmphy:genus="Candida" cmphy:species="laasltanensis" cmphy:strain="AS 2.4030T" cmphy:id="EJ613526" editRecord="[]">Candida laasltanensis AS 2.4030T (EJ613526)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="419.0" y="685.0"/>
+   <node id="NT1.3" label="NT1.3" x="606.0" y="859.0"/>
+   <node id="NT1.5" x="633.0" y="952.0" label="51"/>
+   <node id="NT1.8" label="NT1.8" x="750.0" y="504.0"/>
+   <node id="NT1.12" label="NT1.12" x="795.0" y="889.0"/>
+   <node id="NT1.19" label="NT1.19" x="885.0" y="767.0" otu="otu4"/>
+   <node id="NT1.30" x="926.0" y="257.0" label="63"/>
+   <node id="NT1.32" label="NT1.32" x="938.0" y="855.0" otu="otu12"/>
+   <node id="NT1.34" label="NT1.34" x="944.0" y="590.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="962.0" y="1011.0"/>
+   <node id="NT1.45" label="NT1.45" x="987.0" y="945.0" otu="otu21"/>
+   <node id="NT1.47" label="NT1.47" x="995.0" y="1034.0" otu="otu22"/>
+   <node id="NT1.50" label="NT1.50" x="1018.0" y="989.0" otu="otu25"/>
+   <node id="NT1.51" label="NT1.51" x="1082.0" y="280.0" otu="otu26"/>
+   <node id="NT1.52" label="NT1.52" x="1092.0" y="235.0" otu="otu27"/>
+   <node id="NT1.53" label="NT1.53" x="3.0" y="926.0" root="true"/>
+   <edge id="e.6" source="NT1.30" target="NT1.51"/>
+   <edge id="e.7" source="NT1.30" target="NT1.52"/>
+   <edge id="e.11" source="NT1.8" target="NT1.34"/>
+   <edge id="e.15" source="NT1.3" target="NT1.19"/>
+   <edge id="e.19" source="NT1.12" target="NT1.32"/>
+   <edge id="e.20" source="NT1.37" target="NT1.47"/>
+   <edge id="e.22" target="NT1.45" source="NT1.12"/>
+   <edge id="e.23" source="NT1.37" target="NT1.50"/>
+   <edge id="e.29" target="NT1.30" source="NT1.8"/>
+   <edge id="e.36" target="NT1.8" source="NT1.1"/>
+   <edge id="e.40" target="NT1.3" source="NT1.1"/>
+   <edge id="e.41" source="NT1.3" target="NT1.5"/>
+   <edge id="e.44" target="NT1.12" source="NT1.5"/>
+   <edge id="e.46" target="NT1.37" source="NT1.5"/>
+   <edge id="e.49" source="NT1.53" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

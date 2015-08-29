@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Georgenia muralis DSM 1 44187 (X941 55)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Cellulosimicrobium" cmphy:species="cellulans" cmphy:strain="DSM 438797" cmphy:id="X79455" editRecord="[]">Cellulosimicrobium cellulans DSM 438797 (X79455)</otu>
+  <otu id="otu14"> lsoptericola variabilis DSM 101777 (AJ298873)</otu>
+  <otu id="otu15">Beutenbergia cavernae DSM 1Q3337(Y183'78)</otu>
+  <otu id="otu16">Strain TTO2-047 (AB436534)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Oerskovia" cmphy:species="turbata" cmphy:strain="DSM 205777" cmphy:id="X83806" editRecord="[]">Oerskovia turbata DSM 205777 (X83806)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">Bogoriella caseilytica HKI OO887 (YO991 1)</otu>
+  <otu id="otu21">Cellulomonas flavfgena DSM 201 O97 (X83799)</otu>
+  <otu id="otu22">Xylanibacterium ulmiXlLO87(AYQ73185)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24">Salana multivorans DSM 135217 (A.J40062'7)</otu>
+  <otu id="otu25" cmphy:genus="Actinotalea" cmphy:species="fermentans" cmphy:strain="DSM 31337" cmphy:id="X79458" editRecord="[]">Actinotalea fermentans DSM 31337 (X79458)</otu>
+  <otu id="otu26">Myceligenerans xiligouense XLG9A1O.Q7 (AY354Q85)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="344.0" otu="otu1" root="true"/>
+   <node id="NT1.6" label="NT1.6" x="147.0" y="489.0"/>
+   <node id="NT1.10" label="NT1.10" x="251.0" y="594.0"/>
+   <node id="NT1.30" label="NT1.30" x="473.0" y="329.0" otu="otu13"/>
+   <node id="NT1.35" label="NT1.35" x="533.0" y="566.0" otu="otu18"/>
+   <node id="NT1.42" label="NT1.42" x="713.0" y="646.0" otu="otu25"/>
+   <edge id="e.16" target="NT1.30" source="NT1.6"/>
+   <edge id="e.20" target="NT1.42" source="NT1.10"/>
+   <edge id="e.30" target="NT1.6" source="NT1.1"/>
+   <edge id="e.32" source="NT1.6" target="NT1.10"/>
+   <edge id="e.40" source="NT1.10" target="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

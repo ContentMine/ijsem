@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Pseudoxanthobacter" cmphy:species="soli" cmphy:strain="CC4T" cmphy:id="EF465533" editRecord="[]">Pseudoxanthobacter soli CC4T (EF465533)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Amorphus" cmphy:species="coralli" cmphy:strain="RS.Sph.026T" cmphy:id="DQO97300" editRecord="[0__O]">Amorphus coralli RS.Sph.026T (DQ097300)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Kaistia" cmphy:species="soli" cmphy:strain="5YN9-8T" cmphy:id="EFT592609" editRecord="[]"> Kaistia soli 5YN9-8T (EFT592609)</otu>
+  <otu id="otu14">Phyllobacterium trifolii LMG 2271 2T (AY786080)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18">Ochrobactrum intermedium OiC8-6T (AJ 242582)</otu>
+  <otu id="otu19" cmphy:genus="Afifella" cmphy:species="marina" cmphy:strain="DSM 2698T" cmphy:id="M27534" editRecord="[]"> Afifella marina DSM 2698T (M27534)</otu>
+  <otu id="otu20">Prosthecomicrobium pneumaticum DSM 8972T (AB01 7203)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">Ochrobactrum intermedium OiC8-6T (AJ 242582)</otu>
+  <otu id="otu23" cmphy:genus="Ochrobactrum" cmphy:species="anthropi" cmphy:strain="LMG 3306" cmphy:id="U88440" editRecord="[]">Ochrobactrum anthropi LMG 3306 (U88440)</otu>
+  <otu id="otu24" cmphy:genus="Xanthobacter" cmphy:species="agilis" cmphy:strain="DSM 377OT" cmphy:id="X94198" editRecord="[]">Xanthobacter agilis DSM 377OT (X94198)</otu>
+  <otu id="otu25">Kaistia granuli K004</otu>
+  <otu id="otu26">Blastochloris sulfoviridis OK3G7 (AY1 1 7148)</otu>
+  <otu id="otu27">Azorhizobium caulinodans ORS 571 T (X94200)</otu>
+  <otu id="otu28" cmphy:genus="Azorhizobium" cmphy:species="caulinodans" cmphy:strain="LMG 6465T" cmphy:id="X67221" editRecord="[]">Azorhizobium caulinodans LMG 6465T (X67221)</otu>
+  <otu id="otu29"/>
+  <otu id="otu30" cmphy:genus="Azorhizobium" cmphy:species="caulinodans" cmphy:strain="LMG 6465T" cmphy:id="X67221" editRecord="[]">Azorhizobium caulinodans LMG 6465T (X67221)</otu>
+  <otu id="otu31"/>
+  <otu id="otu32" cmphy:edit="[1__I]" cmphy:genus="Rhodobium" cmphy:species="gokarnense" cmphy:strain="JA1 73T" cmphy:id="AMI80706" editRecord="[1__I]">Rhodobium gokarnense JA1 73T (AM180706)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="26.0" y="449.0"/>
+   <node id="NT1.2" label="NT1.2" x="36.0" y="383.0"/>
+   <node id="NT1.3" x="42.0" y="676.0" label="82"/>
+   <node id="NT1.4" label="NT1.4" x="71.0" y="304.0"/>
+   <node id="NT1.7" label="NT1.7" x="92.0" y="615.0"/>
+   <node id="NT1.23" label="NT1.23" x="347.0" y="184.0"/>
+   <node id="NT1.27" label="NT1.27" x="359.0" y="462.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="367.0" y="498.0" otu="otu9"/>
+   <node id="NT1.33" label="NT1.33" x="388.0" y="354.0" otu="otu13"/>
+   <node id="NT1.43" label="NT1.43" x="429.0" y="642.0" otu="otu19"/>
+   <node id="NT1.47" label="NT1.47" x="435.0" y="679.0" otu="otu23"/>
+   <node id="NT1.48" label="NT1.48" x="436.0" y="210.0" otu="otu24"/>
+   <node id="NT1.52" label="NT1.52" x="483.0" y="124.0"/>
+   <node id="NT1.53" label="NT1.53" x="490.0" y="138.0" otu="otu28"/>
+   <node id="NT1.55" label="NT1.55" x="493.0" y="120.0" otu="otu30"/>
+   <node id="NT1.57" label="NT1.57" x="522.0" y="570.0" otu="otu32"/>
+   <node id="NT1.58" label="NT1.58" x="2.0" y="562.0" root="true"/>
+   <edge id="e.1" source="NT1.52" target="NT1.55"/>
+   <edge id="e.2" source="NT1.52" target="NT1.53"/>
+   <edge id="e.6" source="NT1.23" target="NT1.48"/>
+   <edge id="e.14" target="NT1.33" source="NT1.4"/>
+   <edge id="e.18" source="NT1.2" target="NT1.27"/>
+   <edge id="e.20" target="NT1.28" source="NT1.1"/>
+   <edge id="e.24" source="NT1.7" target="NT1.43"/>
+   <edge id="e.30" target="NT1.47" source="NT1.3"/>
+   <edge id="e.31" target="NT1.57" source="NT1.7"/>
+   <edge id="e.32" target="NT1.52" source="NT1.23"/>
+   <edge id="e.34" target="NT1.23" source="NT1.4"/>
+   <edge id="e.38" source="NT1.2" target="NT1.4"/>
+   <edge id="e.41" source="NT1.1" target="NT1.2"/>
+   <edge id="e.48" source="NT1.3" target="NT1.7"/>
+   <edge id="e.55" source="NT1.58" target="NT1.1"/>
+   <edge id="e.56" source="NT1.58" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

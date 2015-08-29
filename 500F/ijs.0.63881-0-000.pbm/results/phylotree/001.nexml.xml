@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Amycolatopsis" cmphy:species="sulphurea" cmphy:strain="IMSNU 200601" cmphy:id="AJZ93756" editRecord="[2__Z]">Amycolatopsis sulphurea IMSNU 200601 (AJ293756)</otu>
+  <otu id="otu3" cmphy:genus="Amyoolatopsis" cmphy:species="palatopharyngis" cmphy:strain="AS 4.17297" cmphy:id="AF479268" editRecord="[]">Amyoolatopsis palatopharyngis AS 4.17297 (AF479268)</otu>
+  <otu id="otu4">Strain N7-3T (DQ000200)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Amycolatopsis" cmphy:species="decaplanina" cmphy:strain="DSM 44594T" cmphy:id="AJS08237" editRecord="[5__S]"> Amycolatopsis decaplanina DSM 44594T (AJ508237)</otu>
+  <otu id="otu6">Amycolatopsis Iurida IMSNU 20057T (AJ293755)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Amycolatopsis" cmphy:species="sacchari" cmphy:strain="DSM 44468T" cmphy:id="AFZ23354" editRecord="[2__Z]">Amycolatopsis sacchari DSM 44468T (AF223354)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Amycolatopsis" cmphy:species="coloradensis" cmphy:strain="IMSNU 22096T" cmphy:id="AJZ93753" editRecord="[2__Z]"> Amycolatopsis coloradensis IMSNU 22096T (AJ293753)</otu>
+  <otu id="otu9" cmphy:genus="Amycolatopsis" cmphy:species="azurea" cmphy:strain="IMSNU 20053T" cmphy:id="AJ400709" editRecord="[]">Amycolatopsis azurea IMSNU 20053T (AJ400709)</otu>
+  <otu id="otu10"> Strain N4-6T (DQ000196)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Amycolatopsis" cmphy:species="keratiniphila" cmphy:strain="DSM 444O9T" cmphy:id="AJZ78496" editRecord="[2__Z]">Amycolatopsis keratiniphila DSM 444O9T (AJ278496)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Amycolatopsis Iexingtonensis NRRL B24131T (AY183358)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Amycolatopsis" cmphy:species="pretonensis" cmphy:strain="NRRL B-24133T" cmphy:id="AYI83356" editRecord="[1__I]">Amycolatopsis pretonensis NRRL B-24133T (AY183356)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Amycolatopsis" cmphy:species="mediterranei" cmphy:strain="IMSNU 2O056T" cmphy:id="AJZ93754" editRecord="[2__Z]">Amycolatopsis mediterranei IMSNU 2O056T (AJ293754)</otu>
+  <otu id="otu16" cmphy:genus="Amycolatopsis" cmphy:species="orientalis" cmphy:strain="IMSNU 20O58T" cmphy:id="AJ400711" editRecord="[]"> Amycolatopsis orientalis IMSNU 20O58T (AJ400711)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Amycolatopsis" cmphy:species="rubida" cmphy:strain="JCM 10871T" cmphy:id="AFZ22022" editRecord="[2__Z]">Amycolatopsis rubida JCM 10871T (AF222022)</otu>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Amycolatopsis" cmphy:species="kentuckyensis" cmphy:strain="NRRL B-24129T" cmphy:id="AYI83357" editRecord="[1__I]"> Amycolatopsis kentuckyensis NRRL B-24129T (AY183357)</otu>
+  <otu id="otu19" cmphy:edit="[5__S]" cmphy:genus="Amycolatopsis" cmphy:species="vancoresmyoina" cmphy:strain="DSM 44592T" cmphy:id="AJS08240" editRecord="[5__S]">Amycolatopsis vancoresmyoina DSM 44592T (AJ508240)</otu>
+  <otu id="otu20" cmphy:edit="[2__Z]" cmphy:genus="Amycolatopsis" cmphy:species="albidoflavus" cmphy:strain="IMSNU 22139T" cmphy:id="AJZ52832" editRecord="[2__Z]">Amycolatopsis albidoflavus IMSNU 22139T (AJ252832)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Amycolatopsis" cmphy:species="tolypomycina" cmphy:strain="IMSNU 2OO61T" cmphy:id="AJZ93757" editRecord="[2__Z]">Amycolatopsis tolypomycina IMSNU 2OO61T (AJ293757)</otu>
+  <otu id="otu22">Amycolatopsisjaponica DSM 44213T (X77959)</otu>
+  <otu id="otu23" cmphy:edit="[O__0]" cmphy:genus="Amycolatopsis" cmphy:species="eulytherma" cmphy:strain="DSM 443487" cmphy:id="AJO00285" editRecord="[O__0]">Amycolatopsis eulytherma DSM 443487 (AJOO0285)</otu>
+  <otu id="otu24"> Amycolatopsis methanolioa IMSNU 20055 T (AJ249135)</otu>
+  <otu id="otu25"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="310.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="29.0" y="297.0"/>
+   <node id="NT1.3" label="NT1.3" x="111.0" y="534.0"/>
+   <node id="NT1.4" label="NT1.4" x="147.0" y="756.0"/>
+   <node id="NT1.5" label="NT1.5" x="149.0" y="81.0"/>
+   <node id="NT1.7" label="NT1.7" x="269.0" y="1077.0"/>
+   <node id="NT1.8" label="NT1.8" x="283.0" y="725.0"/>
+   <node id="NT1.9" label="NT1.9" x="365.0" y="1433.0"/>
+   <node id="NT1.10" label="NT1.10" x="368.0" y="602.0"/>
+   <node id="NT1.11" label="NT1.11" x="399.0" y="394.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="401.0" y="844.0"/>
+   <node id="NT1.13" x="408.0" y="1602.0" label="90"/>
+   <node id="NT1.14" label="NT1.14" x="413.0" y="1491.0"/>
+   <node id="NT1.15" label="NT1.15" x="421.0" y="919.0"/>
+   <node id="NT1.17" x="427.0" y="1717.0" label="55"/>
+   <node id="NT1.18" label="NT1.18" x="433.0" y="15.0" otu="otu3"/>
+   <node id="NT1.21" label="NT1.21" x="457.0" y="988.0"/>
+   <node id="NT1.24" label="NT1.24" x="475.0" y="1754.0" otu="otu5"/>
+   <node id="NT1.25" x="483.0" y="1054.0" label="4"/>
+   <node id="NT1.27" label="NT1.27" x="494.0" y="316.0" otu="otu7"/>
+   <node id="NT1.28" label="NT1.28" x="499.0" y="1301.0" otu="otu8"/>
+   <node id="NT1.29" label="NT1.29" x="501.0" y="1528.0" otu="otu9"/>
+   <node id="NT1.31" label="NT1.31" x="513.0" y="1680.0" otu="otu11"/>
+   <node id="NT1.36" label="NT1.36" x="527.0" y="1074.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="541.0" y="773.0" otu="otu15"/>
+   <node id="NT1.38" label="NT1.38" x="541.0" y="1454.0" otu="otu16"/>
+   <node id="NT1.39" label="NT1.39" x="544.0" y="546.0" otu="otu17"/>
+   <node id="NT1.40" label="NT1.40" x="570.0" y="1000.0" otu="otu18"/>
+   <node id="NT1.41" label="NT1.41" x="576.0" y="847.0" otu="otu19"/>
+   <node id="NT1.42" label="NT1.42" x="588.0" y="621.0" otu="otu20"/>
+   <node id="NT1.43" label="NT1.43" x="591.0" y="922.0" otu="otu21"/>
+   <node id="NT1.45" label="NT1.45" x="610.0" y="89.0" otu="otu23"/>
+   <edge id="e.0" source="NT1.5" target="NT1.18"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" target="NT1.45" source="NT1.5"/>
+   <edge id="e.5" source="NT1.3" target="NT1.27"/>
+   <edge id="e.6" target="NT1.11" source="NT1.4"/>
+   <edge id="e.8" target="NT1.28" source="NT1.9"/>
+   <edge id="e.10" source="NT1.12" target="NT1.37"/>
+   <edge id="e.11" source="NT1.17" target="NT1.24"/>
+   <edge id="e.12" target="NT1.42" source="NT1.10"/>
+   <edge id="e.13" source="NT1.17" target="NT1.31"/>
+   <edge id="e.14" source="NT1.15" target="NT1.41"/>
+   <edge id="e.15" source="NT1.21" target="NT1.43"/>
+   <edge id="e.16" target="NT1.38" source="NT1.14"/>
+   <edge id="e.18" target="NT1.36" source="NT1.25"/>
+   <edge id="e.19" source="NT1.25" target="NT1.40"/>
+   <edge id="e.21" source="NT1.2" target="NT1.5"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.25" source="NT1.3" target="NT1.4"/>
+   <edge id="e.26" source="NT1.4" target="NT1.7"/>
+   <edge id="e.28" source="NT1.7" target="NT1.9"/>
+   <edge id="e.29" source="NT1.7" target="NT1.8"/>
+   <edge id="e.30" source="NT1.8" target="NT1.12"/>
+   <edge id="e.31" source="NT1.8" target="NT1.10"/>
+   <edge id="e.32" source="NT1.9" target="NT1.13"/>
+   <edge id="e.35" source="NT1.12" target="NT1.15"/>
+   <edge id="e.36" source="NT1.13" target="NT1.17"/>
+   <edge id="e.37" source="NT1.13" target="NT1.14"/>
+   <edge id="e.38" source="NT1.15" target="NT1.21"/>
+   <edge id="e.41" source="NT1.21" target="NT1.25"/>
+   <edge id="e.43" source="NT1.10" target="NT1.39"/>
+   <edge id="e.45" target="NT1.29" source="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

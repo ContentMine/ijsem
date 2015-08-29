@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Rhizobium" cmphy:species="etli" cmphy:strain="CF N42T" cmphy:id="NC_004041" editRecord="[]">Rhizobium etli CF N42T (NC_004041)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Gluconacetobacter" cmphy:species="diazotrophicus" cmphy:strain="PAL5" cmphy:id="AFO30414" editRecord="[0__O]">Gluconacetobacter diazotrophicus PAL5 (AF030414)</otu>
+  <otu id="otu3">Azospirillum</otu>
+  <otu id="otu4">COCBT (AB185395)</otu>
+  <otu id="otu5">Azospirillum Iipoferum Sp59bT (AF216882)</otu>
+  <otu id="otu6">Sinorhizobium meliloti (JO1781)</otu>
+  <otu id="otu7" cmphy:genus="Rhodovulum" cmphy:species="strictum" cmphy:strain="JCM 9221" cmphy:id="ABO79629" editRecord="[]">Rhodovulum strictum JCM 9221 (ABO79629)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Rhodobacter" cmphy:species="azotoformans" cmphy:strain="JCM 93407" cmphy:id="ABO79621" editRecord="[0__O]">Rhodobacter azotoformans JCM 93407 (AB079621)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Methylosinus" cmphy:species="trichosporium" cmphy:strain="ATCC 35070T" cmphy:id="AJS63953" editRecord="[5__S]">Methylosinus trichosporium ATCC 35070T (AJ563953)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Rhodoblastus" cmphy:species="acidophilus" cmphy:strain="ATCC 250927" cmphy:id="AJS63959" editRecord="[5__S]">Rhodoblastus acidophilus ATCC 250927 (AJ563959)</otu>
+  <otu id="otu11">Rhizobium galegae (AJ132913)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="91.0" y="167.0"/>
+   <node id="NT1.4" label="NT1.4" x="128.0" y="78.0"/>
+   <node id="NT1.7" x="200.0" y="31.0" label="93"/>
+   <node id="NT1.8" x="221.0" y="99.0" label="98"/>
+   <node id="NT1.9" label="NT1.9" x="286.0" y="285.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="296.0" y="252.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="393.0" y="82.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="414.0" y="116.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="458.0" y="15.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="472.0" y="50.0" otu="otu10"/>
+   <node id="NT1.21" x="5.0" y="238.0" root="true" label="100"/>
+   <edge id="e.0" source="NT1.7" target="NT1.18"/>
+   <edge id="e.1" source="NT1.7" target="NT1.19"/>
+   <edge id="e.5" source="NT1.8" target="NT1.16"/>
+   <edge id="e.6" source="NT1.8" target="NT1.17"/>
+   <edge id="e.7" target="NT1.9" source="NT1.21"/>
+   <edge id="e.10" source="NT1.4" target="NT1.7"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" target="NT1.8" source="NT1.4"/>
+   <edge id="e.16" source="NT1.21" target="NT1.3"/>
+   <edge id="e.18" source="NT1.3" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

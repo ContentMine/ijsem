@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Catellatospora bangladeshensis 2-7O(23)T (AB200233)</otu>
+  <otu id="otu2">Catellatospora chokoriensis 2-25(1)T (AB200231)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"> Catellatospora coxensis 2-29(17)T (AB200232)</otu>
+  <otu id="otu5">Catellatospora citrea subsp. methionotrophica IMSNU 22OO6T (AF152107)</otu>
+  <otu id="otu6" cmphy:genus="Micromonospora" cmphy:species="chalcea" cmphy:strain="DSM 430267" cmphy:id="X92594" editRecord="[]">Micromonospora chalcea DSM 430267 (X92594)</otu>
+  <otu id="otu7">Catellatospora tsunoense IMSNU 22O05T(AF1521 10)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Catellatospora" cmphy:species="koreensis" cmphy:strain="LM 042T" cmphy:id="AFI71700" editRecord="[1__I]">Catellatospora koreensis LM 042T (AF171700)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.12" label="NT1.12" x="292.0" y="771.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="626.0" y="120.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="1.0" y="533.0" root="true"/>
+   <edge id="e.1" target="NT1.14" source="NT1.15"/>
+   <edge id="e.12" source="NT1.15" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

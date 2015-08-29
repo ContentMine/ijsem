@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">Phyllobacterium myrsinacearum IAM 135847 (D1 2789)</otu>
+  <otu id="otu13" cmphy:genus="Stappia" cmphy:species="marina" cmphy:strain="mano187" cmphy:id="AY628423" editRecord="[]">Stappia marina mano187 (AY628423)</otu>
+  <otu id="otu14" cmphy:genus="Stappia" cmphy:species="stellulata" cmphy:strain="IAM 126217" cmphy:id="D88525" editRecord="[]">Stappia stellulata IAM 126217 (D88525)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Mesorhizobium" cmphy:species="chacoense" cmphy:strain="PR57" cmphy:id="AJZ78249" editRecord="[2__Z]">Mesorhizobium chacoense PR57 (AJ278249)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Aminobacter aganoensis DSM 70517 (AJO1 1 760)</otu>
+  <otu id="otu19" cmphy:genus="Hoeflea" cmphy:species="alexandrii" cmphy:strain="AM1 V307" cmphy:id="AJ786600" editRecord="[]">Hoeflea alexandrii AM1 V307 (AJ786600)</otu>
+  <otu id="otu20" cmphy:genus="Phyllobacterfum" cmphy:species="trifolii" cmphy:strain="PETP027" cmphy:id="AY786080" editRecord="[]">Phyllobacterfum trifolii PETP027 (AY786080)</otu>
+  <otu id="otu21">Aminobacter aminovorans DSM 70487 (AJO1 1759)</otu>
+  <otu id="otu22" cmphy:genus="Sinorhizobium" cmphy:species="terangae" cmphy:strain="LMG 78347" cmphy:id="X68388" editRecord="[]">Sinorhizobium terangae LMG 78347 (X68388)</otu>
+  <otu id="otu23">Ensifer adhaerens ATCC 332127 (AF191 739)</otu>
+  <otu id="otu24">Aquamicrobium defluvii DSM 1 16037 (Y15403)</otu>
+  <otu id="otu25" cmphy:genus="Rhizobium" cmphy:species="giardinii" cmphy:strain="H1527" cmphy:id="U86344" editRecord="[]">Rhizobium giardinii H1527 (U86344)</otu>
+  <otu id="otu26">Defluvibacter lusatiensis DSM 1 10997 (AJ132378)</otu>
+  <otu id="otu27"/>
+  <otu id="otu28" cmphy:edit="[5__S]" cmphy:genus="Hoeflea" cmphy:species="marina" cmphy:strain="LMG 1287" cmphy:id="AYS98817" editRecord="[5__S]">Hoeflea marina LMG 1287 (AY598817)</otu>
+  <otu id="otu29" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="daejeonense" cmphy:strain="L617" cmphy:id="AYB41343" editRecord="[3__B]">Rhizobium daejeonense L617 (AY341343)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="539.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="17.0" y="539.0"/>
+   <node id="NT1.3" label="NT1.3" x="92.0" y="431.0"/>
+   <node id="NT1.7" label="NT1.7" x="119.0" y="324.0"/>
+   <node id="NT1.10" label="NT1.10" x="125.0" y="632.0"/>
+   <node id="NT1.16" label="NT1.16" x="134.0" y="163.0"/>
+   <node id="NT1.26" label="NT1.26" x="190.0" y="650.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="191.0" y="217.0"/>
+   <node id="NT1.29" label="NT1.29" x="203.0" y="255.0"/>
+   <node id="NT1.30" label="NT1.30" x="208.0" y="67.0"/>
+   <node id="NT1.31" label="NT1.31" x="209.0" y="613.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="219.0" y="389.0" otu="otu16"/>
+   <node id="NT1.38" label="NT1.38" x="228.0" y="87.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="229.0" y="537.0" otu="otu20"/>
+   <node id="NT1.42" label="NT1.42" x="249.0" y="162.0" otu="otu22"/>
+   <node id="NT1.45" label="NT1.45" x="262.0" y="238.0" otu="otu25"/>
+   <node id="NT1.48" label="NT1.48" x="300.0" y="12.0" otu="otu28"/>
+   <node id="NT1.49" label="NT1.49" x="300.0" y="276.0" otu="otu29"/>
+   <edge id="e.0" target="NT1.48" source="NT1.30"/>
+   <edge id="e.5" target="NT1.42" source="NT1.27"/>
+   <edge id="e.15" target="NT1.33" source="NT1.7"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.20" target="NT1.39" source="NT1.3"/>
+   <edge id="e.21" source="NT1.10" target="NT1.26"/>
+   <edge id="e.22" source="NT1.10" target="NT1.31"/>
+   <edge id="e.24" target="NT1.30" source="NT1.16"/>
+   <edge id="e.26" source="NT1.7" target="NT1.16"/>
+   <edge id="e.27" source="NT1.16" target="NT1.27"/>
+   <edge id="e.28" source="NT1.27" target="NT1.29"/>
+   <edge id="e.30" source="NT1.3" target="NT1.7"/>
+   <edge id="e.35" source="NT1.2" target="NT1.3"/>
+   <edge id="e.41" source="NT1.2" target="NT1.10"/>
+   <edge id="e.43" source="NT1.29" target="NT1.49"/>
+   <edge id="e.44" source="NT1.30" target="NT1.38"/>
+   <edge id="e.46" source="NT1.29" target="NT1.45"/>
+  </tree>
+ </trees>
+</nexml>

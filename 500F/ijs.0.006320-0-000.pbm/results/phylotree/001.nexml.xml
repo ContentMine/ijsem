@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Bradyrhizobium japonicum bv. glycinearum LMG 6138T (X66024)</otu>
+  <otu id="otu2" cmphy:genus="Bradyrhizobium" cmphy:species="jicamae" cmphy:strain="PAC68T" cmphy:id="AY624134" editRecord="[]"> Bradyrhizobium jicamae PAC68T (AY624134)</otu>
+  <otu id="otu3">Bradyrhizobium japonicum bv. genistearum BGA-1 (AJ558024)</otu>
+  <otu id="otu4"> Bradyrhizobium genosp. beta BRE-1 (FJ428214)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Rhodopseudomonas palustrfs ATCC 1 7001 T (AF1 23087)</otu>
+  <otu id="otu9" cmphy:genus="Bradyrhizobium" cmphy:species="elkanfi" cmphy:strain="USDA 76T" cmphy:id="U35000" editRecord="[]"> Bradyrhizobium elkanfi USDA 76T (U35000)</otu>
+  <otu id="otu10"> Bradyrhizobium betas LMG 21 987T (AY372184)</otu>
+  <otu id="otu11">Bradyrhizobium yuanmingense CCBAU 1 1071 T (AF1 9381 8)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Nitrobacter" cmphy:species="winogradskyi" cmphy:strain="IFO 14297T" cmphy:id="AFB63288" editRecord="[3__B]">Nitrobacter winogradskyi IFO 14297T (AF363288)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">Bradyrhizobium genosp. alpha BC-C1 (AJ558030)</otu>
+  <otu id="otu15" cmphy:genus="Oligofropha" cmphy:species="carboxidovorans" cmphy:strain="S28" cmphy:id="ABO99660" editRecord="[]">Oligofropha carboxidovorans S28 (ABO99660)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Afipia" cmphy:species="felis" cmphy:strain="76713" cmphy:id="AFZ88310" editRecord="[2__Z]">Afipia felis 76713 (AF288310)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="thvboxidans" cmphy:strain="DSM 9653T" cmphy:id="AJZ50796" editRecord="[2__Z]">Bosea thvboxidans DSM 9653T (AJ250796)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="378.0" y="531.0"/>
+   <node id="NT1.5" x="521.0" y="505.0" label="97"/>
+   <node id="NT1.6" x="521.0" y="620.0" label="99"/>
+   <node id="NT1.11" label="NT1.11" x="537.0" y="591.0" otu="otu2"/>
+   <node id="NT1.23" label="NT1.23" x="597.0" y="630.0" otu="otu9"/>
+   <node id="NT1.25" x="614.0" y="534.0" label="99"/>
+   <node id="NT1.28" label="NT1.28" x="631.0" y="476.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="664.0" y="554.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="714.0" y="515.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="714.0" y="707.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="5.0" y="619.0" root="true"/>
+   <edge id="e.12" source="NT1.5" target="NT1.28"/>
+   <edge id="e.13" source="NT1.25" target="NT1.31"/>
+   <edge id="e.14" source="NT1.25" target="NT1.33"/>
+   <edge id="e.15" source="NT1.6" target="NT1.11"/>
+   <edge id="e.16" source="NT1.6" target="NT1.23"/>
+   <edge id="e.29" target="NT1.5" source="NT1.1"/>
+   <edge id="e.30" source="NT1.5" target="NT1.25"/>
+   <edge id="e.31" source="NT1.1" target="NT1.6"/>
+   <edge id="e.32" source="NT1.35" target="NT1.34"/>
+   <edge id="e.33" source="NT1.35" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

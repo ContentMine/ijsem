@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="v." cmphy:species="orientalis" cmphy:strain="ATCC 33934T" cmphy:id="X74710"> v. orientalis ATCC 33934T (X74710)</otu>
+  <otu id="otu4"> V. mediterranei CIP 1O320T (X74719)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="564.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="373.0" y="583.0" otu="otu3"/>
+   <edge id="e.1" target="NT1.5" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

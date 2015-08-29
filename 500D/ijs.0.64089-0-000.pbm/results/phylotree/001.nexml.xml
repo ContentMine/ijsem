@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Chitim'buczer tainanensix BCRC l7254T (AY264287)</otu>
+  <otu id="otu3">Formivibrio cilricus</otu>
+  <otu id="otu4">Iodabacterjluviarilis</otu>
+  <otu id="otu5">A Icaligenes defragrans 54PinT (AJOOS447)</otu>
+  <otu id="otu6">Vztreoscifla srercararia AT CC 1521815 (LOGI74)</otu>
+  <otu id="otu7">Aquitaleu magrmsonii TRO-001 DR8T (DQO l 8 l l 7)</otu>
+  <otu id="otu8">Chmmobaclerium vialaceum ATCC l24'.'2T (M225 1 0)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">(AB076875)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Uruburuella" cmphy:species="suis" cmphy:strain="CCUG 47806T" cmphy:id="AJS86614" editRecord="[5__S]">Uruburuella suis CCUG 47806T (AJ586614)</otu>
+  <otu id="otu12">wgeseua indigofera ATCC l9706"' (u4s995)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">Micravirgula aerodenitrijicans LMG 4329 (AJ4870 13)</otu>
+  <otu id="otu15">Laribacter honglcangensis HKU l T (AF3 89085)</otu>
+  <otu id="otu16" cmphy:genus="Neisseria" cmphy:species="gonorrhaeae" cmphy:strain="NCTC 83757" cmphy:id="X07714" editRecord="[]">Neisseria gonorrhaeae NCTC 83757 (X07714)</otu>
+  <otu id="otu17">Neisseria elongata ATCC 252951 (L06l71)</otu>
+  <otu id="otu18">Neisxeria denitrzjicanx ATCC 146861 (L06 1 73)</otu>
+  <otu id="otu19">K ingella oralis CCUG 304507 (L061 64)</otu>
+  <otu id="otu20" cmphy:genus="Kingella" cmphy:species="kingae" cmphy:strain="ATCC 233307" cmphy:id="M22517" editRecord="[]">Kingella kingae ATCC 233307 (M22517)</otu>
+  <otu id="otu21" cmphy:edit="[3__B]" cmphy:genus="Simonsiella" cmphy:species="steedae" cmphy:strain="ATCC Z7409T" cmphy:id="AFB28153" editRecord="[3__B]">Simonsiella steedae ATCC Z7409T (AF328153)</otu>
+  <otu id="otu22" cmphy:edit="[0__O]" cmphy:genus="Simonsiella" cmphy:species="crassa" cmphy:strain="IAM 149697" cmphy:id="ABO87264" editRecord="[0__O]">Simonsiella crassa IAM 149697 (AB087264)</otu>
+  <otu id="otu23">Alysiellafiliformis ATCC l5532T (AF4877l0)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="111.0" otu="otu1" root="true"/>
+   <node id="NT1.8" label="NT1.8" x="366.0" y="313.0"/>
+   <node id="NT1.10" label="NT1.10" x="427.0" y="390.0"/>
+   <node id="NT1.13" label="NT1.13" x="488.0" y="500.0"/>
+   <node id="NT1.16" x="548.0" y="538.0" label="100"/>
+   <node id="NT1.30" label="NT1.30" x="671.0" y="234.0" otu="otu11"/>
+   <node id="NT1.35" label="NT1.35" x="671.0" y="325.0" otu="otu16"/>
+   <node id="NT1.39" label="NT1.39" x="671.0" y="460.0" otu="otu20"/>
+   <node id="NT1.40" label="NT1.40" x="671.0" y="506.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="671.0" y="551.0" otu="otu22"/>
+   <edge id="e.10" source="NT1.8" target="NT1.30"/>
+   <edge id="e.15" target="NT1.35" source="NT1.10"/>
+   <edge id="e.19" source="NT1.13" target="NT1.39"/>
+   <edge id="e.20" source="NT1.16" target="NT1.40"/>
+   <edge id="e.27" target="NT1.8" source="NT1.1"/>
+   <edge id="e.30" source="NT1.8" target="NT1.10"/>
+   <edge id="e.37" source="NT1.13" target="NT1.16"/>
+   <edge id="e.39" source="NT1.10" target="NT1.13"/>
+   <edge id="e.40" target="NT1.41" source="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

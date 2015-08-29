@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Kytococcus" cmphy:species="sedentarius" cmphy:strain="DSM 20547T" cmphy:id="X87755" editRecord="[]">Kytococcus sedentarius DSM 20547T (X87755)</otu>
+  <otu id="otu2" cmphy:genus="Kocuria" cmphy:species="rosea" cmphy:strain="DSM 204477" cmphy:id="X87756" editRecord="[]">Kocuria rosea DSM 204477 (X87756)</otu>
+  <otu id="otu3">Arthrobacter globiformis DSM 20124T (M2341 1)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Micrococcus" cmphy:species="luteus" cmphy:strain="DSM 20o3oT" cmphy:id="AJS36198" editRecord="[5__S]">Micrococcus luteus DSM 20o3oT (AJ536198)</otu>
+  <otu id="otu5" cmphy:genus="Micrococcus" cmphy:species="lylae" cmphy:strain="DSM 20315T" cmphy:id="X80750" editRecord="[]">Micrococcus lylae DSM 20315T (X80750)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Citrococcus muralis 4-OT (AJ 344143)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Rothia" cmphy:species="dentocariosa" cmphy:strain="ATCC 17931T" cmphy:id="M59055" editRecord="[]">Rothia dentocariosa ATCC 17931T (M59055)</otu>
+  <otu id="otu10" cmphy:genus="Nesterenkonia" cmphy:species="halobia" cmphy:strain="DSM 20541T" cmphy:id="X80747" editRecord="[]">Nesterenkonia halobia DSM 20541T (X80747)</otu>
+  <otu id="otu11" cmphy:edit="[8__B]" cmphy:genus="Acaricomes" cmphy:species="phytoseiuli" cmphy:strain="DSM 14247T" cmphy:id="AJB12213" editRecord="[8__B]">Acaricomes phytoseiuli DSM 14247T (AJ812213)</otu>
+  <otu id="otu12" cmphy:genus="Renibacterium" cmphy:species="salmoninarum" cmphy:strain="ATCC 332097" cmphy:id="X51601" editRecord="[]">Renibacterium salmoninarum ATCC 332097 (X51601)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="106.0" y="358.0"/>
+   <node id="NT1.2" label="NT1.2" x="112.0" y="283.0"/>
+   <node id="NT1.3" label="NT1.3" x="128.0" y="197.0"/>
+   <node id="NT1.4" x="164.0" y="370.0" label="87"/>
+   <node id="NT1.7" x="188.0" y="285.0" label="58"/>
+   <node id="NT1.8" label="NT1.8" x="214.0" y="475.0" otu="otu1"/>
+   <node id="NT1.9" x="236.0" y="100.0" label="100"/>
+   <node id="NT1.12" label="NT1.12" x="290.0" y="348.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="294.0" y="95.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="319.0" y="137.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="391.0" y="391.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="398.0" y="433.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="425.0" y="264.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="431.0" y="306.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="0.0" y="416.0" root="true"/>
+   <edge id="e.2" target="NT1.14" source="NT1.9"/>
+   <edge id="e.3" source="NT1.9" target="NT1.15"/>
+   <edge id="e.6" source="NT1.4" target="NT1.12"/>
+   <edge id="e.7" source="NT1.7" target="NT1.21"/>
+   <edge id="e.8" source="NT1.7" target="NT1.22"/>
+   <edge id="e.9" source="NT1.4" target="NT1.19"/>
+   <edge id="e.10" source="NT1.1" target="NT1.20"/>
+   <edge id="e.13" target="NT1.9" source="NT1.3"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" target="NT1.7" source="NT1.3"/>
+   <edge id="e.18" source="NT1.1" target="NT1.2"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.20" source="NT1.23" target="NT1.8"/>
+   <edge id="e.21" source="NT1.23" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

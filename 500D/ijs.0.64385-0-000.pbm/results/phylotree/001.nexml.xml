@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[5__S]" cmphy:genus="Pseudonocardia" cmphy:species="antarctica" cmphy:strain="DVS 5a1T" cmphy:id="AJS76010" editRecord="[5__S]">Pseudonocardia antarctica DVS 5a1T (AJ576010)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Pseudonocardia" cmphy:species="alaniniphila" cmphy:strain="CGMCC 4.1536T" cmphy:id="AFB25726" editRecord="[3__B]">Pseudonocardia alaniniphila CGMCC 4.1536T (AF325726)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Pseudonocardia" cmphy:species="sulfidoxydans" cmphy:strain="DSM 44248T" cmphy:id="Y08537" editRecord="[O__0]">Pseudonocardia sulfidoxydans DSM 44248T (YO8537)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Pseudonocardia" cmphy:species="halophobica" cmphy:strain="IMSNU 21327T" cmphy:id="AJZ52827" editRecord="[2__Z]">Pseudonocardia halophobica IMSNU 21327T (AJ252827)</otu>
+  <otu id="otu10">Strain D1 OT (DQ343154)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Pseudonocardia" cmphy:species="kongjuensis" cmphy:strain="LM 157T" cmphy:id="AJZ52833" editRecord="[2__Z]">Pseudonocardia kongjuensis LM 157T (AJ252833)</otu>
+  <otu id="otu12" cmphy:genus="Pseudonocardia" cmphy:species="chloroethenivorans" cmphy:strain="SL-1T" cmphy:id="AF454510" editRecord="[]">Pseudonocardia chloroethenivorans SL-1T (AF454510)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="74.0" y="331.0" label="68"/>
+   <node id="NT1.2" x="125.0" y="203.0" label="51"/>
+   <node id="NT1.3" label="NT1.3" x="162.0" y="638.0"/>
+   <node id="NT1.4" label="NT1.4" x="170.0" y="458.0"/>
+   <node id="NT1.9" label="NT1.9" x="363.0" y="563.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="378.0" y="383.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="388.0" y="142.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="443.0" y="323.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="487.0" y="684.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="517.0" y="504.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="2.0" y="484.0" root="true"/>
+   <edge id="e.3" target="NT1.14" source="NT1.2"/>
+   <edge id="e.4" target="NT1.19" source="NT1.2"/>
+   <edge id="e.6" target="NT1.12" source="NT1.4"/>
+   <edge id="e.8" source="NT1.4" target="NT1.22"/>
+   <edge id="e.9" target="NT1.9" source="NT1.3"/>
+   <edge id="e.11" source="NT1.3" target="NT1.21"/>
+   <edge id="e.15" source="NT1.1" target="NT1.2"/>
+   <edge id="e.17" source="NT1.1" target="NT1.4"/>
+   <edge id="e.20" source="NT1.23" target="NT1.1"/>
+   <edge id="e.21" source="NT1.23" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

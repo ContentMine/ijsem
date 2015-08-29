@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Avibacterium" cmphy:species="gallinarum" cmphy:strain="NCTC 111887" cmphy:id="AYB62921" editRecord="[3__B]">Avibacterium gallinarum NCTC 111887 (AY362921)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Volucribacter" cmphy:species="psittacicida" cmphy:strain="Gerl. 236l81T" cmphy:id="AYZ16868" editRecord="[2__Z]">Volucribacter psittacicida Gerl. 236l81T (AY216868)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Gallibacterium" cmphy:species="anatis" cmphy:strain="ATCC 43329T" cmphy:id="AFZ28001" editRecord="[2__Z]">Gallibacterium anatis ATCC 43329T (AF228001)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Histophilus" cmphy:species="somni" cmphy:strain="8025'" cmphy:id="AFS49387" editRecord="[5__S]">Histophilus somni 8025' (AF549387)</otu>
+  <otu id="otu5">Lonepinella koalarum ACM 3666T(Y17189)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Nicoletella" cmphy:species="semolina" cmphy:strain="CCUG 43639T" cmphy:id="AYS08816" editRecord="[5__S]">Nicoletella semolina CCUG 43639T (AY508816)</otu>
+  <otu id="otu7">Bibersteinia trehalosi NCTC 10370' (AY362927)( NCTC 10624 (M75063)</otu>
+  <otu id="otu8" cmphy:genus="Bibersteinia" cmphy:species="trehalosi" cmphy:strain="NCTC 11550" cmphy:id="U57073" editRecord="[]">Bibersteinia trehalosi NCTC 11550 (U57073)</otu>
+  <otu id="otu9" cmphy:genus="Bibersteinia" cmphy:species="trehalosi" cmphy:strain="NCTC 10641" cmphy:id="U57074" editRecord="[]">Bibersteinia trehalosi NCTC 10641 (U57074)</otu>
+  <otu id="otu10" cmphy:genus="Bibersteinia" cmphy:species="trehalosi" cmphy:strain="NCTC 10626" cmphy:id="U57075" editRecord="[]">Bibersteinia trehalosi NCTC 10626 (U57075)</otu>
+  <otu id="otu11">Pasteurella multoclda subsp. multocida NCTC 10322' (AF294410)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Bibersteinia" cmphy:species="trehalosi" cmphy:strain="B464_94" cmphy:id="DQB61040" editRecord="[3__B]">Bibersteinia trehalosi B464_94 (DQ361040)</otu>
+  <otu id="otu13" cmphy:genus="Mannheimia" cmphy:species="haemolytica" cmphy:strain="NCTC 938OT" cmphy:id="AFO60699" editRecord="[]">Mannheimia haemolytica NCTC 938OT (AFO60699)</otu>
+  <otu id="otu14">Acrinobacillus Iignieresii NCTC 4189' (M75068)</otu>
+  <otu id="otu15" cmphy:genus="Haemophilus" cmphy:species="influenzae" cmphy:strain="ATCC 333917" cmphy:id="M35019" editRecord="[]">Haemophilus influenzae ATCC 333917 (M35019)</otu>
+  <otu id="otu16" cmphy:genus="Phocoenobacter" cmphy:species="uteri" cmphy:strain="NCTC 12872'" cmphy:id="X89379" editRecord="[]">Phocoenobacter uteri NCTC 12872' (X89379)</otu>
+  <otu id="otu17">(Actinobacillusl actinomycetemcomitans ATCC 33384' (M75039)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="916.0"/>
+   <node id="NT1.2" label="NT1.2" x="58.0" y="975.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="91.0" y="726.0"/>
+   <node id="NT1.4" label="NT1.4" x="135.0" y="591.0"/>
+   <node id="NT1.5" label="NT1.5" x="182.0" y="383.0"/>
+   <node id="NT1.6" label="NT1.6" x="209.0" y="605.0"/>
+   <node id="NT1.7" label="NT1.7" x="234.0" y="157.0"/>
+   <node id="NT1.8" label="NT1.8" x="239.0" y="857.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="249.0" y="916.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="250.0" y="499.0"/>
+   <node id="NT1.13" label="NT1.13" x="323.0" y="797.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="334.0" y="402.0"/>
+   <node id="NT1.17" label="NT1.17" x="338.0" y="205.0" otu="otu6"/>
+   <node id="NT1.20" x="361.0" y="352.0" label="62"/>
+   <node id="NT1.21" label="NT1.21" x="362.0" y="470.0"/>
+   <node id="NT1.22" label="NT1.22" x="367.0" y="323.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="367.0" y="383.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="368.0" y="501.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="393.0" y="442.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="428.0" y="560.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="448.0" y="28.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="456.0" y="738.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="5.0" y="945.0" root="true"/>
+   <edge id="e.0" target="NT1.30" source="NT1.7"/>
+   <edge id="e.4" target="NT1.31" source="NT1.6"/>
+   <edge id="e.5" source="NT1.3" target="NT1.8"/>
+   <edge id="e.6" source="NT1.21" target="NT1.27"/>
+   <edge id="e.8" source="NT1.20" target="NT1.22"/>
+   <edge id="e.9" source="NT1.20" target="NT1.23"/>
+   <edge id="e.10" source="NT1.1" target="NT1.9"/>
+   <edge id="e.13" source="NT1.5" target="NT1.7"/>
+   <edge id="e.14" source="NT1.4" target="NT1.5"/>
+   <edge id="e.15" source="NT1.5" target="NT1.6"/>
+   <edge id="e.17" source="NT1.6" target="NT1.10"/>
+   <edge id="e.18" source="NT1.3" target="NT1.4"/>
+   <edge id="e.20" source="NT1.10" target="NT1.14"/>
+   <edge id="e.21" source="NT1.1" target="NT1.3"/>
+   <edge id="e.22" source="NT1.14" target="NT1.21"/>
+   <edge id="e.24" target="NT1.20" source="NT1.14"/>
+   <edge id="e.25" source="NT1.33" target="NT1.2"/>
+   <edge id="e.26" source="NT1.33" target="NT1.1"/>
+   <edge id="e.27" source="NT1.4" target="NT1.13"/>
+   <edge id="e.28" source="NT1.7" target="NT1.17"/>
+   <edge id="e.29" source="NT1.21" target="NT1.25"/>
+   <edge id="e.30" target="NT1.28" source="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

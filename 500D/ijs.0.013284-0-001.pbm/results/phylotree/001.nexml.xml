@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Marichromatium" cmphy:species="fluminis" cmphy:strain="JA4187" cmphy:id="FMZ10274" editRecord="[2__Z]">Marichromatium fluminis JA4187 (FM210274)</otu>
+  <otu id="otu2" cmphy:genus="Thiophaeococcus" cmphy:species="mangrovi" cmphy:strain="JA3O47" cmphy:id="AM748925" editRecord="[]">Thiophaeococcus mangrovi JA3O47 (AM748925)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">Marichromatium bheemlicumJA1247(AM18O952)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="377.0" y="615.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="403.0" y="53.0" otu="otu2"/>
+   <node id="NT1.11" x="199.0" y="353.0" root="true" label="100"/>
+   <edge id="e.0" target="NT1.3" source="NT1.11"/>
+   <edge id="e.8" source="NT1.11" target="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

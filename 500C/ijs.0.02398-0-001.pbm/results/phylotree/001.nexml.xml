@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Flexibacter" cmphy:species="flexilis" cmphy:strain="ATCC 23079T" cmphy:id="M62794" editRecord="[]">Flexibacter flexilis ATCC 23079T (M62794)</otu>
+  <otu id="otu2" cmphy:genus="Psychroserpens" cmphy:species="burfonensis" cmphy:strain="ACAM 188T" cmphy:id="U62913" editRecord="[]">Psychroserpens burfonensis ACAM 188T (U62913)</otu>
+  <otu id="otu3" cmphy:genus="Polaribacter" cmphy:species="glomeratus" cmphy:strain="ATCC 438447" cmphy:id="M58775" editRecord="[]">Polaribacter glomeratus ATCC 438447 (M58775)</otu>
+  <otu id="otu4">Cellulophaga Iytica ATCC 231787 (M62796)</otu>
+  <otu id="otu5" cmphy:genus="Polaribacter" cmphy:species="irgensii" cmphy:strain="ATCC 700398T" cmphy:id="M61002" editRecord="[]"> Polaribacter irgensii ATCC 700398T (M61002)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Gelidibacter" cmphy:species="algens" cmphy:strain="ACAM 536T" cmphy:id="U62914" editRecord="[]"> Gelidibacter algens ACAM 536T (U62914)</otu>
+  <otu id="otu8" cmphy:genus="Polaribacter" cmphy:species="filamentus" cmphy:strain="ATCC 7003977" cmphy:id="U73726" editRecord="[]">Polaribacter filamentus ATCC 7003977 (U73726)</otu>
+  <otu id="otu9">Strain D307 (AF469612)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Tenacibaculum" cmphy:species="ovolyticum" cmphy:strain="IAM 14318T" cmphy:id="ABO32506" editRecord="[0__O]">Tenacibaculum ovolyticum IAM 14318T (AB032506)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Tenacibaculum" cmphy:species="mesophilum" cmphy:strain="MBIC 11407" cmphy:id="ABO32501" editRecord="[0__O]"> Tenacibaculum mesophilum MBIC 11407 (AB032501)</otu>
+  <otu id="otu12">(Cytophagc-21 Iatercula ATCC 23177T (D12665)</otu>
+  <otu id="otu13" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="ACAM 487" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens ACAM 487 (M92279)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Tenacibaculum" cmphy:species="maritimum" cmphy:strain="NCIMB 2154T" cmphy:id="D14023" editRecord="[]">Tenacibaculum maritimum NCIMB 2154T (D14023)</otu>
+  <otu id="otu16">Psychroflexus torquis ACAM 623T (usssm)</otu>
+  <otu id="otu17" cmphy:genus="Zobellia" cmphy:species="uliginosa" cmphy:strain="ATCC 14397T" cmphy:id="M62799" editRecord="[]">Zobellia uliginosa ATCC 14397T (M62799)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="259.0" y="362.0"/>
+   <node id="NT1.2" label="NT1.2" x="260.0" y="727.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="270.0" y="507.0"/>
+   <node id="NT1.4" x="281.0" y="577.0" label="39"/>
+   <node id="NT1.5" x="302.0" y="526.0" label="82"/>
+   <node id="NT1.8" x="321.0" y="216.0" label="100"/>
+   <node id="NT1.10" x="347.0" y="154.0" label="99"/>
+   <node id="NT1.11" x="365.0" y="120.0" label="99"/>
+   <node id="NT1.12" x="366.0" y="294.0" label="96"/>
+   <node id="NT1.16" label="NT1.16" x="392.0" y="348.0"/>
+   <node id="NT1.17" label="NT1.17" x="398.0" y="504.0" otu="otu2"/>
+   <node id="NT1.18" label="NT1.18" x="400.0" y="372.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="404.0" y="238.0" otu="otu5"/>
+   <node id="NT1.22" label="NT1.22" x="412.0" y="550.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="414.0" y="327.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="427.0" y="151.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="429.0" y="106.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="431.0" y="683.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="438.0" y="194.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="461.0" y="417.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="5.0" y="544.0" root="true"/>
+   <edge id="e.2" target="NT1.26" source="NT1.11"/>
+   <edge id="e.3" source="NT1.11" target="NT1.25"/>
+   <edge id="e.4" source="NT1.12" target="NT1.20"/>
+   <edge id="e.6" source="NT1.16" target="NT1.18"/>
+   <edge id="e.7" source="NT1.16" target="NT1.23"/>
+   <edge id="e.8" source="NT1.5" target="NT1.17"/>
+   <edge id="e.9" source="NT1.5" target="NT1.22"/>
+   <edge id="e.12" target="NT1.28" source="NT1.4"/>
+   <edge id="e.15" source="NT1.10" target="NT1.11"/>
+   <edge id="e.16" source="NT1.8" target="NT1.10"/>
+   <edge id="e.17" source="NT1.1" target="NT1.8"/>
+   <edge id="e.18" source="NT1.8" target="NT1.12"/>
+   <edge id="e.20" target="NT1.16" source="NT1.12"/>
+   <edge id="e.21" source="NT1.1" target="NT1.3"/>
+   <edge id="e.23" source="NT1.3" target="NT1.4"/>
+   <edge id="e.25" source="NT1.4" target="NT1.5"/>
+   <edge id="e.27" source="NT1.33" target="NT1.2"/>
+   <edge id="e.28" source="NT1.33" target="NT1.1"/>
+   <edge id="e.30" source="NT1.10" target="NT1.30"/>
+   <edge id="e.31" target="NT1.32" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

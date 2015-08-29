@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Nubsella" cmphy:species="zeaxanthinifaciens" cmphy:strain="TDMA-5T" cmphy:id="ABZ64126" editRecord="[2__Z]">Nubsella zeaxanthinifaciens TDMA-5T (AB264126)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Mucilaginibacter" cmphy:species="mallensis" cmphy:strain="MP1X4Y" cmphy:id="FN400859" editRecord="[]">Mucilaginibacter mallensis MP1X4Y (FN400859)</otu>
+  <otu id="otu13">Mucilaginibacter Iappiensis RA1BR4 (DQ234507)</otu>
+  <otu id="otu14">Mucilaginibacter daejeonensis Jip 10 6 (AB26771 7)</otu>
+  <otu id="otu15">Mucilaginibacter Iappiensis ANJLl2' (DQ234446)</otu>
+  <otu id="otu16" cmphy:genus="Mucilaginibacter" cmphy:species="paludis" cmphy:strain="TPT56T" cmphy:id="AM490402" editRecord="[]">Mucilaginibacter paludis TPT56T (AM490402)</otu>
+  <otu id="otu17" cmphy:genus="Mucilaginibacter" cmphy:species="frigoritolerans" cmphy:strain="FT22Y" cmphy:id="FN400860" editRecord="[]">Mucilaginibacter frigoritolerans FT22Y (FN400860)</otu>
+  <otu id="otu18">Mucilaginibacter oryzae B91 (EU 1 09722)</otu>
+  <otu id="otu19">Mucilaginibacter riguiWPCB133T (EU747841)</otu>
+  <otu id="otu20">Mucilaginibacter Ximonensis XM-0031 (EU 729366)</otu>
+  <otu id="otu21" cmphy:genus="Mucilaginibacter" cmphy:species="gracilis" cmphy:strain="TPT1 81" cmphy:id="AM490403" editRecord="[]">Mucilaginibacter gracilis TPT1 81 (AM490403)</otu>
+  <otu id="otu22" cmphy:edit="[3__B]" cmphy:genus="Mucilaginibacter" cmphy:species="kameinonensis" cmphy:strain="SCKE" cmphy:id="ABB30392" editRecord="[3__B]">Mucilaginibacter kameinonensis SCKE (AB330392)</otu>
+  <otu id="otu23">Pedobacter heparinus DSM 23661 (AJ4381 72)</otu>
+  <otu id="otu24" cmphy:genus="Sphingobacterium" cmphy:species="spiritivorum" cmphy:strain="ATCC 338611" cmphy:id="M58778" editRecord="[]">Sphingobacterium spiritivorum ATCC 338611 (M58778)</otu>
+  <otu id="otu25" cmphy:genus="Parapedobacter" cmphy:species="koreensis" cmphy:strain="Jip14E" cmphy:id="DQ680836" editRecord="[]">Parapedobacter koreensis Jip14E (DQ680836)</otu>
+  <otu id="otu26">Olivibacter sitiensis AW-6T (DQ421 38 7)</otu>
+  <otu id="otu27" cmphy:edit="[1__I]" cmphy:genus="Flavobacterium" cmphy:species="frigidimaris" cmphy:strain="KUC-1T" cmphy:id="ABI83888" editRecord="[1__I]">Flavobacterium frigidimaris KUC-1T (AB183888)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="200.0" y="570.0"/>
+   <node id="NT1.4" label="NT1.4" x="226.0" y="489.0"/>
+   <node id="NT1.6" label="NT1.6" x="268.0" y="560.0"/>
+   <node id="NT1.13" label="NT1.13" x="315.0" y="222.0"/>
+   <node id="NT1.14" label="NT1.14" x="328.0" y="316.0"/>
+   <node id="NT1.15" label="NT1.15" x="340.0" y="191.0"/>
+   <node id="NT1.20" label="NT1.20" x="371.0" y="271.0"/>
+   <node id="NT1.22" label="NT1.22" x="374.0" y="649.0" otu="otu8"/>
+   <node id="NT1.27" label="NT1.27" x="425.0" y="212.0" otu="otu12"/>
+   <node id="NT1.32" label="NT1.32" x="444.0" y="291.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="451.0" y="172.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="474.0" y="251.0" otu="otu21"/>
+   <node id="NT1.38" label="NT1.38" x="477.0" y="371.0" otu="otu22"/>
+   <node id="NT1.40" label="NT1.40" x="520.0" y="530.0" otu="otu24"/>
+   <node id="NT1.41" label="NT1.41" x="554.0" y="570.0" otu="otu25"/>
+   <node id="NT1.43" label="NT1.43" x="668.0" y="689.0" otu="otu27"/>
+   <node id="NT1.44" label="NT1.44" x="3.0" y="570.0" root="true"/>
+   <edge id="e.4" source="NT1.15" target="NT1.27"/>
+   <edge id="e.5" source="NT1.15" target="NT1.33"/>
+   <edge id="e.12" source="NT1.20" target="NT1.32"/>
+   <edge id="e.13" target="NT1.38" source="NT1.14"/>
+   <edge id="e.18" source="NT1.1" target="NT1.22"/>
+   <edge id="e.19" target="NT1.41" source="NT1.6"/>
+   <edge id="e.22" source="NT1.13" target="NT1.15"/>
+   <edge id="e.23" target="NT1.13" source="NT1.4"/>
+   <edge id="e.24" source="NT1.13" target="NT1.14"/>
+   <edge id="e.26" source="NT1.14" target="NT1.20"/>
+   <edge id="e.30" target="NT1.4" source="NT1.1"/>
+   <edge id="e.31" source="NT1.4" target="NT1.6"/>
+   <edge id="e.34" source="NT1.44" target="NT1.1"/>
+   <edge id="e.35" source="NT1.44" target="NT1.43"/>
+   <edge id="e.38" source="NT1.6" target="NT1.40"/>
+   <edge id="e.40" source="NT1.20" target="NT1.37"/>
+  </tree>
+ </trees>
+</nexml>

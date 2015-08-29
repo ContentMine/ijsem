@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Plesiomonas" cmphy:species="shigelloides" cmphy:strain="ATCC 140297" cmphy:id="X74688" editRecord="[]">Plesiomonas shigelloides ATCC 140297 (X74688)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Photobacterium" cmphy:species="phosphoreum" cmphy:strain="ATCC 110407" cmphy:id="AYB41437" editRecord="[3__B]">Photobacterium phosphoreum ATCC 110407 (AY341437)</otu>
+  <otu id="otu3" cmphy:genus="Shewanella" cmphy:species="algae" cmphy:strain="FeRed" cmphy:id="X81622" editRecord="[]">Shewanella algae FeRed (X81622)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Shewanella" cmphy:species="hanedai" cmphy:strain="CIP 1032077" cmphy:id="X82132" editRecord="[]">Shewanella hanedai CIP 1032077 (X82132)</otu>
+  <otu id="otu6" cmphy:genus="Vibrio" cmphy:species="cholerae" cmphy:strain="ATCC 140357" cmphy:id="X74695" editRecord="[]">Vibrio cholerae ATCC 140357 (X74695)</otu>
+  <otu id="otu7" cmphy:genus="Shewanella" cmphy:species="gelidimarina" cmphy:strain="ACAM 4567" cmphy:id="U85907" editRecord="[]">Shewanella gelidimarina ACAM 4567 (U85907)</otu>
+  <otu id="otu8" cmphy:genus="Shewanella" cmphy:species="frigidimarina" cmphy:strain="ACAM 5917" cmphy:id="U85903" editRecord="[]"> Shewanella frigidimarina ACAM 5917 (U85903)</otu>
+  <otu id="otu9" cmphy:genus="Shewanella" cmphy:species="putrefaciens" cmphy:strain="ATCC 80717" cmphy:id="X82133" editRecord="[]">Shewanella putrefaciens ATCC 80717 (X82133)</otu>
+  <otu id="otu10">A3B-64-2 (AB193754)</otu>
+  <otu id="otu11">A2A-30 (AB193748)</otu>
+  <otu id="otu12">A3B-8 (AB193749)</otu>
+  <otu id="otu13">A3B-57-2 (AB193756)</otu>
+  <otu id="otu14" cmphy:genus="Pseudoalteromonas" cmphy:species="haloplanktis" cmphy:strain="ATCC 143937" cmphy:id="X67024" editRecord="[]">Pseudoalteromonas haloplanktis ATCC 143937 (X67024)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Aeromonas" cmphy:species="salmonicida" cmphy:strain="NCIMB 11027" cmphy:id="X60405" editRecord="[]">Aeromonas salmonicida NCIMB 11027 (X60405)</otu>
+  <otu id="otu17">A3B-58 (AB193755)</otu>
+  <otu id="otu18">ASB447-3 (AB193753)</otu>
+  <otu id="otu19" cmphy:genus="Aeromonas" cmphy:species="hydrophila" cmphy:strain="ATCC 79667" cmphy:id="X74677" editRecord="[]">Aeromonas hydrophila ATCC 79667 (X74677)</otu>
+  <otu id="otu20">Escherichia coli ATCC 1 17757 (X80725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="45.0" y="734.0"/>
+   <node id="NT1.2" x="73.0" y="526.0" label="95"/>
+   <node id="NT1.3" label="NT1.3" x="129.0" y="388.0"/>
+   <node id="NT1.4" x="135.0" y="783.0" label="97"/>
+   <node id="NT1.7" label="NT1.7" x="224.0" y="485.0"/>
+   <node id="NT1.8" label="NT1.8" x="248.0" y="544.0"/>
+   <node id="NT1.9" x="323.0" y="587.0" label="80"/>
+   <node id="NT1.11" label="NT1.11" x="375.0" y="698.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="408.0" y="477.0"/>
+   <node id="NT1.13" label="NT1.13" x="424.0" y="800.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="437.0" y="425.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="469.0" y="561.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="494.0" y="766.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="495.0" y="630.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="510.0" y="527.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="511.0" y="493.0" otu="otu9"/>
+   <node id="NT1.28" x="556.0" y="375.0" label="100"/>
+   <node id="NT1.31" label="NT1.31" x="569.0" y="663.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="590.0" y="357.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="606.0" y="392.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="19.0" y="612.0" root="true"/>
+   <edge id="e.5" source="NT1.28" target="NT1.33"/>
+   <edge id="e.6" source="NT1.28" target="NT1.36"/>
+   <edge id="e.8" source="NT1.9" target="NT1.17"/>
+   <edge id="e.9" target="NT1.19" source="NT1.9"/>
+   <edge id="e.10" source="NT1.12" target="NT1.20"/>
+   <edge id="e.11" source="NT1.12" target="NT1.21"/>
+   <edge id="e.13" source="NT1.2" target="NT1.31"/>
+   <edge id="e.14" target="NT1.11" source="NT1.1"/>
+   <edge id="e.15" source="NT1.4" target="NT1.13"/>
+   <edge id="e.16" source="NT1.4" target="NT1.18"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.23" source="NT1.3" target="NT1.7"/>
+   <edge id="e.24" source="NT1.7" target="NT1.8"/>
+   <edge id="e.25" source="NT1.8" target="NT1.9"/>
+   <edge id="e.26" source="NT1.8" target="NT1.12"/>
+   <edge id="e.28" source="NT1.1" target="NT1.4"/>
+   <edge id="e.29" source="NT1.38" target="NT1.2"/>
+   <edge id="e.30" source="NT1.38" target="NT1.1"/>
+   <edge id="e.32" target="NT1.28" source="NT1.3"/>
+   <edge id="e.33" source="NT1.7" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

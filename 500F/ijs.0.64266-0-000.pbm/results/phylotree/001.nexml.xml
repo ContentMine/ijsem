@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Kocuria" cmphy:species="rosea" cmphy:strain="DSM 20447T" cmphy:id="X87756" editRecord="[]">Kocuria rosea DSM 20447T (X87756)</otu>
+  <otu id="otu2" cmphy:genus="Arfhrobacter" cmphy:species="globiformis" cmphy:strain="DSM 201247" cmphy:id="X80736" editRecord="[]">Arfhrobacter globiformis DSM 201247 (X80736)</otu>
+  <otu id="otu3">N. lutea YIM 70081T (AY588278)</otu>
+  <otu id="otu4">N. sandarakina YIM 70009T (AY588277)</otu>
+  <otu id="otu5">N. jeotgali JG-241T (AY928901)</otu>
+  <otu id="otu6">N. halotolerans YIM 70084T (AY226508)</otu>
+  <otu id="otu7">N. xinjiangensis YIM 700977 (AY226510)</otu>
+  <otu id="otu8" cmphy:genus="Rothia" cmphy:species="dentocariosa" cmphy:strain="ATCC 17931T" cmphy:id="M59055" editRecord="[]">Rothia dentocariosa ATCC 17931T (M59055)</otu>
+  <otu id="otu9">N. lacusekhoensis DSM 12544T (AJ290397)</otu>
+  <otu id="otu10">N. halobia DSM 2O541T (X80747)</otu>
+  <otu id="otu11"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="50.0" y="370.0"/>
+   <node id="NT1.3" label="NT1.3" x="86.0" y="325.0"/>
+   <node id="NT1.6" label="NT1.6" x="234.0" y="304.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="265.0" y="386.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="342.0" y="345.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="6.0" y="354.0" root="true"/>
+   <edge id="e.2" source="NT1.3" target="NT1.6"/>
+   <edge id="e.3" source="NT1.2" target="NT1.7"/>
+   <edge id="e.7" target="NT1.2" source="NT1.18"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.10" source="NT1.3" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

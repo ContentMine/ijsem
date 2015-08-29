@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Moraxella (Branhamella) calarrhalis ATCC 25238T(AF005185)</otu>
+  <otu id="otu3">Moraxella (Moraxella) nonliquefaciens NCTC 7784 (AF005172)</otu>
+  <otu id="otu4">Moraxella (Moraxella) lacunata ATCC 17967T (AF005160)</otu>
+  <otu id="otu5">Moraxella (Moraxella) osloensis 5873 (AF005190)</otu>
+  <otu id="otu6">Moraxella (Branhamella) caviae CCUG 355T (AFO05187)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Moraxella" cmphy:species="equi" cmphy:strain="ATCC 25576T" cmphy:id="AFO05184" editRecord="[0__O]">Moraxella equi ATCC 25576T (AF005184)</otu>
+  <otu id="otu8">Moraxella canis LMG 1 1 194T (AJ26951 1)</otu>
+  <otu id="otu9" cmphy:genus="Acinetobacter" cmphy:species="haemolyticus" cmphy:strain="DSM 6962T" cmphy:id="X81662" editRecord="[]">Acinetobacter haemolyticus DSM 6962T (X81662)</otu>
+  <otu id="otu10">Psychrobacterphenyhayruvicus 752752 (AF005192)</otu>
+  <otu id="otu11">Acinetobacter calcoaceticus DSM 30006T (AJ 633632)</otu>
+  <otu id="otu12" cmphy:genus="Acinetobacter" cmphy:species="baumannii" cmphy:strain="DSM 30O07T" cmphy:id="X81660" editRecord="[]">Acinetobacter baumannii DSM 30O07T (X81660)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Moraxella" cmphy:species="oblonga" cmphy:strain="IAM 14971T" cmphy:id="ABO87260" editRecord="[0__O]">Moraxella oblonga IAM 14971T (AB087260)</otu>
+  <otu id="otu14">Moraxella (Branhamella) ovis ATCC 33078T (AF 005186)</otu>
+  <otu id="otu15">Moraxella (Moraxella) bovis ATCC</otu>
+  <otu id="otu16">Escherichia coli (J 0 1 695)</otu>
+  <otu id="otu17" cmphy:edit="[3__B]" cmphy:genus="Psychrobacter" cmphy:species="immobilis" cmphy:strain="DSM 7229T" cmphy:id="AJB09942" editRecord="[3__B]">Psychrobacter immobilis DSM 7229T (AJ309942)</otu>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Moraxella" cmphy:species="cuniculi" cmphy:strain="CCUG 2154T" cmphy:id="AFO05188" editRecord="[0__O]">Moraxella cuniculi CCUG 2154T (AF005188)</otu>
+  <otu id="otu19">Psychrobacterphenymyruvicus ATCC 23333T (U46144)</otu>
+  <otu id="otu20">Moraxella (Moraxella) allantae LMG 5133T (AF 005 19 1)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="928.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="116.0" y="792.0"/>
+   <node id="NT1.5" label="NT1.5" x="322.0" y="444.0"/>
+   <node id="NT1.7" label="NT1.7" x="420.0" y="330.0"/>
+   <node id="NT1.9" label="NT1.9" x="478.0" y="908.0"/>
+   <node id="NT1.12" label="NT1.12" x="493.0" y="230.0"/>
+   <node id="NT1.24" label="NT1.24" x="575.0" y="257.0" otu="otu7"/>
+   <node id="NT1.26" label="NT1.26" x="582.0" y="996.0" otu="otu9"/>
+   <node id="NT1.29" label="NT1.29" x="602.0" y="885.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="606.0" y="544.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="633.0" y="714.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="657.0" y="143.0" otu="otu18"/>
+   <edge id="e.3" target="NT1.35" source="NT1.12"/>
+   <edge id="e.5" target="NT1.34" source="NT1.5"/>
+   <edge id="e.7" target="NT1.26" source="NT1.9"/>
+   <edge id="e.10" target="NT1.12" source="NT1.7"/>
+   <edge id="e.14" source="NT1.5" target="NT1.7"/>
+   <edge id="e.18" target="NT1.5" source="NT1.3"/>
+   <edge id="e.22" source="NT1.3" target="NT1.9"/>
+   <edge id="e.23" target="NT1.3" source="NT1.1"/>
+   <edge id="e.28" source="NT1.7" target="NT1.30"/>
+   <edge id="e.29" source="NT1.9" target="NT1.29"/>
+   <edge id="e.33" target="NT1.24" source="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Ensifer" cmphy:species="adhaerens" cmphy:strain="ATCC 33212T" cmphy:id="AFI91739" editRecord="[1__I]">Ensifer adhaerens ATCC 33212T (AF191739)</otu>
+  <otu id="otu2" cmphy:genus="Phyllobacterium" cmphy:species="rnyrsinacearum" cmphy:strain="IAM 13584T" cmphy:id="D12789" editRecord="[]">Phyllobacterium rnyrsinacearum IAM 13584T (D12789)</otu>
+  <otu id="otu3"> Mesorhizobium Ioti LMG 6125T (X67229)</otu>
+  <otu id="otu4">Aminobacter aminovorans DSM 7048T (AJO1 1759)</otu>
+  <otu id="otu5">Rhizobium Ieguminosarum ATCC 10OO4T (U29386)</otu>
+  <otu id="otu6" cmphy:genus="Pseudaminobacter" cmphy:species="defluvii" cmphy:strain="THI 051T" cmphy:id="D32248" editRecord="[]">Pseudaminobacter defluvii THI 051T (D32248)</otu>
+  <otu id="otu7" cmphy:genus="Aquamicrobium" cmphy:species="defluvii" cmphy:strain="LMG 220487" cmphy:id="Y15403" editRecord="[]">Aquamicrobium defluvii LMG 220487 (Y15403)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Defluvibacter" cmphy:species="lusatiensis" cmphy:strain="DSM 110997" cmphy:id="AJI32378" editRecord="[1__I]">Defluvibacter lusatiensis DSM 110997 (AJ132378)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Hoeflea" cmphy:species="marina" cmphy:strain="LMG 1287" cmphy:id="AYS98817" editRecord="[5__S]">Hoeflea marina LMG 1287 (AY598817)</otu>
+  <otu id="otu10" cmphy:genus="Bradyrhizobium" cmphy:species="japonicum" cmphy:strain="LMG 6138T" cmphy:id="X66024" editRecord="[]">Bradyrhizobium japonicum LMG 6138T (X66024)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="313.0" y="236.0"/>
+   <node id="NT1.3" x="372.0" y="176.0" label="89"/>
+   <node id="NT1.4" x="415.0" y="111.0" label="62"/>
+   <node id="NT1.6" label="NT1.6" x="460.0" y="156.0"/>
+   <node id="NT1.7" label="NT1.7" x="499.0" y="277.0" otu="otu1"/>
+   <node id="NT1.9" x="565.0" y="184.0" label="99"/>
+   <node id="NT1.10" label="NT1.10" x="589.0" y="92.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="635.0" y="128.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="655.0" y="166.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="662.0" y="203.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="667.0" y="240.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="667.0" y="352.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="5.0" y="294.0" root="true"/>
+   <edge id="e.2" target="NT1.10" source="NT1.4"/>
+   <edge id="e.3" source="NT1.6" target="NT1.14"/>
+   <edge id="e.4" source="NT1.9" target="NT1.15"/>
+   <edge id="e.5" source="NT1.9" target="NT1.16"/>
+   <edge id="e.6" source="NT1.3" target="NT1.17"/>
+   <edge id="e.7" target="NT1.7" source="NT1.1"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.4" target="NT1.6"/>
+   <edge id="e.13" source="NT1.6" target="NT1.9"/>
+   <edge id="e.14" source="NT1.1" target="NT1.3"/>
+   <edge id="e.16" source="NT1.19" target="NT1.18"/>
+   <edge id="e.17" source="NT1.19" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

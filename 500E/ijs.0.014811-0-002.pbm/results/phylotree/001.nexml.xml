@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Methanobacterium" cmphy:species="bryantii" cmphy:strain="DSM 8637" cmphy:id="AFB13806" editRecord="[3__B]">Methanobacterium bryantii DSM 8637 (AF313806)</otu>
+  <otu id="otu2" cmphy:genus="Methanoregula" cmphy:species="formicica" cmphy:strain="SMSPT" cmphy:id="AB479391" editRecord="[]"> Methanoregula formicica SMSPT (AB479391)</otu>
+  <otu id="otu3" cmphy:edit="[O__0, O__0]" cmphy:genus="Methanoregula" cmphy:species="boonei" cmphy:strain="6A8T" cmphy:id="CPO00780" editRecord="[O__0, O__0]">Methanoregula boonei 6A8T (CPOOO780)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Methanosphaerula" cmphy:species="palustris" cmphy:strain="E1 -QCT" cmphy:id="CPO01338" editRecord="[O__0]">Methanosphaerula palustris E1 -QCT (CPOO1338)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Methanospirillum hungateiJF-1T (AF313805)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="335.0" y="321.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="335.0" y="232.0"/>
+   <node id="NT1.3" label="NT1.3" x="351.0" y="268.0"/>
+   <node id="NT1.6" label="NT1.6" x="517.0" y="288.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="562.0" y="252.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="565.0" y="218.0" otu="otu4"/>
+   <edge id="e.6" target="NT1.11" source="NT1.2"/>
+   <edge id="e.7" source="NT1.3" target="NT1.6"/>
+   <edge id="e.8" source="NT1.3" target="NT1.9"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

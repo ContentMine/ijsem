@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Tolumonas" cmphy:species="auensis" cmphy:strain="TA 47" cmphy:id="X92889" editRecord="[]">Tolumonas auensis TA 47 (X92889)</otu>
+  <otu id="otu2">Aeromonas hydrophila subsp. hydrophila ATCC 79667 (X74677)</otu>
+  <otu id="otu3">Escherichia coli ATCC 1 1 7757 (X80725)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Oceanimonas" cmphy:species="doudoroffii" cmphy:strain="MBIC1298T" cmphy:id="ABO19390" editRecord="[0__O]"> Oceanimonas doudoroffii MBIC1298T (AB019390)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Anaerobiospirillum thomasii DSM 1 18O6T (AJ420985)</otu>
+  <otu id="otu8" cmphy:genus="Ruminobacter" cmphy:species="amylophilus" cmphy:strain="DSM 1361" cmphy:id="Y15992" editRecord="[]">Ruminobacter amylophilus DSM 1361 (Y15992)</otu>
+  <otu id="otu9">Succinimonas amylolytica DSM 28737 (Y1 7599)</otu>
+  <otu id="otu10" cmphy:edit="[B__8]" cmphy:genus="Succinatimonas" cmphy:species="hippei" cmphy:strain="YIT 120667" cmphy:id="AB490810" editRecord="[B__8]">Succinatimonas hippei YIT 120667 (AB490B10)</otu>
+  <otu id="otu11" cmphy:genus="Anaerobiospirillum" cmphy:species="succiniciproducens" cmphy:strain="ATCC 29305T" cmphy:id="U96412" editRecord="[]">Anaerobiospirillum succiniciproducens ATCC 29305T (U96412)</otu>
+  <otu id="otu12" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone ABXD_X2" cmphy:id="FJ440079" editRecord="[]">Uncultured bacterium clone ABXD_X2 (FJ440079)</otu>
+  <otu id="otu13" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone ABXD_AE23" cmphy:id="FJ440035" editRecord="[]">Uncultured bacterium clone ABXD_AE23 (FJ440035)</otu>
+  <otu id="otu14">Uncultured bacterium clone CFT1 14E2 (DQ456106)</otu>
+  <otu id="otu15" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone ABXD_J11" cmphy:id="FJ440064" editRecord="[]">Uncultured bacterium clone ABXD_J11 (FJ440064)</otu>
+  <otu id="otu16" cmphy:genus="Succinivibrio" cmphy:species="dextrinosolvens" cmphy:strain="DSM 30727" cmphy:id="Y17600" editRecord="[]">Succinivibrio dextrinosolvens DSM 30727 (Y17600)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="57.0"/>
+   <node id="NT1.2" x="15.0" y="250.0" label="681"/>
+   <node id="NT1.4" label="NT1.4" x="94.0" y="366.0"/>
+   <node id="NT1.5" label="NT1.5" x="107.0" y="57.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="154.0" y="456.0"/>
+   <node id="NT1.14" label="NT1.14" x="176.0" y="181.0" otu="otu5"/>
+   <node id="NT1.15" x="194.0" y="370.0" label="955"/>
+   <node id="NT1.18" label="NT1.18" x="264.0" y="307.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="270.0" y="512.0"/>
+   <node id="NT1.21" x="280.0" y="551.0" label="931"/>
+   <node id="NT1.22" label="NT1.22" x="283.0" y="515.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="290.0" y="390.0" otu="otu11"/>
+   <node id="NT1.25" x="290.0" y="619.0" label="954"/>
+   <node id="NT1.26" label="NT1.26" x="291.0" y="599.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="292.0" y="642.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="296.0" y="473.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="312.0" y="348.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="4.0" y="36.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.5"/>
+   <edge id="e.3" target="NT1.14" source="NT1.2"/>
+   <edge id="e.5" target="NT1.18" source="NT1.4"/>
+   <edge id="e.8" source="NT1.19" target="NT1.29"/>
+   <edge id="e.9" source="NT1.15" target="NT1.24"/>
+   <edge id="e.10" source="NT1.21" target="NT1.22"/>
+   <edge id="e.11" source="NT1.15" target="NT1.30"/>
+   <edge id="e.13" source="NT1.25" target="NT1.26"/>
+   <edge id="e.14" source="NT1.25" target="NT1.27"/>
+   <edge id="e.15" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+   <edge id="e.19" source="NT1.4" target="NT1.10"/>
+   <edge id="e.22" source="NT1.10" target="NT1.19"/>
+   <edge id="e.24" target="NT1.15" source="NT1.10"/>
+   <edge id="e.25" source="NT1.19" target="NT1.21"/>
+   <edge id="e.27" target="NT1.25" source="NT1.21"/>
+   <edge id="e.29" source="NT1.31" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

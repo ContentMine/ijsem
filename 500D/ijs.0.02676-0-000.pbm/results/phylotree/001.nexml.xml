@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">N. asteraides ATCC 19247T (X84850)</otu>
+  <otu id="otu2">N. abscessus DSM 444327 (AF2l8292)</otu>
+  <otu id="otu3">N. nova ATCC 33726 (X80593)</otu>
+  <otu id="otu4">N. cyriacigeorgica DSM 444847 (AF282889)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">N. caishijiensis F829T (AF459443)</otu>
+  <otu id="otu7">N. vim1ceaJCM 1o98sT (AB024312)</otu>
+  <otu id="otu8">N. brevicatemz ATCC 153337 (xzoeoo)</otu>
+  <otu id="otu9">N. atitidixcaviamm ATCC 14629T (M59056)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">N. vaccinii DSM 432s5T (235927)</otu>
+  <otu id="otu12">N paucivorans DSM 44386T (AF179865)</otu>
+  <otu id="otu13">N. transvalensis DSM 434057 (X80598)</otu>
+  <otu id="otu14" cmphy:genus="Rhadococcus" cmphy:species="opacus" cmphy:strain="DSM 43206T" cmphy:id="X80631" editRecord="[]">Rhadococcus opacus DSM 43206T (X80631)</otu>
+  <otu id="otu15">N. crassastreae ATCC 700418T (Z37989)</otu>
+  <otu id="otu16">N veterana DSM 44445T (AF278572)</otu>
+  <otu id="otu17">Nocardia sp.DSM43301(AF430056)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">N. brasiliensis DSM 43759T (X80608)</otu>
+  <otu id="otu20">N. carnea DSM 43397T (X80607)</otu>
+  <otu id="otu21" cmphy:edit="[0__O]" cmphy:genus="Nacardia" cmphy:species="asiatica" cmphy:strain="IFM 02457" cmphy:id="ABO92566" editRecord="[0__O]">Nacardia asiatica IFM 02457 (AB092566)</otu>
+  <otu id="otu22">N. fluminea DSM 444s9T (AF430053)</otu>
+  <otu id="otu23">N. farcinica ATCC 3318T (Z36936)</otu>
+  <otu id="otu24">N. flavorosea JCM 3332T (245754)</otu>
+  <otu id="otu25">N puris DSM 44599T (AJ508748)</otu>
+  <otu id="otu26">N. seriolue JCM 33267 (X80592)</otu>
+  <otu id="otu27">N. beijingensis JCM 1os55T (AF154129)</otu>
+  <otu id="otu28">N. cummidelens DSM 444907 (AF277223)</otu>
+  <otu id="otu29">N. soli DSM 44488T(A1-'277199)</otu>
+  <otu id="otu30">Nacardia Sp. DSM 43395 (AF430062)</otu>
+  <otu id="otu31">N. ignorata DSM 44496T (AJ303008)</otu>
+  <otu id="otu32">N. xalmonicida JCM 482sT (Z46750)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.40" label="NT1.40" x="565.0" y="1340.0" otu="otu14"/>
+   <node id="NT1.49" label="NT1.49" x="620.0" y="704.0" otu="otu21"/>
+   <node id="NT1.63" label="NT1.63" x="19.0" y="1023.0" root="true"/>
+   <edge id="e.6" target="NT1.49" source="NT1.63"/>
+   <edge id="e.47" source="NT1.63" target="NT1.40"/>
+  </tree>
+ </trees>
+</nexml>

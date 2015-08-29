@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Algoriphagus" cmphy:species="hitonicola" cmphy:strain="7-UAHT" cmphy:id="EF488486" editRecord="[]">Algoriphagus hitonicola 7-UAHT (EF488486)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Algoriphagus" cmphy:species="faecimaris" cmphy:strain="LYX05T" cmphy:id="GUO72591" editRecord="[0__O]">Algoriphagus faecimaris LYX05T (GU072591)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Algoriphagus" cmphy:species="ornithinivorans" cmphy:strain="JC2O52T" cmphy:id="AYZ64840" editRecord="[2__Z]"> Algoriphagus ornithinivorans JC2O52T (AY264840)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">Algoriphagus olei CC-Hsuan-61 7T(FJ231215)</otu>
+  <otu id="otu7">Algoriphagus Iutimaris S1 -ST (FJ669216)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Algoriphagus" cmphy:species="mannitolivorans" cmphy:strain="JC2050T" cmphy:id="AYZ64838" editRecord="[2__Z]">Algoriphagus mannitolivorans JC2050T (AY264838)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Algoriphagus aquatilis A8-7T (EU31381 1)</otu>
+  <otu id="otu11">Algoriphagus boritolerans T-227 (AB1 97852)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Algoriphagus" cmphy:species="vanfongensis" cmphy:strain="KMM 62417" cmphy:id="EFB92675" editRecord="[3__B]"> Algoriphagus vanfongensis KMM 62417 (EF392675)</otu>
+  <otu id="otu13">Algoriphagus terrigena DS-447 (DO1 78979)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[5__S]" cmphy:genus="Algoriphagus" cmphy:species="antarcticus" cmphy:strain="LMG 219807" cmphy:id="AJS77141" editRecord="[5__S]"> Algoriphagus antarcticus LMG 219807 (AJ577141)</otu>
+  <otu id="otu16" cmphy:edit="[5__S]" cmphy:genus="Algoriphagus" cmphy:species="winogradskyi" cmphy:strain="LMG 21969T" cmphy:id="AJS75263" editRecord="[5__S]">Algoriphagus winogradskyi LMG 21969T (AJ575263)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[8__B]" cmphy:genus="Algoriphagus" cmphy:species="locisalis" cmphy:strain="MSS-1 707" cmphy:id="AYB35922" editRecord="[8__B]">Algoriphagus locisalis MSS-1 707 (AY835922)</otu>
+  <otu id="otu19">Cyclobacterium amurskyense KMM 6143T(AY960985)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="769.0" otu="otu1" root="true"/>
+   <node id="NT1.3" x="415.0" y="561.0" label="99"/>
+   <node id="NT1.4" label="NT1.4" x="434.0" y="424.0"/>
+   <node id="NT1.5" label="NT1.5" x="451.0" y="537.0"/>
+   <node id="NT1.6" label="NT1.6" x="464.0" y="581.0"/>
+   <node id="NT1.12" label="NT1.12" x="534.0" y="609.0"/>
+   <node id="NT1.14" label="NT1.14" x="574.0" y="552.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="583.0" y="475.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="583.0" y="590.0" otu="otu4"/>
+   <node id="NT1.22" label="NT1.22" x="612.0" y="667.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="613.0" y="149.0"/>
+   <node id="NT1.28" label="NT1.28" x="648.0" y="629.0" otu="otu12"/>
+   <node id="NT1.29" label="NT1.29" x="665.0" y="36.0"/>
+   <node id="NT1.32" label="NT1.32" x="677.0" y="169.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="684.0" y="54.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="714.0" y="16.0" otu="otu18"/>
+   <edge id="e.0" source="NT1.29" target="NT1.35"/>
+   <edge id="e.5" source="NT1.5" target="NT1.15"/>
+   <edge id="e.6" source="NT1.6" target="NT1.14"/>
+   <edge id="e.7" source="NT1.12" target="NT1.16"/>
+   <edge id="e.8" source="NT1.12" target="NT1.28"/>
+   <edge id="e.9" target="NT1.22" source="NT1.3"/>
+   <edge id="e.13" target="NT1.29" source="NT1.23"/>
+   <edge id="e.15" target="NT1.23" source="NT1.4"/>
+   <edge id="e.21" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" source="NT1.4" target="NT1.5"/>
+   <edge id="e.23" source="NT1.5" target="NT1.6"/>
+   <edge id="e.24" target="NT1.3" source="NT1.1"/>
+   <edge id="e.26" source="NT1.6" target="NT1.12"/>
+   <edge id="e.32" source="NT1.23" target="NT1.32"/>
+   <edge id="e.34" source="NT1.29" target="NT1.33"/>
+  </tree>
+ </trees>
+</nexml>

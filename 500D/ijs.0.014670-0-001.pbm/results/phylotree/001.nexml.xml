@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Fervidicella" cmphy:species="metallireducens" cmphy:strain="Ae B7" cmphy:id="FJ481102" editRecord="[]">Fervidicella metallireducens Ae B7 (FJ481102)</otu>
+  <otu id="otu2">CXostrio'1'um cyllndrosparum DSM 6057 (Y181 79)</otu>
+  <otu id="otu3" cmphy:genus="Thermobrachlum" cmphy:species="cehere" cmphy:strain="DSM 86287" cmphy:id="X99238" editRecord="[]">Thermobrachlum cehere DSM 86287 (X99238)</otu>
+  <otu id="otu4">Calaramator indlcus ACM 39827 (X 7 5788)</otu>
+  <otu id="otu5">7Caloramat0r uzonfe-nsfs' ATCC BAA-503 (AF489534)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Caloramator" cmphy:species="viterbiensis" cmphy:strain="DSM 137237" cmphy:id="AFI81848" editRecord="[1__I]">Caloramator viterbiensis DSM 137237 (AF181848)</otu>
+  <otu id="otu8" cmphy:genus="Caharamator" cmphy:species="auslrahbus" cmphy:strain="KCTC 56017" cmphy:id="EU409943" editRecord="[]">Caharamator auslrahbus KCTC 56017 (EU409943)</otu>
+  <otu id="otu9">Oaloramatar cooll1aasI'I'DSM 1 26797 (AF1 0421 5)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Claslrfdium pulrefaciens DSM 1 2917 (AF1 27024)</otu>
+  <otu id="otu12" cmphy:genus="Clostridlum" cmphy:species="proteolyllcum" cmphy:strain="DSM 30907" cmphy:id="X73448" editRecord="[]">Clostridlum proteolyllcum DSM 30907 (X73448)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16">Oxabacter pfennIgi1'DSM 3 2 2 27 (X 7 7838)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Clastridium lhermopalmarlum DSM 59747</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="69.0" y="379.0" label="100"/>
+   <node id="NT1.5" x="214.0" y="434.0" label="100"/>
+   <node id="NT1.6" label="NT1.6" x="237.0" y="487.0"/>
+   <node id="NT1.13" label="NT1.13" x="414.0" y="306.0" otu="otu1"/>
+   <node id="NT1.19" label="NT1.19" x="451.0" y="604.0" otu="otu3"/>
+   <node id="NT1.23" label="NT1.23" x="478.0" y="380.0" otu="otu7"/>
+   <node id="NT1.24" label="NT1.24" x="493.0" y="455.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="554.0" y="232.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="1.0" y="302.0" root="true"/>
+   <edge id="e.5" target="NT1.28" source="NT1.35"/>
+   <edge id="e.8" target="NT1.13" source="NT1.2"/>
+   <edge id="e.10" source="NT1.5" target="NT1.23"/>
+   <edge id="e.11" target="NT1.24" source="NT1.6"/>
+   <edge id="e.15" target="NT1.19" source="NT1.6"/>
+   <edge id="e.24" source="NT1.2" target="NT1.5"/>
+   <edge id="e.26" source="NT1.5" target="NT1.6"/>
+   <edge id="e.33" source="NT1.35" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

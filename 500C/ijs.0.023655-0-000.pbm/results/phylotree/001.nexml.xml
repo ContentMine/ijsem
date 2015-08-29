@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Clostridium cylindrosporum DSM 6057 (Y181 79)</otu>
+  <otu id="otu3">Caloramator viterbiensis</otu>
+  <otu id="otu4">Caloramator australicus KCTC 5601 T (EU409943)</otu>
+  <otu id="otu5" cmphy:genus="Thermobrachium" cmphy:species="celere" cmphy:strain="DSM 8682T" cmphy:id="X99238" editRecord="[]">Thermobrachium celere DSM 8682T (X99238)</otu>
+  <otu id="otu6" cmphy:genus="Calaramator" cmphy:species="indicus" cmphy:strain="ACM 39827" cmphy:id="X75788" editRecord="[]">Calaramator indicus ACM 39827 (X75788)</otu>
+  <otu id="otu7" cmphy:genus="Calaramator" cmphy:species="indicus" cmphy:strain="ACM 39827" cmphy:id="X75788" editRecord="[]">Calaramator indicus ACM 39827 (X75788)</otu>
+  <otu id="otu8" cmphy:genus="Calaramator" cmphy:species="fervidus" cmphy:strain="ATCC 43204T" cmphy:id="L09187" editRecord="[]">Calaramator fervidus ATCC 43204T (L09187)</otu>
+  <otu id="otu9" cmphy:genus="Calaramator" cmphy:species="mitchellensis" cmphy:strain="VFOBT" cmphy:id="GU723692" editRecord="[]">Calaramator mitchellensis VFOBT (GU723692)</otu>
+  <otu id="otu10">Calaramator coolhaasii DSM 1 2679T (AF104215)</otu>
+  <otu id="otu11" cmphy:genus="Calaramator" cmphy:species="proteoclasticus" cmphy:strain="DSM 10124T" cmphy:id="X90488" editRecord="[]">Calaramator proteoclasticus DSM 10124T (X90488)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="563.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="225.0" y="450.0"/>
+   <node id="NT1.6" label="NT1.6" x="257.0" y="240.0"/>
+   <node id="NT1.11" label="NT1.11" x="337.0" y="89.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="337.0" y="120.0"/>
+   <node id="NT1.13" label="NT1.13" x="339.0" y="153.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="340.0" y="151.0"/>
+   <node id="NT1.15" label="NT1.15" x="342.0" y="151.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="342.0" y="530.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="366.0" y="403.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="414.0" y="277.0" otu="otu11"/>
+   <edge id="e.0" source="NT1.12" target="NT1.11"/>
+   <edge id="e.1" source="NT1.14" target="NT1.15"/>
+   <edge id="e.2" source="NT1.14" target="NT1.13"/>
+   <edge id="e.3" target="NT1.19" source="NT1.6"/>
+   <edge id="e.5" source="NT1.5" target="NT1.17"/>
+   <edge id="e.7" source="NT1.12" target="NT1.14"/>
+   <edge id="e.8" source="NT1.6" target="NT1.12"/>
+   <edge id="e.10" target="NT1.6" source="NT1.1"/>
+   <edge id="e.11" source="NT1.6" target="NT1.5"/>
+   <edge id="e.16" target="NT1.16" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

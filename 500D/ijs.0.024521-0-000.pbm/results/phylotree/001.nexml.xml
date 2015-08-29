@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Micrococcus lylae DSM 2031 5T (X80750)</otu>
+  <otu id="otu3">Actinomyces bovis NCTC 1 1535 (X81061)</otu>
+  <otu id="otu4">B. minimum YIT 40971 (AB437350)</otu>
+  <otu id="otu5">B. pullorum JCM 1214T(D86196)</otu>
+  <otu id="otu6">B. kashiwanohense HM2-1</otu>
+  <otu id="otu7">B. kashiwanohense HM2-2T (AB425276)</otu>
+  <otu id="otu8">B. saeculare DSM 6531T (D89328)</otu>
+  <otu id="otu9">B. gallinarum JCM 6291T (D86191)</otu>
+  <otu id="otu10">B. breve ATCC 1570OT (AB006658)</otu>
+  <otu id="otu11">B. angulatum ATCC 275357 (D86182)</otu>
+  <otu id="otu12">B. coryneforme YIT 4O92T (AB437358)</otu>
+  <otu id="otu13">B. subtile DSM 2009GT (D89378)</otu>
+  <otu id="otu14">B. asteroides YIT 1 1866T (AB43 7355)</otu>
+  <otu id="otu15">B. indicum JCM 13o2T (D86188)</otu>
+  <otu id="otu16">B. scardovii CCUG 13008 AT (AJ307005)</otu>
+  <otu id="otu17">B. mongoliense YIT 104437 (AB433856)</otu>
+  <otu id="otu18">B. catenulatum YIT 4016T(AB437357)</otu>
+  <otu id="otu19">B. longum subsp. infantis ATCC 15697 (D86184)</otu>
+  <otu id="otu20">B. longum subsp. suis ATCC 27533T (M58743)</otu>
+  <otu id="otu21">B. dentium ATCC 27534T (D86183)</otu>
+  <otu id="otu22">B. pseudocatenulatum JCM 12007 (D86187)</otu>
+  <otu id="otu23">B. longum subsp. longum YIT 4021T (AB437359)</otu>
+  <otu id="otu24">Parascardovia denticolens DSM 101 O5T (D89331)</otu>
+  <otu id="otu25">B. bifidum YIT 4039T (AB437356)</otu>
+  <otu id="otu26">B. merycicum JCM 8219T (D86192)</otu>
+  <otu id="otu27">B. thermacidophilum subsp. porcinum P3-147 (AY1 48470)</otu>
+  <otu id="otu28">B. boumJCM 1211T(D86190)</otu>
+  <otu id="otu29">B. bombiBluCllTPT(EU127549)</otu>
+  <otu id="otu30">B. adolescentis YIT 401 1T (AB437354)</otu>
+  <otu id="otu31">B. ruminantium JCM 82227 (D86197)</otu>
+  <otu id="otu32" cmphy:genus="Scardovia" cmphy:species="inopinata" cmphy:strain="DSM 101077" cmphy:id="D89332" editRecord="[]">Scardovia inopinata DSM 101077 (D89332)</otu>
+  <otu id="otu33">Gardnerella vaginalis ATCC 1401 BT (M58744)</otu>
+  <otu id="otu34">B. psychraerophilum T16T (AY1 74108)</otu>
+  <otu id="otu35">B. thermophilum ATCC 25525T (U10151)</otu>
+  <otu id="otu36">B. gallicum JCM 8224T (D86189)</otu>
+  <otu id="otu37">B. tsurumiense OMB1 157 (AB241 106)</otu>
+  <otu id="otu38">B. choerinum ATCC 27686T(D86186)</otu>
+  <otu id="otu39">B. pseudolongum subsp. pseudolongum JCM 1 2057 (D86195)</otu>
+  <otu id="otu40">B. pseudolongum subsp. globosum JCM 5820T (D86194)</otu>
+  <otu id="otu41">B. thermacidophilum subsp. thermacidophilum 367 (ABO16246)</otu>
+  <otu id="otu42">B. animalis subsp. animalis JCM 1 190 (D86185)</otu>
+  <otu id="otu43">B. animalis subsp. lactis YIT 4121T(AB050136)</otu>
+  <otu id="otu44">B. cuniculi ATCC 27916T (M58734)</otu>
+  <otu id="otu45">B. magnum JCM 1218T (D86193)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="1625.0" otu="otu1" root="true"/>
+   <node id="NT1.73" label="NT1.73" x="686.0" y="1622.0" otu="otu32"/>
+   <edge id="e.63" target="NT1.73" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

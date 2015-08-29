@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Halomonas" cmphy:species="halocynthiae" cmphy:strain="KMM 1376T" cmphy:id="AJ417388" editRecord="[]">Halomonas halocynthiae KMM 1376T (AJ417388)</otu>
+  <otu id="otu3" cmphy:genus="Halomonas" cmphy:species="eurihalina" cmphy:strain="ATCC 49336T" cmphy:id="X87218" editRecord="[]">Halomonas eurihalina ATCC 49336T (X87218)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Halomonas" cmphy:species="subglaciescola" cmphy:strain="DSM 4683T" cmphy:id="AJB06892" editRecord="[3__B]">Halomonas subglaciescola DSM 4683T (AJ306892)</otu>
+  <otu id="otu5">Halomonas elongate ATCC 831 73T (AM941743)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Halomonas" cmphy:species="vilamensis" cmphy:strain="SV325T" cmphy:id="EUS57315" editRecord="[5__S]">Halomonas vilamensis SV325T (EU557315)</otu>
+  <otu id="otu7">Halomonas sulfidaeris Esulfide1T(AF212204)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Halomonas" cmphy:species="hydrothermalis" cmphy:strain="Slthf2T" cmphy:id="AFZ12218" editRecord="[2__Z]">Halomonas hydrothermalis Slthf2T (AF212218)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Halomonas" cmphy:species="gomseomensis" cmphy:strain="M12T" cmphy:id="AMZ29314" editRecord="[2__Z]">Halomonas gomseomensis M12T (AM229314)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Halomonas" cmphy:species="venusta" cmphy:strain="DSM 4743T" cmphy:id="AJB06894" editRecord="[3__B]">Halomonas venusta DSM 4743T (AJ306894)</otu>
+  <otu id="otu11">Halomonas alkaliphila 18bAGT (AJ6401 33)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Halomonas" cmphy:species="arcis" cmphy:strain="AJ282T" cmphy:id="EFI44147" editRecord="[1__I]">Halomonas arcis AJ282T (EF144147)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Halomonas" cmphy:species="aquamarina" cmphy:strain="DSM 30161T" cmphy:id="AJB06888" editRecord="[3__B]">Halomonas aquamarina DSM 30161T (AJ306888)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Halomonas" cmphy:species="boliviensis" cmphy:strain="LC1 T" cmphy:id="AYZ45449" editRecord="[2__Z]">Halomonas boliviensis LC1 T (AY245449)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Halomonas" cmphy:species="neptunia" cmphy:strain="EpIume1T" cmphy:id="AFZ12202" editRecord="[2__Z]">Halomonas neptunia EpIume1T (AF212202)</otu>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Halomonas" cmphy:species="variabilis" cmphy:strain="DSM 3051T" cmphy:id="AJB06893" editRecord="[3__B]">Halomonas variabilis DSM 3051T (AJ306893)</otu>
+  <otu id="otu17" cmphy:genus="Halomonas" cmphy:species="titanicae" cmphy:strain="BH1 T" cmphy:id="FN433898" editRecord="[]">Halomonas titanicae BH1 T (FN433898)</otu>
+  <otu id="otu18">Halomonas magadiensis 21</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="863.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="468.0" y="812.0"/>
+   <node id="NT1.3" label="NT1.3" x="552.0" y="740.0"/>
+   <node id="NT1.4" label="NT1.4" x="655.0" y="663.0"/>
+   <node id="NT1.5" x="792.0" y="573.0" label="98"/>
+   <node id="NT1.6" label="NT1.6" x="818.0" y="880.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="866.0" y="436.0"/>
+   <node id="NT1.8" x="880.0" y="271.0" label="53"/>
+   <node id="NT1.9" label="NT1.9" x="929.0" y="167.0"/>
+   <node id="NT1.12" label="NT1.12" x="971.0" y="837.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="973.0" y="559.0"/>
+   <node id="NT1.14" label="NT1.14" x="986.0" y="751.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="1034.0" y="708.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="1043.0" y="222.0"/>
+   <node id="NT1.21" label="NT1.21" x="1056.0" y="427.0"/>
+   <node id="NT1.22" label="NT1.22" x="1059.0" y="277.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="1059.0" y="535.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="1062.0" y="190.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="1063.0" y="386.0"/>
+   <node id="NT1.27" label="NT1.27" x="1089.0" y="578.0" otu="otu12"/>
+   <node id="NT1.28" x="1097.0" y="471.0" label="89"/>
+   <node id="NT1.29" label="NT1.29" x="1098.0" y="62.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="1121.0" y="492.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="1123.0" y="449.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="1151.0" y="362.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="1186.0" y="406.0" otu="otu17"/>
+   <edge id="e.2" source="NT1.8" target="NT1.9"/>
+   <edge id="e.3" source="NT1.9" target="NT1.19"/>
+   <edge id="e.4" source="NT1.7" target="NT1.8"/>
+   <edge id="e.7" target="NT1.21" source="NT1.8"/>
+   <edge id="e.8" source="NT1.5" target="NT1.7"/>
+   <edge id="e.9" source="NT1.21" target="NT1.28"/>
+   <edge id="e.10" source="NT1.21" target="NT1.25"/>
+   <edge id="e.11" source="NT1.4" target="NT1.5"/>
+   <edge id="e.12" source="NT1.3" target="NT1.4"/>
+   <edge id="e.13" source="NT1.2" target="NT1.3"/>
+   <edge id="e.15" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" source="NT1.2" target="NT1.6"/>
+   <edge id="e.17" source="NT1.4" target="NT1.14"/>
+   <edge id="e.18" source="NT1.5" target="NT1.17"/>
+   <edge id="e.19" source="NT1.7" target="NT1.13"/>
+   <edge id="e.20" target="NT1.12" source="NT1.3"/>
+   <edge id="e.23" source="NT1.13" target="NT1.23"/>
+   <edge id="e.24" source="NT1.13" target="NT1.27"/>
+   <edge id="e.25" source="NT1.19" target="NT1.24"/>
+   <edge id="e.26" target="NT1.22" source="NT1.19"/>
+   <edge id="e.27" target="NT1.29" source="NT1.9"/>
+   <edge id="e.29" source="NT1.25" target="NT1.32"/>
+   <edge id="e.30" source="NT1.25" target="NT1.33"/>
+   <edge id="e.31" source="NT1.28" target="NT1.30"/>
+   <edge id="e.32" source="NT1.28" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

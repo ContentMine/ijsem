@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Carnobacterium funditum DSM 5970T(S86170)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Carnobacterium inhibens CCUG 31728T(Z73313)</otu>
+  <otu id="otu6" cmphy:edit="[O__0]" cmphy:genus="Carnobacterium" cmphy:species="alterfunditum" cmphy:strain="ATCC 49837" cmphy:id="L08623" editRecord="[O__0]">Carnobacterium alterfunditum ATCC 49837 (LO8623)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Carnobacterlum" cmphy:species="mobile" cmphy:strain="DSM 48487" cmphy:id="ABO83414" editRecord="[0__O]">Carnobacterlum mobile DSM 48487 (AB083414)</otu>
+  <otu id="otu8" cmphy:genus="Carnobacterium" cmphy:species="piscicola" cmphy:strain="NCDO 2762T" cmphy:id="X54268" editRecord="[]">Carnobacterium piscicola NCDO 2762T (X54268)</otu>
+  <otu id="otu9">Carnobacterium divergens NCDO 2763T(X5427O)</otu>
+  <otu id="otu10" cmphy:genus="Trichococcus" cmphy:species="pasteurii" cmphy:strain="DSM 2381T" cmphy:id="X87150" editRecord="[]">Trichococcus pasteurii DSM 2381T (X87150)</otu>
+  <otu id="otu11">021</otu>
+  <otu id="otu12">M13-2T(AB083406)</otu>
+  <otu id="otu13" cmphy:genus="Carnobacterium" cmphy:species="gallinarum" cmphy:strain="NCFB 2766T" cmphy:id="X54269" editRecord="[]">Carnobacterium gallinarum NCFB 2766T (X54269)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Alkalibacterium" cmphy:species="olivapovliticus" cmphy:strain="NCIMB 13710T" cmphy:id="AFI43511" editRecord="[1__I]">Alkalibacterium olivapovliticus NCIMB 13710T (AF143511)</otu>
+  <otu id="otu15" cmphy:genus="Desemzia" cmphy:species="incerta" cmphy:strain="DSM 20581T" cmphy:id="Y17300" editRecord="[]">Desemzia incerta DSM 20581T (Y17300)</otu>
+  <otu id="otu16">Enterococcus faecalis NCIMB 775T(Y18293)</otu>
+  <otu id="otu17">Vagococcus salmoninarum CCUG 33394T(Y18097)</otu>
+  <otu id="otu18">WN16 (X92169)</otu>
+  <otu id="otu19" cmphy:genus="Granulicatella" cmphy:species="elegans" cmphy:strain="DSM 11693T" cmphy:id="AFO16390" editRecord="[]">Granulicatella elegans DSM 11693T (AFO16390)</otu>
+  <otu id="otu20">Exiguobacterium aurantiacum NCDO 2321T(X7O316)</otu>
+  <otu id="otu21" cmphy:genus="Vagococcus" cmphy:species="fluvialis" cmphy:strain="CCUG 32704T" cmphy:id="Y18098" editRecord="[]">Vagococcus fluvialis CCUG 32704T (Y18098)</otu>
+  <otu id="otu22" cmphy:genus="Aerococcus" cmphy:species="viridans" cmphy:strain="ATCC 115637" cmphy:id="M58797" editRecord="[]">Aerococcus viridans ATCC 115637 (M58797)</otu>
+  <otu id="otu23" cmphy:genus="Alloiococcus" cmphy:species="otitis" cmphy:strain="NCFB 2890T" cmphy:id="X59765" editRecord="[]">Alloiococcus otitis NCFB 2890T (X59765)</otu>
+  <otu id="otu24" cmphy:genus="Dolosigranulum" cmphy:species="pigrum" cmphy:strain="NCFB 2975T" cmphy:id="X70907" editRecord="[]">Dolosigranulum pigrum NCFB 2975T (X70907)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="966.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="306.0" y="686.0"/>
+   <node id="NT1.4" label="NT1.4" x="417.0" y="270.0"/>
+   <node id="NT1.5" label="NT1.5" x="434.0" y="159.0"/>
+   <node id="NT1.6" label="NT1.6" x="462.0" y="79.0"/>
+   <node id="NT1.7" label="NT1.7" x="475.0" y="378.0"/>
+   <node id="NT1.8" label="NT1.8" x="495.0" y="234.0"/>
+   <node id="NT1.9" label="NT1.9" x="502.0" y="449.0"/>
+   <node id="NT1.10" label="NT1.10" x="533.0" y="523.0"/>
+   <node id="NT1.13" label="NT1.13" x="567.0" y="1176.0"/>
+   <node id="NT1.16" label="NT1.16" x="631.0" y="610.0"/>
+   <node id="NT1.25" label="NT1.25" x="751.0" y="495.0" otu="otu6"/>
+   <node id="NT1.26" label="NT1.26" x="758.0" y="400.0" otu="otu7"/>
+   <node id="NT1.27" label="NT1.27" x="775.0" y="636.0" otu="otu8"/>
+   <node id="NT1.29" label="NT1.29" x="806.0" y="260.0" otu="otu10"/>
+   <node id="NT1.33" label="NT1.33" x="816.0" y="589.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="833.0" y="1060.0" otu="otu14"/>
+   <node id="NT1.35" label="NT1.35" x="840.0" y="306.0" otu="otu15"/>
+   <node id="NT1.39" label="NT1.39" x="979.0" y="24.0" otu="otu19"/>
+   <node id="NT1.41" label="NT1.41" x="1016.0" y="119.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="1196.0" y="213.0" otu="otu22"/>
+   <node id="NT1.43" label="NT1.43" x="1288.0" y="1200.0" otu="otu23"/>
+   <node id="NT1.44" label="NT1.44" x="1369.0" y="1153.0" otu="otu24"/>
+   <edge id="e.2" target="NT1.25" source="NT1.10"/>
+   <edge id="e.3" target="NT1.42" source="NT1.8"/>
+   <edge id="e.6" source="NT1.5" target="NT1.6"/>
+   <edge id="e.8" source="NT1.4" target="NT1.5"/>
+   <edge id="e.9" source="NT1.5" target="NT1.8"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.4" target="NT1.7"/>
+   <edge id="e.14" source="NT1.7" target="NT1.9"/>
+   <edge id="e.15" source="NT1.9" target="NT1.10"/>
+   <edge id="e.17" source="NT1.10" target="NT1.16"/>
+   <edge id="e.20" target="NT1.3" source="NT1.1"/>
+   <edge id="e.21" source="NT1.3" target="NT1.13"/>
+   <edge id="e.26" source="NT1.7" target="NT1.35"/>
+   <edge id="e.27" source="NT1.8" target="NT1.29"/>
+   <edge id="e.28" target="NT1.26" source="NT1.9"/>
+   <edge id="e.33" source="NT1.6" target="NT1.39"/>
+   <edge id="e.34" source="NT1.16" target="NT1.27"/>
+   <edge id="e.35" source="NT1.16" target="NT1.33"/>
+   <edge id="e.36" target="NT1.34" source="NT1.13"/>
+   <edge id="e.38" target="NT1.41" source="NT1.6"/>
+   <edge id="e.41" source="NT1.13" target="NT1.43"/>
+   <edge id="e.42" source="NT1.13" target="NT1.44"/>
+  </tree>
+ </trees>
+</nexml>

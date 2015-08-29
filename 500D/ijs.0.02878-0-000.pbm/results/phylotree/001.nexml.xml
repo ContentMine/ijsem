@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Cell</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Cellulosimicrobium" cmphy:species="variabile" cmphy:strain="MXST" cmphy:id="AJZ98873" editRecord="[2__Z]">Cellulosimicrobium variabile MXST (AJ298873)</otu>
+  <otu id="otu5" cmphy:genus="Oerskovia" cmphy:species="turbata" cmphy:strain="DSM 205777" cmphy:id="X83806" editRecord="[]">Oerskovia turbata DSM 205777 (X83806)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Promicromonospora" cmphy:species="pachnodae" cmphy:strain="VPCXT" cmphy:id="AFI05422" editRecord="[1__I]"> Promicromonospora pachnodae VPCXT (AF105422)</otu>
+  <otu id="otu7">Cellulomonas fimi DSM 201 137 (X83803)</otu>
+  <otu id="otu8" cmphy:genus="Xylanimonas" cmphy:species="cellulosilytica" cmphy:strain="LMG 20990T" cmphy:id="AF403541" editRecord="[]">Xylanimonas cellulosilytica LMG 20990T (AF403541)</otu>
+  <otu id="otu9" cmphy:genus="Promicromonospora" cmphy:species="citrea" cmphy:strain="DSM 431107" cmphy:id="X83808" editRecord="[]"> Promicromonospora citrea DSM 431107 (X83808)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Promicromonospora" cmphy:species="sukumoe" cmphy:strain="DSM 44121T" cmphy:id="AJZ72024" editRecord="[2__Z]">Promicromonospora sukumoe DSM 44121T (AJ272024)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Xylanibacterium" cmphy:species="ulmi" cmphy:strain="XIL08T" cmphy:id="AYZ73185" editRecord="[2__Z]">Xylanibacterium ulmi XIL08T (AY273185)</otu>
+  <otu id="otu12" cmphy:genus="Cellulomonas" cmphy:species="flavigena" cmphy:strain="DSM 201097" cmphy:id="X83799" editRecord="[]">Cellulomonas flavigena DSM 201097 (X83799)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="404.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="50.0" y="404.0"/>
+   <node id="NT1.5" label="NT1.5" x="153.0" y="337.0"/>
+   <node id="NT1.6" x="155.0" y="604.0" label="70"/>
+   <node id="NT1.7" x="175.0" y="259.0" label="51"/>
+   <node id="NT1.9" x="222.0" y="206.0" label="78"/>
+   <node id="NT1.11" label="NT1.11" x="257.0" y="312.0" otu="otu4"/>
+   <node id="NT1.12" x="291.0" y="132.0" label="94"/>
+   <node id="NT1.13" x="301.0" y="417.0" label="100"/>
+   <node id="NT1.14" label="NT1.14" x="305.0" y="657.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="335.0" y="86.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="344.0" y="241.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="357.0" y="382.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="364.0" y="453.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="383.0" y="169.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="403.0" y="523.0" otu="otu12"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.7" target="NT1.11"/>
+   <edge id="e.4" source="NT1.13" target="NT1.18"/>
+   <edge id="e.5" source="NT1.13" target="NT1.19"/>
+   <edge id="e.6" source="NT1.9" target="NT1.17"/>
+   <edge id="e.7" source="NT1.12" target="NT1.20"/>
+   <edge id="e.8" source="NT1.6" target="NT1.14"/>
+   <edge id="e.9" target="NT1.21" source="NT1.6"/>
+   <edge id="e.11" target="NT1.5" source="NT1.2"/>
+   <edge id="e.12" source="NT1.5" target="NT1.7"/>
+   <edge id="e.13" source="NT1.2" target="NT1.6"/>
+   <edge id="e.14" source="NT1.9" target="NT1.12"/>
+   <edge id="e.16" source="NT1.5" target="NT1.13"/>
+   <edge id="e.17" source="NT1.7" target="NT1.9"/>
+   <edge id="e.18" source="NT1.12" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

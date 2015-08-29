@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Bacteroides" cmphy:species="zmzformis" cmphy:strain="ATCC 8492'" cmphy:id="L16486" editRecord="[]">Bacteroides zmzformis ATCC 8492' (L16486)</otu>
+  <otu id="otu2">Bacteroides eggerthii NCTC 1 1 155T (L 16485)</otu>
+  <otu id="otu3">Bacteroides Ihetaiotaomicrort ATCC 29148T (L16489)</otu>
+  <otu id="otu4" cmphy:genus="Bacteraides" cmphy:species="vulgalus" cmphy:strain="ATCC 8482T" cmphy:id="M58762" editRecord="[]">Bacteraides vulgalus ATCC 8482T (M58762)</otu>
+  <otu id="otu5">Bacteruides avatus NCTC 1 1 153T (Ll6484)</otu>
+  <otu id="otu6" cmphy:genus="Bacteroides" cmphy:species="heparinolyticus" cmphy:strain="ATCC 35895T" cmphy:id="L16487" editRecord="[]">Bacteroides heparinolyticus ATCC 35895T (L16487)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Bacteroides" cmphy:species="acidifizcims" cmphy:strain="JCM 105561" cmphy:id="ABO21164" editRecord="[0__O]">Bacteroides acidifizcims JCM 105561 (AB021164)</otu>
+  <otu id="otu8" cmphy:genus="Bacteroides" cmphy:species="stercoris" cmphy:strain="ATCC 431837" cmphy:id="X83953" editRecord="[]">Bacteroides stercoris ATCC 431837 (X83953)</otu>
+  <otu id="otu9" cmphy:genus="Bucteroides" cmphy:species="caccae" cmphy:strain="ATCC 43185T" cmphy:id="X83951" editRecord="[]">Bucteroides caccae ATCC 43185T (X83951)</otu>
+  <otu id="otu10" cmphy:genus="Bacteroides" cmphy:species="zoogleqfarmans" cmphy:strain="ATCC 33285T" cmphy:id="L16488" editRecord="[]">Bacteroides zoogleqfarmans ATCC 33285T (L16488)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Bucternides" cmphy:species="massiliensis" cmphy:strain="13846347" cmphy:id="AYI26616" editRecord="[1__I]">Bucternides massiliensis 13846347 (AY126616)</otu>
+  <otu id="otu12">Bacteroidesfragilis ATCC 252857 (X83935)</otu>
+  <otu id="otu13" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 11775T" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 11775T (X80725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="533.0" y="398.0"/>
+   <node id="NT1.2" label="NT1.2" x="554.0" y="304.0"/>
+   <node id="NT1.3" label="NT1.3" x="573.0" y="207.0"/>
+   <node id="NT1.4" label="NT1.4" x="586.0" y="274.0"/>
+   <node id="NT1.5" x="601.0" y="489.0" label="96"/>
+   <node id="NT1.9" label="NT1.9" x="653.0" y="240.0" otu="otu1"/>
+   <node id="NT1.11" x="669.0" y="127.0" label="90"/>
+   <node id="NT1.12" x="669.0" y="399.0" label="100"/>
+   <node id="NT1.15" label="NT1.15" x="719.0" y="467.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="727.0" y="377.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="731.0" y="104.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="731.0" y="332.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="737.0" y="150.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="742.0" y="423.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="754.0" y="513.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="759.0" y="558.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="3.0" y="478.0" root="true"/>
+   <edge id="e.2" source="NT1.11" target="NT1.18"/>
+   <edge id="e.3" source="NT1.11" target="NT1.20"/>
+   <edge id="e.4" source="NT1.4" target="NT1.9"/>
+   <edge id="e.6" target="NT1.19" source="NT1.4"/>
+   <edge id="e.7" source="NT1.12" target="NT1.21"/>
+   <edge id="e.8" source="NT1.5" target="NT1.15"/>
+   <edge id="e.9" source="NT1.5" target="NT1.22"/>
+   <edge id="e.12" target="NT1.11" source="NT1.3"/>
+   <edge id="e.14" source="NT1.2" target="NT1.3"/>
+   <edge id="e.15" source="NT1.3" target="NT1.4"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" source="NT1.2" target="NT1.12"/>
+   <edge id="e.19" source="NT1.1" target="NT1.5"/>
+   <edge id="e.20" source="NT1.25" target="NT1.24"/>
+   <edge id="e.21" source="NT1.25" target="NT1.1"/>
+   <edge id="e.23" source="NT1.12" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

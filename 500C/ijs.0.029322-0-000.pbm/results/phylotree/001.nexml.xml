@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Corynebacterium diphtheriae</otu>
+  <otu id="otu2">Williamsia phyllosphaerae</otu>
+  <otu id="otu3">Williamsia maris</otu>
+  <otu id="otu4">Williamsia phyllosphaerae</otu>
+  <otu id="otu5">Williamsia deligens IMMIB RIV-956T</otu>
+  <otu id="otu6">Williamsia muralis</otu>
+  <otu id="otu7">Williamsia marianensis</otu>
+  <otu id="otu8">Williamsia marianensis</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Williamsia" cmphy:species="serinedens" cmphy:strain="IMMIB SR-4T" cmphy:id="AMZ83464" editRecord="[2__Z]">Williamsia serinedens IMMIB SR-4T (AM283464)</otu>
+  <otu id="otu10">Williamsia faeni</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.17" label="NT1.17" x="498.0" y="161.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="5.0" y="201.0" root="true"/>
+   <edge id="e.17" target="NT1.17" source="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

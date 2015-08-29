@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Cellulomonas" cmphy:species="fimi" cmphy:strain="ATCC 4847" cmphy:id="X79460" editRecord="[]">Cellulomonas fimi ATCC 4847 (X79460)</otu>
+  <otu id="otu2" cmphy:genus="Cellulomonas" cmphy:species="biazotea" cmphy:strain="DSM 201127" cmphy:id="X83802" editRecord="[]">Cellulomonas biazotea DSM 201127 (X83802)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">Cellulomonas hominis ATCC 51 9647 (X82598)</otu>
+  <otu id="otu5" cmphy:genus="Oerskovia" cmphy:species="enterophila" cmphy:strain="DSM 438527" cmphy:id="X83807" editRecord="[]">Oerskovia enterophila DSM 438527 (X83807)</otu>
+  <otu id="otu6" cmphy:genus="Oerskovia" cmphy:species="turbata" cmphy:strain="ATCC 258357" cmphy:id="X79454" editRecord="[]">Oerskovia turbata ATCC 258357 (X79454)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z, B__8]" cmphy:genus="Isoptericola" cmphy:species="variabilis" cmphy:strain="ATCC BAA-3037" cmphy:id="AJZ98873" editRecord="[2__Z, B__8]">Isoptericola variabilis ATCC BAA-3037 (AJ298B73)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Cellulosimicrobium" cmphy:species="funkei" cmphy:strain="W61227" cmphy:id="AYS01364" editRecord="[5__S]">Cellulosimicrobium funkei W61227 (AY501364)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Cellulosimicrobium" cmphy:species="funkei" cmphy:strain="W4083" cmphy:id="AYS23789" editRecord="[5__S]">Cellulosimicrobium funkei W4083 (AY523789)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Cellulosimicrobium" cmphy:species="cellulans" cmphy:strain="ATCC 128307" cmphy:id="AYS01363" editRecord="[5__S]">Cellulosimicrobium cellulans ATCC 128307 (AY501363)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="39.0" y="509.0"/>
+   <node id="NT1.2" label="NT1.2" x="41.0" y="620.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="58.0" y="569.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="253.0" y="280.0"/>
+   <node id="NT1.5" label="NT1.5" x="285.0" y="359.0"/>
+   <node id="NT1.6" label="NT1.6" x="384.0" y="197.0"/>
+   <node id="NT1.7" label="NT1.7" x="397.0" y="391.0"/>
+   <node id="NT1.8" x="408.0" y="451.0" label="54"/>
+   <node id="NT1.9" label="NT1.9" x="413.0" y="517.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="416.0" y="313.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="422.0" y="362.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="426.0" y="412.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="542.0" y="261.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="553.0" y="130.0"/>
+   <node id="NT1.15" label="NT1.15" x="556.0" y="185.0"/>
+   <node id="NT1.16" label="NT1.16" x="559.0" y="161.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="562.0" y="6.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="563.0" y="20.0"/>
+   <node id="NT1.19" label="NT1.19" x="565.0" y="20.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="573.0" y="211.0" otu="otu11"/>
+   <edge source="NT1.17" target="NT1.18" id="e.0"/>
+   <edge source="NT1.19" target="NT1.18" id="e.1"/>
+   <edge source="NT1.3" target="NT1.1" id="e.2"/>
+   <edge source="NT1.2" target="NT1.1" id="e.3"/>
+   <edge source="NT1.18" target="NT1.14" id="e.4"/>
+   <edge source="NT1.14" target="NT1.6" id="e.5"/>
+   <edge source="NT1.14" target="NT1.15" id="e.6"/>
+   <edge source="NT1.6" target="NT1.4" id="e.7"/>
+   <edge source="NT1.4" target="NT1.1" id="e.8"/>
+   <edge source="NT1.4" target="NT1.5" id="e.9"/>
+   <edge source="NT1.5" target="NT1.7" id="e.10"/>
+   <edge source="NT1.7" target="NT1.8" id="e.11"/>
+   <edge source="NT1.10" target="NT1.5" id="e.12"/>
+   <edge source="NT1.11" target="NT1.7" id="e.13"/>
+   <edge source="NT1.9" target="NT1.8" id="e.14"/>
+   <edge source="NT1.12" target="NT1.8" id="e.15"/>
+   <edge source="NT1.13" target="NT1.6" id="e.16"/>
+   <edge source="NT1.16" target="NT1.15" id="e.17"/>
+   <edge source="NT1.20" target="NT1.15" id="e.18"/>
+  </tree>
+ </trees>
+</nexml>

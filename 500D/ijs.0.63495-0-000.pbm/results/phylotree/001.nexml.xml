@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Novosphingobium" cmphy:species="subarcticum" cmphy:strain="KF1T" cmphy:id="X94102" editRecord="[]">Novosphingobium subarcticum KF1T (X94102)</otu>
+  <otu id="otu3">Sphingopyxis witflariensis DSM</otu>
+  <otu id="otu4">Sphingopyxis macrogoltabida IFO</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Blastomonas" cmphy:species="ursincola" cmphy:strain="DSM 90O6T" cmphy:id="ABO24289" editRecord="[0__O]">Blastomonas ursincola DSM 90O6T (AB024289)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Novosphingobium" cmphy:species="aromaticivorans" cmphy:strain="IFO 16084T" cmphy:id="ABO25012" editRecord="[0__O]">Novosphingobium aromaticivorans IFO 16084T (AB025012)</otu>
+  <otu id="otu7">Novosphingobium rosa IAM</otu>
+  <otu id="otu8">Novosphingobium subterraneum IFO</otu>
+  <otu id="otu9">Novosphingobium stygium IFO</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Sphingopyxis" cmphy:species="chilensis" cmphy:strain="LMG 2098GT" cmphy:id="AFB67204" editRecord="[3__B]">Sphingopyxis chilensis LMG 2098GT (AF367204)</otu>
+  <otu id="otu11" cmphy:genus="Novosphingobium" cmphy:species="hassiacum" cmphy:strain="W-51T" cmphy:id="AJ416411" editRecord="[]">Novosphingobium hassiacum W-51T (AJ416411)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Sphingomonas" cmphy:species="taejonensis" cmphy:strain="KCTC 2884T" cmphy:id="AFI31297" editRecord="[1__I]">Sphingomonas taejonensis KCTC 2884T (AF131297)</otu>
+  <otu id="otu13" cmphy:genus="Sphingopyxis" cmphy:species="terrae" cmphy:strain="IFO 15098T" cmphy:id="D13727" editRecord="[]">Sphingopyxis terrae IFO 15098T (D13727)</otu>
+  <otu id="otu14">Novosphingobium capsulatum IFO</otu>
+  <otu id="otu15" cmphy:genus="Sphingopyxis" cmphy:species="baekryungensis" cmphy:strain="sw-150T" cmphy:id="AY608604" editRecord="[]">Sphingopyxis baekryungensis sw-150T (AY608604)</otu>
+  <otu id="otu16">Sphingopyxis flavimaris KCTC</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="509.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="30.0" y="501.0"/>
+   <node id="NT1.7" label="NT1.7" x="197.0" y="530.0"/>
+   <node id="NT1.9" label="NT1.9" x="237.0" y="734.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="246.0" y="147.0"/>
+   <node id="NT1.13" label="NT1.13" x="267.0" y="784.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="269.0" y="479.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="293.0" y="173.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="295.0" y="581.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="303.0" y="122.0" otu="otu12"/>
+   <node id="NT1.21" label="NT1.21" x="305.0" y="275.0" otu="otu13"/>
+   <node id="NT1.23" label="NT1.23" x="340.0" y="326.0" otu="otu15"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" target="NT1.23" source="NT1.2"/>
+   <edge id="e.2" source="NT1.2" target="NT1.9"/>
+   <edge id="e.3" source="NT1.7" target="NT1.19"/>
+   <edge id="e.4" target="NT1.14" source="NT1.7"/>
+   <edge id="e.7" target="NT1.10" source="NT1.2"/>
+   <edge id="e.12" target="NT1.7" source="NT1.2"/>
+   <edge id="e.14" source="NT1.2" target="NT1.13"/>
+   <edge id="e.18" source="NT1.2" target="NT1.21"/>
+   <edge id="e.21" source="NT1.10" target="NT1.20"/>
+   <edge id="e.22" source="NT1.10" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Maribacfer" cmphy:species="sedfmenffcwa" cmphy:strain="KMM 39O3T" cmphy:id="AYZ71623" editRecord="[2__Z]">Maribacfer sedfmenffcwa KMM 39O3T (AY271623)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Aequonwta antarctica SW49T (AYOQ78OQ)</otu>
+  <otu id="otu8">Robiginifalea biformata HTCCQ5O1T (AY4Q4899)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Arenibacter latericius KMM 426T (AFO5Q74Q)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Muricauda" cmphy:species="aquimarina" cmphy:strain="sw-631" cmphy:id="AY445075" editRecord="[]">Muricauda aquimarina sw-631 (AY445075)</otu>
+  <otu id="otu13">Muricauda olearia CL1SS4T (EU8881 17)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">Flagellimonas eckloniae DOKDO 007T (D0191 180)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Murica" cmphy:species="uda" cmphy:strain="flavescens SW-627" cmphy:id="AY445078" editRecord="[]">Murica uda flavescens SW-627 (AY445078)</otu>
+  <otu id="otu19" cmphy:genus="Bacteroicles" cmphy:species="fragflis" cmphy:strain="ATCC 25285" cmphy:id="X83935" editRecord="[]">Bacteroicles fragflis ATCC 25285 (X83935)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.5" label="NT1.5" x="475.0" y="366.0"/>
+   <node id="NT1.14" label="NT1.14" x="737.0" y="407.0" otu="otu4"/>
+   <node id="NT1.15" x="741.0" y="136.0" label="91."/>
+   <node id="NT1.25" label="NT1.25" x="808.0" y="128.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="869.0" y="184.0" otu="otu18"/>
+   <node id="NT1.32" label="NT1.32" x="869.0" y="742.0" otu="otu19"/>
+   <node id="NT1.33" label="NT1.33" x="1.0" y="685.0" root="true"/>
+   <edge id="e.4" target="NT1.25" source="NT1.15"/>
+   <edge id="e.7" source="NT1.15" target="NT1.31"/>
+   <edge id="e.12" target="NT1.14" source="NT1.5"/>
+   <edge id="e.19" target="NT1.15" source="NT1.5"/>
+   <edge id="e.24" target="NT1.5" source="NT1.33"/>
+   <edge id="e.29" source="NT1.33" target="NT1.32"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Algoriphagus chordae LMG 21 9707 (AJ575265)</otu>
+  <otu id="otu2" cmphy:genus="Algoriphagus" cmphy:species="yeomjeoni" cmphy:strain="MSS-1 617" cmphy:id="AY699795" editRecord="[]"> Algoriphagus yeomjeoni MSS-1 617 (AY699795)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Algoriphagus" cmphy:species="winogradskyi" cmphy:strain="LMG 219697" cmphy:id="AJS75263" editRecord="[5__S]"> Algoriphagus winogradskyi LMG 219697 (AJ575263)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[8__B]" cmphy:genus="Algoriphagus" cmphy:species="locisalis" cmphy:strain="MSS-1 717" cmphy:id="AYB35923" editRecord="[8__B]"> Algoriphagus locisalis MSS-1 717 (AY835923)</otu>
+  <otu id="otu6"> Algoriphagus antarcticus LMG 219807(AJ577141)</otu>
+  <otu id="otu7" cmphy:genus="Algoriphagus" cmphy:species="ratkowskyi" cmphy:strain="LMG 214357" cmphy:id="AJ608641" editRecord="[]">Algoriphagus ratkowskyi LMG 214357 (AJ608641)</otu>
+  <otu id="otu8" cmphy:genus="Aquiflexum" cmphy:species="balticum" cmphy:strain="BA16O7" cmphy:id="AJ744861" editRecord="[]">Aquiflexum balticum BA16O7 (AJ744861)</otu>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Larkinella" cmphy:species="insperata" cmphy:strain="LMG 225107" cmphy:id="AMO00022" editRecord="[O__0]">Larkinella insperata LMG 225107 (AMOO0022)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Spirosoma" cmphy:species="rigui" cmphy:strain="WPCB1 187" cmphy:id="EFS07900" editRecord="[5__S]">Spirosoma rigui WPCB1 187 (EF507900)</otu>
+  <otu id="otu11" cmphy:genus="Spirosoma" cmphy:species="luteum" cmphy:strain="SPM-107" cmphy:id="EF451726" editRecord="[]"> Spirosoma luteum SPM-107 (EF451726)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[O__0, O__0]" cmphy:genus="Spirosoma" cmphy:species="linguale" cmphy:strain="LMG 108967" cmphy:id="AMO00023" editRecord="[O__0, O__0]">Spirosoma linguale LMG 108967 (AMOO0O23)</otu>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="Spirosoma" cmphy:species="panaciterrae" cmphy:strain="Gsoil 15197" cmphy:id="EUB70956" editRecord="[3__B]">Spirosoma panaciterrae Gsoil 15197 (EU370956)</otu>
+  <otu id="otu15" cmphy:genus="Rudanella" cmphy:species="lutea" cmphy:strain="57153-1 11" cmphy:id="EF635010" editRecord="[]">Rudanella lutea 57153-1 11 (EF635010)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Rhodothermus" cmphy:species="marinus" cmphy:strain="DSM 42527" cmphy:id="AFZ17494" editRecord="[2__Z]">Rhodothermus marinus DSM 42527 (AF217494)</otu>
+  <otu id="otu17" cmphy:edit="[1__I]" cmphy:genus="Fibrella" cmphy:species="aestuarina" cmphy:strain="BUZ 27" cmphy:id="GQI41052" editRecord="[1__I]">Fibrella aestuarina BUZ 27 (GQ141052)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="56.0" y="270.0"/>
+   <node id="NT1.2" x="174.0" y="200.0" label="100"/>
+   <node id="NT1.3" x="189.0" y="338.0" label="100"/>
+   <node id="NT1.4" x="230.0" y="154.0" label="98"/>
+   <node id="NT1.5" x="281.0" y="197.0" label="92"/>
+   <node id="NT1.6" x="324.0" y="397.0" label="100"/>
+   <node id="NT1.8" x="329.0" y="111.0" label="100"/>
+   <node id="NT1.9" x="343.0" y="354.0" label="75"/>
+   <node id="NT1.11" x="346.0" y="75.0" label="77"/>
+   <node id="NT1.12" x="346.0" y="329.0" label="75"/>
+   <node id="NT1.15" x="357.0" y="38.0" label="77"/>
+   <node id="NT1.16" label="NT1.16" x="359.0" y="379.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="361.0" y="313.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="369.0" y="346.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="378.0" y="511.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="389.0" y="280.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="449.0" y="247.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="456.0" y="112.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="459.0" y="80.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="477.0" y="14.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="481.0" y="148.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="483.0" y="181.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="551.0" y="544.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="552.0" y="214.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="2.0" y="407.0" root="true"/>
+   <edge id="e.0" source="NT1.15" target="NT1.28"/>
+   <edge id="e.1" target="NT1.26" source="NT1.15"/>
+   <edge id="e.3" source="NT1.11" target="NT1.25"/>
+   <edge id="e.4" source="NT1.8" target="NT1.29"/>
+   <edge id="e.5" source="NT1.5" target="NT1.30"/>
+   <edge id="e.6" source="NT1.5" target="NT1.32"/>
+   <edge id="e.7" source="NT1.2" target="NT1.24"/>
+   <edge id="e.8" source="NT1.3" target="NT1.22"/>
+   <edge id="e.10" source="NT1.9" target="NT1.16"/>
+   <edge id="e.11" source="NT1.12" target="NT1.17"/>
+   <edge id="e.12" source="NT1.12" target="NT1.19"/>
+   <edge id="e.15" target="NT1.21" source="NT1.6"/>
+   <edge id="e.16" source="NT1.11" target="NT1.15"/>
+   <edge id="e.18" source="NT1.8" target="NT1.11"/>
+   <edge id="e.19" source="NT1.4" target="NT1.8"/>
+   <edge id="e.20" source="NT1.2" target="NT1.4"/>
+   <edge id="e.21" source="NT1.4" target="NT1.5"/>
+   <edge id="e.22" source="NT1.1" target="NT1.2"/>
+   <edge id="e.23" source="NT1.1" target="NT1.3"/>
+   <edge id="e.24" source="NT1.3" target="NT1.6"/>
+   <edge id="e.26" source="NT1.6" target="NT1.9"/>
+   <edge id="e.28" source="NT1.9" target="NT1.12"/>
+   <edge id="e.30" source="NT1.33" target="NT1.31"/>
+   <edge id="e.31" source="NT1.33" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

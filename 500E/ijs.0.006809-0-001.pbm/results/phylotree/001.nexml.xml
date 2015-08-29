@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 119477" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 119477 (M62797)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 3553T" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 3553T (AY228461)</otu>
+  <otu id="otu3" cmphy:genus="Bizionia" cmphy:species="paragorgiae" cmphy:strain="KMM 6O29T" cmphy:id="AY651070" editRecord="[]">Bizionia paragorgiae KMM 6O29T (AY651070)</otu>
+  <otu id="otu4">Algibacterlectus KMM 3902T (AY187689)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Olleya" cmphy:species="marilimosa" cmphy:strain="CAMOSOT" cmphy:id="AYS86527" editRecord="[5__S]">Olleya marilimosa CAMOSOT (AY586527)</otu>
+  <otu id="otu6">Lacinutrix cope-podicola D.J3T (AY694001)</otu>
+  <otu id="otu7" cmphy:genus="Psychroserpens" cmphy:species="burtonensis" cmphy:strain="ACAM 181" cmphy:id="U62912" editRecord="[]">Psychroserpens burtonensis ACAM 181 (U62912)</otu>
+  <otu id="otu8" cmphy:genus="Gelidibacter" cmphy:species="algens" cmphy:strain="ACAM 5367" cmphy:id="U62914" editRecord="[]">Gelidibacter algens ACAM 5367 (U62914)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="thalassocola" cmphy:strain="KMM 3907T" cmphy:id="AYS21223" editRecord="[5__S]">Winogradskyella thalassocola KMM 3907T (AY521223)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="epiphytica" cmphy:strain="KMM 3906T" cmphy:id="AYS21224" editRecord="[5__S]">Winogradskyella epiphytica KMM 3906T (AY521224)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="eximia" cmphy:strain="KMM 39447" cmphy:id="AYS21225" editRecord="[5__S]"> Winogradskyella eximia KMM 39447 (AY521225)</otu>
+  <otu id="otu12" cmphy:genus="Winogradskyella" cmphy:species="arenosi" cmphy:strain="R607" cmphy:id="AB438962" editRecord="[]">Winogradskyella arenosi R607 (AB438962)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Tenacibaculum" cmphy:species="maritimum" cmphy:strain="IFO 159467" cmphy:id="ABO78057" editRecord="[0__O]">Tenacibaculum maritimum IFO 159467 (AB078057)</otu>
+  <otu id="otu14" cmphy:genus="Subsaximicrobium" cmphy:species="wynnwilliamsii" cmphy:strain="Gi17T" cmphy:id="AY693997" editRecord="[]">Subsaximicrobium wynnwilliamsii Gi17T (AY693997)</otu>
+  <otu id="otu15" cmphy:edit="[8__B]" cmphy:genus="Winogradskyella" cmphy:species="poriferorum" cmphy:strain="UST030701-295T" cmphy:id="AYB48823" editRecord="[8__B]">Winogradskyella poriferorum UST030701-295T (AY848823)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Polaribacter" cmphy:species="filamentus" cmphy:strain="215T" cmphy:id="U73726" editRecord="[]">Polaribacter filamentus 215T (U73726)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="214.0" y="492.0"/>
+   <node id="NT1.2" label="NT1.2" x="353.0" y="414.0"/>
+   <node id="NT1.3" label="NT1.3" x="401.0" y="315.0"/>
+   <node id="NT1.4" label="NT1.4" x="463.0" y="423.0"/>
+   <node id="NT1.5" label="NT1.5" x="478.0" y="626.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="488.0" y="309.0"/>
+   <node id="NT1.7" label="NT1.7" x="492.0" y="206.0"/>
+   <node id="NT1.10" x="583.0" y="567.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="624.0" y="510.0" otu="otu2"/>
+   <node id="NT1.12" x="674.0" y="131.0" label="99"/>
+   <node id="NT1.14" label="NT1.14" x="754.0" y="395.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="755.0" y="95.0"/>
+   <node id="NT1.17" label="NT1.17" x="778.0" y="61.0"/>
+   <node id="NT1.18" label="NT1.18" x="786.0" y="32.0"/>
+   <node id="NT1.19" label="NT1.19" x="791.0" y="472.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="911.0" y="243.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="949.0" y="318.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="965.0" y="51.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="988.0" y="128.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="990.0" y="90.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="1007.0" y="13.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="1007.0" y="587.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="1011.0" y="281.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="1017.0" y="166.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="1075.0" y="548.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="4.0" y="559.0" root="true"/>
+   <edge id="e.0" source="NT1.18" target="NT1.23"/>
+   <edge id="e.1" source="NT1.18" target="NT1.26"/>
+   <edge id="e.2" source="NT1.17" target="NT1.25"/>
+   <edge id="e.3" source="NT1.15" target="NT1.24"/>
+   <edge id="e.4" source="NT1.12" target="NT1.29"/>
+   <edge id="e.6" source="NT1.7" target="NT1.21"/>
+   <edge id="e.7" source="NT1.4" target="NT1.14"/>
+   <edge id="e.9" source="NT1.2" target="NT1.11"/>
+   <edge id="e.10" target="NT1.19" source="NT1.4"/>
+   <edge id="e.11" target="NT1.22" source="NT1.6"/>
+   <edge id="e.12" source="NT1.6" target="NT1.28"/>
+   <edge id="e.14" source="NT1.10" target="NT1.27"/>
+   <edge id="e.15" source="NT1.10" target="NT1.31"/>
+   <edge id="e.16" source="NT1.17" target="NT1.18"/>
+   <edge id="e.17" source="NT1.15" target="NT1.17"/>
+   <edge id="e.18" source="NT1.12" target="NT1.15"/>
+   <edge id="e.19" target="NT1.12" source="NT1.7"/>
+   <edge id="e.21" source="NT1.6" target="NT1.7"/>
+   <edge id="e.22" source="NT1.3" target="NT1.6"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+   <edge id="e.25" source="NT1.3" target="NT1.4"/>
+   <edge id="e.26" source="NT1.1" target="NT1.2"/>
+   <edge id="e.28" source="NT1.1" target="NT1.10"/>
+   <edge id="e.29" source="NT1.32" target="NT1.5"/>
+   <edge id="e.30" source="NT1.32" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

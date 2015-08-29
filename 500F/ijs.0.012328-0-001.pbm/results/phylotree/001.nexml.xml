@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Thermoanaerobacterium thermosulfurigenes ATCC 337437 (L091 71)</otu>
+  <otu id="otu2">Thermoanaerobacter ethanolicus JW 2007 (L091 62)</otu>
+  <otu id="otu3">Caldanaerobacter subterraneus subsp. tengcongensis MB4T (AF209708)</otu>
+  <otu id="otu4"> Thermoanaerobacter keratinophilus4 2KXI (AY278483)</otu>
+  <otu id="otu5">Caldanaerobacter subterraneus subsp. pacificus JMT (AF1 74484)</otu>
+  <otu id="otu6"> Calclanaerobacter subterraneus subsp. yonseiensis KB1T (AF212925)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Caldanaerobacter" cmphy:species="uzonensis" cmphy:strain="K67T" cmphy:id="EFI95126" editRecord="[1__I]">Caldanaerobacter uzonensis K67T (EF195126)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Caldicellulosiruptor" cmphy:species="saccharolyticus" cmphy:strain="DSM 89037" cmphy:id="NC_009437" editRecord="[O__0]">Caldicellulosiruptor saccharolyticus DSM 89037 (NC_O09437)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Clostridium" cmphy:species="butyricum" cmphy:strain="ATCC 193987" cmphy:id="ABO75768" editRecord="[0__O]">Clostridium butyricum ATCC 193987 (AB075768)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="147.0" y="302.0" label="88"/>
+   <node id="NT1.15" label="NT1.15" x="482.0" y="253.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="548.0" y="350.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="548.0" y="446.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="2.0" y="398.0" root="true"/>
+   <edge id="e.5" target="NT1.15" source="NT1.2"/>
+   <edge id="e.8" source="NT1.2" target="NT1.17"/>
+   <edge id="e.15" target="NT1.2" source="NT1.19"/>
+   <edge id="e.16" source="NT1.19" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

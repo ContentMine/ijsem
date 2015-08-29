@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">M. gruessii CBS 76577 (U45737)</otu>
+  <otu id="otu2">M. reukaufii CBS 58347 (U44825)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="hawaiiana" cmphy:strain="UWOPS 91-698.37" cmphy:id="AFS14293" editRecord="[5__S]">Candida hawaiiana UWOPS 91-698.37 (AF514293)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">M. aberdeeniae SUB 05-213.17</otu>
+  <otu id="otu6">M. agaves CBS 77447 (U84243)</otu>
+  <otu id="otu7">Metschnikowia sp. SUB O4-310.1 (DQ266431)</otu>
+  <otu id="otu8" cmphy:genus="Clavispofa" cmphy:species="lusitaniae" cmphy:strain="CBS 69367" cmphy:id="U44817" editRecord="[]">Clavispofa lusitaniae CBS 69367 (U44817)</otu>
+  <otu id="otu9">M. pulcherrima CBS 58337 (U45736)</otu>
+  <otu id="otu10" cmphy:genus="Saccharomyces" cmphy:species="cerevisiae" cmphy:strain="CBS 11717" cmphy:id="U44808" editRecord="[]">Saccharomyces cerevisiae CBS 11717 (U44808)</otu>
+  <otu id="otu11" cmphy:genus="Schizosaccharomyces" cmphy:species="pombe" cmphy:strain="CBS 3567" cmphy:id="U40085" editRecord="[]">Schizosaccharomyces pombe CBS 3567 (U40085)</otu>
+  <otu id="otu12">M. continentalis UFMG 96-1737 (AFO34126)</otu>
+  <otu id="otu13">M. drosophilae UWO(PS) 83-1135.37 (AF279303)</otu>
+  <otu id="otu14">M. hawaiiensis CBS 74327 (U45734)</otu>
+  <otu id="otu15">M. arizonensis UWOPS 99-103.317 (AF313348)</otu>
+  <otu id="otu16">M. dekortorum UWOPS 01-142b37 (AY056036)</otu>
+  <otu id="otu17">M. Iunata CBS 59467 (U45733)</otu>
+  <otu id="otu18" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="kipukae" cmphy:strain="UWOPS 00-669.27" cmphy:id="AFS14294" editRecord="[5__S]">Candida kipukae UWOPS 00-669.27 (AF514294)</otu>
+  <otu id="otu19">M. hibisci UWOPS95-797.27 (AFO34128)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="36.0" y="597.0" label="75"/>
+   <node id="NT1.2" label="NT1.2" x="72.0" y="323.0"/>
+   <node id="NT1.18" label="NT1.18" x="243.0" y="189.0" otu="otu3"/>
+   <node id="NT1.24" label="NT1.24" x="259.0" y="744.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="275.0" y="786.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="282.0" y="825.0" otu="otu11"/>
+   <node id="NT1.34" label="NT1.34" x="347.0" y="361.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="15.0" y="824.0" root="true"/>
+   <edge id="e.2" target="NT1.18" source="NT1.2"/>
+   <edge id="e.10" target="NT1.34" source="NT1.2"/>
+   <edge id="e.15" source="NT1.1" target="NT1.2"/>
+   <edge id="e.26" source="NT1.36" target="NT1.27"/>
+   <edge id="e.27" source="NT1.36" target="NT1.1"/>
+   <edge id="e.28" source="NT1.1" target="NT1.24"/>
+   <edge id="e.34" source="NT1.1" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

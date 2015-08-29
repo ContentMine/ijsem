@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Streptoalloteichus tenebrarius NBRC 161 77T(AB184722)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Actinophytocola" cmphy:species="burenkhanensis" cmphy:strain="MN08-A0203T" cmphy:id="ABS35095" editRecord="[5__S]">Actinophytocola burenkhanensis MN08-A0203T (AB535095)</otu>
+  <otu id="otu7">Streptoalloteichus hindustanus NBRC 151 157 (D85497)</otu>
+  <otu id="otu8" cmphy:edit="[0__O, O__0]" cmphy:genus="Amycolatopsis" cmphy:species="eurytherma" cmphy:strain="NT2O2T" cmphy:id="AJO00285" editRecord="[0__O, O__0]">Amycolatopsis eurytherma NT2O2T (AJ00O285)</otu>
+  <otu id="otu9" cmphy:genus="Actinophytocola" cmphy:species="oryzae" cmphy:strain="GMKU 367T" cmphy:id="EU420070" editRecord="[]">Actinophytocola oryzae GMKU 367T (EU420070)</otu>
+  <otu id="otu10">Allokutzneria albata DSM 44149T (AJ51 2462)</otu>
+  <otu id="otu11">Streptoalloteichus tenebrarius NBRC 161 77T(AB184722)</otu>
+  <otu id="otu12">Alloactinosynnema album O3-9939T (EU4389O 7)</otu>
+  <otu id="otu13" cmphy:genus="Actinokineospora" cmphy:species="fastidiosa" cmphy:strain="IMSNU 200547" cmphy:id="AJ400710" editRecord="[]">Actinokineospora fastidiosa IMSNU 200547 (AJ400710)</otu>
+  <otu id="otu14" cmphy:genus="Streptomyces" cmphy:species="ambofaciens" cmphy:strain="ATCC 23877T" cmphy:id="M27245" editRecord="[]">Streptomyces ambofaciens ATCC 23877T (M27245)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Amycolatopsis" cmphy:species="sacchari" cmphy:strain="K24T" cmphy:id="AFZ23354" editRecord="[2__Z]">Amycolatopsis sacchari K24T (AF223354)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Actinokineospora" cmphy:species="terrae" cmphy:strain="NBRC 156687" cmphy:id="ABO58394" editRecord="[]">Actinokineospora terrae NBRC 156687 (ABO58394)</otu>
+  <otu id="otu18">Actinokineospora diospyrosa NRRL B-24O47T (AF1 14797)</otu>
+  <otu id="otu19">Kibdelosporangium aridum subsp. largum DSM 4415OT(AJ512463)</otu>
+  <otu id="otu20" cmphy:edit="[1__I]" cmphy:genus="Actinoalloteichus" cmphy:species="hymeniacidonis" cmphy:strain="HPA1 77T" cmphy:id="DQI44222" editRecord="[1__I]">Actinoalloteichus hymeniacidonis HPA1 77T (DQ144222)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="49.0" y="461.0"/>
+   <node id="NT1.2" label="NT1.2" x="64.0" y="367.0"/>
+   <node id="NT1.3" label="NT1.3" x="67.0" y="435.0"/>
+   <node id="NT1.4" label="NT1.4" x="70.0" y="432.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="70.0" y="448.0" otu="otu2"/>
+   <node id="NT1.6" x="76.0" y="279.0" label="63"/>
+   <node id="NT1.7" x="83.0" y="167.0" label="31"/>
+   <node id="NT1.8" x="83.0" y="552.0" label="93."/>
+   <node id="NT1.9" label="NT1.9" x="90.0" y="81.0"/>
+   <node id="NT1.10" label="NT1.10" x="93.0" y="101.0"/>
+   <node id="NT1.11" label="NT1.11" x="95.0" y="98.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="95.0" y="114.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="103.0" y="250.0"/>
+   <node id="NT1.14" label="NT1.14" x="108.0" y="224.0"/>
+   <node id="NT1.15" label="NT1.15" x="115.0" y="297.0"/>
+   <node id="NT1.16" label="NT1.16" x="117.0" y="453.0"/>
+   <node id="NT1.17" label="NT1.17" x="132.0" y="103.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="137.0" y="108.0"/>
+   <node id="NT1.19" label="NT1.19" x="139.0" y="589.0"/>
+   <node id="NT1.20" label="NT1.20" x="154.0" y="475.0" otu="otu6"/>
+   <node id="NT1.21" x="154.0" y="328.0" label="992"/>
+   <node id="NT1.22" label="NT1.22" x="156.0" y="142.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="159.0" y="558.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="160.0" y="434.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="163.0" y="620.0"/>
+   <node id="NT1.26" label="NT1.26" x="165.0" y="601.0"/>
+   <node id="NT1.27" label="NT1.27" x="165.0" y="641.0"/>
+   <node id="NT1.28" label="NT1.28" x="166.0" y="183.0" otu="otu10"/>
+   <node id="NT1.29" label="NT1.29" x="168.0" y="100.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="168.0" y="226.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="168.0" y="266.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="170.0" y="38.0"/>
+   <node id="NT1.33" label="NT1.33" x="172.0" y="684.0" otu="otu14"/>
+   <node id="NT1.34" label="NT1.34" x="176.0" y="517.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="186.0" y="16.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="186.0" y="308.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="186.0" y="349.0" otu="otu18"/>
+   <node id="NT1.38" label="NT1.38" x="188.0" y="59.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="212.0" y="392.0" otu="otu20"/>
+   <edge source="NT1.38" target="NT1.32" id="e.0"/>
+   <edge source="NT1.10" target="NT1.11" id="e.1"/>
+   <edge source="NT1.12" target="NT1.10" id="e.2"/>
+   <edge source="NT1.17" target="NT1.18" id="e.3"/>
+   <edge source="NT1.29" target="NT1.18" id="e.4"/>
+   <edge source="NT1.28" target="NT1.14" id="e.5"/>
+   <edge source="NT1.31" target="NT1.15" id="e.6"/>
+   <edge source="NT1.36" target="NT1.21" id="e.7"/>
+   <edge source="NT1.37" target="NT1.21" id="e.8"/>
+   <edge source="NT1.3" target="NT1.4" id="e.9"/>
+   <edge source="NT1.5" target="NT1.3" id="e.10"/>
+   <edge source="NT1.24" target="NT1.16" id="e.11"/>
+   <edge source="NT1.32" target="NT1.9" id="e.12"/>
+   <edge source="NT1.9" target="NT1.7" id="e.13"/>
+   <edge source="NT1.9" target="NT1.10" id="e.14"/>
+   <edge source="NT1.10" target="NT1.18" id="e.15"/>
+   <edge source="NT1.7" target="NT1.6" id="e.16"/>
+   <edge source="NT1.7" target="NT1.13" id="e.17"/>
+   <edge source="NT1.13" target="NT1.15" id="e.18"/>
+   <edge source="NT1.13" target="NT1.14" id="e.19"/>
+   <edge source="NT1.6" target="NT1.2" id="e.20"/>
+   <edge source="NT1.15" target="NT1.21" id="e.21"/>
+   <edge source="NT1.2" target="NT1.1" id="e.22"/>
+   <edge source="NT1.2" target="NT1.3" id="e.23"/>
+   <edge source="NT1.3" target="NT1.16" id="e.24"/>
+   <edge source="NT1.1" target="NT1.8" id="e.25"/>
+   <edge source="NT1.8" target="NT1.19" id="e.26"/>
+   <edge source="NT1.19" target="NT1.25" id="e.27"/>
+   <edge source="NT1.25" target="NT1.27" id="e.28"/>
+   <edge source="NT1.25" target="NT1.26" id="e.29"/>
+   <edge source="NT1.26" target="NT1.26" id="e.30"/>
+   <edge source="NT1.27" target="NT1.27" id="e.31"/>
+   <edge source="NT1.33" target="NT1.1" id="e.32"/>
+   <edge source="NT1.34" target="NT1.8" id="e.33"/>
+   <edge source="NT1.39" target="NT1.6" id="e.34"/>
+   <edge source="NT1.30" target="NT1.14" id="e.35"/>
+   <edge source="NT1.20" target="NT1.16" id="e.36"/>
+   <edge source="NT1.22" target="NT1.18" id="e.37"/>
+   <edge source="NT1.23" target="NT1.19" id="e.38"/>
+   <edge source="NT1.35" target="NT1.32" id="e.39"/>
+  </tree>
+ </trees>
+</nexml>

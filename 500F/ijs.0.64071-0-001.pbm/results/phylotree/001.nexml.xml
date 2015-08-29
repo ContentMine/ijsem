@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Arcicella" cmphy:species="aquatica" cmphy:strain="NO-5027" cmphy:id="AJS35729" editRecord="[5__S]">Arcicella aquatica NO-5027 (AJ535729)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Flectobacillus" cmphy:species="lacus" cmphy:strain="CL-G P797" cmphy:id="DQI12352" editRecord="[1__I]"> Flectobacillus lacus CL-G P797 (DQ112352)</otu>
+  <otu id="otu6" cmphy:genus="Flectobacillus" cmphy:species="major" cmphy:strain="ATCC 294967" cmphy:id="M62787" editRecord="[]">Flectobacillus major ATCC 294967 (M62787)</otu>
+  <otu id="otu7" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="ATCC 334067" cmphy:id="M58768" editRecord="[]">Cytophaga hutchinsonii ATCC 334067 (M58768)</otu>
+  <otu id="otu8">Sporocytophaga myxococcoides DSM 1 1 1 187 (AJ310654)</otu>
+  <otu id="otu9" cmphy:genus="Flexibacter" cmphy:species="flexilis" cmphy:strain="ATCC 230797" cmphy:id="M62794" editRecord="[]">Flexibacter flexilis ATCC 230797 (M62794)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Cyclobacterium" cmphy:species="marinum" cmphy:strain="DSM 7457" cmphy:id="AYS33665" editRecord="[5__S]">Cyclobacterium marinum DSM 7457 (AY533665)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Dyadobacter" cmphy:species="fermentans" cmphy:strain="NS1147" cmphy:id="AFI37029" editRecord="[1__I]">Dyadobacter fermentans NS1147 (AF137029)</otu>
+  <otu id="otu12" cmphy:genus="Runella" cmphy:species="slithyformis" cmphy:strain="ATCC 295307" cmphy:id="M62786" editRecord="[]">Runella slithyformis ATCC 295307 (M62786)</otu>
+  <otu id="otu13">Spirosoma Iinguale ATCC 232767 (M62789)</otu>
+  <otu id="otu14" cmphy:genus="Tenacibaculum" cmphy:species="maritimum" cmphy:strain="IFO 159467" cmphy:id="ABO78057" editRecord="[]">Tenacibaculum maritimum IFO 159467 (ABO78057)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="31.0" y="182.0"/>
+   <node id="NT1.2" label="NT1.2" x="38.0" y="291.0"/>
+   <node id="NT1.3" x="60.0" y="218.0" label="ai"/>
+   <node id="NT1.5" label="NT1.5" x="76.0" y="172.0"/>
+   <node id="NT1.7" x="138.0" y="69.0" label="40"/>
+   <node id="NT1.9" x="159.0" y="400.0" label="100"/>
+   <node id="NT1.11" x="180.0" y="34.0" label="40"/>
+   <node id="NT1.13" label="NT1.13" x="225.0" y="104.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="232.0" y="12.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="245.0" y="58.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="274.0" y="240.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="301.0" y="195.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="323.0" y="148.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="327.0" y="377.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="368.0" y="424.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="397.0" y="469.0" otu="otu14"/>
+   <node id="NT1.24" label="NT1.24" x="4.0" y="325.0" root="true"/>
+   <edge id="e.1" source="NT1.11" target="NT1.14"/>
+   <edge id="e.3" source="NT1.11" target="NT1.15"/>
+   <edge id="e.4" source="NT1.7" target="NT1.13"/>
+   <edge id="e.6" target="NT1.16" source="NT1.3"/>
+   <edge id="e.8" source="NT1.5" target="NT1.18"/>
+   <edge id="e.9" source="NT1.9" target="NT1.20"/>
+   <edge id="e.10" source="NT1.5" target="NT1.19"/>
+   <edge id="e.11" source="NT1.9" target="NT1.21"/>
+   <edge id="e.13" source="NT1.7" target="NT1.11"/>
+   <edge id="e.14" source="NT1.1" target="NT1.7"/>
+   <edge id="e.15" source="NT1.1" target="NT1.2"/>
+   <edge id="e.17" source="NT1.2" target="NT1.3"/>
+   <edge id="e.19" source="NT1.3" target="NT1.5"/>
+   <edge id="e.20" target="NT1.9" source="NT1.2"/>
+   <edge id="e.21" source="NT1.24" target="NT1.23"/>
+   <edge id="e.22" source="NT1.24" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

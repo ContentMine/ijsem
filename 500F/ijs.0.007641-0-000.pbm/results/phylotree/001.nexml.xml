@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Mitsuokella" cmphy:species="jalaludinii" cmphy:strain="M 97" cmphy:id="AF479674" editRecord="[]">Mitsuokella jalaludinii M 97 (AF479674)</otu>
+  <otu id="otu7">Selenomonas ruminantium subsp. lactilytica HD4 (M62703)</otu>
+  <otu id="otu8">Selenomonas ruminantium subsp. ruminantium GA192T (M62702)</otu>
+  <otu id="otu9" cmphy:genus="Mitsuokella" cmphy:species="multacida" cmphy:strain="NCTC 10934T" cmphy:id="X81878" editRecord="[]">Mitsuokella multacida NCTC 10934T (X81878)</otu>
+  <otu id="otu10" cmphy:edit="[8__B]" cmphy:genus="Selenomonas" cmphy:species="bovis" cmphy:strain="Ycb08" cmphy:id="EUB21596" editRecord="[8__B]">Selenomonas bovis Ycb08 (EU821596)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Selenomonas" cmphy:species="bovis" cmphy:strain="WG2" cmphy:id="EFI39191" editRecord="[1__I]">Selenomonas bovis WG2 (EF139191)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Selenomonas" cmphy:species="lacticifex" cmphy:strain="DSM 207577" cmphy:id="AFB73024" editRecord="[3__B]">Selenomonas lacticifex DSM 207577 (AF373024)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Selenomonas" cmphy:species="sputigena" cmphy:strain="ATCC 35185NT" cmphy:id="AFZ87793" editRecord="[2__Z]">Selenomonas sputigena ATCC 35185NT (AF287793)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Selenomonas" cmphy:species="infelix" cmphy:strain="ATCC 43532T" cmphy:id="AFZ87802" editRecord="[2__Z]">Selenomonas infelix ATCC 43532T (AF287802)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Selenomonas" cmphy:species="dianae" cmphy:strain="ATCC 435277" cmphy:id="AFZ87801" editRecord="[2__Z]">Selenomonas dianae ATCC 435277 (AF287801)</otu>
+  <otu id="otu20">Selenomonas flueggeiATCC 43531T (AF287803)</otu>
+  <otu id="otu21">Selenomonas noxia ATCC 43541 T (AF287 799)</otu>
+  <otu id="otu22" cmphy:edit="[0__O]" cmphy:genus="Selenomonas" cmphy:species="lipolytica" cmphy:strain="CF1BT" cmphy:id="AFO01901" editRecord="[0__O]">Selenomonas lipolytica CF1BT (AF001901)</otu>
+  <otu id="otu23" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="DSM 1OT" cmphy:id="AJZ76351" editRecord="[2__Z]">Bacillus subtilis DSM 1OT (AJ276351)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="522.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="2.0" y="522.0"/>
+   <node id="NT1.3" label="NT1.3" x="149.0" y="462.0"/>
+   <node id="NT1.6" label="NT1.6" x="229.0" y="325.0"/>
+   <node id="NT1.7" label="NT1.7" x="250.0" y="233.0"/>
+   <node id="NT1.8" x="263.0" y="160.0" label="41"/>
+   <node id="NT1.10" label="NT1.10" x="285.0" y="413.0"/>
+   <node id="NT1.12" x="349.0" y="39.0" label="100"/>
+   <node id="NT1.18" label="NT1.18" x="371.0" y="13.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="387.0" y="62.0" otu="otu9"/>
+   <node id="NT1.22" x="398.0" y="230.0" label="1oo"/>
+   <node id="NT1.23" label="NT1.23" x="403.0" y="257.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="406.0" y="208.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="440.0" y="305.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="486.0" y="428.0"/>
+   <node id="NT1.33" label="NT1.33" x="491.0" y="354.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="512.0" y="451.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="514.0" y="402.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="668.0" y="598.0" otu="otu22"/>
+   <node id="NT1.40" label="NT1.40" x="668.0" y="646.0" otu="otu23"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.12" source="NT1.8"/>
+   <edge id="e.13" source="NT1.7" target="NT1.8"/>
+   <edge id="e.14" source="NT1.8" target="NT1.22"/>
+   <edge id="e.16" source="NT1.6" target="NT1.7"/>
+   <edge id="e.17" target="NT1.6" source="NT1.3"/>
+   <edge id="e.18" source="NT1.6" target="NT1.10"/>
+   <edge id="e.21" source="NT1.2" target="NT1.3"/>
+   <edge id="e.22" target="NT1.31" source="NT1.10"/>
+   <edge id="e.25" source="NT1.2" target="NT1.40"/>
+   <edge id="e.26" source="NT1.7" target="NT1.26"/>
+   <edge id="e.27" source="NT1.3" target="NT1.39"/>
+   <edge id="e.28" source="NT1.10" target="NT1.33"/>
+   <edge id="e.29" target="NT1.18" source="NT1.12"/>
+   <edge id="e.32" source="NT1.12" target="NT1.21"/>
+   <edge id="e.33" source="NT1.22" target="NT1.25"/>
+   <edge id="e.34" source="NT1.22" target="NT1.23"/>
+   <edge id="e.35" source="NT1.31" target="NT1.35"/>
+   <edge id="e.36" target="NT1.36" source="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

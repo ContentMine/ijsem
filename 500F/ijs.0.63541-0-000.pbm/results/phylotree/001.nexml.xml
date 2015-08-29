@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Myroides" cmphy:species="odoratus" cmphy:strain="ATCC 4651'" cmphy:id="M58777" editRecord="[]">Myroides odoratus ATCC 4651' (M58777)</otu>
+  <otu id="otu2">Empedobact</otu>
+  <otu id="otu3">Flavobacterium aquatile ATCC 11 947' (M62797)</otu>
+  <otu id="otu4">Omithob</otu>
+  <otu id="otu5" cmphy:genus="Weeksella" cmphy:species="virosa" cmphy:strain="ATCC 43766'" cmphy:id="M93152" editRecord="[]">Weeksella virosa ATCC 43766' (M93152)</otu>
+  <otu id="otu6"> E. meningoseptica ATCC13253'(AJ704540)</otu>
+  <otu id="otu7">E. menmgosepuca ATCC 49410 (AJ104544)</otu>
+  <otu id="otu8">E. miricola ATCC 33958 (AJ704543)</otu>
+  <otu id="otu9">E. meningoseptica ATCC 51720 (AJ704545)</otu>
+  <otu id="otu10">E. miricola DSM14571'(AB071953)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">C. gleum ATCC 35910' (M58772)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">C. balustlnum ATCC 33487' (M58771)</otu>
+  <otu id="otu15">C. indoltheticum ATCC 27950' (M58774)</otu>
+  <otu id="otu16">R. anatipes(iferATcC 11845' (U60101)</otu>
+  <otu id="otu17">C.joosteiLMG18212'(AJ271010)</otu>
+  <otu id="otu18">(C. proteoIyticum( FERM P-17664 (AB03983D)</otu>
+  <otu id="otu19">C. defluviiDSM14219'(AJ309324)</otu>
+  <otu id="otu20">R. columbina LMG11607'(AF181448)</otu>
+  <otu id="otu21">B. zoohelcum ATCC 43767' (M93153)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.5" label="NT1.5" x="489.0" y="850.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="564.0" y="811.0" otu="otu5"/>
+   <node id="NT1.40" label="NT1.40" x="7.0" y="681.0" root="true"/>
+   <edge id="e.10" target="NT1.12" source="NT1.40"/>
+   <edge id="e.31" target="NT1.5" source="NT1.40"/>
+  </tree>
+ </trees>
+</nexml>

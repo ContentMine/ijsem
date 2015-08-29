@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Thermoleophilum" cmphy:species="album" cmphy:strain="ATCC 35263T" cmphy:id="AJ458462" editRecord="[]">Thermoleophilum album ATCC 35263T (AJ458462)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="147.0" y="183.0" otu="otu1" root="true"/>
+   <node id="NT1.8" label="NT1.8" x="433.0" y="233.0" otu="otu6"/>
+   <edge id="e.5" target="NT1.8" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

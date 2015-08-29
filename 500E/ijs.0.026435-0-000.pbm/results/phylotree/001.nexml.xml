@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Ensifer adhaerens LMG 202167 (AM181 733)</otu>
+  <otu id="otu9" cmphy:genus="Mycoplana" cmphy:species="dimorpha" cmphy:strain="IAM 13154T" cmphy:id="D12786" editRecord="[]">Mycoplana dimorpha IAM 13154T (D12786)</otu>
+  <otu id="otu10">Shinella fusca DC-196T(FM177879)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Shinella" cmphy:species="yambaruensis" cmphy:strain="M847" cmphy:id="ABZ85481" editRecord="[2__Z]">Shinella yambaruensis M847 (AB285481)</otu>
+  <otu id="otu14" cmphy:genus="Shinella" cmphy:species="granuli" cmphy:strain="ChO6T" cmphy:id="AY995149" editRecord="[]">Shinella granuli ChO6T (AY995149)</otu>
+  <otu id="otu15" cmphy:genus="Shinella" cmphy:species="kummerowiae" cmphy:strain="CCBAU 25048T" cmphy:id="EFO70131" editRecord="[]">Shinella kummerowiae CCBAU 25048T (EFO70131)</otu>
+  <otu id="otu16" cmphy:genus="Ensifer" cmphy:species="terangae" cmphy:strain="LMG 78347" cmphy:id="X68388" editRecord="[]">Ensifer terangae LMG 78347 (X68388)</otu>
+  <otu id="otu17" cmphy:genus="Shinella" cmphy:species="zoogloeoides" cmphy:strain="IAM 126697" cmphy:id="D14255" editRecord="[]">Shinella zoogloeoides IAM 126697 (D14255)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Shinella" cmphy:species="daejeonensis" cmphy:strain="MJ02T" cmphy:id="GOZ41319" editRecord="[2__Z]">Shinella daejeonensis MJ02T (GO241319)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:genus="Phyllobacterium" cmphy:species="myrsinacearum" cmphy:strain="IAM 13584T" cmphy:id="D12789" editRecord="[]">Phyllobacterium myrsinacearum IAM 13584T (D12789)</otu>
+  <otu id="otu22">Mesorhizobium Ioti LMG 61 257 (X67229)</otu>
+  <otu id="otu23">Defluvibacter Iusatiensis DSM 1 1O99T (AJ132378)</otu>
+  <otu id="otu24">Aminobacter aminovorans DSM 7O48T (AJ01 1 759)</otu>
+  <otu id="otu25">Aquamicrobium clefluvium DSM 1 16O3T (Y15403)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="75.0" y="737.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="143.0" y="533.0"/>
+   <node id="NT1.3" label="NT1.3" x="178.0" y="331.0"/>
+   <node id="NT1.4" label="NT1.4" x="196.0" y="228.0"/>
+   <node id="NT1.5" label="NT1.5" x="213.0" y="732.0"/>
+   <node id="NT1.11" label="NT1.11" x="256.0" y="838.0"/>
+   <node id="NT1.16" label="NT1.16" x="294.0" y="667.0"/>
+   <node id="NT1.22" label="NT1.22" x="341.0" y="388.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="344.0" y="627.0"/>
+   <node id="NT1.28" label="NT1.28" x="381.0" y="813.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="390.0" y="706.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="405.0" y="600.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="425.0" y="335.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="434.0" y="653.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="434.0" y="866.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="549.0" y="123.0" otu="otu21"/>
+   <edge id="e.3" target="NT1.39" source="NT1.4"/>
+   <edge id="e.12" source="NT1.11" target="NT1.28"/>
+   <edge id="e.13" source="NT1.23" target="NT1.30"/>
+   <edge id="e.14" source="NT1.11" target="NT1.33"/>
+   <edge id="e.20" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.24" source="NT1.2" target="NT1.5"/>
+   <edge id="e.26" source="NT1.5" target="NT1.16"/>
+   <edge id="e.29" target="NT1.11" source="NT1.5"/>
+   <edge id="e.31" target="NT1.23" source="NT1.16"/>
+   <edge id="e.32" source="NT1.1" target="NT1.2"/>
+   <edge id="e.33" source="NT1.3" target="NT1.22"/>
+   <edge id="e.35" source="NT1.16" target="NT1.29"/>
+   <edge id="e.36" target="NT1.31" source="NT1.4"/>
+   <edge id="e.37" source="NT1.23" target="NT1.32"/>
+  </tree>
+ </trees>
+</nexml>

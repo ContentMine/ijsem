@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Flectobacillus lacus JCM</otu>
+  <otu id="otu3">Flectobacillus major DSM</otu>
+  <otu id="otu4">Arcicella aquatica</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"> Dyadobacter hamtensis JCM</otu>
+  <otu id="otu7">Larkinella insperata</otu>
+  <otu id="otu8">Rudanella Iutea DSM</otu>
+  <otu id="otu9">Spirosoma Iuteum M5-H2 (EF187349)</otu>
+  <otu id="otu10">Spirosoma Iuteum SPM-1OT(EF451726)</otu>
+  <otu id="otu11" cmphy:genus="Spirosoma" cmphy:species="spitsbergense" cmphy:strain="SPM-97" cmphy:id="EF451725" editRecord="[]">Spirosoma spitsbergense SPM-97 (EF451725)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Spirosoma" cmphy:species="linguale" cmphy:strain="DSM 74T" cmphy:id="AMO00023" editRecord="[0__O]">Spirosoma linguale DSM 74T (AM000023)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Spirosoma" cmphy:species="rigui" cmphy:strain="WPCB118T" cmphy:id="EFS07900" editRecord="[5__S]">Spirosoma rigui WPCB118T (EF507900)</otu>
+  <otu id="otu14" cmphy:genus="Runella" cmphy:species="slithyformis" cmphy:strain="ATCC 2953OT" cmphy:id="M62786" editRecord="[]">Runella slithyformis ATCC 2953OT (M62786)</otu>
+  <otu id="otu15">Runella zeae ATCC</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="542.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="60.0" y="405.0"/>
+   <node id="NT1.11" label="NT1.11" x="424.0" y="190.0"/>
+   <node id="NT1.12" label="NT1.12" x="431.0" y="134.0"/>
+   <node id="NT1.24" label="NT1.24" x="563.0" y="125.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="569.0" y="245.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="589.0" y="184.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="594.0" y="528.0" otu="otu14"/>
+   <edge id="e.2" target="NT1.24" source="NT1.12"/>
+   <edge id="e.3" source="NT1.12" target="NT1.26"/>
+   <edge id="e.4" source="NT1.11" target="NT1.25"/>
+   <edge id="e.9" target="NT1.27" source="NT1.3"/>
+   <edge id="e.15" source="NT1.11" target="NT1.12"/>
+   <edge id="e.16" target="NT1.11" source="NT1.3"/>
+   <edge id="e.19" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

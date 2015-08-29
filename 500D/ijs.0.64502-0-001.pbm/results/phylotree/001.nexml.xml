@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Oceanobacillus" cmphy:species="picturae" cmphy:strain="LMG 19416" cmphy:id="AJZ76808" editRecord="[2__Z]"> Oceanobacillus picturae LMG 19416 (AJ276808)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Virgibacillus" cmphy:species="halodenitrificans" cmphy:strain="DSM 100377" cmphy:id="AYS43169" editRecord="[5__S]">Virgibacillus halodenitrificans DSM 100377 (AY543169)</otu>
+  <otu id="otu4">Virgibacillus marismor1uiATCC 7006267 (AJ009793)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Oceanobacillus" cmphy:species="iheyensis" cmphy:strain="JCM 113097" cmphy:id="ABO10863" editRecord="[0__O]">Oceanobacillus iheyensis JCM 113097 (AB010863)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Virgibacillus" cmphy:species="proomii" cmphy:strain="LMG 123707" cmphy:id="AJO12667" editRecord="[0__O]">Virgibacillus proomii LMG 123707 (AJ012667)</otu>
+  <otu id="otu10"> Oceanobacillus oncorhynchi subsp. oncorhynchi JCM 126617 (AB188089)</otu>
+  <otu id="otu11" cmphy:genus="Virgibacillus" cmphy:species="pantothenticus" cmphy:strain="IAM 110617" cmphy:id="D16275" editRecord="[]">Virgibacillus pantothenticus IAM 110617 (D16275)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Oceanobacillus" cmphy:species="chironomi" cmphy:strain="T3944D7" cmphy:id="DQZ98074" editRecord="[2__Z]"> Oceanobacillus chironomi T3944D7 (DQ298074)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Uncultured" cmphy:species="compost" cmphy:strain="bacterium" cmphy:id="DQB46627" editRecord="[3__B]">Uncultured compost bacterium (DQ346627)</otu>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="Uncultured" cmphy:species="compost" cmphy:strain="bacterium" cmphy:id="DQB46552" editRecord="[3__B]">Uncultured compost bacterium (DQ346552)</otu>
+  <otu id="otu15" cmphy:genus="Virgibacillus" cmphy:species="salexigens" cmphy:strain="DSM 114837" cmphy:id="Y11603" editRecord="[]">Virgibacillus salexigens DSM 114837 (Y11603)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="20.0" y="296.0"/>
+   <node id="NT1.3" label="NT1.3" x="88.0" y="565.0"/>
+   <node id="NT1.4" x="92.0" y="211.0" label="97"/>
+   <node id="NT1.5" x="127.0" y="512.0" label="92"/>
+   <node id="NT1.8" label="NT1.8" x="157.0" y="404.0" otu="otu1"/>
+   <node id="NT1.11" x="214.0" y="554.0" label="100"/>
+   <node id="NT1.12" label="NT1.12" x="221.0" y="619.0" otu="otu3"/>
+   <node id="NT1.17" x="266.0" y="136.0" label="100"/>
+   <node id="NT1.19" label="NT1.19" x="322.0" y="318.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="346.0" y="576.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="354.0" y="532.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="379.0" y="189.0" otu="otu12"/>
+   <node id="NT1.25" x="441.0" y="82.0" label="100"/>
+   <node id="NT1.26" label="NT1.26" x="442.0" y="17.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="442.0" y="146.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="442.0" y="490.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="7.0" y="460.0" root="true"/>
+   <edge id="e.0" source="NT1.25" target="NT1.26"/>
+   <edge id="e.1" source="NT1.25" target="NT1.27"/>
+   <edge id="e.2" source="NT1.17" target="NT1.24"/>
+   <edge id="e.3" target="NT1.19" source="NT1.4"/>
+   <edge id="e.6" target="NT1.8" source="NT1.1"/>
+   <edge id="e.9" source="NT1.3" target="NT1.12"/>
+   <edge id="e.12" source="NT1.11" target="NT1.21"/>
+   <edge id="e.13" source="NT1.11" target="NT1.23"/>
+   <edge id="e.14" target="NT1.28" source="NT1.5"/>
+   <edge id="e.15" source="NT1.17" target="NT1.25"/>
+   <edge id="e.16" source="NT1.4" target="NT1.17"/>
+   <edge id="e.17" source="NT1.1" target="NT1.4"/>
+   <edge id="e.22" target="NT1.3" source="NT1.29"/>
+   <edge id="e.23" source="NT1.3" target="NT1.5"/>
+   <edge id="e.24" source="NT1.5" target="NT1.11"/>
+   <edge id="e.26" source="NT1.29" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

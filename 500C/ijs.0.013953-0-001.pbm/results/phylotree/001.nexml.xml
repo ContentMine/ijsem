@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Clostridium perfringens ATCC 131 247 (M59103)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Clostridium" cmphy:species="pascui" cmphy:strain="DSM 1O365T" cmphy:id="X96736" editRecord="[]">Clostridium pascui DSM 1O365T (X96736)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Clostridium" cmphy:species="butyricum" cmphy:strain="DSM 523" cmphy:id="X77834" editRecord="[]">Clostridium butyricum DSM 523 (X77834)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">Clostridium peptidivorans DSM 1 25057 (AF156796)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Clostridium" cmphy:species="drakei" cmphy:strain="FP" cmphy:id="AJ427628" editRecord="[]">Clostridium drakei FP (AJ427628)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20">Clostridium argentinense ATCC 27322T(xe831e)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Clostridium" cmphy:species="acidisoli" cmphy:strain="CK74T" cmphy:id="AJZ37756" editRecord="[2__Z]">Clostridium acidisoli CK74T (AJ237756)</otu>
+  <otu id="otu22">Clostridium aciditolerans JWNJL-B37 (D01 14945)</otu>
+  <otu id="otu23" cmphy:genus="Clostridium" cmphy:species="subterminale" cmphy:strain="NCIMB 107467" cmphy:id="X68451" editRecord="[]">Clostridium subterminale NCIMB 107467 (X68451)</otu>
+  <otu id="otu24">SL206 (EU816420)</otu>
+  <otu id="otu25">Clostridium schirmacherense AP15T (AM1 14453)</otu>
+  <otu id="otu26" cmphy:genus="Clostridium" cmphy:species="magnum" cmphy:strain="DSM 27677" cmphy:id="X77835" editRecord="[]">Clostridium magnum DSM 27677 (X77835)</otu>
+  <otu id="otu27" cmphy:edit="[2__Z]" cmphy:genus="Clostridium" cmphy:species="akagii" cmphy:strain="CK58T" cmphy:id="AJZ37755" editRecord="[2__Z]">Clostridium akagii CK58T (AJ237755)</otu>
+  <otu id="otu28">Clostridium botulinum DSM 1 734T (X73442)</otu>
+  <otu id="otu29" cmphy:genus="Clostridium" cmphy:species="pasteurianum" cmphy:strain="ATCC 60137" cmphy:id="M23930" editRecord="[]">Clostridium pasteurianum ATCC 60137 (M23930)</otu>
+  <otu id="otu30" cmphy:edit="[2__Z]" cmphy:genus="Clostridium" cmphy:species="nitrophenolicum" cmphy:strain="J1 DT" cmphy:id="AMZ61414" editRecord="[2__Z]">Clostridium nitrophenolicum J1 DT (AM261414)</otu>
+  <otu id="otu31" cmphy:genus="Clostridium" cmphy:species="tetani" cmphy:strain="NCTC 279T" cmphy:id="X74770" editRecord="[]">Clostridium tetani NCTC 279T (X74770)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="555.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="99.0" y="491.0"/>
+   <node id="NT1.4" label="NT1.4" x="148.0" y="397.0"/>
+   <node id="NT1.6" label="NT1.6" x="185.0" y="267.0"/>
+   <node id="NT1.10" label="NT1.10" x="203.0" y="376.0"/>
+   <node id="NT1.13" label="NT1.13" x="216.0" y="156.0"/>
+   <node id="NT1.16" label="NT1.16" x="257.0" y="92.0"/>
+   <node id="NT1.19" label="NT1.19" x="272.0" y="59.0"/>
+   <node id="NT1.22" label="NT1.22" x="309.0" y="353.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="310.0" y="219.0"/>
+   <node id="NT1.25" label="NT1.25" x="319.0" y="257.0"/>
+   <node id="NT1.28" label="NT1.28" x="333.0" y="583.0" otu="otu13"/>
+   <node id="NT1.37" label="NT1.37" x="381.0" y="124.0" otu="otu17"/>
+   <node id="NT1.41" label="NT1.41" x="388.0" y="239.0" otu="otu21"/>
+   <node id="NT1.43" label="NT1.43" x="395.0" y="392.0" otu="otu23"/>
+   <node id="NT1.46" label="NT1.46" x="406.0" y="86.0" otu="otu26"/>
+   <node id="NT1.47" label="NT1.47" x="407.0" y="277.0" otu="otu27"/>
+   <node id="NT1.49" label="NT1.49" x="409.0" y="162.0" otu="otu29"/>
+   <node id="NT1.50" label="NT1.50" x="411.0" y="48.0" otu="otu30"/>
+   <node id="NT1.51" label="NT1.51" x="510.0" y="544.0" otu="otu31"/>
+   <edge id="e.1" target="NT1.50" source="NT1.19"/>
+   <edge id="e.9" source="NT1.25" target="NT1.41"/>
+   <edge id="e.16" target="NT1.43" source="NT1.10"/>
+   <edge id="e.18" source="NT1.3" target="NT1.28"/>
+   <edge id="e.19" target="NT1.51" source="NT1.4"/>
+   <edge id="e.22" target="NT1.19" source="NT1.16"/>
+   <edge id="e.24" source="NT1.13" target="NT1.16"/>
+   <edge id="e.25" source="NT1.6" target="NT1.13"/>
+   <edge id="e.26" source="NT1.13" target="NT1.23"/>
+   <edge id="e.27" source="NT1.4" target="NT1.6"/>
+   <edge id="e.28" source="NT1.6" target="NT1.10"/>
+   <edge id="e.30" source="NT1.23" target="NT1.25"/>
+   <edge id="e.36" source="NT1.3" target="NT1.4"/>
+   <edge id="e.38" target="NT1.3" source="NT1.1"/>
+   <edge id="e.41" source="NT1.16" target="NT1.37"/>
+   <edge id="e.42" target="NT1.22" source="NT1.10"/>
+   <edge id="e.43" source="NT1.19" target="NT1.46"/>
+   <edge id="e.45" target="NT1.47" source="NT1.25"/>
+   <edge id="e.47" target="NT1.49" source="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

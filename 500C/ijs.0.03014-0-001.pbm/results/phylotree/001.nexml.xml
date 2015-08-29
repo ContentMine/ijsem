@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Bacillus bcnzoevoraris DSM 539lT (D7831 1)</otu>
+  <otu id="otu3">Bacillusfirmus</otu>
+  <otu id="otu4">Bacillusflexus IFO 15715"'(AB021185)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Bacillus" cmphy:species="asahii" cmphy:strain="MA00lT" cmphy:id="ABI09209" editRecord="[1__I]">Bacillus asahii MA00lT (AB109209)</otu>
+  <otu id="otu6" cmphy:genus="Bacillus" cmphy:species="lentus" cmphy:strain="IAM l2466T" cmphy:id="D16272" editRecord="[]">Bacillus lentus IAM l2466T (D16272)</otu>
+  <otu id="otu7">Bacillusflexus IFO 15715"'(AB021185)</otu>
+  <otu id="otu8" cmphy:genus="Bacillus" cmphy:species="circulans" cmphy:strain="IAM 12462T" cmphy:id="D78312" editRecord="[]">Bacillus circulans IAM 12462T (D78312)</otu>
+  <otu id="otu9">Bacillus megaterium IAM l3418T (D 1 6273)</otu>
+  <otu id="otu10" cmphy:genus="Bacillus" cmphy:species="simplex" cmphy:strain="DSM l321T" cmphy:id="AJ439078" editRecord="[]">Bacillus simplex DSM l321T (AJ439078)</otu>
+  <otu id="otu11" cmphy:genus="Bacillus" cmphy:species="badius" cmphy:strain="ATCC 14574T" cmphy:id="D78310" editRecord="[]">Bacillus badius ATCC 14574T (D78310)</otu>
+  <otu id="otu12">Bacillus psychrosaccharolyticus ATCC 23296T (AB021 195)</otu>
+  <otu id="otu13">Virgibucillus salexigeris DSM l1483T (Y1 1603)</otu>
+  <otu id="otu14">A licyclabacillus acidacaldarius DSM 446T (X60742)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="44.0" y="509.0"/>
+   <node id="NT1.3" label="NT1.3" x="105.0" y="1097.0"/>
+   <node id="NT1.4" label="NT1.4" x="123.0" y="1421.0"/>
+   <node id="NT1.7" label="NT1.7" x="164.0" y="570.0"/>
+   <node id="NT1.17" label="NT1.17" x="279.0" y="460.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="281.0" y="1645.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="290.0" y="1349.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="310.0" y="757.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="318.0" y="312.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="5.0" y="30.0" root="true"/>
+   <edge id="e.1" target="NT1.20" source="NT1.4"/>
+   <edge id="e.6" target="NT1.22" source="NT1.7"/>
+   <edge id="e.8" target="NT1.2" source="NT1.27"/>
+   <edge id="e.9" source="NT1.2" target="NT1.3"/>
+   <edge id="e.10" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" target="NT1.7" source="NT1.3"/>
+   <edge id="e.22" source="NT1.2" target="NT1.23"/>
+   <edge id="e.23" source="NT1.7" target="NT1.17"/>
+   <edge id="e.24" target="NT1.18" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Methanosarcina barkeri DSM 80OT(AJO12O94)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Methanolobus" cmphy:species="profundi" cmphy:strain="MobMT" cmphy:id="ABB70245" editRecord="[3__B]">Methanolobus profundi MobMT (AB370245)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Methanohalophilus mahii DSM 521 QT (M591 33)</otu>
+  <otu id="otu6">Methanolobus taylorii GS-16T(U2O154)</otu>
+  <otu id="otu7">Methanococcoides methylutens DSM 2657T(M59127)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Methanolobus oregonensls WAL1</otu>
+  <otu id="otu10" cmphy:genus="Methanolobus" cmphy:species="bombayensis" cmphy:strain="B-1T" cmphy:id="U20148" editRecord="[]">Methanolobus bombayensis B-1T (U20148)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="620.0" otu="otu1" root="true"/>
+   <node id="NT1.6" label="NT1.6" x="336.0" y="237.0"/>
+   <node id="NT1.11" label="NT1.11" x="425.0" y="314.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="514.0" y="48.0" otu="otu10"/>
+   <edge id="e.0" target="NT1.18" source="NT1.6"/>
+   <edge id="e.2" source="NT1.6" target="NT1.11"/>
+   <edge id="e.9" target="NT1.6" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

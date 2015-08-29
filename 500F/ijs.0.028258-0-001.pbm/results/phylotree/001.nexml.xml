@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">S. varsoviensis</otu>
+  <otu id="otu3">S. purpureus</otu>
+  <otu id="otu4">S. enissocaesilis</otu>
+  <otu id="otu5">S. lavendofoliae</otu>
+  <otu id="otu6">S. gobitricini</otu>
+  <otu id="otu7">S. cyaneus</otu>
+  <otu id="otu8">S. plumbiresislens CCNWHX 13-1607(EU526954)</otu>
+  <otu id="otu9">S. flavovariabilis</otu>
+  <otu id="otu10">S. sundarbansensis</otu>
+  <otu id="otu11">S. griseorubiginosus</otu>
+  <otu id="otu12">S. ciscaucasicus</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">S. cinnabarinus</otu>
+  <otu id="otu15">S. antibioticus</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">S. parvus NBRC 33887 (AB1 84756)</otu>
+  <otu id="otu18">8. albovinaceus NBRC 127397(AB249958)</otu>
+  <otu id="otu19">S. sindenensis NBRC 33997 (AB1 84759)</otu>
+  <otu id="otu20" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="globisporus" cmphy:strain="NBRC 128677" cmphy:id="ABI84203" editRecord="[1__I]">S. globisporus NBRC 128677 (AB184203)</otu>
+  <otu id="otu21" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="pluricolorescens" cmphy:strain="NBRC 128087" cmphy:id="ABI84162" editRecord="[1__I]">S. pluricolorescens NBRC 128087 (AB184162)</otu>
+  <otu id="otu22">S. rubiginosohelvolus NBRC 129127(AB184240)</otu>
+  <otu id="otu23" cmphy:genus="S." cmphy:species="badius" cmphy:strain="NRRL B-25677" cmphy:id="AY999783" editRecord="[]">S. badius NRRL B-25677 (AY999783)</otu>
+  <otu id="otu24">S. californicus NBRC 33867(AB184755)</otu>
+  <otu id="otu25">S. fimicarius ISP 53227(AY999784)</otu>
+  <otu id="otu26" cmphy:genus="S." cmphy:species="griseoplanus" cmphy:strain="AS 4.18687" cmphy:id="AY999894" editRecord="[]">S. griseoplanus AS 4.18687 (AY999894)</otu>
+  <otu id="otu27" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="anwatus" cmphy:strain="NRRL B-20007" cmphy:id="DQO26637" editRecord="[0__O]">S. anwatus NRRL B-20007 (DQ026637)</otu>
+  <otu id="otu28">S. floridae NBRC 154057 (AB1 84656)</otu>
+  <otu id="otu29">S. puniceus NBRC128117(AB184163)</otu>
+  <otu id="otu30">S. cyaneofuscatus</otu>
+  <otu id="otu31">S. griseus</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="1419.0" otu="otu1" root="true"/>
+   <node id="NT1.24" label="NT1.24" x="217.0" y="374.0"/>
+   <node id="NT1.25" label="NT1.25" x="218.0" y="97.0"/>
+   <node id="NT1.27" label="NT1.27" x="218.0" y="221.0"/>
+   <node id="NT1.38" label="NT1.38" x="250.0" y="343.0"/>
+   <node id="NT1.43" label="NT1.43" x="280.0" y="37.0" otu="otu20"/>
+   <node id="NT1.44" label="NT1.44" x="280.0" y="97.0" otu="otu21"/>
+   <node id="NT1.46" label="NT1.46" x="280.0" y="221.0" otu="otu23"/>
+   <node id="NT1.50" label="NT1.50" x="312.0" y="343.0" otu="otu26"/>
+   <node id="NT1.51" label="NT1.51" x="312.0" y="281.0" otu="otu27"/>
+   <edge id="e.0" source="NT1.25" target="NT1.44"/>
+   <edge id="e.2" source="NT1.27" target="NT1.46"/>
+   <edge id="e.6" source="NT1.38" target="NT1.50"/>
+   <edge id="e.7" source="NT1.38" target="NT1.51"/>
+   <edge id="e.27" target="NT1.25" source="NT1.27"/>
+   <edge id="e.29" source="NT1.24" target="NT1.27"/>
+   <edge id="e.30" target="NT1.24" source="NT1.1"/>
+   <edge id="e.33" target="NT1.38" source="NT1.24"/>
+   <edge id="e.51" source="NT1.25" target="NT1.43"/>
+  </tree>
+ </trees>
+</nexml>

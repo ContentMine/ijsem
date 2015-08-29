@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Glycomyces" cmphy:species="harbinensis" cmphy:strain="IFO 14487T" cmphy:id="D85483" editRecord="[]">Glycomyces harbinensis IFO 14487T (D85483)</otu>
+  <otu id="otu2" cmphy:genus="Glycomyces" cmphy:species="rutgersensis" cmphy:strain="IFO 14488T" cmphy:id="D85484" editRecord="[]">Glycomyces rutgersensis IFO 14488T (D85484)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">Dietzia maris DSM 461 o2T (X79291)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="139.0" y="119.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="153.0" y="159.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="155.0" y="113.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="1.0" y="236.0" root="true"/>
+   <edge id="e.1" target="NT1.6" source="NT1.2"/>
+   <edge id="e.2" source="NT1.2" target="NT1.4"/>
+   <edge id="e.6" target="NT1.2" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

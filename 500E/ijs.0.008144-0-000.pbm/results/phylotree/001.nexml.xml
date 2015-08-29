@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Sphingobium" cmphy:species="xenophagum" cmphy:strain="BNEST" cmphy:id="X94098" editRecord="[]">Sphingobium xenophagum BNEST (X94098)</otu>
+  <otu id="otu3">Sphingobium rhizovicinum CC-FH1 2-1 T (EF465534)</otu>
+  <otu id="otu4" cmphy:genus="Sphingobium" cmphy:species="olei" cmphy:strain="IMMIB HF-1'" cmphy:id="AM489507" editRecord="[]">Sphingobium olei IMMIB HF-1' (AM489507)</otu>
+  <otu id="otu5" cmphy:genus="Sphingobium" cmphy:species="amiense" cmphy:strain="YTT" cmphy:id="ABO47364" editRecord="[]">Sphingobium amiense YTT (ABO47364)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Sphingobium" cmphy:species="fuliginis" cmphy:strain="TKP'" cmphy:id="DQO92757" editRecord="[0__O]">Sphingobium fuliginis TKP' (DQ092757)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Sphingomonas" cmphy:species="cloacae" cmphy:strain="S-37" cmphy:id="ABO40739" editRecord="[0__O]">Sphingomonas cloacae S-37 (AB040739)</otu>
+  <otu id="otu8">Novosphingobium nitrogenifigens Y88T(DO448852)</otu>
+  <otu id="otu9">Sphingobium aromaticiconveltens DSM 12677T (AM18101 2)</otu>
+  <otu id="otu10" cmphy:genus="Sphingobium" cmphy:species="yanoikuyae" cmphy:strain="GIFU 9882Y" cmphy:id="D16145" editRecord="[]">Sphingobium yanoikuyae GIFU 9882Y (D16145)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Sphingobium" cmphy:species="japonicum" cmphy:strain="UT26T" cmphy:id="AFO39168" editRecord="[0__O]">Sphingobium japonicum UT26T (AF039168)</otu>
+  <otu id="otu12" cmphy:genus="Sphingobium" cmphy:species="chlorophenolicum" cmphy:strain="ATCC 33790'" cmphy:id="X87161" editRecord="[]">Sphingobium chlorophenolicum ATCC 33790' (X87161)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Sphingobium" cmphy:species="scionense" cmphy:strain="WP01'" cmphy:id="EUO09209" editRecord="[0__O]">Sphingobium scionense WP01' (EU009209)</otu>
+  <otu id="otu14">Sphingobium indicum BQOAT (AY5191 29)</otu>
+  <otu id="otu15">Sphingobium ummariense RL-3T (EF2071 55)</otu>
+  <otu id="otu16">Sphingobium francense Sp-1-T(AY51913O)</otu>
+  <otu id="otu17">Sphingobium chungbukense DJ77' (AF1 59257)</otu>
+  <otu id="otu18">Sphingobium herbicidovorans DSM 1 1 019T (AB042233)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="497.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="192.0" y="291.0"/>
+   <node id="NT1.5" label="NT1.5" x="263.0" y="438.0"/>
+   <node id="NT1.7" label="NT1.7" x="316.0" y="417.0"/>
+   <node id="NT1.8" label="NT1.8" x="346.0" y="252.0"/>
+   <node id="NT1.9" label="NT1.9" x="351.0" y="30.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="363.0" y="368.0"/>
+   <node id="NT1.11" label="NT1.11" x="387.0" y="473.0"/>
+   <node id="NT1.15" label="NT1.15" x="451.0" y="628.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="486.0" y="344.0"/>
+   <node id="NT1.17" label="NT1.17" x="499.0" y="430.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="506.0" y="588.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="511.0" y="516.0"/>
+   <node id="NT1.21" label="NT1.21" x="542.0" y="112.0" otu="otu7"/>
+   <node id="NT1.26" label="NT1.26" x="572.0" y="470.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="572.0" y="231.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="578.0" y="389.0" otu="otu12"/>
+   <node id="NT1.29" label="NT1.29" x="586.0" y="548.0" otu="otu13"/>
+   <edge id="e.3" target="NT1.3" source="NT1.1"/>
+   <edge id="e.5" target="NT1.5" source="NT1.3"/>
+   <edge id="e.7" target="NT1.7" source="NT1.5"/>
+   <edge id="e.8" source="NT1.7" target="NT1.8"/>
+   <edge id="e.9" source="NT1.8" target="NT1.10"/>
+   <edge id="e.11" source="NT1.10" target="NT1.11"/>
+   <edge id="e.13" source="NT1.11" target="NT1.20"/>
+   <edge id="e.14" target="NT1.16" source="NT1.10"/>
+   <edge id="e.19" source="NT1.3" target="NT1.9"/>
+   <edge id="e.20" source="NT1.5" target="NT1.15"/>
+   <edge id="e.22" source="NT1.7" target="NT1.19"/>
+   <edge id="e.23" source="NT1.11" target="NT1.17"/>
+   <edge id="e.24" target="NT1.21" source="NT1.8"/>
+   <edge id="e.27" source="NT1.16" target="NT1.28"/>
+   <edge id="e.28" source="NT1.20" target="NT1.29"/>
+   <edge id="e.30" target="NT1.27" source="NT1.16"/>
+   <edge id="e.32" source="NT1.20" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

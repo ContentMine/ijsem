@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Kocuria" cmphy:species="rosea" cmphy:strain="DSM 20447T" cmphy:id="X87756" editRecord="[]"> Kocuria rosea DSM 20447T (X87756)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Kocuria" cmphy:species="palustris" cmphy:strain="DSM 119257" cmphy:id="Y16263" editRecord="[]">Kocuria palustris DSM 119257 (Y16263)</otu>
+  <otu id="otu4">Kocuria f7ava HO-9041T (EF602041)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Kocuria" cmphy:species="rhizophila" cmphy:strain="DSM 1192GT" cmphy:id="Y16264" editRecord="[]">Kocuria rhizophila DSM 1192GT (Y16264)</otu>
+  <otu id="otu7" cmphy:genus="Kocuria" cmphy:species="carniphila" cmphy:strain="CCM 1327" cmphy:id="AJ622907" editRecord="[]">Kocuria carniphila CCM 1327 (AJ622907)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Kocuria" cmphy:species="turfanensis" cmphy:strain="HO-9042T" cmphy:id="DQS31634" editRecord="[5__S]">Kocuria turfanensis HO-9042T (DQ531634)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Kocuria" cmphy:species="halotolerans" cmphy:strain="YIM 90716T" cmphy:id="DQ979377" editRecord="[]">Kocuria halotolerans YIM 90716T (DQ979377)</otu>
+  <otu id="otu12" cmphy:genus="Kocuria" cmphy:species="himachalensis" cmphy:strain="K07-05T" cmphy:id="AY987383" editRecord="[]">Kocuria himachalensis K07-05T (AY987383)</otu>
+  <otu id="otu13" cmphy:genus="Kocuria" cmphy:species="kristinae" cmphy:strain="DSM 20032T" cmphy:id="X80749" editRecord="[]">Kocuria kristinae DSM 20032T (X80749)</otu>
+  <otu id="otu14" cmphy:edit="[O__0]" cmphy:genus="Micrococcus" cmphy:species="antarcticus" cmphy:strain="T2T" cmphy:id="AJO05932" editRecord="[O__0]">Micrococcus antarcticus T2T (AJOO5932)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="108.0" y="289.0"/>
+   <node id="NT1.2" label="NT1.2" x="127.0" y="206.0"/>
+   <node id="NT1.3" label="NT1.3" x="139.0" y="141.0"/>
+   <node id="NT1.5" x="195.0" y="429.0" label="92"/>
+   <node id="NT1.6" x="223.0" y="75.0" label="100"/>
+   <node id="NT1.7" x="230.0" y="205.0" label="98"/>
+   <node id="NT1.10" label="NT1.10" x="236.0" y="510.0"/>
+   <node id="NT1.13" label="NT1.13" x="262.0" y="533.0" otu="otu1"/>
+   <node id="NT1.15" label="NT1.15" x="283.0" y="271.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="305.0" y="9.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="318.0" y="141.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="320.0" y="402.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="370.0" y="184.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="373.0" y="489.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="375.0" y="227.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="375.0" y="576.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="39.0" y="432.0" root="true"/>
+   <edge id="e.0" target="NT1.18" source="NT1.6"/>
+   <edge id="e.2" target="NT1.19" source="NT1.6"/>
+   <edge id="e.4" source="NT1.2" target="NT1.15"/>
+   <edge id="e.5" source="NT1.7" target="NT1.23"/>
+   <edge id="e.6" source="NT1.7" target="NT1.25"/>
+   <edge id="e.9" source="NT1.10" target="NT1.13"/>
+   <edge id="e.11" target="NT1.20" source="NT1.5"/>
+   <edge id="e.12" source="NT1.10" target="NT1.24"/>
+   <edge id="e.14" source="NT1.3" target="NT1.6"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.3" target="NT1.7"/>
+   <edge id="e.18" source="NT1.1" target="NT1.2"/>
+   <edge id="e.20" target="NT1.5" source="NT1.1"/>
+   <edge id="e.23" target="NT1.10" source="NT1.5"/>
+   <edge id="e.24" source="NT1.27" target="NT1.26"/>
+   <edge id="e.25" source="NT1.27" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

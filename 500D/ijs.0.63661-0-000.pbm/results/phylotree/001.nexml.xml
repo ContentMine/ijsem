@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Flavobacterium glllisiae ACAM 601T (ussssg)</otu>
+  <otu id="otu2">Flavobacterium Xanthum ACAM s1T (AF030380)</otu>
+  <otu id="otu3">Formosa algae KMM 35531-(AY228461)</otu>
+  <otu id="otu4" cmphy:edit="[S__5]" cmphy:genus="Havabacterium" cmphy:species="tegetincola" cmphy:strain="ACAM 602T" cmphy:id="U85887" editRecord="[S__5]">Havabacterium tegetincola ACAM 602T (U8S887)</otu>
+  <otu id="otu5">Salegentibacter salegens DS M 5424T (M 92 279)</otu>
+  <otu id="otu6">Gelidibacter algens CA M 536T (U 62914)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Vwnogradskyella thalassocala KM M 3907T (AY 52 1223)</otu>
+  <otu id="otu9">Salegentibacter holothuriorum KM M 3524T (A B 116 148)</otu>
+  <otu id="otu10">Psychroflexus gondwanensis ATC C 5 1 2 78T (M 92 2 7 8)</otu>
+  <otu id="otu11">Winogradskyella exfmia KM M 3944T (AY 52 1 22 5)</otu>
+  <otu id="otu12">Vwnodgradskyella Epiphytica KM M 3906T (AY 52 1224)</otu>
+  <otu id="otu13" cmphy:genus="Psychroflexus" cmphy:species="trapfcus" cmphy:strain="ATCC BAA-734T" cmphy:id="M92278" editRecord="[]">Psychroflexus trapfcus ATCC BAA-734T (M92278)</otu>
+  <otu id="otu14">Psychroserpens burfonensis C A M 188T (U 629 1 3)</otu>
+  <otu id="otu15">Psychroflexus ton7ux'5ACAM 623T (U 85881)</otu>
+  <otu id="otu16">Gdidfbacfer mesophxius C E C T 5 103T (AJ 344 133)</otu>
+  <otu id="otu17">Psychroflexus torquls ACA M 627 (A F 00 1365)</otu>
+  <otu id="otu18" cmphy:genus="Polaribacter" cmphy:species="lrgensxi" cmphy:strain="23-PT" cmphy:id="M61002" editRecord="[]">Polaribacter lrgensxi 23-PT (M61002)</otu>
+  <otu id="otu19">u ST03070 1-295T</otu>
+  <otu id="otu20" cmphy:edit="[0__O]" cmphy:genus="Eenacibaculum" cmphy:species="ovolyticum" cmphy:strain="IAM 14318T" cmphy:id="ABO32506" editRecord="[0__O]">Eenacibaculum ovolyticum IAM 14318T (AB032506)</otu>
+  <otu id="otu21">Polaribacter franzmannfi 301T (u 14586)</otu>
+  <otu id="otu22">Polaribacter filamentus 2 1 5T (U 73 72 6)</otu>
+  <otu id="otu23">7EnacIbaculum marftimum ATC c 4339sT (D 14023)</otu>
+  <otu id="otu24" cmphy:edit="[0__O]" cmphy:genus="Tenacibaculum" cmphy:species="mesopmrum" cmphy:strain="MBIC 114oT" cmphy:id="ABO32501" editRecord="[0__O]">Tenacibaculum mesopmrum MBIC 114oT (AB032501)</otu>
+  <otu id="otu25">Tenacibacwum skagerrakense D 3 OT (A F 469 6 1 2)</otu>
+  <otu id="otu26" cmphy:edit="[0__O]" cmphy:genus="Enacibaculum" cmphy:species="amylolytfcum" cmphy:strain="MBIC 4355T" cmphy:id="ABO32505" editRecord="[0__O]">Enacibaculum amylolytfcum MBIC 4355T (AB032505)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="189.0" y="480.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="496.0" y="646.0"/>
+   <node id="NT1.18" label="NT1.18" x="594.0" y="800.0" otu="otu4"/>
+   <node id="NT1.22" label="NT1.22" x="660.0" y="581.0"/>
+   <node id="NT1.35" label="NT1.35" x="733.0" y="392.0" otu="otu13"/>
+   <node id="NT1.40" label="NT1.40" x="771.0" y="548.0"/>
+   <node id="NT1.41" label="NT1.41" x="778.0" y="732.0" otu="otu18"/>
+   <node id="NT1.43" label="NT1.43" x="826.0" y="595.0" otu="otu20"/>
+   <node id="NT1.48" label="NT1.48" x="892.0" y="562.0" otu="otu24"/>
+   <node id="NT1.50" label="NT1.50" x="921.0" y="493.0" otu="otu26"/>
+   <node id="NT1.51" label="NT1.51" x="8.0" y="648.0" root="true"/>
+   <edge id="e.4" source="NT1.40" target="NT1.48"/>
+   <edge id="e.6" target="NT1.50" source="NT1.40"/>
+   <edge id="e.7" target="NT1.18" source="NT1.51"/>
+   <edge id="e.18" source="NT1.2" target="NT1.11"/>
+   <edge id="e.25" target="NT1.22" source="NT1.11"/>
+   <edge id="e.26" source="NT1.22" target="NT1.40"/>
+   <edge id="e.30" source="NT1.51" target="NT1.2"/>
+   <edge id="e.39" target="NT1.35" source="NT1.2"/>
+   <edge id="e.42" source="NT1.22" target="NT1.43"/>
+   <edge id="e.45" target="NT1.41" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

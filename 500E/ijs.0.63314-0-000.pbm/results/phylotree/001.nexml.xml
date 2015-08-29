@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 5424T" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens DSM 5424T (M92279)</otu>
+  <otu id="otu3" cmphy:genus="Cytophaga" cmphy:species="latercula" cmphy:strain="ATCC 23177T" cmphy:id="M58769" editRecord="[]">Cytophaga latercula ATCC 23177T (M58769)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="37.0" y="704.0"/>
+   <node id="NT1.8" label="NT1.8" x="265.0" y="944.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="293.0" y="393.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="8.0" y="117.0" root="true"/>
+   <edge id="e.3" target="NT1.8" source="NT1.2"/>
+   <edge id="e.6" target="NT1.2" source="NT1.15"/>
+   <edge id="e.13" target="NT1.9" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

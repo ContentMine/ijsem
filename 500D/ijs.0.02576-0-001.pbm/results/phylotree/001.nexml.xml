@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Actinomyces Viscosus NCTC 10951 T (X82453)</otu>
+  <otu id="otu3">Actinomyces naeslundii NCTC 1 0301 T (X81062)</otu>
+  <otu id="otu4">Actinomyces bovis NCTC 1 1536T (X81061)</otu>
+  <otu id="otu5">Actinomyces sp. serotype WVA 693 (ATCC 49388) (X81 O63)</otu>
+  <otu id="otu6">Actinomyces bowdenii CCUG 37421 T (AJ234039)</otu>
+  <otu id="otu7"> Acrinomyces catuli CCUG 41 709 (AJ249328)</otu>
+  <otu id="otu8">Actinomyces howellii NCTC 1 1636T (X8041 1)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Actinomyces" cmphy:species="radicidentis" cmphy:strain="CCUG 36733T" cmphy:id="AJZ51986" editRecord="[2__Z]">Actinomyces radicidentis CCUG 36733T (AJ251986)</otu>
+  <otu id="otu10"> Actinomyces slackii clone 1 CCUG 32792T (AJ234066)</otu>
+  <otu id="otu11"> Acrinomyces slackii clone 2 CCUG 32792T (AJ234067)</otu>
+  <otu id="otu12" cmphy:genus="Actinomyces" cmphy:species="denticolens" cmphy:strain="NCTC 11490T" cmphy:id="X80412" editRecord="[]">Actinomyces denticolens NCTC 11490T (X80412)</otu>
+  <otu id="otu13" cmphy:edit="[O__0]" cmphy:genus="Actinomyces" cmphy:species="europaeus" cmphy:strain="CCUG 327897" cmphy:id="Y08828" editRecord="[O__0]">Actinomyces europaeus CCUG 327897 (YO8828)</otu>
+  <otu id="otu14" cmphy:genus="Actinomyces" cmphy:species="graevenitzii" cmphy:strain="CCUG 27294T" cmphy:id="Y09589" editRecord="[]">Actinomyces graevenitzii CCUG 27294T (Y09589)</otu>
+  <otu id="otu15">Actinomyces oricola sp. nov. CCUG 46O90T (AJ507295)</otu>
+  <otu id="otu16">Actinomyces gerencseriae DSM 6844T (X8041 4)</otu>
+  <otu id="otu17" cmphy:genus="Actinomyces" cmphy:species="israelii" cmphy:strain="CIP 103259T" cmphy:id="X82450" editRecord="[]">Actinomyces israelii CIP 103259T (X82450)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="64.0" y="106.0"/>
+   <node id="NT1.2" label="NT1.2" x="155.0" y="160.0"/>
+   <node id="NT1.3" label="NT1.3" x="169.0" y="262.0"/>
+   <node id="NT1.24" label="NT1.24" x="381.0" y="143.0" otu="otu9"/>
+   <node id="NT1.27" label="NT1.27" x="407.0" y="352.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="413.0" y="11.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="432.0" y="38.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="512.0" y="247.0" otu="otu17"/>
+   <node id="NT1.33" label="NT1.33" x="1.0" y="58.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.29"/>
+   <edge id="e.4" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.33" target="NT1.28"/>
+   <edge id="e.18" source="NT1.33" target="NT1.1"/>
+   <edge id="e.19" source="NT1.1" target="NT1.2"/>
+   <edge id="e.22" target="NT1.27" source="NT1.3"/>
+   <edge id="e.23" target="NT1.24" source="NT1.2"/>
+   <edge id="e.30" target="NT1.32" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

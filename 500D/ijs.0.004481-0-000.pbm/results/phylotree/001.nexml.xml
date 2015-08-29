@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Brucella" cmphy:species="melitensis" cmphy:strain="ATCC 23456T" cmphy:id="L26166" editRecord="[]">Brucella melitensis ATCC 23456T (L26166)</otu>
+  <otu id="otu3" cmphy:genus="Mesorhizobium" cmphy:species="loti" cmphy:strain="ATCC 33669T" cmphy:id="D14514" editRecord="[]">Mesorhizobium loti ATCC 33669T (D14514)</otu>
+  <otu id="otu4">Rhizobium Ieguminosarum ATCC 100047 (U29386)</otu>
+  <otu id="otu5" cmphy:genus="Rhodobacter" cmphy:species="sphaeroides" cmphy:strain="ATCC 17O23T" cmphy:id="X53855" editRecord="[]">Rhodobacter sphaeroides ATCC 17O23T (X53855)</otu>
+  <otu id="otu6"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="68.0" y="228.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="110.0" y="147.0" label="85"/>
+   <node id="NT1.3" x="221.0" y="196.0" label="100"/>
+   <node id="NT1.6" label="NT1.6" x="393.0" y="245.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="397.0" y="167.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="515.0" y="129.0" otu="otu5"/>
+   <edge id="e.1" target="NT1.9" source="NT1.2"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.3" target="NT1.7"/>
+   <edge id="e.4" target="NT1.6" source="NT1.3"/>
+   <edge id="e.7" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Mycoplasma columbinum MMP17 (AF221 1 13)</otu>
+  <otu id="otu2">Mycoplasma columbinasale 6947 (AF221 1 12)</otu>
+  <otu id="otu3">ggwycoplasma fermentans PG187 (FJ226561)</otu>
+  <otu id="otu4">Mycoplasma caviae G1227(AF221111)</otu>
+  <otu id="otu5" cmphy:genus="Mycoplasma" cmphy:species="mucosicanis" cmphy:strain="16427" cmphy:id="AM774638" editRecord="[]">Mycoplasma mucosicanis 16427 (AM774638)</otu>
+  <otu id="otu6">Mycoplasma opalescens MH54O87 (AF221 1 17)</otu>
+  <otu id="otu7" cmphy:genus="Mycoplasma" cmphy:species="californicum" cmphy:strain="ST-67" cmphy:id="M24582" editRecord="[]">Mycoplasma californicum ST-67 (M24582)</otu>
+  <otu id="otu8">Mycoplasma bovigenitalium PG1 17 (AY1 21098)</otu>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Mycoplasma" cmphy:species="phocirhinis" cmphy:strain="8527" cmphy:id="AFB04324" editRecord="[O__0]">Mycoplasma phocirhinis 8527 (AFBO4324)</otu>
+  <otu id="otu10">1g1ycoplasma bovis PG457 (U02968)</otu>
+  <otu id="otu11" cmphy:genus="Mycoplasma" cmphy:species="agalactiae" cmphy:strain="PG27" cmphy:id="U44763" editRecord="[]">Mycoplasma agalactiae PG27 (U44763)</otu>
+  <otu id="otu12" cmphy:genus="Mycoplasma" cmphy:species="simbae" cmphy:strain="ATCC 498887" cmphy:id="U16323" editRecord="[]">Mycoplasma simbae ATCC 498887 (U16323)</otu>
+  <otu id="otu13">Mycoplasma mycoides subsp. mycoides SC PG17 (U26038)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="61.0"/>
+   <node id="NT1.2" label="NT1.2" x="22.0" y="307.0"/>
+   <node id="NT1.3" label="NT1.3" x="28.0" y="173.0"/>
+   <node id="NT1.4" label="NT1.4" x="30.0" y="18.0" otu="otu1"/>
+   <node id="NT1.5" x="35.0" y="237.0" label="72"/>
+   <node id="NT1.6" label="NT1.6" x="37.0" y="61.0" otu="otu2"/>
+   <node id="NT1.7" x="50.0" y="417.0" label="99"/>
+   <node id="NT1.8" x="54.0" y="277.0" label="67"/>
+   <node id="NT1.9" label="NT1.9" x="62.0" y="457.0"/>
+   <node id="NT1.10" label="NT1.10" x="66.0" y="175.0"/>
+   <node id="NT1.11" label="NT1.11" x="68.0" y="149.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="71.0" y="198.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="72.0" y="497.0"/>
+   <node id="NT1.14" label="NT1.14" x="76.0" y="530.0"/>
+   <node id="NT1.15" label="NT1.15" x="78.0" y="376.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="82.0" y="245.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="86.0" y="552.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="87.0" y="465.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="89.0" y="420.0" otu="otu9"/>
+   <node id="NT1.20" x="96.0" y="310.0" label="67"/>
+   <node id="NT1.21" label="NT1.21" x="97.0" y="289.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="98.0" y="333.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="114.0" y="508.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="410.0" y="106.0" otu="otu13"/>
+   <edge source="NT1.6" target="NT1.1" id="e.0"/>
+   <edge source="NT1.19" target="NT1.9" id="e.1"/>
+   <edge source="NT1.16" target="NT1.8" id="e.2"/>
+   <edge source="NT1.12" target="NT1.10" id="e.3"/>
+   <edge source="NT1.21" target="NT1.20" id="e.4"/>
+   <edge source="NT1.22" target="NT1.20" id="e.5"/>
+   <edge source="NT1.2" target="NT1.7" id="e.6"/>
+   <edge source="NT1.2" target="NT1.3" id="e.7"/>
+   <edge source="NT1.7" target="NT1.9" id="e.8"/>
+   <edge source="NT1.3" target="NT1.5" id="e.9"/>
+   <edge source="NT1.9" target="NT1.13" id="e.10"/>
+   <edge source="NT1.5" target="NT1.8" id="e.11"/>
+   <edge source="NT1.5" target="NT1.10" id="e.12"/>
+   <edge source="NT1.13" target="NT1.14" id="e.13"/>
+   <edge source="NT1.8" target="NT1.20" id="e.14"/>
+   <edge source="NT1.10" target="NT1.11" id="e.15"/>
+   <edge source="NT1.1" target="NT1.2" id="e.16"/>
+   <edge source="NT1.4" target="NT1.1" id="e.17"/>
+   <edge source="NT1.15" target="NT1.7" id="e.18"/>
+   <edge source="NT1.18" target="NT1.13" id="e.19"/>
+   <edge source="NT1.17" target="NT1.14" id="e.20"/>
+   <edge source="NT1.23" target="NT1.14" id="e.21"/>
+   <edge source="NT1.24" target="NT1.3" id="e.22"/>
+  </tree>
+ </trees>
+</nexml>

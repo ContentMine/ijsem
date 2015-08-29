@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">B. coagulans NBRC 12583T(AB271752)</otu>
+  <otu id="otu2">B. circulans IAM 124-62T(D78312)</otu>
+  <otu id="otu3">B. amyloliquefaciens NBRC 155357 (AB255669)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">B. cereus ATCC 145797 (AEO16877)</otu>
+  <otu id="otu6">B. vallismortis DSM 11031 T (ABO21 198)</otu>
+  <otu id="otu7">B. thuringiensis IAM 12077T(D16281)</otu>
+  <otu id="otu8">B. subtilfs subsp. subtilis DSM 107 (AJ276351)</otu>
+  <otu id="otu9">B. subtilfs subsp. spizizenii NRRL B-230497 (AFO74970)</otu>
+  <otu id="otu10" cmphy:genus="Alfcyclobacillus" cmphy:species="acidocaldarius" cmphy:strain="DSM 4467" cmphy:id="AJ496806" editRecord="[]">Alfcyclobacillus acidocaldarius DSM 4467 (AJ496806)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">B. mojavensis IFO 15718T(ABO21191)</otu>
+  <otu id="otu13">B. mycoides ATCC 6462T(ABO21192)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">B. siamensis PD-A107 (GQ281299)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.22" label="NT1.22" x="617.0" y="11.0" otu="otu10"/>
+   <node id="NT1.29" label="NT1.29" x="1.0" y="401.0" root="true"/>
+   <edge id="e.26" source="NT1.29" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

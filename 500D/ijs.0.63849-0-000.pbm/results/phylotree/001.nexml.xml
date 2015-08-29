@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Burkholderia" cmphy:species="cepacia" cmphy:strain="ATCC 254167" cmphy:id="M22518" editRecord="[]">Burkholderia cepacia ATCC 254167 (M22518)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Alcaligenes" cmphy:species="defragrans" cmphy:strain="DSM 12141T" cmphy:id="AJO05447" editRecord="[0__O]">Alcaligenes defragrans DSM 12141T (AJ005447)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Pigmentiphaga" cmphy:species="kullae" cmphy:strain="LMG 216657" cmphy:id="AFZ82916" editRecord="[2__Z]">Pigmentiphaga kullae LMG 216657 (AF282916)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Bordetella" cmphy:species="pertussis" cmphy:strain="ATCC 97977" cmphy:id="U04950" editRecord="[O__0]">Bordetella pertussis ATCC 97977 (UO4950)</otu>
+  <otu id="otu5">Alcaligenes Iatus 1AM 125997 (D88007)</otu>
+  <otu id="otu6" cmphy:genus="Achromobacter" cmphy:species="xylosoxidans" cmphy:strain="IAM 126847" cmphy:id="D88005" editRecord="[]">Achromobacter xylosoxidans IAM 126847 (D88005)</otu>
+  <otu id="otu7">Alcaligenes faecalis subsp. parafaecalis DSM 139757 (AJ242986)</otu>
+  <otu id="otu8" cmphy:genus="Alcaligenes" cmphy:species="aquatilis" cmphy:strain="LMG 229967" cmphy:id="AJ937889" editRecord="[]">Alcaligenes aquatilis LMG 229967 (AJ937889)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Kerstersia" cmphy:species="gyiorum" cmphy:strain="LMG 59O6T" cmphy:id="AYI31213" editRecord="[1__I]">Kerstersia gyiorum LMG 59O6T (AY131213)</otu>
+  <otu id="otu10" cmphy:genus="Pelistega" cmphy:species="europaea" cmphy:strain="LMG 109827" cmphy:id="Y11890" editRecord="[]">Pelistega europaea LMG 109827 (Y11890)</otu>
+  <otu id="otu11">Alcaligenes faecalis subsp. faecalis LMG 1229T (D88008)</otu>
+  <otu id="otu12" cmphy:genus="Taylorella" cmphy:species="equigenitalis" cmphy:strain="NCTC 111847" cmphy:id="X68645" editRecord="[]">Taylorella equigenitalis NCTC 111847 (X68645)</otu>
+  <otu id="otu13">1Alcaligenes faecalis subsp. phenoIicus1 DSM 16503 (AY296718)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Oligella" cmphy:species="ureolytica" cmphy:strain="LMG 6519T" cmphy:id="AJZ51912" editRecord="[2__Z]">Oligella ureolytica LMG 6519T (AJ251912)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="52.0" y="566.0"/>
+   <node id="NT1.2" label="NT1.2" x="80.0" y="676.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="125.0" y="497.0"/>
+   <node id="NT1.4" label="NT1.4" x="198.0" y="341.0"/>
+   <node id="NT1.5" label="NT1.5" x="231.0" y="416.0"/>
+   <node id="NT1.6" label="NT1.6" x="237.0" y="521.0"/>
+   <node id="NT1.7" label="NT1.7" x="242.0" y="444.0"/>
+   <node id="NT1.8" x="263.0" y="193.0" label="100"/>
+   <node id="NT1.9" label="NT1.9" x="266.0" y="302.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="274.0" y="343.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="277.0" y="426.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="279.0" y="635.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="291.0" y="468.0" otu="otu6"/>
+   <node id="NT1.14" x="294.0" y="146.0" label="94"/>
+   <node id="NT1.15" label="NT1.15" x="295.0" y="179.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="297.0" y="93.0" otu="otu8"/>
+   <node id="NT1.17" x="298.0" y="242.0" label="97"/>
+   <node id="NT1.18" label="NT1.18" x="301.0" y="384.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="301.0" y="509.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="308.0" y="261.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="319.0" y="551.0" otu="otu12"/>
+   <node id="NT1.22" label="NT1.22" x="327.0" y="219.0" otu="otu13"/>
+   <node id="NT1.23" label="NT1.23" x="362.0" y="592.0" otu="otu14"/>
+   <edge source="NT1.15" target="NT1.14" id="e.0"/>
+   <edge source="NT1.20" target="NT1.17" id="e.1"/>
+   <edge source="NT1.10" target="NT1.4" id="e.2"/>
+   <edge source="NT1.11" target="NT1.7" id="e.3"/>
+   <edge source="NT1.13" target="NT1.7" id="e.4"/>
+   <edge source="NT1.19" target="NT1.6" id="e.5"/>
+   <edge source="NT1.21" target="NT1.6" id="e.6"/>
+   <edge source="NT1.23" target="NT1.3" id="e.7"/>
+   <edge source="NT1.14" target="NT1.8" id="e.8"/>
+   <edge source="NT1.8" target="NT1.17" id="e.9"/>
+   <edge source="NT1.8" target="NT1.4" id="e.10"/>
+   <edge source="NT1.4" target="NT1.4" id="e.11"/>
+   <edge source="NT1.4" target="NT1.4" id="e.12"/>
+   <edge source="NT1.4" target="NT1.4" id="e.13"/>
+   <edge source="NT1.4" target="NT1.5" id="e.14"/>
+   <edge source="NT1.4" target="NT1.3" id="e.15"/>
+   <edge source="NT1.4" target="NT1.6" id="e.16"/>
+   <edge source="NT1.5" target="NT1.7" id="e.17"/>
+   <edge source="NT1.3" target="NT1.1" id="e.18"/>
+   <edge source="NT1.2" target="NT1.1" id="e.19"/>
+   <edge source="NT1.12" target="NT1.1" id="e.20"/>
+   <edge source="NT1.9" target="NT1.4" id="e.21"/>
+   <edge source="NT1.18" target="NT1.5" id="e.22"/>
+   <edge source="NT1.16" target="NT1.14" id="e.23"/>
+   <edge source="NT1.22" target="NT1.17" id="e.24"/>
+  </tree>
+ </trees>
+</nexml>

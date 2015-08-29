@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Desulfomicrobium" cmphy:species="baculatum" cmphy:strain="DSM 4O28T" cmphy:id="AJZ77894" editRecord="[2__Z]">Desulfomicrobium baculatum DSM 4O28T (AJ277894)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Desulfonatronum" cmphy:species="thiodfsmutans" cmphy:strain="DSM 14708'" cmphy:id="AFB73920" editRecord="[3__B]">Desulfonatronum thiodfsmutans DSM 14708' (AF373920)</otu>
+  <otu id="otu6" cmphy:genus="Desulfohalobium" cmphy:species="retbaense" cmphy:strain="DSM 569T" cmphy:id="X99235" editRecord="[]">Desulfohalobium retbaense DSM 569T (X99235)</otu>
+  <otu id="otu7" cmphy:genus="Desulfovibrio" cmphy:species="africanus" cmphy:strain="DSM 2603)" cmphy:id="X99236" editRecord="[]">Desulfovibrio africanus DSM 2603) (X99236)</otu>
+  <otu id="otu8" cmphy:genus="Desulfovibrlo" cmphy:species="gracilis" cmphy:strain="DSM 16080" cmphy:id="U53464" editRecord="[]">Desulfovibrlo gracilis DSM 16080 (U53464)</otu>
+  <otu id="otu9" cmphy:genus="Desulfovibrio" cmphy:species="aerotolerans" cmphy:strain="DSM 166957" cmphy:id="AY746987" editRecord="[]">Desulfovibrio aerotolerans DSM 166957 (AY746987)</otu>
+  <otu id="otu10" cmphy:edit="[O__0]" cmphy:genus="Desulfovibrio" cmphy:species="indonesiensis" cmphy:strain="NCIMB 134687" cmphy:id="Y09504" editRecord="[O__0]">Desulfovibrio indonesiensis NCIMB 134687 (YO9504)</otu>
+  <otu id="otu11" cmphy:genus="Desulfovfbrio" cmphy:species="carbinohcus" cmphy:strain="DSM 3852)" cmphy:id="AY626035" editRecord="[]">Desulfovfbrio carbinohcus DSM 3852) (AY626035)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Desulfovibrio" cmphy:species="senezii" cmphy:strain="DSM 8436T" cmphy:id="AFO50100" editRecord="[0__O]">Desulfovibrio senezii DSM 8436T (AF050100)</otu>
+  <otu id="otu13" cmphy:genus="Desulfovfbrio" cmphy:species="magneticus" cmphy:strain="DSM 137317" cmphy:id="D43944" editRecord="[]">Desulfovfbrio magneticus DSM 137317 (D43944)</otu>
+  <otu id="otu14" cmphy:genus="Desulfovibrio" cmphy:species="burkinensis" cmphy:strain="DSM 6830'" cmphy:id="AFO53752" editRecord="[]">Desulfovibrio burkinensis DSM 6830' (AFO53752)</otu>
+  <otu id="otu15" cmphy:genus="Desulfovibrio" cmphy:species="sulfodismutans" cmphy:strain="DSM 3696T" cmphy:id="Y17764" editRecord="[]">Desulfovibrio sulfodismutans DSM 3696T (Y17764)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Desulfoviblio" cmphy:species="alcoholivorans" cmphy:strain="DSM 5433T" cmphy:id="AFO53751" editRecord="[0__O]">Desulfoviblio alcoholivorans DSM 5433T (AF053751)</otu>
+  <otu id="otu17">Desulfovfbrio inopinatus DSM 10711T(AF177276)</otu>
+  <otu id="otu18">Desulfovibrio carbinoliphilus DSM 1 75247 (DQ186200)</otu>
+  <otu id="otu19">Uncultured deltaproteobacterium clone MBNTA bac-1 (DQ205193)</otu>
+  <otu id="otu20" cmphy:edit="[1__I]" cmphy:genus="Desulfovibrio" cmphy:species="desulfurfcans" cmphy:strain="ATCC 29577'" cmphy:id="AFI92153" editRecord="[1__I]">Desulfovibrio desulfurfcans ATCC 29577' (AF192153)</otu>
+  <otu id="otu21">Strain BST-B (AB303303)</otu>
+  <otu id="otu22">Strain BSY) (AB303305)</otu>
+  <otu id="otu23">Strain BSY) (AB303305)</otu>
+  <otu id="otu24">Desulfovfbrio portus DSM 193387 (AB1 10541)</otu>
+  <otu id="otu25" cmphy:edit="[5__S]" cmphy:genus="Desulfovlbrro" cmphy:species="putealrs" cmphy:strain="DSM 16056T" cmphy:id="AYS74979" editRecord="[5__S]">Desulfovlbrro putealrs DSM 16056T (AY574979)</otu>
+  <otu id="otu26">Strain BST-C (AB303304)</otu>
+  <otu id="otu27" cmphy:genus="Desulfovibrio" cmphy:species="hydrothermalis" cmphy:strain="DSM 14728)" cmphy:id="AF458778" editRecord="[]">Desulfovibrio hydrothermalis DSM 14728) (AF458778)</otu>
+  <otu id="otu28" cmphy:edit="[0__O]" cmphy:genus="Desulfovibrio" cmphy:species="fructosfvorans" cmphy:strain="DSM 3604)" cmphy:id="AFO50101" editRecord="[0__O]">Desulfovibrio fructosfvorans DSM 3604) (AF050101)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="30.0" y="1636.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="33.0" y="1636.0"/>
+   <node id="NT1.3" label="NT1.3" x="62.0" y="1577.0"/>
+   <node id="NT1.4" x="91.0" y="1461.0" label="60"/>
+   <node id="NT1.5" label="NT1.5" x="143.0" y="1299.0"/>
+   <node id="NT1.6" label="NT1.6" x="162.0" y="1044.0"/>
+   <node id="NT1.7" label="NT1.7" x="172.0" y="1256.0"/>
+   <node id="NT1.8" x="184.0" y="1374.0" label="52"/>
+   <node id="NT1.9" label="NT1.9" x="199.0" y="1270.0"/>
+   <node id="NT1.11" x="236.0" y="1327.0" label="52"/>
+   <node id="NT1.12" label="NT1.12" x="268.0" y="584.0"/>
+   <node id="NT1.14" label="NT1.14" x="339.0" y="885.0"/>
+   <node id="NT1.20" label="NT1.20" x="465.0" y="776.0"/>
+   <node id="NT1.21" label="NT1.21" x="466.0" y="1690.0" otu="otu4"/>
+   <node id="NT1.22" x="479.0" y="828.0" label="69"/>
+   <node id="NT1.23" label="NT1.23" x="481.0" y="1621.0" otu="otu5"/>
+   <node id="NT1.24" x="489.0" y="668.0" label="85"/>
+   <node id="NT1.25" label="NT1.25" x="500.0" y="1759.0" otu="otu6"/>
+   <node id="NT1.27" label="NT1.27" x="525.0" y="1139.0" otu="otu7"/>
+   <node id="NT1.28" label="NT1.28" x="541.0" y="607.0"/>
+   <node id="NT1.29" label="NT1.29" x="544.0" y="1278.0" otu="otu8"/>
+   <node id="NT1.30" label="NT1.30" x="552.0" y="726.0" otu="otu9"/>
+   <node id="NT1.31" label="NT1.31" x="564.0" y="1484.0" otu="otu10"/>
+   <node id="NT1.32" label="NT1.32" x="565.0" y="517.0" otu="otu11"/>
+   <node id="NT1.33" x="565.0" y="555.0" label="100"/>
+   <node id="NT1.34" label="NT1.34" x="569.0" y="1209.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="571.0" y="588.0" otu="otu13"/>
+   <node id="NT1.36" label="NT1.36" x="579.0" y="657.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="581.0" y="1003.0" otu="otu15"/>
+   <node id="NT1.38" label="NT1.38" x="588.0" y="934.0" otu="otu16"/>
+   <node id="NT1.42" label="NT1.42" x="601.0" y="1552.0" otu="otu20"/>
+   <node id="NT1.49" label="NT1.49" x="623.0" y="450.0" otu="otu25"/>
+   <node id="NT1.51" label="NT1.51" x="658.0" y="1415.0" otu="otu27"/>
+   <node id="NT1.52" label="NT1.52" x="670.0" y="794.0" otu="otu28"/>
+   <edge id="e.5" target="NT1.37" source="NT1.14"/>
+   <edge id="e.6" source="NT1.33" target="NT1.32"/>
+   <edge id="e.7" source="NT1.7" target="NT1.27"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.42" source="NT1.5"/>
+   <edge id="e.15" target="NT1.12" source="NT1.6"/>
+   <edge id="e.16" source="NT1.12" target="NT1.14"/>
+   <edge id="e.19" source="NT1.14" target="NT1.20"/>
+   <edge id="e.20" source="NT1.5" target="NT1.6"/>
+   <edge id="e.21" source="NT1.6" target="NT1.7"/>
+   <edge id="e.22" source="NT1.20" target="NT1.22"/>
+   <edge id="e.23" source="NT1.20" target="NT1.24"/>
+   <edge id="e.24" source="NT1.24" target="NT1.28"/>
+   <edge id="e.25" source="NT1.7" target="NT1.8"/>
+   <edge id="e.26" source="NT1.4" target="NT1.5"/>
+   <edge id="e.28" source="NT1.28" target="NT1.33"/>
+   <edge id="e.29" source="NT1.8" target="NT1.9"/>
+   <edge id="e.30" source="NT1.9" target="NT1.11"/>
+   <edge id="e.31" source="NT1.3" target="NT1.4"/>
+   <edge id="e.33" source="NT1.2" target="NT1.3"/>
+   <edge id="e.34" source="NT1.2" target="NT1.25"/>
+   <edge id="e.35" source="NT1.3" target="NT1.21"/>
+   <edge id="e.36" source="NT1.4" target="NT1.23"/>
+   <edge id="e.37" source="NT1.8" target="NT1.31"/>
+   <edge id="e.38" source="NT1.9" target="NT1.34"/>
+   <edge id="e.39" source="NT1.11" target="NT1.29"/>
+   <edge id="e.41" target="NT1.51" source="NT1.11"/>
+   <edge id="e.43" source="NT1.22" target="NT1.38"/>
+   <edge id="e.44" source="NT1.24" target="NT1.30"/>
+   <edge id="e.46" source="NT1.22" target="NT1.52"/>
+   <edge id="e.47" target="NT1.49" source="NT1.12"/>
+   <edge id="e.49" source="NT1.28" target="NT1.36"/>
+   <edge id="e.50" source="NT1.33" target="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

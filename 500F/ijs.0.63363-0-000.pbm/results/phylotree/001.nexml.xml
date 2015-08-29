@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Microbulbifer" cmphy:species="hydrolyticus" cmphy:strain="ATCC 7000727" cmphy:id="U58338" editRecord="[]">Microbulbifer hydrolyticus ATCC 7000727 (U58338)</otu>
+  <otu id="otu6" cmphy:genus="Marinobacter" cmphy:species="hydrocarbonoclasticus" cmphy:strain="ATCC 49840T" cmphy:id="X67022" editRecord="[]">Marinobacter hydrocarbonoclasticus ATCC 49840T (X67022)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="702.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="33.0" y="934.0"/>
+   <node id="NT1.8" label="NT1.8" x="264.0" y="934.0" otu="otu5"/>
+   <node id="NT1.9" label="NT1.9" x="270.0" y="1006.0" otu="otu6"/>
+   <edge id="e.4" source="NT1.3" target="NT1.8"/>
+   <edge id="e.5" source="NT1.3" target="NT1.9"/>
+   <edge id="e.7" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

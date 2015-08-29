@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Anaerococcus" cmphy:species="prevotii" cmphy:strain="GIFU 8124" cmphy:id="D14153" editRecord="[]">Anaerococcus prevotii GIFU 8124 (D14153)</otu>
+  <otu id="otu8">Clostridium Sp. BN II (X75909)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Peptoniphilus" cmphy:species="asaccharolyticus" cmphy:strain="CCUG 99887" cmphy:id="AFS42228" editRecord="[5__S]">Peptoniphilus asaccharolyticus CCUG 99887 (AF542228)</otu>
+  <otu id="otu10" cmphy:edit="[O__0]" cmphy:genus="Peptoniphilus" cmphy:species="ivorii" cmphy:strain="DSM 100227" cmphy:id="Y07840" editRecord="[O__0]">Peptoniphilus ivorii DSM 100227 (YO7840)</otu>
+  <otu id="otu11" cmphy:genus="Tissierella" cmphy:species="praeacuta" cmphy:strain="DSM 5675T" cmphy:id="X80841" editRecord="[]">Tissierella praeacuta DSM 5675T (X80841)</otu>
+  <otu id="otu12">Peptoniphilus indolicus CCUG 46591 T (AY153431)</otu>
+  <otu id="otu13">Finegoldia magna CCUG17636T(AF542227)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Parvimonas" cmphy:species="micra" cmphy:strain="ATCC 332707" cmphy:id="AFS42231" editRecord="[5__S]">Parvimonas micra ATCC 332707 (AF542231)</otu>
+  <otu id="otu15" cmphy:genus="Clostridium" cmphy:species="purinolyticum" cmphy:strain="ATCC 33906T" cmphy:id="M60491" editRecord="[]">Clostridium purinolyticum ATCC 33906T (M60491)</otu>
+  <otu id="otu16" cmphy:edit="[5__S]" cmphy:genus="Peptoniphilus" cmphy:species="lacrimalis" cmphy:strain="CCUG 3135OT" cmphy:id="AFS42230" editRecord="[5__S]">Peptoniphilus lacrimalis CCUG 3135OT (AF542230)</otu>
+  <otu id="otu17" cmphy:genus="Clostridium" cmphy:species="acfdurici" cmphy:strain="ATCC 79067" cmphy:id="M59084" editRecord="[]">Clostridium acfdurici ATCC 79067 (M59084)</otu>
+  <otu id="otu18">IPeptonI'philus gorbachif WAL 10418 (D091 1241)</otu>
+  <otu id="otu19" cmphy:genus="Helcococcus" cmphy:species="ovis" cmphy:strain="CCUG 37441T" cmphy:id="Y16279" editRecord="[]">Helcococcus ovis CCUG 37441T (Y16279)</otu>
+  <otu id="otu20">Bacterium N14-24 (AY880043)</otu>
+  <otu id="otu21">Murdochiella asaccharolytica WAL 2038E (4EU483153)</otu>
+  <otu id="otu22" cmphy:genus="Murdochiella" cmphy:species="asaccharolytica" cmphy:strain="WAL 1855CT" cmphy:id="EU483153" editRecord="[]">Murdochiella asaccharolytica WAL 1855CT (EU483153)</otu>
+  <otu id="otu23" cmphy:edit="[5__S]" cmphy:genus="Helcococcus" cmphy:species="sueciensis" cmphy:strain="CCUG 47334T" cmphy:id="AJS79914" editRecord="[5__S]">Helcococcus sueciensis CCUG 47334T (AJ579914)</otu>
+  <otu id="otu24">IPeptoniphI'lus olsenif WAL 12922 (D091 1242)</otu>
+  <otu id="otu25"> i9'_c9c_0_cc_u_S_kan_zI199nsJ1'299E12EI99___ </otu>
+  <otu id="otu26">IClostridium filamentosunf DSM 6645 (X7 7847)</otu>
+  <otu id="otu27"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="12.0" y="308.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="21.0" y="406.0"/>
+   <node id="NT1.8" label="NT1.8" x="45.0" y="295.0"/>
+   <node id="NT1.10" label="NT1.10" x="56.0" y="172.0"/>
+   <node id="NT1.11" label="NT1.11" x="62.0" y="637.0"/>
+   <node id="NT1.12" label="NT1.12" x="74.0" y="105.0"/>
+   <node id="NT1.13" label="NT1.13" x="84.0" y="579.0"/>
+   <node id="NT1.14" label="NT1.14" x="96.0" y="698.0"/>
+   <node id="NT1.16" label="NT1.16" x="142.0" y="389.0"/>
+   <node id="NT1.20" label="NT1.20" x="283.0" y="347.0"/>
+   <node id="NT1.21" label="NT1.21" x="309.0" y="558.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="335.0" y="239.0"/>
+   <node id="NT1.26" label="NT1.26" x="358.0" y="674.0" otu="otu9"/>
+   <node id="NT1.27" label="NT1.27" x="367.0" y="597.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="373.0" y="481.0" otu="otu11"/>
+   <node id="NT1.32" label="NT1.32" x="417.0" y="133.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="441.0" y="326.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="443.0" y="713.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="450.0" y="365.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="452.0" y="249.0" otu="otu19"/>
+   <node id="NT1.41" label="NT1.41" x="463.0" y="95.0" otu="otu22"/>
+   <node id="NT1.42" label="NT1.42" x="474.0" y="210.0" otu="otu23"/>
+   <edge id="e.2" target="NT1.41" source="NT1.12"/>
+   <edge id="e.6" source="NT1.1" target="NT1.3"/>
+   <edge id="e.10" source="NT1.22" target="NT1.42"/>
+   <edge id="e.13" source="NT1.20" target="NT1.33"/>
+   <edge id="e.14" source="NT1.13" target="NT1.21"/>
+   <edge id="e.15" source="NT1.13" target="NT1.27"/>
+   <edge id="e.20" source="NT1.10" target="NT1.12"/>
+   <edge id="e.22" source="NT1.8" target="NT1.10"/>
+   <edge id="e.23" source="NT1.10" target="NT1.22"/>
+   <edge id="e.24" source="NT1.3" target="NT1.8"/>
+   <edge id="e.25" source="NT1.8" target="NT1.16"/>
+   <edge id="e.28" source="NT1.16" target="NT1.20"/>
+   <edge id="e.31" target="NT1.11" source="NT1.3"/>
+   <edge id="e.32" source="NT1.11" target="NT1.14"/>
+   <edge id="e.33" source="NT1.11" target="NT1.13"/>
+   <edge id="e.37" target="NT1.32" source="NT1.12"/>
+   <edge id="e.38" target="NT1.28" source="NT1.16"/>
+   <edge id="e.40" target="NT1.34" source="NT1.14"/>
+   <edge id="e.41" source="NT1.20" target="NT1.35"/>
+   <edge id="e.42" target="NT1.26" source="NT1.14"/>
+   <edge id="e.44" target="NT1.37" source="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Kribbella" cmphy:species="sandramycini" cmphy:strain="KACC 20249T" cmphy:id="AYZ53864" editRecord="[2__Z]"> Kribbella sandramycini KACC 20249T (AY253864)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Kribbella" cmphy:species="alba" cmphy:strain="YIM 31O75T" cmphy:id="AYO82062" editRecord="[0__O]"> Kribbella alba YIM 31O75T (AY082062)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Aeromicrobium" cmphy:species="fastidiosum" cmphy:strain="NCIB 12713T" cmphy:id="X53189" editRecord="[]">Aeromicrobium fastidiosum NCIB 12713T (X53189)</otu>
+  <otu id="otu9">Marmoricola aurantiacus BC 361 T (Y18629)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Nocardioides luteus NCIB 1 1 4557 (X5321 2)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Nocardioides plantarum NCIMB 1 2834T (X69973)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Actinopolymorpha" cmphy:species="singaporensis" cmphy:strain="KCTC 199O7T" cmphy:id="AFZ37815" editRecord="[2__Z]"> Actinopolymorpha singaporensis KCTC 199O7T (AF237815)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="806.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="12.0" y="509.0"/>
+   <node id="NT1.3" label="NT1.3" x="78.0" y="261.0"/>
+   <node id="NT1.9" label="NT1.9" x="255.0" y="130.0"/>
+   <node id="NT1.13" label="NT1.13" x="302.0" y="165.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="326.0" y="22.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="396.0" y="599.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="505.0" y="527.0" otu="otu14"/>
+   <edge id="e.0" target="NT1.17" source="NT1.9"/>
+   <edge id="e.2" target="NT1.13" source="NT1.9"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" target="NT1.28" source="NT1.3"/>
+   <edge id="e.16" source="NT1.3" target="NT1.9"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.28" target="NT1.19" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

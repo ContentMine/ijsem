@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Aquitalea magnusonii TRO-O01 DR87 (DQO181 1 7)</otu>
+  <otu id="otu2" cmphy:genus="Vogesella" cmphy:species="perlucida" cmphy:strain="DS-287" cmphy:id="EF626691" editRecord="[]">Vogesella perlucida DS-287 (EF626691)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Laribacter" cmphy:species="hongkongensis" cmphy:strain="HKU17" cmphy:id="AFB89085" editRecord="[3__B]">Laribacter hongkongensis HKU17 (AF389085)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Vogesella" cmphy:species="mureinivorans" cmphy:strain="strain 3897" cmphy:id="GOZ46809" editRecord="[2__Z]">Vogesella mureinivorans strain 3897 (GO246809)</otu>
+  <otu id="otu5" cmphy:genus="Vogesella" cmphy:species="indigofera" cmphy:strain="ATCC 197067" cmphy:id="U45995" editRecord="[]">Vogesella indigofera ATCC 197067 (U45995)</otu>
+  <otu id="otu6" cmphy:genus="Chromobacterium" cmphy:species="violaceum" cmphy:strain="ATCC 124727" cmphy:id="M22510" editRecord="[]">Chromobacterium violaceum ATCC 124727 (M22510)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Simonsiella" cmphy:species="muelleri" cmphy:strain="ATCC 294537" cmphy:id="AFB28147" editRecord="[3__B]">Simonsiella muelleri ATCC 294537 (AF328147)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Vogesella" cmphy:species="lacus" cmphy:strain="GR137" cmphy:id="EUZ87927" editRecord="[2__Z]">Vogesella lacus GR137 (EU287927)</otu>
+  <otu id="otu9">Alysiella filiformis ATCC 1 55327 (AF48771 0)</otu>
+  <otu id="otu10">Escherichia coli ATCC 1 1 7757 (X80725)</otu>
+  <otu id="otu11" cmphy:genus="Neisseria" cmphy:species="flavescens" cmphy:strain="ATCC 131207" cmphy:id="L06168" editRecord="[]">Neisseria flavescens ATCC 131207 (L06168)</otu>
+  <otu id="otu12" cmphy:genus="Neisseria" cmphy:species="polysaccharea" cmphy:strain="ATCC 437687" cmphy:id="L06167" editRecord="[]">Neisseria polysaccharea ATCC 437687 (L06167)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Conchiformibius" cmphy:species="steedae" cmphy:strain="ATCC 274097" cmphy:id="AFB28153" editRecord="[3__B]">Conchiformibius steedae ATCC 274097 (AF328153)</otu>
+  <otu id="otu14">Formivibrio citricus DSM 61507 (Y1 7602)</otu>
+  <otu id="otu15">Kingella kingae ATCC 233307 (M2251 7)</otu>
+  <otu id="otu16">Chitinibacter tainanensis BCRC 1 72547 (AY264287)</otu>
+  <otu id="otu17" cmphy:genus="Microvirgula" cmphy:species="aerodenitrificans" cmphy:strain="SGLY27" cmphy:id="U89333" editRecord="[]">Microvirgula aerodenitrificans SGLY27 (U89333)</otu>
+  <otu id="otu18" cmphy:genus="Neisseria" cmphy:species="gonorrhoeae" cmphy:strain="NCTC 83757" cmphy:id="X07714" editRecord="[]">Neisseria gonorrhoeae NCTC 83757 (X07714)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="251.0" y="334.0"/>
+   <node id="NT1.3" label="NT1.3" x="299.0" y="183.0"/>
+   <node id="NT1.4" label="NT1.4" x="304.0" y="120.0"/>
+   <node id="NT1.5" label="NT1.5" x="339.0" y="394.0"/>
+   <node id="NT1.7" label="NT1.7" x="377.0" y="247.0"/>
+   <node id="NT1.9" label="NT1.9" x="398.0" y="67.0"/>
+   <node id="NT1.10" label="NT1.10" x="404.0" y="501.0"/>
+   <node id="NT1.11" label="NT1.11" x="439.0" y="104.0"/>
+   <node id="NT1.12" x="478.0" y="21.0" label="998"/>
+   <node id="NT1.14" label="NT1.14" x="498.0" y="47.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="502.0" y="228.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="503.0" y="12.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="505.0" y="84.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="513.0" y="193.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="513.0" y="373.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="515.0" y="120.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="517.0" y="570.0"/>
+   <node id="NT1.24" label="NT1.24" x="533.0" y="517.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="537.0" y="553.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="540.0" y="445.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="572.0" y="264.0" otu="otu17"/>
+   <node id="NT1.31" label="NT1.31" x="572.0" y="590.0" otu="otu18"/>
+   <node id="NT1.32" label="NT1.32" x="2.0" y="392.0" root="true"/>
+   <edge id="e.1" target="NT1.18" source="NT1.4"/>
+   <edge id="e.2" source="NT1.7" target="NT1.15"/>
+   <edge id="e.3" source="NT1.7" target="NT1.30"/>
+   <edge id="e.6" source="NT1.5" target="NT1.19"/>
+   <edge id="e.8" source="NT1.21" target="NT1.25"/>
+   <edge id="e.9" source="NT1.9" target="NT1.12"/>
+   <edge id="e.10" source="NT1.9" target="NT1.11"/>
+   <edge id="e.11" source="NT1.4" target="NT1.9"/>
+   <edge id="e.12" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" target="NT1.3" source="NT1.1"/>
+   <edge id="e.15" source="NT1.3" target="NT1.7"/>
+   <edge id="e.18" source="NT1.1" target="NT1.5"/>
+   <edge id="e.19" source="NT1.5" target="NT1.10"/>
+   <edge id="e.20" source="NT1.10" target="NT1.21"/>
+   <edge id="e.21" source="NT1.32" target="NT1.1"/>
+   <edge id="e.24" source="NT1.10" target="NT1.26"/>
+   <edge id="e.25" source="NT1.11" target="NT1.17"/>
+   <edge id="e.26" source="NT1.11" target="NT1.20"/>
+   <edge id="e.27" source="NT1.12" target="NT1.14"/>
+   <edge id="e.28" source="NT1.12" target="NT1.16"/>
+   <edge id="e.29" source="NT1.10" target="NT1.24"/>
+   <edge id="e.30" source="NT1.21" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

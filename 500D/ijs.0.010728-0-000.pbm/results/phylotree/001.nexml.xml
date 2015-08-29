@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Cellvibrio" cmphy:species="gandavensfs" cmphy:strain="R-4069T" cmphy:id="AJZ89162" editRecord="[2__Z]">Cellvibrio gandavensfs R-4069T (AJ289162)</otu>
+  <otu id="otu2">Simiduia agarivorans SA1T (EF61 7350)</otu>
+  <otu id="otu3" cmphy:genus="Saccharophagus" cmphy:species="degradans" cmphy:strain="2-4OT" cmphy:id="AFO55269" editRecord="[]">Saccharophagus degradans 2-4OT (AFO55269)</otu>
+  <otu id="otu4" cmphy:genus="Microbulbifer" cmphy:species="celer" cmphy:strain="ISL-39T" cmphy:id="EF486352" editRecord="[]">Microbulbifer celer ISL-39T (EF486352)</otu>
+  <otu id="otu5">Escherichia coli ATCC 1 1 7757 (X80725)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Endozoicomonas" cmphy:species="elysicola" cmphy:strain="MKT1 1OT" cmphy:id="ABI96667" editRecord="[1__I]">Endozoicomonas elysicola MKT1 1OT (AB196667)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="72.0" y="493.0"/>
+   <node id="NT1.2" label="NT1.2" x="139.0" y="386.0"/>
+   <node id="NT1.4" label="NT1.4" x="218.0" y="271.0"/>
+   <node id="NT1.5" label="NT1.5" x="376.0" y="597.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="439.0" y="481.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="547.0" y="170.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="666.0" y="325.0" otu="otu6"/>
+   <node id="NT1.11" label="NT1.11" x="1.0" y="661.0" root="true"/>
+   <edge id="e.0" source="NT1.4" target="NT1.8"/>
+   <edge id="e.2" source="NT1.4" target="NT1.10"/>
+   <edge id="e.3" target="NT1.7" source="NT1.2"/>
+   <edge id="e.4" source="NT1.1" target="NT1.5"/>
+   <edge id="e.5" source="NT1.2" target="NT1.4"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" source="NT1.11" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

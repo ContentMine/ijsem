@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 117757" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 117757 (X80725)</otu>
+  <otu id="otu2" cmphy:genus="Vibrio" cmphy:species="cholerae" cmphy:strain="ATCC 140357" cmphy:id="X74695" editRecord="[]">Vibrio cholerae ATCC 140357 (X74695)</otu>
+  <otu id="otu3" cmphy:genus="Aeromonas" cmphy:species="veronii" cmphy:strain="ATCC 356247" cmphy:id="X74684" editRecord="[]">Aeromonas veronii ATCC 356247 (X74684)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Aeromonas" cmphy:species="encheleia" cmphy:strain="CECT 43427" cmphy:id="AJZ24309" editRecord="[2__Z]">Aeromonas encheleia CECT 43427 (AJ224309)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Aeromonas" cmphy:species="hydrophila" cmphy:strain="ATCC 79667" cmphy:id="X60404" editRecord="[]">Aeromonas hydrophila ATCC 79667 (X60404)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"> Aeromonasjandaei ATCC 495687 (X60413)</otu>
+  <otu id="otu13" cmphy:genus="Aeromonas" cmphy:species="allosaccharophila" cmphy:strain="CECT 41997" cmphy:id="S39232" editRecord="[]"> Aeromonas allosaccharophila CECT 41997 (S39232)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Aeromonas" cmphy:species="molluscorum" cmphy:strain="848T7" cmphy:id="AYS32690" editRecord="[5__S]">Aeromonas molluscorum 848T7 (AY532690)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Aeromonas" cmphy:species="popoffii" cmphy:strain="LMG 175417" cmphy:id="AJZ24308" editRecord="[2__Z]">Aeromonas popoffii LMG 175417 (AJ224308)</otu>
+  <otu id="otu17" cmphy:genus="Aeromonas" cmphy:species="eucrenophila" cmphy:strain="ATCC 233097" cmphy:id="X74675" editRecord="[]">Aeromonas eucrenophila ATCC 233097 (X74675)</otu>
+  <otu id="otu18" cmphy:genus="Aeromonas" cmphy:species="bestiarum" cmphy:strain="CIP 74307" cmphy:id="X60406" editRecord="[]">Aeromonas bestiarum CIP 74307 (X60406)</otu>
+  <otu id="otu19" cmphy:genus="Aeromonas" cmphy:species="caviae" cmphy:strain="ATCC 154687" cmphy:id="X74674" editRecord="[]">Aeromonas caviae ATCC 154687 (X74674)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:genus="Tolumonas" cmphy:species="auensis" cmphy:strain="DSM 91877" cmphy:id="X92889" editRecord="[]"> Tolumonas auensis DSM 91877 (X92889)</otu>
+  <otu id="otu22" cmphy:edit="[5__S]" cmphy:genus="Aeromonas" cmphy:species="simiae" cmphy:strain="IBS S68747" cmphy:id="AJS36821" editRecord="[5__S]"> Aeromonas simiae IBS S68747 (AJ536821)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="270.0" y="803.0"/>
+   <node id="NT1.2" label="NT1.2" x="271.0" y="895.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="469.0" y="742.0"/>
+   <node id="NT1.6" x="765.0" y="422.0" label="100"/>
+   <node id="NT1.7" x="797.0" y="223.0" label="53"/>
+   <node id="NT1.9" label="NT1.9" x="813.0" y="373.0"/>
+   <node id="NT1.11" label="NT1.11" x="817.0" y="857.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="818.0" y="528.0"/>
+   <node id="NT1.15" label="NT1.15" x="833.0" y="217.0"/>
+   <node id="NT1.16" label="NT1.16" x="835.0" y="51.0" otu="otu3"/>
+   <node id="NT1.22" label="NT1.22" x="850.0" y="456.0"/>
+   <node id="NT1.23" label="NT1.23" x="857.0" y="422.0"/>
+   <node id="NT1.27" label="NT1.27" x="867.0" y="388.0"/>
+   <node id="NT1.28" label="NT1.28" x="868.0" y="417.0" otu="otu8"/>
+   <node id="NT1.30" x="870.0" y="356.0" label="72"/>
+   <node id="NT1.31" label="NT1.31" x="871.0" y="198.0" otu="otu10"/>
+   <node id="NT1.34" label="NT1.34" x="880.0" y="563.0" otu="otu13"/>
+   <node id="NT1.35" label="NT1.35" x="881.0" y="381.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="887.0" y="490.0" otu="otu16"/>
+   <node id="NT1.38" label="NT1.38" x="895.0" y="454.0" otu="otu17"/>
+   <node id="NT1.39" label="NT1.39" x="895.0" y="345.0" otu="otu18"/>
+   <node id="NT1.41" label="NT1.41" x="900.0" y="272.0" otu="otu19"/>
+   <node id="NT1.43" label="NT1.43" x="936.0" y="820.0" otu="otu21"/>
+   <node id="NT1.44" label="NT1.44" x="955.0" y="637.0" otu="otu22"/>
+   <node id="NT1.47" label="NT1.47" x="4.0" y="849.0" root="true"/>
+   <edge id="e.1" target="NT1.16" source="NT1.7"/>
+   <edge id="e.3" source="NT1.12" target="NT1.34"/>
+   <edge id="e.6" target="NT1.41" source="NT1.15"/>
+   <edge id="e.8" source="NT1.22" target="NT1.37"/>
+   <edge id="e.9" source="NT1.23" target="NT1.38"/>
+   <edge id="e.10" source="NT1.27" target="NT1.28"/>
+   <edge id="e.12" source="NT1.30" target="NT1.35"/>
+   <edge id="e.15" target="NT1.43" source="NT1.3"/>
+   <edge id="e.18" source="NT1.1" target="NT1.11"/>
+   <edge id="e.22" source="NT1.6" target="NT1.7"/>
+   <edge id="e.23" source="NT1.7" target="NT1.9"/>
+   <edge id="e.24" source="NT1.9" target="NT1.12"/>
+   <edge id="e.25" source="NT1.9" target="NT1.15"/>
+   <edge id="e.26" target="NT1.6" source="NT1.3"/>
+   <edge id="e.30" source="NT1.22" target="NT1.23"/>
+   <edge id="e.31" source="NT1.23" target="NT1.27"/>
+   <edge id="e.32" source="NT1.27" target="NT1.30"/>
+   <edge id="e.35" source="NT1.1" target="NT1.3"/>
+   <edge id="e.38" source="NT1.47" target="NT1.2"/>
+   <edge id="e.39" source="NT1.47" target="NT1.1"/>
+   <edge id="e.41" target="NT1.44" source="NT1.6"/>
+   <edge id="e.42" target="NT1.22" source="NT1.12"/>
+   <edge id="e.44" target="NT1.31" source="NT1.15"/>
+   <edge id="e.45" source="NT1.30" target="NT1.39"/>
+  </tree>
+ </trees>
+</nexml>

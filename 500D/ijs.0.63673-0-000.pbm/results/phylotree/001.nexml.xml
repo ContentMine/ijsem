@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Saturnispora" cmphy:species="ahearnii" cmphy:strain="NRRL Y-7555T" cmphy:id="U94935" editRecord="[]"> Saturnispora ahearnii NRRL Y-7555T (U94935)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Saturnispora" cmphy:species="zaruensis" cmphy:strain="NRRL Y-70O8T" cmphy:id="U94933" editRecord="[]"> Saturnispora zaruensis NRRL Y-70O8T (U94933)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Saturnispora" cmphy:species="dispora" cmphy:strain="NRRL Y-1447T" cmphy:id="U94937" editRecord="[]"> Saturnispora dispora NRRL Y-1447T (U94937)</otu>
+  <otu id="otu7" cmphy:genus="Candida" cmphy:species="silvae" cmphy:strain="NRRL Y-6725T" cmphy:id="U71065" editRecord="[]">Candida silvae NRRL Y-6725T (U71065)</otu>
+  <otu id="otu8" cmphy:genus="Candida" cmphy:species="diversa" cmphy:strain="NRRL Y-5713T" cmphy:id="U71064" editRecord="[]">Candida diversa NRRL Y-5713T (U71064)</otu>
+  <otu id="otu9">Saturnispora sp. NRRL Y-1151GT (AFO17727)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="312.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="18.0" y="312.0"/>
+   <node id="NT1.4" x="138.0" y="278.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="148.0" y="205.0"/>
+   <node id="NT1.7" label="NT1.7" x="208.0" y="351.0"/>
+   <node id="NT1.8" label="NT1.8" x="216.0" y="193.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="241.0" y="389.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="247.0" y="340.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="251.0" y="438.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="267.0" y="242.0" otu="otu8"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" target="NT1.8" source="NT1.5"/>
+   <edge id="e.3" source="NT1.7" target="NT1.11"/>
+   <edge id="e.6" target="NT1.13" source="NT1.7"/>
+   <edge id="e.7" source="NT1.5" target="NT1.15"/>
+   <edge id="e.8" source="NT1.2" target="NT1.14"/>
+   <edge id="e.10" target="NT1.4" source="NT1.2"/>
+   <edge id="e.11" source="NT1.4" target="NT1.7"/>
+   <edge id="e.12" source="NT1.4" target="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

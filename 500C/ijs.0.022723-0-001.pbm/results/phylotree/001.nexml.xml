@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Methanothermobacter thermautotrophicus AH (AEOOOQSO)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">M. bryantfi NBRC 104951 T (AB542747)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Methanobacterium" cmphy:species="petrolearium" cmphy:strain="Mic5c127" cmphy:id="ABS42744" editRecord="[5__S]">Methanobacterium petrolearium Mic5c127 (AB542744)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"> M. alcaliphilum NBRC 1052267 (AB542 746)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">M. espanolae NBRC 1O5228T (AB542749)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">M. oryzae NBRC 1O5229T (AB542752)</otu>
+  <otu id="otu13"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.16" label="NT1.16" x="548.0" y="673.0" otu="otu5"/>
+   <node id="NT1.25" label="NT1.25" x="50.0" y="940.0" root="true"/>
+   <edge id="e.0" target="NT1.16" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Aminobacter aminovorans DSM 7O48T (AJO1 1759)</otu>
+  <otu id="otu2">Aminobacter aganoensis DSM 7051 T (AJO1 1760)</otu>
+  <otu id="otu3">Mesorhizobium Ioti LMG 61257 (X67229)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Aminobacter" cmphy:species="lissarensis" cmphy:strain="CC495T" cmphy:id="AFI07722" editRecord="[1__I]">Aminobacter lissarensis CC495T (AF107722)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Aminobacter" cmphy:species="ciceronei" cmphy:strain="IMB-1T" cmphy:id="AFO34798" editRecord="[0__O]">Aminobacter ciceronei IMB-1T (AF034798)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Pseudaminobacter" cmphy:species="salicylatoxidans" cmphy:strain="BN1 2T" cmphy:id="AFO72542" editRecord="[0__O]">Pseudaminobacter salicylatoxidans BN1 2T (AF072542)</otu>
+  <otu id="otu8" cmphy:genus="Aminobacter" cmphy:species="ciceronei" cmphy:strain="ER2" cmphy:id="L20802" editRecord="[]">Aminobacter ciceronei ER2 (L20802)</otu>
+  <otu id="otu9" cmphy:genus="Pseudaminobacter" cmphy:species="defluvii" cmphy:strain="THI 051T" cmphy:id="D32248" editRecord="[]">Pseudaminobacter defluvii THI 051T (D32248)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="48.0" y="102.0"/>
+   <node id="NT1.2" label="NT1.2" x="75.0" y="246.0"/>
+   <node id="NT1.8" x="112.0" y="439.0" label="59"/>
+   <node id="NT1.9" label="NT1.9" x="113.0" y="183.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="142.0" y="452.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="291.0" y="73.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="293.0" y="398.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="321.0" y="128.0" otu="otu9"/>
+   <node id="NT1.16" label="NT1.16" x="2.0" y="27.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.13"/>
+   <edge id="e.1" source="NT1.2" target="NT1.9"/>
+   <edge id="e.4" target="NT1.12" source="NT1.8"/>
+   <edge id="e.6" source="NT1.8" target="NT1.14"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.8" source="NT1.2"/>
+   <edge id="e.13" source="NT1.16" target="NT1.1"/>
+   <edge id="e.14" source="NT1.1" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

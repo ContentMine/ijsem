@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[5__S]" cmphy:genus="Desulfovibrio" cmphy:species="putealis" cmphy:strain="DSM 16056" cmphy:id="AYS74979" editRecord="[5__S]">Desulfovibrio putealis DSM 16056 (AY574979)</otu>
+  <otu id="otu2" cmphy:genus="Desulfovibrio" cmphy:species="marrakechensis" cmphy:strain="EMSSDQf" cmphy:id="AM947130" editRecord="[]">Desulfovibrio marrakechensis EMSSDQf (AM947130)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Desulfovibrio" cmphy:species="carbinoliphilus" cmphy:strain="D41T" cmphy:id="DQI86200" editRecord="[1__I]">Desulfovibrio carbinoliphilus D41T (DQ186200)</otu>
+  <otu id="otu4" cmphy:genus="Desulfovibrio" cmphy:species="carbinolicus" cmphy:strain="DSM 38527" cmphy:id="AY626035" editRecord="[]">Desulfovibrio carbinolicus DSM 38527 (AY626035)</otu>
+  <otu id="otu5" cmphy:genus="Desulfovibrio" cmphy:species="sulfodismutans" cmphy:strain="ThAc01T" cmphy:id="Y17764" editRecord="[]">Desulfovibrio sulfodismutans ThAc01T (Y17764)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Desulfovibrio" cmphy:species="burkinensis" cmphy:strain="HDVT" cmphy:id="AFO53752" editRecord="[]">Desulfovibrio burkinensis HDVT (AFO53752)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Desulfovibrio" cmphy:species="alcoholivorans" cmphy:strain="DSM 54337" cmphy:id="AFO53751" editRecord="[0__O]">Desulfovibrio alcoholivorans DSM 54337 (AF053751)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Desulfovibrio" cmphy:species="inopinatus" cmphy:strain="HHQ 207" cmphy:id="AFI77276" editRecord="[1__I]">Desulfovibrio inopinatus HHQ 207 (AF177276)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Desulfovibrio" cmphy:species="fructosivorans" cmphy:strain="JJT" cmphy:id="AFO50101" editRecord="[0__O]">Desulfovibrio fructosivorans JJT (AF050101)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="353.0" y="12.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="353.0" y="305.0"/>
+   <node id="NT1.3" label="NT1.3" x="544.0" y="272.0"/>
+   <node id="NT1.4" label="NT1.4" x="737.0" y="169.0"/>
+   <node id="NT1.5" label="NT1.5" x="779.0" y="65.0"/>
+   <node id="NT1.6" label="NT1.6" x="817.0" y="133.0"/>
+   <node id="NT1.7" label="NT1.7" x="851.0" y="100.0"/>
+   <node id="NT1.8" label="NT1.8" x="950.0" y="117.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="953.0" y="236.0"/>
+   <node id="NT1.10" label="NT1.10" x="984.0" y="46.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="989.0" y="221.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="1020.0" y="290.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="1044.0" y="256.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="1060.0" y="152.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="1106.0" y="325.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="1149.0" y="83.0" otu="otu10"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.3" target="NT1.13"/>
+   <edge id="e.2" source="NT1.2" target="NT1.17"/>
+   <edge id="e.3" source="NT1.9" target="NT1.15"/>
+   <edge id="e.5" source="NT1.6" target="NT1.16"/>
+   <edge id="e.6" source="NT1.2" target="NT1.3"/>
+   <edge id="e.7" source="NT1.3" target="NT1.4"/>
+   <edge id="e.8" source="NT1.4" target="NT1.9"/>
+   <edge id="e.9" source="NT1.4" target="NT1.5"/>
+   <edge id="e.10" source="NT1.5" target="NT1.6"/>
+   <edge id="e.11" source="NT1.6" target="NT1.7"/>
+   <edge id="e.13" target="NT1.12" source="NT1.9"/>
+   <edge id="e.14" source="NT1.5" target="NT1.10"/>
+   <edge id="e.15" source="NT1.7" target="NT1.8"/>
+   <edge id="e.16" source="NT1.7" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

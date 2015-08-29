@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Polymorphospora" cmphy:species="rubra" cmphy:strain="TT 97-427" cmphy:id="ABZ23089" editRecord="[2__Z]"> Polymorphospora rubra TT 97-427 (AB223089)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Longispora" cmphy:species="albida" cmphy:strain="NRRL B-242017" cmphy:id="ABO89241" editRecord="[0__O]">Longispora albida NRRL B-242017 (AB089241)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Salinospora" cmphy:species="arenicola" cmphy:strain="CNH-6437" cmphy:id="AYO40619" editRecord="[]"> Salinospora arenicola CNH-6437 (AYO40619)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Luedemannella helvata 3-Q(24)7 (AB236957)</otu>
+  <otu id="otu10" cmphy:genus="Pilimelia" cmphy:species="terevasa" cmphy:strain="DSM 430407" cmphy:id="X93190" editRecord="[]">Pilimelia terevasa DSM 430407 (X93190)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="Virgosporangium" cmphy:species="ochraceum" cmphy:strain="YU655-437" cmphy:id="ABO06167" editRecord="[O__0]">Virgosporangium ochraceum YU655-437 (ABOO6167)</otu>
+  <otu id="otu12" cmphy:genus="Micromonospora" cmphy:species="chalcea" cmphy:strain="DSM 430267" cmphy:id="X92594" editRecord="[]">Micromonospora chalcea DSM 430267 (X92594)</otu>
+  <otu id="otu13" cmphy:genus="Couchioplanes" cmphy:species="caeruleus" cmphy:strain="IFO 139397" cmphy:id="D85479" editRecord="[]"> Couchioplanes caeruleus IFO 139397 (D85479)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Catellatospora" cmphy:species="citrea" cmphy:strain="IMSNU 220087" cmphy:id="AFI52106" editRecord="[1__I]">Catellatospora citrea IMSNU 220087 (AF152106)</otu>
+  <otu id="otu15" cmphy:genus="Actinoplanes" cmphy:species="philippinensis" cmphy:strain="DSM 430197" cmphy:id="X93187" editRecord="[]">Actinoplanes philippinensis DSM 430197 (X93187)</otu>
+  <otu id="otu16">Catenuloplanes japonicus IFO 141 767 (D85476)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20">Saccharothrix australiensis NRRL 1 1 2397 (AF1 14803)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="8.0" y="699.0"/>
+   <node id="NT1.2" label="NT1.2" x="27.0" y="578.0"/>
+   <node id="NT1.3" label="NT1.3" x="33.0" y="495.0"/>
+   <node id="NT1.4" label="NT1.4" x="41.0" y="386.0"/>
+   <node id="NT1.6" x="47.0" y="287.0" label="im"/>
+   <node id="NT1.7" label="NT1.7" x="51.0" y="220.0"/>
+   <node id="NT1.9" label="NT1.9" x="57.0" y="69.0"/>
+   <node id="NT1.14" x="67.0" y="298.0" label="im"/>
+   <node id="NT1.16" label="NT1.16" x="94.0" y="355.0" otu="otu1"/>
+   <node id="NT1.17" label="NT1.17" x="105.0" y="699.0" otu="otu2"/>
+   <node id="NT1.21" label="NT1.21" x="120.0" y="317.0" otu="otu6"/>
+   <node id="NT1.26" label="NT1.26" x="125.0" y="661.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="129.0" y="546.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="133.0" y="278.0" otu="otu12"/>
+   <node id="NT1.29" label="NT1.29" x="137.0" y="88.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="143.0" y="584.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="144.0" y="50.0" otu="otu15"/>
+   <node id="NT1.38" label="NT1.38" x="7.0" y="718.0" root="true"/>
+   <edge id="e.1" target="NT1.29" source="NT1.9"/>
+   <edge id="e.4" source="NT1.14" target="NT1.21"/>
+   <edge id="e.5" source="NT1.14" target="NT1.28"/>
+   <edge id="e.6" source="NT1.6" target="NT1.16"/>
+   <edge id="e.8" target="NT1.27" source="NT1.4"/>
+   <edge id="e.13" target="NT1.30" source="NT1.3"/>
+   <edge id="e.14" source="NT1.2" target="NT1.26"/>
+   <edge id="e.15" source="NT1.1" target="NT1.17"/>
+   <edge id="e.17" target="NT1.9" source="NT1.7"/>
+   <edge id="e.22" source="NT1.6" target="NT1.7"/>
+   <edge id="e.23" source="NT1.7" target="NT1.14"/>
+   <edge id="e.24" source="NT1.4" target="NT1.6"/>
+   <edge id="e.25" source="NT1.3" target="NT1.4"/>
+   <edge id="e.29" source="NT1.2" target="NT1.3"/>
+   <edge id="e.31" source="NT1.1" target="NT1.2"/>
+   <edge id="e.33" source="NT1.38" target="NT1.1"/>
+   <edge id="e.36" target="NT1.31" source="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

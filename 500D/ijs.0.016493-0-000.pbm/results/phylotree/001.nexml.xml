@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Campylobacterjejuni subsp. jejuni NCTC 111687 (NC_OO2163)</otu>
+  <otu id="otu3">99 4 Photobacterium Ieiognathi ATCC 255217 (X74686)</otu>
+  <otu id="otu4">793 4 7 Vibrio metschnikovii CIP 69.147 (X7471 1)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Aliivibrio" cmphy:species="fischeri" cmphy:strain="ATCC 77447" cmphy:id="AYB41436" editRecord="[3__B]"> Aliivibrio fischeri ATCC 77447 (AY341436)</otu>
+  <otu id="otu7" cmphy:genus="Vibrio" cmphy:species="rumoiensis" cmphy:strain="S-17" cmphy:id="ABO13297" editRecord="[]">Vibrio rumoiensis S-17 (ABO13297)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Vibrio" cmphy:species="litoralis" cmphy:strain="MANO22D7" cmphy:id="DQO97523" editRecord="[0__O]"> Vibrio litoralis MANO22D7 (DQ097523)</otu>
+  <otu id="otu9">Aliivibrio Iogei NCIMB 22527 (AJ437616)</otu>
+  <otu id="otu10">1 Vibrio casei WS 45397 (FJ968723)</otu>
+  <otu id="otu11">1' Vibrio casei WS 4540 (FJ968722)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.6" x="658.0" y="558.0" label="93"/>
+   <node id="NT1.13" label="NT1.13" x="767.0" y="520.0"/>
+   <node id="NT1.14" label="NT1.14" x="774.0" y="678.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="791.0" y="504.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="807.0" y="539.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="2.0" y="813.0" root="true"/>
+   <edge id="e.2" source="NT1.13" target="NT1.15"/>
+   <edge id="e.4" source="NT1.13" target="NT1.16"/>
+   <edge id="e.7" target="NT1.14" source="NT1.6"/>
+   <edge id="e.13" target="NT1.6" source="NT1.21"/>
+   <edge id="e.16" target="NT1.13" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

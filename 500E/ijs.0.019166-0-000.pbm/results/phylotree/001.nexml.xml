@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Salinimicrobium marinum KMM 6270T (GO8661 12)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Salinimicrobium" cmphy:species="catena" cmphy:strain="HY1T" cmphy:id="DQ640642" editRecord="[]">Salinimicrobium catena HY1T (DQ640642)</otu>
+  <otu id="otu4">Salinimicrobium Xfnjiangense BH206T (EF520007)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Salinimicrobium" cmphy:species="terrae" cmphy:strain="YIM-C338T" cmphy:id="EUI35614" editRecord="[1__I]">Salinimicrobium terrae YIM-C338T (EU135614)</otu>
+  <otu id="otu6" cmphy:genus="Gillisia" cmphy:species="limnaea" cmphy:strain="R-82827" cmphy:id="AJ440991" editRecord="[]">Gillisia limnaea R-82827 (AJ440991)</otu>
+  <otu id="otu7" cmphy:genus="Salegentfbacter" cmphy:species="salegens" cmphy:strain="DSM 54247" cmphy:id="M92279" editRecord="[]">Salegentfbacter salegens DSM 54247 (M92279)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Mesonia" cmphy:species="algae" cmphy:strain="KMM 39O9T" cmphy:id="AFS36383" editRecord="[5__S]">Mesonia algae KMM 39O9T (AF536383)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="235.0"/>
+   <node id="NT1.2" label="NT1.2" x="92.0" y="388.0"/>
+   <node id="NT1.8" label="NT1.8" x="443.0" y="279.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="476.0" y="366.0" otu="otu5"/>
+   <node id="NT1.11" label="NT1.11" x="516.0" y="20.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="568.0" y="193.0" otu="otu7"/>
+   <node id="NT1.13" label="NT1.13" x="703.0" y="106.0" otu="otu8"/>
+   <node id="NT1.14" label="NT1.14" x="2.0" y="84.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.12"/>
+   <edge id="e.1" source="NT1.1" target="NT1.13"/>
+   <edge id="e.2" source="NT1.2" target="NT1.8"/>
+   <edge id="e.6" target="NT1.10" source="NT1.2"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" source="NT1.14" target="NT1.11"/>
+   <edge id="e.12" source="NT1.14" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

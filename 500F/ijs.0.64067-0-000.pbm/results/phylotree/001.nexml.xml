@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">G. bronchialis DSM 43247T (X79284)</otu>
+  <otu id="otu2">G. polyisoprenivorans Kd2T (Y18310)</otu>
+  <otu id="otu3">G. terrae DSM 432497 (X79286)</otu>
+  <otu id="otu4">G. rubriperfincta DSM 431977 (X80632)</otu>
+  <otu id="otu5">G. desulfuricans 21 SET (AF101416)</otu>
+  <otu id="otu6">G. rhizosphera IFO 160687 (AB004729)</otu>
+  <otu id="otu7">G. namibiensis NAM-BN063AT (AF380930)</otu>
+  <otu id="otu8"> G. amicalis IEGMT (AF101418)</otu>
+  <otu id="otu9">G. westfalica Kb2T (AJ312907)</otu>
+  <otu id="otu10" cmphy:genus="Williamsia" cmphy:species="muralis" cmphy:strain="MA140l96T" cmphy:id="Y17384" editRecord="[]">Williamsia muralis MA140l96T (Y17384)</otu>
+  <otu id="otu11">G. otitidis IFM 100327 (AB122026)</otu>
+  <otu id="otu12">G. alkanivorans HKl 01367 (Y18054)</otu>
+  <otu id="otu13">G. aichiensis DSM 439787 (X80633)</otu>
+  <otu id="otu14">G. hydrophobica DSM 44o15T (X87340)</otu>
+  <otu id="otu15">G. sputi DSM 4389GT (X80634)</otu>
+  <otu id="otu16">G. amarae DSM 43392T (X80635)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">G. araii IFM 102117 (AB162800)</otu>
+  <otu id="otu19">G. effusa IFM 102007 (AB162799)</otu>
+  <otu id="otu20">G. paraffinivorans HD3217 (AF432348)</otu>
+  <otu id="otu21">G. hirsuta DSM 4414OT (X93485)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.28" label="NT1.28" x="281.0" y="767.0" otu="otu10"/>
+   <node id="NT1.41" label="NT1.41" x="2.0" y="626.0" root="true"/>
+   <edge id="e.27" source="NT1.41" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

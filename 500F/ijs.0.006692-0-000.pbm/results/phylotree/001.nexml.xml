@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> B. mcbrellneri ATCC 490307 (X93594)</otu>
+  <otu id="otu2">B. otitidis G696 (EU086822)</otu>
+  <otu id="otu3"> B. paucivorans CF62T (AJ251463)</otu>
+  <otu id="otu4">B. samyangense SST-87 (DQ344485)</otu>
+  <otu id="otu5">B. pityocampae Tp12T (EU484189)</otu>
+  <otu id="otu6">B. album YIM 9O718T(EF158852)</otu>
+  <otu id="otu7"> B. avium NCFB 3055T(Y17962)</otu>
+  <otu id="otu8"> B. marinum HFW-267 (AM421807)</otu>
+  <otu id="otu9">B. epidermidis NCDO 2286T (X76565)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">B. linens VKM AC-2119 (AY243345)</otu>
+  <otu id="otu12"> B. casei 379 (EUO86799)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">B. picturae LMG 22O61T (AJ620364)</otu>
+  <otu id="otu15"> B. aurantiacum NCDO 7397 (X76566)</otu>
+  <otu id="otu16"> B. antiquum VKM Ac-21 187 (AY243344)</otu>
+  <otu id="otu17"> (B. antarcticum' DVS 5a2 (AJ577724)</otu>
+  <otu id="otu18" cmphy:genus="Micrococcus" cmphy:species="luteus" cmphy:strain="ATCC 381T" cmphy:id="M38242" editRecord="[]">Micrococcus luteus ATCC 381T (M38242)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.34" label="NT1.34" x="695.0" y="718.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="4.0" y="648.0" root="true"/>
+   <edge id="e.32" source="NT1.35" target="NT1.34"/>
+  </tree>
+ </trees>
+</nexml>

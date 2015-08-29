@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Asaia" cmphy:species="krungthepensis" cmphy:strain="AA06" cmphy:id="ABI02955" editRecord="[1__I]">Asaia krungthepensis AA06 (AB102955)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Asaia" cmphy:species="krungthepensis" cmphy:strain="AA09" cmphy:id="ABI02954" editRecord="[1__I]">Asaia krungthepensis AA09 (AB102954)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Asaia" cmphy:species="bogorensis" cmphy:strain="NRIC 0311T" cmphy:id="ABO25928" editRecord="[0__O]">Asaia bogorensis NRIC 0311T (AB025928)</otu>
+  <otu id="otu4" cmphy:genus="Asaia" cmphy:species="siamensis" cmphy:strain="NRIC O323T" cmphy:id="ABO35416" editRecord="[]">Asaia siamensis NRIC O323T (ABO35416)</otu>
+  <otu id="otu5" cmphy:genus="Gluconobacter" cmphy:species="oxydans" cmphy:strain="ATCC 19357T" cmphy:id="X73820" editRecord="[]">Gluconobacter oxydans ATCC 19357T (X73820)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Kozakia" cmphy:species="baliensis" cmphy:strain="NRIC 0488T" cmphy:id="ABO56321" editRecord="[0__O]">Kozakia baliensis NRIC 0488T (AB056321)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="108.0" y="227.0"/>
+   <node id="NT1.2" x="141.0" y="144.0" label="98"/>
+   <node id="NT1.3" x="185.0" y="232.0" label="84"/>
+   <node id="NT1.4" label="NT1.4" x="192.0" y="67.0"/>
+   <node id="NT1.5" label="NT1.5" x="193.0" y="6.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="193.0" y="126.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="193.0" y="191.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="202.0" y="247.0" otu="otu4"/>
+   <node id="NT1.9" label="NT1.9" x="305.0" y="369.0" otu="otu5"/>
+   <node id="NT1.10" label="NT1.10" x="306.0" y="310.0" otu="otu6"/>
+   <node id="NT1.11" label="NT1.11" x="1.0" y="298.0" root="true"/>
+   <edge id="e.0" source="NT1.4" target="NT1.5"/>
+   <edge id="e.1" source="NT1.4" target="NT1.6"/>
+   <edge id="e.2" source="NT1.3" target="NT1.7"/>
+   <edge id="e.3" source="NT1.3" target="NT1.8"/>
+   <edge id="e.4" source="NT1.1" target="NT1.10"/>
+   <edge id="e.5" source="NT1.2" target="NT1.4"/>
+   <edge id="e.6" source="NT1.2" target="NT1.3"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" source="NT1.11" target="NT1.1"/>
+   <edge id="e.9" source="NT1.11" target="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

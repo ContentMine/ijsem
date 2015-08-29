@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Clostridium methylpenlasum DSM 54767 (Y 1 8181)</otu>
+  <otu id="otu4" cmphy:genus="Anaerofilum" cmphy:species="agile" cmphy:strain="DSM 4272T" cmphy:id="X98011" editRecord="[]">Anaerofilum agile DSM 4272T (X98011)</otu>
+  <otu id="otu5" cmphy:genus="Anaerofilum" cmphy:species="penlosovorans" cmphy:strain="DSM 7168T" cmphy:id="X97852" editRecord="[]">Anaerofilum penlosovorans DSM 7168T (X97852)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Anaerotruncus" cmphy:species="colihominis" cmphy:strain="CCUG 450557" cmphy:id="AJB15980" editRecord="[3__B]">Anaerotruncus colihominis CCUG 450557 (AJ315980)</otu>
+  <otu id="otu7" cmphy:genus="Fruminococcus" cmphy:species="albus" cmphy:strain="ATCC 272107" cmphy:id="X85098" editRecord="[]">Fruminococcus albus ATCC 272107 (X85098)</otu>
+  <otu id="otu8" cmphy:genus="Fiuminococcus" cmphy:species="flavefaciens" cmphy:strain="ATCC 192087" cmphy:id="X85097" editRecord="[]">Fiuminococcus flavefaciens ATCC 192087 (X85097)</otu>
+  <otu id="otu9" cmphy:genus="Huminococcus" cmphy:species="bromii" cmphy:strain="ATCC 272557" cmphy:id="X85099" editRecord="[]">Huminococcus bromii ATCC 272557 (X85099)</otu>
+  <otu id="otu10" cmphy:genus="Eubacterium" cmphy:species="siraeum" cmphy:strain="ATCC 29066T" cmphy:id="L34625" editRecord="[]">Eubacterium siraeum ATCC 29066T (L34625)</otu>
+  <otu id="otu11">Clostridium cellulosi AS 1 .1777T (L09177)</otu>
+  <otu id="otu12" cmphy:genus="Clostridium" cmphy:species="sporosphaeroides" cmphy:strain="DSM 1294T" cmphy:id="X66002" editRecord="[]">Clostridium sporosphaeroides DSM 1294T (X66002)</otu>
+  <otu id="otu13">Faecalibacterium prausnitzii ATCC 27766</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="89.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="38.0" y="242.0"/>
+   <node id="NT1.4" label="NT1.4" x="48.0" y="359.0"/>
+   <node id="NT1.5" label="NT1.5" x="67.0" y="553.0"/>
+   <node id="NT1.6" label="NT1.6" x="81.0" y="578.0"/>
+   <node id="NT1.8" label="NT1.8" x="100.0" y="544.0"/>
+   <node id="NT1.9" label="NT1.9" x="102.0" y="785.0"/>
+   <node id="NT1.12" label="NT1.12" x="215.0" y="122.0"/>
+   <node id="NT1.14" label="NT1.14" x="229.0" y="85.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="230.0" y="158.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="236.0" y="373.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="245.0" y="732.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="247.0" y="804.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="252.0" y="517.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="257.0" y="229.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="301.0" y="660.0" otu="otu12"/>
+   <edge id="e.1" target="NT1.3" source="NT1.1"/>
+   <edge id="e.2" source="NT1.3" target="NT1.4"/>
+   <edge id="e.3" source="NT1.3" target="NT1.12"/>
+   <edge id="e.4" source="NT1.4" target="NT1.5"/>
+   <edge id="e.6" source="NT1.5" target="NT1.6"/>
+   <edge id="e.7" source="NT1.6" target="NT1.9"/>
+   <edge id="e.8" source="NT1.6" target="NT1.8"/>
+   <edge id="e.11" source="NT1.9" target="NT1.17"/>
+   <edge id="e.12" target="NT1.16" source="NT1.5"/>
+   <edge id="e.13" source="NT1.8" target="NT1.19"/>
+   <edge id="e.15" target="NT1.18" source="NT1.9"/>
+   <edge id="e.16" source="NT1.4" target="NT1.20"/>
+   <edge id="e.18" source="NT1.12" target="NT1.15"/>
+   <edge id="e.19" source="NT1.12" target="NT1.14"/>
+   <edge id="e.20" source="NT1.8" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

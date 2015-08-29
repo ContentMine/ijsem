@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="massasporeus" cmphy:strain="NBRC 1279GT" cmphy:id="ABI84152" editRecord="[1__I]">S. massasporeus NBRC 1279GT (AB184152)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="hawaiiensis" cmphy:strain="NBRC 127847" cmphy:id="ABI84143" editRecord="[1__I]">S. hawaiiensis NBRC 127847 (AB184143)</otu>
+  <otu id="otu3" cmphy:genus="S." cmphy:species="purpurascens" cmphy:strain="JCM 45097" cmphy:id="ABO45888" editRecord="[]">S. purpurascens JCM 45097 (ABO45888)</otu>
+  <otu id="otu4">S. violaceus NBRC 131 O3T (AB1 8431 5)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">S. koyangensis VK-A6OT (AYO791 56)</otu>
+  <otu id="otu7">S. albidoflavus NBRC 1301 OT (AB1842-55)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">S. canescens NBRC12751T(AB184117)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="ambofaciens" cmphy:strain="ATCC 238777" cmphy:id="AMZ38663" editRecord="[2__Z]">S. ambofaciens ATCC 238777 (AM238663)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="flavofungini" cmphy:strain="NBRC 13371T" cmphy:id="ABI84359" editRecord="[1__I]">S. flavofungini NBRC 13371T (AB184359)</otu>
+  <otu id="otu12" cmphy:genus="S." cmphy:species="tacrolimicus" cmphy:strain="ATCC 550981" cmphy:id="FN429653" editRecord="[]">S. tacrolimicus ATCC 550981 (FN429653)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="fulvissimus" cmphy:strain="NBRC 134827" cmphy:id="ABI84434" editRecord="[1__I]">S. fulvissimus NBRC 134827 (AB184434)</otu>
+  <otu id="otu14">S. nodosus ATCC 14899T (AF1 14036)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="39.0" y="361.0"/>
+   <node id="NT1.2" label="NT1.2" x="76.0" y="296.0"/>
+   <node id="NT1.4" label="NT1.4" x="128.0" y="425.0"/>
+   <node id="NT1.7" label="NT1.7" x="174.0" y="410.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="179.0" y="442.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="184.0" y="350.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="240.0" y="282.0"/>
+   <node id="NT1.21" label="NT1.21" x="416.0" y="532.0" otu="otu10"/>
+   <node id="NT1.22" x="449.0" y="304.0" label="991"/>
+   <node id="NT1.23" label="NT1.23" x="463.0" y="320.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="482.0" y="259.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="508.0" y="289.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="3.0" y="427.0" root="true"/>
+   <edge id="e.4" target="NT1.9" source="NT1.2"/>
+   <edge id="e.6" source="NT1.12" target="NT1.24"/>
+   <edge id="e.7" source="NT1.4" target="NT1.7"/>
+   <edge id="e.8" source="NT1.4" target="NT1.8"/>
+   <edge id="e.9" source="NT1.22" target="NT1.25"/>
+   <edge id="e.16" target="NT1.12" source="NT1.2"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.19" source="NT1.12" target="NT1.22"/>
+   <edge id="e.20" source="NT1.1" target="NT1.4"/>
+   <edge id="e.22" source="NT1.27" target="NT1.1"/>
+   <edge id="e.24" target="NT1.21" source="NT1.27"/>
+   <edge id="e.25" source="NT1.22" target="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

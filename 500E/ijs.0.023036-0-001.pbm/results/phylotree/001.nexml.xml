@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="coerulescens" cmphy:strain="NBRC 12758T" cmphy:id="ABI84122" editRecord="[1__I]">Streptomyces coerulescens NBRC 12758T (AB184122)</otu>
+  <otu id="otu2">Streptomyces hygroscopicus subsp. angustmyceticus NRRL B-2347T (DQ442509)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="abikoensis" cmphy:strain="NBRC 13860T" cmphy:id="ABI84537" editRecord="[1__I]">Streptomyces abikoensis NBRC 13860T (AB184537)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Streptomyces" cmphy:species="luteireticuli" cmphy:strain="NBRC 134227" cmphy:id="ABZ49969" editRecord="[2__Z]">Streptomyces luteireticuli NBRC 134227 (AB249969)</otu>
+  <otu id="otu5" cmphy:genus="Streptomyces" cmphy:species="lilacinus" cmphy:strain="NBRC 128847" cmphy:id="AJ781346" editRecord="[]">Streptomyces lilacinus NBRC 128847 (AJ781346)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Streptomyces" cmphy:species="varsoviensis" cmphy:strain="NRRL B-35897" cmphy:id="DQO26653" editRecord="[0__O]">Streptomyces varsoviensis NRRL B-35897 (DQ026653)</otu>
+  <otu id="otu7">Streptomyces griseocarneus DSM 40004T (NR_026355)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Streptomyces" cmphy:species="caeruleus" cmphy:strain="NRRL B-2194T" cmphy:id="EFI78675" editRecord="[1__I]">Streptomyces caeruleus NRRL B-2194T (EF178675)</otu>
+  <otu id="otu9" cmphy:genus="Streptomyces" cmphy:species="blastmyceticus" cmphy:strain="NRRL B-5480T" cmphy:id="AY999802" editRecord="[]">Streptomyces blastmyceticus NRRL B-5480T (AY999802)</otu>
+  <otu id="otu10">Strain X47 (FN421338)</otu>
+  <otu id="otu11" cmphy:genus="Streptomyces" cmphy:species="thioluteus" cmphy:strain="LMG 202537" cmphy:id="AJ781360" editRecord="[]">Streptomyces thioluteus LMG 202537 (AJ781360)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Streptomyces" cmphy:species="kasugaensis" cmphy:strain="M338-M1T" cmphy:id="ABO24441" editRecord="[0__O]">Streptomyces kasugaensis M338-M1T (AB024441)</otu>
+  <otu id="otu13" cmphy:genus="Streptomyces" cmphy:species="mobaraensis" cmphy:strain="NRRL B-37297" cmphy:id="DQ442528" editRecord="[]">Streptomyces mobaraensis NRRL B-37297 (DQ442528)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Streptomyces" cmphy:species="ramulosus" cmphy:strain="NRRL B-27147" cmphy:id="DQO26662" editRecord="[0__O]">Streptomyces ramulosus NRRL B-27147 (DQ026662)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="42.0" y="616.0"/>
+   <node id="NT1.2" label="NT1.2" x="49.0" y="785.0"/>
+   <node id="NT1.3" label="NT1.3" x="166.0" y="442.0"/>
+   <node id="NT1.4" label="NT1.4" x="189.0" y="869.0"/>
+   <node id="NT1.5" label="NT1.5" x="194.0" y="833.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="194.0" y="908.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="241.0" y="706.0"/>
+   <node id="NT1.8" label="NT1.8" x="246.0" y="760.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="283.0" y="345.0"/>
+   <node id="NT1.10" label="NT1.10" x="327.0" y="224.0"/>
+   <node id="NT1.11" label="NT1.11" x="362.0" y="538.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="418.0" y="650.0"/>
+   <node id="NT1.13" label="NT1.13" x="467.0" y="612.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="474.0" y="464.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="497.0" y="113.0"/>
+   <node id="NT1.16" label="NT1.16" x="555.0" y="982.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="628.0" y="335.0"/>
+   <node id="NT1.18" label="NT1.18" x="687.0" y="58.0"/>
+   <node id="NT1.19" label="NT1.19" x="705.0" y="685.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="747.0" y="279.0"/>
+   <node id="NT1.21" label="NT1.21" x="867.0" y="242.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="904.0" y="169.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="915.0" y="390.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="998.0" y="21.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="1081.0" y="317.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="1233.0" y="94.0" otu="otu14"/>
+   <edge source="NT1.26" target="NT1.18" id="e.0"/>
+   <edge source="NT1.11" target="NT1.3" id="e.1"/>
+   <edge source="NT1.19" target="NT1.12" id="e.2"/>
+   <edge source="NT1.18" target="NT1.15" id="e.3"/>
+   <edge source="NT1.15" target="NT1.10" id="e.4"/>
+   <edge source="NT1.10" target="NT1.17" id="e.5"/>
+   <edge source="NT1.10" target="NT1.9" id="e.6"/>
+   <edge source="NT1.9" target="NT1.3" id="e.7"/>
+   <edge source="NT1.3" target="NT1.1" id="e.8"/>
+   <edge source="NT1.17" target="NT1.20" id="e.9"/>
+   <edge source="NT1.1" target="NT1.2" id="e.10"/>
+   <edge source="NT1.2" target="NT1.4" id="e.11"/>
+   <edge source="NT1.2" target="NT1.7" id="e.12"/>
+   <edge source="NT1.7" target="NT1.12" id="e.13"/>
+   <edge source="NT1.5" target="NT1.4" id="e.14"/>
+   <edge source="NT1.6" target="NT1.4" id="e.15"/>
+   <edge source="NT1.16" target="NT1.1" id="e.16"/>
+   <edge source="NT1.8" target="NT1.7" id="e.17"/>
+   <edge source="NT1.14" target="NT1.9" id="e.18"/>
+   <edge source="NT1.13" target="NT1.12" id="e.19"/>
+   <edge source="NT1.22" target="NT1.15" id="e.20"/>
+   <edge source="NT1.23" target="NT1.17" id="e.21"/>
+   <edge source="NT1.21" target="NT1.20" id="e.22"/>
+   <edge source="NT1.24" target="NT1.18" id="e.23"/>
+   <edge source="NT1.25" target="NT1.20" id="e.24"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">M. arborescens IFO 3750T (AB007421)</otu>
+  <otu id="otu2">M. imperiale IFO 12610T (AB007414)</otu>
+  <otu id="otu3"> M. barkeri IFO 2O145T (X77446)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">M. ulmi XlL02T (AY062021)</otu>
+  <otu id="otu6">M. schleiferi IFO 15O75T(AB0O4723)</otu>
+  <otu id="otu7"> M. terregens IFO 12961T (AB004721)</otu>
+  <otu id="otu8">M. gubbeenense LMG S-19263T (AF263563)</otu>
+  <otu id="otu9">M. aurum IFO 15204T (AB007418)</otu>
+  <otu id="otu10" cmphy:genus="Rarobacter" cmphy:species="faecitabidus" cmphy:strain="DSM 4813T" cmphy:id="Y17870" editRecord="[]">Rarobacter faecitabidus DSM 4813T (Y17870)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.18" label="NT1.18" x="293.0" y="473.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="1.0" y="381.0" root="true"/>
+   <edge id="e.8" source="NT1.19" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

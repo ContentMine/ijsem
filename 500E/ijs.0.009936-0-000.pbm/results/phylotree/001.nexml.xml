@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[8__B]" cmphy:genus="Dermacoccus" cmphy:species="profundi" cmphy:strain="MT2.2T" cmphy:id="AYB94329" editRecord="[8__B]">Dermacoccus profundi MT2.2T (AY894329)</otu>
+  <otu id="otu2" cmphy:edit="[8__B]" cmphy:genus="Dermacoccus" cmphy:species="barathri" cmphy:strain="MT2.1T" cmphy:id="AYB94328" editRecord="[8__B]">Dermacoccus barathri MT2.1T (AY894328)</otu>
+  <otu id="otu3">Dermacoccus abyssi MT1.1T(AY894323)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Dermatophilus chelonae DSM 441 78T(AJ243Q1Q)</otu>
+  <otu id="otu6" cmphy:genus="Lutezpulveratus" cmphy:species="mongollensls" cmphy:strain="MNO7-AO37OT" cmphy:id="AB468971" editRecord="[]">Lutezpulveratus mongollensls MNO7-AO37OT (AB468971)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Dermatophilus" cmphy:species="congolensis" cmphy:strain="DSM 441807" cmphy:id="AJZ43918" editRecord="[2__Z]">Dermatophilus congolensis DSM 441807 (AJ243918)</otu>
+  <otu id="otu8" cmphy:genus="Kytococcus" cmphy:species="sedentarius" cmphy:strain="DSM 2O547T" cmphy:id="X87755" editRecord="[]">Kytococcus sedentarius DSM 2O547T (X87755)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Kytococcus" cmphy:species="schroeteri" cmphy:strain="DSM 138847" cmphy:id="AJZ97722" editRecord="[2__Z]">Kytococcus schroeteri DSM 138847 (AJ297722)</otu>
+  <otu id="otu10">Demetria terragena HKI O089T(Y14152)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="67.0" y="508.0"/>
+   <node id="NT1.3" label="NT1.3" x="136.0" y="365.0"/>
+   <node id="NT1.7" label="NT1.7" x="327.0" y="110.0"/>
+   <node id="NT1.8" label="NT1.8" x="328.0" y="64.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="328.0" y="155.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="391.0" y="653.0"/>
+   <node id="NT1.14" label="NT1.14" x="487.0" y="513.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="504.0" y="788.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="516.0" y="607.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="518.0" y="699.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="25.0" y="670.0" root="true"/>
+   <edge id="e.0" source="NT1.7" target="NT1.8"/>
+   <edge id="e.1" source="NT1.7" target="NT1.9"/>
+   <edge id="e.5" source="NT1.13" target="NT1.16"/>
+   <edge id="e.6" source="NT1.13" target="NT1.17"/>
+   <edge id="e.8" target="NT1.15" source="NT1.19"/>
+   <edge id="e.9" target="NT1.7" source="NT1.3"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.2" target="NT1.13"/>
+   <edge id="e.15" source="NT1.19" target="NT1.2"/>
+   <edge id="e.17" target="NT1.14" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

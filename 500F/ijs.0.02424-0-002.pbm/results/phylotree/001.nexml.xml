@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Alcanivorax" cmphy:species="borkumensis" cmphy:strain="DSM 115737" cmphy:id="Y12579" editRecord="[]">Alcanivorax borkumensis DSM 115737 (Y12579)</otu>
+  <otu id="otu3">Oceanospirillum be0'en'nckii subsp. beierinckii ATCC 127547 (AB006760)</otu>
+  <otu id="otu4">Ooeanospirillum Iinum ATCC 1 13367 (M22365)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Marinobacterium" cmphy:species="stanieri" cmphy:strain="ATCC 271307" cmphy:id="ABO21367" editRecord="[0__O]">Marinobacterium stanieri ATCC 271307 (AB021367)</otu>
+  <otu id="otu8">Oceanospirillum maris subsp. maris ATCC 275097 (ABO06771)</otu>
+  <otu id="otu9" cmphy:genus="Cycloclaslicus" cmphy:species="pugetii" cmphy:strain="ATCC 515427" cmphy:id="U12624" editRecord="[]">Cycloclaslicus pugetii ATCC 515427 (U12624)</otu>
+  <otu id="otu10" cmphy:genus="Marinobacterium" cmphy:species="georgiense" cmphy:strain="ATCC 7000747" cmphy:id="U58339" editRecord="[]">Marinobacterium georgiense ATCC 7000747 (U58339)</otu>
+  <otu id="otu11">Marinobacteriumjannaschii ATCC 271357 (AB006765)</otu>
+  <otu id="otu12">Oceanobacter kriegii NBRC 1 54677 (AB006767)</otu>
+  <otu id="otu13" cmphy:genus="Marinomonas" cmphy:species="vaga" cmphy:strain="ATCC 271197" cmphy:id="X67025" editRecord="[]">Marinomonas vaga ATCC 271197 (X67025)</otu>
+  <otu id="otu14">Marinomonas communis ATCC 271 187 (AF173967)</otu>
+  <otu id="otu15" cmphy:genus="Thalassoliluus" cmphy:species="oleivorans" cmphy:strain="LMG 214207" cmphy:id="AJ431699" editRecord="[]">Thalassoliluus oleivorans LMG 214207 (AJ431699)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Marinomonas" cmphy:species="meditenanaa" cmphy:strain="ATCC 7004927" cmphy:id="AFO63027" editRecord="[0__O]">Marinomonas meditenanaa ATCC 7004927 (AF063027)</otu>
+  <otu id="otu17" cmphy:genus="Oleispira" cmphy:species="antarcrica" cmphy:strain="DSM 148527" cmphy:id="AJ426420" editRecord="[]">Oleispira antarcrica DSM 148527 (AJ426420)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="23.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="8.0" y="28.0"/>
+   <node id="NT1.4" label="NT1.4" x="180.0" y="360.0"/>
+   <node id="NT1.5" label="NT1.5" x="219.0" y="94.0"/>
+   <node id="NT1.6" label="NT1.6" x="236.0" y="552.0"/>
+   <node id="NT1.7" label="NT1.7" x="281.0" y="751.0"/>
+   <node id="NT1.10" label="NT1.10" x="385.0" y="28.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="393.0" y="366.0"/>
+   <node id="NT1.16" label="NT1.16" x="433.0" y="433.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="470.0" y="95.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="490.0" y="366.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="524.0" y="837.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="528.0" y="636.0" otu="otu15"/>
+   <node id="NT1.26" label="NT1.26" x="556.0" y="703.0" otu="otu16"/>
+   <node id="NT1.27" label="NT1.27" x="648.0" y="499.0" otu="otu17"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.2" target="NT1.10"/>
+   <edge id="e.2" source="NT1.5" target="NT1.19"/>
+   <edge id="e.4" source="NT1.11" target="NT1.16"/>
+   <edge id="e.5" source="NT1.11" target="NT1.20"/>
+   <edge id="e.7" source="NT1.2" target="NT1.5"/>
+   <edge id="e.10" target="NT1.4" source="NT1.5"/>
+   <edge id="e.12" source="NT1.4" target="NT1.7"/>
+   <edge id="e.14" source="NT1.4" target="NT1.11"/>
+   <edge id="e.15" source="NT1.7" target="NT1.6"/>
+   <edge id="e.19" source="NT1.6" target="NT1.27"/>
+   <edge id="e.21" target="NT1.25" source="NT1.6"/>
+   <edge id="e.23" source="NT1.7" target="NT1.26"/>
+   <edge id="e.24" target="NT1.23" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

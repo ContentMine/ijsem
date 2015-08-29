@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[8__B]" cmphy:genus="Mrakiella" cmphy:species="cryoconiti" cmphy:strain="A1 57" cmphy:id="AJB66976" editRecord="[8__B]"> Mrakiella cryoconiti A1 57 (AJ866976)</otu>
+  <otu id="otu2">CBS 8907 (AY038836)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Mrakia" cmphy:species="frigida" cmphy:strain="css 527oT" cmphy:id="AFI44483" editRecord="[1__I]">Mrakia frigida css 527oT (AF144483)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">CBS 8919 (AY038835)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"> CBS 8921 (AY038826)</otu>
+  <otu id="otu9">Uncultured 96-G6 (AF294943)</otu>
+  <otu id="otu10">CBS 8918 (AY038834)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">CBS 8914 (AY038833)</otu>
+  <otu id="otu13">CBS 8922 (AY038831)</otu>
+  <otu id="otu14">Uncultured 96-G1 (AF294941)</otu>
+  <otu id="otu15"> Uncultured 94-G11 (AF294940)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Uncultured 96-G3 (AF294942)</otu>
+  <otu id="otu18" cmphy:genus="Mrakiella" cmphy:species="aquatica" cmphy:strain="CBS 5443'" cmphy:id="AF410469" editRecord="[]"> Mrakiella aquatica CBS 5443' (AF410469)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"> CBS 8924 (AY029346)</otu>
+  <otu id="otu21"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="82.0" y="464.0" label="76"/>
+   <node id="NT1.7" label="NT1.7" x="179.0" y="689.0" otu="otu1"/>
+   <node id="NT1.14" label="NT1.14" x="214.0" y="227.0" otu="otu3"/>
+   <node id="NT1.36" label="NT1.36" x="293.0" y="796.0" otu="otu18"/>
+   <node id="NT1.40" label="NT1.40" x="1.0" y="607.0" root="true"/>
+   <edge id="e.4" target="NT1.14" source="NT1.1"/>
+   <edge id="e.14" target="NT1.7" source="NT1.1"/>
+   <edge id="e.17" target="NT1.36" source="NT1.40"/>
+   <edge id="e.36" source="NT1.40" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

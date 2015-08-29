@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Amycolatopsis" cmphy:species="alba" cmphy:strain="DSM 44262T" cmphy:id="AFO51340" editRecord="[]">Amycolatopsis alba DSM 44262T (AFO51340)</otu>
+  <otu id="otu2"> B. samyangense SST-8T (DQ344485)</otu>
+  <otu id="otu3">B. album YIM 90718T (EF158852)</otu>
+  <otu id="otu4"> B. paucivorans CF 627 (AJ251463)</otu>
+  <otu id="otu5">B. luteolum CF87T (AJ488509)</otu>
+  <otu id="otu6">B. mcbrelIneriATCC 4903OT (X93594)</otu>
+  <otu id="otu7">B. ravenspurgense CCUG 560477 (EUO86793)</otu>
+  <otu id="otu8"> B. avium NCFB 3055T(Y17962)</otu>
+  <otu id="otu9"> B. otitidis A37(73T (X93593)</otu>
+  <otu id="otu10">B. sanguinis CF63T (AJ564859)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"> B. aurantiacum NCDO 739T (X76566)</otu>
+  <otu id="otu13"> B. caseiDSM 2O657T(AJ251418)</otu>
+  <otu id="otu14"> B. permense VKM Ac-22807 (AY243343)</otu>
+  <otu id="otu15"> B. picturae LMG 220617 (AJ620364)</otu>
+  <otu id="otu16">B. antiquum VKM Ac-21 18T (AY243344)</otu>
+  <otu id="otu17"> B. epidermidis NCDO 2286T (X76565)</otu>
+  <otu id="otu18">B. marinum HFW-267 (AM421807)</otu>
+  <otu id="otu19"> B. iodinum DSM 206267 (X83813)</otu>
+  <otu id="otu20"> B. sandarakinum 01-Je-0037 (FN293377)</otu>
+  <otu id="otu21">B. oceani BBH7T (AM158906)</otu>
+  <otu id="otu22">B. linens DSM 20425T (X77451)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="392.0" y="728.0" otu="otu1"/>
+   <node id="NT1.43" label="NT1.43" x="1.0" y="686.0" root="true"/>
+   <edge id="e.40" source="NT1.43" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

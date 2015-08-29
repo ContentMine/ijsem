@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Owenweeksia" cmphy:species="hongkongensis" cmphy:strain="UST2O02O8017" cmphy:id="ABI25062" editRecord="[1__I]">Owenweeksia hongkongensis UST2O02O8017 (AB125062)</otu>
+  <otu id="otu3" cmphy:genus="Wandonia" cmphy:species="haliotis" cmphy:strain="Haldis-17" cmphy:id="FJ424814" editRecord="[]">Wandonia haliotis Haldis-17 (FJ424814)</otu>
+  <otu id="otu4">Lishizhenia caseinilytica UST04O2O1-0017 (AB1 76674)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Crocinitomix" cmphy:species="catalasitica" cmphy:strain="IFO 159777" cmphy:id="ABO78042" editRecord="[0__O]">Crocinitomix catalasitica IFO 159777 (AB078042)</otu>
+  <otu id="otu6" cmphy:genus="Fluviicola" cmphy:species="taffensis" cmphy:strain="RW2827" cmphy:id="AF493694" editRecord="[]">Fluviicola taffensis RW2827 (AF493694)</otu>
+  <otu id="otu7">Brumimicrobium glaciale ACAM 8457 (AF521 195)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Schleiferia" cmphy:species="thermophila" cmphy:strain="TU-207" cmphy:id="HOI72900" editRecord="[1__I]">Schleiferia thermophila TU-207 (HO172900)</otu>
+  <otu id="otu9">Cryomorpha ignava ACAM 6477 (AF1 70738)</otu>
+  <otu id="otu10">Sphingobacterium spiritivorum NCTC 1 13867 (EF090267)</otu>
+  <otu id="otu11">Flavobacterium aquatile DSM 1 1327 (AM230485)</otu>
+  <otu id="otu12">Fulvibacter tottoriensis MTT-397 (AB2941 07)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Stenothermobacter" cmphy:species="spongiae" cmphy:strain="USTO30701-1567" cmphy:id="DQO64789" editRecord="[0__O]">Stenothermobacter spongiae USTO30701-1567 (DQ064789)</otu>
+  <otu id="otu14">Croceitalea eckloniae DOKDO 0257 (D0191 183)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Maribacter" cmphy:species="sedimenticola" cmphy:strain="KMM 39037" cmphy:id="AYZ71623" editRecord="[2__Z]">Maribacter sedimenticola KMM 39037 (AY271623)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="ATCC 334067" cmphy:id="CPO00383" editRecord="[0__O]">Cytophaga hutchinsonii ATCC 334067 (CP000383)</otu>
+  <otu id="otu17" cmphy:genus="Capnocytophaga" cmphy:species="ochracea" cmphy:strain="DSM 72717" cmphy:id="U41350" editRecord="[]">Capnocytophaga ochracea DSM 72717 (U41350)</otu>
+  <otu id="otu18" cmphy:edit="[5__S]" cmphy:genus="Cyclobacterium" cmphy:species="marinum" cmphy:strain="DSM 7457" cmphy:id="AYS33665" editRecord="[5__S]">Cyclobacterium marinum DSM 7457 (AY533665)</otu>
+  <otu id="otu19" cmphy:edit="[O__0]" cmphy:genus="Thermonema" cmphy:species="rossianum" cmphy:strain="NR-277" cmphy:id="Y08956" editRecord="[O__0]">Thermonema rossianum NR-277 (YO8956)</otu>
+  <otu id="otu20">Saprospira grandis ATCC 231 1 97 (M58795)</otu>
+  <otu id="otu21">Chitinophaga pinensis DSM 25887 (AF0787 75)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="695.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="41.0" y="545.0"/>
+   <node id="NT1.5" x="83.0" y="432.0" label="79"/>
+   <node id="NT1.6" label="NT1.6" x="89.0" y="341.0"/>
+   <node id="NT1.8" x="131.0" y="218.0" label="93"/>
+   <node id="NT1.10" x="153.0" y="704.0" label="95"/>
+   <node id="NT1.11" x="165.0" y="286.0" label="87"/>
+   <node id="NT1.12" label="NT1.12" x="195.0" y="733.0"/>
+   <node id="NT1.13" x="208.0" y="322.0" label="97"/>
+   <node id="NT1.17" label="NT1.17" x="258.0" y="103.0"/>
+   <node id="NT1.19" label="NT1.19" x="277.0" y="68.0"/>
+   <node id="NT1.20" label="NT1.20" x="380.0" y="483.0" otu="otu2"/>
+   <node id="NT1.22" label="NT1.22" x="393.0" y="328.0" otu="otu3"/>
+   <node id="NT1.24" label="NT1.24" x="431.0" y="251.0" otu="otu5"/>
+   <node id="NT1.25" label="NT1.25" x="431.0" y="290.0" otu="otu6"/>
+   <node id="NT1.27" label="NT1.27" x="481.0" y="522.0" otu="otu8"/>
+   <node id="NT1.32" label="NT1.32" x="519.0" y="96.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="561.0" y="58.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="577.0" y="754.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="589.0" y="135.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="590.0" y="715.0" otu="otu18"/>
+   <node id="NT1.38" label="NT1.38" x="604.0" y="676.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.17" target="NT1.36"/>
+   <edge id="e.4" source="NT1.12" target="NT1.37"/>
+   <edge id="e.7" source="NT1.17" target="NT1.19"/>
+   <edge id="e.8" target="NT1.17" source="NT1.8"/>
+   <edge id="e.11" source="NT1.6" target="NT1.8"/>
+   <edge id="e.12" source="NT1.8" target="NT1.11"/>
+   <edge id="e.13" source="NT1.11" target="NT1.13"/>
+   <edge id="e.14" source="NT1.5" target="NT1.6"/>
+   <edge id="e.18" source="NT1.2" target="NT1.5"/>
+   <edge id="e.20" target="NT1.10" source="NT1.2"/>
+   <edge id="e.23" source="NT1.10" target="NT1.12"/>
+   <edge id="e.24" source="NT1.1" target="NT1.2"/>
+   <edge id="e.25" target="NT1.20" source="NT1.6"/>
+   <edge id="e.26" source="NT1.5" target="NT1.27"/>
+   <edge id="e.27" source="NT1.11" target="NT1.24"/>
+   <edge id="e.28" target="NT1.22" source="NT1.13"/>
+   <edge id="e.29" source="NT1.13" target="NT1.25"/>
+   <edge id="e.31" source="NT1.10" target="NT1.38"/>
+   <edge id="e.33" source="NT1.12" target="NT1.35"/>
+   <edge id="e.36" source="NT1.19" target="NT1.32"/>
+   <edge id="e.37" target="NT1.34" source="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Sphingomonas" cmphy:species="adhaesiva" cmphy:strain="GIFU 114587" cmphy:id="D84527" editRecord="[]">Sphingomonas adhaesiva GIFU 114587 (D84527)</otu>
+  <otu id="otu12" cmphy:genus="Sphingomonas" cmphy:species="pruni" cmphy:strain="IFO 15498T" cmphy:id="Y09637" editRecord="[]">Sphingomonas pruni IFO 15498T (Y09637)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Sphingomonas" cmphy:species="koreensis" cmphy:strain="JSS26T" cmphy:id="AFI31296" editRecord="[1__I]">Sphingomonas koreensis JSS26T (AF131296)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Sphingomonas" cmphy:species="melonis" cmphy:strain="DAPP-PG 224T" cmphy:id="ABO55863" editRecord="[0__O]">Sphingomonas melonis DAPP-PG 224T (AB055863)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:edit="[0__O]" cmphy:genus="Sphingomonas" cmphy:species="wittichii" cmphy:strain="DSM 6O14T" cmphy:id="ABO21492" editRecord="[0__O]">Sphingomonas wittichii DSM 6O14T (AB021492)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Sphingomonas" cmphy:species="pituitosa" cmphy:strain="EDIVT" cmphy:id="AJZ43751" editRecord="[2__Z]">Sphingomonas pituitosa EDIVT (AJ243751)</otu>
+  <otu id="otu22" cmphy:genus="Sphingomonas" cmphy:species="trueperi" cmphy:strain="LMG 21427" cmphy:id="X97776" editRecord="[]">Sphingomonas trueperi LMG 21427 (X97776)</otu>
+  <otu id="otu23" cmphy:genus="Sphingomonas" cmphy:species="sanguinis" cmphy:strain="IFO 13937T" cmphy:id="D84529" editRecord="[]">Sphingomonas sanguinis IFO 13937T (D84529)</otu>
+  <otu id="otu24"/>
+  <otu id="otu25"/>
+  <otu id="otu26"/>
+  <otu id="otu27" cmphy:edit="[0__O]" cmphy:genus="Sphingomonas" cmphy:species="echinoides" cmphy:strain="ATCC 148207" cmphy:id="ABO21370" editRecord="[0__O]">Sphingomonas echinoides ATCC 148207 (AB021370)</otu>
+  <otu id="otu28"/>
+  <otu id="otu29"/>
+  <otu id="otu30" cmphy:genus="Sphingomonas" cmphy:species="faenia" cmphy:strain="MA-olkiT" cmphy:id="AJ429239" editRecord="[]">Sphingomonas faenia MA-olkiT (AJ429239)</otu>
+  <otu id="otu31"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="529.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="9.0" y="529.0"/>
+   <node id="NT1.3" label="NT1.3" x="160.0" y="376.0"/>
+   <node id="NT1.5" label="NT1.5" x="176.0" y="512.0"/>
+   <node id="NT1.7" label="NT1.7" x="229.0" y="237.0"/>
+   <node id="NT1.8" label="NT1.8" x="237.0" y="160.0"/>
+   <node id="NT1.9" x="253.0" y="559.0" label="To"/>
+   <node id="NT1.12" label="NT1.12" x="277.0" y="108.0"/>
+   <node id="NT1.14" label="NT1.14" x="292.0" y="316.0"/>
+   <node id="NT1.24" label="NT1.24" x="451.0" y="525.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="455.0" y="408.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="468.0" y="290.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="480.0" y="172.0" otu="otu16"/>
+   <node id="NT1.33" x="537.0" y="467.0" label="100"/>
+   <node id="NT1.35" label="NT1.35" x="559.0" y="683.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="579.0" y="446.0" otu="otu21"/>
+   <node id="NT1.38" label="NT1.38" x="593.0" y="486.0" otu="otu22"/>
+   <node id="NT1.39" label="NT1.39" x="595.0" y="644.0" otu="otu23"/>
+   <node id="NT1.44" label="NT1.44" x="656.0" y="211.0" otu="otu27"/>
+   <node id="NT1.48" label="NT1.48" x="682.0" y="54.0" otu="otu30"/>
+   <edge id="e.1" target="NT1.48" source="NT1.12"/>
+   <edge id="e.6" target="NT1.30" source="NT1.12"/>
+   <edge id="e.13" target="NT1.25" source="NT1.14"/>
+   <edge id="e.14" source="NT1.8" target="NT1.44"/>
+   <edge id="e.16" source="NT1.1" target="NT1.2"/>
+   <edge id="e.19" source="NT1.9" target="NT1.24"/>
+   <edge id="e.22" source="NT1.33" target="NT1.37"/>
+   <edge id="e.23" source="NT1.33" target="NT1.38"/>
+   <edge id="e.25" target="NT1.39" source="NT1.9"/>
+   <edge id="e.27" source="NT1.2" target="NT1.35"/>
+   <edge id="e.30" source="NT1.8" target="NT1.12"/>
+   <edge id="e.32" source="NT1.7" target="NT1.8"/>
+   <edge id="e.33" source="NT1.3" target="NT1.7"/>
+   <edge id="e.34" source="NT1.7" target="NT1.14"/>
+   <edge id="e.38" source="NT1.2" target="NT1.3"/>
+   <edge id="e.39" source="NT1.3" target="NT1.5"/>
+   <edge id="e.41" source="NT1.5" target="NT1.9"/>
+   <edge id="e.45" source="NT1.5" target="NT1.33"/>
+   <edge id="e.46" target="NT1.26" source="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

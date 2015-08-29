@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">CCNWYC 147</otu>
+  <otu id="otu3">M. tarimense CCBAU 833067</otu>
+  <otu id="otu4">M. mediterraneum UPMCa36T</otu>
+  <otu id="otu5">CCNWYC 124</otu>
+  <otu id="otu6">CCNWYC 115T</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="107.0" y="36.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

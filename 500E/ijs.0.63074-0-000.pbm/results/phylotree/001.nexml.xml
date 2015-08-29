@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> N. araoensis IFM o575T (AB108779)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"> N. asiatica IFM 0245T (AB092566)</otu>
+  <otu id="otu4" cmphy:genus="Rhodococcus" cmphy:species="opacus" cmphy:strain="DSM 43206T" cmphy:id="X80631" editRecord="[]">Rhodococcus opacus DSM 43206T (X80631)</otu>
+  <otu id="otu5">N. farcinica ATCC 3318T (Z36936)</otu>
+  <otu id="otu6"> N. abscessus DSM 44432T (AF218292)</otu>
+  <otu id="otu7">N. puris DSM 44599T (AJ508748)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"> N. brasiliensis DSM 4375aT (X80608)</otu>
+  <otu id="otu10">N. cyriacigeorgica DSM 44484T (AF282889)</otu>
+  <otu id="otu11">N. asteroides ATCC 19247T (X84850)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.13" label="NT1.13" x="239.0" y="647.0" otu="otu4"/>
+   <node id="NT1.21" label="NT1.21" x="3.0" y="475.0" root="true"/>
+   <edge id="e.18" source="NT1.21" target="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

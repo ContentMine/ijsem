@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Methanolinea" cmphy:species="tarda" cmphy:strain="NOBI-17" cmphy:id="BAF56441" editRecord="[]">Methanolinea tarda NOBI-17 (BAF56441)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Methanosphaerula" cmphy:species="palustris" cmphy:strain="E1 -9cT" cmphy:id="EUZ96536" editRecord="[2__Z]"> Methanosphaerula palustris E1 -9cT (EU296536)</otu>
+  <otu id="otu3" cmphy:genus="Methanomicrobium" cmphy:species="mobile" cmphy:strain="BPT" cmphy:id="AAL29293" editRecord="[]"> Methanomicrobium mobile BPT (AAL29293)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Methanoregula" cmphy:species="boonei" cmphy:strain="6A8T" cmphy:id="ABS55100" editRecord="[]"> Methanoregula boonei 6A8T (ABS55100)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"> Merhanocorpusculum parvum (AAP20900)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[O__0]" cmphy:genus="Methanosarcina" cmphy:species="acetivorans" cmphy:strain="C2AT" cmphy:id="AAM07885" editRecord="[O__0]">Methanosarcina acetivorans C2AT (AAMO7885)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="140.0" y="341.0"/>
+   <node id="NT1.2" x="148.0" y="294.0" label="53"/>
+   <node id="NT1.3" label="NT1.3" x="195.0" y="236.0"/>
+   <node id="NT1.9" label="NT1.9" x="319.0" y="389.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="328.0" y="314.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="357.0" y="202.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="436.0" y="352.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="482.0" y="427.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="3.0" y="384.0" root="true"/>
+   <edge id="e.4" target="NT1.12" source="NT1.3"/>
+   <edge id="e.7" source="NT1.3" target="NT1.10"/>
+   <edge id="e.9" source="NT1.1" target="NT1.9"/>
+   <edge id="e.10" source="NT1.2" target="NT1.18"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.19" source="NT1.1" target="NT1.2"/>
+   <edge id="e.20" source="NT1.23" target="NT1.22"/>
+   <edge id="e.21" source="NT1.23" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

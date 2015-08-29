@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Tsukamurella" cmphy:species="paurometabola" cmphy:strain="NCTC 10741" cmphy:id="Z36933" editRecord="[]">Tsukamurella paurometabola NCTC 10741 (Z36933)</otu>
+  <otu id="otu3">M. terrae ATCC 157557 (X52925)</otu>
+  <otu id="otu4">M. hibemiae ATCC 498747 (X67096)</otu>
+  <otu id="otu5">M. algericum TBE 5000287107 (GU564404)</otu>
+  <otu id="otu6">M. arupeme AR3O0977 (DQ157760)</otu>
+  <otu id="otu7">M. nonchromogenicum ATCC 195307 (X52928)</otu>
+  <otu id="otu8">M. kumamotonense</otu>
+  <otu id="otu9">Mycobacterium sp. O5-2522 (EU919229)</otu>
+  <otu id="otu10">M. senuense 0578327 (DQ536408)</otu>
+  <otu id="otu11">M. shimoidei ATCC 279627 (X82459)</otu>
+  <otu id="otu12">M. triviale ATCC 23292T (X88924)</otu>
+  <otu id="otu13">M. asiatfcum ATCC 252767 (AF480595)</otu>
+  <otu id="otu14">M. szulgai ATCC 357997 (X52926)</otu>
+  <otu id="otu15">M. malrnoense ATCC 295717 (X52930)</otu>
+  <otu id="otu16">M. paratuberculosis ATCC 196987 (X52934)</otu>
+  <otu id="otu17">M. avium subsp. avium DSM 441567 (AJ536037)</otu>
+  <otu id="otu18">M. scrofulaceum DSM 439927 (AJ536034)</otu>
+  <otu id="otu19">M. haemophilurn ATCC 295487 (X88923)</otu>
+  <otu id="otu20">M. fmracellulare ATCC 139507 (GQ153276)</otu>
+  <otu id="otu21">M. kansasii ATCC 124787 (AF480601)</otu>
+  <otu id="otu22">M. gastri ATCC 15754T (AF480602)</otu>
+  <otu id="otu23">M. nebraskense UNMCVMY 13497 (AY368456)</otu>
+  <otu id="otu24">M. gordorrae ATCC 144707 (X52923)</otu>
+  <otu id="otu25">M. intermedium ATCC 518487 (X67847)</otu>
+  <otu id="otu26">M. Xenopi ATCC 192507 (X52929)</otu>
+  <otu id="otu27">M. marinum ATCC 9277 (NR_025214)</otu>
+  <otu id="otu28">M. tuberculosis H37Rv7 (NC_000962)</otu>
+  <otu id="otu29">M. ulcelans ATCC 194237 (Z13990)</otu>
+  <otu id="otu30">M. interjectum ATCC 514577 (X70961)</otu>
+  <otu id="otu31">M. parascrofulaceum ATCC BAA-6147 (AY337273)</otu>
+  <otu id="otu32">M. simiae ATCC 252757 (X52931)</otu>
+  <otu id="otu33">M. lentiflavum ATCC 519857 (AF480583)</otu>
+  <otu id="otu34">M. genavense ATCC 512347 (X60070)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="17.0" y="903.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="481.0" y="1032.0" otu="otu2"/>
+   <edge id="e.45" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

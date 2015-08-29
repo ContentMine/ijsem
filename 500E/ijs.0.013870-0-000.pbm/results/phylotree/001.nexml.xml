@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[8__B]" cmphy:genus="Zunongwangia" cmphy:species="profunda" cmphy:strain="SM-A877" cmphy:id="DQB55467" editRecord="[8__B]">Zunongwangia profunda SM-A877 (DQ855467)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Mesonia" cmphy:species="mobilis" cmphy:strain="KMM 6059T" cmphy:id="DQB67409" editRecord="[3__B]">Mesonia mobilis KMM 6059T (DQ367409)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Mesonia" cmphy:species="algae" cmphy:strain="KMM 89O9T" cmphy:id="AFS36383" editRecord="[5__S]">Mesonia algae KMM 89O9T (AF536383)</otu>
+  <otu id="otu4">Salegentibacter salinarum ISL-47 (EF61 2764)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Salegentibacter" cmphy:species="mishustinae" cmphy:strain="KMM 6O49T" cmphy:id="AYS76653" editRecord="[5__S]">Salegentibacter mishustinae KMM 6O49T (AY576653)</otu>
+  <otu id="otu6" cmphy:genus="Psychroflexus" cmphy:species="torquis" cmphy:strain="ACAM 623T" cmphy:id="U85881" editRecord="[]">Psychroflexus torquis ACAM 623T (U85881)</otu>
+  <otu id="otu7">Salegentibacter fla vus Fg 697 (AY682200)</otu>
+  <otu id="otu8">Salegentibacter holothuriorum KMM 3524T (AB1 16148)</otu>
+  <otu id="otu9" cmphy:genus="Salegentibacter" cmphy:species="salarius" cmphy:strain="ISL-67" cmphy:id="EF486353" editRecord="[]">Salegentibacter salarius ISL-67 (EF486353)</otu>
+  <otu id="otu10" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 5424T" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens DSM 5424T (M92279)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Sandarakinotalea" cmphy:species="sediminis" cmphy:strain="CKA-5T" cmphy:id="ABZ06954" editRecord="[2__Z]">Sandarakinotalea sediminis CKA-5T (AB206954)</otu>
+  <otu id="otu12">Salegentibacter agarivorans KMM 7O19T(DQ191176)</otu>
+  <otu id="otu13">Persicivirga dokdonensis DSW-6T (DQO1 7065)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Gramella" cmphy:species="portivictoriae" cmphy:strain="USTO4O8O1-001T" cmphy:id="DQO02871" editRecord="[0__O]">Gramella portivictoriae USTO4O8O1-001T (DQ002871)</otu>
+  <otu id="otu15" cmphy:genus="Gramella" cmphy:species="echinicola" cmphy:strain="KMM 6050T" cmphy:id="AY608409" editRecord="[]">Gramella echinicola KMM 6050T (AY608409)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Stenothermobacter" cmphy:species="spongiae" cmphy:strain="USTO3O701-156T" cmphy:id="DQO64789" editRecord="[0__O]">Stenothermobacter spongiae USTO3O701-156T (DQ064789)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Marixanthomonas" cmphy:species="ophiurae" cmphy:strain="KMM 3O46T" cmphy:id="ABZ61012" editRecord="[2__Z]">Marixanthomonas ophiurae KMM 3O46T (AB261012)</otu>
+  <otu id="otu18" cmphy:genus="Gramella" cmphy:species="marina" cmphy:strain="KMM 60487" cmphy:id="AY753911" editRecord="[]">Gramella marina KMM 60487 (AY753911)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="8.0" y="217.0"/>
+   <node id="NT1.2" label="NT1.2" x="49.0" y="647.0"/>
+   <node id="NT1.3" label="NT1.3" x="78.0" y="931.0"/>
+   <node id="NT1.4" label="NT1.4" x="103.0" y="575.0"/>
+   <node id="NT1.5" label="NT1.5" x="112.0" y="706.0"/>
+   <node id="NT1.6" label="NT1.6" x="152.0" y="1291.0"/>
+   <node id="NT1.9" label="NT1.9" x="246.0" y="956.0"/>
+   <node id="NT1.10" label="NT1.10" x="254.0" y="364.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="263.0" y="1330.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="272.0" y="848.0"/>
+   <node id="NT1.15" label="NT1.15" x="299.0" y="1255.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="307.0" y="810.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="309.0" y="290.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="311.0" y="570.0"/>
+   <node id="NT1.22" label="NT1.22" x="319.0" y="885.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="323.0" y="958.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="325.0" y="216.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="338.0" y="623.0"/>
+   <node id="NT1.28" label="NT1.28" x="364.0" y="662.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="368.0" y="512.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="375.0" y="67.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="403.0" y="438.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="411.0" y="587.0" otu="otu18"/>
+   <node id="NT1.33" label="NT1.33" x="10.0" y="474.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.18"/>
+   <edge id="e.1" source="NT1.6" target="NT1.15"/>
+   <edge id="e.6" source="NT1.2" target="NT1.3"/>
+   <edge id="e.7" source="NT1.3" target="NT1.6"/>
+   <edge id="e.8" source="NT1.3" target="NT1.4"/>
+   <edge id="e.9" source="NT1.4" target="NT1.5"/>
+   <edge id="e.11" source="NT1.5" target="NT1.19"/>
+   <edge id="e.12" target="NT1.9" source="NT1.5"/>
+   <edge id="e.13" source="NT1.19" target="NT1.26"/>
+   <edge id="e.15" source="NT1.9" target="NT1.14"/>
+   <edge id="e.17" source="NT1.33" target="NT1.1"/>
+   <edge id="e.18" source="NT1.33" target="NT1.2"/>
+   <edge id="e.19" source="NT1.2" target="NT1.10"/>
+   <edge id="e.20" source="NT1.6" target="NT1.12"/>
+   <edge id="e.21" source="NT1.4" target="NT1.31"/>
+   <edge id="e.24" target="NT1.24" source="NT1.1"/>
+   <edge id="e.25" source="NT1.1" target="NT1.30"/>
+   <edge id="e.26" source="NT1.14" target="NT1.17"/>
+   <edge id="e.27" target="NT1.23" source="NT1.9"/>
+   <edge id="e.28" source="NT1.14" target="NT1.22"/>
+   <edge id="e.29" source="NT1.19" target="NT1.29"/>
+   <edge id="e.30" source="NT1.26" target="NT1.28"/>
+   <edge id="e.31" source="NT1.26" target="NT1.32"/>
+  </tree>
+ </trees>
+</nexml>

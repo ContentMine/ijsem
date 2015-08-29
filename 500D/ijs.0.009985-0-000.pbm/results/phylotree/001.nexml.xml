@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Actinosynnema" cmphy:species="mirium" cmphy:strain="DSM 43827T" cmphy:id="X84447" editRecord="[]"> Actinosynnema mirium DSM 43827T (X84447)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">Lechevalieria Xinjiangensis R24T (DQ898283)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Lentzea albfda IFO 161 O2T (ABO061 76)</otu>
+  <otu id="otu6">Lechevalleria flava NRRL B816131T(AF1148O8)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Saccharothrix longispora NRRL B-16116T(AF1 14809)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Lechevalieria" cmphy:species="roselyniae" cmphy:strain="C81T" cmphy:id="EUS51683" editRecord="[5__S]">Lechevalieria roselyniae C81T (EU551683)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Actinosynnema pretiosum NRRL B-16O6OT(AF1148OO)</otu>
+  <otu id="otu12">Saccharothrix australiensis NRRL 1 1 2391 (AF1 14803)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">Saccharothrix espanaensis NRRL B415764T(AF114807)</otu>
+  <otu id="otu15">Saccharothrlx coeruleofusca NRRL B-161 15T (AF1 14805)</otu>
+  <otu id="otu16">Saccharothrix syringae NRRL B-16468T (AF1 14812)</otu>
+  <otu id="otu17" cmphy:genus="Saccharothrix" cmphy:species="algeriensis" cmphy:strain="NRRL B-241371" cmphy:id="AYO54972" editRecord="[]">Saccharothrix algeriensis NRRL B-241371 (AYO54972)</otu>
+  <otu id="otu18">Saccharothrix mutabilis subsp. mutabflis DSM 43853T (X76966)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:genus="Lentzea" cmphy:species="albidocapillata" cmphy:strain="IMMIB D-9587" cmphy:id="X84321" editRecord="[]">Lentzea albidocapillata IMMIB D-9587 (X84321)</otu>
+  <otu id="otu21" cmphy:edit="[1__I]" cmphy:genus="Lentzea" cmphy:species="californiensis" cmphy:strain="NRRL B-16137T" cmphy:id="AFI74435" editRecord="[1__I]">Lentzea californiensis NRRL B-16137T (AF174435)</otu>
+  <otu id="otu22" cmphy:edit="[1__I]" cmphy:genus="Lentzea" cmphy:species="flaviverrucosa" cmphy:strain="AS 4.05787" cmphy:id="AFI83957" editRecord="[1__I]">Lentzea flaviverrucosa AS 4.05787 (AF183957)</otu>
+  <otu id="otu23">Saccharothrix texasensis NRRL B-16134T(AF114814)</otu>
+  <otu id="otu24" cmphy:genus="Umezawaea" cmphy:species="tangerina" cmphy:strain="MK27-91F2T" cmphy:id="ABO20031" editRecord="[]">Umezawaea tangerina MK27-91F2T (ABO20031)</otu>
+  <otu id="otu25"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="51.0" y="903.0" otu="otu1" root="true"/>
+   <node id="NT1.3" x="119.0" y="372.0" label="97"/>
+   <node id="NT1.4" x="143.0" y="219.0" label="a2"/>
+   <node id="NT1.9" label="NT1.9" x="223.0" y="586.0"/>
+   <node id="NT1.13" x="272.0" y="342.0" label="91"/>
+   <node id="NT1.26" x="334.0" y="374.0" label="88"/>
+   <node id="NT1.27" label="NT1.27" x="338.0" y="14.0" otu="otu9"/>
+   <node id="NT1.40" label="NT1.40" x="442.0" y="755.0" otu="otu17"/>
+   <node id="NT1.43" label="NT1.43" x="496.0" y="384.0" otu="otu20"/>
+   <node id="NT1.44" label="NT1.44" x="508.0" y="310.0" otu="otu21"/>
+   <node id="NT1.45" label="NT1.45" x="524.0" y="347.0" otu="otu22"/>
+   <node id="NT1.47" label="NT1.47" x="551.0" y="495.0" otu="otu24"/>
+   <edge id="e.0" target="NT1.27" source="NT1.4"/>
+   <edge id="e.9" source="NT1.13" target="NT1.44"/>
+   <edge id="e.10" target="NT1.43" source="NT1.26"/>
+   <edge id="e.11" source="NT1.26" target="NT1.45"/>
+   <edge id="e.16" source="NT1.9" target="NT1.47"/>
+   <edge id="e.19" target="NT1.40" source="NT1.9"/>
+   <edge id="e.30" source="NT1.3" target="NT1.4"/>
+   <edge id="e.33" target="NT1.13" source="NT1.4"/>
+   <edge id="e.34" target="NT1.3" source="NT1.1"/>
+   <edge id="e.36" source="NT1.13" target="NT1.26"/>
+   <edge id="e.38" target="NT1.9" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

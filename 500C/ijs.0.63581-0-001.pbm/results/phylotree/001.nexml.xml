@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Nautilia" cmphy:species="lithotrophica" cmphy:strain="DSM 135201" cmphy:id="AJ404370" editRecord="[]">Nautilia lithotrophica DSM 135201 (AJ404370)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Caminibacter" cmphy:species="hydrogeniphilus" cmphy:strain="DSM 1451OT" cmphy:id="AJB09655" editRecord="[3__B]">Caminibacter hydrogeniphilus DSM 1451OT (AJ309655)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Hydrogenimonas" cmphy:species="thermophila" cmphy:strain="ATCC BAA-737T" cmphy:id="ABI05049" editRecord="[1__I]">Hydrogenimonas thermophila ATCC BAA-737T (AB105049)</otu>
+  <otu id="otu5" cmphy:genus="Wolinella" cmphy:species="succinogenes" cmphy:strain="CCUG 131457" cmphy:id="M88159" editRecord="[]">Wolinella succinogenes CCUG 131457 (M88159)</otu>
+  <otu id="otu6">Helicobacter pylori NCTC 1163 7T (U01 330)</otu>
+  <otu id="otu7" cmphy:genus="Sulfurimonas" cmphy:species="autotrophica" cmphy:strain="OK1OT" cmphy:id="ABO88431" editRecord="[]">Sulfurimonas autotrophica OK1OT (ABO88431)</otu>
+  <otu id="otu8">Sulfurospirillum deleyianum ATCC 51 133T (Y13671)</otu>
+  <otu id="otu9">Arcobacter nitrofigilis CCUG 15893T(L14627)</otu>
+  <otu id="otu10">Sulfurovum lithorrophicum 42BKTT (A B091 292)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Arcobacter" cmphy:species="cryaerophilus" cmphy:strain="CCUG 17802" cmphy:id="AYB14755" editRecord="[3__B]">Arcobacter cryaerophilus CCUG 17802 (AY314755)</otu>
+  <otu id="otu12" cmphy:genus="Arcobacrer" cmphy:species="burzleri" cmphy:strain="CCUG 3O485T" cmphy:id="L14626" editRecord="[]">Arcobacrer burzleri CCUG 3O485T (L14626)</otu>
+  <otu id="otu13">Arcobacter cryaerophilus CCUG 17801 T (L1 4624)</otu>
+  <otu id="otu14">Arcobacter skirrowii CCUG 103 74T (L1 4625)</otu>
+  <otu id="otu15">'Candidarus Arcobacter suIfidicus' (AYO35822)</otu>
+  <otu id="otu16" cmphy:edit="[5__S]" cmphy:genus="Arcobacter" cmphy:species="halophilus" cmphy:strain="LA31BT" cmphy:id="AFS13455" editRecord="[5__S]">Arcobacter halophilus LA31BT (AF513455)</otu>
+  <otu id="otu17">Thiovulum majus Lane FE Dewhirst</otu>
+  <otu id="otu18">Campylobacter fetus su bsp. fetus ATCC 27374T(L04314)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="45.0" y="1480.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="47.0" y="1480.0"/>
+   <node id="NT1.3" label="NT1.3" x="160.0" y="1363.0"/>
+   <node id="NT1.4" label="NT1.4" x="193.0" y="1557.0"/>
+   <node id="NT1.5" label="NT1.5" x="295.0" y="1614.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="309.0" y="1505.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="365.0" y="1163.0"/>
+   <node id="NT1.8" label="NT1.8" x="396.0" y="996.0"/>
+   <node id="NT1.10" label="NT1.10" x="442.0" y="1719.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="446.0" y="598.0"/>
+   <node id="NT1.13" label="NT1.13" x="544.0" y="1292.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="573.0" y="248.0"/>
+   <node id="NT1.16" label="NT1.16" x="579.0" y="1082.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="594.0" y="129.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="599.0" y="342.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="625.0" y="553.0" otu="otu16"/>
+   <edge id="e.0" target="NT1.22" source="NT1.15"/>
+   <edge id="e.3" source="NT1.8" target="NT1.16"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" source="NT1.11" target="NT1.15"/>
+   <edge id="e.11" source="NT1.8" target="NT1.11"/>
+   <edge id="e.12" source="NT1.7" target="NT1.8"/>
+   <edge id="e.13" source="NT1.3" target="NT1.7"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" source="NT1.3" target="NT1.4"/>
+   <edge id="e.17" source="NT1.2" target="NT1.10"/>
+   <edge id="e.18" source="NT1.4" target="NT1.5"/>
+   <edge id="e.19" source="NT1.4" target="NT1.6"/>
+   <edge id="e.20" target="NT1.13" source="NT1.7"/>
+   <edge id="e.24" target="NT1.27" source="NT1.11"/>
+   <edge id="e.25" source="NT1.15" target="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

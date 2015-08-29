@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Mesalhizobium loti nodD3 NZP2213T(U22899)</otu>
+  <otu id="otu2"> Mesor17izobiumlotinodD2 MAFF303099 (AP003008)</otu>
+  <otu id="otu3"> Mesorhizobium Ioti nodD1 MAFF303099 (APOO3008)</otu>
+  <otu id="otu4">Sinorhizobium sp. nodD4 BR816 (U11930)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Sinorhizobium" cmphy:species="meliloti" cmphy:strain="nodD3 SU47" cmphy:id="X53820" editRecord="[]">Sinorhizobium meliloti nodD3 SU47 (X53820)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Sinorhizobium" cmphy:species="meliloti" cmphy:strain="nodD2 1021" cmphy:id="AEO07231" editRecord="[0__O]">Sinorhizobium meliloti nodD2 1021 (AE007231)</otu>
+  <otu id="otu9">Sinorhizobium sp. nodD1 BR816 (U11928)</otu>
+  <otu id="otu10" cmphy:genus="Sinomizobium" cmphy:species="meliloti" cmphy:strain="nodD1 41" cmphy:id="X04473" editRecord="[]">Sinomizobium meliloti nodD1 41 (X04473)</otu>
+  <otu id="otu11">Sinorhizobium sp. nodD2 BR816 (U26451)</otu>
+  <otu id="otu12">Bradyrhizobiumjaponicum nodD1 3I1b1LOspc4 (M81825)</otu>
+  <otu id="otu13">Bradyrhizobium elkanii nodD1 US DA94T (UO4609)</otu>
+  <otu id="otu14">Rhizobium leguminosarum bv. phaseoli nodD1 384 (X54214)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Bradyrhizobium" cmphy:species="elkanii" cmphy:strain="nodD2 USDA94T" cmphy:id="U04609" editRecord="[]">Bradyrhizobium elkanii nodD2 USDA94T (U04609)</otu>
+  <otu id="otu17">Bradyrhizobiumjaponicum nodD2 3l1b1LOspc4 (M81825)</otu>
+  <otu id="otu18">Rhizobium Ieguminosarum nodD2 384 (X54215)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="30.0" y="416.0"/>
+   <node id="NT1.8" x="225.0" y="288.0" label="99"/>
+   <node id="NT1.12" x="317.0" y="314.0" label="100"/>
+   <node id="NT1.21" label="NT1.21" x="417.0" y="261.0" otu="otu6"/>
+   <node id="NT1.23" label="NT1.23" x="423.0" y="331.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="447.0" y="296.0" otu="otu10"/>
+   <node id="NT1.32" label="NT1.32" x="611.0" y="504.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="4.0" y="513.0" root="true"/>
+   <edge id="e.6" source="NT1.8" target="NT1.21"/>
+   <edge id="e.7" source="NT1.12" target="NT1.23"/>
+   <edge id="e.12" target="NT1.32" source="NT1.1"/>
+   <edge id="e.21" target="NT1.8" source="NT1.1"/>
+   <edge id="e.23" source="NT1.8" target="NT1.12"/>
+   <edge id="e.29" source="NT1.35" target="NT1.1"/>
+   <edge id="e.32" source="NT1.12" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

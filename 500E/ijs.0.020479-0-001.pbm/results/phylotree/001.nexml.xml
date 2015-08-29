@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Escherichia coli ATCC 1 17757 (X80725)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Erwinia" cmphy:species="toletana" cmphy:strain="A377" cmphy:id="AFI03910" editRecord="[1__I]">Erwinia toletana A377 (AF103910)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"> Erwinia tasmaniensis Etl997 (AM05571 6)</otu>
+  <otu id="otu5" cmphy:genus="Erwinia" cmphy:species="rhapontici" cmphy:strain="ATCC 292837" cmphy:id="U80206" editRecord="[]">Erwinia rhapontici ATCC 292837 (U80206)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Erwinia" cmphy:species="papayae" cmphy:strain="CFBP 51897" cmphy:id="AYI31237" editRecord="[1__I]">Erwinia papayae CFBP 51897 (AY131237)</otu>
+  <otu id="otu7">)7 Erwinia piriflorinigrans CFBP 58887 (GQ405202)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Erwinia" cmphy:species="mallotivora" cmphy:strain="LMG 27087" cmphy:id="Z96084" editRecord="[]">Erwinia mallotivora LMG 27087 (Z96084)</otu>
+  <otu id="otu10" cmphy:genus="Erwinia" cmphy:species="persicina" cmphy:strain="ATCC 359987" cmphy:id="U80205" editRecord="[]">Erwinia persicina ATCC 359987 (U80205)</otu>
+  <otu id="otu11">Erwinia billingiae Eb6617 (AM05571 1)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Erwinia" cmphy:species="aphidicola" cmphy:strain="DSM 193477" cmphy:id="ABZ73744" editRecord="[2__Z]">Erwinia aphidicola DSM 193477 (AB273744)</otu>
+  <otu id="otu13" cmphy:genus="Erwinia" cmphy:species="amylovora" cmphy:strain="NCPPB 6837" cmphy:id="U80195" editRecord="[]">Erwinia amylovora NCPPB 6837 (U80195)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Pantoea" cmphy:species="agglomerans" cmphy:strain="DSM 34937" cmphy:id="AJZ33423" editRecord="[2__Z]">Pantoea agglomerans DSM 34937 (AJ233423)</otu>
+  <otu id="otu15">Erwinia pyrifoliae CFBP 41 727 (EF122435)</otu>
+  <otu id="otu16" cmphy:genus="Erwinia" cmphy:species="tracheiphila" cmphy:strain="LMG 29067" cmphy:id="Y13250" editRecord="[]">Erwinia tracheiphila LMG 29067 (Y13250)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="176.0" y="138.0" label="100"/>
+   <node id="NT1.3" label="NT1.3" x="192.0" y="206.0"/>
+   <node id="NT1.5" label="NT1.5" x="229.0" y="269.0"/>
+   <node id="NT1.6" x="256.0" y="344.0" label="56"/>
+   <node id="NT1.7" x="287.0" y="143.0" label="o"/>
+   <node id="NT1.8" label="NT1.8" x="290.0" y="250.0"/>
+   <node id="NT1.9" x="311.0" y="437.0" label="B8"/>
+   <node id="NT1.12" label="NT1.12" x="348.0" y="268.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="356.0" y="501.0"/>
+   <node id="NT1.17" label="NT1.17" x="395.0" y="519.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="416.0" y="161.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="425.0" y="125.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="430.0" y="483.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="438.0" y="196.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="479.0" y="376.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="483.0" y="232.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="571.0" y="52.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="3.0" y="77.0" root="true"/>
+   <edge id="e.1" source="NT1.7" target="NT1.19"/>
+   <edge id="e.2" source="NT1.7" target="NT1.22"/>
+   <edge id="e.3" source="NT1.5" target="NT1.26"/>
+   <edge id="e.4" source="NT1.8" target="NT1.12"/>
+   <edge id="e.5" target="NT1.30" source="NT1.1"/>
+   <edge id="e.6" source="NT1.8" target="NT1.28"/>
+   <edge id="e.8" source="NT1.13" target="NT1.17"/>
+   <edge id="e.10" source="NT1.13" target="NT1.23"/>
+   <edge id="e.13" target="NT1.27" source="NT1.9"/>
+   <edge id="e.15" source="NT1.1" target="NT1.3"/>
+   <edge id="e.17" source="NT1.3" target="NT1.5"/>
+   <edge id="e.18" source="NT1.3" target="NT1.7"/>
+   <edge id="e.19" source="NT1.5" target="NT1.6"/>
+   <edge id="e.20" source="NT1.6" target="NT1.9"/>
+   <edge id="e.21" source="NT1.6" target="NT1.8"/>
+   <edge id="e.24" target="NT1.13" source="NT1.9"/>
+   <edge id="e.29" source="NT1.31" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Hydrogenophaga Hava CCUG 1658T (AF078771)</otu>
+  <otu id="otu2">Rubrivivax gelatinosus ATCC 1701 17 (D16213)</otu>
+  <otu id="otu3" cmphy:edit="[0__O, B__8]" cmphy:genus="Hydrogenophaga" cmphy:species="pseudoflava" cmphy:strain="ATCC 33668T" cmphy:id="AFO78770" editRecord="[0__O, B__8]">Hydrogenophaga pseudoflava ATCC 33668T (AF07B770)</otu>
+  <otu id="otu4">ldeonella dechloratans CCUG 30898T (X72724)</otu>
+  <otu id="otu5">X ylophilus ampelinus DSM 725OT (AJ420330)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Xenophilus" cmphy:species="azovorans" cmphy:strain="KF46FT" cmphy:id="AFZ85414" editRecord="[2__Z]">Xenophilus azovorans KF46FT (AF285414)</otu>
+  <otu id="otu7">(AquaspiriIIum1 delicatum LMG 43287 (AF078756)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Delftia" cmphy:species="acidovorans" cmphy:strain="IAM 124097" cmphy:id="ABO21417" editRecord="[0__O]">Delftia acidovorans IAM 124097 (AB021417)</otu>
+  <otu id="otu9" cmphy:genus="Vanbvorax" cmphy:species="paradoxus" cmphy:strain="IAM 123737" cmphy:id="D30793" editRecord="[]">Vanbvorax paradoxus IAM 123737 (D30793)</otu>
+  <otu id="otu10" cmphy:genus="Burkholderia" cmphy:species="cepacia" cmphy:strain="ATCC 254167" cmphy:id="M22518" editRecord="[]">Burkholderia cepacia ATCC 254167 (M22518)</otu>
+  <otu id="otu11">Comamonas Iestosteroni ATCC 1 1996T (M11224)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Comamonas" cmphy:species="tenigena" cmphy:strain="IMI 3598707" cmphy:id="AFO78772" editRecord="[0__O]">Comamonas tenigena IMI 3598707 (AF078772)</otu>
+  <otu id="otu13">Acidovorax facilis CCUG 21 137 (AFO78765)</otu>
+  <otu id="otu14">Acidovolax delaHeIdii ATCC 175057 (AF078764)</otu>
+  <otu id="otu15">Rhodoferax fermentans FR2T (D1621 1)</otu>
+  <otu id="otu16">Strain CJZT (AY166684)</otu>
+  <otu id="otu17" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 117757" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 117757 (X80725)</otu>
+  <otu id="otu18" cmphy:genus="Polaromonas" cmphy:species="vacuolata" cmphy:strain="34-PT" cmphy:id="U14585" editRecord="[]">Polaromonas vacuolata 34-PT (U14585)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="251.0" y="199.0"/>
+   <node id="NT1.3" label="NT1.3" x="377.0" y="151.0"/>
+   <node id="NT1.4" label="NT1.4" x="408.0" y="231.0"/>
+   <node id="NT1.5" label="NT1.5" x="417.0" y="166.0"/>
+   <node id="NT1.6" label="NT1.6" x="424.0" y="295.0"/>
+   <node id="NT1.11" label="NT1.11" x="481.0" y="410.0"/>
+   <node id="NT1.17" label="NT1.17" x="537.0" y="77.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="550.0" y="240.0" otu="otu6"/>
+   <node id="NT1.23" label="NT1.23" x="576.0" y="142.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="592.0" y="370.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="594.0" y="44.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="614.0" y="207.0" otu="otu12"/>
+   <node id="NT1.33" label="NT1.33" x="723.0" y="12.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="723.0" y="435.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="5.0" y="105.0" root="true"/>
+   <edge id="e.2" target="NT1.17" source="NT1.3"/>
+   <edge id="e.3" source="NT1.6" target="NT1.20"/>
+   <edge id="e.4" target="NT1.28" source="NT1.5"/>
+   <edge id="e.6" source="NT1.11" target="NT1.24"/>
+   <edge id="e.11" target="NT1.34" source="NT1.11"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.6"/>
+   <edge id="e.16" source="NT1.4" target="NT1.5"/>
+   <edge id="e.18" target="NT1.11" source="NT1.6"/>
+   <edge id="e.23" source="NT1.35" target="NT1.33"/>
+   <edge id="e.24" source="NT1.35" target="NT1.1"/>
+   <edge id="e.25" source="NT1.1" target="NT1.25"/>
+   <edge id="e.27" target="NT1.3" source="NT1.1"/>
+   <edge id="e.29" source="NT1.5" target="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

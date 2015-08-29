@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">M. basaltis LMG 252797 (GU929941)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"> M. communis LMG 28647 (this study)</otu>
+  <otu id="otu4">M. brasilensis R-405037 (GU992940)</otu>
+  <otu id="otu5">M. communis LMG 28647 (D001 1528)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"> M. vaga ATCC 271 197 (X67025)</otu>
+  <otu id="otu8"> M. dokdonensis DSW1O-107(DO011526)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"> M. balearica IVIA-Po-1017 (EU188448)</otu>
+  <otu id="otu11">M. aquimarina CECT 50807 (AJ843077)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"> M. pollencensis IVIA-P0-1857 (EU188441)</otu>
+  <otu id="otu14"> M. ostreistagni UST 010306-0437 (AB242868)</otu>
+  <otu id="otu15"> M. polaris CK137 (AJ833000)</otu>
+  <otu id="otu16">M. ushuaiensis U17 (AJ627909)</otu>
+  <otu id="otu17"> M. primoryensis KMM 36337 (ABO74193)</otu>
+  <otu id="otu18">M. arctica 3287 (DQ492749)</otu>
+  <otu id="otu19" cmphy:genus="Vibrio" cmphy:species="cholerae" cmphy:strain="CECT 5147" cmphy:id="X76337" editRecord="[]">Vibrio cholerae CECT 5147 (X76337)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.35" label="NT1.35" x="485.0" y="690.0" otu="otu19"/>
+   <node id="NT1.36" label="NT1.36" x="3.0" y="495.0" root="true"/>
+   <edge id="e.33" source="NT1.36" target="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

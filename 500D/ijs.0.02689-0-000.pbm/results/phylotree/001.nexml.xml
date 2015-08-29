@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Polaribacter" cmphy:species="franzmannii" cmphy:strain="ATCC 7003997" cmphy:id="U14586" editRecord="[]">Polaribacter franzmannii ATCC 7003997 (U14586)</otu>
+  <otu id="otu9" cmphy:genus="Tenacibaculum" cmphy:species="maritimum" cmphy:strain="NBRC 15946T" cmphy:id="ABO78057" editRecord="[]">Tenacibaculum maritimum NBRC 15946T (ABO78057)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 11947T" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 11947T (M62797)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Flexibacter" cmphy:species="tractuosus" cmphy:strain="NBRC 15980" cmphy:id="ABO78070" editRecord="[0__O]">Flexibacter tractuosus NBRC 15980 (AB078070)</otu>
+  <otu id="otu14">Cellulophaga Iytica ATCC 231787 (M62796)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Cellulophaga" cmphy:species="fucicola" cmphy:strain="NN015860T" cmphy:id="AJO05973" editRecord="[0__O]">Cellulophaga fucicola NN015860T (AJ005973)</otu>
+  <otu id="otu16">Icytophagal Iatercula ATCC 231777 (M58769)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Kordia" cmphy:species="algicida" cmphy:strain="OT-17" cmphy:id="AYI95836" editRecord="[1__I]">Kordia algicida OT-17 (AY195836)</otu>
+  <otu id="otu19" cmphy:genus="Gelidibacter" cmphy:species="algens" cmphy:strain="ACAM 551" cmphy:id="U62916" editRecord="[]">Gelidibacter algens ACAM 551 (U62916)</otu>
+  <otu id="otu20" cmphy:genus="Psychroserpens" cmphy:species="burtonensis" cmphy:strain="ACAM 188T" cmphy:id="U62913" editRecord="[]">Psychroserpens burtonensis ACAM 188T (U62913)</otu>
+  <otu id="otu21" cmphy:genus="Aequorivita" cmphy:species="antarctica" cmphy:strain="SW49T" cmphy:id="AYO27802" editRecord="[]">Aequorivita antarctica SW49T (AYO27802)</otu>
+  <otu id="otu22" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 5424T" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens DSM 5424T (M92279)</otu>
+  <otu id="otu23" cmphy:genus="Psychroflexus" cmphy:species="torquis" cmphy:strain="ACAM 6237" cmphy:id="U85881" editRecord="[]">Psychroflexus torquis ACAM 6237 (U85881)</otu>
+  <otu id="otu24">Arenibacterlatericius KMM 4267 (AF052742)</otu>
+  <otu id="otu25" cmphy:edit="[2__Z]" cmphy:genus="Muricauda" cmphy:species="ruestringensis" cmphy:strain="strain B1T" cmphy:id="AFZ18782" editRecord="[2__Z]">Muricauda ruestringensis strain B1T (AF218782)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="162.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="38.0" y="162.0"/>
+   <node id="NT1.4" label="NT1.4" x="117.0" y="278.0"/>
+   <node id="NT1.5" label="NT1.5" x="122.0" y="36.0"/>
+   <node id="NT1.7" label="NT1.7" x="137.0" y="505.0"/>
+   <node id="NT1.8" label="NT1.8" x="144.0" y="631.0"/>
+   <node id="NT1.9" label="NT1.9" x="160.0" y="294.0"/>
+   <node id="NT1.10" label="NT1.10" x="173.0" y="529.0"/>
+   <node id="NT1.11" label="NT1.11" x="193.0" y="197.0"/>
+   <node id="NT1.12" label="NT1.12" x="194.0" y="590.0"/>
+   <node id="NT1.13" label="NT1.13" x="206.0" y="753.0"/>
+   <node id="NT1.14" label="NT1.14" x="209.0" y="641.0"/>
+   <node id="NT1.21" label="NT1.21" x="304.0" y="11.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="305.0" y="61.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="364.0" y="111.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="375.0" y="566.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="391.0" y="364.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="426.0" y="465.0" otu="otu18"/>
+   <node id="NT1.34" label="NT1.34" x="427.0" y="717.0" otu="otu19"/>
+   <node id="NT1.35" label="NT1.35" x="431.0" y="768.0" otu="otu20"/>
+   <node id="NT1.36" label="NT1.36" x="434.0" y="162.0" otu="otu21"/>
+   <node id="NT1.37" label="NT1.37" x="438.0" y="667.0" otu="otu22"/>
+   <node id="NT1.38" label="NT1.38" x="488.0" y="616.0" otu="otu23"/>
+   <node id="NT1.40" label="NT1.40" x="616.0" y="263.0" otu="otu25"/>
+   <edge id="e.0" source="NT1.5" target="NT1.21"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.4" target="NT1.26"/>
+   <edge id="e.10" target="NT1.30" source="NT1.9"/>
+   <edge id="e.12" source="NT1.13" target="NT1.34"/>
+   <edge id="e.13" source="NT1.13" target="NT1.35"/>
+   <edge id="e.14" source="NT1.10" target="NT1.33"/>
+   <edge id="e.15" source="NT1.2" target="NT1.5"/>
+   <edge id="e.16" source="NT1.2" target="NT1.4"/>
+   <edge id="e.17" source="NT1.4" target="NT1.7"/>
+   <edge id="e.18" source="NT1.7" target="NT1.9"/>
+   <edge id="e.19" source="NT1.7" target="NT1.8"/>
+   <edge id="e.20" source="NT1.8" target="NT1.13"/>
+   <edge id="e.21" source="NT1.8" target="NT1.10"/>
+   <edge id="e.23" source="NT1.9" target="NT1.11"/>
+   <edge id="e.25" source="NT1.10" target="NT1.12"/>
+   <edge id="e.26" source="NT1.12" target="NT1.14"/>
+   <edge id="e.31" source="NT1.5" target="NT1.22"/>
+   <edge id="e.32" source="NT1.14" target="NT1.37"/>
+   <edge id="e.33" source="NT1.11" target="NT1.36"/>
+   <edge id="e.34" source="NT1.14" target="NT1.38"/>
+   <edge id="e.36" target="NT1.28" source="NT1.12"/>
+   <edge id="e.38" target="NT1.40" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

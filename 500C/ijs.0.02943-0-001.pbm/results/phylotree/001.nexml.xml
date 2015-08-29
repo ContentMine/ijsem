@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Maricaulis maris ATCC</otu>
+  <otu id="otu2">M. washingtonensis MCS</otu>
+  <otu id="otu3">M. salignorans MCS</otu>
+  <otu id="otu4">Caulobacter vibrioides DSM</otu>
+  <otu id="otu5"> M virginensis VKM B-1513T (AJ301667)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Woodsholea" cmphy:species="maritima" cmphy:strain="cM243T" cmphy:id="AJS78476" editRecord="[5__S]">Woodsholea maritima cM243T (AJ578476)</otu>
+  <otu id="otu8">Hyphomonas polymorpha DSM</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Oceanicaulis" cmphy:species="aiexandrii" cmphy:strain="C1 16-18T" cmphy:id="AJB09862" editRecord="[3__B]">Oceanicaulis aiexandrii C1 16-18T (AJ309862)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="443.0" y="300.0"/>
+   <node id="NT1.14" label="NT1.14" x="840.0" y="329.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="952.0" y="276.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="44.0" y="392.0" root="true"/>
+   <edge id="e.5" source="NT1.3" target="NT1.14"/>
+   <edge id="e.6" source="NT1.3" target="NT1.16"/>
+   <edge id="e.13" target="NT1.3" source="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

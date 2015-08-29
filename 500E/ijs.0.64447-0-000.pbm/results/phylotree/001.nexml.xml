@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Adhaeribacter aquaticus M B RG1 .5T (AJ 626894)</otu>
+  <otu id="otu2" cmphy:genus="Sphingobacterium" cmphy:species="faecium" cmphy:strain="DSM 116907" cmphy:id="AJ438176" editRecord="[]">Sphingobacterium faecium DSM 116907 (AJ438176)</otu>
+  <otu id="otu3" cmphy:genus="Pontibacter" cmphy:species="actiniarum" cmphy:strain="KMM 61567" cmphy:id="AY989908" editRecord="[]">Pontibacter actiniarum KMM 61567 (AY989908)</otu>
+  <otu id="otu4">Hymenobacter ocellatus Myx 21 O57 (Y18835)</otu>
+  <otu id="otu5" cmphy:genus="Hymenobacter" cmphy:species="chitinivorans" cmphy:strain="Txc1T" cmphy:id="Y18837" editRecord="[]">Hymenobacter chitinivorans Txc1T (Y18837)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Hymenobacter" cmphy:species="norwichensis" cmphy:strain="NSl50T" cmphy:id="AJS49285" editRecord="[5__S]">Hymenobacter norwichensis NSl50T (AJ549285)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="ATCC 334067" cmphy:id="M58768" editRecord="[]">Cytophaga hutchinsonii ATCC 334067 (M58768)</otu>
+  <otu id="otu11" cmphy:genus="Hymenobaoter" cmphy:species="roseosalivarius" cmphy:strain="AA-718T" cmphy:id="Y18833" editRecord="[]">Hymenobaoter roseosalivarius AA-718T (Y18833)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Hymenobaoter" cmphy:species="aerophilus" cmphy:strain="ll26-Cor1T" cmphy:id="AJZ76901" editRecord="[2__Z]"> Hymenobaoter aerophilus ll26-Cor1T (AJ276901)</otu>
+  <otu id="otu14">Hymenobacter soli PB17T (A B251 884)</otu>
+  <otu id="otu15">Flavobacterium aquatile ATCC 1 1947T (M62797)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="56.0" y="588.0"/>
+   <node id="NT1.2" x="90.0" y="540.0" label="74"/>
+   <node id="NT1.4" x="192.0" y="445.0" label="88"/>
+   <node id="NT1.8" x="361.0" y="299.0" label="100"/>
+   <node id="NT1.9" label="NT1.9" x="374.0" y="249.0"/>
+   <node id="NT1.10" label="NT1.10" x="379.0" y="194.0"/>
+   <node id="NT1.13" label="NT1.13" x="434.0" y="635.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="458.0" y="492.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="467.0" y="303.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="469.0" y="255.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="480.0" y="588.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="490.0" y="351.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="495.0" y="159.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="4.0" y="635.0" root="true"/>
+   <edge id="e.4" target="NT1.25" source="NT1.10"/>
+   <edge id="e.5" source="NT1.10" target="NT1.20"/>
+   <edge id="e.6" source="NT1.9" target="NT1.17"/>
+   <edge id="e.7" source="NT1.8" target="NT1.23"/>
+   <edge id="e.11" source="NT1.4" target="NT1.15"/>
+   <edge id="e.12" source="NT1.2" target="NT1.22"/>
+   <edge id="e.13" source="NT1.1" target="NT1.13"/>
+   <edge id="e.17" source="NT1.9" target="NT1.10"/>
+   <edge id="e.18" source="NT1.8" target="NT1.9"/>
+   <edge id="e.19" target="NT1.8" source="NT1.4"/>
+   <edge id="e.22" target="NT1.4" source="NT1.2"/>
+   <edge id="e.24" source="NT1.1" target="NT1.2"/>
+   <edge id="e.26" source="NT1.28" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

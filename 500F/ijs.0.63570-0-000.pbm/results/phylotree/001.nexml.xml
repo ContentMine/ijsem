@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Nocardia elegans IMMIB N-402T (AJ 854057)</otu>
+  <otu id="otu3" cmphy:genus="Nocardia" cmphy:species="nova" cmphy:strain="JCM 6044T" cmphy:id="Z36930" editRecord="[]">Nocardia nova JCM 6044T (Z36930)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Nocardia" cmphy:species="qfricana" cmphy:strain="SD 769T" cmphy:id="AFZ77198" editRecord="[2__Z]">Nocardia qfricana SD 769T (AF277198)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Nocardia" cmphy:species="cerradoensis" cmphy:strain="Y 9T" cmphy:id="AFO60790" editRecord="[0__O]">Nocardia cerradoensis Y 9T (AF060790)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Nocardia" cmphy:species="velerana" cmphy:strain="DSM 44445T" cmphy:id="AFZ78572" editRecord="[2__Z]">Nocardia velerana DSM 44445T (AF278572)</otu>
+  <otu id="otu7" cmphy:genus="Nocardia" cmphy:species="pseudobrasiliensis" cmphy:strain="ATCC 5l5l2T" cmphy:id="X84857" editRecord="[]">Nocardia pseudobrasiliensis ATCC 5l5l2T (X84857)</otu>
+  <otu id="otu8" cmphy:genus="Nocardia" cmphy:species="vaccinii" cmphy:strain="DSM 43285T" cmphy:id="Z36927" editRecord="[]">Nocardia vaccinii DSM 43285T (Z36927)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Nocardia" cmphy:species="vinacea" cmphy:strain="MK 703-102F1T" cmphy:id="ABO24312" editRecord="[0__O]">Nocardia vinacea MK 703-102F1T (AB024312)</otu>
+  <otu id="otu10" cmphy:genus="Nocardia" cmphy:species="olitidiscaviarum" cmphy:strain="ATCC 14629T" cmphy:id="M59056" editRecord="[]">Nocardia olitidiscaviarum ATCC 14629T (M59056)</otu>
+  <otu id="otu11" cmphy:genus="Nocardia" cmphy:species="crassostrecze" cmphy:strain="NB 4HT" cmphy:id="Z37989" editRecord="[]">Nocardia crassostrecze NB 4HT (Z37989)</otu>
+  <otu id="otu12">Nacardia inohanensis IF M 0092T (AB092560)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Nocardia" cmphy:species="yamanashiensis" cmphy:strain="IFM 0265T" cmphy:id="ABO92561" editRecord="[0__O]">Nocardia yamanashiensis IFM 0265T (AB092561)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Nocardia" cmphy:species="niigatensis" cmphy:strain="IFM 0330T" cmphy:id="ABO92565" editRecord="[0__O]">Nocardia niigatensis IFM 0330T (AB092565)</otu>
+  <otu id="otu15" cmphy:genus="Nocardia" cmphy:species="seriolae" cmphy:strain="JCM 3360T" cmphy:id="Z36925" editRecord="[]">Nocardia seriolae JCM 3360T (Z36925)</otu>
+  <otu id="otu16">Nacardia pseudavaccinii DSM 43406T (AF 430046)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Gardenia" cmphy:species="sputi" cmphy:strain="DSM 43896T" cmphy:id="X80634" editRecord="[]">Gardenia sputi DSM 43896T (X80634)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="888.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="888.0"/>
+   <node id="NT1.3" label="NT1.3" x="107.0" y="624.0"/>
+   <node id="NT1.4" label="NT1.4" x="127.0" y="763.0"/>
+   <node id="NT1.5" label="NT1.5" x="140.0" y="552.0"/>
+   <node id="NT1.6" label="NT1.6" x="151.0" y="481.0"/>
+   <node id="NT1.7" label="NT1.7" x="158.0" y="834.0"/>
+   <node id="NT1.8" label="NT1.8" x="160.0" y="410.0"/>
+   <node id="NT1.10" label="NT1.10" x="182.0" y="268.0"/>
+   <node id="NT1.12" label="NT1.12" x="189.0" y="197.0"/>
+   <node id="NT1.14" label="NT1.14" x="206.0" y="976.0"/>
+   <node id="NT1.15" label="NT1.15" x="209.0" y="1046.0"/>
+   <node id="NT1.16" label="NT1.16" x="211.0" y="126.0"/>
+   <node id="NT1.17" label="NT1.17" x="223.0" y="444.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="227.0" y="1012.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="231.0" y="1083.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="234.0" y="941.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="238.0" y="586.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="256.0" y="799.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="258.0" y="728.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="272.0" y="302.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="290.0" y="515.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="294.0" y="89.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="302.0" y="160.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="305.0" y="231.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="618.0" y="1154.0" otu="otu18"/>
+   <edge id="e.0" target="NT1.29" source="NT1.16"/>
+   <edge id="e.1" source="NT1.16" target="NT1.30"/>
+   <edge id="e.2" source="NT1.12" target="NT1.31"/>
+   <edge id="e.3" target="NT1.26" source="NT1.10"/>
+   <edge id="e.4" source="NT1.6" target="NT1.27"/>
+   <edge id="e.5" source="NT1.5" target="NT1.22"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" target="NT1.24" source="NT1.4"/>
+   <edge id="e.10" source="NT1.15" target="NT1.18"/>
+   <edge id="e.11" source="NT1.14" target="NT1.21"/>
+   <edge id="e.12" source="NT1.15" target="NT1.20"/>
+   <edge id="e.13" source="NT1.2" target="NT1.34"/>
+   <edge id="e.15" source="NT1.12" target="NT1.16"/>
+   <edge id="e.16" source="NT1.10" target="NT1.12"/>
+   <edge id="e.17" source="NT1.8" target="NT1.10"/>
+   <edge id="e.19" source="NT1.6" target="NT1.8"/>
+   <edge id="e.20" source="NT1.5" target="NT1.6"/>
+   <edge id="e.21" source="NT1.3" target="NT1.5"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.23" source="NT1.3" target="NT1.4"/>
+   <edge id="e.24" source="NT1.4" target="NT1.7"/>
+   <edge id="e.27" target="NT1.14" source="NT1.7"/>
+   <edge id="e.28" source="NT1.14" target="NT1.15"/>
+   <edge id="e.29" source="NT1.8" target="NT1.17"/>
+   <edge id="e.30" source="NT1.7" target="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

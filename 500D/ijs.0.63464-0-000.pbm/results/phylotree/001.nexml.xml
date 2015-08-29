@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Moraxella laczmata ATCC 17967T (AF 005160)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Moraxella" cmphy:species="catarrhalis" cmphy:strain="ATCC 25238T" cmphy:id="AFO05185" editRecord="[0__O]">Moraxella catarrhalis ATCC 25238T (AF005185)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">Psychrobacter maritimus KMM 3646T (AJ 609272)</otu>
+  <otu id="otu7" cmphy:genus="Psychrobacter" cmphy:species="namhaensis" cmphy:strain="SW-242T" cmphy:id="AY722805" editRecord="[]">Psychrobacter namhaensis SW-242T (AY722805)</otu>
+  <otu id="otu8" cmphy:genus="Psychrobacter" cmphy:species="aquimaris" cmphy:strain="SW-210T" cmphy:id="AY722804" editRecord="[]">Psychrobacter aquimaris SW-210T (AY722804)</otu>
+  <otu id="otu9">Psychrobacter okhotskensis J CM 1 1840T (AB094794)</otu>
+  <otu id="otu10" cmphy:genus="Psychrobacter" cmphy:species="luti" cmphy:strain="CECT 5885T" cmphy:id="AJ430828" editRecord="[]">Psychrobacter luti CECT 5885T (AJ430828)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Psychrobacter" cmphy:species="alimentarius" cmphy:strain="J G-100T" cmphy:id="AYS13645" editRecord="[5__S]">Psychrobacter alimentarius J G-100T (AY513645)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Psychrobacter" cmphy:species="proteolyticus" cmphy:strain="DSM 13887T" cmphy:id="AJZ72303" editRecord="[2__Z]">Psychrobacter proteolyticus DSM 13887T (AJ272303)</otu>
+  <otu id="otu13">Psychrobacterfozii CECT 5889T (AJ430827)</otu>
+  <otu id="otu14">Psychrobacter paczficensis IF 0 16270T (AB016057)</otu>
+  <otu id="otu15">Psychrobacter glacincola DSM 12194T (AJ 312213)</otu>
+  <otu id="otu16">Psychrobacter urativorans DSM 14009T (AJ 609555)</otu>
+  <otu id="otu17">Psychrobacterfrigidicola DSM 1241 IT (AJ 609556)</otu>
+  <otu id="otu18">Psychrabacter marincola DSM 14160T (AJ 309941)</otu>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="Psychrobacter" cmphy:species="immobilis" cmphy:strain="DSM 7229T" cmphy:id="AJB09942" editRecord="[3__B]">Psychrobacter immobilis DSM 7229T (AJ309942)</otu>
+  <otu id="otu20">Psychrobacterjeotgali KCCM 41559T (AF 441201)</otu>
+  <otu id="otu21" cmphy:genus="Acinetobacter" cmphy:species="calcoaceticus" cmphy:strain="DSM 30006T" cmphy:id="X81661" editRecord="[]">Acinetobacter calcoaceticus DSM 30006T (X81661)</otu>
+  <otu id="otu22" cmphy:genus="Psychrobacter" cmphy:species="phenylpymvicus" cmphy:strain="ATCC 23333T" cmphy:id="U46144" editRecord="[]">Psychrobacter phenylpymvicus ATCC 23333T (U46144)</otu>
+  <otu id="otu23" cmphy:genus="Psychrobacter" cmphy:species="arenosus" cmphy:strain="KMM 3659T" cmphy:id="AJ609273" editRecord="[]">Psychrobacter arenosus KMM 3659T (AJ609273)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="1032.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="20.0" y="1032.0"/>
+   <node id="NT1.3" label="NT1.3" x="132.0" y="956.0"/>
+   <node id="NT1.7" label="NT1.7" x="548.0" y="1006.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="597.0" y="803.0"/>
+   <node id="NT1.9" label="NT1.9" x="605.0" y="697.0"/>
+   <node id="NT1.10" label="NT1.10" x="650.0" y="469.0"/>
+   <node id="NT1.13" label="NT1.13" x="658.0" y="239.0"/>
+   <node id="NT1.17" label="NT1.17" x="718.0" y="425.0"/>
+   <node id="NT1.22" label="NT1.22" x="739.0" y="511.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="745.0" y="412.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="759.0" y="313.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="763.0" y="560.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="777.0" y="461.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="811.0" y="16.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="896.0" y="1105.0" otu="otu21"/>
+   <node id="NT1.38" label="NT1.38" x="957.0" y="907.0" otu="otu22"/>
+   <node id="NT1.39" label="NT1.39" x="958.0" y="857.0" otu="otu23"/>
+   <edge id="e.5" source="NT1.10" target="NT1.22"/>
+   <edge id="e.6" source="NT1.17" target="NT1.23"/>
+   <edge id="e.7" source="NT1.10" target="NT1.27"/>
+   <edge id="e.9" target="NT1.39" source="NT1.9"/>
+   <edge id="e.10" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" target="NT1.7" source="NT1.3"/>
+   <edge id="e.16" source="NT1.10" target="NT1.13"/>
+   <edge id="e.18" target="NT1.10" source="NT1.9"/>
+   <edge id="e.19" source="NT1.10" target="NT1.17"/>
+   <edge id="e.21" source="NT1.8" target="NT1.9"/>
+   <edge id="e.23" target="NT1.8" source="NT1.3"/>
+   <edge id="e.26" source="NT1.2" target="NT1.3"/>
+   <edge id="e.28" source="NT1.2" target="NT1.37"/>
+   <edge id="e.31" source="NT1.8" target="NT1.38"/>
+   <edge id="e.32" source="NT1.17" target="NT1.28"/>
+   <edge id="e.33" target="NT1.26" source="NT1.13"/>
+   <edge id="e.35" target="NT1.35" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

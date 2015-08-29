@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Halalkalicoccus tibetensis D81 27 (AF4351 1 2))</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Haloarchaeon 3OAH clone 1 (AY292392)</otu>
+  <otu id="otu5">Haloarohaeon RO1428 (EU887285)</otu>
+  <otu id="otu6">Haladaptatus paucihalophilus GY252 copy 1 (DQ867122)</otu>
+  <otu id="otu7" cmphy:genus="Haladaptatus" cmphy:species="cibarius" cmphy:strain="D437" cmphy:id="EF660747" editRecord="[]"> Haladaptatus cibarius D437 (EF660747)</otu>
+  <otu id="otu8"> Haladaptatus paucihalophilus DX253T copy 1 (DQ344973)</otu>
+  <otu id="otu9"> Haloarchaeon RO1-22 (FJ773394)</otu>
+  <otu id="otu10"> Hakzdaptatus paucihabphilus GY252 copy 2 (DQ867123)</otu>
+  <otu id="otu11">Haloterrigena thermotolerans PRST (AF1 15478)</otu>
+  <otu id="otu12" cmphy:genus="Natronobacterium" cmphy:species="gregoryi" cmphy:strain="NCIMB 21897" cmphy:id="D87970" editRecord="[]">Natronobacterium gregoryi NCIMB 21897 (D87970)</otu>
+  <otu id="otu13">Natrialba chahannaoensis C1 1 27 (AJOO4806)</otu>
+  <otu id="otu14">Haloterrigena turkmenica VKM B-1 734 T (ABOO4878)</otu>
+  <otu id="otu15" cmphy:genus="Natrialba" cmphy:species="asiatica" cmphy:strain="Aidin-3" cmphy:id="ABO46875" editRecord="[]">Natrialba asiatica Aidin-3 (ABO46875)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Haladaptatus paucihalophilus DX253T copy 2 (DQ344974)</otu>
+  <otu id="otu18" cmphy:genus="Natronococcus" cmphy:species="occultus" cmphy:strain="NCIMB 21927" cmphy:id="Z28378" editRecord="[]"> Natronococcus occultus NCIMB 21927 (Z28378)</otu>
+  <otu id="otu19" cmphy:genus="Halococcus" cmphy:species="dombrowskii" cmphy:strain="H47" cmphy:id="AJ420376" editRecord="[]">Halococcus dombrowskii H47 (AJ420376)</otu>
+  <otu id="otu20" cmphy:edit="[0__O]" cmphy:genus="Methanosarcina" cmphy:species="semesiae" cmphy:strain="MD1T" cmphy:id="AJO12742" editRecord="[0__O]">Methanosarcina semesiae MD1T (AJ012742)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="345.0" y="416.0"/>
+   <node id="NT1.2" label="NT1.2" x="359.0" y="535.0"/>
+   <node id="NT1.4" x="450.0" y="584.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="458.0" y="627.0"/>
+   <node id="NT1.24" label="NT1.24" x="550.0" y="352.0" otu="otu7"/>
+   <node id="NT1.29" label="NT1.29" x="591.0" y="542.0" otu="otu12"/>
+   <node id="NT1.33" label="NT1.33" x="604.0" y="694.0" otu="otu15"/>
+   <node id="NT1.36" label="NT1.36" x="622.0" y="580.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="635.0" y="466.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="635.0" y="770.0" otu="otu20"/>
+   <node id="NT1.39" label="NT1.39" x="2.0" y="593.0" root="true"/>
+   <edge id="e.8" target="NT1.24" source="NT1.1"/>
+   <edge id="e.12" source="NT1.4" target="NT1.29"/>
+   <edge id="e.13" target="NT1.37" source="NT1.2"/>
+   <edge id="e.14" source="NT1.5" target="NT1.36"/>
+   <edge id="e.18" target="NT1.33" source="NT1.5"/>
+   <edge id="e.29" source="NT1.1" target="NT1.2"/>
+   <edge id="e.30" source="NT1.2" target="NT1.4"/>
+   <edge id="e.32" source="NT1.4" target="NT1.5"/>
+   <edge id="e.36" source="NT1.39" target="NT1.38"/>
+   <edge id="e.37" source="NT1.39" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

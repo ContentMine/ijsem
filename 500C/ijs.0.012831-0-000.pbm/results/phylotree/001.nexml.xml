@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Prevotella intermedia ATCC 2561 1T</otu>
+  <otu id="otu3">Prevotella corporis ATCC 33547T</otu>
+  <otu id="otu4">Prevotella disiens ATCC 29426T</otu>
+  <otu id="otu5">Prevotella aurantiaca OMA31T</otu>
+  <otu id="otu6">Prevotella pallens AHN 103717</otu>
+  <otu id="otu7">Prevotella nigrescens ATCC 33563T</otu>
+  <otu id="otu8">Prevotella falseniiJCM 15124T</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="8.0" y="156.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

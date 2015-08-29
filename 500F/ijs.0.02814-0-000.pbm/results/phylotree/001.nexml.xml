@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Nocardiopsis lucentensis DSM 44048T (X9 7888)</otu>
+  <otu id="otu3">Nocardiopsis aegyptia DSM 444427 (Al539401)</otu>
+  <otu id="otu4" cmphy:genus="Nocardiopsis" cmphy:species="prasina" cmphy:strain="DSM 43845T" cmphy:id="X97884" editRecord="[]">Nocardiopsis prasina DSM 43845T (X97884)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Nocardiopsis" cmphy:species="exhalans" cmphy:strain="DSM 444O7T" cmphy:id="AYO28325" editRecord="[0__O]">Nocardiopsis exhalans DSM 444O7T (AY028325)</otu>
+  <otu id="otu6">Nocardiopsis listeri DSM 4029 7T (X97887)</otu>
+  <otu id="otu7" cmphy:genus="Nocardiopsis" cmphy:species="metallicus" cmphy:strain="DSM 44598T" cmphy:id="AJ420769" editRecord="[]">Nocardiopsis metallicus DSM 44598T (AJ420769)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Nocardiopsis" cmphy:species="umidischolae" cmphy:strain="DSM 44362T" cmphy:id="AYO36001" editRecord="[0__O]">Nocardiopsis umidischolae DSM 44362T (AY036001)</otu>
+  <otu id="otu9">Nocardiopsis tropica DSM 44381 T (AF1059 71)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="194.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="46.0" y="607.0"/>
+   <node id="NT1.8" label="NT1.8" x="96.0" y="284.0"/>
+   <node id="NT1.9" label="NT1.9" x="114.0" y="395.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="127.0" y="302.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="141.0" y="209.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="147.0" y="766.0" otu="otu8"/>
+   <edge id="e.3" target="NT1.4" source="NT1.1"/>
+   <edge id="e.6" target="NT1.8" source="NT1.4"/>
+   <edge id="e.9" source="NT1.8" target="NT1.9"/>
+   <edge id="e.10" source="NT1.8" target="NT1.11"/>
+   <edge id="e.11" source="NT1.8" target="NT1.13"/>
+   <edge id="e.12" target="NT1.14" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

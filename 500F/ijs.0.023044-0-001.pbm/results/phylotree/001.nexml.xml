@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Ic-180T (AB517669)</otu>
+  <otu id="otu3">W2bXIIb31</otu>
+  <otu id="otu4">BS-B54 (DQ661631)</otu>
+  <otu id="otu5">W2bXIb49 (EU419187)</otu>
+  <otu id="otu6">S5 (DQ450881)</otu>
+  <otu id="otu7">BA84 (AF225451)</otu>
+  <otu id="otu8">SK299 (AY882848)</otu>
+  <otu id="otu9">SK297 (AY882846)</otu>
+  <otu id="otu10">Acidimicrobium ferrooxidans TH3 (EF621 760)</otu>
+  <otu id="otu11">8Acidithiomicrobium8 sp. P1 (GO225720)</otu>
+  <otu id="otu12">JTCO4 (AY805539)</otu>
+  <otu id="otu13">0Acidithiomicrobium' sp. P2 (GO225721)</otu>
+  <otu id="otu14">BA46 (AF225450)</otu>
+  <otu id="otu15">Ferrimicrobium acidiphilum T23T (AF251 436)</otu>
+  <otu id="otu16" cmphy:genus="Acidimicrobium" cmphy:species="ferroxidans" cmphy:strain="ICPT" cmphy:id="U75647" editRecord="[]">Acidimicrobium ferroxidans ICPT (U75647)</otu>
+  <otu id="otu17">Ferrithrix thermotolerans YOOST (AY1 40237)</otu>
+  <otu id="otu18">CS11 (AY765999)</otu>
+  <otu id="otu19">Ellin7143 (AY673309)</otu>
+  <otu id="otu20">TRA2-10 (AFO47642)</otu>
+  <otu id="otu21">WJQ5 (AY4g5g54)</otu>
+  <otu id="otu22">AKIW1115 (DQ129371)</otu>
+  <otu id="otu23">lamia majanohamensis F12T(AB360448)</otu>
+  <otu id="otu24">llumatobacter fluminis YM22-133T (AB360343)</otu>
+  <otu id="otu25">EU19 (DQ147285)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="494.0" otu="otu1" root="true"/>
+   <node id="NT1.34" label="NT1.34" x="406.0" y="313.0" otu="otu16"/>
+   <edge id="e.15" target="NT1.34" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

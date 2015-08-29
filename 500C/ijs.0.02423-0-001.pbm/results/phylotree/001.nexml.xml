@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">P. cacticidum LMG 17936Y (AJ223409)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Samsonia" cmphy:species="erythrinae" cmphy:strain="CFBP 52367" cmphy:id="AFZ73037" editRecord="[2__Z]">Samsonia erythrinae CFBP 52367 (AF273037)</otu>
+  <otu id="otu4">P. cypripedii LMG 2657T (296094)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Brenneria" cmphy:species="paradisiaca" cmphy:strain="LMG 2542T" cmphy:id="Z96096" editRecord="[2__Z]">Brenneria paradisiaca LMG 2542T (296096)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Brenneria" cmphy:species="nigrifluens" cmphy:strain="DSM 301757" cmphy:id="AJZ33415" editRecord="[2__Z]">Brenneria nigrifluens DSM 301757 (AJ233415)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Brenneria" cmphy:species="alni" cmphy:strain="DSM 11811T" cmphy:id="AJZ33409" editRecord="[2__Z]">Brenneria alni DSM 11811T (AJ233409)</otu>
+  <otu id="otu8">P. carotovorum subsp. odoriferum LMG 1756GT (AJ223407)</otu>
+  <otu id="otu9" cmphy:genus="Brenneria" cmphy:species="rubrifaciens" cmphy:strain="ATCC 29291T" cmphy:id="U80207" editRecord="[]">Brenneria rubrifaciens ATCC 29291T (U80207)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Brenneria" cmphy:species="salicis" cmphy:strain="DSM 3o1eeT" cmphy:id="AJZ33419" editRecord="[2__Z]">Brenneria salicis DSM 3o1eeT (AJ233419)</otu>
+  <otu id="otu11">P. carotovorum subsp. atrosepticum LMG 23867 (Z96090)</otu>
+  <otu id="otu12">P. chrysantemi LMG 2804T (Z96093)</otu>
+  <otu id="otu13">P. carotovorum subsp. betavasculorum ATCC 43762T (U80198)</otu>
+  <otu id="otu14">P. carotovorum subsp. betavasculorum LMG 2466T (Z96091)</otu>
+  <otu id="otu15">P. carotovorum subsp. carotovorum LMG 24O4T (Z96089)</otu>
+  <otu id="otu16">P. chrysanthemi ATCC 11663T (U80200)</otu>
+  <otu id="otu17">P. chrysanthemi DSM 4610T (AJ233412)</otu>
+  <otu id="otu18">P. carotovorum subsp. carotovorum ATCC 15713T (M59149)</otu>
+  <otu id="otu19">P. carotovorum subsp wasabiae ICMP 9121T (AJ223408)</otu>
+  <otu id="otu20">P. carotovorum subsp. wasabiae ATCC 43316T (U80199)</otu>
+  <otu id="otu21">P. carotovorum subsp. carotovorum ATCC 15713T (U80197)</otu>
+  <otu id="otu22">P. carotovorum subsp. carotovorum DSM 30168T (AJ233411)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="342.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="77.0" y="543.0"/>
+   <node id="NT1.5" label="NT1.5" x="94.0" y="484.0"/>
+   <node id="NT1.8" label="NT1.8" x="142.0" y="492.0"/>
+   <node id="NT1.11" label="NT1.11" x="182.0" y="433.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="188.0" y="567.0"/>
+   <node id="NT1.18" label="NT1.18" x="253.0" y="663.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="255.0" y="509.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="255.0" y="475.0" otu="otu7"/>
+   <node id="NT1.24" label="NT1.24" x="286.0" y="551.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="286.0" y="587.0" otu="otu10"/>
+   <edge id="e.8" target="NT1.18" source="NT1.3"/>
+   <edge id="e.9" source="NT1.12" target="NT1.24"/>
+   <edge id="e.12" target="NT1.3" source="NT1.1"/>
+   <edge id="e.21" source="NT1.3" target="NT1.5"/>
+   <edge id="e.24" source="NT1.5" target="NT1.8"/>
+   <edge id="e.25" source="NT1.8" target="NT1.12"/>
+   <edge id="e.28" source="NT1.5" target="NT1.11"/>
+   <edge id="e.30" source="NT1.8" target="NT1.19"/>
+   <edge id="e.31" source="NT1.8" target="NT1.20"/>
+   <edge id="e.32" source="NT1.12" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

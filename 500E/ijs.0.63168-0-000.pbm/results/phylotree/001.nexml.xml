@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="S." cmphy:species="sampsonii" cmphy:strain="KCCM 403657" cmphy:id="D63871" editRecord="[]">S. sampsonii KCCM 403657 (D63871)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="griseochromogenes" cmphy:strain="ISP 54997" cmphy:id="AJB99491" editRecord="[3__B]">S. griseochromogenes ISP 54997 (AJ399491)</otu>
+  <otu id="otu4">S. griseus subsp. griseus IFO 13550 (ABO45867)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="coeruleofuscus" cmphy:strain="ISP 51447" cmphy:id="AJB99473" editRecord="[3__B]">S. coeruleofuscus ISP 51447 (AJ399473)</otu>
+  <otu id="otu6">Strain VK-A607 (AY079156)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="purpurascens" cmphy:strain="DSM 403107" cmphy:id="ABO45888" editRecord="[0__O]">S. purpurascens DSM 403107 (AB045888)</otu>
+  <otu id="otu8">S. Iuteogriseus ISP 54837 (AJ399490)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="violatus" cmphy:strain="ISP 5209" cmphy:id="AJB99480" editRecord="[3__B]">S. violatus ISP 5209 (AJ399480)</otu>
+  <otu id="otu10" cmphy:edit="[3__B, B__8]" cmphy:genus="S." cmphy:species="roseoviolaceus" cmphy:strain="ISP 5277" cmphy:id="AJB99484" editRecord="[3__B, B__8]">S. roseoviolaceus ISP 5277 (AJ3994B4)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="coerulescens" cmphy:strain="ISP 51467" cmphy:id="AJB99462" editRecord="[3__B]">S. coerulescens ISP 51467 (AJ399462)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="hawaiiensis" cmphy:strain="ISP 50427" cmphy:id="AJB99466" editRecord="[3__B]">S. hawaiiensis ISP 50427 (AJ399466)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="violarus" cmphy:strain="ISP 5205" cmphy:id="AJB99477" editRecord="[3__B]">S. violarus ISP 5205 (AJ399477)</otu>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="bellus" cmphy:strain="ISP 51857" cmphy:id="AJB99476" editRecord="[3__B]">S. bellus ISP 51857 (AJ399476)</otu>
+  <otu id="otu15" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="janthinus" cmphy:strain="ISP 52067" cmphy:id="AJB99478" editRecord="[3__B]">S. janthinus ISP 52067 (AJ399478)</otu>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="iakyrus" cmphy:strain="ISP 54827" cmphy:id="AJB99489" editRecord="[3__B]">S. iakyrus ISP 54827 (AJ399489)</otu>
+  <otu id="otu17" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="coeruleorubidus" cmphy:strain="ISP 51457" cmphy:id="AJB06622" editRecord="[3__B]">S. coeruleorubidus ISP 51457 (AJ306622)</otu>
+  <otu id="otu18" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="afghaniensis" cmphy:strain="ISP 52287" cmphy:id="AJB99483" editRecord="[3__B]">S. afghaniensis ISP 52287 (AJ399483)</otu>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="fumanus" cmphy:strain="ISP 51547" cmphy:id="AJB99463" editRecord="[3__B]">S. fumanus ISP 51547 (AJ399463)</otu>
+  <otu id="otu20" cmphy:genus="S." cmphy:species="thermocarboxydus" cmphy:strain="DSM 442937" cmphy:id="U94490" editRecord="[]">S. thermocarboxydus DSM 442937 (U94490)</otu>
+  <otu id="otu21">S. albus subsp. albus JCM 10204 (ABO45884)</otu>
+  <otu id="otu22" cmphy:genus="S." cmphy:species="glaucescens" cmphy:strain="DSM 40716" cmphy:id="X79322" editRecord="[]">S. glaucescens DSM 40716 (X79322)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="8.0" y="476.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="9.0" y="480.0"/>
+   <node id="NT1.3" label="NT1.3" x="61.0" y="480.0"/>
+   <node id="NT1.4" label="NT1.4" x="97.0" y="687.0"/>
+   <node id="NT1.5" label="NT1.5" x="200.0" y="247.0"/>
+   <node id="NT1.6" label="NT1.6" x="207.0" y="194.0"/>
+   <node id="NT1.8" label="NT1.8" x="230.0" y="765.0"/>
+   <node id="NT1.9" label="NT1.9" x="245.0" y="726.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="247.0" y="1084.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="247.0" y="442.0"/>
+   <node id="NT1.14" label="NT1.14" x="264.0" y="1122.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="277.0" y="106.0"/>
+   <node id="NT1.18" label="NT1.18" x="323.0" y="367.0"/>
+   <node id="NT1.19" x="324.0" y="36.0" label="56"/>
+   <node id="NT1.20" label="NT1.20" x="326.0" y="151.0"/>
+   <node id="NT1.21" label="NT1.21" x="343.0" y="542.0"/>
+   <node id="NT1.22" label="NT1.22" x="351.0" y="390.0"/>
+   <node id="NT1.23" label="NT1.23" x="362.0" y="332.0" otu="otu7"/>
+   <node id="NT1.25" label="NT1.25" x="366.0" y="184.0"/>
+   <node id="NT1.26" x="375.0" y="431.0" label="84"/>
+   <node id="NT1.27" label="NT1.27" x="376.0" y="411.0" otu="otu9"/>
+   <node id="NT1.28" label="NT1.28" x="376.0" y="452.0" otu="otu10"/>
+   <node id="NT1.29" label="NT1.29" x="382.0" y="95.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="394.0" y="569.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="407.0" y="608.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="427.0" y="212.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="436.0" y="371.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="514.0" y="134.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="530.0" y="173.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="593.0" y="529.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="631.0" y="291.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="634.0" y="56.0" otu="otu20"/>
+   <node id="NT1.40" label="NT1.40" x="725.0" y="17.0" otu="otu22"/>
+   <edge id="e.0" source="NT1.20" target="NT1.29"/>
+   <edge id="e.1" source="NT1.19" target="NT1.38"/>
+   <edge id="e.2" source="NT1.25" target="NT1.32"/>
+   <edge id="e.3" source="NT1.19" target="NT1.40"/>
+   <edge id="e.4" source="NT1.20" target="NT1.34"/>
+   <edge id="e.5" source="NT1.25" target="NT1.35"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" source="NT1.21" target="NT1.30"/>
+   <edge id="e.9" source="NT1.26" target="NT1.27"/>
+   <edge id="e.10" source="NT1.26" target="NT1.28"/>
+   <edge id="e.12" source="NT1.4" target="NT1.31"/>
+   <edge id="e.13" source="NT1.8" target="NT1.9"/>
+   <edge id="e.14" source="NT1.15" target="NT1.19"/>
+   <edge id="e.15" source="NT1.6" target="NT1.15"/>
+   <edge id="e.16" source="NT1.15" target="NT1.20"/>
+   <edge id="e.17" source="NT1.20" target="NT1.25"/>
+   <edge id="e.18" source="NT1.5" target="NT1.6"/>
+   <edge id="e.20" source="NT1.5" target="NT1.12"/>
+   <edge id="e.22" source="NT1.12" target="NT1.18"/>
+   <edge id="e.23" target="NT1.21" source="NT1.12"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+   <edge id="e.25" source="NT1.18" target="NT1.22"/>
+   <edge id="e.26" source="NT1.22" target="NT1.26"/>
+   <edge id="e.28" target="NT1.8" source="NT1.4"/>
+   <edge id="e.29" source="NT1.3" target="NT1.5"/>
+   <edge id="e.30" source="NT1.3" target="NT1.4"/>
+   <edge id="e.31" source="NT1.2" target="NT1.14"/>
+   <edge id="e.33" source="NT1.8" target="NT1.11"/>
+   <edge id="e.34" source="NT1.18" target="NT1.23"/>
+   <edge id="e.35" source="NT1.22" target="NT1.33"/>
+   <edge id="e.36" source="NT1.21" target="NT1.36"/>
+   <edge id="e.38" target="NT1.37" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

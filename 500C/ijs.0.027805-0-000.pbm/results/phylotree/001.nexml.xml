@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Chryseobacterium soldanellicola PSD1-4T(AY883415)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Chryseobacterium" cmphy:species="indoltheticum" cmphy:strain="LMG 4O25T" cmphy:id="AY468448" editRecord="[]">Chryseobacterium indoltheticum LMG 4O25T (AY468448)</otu>
+  <otu id="otu6">Chryseobacterium scophthalmum LMG 13028T(AJ2710O9)</otu>
+  <otu id="otu7">Chryseobacterium soliJS6-6T(EF591302)</otu>
+  <otu id="otu8">Chryseobacterium aquaticum 10-467 (AM 748690)</otu>
+  <otu id="otu9">Chryseobacterium piscicola VQ-631 6sT (EU8691 90)</otu>
+  <otu id="otu10">Chryseobacterium piscium LMG 23089T(AMO40439)</otu>
+  <otu id="otu11" cmphy:genus="Chryseobacterium" cmphy:species="piperi" cmphy:strain="CTMT" cmphy:id="EU999735" editRecord="[]">Chryseobacterium piperi CTMT (EU999735)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Chryseobacterium" cmphy:species="balustinum" cmphy:strain="ATCC 33487T" cmphy:id="M58771" editRecord="[]">Chryseobacterium balustinum ATCC 33487T (M58771)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="124.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="12.0" y="124.0"/>
+   <node id="NT1.7" label="NT1.7" x="114.0" y="257.0"/>
+   <node id="NT1.11" label="NT1.11" x="152.0" y="288.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="208.0" y="14.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="227.0" y="186.0" otu="otu13"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" target="NT1.7" source="NT1.2"/>
+   <edge id="e.16" source="NT1.7" target="NT1.11"/>
+   <edge id="e.17" target="NT1.18" source="NT1.2"/>
+   <edge id="e.18" target="NT1.20" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

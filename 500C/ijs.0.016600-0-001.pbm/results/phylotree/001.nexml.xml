@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Halobacterium" cmphy:species="salinarum" cmphy:strain="DSM 3754T" cmphy:id="AJ496185" editRecord="[]">Halobacterium salinarum DSM 3754T (AJ496185)</otu>
+  <otu id="otu3">Halalkalicoccus tibetensis D8127 (AF4351 12)</otu>
+  <otu id="otu4">Haloterrigena turkmenica VKM B-1 734T (ABO04878)</otu>
+  <otu id="otu5" cmphy:edit="[8__B]" cmphy:genus="Halobiforma" cmphy:species="haloterrestris" cmphy:strain="135T" cmphy:id="AFB33760" editRecord="[8__B]">Halobiforma haloterrestris 135T (AF833760)</otu>
+  <otu id="otu6" cmphy:genus="Natrialba" cmphy:species="asiatica" cmphy:strain="172P1T" cmphy:id="D14123" editRecord="[]">Natrialba asiatica 172P1T (D14123)</otu>
+  <otu id="otu7">Halostagnicola larsenii XH-48T (AM1 1 7571)</otu>
+  <otu id="otu8" cmphy:genus="Natronobacterium" cmphy:species="gregoryi" cmphy:strain="NCIMB 2189" cmphy:id="D87970" editRecord="[]">Natronobacterium gregoryi NCIMB 2189 (D87970)</otu>
+  <otu id="otu9" cmphy:genus="Halovivax" cmphy:species="asiaticus" cmphy:strain="EJ-46T" cmphy:id="AMO39978" editRecord="[]">Halovivax asiaticus EJ-46T (AMO39978)</otu>
+  <otu id="otu10" cmphy:genus="Natronococcus" cmphy:species="occultus" cmphy:strain="JCM 8859T" cmphy:id="AB477981" editRecord="[]">Natronococcus occultus JCM 8859T (AB477981)</otu>
+  <otu id="otu11" cmphy:genus="Halococcus" cmphy:species="dombrowskii" cmphy:strain="H47" cmphy:id="AJ420376" editRecord="[]">Halococcus dombrowskii H47 (AJ420376)</otu>
+  <otu id="otu12">Halococcus morrhuae ATCC 17O82T</otu>
+  <otu id="otu13">Halococcus salifodinae DSM 8989T 1ABOO487 7)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Natronoarchaeum" cmphy:species="mannanilyticum" cmphy:strain="YSM-1237 rrnA" cmphy:id="ABS01361" editRecord="[5__S]">Natronoarchaeum mannanilyticum YSM-1237 rrnA (AB501361)</otu>
+  <otu id="otu15" cmphy:edit="[5__S]" cmphy:genus="Natronoarchaeum" cmphy:species="mannanilyticum" cmphy:strain="YSM-1237 rrnB" cmphy:id="ABS01360" editRecord="[5__S]">Natronoarchaeum mannanilyticum YSM-1237 rrnB (AB501360)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="58.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="58.0"/>
+   <node id="NT1.3" label="NT1.3" x="164.0" y="15.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="165.0" y="144.0"/>
+   <node id="NT1.5" label="NT1.5" x="206.0" y="222.0"/>
+   <node id="NT1.7" label="NT1.7" x="296.0" y="273.0"/>
+   <node id="NT1.8" label="NT1.8" x="309.0" y="317.0"/>
+   <node id="NT1.11" label="NT1.11" x="347.0" y="350.0"/>
+   <node id="NT1.13" label="NT1.13" x="376.0" y="371.0"/>
+   <node id="NT1.16" label="NT1.16" x="451.0" y="388.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="457.0" y="215.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="475.0" y="329.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="478.0" y="272.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="487.0" y="358.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="498.0" y="129.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="526.0" y="156.0" otu="otu14"/>
+   <node id="NT1.27" x="526.0" y="173.0" label="100"/>
+   <node id="NT1.28" label="NT1.28" x="565.0" y="187.0" otu="otu15"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" target="NT1.22" source="NT1.4"/>
+   <edge id="e.3" source="NT1.27" target="NT1.26"/>
+   <edge id="e.4" source="NT1.2" target="NT1.4"/>
+   <edge id="e.5" source="NT1.4" target="NT1.5"/>
+   <edge id="e.7" source="NT1.5" target="NT1.7"/>
+   <edge id="e.8" source="NT1.5" target="NT1.27"/>
+   <edge id="e.10" source="NT1.7" target="NT1.8"/>
+   <edge id="e.12" source="NT1.8" target="NT1.11"/>
+   <edge id="e.15" source="NT1.11" target="NT1.13"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.19" target="NT1.17" source="NT1.7"/>
+   <edge id="e.20" source="NT1.11" target="NT1.19"/>
+   <edge id="e.21" target="NT1.20" source="NT1.8"/>
+   <edge id="e.22" source="NT1.13" target="NT1.16"/>
+   <edge id="e.23" source="NT1.13" target="NT1.21"/>
+   <edge id="e.26" source="NT1.27" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

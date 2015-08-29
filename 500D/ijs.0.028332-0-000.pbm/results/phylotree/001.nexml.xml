@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Pelagibaca bermudensis HTCC26O1T(DO178660)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Salinihabitans" cmphy:species="flavidus" cmphy:strain="ISL-467" cmphy:id="FJZ65707" editRecord="[2__Z]">Salinihabitans flavidus ISL-467 (FJ265707)</otu>
+  <otu id="otu7">Donghicola xiamenensis Y-2T (D01 20728)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Roseivivax" cmphy:species="lentus" cmphy:strain="S5-5T" cmphy:id="FJB75966" editRecord="[8__B]">Roseivivax lentus S5-5T (FJ875966)</otu>
+  <otu id="otu10" cmphy:genus="Citreicella" cmphy:species="thiooxidans" cmphy:strain="CHLG 1T" cmphy:id="AY639887" editRecord="[]">Citreicella thiooxidans CHLG 1T (AY639887)</otu>
+  <otu id="otu11" cmphy:genus="Citreicella" cmphy:species="marina" cmphy:strain="CK-I3-6T" cmphy:id="EU928765" editRecord="[]">Citreicella marina CK-I3-6T (EU928765)</otu>
+  <otu id="otu12" cmphy:genus="Citreimonas" cmphy:species="salinaria" cmphy:strain="CL-SP2OT" cmphy:id="AY962295" editRecord="[]">Citreimonas salinaria CL-SP2OT (AY962295)</otu>
+  <otu id="otu13">Yangia pacifica DX5-1OT(AJ877265)</otu>
+  <otu id="otu14" cmphy:genus="Donghicola" cmphy:species="eburneus" cmphy:strain="SW-277T" cmphy:id="DQ667965" editRecord="[]">Donghicola eburneus SW-277T (DQ667965)</otu>
+  <otu id="otu15">Seohaeicola saemankumensis SD-15T(EU221274)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Leisingera" cmphy:species="methylohalidivorans" cmphy:strain="MB2T" cmphy:id="AYO05463" editRecord="[0__O]">Leisingera methylohalidivorans MB2T (AY005463)</otu>
+  <otu id="otu17">Roseivivax halotolerans Och 21 OT (D85831)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Citreicella" cmphy:species="aestuarii" cmphy:strain="AD8T" cmphy:id="FJZ30833" editRecord="[2__Z]">Citreicella aestuarii AD8T (FJ230833)</otu>
+  <otu id="otu19">Phaeobacter arcticus 2O188T(DO514304)</otu>
+  <otu id="otu20">Salipiger mucosus A3T (AY52 7274)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="21.0" y="354.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="40.0" y="354.0"/>
+   <node id="NT1.3" label="NT1.3" x="50.0" y="470.0"/>
+   <node id="NT1.4" label="NT1.4" x="51.0" y="293.0"/>
+   <node id="NT1.5" label="NT1.5" x="53.0" y="139.0"/>
+   <node id="NT1.6" label="NT1.6" x="60.0" y="52.0"/>
+   <node id="NT1.11" label="NT1.11" x="79.0" y="119.0"/>
+   <node id="NT1.17" label="NT1.17" x="96.0" y="148.0"/>
+   <node id="NT1.22" label="NT1.22" x="124.0" y="434.0" otu="otu6"/>
+   <node id="NT1.25" label="NT1.25" x="128.0" y="357.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="130.0" y="91.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="130.0" y="168.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="133.0" y="16.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="140.0" y="206.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="142.0" y="510.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="160.0" y="129.0" otu="otu18"/>
+   <edge id="e.0" source="NT1.6" target="NT1.28"/>
+   <edge id="e.4" source="NT1.11" target="NT1.26"/>
+   <edge id="e.5" target="NT1.34" source="NT1.17"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" target="NT1.25" source="NT1.4"/>
+   <edge id="e.11" target="NT1.32" source="NT1.3"/>
+   <edge id="e.13" source="NT1.5" target="NT1.6"/>
+   <edge id="e.15" target="NT1.11" source="NT1.6"/>
+   <edge id="e.17" target="NT1.17" source="NT1.11"/>
+   <edge id="e.18" source="NT1.4" target="NT1.5"/>
+   <edge id="e.21" source="NT1.2" target="NT1.4"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+   <edge id="e.28" source="NT1.3" target="NT1.22"/>
+   <edge id="e.31" target="NT1.30" source="NT1.5"/>
+   <edge id="e.33" source="NT1.17" target="NT1.27"/>
+  </tree>
+ </trees>
+</nexml>

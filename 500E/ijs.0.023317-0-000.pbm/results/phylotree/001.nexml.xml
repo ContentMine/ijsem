@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Candida" cmphy:species="albicans" cmphy:strain="NRRL Y-12983T" cmphy:id="U45776" editRecord="[]">Candida albicans NRRL Y-12983T (U45776)</otu>
+  <otu id="otu3">Candida prachuapensis WB15T(AB439258)</otu>
+  <otu id="otu4">Candida tropicalis NRRL Y-1 2968T (U45749)</otu>
+  <otu id="otu5">Candida sojae NRRL Y-179O9T(U71070)</otu>
+  <otu id="otu6">Spathaspora passalidarum NRRL Y-279O7T(DC)109807)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Candida" cmphy:species="frijolesensis" cmphy:strain="NRRL Y-4806OT" cmphy:id="EFI20596" editRecord="[1__I]">Candida frijolesensis NRRL Y-4806OT (EF120596)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Candida" cmphy:species="neerlandica" cmphy:strain="NRRL Y-27057T" cmphy:id="AFZ45404" editRecord="[2__Z]">Candida neerlandica NRRL Y-27057T (AF245404)</otu>
+  <otu id="otu9">Scheffersomyces (Pichia) stipitis NRRL Y-7124T(U45741)</otu>
+  <otu id="otu10">Candida tetrigidarum NRRL Y-48142T(EF12O599)</otu>
+  <otu id="otu11" cmphy:genus="Candida" cmphy:species="labiduridarum" cmphy:strain="NRRL Y-279407" cmphy:id="DQ655687" editRecord="[]">Candida labiduridarum NRRL Y-279407 (DQ655687)</otu>
+  <otu id="otu12">Candida jeffriesii N RRL Y-2 7 7387 (AY520415)</otu>
+  <otu id="otu13">2Candida lodderae NRRL Y-1 731 77 (U45755)</otu>
+  <otu id="otu14" cmphy:genus="Candida" cmphy:species="viswanathii" cmphy:strain="NRRL Y-666OT" cmphy:id="U45752" editRecord="[]">Candida viswanathii NRRL Y-666OT (U45752)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Candida" cmphy:species="aquaetextoris" cmphy:strain="ATCC 2014567" cmphy:id="GUI42862" editRecord="[1__I]">Candida aquaetextoris ATCC 2014567 (GU142862)</otu>
+  <otu id="otu16">Pichia burtonii NRRL Y-1933T(U45712)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="saraburiensis" cmphy:strain="KU-X5137" cmphy:id="ABS34915" editRecord="[5__S]">Candida saraburiensis KU-X5137 (AB534915)</otu>
+  <otu id="otu18" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="saraburiensis" cmphy:strain="KU-X520" cmphy:id="ABS34917" editRecord="[5__S]">Candida saraburiensis KU-X520 (AB534917)</otu>
+  <otu id="otu19" cmphy:genus="Lodderomyces" cmphy:species="elongisporus" cmphy:strain="NRRL YB-42397" cmphy:id="U45763" editRecord="[]">Lodderomyces elongisporus NRRL YB-42397 (U45763)</otu>
+  <otu id="otu20">Schizosaccharomyces pombe NRRL Y-12796T(AY0481 71)</otu>
+  <otu id="otu21">Clavispora lusitaniae NRRL Y-1 18277 (U4481 7)</otu>
+  <otu id="otu22" cmphy:genus="Metschnikowia" cmphy:species="bicuspidata" cmphy:strain="NRRL YB-4993T" cmphy:id="U44822" editRecord="[]">Metschnikowia bicuspidata NRRL YB-4993T (U44822)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="872.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="43.0" y="812.0"/>
+   <node id="NT1.8" label="NT1.8" x="372.0" y="544.0"/>
+   <node id="NT1.9" label="NT1.9" x="411.0" y="455.0"/>
+   <node id="NT1.11" label="NT1.11" x="431.0" y="352.0"/>
+   <node id="NT1.14" label="NT1.14" x="463.0" y="634.0" otu="otu2"/>
+   <node id="NT1.20" label="NT1.20" x="483.0" y="426.0"/>
+   <node id="NT1.21" x="485.0" y="148.0" label="64"/>
+   <node id="NT1.23" x="494.0" y="396.0" label="52"/>
+   <node id="NT1.24" label="NT1.24" x="495.0" y="460.0" otu="otu7"/>
+   <node id="NT1.25" label="NT1.25" x="495.0" y="418.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="504.0" y="372.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="516.0" y="210.0"/>
+   <node id="NT1.33" label="NT1.33" x="537.0" y="245.0" otu="otu14"/>
+   <node id="NT1.34" label="NT1.34" x="539.0" y="200.0" otu="otu15"/>
+   <node id="NT1.36" label="NT1.36" x="556.0" y="82.0"/>
+   <node id="NT1.37" label="NT1.37" x="557.0" y="27.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="557.0" y="113.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="583.0" y="591.0" otu="otu19"/>
+   <node id="NT1.42" label="NT1.42" x="847.0" y="893.0" otu="otu22"/>
+   <edge id="e.0" source="NT1.36" target="NT1.37"/>
+   <edge id="e.1" source="NT1.36" target="NT1.38"/>
+   <edge id="e.2" target="NT1.34" source="NT1.30"/>
+   <edge id="e.3" source="NT1.30" target="NT1.33"/>
+   <edge id="e.7" source="NT1.20" target="NT1.24"/>
+   <edge id="e.8" source="NT1.23" target="NT1.25"/>
+   <edge id="e.10" source="NT1.8" target="NT1.14"/>
+   <edge id="e.18" source="NT1.21" target="NT1.36"/>
+   <edge id="e.19" target="NT1.21" source="NT1.11"/>
+   <edge id="e.20" source="NT1.21" target="NT1.30"/>
+   <edge id="e.24" source="NT1.9" target="NT1.11"/>
+   <edge id="e.25" source="NT1.11" target="NT1.20"/>
+   <edge id="e.26" source="NT1.8" target="NT1.9"/>
+   <edge id="e.28" source="NT1.20" target="NT1.23"/>
+   <edge id="e.29" target="NT1.8" source="NT1.3"/>
+   <edge id="e.35" target="NT1.3" source="NT1.1"/>
+   <edge id="e.38" target="NT1.39" source="NT1.9"/>
+   <edge id="e.39" source="NT1.23" target="NT1.28"/>
+   <edge id="e.40" target="NT1.42" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

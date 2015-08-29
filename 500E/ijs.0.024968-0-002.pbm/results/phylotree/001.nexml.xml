@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Thiobacillus aquaesulis DSM 4255T(EF641916)</otu>
+  <otu id="otu2" cmphy:genus="Thiocystis" cmphy:species="violascens" cmphy:strain="DSM 198T" cmphy:id="EF641910" editRecord="[]">Thiocystis violascens DSM 198T (EF641910)</otu>
+  <otu id="otu3" cmphy:genus="Thiobacillus" cmphy:species="denitrificans" cmphy:strain="DSM 807" cmphy:id="EF641922" editRecord="[]">Thiobacillus denitrificans DSM 807 (EF641922)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Thiocystis gelatinosa DSM 215T (EF64191 1)</otu>
+  <otu id="otu6" cmphy:genus="Thiocapsa" cmphy:species="pendens" cmphy:strain="DSM 236T" cmphy:id="EF641914" editRecord="[]">Thiocapsa pendens DSM 236T (EF641914)</otu>
+  <otu id="otu7">Thiodictyon sp. f4 (EF641921)</otu>
+  <otu id="otu8">Lamprocystis purpurea DSM 4197T(EF6419O9)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Thiobacillus" cmphy:species="thioparus" cmphy:strain="DSM 505T" cmphy:id="EF641920" editRecord="[]">Thiobacillus thioparus DSM 505T (EF641920)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Sulfuricella" cmphy:species="denitrificans" cmphy:strain="NBRC 105220T" cmphy:id="ABS06457" editRecord="[5__S]">Sulfuricella denitrificans NBRC 105220T (AB506457)</otu>
+  <otu id="otu13">Thiobacillus denitrificans DSM 12475T(EF641924)</otu>
+  <otu id="otu14" cmphy:genus="Thiothrix" cmphy:species="nivea" cmphy:strain="DSM 5205" cmphy:id="EF641919" editRecord="[]">Thiothrix nivea DSM 5205 (EF641919)</otu>
+  <otu id="otu15">Thiothrix Sp. 12730 (EF641918)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Thiocapsa roseopersicina DSM 21 7T (EF641 907)</otu>
+  <otu id="otu18">Thiocystis violacea DSM 207T (EF64191 2)</otu>
+  <otu id="otu19">Thlorhodococcus minor DSM 1 1518T(EF641913)</otu>
+  <otu id="otu20" cmphy:genus="Chlorobium" cmphy:species="limicola" cmphy:strain="DSM 257" cmphy:id="EF641903" editRecord="[]">Chlorobium limicola DSM 257 (EF641903)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="221.0" y="307.0"/>
+   <node id="NT1.5" label="NT1.5" x="272.0" y="405.0"/>
+   <node id="NT1.6" label="NT1.6" x="277.0" y="238.0"/>
+   <node id="NT1.11" label="NT1.11" x="327.0" y="168.0"/>
+   <node id="NT1.12" x="331.0" y="468.0" label="62"/>
+   <node id="NT1.14" label="NT1.14" x="338.0" y="144.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="338.0" y="439.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="360.0" y="210.0" otu="otu6"/>
+   <node id="NT1.27" label="NT1.27" x="380.0" y="471.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="387.0" y="373.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="436.0" y="277.0" otu="otu14"/>
+   <node id="NT1.38" label="NT1.38" x="547.0" y="636.0" otu="otu20"/>
+   <node id="NT1.39" label="NT1.39" x="3.0" y="541.0" root="true"/>
+   <edge id="e.3" source="NT1.11" target="NT1.14"/>
+   <edge id="e.5" target="NT1.31" source="NT1.6"/>
+   <edge id="e.9" source="NT1.5" target="NT1.28"/>
+   <edge id="e.10" source="NT1.12" target="NT1.15"/>
+   <edge id="e.11" target="NT1.27" source="NT1.12"/>
+   <edge id="e.20" target="NT1.11" source="NT1.6"/>
+   <edge id="e.23" source="NT1.2" target="NT1.6"/>
+   <edge id="e.25" target="NT1.2" source="NT1.39"/>
+   <edge id="e.27" target="NT1.5" source="NT1.2"/>
+   <edge id="e.30" target="NT1.12" source="NT1.5"/>
+   <edge id="e.34" source="NT1.39" target="NT1.38"/>
+   <edge id="e.37" target="NT1.18" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

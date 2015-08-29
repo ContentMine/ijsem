@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Xanthomonas" cmphy:species="arboricola" cmphy:strain="LMG 7477" cmphy:id="Y10757" editRecord="[]">Xanthomonas arboricola LMG 7477 (Y10757)</otu>
+  <otu id="otu2" cmphy:genus="Xanthomonas" cmphy:species="campestris" cmphy:strain="LMG 568T" cmphy:id="X95917" editRecord="[]">Xanthomonas campestris LMG 568T (X95917)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Lysobacter" cmphy:species="antibioticus" cmphy:strain="DSM 2044T" cmphy:id="ABO19582" editRecord="[0__O]">Lysobacter antibioticus DSM 2044T (AB019582)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Luteimonas" cmphy:species="mephitis" cmphy:strain="DSM 12574T" cmphy:id="AJO12228" editRecord="[0__O]">Luteimonas mephitis DSM 12574T (AJ012228)</otu>
+  <otu id="otu6" cmphy:genus="Stenotrophomonas" cmphy:species="maltophilia" cmphy:strain="LMG 958T" cmphy:id="X95923" editRecord="[]">Stenotrophomonas maltophilia LMG 958T (X95923)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Fulvimonas" cmphy:species="soli" cmphy:strain="LMG 19981T" cmphy:id="AJB11653" editRecord="[3__B]">Fulvimonas soli LMG 19981T (AJ311653)</otu>
+  <otu id="otu8" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 11775" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 11775 (X80725)</otu>
+  <otu id="otu9">XD10 (AB110496)</otu>
+  <otu id="otu10">XD22 (AB110497)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Xylella" cmphy:species="fastidiosa" cmphy:strain="ATCC 35879T" cmphy:id="AFI92343" editRecord="[1__I]">Xylella fastidiosa ATCC 35879T (AF192343)</otu>
+  <otu id="otu12">XD53T (AB110498)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Frateuria" cmphy:species="aurantia" cmphy:strain="LMG 1558T" cmphy:id="AJO10481" editRecord="[0__O]">Frateuria aurantia LMG 1558T (AJ010481)</otu>
+  <otu id="otu14" cmphy:genus="Rhodanobacter" cmphy:species="lindaniclasticus" cmphy:strain="RP5557T" cmphy:id="AFO39167" editRecord="[]">Rhodanobacter lindaniclasticus RP5557T (AFO39167)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="171.0" y="339.0"/>
+   <node id="NT1.2" x="262.0" y="221.0" label="100"/>
+   <node id="NT1.3" x="266.0" y="175.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="298.0" y="128.0"/>
+   <node id="NT1.5" label="NT1.5" x="313.0" y="73.0"/>
+   <node id="NT1.7" label="NT1.7" x="351.0" y="458.0"/>
+   <node id="NT1.8" x="359.0" y="31.0" label="100"/>
+   <node id="NT1.9" label="NT1.9" x="360.0" y="9.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="360.0" y="52.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="366.0" y="459.0"/>
+   <node id="NT1.13" label="NT1.13" x="384.0" y="223.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="410.0" y="265.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="421.0" y="136.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="431.0" y="436.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="436.0" y="563.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="463.0" y="180.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="467.0" y="521.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="505.0" y="478.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="1.0" y="451.0" root="true"/>
+   <edge id="e.0" source="NT1.8" target="NT1.9"/>
+   <edge id="e.1" source="NT1.8" target="NT1.10"/>
+   <edge id="e.3" target="NT1.16" source="NT1.5"/>
+   <edge id="e.4" source="NT1.4" target="NT1.23"/>
+   <edge id="e.5" source="NT1.3" target="NT1.13"/>
+   <edge id="e.6" source="NT1.2" target="NT1.15"/>
+   <edge id="e.7" source="NT1.7" target="NT1.25"/>
+   <edge id="e.8" source="NT1.12" target="NT1.18"/>
+   <edge id="e.11" source="NT1.12" target="NT1.26"/>
+   <edge id="e.12" source="NT1.5" target="NT1.8"/>
+   <edge id="e.13" source="NT1.4" target="NT1.5"/>
+   <edge id="e.15" source="NT1.3" target="NT1.4"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" source="NT1.1" target="NT1.7"/>
+   <edge id="e.20" target="NT1.12" source="NT1.7"/>
+   <edge id="e.23" source="NT1.27" target="NT1.19"/>
+   <edge id="e.24" source="NT1.27" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

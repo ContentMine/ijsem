@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Methanolinea" cmphy:species="tarda" cmphy:strain="NOBI-17" cmphy:id="ABI62774" editRecord="[1__I]">Methanolinea tarda NOBI-17 (AB162774)</otu>
+  <otu id="otu4">Rice paddy soil clone TNR(AB236121)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Methanoregula" cmphy:species="boonei" cmphy:strain="6A8T" cmphy:id="DQZ82124" editRecord="[2__Z]"> Methanoregula boonei 6A8T (DQ282124)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Methanolacinia paynteriG-2OOOT (AY196678)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Methanoplanus" cmphy:species="limicola" cmphy:strain="DSM 22797" cmphy:id="M59143" editRecord="[]">Methanoplanus limicola DSM 22797 (M59143)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Methanomicrobiurn" cmphy:species="mobile" cmphy:strain="DSM 1539T" cmphy:id="M59142" editRecord="[]">Methanomicrobiurn mobile DSM 1539T (M59142)</otu>
+  <otu id="otu16">Methanospirillum hungateiJF-1T (CP000254)</otu>
+  <otu id="otu17">Candidatus Methanoregula boonei' SN14 (EU887821)</otu>
+  <otu id="otu18" cmphy:genus="Methanosaeta" cmphy:species="thermophila" cmphy:strain="PTT" cmphy:id="CPO00477" editRecord="[]">Methanosaeta thermophila PTT (CPO00477)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:edit="[0__O, O__0, O__0]" cmphy:genus="Methanosarcina" cmphy:species="barkeri" cmphy:strain="Fusaro" cmphy:id="CPO00099" editRecord="[0__O, O__0, O__0]">Methanosarcina barkeri Fusaro (CP00OO99)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Methanocorpusculum" cmphy:species="parvum" cmphy:strain="DSM 3823T" cmphy:id="AYZ60435" editRecord="[2__Z]">Methanocorpusculum parvum DSM 3823T (AY260435)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="91.0" y="490.0"/>
+   <node id="NT1.2" label="NT1.2" x="113.0" y="360.0"/>
+   <node id="NT1.6" x="168.0" y="730.0" label="100"/>
+   <node id="NT1.7" label="NT1.7" x="171.0" y="217.0"/>
+   <node id="NT1.11" x="216.0" y="482.0" label="78"/>
+   <node id="NT1.16" label="NT1.16" x="269.0" y="271.0" otu="otu3"/>
+   <node id="NT1.24" label="NT1.24" x="313.0" y="14.0" otu="otu6"/>
+   <node id="NT1.29" label="NT1.29" x="319.0" y="455.0" otu="otu11"/>
+   <node id="NT1.33" label="NT1.33" x="354.0" y="491.0" otu="otu15"/>
+   <node id="NT1.36" label="NT1.36" x="424.0" y="750.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="449.0" y="712.0" otu="otu20"/>
+   <node id="NT1.40" label="NT1.40" x="450.0" y="676.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="3.0" y="610.0" root="true"/>
+   <edge id="e.0" target="NT1.24" source="NT1.7"/>
+   <edge id="e.7" source="NT1.7" target="NT1.16"/>
+   <edge id="e.12" source="NT1.11" target="NT1.29"/>
+   <edge id="e.14" target="NT1.33" source="NT1.11"/>
+   <edge id="e.17" target="NT1.40" source="NT1.1"/>
+   <edge id="e.18" source="NT1.6" target="NT1.36"/>
+   <edge id="e.19" source="NT1.6" target="NT1.39"/>
+   <edge id="e.26" target="NT1.7" source="NT1.2"/>
+   <edge id="e.29" source="NT1.1" target="NT1.2"/>
+   <edge id="e.33" target="NT1.11" source="NT1.2"/>
+   <edge id="e.37" source="NT1.41" target="NT1.1"/>
+   <edge id="e.38" source="NT1.41" target="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

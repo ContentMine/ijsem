@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Terriglobus" cmphy:species="saanensis" cmphy:strain="SP1PR4T" cmphy:id="HMZ14537" editRecord="[2__Z]">Terriglobus saanensis SP1PR4T (HM214537)</otu>
+  <otu id="otu2" cmphy:edit="[8__B]" cmphy:genus="Granulicella" cmphy:species="pectinivorans" cmphy:strain="TPB601 1T" cmphy:id="AMB87757" editRecord="[8__B]"> Granulicella pectinivorans TPB601 1T (AM887757)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Terriglobus" cmphy:species="saanensis" cmphy:strain="SP1 PR5" cmphy:id="HMZ14538" editRecord="[2__Z]">Terriglobus saanensis SP1 PR5 (HM214538)</otu>
+  <otu id="otu4" cmphy:genus="Terriglobus" cmphy:species="roseus" cmphy:strain="KBS 637" cmphy:id="DQ660892" editRecord="[]">Terriglobus roseus KBS 637 (DQ660892)</otu>
+  <otu id="otu5">Terriglobus roseus KBS 1 12 (DQ660895)</otu>
+  <otu id="otu6" cmphy:edit="[8__B]" cmphy:genus="Granulicella" cmphy:species="aggregans" cmphy:strain="TPB6028T" cmphy:id="AMB87756" editRecord="[8__B]"> Granulicella aggregans TPB6028T (AM887756)</otu>
+  <otu id="otu7">Terriglobus sp. TAA 48 (AY587229)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Edaphobacter" cmphy:species="modestus" cmphy:strain="Jbg-17" cmphy:id="DQS28760" editRecord="[5__S]"> Edaphobacter modestus Jbg-17 (DQ528760)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"> Granulicella paludicola OB1O1OT (AM887 758)</otu>
+  <otu id="otu11" cmphy:edit="[8__B]" cmphy:genus="Granulicella" cmphy:species="rosea" cmphy:strain="TPO1014T" cmphy:id="AMB87759" editRecord="[8__B]"> Granulicella rosea TPO1014T (AM887759)</otu>
+  <otu id="otu12"> Terriglobus sp. TAA 43 (AY587228)</otu>
+  <otu id="otu13" cmphy:genus="Acidobacterium" cmphy:species="capsulatum" cmphy:strain="JCM 767OT" cmphy:id="D26171" editRecord="[]">Acidobacterium capsulatum JCM 767OT (D26171)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="29.0" y="223.0"/>
+   <node id="NT1.2" label="NT1.2" x="33.0" y="351.0"/>
+   <node id="NT1.4" label="NT1.4" x="51.0" y="92.0"/>
+   <node id="NT1.5" label="NT1.5" x="66.0" y="424.0"/>
+   <node id="NT1.7" label="NT1.7" x="69.0" y="450.0"/>
+   <node id="NT1.9" x="88.0" y="31.0" label="El"/>
+   <node id="NT1.10" label="NT1.10" x="89.0" y="13.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="89.0" y="397.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="93.0" y="49.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="95.0" y="154.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="102.0" y="432.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="110.0" y="293.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="119.0" y="468.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="141.0" y="504.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="10.0" y="363.0" root="true"/>
+   <edge id="e.0" source="NT1.9" target="NT1.10"/>
+   <edge id="e.1" source="NT1.9" target="NT1.12"/>
+   <edge id="e.3" target="NT1.14" source="NT1.4"/>
+   <edge id="e.6" target="NT1.19" source="NT1.2"/>
+   <edge id="e.8" source="NT1.5" target="NT1.11"/>
+   <edge id="e.10" source="NT1.7" target="NT1.16"/>
+   <edge id="e.11" source="NT1.7" target="NT1.22"/>
+   <edge id="e.12" source="NT1.4" target="NT1.9"/>
+   <edge id="e.13" source="NT1.1" target="NT1.4"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.20" target="NT1.5" source="NT1.2"/>
+   <edge id="e.21" source="NT1.5" target="NT1.7"/>
+   <edge id="e.22" source="NT1.25" target="NT1.24"/>
+   <edge id="e.23" source="NT1.25" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

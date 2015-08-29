@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Galactomyces citri-aurantii NRRL Y-17913T (U84233)</otu>
+  <otu id="otu2" cmphy:genus="Galactomyces" cmphy:species="reessii" cmphy:strain="NRRL Y-17566T" cmphy:id="U40111" editRecord="[]">Galactomyces reessii NRRL Y-17566T (U40111)</otu>
+  <otu id="otu3" cmphy:genus="Dipodascus" cmphy:species="albidus" cmphy:strain="NRRL Y-12859T" cmphy:id="U40081" editRecord="[]">Dipodascus albidus NRRL Y-12859T (U40081)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Geotrichum" cmphy:species="silvicola" cmphy:strain="UFMG-354-2T" cmphy:id="AYI58042" editRecord="[1__I]">Geotrichum silvicola UFMG-354-2T (AY158042)</otu>
+  <otu id="otu5">Galactomyces geotrichum NRRL Y-17569T (U401 18)</otu>
+  <otu id="otu6">Galactomyces sp. NRRL Y-6418 (AF017396)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="154.0" y="265.0"/>
+   <node id="NT1.6" label="NT1.6" x="217.0" y="306.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="229.0" y="441.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="231.0" y="103.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="48.0" y="307.0" root="true"/>
+   <edge id="e.0" target="NT1.6" source="NT1.1"/>
+   <edge id="e.5" source="NT1.11" target="NT1.1"/>
+   <edge id="e.6" source="NT1.11" target="NT1.7"/>
+   <edge id="e.8" target="NT1.8" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

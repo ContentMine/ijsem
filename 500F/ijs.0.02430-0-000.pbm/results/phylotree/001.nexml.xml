@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">V. prateolyticus</otu>
+  <otu id="otu3">V. parahaemolyticus ATCC 17802T (X74720)</otu>
+  <otu id="otu4">V. natriegens ATCC 140487 (X74714)</otu>
+  <otu id="otu5">V. alginolyticus ATCC 177497 (X74690)</otu>
+  <otu id="otu6" cmphy:genus="Listanella" cmphy:species="pelagia" cmphy:strain="ATCC 25916T" cmphy:id="X74722" editRecord="[]">Listanella pelagia ATCC 25916T (X74722)</otu>
+  <otu id="otu7">LMG 2146oT (AJ3l6187)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">V. campbellii ATCC 25920T (X74692)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.13" label="NT1.13" x="1107.0" y="560.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="7.0" y="614.0" root="true"/>
+   <edge id="e.13" target="NT1.13" source="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

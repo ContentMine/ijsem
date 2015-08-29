@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Methylaphaga" cmphy:species="thalassica" cmphy:strain="ATCC 33146T" cmphy:id="X87339" editRecord="[]">Methylaphaga thalassica ATCC 33146T (X87339)</otu>
+  <otu id="otu4" cmphy:genus="Methylophaga" cmphy:species="marina" cmphy:strain="ATCC 35842T" cmphy:id="X87338" editRecord="[]">Methylophaga marina ATCC 35842T (X87338)</otu>
+  <otu id="otu5" cmphy:genus="Methyluphaga" cmphy:species="sulfidovomns" cmphy:strain="RB-1T" cmphy:id="X95461" editRecord="[]">Methyluphaga sulfidovomns RB-1T (X95461)</otu>
+  <otu id="otu6">Methylophilus unidentified proteobacterium arc33 (U76l00)</otu>
+  <otu id="otu7">Methylophaga alcalica M391-(AF384373)</otu>
+  <otu id="otu8">'Methylophaga natronicd Bur2 (AY128533)</otu>
+  <otu id="otu9">Mezhylabacillus Sp. 12S (AB062506)</otu>
+  <otu id="otu10">Mezhylabacillus Sp. 12S (AB062506)</otu>
+  <otu id="otu11">'MethyZophilusj1eyburgensi' I 42 (AJ5l7772)</otu>
+  <otu id="otu12" cmphy:genus="Methylophilus" cmphy:species="methylotrophus" cmphy:strain="ASIT" cmphy:id="L15475" editRecord="[]">Methylophilus methylotrophus ASIT (L15475)</otu>
+  <otu id="otu13">'Aminam0nas aminovnruf C2A1 (AY02780l)</otu>
+  <otu id="otu14">'MethyZophilusj1eyburgensi' I 42 (AJ5l7772)</otu>
+  <otu id="otu15" cmphy:genus="Methylobacillus" cmphy:species="glycogenes" cmphy:strain="ATCC 29475T" cmphy:id="M95652" editRecord="[]">Methylobacillus glycogenes ATCC 29475T (M95652)</otu>
+  <otu id="otu16">'Methylol7acillus methylovard (M95660)</otu>
+  <otu id="otu17">'Methyl0bacillus methylavard (M95661)</otu>
+  <otu id="otu18">Methylobacillusjlagellatus KTT (M95651)</otu>
+  <otu id="otu19">'Methyl0bacillus methylavard (M95661)</otu>
+  <otu id="otu20" cmphy:genus="Rhodocyclus" cmphy:species="purpureus" cmphy:strain="DSM 16811" cmphy:id="M34132" editRecord="[]">Rhodocyclus purpureus DSM 16811 (M34132)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Methylobacillus" cmphy:species="pratensis" cmphy:strain="F31T" cmphy:id="AYZ98905" editRecord="[2__Z]">Methylobacillus pratensis F31T (AY298905)</otu>
+  <otu id="otu22" cmphy:edit="[2__Z]" cmphy:genus="Methylophilus" cmphy:species="leisingeri" cmphy:strain="DM1 IT" cmphy:id="AFZ50333" editRecord="[2__Z]">Methylophilus leisingeri DM1 IT (AF250333)</otu>
+  <otu id="otu23">Alcaligenesfaecalis ATCC 8750T (M22508)</otu>
+  <otu id="otu24" cmphy:genus="Spirillum" cmphy:species="volutans" cmphy:strain="ATCC 19554T" cmphy:id="M34131" editRecord="[]">Spirillum volutans ATCC 19554T (M34131)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="590.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="6.0" y="590.0"/>
+   <node id="NT1.3" x="267.0" y="509.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="293.0" y="798.0"/>
+   <node id="NT1.7" label="NT1.7" x="307.0" y="841.0"/>
+   <node id="NT1.10" label="NT1.10" x="330.0" y="630.0"/>
+   <node id="NT1.13" label="NT1.13" x="349.0" y="905.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="351.0" y="756.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="363.0" y="805.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="389.0" y="330.0"/>
+   <node id="NT1.25" label="NT1.25" x="499.0" y="169.0"/>
+   <node id="NT1.28" label="NT1.28" x="510.0" y="410.0"/>
+   <node id="NT1.31" label="NT1.31" x="527.0" y="460.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="549.0" y="63.0" otu="otu15"/>
+   <node id="NT1.41" label="NT1.41" x="587.0" y="608.0" otu="otu20"/>
+   <node id="NT1.42" label="NT1.42" x="597.0" y="212.0" otu="otu21"/>
+   <node id="NT1.43" label="NT1.43" x="603.0" y="410.0" otu="otu22"/>
+   <node id="NT1.45" label="NT1.45" x="638.0" y="657.0" otu="otu24"/>
+   <edge id="e.2" target="NT1.35" source="NT1.25"/>
+   <edge id="e.7" source="NT1.28" target="NT1.43"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" target="NT1.25" source="NT1.16"/>
+   <edge id="e.18" target="NT1.16" source="NT1.3"/>
+   <edge id="e.21" target="NT1.28" source="NT1.16"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.25" target="NT1.10" source="NT1.3"/>
+   <edge id="e.27" target="NT1.5" source="NT1.2"/>
+   <edge id="e.28" source="NT1.5" target="NT1.7"/>
+   <edge id="e.31" source="NT1.5" target="NT1.14"/>
+   <edge id="e.32" source="NT1.7" target="NT1.15"/>
+   <edge id="e.34" target="NT1.13" source="NT1.7"/>
+   <edge id="e.37" source="NT1.10" target="NT1.41"/>
+   <edge id="e.38" source="NT1.10" target="NT1.45"/>
+   <edge id="e.40" source="NT1.28" target="NT1.31"/>
+   <edge id="e.43" source="NT1.25" target="NT1.42"/>
+  </tree>
+ </trees>
+</nexml>

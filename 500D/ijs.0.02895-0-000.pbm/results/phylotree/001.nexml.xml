@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">CB. megaterium IAM 134187 (D16273)</otu>
+  <otu id="otu3">B. aquimaris TF-127 (AF483625)</otu>
+  <otu id="otu4">15-17 (AB099708)</otu>
+  <otu id="otu5">B. marisf7avi TFB1 17 (AF483624)</otu>
+  <otu id="otu6">B. atrophaeus NCIMB 128997 (X60607)</otu>
+  <otu id="otu7">B. subtilis subsp. subtilis Marburg 168 (ALOO9126)</otu>
+  <otu id="otu8">B. subtilis subsp. spizizenii NRRL B-230497 (AF074970)</otu>
+  <otu id="otu9"> B. firmus JCM 25127(D78314)</otu>
+  <otu id="otu10">B. coagulans JCM 22577 (D78313)</otu>
+  <otu id="otu11">B. vallismortis DSM 110317 (AB021198)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">NRRL B-14350 (AF156316)</otu>
+  <otu id="otu14">B. licheniformis NCDO 17727 (X60623)</otu>
+  <otu id="otu15">B. amyloliquefaciens ATCC 233507 (X60605)</otu>
+  <otu id="otu16">B. pumilus NCDO 17667 (X60637)</otu>
+  <otu id="otu17">B. cereus IAM 126057 (D16266)</otu>
+  <otu id="otu18" cmphy:genus="Halobacillus" cmphy:species="halophilus" cmphy:strain="NCIMB 92517" cmphy:id="S49902" editRecord="[]">Halobacillus halophilus NCIMB 92517 (S49902)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="694.0" otu="otu1" root="true"/>
+   <node id="NT1.34" label="NT1.34" x="287.0" y="726.0" otu="otu18"/>
+   <edge id="e.15" target="NT1.34" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

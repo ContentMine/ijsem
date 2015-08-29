@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Crocinitomix" cmphy:species="catalasitica" cmphy:strain="NCIMB 1418T" cmphy:id="M58791" editRecord="[]">Crocinitomix catalasitica NCIMB 1418T (M58791)</otu>
+  <otu id="otu3">Owenweeksia hongkongensis UST20020801T(AB125O62)</otu>
+  <otu id="otu4">Uncultured bacterium clone ARKIA-105</otu>
+  <otu id="otu5">wytophaga1fermentans ATCC 190727 (M58766)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Brumimicrobium" cmphy:species="glaciale" cmphy:strain="ACAM 645T" cmphy:id="AFS21195" editRecord="[5__S]">Brumimicrobium glaciale ACAM 645T (AF521195)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Vitellibacter" cmphy:species="vladivostokensis" cmphy:strain="KMM 3516'" cmphy:id="ABO71382" editRecord="[0__O]">Vitellibacter vladivostokensis KMM 3516' (AB071382)</otu>
+  <otu id="otu8" cmphy:genus="Polanbacter" cmphy:species="filamentus" cmphy:strain="ATCC 700397T" cmphy:id="U73726" editRecord="[]">Polanbacter filamentus ATCC 700397T (U73726)</otu>
+  <otu id="otu9" cmphy:genus="Tenacibaculum" cmphy:species="maritimum" cmphy:strain="ATCC 43398V" cmphy:id="M58770" editRecord="[]">Tenacibaculum maritimum ATCC 43398V (M58770)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Zobellia" cmphy:species="uliginosa" cmphy:strain="ATCC 143977" cmphy:id="M62799" editRecord="[]">Zobellia uliginosa ATCC 143977 (M62799)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Muricauda" cmphy:species="ruestringensis" cmphy:strain="DSM 13258T" cmphy:id="AFZ18782" editRecord="[2__Z]">Muricauda ruestringensis DSM 13258T (AF218782)</otu>
+  <otu id="otu13" cmphy:genus="Marinilabilia" cmphy:species="salmonicolor" cmphy:strain="ATCC 19043" cmphy:id="M62422" editRecord="[]">Marinilabilia salmonicolor ATCC 19043 (M62422)</otu>
+  <otu id="otu14">Anaenophaga thermohalophila DSM 12881 T (AJ418048)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="12.0" y="504.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="60.0" y="504.0"/>
+   <node id="NT1.3" label="NT1.3" x="68.0" y="450.0"/>
+   <node id="NT1.4" label="NT1.4" x="111.0" y="396.0"/>
+   <node id="NT1.6" label="NT1.6" x="144.0" y="236.0"/>
+   <node id="NT1.9" label="NT1.9" x="225.0" y="203.0"/>
+   <node id="NT1.10" label="NT1.10" x="268.0" y="292.0"/>
+   <node id="NT1.11" label="NT1.11" x="271.0" y="146.0"/>
+   <node id="NT1.13" label="NT1.13" x="355.0" y="371.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="398.0" y="421.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="405.0" y="221.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="405.0" y="321.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="412.0" y="270.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="442.0" y="121.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="442.0" y="171.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="442.0" y="671.0" otu="otu13"/>
+   <edge id="e.0" source="NT1.9" target="NT1.18"/>
+   <edge id="e.1" source="NT1.10" target="NT1.20"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.9" target="NT1.11"/>
+   <edge id="e.5" source="NT1.6" target="NT1.9"/>
+   <edge id="e.6" source="NT1.3" target="NT1.6"/>
+   <edge id="e.7" source="NT1.6" target="NT1.10"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" source="NT1.4" target="NT1.17"/>
+   <edge id="e.15" source="NT1.4" target="NT1.13"/>
+   <edge id="e.19" source="NT1.11" target="NT1.23"/>
+   <edge id="e.20" source="NT1.10" target="NT1.19"/>
+   <edge id="e.21" source="NT1.11" target="NT1.22"/>
+   <edge id="e.23" target="NT1.24" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Isoptericola" cmphy:species="variabilis" cmphy:strain="MXST" cmphy:id="AJZ98873" editRecord="[2__Z]">Isoptericola variabilis MXST (AJ298873)</otu>
+  <otu id="otu3">Xylanimicrobium pachnndae DSM 12657T(AF105422)</otu>
+  <otu id="otu4" cmphy:genus="Cellulasimicrobium" cmphy:species="cellulans" cmphy:strain="DSM 43879T" cmphy:id="X83809" editRecord="[]">Cellulasimicrobium cellulans DSM 43879T (X83809)</otu>
+  <otu id="otu5">Promicromonospora citrea DSM 431 10 (X83808)</otu>
+  <otu id="otu6">Promicromonospora sukumoe DSM 4412 lT(AJ272024)</otu>
+  <otu id="otu7" cmphy:genus="Promicromonospora" cmphy:species="aerolata" cmphy:strain="IFO 16526T" cmphy:id="AJ487303" editRecord="[]">Promicromonospora aerolata IFO 16526T (AJ487303)</otu>
+  <otu id="otu8" cmphy:genus="Arthrobacter" cmphy:species="glubiformis" cmphy:strain="DSM 20124T" cmphy:id="X80736" editRecord="[]">Arthrobacter glubiformis DSM 20124T (X80736)</otu>
+  <otu id="otu9">Promicromonospora vindobanensis</otu>
+  <otu id="otu10" cmphy:genus="Xylanimonas" cmphy:species="cellulosilytica" cmphy:strain="LMG 20990T" cmphy:id="AF403541" editRecord="[]">Xylanimonas cellulosilytica LMG 20990T (AF403541)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Xylanibacterium" cmphy:species="ulmi" cmphy:strain="XILOST" cmphy:id="AYZ73185" editRecord="[2__Z]">Xylanibacterium ulmi XILOST (AY273185)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="108.0" y="448.0"/>
+   <node id="NT1.2" label="NT1.2" x="128.0" y="319.0"/>
+   <node id="NT1.3" label="NT1.3" x="161.0" y="284.0" otu="otu1"/>
+   <node id="NT1.4" label="NT1.4" x="161.0" y="198.0"/>
+   <node id="NT1.5" label="NT1.5" x="174.0" y="419.0"/>
+   <node id="NT1.6" label="NT1.6" x="207.0" y="467.0"/>
+   <node id="NT1.7" label="NT1.7" x="256.0" y="511.0"/>
+   <node id="NT1.8" label="NT1.8" x="261.0" y="364.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="282.0" y="108.0"/>
+   <node id="NT1.10" label="NT1.10" x="319.0" y="483.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="328.0" y="605.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="330.0" y="45.0"/>
+   <node id="NT1.13" label="NT1.13" x="339.0" y="192.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="352.0" y="133.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="356.0" y="75.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="360.0" y="662.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="364.0" y="15.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="364.0" y="424.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="376.0" y="543.0" otu="otu11"/>
+   <edge source="NT1.15" target="NT1.12" id="e.0"/>
+   <edge source="NT1.3" target="NT1.4" id="e.1"/>
+   <edge source="NT1.18" target="NT1.6" id="e.2"/>
+   <edge source="NT1.19" target="NT1.7" id="e.3"/>
+   <edge source="NT1.12" target="NT1.9" id="e.4"/>
+   <edge source="NT1.9" target="NT1.4" id="e.5"/>
+   <edge source="NT1.4" target="NT1.2" id="e.6"/>
+   <edge source="NT1.2" target="NT1.1" id="e.7"/>
+   <edge source="NT1.2" target="NT1.5" id="e.8"/>
+   <edge source="NT1.5" target="NT1.6" id="e.9"/>
+   <edge source="NT1.6" target="NT1.7" id="e.10"/>
+   <edge source="NT1.16" target="NT1.1" id="e.11"/>
+   <edge source="NT1.11" target="NT1.1" id="e.12"/>
+   <edge source="NT1.8" target="NT1.5" id="e.13"/>
+   <edge source="NT1.10" target="NT1.7" id="e.14"/>
+   <edge source="NT1.13" target="NT1.9" id="e.15"/>
+   <edge source="NT1.14" target="NT1.9" id="e.16"/>
+   <edge source="NT1.17" target="NT1.12" id="e.17"/>
+  </tree>
+ </trees>
+</nexml>

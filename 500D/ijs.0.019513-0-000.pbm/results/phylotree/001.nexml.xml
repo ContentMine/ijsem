@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Silicibacter" cmphy:species="lacuscaerulensis" cmphy:strain="ITI-1 1577" cmphy:id="U77644" editRecord="[]">Silicibacter lacuscaerulensis ITI-1 1577 (U77644)</otu>
+  <otu id="otu3">Thalassobius gelatinovorum IAM 1261 7T (D88523)</otu>
+  <otu id="otu4" cmphy:genus="Sulfitobacter" cmphy:species="marinus" cmphy:strain="SW-2657" cmphy:id="DQ683726" editRecord="[]">Sulfitobacter marinus SW-2657 (DQ683726)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">Roseovarius aestuariiSMK-122T(EU156O66)</otu>
+  <otu id="otu7"> Roseovarius crassostreae CV919-312T(AF1 14484)</otu>
+  <otu id="otu8"> Roseobacter litoralis ATCC 495667 (X7831 2)</otu>
+  <otu id="otu9" cmphy:genus="Thalassobacter" cmphy:species="stenotrophicus" cmphy:strain="CECT 5294T" cmphy:id="AJ631302" editRecord="[]"> Thalassobacter stenotrophicus CECT 5294T (AJ631302)</otu>
+  <otu id="otu10"> Thalassobacter arenae GA2-M15T(EU342372)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Thalassobius aestuarii JC2O49T (AY4421 78)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Pseudoruegeria" cmphy:species="aquimaris" cmphy:strain="SW-255T" cmphy:id="DQ675021" editRecord="[]">Pseudoruegeria aquimaris SW-255T (DQ675021)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Jannaschia" cmphy:species="helgolandensis" cmphy:strain="Hel 107" cmphy:id="AJ438157" editRecord="[]">Jannaschia helgolandensis Hel 107 (AJ438157)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">Litoreibacter albidus KMM 3851 T (AB518BB1)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Jannaschia" cmphy:species="donghaensis" cmphy:strain="DSW-17T" cmphy:id="EFZ02612" editRecord="[2__Z]">Jannaschia donghaensis DSW-17T (EF202612)</otu>
+  <otu id="otu22"> Roseovarius pacificus 81-2T(DO12O726)</otu>
+  <otu id="otu23" cmphy:edit="[1__I]" cmphy:genus="Kelogulonicigenium" cmphy:species="vulgare" cmphy:strain="DSM 4O25T" cmphy:id="AFI36849" editRecord="[1__I]">Kelogulonicigenium vulgare DSM 4O25T (AF136849)</otu>
+  <otu id="otu24"/>
+  <otu id="otu25"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="842.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="172.0" y="764.0"/>
+   <node id="NT1.3" x="268.0" y="636.0" label="80"/>
+   <node id="NT1.4" label="NT1.4" x="286.0" y="445.0"/>
+   <node id="NT1.7" label="NT1.7" x="327.0" y="304.0"/>
+   <node id="NT1.11" label="NT1.11" x="373.0" y="326.0"/>
+   <node id="NT1.13" label="NT1.13" x="407.0" y="891.0" otu="otu2"/>
+   <node id="NT1.21" x="482.0" y="296.0" label="96"/>
+   <node id="NT1.24" label="NT1.24" x="560.0" y="487.0" otu="otu4"/>
+   <node id="NT1.30" label="NT1.30" x="576.0" y="350.0" otu="otu9"/>
+   <node id="NT1.37" label="NT1.37" x="618.0" y="184.0" otu="otu15"/>
+   <node id="NT1.40" label="NT1.40" x="647.0" y="314.0" otu="otu18"/>
+   <node id="NT1.43" label="NT1.43" x="675.0" y="280.0" otu="otu21"/>
+   <node id="NT1.45" label="NT1.45" x="700.0" y="857.0" otu="otu23"/>
+   <edge id="e.6" target="NT1.37" source="NT1.7"/>
+   <edge id="e.8" source="NT1.11" target="NT1.30"/>
+   <edge id="e.9" source="NT1.21" target="NT1.40"/>
+   <edge id="e.11" source="NT1.21" target="NT1.43"/>
+   <edge id="e.15" target="NT1.24" source="NT1.4"/>
+   <edge id="e.20" source="NT1.1" target="NT1.2"/>
+   <edge id="e.21" source="NT1.2" target="NT1.13"/>
+   <edge id="e.23" target="NT1.45" source="NT1.3"/>
+   <edge id="e.31" source="NT1.4" target="NT1.7"/>
+   <edge id="e.32" source="NT1.7" target="NT1.11"/>
+   <edge id="e.34" source="NT1.11" target="NT1.21"/>
+   <edge id="e.35" source="NT1.3" target="NT1.4"/>
+   <edge id="e.40" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

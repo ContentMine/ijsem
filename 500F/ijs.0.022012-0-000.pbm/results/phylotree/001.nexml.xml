@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Dyella ginsengisoIiGsoil 3O46T (AB245367)</otu>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Luteibacter" cmphy:species="rhizovicinus" cmphy:strain="LJ96T" cmphy:id="AJS80498" editRecord="[5__S]">Luteibacter rhizovicinus LJ96T (AJ580498)</otu>
+  <otu id="otu3" cmphy:edit="[8__B]" cmphy:genus="Dyella" cmphy:species="koreensis" cmphy:strain="BB4T" cmphy:id="AYB84571" editRecord="[8__B]">Dyella koreensis BB4T (AY884571)</otu>
+  <otu id="otu4">Luteibacteryeojuensis R2A16-10T(DO181549)</otu>
+  <otu id="otu5">Dyella soli JS1 2-1 OT (EU604272)</otu>
+  <otu id="otu6">Frateuria aurantia IFO 3245T(AJO1O481)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Dyella" cmphy:species="thiooxydans" cmphy:strain="ATSB10T" cmphy:id="EFB97574" editRecord="[3__B]">Dyella thiooxydans ATSB10T (EF397574)</otu>
+  <otu id="otu8">Luteibacter anthropi CCUG 25O36T(FM212561)</otu>
+  <otu id="otu9">Dyella marensis CS5-B2T (AM9397 78)</otu>
+  <otu id="otu10">Dyella japonica XD53T (AB1 10498)</otu>
+  <otu id="otu11">Dyella terrae JS14-6T(EU6O4273)</otu>
+  <otu id="otu12">Rhodanobacter terrae GP18-1T(EF166O76)</otu>
+  <otu id="otu13" cmphy:genus="Rhodanobacter" cmphy:species="spathiphylli" cmphy:strain="B39T" cmphy:id="AMO87226" editRecord="[]">Rhodanobacter spathiphylli B39T (AMO87226)</otu>
+  <otu id="otu14">Fulvimonas soli LMG 19981 T (A131 1653)</otu>
+  <otu id="otu15">Rhodanobacter gI'nsengisoliGR17-7T(EF166075)</otu>
+  <otu id="otu16">Rhodanobacterfulvus Jip2T (AB100608)</otu>
+  <otu id="otu17">Rhodanobacter thiooxydans LCS2T (AB2861 79)</otu>
+  <otu id="otu18">Rhodanobacter lindaniclasticus RP5557T(AF039167)</otu>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="Rhodanobacter" cmphy:species="ginsenosidimutans" cmphy:strain="Gsoil 3054T" cmphy:id="EUB32826" editRecord="[3__B]">Rhodanobacter ginsenosidimutans Gsoil 3054T (EU332826)</otu>
+  <otu id="otu20">Nevskia ramosa SoeT(AJOO1O1O)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="313.0" y="455.0"/>
+   <node id="NT1.2" label="NT1.2" x="327.0" y="332.0"/>
+   <node id="NT1.4" label="NT1.4" x="339.0" y="224.0"/>
+   <node id="NT1.14" label="NT1.14" x="401.0" y="117.0"/>
+   <node id="NT1.16" label="NT1.16" x="402.0" y="586.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="403.0" y="384.0" otu="otu3"/>
+   <node id="NT1.22" label="NT1.22" x="418.0" y="284.0" otu="otu7"/>
+   <node id="NT1.30" label="NT1.30" x="462.0" y="149.0" otu="otu13"/>
+   <node id="NT1.37" label="NT1.37" x="515.0" y="49.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="3.0" y="554.0" root="true"/>
+   <edge id="e.0" target="NT1.37" source="NT1.14"/>
+   <edge id="e.3" target="NT1.30" source="NT1.14"/>
+   <edge id="e.6" target="NT1.17" source="NT1.2"/>
+   <edge id="e.11" target="NT1.16" source="NT1.1"/>
+   <edge id="e.16" target="NT1.14" source="NT1.4"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.23" source="NT1.1" target="NT1.2"/>
+   <edge id="e.30" source="NT1.39" target="NT1.1"/>
+   <edge id="e.32" target="NT1.22" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

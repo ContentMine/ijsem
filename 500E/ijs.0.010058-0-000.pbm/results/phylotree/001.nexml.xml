@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Natronocella acetinitrilica ANL 6-2T(EF1O3128)</otu>
+  <otu id="otu4">Ectothiorhodospira shaposhnikovii DSM 243T (M591 51)</otu>
+  <otu id="otu5">Thioalkalivibrio denitrificans ALJ D7 (AF1 26545)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[8__B]" cmphy:genus="Thiohalomonas" cmphy:species="nitratireducens" cmphy:strain="HRhD 3spT" cmphy:id="DQB36238" editRecord="[8__B]">Thiohalomonas nitratireducens HRhD 3spT (DQ836238)</otu>
+  <otu id="otu8">E Salinisphaera dokdonensis CL-E8537 (EF988634)</otu>
+  <otu id="otu9">Thioalkalispira microaerophila ALEN 1T (AF481 1 18)</otu>
+  <otu id="otu10">Thioflavicoccus mobilis 8321 T (AJO101 25)</otu>
+  <otu id="otu11">Alkalispirillum mobile DSM 1 2769T (AF1 14783)</otu>
+  <otu id="otu12" cmphy:genus="Alcalilimnicola" cmphy:species="halodurans" cmphy:strain="34AIcT" cmphy:id="AJ404972" editRecord="[]">Alcalilimnicola halodurans 34AIcT (AJ404972)</otu>
+  <otu id="otu13" cmphy:edit="[8__B]" cmphy:genus="Methylothermus" cmphy:species="thermalis" cmphy:strain="MYHTT" cmphy:id="AYB29009" editRecord="[8__B]">Methylothermus thermalis MYHTT (AY829009)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Zooshikella" cmphy:species="ganghwensis" cmphy:strain="JC2044T" cmphy:id="AYI30994" editRecord="[1__I]">Zooshikella ganghwensis JC2044T (AY130994)</otu>
+  <otu id="otu16" cmphy:genus="Halothiobacillus" cmphy:species="hydrothermalis" cmphy:strain="R3T" cmphy:id="M90662" editRecord="[]">Halothiobacillus hydrothermalis R3T (M90662)</otu>
+  <otu id="otu17" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="DSM 50071T" cmphy:id="X06684" editRecord="[]">Pseudomonas aeruginosa DSM 50071T (X06684)</otu>
+  <otu id="otu18">Halomonas elongata ATCC 331 73T (M93355)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20" cmphy:genus="Salinisphaera" cmphy:species="shabanensis" cmphy:strain="E1L3AT" cmphy:id="AJ421425" editRecord="[]">Salinisphaera shabanensis E1L3AT (AJ421425)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Schineria" cmphy:species="larvae" cmphy:strain="L1 i68T" cmphy:id="AJZ52143" editRecord="[2__Z]">Schineria larvae L1 i68T (AJ252143)</otu>
+  <otu id="otu22">Salinisphaera hydrothermalis EPR70T (EU 74041 6)</otu>
+  <otu id="otu23">Escherichia coli ATCC 1 1 775T (X80725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="903.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="85.0" y="843.0"/>
+   <node id="NT1.5" label="NT1.5" x="143.0" y="414.0"/>
+   <node id="NT1.6" label="NT1.6" x="161.0" y="558.0"/>
+   <node id="NT1.7" label="NT1.7" x="167.0" y="269.0"/>
+   <node id="NT1.8" label="NT1.8" x="200.0" y="501.0"/>
+   <node id="NT1.10" x="221.0" y="327.0" label="65"/>
+   <node id="NT1.12" label="NT1.12" x="227.0" y="662.0"/>
+   <node id="NT1.23" label="NT1.23" x="436.0" y="610.0" otu="otu7"/>
+   <node id="NT1.29" label="NT1.29" x="481.0" y="768.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="484.0" y="927.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="511.0" y="491.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="515.0" y="292.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="524.0" y="531.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="583.0" y="412.0" otu="otu20"/>
+   <node id="NT1.39" label="NT1.39" x="604.0" y="253.0" otu="otu21"/>
+   <edge id="e.1" source="NT1.7" target="NT1.39"/>
+   <edge id="e.3" source="NT1.10" target="NT1.34"/>
+   <edge id="e.4" target="NT1.38" source="NT1.10"/>
+   <edge id="e.8" source="NT1.12" target="NT1.23"/>
+   <edge id="e.9" source="NT1.8" target="NT1.35"/>
+   <edge id="e.10" target="NT1.33" source="NT1.8"/>
+   <edge id="e.16" target="NT1.29" source="NT1.12"/>
+   <edge id="e.17" source="NT1.5" target="NT1.7"/>
+   <edge id="e.18" source="NT1.7" target="NT1.10"/>
+   <edge id="e.20" target="NT1.5" source="NT1.2"/>
+   <edge id="e.21" source="NT1.5" target="NT1.6"/>
+   <edge id="e.23" source="NT1.6" target="NT1.8"/>
+   <edge id="e.27" target="NT1.12" source="NT1.6"/>
+   <edge id="e.33" source="NT1.1" target="NT1.2"/>
+   <edge id="e.34" source="NT1.2" target="NT1.30"/>
+  </tree>
+ </trees>
+</nexml>

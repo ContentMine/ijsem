@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Kaistia" cmphy:species="dalseonensis" cmphy:strain="B6-87" cmphy:id="AM409364" editRecord="[]">Kaistia dalseonensis B6-87 (AM409364)</otu>
+  <otu id="otu2">Kaistia SON KACC 12605T (EF592509)</otu>
+  <otu id="otu3" cmphy:genus="Azorhizobium" cmphy:species="caulinodans" cmphy:strain="LMG 6465T" cmphy:id="X67221" editRecord="[]">Azorhizobium caulinodans LMG 6465T (X67221)</otu>
+  <otu id="otu4">Kaistia terrae KACC 1291 OT (EU723082)</otu>
+  <otu id="otu5"> Kaistia granuli</otu>
+  <otu id="otu6"> Ensifer adhaerens ATCC 33212T(AF191 739)</otu>
+  <otu id="otu7"> Sinorhizobium fredii ATCC 35423T (D1451 6)</otu>
+  <otu id="otu8" cmphy:genus="Kaistia" cmphy:species="geumhonensis" cmphy:strain="B1 -17" cmphy:id="AM409363" editRecord="[]">Kaistia geumhonensis B1 -17 (AM409363)</otu>
+  <otu id="otu9">Kaistia adipata KCTC 12095T(AYO39817)</otu>
+  <otu id="otu10"> Sinorhizobium kummerowiae CCBAU 71714T(AF364067)</otu>
+  <otu id="otu11"> Phyllobacterium myrsinacearum IAM 13587T(D1279O)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Rhizobium" cmphy:species="indigoferae" cmphy:strain="CCBAU 71042T" cmphy:id="AFB64068" editRecord="[3__B]">Rhizobium indigoferae CCBAU 71042T (AF364068)</otu>
+  <otu id="otu13">Mesorhizobium loti LMG 61 257 (X67229)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Mesorhizobium" cmphy:species="ciceri" cmphy:strain="C-2l2T" cmphy:id="AYZ06686" editRecord="[2__Z]">Mesorhizobium ciceri C-2l2T (AY206686)</otu>
+  <otu id="otu15"> Chelatobacter heintzii DSM 6450T (AJO1 1 762)</otu>
+  <otu id="otu16" cmphy:genus="Rhizobium" cmphy:species="leguminosarum" cmphy:strain="ATCC 1OO04T" cmphy:id="U29386" editRecord="[]">Rhizobium leguminosarum ATCC 1OO04T (U29386)</otu>
+  <otu id="otu17" cmphy:genus="Agrobacterium" cmphy:species="tumefaciens" cmphy:strain="ATCC 233O8T" cmphy:id="D14500" editRecord="[]">Agrobacterium tumefaciens ATCC 233O8T (D14500)</otu>
+  <otu id="otu18" cmphy:genus="Agrobacterium" cmphy:species="rubi" cmphy:strain="IFO 13261T" cmphy:id="D14503" editRecord="[]"> Agrobacterium rubi IFO 13261T (D14503)</otu>
+  <otu id="otu19" cmphy:genus="Phyllobacterium" cmphy:species="catacumbae" cmphy:strain="CSC32T" cmphy:id="AY635999" editRecord="[]">Phyllobacterium catacumbae CSC32T (AY635999)</otu>
+  <otu id="otu20" cmphy:edit="[2__Z]" cmphy:genus="Bradyrhizobium" cmphy:species="liaoningense" cmphy:strain="LMG 18230T" cmphy:id="AJZ50813" editRecord="[2__Z]"> Bradyrhizobium liaoningense LMG 18230T (AJ250813)</otu>
+  <otu id="otu21">Allorhizobium undicola LMG 1 1875T (Y17047)</otu>
+  <otu id="otu22"> Bradyrhizobium japonicum USDA 1 1OT (D13430)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="10.0" y="398.0"/>
+   <node id="NT1.2" x="34.0" y="655.0" label="76"/>
+   <node id="NT1.3" x="183.0" y="244.0" label="100"/>
+   <node id="NT1.4" x="196.0" y="551.0" label="100"/>
+   <node id="NT1.6" x="227.0" y="162.0" label="72"/>
+   <node id="NT1.8" x="250.0" y="327.0" label="99"/>
+   <node id="NT1.13" x="311.0" y="226.0" label="100"/>
+   <node id="NT1.14" label="NT1.14" x="317.0" y="598.0" otu="otu1"/>
+   <node id="NT1.17" label="NT1.17" x="330.0" y="631.0" otu="otu3"/>
+   <node id="NT1.25" label="NT1.25" x="353.0" y="566.0" otu="otu8"/>
+   <node id="NT1.30" label="NT1.30" x="391.0" y="210.0" otu="otu12"/>
+   <node id="NT1.32" label="NT1.32" x="400.0" y="372.0" otu="otu14"/>
+   <node id="NT1.34" label="NT1.34" x="420.0" y="243.0" otu="otu16"/>
+   <node id="NT1.35" x="462.0" y="33.0" label="100"/>
+   <node id="NT1.36" label="NT1.36" x="498.0" y="49.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="508.0" y="17.0" otu="otu18"/>
+   <node id="NT1.38" label="NT1.38" x="508.0" y="275.0" otu="otu19"/>
+   <node id="NT1.40" label="NT1.40" x="537.0" y="695.0" otu="otu20"/>
+   <node id="NT1.43" label="NT1.43" x="4.0" y="526.0" root="true"/>
+   <edge id="e.0" source="NT1.35" target="NT1.37"/>
+   <edge id="e.1" source="NT1.35" target="NT1.36"/>
+   <edge id="e.6" source="NT1.13" target="NT1.30"/>
+   <edge id="e.7" source="NT1.13" target="NT1.34"/>
+   <edge id="e.10" target="NT1.32" source="NT1.8"/>
+   <edge id="e.12" target="NT1.38" source="NT1.8"/>
+   <edge id="e.13" source="NT1.4" target="NT1.14"/>
+   <edge id="e.16" target="NT1.25" source="NT1.4"/>
+   <edge id="e.18" source="NT1.2" target="NT1.17"/>
+   <edge id="e.20" target="NT1.40" source="NT1.2"/>
+   <edge id="e.22" target="NT1.35" source="NT1.6"/>
+   <edge id="e.26" source="NT1.3" target="NT1.6"/>
+   <edge id="e.27" source="NT1.6" target="NT1.13"/>
+   <edge id="e.29" source="NT1.1" target="NT1.3"/>
+   <edge id="e.30" source="NT1.3" target="NT1.8"/>
+   <edge id="e.34" source="NT1.1" target="NT1.4"/>
+   <edge id="e.40" source="NT1.43" target="NT1.1"/>
+   <edge id="e.41" source="NT1.43" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

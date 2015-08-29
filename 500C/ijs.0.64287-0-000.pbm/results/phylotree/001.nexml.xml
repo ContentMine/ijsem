@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">CN01 IS. serratum (DQ208307)</otu>
+  <otu id="otu4">UY61 I S. scapterisci (AY521243)</otu>
+  <otu id="otu5">SaV I S. arenarium (DQ211716)</otu>
+  <otu id="otu6">KR02 I S. Iongicaudum (DQ208308)</otu>
+  <otu id="otu7">CN03I S. ceratophorum (DQ211714)</otu>
+  <otu id="otu8">ES01 Isteinernema sp. (DQ202307)</otu>
+  <otu id="otu9">lT10I S. apuliae (DQ202308)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="454.0" y="284.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

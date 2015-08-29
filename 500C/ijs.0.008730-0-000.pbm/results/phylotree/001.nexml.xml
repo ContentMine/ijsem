@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Phyllobactermm myrsinacealum IAM 1 3584T (D1 2789)</otu>
+  <otu id="otu2"> Hoeflea alexandriiAM1V30T (AJ 786600)</otu>
+  <otu id="otu3" cmphy:genus="Pseudaminobacter" cmphy:species="defluvii" cmphy:strain="THI 051T" cmphy:id="D32248" editRecord="[]">Pseudaminobacter defluvii THI 051T (D32248)</otu>
+  <otu id="otu4">Aquamicrobium defluvii DSM 1 16O3T (Y15403)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Pseudaminobacter" cmphy:species="salicylatoxidans" cmphy:strain="BN12T" cmphy:id="AFO72542" editRecord="[0__O]">Pseudaminobacter salicylatoxidans BN12T (AF072542)</otu>
+  <otu id="otu6">S8147 (FM210786)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">Hoeflea marina LMG 128T (AY59881 7)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Nitratireductor" cmphy:species="aquibiodomus" cmphy:strain="NL21T" cmphy:id="AFS34573" editRecord="[5__S]">Nitratireductor aquibiodomus NL21T (AF534573)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Parvibaculum" cmphy:species="lavamentivorans" cmphy:strain="DS-1T" cmphy:id="AYB87398" editRecord="[3__B]">Parvibaculum lavamentivorans DS-1T (AY387398)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="173.0" y="169.0"/>
+   <node id="NT1.7" label="NT1.7" x="249.0" y="161.0"/>
+   <node id="NT1.13" label="NT1.13" x="310.0" y="139.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="337.0" y="183.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="375.0" y="225.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="375.0" y="481.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="2.0" y="394.0" root="true"/>
+   <edge id="e.3" source="NT1.7" target="NT1.13"/>
+   <edge id="e.4" source="NT1.7" target="NT1.15"/>
+   <edge id="e.5" source="NT1.3" target="NT1.21"/>
+   <edge id="e.14" target="NT1.7" source="NT1.3"/>
+   <edge id="e.15" target="NT1.3" source="NT1.23"/>
+   <edge id="e.20" source="NT1.23" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

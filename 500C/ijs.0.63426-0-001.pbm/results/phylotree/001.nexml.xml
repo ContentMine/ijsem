@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Chlorobium" cmphy:species="vibrioforme" cmphy:strain="DSM 260T" cmphy:id="M62791" editRecord="[]">Chlorobium vibrioforme DSM 260T (M62791)</otu>
+  <otu id="otu2" cmphy:genus="Bacteroides" cmphy:species="putredinis" cmphy:strain="ATCC 2980GT" cmphy:id="L16497" editRecord="[]">Bacteroides putredinis ATCC 2980GT (L16497)</otu>
+  <otu id="otu3" cmphy:genus="Tannerella" cmphy:species="forsythensis" cmphy:strain="K03" cmphy:id="ABO53943" editRecord="[]">Tannerella forsythensis K03 (ABO53943)</otu>
+  <otu id="otu4" cmphy:genus="Bacteroides" cmphy:species="merdae" cmphy:strain="ATCC 431847" cmphy:id="X83954" editRecord="[]">Bacteroides merdae ATCC 431847 (X83954)</otu>
+  <otu id="otu5">Rikenella microfusus ATCC 29728T(L16498)</otu>
+  <otu id="otu6" cmphy:genus="Bacteroides" cmphy:species="splanchnicus" cmphy:strain="NCTC 10825T" cmphy:id="L16496" editRecord="[]">Bacteroides splanchnicus NCTC 10825T (L16496)</otu>
+  <otu id="otu7" cmphy:genus="Dechlorinating" cmphy:species="consortium" cmphy:strain="clone IIB-29" cmphy:id="AJ488088" editRecord="[]">Dechlorinating consortium clone IIB-29 (AJ488088)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Bovine" cmphy:species="rumen" cmphy:strain="clone" cmphy:id="ABO03390" editRecord="[0__O]">Bovine rumen clone (AB003390)</otu>
+  <otu id="otu9">Strain BN3' (AY570690)</otu>
+  <otu id="otu10" cmphy:genus="Bacteroides" cmphy:species="distasonis" cmphy:strain="ATCC 8503T" cmphy:id="M86695" editRecord="[]">Bacteroides distasonis ATCC 8503T (M86695)</otu>
+  <otu id="otu11">Bacteroides eggerthii NCTC 11 155T(L16485)</otu>
+  <otu id="otu12">Bacteroides fragilis ATCC 25285T (M1 1656)</otu>
+  <otu id="otu13" cmphy:genus="Bacteroides" cmphy:species="stercoris" cmphy:strain="ATCC 43183T" cmphy:id="X83953" editRecord="[]">Bacteroides stercoris ATCC 43183T (X83953)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Bacteroides" cmphy:species="caccae" cmphy:strain="ATCC 43185T" cmphy:id="X83951" editRecord="[]">Bacteroides caccae ATCC 43185T (X83951)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="543.0" y="503.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="543.0" y="420.0"/>
+   <node id="NT1.3" label="NT1.3" x="650.0" y="385.0"/>
+   <node id="NT1.5" label="NT1.5" x="767.0" y="282.0"/>
+   <node id="NT1.6" label="NT1.6" x="849.0" y="180.0"/>
+   <node id="NT1.7" label="NT1.7" x="849.0" y="315.0"/>
+   <node id="NT1.8" label="NT1.8" x="979.0" y="350.0"/>
+   <node id="NT1.9" label="NT1.9" x="981.0" y="434.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="1054.0" y="300.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="1054.0" y="369.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="1098.0" y="111.0"/>
+   <node id="NT1.14" label="NT1.14" x="1115.0" y="403.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="1128.0" y="205.0"/>
+   <node id="NT1.17" label="NT1.17" x="1138.0" y="197.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="1139.0" y="232.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="1207.0" y="334.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="1314.0" y="163.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="1342.0" y="58.0" otu="otu15"/>
+   <edge id="e.1" target="NT1.28" source="NT1.13"/>
+   <edge id="e.3" source="NT1.15" target="NT1.17"/>
+   <edge id="e.4" target="NT1.18" source="NT1.15"/>
+   <edge id="e.6" source="NT1.8" target="NT1.11"/>
+   <edge id="e.7" source="NT1.8" target="NT1.22"/>
+   <edge id="e.8" source="NT1.3" target="NT1.14"/>
+   <edge id="e.9" target="NT1.9" source="NT1.2"/>
+   <edge id="e.11" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" source="NT1.6" target="NT1.13"/>
+   <edge id="e.16" source="NT1.5" target="NT1.6"/>
+   <edge id="e.17" source="NT1.6" target="NT1.15"/>
+   <edge id="e.18" source="NT1.3" target="NT1.5"/>
+   <edge id="e.19" source="NT1.5" target="NT1.7"/>
+   <edge id="e.20" source="NT1.7" target="NT1.8"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.24" source="NT1.7" target="NT1.10"/>
+   <edge id="e.26" target="NT1.26" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

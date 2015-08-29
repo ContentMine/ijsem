@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Flexibacter" cmphy:species="aggregans" cmphy:strain="IFO 159777" cmphy:id="ABO78042" editRecord="[0__O]">Flexibacter aggregans IFO 159777 (AB078042)</otu>
+  <otu id="otu4" cmphy:genus="Fluviicola" cmphy:species="taffensis" cmphy:strain="RW262T" cmphy:id="AF493694" editRecord="[]">Fluviicola taffensis RW262T (AF493694)</otu>
+  <otu id="otu5"> Owenweeksia hongkongensis UST2002O8O1T(AB125062)</otu>
+  <otu id="otu6">Cryomorpha ignava ACAM 647T(AF17O738)</otu>
+  <otu id="otu7">Escherichia CON ATCC 1 1775T(X8O725)</otu>
+  <otu id="otu8">Brumimicrobium glaciale ACAM 645T (AF521 195)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="113.0" y="134.0"/>
+   <node id="NT1.9" label="NT1.9" x="219.0" y="171.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="223.0" y="132.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="1.0" y="236.0" root="true"/>
+   <edge id="e.3" target="NT1.10" source="NT1.3"/>
+   <edge id="e.4" source="NT1.3" target="NT1.9"/>
+   <edge id="e.10" target="NT1.3" source="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

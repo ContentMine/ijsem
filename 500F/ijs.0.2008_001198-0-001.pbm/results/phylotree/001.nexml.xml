@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Candida" cmphy:species="ipomoeae" cmphy:strain="UWOPS 91-672.1T" cmphy:id="DQ641236" editRecord="[]"> Candida ipomoeae UWOPS 91-672.1T (DQ641236)</otu>
+  <otu id="otu3">M. continentalis UFMG 96-173T (DQ641238)</otu>
+  <otu id="otu4">M. santaceciliae UWOPS 01-517a1T (DQ641242)</otu>
+  <otu id="otu5">M. Iochheadii UWOPS 00-133.2T (DQ641240)</otu>
+  <otu id="otu6">Metschnikowia Sp. UWOPS oo-154.1 (DQ641241)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">M. borealis UWOPS 96-104.2T (DQ641243)</otu>
+  <otu id="otu9">M. cubensis MUCL 45753T (EU143316)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="256.0" otu="otu1" root="true"/>
+   <node id="NT1.8" label="NT1.8" x="234.0" y="210.0" otu="otu2"/>
+   <edge id="e.3" target="NT1.8" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

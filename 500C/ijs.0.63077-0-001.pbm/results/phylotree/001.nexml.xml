@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Peptostreptococcus" cmphy:species="anaerobius" cmphy:strain="ATCC 27337T" cmphy:id="L04168" editRecord="[]">Peptostreptococcus anaerobius ATCC 27337T (L04168)</otu>
+  <otu id="otu4">Peptostreptococcus genospecies 3 GIFU 8124 (D14153)</otu>
+  <otu id="otu5" cmphy:genus="Peptoniphilus" cmphy:species="asaccharolyticus" cmphy:strain="ATCC 14963T" cmphy:id="D14138" editRecord="[]">Peptoniphilus asaccharolyticus ATCC 14963T (D14138)</otu>
+  <otu id="otu6" cmphy:genus="Peptostreptococcus" cmphy:species="micros" cmphy:strain="ATCC 33270T" cmphy:id="D14143" editRecord="[]">Peptostreptococcus micros ATCC 33270T (D14143)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Finegoldia" cmphy:species="magna" cmphy:strain="ATCC 15794T" cmphy:id="O14149" editRecord="[0__O]">Finegoldia magna ATCC 15794T (014149)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Peptostreptococcus genospecies 4 GIFU 7729 (AB038360)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Helcococcus" cmphy:species="ovis" cmphy:strain="CCUG 37441T" cmphy:id="Y16279" editRecord="[]">Helcococcus ovis CCUG 37441T (Y16279)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Helcococcus" cmphy:species="sueciensis" cmphy:strain="CCUG 473347" cmphy:id="AJS79914" editRecord="[5__S]">Helcococcus sueciensis CCUG 473347 (AJ579914)</otu>
+  <otu id="otu13" cmphy:genus="Gallicola" cmphy:species="barnesae" cmphy:strain="DSM 3244T" cmphy:id="ABO38361" editRecord="[]">Gallicola barnesae DSM 3244T (ABO38361)</otu>
+  <otu id="otu14" cmphy:genus="Peptoniphilus" cmphy:species="harei" cmphy:strain="DSM 1oo2oT" cmphy:id="Y07839" editRecord="[]">Peptoniphilus harei DSM 1oo2oT (Y07839)</otu>
+  <otu id="otu15" cmphy:genus="Peptoniphilus" cmphy:species="indolicus" cmphy:strain="ATCC 29427T" cmphy:id="D14147" editRecord="[]">Peptoniphilus indolicus ATCC 29427T (D14147)</otu>
+  <otu id="otu16" cmphy:genus="Helcococcus" cmphy:species="kunzii" cmphy:strain="NCIMB 7029O0T" cmphy:id="X69837" editRecord="[]">Helcococcus kunzii NCIMB 7029O0T (X69837)</otu>
+  <otu id="otu17">Anaerococcus Iactolyticus GIFU 8586T (D14154)</otu>
+  <otu id="otu18">Peptostreptococcus genospecies 2 GIFU 7946 (D14152)</otu>
+  <otu id="otu19" cmphy:genus="Anaerococcus" cmphy:species="octavius" cmphy:strain="NCTC 9810T" cmphy:id="Y07841" editRecord="[]">Anaerococcus octavius NCTC 9810T (Y07841)</otu>
+  <otu id="otu20" cmphy:genus="Anaerococcus" cmphy:species="hydrogenalis" cmphy:strain="GIFU 7662T" cmphy:id="D14140" editRecord="[]">Anaerococcus hydrogenalis GIFU 7662T (D14140)</otu>
+  <otu id="otu21" cmphy:genus="Anaerococcus" cmphy:species="vaginalis" cmphy:strain="GIFU 12669T" cmphy:id="D14146" editRecord="[]">Anaerococcus vaginalis GIFU 12669T (D14146)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="17.0" y="244.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="65.0" y="302.0"/>
+   <node id="NT1.4" label="NT1.4" x="220.0" y="777.0"/>
+   <node id="NT1.5" label="NT1.5" x="241.0" y="1137.0"/>
+   <node id="NT1.6" label="NT1.6" x="295.0" y="484.0"/>
+   <node id="NT1.8" label="NT1.8" x="347.0" y="261.0"/>
+   <node id="NT1.9" label="NT1.9" x="348.0" y="672.0"/>
+   <node id="NT1.11" label="NT1.11" x="436.0" y="1251.0"/>
+   <node id="NT1.13" label="NT1.13" x="525.0" y="79.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="539.0" y="871.0"/>
+   <node id="NT1.18" label="NT1.18" x="603.0" y="454.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="605.0" y="580.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="617.0" y="705.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="637.0" y="1267.0"/>
+   <node id="NT1.25" x="664.0" y="875.0" label="100"/>
+   <node id="NT1.26" label="NT1.26" x="664.0" y="329.0"/>
+   <node id="NT1.28" label="NT1.28" x="711.0" y="1330.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="724.0" y="1205.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="728.0" y="642.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="728.0" y="393.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="734.0" y="329.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="738.0" y="1267.0" otu="otu16"/>
+   <node id="NT1.37" label="NT1.37" x="782.0" y="768.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="796.0" y="829.0" otu="otu20"/>
+   <node id="NT1.39" label="NT1.39" x="807.0" y="955.0" otu="otu21"/>
+   <edge id="e.1" source="NT1.3" target="NT1.13"/>
+   <edge id="e.2" source="NT1.6" target="NT1.19"/>
+   <edge id="e.5" source="NT1.23" target="NT1.34"/>
+   <edge id="e.6" target="NT1.37" source="NT1.14"/>
+   <edge id="e.7" source="NT1.25" target="NT1.38"/>
+   <edge id="e.8" source="NT1.26" target="NT1.33"/>
+   <edge id="e.10" target="NT1.3" source="NT1.1"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.4" target="NT1.6"/>
+   <edge id="e.13" source="NT1.4" target="NT1.5"/>
+   <edge id="e.14" source="NT1.6" target="NT1.8"/>
+   <edge id="e.15" source="NT1.6" target="NT1.9"/>
+   <edge id="e.16" source="NT1.5" target="NT1.14"/>
+   <edge id="e.17" source="NT1.5" target="NT1.11"/>
+   <edge id="e.18" source="NT1.11" target="NT1.23"/>
+   <edge id="e.23" target="NT1.25" source="NT1.14"/>
+   <edge id="e.27" source="NT1.9" target="NT1.20"/>
+   <edge id="e.28" source="NT1.9" target="NT1.30"/>
+   <edge id="e.29" target="NT1.18" source="NT1.8"/>
+   <edge id="e.31" target="NT1.26" source="NT1.8"/>
+   <edge id="e.32" source="NT1.11" target="NT1.29"/>
+   <edge id="e.34" source="NT1.26" target="NT1.31"/>
+   <edge id="e.35" source="NT1.23" target="NT1.28"/>
+   <edge id="e.37" target="NT1.39" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

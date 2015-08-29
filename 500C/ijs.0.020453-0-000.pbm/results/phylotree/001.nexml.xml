@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Spirosoma Iuteum SPM-10T (EF451 726)</otu>
+  <otu id="otu2" cmphy:genus="Rudanella" cmphy:species="lutea" cmphy:strain="57158-1 1T" cmphy:id="EF635010" editRecord="[]">Rudanella lutea 57158-1 1T (EF635010)</otu>
+  <otu id="otu3">Spirosoma spitsbergense SPM-9T (EF451 725)</otu>
+  <otu id="otu4">Spirosoma panaciterrae Gsoil 1519T(EU37O956)</otu>
+  <otu id="otu5" cmphy:edit="[O__0, O__0, O__0]" cmphy:genus="Spirosoma" cmphy:species="linguale" cmphy:strain="LMG 1O896T" cmphy:id="AMO00023" editRecord="[O__0, O__0, O__0]">Spirosoma linguale LMG 1O896T (AMOOOO23)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Larkinella" cmphy:species="bovis" cmphy:strain="M2T2B15T" cmphy:id="GQZ46692" editRecord="[2__Z]">Larkinella bovis M2T2B15T (GQ246692)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Spirosoma" cmphy:species="rigui" cmphy:strain="WPCB1 187" cmphy:id="EFS07900" editRecord="[5__S]">Spirosoma rigui WPCB1 187 (EF507900)</otu>
+  <otu id="otu8">Larkinella insperata LMG 2251 OT (AMOOOO22)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Dyadobacter" cmphy:species="fermentans" cmphy:strain="DSM 180537" cmphy:id="AFI37029" editRecord="[1__I]">Dyadobacter fermentans DSM 180537 (AF137029)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="112.0" y="199.0"/>
+   <node id="NT1.2" label="NT1.2" x="164.0" y="152.0"/>
+   <node id="NT1.3" label="NT1.3" x="317.0" y="113.0"/>
+   <node id="NT1.4" x="357.0" y="68.0" label=" 94"/>
+   <node id="NT1.5" x="383.0" y="33.0" label="86"/>
+   <node id="NT1.6" label="NT1.6" x="420.0" y="243.0"/>
+   <node id="NT1.7" label="NT1.7" x="454.0" y="102.0"/>
+   <node id="NT1.8" label="NT1.8" x="546.0" y="85.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="552.0" y="191.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="555.0" y="121.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="555.0" y="156.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="571.0" y="14.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="580.0" y="262.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="583.0" y="50.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="594.0" y="227.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="594.0" y="298.0" otu="otu9"/>
+   <edge source="NT1.9" target="NT1.2" id="e.0"/>
+   <edge source="NT1.15" target="NT1.6" id="e.1"/>
+   <edge source="NT1.5" target="NT1.4" id="e.2"/>
+   <edge source="NT1.4" target="NT1.3" id="e.3"/>
+   <edge source="NT1.4" target="NT1.7" id="e.4"/>
+   <edge source="NT1.3" target="NT1.2" id="e.5"/>
+   <edge source="NT1.2" target="NT1.1" id="e.6"/>
+   <edge source="NT1.1" target="NT1.6" id="e.7"/>
+   <edge source="NT1.16" target="NT1.1" id="e.8"/>
+   <edge source="NT1.11" target="NT1.3" id="e.9"/>
+   <edge source="NT1.14" target="NT1.5" id="e.10"/>
+   <edge source="NT1.13" target="NT1.6" id="e.11"/>
+   <edge source="NT1.12" target="NT1.5" id="e.12"/>
+   <edge source="NT1.8" target="NT1.7" id="e.13"/>
+   <edge source="NT1.10" target="NT1.7" id="e.14"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="glauciniger" cmphy:strain="FXJ147" cmphy:id="AYB14782" editRecord="[3__B]">S. glauciniger FXJ147 (AY314782)</otu>
+  <otu id="otu2" cmphy:genus="S." cmphy:species="thermocarboxydovorans" cmphy:strain="DSM 442967" cmphy:id="U94489" editRecord="[]">S. thermocarboxydovorans DSM 442967 (U94489)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="S." cmphy:species="speibonae" cmphy:strain="DSM 417977" cmphy:id="AF452714" editRecord="[]">S. speibonae DSM 417977 (AF452714)</otu>
+  <otu id="otu7"> S. rimosus subsp. rimosus JCM 46677 (ABO45883)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="S." cmphy:species="thermocarboxydus" cmphy:strain="DSM 442937" cmphy:id="US944590" editRecord="[5__S]">S. thermocarboxydus DSM 442937 (U5944590)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="s." cmphy:species="indonesiensis" cmphy:strain="A4R27" cmphy:id="AJB91835">s. indonesiensis A4R27 (AJ391835)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="S." cmphy:species="coeruleofuscus" cmphy:strain="ISP 51447" cmphy:id="AJB99473" editRecord="[3__B]">S. coeruleofuscus ISP 51447 (AJ399473)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:genus="S." cmphy:species="limosus" cmphy:strain="DSM 401317" cmphy:id="Z76679" editRecord="[]"> S. limosus DSM 401317 (Z76679)</otu>
+  <otu id="otu20" cmphy:edit="[1__I]" cmphy:genus="s." cmphy:species="yeochonensis" cmphy:strain="CN 7327" cmphy:id="AFI01415">s. yeochonensis CN 7327 (AF101415)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+  <otu id="otu23" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="intennedius" cmphy:strain="DSM 403727" cmphy:id="Z76686" editRecord="[2__Z]">S. intennedius DSM 403727 (276686)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="50.0" y="667.0"/>
+   <node id="NT1.3" label="NT1.3" x="70.0" y="516.0"/>
+   <node id="NT1.4" label="NT1.4" x="107.0" y="640.0"/>
+   <node id="NT1.7" label="NT1.7" x="162.0" y="389.0"/>
+   <node id="NT1.9" x="189.0" y="263.0" label="55"/>
+   <node id="NT1.14" label="NT1.14" x="256.0" y="818.0" otu="otu1"/>
+   <node id="NT1.15" label="NT1.15" x="275.0" y="119.0"/>
+   <node id="NT1.16" label="NT1.16" x="279.0" y="495.0" otu="otu2"/>
+   <node id="NT1.23" label="NT1.23" x="326.0" y="334.0" otu="otu6"/>
+   <node id="NT1.25" label="NT1.25" x="343.0" y="214.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="362.0" y="576.0" otu="otu11"/>
+   <node id="NT1.31" label="NT1.31" x="368.0" y="174.0" otu="otu14"/>
+   <node id="NT1.36" label="NT1.36" x="399.0" y="133.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="423.0" y="697.0" otu="otu20"/>
+   <node id="NT1.42" label="NT1.42" x="435.0" y="94.0" otu="otu23"/>
+   <node id="NT1.43" label="NT1.43" x="12.0" y="772.0" root="true"/>
+   <edge id="e.1" target="NT1.42" source="NT1.15"/>
+   <edge id="e.2" source="NT1.15" target="NT1.36"/>
+   <edge id="e.3" source="NT1.15" target="NT1.31"/>
+   <edge id="e.4" target="NT1.25" source="NT1.9"/>
+   <edge id="e.10" source="NT1.7" target="NT1.16"/>
+   <edge id="e.13" source="NT1.1" target="NT1.14"/>
+   <edge id="e.18" source="NT1.9" target="NT1.15"/>
+   <edge id="e.20" source="NT1.7" target="NT1.9"/>
+   <edge id="e.24" source="NT1.3" target="NT1.7"/>
+   <edge id="e.26" source="NT1.1" target="NT1.3"/>
+   <edge id="e.27" source="NT1.3" target="NT1.4"/>
+   <edge id="e.33" source="NT1.43" target="NT1.1"/>
+   <edge id="e.36" target="NT1.39" source="NT1.4"/>
+   <edge id="e.38" target="NT1.23" source="NT1.9"/>
+   <edge id="e.39" target="NT1.28" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

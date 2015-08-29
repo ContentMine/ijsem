@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Blastococcus" cmphy:species="jejuensis" cmphy:strain="KST3-10T" cmphy:id="DQZ00983" editRecord="[2__Z]">Blastococcus jejuensis KST3-10T (DQ200983)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Blastococcus" cmphy:species="saxobsidens" cmphy:strain="BC444T" cmphy:id="AJB16571" editRecord="[3__B]">Blastococcus saxobsidens BC444T (AJ316571)</otu>
+  <otu id="otu3">Sporichthya polymorpha IFO 127027 (AB02531 7)</otu>
+  <otu id="otu4">Sporichthya brevicatena IFO 16195T(ABOO6164)</otu>
+  <otu id="otu5" cmphy:genus="Geodermatophilus" cmphy:species="ruber" cmphy:strain="CPCC 201356T" cmphy:id="EU438905" editRecord="[]">Geodermatophilus ruber CPCC 201356T (EU438905)</otu>
+  <otu id="otu6" cmphy:genus="Blastococcus" cmphy:species="aggregatus" cmphy:strain="ATCC 259027" cmphy:id="L40614" editRecord="[]">Blastococcus aggregatus ATCC 259027 (L40614)</otu>
+  <otu id="otu7" cmphy:genus="Geodermatophilus" cmphy:species="obscurus" cmphy:strain="DSM 43161" cmphy:id="X92355" editRecord="[]">Geodermatophilus obscurus DSM 43161 (X92355)</otu>
+  <otu id="otu8" cmphy:genus="Geodermatophilus" cmphy:species="obscurus" cmphy:strain="DSM 43162" cmphy:id="X92357" editRecord="[]">Geodermatophilus obscurus DSM 43162 (X92357)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Modestobacter" cmphy:species="marinus" cmphy:strain="42H12-1T" cmphy:id="EUI81225" editRecord="[1__I]">Modestobacter marinus 42H12-1T (EU181225)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Frankia" cmphy:species="alni" cmphy:strain="ACN1 4A" cmphy:id="CTS73213" editRecord="[5__S]">Frankia alni ACN1 4A (CT573213)</otu>
+  <otu id="otu11" cmphy:edit="[8__B]" cmphy:genus="Modestobacter" cmphy:species="versicolor" cmphy:strain="CP1 53-2T" cmphy:id="AJB71304" editRecord="[8__B]">Modestobacter versicolor CP1 53-2T (AJ871304)</otu>
+  <otu id="otu12" cmphy:genus="Modestobacter" cmphy:species="multiseptatus" cmphy:strain="AA-826T" cmphy:id="Y18646" editRecord="[]">Modestobacter multiseptatus AA-826T (Y18646)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Cryptosporangium" cmphy:species="aurantiacum" cmphy:strain="IFO 13967T" cmphy:id="ABO47490" editRecord="[0__O]">Cryptosporangium aurantiacum IFO 13967T (AB047490)</otu>
+  <otu id="otu14">Geodermatophilus obscurus DSM 431 607 (NR_O2 7601)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Cryptosporangium" cmphy:species="minutisporangium" cmphy:strain="IFO 15962T" cmphy:id="ABO37007" editRecord="[0__O]">Cryptosporangium minutisporangium IFO 15962T (AB037007)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="45.0" y="465.0"/>
+   <node id="NT1.2" label="NT1.2" x="93.0" y="508.0"/>
+   <node id="NT1.3" label="NT1.3" x="138.0" y="197.0"/>
+   <node id="NT1.4" label="NT1.4" x="163.0" y="112.0"/>
+   <node id="NT1.5" label="NT1.5" x="202.0" y="280.0"/>
+   <node id="NT1.6" label="NT1.6" x="213.0" y="314.0"/>
+   <node id="NT1.7" label="NT1.7" x="214.0" y="159.0"/>
+   <node id="NT1.8" label="NT1.8" x="225.0" y="188.0"/>
+   <node id="NT1.9" label="NT1.9" x="278.0" y="343.0"/>
+   <node id="NT1.10" label="NT1.10" x="292.0" y="64.0"/>
+   <node id="NT1.11" label="NT1.11" x="296.0" y="130.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="305.0" y="208.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="310.0" y="423.0"/>
+   <node id="NT1.14" label="NT1.14" x="312.0" y="34.0"/>
+   <node id="NT1.15" label="NT1.15" x="339.0" y="441.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="340.0" y="402.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="358.0" y="247.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="359.0" y="169.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="376.0" y="286.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="377.0" y="363.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="379.0" y="14.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="380.0" y="480.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="388.0" y="53.0" otu="otu11"/>
+   <node id="NT1.24" x="408.0" y="537.0" label="100"/>
+   <node id="NT1.25" label="NT1.25" x="409.0" y="91.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="446.0" y="558.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="450.0" y="325.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="450.0" y="519.0" otu="otu15"/>
+   <edge source="NT1.23" target="NT1.14" id="e.0"/>
+   <edge source="NT1.17" target="NT1.5" id="e.1"/>
+   <edge source="NT1.20" target="NT1.9" id="e.2"/>
+   <edge source="NT1.28" target="NT1.24" id="e.3"/>
+   <edge source="NT1.14" target="NT1.10" id="e.4"/>
+   <edge source="NT1.10" target="NT1.4" id="e.5"/>
+   <edge source="NT1.4" target="NT1.3" id="e.6"/>
+   <edge source="NT1.4" target="NT1.7" id="e.7"/>
+   <edge source="NT1.7" target="NT1.8" id="e.8"/>
+   <edge source="NT1.3" target="NT1.5" id="e.9"/>
+   <edge source="NT1.5" target="NT1.6" id="e.10"/>
+   <edge source="NT1.6" target="NT1.9" id="e.11"/>
+   <edge source="NT1.1" target="NT1.2" id="e.12"/>
+   <edge source="NT1.1" target="NT1.13" id="e.13"/>
+   <edge source="NT1.2" target="NT1.24" id="e.14"/>
+   <edge source="NT1.3" target="NT1.1" id="e.15"/>
+   <edge source="NT1.22" target="NT1.2" id="e.16"/>
+   <edge source="NT1.11" target="NT1.7" id="e.17"/>
+   <edge source="NT1.12" target="NT1.8" id="e.18"/>
+   <edge source="NT1.19" target="NT1.6" id="e.19"/>
+   <edge source="NT1.18" target="NT1.8" id="e.20"/>
+   <edge source="NT1.15" target="NT1.13" id="e.21"/>
+   <edge source="NT1.16" target="NT1.13" id="e.22"/>
+   <edge source="NT1.25" target="NT1.10" id="e.23"/>
+   <edge source="NT1.27" target="NT1.9" id="e.24"/>
+   <edge source="NT1.21" target="NT1.14" id="e.25"/>
+   <edge source="NT1.26" target="NT1.24" id="e.26"/>
+  </tree>
+ </trees>
+</nexml>

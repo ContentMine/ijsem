@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[O__0]" cmphy:genus="Moraxella" cmphy:species="lacunata" cmphy:strain="ATCC 179677" cmphy:id="AFO05160" editRecord="[O__0]">Moraxella lacunata ATCC 179677 (AFOO5160)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Moraxella" cmphy:species="catarrhalis" cmphy:strain="ATCC 252387" cmphy:id="AFO05185" editRecord="[0__O]">Moraxella catarrhalis ATCC 252387 (AF005185)</otu>
+  <otu id="otu3">P. vallis CMS 397 (AJ584832)</otu>
+  <otu id="otu4">P. maritimus KMM 36467 (AJ609272)</otu>
+  <otu id="otu5">MP. aquaticus CMS 567 (AJ584833)</otu>
+  <otu id="otu6">P. alimentarius JG-1007 (AY513645)</otu>
+  <otu id="otu7">P. faecalis DSM 14664T (AJ421528)</otu>
+  <otu id="otu8">P. namhaensis SW-2427 (AY722805)</otu>
+  <otu id="otu9">P. luti CECT 58857 (AJ430828)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">P. aquimaris SW-2107 (AY722804)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">P. proteolyticus DSM 138877 (AJ272303)</otu>
+  <otu id="otu14">P. fozii CECT 58897 (AJ430827)</otu>
+  <otu id="otu15">P. nivimaris 88l2-77 (AJ313425)</otu>
+  <otu id="otu16">P. marincola DSM 141607 (A.J309941)</otu>
+  <otu id="otu17">P. glacincola DSM 121947 (AJ312213)</otu>
+  <otu id="otu18">P. arenosus KMM 36597 (AJ609273)</otu>
+  <otu id="otu19">P. frigidicola DSM 124117 (AJ609556)</otu>
+  <otu id="otu20">P. immobilis DSM 72297 (AJ309942)</otu>
+  <otu id="otu21">P. urativorans DSM 140097 (AJ609555)</otu>
+  <otu id="otu22">P. cibarius JG-2197(AY639871)</otu>
+  <otu id="otu23">P. jeotgali KCCM 415597 (AF4412o1)</otu>
+  <otu id="otu24">P. celer SW-2387 (AY842259)</otu>
+  <otu id="otu25"/>
+  <otu id="otu26">P. pacificensis IFO 16270T (ABO16057)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="133.0" y="1007.0"/>
+   <node id="NT1.4" label="NT1.4" x="259.0" y="1027.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="267.0" y="988.0" otu="otu2"/>
+   <node id="NT1.44" label="NT1.44" x="7.0" y="954.0" root="true"/>
+   <edge id="e.7" source="NT1.2" target="NT1.5"/>
+   <edge id="e.26" target="NT1.2" source="NT1.44"/>
+   <edge id="e.28" source="NT1.2" target="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

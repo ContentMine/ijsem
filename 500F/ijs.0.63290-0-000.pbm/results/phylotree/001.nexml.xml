@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Planococcus" cmphy:species="psychrophilus" cmphy:strain="MTCC 3812T" cmphy:id="AJB14746" editRecord="[3__B]">Planococcus psychrophilus MTCC 3812T (AJ314746)</otu>
+  <otu id="otu2" cmphy:genus="Plarzomicrabium" cmphy:species="akeanokaites" cmphy:strain="IFO 12536T" cmphy:id="D55729" editRecord="[]">Plarzomicrabium akeanokaites IFO 12536T (D55729)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Planomicrobiumm" cmphy:species="mcmeekinii" cmphy:strain="MTCC 3704T" cmphy:id="AFO41791" editRecord="[0__O]">Planomicrobiumm mcmeekinii MTCC 3704T (AF041791)</otu>
+  <otu id="otu4">'Planacoccus psychrot0leratus' (AF324659)</otu>
+  <otu id="otu5">Sporosarcina macmurdoensis DSM 15428T (AJ 514408)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Planococcus" cmphy:species="zmtarcticus" cmphy:strain="MTCC 3854T" cmphy:id="AJB14745" editRecord="[3__B]">Planococcus zmtarcticus MTCC 3854T (AJ314745)</otu>
+  <otu id="otu7">Planacoccus maritimus JCM 1 l543T (AF500007)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Plartococcus" cmphy:species="alkanoclasticus" cmphy:strain="NCIMB 13489T" cmphy:id="AFO29364" editRecord="[0__O]">Plartococcus alkanoclasticus NCIMB 13489T (AF029364)</otu>
+  <otu id="otu9" cmphy:genus="Planococcus" cmphy:species="stackebrandtii" cmphy:strain="MTCC 6226T" cmphy:id="AY437845" editRecord="[]">Planococcus stackebrandtii MTCC 6226T (AY437845)</otu>
+  <otu id="otu10" cmphy:genus="Planococcus" cmphy:species="rifietuensis" cmphy:strain="DSM 15069T" cmphy:id="AJ493659" editRecord="[]">Planococcus rifietuensis DSM 15069T (AJ493659)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Planococcus" cmphy:species="maitriensis" cmphy:strain="DSM 15305T" cmphy:id="AJS44622" editRecord="[5__S]">Planococcus maitriensis DSM 15305T (AJ544622)</otu>
+  <otu id="otu12" cmphy:genus="Planococcus" cmphy:species="citreus" cmphy:strain="NCIMB 1493T" cmphy:id="X62172" editRecord="[]">Planococcus citreus NCIMB 1493T (X62172)</otu>
+  <otu id="otu13" cmphy:genus="Planococcus" cmphy:species="kocurii" cmphy:strain="NCIMB 629T" cmphy:id="X62173" editRecord="[]">Planococcus kocurii NCIMB 629T (X62173)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="296.0" y="603.0"/>
+   <node id="NT1.2" label="NT1.2" x="302.0" y="745.0"/>
+   <node id="NT1.3" label="NT1.3" x="313.0" y="459.0"/>
+   <node id="NT1.4" label="NT1.4" x="355.0" y="593.0"/>
+   <node id="NT1.5" label="NT1.5" x="374.0" y="325.0"/>
+   <node id="NT1.6" label="NT1.6" x="402.0" y="544.0"/>
+   <node id="NT1.7" label="NT1.7" x="405.0" y="406.0"/>
+   <node id="NT1.8" label="NT1.8" x="407.0" y="243.0"/>
+   <node id="NT1.9" label="NT1.9" x="466.0" y="711.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="480.0" y="577.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="495.0" y="150.0"/>
+   <node id="NT1.12" label="NT1.12" x="500.0" y="120.0"/>
+   <node id="NT1.13" label="NT1.13" x="529.0" y="509.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="531.0" y="372.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="554.0" y="847.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="558.0" y="442.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="573.0" y="237.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="574.0" y="69.0"/>
+   <node id="NT1.19" label="NT1.19" x="592.0" y="644.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="598.0" y="779.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="606.0" y="36.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="634.0" y="171.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="674.0" y="103.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="726.0" y="305.0" otu="otu13"/>
+   <edge source="NT1.21" target="NT1.18" id="e.0"/>
+   <edge source="NT1.23" target="NT1.18" id="e.1"/>
+   <edge source="NT1.22" target="NT1.12" id="e.2"/>
+   <edge source="NT1.17" target="NT1.11" id="e.3"/>
+   <edge source="NT1.14" target="NT1.7" id="e.4"/>
+   <edge source="NT1.16" target="NT1.7" id="e.5"/>
+   <edge source="NT1.10" target="NT1.6" id="e.6"/>
+   <edge source="NT1.13" target="NT1.6" id="e.7"/>
+   <edge source="NT1.19" target="NT1.4" id="e.8"/>
+   <edge source="NT1.9" target="NT1.2" id="e.9"/>
+   <edge source="NT1.20" target="NT1.2" id="e.10"/>
+   <edge source="NT1.18" target="NT1.12" id="e.11"/>
+   <edge source="NT1.12" target="NT1.11" id="e.12"/>
+   <edge source="NT1.11" target="NT1.8" id="e.13"/>
+   <edge source="NT1.8" target="NT1.5" id="e.14"/>
+   <edge source="NT1.5" target="NT1.3" id="e.15"/>
+   <edge source="NT1.5" target="NT1.7" id="e.16"/>
+   <edge source="NT1.3" target="NT1.1" id="e.17"/>
+   <edge source="NT1.3" target="NT1.4" id="e.18"/>
+   <edge source="NT1.1" target="NT1.2" id="e.19"/>
+   <edge source="NT1.4" target="NT1.6" id="e.20"/>
+   <edge source="NT1.15" target="NT1.1" id="e.21"/>
+   <edge source="NT1.24" target="NT1.8" id="e.22"/>
+  </tree>
+ </trees>
+</nexml>

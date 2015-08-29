@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 3553T" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 3553T (AY228461)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 5424T" cmphy:id="M92279" editRecord="[]"> Salegentibacter salegens DSM 5424T (M92279)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Coenonia" cmphy:species="anatina" cmphy:strain="LMG 14328T" cmphy:id="Y17612" editRecord="[]">Coenonia anatina LMG 14328T (Y17612)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"> iCytophaga1marinofIava ATCC 193267 (M58770)</otu>
+  <otu id="otu9">Psychroserpens bunonensis ACAM 1887 (U62Q13)</otu>
+  <otu id="otu10" cmphy:genus="Polaribacter" cmphy:species="irgensii" cmphy:strain="23-PT" cmphy:id="M61002" editRecord="[]">Polaribacter irgensii 23-PT (M61002)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="Cellulophaga" cmphy:species="baltica" cmphy:strain="NN015840T" cmphy:id="AJO05972" editRecord="[O__0]"> Cellulophaga baltica NN015840T (AJOO5972)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Zobellia" cmphy:species="uliginosa" cmphy:strain="ATCC 14397T" cmphy:id="M62799" editRecord="[]"> Zobellia uliginosa ATCC 14397T (M62799)</otu>
+  <otu id="otu14">Gelidibacter mesophilus CECT 51 O47 (AJ344133)</otu>
+  <otu id="otu15">Ge-Iidibacter algens ACAM 536T (U62914)</otu>
+  <otu id="otu16" cmphy:genus="Tenacibaculum" cmphy:species="skagerrakense" cmphy:strain="D30T" cmphy:id="AF469612" editRecord="[]">Tenacibaculum skagerrakense D30T (AF469612)</otu>
+  <otu id="otu17" cmphy:genus="Cellulophaga" cmphy:species="fucicola" cmphy:strain="NN01586OT" cmphy:id="AJO05973" editRecord="[]">Cellulophaga fucicola NN01586OT (AJO05973)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="22.0" y="463.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="48.0" y="463.0" label="100"/>
+   <node id="NT1.3" label="NT1.3" x="59.0" y="295.0"/>
+   <node id="NT1.4" label="NT1.4" x="77.0" y="152.0"/>
+   <node id="NT1.6" label="NT1.6" x="102.0" y="253.0"/>
+   <node id="NT1.10" label="NT1.10" x="139.0" y="504.0"/>
+   <node id="NT1.13" x="178.0" y="211.0" label="100"/>
+   <node id="NT1.14" label="NT1.14" x="195.0" y="453.0"/>
+   <node id="NT1.15" label="NT1.15" x="198.0" y="16.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="202.0" y="649.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="214.0" y="313.0" otu="otu6"/>
+   <node id="NT1.26" label="NT1.26" x="256.0" y="239.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="272.0" y="424.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="294.0" y="574.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="332.0" y="201.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="349.0" y="461.0" otu="otu17"/>
+   <edge id="e.3" target="NT1.19" source="NT1.6"/>
+   <edge id="e.4" source="NT1.13" target="NT1.26"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" target="NT1.33" source="NT1.13"/>
+   <edge id="e.10" source="NT1.14" target="NT1.27"/>
+   <edge id="e.12" target="NT1.30" source="NT1.10"/>
+   <edge id="e.14" target="NT1.17" source="NT1.2"/>
+   <edge id="e.15" target="NT1.34" source="NT1.14"/>
+   <edge id="e.19" source="NT1.3" target="NT1.4"/>
+   <edge id="e.20" source="NT1.4" target="NT1.6"/>
+   <edge id="e.22" source="NT1.6" target="NT1.13"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.26" target="NT1.10" source="NT1.3"/>
+   <edge id="e.29" source="NT1.10" target="NT1.14"/>
+   <edge id="e.32" target="NT1.15" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

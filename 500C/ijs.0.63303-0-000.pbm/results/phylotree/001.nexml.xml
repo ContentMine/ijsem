@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Desulfovibrio" cmphy:species="africanus" cmphy:strain="DSM 26o3T" cmphy:id="X99236" editRecord="[]">Desulfovibrio africanus DSM 26o3T (X99236)</otu>
+  <otu id="otu3" cmphy:genus="Desulfovibrio" cmphy:species="magneticus" cmphy:strain="DSM 137317" cmphy:id="D43944" editRecord="[]">Desulfovibrio magneticus DSM 137317 (D43944)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="545.0" y="555.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="578.0" y="434.0"/>
+   <node id="NT1.3" label="NT1.3" x="1041.0" y="540.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="1155.0" y="13.0" otu="otu3"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.2" target="NT1.3"/>
+   <edge id="e.2" source="NT1.2" target="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

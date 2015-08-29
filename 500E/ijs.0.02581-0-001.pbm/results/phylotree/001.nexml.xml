@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> phingobium yanoikuyae IFO 15102T (D13728)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Sphingomonas" cmphy:species="trueperi" cmphy:strain="LMG 21427" cmphy:id="X97776" editRecord="[]">Sphingomonas trueperi LMG 21427 (X97776)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Sphingopyxis" cmphy:species="terrae" cmphy:strain="IFO 15O98T" cmphy:id="D13727" editRecord="[]">Sphingopyxis terrae IFO 15O98T (D13727)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Sphingomonas" cmphy:species="cloacae" cmphy:strain="S23T" cmphy:id="ABO40739" editRecord="[0__O]">Sphingomonas cloacae S23T (AB040739)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"> Sphingobium herbicidovorans (AB042233)</otu>
+  <otu id="otu11">Sphingomonas agrestis7 HV3 (Y12803)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="36.0" y="291.0"/>
+   <node id="NT1.3" label="NT1.3" x="67.0" y="84.0"/>
+   <node id="NT1.13" label="NT1.13" x="202.0" y="104.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="215.0" y="185.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="229.0" y="504.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="22.0" y="26.0" root="true"/>
+   <edge id="e.2" source="NT1.3" target="NT1.13"/>
+   <edge id="e.6" target="NT1.16" source="NT1.1"/>
+   <edge id="e.12" source="NT1.3" target="NT1.1"/>
+   <edge id="e.22" source="NT1.26" target="NT1.3"/>
+   <edge id="e.24" target="NT1.18" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

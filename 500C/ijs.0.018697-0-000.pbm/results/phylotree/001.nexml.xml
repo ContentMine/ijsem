@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Natronornonas" cmphy:species="pharaonis" cmphy:strain="DSM 216OT" cmphy:id="CR936257" editRecord="[]">Natronornonas pharaonis DSM 216OT (CR936257)</otu>
+  <otu id="otu2" cmphy:genus="Haloferax" cmphy:species="volcanii" cmphy:strain="ATCC 296O5T" cmphy:id="K00421" editRecord="[]">Haloferax volcanii ATCC 296O5T (K00421)</otu>
+  <otu id="otu3"> Haloferax mediterranei ATCC 335007 (D1 1 1 O7)</otu>
+  <otu id="otu4"> Strain R01-67 (EU931577)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"> Haloplanus natans JCM 14081 T (AB477975)</otu>
+  <otu id="otu8">Halorubrum saccharovorum JCM 8865T (U1 7364)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Methanospirillum hungateiJF-17 (NC_OO7796)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="155.0" y="246.0" label="75"/>
+   <node id="NT1.9" label="NT1.9" x="311.0" y="313.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="313.0" y="180.0" otu="otu2"/>
+   <node id="NT1.21" label="NT1.21" x="2.0" y="296.0" root="true"/>
+   <edge id="e.4" target="NT1.10" source="NT1.1"/>
+   <edge id="e.9" source="NT1.1" target="NT1.9"/>
+   <edge id="e.19" source="NT1.21" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

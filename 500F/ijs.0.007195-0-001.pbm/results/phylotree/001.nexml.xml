@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">P. okhotskensis MD17T (DQ143920)</otu>
+  <otu id="otu2"> P. marincola KMM 2777 (DQ143919)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">P. IutiNF11T (DQ143925)</otu>
+  <otu id="otu5">P. arcticus 273-47 (CPOOOO82)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">P. immobilis ATCC 431 16T (DQ143927)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">KC 65 (AB438961)</otu>
+  <otu id="otu11">KC 407 (AB438960)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">P. fozii NF23T (DQ143916)</otu>
+  <otu id="otu15">P. pacificensis NIBH P2K6T(DQ143914)</otu>
+  <otu id="otu16">P. proteolyticus DSM 13887 (DQ143915)</otu>
+  <otu id="otu17">P. jeotgali YKJ-103T (DQ143918)</otu>
+  <otu id="otu18">P. urativorans DSM 14009T (DQ143924)</otu>
+  <otu id="otu19">Acinetobacter sp. ADP1 (NC005966)</otu>
+  <otu id="otu20" cmphy:edit="[O__0, O__0]" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="K12 MG1655" cmphy:id="AEO00447" editRecord="[O__0, O__0]">Escherichia coli K12 MG1655 (AEOOO447)</otu>
+  <otu id="otu21" cmphy:edit="[0__O]" cmphy:genus="Pseudomonas" cmphy:species="putida" cmphy:strain="KT244O" cmphy:id="AEO16774" editRecord="[0__O]">Pseudomonas putida KT244O (AE016774)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.14" x="411.0" y="946.0" label="100"/>
+   <node id="NT1.39" label="NT1.39" x="942.0" y="922.0" otu="otu20"/>
+   <node id="NT1.40" label="NT1.40" x="970.0" y="970.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="1.0" y="777.0" root="true"/>
+   <edge id="e.19" source="NT1.14" target="NT1.39"/>
+   <edge id="e.20" source="NT1.14" target="NT1.40"/>
+   <edge id="e.37" target="NT1.14" source="NT1.41"/>
+  </tree>
+ </trees>
+</nexml>

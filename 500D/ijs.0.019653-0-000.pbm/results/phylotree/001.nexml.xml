@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Dyadobacter" cmphy:species="soli" cmphy:strain="MJ20T" cmphy:id="GQZ41324" editRecord="[2__Z]">Dyadobacter soli MJ20T (GQ241324)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">Dyadobacter beijingensis A54T (DQ3351 25)</otu>
+  <otu id="otu13">Dyadobacter crusticola CP183-8T (AJ821 885)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Dyadobacter" cmphy:species="koreensis" cmphy:strain="KCTC 12537T" cmphy:id="EFO17660" editRecord="[0__O]">Dyadobacter koreensis KCTC 12537T (EF017660)</otu>
+  <otu id="otu15">Dyadobacter alkalitolerans 1 21 1 6T (EU360597)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22">Runella limosa EMB1 1 1T (DQ372985)</otu>
+  <otu id="otu23">Runella zeae NS12T(AF137381)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="440.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="284.0" y="226.0"/>
+   <node id="NT1.15" label="NT1.15" x="375.0" y="333.0" otu="otu7"/>
+   <node id="NT1.24" label="NT1.24" x="437.0" y="54.0" otu="otu14"/>
+   <edge id="e.2" target="NT1.24" source="NT1.3"/>
+   <edge id="e.13" target="NT1.15" source="NT1.3"/>
+   <edge id="e.29" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

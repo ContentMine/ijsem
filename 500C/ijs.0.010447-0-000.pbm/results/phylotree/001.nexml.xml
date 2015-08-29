@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Terrimonas lutea DYT (AB 192292)</otu>
+  <otu id="otu2">Flavobacterium ferrugineum ATCC 1 3524T (M62 798)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Niastella" cmphy:species="yeongjuensis" cmphy:strain="GR20-1 3T" cmphy:id="DQZ44076" editRecord="[2__Z]"> Niastella yeongjuensis GR20-1 3T (DQ244076)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Flavisolibacterginsengiterrae Gsoil 492T (AB267476)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Niabella solI'JS1398T(EF5926O8)</otu>
+  <otu id="otu8">Niabella yanshanensis CCBAU</otu>
+  <otu id="otu9">Niabella ginsengisoliGR10-1T(EU616816)</otu>
+  <otu id="otu10">Segetibacter koreensis Gsoil 664T (AB2674 78)</otu>
+  <otu id="otu11">Flexibacterjaponensis IFO 1 6041 T (ABO 78055)</otu>
+  <otu id="otu12">Chitinophaga skermaniiCC-SG1 BT (DQ062743)</otu>
+  <otu id="otu13">Niabella aurantiaca R2A15-1 1T(DQ457O19)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.12" label="NT1.12" x="565.0" y="189.0" otu="otu3"/>
+   <node id="NT1.25" label="NT1.25" x="8.0" y="365.0" root="true"/>
+   <edge id="e.2" target="NT1.12" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

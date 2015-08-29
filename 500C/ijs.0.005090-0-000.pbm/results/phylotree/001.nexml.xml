@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Burkholderia cepacia ATCC 2541 67 (M22518)</otu>
+  <otu id="otu3">Chromobacterium violaceum ATCC 1 24727 (M22510)</otu>
+  <otu id="otu4">Spirlllum volutans ATCC195547(M34131)</otu>
+  <otu id="otu5">Vogesella indigofera ATCC197O67(ABO21385)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Chitinimonas" cmphy:species="taiwanensis" cmphy:strain="cf7" cmphy:id="AYB23827" editRecord="[3__B]">Chitinimonas taiwanensis cf7 (AY323827)</otu>
+  <otu id="otu7" cmphy:genus="Comamonas" cmphy:species="terrigena" cmphy:strain="LMG 12537" cmphy:id="AJ430342" editRecord="[]">Comamonas terrigena LMG 12537 (AJ430342)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.11" label="NT1.11" x="510.0" y="370.0" otu="otu6"/>
+   <node id="NT1.12" label="NT1.12" x="564.0" y="836.0" otu="otu7"/>
+   <node id="NT1.13" label="NT1.13" x="28.0" y="695.0" root="true"/>
+   <edge id="e.2" target="NT1.12" source="NT1.13"/>
+   <edge id="e.9" target="NT1.11" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

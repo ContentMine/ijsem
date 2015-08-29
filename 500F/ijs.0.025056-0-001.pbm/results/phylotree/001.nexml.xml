@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Azospirillum" cmphy:species="lipoferum" cmphy:strain="sp. 59bT" cmphy:id="DQ787334" editRecord="[]">Azospirillum lipoferum sp. 59bT (DQ787334)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Klebsiella" cmphy:species="pneumoniae" cmphy:strain="342" cmphy:id="AYZ42355" editRecord="[2__Z]">Klebsiella pneumoniae 342 (AY242355)</otu>
+  <otu id="otu4">Paenibacillus forsyrhiae DSM 1 7842T(DQ349124)</otu>
+  <otu id="otu5">Pseudomonas stutzeriA15101 (AJ297529)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="zanthoxyli" cmphy:strain="DSM 182027" cmphy:id="DQB64788" editRecord="[3__B]">Paenibacillus zanthoxyli DSM 182027 (DQ364788)</otu>
+  <otu id="otu7">Herbaspirillum seropedicae Z67T (U971 21)</otu>
+  <otu id="otu8" cmphy:genus="Paenibacillus" cmphy:species="jilunlii" cmphy:strain="Be17T" cmphy:id="GQ985392" editRecord="[]">Paenibacillus jilunlii Be17T (GQ985392)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="borealis" cmphy:strain="DSM 131887" cmphy:id="EUZ94254" editRecord="[2__Z]">Paenibacillus borealis DSM 131887 (EU294254)</otu>
+  <otu id="otu10" cmphy:edit="[8__B]" cmphy:genus="Paenibacillus" cmphy:species="sonchi" cmphy:strain="LMG 24727T" cmphy:id="EUB67444" editRecord="[8__B]">Paenibacillus sonchi LMG 24727T (EU867444)</otu>
+  <otu id="otu11">Burkholderia brasilensis'</otu>
+  <otu id="otu12">Paenibacillus sabinae DSM 17841 T (DQ3491 25)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="polymyxa" cmphy:strain="DSM 367" cmphy:id="AJZ23997" editRecord="[2__Z]">Paenibacillus polymyxa DSM 367 (AJ223997)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="durus" cmphy:strain="ATCC 35681" cmphy:id="AJZ99453" editRecord="[2__Z]">Paenibacillus durus ATCC 35681 (AJ299453)</otu>
+  <otu id="otu15">Paenfba cillus odorifer TOD45T (AJ 2 2399 2)</otu>
+  <otu id="otu16">1Methylobacter vinelandii INMI 87 (AF484676)</otu>
+  <otu id="otu17">Paenibacillus Wynnii LMG 221 767 (AJ867247)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="macerans" cmphy:strain="ATCC 8244T" cmphy:id="AJZ23993" editRecord="[2__Z]">Paenibacillus macerans ATCC 8244T (AJ223993)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="graminis" cmphy:strain="RSA19T" cmphy:id="AJZ23994" editRecord="[2__Z]">Paenibacillus graminis RSA19T (AJ223994)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="685.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="94.0" y="502.0"/>
+   <node id="NT1.3" x="210.0" y="292.0" label="51"/>
+   <node id="NT1.4" label="NT1.4" x="224.0" y="706.0"/>
+   <node id="NT1.6" label="NT1.6" x="300.0" y="185.0"/>
+   <node id="NT1.9" label="NT1.9" x="383.0" y="244.0"/>
+   <node id="NT1.13" label="NT1.13" x="429.0" y="731.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="451.0" y="684.0" otu="otu3"/>
+   <node id="NT1.16" label="NT1.16" x="487.0" y="480.0"/>
+   <node id="NT1.18" label="NT1.18" x="495.0" y="280.0"/>
+   <node id="NT1.19" label="NT1.19" x="502.0" y="516.0"/>
+   <node id="NT1.21" label="NT1.21" x="510.0" y="446.0" otu="otu6"/>
+   <node id="NT1.23" label="NT1.23" x="524.0" y="305.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="528.0" y="209.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="538.0" y="257.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="546.0" y="494.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="546.0" y="542.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="681.0" y="45.0"/>
+   <node id="NT1.35" label="NT1.35" x="744.0" y="68.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="795.0" y="21.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.9" target="NT1.24"/>
+   <edge id="e.1" target="NT1.33" source="NT1.6"/>
+   <edge id="e.4" source="NT1.3" target="NT1.6"/>
+   <edge id="e.5" source="NT1.6" target="NT1.9"/>
+   <edge id="e.6" source="NT1.9" target="NT1.18"/>
+   <edge id="e.7" source="NT1.2" target="NT1.3"/>
+   <edge id="e.10" source="NT1.2" target="NT1.4"/>
+   <edge id="e.11" target="NT1.16" source="NT1.3"/>
+   <edge id="e.12" source="NT1.16" target="NT1.19"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" target="NT1.13" source="NT1.4"/>
+   <edge id="e.19" target="NT1.14" source="NT1.4"/>
+   <edge id="e.27" source="NT1.16" target="NT1.21"/>
+   <edge id="e.28" source="NT1.18" target="NT1.23"/>
+   <edge id="e.29" source="NT1.18" target="NT1.25"/>
+   <edge id="e.30" source="NT1.19" target="NT1.29"/>
+   <edge id="e.31" source="NT1.19" target="NT1.28"/>
+   <edge id="e.33" source="NT1.33" target="NT1.35"/>
+   <edge id="e.34" source="NT1.33" target="NT1.36"/>
+  </tree>
+ </trees>
+</nexml>

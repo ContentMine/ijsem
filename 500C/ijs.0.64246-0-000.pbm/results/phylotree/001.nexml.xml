@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Sporichthya" cmphy:species="brevicatena" cmphy:strain="YU72O-21T" cmphy:id="ABO06164" editRecord="[O__0]">Sporichthya brevicatena YU72O-21T (ABOO6164)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Humicoccus" cmphy:species="flavidus" cmphy:strain="DS-527" cmphy:id="DQB21750" editRecord="[3__B]">Humicoccus flavidus DS-527 (DQ321750)</otu>
+  <otu id="otu11" cmphy:genus="Sporichthya" cmphy:species="polymorpha" cmphy:strain="DSM 46113" cmphy:id="X72377" editRecord="[]">Sporichthya polymorpha DSM 46113 (X72377)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Blastococcus" cmphy:species="saxobsidens" cmphy:strain="BC444T" cmphy:id="AJB16571" editRecord="[3__B]">Blastococcus saxobsidens BC444T (AJ316571)</otu>
+  <otu id="otu13">Frankia sp. (host Coriaria arborea) (AFO63641)</otu>
+  <otu id="otu14" cmphy:genus="Blastococcus" cmphy:species="aggregatus" cmphy:strain="DSM 4725T" cmphy:id="AJ430193" editRecord="[]">Blastococcus aggregatus DSM 4725T (AJ430193)</otu>
+  <otu id="otu15" cmphy:genus="Nakamurella" cmphy:species="multipartita" cmphy:strain="JCM 9543T" cmphy:id="Y08541" editRecord="[]">Nakamurella multipartita JCM 9543T (Y08541)</otu>
+  <otu id="otu16" cmphy:genus="Modestobacter" cmphy:species="multiseptatus" cmphy:strain="DSM 44406T" cmphy:id="Y18646" editRecord="[]">Modestobacter multiseptatus DSM 44406T (Y18646)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Acidothermus" cmphy:species="cellulolyticus" cmphy:strain="ATCC 43068T" cmphy:id="AJO07290" editRecord="[0__O]">Acidothermus cellulolyticus ATCC 43068T (AJ007290)</otu>
+  <otu id="otu18" cmphy:genus="Geodermatophilus" cmphy:species="obscurus" cmphy:strain="DSM 431607" cmphy:id="X92356" editRecord="[]">Geodermatophilus obscurus DSM 431607 (X92356)</otu>
+  <otu id="otu19" cmphy:genus="Cellulomonas" cmphy:species="flavigena" cmphy:strain="NCIMB 8073T" cmphy:id="X79463" editRecord="[]">Cellulomonas flavigena NCIMB 8073T (X79463)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="31.0" y="337.0"/>
+   <node id="NT1.3" label="NT1.3" x="54.0" y="186.0"/>
+   <node id="NT1.6" label="NT1.6" x="74.0" y="258.0"/>
+   <node id="NT1.11" x="209.0" y="84.0" label="100"/>
+   <node id="NT1.15" label="NT1.15" x="277.0" y="302.0"/>
+   <node id="NT1.16" label="NT1.16" x="307.0" y="326.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="309.0" y="370.0" otu="otu10"/>
+   <node id="NT1.18" label="NT1.18" x="316.0" y="282.0" otu="otu11"/>
+   <node id="NT1.19" label="NT1.19" x="317.0" y="16.0" otu="otu12"/>
+   <node id="NT1.21" label="NT1.21" x="330.0" y="60.0" otu="otu14"/>
+   <node id="NT1.22" label="NT1.22" x="333.0" y="415.0" otu="otu15"/>
+   <node id="NT1.23" label="NT1.23" x="387.0" y="104.0" otu="otu16"/>
+   <node id="NT1.24" label="NT1.24" x="395.0" y="193.0" otu="otu17"/>
+   <node id="NT1.25" label="NT1.25" x="473.0" y="149.0" otu="otu18"/>
+   <node id="NT1.26" label="NT1.26" x="520.0" y="459.0" otu="otu19"/>
+   <node id="NT1.27" label="NT1.27" x="6.0" y="417.0" root="true"/>
+   <edge id="e.3" source="NT1.11" target="NT1.21"/>
+   <edge id="e.4" source="NT1.11" target="NT1.23"/>
+   <edge id="e.6" source="NT1.11" target="NT1.25"/>
+   <edge id="e.11" source="NT1.15" target="NT1.16"/>
+   <edge id="e.12" source="NT1.15" target="NT1.18"/>
+   <edge id="e.14" target="NT1.24" source="NT1.6"/>
+   <edge id="e.15" source="NT1.1" target="NT1.17"/>
+   <edge id="e.16" target="NT1.11" source="NT1.3"/>
+   <edge id="e.18" source="NT1.1" target="NT1.3"/>
+   <edge id="e.19" source="NT1.3" target="NT1.6"/>
+   <edge id="e.20" source="NT1.6" target="NT1.15"/>
+   <edge id="e.22" source="NT1.27" target="NT1.1"/>
+   <edge id="e.23" source="NT1.27" target="NT1.26"/>
+   <edge id="e.24" source="NT1.1" target="NT1.22"/>
+   <edge id="e.25" source="NT1.11" target="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

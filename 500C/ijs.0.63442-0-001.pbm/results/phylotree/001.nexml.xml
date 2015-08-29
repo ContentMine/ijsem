@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[5__S]" cmphy:genus="Oceanibulbus" cmphy:species="indoliflex" cmphy:strain="Hel 457" cmphy:id="AJS50939" editRecord="[5__S]">Oceanibulbus indoliflex Hel 457 (AJ550939)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Sulfitobacter" cmphy:species="delicatus" cmphy:strain="KMM 35847" cmphy:id="AYI80103" editRecord="[1__I]"> Sulfitobacter delicatus KMM 35847 (AY180103)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Sulfitobacter" cmphy:species="dubius" cmphy:strain="KMM 35547" cmphy:id="AYI80102" editRecord="[1__I]"> Sulfitobacter dubius KMM 35547 (AY180102)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Unidentified" cmphy:species="marine" cmphy:strain="strain AS721" cmphy:id="AJB91182" editRecord="[3__B]">Unidentified marine strain AS721 (AJ391182)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Unidentified" cmphy:species="marine" cmphy:strain="strain AP-27" cmphy:id="AYI45564" editRecord="[1__I]">Unidentified marine strain AP-27 (AY145564)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Unidentified" cmphy:species="marine" cmphy:strain="strain KT0202a" cmphy:id="AFB05498" editRecord="[3__B]">Unidentified marine strain KT0202a (AF305498)</otu>
+  <otu id="otu7" cmphy:genus="Sulfitobacter" cmphy:species="mediterraneus" cmphy:strain="CHeB427T" cmphy:id="Y17387" editRecord="[]">Sulfitobacter mediterraneus CHeB427T (Y17387)</otu>
+  <otu id="otu8" cmphy:genus="Staleya" cmphy:species="guttiformis" cmphy:strain="EL-38T" cmphy:id="Y16427" editRecord="[]">Staleya guttiformis EL-38T (Y16427)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Prionitis" cmphy:species="decipiens" cmphy:strain="gall symbiont" cmphy:id="AFI07210" editRecord="[1__I]">Prionitis decipiens gall symbiont (AF107210)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Plionitis" cmphy:species="filiformis" cmphy:strain="gall symbiont" cmphy:id="AFI07209" editRecord="[1__I]"> Plionitis filiformis gall symbiont (AF107209)</otu>
+  <otu id="otu11" cmphy:genus="Nereida" cmphy:species="ignava" cmphy:strain="CECT 52927" cmphy:id="AJ748748" editRecord="[]">Nereida ignava CECT 52927 (AJ748748)</otu>
+  <otu id="otu12">Prionitis Ianceolata gall symbiont (U37762)</otu>
+  <otu id="otu13" cmphy:genus="Sulfitobacter" cmphy:species="pontiacus" cmphy:strain="ChLGr10T" cmphy:id="Y13155" editRecord="[]">Sulfitobacter pontiacus ChLGr10T (Y13155)</otu>
+  <otu id="otu14" cmphy:genus="Sulfitobacter" cmphy:species="brevis" cmphy:strain="EL-162i" cmphy:id="Y16425" editRecord="[]">Sulfitobacter brevis EL-162i (Y16425)</otu>
+  <otu id="otu15" cmphy:genus="Roseobacter" cmphy:species="litoralis" cmphy:strain="ATCC 49566T" cmphy:id="X78312" editRecord="[]">Roseobacter litoralis ATCC 49566T (X78312)</otu>
+  <otu id="otu16" cmphy:genus="Roseobacter" cmphy:species="denitrificans" cmphy:strain="Och 1147" cmphy:id="M96746" editRecord="[]">Roseobacter denitrificans Och 1147 (M96746)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="51.0" y="251.0"/>
+   <node id="NT1.2" label="NT1.2" x="54.0" y="548.0"/>
+   <node id="NT1.3" label="NT1.3" x="97.0" y="507.0"/>
+   <node id="NT1.4" label="NT1.4" x="140.0" y="335.0"/>
+   <node id="NT1.5" label="NT1.5" x="149.0" y="356.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="149.0" y="293.0"/>
+   <node id="NT1.7" x="151.0" y="208.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="164.0" y="314.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="164.0" y="269.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="180.0" y="123.0"/>
+   <node id="NT1.11" label="NT1.11" x="205.0" y="81.0"/>
+   <node id="NT1.12" label="NT1.12" x="209.0" y="634.0"/>
+   <node id="NT1.13" label="NT1.13" x="210.0" y="569.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="211.0" y="611.0"/>
+   <node id="NT1.15" label="NT1.15" x="218.0" y="654.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="238.0" y="611.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="242.0" y="100.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="247.0" y="39.0"/>
+   <node id="NT1.19" label="NT1.19" x="248.0" y="228.0" otu="otu8"/>
+   <node id="NT1.20" x="269.0" y="464.0" label="100"/>
+   <node id="NT1.22" label="NT1.22" x="278.0" y="440.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="300.0" y="484.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="311.0" y="527.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="324.0" y="58.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="326.0" y="15.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="330.0" y="164.0"/>
+   <node id="NT1.29" label="NT1.29" x="365.0" y="186.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="478.0" y="141.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="7.0" y="399.0" root="true"/>
+   <edge id="e.0" source="NT1.18" target="NT1.26"/>
+   <edge id="e.1" source="NT1.7" target="NT1.19"/>
+   <edge id="e.2" source="NT1.28" target="NT1.29"/>
+   <edge id="e.3" source="NT1.28" target="NT1.30"/>
+   <edge id="e.4" source="NT1.4" target="NT1.5"/>
+   <edge id="e.5" source="NT1.6" target="NT1.8"/>
+   <edge id="e.6" source="NT1.6" target="NT1.9"/>
+   <edge id="e.7" source="NT1.12" target="NT1.15"/>
+   <edge id="e.8" source="NT1.14" target="NT1.16"/>
+   <edge id="e.9" source="NT1.14" target="NT1.13"/>
+   <edge id="e.10" source="NT1.3" target="NT1.24"/>
+   <edge id="e.11" source="NT1.20" target="NT1.23"/>
+   <edge id="e.12" target="NT1.22" source="NT1.20"/>
+   <edge id="e.13" source="NT1.11" target="NT1.18"/>
+   <edge id="e.14" source="NT1.10" target="NT1.11"/>
+   <edge id="e.15" source="NT1.7" target="NT1.10"/>
+   <edge id="e.16" source="NT1.10" target="NT1.28"/>
+   <edge id="e.17" source="NT1.1" target="NT1.7"/>
+   <edge id="e.18" source="NT1.1" target="NT1.4"/>
+   <edge id="e.19" source="NT1.4" target="NT1.6"/>
+   <edge id="e.20" source="NT1.2" target="NT1.12"/>
+   <edge id="e.21" source="NT1.2" target="NT1.3"/>
+   <edge id="e.22" source="NT1.3" target="NT1.20"/>
+   <edge id="e.23" source="NT1.12" target="NT1.14"/>
+   <edge id="e.25" source="NT1.31" target="NT1.1"/>
+   <edge id="e.26" source="NT1.31" target="NT1.2"/>
+   <edge id="e.27" source="NT1.11" target="NT1.17"/>
+   <edge id="e.28" source="NT1.18" target="NT1.27"/>
+  </tree>
+ </trees>
+</nexml>

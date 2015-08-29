@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Bacillus subtilis</otu>
+  <otu id="otu2">Bacillus Iicheniformis</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">Bacillus sp. 2-9-3 (AF166093)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">LMG 19416 (AJ276808) 1516 bp</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Vlrgibacillus" cmphy:species="proomii" cmphy:strain="LMG 123707" cmphy:id="AJO12667" editRecord="[0__O]">Vlrgibacillus proomii LMG 123707 (AJ012667)</otu>
+  <otu id="otu8">LMG 194887 (AJ315056) 1522 bp</otu>
+  <otu id="otu9">Bacillus cereus</otu>
+  <otu id="otu10">Halobacillus Iitoralis</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">LMG 20959 (AJ316297) 1517 bp</otu>
+  <otu id="otu15">LMG 20960 (AJ316298) 497 bp</otu>
+  <otu id="otu16">LMG 20961 (AJ316299) 491 bp</otu>
+  <otu id="otu17">Gracilibacillus halotolerans</otu>
+  <otu id="otu18" cmphy:genus="Halobacillus" cmphy:species="halophilus" cmphy:strain="ATCC 356767" cmphy:id="X62174" editRecord="[]">Halobacillus halophilus ATCC 356767 (X62174)</otu>
+  <otu id="otu19" cmphy:genus="Salibacillus" cmphy:species="salexigens" cmphy:strain="ATCC 7002907" cmphy:id="Y11603" editRecord="[]">Salibacillus salexigens ATCC 7002907 (Y11603)</otu>
+  <otu id="otu20">LMG 20966 (AJ316303) 492 bp</otu>
+  <otu id="otu21" cmphy:genus="Gracilibacillus" cmphy:species="dipsosauri" cmphy:strain="NCFB 30277" cmphy:id="X82436" editRecord="[]">Gracilibacillus dipsosauri NCFB 30277 (X82436)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="232.0" y="551.0"/>
+   <node id="NT1.5" x="324.0" y="164.0" label="82"/>
+   <node id="NT1.6" x="341.0" y="785.0" label="72"/>
+   <node id="NT1.22" label="NT1.22" x="764.0" y="755.0" otu="otu7"/>
+   <node id="NT1.35" label="NT1.35" x="974.0" y="182.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="978.0" y="804.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="1088.0" y="86.0" otu="otu21"/>
+   <node id="NT1.39" label="NT1.39" x="5.0" y="772.0" root="true"/>
+   <edge id="e.0" target="NT1.35" source="NT1.5"/>
+   <edge id="e.1" target="NT1.22" source="NT1.6"/>
+   <edge id="e.8" source="NT1.3" target="NT1.5"/>
+   <edge id="e.11" source="NT1.3" target="NT1.6"/>
+   <edge id="e.22" source="NT1.39" target="NT1.3"/>
+   <edge id="e.29" target="NT1.36" source="NT1.6"/>
+   <edge id="e.31" target="NT1.38" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

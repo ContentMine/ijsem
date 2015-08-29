@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Dermacaccus" cmphy:species="nixhinnmiyaensix" cmphy:strain="DSM 20448T" cmphy:id="X87757" editRecord="[]">Dermacaccus nixhinnmiyaensix DSM 20448T (X87757)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Micracaccus Iylae DSM 20315T (X80750)</otu>
+  <otu id="otu9" cmphy:genus="Micmcaccus" cmphy:species="lureus" cmphy:strain="ATCC 381T" cmphy:id="M38242" editRecord="[]">Micmcaccus lureus ATCC 381T (M38242)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Kocuria" cmphy:species="varizms" cmphy:strain="DSM 2oo53T" cmphy:id="X87754" editRecord="[]">Kocuria varizms DSM 2oo53T (X87754)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="873.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="104.0" y="745.0"/>
+   <node id="NT1.6" label="NT1.6" x="198.0" y="518.0"/>
+   <node id="NT1.9" label="NT1.9" x="243.0" y="906.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="396.0" y="591.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="504.0" y="280.0" otu="otu13"/>
+   <edge id="e.1" source="NT1.6" target="NT1.13"/>
+   <edge id="e.8" source="NT1.3" target="NT1.6"/>
+   <edge id="e.9" target="NT1.3" source="NT1.1"/>
+   <edge id="e.11" source="NT1.3" target="NT1.9"/>
+   <edge id="e.15" target="NT1.17" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

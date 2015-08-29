@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">57</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Duganella" cmphy:species="violaceinigra" cmphy:strain="YIM 313277" cmphy:id="AYB76163" editRecord="[3__B]">Duganella violaceinigra YIM 313277 (AY376163)</otu>
+  <otu id="otu10">Janthinobacterium Iividum DSM 1522T (Y08846)</otu>
+  <otu id="otu11" cmphy:genus="Massilia" cmphy:species="lutea" cmphy:strain="101T" cmphy:id="AY966001" editRecord="[]">Massilia lutea 101T (AY966001)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Massilia" cmphy:species="albidiflava" cmphy:strain="45T" cmphy:id="AY965999" editRecord="[]">Massilia albidiflava 45T (AY965999)</otu>
+  <otu id="otu15" cmphy:genus="Massilia" cmphy:species="plicata" cmphy:strain="76T" cmphy:id="AY966000" editRecord="[]">Massilia plicata 76T (AY966000)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Duganella" cmphy:species="zoogloeoides" cmphy:strain="IAM 126707" cmphy:id="D14256" editRecord="[]">Duganella zoogloeoides IAM 126707 (D14256)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">Massilia niabensis 54208-267 (eusosooe)</otu>
+  <otu id="otu20">Naxibacter haematophilus CCUG 3831 ST (AM774589)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Massilia" cmphy:species="aurea" cmphy:strain="AP13T" cmphy:id="AMZ31588" editRecord="[2__Z]">Massilia aurea AP13T (AM231588)</otu>
+  <otu id="otu22" cmphy:genus="Massilia" cmphy:species="timonae" cmphy:strain="CIP 105350T" cmphy:id="U54470" editRecord="[]">Massilia timonae CIP 105350T (U54470)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25"/>
+  <otu id="otu26">Massilia aerilata 55168-11T(EF688526)</otu>
+  <otu id="otu27" cmphy:genus="Naxibacter" cmphy:species="alkalitolerans" cmphy:strain="YIM 31775T" cmphy:id="AY679161" editRecord="[]">Naxibacter alkalitolerans YIM 31775T (AY679161)</otu>
+  <otu id="otu28" cmphy:genus="Telluria" cmphy:species="mixta" cmphy:strain="ACM 1762T" cmphy:id="X65589" editRecord="[]">Telluria mixta ACM 1762T (X65589)</otu>
+  <otu id="otu29" cmphy:genus="Telluria" cmphy:species="chitinolytica" cmphy:strain="ACM 3522T" cmphy:id="X65590" editRecord="[]">Telluria chitinolytica ACM 3522T (X65590)</otu>
+  <otu id="otu30" cmphy:genus="Oxalobacter" cmphy:species="formigenes" cmphy:strain="OXBT" cmphy:id="U49757" editRecord="[]">Oxalobacter formigenes OXBT (U49757)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="20.0" y="421.0"/>
+   <node id="NT1.3" label="NT1.3" x="44.0" y="315.0"/>
+   <node id="NT1.6" label="NT1.6" x="50.0" y="526.0"/>
+   <node id="NT1.7" x="78.0" y="230.0" label="go"/>
+   <node id="NT1.8" label="NT1.8" x="78.0" y="398.0"/>
+   <node id="NT1.10" x="108.0" y="148.0" label="63"/>
+   <node id="NT1.13" x="130.0" y="88.0" label="51"/>
+   <node id="NT1.21" x="168.0" y="455.0" label="97"/>
+   <node id="NT1.26" label="NT1.26" x="183.0" y="509.0" otu="otu9"/>
+   <node id="NT1.28" label="NT1.28" x="188.0" y="473.0" otu="otu11"/>
+   <node id="NT1.32" label="NT1.32" x="196.0" y="437.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="212.0" y="367.0" otu="otu15"/>
+   <node id="NT1.36" label="NT1.36" x="229.0" y="544.0" otu="otu17"/>
+   <node id="NT1.40" label="NT1.40" x="282.0" y="12.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="284.0" y="119.0" otu="otu22"/>
+   <node id="NT1.43" x="301.0" y="314.0" label="100"/>
+   <node id="NT1.47" label="NT1.47" x="391.0" y="225.0" otu="otu27"/>
+   <node id="NT1.48" label="NT1.48" x="448.0" y="332.0" otu="otu28"/>
+   <node id="NT1.49" label="NT1.49" x="555.0" y="296.0" otu="otu29"/>
+   <node id="NT1.50" label="NT1.50" x="555.0" y="616.0" otu="otu30"/>
+   <node id="NT1.51" label="NT1.51" x="1.0" y="527.0" root="true"/>
+   <edge id="e.3" target="NT1.40" source="NT1.13"/>
+   <edge id="e.5" source="NT1.13" target="NT1.41"/>
+   <edge id="e.13" target="NT1.47" source="NT1.10"/>
+   <edge id="e.16" source="NT1.8" target="NT1.33"/>
+   <edge id="e.18" source="NT1.21" target="NT1.28"/>
+   <edge id="e.19" source="NT1.21" target="NT1.32"/>
+   <edge id="e.20" source="NT1.43" target="NT1.48"/>
+   <edge id="e.21" source="NT1.6" target="NT1.26"/>
+   <edge id="e.22" source="NT1.6" target="NT1.36"/>
+   <edge id="e.23" source="NT1.43" target="NT1.49"/>
+   <edge id="e.29" target="NT1.50" source="NT1.51"/>
+   <edge id="e.32" source="NT1.10" target="NT1.13"/>
+   <edge id="e.33" source="NT1.7" target="NT1.10"/>
+   <edge id="e.37" target="NT1.7" source="NT1.3"/>
+   <edge id="e.38" source="NT1.7" target="NT1.43"/>
+   <edge id="e.40" source="NT1.2" target="NT1.3"/>
+   <edge id="e.41" source="NT1.3" target="NT1.8"/>
+   <edge id="e.43" source="NT1.2" target="NT1.6"/>
+   <edge id="e.44" target="NT1.21" source="NT1.8"/>
+   <edge id="e.48" source="NT1.51" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

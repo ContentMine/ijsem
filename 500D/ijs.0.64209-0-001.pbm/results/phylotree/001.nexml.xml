@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Schlegelella" cmphy:species="thermodepolymerans" cmphy:strain="K14T" cmphy:id="AYI52824" editRecord="[1__I]">Schlegelella thermodepolymerans K14T (AY152824)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Tepidimonas" cmphy:species="ignava" cmphy:strain="SPS-10377" cmphy:id="AFI77943" editRecord="[1__I]">Tepidimonas ignava SPS-10377 (AF177943)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Tepidimonas" cmphy:species="aquatica" cmphy:strain="CLN-1T" cmphy:id="AYB24139" editRecord="[3__B]">Tepidimonas aquatica CLN-1T (AY324139)</otu>
+  <otu id="otu4">ldeonella dechloratans (X72724)</otu>
+  <otu id="otu5" cmphy:genus="Aquabacterium" cmphy:species="parvum" cmphy:strain="B6T" cmphy:id="AFO35052" editRecord="[]">Aquabacterium parvum B6T (AFO35052)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Rubrivivax" cmphy:species="gelatinosus" cmphy:strain="ATCC 170117" cmphy:id="D16213" editRecord="[]"> Rubrivivax gelatinosus ATCC 170117 (D16213)</otu>
+  <otu id="otu8" cmphy:genus="Rhodocyclus" cmphy:species="tenuis" cmphy:strain="DSM 109T" cmphy:id="D16208" editRecord="[]">Rhodocyclus tenuis DSM 109T (D16208)</otu>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Rubrivivax" cmphy:species="benzoatilyticus" cmphy:strain="JA2T" cmphy:id="AJB88903" editRecord="[8__B]"> Rubrivivax benzoatilyticus JA2T (AJ888903)</otu>
+  <otu id="otu10" cmphy:genus="Leptothrfx" cmphy:species="mobilis" cmphy:strain="Feox-1T" cmphy:id="X97071" editRecord="[]">Leptothrfx mobilis Feox-1T (X97071)</otu>
+  <otu id="otu11" cmphy:genus="Aquabacterium" cmphy:species="citratiphilum" cmphy:strain="B4T" cmphy:id="AFO35050" editRecord="[]">Aquabacterium citratiphilum B4T (AFO35050)</otu>
+  <otu id="otu12" cmphy:genus="Leptothrix" cmphy:species="discophora" cmphy:strain="SS-1T" cmphy:id="Z18533" editRecord="[]">Leptothrix discophora SS-1T (Z18533)</otu>
+  <otu id="otu13">Pelomonas saccharophila</otu>
+  <otu id="otu14"> Roseateles depolymerans</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="219.0" y="314.0"/>
+   <node id="NT1.2" x="467.0" y="469.0" label="59"/>
+   <node id="NT1.3" x="598.0" y="158.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="675.0" y="638.0"/>
+   <node id="NT1.5" label="NT1.5" x="760.0" y="300.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="787.0" y="205.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="791.0" y="111.0" otu="otu3"/>
+   <node id="NT1.8" x="803.0" y="468.0" label="87"/>
+   <node id="NT1.10" x="871.0" y="938.0" label="58"/>
+   <node id="NT1.11" label="NT1.11" x="887.0" y="1051.0"/>
+   <node id="NT1.14" label="NT1.14" x="1012.0" y="397.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="1041.0" y="824.0"/>
+   <node id="NT1.18" label="NT1.18" x="1060.0" y="873.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="1079.0" y="15.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="1081.0" y="778.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="1152.0" y="969.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="1207.0" y="491.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="1314.0" y="1064.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="3.0" y="164.0" root="true"/>
+   <edge id="e.0" source="NT1.3" target="NT1.6"/>
+   <edge id="e.1" source="NT1.3" target="NT1.7"/>
+   <edge id="e.2" source="NT1.2" target="NT1.5"/>
+   <edge id="e.3" source="NT1.8" target="NT1.14"/>
+   <edge id="e.6" source="NT1.16" target="NT1.18"/>
+   <edge id="e.7" source="NT1.11" target="NT1.21"/>
+   <edge id="e.8" target="NT1.24" source="NT1.11"/>
+   <edge id="e.11" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" source="NT1.1" target="NT1.3"/>
+   <edge id="e.13" source="NT1.2" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.8"/>
+   <edge id="e.17" target="NT1.10" source="NT1.4"/>
+   <edge id="e.18" source="NT1.10" target="NT1.11"/>
+   <edge id="e.19" source="NT1.10" target="NT1.16"/>
+   <edge id="e.22" source="NT1.27" target="NT1.19"/>
+   <edge id="e.23" source="NT1.27" target="NT1.1"/>
+   <edge id="e.24" target="NT1.22" source="NT1.8"/>
+   <edge id="e.25" source="NT1.16" target="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>

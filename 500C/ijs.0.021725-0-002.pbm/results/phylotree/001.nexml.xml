@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Jiangdla" cmphy:species="alba" cmphy:strain="YIM 615037" cmphy:id="FJI57186" editRecord="[1__I]">Jiangdla alba YIM 615037 (FJ157186)</otu>
+  <otu id="otu3" cmphy:genus="Jfangella" cmphy:species="alkallphfla" cmphy:strain="D8-877" cmphy:id="AM422451" editRecord="[]">Jfangella alkallphfla D8-877 (AM422451)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">Euzebyalss</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">NItrdfIupI0r.ales</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Catenulisporfneae</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17">Haloactinapolyspara alba</otu>
+  <otu id="otu18">Catenulisporfneae</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">Kmeosporuneae</otu>
+  <otu id="otu21">Kmeosporuneae</otu>
+  <otu id="otu22">Catenulisporfneae</otu>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25"/>
+  <otu id="otu26"/>
+  <otu id="otu27">Glycamycmeae</otu>
+  <otu id="otu28"/>
+  <otu id="otu29"/>
+  <otu id="otu30"/>
+  <otu id="otu31">Glycamycmeae</otu>
+  <otu id="otu32"/>
+  <otu id="otu33"/>
+  <otu id="otu34"/>
+  <otu id="otu35"/>
+  <otu id="otu36">Mrcrococcmeae</otu>
+  <otu id="otu37">Rubrobacterales</otu>
+  <otu id="otu38"/>
+  <otu id="otu39"/>
+  <otu id="otu40"/>
+  <otu id="otu41">Actfnomycineae</otu>
+  <otu id="otu42"/>
+  <otu id="otu43"/>
+  <otu id="otu44"/>
+  <otu id="otu45">Rubrobacterales</otu>
+  <otu id="otu46"> Acnnopolyspormea 5</otu>
+  <otu id="otu47"> Acnnopolyspormea 5</otu>
+  <otu id="otu48"> Acnnopolyspormea 5</otu>
+  <otu id="otu49"/>
+  <otu id="otu50"/>
+  <otu id="otu51"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.23" label="NT1.23" x="335.0" y="271.0"/>
+   <node id="NT1.25" label="NT1.25" x="353.0" y="290.0" otu="otu2"/>
+   <node id="NT1.26" label="NT1.26" x="355.0" y="254.0" otu="otu3"/>
+   <node id="NT1.97" label="NT1.97" x="1.0" y="1028.0" root="true"/>
+   <edge id="e.6" source="NT1.23" target="NT1.25"/>
+   <edge id="e.7" source="NT1.23" target="NT1.26"/>
+   <edge id="e.61" target="NT1.23" source="NT1.97"/>
+  </tree>
+ </trees>
+</nexml>

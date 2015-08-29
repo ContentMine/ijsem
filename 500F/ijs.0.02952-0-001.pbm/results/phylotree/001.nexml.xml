@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[5__S]" cmphy:genus="Veillonella" cmphy:species="ratti" cmphy:strain="ATCC 17746T" cmphy:id="AYS14998" editRecord="[5__S]">Veillonella ratti ATCC 17746T (AY514998)</otu>
+  <otu id="otu2">Megasphaera elsdenii ATCC 259407 (AF0131 13)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Veillonella" cmphy:species="criteci" cmphy:strain="DSM 207347" cmphy:id="AYB53713" editRecord="[3__B]">Veillonella criteci DSM 207347 (AY353713)</otu>
+  <otu id="otu4" cmphy:genus="Veillonella" cmphy:species="dispar" cmphy:strain="ATCC 17748T" cmphy:id="AF440435" editRecord="[]">Veillonella dispar ATCC 17748T (AF440435)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Veillonella" cmphy:species="atypica" cmphy:strain="ATCC 177447" cmphy:id="AF440436" editRecord="[O__0]"> Veillonella atypica ATCC 177447 (AF44O436)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Veillonella" cmphy:species="caviae" cmphy:strain="DSM 207387" cmphy:id="AYB53714" editRecord="[3__B]">Veillonella caviae DSM 207387 (AY353714)</otu>
+  <otu id="otu7">Veillonella parvula CIP 60.1</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Veillonella" cmphy:species="rodentium" cmphy:strain="ATCC 17743T" cmphy:id="AYS14997" editRecord="[5__S]"> Veillonella rodentium ATCC 17743T (AY514997)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Veillonella" cmphy:species="montpellierensis" cmphy:strain="ADV 3198.03" cmphy:id="AYB53716" editRecord="[3__B]">Veillonella montpellierensis ADV 3198.03 (AY353716)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="107.0" y="497.0"/>
+   <node id="NT1.2" x="157.0" y="427.0" label="87"/>
+   <node id="NT1.3" label="NT1.3" x="199.0" y="566.0" otu="otu1"/>
+   <node id="NT1.4" x="220.0" y="345.0" label="98"/>
+   <node id="NT1.5" x="241.0" y="233.0" label="50"/>
+   <node id="NT1.6" label="NT1.6" x="244.0" y="176.0"/>
+   <node id="NT1.8" label="NT1.8" x="276.0" y="511.0" otu="otu3"/>
+   <node id="NT1.9" x="285.0" y="352.0" label="99"/>
+   <node id="NT1.11" label="NT1.11" x="323.0" y="345.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="331.0" y="400.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="343.0" y="178.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="347.0" y="455.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="391.0" y="12.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="5.0" y="559.0" root="true"/>
+   <edge id="e.2" source="NT1.6" target="NT1.13"/>
+   <edge id="e.3" source="NT1.9" target="NT1.12"/>
+   <edge id="e.4" target="NT1.11" source="NT1.9"/>
+   <edge id="e.7" source="NT1.4" target="NT1.16"/>
+   <edge id="e.8" source="NT1.2" target="NT1.8"/>
+   <edge id="e.10" source="NT1.5" target="NT1.6"/>
+   <edge id="e.11" source="NT1.4" target="NT1.5"/>
+   <edge id="e.12" source="NT1.5" target="NT1.9"/>
+   <edge id="e.13" source="NT1.2" target="NT1.4"/>
+   <edge id="e.16" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" source="NT1.23" target="NT1.1"/>
+   <edge id="e.19" source="NT1.1" target="NT1.3"/>
+   <edge id="e.20" target="NT1.19" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

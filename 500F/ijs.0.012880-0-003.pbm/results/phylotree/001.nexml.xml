@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Strain HRI117 (FJ482231)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Uncultured" cmphy:species="marine" cmphy:strain="gammaproteobacterium SC3-20" cmphy:id="DQZ89928" editRecord="[2__Z]">Uncultured marine gammaproteobacterium SC3-20 (DQ289928)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Endosymbiont" cmphy:species="of" cmphy:strain="scaly snail" cmphy:id="AYB10506" editRecord="[3__B]">Endosymbiont of scaly snail (AY310506)</otu>
+  <otu id="otu5" cmphy:genus="Codakia" cmphy:species="costata" cmphy:strain="gill symbiont" cmphy:id="L25712" editRecord="[]">Codakia costata gill symbiont (L25712)</otu>
+  <otu id="otu6">Marine sulfur-oxidizing bacterium ODIII6 (AF170422)</otu>
+  <otu id="otu7" cmphy:genus="Thiohalorhabdus" cmphy:species="denitrificans" cmphy:strain="HL197" cmphy:id="DQ469582" editRecord="[]">Thiohalorhabdus denitrificans HL197 (DQ469582)</otu>
+  <otu id="otu8">Thioalkalivibrio denitrificans ALJD7 (AF1 26545)</otu>
+  <otu id="otu9">Halochromatium sp. AR2201 (AJ401 218)</otu>
+  <otu id="otu10">Marine sulfur-oxidizing bacterium OAII2 (AF170423)</otu>
+  <otu id="otu11">7ThiobacilIus prosperus' DSM 5130 (AY034139)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Marichromatium" cmphy:species="indicum" cmphy:strain="JA2907" cmphy:id="FMI77512" editRecord="[1__I]">Marichromatium indicum JA2907 (FM177512)</otu>
+  <otu id="otu13" cmphy:genus="Thiohalophilus" cmphy:species="thiocyanatoxidans" cmphy:strain="HRhD27" cmphy:id="DQ469584" editRecord="[]">Thiohalophilus thiocyanatoxidans HRhD27 (DQ469584)</otu>
+  <otu id="otu14">Thiohalomonas denitrificans HLD27 (EF1 1 7909)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Thiorhodococcus" cmphy:species="drewsii" cmphy:strain="DSM 150067" cmphy:id="FMI78273" editRecord="[1__I]">Thiorhodococcus drewsii DSM 150067 (FM178273)</otu>
+  <otu id="otu16">Marine sulfur-oxidizing bacterium NDII1</otu>
+  <otu id="otu17" cmphy:edit="[O__0]" cmphy:genus="Thiorhodospira" cmphy:species="sibirica" cmphy:strain="A1 27" cmphy:id="AJO06530" editRecord="[O__0]">Thiorhodospira sibirica A1 27 (AJOO6530)</otu>
+  <otu id="otu18">7Candidatus Thiobios zoothamnicoli7 (AJ879933)</otu>
+  <otu id="otu19">Thioalkalispira microaerophila ALEN17 (AF481 1 1 8)</otu>
+  <otu id="otu20" cmphy:genus="Ectothiorhodospira" cmphy:species="haloalkaliphila" cmphy:strain="BN 99037" cmphy:id="X93479" editRecord="[]">Ectothiorhodospira haloalkaliphila BN 99037 (X93479)</otu>
+  <otu id="otu21" cmphy:genus="Thiohalospira" cmphy:species="halophila" cmphy:strain="HL37" cmphy:id="DQ469576" editRecord="[]">Thiohalospira halophila HL37 (DQ469576)</otu>
+  <otu id="otu22" cmphy:genus="Thermithiobacillus" cmphy:species="tepidarius" cmphy:strain="DSM 31347" cmphy:id="AJ459801" editRecord="[]">Thermithiobacillus tepidarius DSM 31347 (AJ459801)</otu>
+  <otu id="otu23" cmphy:edit="[3__B]" cmphy:genus="Acidithiobacillus" cmphy:species="ferrooxidans" cmphy:strain="ATCC 232707" cmphy:id="AFB29205" editRecord="[3__B]">Acidithiobacillus ferrooxidans ATCC 232707 (AF329205)</otu>
+  <otu id="otu24" cmphy:edit="[2__Z]" cmphy:genus="Endosymbiont" cmphy:species="of" cmphy:strain="Alviniconcha sp." cmphy:id="ABZ35229" editRecord="[2__Z]">Endosymbiont of Alviniconcha sp. (AB235229)</otu>
+  <otu id="otu25" cmphy:genus="Halorhodospira" cmphy:species="halophila" cmphy:strain="DSM 2447" cmphy:id="M26630" editRecord="[]">Halorhodospira halophila DSM 2447 (M26630)</otu>
+  <otu id="otu26" cmphy:genus="Halothiobacillus" cmphy:species="halophilus" cmphy:strain="DSM 61327" cmphy:id="U58020" editRecord="[]">Halothiobacillus halophilus DSM 61327 (U58020)</otu>
+  <otu id="otu27" cmphy:edit="[3__B]" cmphy:genus="Thiomicrospira" cmphy:species="halophila" cmphy:strain="HL57" cmphy:id="DQB90450" editRecord="[3__B]">Thiomicrospira halophila HL57 (DQ390450)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="10.0" y="973.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="42.0" y="973.0"/>
+   <node id="NT1.3" x="95.0" y="879.0" label="92"/>
+   <node id="NT1.4" x="184.0" y="752.0" label="87"/>
+   <node id="NT1.5" x="195.0" y="555.0" label="85"/>
+   <node id="NT1.6" label="NT1.6" x="203.0" y="408.0"/>
+   <node id="NT1.7" label="NT1.7" x="216.0" y="699.0"/>
+   <node id="NT1.8" label="NT1.8" x="217.0" y="311.0"/>
+   <node id="NT1.9" label="NT1.9" x="226.0" y="501.0"/>
+   <node id="NT1.10" label="NT1.10" x="238.0" y="240.0"/>
+   <node id="NT1.12" x="250.0" y="768.0" label="80"/>
+   <node id="NT1.15" label="NT1.15" x="263.0" y="1005.0"/>
+   <node id="NT1.18" x="288.0" y="286.0" label="78"/>
+   <node id="NT1.21" x="306.0" y="89.0" label="82"/>
+   <node id="NT1.25" label="NT1.25" x="362.0" y="688.0"/>
+   <node id="NT1.26" x="370.0" y="885.0" label="100"/>
+   <node id="NT1.28" label="NT1.28" x="406.0" y="507.0" otu="otu3"/>
+   <node id="NT1.29" label="NT1.29" x="410.0" y="867.0" otu="otu4"/>
+   <node id="NT1.30" label="NT1.30" x="418.0" y="627.0" otu="otu5"/>
+   <node id="NT1.32" label="NT1.32" x="429.0" y="1067.0" otu="otu7"/>
+   <node id="NT1.37" label="NT1.37" x="447.0" y="707.0" otu="otu12"/>
+   <node id="NT1.38" label="NT1.38" x="449.0" y="428.0" otu="otu13"/>
+   <node id="NT1.40" label="NT1.40" x="458.0" y="667.0" otu="otu15"/>
+   <node id="NT1.42" label="NT1.42" x="470.0" y="69.0" otu="otu17"/>
+   <node id="NT1.45" label="NT1.45" x="489.0" y="109.0" otu="otu20"/>
+   <node id="NT1.46" label="NT1.46" x="489.0" y="268.0" otu="otu21"/>
+   <node id="NT1.47" label="NT1.47" x="497.0" y="987.0" otu="otu22"/>
+   <node id="NT1.48" label="NT1.48" x="526.0" y="1027.0" otu="otu23"/>
+   <node id="NT1.49" label="NT1.49" x="528.0" y="907.0" otu="otu24"/>
+   <node id="NT1.50" label="NT1.50" x="555.0" y="308.0" otu="otu25"/>
+   <node id="NT1.51" label="NT1.51" x="580.0" y="467.0" otu="otu26"/>
+   <node id="NT1.52" label="NT1.52" x="647.0" y="947.0" otu="otu27"/>
+   <edge id="e.3" source="NT1.18" target="NT1.46"/>
+   <edge id="e.4" source="NT1.18" target="NT1.50"/>
+   <edge id="e.6" target="NT1.28" source="NT1.9"/>
+   <edge id="e.9" source="NT1.9" target="NT1.51"/>
+   <edge id="e.10" source="NT1.7" target="NT1.30"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.15" source="NT1.26" target="NT1.49"/>
+   <edge id="e.16" source="NT1.4" target="NT1.52"/>
+   <edge id="e.17" source="NT1.15" target="NT1.48"/>
+   <edge id="e.18" source="NT1.2" target="NT1.32"/>
+   <edge id="e.19" target="NT1.21" source="NT1.10"/>
+   <edge id="e.23" source="NT1.8" target="NT1.10"/>
+   <edge id="e.24" source="NT1.10" target="NT1.18"/>
+   <edge id="e.25" source="NT1.6" target="NT1.8"/>
+   <edge id="e.27" source="NT1.5" target="NT1.6"/>
+   <edge id="e.28" source="NT1.6" target="NT1.9"/>
+   <edge id="e.31" source="NT1.4" target="NT1.5"/>
+   <edge id="e.32" source="NT1.5" target="NT1.7"/>
+   <edge id="e.34" source="NT1.7" target="NT1.12"/>
+   <edge id="e.35" source="NT1.3" target="NT1.4"/>
+   <edge id="e.39" target="NT1.25" source="NT1.12"/>
+   <edge id="e.40" target="NT1.26" source="NT1.12"/>
+   <edge id="e.41" source="NT1.2" target="NT1.3"/>
+   <edge id="e.42" source="NT1.3" target="NT1.15"/>
+   <edge id="e.43" source="NT1.15" target="NT1.47"/>
+   <edge id="e.45" target="NT1.38" source="NT1.8"/>
+   <edge id="e.46" source="NT1.21" target="NT1.45"/>
+   <edge id="e.47" source="NT1.21" target="NT1.42"/>
+   <edge id="e.48" source="NT1.26" target="NT1.29"/>
+   <edge id="e.49" source="NT1.25" target="NT1.37"/>
+   <edge id="e.50" source="NT1.25" target="NT1.40"/>
+  </tree>
+ </trees>
+</nexml>

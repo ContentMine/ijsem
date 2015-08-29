@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Iso ate MWH-PooIGreenA3 (FM208180) (PnecB)</otu>
+  <otu id="otu2">Iso ate AM-8B5 (FM208181) (PnecB)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"> P. necessarius subsp. asymbioticus OLW-P1 DMWA-1T (AJ87978S)</otu>
+  <otu id="otu5"> P. necessarius subsp. asymbloticus MWH-JaK3 (AJ550657)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">P. necessarius subsp. necessarius E24 (AM397067)</otu>
+  <otu id="otu8">MWH-VicM1 (AJ550651)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"> MWH-CaK1 (AJ550667)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"> MWH-TaW3 (A.l550GG1)</otu>
+  <otu id="otu13" cmphy:genus="Ralstonia" cmphy:species="solanacearum" cmphy:strain="GMI1 O00" cmphy:id="NC_003295" editRecord="[]">Ralstonia solanacearum GMI1 O00 (NC_003295)</otu>
+  <otu id="otu14">Isolate MT-CBb6A5 (FM208182)(PneCA)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.25" label="NT1.25" x="709.0" y="90.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="4.0" y="204.0" root="true"/>
+   <edge id="e.24" source="NT1.27" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

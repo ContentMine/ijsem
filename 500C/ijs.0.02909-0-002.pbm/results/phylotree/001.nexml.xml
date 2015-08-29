@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Moorella" cmphy:species="thermoautotrophica" cmphy:strain="JW 701l5" cmphy:id="X58354" editRecord="[]">Moorella thermoautotrophica JW 701l5 (X58354)</otu>
+  <otu id="otu3" cmphy:genus="Thermoanaerobacter" cmphy:species="wiegelii" cmphy:strain="Rt8.B1T" cmphy:id="X92513" editRecord="[]">Thermoanaerobacter wiegelii Rt8.B1T (X92513)</otu>
+  <otu id="otu4" cmphy:genus="Thermoanaerobacter" cmphy:species="thermocopriae" cmphy:strain="JT3-3T" cmphy:id="L09167" editRecord="[]">Thermoanaerobacter thermocopriae JT3-3T (L09167)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Anaerobranca" cmphy:species="gottschalkii" cmphy:strain="LBSST" cmphy:id="AFZ03703" editRecord="[2__Z]">Anaerobranca gottschalkii LBSST (AF203703)</otu>
+  <otu id="otu6" cmphy:genus="Desulfotomaculum" cmphy:species="thermobenzoicum" cmphy:strain="TS BT" cmphy:id="L15628" editRecord="[]">Desulfotomaculum thermobenzoicum TS BT (L15628)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Carboxydibrachium" cmphy:species="pacificum" cmphy:strain="JMT" cmphy:id="AFI74484" editRecord="[1__I]">Carboxydibrachium pacificum JMT (AF174484)</otu>
+  <otu id="otu8" cmphy:genus="Clostridium" cmphy:species="cellulolyticum" cmphy:strain="ATCC 353197" cmphy:id="X71847" editRecord="[]">Clostridium cellulolyticum ATCC 353197 (X71847)</otu>
+  <otu id="otu9">Strain PAOHA-17 (AY064217)</otu>
+  <otu id="otu10" cmphy:genus="Anaerobranca" cmphy:species="horikoshii" cmphy:strain="JWIYL-138T" cmphy:id="U21809" editRecord="[]">Anaerobranca horikoshii JWIYL-138T (U21809)</otu>
+  <otu id="otu11">Strain PAOHA-2 (AY064218)</otu>
+  <otu id="otu12">Syntrophospora bryantii DSM (301487 (M26491)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Anaerobranca" cmphy:species="gottschalkii" cmphy:strain="LBSST" cmphy:id="AFZ03703" editRecord="[2__Z]">Anaerobranca gottschalkii LBSST (AF203703)</otu>
+  <otu id="otu14" cmphy:genus="Thermoterrabacterium" cmphy:species="ferrireducens" cmphy:strain="JWIAS-Y7T" cmphy:id="U76363" editRecord="[]">Thermoterrabacterium ferrireducens JWIAS-Y7T (U76363)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Thermoanaerobacterium" cmphy:species="thermosulfurigenes" cmphy:strain="E100-69" cmphy:id="L09161" editRecord="[]">Thermoanaerobacterium thermosulfurigenes E100-69 (L09161)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:genus="Caldicellulosiruptor" cmphy:species="owensensis" cmphy:strain="OLT" cmphy:id="U80596" editRecord="[]">Caldicellulosiruptor owensensis OLT (U80596)</otu>
+  <otu id="otu19" cmphy:genus="Clostridium" cmphy:species="butyricum" cmphy:strain="ATCC 19398T" cmphy:id="M59085" editRecord="[]">Clostridium butyricum ATCC 19398T (M59085)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="421.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="24.0" y="421.0"/>
+   <node id="NT1.3" label="NT1.3" x="37.0" y="299.0"/>
+   <node id="NT1.4" label="NT1.4" x="42.0" y="249.0"/>
+   <node id="NT1.5" label="NT1.5" x="50.0" y="489.0"/>
+   <node id="NT1.7" label="NT1.7" x="54.0" y="179.0"/>
+   <node id="NT1.8" label="NT1.8" x="71.0" y="194.0"/>
+   <node id="NT1.10" label="NT1.10" x="79.0" y="592.0"/>
+   <node id="NT1.11" label="NT1.11" x="99.0" y="112.0"/>
+   <node id="NT1.12" label="NT1.12" x="177.0" y="291.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="198.0" y="62.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="206.0" y="100.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="225.0" y="557.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="226.0" y="368.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="226.0" y="559.0"/>
+   <node id="NT1.18" label="NT1.18" x="229.0" y="138.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="241.0" y="521.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="249.0" y="598.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="251.0" y="559.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="271.0" y="253.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="275.0" y="214.0" otu="otu16"/>
+   <node id="NT1.32" label="NT1.32" x="321.0" y="176.0" otu="otu18"/>
+   <node id="NT1.33" label="NT1.33" x="346.0" y="482.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.11" target="NT1.13"/>
+   <edge id="e.1" source="NT1.11" target="NT1.18"/>
+   <edge id="e.2" source="NT1.8" target="NT1.30"/>
+   <edge id="e.3" source="NT1.8" target="NT1.32"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" source="NT1.17" target="NT1.15"/>
+   <edge id="e.9" source="NT1.17" target="NT1.26"/>
+   <edge id="e.11" target="NT1.33" source="NT1.5"/>
+   <edge id="e.12" target="NT1.23" source="NT1.10"/>
+   <edge id="e.14" source="NT1.7" target="NT1.11"/>
+   <edge id="e.15" source="NT1.11" target="NT1.8"/>
+   <edge id="e.16" source="NT1.4" target="NT1.7"/>
+   <edge id="e.17" source="NT1.3" target="NT1.4"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" source="NT1.2" target="NT1.10"/>
+   <edge id="e.21" source="NT1.10" target="NT1.5"/>
+   <edge id="e.22" source="NT1.10" target="NT1.17"/>
+   <edge id="e.26" source="NT1.4" target="NT1.12"/>
+   <edge id="e.28" source="NT1.7" target="NT1.28"/>
+   <edge id="e.29" target="NT1.16" source="NT1.3"/>
+   <edge id="e.30" source="NT1.11" target="NT1.14"/>
+   <edge id="e.31" source="NT1.5" target="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

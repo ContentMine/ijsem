@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">L. mesenteroides NRIC 15417 (AB354944)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Fructobacillus" cmphy:species="pseudoficulneus" cmphy:strain="DSM 154687" cmphy:id="ABB54951" editRecord="[3__B]">Fructobacillus pseudoficulneus DSM 154687 (AB354951)</otu>
+  <otu id="otu3">L. inhae NRIC 05627 (AB354947)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Fructobacillus" cmphy:species="ficulneus" cmphy:strain="JCM 122257" cmphy:id="ABB54940" editRecord="[3__B]">Fructobacillus ficulneus JCM 122257 (AB354940)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Fructobacillus" cmphy:species="durionis" cmphy:strain="LMG 225567" cmphy:id="ABB54950" editRecord="[3__B]">Fructobacillus durionis LMG 225567 (AB354950)</otu>
+  <otu id="otu6">L. fallax NRIC 02107 (AB354948)</otu>
+  <otu id="otu7">L. carnosum NRIC 17227 (AB354949)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Fructobacillus" cmphy:species="fructosus" cmphy:strain="NRIC 10587" cmphy:id="ABB54946" editRecord="[3__B]">Fructobacillus fructosus NRIC 10587 (AB354946)</otu>
+  <otu id="otu9">L. citreum LMG 98497 (AJ621688)</otu>
+  <otu id="otu10">L. lactis NRIC 15407 (AB354945)</otu>
+  <otu id="otu11" cmphy:genus="Oenococcus" cmphy:species="oeni" cmphy:strain="NCDO 16747" cmphy:id="AJ621689" editRecord="[]">Oenococcus oeni NCDO 16747 (AJ621689)</otu>
+  <otu id="otu12">L. palmae TMW 2.6947 (AM940226)</otu>
+  <otu id="otu13">L. gelidum NRIC 17787 (AB354941)</otu>
+  <otu id="otu14">L. gasicomitatum JCM 125357 (AB354939)</otu>
+  <otu id="otu15">L. holzapfelii LMG 239907 (AM940229)</otu>
+  <otu id="otu16">L. pseudomesenteroides NRIC 17777 (AB354942)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.6" x="143.0" y="766.0" label="96"/>
+   <node id="NT1.9" label="NT1.9" x="171.0" y="804.0"/>
+   <node id="NT1.11" x="203.0" y="837.0" label="63"/>
+   <node id="NT1.16" label="NT1.16" x="427.0" y="860.0" otu="otu2"/>
+   <node id="NT1.18" label="NT1.18" x="444.0" y="727.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="455.0" y="814.0" otu="otu5"/>
+   <node id="NT1.22" label="NT1.22" x="467.0" y="770.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="478.0" y="1391.0" otu="otu11"/>
+   <node id="NT1.31" label="NT1.31" x="7.0" y="1130.0" root="true"/>
+   <edge id="e.0" source="NT1.6" target="NT1.18"/>
+   <edge id="e.1" source="NT1.11" target="NT1.16"/>
+   <edge id="e.2" source="NT1.9" target="NT1.22"/>
+   <edge id="e.3" source="NT1.11" target="NT1.19"/>
+   <edge id="e.15" target="NT1.6" source="NT1.31"/>
+   <edge id="e.16" source="NT1.6" target="NT1.9"/>
+   <edge id="e.17" source="NT1.9" target="NT1.11"/>
+   <edge id="e.28" source="NT1.31" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

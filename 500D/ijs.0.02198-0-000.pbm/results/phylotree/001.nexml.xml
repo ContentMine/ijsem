@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="s." cmphy:species="algae" cmphy:strain="IAM 14159T" cmphy:id="U91546">s. algae IAM 14159T (U91546)</otu>
+  <otu id="otu3">S. japonica KMM 3299T(AF145921)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="woodyi" cmphy:strain="M8327" cmphy:id="AFO03549" editRecord="[0__O]">S. woodyi M8327 (AF003549)</otu>
+  <otu id="otu5" cmphy:genus="S." cmphy:species="hanedai" cmphy:strain="CIP 1O3207T" cmphy:id="X82132" editRecord="[]">S. hanedai CIP 1O3207T (X82132)</otu>
+  <otu id="otu6" cmphy:genus="S." cmphy:species="frigidimarina" cmphy:strain="ACAM 591T" cmphy:id="U85903" editRecord="[]">S. frigidimarina ACAM 591T (U85903)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="S." cmphy:species="fidelis" cmphy:strain="KMM 3589" cmphy:id="AF420313" editRecord="[]">S. fidelis KMM 3589 (AF420313)</otu>
+  <otu id="otu10" cmphy:genus="S." cmphy:species="gelidimarina" cmphy:strain="ACAM 456T" cmphy:id="U85907" editRecord="[]">S. gelidimarina ACAM 456T (U85907)</otu>
+  <otu id="otu11" cmphy:genus="S." cmphy:species="benthica" cmphy:strain="ATCC 43992T" cmphy:id="X82131" editRecord="[]">S. benthica ATCC 43992T (X82131)</otu>
+  <otu id="otu12" cmphy:genus="S." cmphy:species="violacea" cmphy:strain="DSS12T" cmphy:id="D21225" editRecord="[]">S. violacea DSS12T (D21225)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="colwelliana" cmphy:strain="ATCC 33888" cmphy:id="AFI70794" editRecord="[1__I]">S. colwelliana ATCC 33888 (AF170794)</otu>
+  <otu id="otu14">S. pealeana ANG-SQ1T(AF011335)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="oneidensis" cmphy:strain="SP-32" cmphy:id="AFO39056" editRecord="[0__O]">S. oneidensis SP-32 (AF039056)</otu>
+  <otu id="otu17"> S. baltica IAM 1477T(AJ0O0215)</otu>
+  <otu id="otu18"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="297.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="55.0" y="297.0"/>
+   <node id="NT1.3" x="92.0" y="97.0" label="68"/>
+   <node id="NT1.4" label="NT1.4" x="111.0" y="492.0"/>
+   <node id="NT1.7" label="NT1.7" x="146.0" y="582.0"/>
+   <node id="NT1.8" label="NT1.8" x="167.0" y="407.0"/>
+   <node id="NT1.9" label="NT1.9" x="173.0" y="225.0"/>
+   <node id="NT1.10" label="NT1.10" x="176.0" y="666.0"/>
+   <node id="NT1.11" label="NT1.11" x="182.0" y="59.0" otu="otu2"/>
+   <node id="NT1.14" x="211.0" y="603.0" label="52"/>
+   <node id="NT1.15" label="NT1.15" x="223.0" y="429.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="223.0" y="383.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="228.0" y="150.0" otu="otu6"/>
+   <node id="NT1.19" x="229.0" y="727.0" label="99"/>
+   <node id="NT1.23" label="NT1.23" x="261.0" y="521.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="268.0" y="568.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="288.0" y="706.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="288.0" y="752.0" otu="otu12"/>
+   <node id="NT1.29" label="NT1.29" x="303.0" y="614.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="328.0" y="337.0" otu="otu16"/>
+   <edge id="e.0" target="NT1.11" source="NT1.3"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.9" target="NT1.17"/>
+   <edge id="e.4" target="NT1.32" source="NT1.9"/>
+   <edge id="e.7" source="NT1.8" target="NT1.15"/>
+   <edge id="e.8" source="NT1.8" target="NT1.16"/>
+   <edge id="e.9" target="NT1.23" source="NT1.7"/>
+   <edge id="e.11" source="NT1.19" target="NT1.27"/>
+   <edge id="e.12" source="NT1.19" target="NT1.28"/>
+   <edge id="e.14" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" target="NT1.9" source="NT1.3"/>
+   <edge id="e.18" source="NT1.2" target="NT1.4"/>
+   <edge id="e.21" source="NT1.4" target="NT1.8"/>
+   <edge id="e.22" source="NT1.7" target="NT1.10"/>
+   <edge id="e.24" source="NT1.10" target="NT1.19"/>
+   <edge id="e.25" source="NT1.10" target="NT1.14"/>
+   <edge id="e.26" source="NT1.4" target="NT1.7"/>
+   <edge id="e.29" source="NT1.14" target="NT1.24"/>
+   <edge id="e.31" target="NT1.29" source="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

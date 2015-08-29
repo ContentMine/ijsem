@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> M. plurifarium ICMP 13640 (AY494794)</otu>
+  <otu id="otu3">M. septentrionale SDWO147 (DQ345072)</otu>
+  <otu id="otu4">M. ciceri USDA 33837 (AF169580)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">M. Ioti LMG e125T (AF169581)</otu>
+  <otu id="otu7">R. etli USDA 90327 (AF169585)</otu>
+  <otu id="otu8">M. temperatum SDW0187 (DQ345073)</otu>
+  <otu id="otu9">M. mediterraneum USDA 33927 (AF169578)</otu>
+  <otu id="otu10">R. galegae USDA 41287 (AF169587)</otu>
+  <otu id="otu11">M. tianshanense USDA 35927 (AF169579)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="fredii" cmphy:strain="USDA 2057" cmphy:id="AFI69591" editRecord="[1__I]">S. fredii USDA 2057 (AF169591)</otu>
+  <otu id="otu13">M. amorphae ICMP 10522 (AY494807)</otu>
+  <otu id="otu14">R. Ieguminosarum USDA 23707 (AF169586)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="saheli" cmphy:strain="ORS 6097" cmphy:id="AFI69589" editRecord="[1__I]">S. saheli ORS 6097 (AF169589)</otu>
+  <otu id="otu16">M. albiziae CCBAU 611587 (DQ311091)</otu>
+  <otu id="otu17">R. etli bv. phaseoli lE273O (AF529014)</otu>
+  <otu id="otu18">R. tropici USDA 90307 (AF169584)</otu>
+  <otu id="otu19" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="terangae" cmphy:strain="ORS 10097" cmphy:id="AFI69590" editRecord="[1__I]">S. terangae ORS 10097 (AF169590)</otu>
+  <otu id="otu20">R. tropici USDA 9039 (AF169583)</otu>
+  <otu id="otu21">M. chacoense ICMP 145877 (AY494791)</otu>
+  <otu id="otu22" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="meliloti" cmphy:strain="USDA 10027" cmphy:id="AFI69593" editRecord="[1__I]">S. meliloti USDA 10027 (AF169593)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="medicae" cmphy:strain="A 3217" cmphy:id="AFI69592" editRecord="[1__I]">S. medicae A 3217 (AF169592)</otu>
+  <otu id="otu25">A. tumefaciens C58 (AE009189)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="1062.0" otu="otu1" root="true"/>
+   <node id="NT1.14" label="NT1.14" x="163.0" y="897.0"/>
+   <node id="NT1.18" label="NT1.18" x="184.0" y="936.0"/>
+   <node id="NT1.21" label="NT1.21" x="208.0" y="956.0"/>
+   <node id="NT1.34" label="NT1.34" x="297.0" y="911.0" otu="otu12"/>
+   <node id="NT1.37" label="NT1.37" x="306.0" y="981.0" otu="otu15"/>
+   <node id="NT1.38" x="313.0" y="857.0" label="100"/>
+   <node id="NT1.42" label="NT1.42" x="344.0" y="946.0" otu="otu19"/>
+   <node id="NT1.45" label="NT1.45" x="434.0" y="840.0" otu="otu22"/>
+   <node id="NT1.47" label="NT1.47" x="484.0" y="875.0" otu="otu24"/>
+   <edge id="e.6" source="NT1.18" target="NT1.34"/>
+   <edge id="e.21" target="NT1.14" source="NT1.1"/>
+   <edge id="e.24" source="NT1.14" target="NT1.18"/>
+   <edge id="e.25" source="NT1.14" target="NT1.38"/>
+   <edge id="e.26" source="NT1.18" target="NT1.21"/>
+   <edge id="e.41" source="NT1.21" target="NT1.37"/>
+   <edge id="e.42" source="NT1.21" target="NT1.42"/>
+   <edge id="e.45" source="NT1.38" target="NT1.45"/>
+   <edge id="e.46" source="NT1.38" target="NT1.47"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Rhodothalassium" cmphy:species="salexigens" cmphy:strain="ATCC 358887" cmphy:id="D14431" editRecord="[]">Rhodothalassium salexigens ATCC 358887 (D14431)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Paracoccus" cmphy:species="pantotrophus" cmphy:strain="DSM 2944T" cmphy:id="AJZ88159" editRecord="[2__Z]">Paracoccus pantotrophus DSM 2944T (AJ288159)</otu>
+  <otu id="otu4"> 1RhodobactermassiIiensis1 Framboise (AF452106)</otu>
+  <otu id="otu5">Rhodobacter veldkampii ATCC 35703T (D16421 )</otu>
+  <otu id="otu6" cmphy:genus="Rhodobacter" cmphy:species="capsulatus" cmphy:strain="ATCC 1116GT" cmphy:id="D16428" editRecord="[]"> Rhodobacter capsulatus ATCC 1116GT (D16428)</otu>
+  <otu id="otu7" cmphy:genus="Rhodobacter" cmphy:species="sphaerofdes" cmphy:strain="ATCC 17023T" cmphy:id="X53855" editRecord="[]"> Rhodobacter sphaerofdes ATCC 17023T (X53855)</otu>
+  <otu id="otu8"> 1Rhodobacter gluconicum' (AB077986)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Albidovulum" cmphy:species="inexpectatum" cmphy:strain="FRR-107" cmphy:id="AF465833" editRecord="[]">Albidovulum inexpectatum FRR-107 (AF465833)</otu>
+  <otu id="otu11">TL 27 (AY616719)</otu>
+  <otu id="otu12" cmphy:genus="Rhodovulum" cmphy:species="euryhalinum" cmphy:strain="DSM 4868T" cmphy:id="D16426" editRecord="[]"> Rhodovulum euryhalinum DSM 4868T (D16426)</otu>
+  <otu id="otu13" cmphy:genus="Rhodovulum" cmphy:species="strictum" cmphy:strain="MB-G2T" cmphy:id="D16419" editRecord="[]"> Rhodovulum strictum MB-G2T (D16419)</otu>
+  <otu id="otu14" cmphy:genus="Rhodobacter" cmphy:species="blasticus" cmphy:strain="ATCC 334857" cmphy:id="D16429" editRecord="[]"> Rhodobacter blasticus ATCC 334857 (D16429)</otu>
+  <otu id="otu15" cmphy:genus="Rhodovulum" cmphy:species="sulfidophilum" cmphy:strain="DSM 13747" cmphy:id="D16423" editRecord="[]"> Rhodovulum sulfidophilum DSM 13747 (D16423)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Rhodovulum" cmphy:species="iodosum" cmphy:strain="N17" cmphy:id="Y15011" editRecord="[]"> Rhodovulum iodosum N17 (Y15011)</otu>
+  <otu id="otu18"> 1Rhodobacter apigmentum1 (AFO35433)</otu>
+  <otu id="otu19"> Rhodovulum adn'aticum DSM 2781T (D16418)</otu>
+  <otu id="otu20" cmphy:genus="Pseudorhodobacter" cmphy:species="ferrugineus" cmphy:strain="IAM 126167" cmphy:id="D88522" editRecord="[]"> Pseudorhodobacter ferrugineus IAM 126167 (D88522)</otu>
+  <otu id="otu21">Rhodovulum robiginosum N2T ( Y15012)</otu>
+  <otu id="otu22" cmphy:genus="Roseobacter" cmphy:species="denitrificans" cmphy:strain="Och 1147" cmphy:id="M96746" editRecord="[]">Roseobacter denitrificans Och 1147 (M96746)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="764.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="16.0" y="764.0"/>
+   <node id="NT1.3" x="148.0" y="681.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="155.0" y="572.0"/>
+   <node id="NT1.5" x="185.0" y="418.0" label="86"/>
+   <node id="NT1.7" label="NT1.7" x="192.0" y="853.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="198.0" y="491.0"/>
+   <node id="NT1.10" x="203.0" y="218.0" label="97"/>
+   <node id="NT1.11" label="NT1.11" x="206.0" y="144.0"/>
+   <node id="NT1.13" label="NT1.13" x="226.0" y="80.0"/>
+   <node id="NT1.14" label="NT1.14" x="232.0" y="546.0"/>
+   <node id="NT1.16" x="244.0" y="596.0" label="84"/>
+   <node id="NT1.17" label="NT1.17" x="246.0" y="728.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="253.0" y="497.0"/>
+   <node id="NT1.25" label="NT1.25" x="285.0" y="311.0" otu="otu6"/>
+   <node id="NT1.26" label="NT1.26" x="286.0" y="101.0" otu="otu7"/>
+   <node id="NT1.29" label="NT1.29" x="295.0" y="435.0" otu="otu10"/>
+   <node id="NT1.32" label="NT1.32" x="304.0" y="519.0" otu="otu12"/>
+   <node id="NT1.33" label="NT1.33" x="314.0" y="477.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="316.0" y="228.0" otu="otu14"/>
+   <node id="NT1.35" label="NT1.35" x="318.0" y="560.0" otu="otu15"/>
+   <node id="NT1.37" label="NT1.37" x="336.0" y="601.0" otu="otu17"/>
+   <node id="NT1.40" label="NT1.40" x="346.0" y="60.0" otu="otu20"/>
+   <node id="NT1.42" label="NT1.42" x="368.0" y="812.0" otu="otu22"/>
+   <edge id="e.1" target="NT1.40" source="NT1.13"/>
+   <edge id="e.2" target="NT1.26" source="NT1.13"/>
+   <edge id="e.5" target="NT1.34" source="NT1.11"/>
+   <edge id="e.6" target="NT1.25" source="NT1.10"/>
+   <edge id="e.9" source="NT1.9" target="NT1.29"/>
+   <edge id="e.10" source="NT1.18" target="NT1.32"/>
+   <edge id="e.11" source="NT1.18" target="NT1.33"/>
+   <edge id="e.12" source="NT1.16" target="NT1.35"/>
+   <edge id="e.13" target="NT1.37" source="NT1.16"/>
+   <edge id="e.15" source="NT1.4" target="NT1.17"/>
+   <edge id="e.16" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" target="NT1.42" source="NT1.3"/>
+   <edge id="e.19" source="NT1.2" target="NT1.7"/>
+   <edge id="e.21" source="NT1.11" target="NT1.13"/>
+   <edge id="e.23" source="NT1.10" target="NT1.11"/>
+   <edge id="e.25" target="NT1.10" source="NT1.5"/>
+   <edge id="e.29" source="NT1.5" target="NT1.9"/>
+   <edge id="e.30" source="NT1.14" target="NT1.16"/>
+   <edge id="e.31" source="NT1.14" target="NT1.18"/>
+   <edge id="e.32" source="NT1.3" target="NT1.4"/>
+   <edge id="e.35" source="NT1.2" target="NT1.3"/>
+   <edge id="e.37" source="NT1.4" target="NT1.5"/>
+   <edge id="e.38" source="NT1.9" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

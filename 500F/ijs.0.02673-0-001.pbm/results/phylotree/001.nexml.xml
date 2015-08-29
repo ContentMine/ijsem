@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Deferribacter thermophilus BMAT (U 75602)</otu>
+  <otu id="otu2">Strain JRT (AJ515882)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Deferribacter" cmphy:species="desulfuricans" cmphy:strain="DSM 14783T" cmphy:id="ABO86060" editRecord="[0__O]">Deferribacter desulfuricans DSM 14783T (AB086060)</otu>
+  <otu id="otu4" cmphy:genus="Flexistipes" cmphy:species="sinusarabici" cmphy:strain="DSM 4947T" cmphy:id="M59231" editRecord="[]">Flexistipes sinusarabici DSM 4947T (M59231)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Geovibrio" cmphy:species="thiophilus" cmphy:strain="AAFu3T" cmphy:id="AJZ99402" editRecord="[2__Z]">Geovibrio thiophilus AAFu3T (AJ299402)</otu>
+  <otu id="otu6">Geovibrio ferrireducens PAL-1 T (X95 744)</otu>
+  <otu id="otu7">Denitrovibrio acetiphilus N246OT (AF1 46526)</otu>
+  <otu id="otu8">Aquifexpyrophilus DSM 6858T (M83548)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="88.0" y="258.0"/>
+   <node id="NT1.3" x="113.0" y="79.0" label="so"/>
+   <node id="NT1.9" label="NT1.9" x="245.0" y="322.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="295.0" y="18.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="296.0" y="421.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="4.0" y="578.0" root="true"/>
+   <edge id="e.1" target="NT1.11" source="NT1.2"/>
+   <edge id="e.3" source="NT1.2" target="NT1.3"/>
+   <edge id="e.5" target="NT1.2" source="NT1.15"/>
+   <edge id="e.10" source="NT1.3" target="NT1.10"/>
+   <edge id="e.12" target="NT1.9" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

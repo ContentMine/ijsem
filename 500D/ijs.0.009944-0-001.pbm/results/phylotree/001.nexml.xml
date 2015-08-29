@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Aclinoplanes telch0n1ycelicu.s' DSM 43866 '1 (AJ865472)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Actinoplanes" cmphy:species="philippinensis" cmphy:strain="NBRC 13878T" cmphy:id="ABO47499" editRecord="[0__O]">Actinoplanes philippinensis NBRC 13878T (AB047499)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Micromanospora" cmphy:species="chalcea" cmphy:strain="DSM 43026T" cmphy:id="X92594" editRecord="[]">Micromanospora chalcea DSM 43026T (X92594)</otu>
+  <otu id="otu5">Actinaplanex regulurix NBRC 12514T (AB03701 1)</otu>
+  <otu id="otu6" cmphy:genus="Actinoplanes" cmphy:species="brasiliensis" cmphy:strain="DSM 4380591." cmphy:id="X93185" editRecord="[]">Actinoplanes brasiliensis DSM 4380591. (X93185)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Acfinaplanes" cmphy:species="palleronii" cmphy:strain="IMSNU 20038T" cmphy:id="AJZ77573" editRecord="[2__Z]">Acfinaplanes palleronii IMSNU 20038T (AJ277573)</otu>
+  <otu id="otu8" cmphy:genus="Actinoplunes" cmphy:species="utahenxis" cmphy:strain="ATCC 14539T" cmphy:id="X80823" editRecord="[]">Actinoplunes utahenxis ATCC 14539T (X80823) </otu>
+  <otu id="otu9">Actirmplanes cnn.vetten.vis NBRC 14913T (ABO36996)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Actinoplanes" cmphy:species="durhamensis" cmphy:strain="IMSNU 221241" cmphy:id="AJZ77568" editRecord="[2__Z]">Actinoplanes durhamensis IMSNU 221241 (AJ277568)</otu>
+  <otu id="otu13" cmphy:genus="Actinoplanes" cmphy:species="tacvensis" cmphy:strain="MN 07-A0368&quot;'" cmphy:id="AB468943" editRecord="[]">Actinoplanes tacvensis MN 07-A0368"' (AB468943)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Actinoplanes" cmphy:species="couchii" cmphy:strain="GW8-1761T" cmphy:id="AM400230" editRecord="[]">Actinoplanes couchii GW8-1761T (AM400230)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Actirroplanes" cmphy:species="derwentensis" cmphy:strain="NBRC 14935T" cmphy:id="ABO36999" editRecord="[0__O]">Actirroplanes derwentensis NBRC 14935T (AB036999)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+  <otu id="otu23" cmphy:edit="[2__Z]" cmphy:genus="Actinnplanes" cmphy:species="missouriensis" cmphy:strain="IMSNU 22O51T" cmphy:id="AJZ77572" editRecord="[2__Z]">Actinnplanes missouriensis IMSNU 22O51T (AJ277572)</otu>
+  <otu id="otu24"/>
+  <otu id="otu25"/>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="60.0" y="1101.0" label="515"/>
+   <node id="NT1.3" x="65.0" y="1388.0" label="25"/>
+   <node id="NT1.5" x="114.0" y="1308.0" label="252"/>
+   <node id="NT1.6" label="NT1.6" x="133.0" y="610.0"/>
+   <node id="NT1.9" x="166.0" y="291.0" label="29"/>
+   <node id="NT1.10" label="NT1.10" x="169.0" y="82.0"/>
+   <node id="NT1.14" label="NT1.14" x="207.0" y="718.0"/>
+   <node id="NT1.18" label="NT1.18" x="248.0" y="932.0" otu="otu2"/>
+   <node id="NT1.19" label="NT1.19" x="250.0" y="716.0"/>
+   <node id="NT1.21" label="NT1.21" x="254.0" y="1587.0" otu="otu4"/>
+   <node id="NT1.24" label="NT1.24" x="269.0" y="1348.0" otu="otu6"/>
+   <node id="NT1.25" label="NT1.25" x="276.0" y="156.0" otu="otu7"/>
+   <node id="NT1.27" label="NT1.27" x="301.0" y="35.0" otu="otu8"/>
+   <node id="NT1.33" label="NT1.33" x="330.0" y="1466.0" otu="otu12"/>
+   <node id="NT1.34" label="NT1.34" x="334.0" y="1170.0" otu="otu13"/>
+   <node id="NT1.37" label="NT1.37" x="392.0" y="690.0" otu="otu15"/>
+   <node id="NT1.39" label="NT1.39" x="409.0" y="750.0" otu="otu17"/>
+   <node id="NT1.48" label="NT1.48" x="508.0" y="871.0" otu="otu23"/>
+   <node id="NT1.53" label="NT1.53" x="3.0" y="1450.0" root="true"/>
+   <edge id="e.0" source="NT1.10" target="NT1.27"/>
+   <edge id="e.2" target="NT1.25" source="NT1.10"/>
+   <edge id="e.6" source="NT1.6" target="NT1.18"/>
+   <edge id="e.7" target="NT1.48" source="NT1.14"/>
+   <edge id="e.9" source="NT1.19" target="NT1.39"/>
+   <edge id="e.10" target="NT1.37" source="NT1.19"/>
+   <edge id="e.19" source="NT1.3" target="NT1.33"/>
+   <edge id="e.21" target="NT1.24" source="NT1.5"/>
+   <edge id="e.22" target="NT1.34" source="NT1.5"/>
+   <edge id="e.26" source="NT1.9" target="NT1.10"/>
+   <edge id="e.28" source="NT1.6" target="NT1.9"/>
+   <edge id="e.30" target="NT1.14" source="NT1.9"/>
+   <edge id="e.32" target="NT1.6" source="NT1.2"/>
+   <edge id="e.38" target="NT1.19" source="NT1.14"/>
+   <edge id="e.43" target="NT1.2" source="NT1.53"/>
+   <edge id="e.44" source="NT1.2" target="NT1.3"/>
+   <edge id="e.45" source="NT1.3" target="NT1.5"/>
+   <edge id="e.50" source="NT1.53" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

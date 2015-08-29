@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="s." cmphy:species="fredii" cmphy:strain="HH103" cmphy:id="DQO60002">s. fredii HH103 (DQ060002)</otu>
+  <otu id="otu3">Rhizobium sp. NGR234 (U0OO90.2)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="s." cmphy:species="fredii" cmphy:strain="HH103" cmphy:id="DQO60002">s. fredii HH103 (DQ060002)</otu>
+  <otu id="otu5">SEMIA 6160 (HQ259486)</otu>
+  <otu id="otu6">SEMIA 6053 (HQ259456)</otu>
+  <otu id="otu7">SEMIA 6152 (HO259468)</otu>
+  <otu id="otu8">M. Ioti MAFF303099 (BAOOOO12.4)</otu>
+  <otu id="otu9">B. elkanii USDA 761(AM1 17554.1)</otu>
+  <otu id="otu10">SEMIA 587 (HO259488)</otu>
+  <otu id="otu11">B. japonicum USDA 135 (AJ300253)</otu>
+  <otu id="otu12">SEMIA 5026 (HO259489)</otu>
+  <otu id="otu13">SEMIA 695 (HQ259467)</otu>
+  <otu id="otu14">SEMIA 5011</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">R. etli CFN42T (U80928.5)</otu>
+  <otu id="otu17">R. leguminosarum bv. Viciae 3841 (AM236084)</otu>
+  <otu id="otu18">SEMIA 656 (HO259469)</otu>
+  <otu id="otu19">SEMIA 6077 (HO259474)</otu>
+  <otu id="otu20">SEMIA 6179 (HQ259465)</otu>
+  <otu id="otu21">SEMIA 6187 (HQ259459) </otu>
+  <otu id="otu22">SEMIA 6164 (HQ259458)</otu>
+  <otu id="otu23">SEMIA 6059 (HO259491)</otu>
+  <otu id="otu24">Bradyrhizobium sp. USDA 3475 (AJ430710)</otu>
+  <otu id="otu25">SEMIA 6186 (HO259462)</otu>
+  <otu id="otu26">SEMIA 512 (HO259470)</otu>
+  <otu id="otu27">SEMIA 512 (HO259470)</otu>
+  <otu id="otu28">SEMIA 6319 (HQ259457)</otu>
+  <otu id="otu29">SEMIA 5045 (HQ259472)</otu>
+  <otu id="otu30">B. japonicum</otu>
+  <otu id="otu31">SEMIA 560 (HQ259482)</otu>
+  <otu id="otu32">S. meliloti 1021 (AEOO6469.1)</otu>
+  <otu id="otu33">Bradyrhizobium sp. Lpol9</otu>
+  <otu id="otu34">SEMIA 5079 (HQ259490)</otu>
+  <otu id="otu35">Bradyrhizobium sp. USDA 3505 (AJ430709)</otu>
+  <otu id="otu36">Bradyrhizobium sp. CH2355 (AM117561)</otu>
+  <otu id="otu37">Bradyrhizobium sp. Lcamp8</otu>
+  <otu id="otu38">B. yuanmingense CCBAU 10071 7 (AM1 1 7557.1)</otu>
+  <otu id="otu39">SEMIA 6028 (HQ259473)</otu>
+  <otu id="otu40">SEMIA 6148 (HQ259481)</otu>
+  <otu id="otu41">SEMIA 6101</otu>
+  <otu id="otu42">SEMIA 6374 (HQ259464)</otu>
+  <otu id="otu43">Bradyrhizobium sp. CH2509 (AM117556) </otu>
+  <otu id="otu44">SEMIA 5062 (HQ259484)</otu>
+  <otu id="otu45">Bradyrhizobium sp. BLUH1</otu>
+  <otu id="otu46">SEMIA 6146 (HO259475)</otu>
+  <otu id="otu47">Bradyrhizobium sp. ICED (AM117551)</otu>
+  <otu id="otu48">SEMIA 6069 (HQ259480)</otu>
+  <otu id="otu49">SEMIA 6093 (HO259485)</otu>
+  <otu id="otu50">SEMIA 928 (HQ259487)</otu>
+  <otu id="otu51">SEMIA 6156 (HQ259466)</otu>
+  <otu id="otu52">SEMIA 6440 (HO259461)</otu>
+  <otu id="otu53">R. leguminosarum bv. trifolii WSM1325</otu>
+  <otu id="otu54">SEMIA 6099 (HO259463)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="2218.0" otu="otu1" root="true"/>
+   <node id="NT1.16" label="NT1.16" x="512.0" y="2378.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="513.0" y="2376.0"/>
+   <node id="NT1.19" label="NT1.19" x="523.0" y="2376.0" otu="otu4"/>
+   <edge id="e.16" source="NT1.17" target="NT1.16"/>
+   <edge id="e.17" source="NT1.17" target="NT1.19"/>
+   <edge id="e.67" target="NT1.17" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

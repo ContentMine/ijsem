@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">ll</otu>
+  <otu id="otu2"> fnfantarfus subsp. coli HDP 90246' (AF429763)</otu>
+  <otu id="otu3"> bovis NCFB 2476 (AF396922)</otu>
+  <otu id="otu4"> bovis VAMC-2818 (AF353718)</otu>
+  <otu id="otu5"> lutetiensis EM 782 (AJ297215)</otu>
+  <otu id="otu6"> bows NCDO 597T(AF104116)</otu>
+  <otu id="otu7"> bows ATCC 333171 (ABO0Q48Q)</otu>
+  <otu id="otu8"> bows C14b1 (AF3969Q1)</otu>
+  <otu id="otu9"> bows HDP a95oeT (AF429765)</otu>
+  <otu id="otu10"> bows 1276 (AF135453)</otu>
+  <otu id="otu11">s. bows ATCC 43144 (AF1041 15)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="pasteurianus" cmphy:strain="CIP 105703" cmphy:id="AFZ97217" editRecord="[2__Z]">S. pasteurianus CIP 105703 (AF297217)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="gallolytfcus" cmphy:strain="ATCC 43143" cmphy:id="AFI04114" editRecord="[1__I]">S. gallolytfcus ATCC 43143 (AF104114)</otu>
+  <otu id="otu15">S. wafus NZRCC 20100) (AFOBSQOO)</otu>
+  <otu id="otu16" cmphy:genus="S." cmphy:species="waius" cmphy:strain="3l1" cmphy:id="SWU96621" editRecord="[]">S. waius 3l1 (SWU96621)</otu>
+  <otu id="otu17"> infantarfus subsp. fnfantarius HDP 9OO56T (AF429762)</otu>
+  <otu id="otu18"> fnfantarfus subsp. mfantarius HDP 90104 (AF177729)</otu>
+  <otu id="otu19">S. equinus NCTC 9814 (ABOOQS14)</otu>
+  <otu id="otu20" cmphy:genus="S." cmphy:species="macedonfcus" cmphy:strain="ACA-DC 206'" cmphy:id="SMZ94012" editRecord="[]">S. macedonfcus ACA-DC 206' (SMZ94012)</otu>
+  <otu id="otu21" cmphy:genus="s." cmphy:species="alactolyticus" cmphy:strain="ATCC 430771" cmphy:id="AFQ01899">s. alactolyticus ATCC 430771 (AFQ01899)</otu>
+  <otu id="otu22" cmphy:genus="S." cmphy:species="intestinalis" cmphy:strain="ATCC 43492T" cmphy:id="ABO02519" editRecord="[]">S. intestinalis ATCC 43492T (ABO02519)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="91.0" y="964.0"/>
+   <node id="NT1.3" label="NT1.3" x="129.0" y="695.0"/>
+   <node id="NT1.7" label="NT1.7" x="173.0" y="805.0"/>
+   <node id="NT1.8" label="NT1.8" x="173.0" y="971.0"/>
+   <node id="NT1.23" label="NT1.23" x="181.0" y="787.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="181.0" y="612.0" otu="otu14"/>
+   <node id="NT1.26" label="NT1.26" x="181.0" y="935.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="182.0" y="993.0" otu="otu20"/>
+   <node id="NT1.32" label="NT1.32" x="182.0" y="1022.0" otu="otu21"/>
+   <node id="NT1.33" label="NT1.33" x="182.0" y="1052.0" otu="otu22"/>
+   <node id="NT1.34" label="NT1.34" x="61.0" y="1086.0" root="true"/>
+   <edge id="e.12" target="NT1.23" source="NT1.7"/>
+   <edge id="e.13" target="NT1.24" source="NT1.7"/>
+   <edge id="e.15" target="NT1.26" source="NT1.8"/>
+   <edge id="e.16" source="NT1.2" target="NT1.32"/>
+   <edge id="e.21" source="NT1.3" target="NT1.7"/>
+   <edge id="e.22" source="NT1.3" target="NT1.8"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.27" source="NT1.34" target="NT1.2"/>
+   <edge id="e.29" source="NT1.2" target="NT1.33"/>
+   <edge id="e.31" source="NT1.8" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

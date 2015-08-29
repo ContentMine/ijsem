@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Clostridium" cmphy:species="herbivorans" cmphy:strain="544087" cmphy:id="L34418" editRecord="[]">Clostridium herbivorans 544087 (L34418)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Clostridium" cmphy:species="palysaccharolyticum" cmphy:strain="DSM 18017" cmphy:id="X77839" editRecord="[]">Clostridium palysaccharolyticum DSM 18017 (X77839)</otu>
+  <otu id="otu4" cmphy:genus="Eubaclerium" cmphy:species="contortum" cmphy:strain="ATCC 255407" cmphy:id="L34615" editRecord="[]">Eubaclerium contortum ATCC 255407 (L34615)</otu>
+  <otu id="otu5" cmphy:genus="Acetitomaculum" cmphy:species="ruminis" cmphy:strain="ATCC 488767" cmphy:id="M59083" editRecord="[]">Acetitomaculum ruminis ATCC 488767 (M59083)</otu>
+  <otu id="otu6" cmphy:genus="Hespellia" cmphy:species="porcina" cmphy:strain="NRRL B-234587" cmphy:id="AF445239" editRecord="[]">Hespellia porcina NRRL B-234587 (AF445239)</otu>
+  <otu id="otu7" cmphy:genus="Lachnospira" cmphy:species="pectinoschiza" cmphy:strain="ATCC 498277" cmphy:id="L14675" editRecord="[]">Lachnospira pectinoschiza ATCC 498277 (L14675)</otu>
+  <otu id="otu8" cmphy:genus="Clostridium" cmphy:species="clostridioforme" cmphy:strain="ATCC 255377" cmphy:id="M59089" editRecord="[]">Clostridium clostridioforme ATCC 255377 (M59089)</otu>
+  <otu id="otu9" cmphy:genus="Clostridium" cmphy:species="aroticum" cmphy:strain="ATCC 136197" cmphy:id="M59109" editRecord="[]">Clostridium aroticum ATCC 136197 (M59109)</otu>
+  <otu id="otu10">rDNA clone OTU-95 (AF371640)</otu>
+  <otu id="otu11" cmphy:genus="Eubacterium" cmphy:species="hallii" cmphy:strain="ATCC 277517" cmphy:id="L34621" editRecord="[]">Eubacterium hallii ATCC 277517 (L34621)</otu>
+  <otu id="otu12" cmphy:genus="Hespellia" cmphy:species="stercorisuis" cmphy:strain="NRRL B-234567" cmphy:id="AF445264" editRecord="[]">Hespellia stercorisuis NRRL B-234567 (AF445264)</otu>
+  <otu id="otu13" cmphy:genus="Dorea" cmphy:species="formicigenerans" cmphy:strain="ATCC 277557" cmphy:id="L34619" editRecord="[]">Dorea formicigenerans ATCC 277557 (L34619)</otu>
+  <otu id="otu14" cmphy:genus="Coprococcus" cmphy:species="eutaclus" cmphy:strain="ATCC 277597" cmphy:id="D14148" editRecord="[]">Coprococcus eutaclus ATCC 277597 (D14148)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Clastridium" cmphy:species="scindens" cmphy:strain="JCM 65677" cmphy:id="ABO20883" editRecord="[0__O]">Clastridium scindens JCM 65677 (AB020883)</otu>
+  <otu id="otu16" cmphy:genus="Huminococcus" cmphy:species="torques" cmphy:strain="ATCC 277567" cmphy:id="D14137" editRecord="[]">Huminococcus torques ATCC 277567 (D14137)</otu>
+  <otu id="otu17" cmphy:genus="Catonella" cmphy:species="morbi" cmphy:strain="ATCC 512717" cmphy:id="X87151" editRecord="[]">Catonella morbi ATCC 512717 (X87151)</otu>
+  <otu id="otu18" cmphy:genus="Ruminococcus" cmphy:species="gnavus" cmphy:strain="ATCC 291497" cmphy:id="D14136" editRecord="[]">Ruminococcus gnavus ATCC 291497 (D14136)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="44.0" y="345.0"/>
+   <node id="NT1.2" label="NT1.2" x="107.0" y="717.0"/>
+   <node id="NT1.3" label="NT1.3" x="141.0" y="339.0"/>
+   <node id="NT1.4" label="NT1.4" x="141.0" y="486.0"/>
+   <node id="NT1.5" label="NT1.5" x="154.0" y="850.0"/>
+   <node id="NT1.6" label="NT1.6" x="181.0" y="740.0"/>
+   <node id="NT1.7" label="NT1.7" x="224.0" y="543.0"/>
+   <node id="NT1.8" label="NT1.8" x="243.0" y="444.0"/>
+   <node id="NT1.9" label="NT1.9" x="260.0" y="355.0"/>
+   <node id="NT1.11" label="NT1.11" x="286.0" y="525.0"/>
+   <node id="NT1.12" x="339.0" y="433.0" label="100"/>
+   <node id="NT1.13" label="NT1.13" x="359.0" y="164.0" otu="otu1"/>
+   <node id="NT1.15" x="378.0" y="676.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="387.0" y="214.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="409.0" y="361.0"/>
+   <node id="NT1.18" label="NT1.18" x="414.0" y="408.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="424.0" y="115.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="430.0" y="703.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="435.0" y="264.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="436.0" y="751.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="438.0" y="458.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="454.0" y="898.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="475.0" y="652.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="478.0" y="507.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="483.0" y="849.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="572.0" y="556.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="581.0" y="360.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="605.0" y="18.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="739.0" y="311.0" otu="otu18"/>
+   <node id="NT1.33" label="NT1.33" x="9.0" y="81.0" root="true"/>
+   <edge id="e.0" source="NT1.5" target="NT1.28"/>
+   <edge id="e.1" source="NT1.12" target="NT1.18"/>
+   <edge id="e.2" source="NT1.17" target="NT1.30"/>
+   <edge id="e.3" source="NT1.1" target="NT1.3"/>
+   <edge id="e.4" source="NT1.3" target="NT1.2"/>
+   <edge id="e.5" source="NT1.2" target="NT1.4"/>
+   <edge id="e.6" source="NT1.2" target="NT1.5"/>
+   <edge id="e.7" source="NT1.4" target="NT1.6"/>
+   <edge id="e.8" source="NT1.6" target="NT1.7"/>
+   <edge id="e.11" source="NT1.7" target="NT1.8"/>
+   <edge id="e.12" source="NT1.8" target="NT1.11"/>
+   <edge id="e.13" source="NT1.8" target="NT1.9"/>
+   <edge id="e.14" target="NT1.15" source="NT1.7"/>
+   <edge id="e.15" source="NT1.9" target="NT1.17"/>
+   <edge id="e.16" source="NT1.17" target="NT1.12"/>
+   <edge id="e.17" source="NT1.33" target="NT1.1"/>
+   <edge id="e.18" source="NT1.1" target="NT1.19"/>
+   <edge id="e.19" source="NT1.4" target="NT1.21"/>
+   <edge id="e.20" source="NT1.5" target="NT1.25"/>
+   <edge id="e.21" source="NT1.3" target="NT1.13"/>
+   <edge id="e.22" source="NT1.6" target="NT1.22"/>
+   <edge id="e.23" source="NT1.3" target="NT1.16"/>
+   <edge id="e.24" source="NT1.33" target="NT1.31"/>
+   <edge id="e.26" source="NT1.11" target="NT1.27"/>
+   <edge id="e.27" source="NT1.11" target="NT1.29"/>
+   <edge id="e.28" source="NT1.12" target="NT1.23"/>
+   <edge id="e.29" source="NT1.15" target="NT1.20"/>
+   <edge id="e.30" source="NT1.15" target="NT1.26"/>
+   <edge id="e.31" source="NT1.9" target="NT1.32"/>
+  </tree>
+ </trees>
+</nexml>

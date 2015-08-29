@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Strain Ellin301 (AF498683)</otu>
+  <otu id="otu3">Strain Ellin301 (AF498683)</otu>
+  <otu id="otu4">61Strain Ellin325 (AF498707)</otu>
+  <otu id="otu5">Strain Ellin5025 (AY234442)</otu>
+  <otu id="otu6">Clone YNPFFP1 (AF391984)</otu>
+  <otu id="otu7" cmphy:genus="Conexibacter" cmphy:species="woesei" cmphy:strain="DSM 146847" cmphy:id="AJ440237" editRecord="[]">Conexibacter woesei DSM 146847 (AJ440237)</otu>
+  <otu id="otu8">Clone 1959-7 (AY425791)</otu>
+  <otu id="otu9">Strain Ellin5082 (AY234499)</otu>
+  <otu id="otu10">Strain Ellin5082 (AY234499)</otu>
+  <otu id="otu11">Strain Ellin6048 (AY234700)</otu>
+  <otu id="otu12">Strain Ellin5272 (AY234623)</otu>
+  <otu id="otu13">Strain EIlin5294 (AY234645)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">Clone TM-146 (X92699)</otu>
+  <otu id="otu16">Clone TM-36 (X92694)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Solirubrobacter" cmphy:species="pauli" cmphy:strain="B33D1T" cmphy:id="AYO39806" editRecord="[0__O]">Solirubrobacter pauli B33D1T (AY039806)</otu>
+  <otu id="otu18" cmphy:genus="Rubrobacter" cmphy:species="radiotolerans" cmphy:strain="DSM 5868T" cmphy:id="X98372" editRecord="[]">Rubrobacter radiotolerans DSM 5868T (X98372)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="DSM 107" cmphy:id="AJZ76351" editRecord="[2__Z]">Bacillus subtilis DSM 107 (AJ276351)</otu>
+  <otu id="otu20">Clone TM-220 (X92707)</otu>
+  <otu id="otu21" cmphy:genus="Thermoleophilum" cmphy:species="album" cmphy:strain="ATCC 352637" cmphy:id="AJ458462" editRecord="[]">Thermoleophilum album ATCC 352637 (AJ458462)</otu>
+  <otu id="otu22" cmphy:edit="[1__I]" cmphy:genus="Parulibacter" cmphy:species="minatonensis" cmphy:strain="KV-6147" cmphy:id="ABI93261" editRecord="[1__I]">Parulibacter minatonensis KV-6147 (AB193261)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="73.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="7.0" y="73.0"/>
+   <node id="NT1.3" label="NT1.3" x="111.0" y="178.0"/>
+   <node id="NT1.4" label="NT1.4" x="302.0" y="283.0"/>
+   <node id="NT1.5" label="NT1.5" x="363.0" y="441.0"/>
+   <node id="NT1.6" x="376.0" y="709.0" label="537"/>
+   <node id="NT1.24" label="NT1.24" x="481.0" y="817.0" otu="otu7"/>
+   <node id="NT1.37" label="NT1.37" x="544.0" y="604.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="546.0" y="71.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="550.0" y="20.0" otu="otu19"/>
+   <node id="NT1.41" label="NT1.41" x="570.0" y="125.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="592.0" y="180.0" otu="otu22"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" source="NT1.2" target="NT1.3"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.12" source="NT1.4" target="NT1.5"/>
+   <edge id="e.13" source="NT1.5" target="NT1.6"/>
+   <edge id="e.29" source="NT1.3" target="NT1.38"/>
+   <edge id="e.30" source="NT1.2" target="NT1.39"/>
+   <edge id="e.31" source="NT1.4" target="NT1.41"/>
+   <edge id="e.32" target="NT1.24" source="NT1.6"/>
+   <edge id="e.34" source="NT1.5" target="NT1.42"/>
+   <edge id="e.37" target="NT1.37" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

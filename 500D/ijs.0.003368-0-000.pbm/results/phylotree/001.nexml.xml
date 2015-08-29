@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Burkholderia" cmphy:species="cepacia" cmphy:strain="B7aM" cmphy:id="ABI64394" editRecord="[1__I]">Burkholderia cepacia B7aM (AB164394)</otu>
+  <otu id="otu3" cmphy:genus="Leptothrix" cmphy:species="cholodnii" cmphy:strain="CCM 1827" cmphy:id="X97070" editRecord="[]">Leptothrix cholodnii CCM 1827 (X97070)</otu>
+  <otu id="otu4" cmphy:genus="Azohydromonas" cmphy:species="lata" cmphy:strain="IAM 12599T" cmphy:id="D88007" editRecord="[]">Azohydromonas lata IAM 12599T (D88007)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Roseateles" cmphy:species="depolymerans" cmphy:strain="61 B2" cmphy:id="ABO03625" editRecord="[0__O]">Roseateles depolymerans 61 B2 (AB003625)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Pelomonas" cmphy:species="saccharophila" cmphy:strain="DSM 6547" cmphy:id="ABO21407" editRecord="[0__O]">Pelomonas saccharophila DSM 6547 (AB021407)</otu>
+  <otu id="otu7">Gsoil 1005 (AB271046)</otu>
+  <otu id="otu8" cmphy:genus="Aquincola" cmphy:species="tertiaricarbonis" cmphy:strain="L108" cmphy:id="DQ436455" editRecord="[]">Aquincola tertiaricarbonis L108 (DQ436455)</otu>
+  <otu id="otu9">IMCC1722 (DQ664241)</otu>
+  <otu id="otu10" cmphy:genus="Leptothrix" cmphy:species="mobilis" cmphy:strain="Feox-1T" cmphy:id="X97071" editRecord="[]">Leptothrix mobilis Feox-1T (X97071)</otu>
+  <otu id="otu11" cmphy:genus="Rubrivivax" cmphy:species="gelatinosus" cmphy:strain="IL144" cmphy:id="ABO16167" editRecord="[]">Rubrivivax gelatinosus IL144 (ABO16167)</otu>
+  <otu id="otu12">Strain 1a22T (EU542576)</otu>
+  <otu id="otu13" cmphy:edit="[8__B]" cmphy:genus="Rubrivivax" cmphy:species="benzoatilyticus" cmphy:strain="JA2T" cmphy:id="AJB88903" editRecord="[8__B]">Rubrivivax benzoatilyticus JA2T (AJ888903)</otu>
+  <otu id="otu14">)Rubrivivax indoIicus' OU5 (AJ620346)</otu>
+  <otu id="otu15" cmphy:genus="Ideonella" cmphy:species="dechloratans" cmphy:strain="ATCC 51718T" cmphy:id="X72724" editRecord="[]">Ideonella dechloratans ATCC 51718T (X72724)</otu>
+  <otu id="otu16">B511 (AB049106)</otu>
+  <otu id="otu17">B513 (AB049107)</otu>
+  <otu id="otu18">B5034 (ABO49105)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="95.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="2.0" y="95.0"/>
+   <node id="NT1.3" label="NT1.3" x="7.0" y="260.0"/>
+   <node id="NT1.4" label="NT1.4" x="41.0" y="129.0"/>
+   <node id="NT1.5" label="NT1.5" x="45.0" y="412.0"/>
+   <node id="NT1.6" label="NT1.6" x="73.0" y="531.0"/>
+   <node id="NT1.7" label="NT1.7" x="86.0" y="302.0"/>
+   <node id="NT1.8" label="NT1.8" x="91.0" y="12.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="91.0" y="177.0"/>
+   <node id="NT1.10" label="NT1.10" x="129.0" y="85.0"/>
+   <node id="NT1.14" label="NT1.14" x="209.0" y="205.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="209.0" y="342.0"/>
+   <node id="NT1.16" label="NT1.16" x="211.0" y="259.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="218.0" y="108.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="218.0" y="60.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="244.0" y="451.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="269.0" y="156.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="299.0" y="307.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="359.0" y="355.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="402.0" y="646.0" otu="otu15"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.10" target="NT1.17"/>
+   <edge id="e.2" source="NT1.10" target="NT1.18"/>
+   <edge id="e.3" source="NT1.7" target="NT1.16"/>
+   <edge id="e.6" source="NT1.2" target="NT1.3"/>
+   <edge id="e.7" source="NT1.3" target="NT1.5"/>
+   <edge id="e.8" source="NT1.3" target="NT1.4"/>
+   <edge id="e.9" source="NT1.4" target="NT1.9"/>
+   <edge id="e.10" source="NT1.4" target="NT1.10"/>
+   <edge id="e.11" source="NT1.5" target="NT1.6"/>
+   <edge id="e.12" source="NT1.5" target="NT1.7"/>
+   <edge id="e.13" source="NT1.7" target="NT1.15"/>
+   <edge id="e.21" source="NT1.2" target="NT1.8"/>
+   <edge id="e.22" source="NT1.9" target="NT1.14"/>
+   <edge id="e.23" source="NT1.9" target="NT1.22"/>
+   <edge id="e.25" target="NT1.20" source="NT1.6"/>
+   <edge id="e.27" source="NT1.15" target="NT1.24"/>
+   <edge id="e.28" target="NT1.27" source="NT1.15"/>
+   <edge id="e.30" target="NT1.30" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

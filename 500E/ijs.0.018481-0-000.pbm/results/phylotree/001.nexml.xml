@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Nubsella zeaxanthinifaciens TDMA-5T (AB2641 26)</otu>
+  <otu id="otu2" cmphy:genus="Mucilaginibacter" cmphy:species="paludis" cmphy:strain="TPT56T" cmphy:id="AM490402" editRecord="[]">Mucilaginibacter paludis TPT56T (AM490402)</otu>
+  <otu id="otu3">Pedobacter heparinus DSM 2366T(AJ438172)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Sphingobacterium" cmphy:species="antarcticum" cmphy:strain="6B1 Y" cmphy:id="AJS76248" editRecord="[5__S]">Sphingobacterium antarcticum 6B1 Y (AJ576248)</otu>
+  <otu id="otu5"> Sphingobacterium thalpophilum DSM 1 1 7237 (AJ4381 77)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Sphingobacterium faecium DSM 1 169OT(AJ438176)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Sphingobacterium kitahiroshimense 10CT (AB361 248)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Sphingobacterium" cmphy:species="composti" cmphy:strain="T5-1 2T" cmphy:id="ABZ44764" editRecord="[2__Z]">Sphingobacterium composti T5-1 2T (AB244764)</otu>
+  <otu id="otu15" cmphy:edit="[8__B]" cmphy:genus="Sphingobacterium" cmphy:species="shayense" cmphy:strain="HS39T" cmphy:id="FJB16788" editRecord="[8__B]">Sphingobacterium shayense HS39T (FJ816788)</otu>
+  <otu id="otu16">Parapedobacter koreensI'sJip14T (DQ680836)</otu>
+  <otu id="otu17" cmphy:genus="Pseudosphingobacterium" cmphy:species="domesticum" cmphy:strain="DC186T" cmphy:id="AM407725" editRecord="[]">Pseudosphingobacterium domesticum DC186T (AM407725)</otu>
+  <otu id="otu18">Sphingobacterium spiritivorum ATCC 338617 (ACHAO2000OO8)</otu>
+  <otu id="otu19">Olivibacter sitiensis AW-6T (D0421 387)</otu>
+  <otu id="otu20">Flavobacterium aquatile ATCC 1 19477 (AM230485)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="184.0" y="522.0"/>
+   <node id="NT1.2" label="NT1.2" x="191.0" y="444.0"/>
+   <node id="NT1.4" x="246.0" y="350.0" label="97"/>
+   <node id="NT1.7" label="NT1.7" x="315.0" y="156.0"/>
+   <node id="NT1.15" label="NT1.15" x="384.0" y="538.0" otu="otu2"/>
+   <node id="NT1.20" label="NT1.20" x="425.0" y="608.0" otu="otu4"/>
+   <node id="NT1.32" label="NT1.32" x="474.0" y="118.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="474.0" y="187.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="499.0" y="433.0" otu="otu17"/>
+   <node id="NT1.39" label="NT1.39" x="2.0" y="600.0" root="true"/>
+   <edge id="e.3" target="NT1.32" source="NT1.7"/>
+   <edge id="e.5" target="NT1.33" source="NT1.7"/>
+   <edge id="e.12" target="NT1.35" source="NT1.4"/>
+   <edge id="e.14" source="NT1.2" target="NT1.15"/>
+   <edge id="e.18" target="NT1.20" source="NT1.1"/>
+   <edge id="e.23" target="NT1.7" source="NT1.4"/>
+   <edge id="e.29" source="NT1.2" target="NT1.4"/>
+   <edge id="e.32" source="NT1.1" target="NT1.2"/>
+   <edge id="e.37" source="NT1.39" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

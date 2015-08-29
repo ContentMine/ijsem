@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Nocardia" cmphy:species="vinacea" cmphy:strain="JCM 10988T" cmphy:id="ABO24312" editRecord="[0__O]">Nocardia vinacea JCM 10988T (AB024312)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Nocardia" cmphy:species="alba" cmphy:strain="YIM 302437" cmphy:id="AYZ22321" editRecord="[2__Z]">Nocardia alba YIM 302437 (AY222321)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Nocardia" cmphy:species="pseudovaccinii" cmphy:strain="DSM 434O6T" cmphy:id="AF430046" editRecord="[]">Nocardia pseudovaccinii DSM 434O6T (AF430046)</otu>
+  <otu id="otu7" cmphy:genus="Nocardia" cmphy:species="caishljiensis" cmphy:strain="JCM 115O8T" cmphy:id="AF459443" editRecord="[]">Nocardia caishljiensis JCM 115O8T (AF459443)</otu>
+  <otu id="otu8" cmphy:genus="Nocardia" cmphy:species="fluminea" cmphy:strain="DSM 44489T" cmphy:id="AF430053" editRecord="[]"> Nocardia fluminea DSM 44489T (AF430053)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Nocardia" cmphy:species="ignorata" cmphy:strain="DSM 44496T" cmphy:id="AYI91254" editRecord="[1__I]">Nocardia ignorata DSM 44496T (AY191254)</otu>
+  <otu id="otu11">Strain N3-2T(AY964666)</otu>
+  <otu id="otu12" cmphy:genus="Nocardia" cmphy:species="salmonicida" cmphy:strain="JCM 4a2eT" cmphy:id="Z46750" editRecord="[]">Nocardia salmonicida JCM 4a2eT (Z46750)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Nocardia" cmphy:species="soli" cmphy:strain="DSM 444337" cmphy:id="AFZ77223" editRecord="[2__Z]">Nocardia soli DSM 444337 (AF277223)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="458.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="16.0" y="458.0"/>
+   <node id="NT1.3" label="NT1.3" x="61.0" y="355.0"/>
+   <node id="NT1.4" label="NT1.4" x="124.0" y="326.0"/>
+   <node id="NT1.5" label="NT1.5" x="159.0" y="532.0"/>
+   <node id="NT1.8" label="NT1.8" x="235.0" y="502.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="289.0" y="382.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="304.0" y="210.0"/>
+   <node id="NT1.12" label="NT1.12" x="310.0" y="563.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="320.0" y="442.0" otu="otu7"/>
+   <node id="NT1.14" x="338.0" y="153.0" label="92"/>
+   <node id="NT1.15" label="NT1.15" x="357.0" y="101.0"/>
+   <node id="NT1.16" label="NT1.16" x="375.0" y="205.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="436.0" y="266.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="456.0" y="144.0" otu="otu12"/>
+   <node id="NT1.22" label="NT1.22" x="544.0" y="85.0" otu="otu13"/>
+   <edge id="e.1" target="NT1.22" source="NT1.15"/>
+   <edge id="e.2" source="NT1.14" target="NT1.16"/>
+   <edge id="e.4" source="NT1.10" target="NT1.19"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.3" target="NT1.13"/>
+   <edge id="e.9" source="NT1.5" target="NT1.8"/>
+   <edge id="e.10" source="NT1.5" target="NT1.12"/>
+   <edge id="e.12" source="NT1.14" target="NT1.15"/>
+   <edge id="e.13" source="NT1.10" target="NT1.14"/>
+   <edge id="e.15" source="NT1.3" target="NT1.4"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.2" target="NT1.5"/>
+   <edge id="e.18" target="NT1.10" source="NT1.4"/>
+   <edge id="e.19" source="NT1.4" target="NT1.9"/>
+   <edge id="e.20" source="NT1.15" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

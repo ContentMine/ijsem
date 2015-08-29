@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">H. mustelae CCUG 257157 (AJ558219)</otu>
+  <otu id="otu4">Cluster D</otu>
+  <otu id="otu5">Cluster F</otu>
+  <otu id="otu6">H. felis Kukka (AJ558227)</otu>
+  <otu id="otu7">Cluster E</otu>
+  <otu id="otu8">H. canis NCTC 12739T (AJ558218)</otu>
+  <otu id="otu9"> H. bizzozeronii R-53 (AJ558233)</otu>
+  <otu id="otu10"> FL56 (AJ558205)</otu>
+  <otu id="otu11">H. acinonychis ATCC 51104 (AJ558220)</otu>
+  <otu id="otu12">Cluster A</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"> H. hepaticus CCUG 33637T (AJ558217)</otu>
+  <otu id="otu15">Cluster B</otu>
+  <otu id="otu16">H. muridarum CCUG 29262T (AJ558200)</otu>
+  <otu id="otu17">H. pullorum NCTC 12826 (AJ558199)</otu>
+  <otu id="otu18">H. cinaedi ccue 1a818T (AJ558216)</otu>
+  <otu id="otu19" cmphy:genus="c." cmphy:species="jejuni" cmphy:strain="NCTC 11168" cmphy:id="AYO44099"> c. jejuni NCTC 11168 (AYO44099)</otu>
+  <otu id="otu20"> C. coli NCTC 11353 (AY044098)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.36" label="NT1.36" x="505.0" y="57.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="5.0" y="132.0" root="true"/>
+   <edge id="e.1" target="NT1.36" source="NT1.38"/>
+  </tree>
+ </trees>
+</nexml>

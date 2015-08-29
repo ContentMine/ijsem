@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="ATCC 33406'" cmphy:id="M58768" editRecord="[]">Cytophaga hutchinsonii ATCC 33406' (M58768)</otu>
+  <otu id="otu3" cmphy:genus="Chitinophaga" cmphy:species="sancti" cmphy:strain="ATCC 23092'" cmphy:id="M62795" editRecord="[]">Chitinophaga sancti ATCC 23092' (M62795)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Chitinophagajaponensis IFO 16041 (AB078055)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Chitinophaga" cmphy:species="filiformis" cmphy:strain="IFO 15056" cmphy:id="ABO78049" editRecord="[0__O]">Chitinophaga filiformis IFO 15056 (AB078049)</otu>
+  <otu id="otu7" cmphy:genus="Cytophaga" cmphy:species="aurantiaca" cmphy:strain="ATCC 12208" cmphy:id="D12658" editRecord="[]">Cytophaga aurantiaca ATCC 12208 (D12658)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Belliella" cmphy:species="baltica" cmphy:strain="DSM 15883'" cmphy:id="AJS64642" editRecord="[5__S]">Belliella baltica DSM 15883' (AJ564642)</otu>
+  <otu id="otu10">strain T2 (AM237313)</otu>
+  <otu id="otu11">Sporocytophaga myxococcoides DSM 1 11 18T (AJ310654)</otu>
+  <otu id="otu12">Cyclobacterium man'num ATCC 43824 (M62788)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Chitinophaga" cmphy:species="skermanii" cmphy:strain="CC-SG1BT" cmphy:id="DQO62743" editRecord="[0__O]">Chitinophaga skermanii CC-SG1BT (DQ062743)</otu>
+  <otu id="otu14" cmphy:genus="Leeuwenhoekiella" cmphy:species="marinoflava" cmphy:strain="ATCC 19326" cmphy:id="M58770" editRecord="[]">Leeuwenhoekiella marinoflava ATCC 19326 (M58770)</otu>
+  <otu id="otu15" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 119477" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 119477 (M62797)</otu>
+  <otu id="otu16">Flavobacterium Iimicola DSM 15094' (ABO75230)</otu>
+  <otu id="otu17" cmphy:edit="[1__I]" cmphy:genus="Terrimonas" cmphy:species="lutea" cmphy:strain="IAM 152847" cmphy:id="ABI92292" editRecord="[1__I]">Terrimonas lutea IAM 152847 (AB192292)</otu>
+  <otu id="otu18">Cellulophaga Iytica ATCC 23178T (M62796)</otu>
+  <otu id="otu19" cmphy:genus="Terrimonas" cmphy:species="ferruginea" cmphy:strain="ATCC 135247" cmphy:id="M62798" editRecord="[]">Terrimonas ferruginea ATCC 135247 (M62798)</otu>
+  <otu id="otu20" cmphy:edit="[0__O]" cmphy:genus="Flavobacterium" cmphy:species="columnare" cmphy:strain="ATCC 49513" cmphy:id="ABO23660" editRecord="[0__O]">Flavobacterium columnare ATCC 49513 (AB023660)</otu>
+  <otu id="otu21" cmphy:genus="Cellulophaga" cmphy:species="baltica" cmphy:strain="LMG 18535'" cmphy:id="AJO05972" editRecord="[]">Cellulophaga baltica LMG 18535' (AJO05972)</otu>
+  <otu id="otu22" cmphy:edit="[0__O]" cmphy:genus="Cellulophaga" cmphy:species="fucicola" cmphy:strain="LMG 1853GT" cmphy:id="AJO05973" editRecord="[0__O]">Cellulophaga fucicola LMG 1853GT (AJ005973)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="534.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="121.0" y="534.0"/>
+   <node id="NT1.3" label="NT1.3" x="142.0" y="380.0"/>
+   <node id="NT1.4" label="NT1.4" x="304.0" y="467.0"/>
+   <node id="NT1.6" label="NT1.6" x="452.0" y="320.0"/>
+   <node id="NT1.10" label="NT1.10" x="576.0" y="645.0"/>
+   <node id="NT1.11" label="NT1.11" x="600.0" y="230.0"/>
+   <node id="NT1.12" label="NT1.12" x="605.0" y="617.0"/>
+   <node id="NT1.13" label="NT1.13" x="628.0" y="259.0"/>
+   <node id="NT1.14" label="NT1.14" x="653.0" y="497.0"/>
+   <node id="NT1.15" label="NT1.15" x="667.0" y="512.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="699.0" y="214.0" otu="otu3"/>
+   <node id="NT1.18" label="NT1.18" x="701.0" y="587.0"/>
+   <node id="NT1.23" label="NT1.23" x="737.0" y="304.0" otu="otu6"/>
+   <node id="NT1.24" label="NT1.24" x="749.0" y="676.0"/>
+   <node id="NT1.25" label="NT1.25" x="751.0" y="481.0" otu="otu7"/>
+   <node id="NT1.26" x="756.0" y="348.0" label="100"/>
+   <node id="NT1.28" label="NT1.28" x="774.0" y="422.0" otu="otu9"/>
+   <node id="NT1.32" label="NT1.32" x="822.0" y="244.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="849.0" y="630.0" otu="otu14"/>
+   <node id="NT1.34" label="NT1.34" x="853.0" y="660.0" otu="otu15"/>
+   <node id="NT1.36" label="NT1.36" x="872.0" y="333.0" otu="otu17"/>
+   <node id="NT1.39" label="NT1.39" x="902.0" y="363.0" otu="otu19"/>
+   <node id="NT1.40" label="NT1.40" x="906.0" y="690.0" otu="otu20"/>
+   <node id="NT1.41" label="NT1.41" x="918.0" y="600.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="924.0" y="571.0" otu="otu22"/>
+   <edge id="e.3" source="NT1.11" target="NT1.17"/>
+   <edge id="e.4" target="NT1.23" source="NT1.13"/>
+   <edge id="e.6" source="NT1.26" target="NT1.36"/>
+   <edge id="e.7" source="NT1.26" target="NT1.39"/>
+   <edge id="e.8" source="NT1.1" target="NT1.2"/>
+   <edge id="e.9" source="NT1.14" target="NT1.15"/>
+   <edge id="e.10" source="NT1.14" target="NT1.25"/>
+   <edge id="e.14" source="NT1.18" target="NT1.41"/>
+   <edge id="e.15" source="NT1.24" target="NT1.40"/>
+   <edge id="e.16" target="NT1.42" source="NT1.18"/>
+   <edge id="e.20" target="NT1.11" source="NT1.6"/>
+   <edge id="e.21" source="NT1.11" target="NT1.13"/>
+   <edge id="e.23" source="NT1.3" target="NT1.6"/>
+   <edge id="e.24" source="NT1.6" target="NT1.26"/>
+   <edge id="e.25" source="NT1.2" target="NT1.3"/>
+   <edge id="e.26" source="NT1.3" target="NT1.4"/>
+   <edge id="e.27" source="NT1.2" target="NT1.10"/>
+   <edge id="e.28" source="NT1.4" target="NT1.14"/>
+   <edge id="e.32" source="NT1.10" target="NT1.12"/>
+   <edge id="e.33" source="NT1.12" target="NT1.18"/>
+   <edge id="e.35" target="NT1.24" source="NT1.10"/>
+   <edge id="e.36" target="NT1.28" source="NT1.4"/>
+   <edge id="e.37" source="NT1.12" target="NT1.33"/>
+   <edge id="e.38" source="NT1.13" target="NT1.32"/>
+   <edge id="e.39" source="NT1.24" target="NT1.34"/>
+  </tree>
+ </trees>
+</nexml>

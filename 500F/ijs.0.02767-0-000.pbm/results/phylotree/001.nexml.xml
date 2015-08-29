@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Rhodococcus" cmphy:species="rhodochrous" cmphy:strain="DSM 432417" cmphy:id="X79288" editRecord="[]">Rhodococcus rhodochrous DSM 432417 (X79288)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Nocardia" cmphy:species="abscessus" cmphy:strain="IMMIB D-15927" cmphy:id="AFZ18292" editRecord="[2__Z]">Nocardia abscessus IMMIB D-15927 (AF218292)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Nocardia" cmphy:species="asteroides" cmphy:strain="ATCC 192477" cmphy:id="Z36934" editRecord="[]"> Nocardia asteroides ATCC 192477 (Z36934)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.4" label="NT1.4" x="188.0" y="982.0"/>
+   <node id="NT1.5" label="NT1.5" x="196.0" y="751.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="206.0" y="1005.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="222.0" y="962.0" otu="otu5"/>
+   <node id="NT1.9" label="NT1.9" x="57.0" y="825.0" root="true"/>
+   <edge id="e.2" source="NT1.4" target="NT1.6"/>
+   <edge id="e.3" source="NT1.4" target="NT1.8"/>
+   <edge id="e.5" target="NT1.4" source="NT1.9"/>
+   <edge id="e.6" source="NT1.9" target="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

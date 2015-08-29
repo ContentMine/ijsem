@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Pandoraea" cmphy:species="apisfa" cmphy:strain="LMG 164077" cmphy:id="AFI39173" editRecord="[1__I]">Pandoraea apisfa LMG 164077 (AF139173)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">R. eutropha LMG 1199T (M32021)</otu>
+  <otu id="otu4">R. campinensis WS2T (AF312020)</otu>
+  <otu id="otu5">Ralstonia sp. AU3369 (AF500587)</otu>
+  <otu id="otu6">R. basilensis DSM 118537 (AF312022)</otu>
+  <otu id="otu7">R. gilardii LMG 58861 (AF076645)</otu>
+  <otu id="otu8">AU 161 8 (AF500586)</otu>
+  <otu id="otu9">AU3313T (AF500583)</otu>
+  <otu id="otu10">R. taiwanensis LMG 19424T (AF300324)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Wseudomonasl" cmphy:species="syzygfi" cmphy:strain="ATCC 495437" cmphy:id="ABO21403" editRecord="[0__O]">Wseudomonasl syzygfi ATCC 495437 (AB021403)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Burkholderia" cmphy:species="cepacia" cmphy:strain="ATCC 2541GT" cmphy:id="AFO97530" editRecord="[0__O]">Burkholderia cepacia ATCC 2541GT (AF097530)</otu>
+  <otu id="otu13">R. paucula LMG 3413 (AFO85226)</otu>
+  <otu id="otu14">R. insidiosa LMG 21421' (AF488779)</otu>
+  <otu id="otu15">AU3801 (AF500584)</otu>
+  <otu id="otu16">R. oxalatica DSM 1105T (AF155567)</otu>
+  <otu id="otu17">R. metallidurans CH34T (Y10824)</otu>
+  <otu id="otu18">R. pickettii ATCC 27511T (855004)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="280.0" y="558.0"/>
+   <node id="NT1.12" label="NT1.12" x="536.0" y="544.0" otu="otu1"/>
+   <node id="NT1.26" label="NT1.26" x="619.0" y="397.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="634.0" y="573.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="6.0" y="398.0" root="true"/>
+   <edge id="e.24" source="NT1.35" target="NT1.2"/>
+   <edge id="e.25" source="NT1.2" target="NT1.12"/>
+   <edge id="e.26" source="NT1.2" target="NT1.28"/>
+   <edge id="e.29" target="NT1.26" source="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Candida" cmphy:species="fukazawae" cmphy:strain="JCM 1641T" cmphy:id="AYB13957" editRecord="[3__B]">Candida fukazawae JCM 1641T (AY313957)</otu>
+  <otu id="otu3">Candida sagamina JCM 10144T</otu>
+  <otu id="otu4" cmphy:genus="Candida" cmphy:species="suecica" cmphy:strain="NRRL Y-12943T" cmphy:id="U45732" editRecord="[]">Candida suecica NRRL Y-12943T (U45732)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Candida" cmphy:species="fungicola" cmphy:strain="JCM 101427" cmphy:id="AYB13958" editRecord="[3__B]">Candida fungicola JCM 101427 (AY313958)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Kodamaea" cmphy:species="nitidulidarum" cmphy:strain="CBS 8491T" cmphy:id="AFO59665" editRecord="[0__O]">Kodamaea nitidulidarum CBS 8491T (AF059665)</otu>
+  <otu id="otu7">Candida Ieandrae CBS 9735T (AY449659)</otu>
+  <otu id="otu8" cmphy:genus="Candida" cmphy:species="mesenterica" cmphy:strain="NRRL Y-1494T" cmphy:id="U45720" editRecord="[]">Candida mesenterica NRRL Y-1494T (U45720)</otu>
+  <otu id="otu9" cmphy:genus="Candida" cmphy:species="restingae" cmphy:strain="CBS 8493T" cmphy:id="AFO59667" editRecord="[]">Candida restingae CBS 8493T (AFO59667)</otu>
+  <otu id="otu10">Kodamaea kakaduensis CBS 8611T</otu>
+  <otu id="otu11">Kodamaea ohmeri NRRL Y-1932T</otu>
+  <otu id="otu12">Kodamaea anthophila CBS 8494T</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="361.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="48.0" y="361.0"/>
+   <node id="NT1.3" label="NT1.3" x="139.0" y="229.0"/>
+   <node id="NT1.4" label="NT1.4" x="146.0" y="372.0"/>
+   <node id="NT1.5" label="NT1.5" x="179.0" y="295.0"/>
+   <node id="NT1.7" label="NT1.7" x="276.0" y="199.0"/>
+   <node id="NT1.8" label="NT1.8" x="278.0" y="412.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="285.0" y="83.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="292.0" y="453.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="308.0" y="247.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="316.0" y="494.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="318.0" y="165.0" otu="otu9"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.4" target="NT1.15"/>
+   <edge id="e.2" target="NT1.8" source="NT1.5"/>
+   <edge id="e.7" source="NT1.2" target="NT1.18"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.10" source="NT1.4" target="NT1.5"/>
+   <edge id="e.12" source="NT1.5" target="NT1.7"/>
+   <edge id="e.17" source="NT1.3" target="NT1.12"/>
+   <edge id="e.18" target="NT1.16" source="NT1.7"/>
+   <edge id="e.20" target="NT1.19" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

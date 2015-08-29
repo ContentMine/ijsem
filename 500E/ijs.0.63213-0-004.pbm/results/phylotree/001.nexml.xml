@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Nitrosospira" cmphy:species="multiformis" cmphy:strain="C-717" cmphy:id="X90822" editRecord="[]">Nitrosospira multiformis C-717 (X90822)</otu>
+  <otu id="otu2" cmphy:genus="Nitrosomonas" cmphy:species="europaea" cmphy:strain="ATCC 25978T" cmphy:id="L08050" editRecord="[]">Nitrosomonas europaea ATCC 25978T (L08050)</otu>
+  <otu id="otu3" cmphy:genus="Methylococcus" cmphy:species="capsulatus" cmphy:strain="Bath" cmphy:id="L40804" editRecord="[]">Methylococcus capsulatus Bath (L40804)</otu>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Methylomicrobium" cmphy:species="buryatense" cmphy:strain="5B7" cmphy:id="AFB07139" editRecord="[3__B]">Methylomicrobium buryatense 5B7 (AF307139)</otu>
+  <otu id="otu5">0MethyIothermus' sp. HB (U89302)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Methylohalobius" cmphy:species="crimeensis" cmphy:strain="10KiT" cmphy:id="AJS81836" editRecord="[5__S]">Methylohalobius crimeensis 10KiT (AJ581836)</otu>
+  <otu id="otu7">Methylohalobius crimeensis 4Kr</otu>
+  <otu id="otu8">Methylobacter sp. BB5.1 (AF016982)</otu>
+  <otu id="otu9" cmphy:genus="Methylomicrobium" cmphy:species="album" cmphy:strain="BG8T" cmphy:id="U31654" editRecord="[]">Methylomicrobium album BG8T (U31654)</otu>
+  <otu id="otu10">Methylobacter sp. LW12 (AYOO7285)</otu>
+  <otu id="otu11" cmphy:genus="Methylocaldum" cmphy:species="tepidum" cmphy:strain="LKBT" cmphy:id="U89304" editRecord="[]">Methylocaldum tepidum LKBT (U89304)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Nitrosococcus" cmphy:species="oceani" cmphy:strain="C-1077" cmphy:id="AFO47705" editRecord="[0__O]">Nitrosococcus oceani C-1077 (AF047705)</otu>
+  <otu id="otu13" cmphy:genus="Methylomicrobium" cmphy:species="pelagicum" cmphy:strain="IR1" cmphy:id="U31652" editRecord="[]">Methylomicrobium pelagicum IR1 (U31652)</otu>
+  <otu id="otu14">Methylomonas sp. LW16 (AF150797)</otu>
+  <otu id="otu15" cmphy:genus="Methylocaldum" cmphy:species="szegediense" cmphy:strain="OR2T" cmphy:id="U89303" editRecord="[]">Methylocaldum szegediense OR2T (U89303)</otu>
+  <otu id="otu16" cmphy:genus="Methylomonas" cmphy:species="methanica" cmphy:strain="S1" cmphy:id="U31653" editRecord="[]">Methylomonas methanica S1 (U31653)</otu>
+  <otu id="otu17" cmphy:genus="Methylosinus" cmphy:species="sporium" cmphy:strain="H1 b" cmphy:id="AJ459023" editRecord="[]">Methylosinus sporium H1 b (AJ459023)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Methylocapsa" cmphy:species="acidiphila" cmphy:strain="B2T" cmphy:id="AJZ78727" editRecord="[2__Z]">Methylocapsa acidiphila B2T (AJ278727)</otu>
+  <otu id="otu19" cmphy:edit="[1__I]" cmphy:genus="Methylosinus" cmphy:species="trichosporium" cmphy:strain="OB3bT" cmphy:id="AFI86586" editRecord="[1__I]">Methylosinus trichosporium OB3bT (AF186586)</otu>
+  <otu id="otu20" cmphy:genus="Methylocystis" cmphy:species="echinoides" cmphy:strain="IMET 104917" cmphy:id="AJ459000" editRecord="[]">Methylocystis echinoides IMET 104917 (AJ459000)</otu>
+  <otu id="otu21" cmphy:genus="Methylocystis" cmphy:species="parvus" cmphy:strain="OBBpT" cmphy:id="U31651" editRecord="[]">Methylocystis parvus OBBpT (U31651)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="393.0" y="35.0" label="86"/>
+   <node id="NT1.2" label="NT1.2" x="413.0" y="187.0"/>
+   <node id="NT1.3" label="NT1.3" x="461.0" y="231.0"/>
+   <node id="NT1.4" label="NT1.4" x="500.0" y="50.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="507.0" y="429.0"/>
+   <node id="NT1.6" label="NT1.6" x="598.0" y="346.0"/>
+   <node id="NT1.7" label="NT1.7" x="600.0" y="18.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="614.0" y="458.0"/>
+   <node id="NT1.9" label="NT1.9" x="639.0" y="367.0"/>
+   <node id="NT1.10" label="NT1.10" x="648.0" y="95.0"/>
+   <node id="NT1.11" label="NT1.11" x="678.0" y="523.0"/>
+   <node id="NT1.12" label="NT1.12" x="680.0" y="535.0"/>
+   <node id="NT1.15" label="NT1.15" x="725.0" y="352.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="742.0" y="535.0" otu="otu4"/>
+   <node id="NT1.21" label="NT1.21" x="766.0" y="292.0" otu="otu6"/>
+   <node id="NT1.24" x="773.0" y="397.0" label="90"/>
+   <node id="NT1.25" label="NT1.25" x="775.0" y="155.0"/>
+   <node id="NT1.26" label="NT1.26" x="778.0" y="443.0" otu="otu9"/>
+   <node id="NT1.28" label="NT1.28" x="796.0" y="412.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="805.0" y="229.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="806.0" y="565.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="818.0" y="382.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="838.0" y="124.0"/>
+   <node id="NT1.34" label="NT1.34" x="840.0" y="503.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="851.0" y="109.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="902.0" y="78.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="907.0" y="139.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="915.0" y="179.0"/>
+   <node id="NT1.39" label="NT1.39" x="916.0" y="200.0" otu="otu20"/>
+   <node id="NT1.40" label="NT1.40" x="941.0" y="169.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="5.0" y="41.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.7"/>
+   <edge id="e.1" source="NT1.3" target="NT1.29"/>
+   <edge id="e.2" source="NT1.12" target="NT1.17"/>
+   <edge id="e.3" source="NT1.38" target="NT1.39"/>
+   <edge id="e.6" target="NT1.21" source="NT1.6"/>
+   <edge id="e.7" source="NT1.38" target="NT1.40"/>
+   <edge id="e.9" target="NT1.30" source="NT1.12"/>
+   <edge id="e.11" source="NT1.24" target="NT1.32"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.13" source="NT1.5" target="NT1.8"/>
+   <edge id="e.14" source="NT1.5" target="NT1.6"/>
+   <edge id="e.15" source="NT1.10" target="NT1.25"/>
+   <edge id="e.16" source="NT1.8" target="NT1.11"/>
+   <edge id="e.17" source="NT1.25" target="NT1.33"/>
+   <edge id="e.18" source="NT1.25" target="NT1.38"/>
+   <edge id="e.20" source="NT1.6" target="NT1.9"/>
+   <edge id="e.21" source="NT1.9" target="NT1.24"/>
+   <edge id="e.23" source="NT1.11" target="NT1.12"/>
+   <edge id="e.25" target="NT1.34" source="NT1.11"/>
+   <edge id="e.27" source="NT1.33" target="NT1.35"/>
+   <edge id="e.29" source="NT1.24" target="NT1.28"/>
+   <edge id="e.30" source="NT1.41" target="NT1.2"/>
+   <edge id="e.31" source="NT1.41" target="NT1.1"/>
+   <edge id="e.32" source="NT1.3" target="NT1.5"/>
+   <edge id="e.33" source="NT1.1" target="NT1.4"/>
+   <edge id="e.34" source="NT1.2" target="NT1.10"/>
+   <edge id="e.35" source="NT1.9" target="NT1.15"/>
+   <edge id="e.36" source="NT1.8" target="NT1.26"/>
+   <edge id="e.38" source="NT1.10" target="NT1.36"/>
+   <edge id="e.39" source="NT1.33" target="NT1.37"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Friedmanniella" cmphy:species="lacustris" cmphy:strain="EL-17AT" cmphy:id="AJI32943" editRecord="[1__I]">Friedmanniella lacustris EL-17AT (AJ132943)</otu>
+  <otu id="otu3">Friedmanniella spumicola ACM 51 21 T (AFO62535)</otu>
+  <otu id="otu4">Friedmanniella antarctica DSM 1 1053T (Z78206)</otu>
+  <otu id="otu5" cmphy:genus="Microlunatus" cmphy:species="phosphovorus" cmphy:strain="DSM 10555T" cmphy:id="Z78207" editRecord="[]">Microlunatus phosphovorus DSM 10555T (Z78207)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Microlunatus" cmphy:species="ginsengisoli" cmphy:strain="Gsoil 633T" cmphy:id="ABZ45389" editRecord="[2__Z]">Microlunatus ginsengisoli Gsoil 633T (AB245389)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">Microlunatus soIiCC-126O2T (FJ807672)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Propionicimonas" cmphy:species="paludicola" cmphy:strain="WdT" cmphy:id="ABO78858" editRecord="[0__O]">Propionicimonas paludicola WdT (AB078858)</otu>
+  <otu id="otu12">Propioniferax innocua ATCC 49929T (AF2271 65)</otu>
+  <otu id="otu13" cmphy:genus="Luteococcus" cmphy:species="japonicus" cmphy:strain="DSM 1O546T" cmphy:id="Z78208" editRecord="[]">Luteococcus japonicus DSM 1O546T (Z78208)</otu>
+  <otu id="otu14">Tessaracoccus bendigoensis ACM 51 19T (AFO38504)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Propionibacterium" cmphy:species="propionicum" cmphy:strain="DSM 433O7T" cmphy:id="AJB15953" editRecord="[3__B]">Propionibacterium propionicum DSM 433O7T (AJ315953)</otu>
+  <otu id="otu17">Micropruina glycogenica Lg 2T (AB01 2607)</otu>
+  <otu id="otu18">Propionibacterium freudenreichii subsp. shermanii DSM 49O2T (Y10819)</otu>
+  <otu id="otu19">Propionimicrobium Iymphophilum DSM 49O3T (AJOO3056)</otu>
+  <otu id="otu20">Aeriscardovia aeriphila T6T (AY1 74107)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="547.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="260.0" y="442.0"/>
+   <node id="NT1.5" label="NT1.5" x="311.0" y="322.0"/>
+   <node id="NT1.6" label="NT1.6" x="321.0" y="223.0"/>
+   <node id="NT1.7" label="NT1.7" x="347.0" y="597.0"/>
+   <node id="NT1.13" label="NT1.13" x="389.0" y="189.0"/>
+   <node id="NT1.19" label="NT1.19" x="438.0" y="481.0" otu="otu2"/>
+   <node id="NT1.23" label="NT1.23" x="474.0" y="201.0" otu="otu5"/>
+   <node id="NT1.24" label="NT1.24" x="475.0" y="160.0" otu="otu6"/>
+   <node id="NT1.29" label="NT1.29" x="538.0" y="321.0" otu="otu11"/>
+   <node id="NT1.31" label="NT1.31" x="553.0" y="561.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="581.0" y="681.0" otu="otu16"/>
+   <edge id="e.5" target="NT1.13" source="NT1.6"/>
+   <edge id="e.7" source="NT1.5" target="NT1.6"/>
+   <edge id="e.9" source="NT1.3" target="NT1.5"/>
+   <edge id="e.13" target="NT1.3" source="NT1.1"/>
+   <edge id="e.15" target="NT1.7" source="NT1.3"/>
+   <edge id="e.21" source="NT1.7" target="NT1.31"/>
+   <edge id="e.22" source="NT1.13" target="NT1.24"/>
+   <edge id="e.24" target="NT1.23" source="NT1.13"/>
+   <edge id="e.25" target="NT1.19" source="NT1.5"/>
+   <edge id="e.33" target="NT1.34" source="NT1.7"/>
+   <edge id="e.35" target="NT1.29" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

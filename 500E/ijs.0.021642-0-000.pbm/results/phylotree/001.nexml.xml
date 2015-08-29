@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="S." cmphy:species="australis" cmphy:strain="ATCC 7OOG41T" cmphy:id="AY485604" editRecord="[]">S. australis ATCC 7OOG41T (AY485604)</otu>
+  <otu id="otu3" cmphy:genus="S." cmphy:species="mitis" cmphy:strain="ATCC 4945GT" cmphy:id="AFO03929" editRecord="[]"> S. mitis ATCC 4945GT (AFO03929)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="S." cmphy:species="infantis" cmphy:strain="GTC 849T" cmphy:id="ABO08315" editRecord="[O__0]"> S. infantis GTC 849T (ABOO8315)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="pseudopneumoniae" cmphy:strain="CCUG 494557" cmphy:id="EUI56785" editRecord="[1__I]"> S. pseudopneumoniae CCUG 494557 (EU156785)</otu>
+  <otu id="otu6"> S. pneumoniae ATCC 334O0T (AFOOBQSO)</otu>
+  <otu id="otu7">S. parasanguinis ATCC 15912T(DO303191)</otu>
+  <otu id="otu8" cmphy:genus="S." cmphy:species="peroris" cmphy:strain="GTC 8487" cmphy:id="ABO08314" editRecord="[]"> S. peroris GTC 8487 (ABO08314)</otu>
+  <otu id="otu9">S. Iactarius MV1T (GU045364)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="316.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="53.0" y="241.0" label="77"/>
+   <node id="NT1.3" label="NT1.3" x="85.0" y="179.0"/>
+   <node id="NT1.5" x="170.0" y="132.0" label="98"/>
+   <node id="NT1.7" label="NT1.7" x="213.0" y="61.0"/>
+   <node id="NT1.8" label="NT1.8" x="215.0" y="244.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="229.0" y="90.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="252.0" y="167.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="257.0" y="52.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="287.0" y="282.0" otu="otu8"/>
+   <edge id="e.0" target="NT1.12" source="NT1.7"/>
+   <edge id="e.1" source="NT1.7" target="NT1.9"/>
+   <edge id="e.2" source="NT1.5" target="NT1.11"/>
+   <edge id="e.3" target="NT1.8" source="NT1.3"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" target="NT1.15" source="NT1.2"/>
+   <edge id="e.9" source="NT1.5" target="NT1.7"/>
+   <edge id="e.10" source="NT1.3" target="NT1.5"/>
+   <edge id="e.11" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Methylovorus mays CT (AY4861 32)</otu>
+  <otu id="otu4" cmphy:genus="Methylobacillus" cmphy:species="glycogenes" cmphy:strain="ATCC 294757" cmphy:id="M95652" editRecord="[]">Methylobacillus glycogenes ATCC 294757 (M95652)</otu>
+  <otu id="otu5" cmphy:genus="Methylobacillus" cmphy:species="pratensis" cmphy:strain="F31 T" cmphy:id="AY29890" editRecord="[]">Methylobacillus pratensis F31 T (AY29890)</otu>
+  <otu id="otu6">Methylophilus Iuteus MimT (FJ872109)</otu>
+  <otu id="otu7" cmphy:genus="Methylobacillus" cmphy:species="flagellatus" cmphy:strain="KTT" cmphy:id="M95651" editRecord="[]">Methylobacillus flagellatus KTT (M95651)</otu>
+  <otu id="otu8" cmphy:genus="Methylovorus" cmphy:species="glucosotrophus" cmphy:strain="6B1 T" cmphy:id="AY486133" editRecord="[]">Methylovorus glucosotrophus 6B1 T (AY486133)</otu>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Methylophilus" cmphy:species="flavus" cmphy:strain="ShipT" cmphy:id="FJB72108" editRecord="[8__B]">Methylophilus flavus ShipT (FJ872108)</otu>
+  <otu id="otu10">Methylophilus methylotrophus ATCC 53528T(L15475)</otu>
+  <otu id="otu11">Methylophilus rhizosphaerae CBMB127T(EU194887)</otu>
+  <otu id="otu12">)MethyIophilus freyburgensis) 42 (AJ517772)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Methylotenera" cmphy:species="mobilis" cmphy:strain="JLWBT" cmphy:id="DQZ87786" editRecord="[2__Z]">Methylotenera mobilis JLWBT (DQ287786)</otu>
+  <otu id="otu14">Methylophilus Ieisingeri DM1 17 (AF250333)</otu>
+  <otu id="otu15"> 1MethylophiIus quaylef MT (AY772089)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="36.0" y="355.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="78.0" y="376.0"/>
+   <node id="NT1.4" x="130.0" y="296.0" label="82"/>
+   <node id="NT1.5" label="NT1.5" x="159.0" y="453.0"/>
+   <node id="NT1.6" label="NT1.6" x="177.0" y="229.0"/>
+   <node id="NT1.7" x="180.0" y="483.0" label="85"/>
+   <node id="NT1.10" label="NT1.10" x="242.0" y="463.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="252.0" y="423.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="262.0" y="505.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="264.0" y="383.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="267.0" y="56.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="293.0" y="301.0" otu="otu13"/>
+   <edge id="e.1" target="NT1.19" source="NT1.6"/>
+   <edge id="e.5" source="NT1.6" target="NT1.25"/>
+   <edge id="e.7" source="NT1.1" target="NT1.3"/>
+   <edge id="e.9" target="NT1.18" source="NT1.4"/>
+   <edge id="e.10" source="NT1.5" target="NT1.12"/>
+   <edge id="e.11" source="NT1.7" target="NT1.10"/>
+   <edge id="e.12" source="NT1.7" target="NT1.17"/>
+   <edge id="e.19" source="NT1.4" target="NT1.6"/>
+   <edge id="e.20" source="NT1.3" target="NT1.4"/>
+   <edge id="e.22" source="NT1.3" target="NT1.5"/>
+   <edge id="e.23" source="NT1.5" target="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

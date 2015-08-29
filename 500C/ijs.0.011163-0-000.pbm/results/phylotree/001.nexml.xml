@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Chitinophaga" cmphy:species="ginsengisoli" cmphy:strain="Gsoil 052T" cmphy:id="ABZ45374" editRecord="[2__Z]">Chitinophaga ginsengisoli Gsoil 052T (AB245374)</otu>
+  <otu id="otu2" cmphy:genus="Chitinophaga" cmphy:species="filiformis" cmphy:strain="IFO 150567" cmphy:id="ABO78049" editRecord="[]">Chitinophaga filiformis IFO 150567 (ABO78049)</otu>
+  <otu id="otu3" cmphy:edit="[8__B]" cmphy:genus="Chitinophaga" cmphy:species="rupis" cmphy:strain="CS5-B11" cmphy:id="FMB65977" editRecord="[8__B]"> Chitinophaga rupis CS5-B11 (FM865977)</otu>
+  <otu id="otu4">Chitinophaga japonensis IFO 16041T(AB078055)</otu>
+  <otu id="otu5" cmphy:genus="Chitinophaga" cmphy:species="sancti" cmphy:strain="IFO 15O57T" cmphy:id="ABO78066" editRecord="[]">Chitinophaga sancti IFO 15O57T (ABO78066)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Chitinophaga" cmphy:species="ginsengisegetis" cmphy:strain="Gsoil 040T" cmphy:id="ABZ64798" editRecord="[2__Z]">Chitinophaga ginsengisegetis Gsoil 040T (AB264798)</otu>
+  <otu id="otu7">Chitinophaga skermanii CC-SG1 BT (D008 2 743)</otu>
+  <otu id="otu8">Chitinophaga arvensicola IAM 1 265OT (D1 2657)</otu>
+  <otu id="otu9">Chitinophaga terrae KPO1T(AB2 7 85 70)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">Chitinophaga pinensis ACM 2034T (AFO787 75)</otu>
+  <otu id="otu13">Terrimonas Iutea DYT (AB1 92292)</otu>
+  <otu id="otu14">Terrimonas ferruginea ATCC 1 35247 (M62798)</otu>
+  <otu id="otu15">Flexibacter flexilis ATCC 230 79T (M6 2 794)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="375.0" y="478.0"/>
+   <node id="NT1.5" label="NT1.5" x="404.0" y="230.0"/>
+   <node id="NT1.6" label="NT1.6" x="412.0" y="646.0"/>
+   <node id="NT1.12" label="NT1.12" x="517.0" y="504.0"/>
+   <node id="NT1.13" label="NT1.13" x="524.0" y="547.0" otu="otu1"/>
+   <node id="NT1.14" label="NT1.14" x="527.0" y="459.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="529.0" y="372.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="544.0" y="722.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="548.0" y="22.0" otu="otu6"/>
+   <node id="NT1.28" label="NT1.28" x="2.0" y="912.0" root="true"/>
+   <edge id="e.0" target="NT1.18" source="NT1.5"/>
+   <edge id="e.2" target="NT1.15" source="NT1.5"/>
+   <edge id="e.4" source="NT1.6" target="NT1.17"/>
+   <edge id="e.5" source="NT1.12" target="NT1.13"/>
+   <edge id="e.6" source="NT1.12" target="NT1.14"/>
+   <edge id="e.11" source="NT1.3" target="NT1.5"/>
+   <edge id="e.13" target="NT1.3" source="NT1.28"/>
+   <edge id="e.15" target="NT1.6" source="NT1.3"/>
+   <edge id="e.18" target="NT1.12" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

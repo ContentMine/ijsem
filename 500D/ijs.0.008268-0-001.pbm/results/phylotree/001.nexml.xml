@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">B. uniformfs JCM 58281 (ABO501 10)</otu>
+  <otu id="otu3">B. Xylanlsolvens XB1 A1 (AM230650)</otu>
+  <otu id="otu4">B. fntestinalis JCM 132651 (AB214828)</otu>
+  <otu id="otu5">B. thetafotaomicron ATCC 291481 (M58763)</otu>
+  <otu id="otu6">B. nordiiWAL 110501(AY6O8697)</otu>
+  <otu id="otu7">B. acidifaciens A401 (ABO21 164)</otu>
+  <otu id="otu8">B. eggeI1hiiNCTC 11 1551(L16485)</otu>
+  <otu id="otu9">B. finego(difJCM 133451 (AB222699)</otu>
+  <otu id="otu10">B. ovatus NCTC 111531 (L16484)</otu>
+  <otu id="otu11">B. cellulosilyticus CRE211 (AJ583248)</otu>
+  <otu id="otu12">B. salyersiae WAL 100181 (AY608696)</otu>
+  <otu id="otu13">B. caccae ATCC 431851 (X83951)</otu>
+  <otu id="otu14">B. helcogenes JCM 62971 (AB200227)</otu>
+  <otu id="otu15">B. coprocola M161 (AB200224)</otu>
+  <otu id="otu16">Strain XDT-11 (AB363973)</otu>
+  <otu id="otu17">B. stercoris ATCC 431831 (X83953)</otu>
+  <otu id="otu18">B. gallinarum JCM 136581(ABQ53732)</otu>
+  <otu id="otu19">B. massiliensis B846341(AY12(-3616)</otu>
+  <otu id="otu20">B. fragilis ATCC 252851 (X83935)</otu>
+  <otu id="otu21">B. vulgatus ATCC 84821 (M58762)</otu>
+  <otu id="otu22" cmphy:edit="[3__B]" cmphy:genus="Prevotella" cmphy:species="melaninogenlca" cmphy:strain="ATCC 258451" cmphy:id="AYB23525" editRecord="[3__B]">Prevotella melaninogenlca ATCC 258451 (AY323525)</otu>
+  <otu id="otu23">B. plebeius M121 (AB20021 7)</otu>
+  <otu id="otu24">B. doreiJCM 134711(AB242142)</otu>
+  <otu id="otu25">B. tectus JCM 1O0O31(AB2OO228)</otu>
+  <otu id="otu26">B. caprophflus CB421(AB26O026)</otu>
+  <otu id="otu27">B. barnesiae JCM 136521 (AB253726)</otu>
+  <otu id="otu28">B. propionicifaciens SV4341 (AB264825)</otu>
+  <otu id="otu29">B. coplosuis PC1391 (AF319778)</otu>
+  <otu id="otu30">B. salanitronfs JCM 136571 (AB253731)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="890.0" otu="otu1" root="true"/>
+   <node id="NT1.49" label="NT1.49" x="380.0" y="1171.0" otu="otu22"/>
+   <edge id="e.37" target="NT1.49" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

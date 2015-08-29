@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">A. hesperidum DSM 124897 (AJ133633)</otu>
+  <otu id="otu2">A. acidocaldarius ATCC 270o9T (AB042056)</otu>
+  <otu id="otu3">A. acidoterrestris ATCC 490257 (ABO42057)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">A. pomorum DSM 14955T (AB089840)</otu>
+  <otu id="otu6">A. acidiphilus DSM 14558T (AB076660)</otu>
+  <otu id="otu7">A. sendaiensis ATCC BAA-6097 (ABO84128)</otu>
+  <otu id="otu8">A. vulcanalis CsHg2T (AY425985)</otu>
+  <otu id="otu9">Alicyclobacillus genomic species 1 FR-6 (AJ133635)</otu>
+  <otu id="otu10">A. cycloheptanicus DSM 4006T (ABO42059)</otu>
+  <otu id="otu11">A. herbarius DSM 13609T (AB042055)</otu>
+  <otu id="otu12" cmphy:genus="Sulfobacillus" cmphy:species="disulfidooxidans" cmphy:strain="ATCC 51911T" cmphy:id="U34974" editRecord="[]">Sulfobacillus disulfidooxidans ATCC 51911T (U34974)</otu>
+  <otu id="otu13" cmphy:genus="Geobacillus" cmphy:species="stearothermophilus" cmphy:strain="NCDO 1768T" cmphy:id="X60640" editRecord="[]">Geobacillus stearothermophilus NCDO 1768T (X60640)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.23" label="NT1.23" x="555.0" y="476.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="555.0" y="518.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="3.0" y="407.0" root="true"/>
+   <edge id="e.18" source="NT1.25" target="NT1.24"/>
+   <edge id="e.20" target="NT1.23" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

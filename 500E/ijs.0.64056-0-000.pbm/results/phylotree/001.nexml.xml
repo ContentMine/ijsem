@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Sphingomonas suberzfaciens NBRC 1521 IT (D13737)</otu>
+  <otu id="otu2" cmphy:genus="Sphingomomzs" cmphy:species="mali" cmphy:strain="NBRC l5500T" cmphy:id="Y09638" editRecord="[]">Sphingomomzs mali NBRC l5500T (Y09638)</otu>
+  <otu id="otu3">Sphingomonaspruni NBRC 154987 (Y09637)</otu>
+  <otu id="otu4">Sphingobium</otu>
+  <otu id="otu5">Sphingomonas sanguinis NBRC 13937T (Dl3726)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Sphingomonas" cmphy:species="pituitosa" cmphy:strain="DSM 13101T" cmphy:id="AJZ43751" editRecord="[2__Z]">Sphingomonas pituitosa DSM 13101T (AJ243751)</otu>
+  <otu id="otu7" cmphy:genus="Sphingomonas" cmphy:species="echirtoides" cmphy:strain="DSM 1805T" cmphy:id="AJO12461" editRecord="[]">Sphingomonas echirtoides DSM 1805T (AJO12461)</otu>
+  <otu id="otu8" cmphy:genus="Sphingomonas" cmphy:species="trueperi" cmphy:strain="NBRC 161577" cmphy:id="X97776" editRecord="[]">Sphingomonas trueperi NBRC 161577 (X97776)</otu>
+  <otu id="otu9">OSG47 ENBRC 15495) (AB217472)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Y22 GNBRC 15496) (AB217473)</otu>
+  <otu id="otu12" cmphy:genus="Sphingomonas" cmphy:species="paucimobilis" cmphy:strain="DSM 1098T" cmphy:id="X72722" editRecord="[]">Sphingomonas paucimobilis DSM 1098T (X72722)</otu>
+  <otu id="otu13" cmphy:genus="Sphingomonas" cmphy:species="rosezflava" cmphy:strain="IAM 14823T" cmphy:id="D84520" editRecord="[]">Sphingomonas rosezflava IAM 14823T (D84520)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="42.0" y="620.0"/>
+   <node id="NT1.2" label="NT1.2" x="177.0" y="472.0"/>
+   <node id="NT1.3" label="NT1.3" x="257.0" y="838.0" otu="otu1"/>
+   <node id="NT1.4" label="NT1.4" x="286.0" y="649.0"/>
+   <node id="NT1.5" label="NT1.5" x="331.0" y="271.0"/>
+   <node id="NT1.6" label="NT1.6" x="395.0" y="582.0"/>
+   <node id="NT1.7" label="NT1.7" x="400.0" y="562.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="413.0" y="630.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="458.0" y="408.0"/>
+   <node id="NT1.10" label="NT1.10" x="466.0" y="770.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="483.0" y="460.0"/>
+   <node id="NT1.12" label="NT1.12" x="527.0" y="180.0"/>
+   <node id="NT1.13" label="NT1.13" x="540.0" y="73.0"/>
+   <node id="NT1.14" label="NT1.14" x="546.0" y="425.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="548.0" y="288.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="550.0" y="81.0"/>
+   <node id="NT1.17" label="NT1.17" x="554.0" y="702.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="554.0" y="183.0"/>
+   <node id="NT1.19" label="NT1.19" x="559.0" y="12.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="562.0" y="149.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="568.0" y="81.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="573.0" y="217.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="576.0" y="357.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="647.0" y="494.0" otu="otu13"/>
+   <edge source="NT1.21" target="NT1.16" id="e.0"/>
+   <edge source="NT1.20" target="NT1.18" id="e.1"/>
+   <edge source="NT1.22" target="NT1.18" id="e.2"/>
+   <edge source="NT1.24" target="NT1.11" id="e.3"/>
+   <edge source="NT1.7" target="NT1.6" id="e.4"/>
+   <edge source="NT1.17" target="NT1.4" id="e.5"/>
+   <edge source="NT1.10" target="NT1.1" id="e.6"/>
+   <edge source="NT1.13" target="NT1.16" id="e.7"/>
+   <edge source="NT1.13" target="NT1.12" id="e.8"/>
+   <edge source="NT1.16" target="NT1.18" id="e.9"/>
+   <edge source="NT1.12" target="NT1.5" id="e.10"/>
+   <edge source="NT1.5" target="NT1.9" id="e.11"/>
+   <edge source="NT1.5" target="NT1.2" id="e.12"/>
+   <edge source="NT1.9" target="NT1.11" id="e.13"/>
+   <edge source="NT1.2" target="NT1.4" id="e.14"/>
+   <edge source="NT1.2" target="NT1.1" id="e.15"/>
+   <edge source="NT1.4" target="NT1.6" id="e.16"/>
+   <edge source="NT1.3" target="NT1.1" id="e.17"/>
+   <edge source="NT1.8" target="NT1.6" id="e.18"/>
+   <edge source="NT1.23" target="NT1.9" id="e.19"/>
+   <edge source="NT1.14" target="NT1.11" id="e.20"/>
+   <edge source="NT1.15" target="NT1.12" id="e.21"/>
+   <edge source="NT1.19" target="NT1.13" id="e.22"/>
+  </tree>
+ </trees>
+</nexml>

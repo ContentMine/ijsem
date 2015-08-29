@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> Ochrobactrum oryzae MTCC4195T(AMO41247)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Ochrobactrum" cmphy:species="cytisi" cmphy:strain="ESC1T" cmphy:id="AY776289" editRecord="[]">Ochrobactrum cytisi ESC1T (AY776289)</otu>
+  <otu id="otu5">Catellibacterium terrae1 OMT-4 (EUO53204)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Brucella" cmphy:species="ceti" cmphy:strain="NCTC 12891T" cmphy:id="AMI58982" editRecord="[1__I]">Brucella ceti NCTC 12891T (AM158982)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Hyphomicrobium" cmphy:species="hollandicum" cmphy:strain="IFAM KB-677T" cmphy:id="Y14303" editRecord="[]"> Hyphomicrobium hollandicum IFAM KB-677T (Y14303)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17">Strain EST (EU255260)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:genus="Devosia" cmphy:species="riboflavina" cmphy:strain="IFO 13584T" cmphy:id="D49423" editRecord="[]">Devosia riboflavina IFO 13584T (D49423)</otu>
+  <otu id="otu23" cmphy:edit="[O__0]" cmphy:genus="Methylorhabdus" cmphy:species="multivorans" cmphy:strain="DM13T" cmphy:id="AFO04845" editRecord="[O__0]"> Methylorhabdus multivorans DM13T (AFOO4845)</otu>
+  <otu id="otu24">Antarctobacter heliothermus EL-219T (Y1 1552)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="68.0" y="470.0"/>
+   <node id="NT1.2" x="91.0" y="679.0" label="74"/>
+   <node id="NT1.3" label="NT1.3" x="102.0" y="261.0"/>
+   <node id="NT1.16" x="222.0" y="77.0" label="99"/>
+   <node id="NT1.22" label="NT1.22" x="249.0" y="141.0" otu="otu4"/>
+   <node id="NT1.26" label="NT1.26" x="259.0" y="56.0" otu="otu7"/>
+   <node id="NT1.32" label="NT1.32" x="279.0" y="612.0" otu="otu11"/>
+   <node id="NT1.44" label="NT1.44" x="352.0" y="398.0" otu="otu22"/>
+   <node id="NT1.45" label="NT1.45" x="357.0" y="741.0" otu="otu23"/>
+   <node id="NT1.47" label="NT1.47" x="1.0" y="707.0" root="true"/>
+   <edge id="e.1" target="NT1.26" source="NT1.16"/>
+   <edge id="e.3" target="NT1.22" source="NT1.16"/>
+   <edge id="e.9" target="NT1.44" source="NT1.3"/>
+   <edge id="e.10" target="NT1.32" source="NT1.2"/>
+   <edge id="e.18" target="NT1.45" source="NT1.2"/>
+   <edge id="e.23" target="NT1.16" source="NT1.3"/>
+   <edge id="e.27" source="NT1.1" target="NT1.3"/>
+   <edge id="e.31" source="NT1.1" target="NT1.2"/>
+   <edge id="e.42" source="NT1.47" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

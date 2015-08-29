@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">1Candida(us Burkhotderia kirkii' (AF475063)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Pandoraea" cmphy:species="sputorum" cmphy:strain="LMG 18819T" cmphy:id="AFI39176" editRecord="[1__I]"> Pandoraea sputorum LMG 18819T (AF139176)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Pandoraea" cmphy:species="norimbergensfs" cmphy:strain="LMG 13019" cmphy:id="AFI39171" editRecord="[1__I]">Pandoraea norimbergensfs LMG 13019 (AF139171)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Scutellospora" cmphy:species="persica" cmphy:strain="HC7F E09" cmphy:id="AJZ51635" editRecord="[2__Z]">Scutellospora persica HC7F E09 (AJ251635)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Gigaspora" cmphy:species="margarita" cmphy:strain="WV205A" cmphy:id="AJZ51633" editRecord="[2__Z]"> Gigaspora margarita WV205A (AJ251633)</otu>
+  <otu id="otu14" cmphy:genus="Gigaspora" cmphy:species="margarita" cmphy:strain="BEG 34" cmphy:id="X89727" editRecord="[]"> Gigaspora margarita BEG 34 (X89727)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Ralslonia" cmphy:species="gilardii" cmphy:strain="LMG 58867" cmphy:id="AFO76645" editRecord="[0__O]">Ralslonia gilardii LMG 58867 (AF076645)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="16.0" y="309.0"/>
+   <node id="NT1.2" x="25.0" y="570.0" label="761"/>
+   <node id="NT1.3" x="60.0" y="181.0" label="784"/>
+   <node id="NT1.4" label="NT1.4" x="63.0" y="602.0"/>
+   <node id="NT1.5" label="NT1.5" x="96.0" y="579.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="128.0" y="535.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="131.0" y="436.0"/>
+   <node id="NT1.8" x="136.0" y="469.0" label="59"/>
+   <node id="NT1.9" label="NT1.9" x="145.0" y="9.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="152.0" y="492.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="163.0" y="624.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="173.0" y="404.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="209.0" y="448.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="248.0" y="85.0"/>
+   <node id="NT1.15" label="NT1.15" x="310.0" y="277.0"/>
+   <node id="NT1.16" label="NT1.16" x="329.0" y="118.0"/>
+   <node id="NT1.17" label="NT1.17" x="344.0" y="52.0" otu="otu8"/>
+   <node id="NT1.18" x="349.0" y="338.0" label="850"/>
+   <node id="NT1.19" x="355.0" y="218.0" label="951"/>
+   <node id="NT1.20" label="NT1.20" x="370.0" y="360.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="370.0" y="316.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="370.0" y="250.0"/>
+   <node id="NT1.23" label="NT1.23" x="376.0" y="228.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="380.0" y="141.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="381.0" y="184.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="405.0" y="272.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="415.0" y="96.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="861.0" y="214.0" otu="otu16"/>
+   <node id="NT1.29" label="NT1.29" x="862.0" y="211.0" otu="otu17"/>
+   <edge source="NT1.9" target="NT1.1" id="e.0"/>
+   <edge source="NT1.12" target="NT1.7" id="e.1"/>
+   <edge source="NT1.13" target="NT1.8" id="e.2"/>
+   <edge source="NT1.5" target="NT1.4" id="e.3"/>
+   <edge source="NT1.6" target="NT1.2" id="e.4"/>
+   <edge source="NT1.11" target="NT1.4" id="e.5"/>
+   <edge source="NT1.17" target="NT1.14" id="e.6"/>
+   <edge source="NT1.24" target="NT1.16" id="e.7"/>
+   <edge source="NT1.21" target="NT1.18" id="e.8"/>
+   <edge source="NT1.27" target="NT1.16" id="e.9"/>
+   <edge source="NT1.25" target="NT1.19" id="e.10"/>
+   <edge source="NT1.23" target="NT1.22" id="e.11"/>
+   <edge source="NT1.26" target="NT1.22" id="e.12"/>
+   <edge source="NT1.29" target="NT1.15" id="e.13"/>
+   <edge source="NT1.28" target="NT1.15" id="e.14"/>
+   <edge source="NT1.1" target="NT1.7" id="e.15"/>
+   <edge source="NT1.3" target="NT1.15" id="e.16"/>
+   <edge source="NT1.7" target="NT1.8" id="e.17"/>
+   <edge source="NT1.2" target="NT1.4" id="e.18"/>
+   <edge source="NT1.14" target="NT1.16" id="e.19"/>
+   <edge source="NT1.15" target="NT1.19" id="e.20"/>
+   <edge source="NT1.15" target="NT1.18" id="e.21"/>
+   <edge source="NT1.19" target="NT1.22" id="e.22"/>
+   <edge source="NT1.1" target="NT1.2" id="e.23"/>
+   <edge source="NT1.1" target="NT1.3" id="e.24"/>
+   <edge source="NT1.3" target="NT1.14" id="e.25"/>
+   <edge source="NT1.10" target="NT1.8" id="e.26"/>
+   <edge source="NT1.20" target="NT1.18" id="e.27"/>
+  </tree>
+ </trees>
+</nexml>

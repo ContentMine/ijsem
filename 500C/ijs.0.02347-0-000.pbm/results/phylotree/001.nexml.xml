@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Lactobacillus" cmphy:species="mucosae" cmphy:strain="DSM 13345T" cmphy:id="AFI26738" editRecord="[1__I]">Lactobacillus mucosae DSM 13345T (AF126738)</otu>
+  <otu id="otu2">Lacrubacillus aviaiius subsp. aviarius DSM 20655T (M58808)</otu>
+  <otu id="otu3">G 44 (AF317704)</otu>
+  <otu id="otu4">G 43 (AF317703)</otu>
+  <otu id="otu5">G 22 (AF308147)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Laclobacillus fermentum ATCC 14931T(M58819)</otu>
+  <otu id="otu8">Lactobacillus salivarius subsp. salicinius DSM 205547 (M59054)</otu>
+  <otu id="otu9" cmphy:genus="Lactobacillus" cmphy:species="reuteri" cmphy:strain="DSM 20O16T" cmphy:id="L23507" editRecord="[]">Lactobacillus reuteri DSM 20O16T (L23507)</otu>
+  <otu id="otu10" cmphy:genus="Lactobacillus" cmphy:species="acidophilus" cmphy:strain="ATCC 4356T" cmphy:id="M58802" editRecord="[]">Lactobacillus acidophilus ATCC 4356T (M58802)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Lactobacillus" cmphy:species="gallinarum" cmphy:strain="ATCC 331991" cmphy:id="AJZ42968" editRecord="[2__Z]">Lactobacillus gallinarum ATCC 331991 (AJ242968)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Leuconostac" cmphy:species="mesenteroides" cmphy:strain="NCFB 5237" cmphy:id="ABO23242" editRecord="[0__O]">Leuconostac mesenteroides NCFB 5237 (AB023242)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="94.0" y="110.0"/>
+   <node id="NT1.2" label="NT1.2" x="127.0" y="266.0"/>
+   <node id="NT1.3" label="NT1.3" x="171.0" y="268.0"/>
+   <node id="NT1.4" label="NT1.4" x="182.0" y="390.0"/>
+   <node id="NT1.5" label="NT1.5" x="185.0" y="724.0"/>
+   <node id="NT1.6" label="NT1.6" x="238.0" y="268.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="262.0" y="708.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="262.0" y="451.0"/>
+   <node id="NT1.9" label="NT1.9" x="263.0" y="392.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="266.0" y="510.0"/>
+   <node id="NT1.11" label="NT1.11" x="268.0" y="455.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="271.0" y="646.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="313.0" y="77.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="314.0" y="79.0"/>
+   <node id="NT1.15" label="NT1.15" x="319.0" y="330.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="337.0" y="772.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="350.0" y="204.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="352.0" y="141.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="411.0" y="79.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="480.0" y="16.0" otu="otu12"/>
+   <edge source="NT1.20" target="NT1.1" id="e.0"/>
+   <edge source="NT1.14" target="NT1.13" id="e.1"/>
+   <edge source="NT1.6" target="NT1.3" id="e.2"/>
+   <edge source="NT1.18" target="NT1.1" id="e.3"/>
+   <edge source="NT1.19" target="NT1.14" id="e.4"/>
+   <edge source="NT1.9" target="NT1.8" id="e.5"/>
+   <edge source="NT1.15" target="NT1.4" id="e.6"/>
+   <edge source="NT1.11" target="NT1.10" id="e.7"/>
+   <edge source="NT1.7" target="NT1.5" id="e.8"/>
+   <edge source="NT1.1" target="NT1.2" id="e.9"/>
+   <edge source="NT1.1" target="NT1.14" id="e.10"/>
+   <edge source="NT1.2" target="NT1.3" id="e.11"/>
+   <edge source="NT1.3" target="NT1.4" id="e.12"/>
+   <edge source="NT1.4" target="NT1.8" id="e.13"/>
+   <edge source="NT1.8" target="NT1.10" id="e.14"/>
+   <edge source="NT1.5" target="NT1.1" id="e.15"/>
+   <edge source="NT1.17" target="NT1.2" id="e.16"/>
+   <edge source="NT1.12" target="NT1.10" id="e.17"/>
+   <edge source="NT1.16" target="NT1.5" id="e.18"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Thermotoga" cmphy:species="hypogea" cmphy:strain="DSM 111647" cmphy:id="U89768" editRecord="[]">Thermotoga hypogea DSM 111647 (U89768)</otu>
+  <otu id="otu2"> Thermopallium natronophiIum' DSM 9460 (X91822)</otu>
+  <otu id="otu3"> Fervidobacterium nodosum DSM 5306T(M59177)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Fenxidobacterium" cmphy:species="gondwanense" cmphy:strain="ACM 5017T" cmphy:id="Z49117" editRecord="[]">Fenxidobacterium gondwanense ACM 5017T (Z49117)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Marinitoga" cmphy:species="camini" cmphy:strain="DSM 13578T" cmphy:id="AJZ50439" editRecord="[2__Z]">Marinitoga camini DSM 13578T (AJ250439)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Geotoga" cmphy:species="subterranea" cmphy:strain="ATCC 51225T" cmphy:id="L10559" editRecord="[]"> Geotoga subterranea ATCC 51225T (L10559)</otu>
+  <otu id="otu9" cmphy:genus="Petrotoga" cmphy:species="miotherma" cmphy:strain="DSM 1oe91T" cmphy:id="L10657" editRecord="[]">Petrotoga miotherma DSM 1oe91T (L10657)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Petrotoga" cmphy:species="olearia" cmphy:strain="DSM 135747" cmphy:id="AJB11703" editRecord="[3__B]">Petrotoga olearia DSM 135747 (AJ311703)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Petrotoga" cmphy:species="sibirica" cmphy:strain="DSM 135757" cmphy:id="AJB11702" editRecord="[3__B]">Petrotoga sibirica DSM 135757 (AJ311702)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Petrotoga" cmphy:species="mexicana" cmphy:strain="DSM 148117" cmphy:id="AYI25964" editRecord="[1__I]">Petrotoga mexicana DSM 148117 (AY125964)</otu>
+  <otu id="otu13" cmphy:genus="Petrotoga" cmphy:species="mobilis" cmphy:strain="DSM 106747" cmphy:id="Y15479" editRecord="[]">Petrotoga mobilis DSM 106747 (Y15479)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="126.0" y="660.0" otu="otu1"/>
+   <node id="NT1.2" x="126.0" y="402.0" label="100"/>
+   <node id="NT1.3" x="161.0" y="490.0" label="96"/>
+   <node id="NT1.4" x="218.0" y="538.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="227.0" y="578.0"/>
+   <node id="NT1.6" x="240.0" y="315.0" label="100"/>
+   <node id="NT1.7" label="NT1.7" x="269.0" y="443.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="277.0" y="498.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="277.0" y="552.0" otu="otu4"/>
+   <node id="NT1.10" x="292.0" y="242.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="324.0" y="606.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="432.0" y="307.0"/>
+   <node id="NT1.13" label="NT1.13" x="457.0" y="389.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="472.0" y="281.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="484.0" y="335.0" otu="otu8"/>
+   <node id="NT1.16" x="506.0" y="176.0" label="100"/>
+   <node id="NT1.17" x="513.0" y="126.0" label="56"/>
+   <node id="NT1.18" x="516.0" y="79.0" label="56"/>
+   <node id="NT1.19" x="516.0" y="97.0" label="56"/>
+   <node id="NT1.20" x="521.0" y="36.0" label="89"/>
+   <node id="NT1.21" label="NT1.21" x="524.0" y="118.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="527.0" y="63.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="531.0" y="9.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="532.0" y="172.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="538.0" y="226.0" otu="otu13"/>
+   <edge source="NT1.23" target="NT1.20" id="e.0"/>
+   <edge source="NT1.22" target="NT1.20" id="e.1"/>
+   <edge source="NT1.24" target="NT1.17" id="e.2"/>
+   <edge source="NT1.25" target="NT1.16" id="e.3"/>
+   <edge source="NT1.14" target="NT1.12" id="e.4"/>
+   <edge source="NT1.13" target="NT1.6" id="e.5"/>
+   <edge source="NT1.7" target="NT1.3" id="e.6"/>
+   <edge source="NT1.8" target="NT1.4" id="e.7"/>
+   <edge source="NT1.9" target="NT1.5" id="e.8"/>
+   <edge source="NT1.11" target="NT1.5" id="e.9"/>
+   <edge source="NT1.1" target="NT1.2" id="e.10"/>
+   <edge source="NT1.20" target="NT1.18" id="e.11"/>
+   <edge source="NT1.18" target="NT1.19" id="e.12"/>
+   <edge source="NT1.18" target="NT1.19" id="e.13"/>
+   <edge source="NT1.19" target="NT1.17" id="e.14"/>
+   <edge source="NT1.17" target="NT1.16" id="e.15"/>
+   <edge source="NT1.10" target="NT1.6" id="e.16"/>
+   <edge source="NT1.10" target="NT1.12" id="e.17"/>
+   <edge source="NT1.3" target="NT1.4" id="e.18"/>
+   <edge source="NT1.4" target="NT1.5" id="e.19"/>
+   <edge source="NT1.2" target="NT1.3" id="e.20"/>
+   <edge source="NT1.6" target="NT1.2" id="e.21"/>
+   <edge source="NT1.16" target="NT1.10" id="e.22"/>
+   <edge source="NT1.15" target="NT1.12" id="e.23"/>
+   <edge source="NT1.21" target="NT1.19" id="e.24"/>
+  </tree>
+ </trees>
+</nexml>

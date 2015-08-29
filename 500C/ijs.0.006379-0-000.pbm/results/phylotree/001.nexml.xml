@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">C. cystitidis ATCC 295937 (D37914)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"> C. Iubricantis KSS-3SeT (FM173119)</otu>
+  <otu id="otu4">C. Iubricantis KSS-10Se (FM173121)</otu>
+  <otu id="otu5"> C. accolens CCUG 28779T (X80500)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">C. pilosum NCTC 118627 (X84246)</otu>
+  <otu id="otu8">C. mastitidis CCUG 38654T (Y09806)</otu>
+  <otu id="otu9">C. mucifaciens DMMZ 2278T (Y11200)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">C. renale CIP 1O3421T (X84249)</otu>
+  <otu id="otu13">C. coyleae DSM 44184T (X96497)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"> C. flavescens NCDO 1320T (X84441)</otu>
+  <otu id="otu16">C. striatum NCTC 764T (X84442)</otu>
+  <otu id="otu17">C. jeikeium NCTC 11913T (X84250)</otu>
+  <otu id="otu18" cmphy:genus="c." cmphy:species="glucuronolyticum" cmphy:strain="DSM 4412oT" cmphy:id="X86688">c. glucuronolyticum DSM 4412oT (X86688)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.34" label="NT1.34" x="614.0" y="637.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="1.0" y="564.0" root="true"/>
+   <edge id="e.32" source="NT1.35" target="NT1.34"/>
+  </tree>
+ </trees>
+</nexml>

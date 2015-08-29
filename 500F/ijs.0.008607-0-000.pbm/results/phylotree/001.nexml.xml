@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Oceanospirillum linum ATCC 1 13367 (M22365)</otu>
+  <otu id="otu3">Marinomonas communis LMG 2864T (DOO1 1528)</otu>
+  <otu id="otu4">Marinomonas dokdonensis DSW10-10T (DO01 1526)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Marinomonas" cmphy:species="balearica" cmphy:strain="IVIA-Po-1017" cmphy:id="EUI88448" editRecord="[1__I]">Marinomonas balearica IVIA-Po-1017 (EU188448)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Marinomonas" cmphy:species="mediterranea" cmphy:strain="IVIA-Po-186" cmphy:id="EUI88440" editRecord="[1__I]">Marinomonas mediterranea IVIA-Po-186 (EU188440)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Marinomonas" cmphy:species="pontica" cmphy:strain="46-167" cmphy:id="AYS39835" editRecord="[5__S]"> Marinomonas pontica 46-167 (AY539835)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Marinomonas" cmphy:species="pollencensis" cmphy:strain="IVIA-Po-185T" cmphy:id="EUI88441" editRecord="[1__I]">Marinomonas pollencensis IVIA-Po-185T (EU188441)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Marinomonas" cmphy:species="mediterranea" cmphy:strain="MMB-17" cmphy:id="AFO63027" editRecord="[0__O]">Marinomonas mediterranea MMB-17 (AF063027)</otu>
+  <otu id="otu10">Marinomonas ostreistagniUST010306-0437 (AB242868)</otu>
+  <otu id="otu11" cmphy:edit="[8__B]" cmphy:genus="Marinomonas" cmphy:species="aquimarina" cmphy:strain="1 1SM4T" cmphy:id="AJB43077" editRecord="[8__B]">Marinomonas aquimarina 1 1SM4T (AJ843077)</otu>
+  <otu id="otu12">Marinomonas vaga ATCC 271 19 (X67025)</otu>
+  <otu id="otu13" cmphy:genus="Marinobacter" cmphy:species="hydrocarbonoclasticus" cmphy:strain="ATCC 49840T" cmphy:id="X67022" editRecord="[]">Marinobacter hydrocarbonoclasticus ATCC 49840T (X67022)</otu>
+  <otu id="otu14" cmphy:genus="Marinomonas" cmphy:species="primoryensis" cmphy:strain="KMM 3633T" cmphy:id="ABO74193" editRecord="[]">Marinomonas primoryensis KMM 3633T (ABO74193)</otu>
+  <otu id="otu15" cmphy:edit="[8__B]" cmphy:genus="Marinomonas" cmphy:species="polaris" cmphy:strain="CK13T" cmphy:id="AJB33000" editRecord="[8__B]">Marinomonas polaris CK13T (AJ833000)</otu>
+  <otu id="otu16" cmphy:genus="Marinomonas" cmphy:species="ushuaiensis" cmphy:strain="U17" cmphy:id="AJ627909" editRecord="[]">Marinomonas ushuaiensis U17 (AJ627909)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="458.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="80.0" y="372.0"/>
+   <node id="NT1.4" label="NT1.4" x="283.0" y="285.0"/>
+   <node id="NT1.5" x="295.0" y="184.0" label="93)"/>
+   <node id="NT1.6" label="NT1.6" x="337.0" y="127.0"/>
+   <node id="NT1.7" label="NT1.7" x="351.0" y="76.0"/>
+   <node id="NT1.11" label="NT1.11" x="367.0" y="384.0"/>
+   <node id="NT1.12" label="NT1.12" x="388.0" y="120.0"/>
+   <node id="NT1.15" x="413.0" y="97.0" label="82'"/>
+   <node id="NT1.18" label="NT1.18" x="434.0" y="410.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="436.0" y="361.0"/>
+   <node id="NT1.20" label="NT1.20" x="439.0" y="343.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="442.0" y="146.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="446.0" y="179.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="447.0" y="377.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="470.0" y="277.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="501.0" y="476.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="502.0" y="113.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="522.0" y="79.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="528.0" y="47.0" otu="otu16"/>
+   <edge id="e.1" target="NT1.30" source="NT1.7"/>
+   <edge id="e.2" source="NT1.12" target="NT1.21"/>
+   <edge id="e.3" source="NT1.6" target="NT1.22"/>
+   <edge id="e.4" source="NT1.15" target="NT1.28"/>
+   <edge id="e.5" source="NT1.15" target="NT1.29"/>
+   <edge id="e.9" target="NT1.25" source="NT1.5"/>
+   <edge id="e.10" source="NT1.11" target="NT1.18"/>
+   <edge id="e.11" source="NT1.19" target="NT1.20"/>
+   <edge id="e.12" source="NT1.19" target="NT1.23"/>
+   <edge id="e.13" source="NT1.1" target="NT1.2"/>
+   <edge id="e.15" target="NT1.27" source="NT1.2"/>
+   <edge id="e.17" source="NT1.6" target="NT1.7"/>
+   <edge id="e.18" source="NT1.7" target="NT1.12"/>
+   <edge id="e.19" source="NT1.5" target="NT1.6"/>
+   <edge id="e.20" source="NT1.12" target="NT1.15"/>
+   <edge id="e.21" source="NT1.4" target="NT1.5"/>
+   <edge id="e.23" source="NT1.2" target="NT1.4"/>
+   <edge id="e.24" source="NT1.4" target="NT1.11"/>
+   <edge id="e.27" source="NT1.11" target="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

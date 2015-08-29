@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Nocardioides" cmphy:species="aquiterrae" cmphy:strain="GW-9T" cmphy:id="AFS29063" editRecord="[5__S]">Nocardioides aquiterrae GW-9T (AF529063)</otu>
+  <otu id="otu6" cmphy:genus="Nocardioides" cmphy:species="pyridinolyticus" cmphy:strain="OS4T" cmphy:id="U61298" editRecord="[]">Nocardioides pyridinolyticus OS4T (U61298)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Nocardioides" cmphy:species="hankookensis" cmphy:strain="DS-30T" cmphy:id="EFS55584" editRecord="[5__S]">Nocardioides hankookensis DS-30T (EF555584)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Nocardioides" cmphy:species="fonticola" cmphy:strain="NAA-13T" cmphy:id="EF626689" editRecord="[]">Nocardioides fonticola NAA-13T (EF626689)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Nocardiofdes" cmphy:species="kongjuensis" cmphy:strain="A2-4T" cmphy:id="DQZ18275" editRecord="[2__Z]">Nocardiofdes kongjuensis A2-4T (DQ218275)</otu>
+  <otu id="otu13" cmphy:genus="Nocardioides" cmphy:species="furvisabuli" cmphy:strain="SBS-26T" cmphy:id="DQ411542" editRecord="[]">Nocardioides furvisabuli SBS-26T (DQ411542)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Nocardioides" cmphy:species="aromaticivorans" cmphy:strain="H-1 T" cmphy:id="ABO87721" editRecord="[0__O]">Nocardioides aromaticivorans H-1 T (AB087721)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Nocardioides" cmphy:species="nitrophenolicus" cmphy:strain="KCTC O457BPT" cmphy:id="AFO05024" editRecord="[0__O]">Nocardioides nitrophenolicus KCTC O457BPT (AF005024)</otu>
+  <otu id="otu16" cmphy:genus="Nocardioides" cmphy:species="ganghwensis" cmphy:strain="JC2055T" cmphy:id="AY423718" editRecord="[]">Nocardioides ganghwensis JC2055T (AY423718)</otu>
+  <otu id="otu17" cmphy:genus="Nocardioides" cmphy:species="caeni" cmphy:strain="MN8T" cmphy:id="FJ423551" editRecord="[]">Nocardioides caeni MN8T (FJ423551)</otu>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Nocardioides" cmphy:species="simplex" cmphy:strain="KCTC 9106T" cmphy:id="AFO05009" editRecord="[0__O]">Nocardioides simplex KCTC 9106T (AF005009)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Nocardioides" cmphy:species="exalbidus" cmphy:strain="RC825T" cmphy:id="ABZ73624" editRecord="[2__Z]">Nocardioides exalbidus RC825T (AB273624)</otu>
+  <otu id="otu20" cmphy:edit="[0__O]" cmphy:genus="Nocardioides" cmphy:species="plantarum" cmphy:strain="NCIMB 12834T" cmphy:id="AFO05008" editRecord="[0__O]">Nocardioides plantarum NCIMB 12834T (AF005008)</otu>
+  <otu id="otu21" cmphy:genus="Nocardioides" cmphy:species="oleivorans" cmphy:strain="DSM 16090T" cmphy:id="AJ698724" editRecord="[]">Nocardioides oleivorans DSM 16090T (AJ698724)</otu>
+  <otu id="otu22" cmphy:edit="[2__Z]" cmphy:genus="Nocardioides" cmphy:species="hwasunensis" cmphy:strain="H FW-21T" cmphy:id="AMZ95258" editRecord="[2__Z]">Nocardioides hwasunensis H FW-21T (AM295258)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="335.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="9.0" y="335.0"/>
+   <node id="NT1.3" label="NT1.3" x="15.0" y="208.0"/>
+   <node id="NT1.4" label="NT1.4" x="40.0" y="148.0"/>
+   <node id="NT1.6" label="NT1.6" x="49.0" y="463.0"/>
+   <node id="NT1.8" label="NT1.8" x="113.0" y="265.0"/>
+   <node id="NT1.9" label="NT1.9" x="140.0" y="241.0"/>
+   <node id="NT1.10" label="NT1.10" x="156.0" y="424.0"/>
+   <node id="NT1.12" label="NT1.12" x="173.0" y="222.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="183.0" y="257.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="187.0" y="109.0"/>
+   <node id="NT1.15" label="NT1.15" x="191.0" y="380.0"/>
+   <node id="NT1.16" label="NT1.16" x="194.0" y="99.0"/>
+   <node id="NT1.18" label="NT1.18" x="202.0" y="293.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="207.0" y="423.0"/>
+   <node id="NT1.21" label="NT1.21" x="213.0" y="30.0"/>
+   <node id="NT1.22" label="NT1.22" x="214.0" y="346.0"/>
+   <node id="NT1.25" label="NT1.25" x="223.0" y="188.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="245.0" y="12.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="247.0" y="468.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="248.0" y="153.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="250.0" y="47.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="250.0" y="363.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="251.0" y="82.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="254.0" y="117.0" otu="otu18"/>
+   <node id="NT1.33" label="NT1.33" x="259.0" y="397.0" otu="otu19"/>
+   <node id="NT1.34" label="NT1.34" x="263.0" y="503.0" otu="otu20"/>
+   <node id="NT1.35" label="NT1.35" x="266.0" y="327.0" otu="otu21"/>
+   <node id="NT1.36" label="NT1.36" x="304.0" y="434.0" otu="otu22"/>
+   <edge id="e.0" source="NT1.16" target="NT1.32"/>
+   <edge id="e.1" source="NT1.14" target="NT1.28"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.4" target="NT1.25"/>
+   <edge id="e.5" source="NT1.9" target="NT1.12"/>
+   <edge id="e.6" source="NT1.9" target="NT1.13"/>
+   <edge id="e.7" source="NT1.8" target="NT1.18"/>
+   <edge id="e.13" source="NT1.10" target="NT1.27"/>
+   <edge id="e.14" source="NT1.19" target="NT1.33"/>
+   <edge id="e.15" target="NT1.35" source="NT1.22"/>
+   <edge id="e.16" source="NT1.19" target="NT1.36"/>
+   <edge id="e.17" source="NT1.16" target="NT1.21"/>
+   <edge id="e.18" source="NT1.14" target="NT1.16"/>
+   <edge id="e.19" source="NT1.4" target="NT1.14"/>
+   <edge id="e.20" source="NT1.3" target="NT1.4"/>
+   <edge id="e.21" source="NT1.2" target="NT1.3"/>
+   <edge id="e.22" source="NT1.3" target="NT1.8"/>
+   <edge id="e.23" source="NT1.2" target="NT1.6"/>
+   <edge id="e.24" source="NT1.8" target="NT1.9"/>
+   <edge id="e.25" source="NT1.6" target="NT1.10"/>
+   <edge id="e.26" source="NT1.10" target="NT1.15"/>
+   <edge id="e.27" source="NT1.15" target="NT1.19"/>
+   <edge id="e.28" source="NT1.15" target="NT1.22"/>
+   <edge id="e.30" source="NT1.6" target="NT1.34"/>
+   <edge id="e.31" source="NT1.16" target="NT1.31"/>
+   <edge id="e.32" source="NT1.21" target="NT1.29"/>
+   <edge id="e.33" source="NT1.22" target="NT1.30"/>
+   <edge id="e.34" source="NT1.21" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Methanollnea" cmphy:species="tarda" cmphy:strain="NOBl'-1.7" cmphy:id="ABI62774" editRecord="[1__I]">Methanollnea tarda NOBl'-1.7 (AB162774)</otu>
+  <otu id="otu3">Methano0phaerula palustris E1 -907 (EU156000)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Methanoregula" cmphy:species="formlclca" cmphy:strain="SMSPT" cmphy:id="AB479390" editRecord="[]">Methanoregula formlclca SMSPT (AB479390)</otu>
+  <otu id="otu6">Methanospirillum hungatei JF-1T (M60880) 40 Methan0spiriIIaCeae</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Methanoplanus" cmphy:species="limicola" cmphy:strain="DSM 2279T" cmphy:id="M59143" editRecord="[]">Methanoplanus limicola DSM 2279T (M59143)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Methanocalculus" cmphy:species="halotolerans" cmphy:strain="SEBR 4845T" cmphy:id="AFO33672" editRecord="[0__O]">Methanocalculus halotolerans SEBR 4845T (AF033672)</otu>
+  <otu id="otu11" cmphy:genus="Methanofollis" cmphy:species="tationis" cmphy:strain="DSM 2702T" cmphy:id="AFO95272" editRecord="[]">Methanofollis tationis DSM 2702T (AFO95272)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">Methanocorpusculum parvum DSM 3823T (M59147) e Methanocorpusculaceae</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="354.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="38.0" y="269.0"/>
+   <node id="NT1.4" label="NT1.4" x="65.0" y="190.0"/>
+   <node id="NT1.5" label="NT1.5" x="73.0" y="343.0"/>
+   <node id="NT1.7" label="NT1.7" x="99.0" y="135.0"/>
+   <node id="NT1.13" label="NT1.13" x="207.0" y="326.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="253.0" y="359.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="332.0" y="85.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="350.0" y="221.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="364.0" y="188.0" otu="otu11"/>
+   <edge id="e.1" target="NT1.21" source="NT1.7"/>
+   <edge id="e.5" target="NT1.23" source="NT1.7"/>
+   <edge id="e.7" target="NT1.22" source="NT1.4"/>
+   <edge id="e.8" target="NT1.13" source="NT1.5"/>
+   <edge id="e.11" target="NT1.17" source="NT1.5"/>
+   <edge id="e.17" source="NT1.4" target="NT1.7"/>
+   <edge id="e.19" source="NT1.3" target="NT1.4"/>
+   <edge id="e.21" target="NT1.3" source="NT1.1"/>
+   <edge id="e.22" source="NT1.3" target="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

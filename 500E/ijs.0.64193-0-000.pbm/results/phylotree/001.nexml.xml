@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Strain TU-16T (DQ295805)</otu>
+  <otu id="otu2">Clone D8A_4 (AY768824)</otu>
+  <otu id="otu3">Hydrogenophaga 27ava DSM 619T (AB021420)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Tepidimonas sp. strain AA-1 (AM042693)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Diaphorobacter" cmphy:species="nitroreducens" cmphy:strain="NA1OBT" cmphy:id="ABO64317" editRecord="[0__O]">Diaphorobacter nitroreducens NA1OBT (AB064317)</otu>
+  <otu id="otu7">T. arfidensis</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Xenophilus" cmphy:species="azovorans" cmphy:strain="KF46FT" cmphy:id="AFZ85414" editRecord="[2__Z]">Xenophilus azovorans KF46FT (AF285414)</otu>
+  <otu id="otu9">Acidovorax avenae subsp. avenae ATCC 19307 (ABO21421)</otu>
+  <otu id="otu10">7'. ignava SPS-1O37T (AF177943)</otu>
+  <otu id="otu11" cmphy:genus="Xylophilus" cmphy:species="ampelinus" cmphy:strain="DSM 7250T" cmphy:id="AJ420330" editRecord="[]">Xylophilus ampelinus DSM 7250T (AJ420330)</otu>
+  <otu id="otu12">hr raiwanensis</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Delftia" cmphy:species="acidovorans" cmphy:strain="IAM 12409T" cmphy:id="ABO21417" editRecord="[]">Delftia acidovorans IAM 12409T (ABO21417)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" x="220.0" y="485.0" label="96"/>
+   <node id="NT1.4" label="NT1.4" x="232.0" y="547.0"/>
+   <node id="NT1.6" x="346.0" y="422.0" label="78"/>
+   <node id="NT1.18" label="NT1.18" x="631.0" y="387.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="695.0" y="525.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="732.0" y="479.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="771.0" y="571.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="5.0" y="355.0" root="true"/>
+   <edge id="e.7" source="NT1.4" target="NT1.20"/>
+   <edge id="e.9" target="NT1.23" source="NT1.6"/>
+   <edge id="e.10" source="NT1.4" target="NT1.26"/>
+   <edge id="e.17" target="NT1.3" source="NT1.27"/>
+   <edge id="e.18" source="NT1.3" target="NT1.4"/>
+   <edge id="e.19" source="NT1.3" target="NT1.6"/>
+   <edge id="e.23" source="NT1.6" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

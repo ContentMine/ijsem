@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Gillisia Iimnaea R-82827 (AJ440991)</otu>
+  <otu id="otu2">Ulvibacter Iitoralis KMM 3912T (AY243096)</otu>
+  <otu id="otu3" cmphy:genus="Salegentibacter" cmphy:species="salegens" cmphy:strain="DSM 5424T" cmphy:id="M92279" editRecord="[]">Salegentibacter salegens DSM 5424T (M92279)</otu>
+  <otu id="otu4"> Stanierella Iatercula ATCC 231777 (M58769)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Mesonia" cmphy:species="algae" cmphy:strain="KMM 39097" cmphy:id="AFS36383" editRecord="[5__S]">Mesonia algae KMM 39097 (AF536383)</otu>
+  <otu id="otu6">KMM 6021 (AY608407)</otu>
+  <otu id="otu7">KMM 6028 (AY608408)</otu>
+  <otu id="otu8" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 11947T" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 11947T (M62797)</otu>
+  <otu id="otu9" cmphy:genus="Psychrwexus" cmphy:species="torquis" cmphy:strain="ACAM 6237" cmphy:id="U85881" editRecord="[]">Psychrwexus torquis ACAM 6237 (U85881)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="34.0" y="274.0"/>
+   <node id="NT1.5" label="NT1.5" x="47.0" y="207.0"/>
+   <node id="NT1.9" label="NT1.9" x="173.0" y="234.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="191.0" y="179.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="224.0" y="11.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="231.0" y="289.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="9.0" y="39.0" root="true"/>
+   <edge id="e.2" source="NT1.5" target="NT1.9"/>
+   <edge id="e.3" source="NT1.5" target="NT1.11"/>
+   <edge id="e.5" target="NT1.16" source="NT1.3"/>
+   <edge id="e.9" target="NT1.3" source="NT1.17"/>
+   <edge id="e.13" source="NT1.17" target="NT1.15"/>
+   <edge id="e.15" source="NT1.3" target="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

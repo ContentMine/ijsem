@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">A. terreus DS-1OT(EF363711)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">A. ramosus DSM 43045T (X77447)</otu>
+  <otu id="otu10">A. allii UMS-627'. (DQ673873)</otu>
+  <otu id="otu11">A. salentinus 20-5T (AY507129)</otu>
+  <otu id="otu12">A. cerinus subsp. nitratus IMET 11532T(AY277619)</otu>
+  <otu id="otu13">A. cerinus subsp. nitratus IMET 11532T(AY277619)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17">A. subbeticus Z33T (AY737 7 78)</otu>
+  <otu id="otu18">A. neolithicus 23-23T (AY507128)</otu>
+  <otu id="otu19">A. fucosus VKM Ac-1345T (AY158025)</otu>
+  <otu id="otu20">A. italicus CD1T (AY618215)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">A. albus VKM AC-18001. (AF50391 7)</otu>
+  <otu id="otu23">A. Iapidis CD55T (AY618217)</otu>
+  <otu id="otu24">mi A. bracchium IFO 1e23sT (AB023359)</otu>
+  <otu id="otu25">A. atrinae P277 (FJ607310)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29">A. cerinus subsp. cerinus JCM 9083T (D45060)</otu>
+  <otu id="otu30">A. ulmi XILO1T (AY427830)</otu>
+  <otu id="otu31">A. rhizospherae IFO 16237 (ABO23358)</otu>
+  <otu id="otu32">A. hippuratus JCM 90867 (D45061)</otu>
+  <otu id="otu33">A. mediolanus DSM 2O152T (X77449)</otu>
+  <otu id="otu34">A. luteolus IFO 1e235T (AB023356)</otu>
+  <otu id="otu35">A. aurantiacus YIM 21741T(AF389342)</otu>
+  <otu id="otu36"/>
+  <otu id="otu37" cmphy:edit="[2__Z]" cmphy:genus="Subtercola" cmphy:species="boreus" cmphy:strain="KSOOT" cmphy:id="AFZ24722" editRecord="[2__Z]">Subtercola boreus KSOOT (AF224722)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.61" label="NT1.61" x="667.0" y="849.0" otu="otu37"/>
+   <node id="NT1.62" label="NT1.62" x="1.0" y="714.0" root="true"/>
+   <edge id="e.58" source="NT1.62" target="NT1.61"/>
+  </tree>
+ </trees>
+</nexml>

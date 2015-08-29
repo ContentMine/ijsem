@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 3553T" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 3553T (AY228461)</otu>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="eximia" cmphy:strain="KMM 3944T" cmphy:id="AYS21225" editRecord="[5__S]"> Winogradskyella eximia KMM 3944T (AY521225)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="thalassocola" cmphy:strain="KMM 3907T" cmphy:id="AYS21223" editRecord="[5__S]">Winogradskyella thalassocola KMM 3907T (AY521223)</otu>
+  <otu id="otu4" cmphy:genus="Psychroserpens" cmphy:species="bunfonensis" cmphy:strain="ACAM 188T" cmphy:id="U62913" editRecord="[]">Psychroserpens bunfonensis ACAM 188T (U62913)</otu>
+  <otu id="otu5" cmphy:genus="Gelidibacter" cmphy:species="algens" cmphy:strain="ACAM 536T" cmphy:id="U62914" editRecord="[]">Gelidibacter algens ACAM 536T (U62914)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="epiphytica" cmphy:strain="KMM 39O6T" cmphy:id="AYS21224" editRecord="[5__S]">Winogradskyella epiphytica KMM 39O6T (AY521224)</otu>
+  <otu id="otu7" cmphy:genus="Winogradskyella" cmphy:species="echinorum" cmphy:strain="KMM 62117" cmphy:id="EU727254" editRecord="[]"> Winogradskyella echinorum KMM 62117 (EU727254)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Winogradskyella" cmphy:species="poriferorum" cmphy:strain="UST030701-295T" cmphy:id="AYB48823" editRecord="[8__B]">Winogradskyella poriferorum UST030701-295T (AY848823)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="62.0"/>
+   <node id="NT1.2" x="46.0" y="182.0" label="99"/>
+   <node id="NT1.3" label="NT1.3" x="217.0" y="251.0"/>
+   <node id="NT1.4" x="242.0" y="193.0" label="67"/>
+   <node id="NT1.5" label="NT1.5" x="254.0" y="10.0" otu="otu1"/>
+   <node id="NT1.6" x="254.0" y="310.0" label="64"/>
+   <node id="NT1.7" x="295.0" y="349.0" label="84"/>
+   <node id="NT1.8" label="NT1.8" x="370.0" y="270.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="374.0" y="166.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="379.0" y="114.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="382.0" y="61.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="403.0" y="219.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="403.0" y="323.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="487.0" y="375.0" otu="otu8"/>
+   <edge source="NT1.11" target="NT1.1" id="e.0"/>
+   <edge source="NT1.10" target="NT1.2" id="e.1"/>
+   <edge source="NT1.9" target="NT1.4" id="e.2"/>
+   <edge source="NT1.8" target="NT1.6" id="e.3"/>
+   <edge source="NT1.13" target="NT1.7" id="e.4"/>
+   <edge source="NT1.14" target="NT1.7" id="e.5"/>
+   <edge source="NT1.1" target="NT1.2" id="e.6"/>
+   <edge source="NT1.2" target="NT1.3" id="e.7"/>
+   <edge source="NT1.3" target="NT1.6" id="e.8"/>
+   <edge source="NT1.3" target="NT1.4" id="e.9"/>
+   <edge source="NT1.6" target="NT1.7" id="e.10"/>
+   <edge source="NT1.5" target="NT1.1" id="e.11"/>
+   <edge source="NT1.12" target="NT1.4" id="e.12"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">VC2.1c121 (AF367489)</otu>
+  <otu id="otu3">VC2.1Bac1 (AFO68783)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">a2b004 (AF420345)</otu>
+  <otu id="otu6">NKB9 (AB013261)</otu>
+  <otu id="otu7" cmphy:genus="Himicaris" cmphy:species="exocurata" cmphy:strain="ectosymbiont" cmphy:id="U29081" editRecord="[]">Himicaris exocurata ectosymbiont (U29081)</otu>
+  <otu id="otu8">VC2.1Bac17 (AF068795)</otu>
+  <otu id="otu9">Caminibacter h ydrogeniphilus AM1 1 1 6 T (AJ 309655)</otu>
+  <otu id="otu10" cmphy:genus="Nautilia" cmphy:species="lithatrophica" cmphy:strain="525T" cmphy:id="AJ404370" editRecord="[]">Nautilia lithatrophica 525T (AJ404370)</otu>
+  <otu id="otu11" cmphy:genus="Alvinella" cmphy:species="pompejana" cmphy:strain="epibiont APG44b" cmphy:id="L35521" editRecord="[]">Alvinella pompejana epibiont APG44b (L35521)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="ATCC 21331" cmphy:id="ABO18487" editRecord="[0__O]">Bacillus subtilis ATCC 21331 (AB018487)</otu>
+  <otu id="otu13"> VC1.2c107 (AF367485)</otu>
+  <otu id="otu14"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="252.0" y="321.0" label="100"/>
+   <node id="NT1.5" x="444.0" y="290.0" label="61"/>
+   <node id="NT1.18" label="NT1.18" x="789.0" y="287.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="898.0" y="152.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="988.0" y="254.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="1000.0" y="20.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="8.0" y="109.0" root="true"/>
+   <edge id="e.3" target="NT1.22" source="NT1.2"/>
+   <edge id="e.7" target="NT1.18" source="NT1.5"/>
+   <edge id="e.11" source="NT1.5" target="NT1.23"/>
+   <edge id="e.12" target="NT1.2" source="NT1.27"/>
+   <edge id="e.16" target="NT1.5" source="NT1.2"/>
+   <edge id="e.23" source="NT1.27" target="NT1.24"/>
+  </tree>
+ </trees>
+</nexml>

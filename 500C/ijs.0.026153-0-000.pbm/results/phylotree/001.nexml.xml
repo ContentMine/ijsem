@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[5__S]" cmphy:genus="Haliea" cmphy:species="salexigens" cmphy:strain="3XlA021235T" cmphy:id="AYS76769" editRecord="[5__S]">Haliea salexigens 3XlA021235T (AY576769)</otu>
+  <otu id="otu2" cmphy:genus="Spongiibacter" cmphy:species="tropicus" cmphy:strain="CL-CB221T" cmphy:id="EF988653" editRecord="[]">Spongiibacter tropicus CL-CB221T (EF988653)</otu>
+  <otu id="otu3">Dasania marina KOPRI 209027 (AY771 747)</otu>
+  <otu id="otu4">Haliea rubra CM41_15aT(EU161717)</otu>
+  <otu id="otu5">Spongiibacter marinus HAL4ObT (AM1 1 7932)</otu>
+  <otu id="otu6" cmphy:edit="[8__B]" cmphy:genus="Zhongshania" cmphy:species="guokunii" cmphy:strain="ZS6-227" cmphy:id="FJB89678" editRecord="[8__B]">Zhongshania guokunii ZS6-227 (FJ889678)</otu>
+  <otu id="otu7" cmphy:edit="[8__B]" cmphy:genus="Zhongshania" cmphy:species="antarctica" cmphy:strain="ZS5-237" cmphy:id="FJB89619" editRecord="[8__B]">Zhongshania antarctica ZS5-237 (FJ889619)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Melitea" cmphy:species="salexigens" cmphy:strain="5IXlAO1H31T" cmphy:id="AYS76729" editRecord="[5__S]">Melitea salexigens 5IXlAO1H31T (AY576729)</otu>
+  <otu id="otu9" cmphy:genus="Cellvibrio" cmphy:species="japonicus" cmphy:strain="NCIMB 1O462T" cmphy:id="AF452103" editRecord="[]">Cellvibrio japonicus NCIMB 1O462T (AF452103)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Saccharophagus" cmphy:species="degradans" cmphy:strain="2-407" cmphy:id="AFO55269" editRecord="[0__O]">Saccharophagus degradans 2-407 (AF055269)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="Moraxella" cmphy:species="equi" cmphy:strain="82W72T" cmphy:id="AFO05184" editRecord="[O__0]">Moraxella equi 82W72T (AFOO5184)</otu>
+  <otu id="otu12">Ce-llvibrio mixtus ACM 2601 T (AF448515)</otu>
+  <otu id="otu13">Microbulbifer hydrolyticus DSM 1 1525T (AJ608704)</otu>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="Microbulbifer" cmphy:species="donghaiensis" cmphy:strain="CN85T" cmphy:id="EUB65694" editRecord="[3__B]">Microbulbifer donghaiensis CN85T (EU365694)</otu>
+  <otu id="otu15">Microbulbifer maritimus TF-1 7T (AY37 7986)</otu>
+  <otu id="otu16" cmphy:genus="Psychrobacter" cmphy:species="arcticus" cmphy:strain="273-4T" cmphy:id="AY444822" editRecord="[]">Psychrobacter arcticus 273-4T (AY444822)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="65.0" y="338.0"/>
+   <node id="NT1.2" label="NT1.2" x="99.0" y="239.0"/>
+   <node id="NT1.3" label="NT1.3" x="131.0" y="172.0"/>
+   <node id="NT1.4" x="155.0" y="127.0" label="45"/>
+   <node id="NT1.5" label="NT1.5" x="171.0" y="87.0"/>
+   <node id="NT1.6" label="NT1.6" x="173.0" y="435.0"/>
+   <node id="NT1.7" label="NT1.7" x="181.0" y="305.0"/>
+   <node id="NT1.8" label="NT1.8" x="214.0" y="503.0"/>
+   <node id="NT1.9" label="NT1.9" x="242.0" y="343.0"/>
+   <node id="NT1.10" label="NT1.10" x="288.0" y="165.0"/>
+   <node id="NT1.11" label="NT1.11" x="291.0" y="419.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="308.0" y="57.0"/>
+   <node id="NT1.13" label="NT1.13" x="324.0" y="268.0"/>
+   <node id="NT1.14" label="NT1.14" x="331.0" y="318.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="331.0" y="368.0"/>
+   <node id="NT1.16" label="NT1.16" x="339.0" y="216.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="339.0" y="453.0" otu="otu4"/>
+   <node id="NT1.18" label="NT1.18" x="345.0" y="386.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="347.0" y="284.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="354.0" y="250.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="358.0" y="32.0"/>
+   <node id="NT1.22" label="NT1.22" x="362.0" y="352.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="370.0" y="183.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="384.0" y="115.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="410.0" y="487.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="429.0" y="149.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="430.0" y="81.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="434.0" y="48.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="447.0" y="14.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="447.0" y="521.0" otu="otu16"/>
+   <edge source="NT1.24" target="NT1.5" id="e.0"/>
+   <edge source="NT1.16" target="NT1.3" id="e.1"/>
+   <edge source="NT1.26" target="NT1.10" id="e.2"/>
+   <edge source="NT1.22" target="NT1.15" id="e.3"/>
+   <edge source="NT1.21" target="NT1.12" id="e.4"/>
+   <edge source="NT1.12" target="NT1.5" id="e.5"/>
+   <edge source="NT1.5" target="NT1.4" id="e.6"/>
+   <edge source="NT1.4" target="NT1.3" id="e.7"/>
+   <edge source="NT1.4" target="NT1.10" id="e.8"/>
+   <edge source="NT1.3" target="NT1.2" id="e.9"/>
+   <edge source="NT1.2" target="NT1.1" id="e.10"/>
+   <edge source="NT1.2" target="NT1.7" id="e.11"/>
+   <edge source="NT1.1" target="NT1.6" id="e.12"/>
+   <edge source="NT1.7" target="NT1.9" id="e.13"/>
+   <edge source="NT1.7" target="NT1.13" id="e.14"/>
+   <edge source="NT1.9" target="NT1.15" id="e.15"/>
+   <edge source="NT1.1" target="NT1.8" id="e.16"/>
+   <edge source="NT1.11" target="NT1.6" id="e.17"/>
+   <edge source="NT1.17" target="NT1.6" id="e.18"/>
+   <edge source="NT1.14" target="NT1.9" id="e.19"/>
+   <edge source="NT1.25" target="NT1.8" id="e.20"/>
+   <edge source="NT1.30" target="NT1.8" id="e.21"/>
+   <edge source="NT1.23" target="NT1.10" id="e.22"/>
+   <edge source="NT1.19" target="NT1.13" id="e.23"/>
+   <edge source="NT1.20" target="NT1.13" id="e.24"/>
+   <edge source="NT1.18" target="NT1.15" id="e.25"/>
+   <edge source="NT1.27" target="NT1.12" id="e.26"/>
+   <edge source="NT1.28" target="NT1.21" id="e.27"/>
+   <edge source="NT1.29" target="NT1.21" id="e.28"/>
+  </tree>
+ </trees>
+</nexml>

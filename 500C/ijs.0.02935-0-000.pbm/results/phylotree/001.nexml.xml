@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Kocuria rosea ATCC 187T (Y1 1330)</otu>
+  <otu id="otu3" cmphy:genus="Kocuria" cmphy:species="palustris" cmphy:strain="DSM 11925T" cmphy:id="Y16263" editRecord="[]">Kocuria palustris DSM 11925T (Y16263)</otu>
+  <otu id="otu4" cmphy:genus="Arthrobacter" cmphy:species="crystallopoietes" cmphy:strain="DSM 2O117T" cmphy:id="X80738" editRecord="[]">Arthrobacter crystallopoietes DSM 2O117T (X80738)</otu>
+  <otu id="otu5">N. lacusekhoensis DSM 12544T (AJ290397)</otu>
+  <otu id="otu6">YIM 7oos4T (AY226508)</otu>
+  <otu id="otu7">YIM 7oo97T (AY226510)</otu>
+  <otu id="otu8"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="198.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="32.0" y="273.0"/>
+   <node id="NT1.9" label="NT1.9" x="178.0" y="309.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="187.0" y="212.0" otu="otu4"/>
+   <edge id="e.5" source="NT1.3" target="NT1.9"/>
+   <edge id="e.10" target="NT1.3" source="NT1.1"/>
+   <edge id="e.12" target="NT1.10" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

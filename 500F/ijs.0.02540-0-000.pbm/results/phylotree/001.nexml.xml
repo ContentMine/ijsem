@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Methylobacterium" cmphy:species="organophilum" cmphy:strain="JCM 2833T" cmphy:id="D32226" editRecord="[]">Methylobacterium organophilum JCM 2833T (D32226)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="thiooxidans" cmphy:strain="DSM 9653T" cmphy:id="AJZ50796" editRecord="[2__Z]">Bosea thiooxidans DSM 9653T (AJ250796)</otu>
+  <otu id="otu3" cmphy:genus="Nitrobacter" cmphy:species="hamburgensis" cmphy:strain="DSM 102297" cmphy:id="L11663" editRecord="[]">Nitrobacter hamburgensis DSM 102297 (L11663)</otu>
+  <otu id="otu4" cmphy:edit="[8__B]" cmphy:genus="Bradyrhizobium" cmphy:species="japonicum" cmphy:strain="DSM 3O131T" cmphy:id="B46916" editRecord="[8__B]">Bradyrhizobium japonicum DSM 3O131T (846916)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="minatitlanensis" cmphy:strain="DSM 130997" cmphy:id="AFZ73081" editRecord="[2__Z]">Bosea minatitlanensis DSM 130997 (AF273081)</otu>
+  <otu id="otu6" cmphy:genus="Afipia" cmphy:species="clevelandensis" cmphy:strain="DSM 73157" cmphy:id="M69186" editRecord="[]">Afipia clevelandensis DSM 73157 (M69186)</otu>
+  <otu id="otu7">Afipia broomeae</otu>
+  <otu id="otu8" cmphy:genus="Afipia" cmphy:species="felis" cmphy:strain="DSM 73267" cmphy:id="M65248" editRecord="[]">Afipia felis DSM 73267 (M65248)</otu>
+  <otu id="otu9" cmphy:genus="Blastobacter" cmphy:species="denitrificans" cmphy:strain="LMG 8443T" cmphy:id="X66025" editRecord="[]">Blastobacter denitrificans LMG 8443T (X66025)</otu>
+  <otu id="otu10" cmphy:genus="Nitrobacter" cmphy:species="hamburgensis" cmphy:strain="DSM 102297" cmphy:id="L11663" editRecord="[]">Nitrobacter hamburgensis DSM 102297 (L11663)</otu>
+  <otu id="otu11" cmphy:genus="Paracoccus" cmphy:species="denitrificans" cmphy:strain="DSM 413T" cmphy:id="Y17512" editRecord="[]">Paracoccus denitrificans DSM 413T (Y17512)</otu>
+  <otu id="otu12" cmphy:genus="Methylobacterium" cmphy:species="mesophilicum" cmphy:strain="JCM 2829T" cmphy:id="D32225" editRecord="[]">Methylobacterium mesophilicum JCM 2829T (D32225)</otu>
+  <otu id="otu13" cmphy:genus="Bradyrhizobium" cmphy:species="elkanii" cmphy:strain="DSM 115547" cmphy:id="U35000" editRecord="[]">Bradyrhizobium elkanii DSM 115547 (U35000)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="89.0" y="354.0"/>
+   <node id="NT1.2" label="NT1.2" x="189.0" y="443.0"/>
+   <node id="NT1.3" label="NT1.3" x="195.0" y="154.0"/>
+   <node id="NT1.4" label="NT1.4" x="214.0" y="354.0"/>
+   <node id="NT1.5" label="NT1.5" x="229.0" y="82.0"/>
+   <node id="NT1.7" label="NT1.7" x="236.0" y="110.0"/>
+   <node id="NT1.8" x="236.0" y="268.0" label="97"/>
+   <node id="NT1.9" label="NT1.9" x="238.0" y="36.0"/>
+   <node id="NT1.10" label="NT1.10" x="245.0" y="331.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="246.0" y="421.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="247.0" y="10.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="247.0" y="13.0"/>
+   <node id="NT1.14" label="NT1.14" x="250.0" y="149.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="252.0" y="467.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="255.0" y="287.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="267.0" y="239.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="271.0" y="103.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="280.0" y="13.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="283.0" y="513.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="299.0" y="376.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="314.0" y="57.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="6.0" y="499.0" root="true"/>
+   <edge id="e.0" source="NT1.13" target="NT1.12"/>
+   <edge id="e.1" source="NT1.13" target="NT1.20"/>
+   <edge id="e.2" source="NT1.7" target="NT1.19"/>
+   <edge id="e.4" source="NT1.8" target="NT1.16"/>
+   <edge id="e.5" source="NT1.8" target="NT1.18"/>
+   <edge id="e.6" source="NT1.2" target="NT1.11"/>
+   <edge id="e.7" source="NT1.9" target="NT1.13"/>
+   <edge id="e.8" source="NT1.5" target="NT1.9"/>
+   <edge id="e.9" source="NT1.3" target="NT1.5"/>
+   <edge id="e.10" source="NT1.5" target="NT1.7"/>
+   <edge id="e.12" source="NT1.1" target="NT1.3"/>
+   <edge id="e.13" target="NT1.8" source="NT1.3"/>
+   <edge id="e.14" source="NT1.1" target="NT1.2"/>
+   <edge id="e.15" source="NT1.1" target="NT1.4"/>
+   <edge id="e.16" source="NT1.4" target="NT1.10"/>
+   <edge id="e.17" source="NT1.24" target="NT1.1"/>
+   <edge id="e.18" source="NT1.24" target="NT1.21"/>
+   <edge id="e.19" source="NT1.2" target="NT1.15"/>
+   <edge id="e.20" source="NT1.7" target="NT1.14"/>
+   <edge id="e.21" source="NT1.4" target="NT1.22"/>
+   <edge id="e.22" source="NT1.9" target="NT1.23"/>
+  </tree>
+ </trees>
+</nexml>

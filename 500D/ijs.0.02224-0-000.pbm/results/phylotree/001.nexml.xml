@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Gordonia" cmphy:species="bronchialis" cmphy:strain="DSM 43247T" cmphy:id="X79287" editRecord="[]">Gordonia bronchialis DSM 43247T (X79287)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Gordonia" cmphy:species="rubriperfincta" cmphy:strain="DSM 43197T" cmphy:id="X80632" editRecord="[]">Gordonia rubriperfincta DSM 43197T (X80632)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Gordonia" cmphy:species="desulfuricans" cmphy:strain="DSM 44462" cmphy:id="AFI01416" editRecord="[1__I]">Gordonia desulfuricans DSM 44462 (AF101416)</otu>
+  <otu id="otu6" cmphy:genus="Gordonia" cmphy:species="rhizosphera" cmphy:strain="NBRC 16068T" cmphy:id="ABO04729" editRecord="[]">Gordonia rhizosphera NBRC 16068T (ABO04729)</otu>
+  <otu id="otu7" cmphy:genus="Gordonia" cmphy:species="polyisoprenivorans" cmphy:strain="DSM 44302T" cmphy:id="Y18310" editRecord="[]">Gordonia polyisoprenivorans DSM 44302T (Y18310)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Gordonia" cmphy:species="westfalica" cmphy:strain="DSM 44215T" cmphy:id="AJB12907" editRecord="[3__B]">Gordonia westfalica DSM 44215T (AJ312907)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Gordonia" cmphy:species="nitida" cmphy:strain="DSM 444997" cmphy:id="AFI48947" editRecord="[1__I]">Gordonia nitida DSM 444997 (AF148947)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Gordonia" cmphy:species="amicalis" cmphy:strain="DSM 44461T" cmphy:id="AFI01418" editRecord="[1__I]">Gordonia amicalis DSM 44461T (AF101418)</otu>
+  <otu id="otu11" cmphy:genus="Gordonia" cmphy:species="alkanivorans" cmphy:strain="DSM 44369" cmphy:id="Y18054" editRecord="[]">Gordonia alkanivorans DSM 44369 (Y18054)</otu>
+  <otu id="otu12" cmphy:genus="Gordonia" cmphy:species="amarae" cmphy:strain="DSM 433927" cmphy:id="X80635" editRecord="[]">Gordonia amarae DSM 433927 (X80635)</otu>
+  <otu id="otu13" cmphy:genus="Gordonia" cmphy:species="aichiensis" cmphy:strain="DSM 43978T" cmphy:id="X80633" editRecord="[]">Gordonia aichiensis DSM 43978T (X80633)</otu>
+  <otu id="otu14" cmphy:genus="Gordonia" cmphy:species="aichiensis" cmphy:strain="DSM 43978T" cmphy:id="X80633" editRecord="[]">Gordonia aichiensis DSM 43978T (X80633)</otu>
+  <otu id="otu15" cmphy:genus="Gordonia" cmphy:species="sihwensis" cmphy:strain="SPR2T" cmphy:id="AJ416151" editRecord="[]">Gordonia sihwensis SPR2T (AJ416151)</otu>
+  <otu id="otu16" cmphy:genus="Gordonia" cmphy:species="hydrophobica" cmphy:strain="DSM 44O15T" cmphy:id="X87340" editRecord="[]">Gordonia hydrophobica DSM 44O15T (X87340)</otu>
+  <otu id="otu17" cmphy:genus="Gordonia" cmphy:species="hirsuta" cmphy:strain="DSM 44140T" cmphy:id="X93485" editRecord="[]">Gordonia hirsuta DSM 44140T (X93485)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="747.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="30.0" y="719.0"/>
+   <node id="NT1.4" label="NT1.4" x="58.0" y="878.0"/>
+   <node id="NT1.5" label="NT1.5" x="61.0" y="438.0"/>
+   <node id="NT1.6" label="NT1.6" x="78.0" y="594.0"/>
+   <node id="NT1.7" label="NT1.7" x="81.0" y="369.0"/>
+   <node id="NT1.8" label="NT1.8" x="81.0" y="787.0"/>
+   <node id="NT1.9" label="NT1.9" x="96.0" y="266.0"/>
+   <node id="NT1.10" label="NT1.10" x="107.0" y="751.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="120.0" y="256.0"/>
+   <node id="NT1.13" label="NT1.13" x="135.0" y="463.0"/>
+   <node id="NT1.14" label="NT1.14" x="139.0" y="191.0"/>
+   <node id="NT1.15" label="NT1.15" x="165.0" y="234.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="168.0" y="370.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="176.0" y="819.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="182.0" y="111.0"/>
+   <node id="NT1.19" label="NT1.19" x="184.0" y="886.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="186.0" y="28.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="193.0" y="167.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="198.0" y="298.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="207.0" y="97.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="212.0" y="557.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="236.0" y="950.0" otu="otu13"/>
+   <node id="NT1.26" x="236.0" y="953.0" label="100"/>
+   <node id="NT1.27" label="NT1.27" x="243.0" y="953.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="246.0" y="438.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="247.0" y="507.0" otu="otu16"/>
+   <node id="NT1.30" label="NT1.30" x="356.0" y="623.0" otu="otu17"/>
+   <edge id="e.0" source="NT1.18" target="NT1.21"/>
+   <edge id="e.1" source="NT1.18" target="NT1.23"/>
+   <edge id="e.2" source="NT1.14" target="NT1.15"/>
+   <edge id="e.3" source="NT1.13" target="NT1.28"/>
+   <edge id="e.4" source="NT1.13" target="NT1.29"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" source="NT1.4" target="NT1.19"/>
+   <edge id="e.7" source="NT1.26" target="NT1.25"/>
+   <edge id="e.8" source="NT1.26" target="NT1.27"/>
+   <edge id="e.9" source="NT1.18" target="NT1.20"/>
+   <edge id="e.10" source="NT1.14" target="NT1.18"/>
+   <edge id="e.11" source="NT1.12" target="NT1.14"/>
+   <edge id="e.12" source="NT1.9" target="NT1.12"/>
+   <edge id="e.13" source="NT1.7" target="NT1.9"/>
+   <edge id="e.14" source="NT1.5" target="NT1.7"/>
+   <edge id="e.15" source="NT1.7" target="NT1.13"/>
+   <edge id="e.16" target="NT1.5" source="NT1.2"/>
+   <edge id="e.17" source="NT1.5" target="NT1.6"/>
+   <edge id="e.20" source="NT1.2" target="NT1.4"/>
+   <edge id="e.21" source="NT1.4" target="NT1.8"/>
+   <edge id="e.22" source="NT1.8" target="NT1.10"/>
+   <edge id="e.23" source="NT1.8" target="NT1.17"/>
+   <edge id="e.24" source="NT1.9" target="NT1.16"/>
+   <edge id="e.25" source="NT1.12" target="NT1.22"/>
+   <edge id="e.26" source="NT1.6" target="NT1.30"/>
+   <edge id="e.27" source="NT1.4" target="NT1.26"/>
+   <edge id="e.28" source="NT1.6" target="NT1.24"/>
+  </tree>
+ </trees>
+</nexml>

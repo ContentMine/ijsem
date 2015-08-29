@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Variovorax soli KACC 1 1579T (DQ432053)</otu>
+  <otu id="otu3">Strain 55165-27 (EF660342)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Xylophilus" cmphy:species="ampelinus" cmphy:strain="DSM 7250T" cmphy:id="AJ420330" editRecord="[]">Xylophilus ampelinus DSM 7250T (AJ420330)</otu>
+  <otu id="otu6">Variovorax dokdonensis DS-43T (DQ1 78978)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Hydrogenophaga" cmphy:species="caeni" cmphy:strain="EMB71T" cmphy:id="DQB72983" editRecord="[3__B]"> Hydrogenophaga caeni EMB71T (DQ372983)</otu>
+  <otu id="otu11">Rhodoferax fermentans FR2T (D1621 1)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"> Acidovorax facilis CCUG 21 13T(AF078765)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Hydrogenophaga" cmphy:species="flava" cmphy:strain="CCUG 1658T" cmphy:id="AFO78771" editRecord="[]">Hydrogenophaga flava CCUG 1658T (AFO78771)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="623.0" otu="otu1" root="true"/>
+   <node id="NT1.4" x="117.0" y="346.0" label="50"/>
+   <node id="NT1.11" x="281.0" y="430.0" label="74"/>
+   <node id="NT1.17" label="NT1.17" x="446.0" y="258.0" otu="otu5"/>
+   <node id="NT1.23" label="NT1.23" x="639.0" y="406.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="823.0" y="455.0" otu="otu15"/>
+   <edge id="e.3" target="NT1.17" source="NT1.4"/>
+   <edge id="e.10" source="NT1.11" target="NT1.23"/>
+   <edge id="e.13" source="NT1.11" target="NT1.28"/>
+   <edge id="e.22" target="NT1.4" source="NT1.1"/>
+   <edge id="e.23" source="NT1.4" target="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

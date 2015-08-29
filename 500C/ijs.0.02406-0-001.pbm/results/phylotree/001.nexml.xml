@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Oceanobacter krisgii NBRC 1 54677 (AB006767)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Oceanaspirlllum linum ATCC 1 13367 (M22365)</otu>
+  <otu id="otu6">'Marinobacter lutaoensis' CCRC 17087 (AF2se15w</otu>
+  <otu id="otu7">Oceanaspirlllum linum ATCC 1 13367 (M22365)</otu>
+  <otu id="otu8">Thiomicrospir.5 thyasirae DSM 531227 (AF016046)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Oceanaspirilfum" cmphy:species="belierinckii" cmphy:strain="NBRC 15445T" cmphy:id="ABO06760" editRecord="[0__O]">Oceanaspirilfum belierinckii NBRC 15445T (AB006760)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Marinobacrerfum" cmphy:species="jannaschll" cmphy:strain="NBRC 154667" cmphy:id="ABO06765" editRecord="[0__O]">Marinobacrerfum jannaschll NBRC 154667 (AB006765)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Oceanaspirillum maris ATCC 275097 (ABOOES771)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Ooeanospirillum" cmphy:species="multiglobuliferum" cmphy:strain="NBRC 136147" cmphy:id="ABO06764" editRecord="[0__O]">Ooeanospirillum multiglobuliferum NBRC 136147 (AB006764)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Marinaspirillum" cmphy:species="minululum" cmphy:strain="ATCC 191937" cmphy:id="ABO06769" editRecord="[0__O]">Marinaspirillum minululum ATCC 191937 (AB006769)</otu>
+  <otu id="otu16">Saccharospirillum impatiens EL-1057 (AJa1s9aa)</otu>
+  <otu id="otu17">Carnimonas nigrificans CTCBS1T M3299)</otu>
+  <otu id="otu18">Thiamicrospira crunogena ATCC 359327 (AFOG9959)</otu>
+  <otu id="otu19">Fundibacterjadensis DSM 12178T (AJOO1150)</otu>
+  <otu id="otu20" cmphy:genus="Zymobacter" cmphy:species="palmae" cmphy:strain="ATCC 516237" cmphy:id="D14555" editRecord="[]">Zymobacter palmae ATCC 516237 (D14555)</otu>
+  <otu id="otu21">Chromahalobacter marismorfui ATCC 1 7056T (X57219)</otu>
+  <otu id="otu22">Pssudospirillum japonicum ATCC 1 9191 T (AB006766)</otu>
+  <otu id="otu23" cmphy:edit="[0__O]" cmphy:genus="Terasakiella" cmphy:species="pusilla" cmphy:strain="NBRC 136137" cmphy:id="ABO06768" editRecord="[0__O]">Terasakiella pusilla NBRC 136137 (AB006768)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="76.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="6.0" y="76.0"/>
+   <node id="NT1.4" x="115.0" y="307.0" label="97"/>
+   <node id="NT1.7" label="NT1.7" x="166.0" y="632.0"/>
+   <node id="NT1.13" label="NT1.13" x="317.0" y="690.0"/>
+   <node id="NT1.14" x="339.0" y="333.0" label="we"/>
+   <node id="NT1.30" label="NT1.30" x="468.0" y="339.0" otu="otu9"/>
+   <node id="NT1.31" label="NT1.31" x="473.0" y="154.0" otu="otu10"/>
+   <node id="NT1.34" label="NT1.34" x="484.0" y="293.0" otu="otu13"/>
+   <node id="NT1.36" label="NT1.36" x="502.0" y="664.0" otu="otu15"/>
+   <node id="NT1.41" label="NT1.41" x="543.0" y="759.0" otu="otu20"/>
+   <node id="NT1.44" label="NT1.44" x="674.0" y="16.0" otu="otu23"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" target="NT1.30" source="NT1.14"/>
+   <edge id="e.8" target="NT1.4" source="NT1.2"/>
+   <edge id="e.12" target="NT1.7" source="NT1.4"/>
+   <edge id="e.13" source="NT1.7" target="NT1.13"/>
+   <edge id="e.19" target="NT1.14" source="NT1.7"/>
+   <edge id="e.34" target="NT1.31" source="NT1.4"/>
+   <edge id="e.38" source="NT1.14" target="NT1.34"/>
+   <edge id="e.40" source="NT1.13" target="NT1.36"/>
+   <edge id="e.41" target="NT1.41" source="NT1.13"/>
+   <edge id="e.42" source="NT1.2" target="NT1.44"/>
+  </tree>
+ </trees>
+</nexml>

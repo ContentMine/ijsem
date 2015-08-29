@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Ochrobactrum anthropi ATCC 49188T (YP_001370490)</otu>
+  <otu id="otu2">Bartonella henselae Houston-1T (YP_033437)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Mesorhizobium" cmphy:species="loti" cmphy:strain="MAFF303099" cmphy:id="NP_102108" editRecord="[]">Mesorhizobium loti MAFF303099 (NP_102108)</otu>
+  <otu id="otu5">Bradyrhizobium japonicum USDA 1 10 (NP_772052.2)</otu>
+  <otu id="otu6">1Ca.</otu>
+  <otu id="otu7">1Ca.</otu>
+  <otu id="otu8">1Ca.</otu>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">1Ca. L. asiaticus' (Guangdong) (AAZ81564)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Rhizobium etli CFN 427 (YP_469187)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">1Ca. L. americanus' S50 Paulo (ABO40218)</otu>
+  <otu id="otu16">Sinorhizobium meliloti 1021</otu>
+  <otu id="otu17" cmphy:genus="Agrobacterium" cmphy:species="tumefaciens" cmphy:strain="C58" cmphy:id="NP_354933" editRecord="[]">Agrobacterium tumefaciens C58 (NP_354933)</otu>
+  <otu id="otu18">Ce. L. solanacearum1 NZ082226 (ACF39952)</otu>
+  <otu id="otu19">Caulobacter sp. K31 (YP_O01682418)</otu>
+  <otu id="otu20">Escherichia coIiK-12 W31 10 (AP_O03834)</otu>
+  <otu id="otu21">Rickettsia massiliae MTU5 (YP_001499028)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.8" label="NT1.8" x="213.0" y="629.0"/>
+   <node id="NT1.14" label="NT1.14" x="265.0" y="670.0" otu="otu4"/>
+   <node id="NT1.34" label="NT1.34" x="319.0" y="529.0" otu="otu17"/>
+   <node id="NT1.39" label="NT1.39" x="2.0" y="599.0" root="true"/>
+   <edge id="e.10" source="NT1.8" target="NT1.14"/>
+   <edge id="e.13" target="NT1.34" source="NT1.8"/>
+   <edge id="e.29" target="NT1.8" source="NT1.39"/>
+  </tree>
+ </trees>
+</nexml>

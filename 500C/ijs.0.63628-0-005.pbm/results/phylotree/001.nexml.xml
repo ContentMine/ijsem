@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">(Sorangium celIulosum' ATCC 25531 (M94282)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Chondromyces" cmphy:species="pediculatus" cmphy:strain="Cm p17" cmphy:id="AJZ33940" editRecord="[2__Z]"> Chondromyces pediculatus Cm p17 (AJ233940)</otu>
+  <otu id="otu4" cmphy:genus="Chondromyces" cmphy:species="apiculatus" cmphy:strain="Cm a2" cmphy:id="M94274" editRecord="[]"> Chondromyces apiculatus Cm a2 (M94274)</otu>
+  <otu id="otu5"> (Polyangium thaxterf PI t3 (AJ233943)</otu>
+  <otu id="otu6" cmphy:genus="Byssovorax" cmphy:species="cruenta" cmphy:strain="DSM 145537" cmphy:id="AJB33647" editRecord="[]"> Byssovorax cruenta DSM 145537 (AJB33647)</otu>
+  <otu id="otu7" cmphy:genus="Chondromyces" cmphy:species="crocatus" cmphy:strain="Cm c6" cmphy:id="M94275" editRecord="[]">Chondromyces crocatus Cm c6 (M94275)</otu>
+  <otu id="otu8">Polyangium sp. PI 4943 (M942805)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">Isolate NOSO-1 (AJ233948)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Polyangium" cmphy:species="vitellinum" cmphy:strain="PI vt1" cmphy:id="AJZ33944" editRecord="[2__Z]">Polyangium vitellinum PI vt1 (AJ233944)</otu>
+  <otu id="otu12">(Chondromyces robustus( Cm a14 (AJ233938)</otu>
+  <otu id="otu13">(Chondromyces robustus( Cm a22 (AJ233941)</otu>
+  <otu id="otu14">(Chondromyces robustus( Cm a13 (AJ233942)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Nannocystis" cmphy:species="exedens" cmphy:strain="Na e571" cmphy:id="AJZ33947" editRecord="[2__Z]">Nannocystis exedens Na e571 (AJ233947)</otu>
+  <otu id="otu16">(Nannocystis aggregans' Na a1 (AJ233945)</otu>
+  <otu id="otu17" cmphy:genus="Nannocystis" cmphy:species="exedens" cmphy:strain="ATCC 25963T" cmphy:id="M25963" editRecord="[]">Nannocystis exedens ATCC 25963T (M25963)</otu>
+  <otu id="otu18"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="11.0" y="210.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="31.0" y="210.0"/>
+   <node id="NT1.3" x="99.0" y="116.0" label="77"/>
+   <node id="NT1.5" x="222.0" y="386.0" label="63"/>
+   <node id="NT1.8" x="256.0" y="461.0" label="97"/>
+   <node id="NT1.10" label="NT1.10" x="260.0" y="522.0"/>
+   <node id="NT1.13" label="NT1.13" x="295.0" y="421.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="299.0" y="546.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="308.0" y="257.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="314.0" y="463.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="321.0" y="175.0" otu="otu11"/>
+   <node id="NT1.28" x="371.0" y="103.0" label="84"/>
+   <node id="NT1.29" label="NT1.29" x="375.0" y="135.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="383.0" y="91.0" otu="otu17"/>
+   <edge id="e.0" source="NT1.28" target="NT1.29"/>
+   <edge id="e.1" target="NT1.32" source="NT1.28"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.3" target="NT1.22"/>
+   <edge id="e.5" target="NT1.13" source="NT1.8"/>
+   <edge id="e.9" source="NT1.10" target="NT1.18"/>
+   <edge id="e.12" target="NT1.28" source="NT1.3"/>
+   <edge id="e.14" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" target="NT1.5" source="NT1.2"/>
+   <edge id="e.17" source="NT1.5" target="NT1.8"/>
+   <edge id="e.24" target="NT1.17" source="NT1.5"/>
+   <edge id="e.25" source="NT1.8" target="NT1.10"/>
+   <edge id="e.26" target="NT1.14" source="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

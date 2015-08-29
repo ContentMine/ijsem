@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Pandoraea apista LMG 16407T(AF139173)</otu>
+  <otu id="otu2">Ralstonia pickettii ATCC 27511T(AY741342)</otu>
+  <otu id="otu3" cmphy:genus="Propionivibrio" cmphy:species="dicarboxylicus" cmphy:strain="DSM 5885T" cmphy:id="Y17601" editRecord="[]">Propionivibrio dicarboxylicus DSM 5885T (Y17601)</otu>
+  <otu id="otu4">Thiobacter subterraneus C557 (AB 1 80657)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Sterolibacterium" cmphy:species="denitrificans" cmphy:strain="Chol-1ST" cmphy:id="AJB06683" editRecord="[3__B]">Sterolibacterium denitrificans Chol-1ST (AJ306683)</otu>
+  <otu id="otu6" cmphy:genus="Rhodocyclus" cmphy:species="purpureus" cmphy:strain="6770" cmphy:id="M34132" editRecord="[]">Rhodocyclus purpureus 6770 (M34132)</otu>
+  <otu id="otu7">Strain R2A43-107 (DQ256728)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Escherichia coli (J01695)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="281.0" y="148.0"/>
+   <node id="NT1.6" label="NT1.6" x="378.0" y="125.0"/>
+   <node id="NT1.10" label="NT1.10" x="528.0" y="103.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="536.0" y="192.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="565.0" y="148.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="3.0" y="298.0" root="true"/>
+   <edge id="e.2" source="NT1.6" target="NT1.13"/>
+   <edge id="e.3" target="NT1.12" source="NT1.2"/>
+   <edge id="e.7" target="NT1.6" source="NT1.2"/>
+   <edge id="e.8" target="NT1.2" source="NT1.17"/>
+   <edge id="e.15" source="NT1.6" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

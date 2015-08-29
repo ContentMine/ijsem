@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Natronolimnobius" cmphy:species="innermongolicus" cmphy:strain="N-131 1T" cmphy:id="ABI25108" editRecord="[1__I]">Natronolimnobius innermongolicus N-131 1T (AB125108)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Haloterrigena" cmphy:species="thennotolerans" cmphy:strain="PR5T" cmphy:id="AFI15478" editRecord="[1__I]"> Haloterrigena thennotolerans PR5T (AF115478)</otu>
+  <otu id="otu4"> Natronolimnobius baemuensis IHC-005T (AB1251 06)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Haloterrigena" cmphy:species="turkmenica" cmphy:strain="VKM B-17347" cmphy:id="ABO04878" editRecord="[O__0]">Haloterrigena turkmenica VKM B-17347 (ABOO4878)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Natrialba" cmphy:species="hulunbeirensis" cmphy:strain="AS 1.19867" cmphy:id="AFZ62026" editRecord="[2__Z]"> Natrialba hulunbeirensis AS 1.19867 (AF262026)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Natrinema pellirubrum NCIMB 786T (AJOOZQ47)</otu>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Haloterrigena" cmphy:species="saccharevitans" cmphy:strain="AB14T" cmphy:id="AYB20137" editRecord="[8__B]"> Haloterrigena saccharevitans AB14T (AY820137)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Natronorubrum" cmphy:species="tibetense" cmphy:strain="GA33T" cmphy:id="ABO05656" editRecord="[0__O]">Natronorubrum tibetense GA33T (AB005656)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Natrialba" cmphy:species="aegyptiaca" cmphy:strain="407" cmphy:id="AFZ51941" editRecord="[2__Z]"> Natrialba aegyptiaca 407 (AF251941)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Natrialba" cmphy:species="magadii" cmphy:strain="NCIMB 2190T" cmphy:id="X72495" editRecord="[]">Natrialba magadii NCIMB 2190T (X72495)</otu>
+  <otu id="otu18">Strain ABH32T (DQ367242)</otu>
+  <otu id="otu19" cmphy:genus="Methanospirillum" cmphy:species="hungatei" cmphy:strain="DSM 8647" cmphy:id="M60880" editRecord="[]">Methanospirillum hungatei DSM 8647 (M60880)</otu>
+  <otu id="otu20" cmphy:genus="Natrialba" cmphy:species="asiatica" cmphy:strain="172P1T" cmphy:id="D14123" editRecord="[]"> Natrialba asiatica 172P1T (D14123)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="493.0" y="578.0"/>
+   <node id="NT1.2" x="523.0" y="402.0" label="74"/>
+   <node id="NT1.4" label="NT1.4" x="530.0" y="499.0"/>
+   <node id="NT1.6" label="NT1.6" x="544.0" y="258.0"/>
+   <node id="NT1.9" x="566.0" y="584.0" label="74"/>
+   <node id="NT1.11" label="NT1.11" x="599.0" y="735.0" otu="otu1"/>
+   <node id="NT1.12" x="603.0" y="201.0" label="99"/>
+   <node id="NT1.14" label="NT1.14" x="608.0" y="638.0"/>
+   <node id="NT1.18" label="NT1.18" x="623.0" y="223.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="635.0" y="309.0" otu="otu5"/>
+   <node id="NT1.22" label="NT1.22" x="644.0" y="693.0" otu="otu6"/>
+   <node id="NT1.25" label="NT1.25" x="652.0" y="180.0" otu="otu9"/>
+   <node id="NT1.28" label="NT1.28" x="654.0" y="437.0" otu="otu12"/>
+   <node id="NT1.29" label="NT1.29" x="662.0" y="532.0"/>
+   <node id="NT1.32" label="NT1.32" x="671.0" y="564.0" otu="otu14"/>
+   <node id="NT1.35" label="NT1.35" x="700.0" y="607.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="712.0" y="822.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="713.0" y="479.0" otu="otu20"/>
+   <node id="NT1.39" label="NT1.39" x="3.0" y="699.0" root="true"/>
+   <edge id="e.4" source="NT1.12" target="NT1.18"/>
+   <edge id="e.5" source="NT1.12" target="NT1.25"/>
+   <edge id="e.6" source="NT1.6" target="NT1.20"/>
+   <edge id="e.9" target="NT1.28" source="NT1.4"/>
+   <edge id="e.11" target="NT1.22" source="NT1.14"/>
+   <edge id="e.12" source="NT1.29" target="NT1.32"/>
+   <edge id="e.14" source="NT1.14" target="NT1.35"/>
+   <edge id="e.16" target="NT1.38" source="NT1.29"/>
+   <edge id="e.17" target="NT1.11" source="NT1.1"/>
+   <edge id="e.22" target="NT1.12" source="NT1.6"/>
+   <edge id="e.24" target="NT1.6" source="NT1.2"/>
+   <edge id="e.26" source="NT1.2" target="NT1.4"/>
+   <edge id="e.27" source="NT1.4" target="NT1.9"/>
+   <edge id="e.30" source="NT1.9" target="NT1.14"/>
+   <edge id="e.31" source="NT1.9" target="NT1.29"/>
+   <edge id="e.34" source="NT1.39" target="NT1.37"/>
+   <edge id="e.35" source="NT1.39" target="NT1.1"/>
+   <edge id="e.36" source="NT1.1" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

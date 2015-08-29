@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Alishewanella" cmphy:species="fetalis" cmphy:strain="CCUG 308111" cmphy:id="AFI44407" editRecord="[1__I]"> Alishewanella fetalis CCUG 308111 (AF144407)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Thiocapsa" cmphy:species="rosea" cmphy:strain="DSM 2357" cmphy:id="AJO02798" editRecord="[]">Thiocapsa rosea DSM 2357 (AJO02798)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[O__0]" cmphy:genus="Thiocapsa" cmphy:species="pendens" cmphy:strain="DSM 2367" cmphy:id="AJO02797" editRecord="[O__0]">Thiocapsa pendens DSM 2367 (AJOO2797)</otu>
+  <otu id="otu8" cmphy:genus="Rheinheimera" cmphy:species="baltica" cmphy:strain="OSBAC5" cmphy:id="AJ441082" editRecord="[]">Rheinheimera baltica OSBAC5 (AJ441082)</otu>
+  <otu id="otu9" cmphy:genus="Rheinheimera" cmphy:species="baltica" cmphy:strain="OSBAC1T" cmphy:id="AJ441080" editRecord="[]">Rheinheimera baltica OSBAC1T (AJ441080)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Serratia" cmphy:species="entomophila" cmphy:strain="DSM 123587" cmphy:id="AJZ33427" editRecord="[2__Z]">Serratia entomophila DSM 123587 (AJ233427)</otu>
+  <otu id="otu11"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="145.0" y="413.0"/>
+   <node id="NT1.3" label="NT1.3" x="232.0" y="589.0"/>
+   <node id="NT1.5" label="NT1.5" x="238.0" y="222.0"/>
+   <node id="NT1.10" label="NT1.10" x="296.0" y="340.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="318.0" y="616.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="332.0" y="561.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="335.0" y="217.0"/>
+   <node id="NT1.17" label="NT1.17" x="337.0" y="285.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="338.0" y="176.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="347.0" y="506.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="2.0" y="501.0" root="true"/>
+   <edge id="e.1" source="NT1.16" target="NT1.18"/>
+   <edge id="e.2" source="NT1.5" target="NT1.10"/>
+   <edge id="e.5" source="NT1.1" target="NT1.19"/>
+   <edge id="e.6" source="NT1.3" target="NT1.13"/>
+   <edge id="e.7" source="NT1.3" target="NT1.15"/>
+   <edge id="e.11" target="NT1.16" source="NT1.5"/>
+   <edge id="e.12" target="NT1.5" source="NT1.1"/>
+   <edge id="e.15" source="NT1.21" target="NT1.1"/>
+   <edge id="e.16" source="NT1.21" target="NT1.3"/>
+   <edge id="e.19" source="NT1.16" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

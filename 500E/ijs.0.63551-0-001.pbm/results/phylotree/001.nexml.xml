@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Phyllobacterium" cmphy:species="myrsinaceamm" cmphy:strain="IAM 13584T" cmphy:id="D12789" editRecord="[]"> Phyllobacterium myrsinaceamm IAM 13584T (D12789)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Mesorhizobium" cmphy:species="tianshanense" cmphy:strain="A-1BST" cmphy:id="AFO41447" editRecord="[0__O]">Mesorhizobium tianshanense A-1BST (AF041447)</otu>
+  <otu id="otu4">Aminobacter aminovorans DSM 7048T (AJO1 1759)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Aminobacter" cmphy:species="aganoensis" cmphy:strain="DSM 70517" cmphy:id="AJO11760" editRecord="[0__O]">Aminobacter aganoensis DSM 70517 (AJ011760)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Mesorhizobium" cmphy:species="mediterraneum" cmphy:strain="UPM-Ca36T" cmphy:id="L38825" editRecord="[]"> Mesorhizobium mediterraneum UPM-Ca36T (L38825)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Mesorhizobium" cmphy:species="plurifarium" cmphy:strain="LMG 11892T" cmphy:id="Y14158" editRecord="[]"> Mesorhizobium plurifarium LMG 11892T (Y14158)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Pseudaminobacter" cmphy:species="salicylatoxidans" cmphy:strain="DSM 6986T" cmphy:id="AFO72542" editRecord="[0__O]">Pseudaminobacter salicylatoxidans DSM 6986T (AF072542)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18">Rhizobium Ieguminosarum ATCC 100O4T (U29386)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="79.0" y="456.0"/>
+   <node id="NT1.2" label="NT1.2" x="102.0" y="358.0"/>
+   <node id="NT1.3" label="NT1.3" x="153.0" y="264.0"/>
+   <node id="NT1.10" x="340.0" y="96.0" label="96"/>
+   <node id="NT1.11" x="356.0" y="135.0" label="87"/>
+   <node id="NT1.14" label="NT1.14" x="377.0" y="536.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="382.0" y="153.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="399.0" y="327.0" otu="otu7"/>
+   <node id="NT1.23" label="NT1.23" x="408.0" y="117.0" otu="otu9"/>
+   <node id="NT1.29" label="NT1.29" x="474.0" y="47.0" otu="otu13"/>
+   <node id="NT1.30" label="NT1.30" x="508.0" y="432.0" otu="otu14"/>
+   <node id="NT1.35" label="NT1.35" x="5.0" y="552.0" root="true"/>
+   <edge id="e.2" target="NT1.29" source="NT1.10"/>
+   <edge id="e.3" source="NT1.11" target="NT1.15"/>
+   <edge id="e.4" source="NT1.11" target="NT1.23"/>
+   <edge id="e.8" target="NT1.20" source="NT1.3"/>
+   <edge id="e.11" target="NT1.14" source="NT1.1"/>
+   <edge id="e.12" target="NT1.30" source="NT1.2"/>
+   <edge id="e.21" source="NT1.2" target="NT1.3"/>
+   <edge id="e.22" source="NT1.1" target="NT1.2"/>
+   <edge id="e.29" source="NT1.35" target="NT1.1"/>
+   <edge id="e.32" target="NT1.10" source="NT1.3"/>
+   <edge id="e.33" source="NT1.10" target="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

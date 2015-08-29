@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Candida santjacobensis NRRL Y-176677(U45811)</otu>
+  <otu id="otu2" cmphy:genus="Candida" cmphy:species="lignohabitans" cmphy:strain="NRRL YB-14737" cmphy:id="DQ438198" editRecord="[]">Candida lignohabitans NRRL YB-14737 (DQ438198)</otu>
+  <otu id="otu3" cmphy:genus="Candida" cmphy:species="transvaalensis" cmphy:strain="NRRL Ya2714O7" cmphy:id="DQ442702" editRecord="[]">Candida transvaalensis NRRL Ya2714O7 (DQ442702)</otu>
+  <otu id="otu4">Candida Sp. NCAIM Y.01937 (GQ340914)</otu>
+  <otu id="otu5" cmphy:genus="Candida" cmphy:species="novakii" cmphy:strain="NRRL Y-273467" cmphy:id="DQ438196" editRecord="[]">Candida novakii NRRL Y-273467 (DQ438196)</otu>
+  <otu id="otu6">Candida Sp. NCAIM Y.01936 (GO340912)</otu>
+  <otu id="otu7">Candida Sp. GY44SO2 (FJ527143)</otu>
+  <otu id="otu8">Candida sp. GA1SO4 (FJ527142)</otu>
+  <otu id="otu9" cmphy:genus="Candida" cmphy:species="valdiviana" cmphy:strain="NRRL Y-77917" cmphy:id="U45835" editRecord="[]">Candida valdiviana NRRL Y-77917 (U45835)</otu>
+  <otu id="otu10">Sugiyamaella chiloensis NRRL Y-176467(DQ911433)</otu>
+  <otu id="otu11" cmphy:genus="Wickernarnieila" cmphy:species="dornercqiae" cmphy:strain="NRRL Y-66927" cmphy:id="DQ438240" editRecord="[]">Wickernarnieila dornercqiae NRRL Y-66927 (DQ438240)</otu>
+  <otu id="otu12" cmphy:genus="Trichomonascus" cmphy:species="petasosporus" cmphy:strain="NRRL YB-20927" cmphy:id="DQ442691" editRecord="[]">Trichomonascus petasosporus NRRL YB-20927 (DQ442691)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Spencermarrinsiella" cmphy:species="europaea" cmphy:strain="NCAIM Y.018177" cmphy:id="GQZ65922" editRecord="[2__Z]">Spencermarrinsiella europaea NCAIM Y.018177 (GQ265922)</otu>
+  <otu id="otu14">Candida sp. KBP 8878 (FN659776)</otu>
+  <otu id="otu15">Candida sp. NCAIM Y.O1957 (GU195663)</otu>
+  <otu id="otu16" cmphy:edit="[1__I]" cmphy:genus="Candida" cmphy:species="cellulosicola" cmphy:strain="HNX16-27" cmphy:id="HMI51014" editRecord="[1__I]">Candida cellulosicola HNX16-27 (HM151014)</otu>
+  <otu id="otu17">Candida sp. FGSFEP (EU563853)</otu>
+  <otu id="otu18">Sugiyamaella smithiae NRRL Y-1785O7(DQ438218)</otu>
+  <otu id="otu19" cmphy:genus="Candida" cmphy:species="tepae" cmphy:strain="NRRL Y-176707" cmphy:id="DQ442704" editRecord="[]">Candida tepae NRRL Y-176707 (DQ442704)</otu>
+  <otu id="otu20" cmphy:genus="Candida" cmphy:species="petronuensis" cmphy:strain="NRRL Y-176637" cmphy:id="DQ442703" editRecord="[]">Candida petronuensis NRRL Y-176637 (DQ442703)</otu>
+  <otu id="otu21">Blastobotrys nivea NRRL Ya1 75817 (DQ442690)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="344.0" y="664.0"/>
+   <node id="NT1.2" label="NT1.2" x="427.0" y="529.0"/>
+   <node id="NT1.3" label="NT1.3" x="432.0" y="376.0"/>
+   <node id="NT1.4" label="NT1.4" x="479.0" y="456.0"/>
+   <node id="NT1.5" label="NT1.5" x="498.0" y="680.0"/>
+   <node id="NT1.10" label="NT1.10" x="625.0" y="585.0"/>
+   <node id="NT1.13" label="NT1.13" x="680.0" y="607.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="683.0" y="435.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="730.0" y="95.0"/>
+   <node id="NT1.20" label="NT1.20" x="740.0" y="563.0" otu="otu5"/>
+   <node id="NT1.25" label="NT1.25" x="782.0" y="734.0" otu="otu9"/>
+   <node id="NT1.28" label="NT1.28" x="809.0" y="863.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="812.0" y="778.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="835.0" y="49.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="850.0" y="136.0" otu="otu16"/>
+   <node id="NT1.37" label="NT1.37" x="914.0" y="498.0"/>
+   <node id="NT1.38" label="NT1.38" x="941.0" y="520.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="957.0" y="478.0" otu="otu20"/>
+   <node id="NT1.41" label="NT1.41" x="3.0" y="763.0" root="true"/>
+   <edge id="e.1" target="NT1.30" source="NT1.17"/>
+   <edge id="e.3" source="NT1.17" target="NT1.34"/>
+   <edge id="e.9" target="NT1.14" source="NT1.4"/>
+   <edge id="e.10" source="NT1.37" target="NT1.38"/>
+   <edge id="e.11" source="NT1.37" target="NT1.39"/>
+   <edge id="e.12" source="NT1.10" target="NT1.13"/>
+   <edge id="e.13" source="NT1.5" target="NT1.25"/>
+   <edge id="e.14" source="NT1.10" target="NT1.20"/>
+   <edge id="e.16" target="NT1.29" source="NT1.1"/>
+   <edge id="e.20" target="NT1.17" source="NT1.3"/>
+   <edge id="e.26" source="NT1.2" target="NT1.3"/>
+   <edge id="e.27" source="NT1.3" target="NT1.4"/>
+   <edge id="e.28" source="NT1.4" target="NT1.37"/>
+   <edge id="e.30" source="NT1.1" target="NT1.2"/>
+   <edge id="e.31" source="NT1.2" target="NT1.5"/>
+   <edge id="e.35" target="NT1.10" source="NT1.5"/>
+   <edge id="e.36" source="NT1.41" target="NT1.28"/>
+   <edge id="e.37" source="NT1.41" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

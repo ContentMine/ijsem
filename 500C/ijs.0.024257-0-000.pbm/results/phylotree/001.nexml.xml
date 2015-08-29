@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[8__B]" cmphy:genus="Aestuariimicrobium" cmphy:species="kwangyangense" cmphy:strain="R27T" cmphy:id="DQB30982" editRecord="[8__B]">Aestuariimicrobium kwangyangense R27T (DQ830982)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Microlunatus panaciterrae Gsoil 9547 (AB271 051)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Friedmanniella" cmphy:species="lucida" cmphy:strain="FA2T" cmphy:id="AB445454" editRecord="[]">Friedmanniella lucida FA2T (AB445454)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Propionicimonas" cmphy:species="paludicola" cmphy:strain="WdT" cmphy:id="ABO78858" editRecord="[]">Propionicimonas paludicola WdT (ABO78858)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">Clone KMSQOO711-095) cropland soil (EU881349)</otu>
+  <otu id="otu16"> Clone g26) soil sample (EU979035)</otu>
+  <otu id="otu17">Propionicicella superfundia BL-1 OT (DO1 76646)</otu>
+  <otu id="otu18">Microlunatus phosphovorus NM-1T(Z782O7)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">Clone 2-5G) endophyte from stem bark (EU289501)</otu>
+  <otu id="otu21">Friedmanniella okinawensis FB1T(AB445455)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23">Microlunatus aurantiacus YIM 45721 T (EFGO1 828)</otu>
+  <otu id="otu24"/>
+  <otu id="otu25">Friedmanniella Iuteola FA1T(AB445453)</otu>
+  <otu id="otu26" cmphy:edit="[5__S, B__8]" cmphy:genus="Auraticoccus" cmphy:species="monumenti" cmphy:strain="MON 2.27" cmphy:id="FNS52748" editRecord="[5__S, B__8]">Auraticoccus monumenti MON 2.27 (FN55274B)</otu>
+  <otu id="otu27">Clone 1-2H) endophyte from stem bark (EU289428)</otu>
+  <otu id="otu28" cmphy:genus="Friedmanniella" cmphy:species="antarctica" cmphy:strain="AA-1 042T" cmphy:id="Z78206" editRecord="[]">Friedmanniella antarctica AA-1 042T (Z78206)</otu>
+  <otu id="otu29"/>
+  <otu id="otu30">Friedmanniella capsulata Ben 1O8T(AFO84529)</otu>
+  <otu id="otu31"/>
+  <otu id="otu32" cmphy:edit="[5__S]" cmphy:genus="Granulicoccus" cmphy:species="phenolivorans" cmphy:strain="PG-O2T" cmphy:id="AYS66575" editRecord="[5__S]">Granulicoccus phenolivorans PG-O2T (AY566575)</otu>
+  <otu id="otu33">Micropruina glycogenica Lg2T(ABO12607)</otu>
+  <otu id="otu34">Propioniferax innocua L60T (AF2271 65)</otu>
+  <otu id="otu35" cmphy:edit="[8__B]" cmphy:genus="Microlunatus" cmphy:species="soli" cmphy:strain="CC-1 26027" cmphy:id="FJB07672" editRecord="[8__B]">Microlunatus soli CC-1 26027 (FJ807672)</otu>
+  <otu id="otu36"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="12.0" y="884.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="31.0" y="787.0" label="60"/>
+   <node id="NT1.3" label="NT1.3" x="101.0" y="708.0"/>
+   <node id="NT1.4" label="NT1.4" x="180.0" y="602.0"/>
+   <node id="NT1.6" x="242.0" y="491.0" label="77"/>
+   <node id="NT1.11" label="NT1.11" x="297.0" y="329.0"/>
+   <node id="NT1.20" label="NT1.20" x="385.0" y="866.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="402.0" y="464.0"/>
+   <node id="NT1.32" label="NT1.32" x="507.0" y="440.0" otu="otu11"/>
+   <node id="NT1.35" label="NT1.35" x="515.0" y="723.0" otu="otu13"/>
+   <node id="NT1.55" label="NT1.55" x="609.0" y="653.0" otu="otu26"/>
+   <node id="NT1.57" label="NT1.57" x="627.0" y="617.0" otu="otu28"/>
+   <node id="NT1.61" label="NT1.61" x="656.0" y="794.0" otu="otu32"/>
+   <node id="NT1.64" label="NT1.64" x="738.0" y="228.0" otu="otu35"/>
+   <edge id="e.19" target="NT1.57" source="NT1.21"/>
+   <edge id="e.22" source="NT1.6" target="NT1.55"/>
+   <edge id="e.23" source="NT1.1" target="NT1.2"/>
+   <edge id="e.25" target="NT1.35" source="NT1.4"/>
+   <edge id="e.26" source="NT1.2" target="NT1.20"/>
+   <edge id="e.27" target="NT1.61" source="NT1.3"/>
+   <edge id="e.39" target="NT1.11" source="NT1.6"/>
+   <edge id="e.40" source="NT1.11" target="NT1.21"/>
+   <edge id="e.42" source="NT1.4" target="NT1.6"/>
+   <edge id="e.46" source="NT1.3" target="NT1.4"/>
+   <edge id="e.54" source="NT1.2" target="NT1.3"/>
+   <edge id="e.59" target="NT1.32" source="NT1.21"/>
+   <edge id="e.60" target="NT1.64" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

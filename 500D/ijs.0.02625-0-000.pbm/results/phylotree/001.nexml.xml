@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Vibrio" cmphy:species="halioticoli" cmphy:strain="IAM 14596T" cmphy:id="ABO00390" editRecord="[0__O]">Vibrio halioticoli IAM 14596T (AB000390)</otu>
+  <otu id="otu3">Vibn'o superstes LMG 21323T (AY155585)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Vibrio" cmphy:species="superstes" cmphy:strain="LMG 21322" cmphy:id="AYI55584" editRecord="[1__I]">Vibrio superstes LMG 21322 (AY155584)</otu>
+  <otu id="otu5">Vibn'o superstes LMG 21319 (AF519806)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Vibrio" cmphy:species="superstes" cmphy:strain="LMG 21320" cmphy:id="AYI55582" editRecord="[1__I]">Vibrio superstes LMG 21320 (AY155582)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="152.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="186.0" y="152.0"/>
+   <node id="NT1.4" label="NT1.4" x="482.0" y="232.0" otu="otu2"/>
+   <node id="NT1.5" label="NT1.5" x="732.0" y="118.0"/>
+   <node id="NT1.8" label="NT1.8" x="1025.0" y="80.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="1207.0" y="182.0" otu="otu6"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.5" target="NT1.8"/>
+   <edge id="e.3" source="NT1.2" target="NT1.4"/>
+   <edge id="e.5" target="NT1.10" source="NT1.5"/>
+   <edge id="e.7" target="NT1.5" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

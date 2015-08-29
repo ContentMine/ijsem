@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Glycomyces arizonensis NRRL B-161537 (AY4(-32042)</otu>
+  <otu id="otu2" cmphy:genus="Glycomyces" cmphy:species="tenuis" cmphy:strain="NBRC 15904T" cmphy:id="D85482" editRecord="[]">Glycomyces tenuis NBRC 15904T (D85482)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Glycomyces" cmphy:species="scopariae" cmphy:strain="YIM 562567" cmphy:id="EUZ00682" editRecord="[2__Z]">Glycomyces scopariae YIM 562567 (EU200682)</otu>
+  <otu id="otu4" cmphy:genus="Glycomyces" cmphy:species="sambucus" cmphy:strain="E717" cmphy:id="DQ460469" editRecord="[]">Glycomyces sambucus E717 (DQ460469)</otu>
+  <otu id="otu5" cmphy:edit="[8__B]" cmphy:genus="Glycomyces" cmphy:species="mayteni" cmphy:strain="YIM 61331T" cmphy:id="EUB14511" editRecord="[8__B]">Glycomyces mayteni YIM 61331T (EU814511)</otu>
+  <otu id="otu6" cmphy:genus="Glycomyces" cmphy:species="harbinensis" cmphy:strain="NBRC 144877" cmphy:id="D85483" editRecord="[]">Glycomyces harbinensis NBRC 144877 (D85483)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Glycomyces" cmphy:species="algeriensis" cmphy:strain="NRRL B-16327T" cmphy:id="AY462044" editRecord="[]">Glycomyces algeriensis NRRL B-16327T (AY462044)</otu>
+  <otu id="otu9" cmphy:genus="Glycomyces" cmphy:species="rutgersensis" cmphy:strain="NBRC 14488T" cmphy:id="D85484" editRecord="[]">Glycomyces rutgersensis NBRC 14488T (D85484)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Glycomyces" cmphy:species="endophyticus" cmphy:strain="YIM 56134T" cmphy:id="EUZ00681" editRecord="[2__Z]">Glycomyces endophyticus YIM 56134T (EU200681)</otu>
+  <otu id="otu11" cmphy:genus="Stackebrandtia" cmphy:species="nassauensis" cmphy:strain="NRRL B-16338T" cmphy:id="AY650268" editRecord="[]">Stackebrandtia nassauensis NRRL B-16338T (AY650268)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="266.0" y="243.0"/>
+   <node id="NT1.3" label="NT1.3" x="393.0" y="171.0"/>
+   <node id="NT1.4" label="NT1.4" x="451.0" y="217.0"/>
+   <node id="NT1.5" x="488.0" y="243.0" label="994"/>
+   <node id="NT1.7" label="NT1.7" x="501.0" y="298.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="502.0" y="226.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="507.0" y="262.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="516.0" y="123.0"/>
+   <node id="NT1.11" label="NT1.11" x="534.0" y="89.0"/>
+   <node id="NT1.12" label="NT1.12" x="548.0" y="190.0" otu="otu5"/>
+   <node id="NT1.13" x="575.0" y="58.0" label="98"/>
+   <node id="NT1.14" label="NT1.14" x="576.0" y="156.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="591.0" y="84.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="592.0" y="49.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="595.0" y="120.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="595.0" y="369.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="1.0" y="306.0" root="true"/>
+   <edge id="e.1" target="NT1.18" source="NT1.13"/>
+   <edge id="e.2" source="NT1.10" target="NT1.14"/>
+   <edge id="e.3" source="NT1.5" target="NT1.8"/>
+   <edge id="e.4" source="NT1.5" target="NT1.9"/>
+   <edge id="e.5" source="NT1.4" target="NT1.12"/>
+   <edge id="e.6" target="NT1.7" source="NT1.1"/>
+   <edge id="e.8" source="NT1.11" target="NT1.13"/>
+   <edge id="e.9" source="NT1.10" target="NT1.11"/>
+   <edge id="e.10" source="NT1.3" target="NT1.10"/>
+   <edge id="e.11" source="NT1.1" target="NT1.3"/>
+   <edge id="e.12" source="NT1.3" target="NT1.4"/>
+   <edge id="e.13" source="NT1.4" target="NT1.5"/>
+   <edge id="e.15" source="NT1.21" target="NT1.20"/>
+   <edge id="e.16" source="NT1.21" target="NT1.1"/>
+   <edge id="e.18" source="NT1.11" target="NT1.19"/>
+   <edge id="e.19" source="NT1.13" target="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Oceanimonas smirnovii 31 -1 37 (AY538714)</otu>
+  <otu id="otu10" cmphy:genus="Ferrimonas" cmphy:species="balearica" cmphy:strain="PATT" cmphy:id="X93021" editRecord="[]">Ferrimonas balearica PATT (X93021)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"> Oceanimonas doudoroffii ATCC 27123T(ABO1939O)</otu>
+  <otu id="otu13">1Oceanisphaera arctica' V1 -41 (FN377705)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Oceanimonas" cmphy:species="baumannii" cmphy:strain="GBBT" cmphy:id="AFI68367" editRecord="[1__I]">Oceanimonas baumannii GBBT (AF168367)</otu>
+  <otu id="otu15" cmphy:genus="Shewanella" cmphy:species="putrefaciens" cmphy:strain="ATCC 8O71T" cmphy:id="X82133" editRecord="[]">Shewanella putrefaciens ATCC 8O71T (X82133)</otu>
+  <otu id="otu16" cmphy:genus="Aeromonas" cmphy:species="jandaei" cmphy:strain="ATCC 495687" cmphy:id="X60413" editRecord="[]">Aeromonas jandaei ATCC 495687 (X60413)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Aeromonas" cmphy:species="hydrophila" cmphy:strain="ATCC 7966T" cmphy:id="DQZ07728" editRecord="[2__Z]">Aeromonas hydrophila ATCC 7966T (DQ207728)</otu>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Oceanisphaera" cmphy:species="donghaensis" cmphy:strain="BL1T" cmphy:id="DQI90441" editRecord="[1__I]">Oceanisphaera donghaensis BL1T (DQ190441)</otu>
+  <otu id="otu19" cmphy:edit="[5__S]" cmphy:genus="Oceanisphaera" cmphy:species="litoralis" cmphy:strain="DSM 154067" cmphy:id="AJS50470" editRecord="[5__S]">Oceanisphaera litoralis DSM 154067 (AJ550470)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:edit="[1__I]" cmphy:genus="Zobellella" cmphy:species="taiwanensis" cmphy:strain="ZT1T" cmphy:id="DQI95676" editRecord="[1__I]">Zobellella taiwanensis ZT1T (DQ195676)</otu>
+  <otu id="otu22" cmphy:edit="[3__B]" cmphy:genus="Oceanisphaera" cmphy:species="ostreae" cmphy:strain="T-w6T" cmphy:id="HQB40607" editRecord="[3__B]"> Oceanisphaera ostreae T-w6T (HQ340607)</otu>
+  <otu id="otu23" cmphy:genus="Tolumonas" cmphy:species="auensis" cmphy:strain="TA 47" cmphy:id="X92889" editRecord="[]">Tolumonas auensis TA 47 (X92889)</otu>
+  <otu id="otu24" cmphy:edit="[1__I]" cmphy:genus="Zobellella" cmphy:species="denitrificans" cmphy:strain="ZD1T" cmphy:id="DQI95675" editRecord="[1__I]">Zobellella denitrificans ZD1T (DQ195675)</otu>
+  <otu id="otu25"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="25.0" y="394.0"/>
+   <node id="NT1.2" label="NT1.2" x="34.0" y="496.0"/>
+   <node id="NT1.3" label="NT1.3" x="48.0" y="288.0"/>
+   <node id="NT1.4" label="NT1.4" x="79.0" y="387.0"/>
+   <node id="NT1.10" label="NT1.10" x="140.0" y="187.0"/>
+   <node id="NT1.12" label="NT1.12" x="161.0" y="101.0"/>
+   <node id="NT1.13" label="NT1.13" x="161.0" y="273.0"/>
+   <node id="NT1.16" label="NT1.16" x="192.0" y="141.0"/>
+   <node id="NT1.20" label="NT1.20" x="201.0" y="243.0"/>
+   <node id="NT1.21" label="NT1.21" x="202.0" y="361.0"/>
+   <node id="NT1.25" label="NT1.25" x="213.0" y="451.0" otu="otu10"/>
+   <node id="NT1.31" label="NT1.31" x="232.0" y="51.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="241.0" y="525.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="243.0" y="342.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="244.0" y="379.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="245.0" y="270.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="247.0" y="233.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="253.0" y="123.0" otu="otu21"/>
+   <node id="NT1.39" label="NT1.39" x="254.0" y="306.0" otu="otu22"/>
+   <node id="NT1.40" label="NT1.40" x="256.0" y="415.0" otu="otu23"/>
+   <node id="NT1.41" label="NT1.41" x="270.0" y="160.0" otu="otu24"/>
+   <node id="NT1.43" label="NT1.43" x="2.0" y="485.0" root="true"/>
+   <edge id="e.1" target="NT1.31" source="NT1.12"/>
+   <edge id="e.4" source="NT1.16" target="NT1.38"/>
+   <edge id="e.9" source="NT1.13" target="NT1.39"/>
+   <edge id="e.10" source="NT1.20" target="NT1.35"/>
+   <edge id="e.13" source="NT1.21" target="NT1.34"/>
+   <edge id="e.14" target="NT1.40" source="NT1.4"/>
+   <edge id="e.16" target="NT1.25" source="NT1.2"/>
+   <edge id="e.20" source="NT1.10" target="NT1.12"/>
+   <edge id="e.21" source="NT1.12" target="NT1.16"/>
+   <edge id="e.22" source="NT1.3" target="NT1.10"/>
+   <edge id="e.23" source="NT1.10" target="NT1.13"/>
+   <edge id="e.24" source="NT1.13" target="NT1.20"/>
+   <edge id="e.26" source="NT1.1" target="NT1.3"/>
+   <edge id="e.27" source="NT1.3" target="NT1.4"/>
+   <edge id="e.29" source="NT1.1" target="NT1.2"/>
+   <edge id="e.31" source="NT1.4" target="NT1.21"/>
+   <edge id="e.35" source="NT1.43" target="NT1.1"/>
+   <edge id="e.36" source="NT1.2" target="NT1.32"/>
+   <edge id="e.39" source="NT1.21" target="NT1.33"/>
+   <edge id="e.40" source="NT1.16" target="NT1.41"/>
+   <edge id="e.41" target="NT1.36" source="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>
