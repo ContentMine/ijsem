@@ -1,0 +1,20 @@
+mcp '/home/ross/workspace/clean/ijsem/*/*/*/*/001.nwk' '/home/ross/workspace/clean/newick/#1_#2.nwk'
+cd ../newick
+rm batch*
+ls | wc -l #3405
+#count tree files with 4 or more named nodes
+grep -l '[A-Za-z]:.*[A-Za-z]:.*[A-Za-z]:.*[A-Za-z]:.*' *.nwk | wc -l #1476
+#delete files that don't match 4 or more named nodes
+grep -L '[A-Za-z]:.*[A-Za-z]:.*[A-Za-z]:.*[A-Za-z]:.*' *.nwk | xargs rm
+# 84 3 taxon trees
+grep -l 'UNKNOWN' *.nwk | wc -l #552
+grep -L 'UNKNOWN *.nwk | wc -l #924
+#get rid of trees with UNKNOWN in them
+grep -l 'UNKNOWN' *.nwk | xargs rm
+#count number of taxa across all trees
+grep -o -n '[A-Za-z]:' *.nwk | wc -l #11409
+#create concatenated tree file of all source trees one per line
+for i in *.nwk ; do cat $i >> testree.tre ; sed -i -e '$a\' testree.tre ; done
+#run mrpmatrix tool to create MRP matrix
+java -jar mrp.jar testree.tre mrp.nex NEXUS
+
