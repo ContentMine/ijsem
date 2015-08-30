@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Labedella" cmphy:species="gwakjiensis" cmphy:strain="KSW2-1 77" cmphy:id="DQS33552" editRecord="[5__S]">Labedella gwakjiensis KSW2-1 77 (DQ533552)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Cryobacterium" cmphy:species="psychrotolerans" cmphy:strain="JCM 139257" cmphy:id="DQS15963" editRecord="[5__S]">Cryobacterium psychrotolerans JCM 139257 (DQ515963)</otu>
+  <otu id="otu5">Frigoribacterium faeni8O17 (Y18807)</otu>
+  <otu id="otu6">Clavibacter michiganensis subsp. insidiosus DSM 201577</otu>
+  <otu id="otu7" cmphy:genus="Marisediminicola" cmphy:species="antarctica" cmphy:strain="DSM 223507" cmphy:id="GO496083" editRecord="[]">Marisediminicola antarctica DSM 223507 (GO496083)</otu>
+  <otu id="otu8" cmphy:genus="Clavibacter" cmphy:species="michiganensis" cmphy:strain="DSM 463647" cmphy:id="X77435" editRecord="[]">Clavibacter michiganensis DSM 463647 (X77435)</otu>
+  <otu id="otu9">Klugiella Xanthotipulae 44C37 (AY372075)</otu>
+  <otu id="otu10">Clavibacter michiganensis subsp. tessellarius DSM 207417 (U30254)</otu>
+  <otu id="otu11">Clavibacter michiganensis subsp. sepedomcus DSM 207447 (AM41 0694)</otu>
+  <otu id="otu12">Clavibacter michiganensis subsp. nebraskensis DSM 74837 (X77434)</otu>
+  <otu id="otu13">Amnibacterium kyonggiense KSL51201-0377(FJ527819)</otu>
+  <otu id="otu14">Cryobacterium mesophilum MSL-157 (EF4661 27)</otu>
+  <otu id="otu15">Frigoribactenum mesophilum MSL-O87 (EF4661 26)</otu>
+  <otu id="otu16" cmphy:edit="[5__S]" cmphy:genus="Frondihabitans" cmphy:species="australicus" cmphy:strain="E1 HC-O27" cmphy:id="DQS25859" editRecord="[5__S]">Frondihabitans australicus E1 HC-O27 (DQ525859)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Subtercola" cmphy:species="frigoramans" cmphy:strain="DSM 130577" cmphy:id="AFZ24723" editRecord="[2__Z]">Subtercola frigoramans DSM 130577 (AF224723)</otu>
+  <otu id="otu18">Cryobacterium psychrophilum JCM 1 4637 (D45058)</otu>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="Pseuoloclavibacter" cmphy:species="soli" cmphy:strain="KPO27" cmphy:id="ABB29630" editRecord="[3__B]">Pseuoloclavibacter soli KPO27 (AB329630)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="198.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="106.0" y="381.0"/>
+   <node id="NT1.4" label="NT1.4" x="158.0" y="534.0"/>
+   <node id="NT1.5" label="NT1.5" x="181.0" y="680.0"/>
+   <node id="NT1.6" label="NT1.6" x="185.0" y="232.0"/>
+   <node id="NT1.8" label="NT1.8" x="240.0" y="160.0"/>
+   <node id="NT1.12" label="NT1.12" x="389.0" y="508.0"/>
+   <node id="NT1.16" label="NT1.16" x="426.0" y="303.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="461.0" y="130.0" otu="otu4"/>
+   <node id="NT1.24" label="NT1.24" x="502.0" y="420.0" otu="otu7"/>
+   <node id="NT1.25" label="NT1.25" x="503.0" y="825.0" otu="otu8"/>
+   <node id="NT1.33" label="NT1.33" x="556.0" y="477.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="665.0" y="536.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="950.0" y="245.0" otu="otu19"/>
+   <edge id="e.2" target="NT1.3" source="NT1.1"/>
+   <edge id="e.3" source="NT1.3" target="NT1.4"/>
+   <edge id="e.4" source="NT1.3" target="NT1.6"/>
+   <edge id="e.5" source="NT1.4" target="NT1.5"/>
+   <edge id="e.7" source="NT1.6" target="NT1.8"/>
+   <edge id="e.14" target="NT1.12" source="NT1.5"/>
+   <edge id="e.18" source="NT1.6" target="NT1.16"/>
+   <edge id="e.20" target="NT1.24" source="NT1.4"/>
+   <edge id="e.25" target="NT1.19" source="NT1.8"/>
+   <edge id="e.26" source="NT1.12" target="NT1.33"/>
+   <edge id="e.29" target="NT1.25" source="NT1.5"/>
+   <edge id="e.30" source="NT1.12" target="NT1.34"/>
+   <edge id="e.33" target="NT1.36" source="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

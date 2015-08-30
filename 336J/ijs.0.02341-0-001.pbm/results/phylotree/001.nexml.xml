@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="s." cmphy:species="griseus" cmphy:strain="ATCC 23345'" cmphy:id="AYO94371">s. griseus ATCC 23345' (AY094371)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="s." cmphy:species="peucetius" cmphy:strain="ATCC 29o5o'" cmphy:id="ABO45887">s. peucetius ATCC 29o5o' (AB045887)</otu>
+  <otu id="otu4">venezuelae NRRL 2277' (AB045890)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"> bikiniensls ATCC 11oe2' (X79851)</otu>
+  <otu id="otu7"> clavuligerus NRRL a5a5' (AB045869)</otu>
+  <otu id="otu8">bortropensis ATCC 254a5' (D63868)</otu>
+  <otu id="otu9"> griseochmmogenes ATCC 14511' (AJ310923)</otu>
+  <otu id="otu10"> capoamus ATCC 19ooe' (AB045877)</otu>
+  <otu id="otu11">galbus ATCC 2391o' (X79852)</otu>
+  <otu id="otu12">aureofaciens NRRL 2209' (Y15504)</otu>
+  <otu id="otu13"> griseocarneus DSM 40009 (X99943)</otu>
+  <otu id="otu14">Iydicus NRRL 2433' (Y15507)</otu>
+  <otu id="otu15"> rimosus subsp. rimosus NRRL 2234' (ABO45883)</otu>
+  <otu id="otu16"> violaceusniger NRRL5lSP 5563' (AJ391823)</otu>
+  <otu id="otu17"> lhermovulgaris DSM 4u444' (Z68094)</otu>
+  <otu id="otu18"> thermodiastaricus DSM 40573' (Z68101)</otu>
+  <otu id="otu19"> bluensis NRRL 2876' (X79324)</otu>
+  <otu id="otu20"> thermocarboxydovorans DSM 4429GT (U94489)</otu>
+  <otu id="otu21"> thermocarboxydus nsm 44293' (u9449o)</otu>
+  <otu id="otu22"> speibonae DSM 41797' (AF452114)</otu>
+  <otu id="otu23"> albus subsp. albus ATCC 3004' (AB045884)</otu>
+  <otu id="otu24">albidaflavus DSM 4o455' (276676)</otu>
+  <otu id="otu25"> coeruleofuscus ATCC 23e1s' (AJ399473)</otu>
+  <otu id="otu26"> ambofaciens ATCC 23s77' (M27245)</otu>
+  <otu id="otu27"> tendae ATCC 19a12' (D63873)</otu>
+  <otu id="otu28"> euryrhermus ATCC 14975' (D63B70)</otu>
+  <otu id="otu29"> nogalater NRRL 3035' (AB045886)</otu>
+  <otu id="otu30"> thermolineatus DSM 414517 (268097)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="938.0" otu="otu1" root="true"/>
+   <node id="NT1.22" x="462.0" y="33.0" label="35"/>
+   <node id="NT1.30" label="NT1.30" x="509.0" y="14.0" otu="otu2"/>
+   <node id="NT1.31" label="NT1.31" x="509.0" y="51.0" otu="otu3"/>
+   <edge id="e.0" source="NT1.22" target="NT1.30"/>
+   <edge id="e.1" source="NT1.22" target="NT1.31"/>
+   <edge id="e.28" target="NT1.22" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

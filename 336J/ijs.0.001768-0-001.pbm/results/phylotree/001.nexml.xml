@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Pseudoalteromonas piscicida</otu>
+  <otu id="otu2">Pseudoalteromonas maricaloris</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Psychromonas" cmphy:species="antarctica" cmphy:strain="DSM 1O704T" cmphy:id="Y14697" editRecord="[]">Psychromonas antarctica DSM 1O704T (Y14697)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">Vibrio tubiashii ATCC 191 O97 (X74725)</otu>
+  <otu id="otu7">Pseudoalteromonas bacteriolytica</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Aeromonas" cmphy:species="bivalvium" cmphy:strain="868ET" cmphy:id="DQS04429" editRecord="[5__S]">Aeromonas bivalvium 868ET (DQ504429)</otu>
+  <otu id="otu9">Vibrio hollisae LMG 21416 (A.J514910)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Vibrio" cmphy:species="brasiliensis" cmphy:strain="LMG 20546T" cmphy:id="AJB16172" editRecord="[3__B]">Vibrio brasiliensis LMG 20546T (AJ316172)</otu>
+  <otu id="otu11" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 11775" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 11775 (X80725)</otu>
+  <otu id="otu12" cmphy:genus="Vibrio" cmphy:species="orientalis" cmphy:strain="ATCC 33934T" cmphy:id="X74719" editRecord="[]">Vibrio orientalis ATCC 33934T (X74719)</otu>
+  <otu id="otu13" cmphy:genus="Vibrio" cmphy:species="nereis" cmphy:strain="ATCC 25917T" cmphy:id="X74716" editRecord="[]">Vibrio nereis ATCC 25917T (X74716)</otu>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="Vibrio" cmphy:species="neptunius" cmphy:strain="LMG 20536T" cmphy:id="AJB16171" editRecord="[3__B]">Vibrio neptunius LMG 20536T (AJ316171)</otu>
+  <otu id="otu15" cmphy:genus="Vibrio" cmphy:species="diabolicus" cmphy:strain="HESOOT" cmphy:id="X99762" editRecord="[]">Vibrio diabolicus HESOOT (X99762)</otu>
+  <otu id="otu16" cmphy:genus="Vibrio" cmphy:species="proteolyticus" cmphy:strain="ATCC 15338T" cmphy:id="X74723" editRecord="[]">Vibrio proteolyticus ATCC 15338T (X74723)</otu>
+  <otu id="otu17" cmphy:genus="Vibrio" cmphy:species="coralliilyticus" cmphy:strain="LMG 20984T" cmphy:id="AJ440005" editRecord="[]">Vibrio coralliilyticus LMG 20984T (AJ440005)</otu>
+  <otu id="otu18" cmphy:genus="Vibrio" cmphy:species="cholerae" cmphy:strain="CECT 514T" cmphy:id="X76337" editRecord="[]">Vibrio cholerae CECT 514T (X76337)</otu>
+  <otu id="otu19" cmphy:edit="[0__O]" cmphy:genus="Salinivibrio" cmphy:species="proteolyticus" cmphy:strain="AF-2OO4T" cmphy:id="DQO92443" editRecord="[0__O]">Salinivibrio proteolyticus AF-2OO4T (DQ092443)</otu>
+  <otu id="otu20">ND1-1T (AB285018)</otu>
+  <otu id="otu21">Salinivibrio costicola</otu>
+  <otu id="otu22">Salinivibrio costicola</otu>
+  <otu id="otu23">Salinivibrio costicola subsp. alcaliphilus DSM 163597 (AJ640132)</otu>
+  <otu id="otu24">Aestuariibacter halophilus</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="57.0" y="727.0"/>
+   <node id="NT1.3" x="91.0" y="655.0" label="68"/>
+   <node id="NT1.5" label="NT1.5" x="137.0" y="555.0"/>
+   <node id="NT1.7" x="330.0" y="398.0" label="99"/>
+   <node id="NT1.10" x="401.0" y="308.0" label="85"/>
+   <node id="NT1.15" label="NT1.15" x="559.0" y="253.0"/>
+   <node id="NT1.16" label="NT1.16" x="564.0" y="187.0"/>
+   <node id="NT1.17" label="NT1.17" x="581.0" y="799.0" otu="otu4"/>
+   <node id="NT1.18" x="591.0" y="119.0" label="56"/>
+   <node id="NT1.19" x="595.0" y="70.0" label="56"/>
+   <node id="NT1.22" label="NT1.22" x="604.0" y="37.0"/>
+   <node id="NT1.25" label="NT1.25" x="618.0" y="755.0" otu="otu8"/>
+   <node id="NT1.27" label="NT1.27" x="633.0" y="145.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="634.0" y="712.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="638.0" y="253.0"/>
+   <node id="NT1.30" label="NT1.30" x="644.0" y="319.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="646.0" y="58.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="659.0" y="276.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="663.0" y="102.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="668.0" y="15.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="674.0" y="232.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="698.0" y="363.0" otu="otu18"/>
+   <node id="NT1.40" label="NT1.40" x="738.0" y="668.0" otu="otu19"/>
+   <node id="NT1.47" label="NT1.47" x="10.0" y="804.0" root="true"/>
+   <edge id="e.0" source="NT1.22" target="NT1.34"/>
+   <edge id="e.1" source="NT1.22" target="NT1.31"/>
+   <edge id="e.2" source="NT1.19" target="NT1.33"/>
+   <edge id="e.4" source="NT1.29" target="NT1.32"/>
+   <edge id="e.5" source="NT1.29" target="NT1.36"/>
+   <edge id="e.6" source="NT1.15" target="NT1.30"/>
+   <edge id="e.12" source="NT1.5" target="NT1.28"/>
+   <edge id="e.13" source="NT1.3" target="NT1.25"/>
+   <edge id="e.14" source="NT1.1" target="NT1.17"/>
+   <edge id="e.19" source="NT1.19" target="NT1.22"/>
+   <edge id="e.20" source="NT1.18" target="NT1.19"/>
+   <edge id="e.21" source="NT1.16" target="NT1.18"/>
+   <edge id="e.23" source="NT1.15" target="NT1.16"/>
+   <edge id="e.24" source="NT1.16" target="NT1.29"/>
+   <edge id="e.25" source="NT1.10" target="NT1.15"/>
+   <edge id="e.26" source="NT1.7" target="NT1.10"/>
+   <edge id="e.27" source="NT1.5" target="NT1.7"/>
+   <edge id="e.31" source="NT1.3" target="NT1.5"/>
+   <edge id="e.33" source="NT1.1" target="NT1.3"/>
+   <edge id="e.39" source="NT1.47" target="NT1.1"/>
+   <edge id="e.42" source="NT1.10" target="NT1.38"/>
+   <edge id="e.43" target="NT1.27" source="NT1.18"/>
+   <edge id="e.44" target="NT1.40" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

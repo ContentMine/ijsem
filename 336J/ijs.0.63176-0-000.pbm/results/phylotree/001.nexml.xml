@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">P. parafulva AJ 21297 (AB060132)</otu>
+  <otu id="otu4">P. fulva NRIC 018OT (AB060136)</otu>
+  <otu id="otu5">P. pachastrellae KMM 3307 (AB125366)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"> P. oryzihabitans IAM 1568T (D84004)</otu>
+  <otu id="otu10" cmphy:genus="Halomonas" cmphy:species="elongata" cmphy:strain="ATCC 331737" cmphy:id="M93355" editRecord="[]">Halomonas elongata ATCC 331737 (M93355)</otu>
+  <otu id="otu11">P. luteola IAM 13000T (D84002)</otu>
+  <otu id="otu12">P. penucinogena IFO 14163T (AB021380)</otu>
+  <otu id="otu13"> P. cremoricolorata IAM 1541T (ABO60137)</otu>
+  <otu id="otu14"> P. stutzeri IAM 12668T (D84024)</otu>
+  <otu id="otu15"> P. graminis DSM 11363T (Y11150)</otu>
+  <otu id="otu16">P. straminea IAM 15987 (D84023)</otu>
+  <otu id="otu17">P. syringae LMG 12477 (276669)</otu>
+  <otu id="otu18">P. aeruginosa LMG 12427 (276651)</otu>
+  <otu id="otu19">P. nitroreducens IAM 14397 (D84021)</otu>
+  <otu id="otu20"> P. chlororaphis IAM 12354T (D84011)</otu>
+  <otu id="otu21">P. fluorescens DSM 50O90T (Z76662)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.25" label="NT1.25" x="357.0" y="732.0" otu="otu10"/>
+   <node id="NT1.39" label="NT1.39" x="3.0" y="653.0" root="true"/>
+   <edge id="e.31" source="NT1.39" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

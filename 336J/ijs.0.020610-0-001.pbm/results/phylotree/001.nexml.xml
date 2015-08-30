@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Blastococcus saxobsidens BC448 (A131 6571)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Blastococcus" cmphy:species="jejuensis" cmphy:strain="KST3-107" cmphy:id="DQZ00983" editRecord="[2__Z]"> Blastococcus jejuensis KST3-107 (DQ200983)</otu>
+  <otu id="otu4" cmphy:genus="Geodermatophilus" cmphy:species="obscurus" cmphy:strain="DSM 431607" cmphy:id="X92356" editRecord="[]"> Geodermatophilus obscurus DSM 431607 (X92356)</otu>
+  <otu id="otu5" cmphy:genus="Geodermatophilus" cmphy:species="ruber" cmphy:strain="CPCC 201356T" cmphy:id="EU438905" editRecord="[]">Geodermatophilus ruber CPCC 201356T (EU438905)</otu>
+  <otu id="otu6" cmphy:genus="Blastococcus" cmphy:species="aggregatus" cmphy:strain="ATCC 25902T" cmphy:id="L40614" editRecord="[]">Blastococcus aggregatus ATCC 25902T (L40614)</otu>
+  <otu id="otu7" cmphy:edit="[8__B]" cmphy:genus="Modestobacter" cmphy:species="versicolor" cmphy:strain="CP153-2T" cmphy:id="AJB71304" editRecord="[8__B]"> Modestobacter versicolor CP153-2T (AJ871304)</otu>
+  <otu id="otu8" cmphy:genus="Modestobacter" cmphy:species="multiseptatus" cmphy:strain="AA-826T" cmphy:id="Y18646" editRecord="[]">Modestobacter multiseptatus AA-826T (Y18646)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="169.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="13.0" y="169.0"/>
+   <node id="NT1.3" x="27.0" y="107.0" label="64"/>
+   <node id="NT1.5" x="73.0" y="230.0" label="98"/>
+   <node id="NT1.6" label="NT1.6" x="81.0" y="33.0"/>
+   <node id="NT1.8" label="NT1.8" x="134.0" y="13.0" otu="otu3"/>
+   <node id="NT1.9" x="134.0" y="151.0" label="100"/>
+   <node id="NT1.10" label="NT1.10" x="146.0" y="251.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="152.0" y="210.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="166.0" y="53.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="175.0" y="171.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="200.0" y="131.0" otu="otu8"/>
+   <edge id="e.0" source="NT1.6" target="NT1.8"/>
+   <edge id="e.1" source="NT1.6" target="NT1.12"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.9" target="NT1.13"/>
+   <edge id="e.5" source="NT1.9" target="NT1.14"/>
+   <edge id="e.6" source="NT1.5" target="NT1.10"/>
+   <edge id="e.7" source="NT1.5" target="NT1.11"/>
+   <edge id="e.8" target="NT1.6" source="NT1.3"/>
+   <edge id="e.10" source="NT1.2" target="NT1.3"/>
+   <edge id="e.11" source="NT1.3" target="NT1.9"/>
+   <edge id="e.12" source="NT1.2" target="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Rhodococcus" cmphy:species="rhodochrous" cmphy:strain="DSM 43241T" cmphy:id="X79288" editRecord="[]">Rhodococcus rhodochrous DSM 43241T (X79288)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Williamsia" cmphy:species="maris" cmphy:strain="SJS 02894JS1T" cmphy:id="ABO10909" editRecord="[0__O]">Williamsia maris SJS 02894JS1T (AB010909)</otu>
+  <otu id="otu4">Skern1aI1iapinifbrn1i.x' IFO</otu>
+  <otu id="otu5" cmphy:genus="Gumbnia" cmphy:species="hnmchiczlis" cmphy:strain="DSM 432471'" cmphy:id="X79287" editRecord="[]">Gumbnia hnmchiczlis DSM 432471' (X79287)</otu>
+  <otu id="otu6" cmphy:genus="Nocardia" cmphy:species="astemides" cmphy:strain="ATCC 19247'1'" cmphy:id="X84850" editRecord="[]">Nocardia astemides ATCC 19247'1' (X84850)</otu>
+  <otu id="otu7" cmphy:genus="Tsukamurella" cmphy:species="pauramerabola" cmphy:strain="DSM 20l62T" cmphy:id="Z46751" editRecord="[]">Tsukamurella pauramerabola DSM 20l62T (Z46751)</otu>
+  <otu id="otu8" cmphy:genus="Dietzia" cmphy:species="cinnamea" cmphy:strain="IMMIB RIV-399T" cmphy:id="AJ920289" editRecord="[]">Dietzia cinnamea IMMIB RIV-399T (AJ920289)</otu>
+  <otu id="otu9">Dielzia</otu>
+  <otu id="otu10">Dierzia p3ychrulcalz'ph1'lc1 JCM 10987T (AB159036)</otu>
+  <otu id="otu11" cmphy:genus="Segniliparus" cmphy:species="ratzmdus" cmphy:strain="CDC l076T" cmphy:id="AY608918" editRecord="[]">Segniliparus ratzmdus CDC l076T (AY608918)</otu>
+  <otu id="otu12" cmphy:genus="Dielzia" cmphy:species="natranolimnaea" cmphy:strain="CBS 107.9581." cmphy:id="X92157" editRecord="[]">Dielzia natranolimnaea CBS 107.9581. (X92157)</otu>
+  <otu id="otu13" cmphy:genus="Mycobaclerium" cmphy:species="tuberculosis" cmphy:strain="H37RvT" cmphy:id="X58890" editRecord="[]">Mycobaclerium tuberculosis H37RvT (X58890)</otu>
+  <otu id="otu14">Corynebacterium diplnherizze NCTC</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="609.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="9.0" y="609.0"/>
+   <node id="NT1.3" label="NT1.3" x="47.0" y="564.0"/>
+   <node id="NT1.4" label="NT1.4" x="63.0" y="617.0"/>
+   <node id="NT1.5" label="NT1.5" x="67.0" y="394.0"/>
+   <node id="NT1.7" label="NT1.7" x="115.0" y="109.0"/>
+   <node id="NT1.8" label="NT1.8" x="127.0" y="503.0"/>
+   <node id="NT1.9" label="NT1.9" x="137.0" y="161.0"/>
+   <node id="NT1.10" label="NT1.10" x="163.0" y="704.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="302.0" y="218.0"/>
+   <node id="NT1.13" label="NT1.13" x="305.0" y="533.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="318.0" y="475.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="327.0" y="647.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="337.0" y="134.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="351.0" y="191.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="458.0" y="589.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="465.0" y="305.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="476.0" y="77.0" otu="otu13"/>
+   <edge id="e.0" target="NT1.25" source="NT1.7"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.5" target="NT1.7"/>
+   <edge id="e.5" source="NT1.7" target="NT1.9"/>
+   <edge id="e.6" source="NT1.9" target="NT1.12"/>
+   <edge id="e.8" source="NT1.3" target="NT1.5"/>
+   <edge id="e.11" target="NT1.8" source="NT1.5"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" source="NT1.2" target="NT1.10"/>
+   <edge id="e.15" source="NT1.4" target="NT1.16"/>
+   <edge id="e.17" source="NT1.8" target="NT1.13"/>
+   <edge id="e.18" source="NT1.8" target="NT1.15"/>
+   <edge id="e.19" source="NT1.4" target="NT1.23"/>
+   <edge id="e.20" source="NT1.9" target="NT1.17"/>
+   <edge id="e.21" source="NT1.12" target="NT1.19"/>
+   <edge id="e.24" target="NT1.24" source="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

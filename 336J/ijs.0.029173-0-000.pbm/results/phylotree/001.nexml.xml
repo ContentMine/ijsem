@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Xy1eHa cynarae CFBP 4188T(AF2O8315)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Xykella horlorum LMG 733T(Y1O759)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Lufeimonas aestuarxi BQT (EF6 60 758)</otu>
+  <otu id="otu10">Lysobacferpanaciterrae Gsoil 068T (AB245359)</otu>
+  <otu id="otu11">Luteimonas aquanba RIB1-2OT(EF626688)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Lysobacter gummosus KCTC 1 2132T(AB1 61361)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">Pseudoxanthomonas mexicana AMX 26 BT (AF2 73082)</otu>
+  <otu id="otu16">Stenotrophomonas acI'o'amI'nIpl7I7a AMX1 97 (AF273080)</otu>
+  <otu id="otu17">X ylella fastidiosa PCE-RRT (M26601 )</otu>
+  <otu id="otu18">Stenotrophomonas ma1t0pl7I7I'a LMG 958T (X95923)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Luteimonas" cmphy:species="marina" cmphy:strain="FR1330T" cmphy:id="EUZ95459" editRecord="[2__Z]">Luteimonas marina FR1330T (EU295459)</otu>
+  <otu id="otu20">Pseudoxanthomonas kaohsiungensis J36T (AY65002 7)</otu>
+  <otu id="otu21">Thermomonas haemolytica A50-7-3T (AJ3001 85)</otu>
+  <otu id="otu22" cmphy:edit="[5__S]" cmphy:genus="Pseudoxanlhomonas" cmphy:species="koreensis" cmphy:strain="T7-O9T" cmphy:id="AYS50263" editRecord="[5__S]">Pseudoxanlhomonas koreensis T7-O9T (AY550263)</otu>
+  <otu id="otu23">Thermomonas fusca LMG 21 737T(AJ519986)</otu>
+  <otu id="otu24">L ysobacter enzymogenes DSM 2O43T (AJ298291)</otu>
+  <otu id="otu25">Strain G3T(GU199001)</otu>
+  <otu id="otu26" cmphy:edit="[8__B]" cmphy:genus="Lutefmonas" cmphy:species="composti" cmphy:strain="CC-YY255T" cmphy:id="DQB46687" editRecord="[8__B]">Lutefmonas composti CC-YY255T (DQ846687)</otu>
+  <otu id="otu27">Luteimonas me-phI'tI3 B1 953l27.1T (AJO1 2228)</otu>
+  <otu id="otu28">Luteimonas terricola BZ92rT (FJ9481 07)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="342.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="49.0" y="668.0"/>
+   <node id="NT1.11" label="NT1.11" x="229.0" y="650.0"/>
+   <node id="NT1.33" label="NT1.33" x="399.0" y="675.0" otu="otu19"/>
+   <node id="NT1.36" label="NT1.36" x="414.0" y="110.0" otu="otu22"/>
+   <node id="NT1.40" label="NT1.40" x="462.0" y="627.0" otu="otu26"/>
+   <edge id="e.11" target="NT1.36" source="NT1.3"/>
+   <edge id="e.15" source="NT1.11" target="NT1.33"/>
+   <edge id="e.17" target="NT1.3" source="NT1.1"/>
+   <edge id="e.27" target="NT1.11" source="NT1.3"/>
+   <edge id="e.38" source="NT1.11" target="NT1.40"/>
+  </tree>
+ </trees>
+</nexml>

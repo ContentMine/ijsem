@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Micromonospora" cmphy:species="carbonacea" cmphy:strain="DSM 431687" cmphy:id="ABO14147" editRecord="[]">Micromonospora carbonacea DSM 431687 (ABO14147)</otu>
+  <otu id="otu2">Strain GUI 157 (FM957540)</otu>
+  <otu id="otu3" cmphy:genus="Micromonospora" cmphy:species="olivasterospora" cmphy:strain="DSM 438687" cmphy:id="ABO14159" editRecord="[]">Micromonospora olivasterospora DSM 438687 (ABO14159)</otu>
+  <otu id="otu4">Micromonospora halophytica DSM 431 717 (AB014157)</otu>
+  <otu id="otu5">Micromonospora purpureochromogenes DSM 438217 (AB0141 61)</otu>
+  <otu id="otu6" cmphy:genus="Micromonospora" cmphy:species="rosaria" cmphy:strain="DSM 8037" cmphy:id="ABO14163" editRecord="[]">Micromonospora rosaria DSM 8037 (ABO14163)</otu>
+  <otu id="otu7" cmphy:genus="Micromonospora" cmphy:species="chersina" cmphy:strain="DSM 441517" cmphy:id="ABO15622" editRecord="[]">Micromonospora chersina DSM 441517 (ABO15622)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Micromonospora" cmphy:species="coerulea" cmphy:strain="DSM 431437" cmphy:id="ABO14151" editRecord="[0__O]">Micromonospora coerulea DSM 431437 (AB014151)</otu>
+  <otu id="otu10" cmphy:genus="Polymorphospora" cmphy:species="rubra" cmphy:strain="DSM 449477" cmphy:id="FM957542" editRecord="[]">Polymorphospora rubra DSM 449477 (FM957542)</otu>
+  <otu id="otu11">Micromonospora matsumotoense DSM 441007</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Couchioplanes caeruleus subsp. caeruleus NBRC 139397 (AB014137)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Micromonospora" cmphy:species="nigra" cmphy:strain="DSM 438187" cmphy:id="ABO14156" editRecord="[0__O]">Micromonospora nigra DSM 438187 (AB014156)</otu>
+  <otu id="otu15" cmphy:genus="Micromonospora" cmphy:species="pattaloongensis" cmphy:strain="TJ2-27" cmphy:id="FM957541" editRecord="[]">Micromonospora pattaloongensis TJ2-27 (FM957541)</otu>
+  <otu id="otu16" cmphy:genus="Micromonospora" cmphy:species="echinospora" cmphy:strain="NBRC 131497" cmphy:id="ABO14154" editRecord="[]">Micromonospora echinospora NBRC 131497 (ABO14154)</otu>
+  <otu id="otu17">Couchioplanes caeruleus subsp. azureus NBRC 139937 (ABO14138)</otu>
+  <otu id="otu18" cmphy:genus="Actinoplanes" cmphy:species="regularis" cmphy:strain="NBRC 125147" cmphy:id="ABO14133" editRecord="[]">Actinoplanes regularis NBRC 125147 (ABO14133)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20">Actinoplanes brasilensis NBRC 139387 (AB0141 25)</otu>
+  <otu id="otu21"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="176.0" y="802.0"/>
+   <node id="NT1.5" label="NT1.5" x="234.0" y="659.0"/>
+   <node id="NT1.6" label="NT1.6" x="351.0" y="556.0"/>
+   <node id="NT1.7" label="NT1.7" x="405.0" y="404.0"/>
+   <node id="NT1.10" label="NT1.10" x="431.0" y="265.0"/>
+   <node id="NT1.11" label="NT1.11" x="452.0" y="627.0"/>
+   <node id="NT1.12" label="NT1.12" x="503.0" y="376.0"/>
+   <node id="NT1.13" label="NT1.13" x="508.0" y="153.0"/>
+   <node id="NT1.18" label="NT1.18" x="614.0" y="601.0" otu="otu1"/>
+   <node id="NT1.21" label="NT1.21" x="680.0" y="707.0" otu="otu3"/>
+   <node id="NT1.25" label="NT1.25" x="745.0" y="337.0" otu="otu6"/>
+   <node id="NT1.26" label="NT1.26" x="750.0" y="126.0" otu="otu7"/>
+   <node id="NT1.28" label="NT1.28" x="763.0" y="655.0" otu="otu9"/>
+   <node id="NT1.29" label="NT1.29" x="775.0" y="865.0" otu="otu10"/>
+   <node id="NT1.33" label="NT1.33" x="815.0" y="231.0" otu="otu14"/>
+   <node id="NT1.34" label="NT1.34" x="827.0" y="760.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="852.0" y="390.0" otu="otu16"/>
+   <node id="NT1.37" label="NT1.37" x="883.0" y="1077.0" otu="otu18"/>
+   <node id="NT1.41" label="NT1.41" x="6.0" y="899.0" root="true"/>
+   <edge id="e.4" target="NT1.33" source="NT1.13"/>
+   <edge id="e.5" source="NT1.12" target="NT1.25"/>
+   <edge id="e.6" target="NT1.35" source="NT1.12"/>
+   <edge id="e.7" source="NT1.11" target="NT1.18"/>
+   <edge id="e.11" source="NT1.11" target="NT1.28"/>
+   <edge id="e.12" source="NT1.6" target="NT1.21"/>
+   <edge id="e.14" source="NT1.5" target="NT1.34"/>
+   <edge id="e.15" source="NT1.2" target="NT1.29"/>
+   <edge id="e.18" target="NT1.37" source="NT1.41"/>
+   <edge id="e.21" source="NT1.10" target="NT1.13"/>
+   <edge id="e.24" source="NT1.7" target="NT1.10"/>
+   <edge id="e.25" source="NT1.10" target="NT1.12"/>
+   <edge id="e.26" source="NT1.6" target="NT1.7"/>
+   <edge id="e.30" target="NT1.11" source="NT1.7"/>
+   <edge id="e.31" source="NT1.5" target="NT1.6"/>
+   <edge id="e.32" target="NT1.5" source="NT1.2"/>
+   <edge id="e.36" source="NT1.41" target="NT1.2"/>
+   <edge id="e.39" target="NT1.26" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

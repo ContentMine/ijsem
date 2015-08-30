@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[1__I]" cmphy:genus="Crossiella" cmphy:species="clyophila" cmphy:strain="NRRL B-162381." cmphy:id="AFI14806" editRecord="[1__I]">Crossiella clyophila NRRL B-162381. (AF114806)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="s." cmphy:species="texasensfs" cmphy:strain="NRRL B-16134T" cmphy:id="AFI14814">s. texasensfs NRRL B-16134T (AF114814)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="espanaensis" cmphy:strain="NRRL 15764T" cmphy:id="AFI14807" editRecord="[1__I]"> S. espanaensis NRRL 15764T (AF114807)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="s." cmphy:species="syringae" cmphy:strain="NRRL B-164687" cmphy:id="AFI14812"> s. syringae NRRL B-164687 (AF114812)</otu>
+  <otu id="otu7">s. mutabilis subsp. mutabilis DSM 43s53T (X76966)</otu>
+  <otu id="otu8">s. mutabilis subsp. capreolus DSM 402257 (X76965)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="s." cmphy:species="longispora" cmphy:strain="NRRL B-161167" cmphy:id="AFI14809">s. longispora NRRL B-161167 (AF114809)</otu>
+  <otu id="otu10" cmphy:genus="S." cmphy:species="algeriensis" cmphy:strain="NRRL B-24137T" cmphy:id="AYO54972" editRecord="[]">S. algeriensis NRRL B-24137T (AYO54972)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="xinjiangensis" cmphy:strain="AS 4.17317" cmphy:id="AYI35693" editRecord="[1__I]">S. xinjiangensis AS 4.17317 (AY135693)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="176.0" y="437.0" otu="otu1"/>
+   <node id="NT1.2" x="176.0" y="333.0" label="100"/>
+   <node id="NT1.3" x="211.0" y="271.0" label="77"/>
+   <node id="NT1.4" label="NT1.4" x="226.0" y="189.0"/>
+   <node id="NT1.5" label="NT1.5" x="233.0" y="117.0"/>
+   <node id="NT1.6" label="NT1.6" x="243.0" y="69.0"/>
+   <node id="NT1.10" label="NT1.10" x="263.0" y="395.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="307.0" y="228.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="312.0" y="185.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="342.0" y="354.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="396.0" y="101.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="465.0" y="17.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="6.0" y="385.0" root="true"/>
+   <edge id="e.1" target="NT1.20" source="NT1.6"/>
+   <edge id="e.2" source="NT1.6" target="NT1.19"/>
+   <edge id="e.3" target="NT1.15" source="NT1.5"/>
+   <edge id="e.4" target="NT1.12" source="NT1.4"/>
+   <edge id="e.7" source="NT1.3" target="NT1.18"/>
+   <edge id="e.9" source="NT1.5" target="NT1.6"/>
+   <edge id="e.10" source="NT1.4" target="NT1.5"/>
+   <edge id="e.13" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.21" target="NT1.2"/>
+   <edge id="e.18" source="NT1.21" target="NT1.1"/>
+   <edge id="e.19" source="NT1.2" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Microvirga" cmphy:species="subterranea" cmphy:strain="FaiI4T" cmphy:id="AYO78053" editRecord="[]">Microvirga subterranea FaiI4T (AYO78053)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Chelatococcus" cmphy:species="asaccharovorans" cmphy:strain="TE2T" cmphy:id="AJZ94349" editRecord="[2__Z]">Chelatococcus asaccharovorans TE2T (AJ294349)</otu>
+  <otu id="otu12">Microvirga guangxiensis 25BT (EU 7271 76)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Microvirga" cmphy:species="aerilata" cmphy:strain="54203-167" cmphy:id="GQ421849" editRecord="[]">Microvirga aerilata 54203-167 (GQ421849)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Methylobacterium" cmphy:species="organophilum" cmphy:strain="JCM 28337" cmphy:id="D32226" editRecord="[]"> Methylobacterium organophilum JCM 28337 (D32226)</otu>
+  <otu id="otu17">Methylobacterium thiocyanatum DSM 1 149OT (AB1 75646)</otu>
+  <otu id="otu18" cmphy:edit="[8__B]" cmphy:genus="Methylobacterium" cmphy:species="aminovorans" cmphy:strain="CCM 4612T" cmphy:id="AJB51086" editRecord="[8__B]">Methylobacterium aminovorans CCM 4612T (AJ851086)</otu>
+  <otu id="otu19" cmphy:genus="Microvirga" cmphy:species="aerophila" cmphy:strain="54208-127" cmphy:id="GQ421848" editRecord="[]">Microvirga aerophila 54208-127 (GQ421848)</otu>
+  <otu id="otu20" cmphy:edit="[8__B]" cmphy:genus="Methylobacterium" cmphy:species="isbiliense" cmphy:strain="AR24T" cmphy:id="AJB88239" editRecord="[8__B]">Methylobacterium isbiliense AR24T (AJ888239)</otu>
+  <otu id="otu21" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="minatitlanensis" cmphy:strain="AMX51T" cmphy:id="AFZ73081" editRecord="[2__Z]">Bosea minatitlanensis AMX51T (AF273081)</otu>
+  <otu id="otu22" cmphy:edit="[0__O]" cmphy:genus="Balneimonas" cmphy:species="flocculans" cmphy:strain="TFBT" cmphy:id="ABO98515" editRecord="[0__O]">Balneimonas flocculans TFBT (AB098515)</otu>
+  <otu id="otu23" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="thiooxidans" cmphy:strain="DSM 9653T" cmphy:id="AJZ50796" editRecord="[2__Z]"> Bosea thiooxidans DSM 9653T (AJ250796)</otu>
+  <otu id="otu24" cmphy:edit="[2__Z]" cmphy:genus="Bosea" cmphy:species="massiliensis" cmphy:strain="632877" cmphy:id="AFZ88309" editRecord="[2__Z]">Bosea massiliensis 632877 (AF288309)</otu>
+  <otu id="otu25"/>
+  <otu id="otu26"/>
+  <otu id="otu27" cmphy:genus="Methylobacterium" cmphy:species="aquaticum" cmphy:strain="GR16T" cmphy:id="AJ635303" editRecord="[]">Methylobacterium aquaticum GR16T (AJ635303)</otu>
+  <otu id="otu28"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="59.0" y="243.0"/>
+   <node id="NT1.3" x="71.0" y="163.0" label="50"/>
+   <node id="NT1.4" x="131.0" y="486.0" label="100"/>
+   <node id="NT1.9" x="184.0" y="525.0" label="55"/>
+   <node id="NT1.10" label="NT1.10" x="193.0" y="321.0"/>
+   <node id="NT1.15" label="NT1.15" x="229.0" y="448.0"/>
+   <node id="NT1.17" label="NT1.17" x="240.0" y="344.0"/>
+   <node id="NT1.18" x="276.0" y="275.0" label="98"/>
+   <node id="NT1.21" x="325.0" y="121.0" label="100"/>
+   <node id="NT1.24" label="NT1.24" x="338.0" y="326.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="339.0" y="223.0" otu="otu11"/>
+   <node id="NT1.27" x="351.0" y="89.0" label="79"/>
+   <node id="NT1.30" label="NT1.30" x="357.0" y="292.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="360.0" y="499.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="374.0" y="534.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="377.0" y="361.0" otu="otu19"/>
+   <node id="NT1.36" label="NT1.36" x="377.0" y="465.0" otu="otu20"/>
+   <node id="NT1.38" label="NT1.38" x="394.0" y="153.0" otu="otu21"/>
+   <node id="NT1.39" label="NT1.39" x="394.0" y="256.0" otu="otu22"/>
+   <node id="NT1.40" label="NT1.40" x="401.0" y="84.0" otu="otu23"/>
+   <node id="NT1.41" label="NT1.41" x="412.0" y="119.0" otu="otu24"/>
+   <node id="NT1.45" label="NT1.45" x="433.0" y="430.0" otu="otu27"/>
+   <node id="NT1.47" label="NT1.47" x="3.0" y="364.0" root="true"/>
+   <edge id="e.3" target="NT1.40" source="NT1.27"/>
+   <edge id="e.6" source="NT1.27" target="NT1.41"/>
+   <edge id="e.7" source="NT1.21" target="NT1.38"/>
+   <edge id="e.12" target="NT1.25" source="NT1.3"/>
+   <edge id="e.15" source="NT1.18" target="NT1.30"/>
+   <edge id="e.18" target="NT1.39" source="NT1.18"/>
+   <edge id="e.19" source="NT1.17" target="NT1.35"/>
+   <edge id="e.22" source="NT1.9" target="NT1.32"/>
+   <edge id="e.23" source="NT1.15" target="NT1.36"/>
+   <edge id="e.25" target="NT1.34" source="NT1.9"/>
+   <edge id="e.26" source="NT1.15" target="NT1.45"/>
+   <edge id="e.29" source="NT1.21" target="NT1.27"/>
+   <edge id="e.30" source="NT1.3" target="NT1.21"/>
+   <edge id="e.31" source="NT1.1" target="NT1.3"/>
+   <edge id="e.33" source="NT1.1" target="NT1.10"/>
+   <edge id="e.35" source="NT1.10" target="NT1.18"/>
+   <edge id="e.37" target="NT1.17" source="NT1.10"/>
+   <edge id="e.40" source="NT1.4" target="NT1.15"/>
+   <edge id="e.41" target="NT1.9" source="NT1.4"/>
+   <edge id="e.43" source="NT1.47" target="NT1.1"/>
+   <edge id="e.44" source="NT1.47" target="NT1.4"/>
+   <edge id="e.45" source="NT1.17" target="NT1.24"/>
+  </tree>
+ </trees>
+</nexml>

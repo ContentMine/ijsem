@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">V. chagasii LMG 21353T (AJ577820)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"> V. crassostreae LGP 7T (AJ582799)</otu>
+  <otu id="otu4">LGP 45 (AY751335)</otu>
+  <otu id="otu5">LGP 37 (AJ582793)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="v." cmphy:species="kanaloae" cmphy:strain="LMG 2o539T" cmphy:id="AJS77821">v. kanaloae LMG 2o539T (AJ577821)</otu>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="v." cmphy:species="pomeroyi" cmphy:strain="LMG 2o537T" cmphy:id="AJS77822">v. pomeroyi LMG 2o537T (AJ577822)</otu>
+  <otu id="otu9">LGP 16 (AJ582794)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="v." cmphy:species="splendidus" cmphy:strain="LMG 4o42T" cmphy:id="AJS15292"> v. splendidus LMG 4o42T (AJ515292)</otu>
+  <otu id="otu12">V. cyclitrophicus LMG 213597 (DQ164536)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.4" label="NT1.4" x="499.0" y="136.0"/>
+   <node id="NT1.16" x="623.0" y="145.0" label="98"/>
+   <node id="NT1.17" label="NT1.17" x="624.0" y="118.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="624.0" y="173.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="652.0" y="64.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="4.0" y="552.0" root="true"/>
+   <edge id="e.0" target="NT1.21" source="NT1.4"/>
+   <edge id="e.3" source="NT1.16" target="NT1.17"/>
+   <edge id="e.4" source="NT1.16" target="NT1.18"/>
+   <edge id="e.11" target="NT1.4" source="NT1.23"/>
+   <edge id="e.16" target="NT1.16" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

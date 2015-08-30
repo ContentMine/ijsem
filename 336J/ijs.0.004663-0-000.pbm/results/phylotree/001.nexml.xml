@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Mycetocola" cmphy:species="saprophilus" cmphy:strain="IFO 16274T" cmphy:id="ABO12647" editRecord="[0__O]">Mycetocola saprophilus IFO 16274T (AB012647)</otu>
+  <otu id="otu2">L. iarius DSM 174O2T(AM040493)</otu>
+  <otu id="otu3">L. tardus DSM 19811T (AM940158)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">L. luti CIP 1O8818T (AMO72819)</otu>
+  <otu id="otu6"> L. chromiireducens subsp. chromiireducens LMG 22506T (AJ781046)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">L. chironomi MM2LBT (EU346911)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">L. aIIuviiClP 108819T (AM072820)</otu>
+  <otu id="otu11">Microbacterium Iacticum DSM 20427T (X77441)</otu>
+  <otu id="otu12">L. albus IAM 14851T (AB012594)</otu>
+  <otu id="otu13" cmphy:genus="Arthrobacter" cmphy:species="globiformis" cmphy:strain="DSM 20124T" cmphy:id="X80736" editRecord="[]">Arthrobacter globiformis DSM 20124T (X80736)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.9" label="NT1.9" x="485.0" y="388.0" otu="otu1"/>
+   <node id="NT1.24" label="NT1.24" x="621.0" y="463.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="1.0" y="405.0" root="true"/>
+   <edge id="e.10" target="NT1.9" source="NT1.25"/>
+   <edge id="e.22" source="NT1.25" target="NT1.24"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Comamonas" cmphy:species="zonglianii" cmphy:strain="BF-37" cmphy:id="GQZ45981" editRecord="[2__Z]">Comamonas zonglianii BF-37 (GQ245981)</otu>
+  <otu id="otu2" cmphy:genus="Pseudacidovorax" cmphy:species="intermedius" cmphy:strain="CC21T" cmphy:id="EF469609" editRecord="[]">Pseudacidovorax intermedius CC21T (EF469609)</otu>
+  <otu id="otu3" cmphy:genus="Comamonas" cmphy:species="aquatica" cmphy:strain="LMG 2370T" cmphy:id="AJ430344" editRecord="[]">Comamonas aquatica LMG 2370T (AJ430344)</otu>
+  <otu id="otu4" cmphy:genus="Alicycliphilus" cmphy:species="denitrificans" cmphy:strain="K601 T" cmphy:id="AJ418042" editRecord="[]">Alicycliphilus denitrificans K601 T (AJ418042)</otu>
+  <otu id="otu5">Comamonas terrigena LMG1253T(AJ43O342)</otu>
+  <otu id="otu6" cmphy:genus="Comamonas" cmphy:species="kerstersii" cmphy:strain="LMG 34757" cmphy:id="AJ430347" editRecord="[]">Comamonas kerstersii LMG 34757 (AJ430347)</otu>
+  <otu id="otu7">Hydrogenophaga caeniEMB71T (DQ372983)</otu>
+  <otu id="otu8">Comamonas odontotermitis LMG 23579T(DQ453128)</otu>
+  <otu id="otu9">Comamonas nitrativorans DSM 13191T(AJ251577)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Comamonas" cmphy:species="denitrificans" cmphy:strain="1 2ST" cmphy:id="AFZ33877" editRecord="[2__Z]">Comamonas denitrificans 1 2ST (AF233877)</otu>
+  <otu id="otu11">Comamonas koreensis KCTC 1 2OO5T (AF275377)</otu>
+  <otu id="otu12">Comamonas testosteroniATCC 1 1996T (M1 1224)</otu>
+  <otu id="otu13">Comamonas composti YY287T(EF015884)</otu>
+  <otu id="otu14" cmphy:genus="Limnohabitans" cmphy:species="curvus" cmphy:strain="MWH-C5T" cmphy:id="AJ938026" editRecord="[]">Limnohabitans curvus MWH-C5T (AJ938026)</otu>
+  <otu id="otu15">Comamonas badia IAM 148397 (AB16433Q)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="43.0" y="369.0"/>
+   <node id="NT1.3" x="53.0" y="219.0" label="61"/>
+   <node id="NT1.4" label="NT1.4" x="98.0" y="342.0"/>
+   <node id="NT1.6" x="116.0" y="166.0" label="B1"/>
+   <node id="NT1.10" label="NT1.10" x="200.0" y="170.0"/>
+   <node id="NT1.11" label="NT1.11" x="202.0" y="270.0" otu="otu1"/>
+   <node id="NT1.15" label="NT1.15" x="288.0" y="327.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="313.0" y="156.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="316.0" y="356.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="323.0" y="185.0" otu="otu6"/>
+   <node id="NT1.23" label="NT1.23" x="404.0" y="242.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="451.0" y="382.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="2.0" y="314.0" root="true"/>
+   <edge id="e.3" source="NT1.10" target="NT1.16"/>
+   <edge id="e.4" source="NT1.10" target="NT1.19"/>
+   <edge id="e.5" source="NT1.3" target="NT1.11"/>
+   <edge id="e.7" target="NT1.23" source="NT1.6"/>
+   <edge id="e.8" source="NT1.4" target="NT1.17"/>
+   <edge id="e.10" target="NT1.27" source="NT1.2"/>
+   <edge id="e.16" source="NT1.3" target="NT1.6"/>
+   <edge id="e.18" target="NT1.10" source="NT1.6"/>
+   <edge id="e.19" target="NT1.3" source="NT1.29"/>
+   <edge id="e.21" source="NT1.2" target="NT1.4"/>
+   <edge id="e.23" source="NT1.29" target="NT1.2"/>
+   <edge id="e.24" source="NT1.4" target="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

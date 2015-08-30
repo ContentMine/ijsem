@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Trichococcus" cmphy:species="pasteurii" cmphy:strain="DSM 23817" cmphy:id="X87150" editRecord="[]">Trichococcus pasteurii DSM 23817 (X87150)</otu>
+  <otu id="otu3" cmphy:genus="Carnobacteriurn" cmphy:species="dfvergens" cmphy:strain="NCDO 27637" cmphy:id="X54270" editRecord="[]">Carnobacteriurn dfvergens NCDO 27637 (X54270)</otu>
+  <otu id="otu4">Granulicatella adiacens ATCC 491 75T (D50540)</otu>
+  <otu id="otu5" cmphy:genus="Camobacterium" cmphy:species="mobile" cmphy:strain="NCFB 2765T" cmphy:id="X54271" editRecord="[]">Camobacterium mobile NCFB 2765T (X54271)</otu>
+  <otu id="otu6" cmphy:genus="Lactobacillus" cmphy:species="animalis" cmphy:strain="DSM 2O602T" cmphy:id="M58807" editRecord="[]">Lactobacillus animalis DSM 2O602T (M58807)</otu>
+  <otu id="otu7">GranulicateNa elegans DSM 1 1693T (AFO16390)</otu>
+  <otu id="otu8">Alkalibacierfum olivapovliticus WW2-SN4aT (AF14351 1)</otu>
+  <otu id="otu9">Abiotrophia defective ATCC 491 76T (D50541)</otu>
+  <otu id="otu10">Aerococcus vlridans ATCC 1 15637 (M58797)</otu>
+  <otu id="otu11" cmphy:genus="Facklamia" cmphy:species="hominis" cmphy:strain="CCUG 36813T" cmphy:id="Y10772" editRecord="[]">Facklamia hominis CCUG 36813T (Y10772)</otu>
+  <otu id="otu12">Eremococcus coleocola CCUG 382O7T(Y1778O)</otu>
+  <otu id="otu13">clone isolated from Psoroptes ovis (AF124034)</otu>
+  <otu id="otu14">clone isolated from Psoroptes avls (AF124041)</otu>
+  <otu id="otu15" cmphy:genus="Alloiococcus" cmphy:species="otitis" cmphy:strain="NCFB 289OT" cmphy:id="X59765" editRecord="[]">Alloiococcus otitis NCFB 289OT (X59765)</otu>
+  <otu id="otu16" cmphy:genus="Doloslgranulum" cmphy:species="plgrum" cmphy:strain="NCFB 2975T" cmphy:id="X70907" editRecord="[]">Doloslgranulum plgrum NCFB 2975T (X70907)</otu>
+  <otu id="otu17">lgnavlgranum ruoffiae CCUG 37658T(Y16426)</otu>
+  <otu id="otu18" cmphy:genus="Allofustis" cmphy:species="seminis" cmphy:strain="ccue 4543sT" cmphy:id="AJ410303" editRecord="[]">Allofustis seminis ccue 4543sT (AJ410303)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="54.0" y="269.0"/>
+   <node id="NT1.2" label="NT1.2" x="76.0" y="462.0"/>
+   <node id="NT1.4" label="NT1.4" x="115.0" y="514.0"/>
+   <node id="NT1.5" label="NT1.5" x="117.0" y="112.0"/>
+   <node id="NT1.9" label="NT1.9" x="193.0" y="530.0"/>
+   <node id="NT1.11" label="NT1.11" x="213.0" y="170.0"/>
+   <node id="NT1.15" label="NT1.15" x="301.0" y="490.0" otu="otu2"/>
+   <node id="NT1.17" label="NT1.17" x="313.0" y="521.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="327.0" y="554.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="341.0" y="49.0" otu="otu6"/>
+   <node id="NT1.26" label="NT1.26" x="461.0" y="395.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="528.0" y="174.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="544.0" y="143.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="644.0" y="79.0" otu="otu18"/>
+   <node id="NT1.34" label="NT1.34" x="7.0" y="71.0" root="true"/>
+   <edge id="e.0" target="NT1.20" source="NT1.34"/>
+   <edge id="e.1" source="NT1.9" target="NT1.17"/>
+   <edge id="e.3" source="NT1.1" target="NT1.5"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" source="NT1.2" target="NT1.4"/>
+   <edge id="e.10" target="NT1.11" source="NT1.5"/>
+   <edge id="e.11" source="NT1.4" target="NT1.9"/>
+   <edge id="e.18" source="NT1.34" target="NT1.1"/>
+   <edge id="e.21" source="NT1.9" target="NT1.19"/>
+   <edge id="e.23" source="NT1.4" target="NT1.15"/>
+   <edge id="e.26" source="NT1.11" target="NT1.31"/>
+   <edge id="e.28" target="NT1.26" source="NT1.2"/>
+   <edge id="e.30" source="NT1.5" target="NT1.33"/>
+   <edge id="e.31" target="NT1.30" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

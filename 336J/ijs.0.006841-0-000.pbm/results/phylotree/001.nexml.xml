@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Tessaracoccus" cmphy:species="flavescens" cmphy:strain="SST-39T" cmphy:id="AMB93882" editRecord="[3__B]">Tessaracoccus flavescens SST-39T (AM393882)</otu>
+  <otu id="otu3" cmphy:genus="Luteococcus" cmphy:species="sanguinis" cmphy:strain="CCUG 338977" cmphy:id="AJ416758" editRecord="[]">Luteococcus sanguinis CCUG 338977 (AJ416758)</otu>
+  <otu id="otu4">Strain KSS-17SeT (FM178840)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[8__B]" cmphy:genus="Aestuariimicrobium" cmphy:species="kwangyangense" cmphy:strain="R27T" cmphy:id="DQB30982" editRecord="[8__B]"> Aestuariimicrobium kwangyangense R27T (DQ830982)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Propionibacterium" cmphy:species="australiense" cmphy:strain="98AO72T" cmphy:id="AFZ25962" editRecord="[2__Z]">Propionibacterium australiense 98AO72T (AF225962)</otu>
+  <otu id="otu9">Propionibacterium Iymphophilum DSM 49O3T (AJOO3056)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Granulicoccus" cmphy:species="phenolivorans" cmphy:strain="PG-02T" cmphy:id="AYS66575" editRecord="[5__S]"> Granulicoccus phenolivorans PG-02T (AY566575)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Propionibacterium" cmphy:species="propionicum" cmphy:strain="DSM 43307T" cmphy:id="AJO03058" editRecord="[0__O]"> Propionibacterium propionicum DSM 43307T (AJ003058)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Propionibacterium" cmphy:species="rnicroaerophilum" cmphy:strain="M5T" cmphy:id="AFZ34623" editRecord="[2__Z]">Propionibacterium rnicroaerophilum M5T (AF234623)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Propionibacterium" cmphy:species="jensenii" cmphy:strain="DSM 205357" cmphy:id="X53219" editRecord="[]">Propionibacterium jensenii DSM 205357 (X53219)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="39.0" y="252.0"/>
+   <node id="NT1.3" label="NT1.3" x="55.0" y="166.0"/>
+   <node id="NT1.4" label="NT1.4" x="67.0" y="110.0"/>
+   <node id="NT1.5" x="107.0" y="526.0" label="98"/>
+   <node id="NT1.12" x="270.0" y="590.0" label="100"/>
+   <node id="NT1.14" label="NT1.14" x="281.0" y="231.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="318.0" y="63.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="385.0" y="147.0" otu="otu7"/>
+   <node id="NT1.20" x="393.0" y="632.0" label="100"/>
+   <node id="NT1.21" label="NT1.21" x="425.0" y="485.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="464.0" y="316.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="475.0" y="570.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="504.0" y="611.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="506.0" y="655.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="7.0" y="357.0" root="true"/>
+   <edge id="e.0" target="NT1.15" source="NT1.4"/>
+   <edge id="e.3" source="NT1.4" target="NT1.19"/>
+   <edge id="e.4" target="NT1.14" source="NT1.3"/>
+   <edge id="e.7" target="NT1.24" source="NT1.2"/>
+   <edge id="e.10" target="NT1.21" source="NT1.5"/>
+   <edge id="e.12" target="NT1.25" source="NT1.12"/>
+   <edge id="e.14" source="NT1.20" target="NT1.28"/>
+   <edge id="e.15" source="NT1.20" target="NT1.30"/>
+   <edge id="e.18" source="NT1.3" target="NT1.4"/>
+   <edge id="e.19" source="NT1.2" target="NT1.3"/>
+   <edge id="e.23" target="NT1.5" source="NT1.31"/>
+   <edge id="e.24" source="NT1.5" target="NT1.12"/>
+   <edge id="e.26" source="NT1.12" target="NT1.20"/>
+   <edge id="e.28" source="NT1.31" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

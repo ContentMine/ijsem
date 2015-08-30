@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Pannonibacter" cmphy:species="phragmitetus" cmphy:strain="C6l1 7" cmphy:id="AJB14749" editRecord="[3__B]">Pannonibacter phragmitetus C6l1 7 (AJ314749)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Pannonibacter" cmphy:species="phragmitetus" cmphy:strain="C6l8" cmphy:id="AJB14748" editRecord="[3__B]">Pannonibacter phragmitetus C6l8 (AJ314748)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Ahrensia" cmphy:species="kieliensis" cmphy:strain="IAM 126187" cmphy:id="D88524" editRecord="[]">Ahrensia kieliensis IAM 126187 (D88524)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">1Agrobacterium agiIe' IAM 12615 (D88521)</otu>
+  <otu id="otu10">Roseibium denhamense OCh 254T(D85832)</otu>
+  <otu id="otu11" cmphy:genus="Roseivivax" cmphy:species="halodurans" cmphy:strain="OCh 239T" cmphy:id="D85829" editRecord="[]">Roseivivax halodurans OCh 239T (D85829)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Salipiger" cmphy:species="mucosus" cmphy:strain="A3T" cmphy:id="AYS27274" editRecord="[5__S]">Salipiger mucosus A3T (AY527274)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="134.0" y="437.0"/>
+   <node id="NT1.2" label="NT1.2" x="167.0" y="364.0"/>
+   <node id="NT1.4" label="NT1.4" x="244.0" y="512.0"/>
+   <node id="NT1.13" label="NT1.13" x="347.0" y="279.0"/>
+   <node id="NT1.14" label="NT1.14" x="348.0" y="244.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="350.0" y="338.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="360.0" y="432.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="401.0" y="571.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="422.0" y="477.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="2.0" y="225.0" root="true"/>
+   <edge id="e.1" source="NT1.2" target="NT1.17"/>
+   <edge id="e.2" target="NT1.21" source="NT1.4"/>
+   <edge id="e.3" source="NT1.4" target="NT1.22"/>
+   <edge id="e.5" source="NT1.13" target="NT1.14"/>
+   <edge id="e.8" source="NT1.13" target="NT1.15"/>
+   <edge id="e.11" source="NT1.1" target="NT1.4"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.16" target="NT1.13" source="NT1.2"/>
+   <edge id="e.21" source="NT1.23" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

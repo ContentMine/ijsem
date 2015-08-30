@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[5__S]" cmphy:genus="Janibacter" cmphy:species="melonis" cmphy:strain="CM21O4T" cmphy:id="AYS22568" editRecord="[5__S]">Janibacter melonis CM21O4T (AY522568)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[8__B]" cmphy:genus="Janibacter" cmphy:species="anophelis" cmphy:strain="CCUG 497157" cmphy:id="AYB37752" editRecord="[8__B]">Janibacter anophelis CCUG 497157 (AY837752)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Janibacter limosus DSM 1 1 140T (Y08539)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15">Janibacter terrae C8127 (AF1 76948)</otu>
+  <otu id="otu16" cmphy:edit="[5__S]" cmphy:genus="Phycicoccus" cmphy:species="dokdonensis" cmphy:strain="DS-87" cmphy:id="EFS55583" editRecord="[5__S]">Phycicoccus dokdonensis DS-87 (EF555583)</otu>
+  <otu id="otu17">Humibacillus Xanthopallidus KV-663T (AB282888)</otu>
+  <otu id="otu18">Knoellia subterranea HKI O12OT(AJ294413)</otu>
+  <otu id="otu19">Terrabacter terrae PPLBT (AY9441 76)</otu>
+  <otu id="otu20">Terrabacter tumescens DSM 203O8T(X83812)</otu>
+  <otu id="otu21" cmphy:genus="Tetrasphaera" cmphy:species="duodecadis" cmphy:strain="IAM 14868T" cmphy:id="ABO72496" editRecord="[]">Tetrasphaera duodecadis IAM 14868T (ABO72496)</otu>
+  <otu id="otu22">Terrabacter lapilli LR-26T (AMGQO744 )</otu>
+  <otu id="otu23" cmphy:genus="Terrabacter" cmphy:species="carboxydivorans" cmphy:strain="PY2T" cmphy:id="FJ717334" editRecord="[]">Terrabacter carboxydivorans PY2T (FJ717334)</otu>
+  <otu id="otu24">Terrabacter aerolatus 5516J-36T (EF21 2039)</otu>
+  <otu id="otu25" cmphy:edit="[5__S]" cmphy:genus="Intrasporangium" cmphy:species="calvum" cmphy:strain="DSM 430437" cmphy:id="AJS66282" editRecord="[5__S]">Intrasporangium calvum DSM 430437 (AJ566282)</otu>
+  <otu id="otu26">Arthrobacter globiformis DSM 201 24T (X80736)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="548.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="278.0" y="445.0"/>
+   <node id="NT1.5" label="NT1.5" x="343.0" y="341.0"/>
+   <node id="NT1.10" label="NT1.10" x="406.0" y="595.0"/>
+   <node id="NT1.11" label="NT1.11" x="443.0" y="256.0"/>
+   <node id="NT1.16" label="NT1.16" x="499.0" y="420.0"/>
+   <node id="NT1.22" label="NT1.22" x="608.0" y="551.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="616.0" y="602.0" otu="otu10"/>
+   <node id="NT1.34" label="NT1.34" x="694.0" y="396.0" otu="otu16"/>
+   <node id="NT1.40" label="NT1.40" x="743.0" y="447.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="766.0" y="85.0" otu="otu23"/>
+   <node id="NT1.44" label="NT1.44" x="866.0" y="292.0" otu="otu25"/>
+   <edge id="e.17" source="NT1.5" target="NT1.11"/>
+   <edge id="e.19" source="NT1.3" target="NT1.5"/>
+   <edge id="e.20" source="NT1.5" target="NT1.16"/>
+   <edge id="e.22" target="NT1.3" source="NT1.1"/>
+   <edge id="e.27" target="NT1.10" source="NT1.3"/>
+   <edge id="e.31" source="NT1.10" target="NT1.22"/>
+   <edge id="e.32" target="NT1.24" source="NT1.10"/>
+   <edge id="e.33" source="NT1.16" target="NT1.34"/>
+   <edge id="e.35" target="NT1.40" source="NT1.16"/>
+   <edge id="e.41" target="NT1.44" source="NT1.11"/>
+   <edge id="e.42" target="NT1.42" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

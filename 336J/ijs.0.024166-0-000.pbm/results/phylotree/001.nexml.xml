@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Actinomycetospora" cmphy:species="corticicola" cmphy:strain="O14-5T" cmphy:id="ABS14513" editRecord="[5__S]">Actinomycetospora corticicola O14-5T (AB514513)</otu>
+  <otu id="otu7">Actinomycetospora Iutea TT00-04T (AB514515)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Actinomycetospora" cmphy:species="succinea" cmphy:strain="TT00-49T" cmphy:id="ABS14514" editRecord="[5__S]"> Actinomycetospora succinea TT00-49T (AB514514)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Actinomycetospora" cmphy:species="chlora" cmphy:strain="TT07l-577" cmphy:id="ABS14519" editRecord="[5__S]"> Actinomycetospora chlora TT07l-577 (AB514519)</otu>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="Actinomycetospora" cmphy:species="chiangmaiensis" cmphy:strain="YIM 0006T" cmphy:id="AMB98646" editRecord="[3__B]">Actinomycetospora chiangmaiensis YIM 0006T (AM398646)</otu>
+  <otu id="otu15" cmphy:edit="[5__S]" cmphy:genus="Actinomycetospora" cmphy:species="straminea" cmphy:strain="IYO7-55T" cmphy:id="ABS14518" editRecord="[5__S]">Actinomycetospora straminea IYO7-55T (AB514518)</otu>
+  <otu id="otu16" cmphy:edit="[5__S]" cmphy:genus="Actinomycetospora" cmphy:species="chibensis" cmphy:strain="TTO4-21T" cmphy:id="ABS14517" editRecord="[5__S]">Actinomycetospora chibensis TTO4-21T (AB514517)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Actinomycetospora" cmphy:species="cinnamomea" cmphy:strain="IYO7-53T" cmphy:id="ABS14520" editRecord="[5__S]"> Actinomycetospora cinnamomea IYO7-53T (AB514520)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="308.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="79.0" y="219.0"/>
+   <node id="NT1.6" label="NT1.6" x="115.0" y="275.0"/>
+   <node id="NT1.10" label="NT1.10" x="144.0" y="110.0"/>
+   <node id="NT1.11" label="NT1.11" x="169.0" y="294.0" otu="otu6"/>
+   <node id="NT1.12" x="172.0" y="67.0" label="80"/>
+   <node id="NT1.18" label="NT1.18" x="177.0" y="100.0"/>
+   <node id="NT1.20" label="NT1.20" x="204.0" y="154.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="208.0" y="31.0"/>
+   <node id="NT1.23" label="NT1.23" x="213.0" y="83.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="213.0" y="258.0" otu="otu14"/>
+   <node id="NT1.25" label="NT1.25" x="223.0" y="49.0" otu="otu15"/>
+   <node id="NT1.26" label="NT1.26" x="225.0" y="14.0" otu="otu16"/>
+   <node id="NT1.27" label="NT1.27" x="237.0" y="119.0" otu="otu17"/>
+   <edge id="e.0" source="NT1.21" target="NT1.26"/>
+   <edge id="e.2" source="NT1.21" target="NT1.25"/>
+   <edge id="e.4" source="NT1.18" target="NT1.23"/>
+   <edge id="e.5" source="NT1.18" target="NT1.27"/>
+   <edge id="e.7" source="NT1.10" target="NT1.20"/>
+   <edge id="e.12" source="NT1.6" target="NT1.11"/>
+   <edge id="e.16" source="NT1.6" target="NT1.24"/>
+   <edge id="e.17" target="NT1.21" source="NT1.12"/>
+   <edge id="e.19" source="NT1.10" target="NT1.12"/>
+   <edge id="e.20" source="NT1.12" target="NT1.18"/>
+   <edge id="e.21" target="NT1.10" source="NT1.5"/>
+   <edge id="e.24" target="NT1.5" source="NT1.1"/>
+   <edge id="e.25" source="NT1.5" target="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

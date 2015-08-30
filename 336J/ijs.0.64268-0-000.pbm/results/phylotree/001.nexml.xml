@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Frankie sp. (AF063641)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Sporichthya" cmphy:species="polymorpha" cmphy:strain="IFO 12702T" cmphy:id="ABO25317" editRecord="[0__O]">Sporichthya polymorpha IFO 12702T (AB025317)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Strain KST3-10T (DQ200983)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Blastococcus" cmphy:species="saxobsidens" cmphy:strain="BC448" cmphy:id="AJB16571" editRecord="[3__B]"> Blastococcus saxobsidens BC448 (AJ316571)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Modestobacter" cmphy:species="multiseptatus" cmphy:strain="DSM 444O6T" cmphy:id="Y18646" editRecord="[]">Modestobacter multiseptatus DSM 444O6T (Y18646)</otu>
+  <otu id="otu10">Geodermatophilus obscurus DSM 431 BOT (X92356)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="290.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="42.0" y="228.0"/>
+   <node id="NT1.6" label="NT1.6" x="187.0" y="99.0"/>
+   <node id="NT1.11" label="NT1.11" x="222.0" y="316.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="274.0" y="61.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="334.0" y="162.0" otu="otu9"/>
+   <edge id="e.1" target="NT1.15" source="NT1.6"/>
+   <edge id="e.3" source="NT1.6" target="NT1.17"/>
+   <edge id="e.5" target="NT1.11" source="NT1.4"/>
+   <edge id="e.10" target="NT1.6" source="NT1.4"/>
+   <edge id="e.12" target="NT1.4" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

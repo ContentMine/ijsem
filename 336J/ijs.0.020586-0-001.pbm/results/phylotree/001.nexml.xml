@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Desulfococcus" cmphy:species="biacutus" cmphy:strain="DSM 56517" cmphy:id="AJZ77887" editRecord="[2__Z]">Desulfococcus biacutus DSM 56517 (AJ277887)</otu>
+  <otu id="otu3" cmphy:genus="Desulfococcus" cmphy:species="multivorans" cmphy:strain="ATCC 33890T" cmphy:id="M34405" editRecord="[]">Desulfococcus multivorans ATCC 33890T (M34405)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Desulfosarcina" cmphy:species="cetonica" cmphy:strain="DSM 7267T" cmphy:id="AJZ37603" editRecord="[2__Z]">Desulfosarcina cetonica DSM 7267T (AJ237603)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Desulfobacterium" cmphy:species="indolicum" cmphy:strain="DSM 3383T" cmphy:id="AJZ37607" editRecord="[2__Z]">Desulfobacterium indolicum DSM 3383T (AJ237607)</otu>
+  <otu id="otu6" cmphy:genus="Desulfonema" cmphy:species="ishimotonii" cmphy:strain="DSM 9680T" cmphy:id="U45992" editRecord="[]">Desulfonema ishimotonii DSM 9680T (U45992)</otu>
+  <otu id="otu7" cmphy:genus="Desulfatibacillum" cmphy:species="alkenivorans" cmphy:strain="PF28O3T" cmphy:id="AY493562" editRecord="[]">Desulfatibacillum alkenivorans PF28O3T (AY493562)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Desulfoglaeba" cmphy:species="alkanexedens" cmphy:strain="ALDCT" cmphy:id="DQB03457" editRecord="[3__B]">Desulfoglaeba alkanexedens ALDCT (DQ303457)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Desulfomonile" cmphy:species="limimaris" cmphy:strain="ATCC 700979T" cmphy:id="AFZ30531" editRecord="[2__Z]">Desulfomonile limimaris ATCC 700979T (AF230531)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Desulfobacterium" cmphy:species="anilini" cmphy:strain="DSM 468OT" cmphy:id="AJZ37601" editRecord="[2__Z]">Desulfobacterium anilini DSM 468OT (AJ237601)</otu>
+  <otu id="otu11">Desulfacinum hydrothermale MT-96T(AF17O417)</otu>
+  <otu id="otu12" cmphy:genus="Syntrophobacter" cmphy:species="pfennigii" cmphy:strain="KoProp1T" cmphy:id="X82875" editRecord="[]">Syntrophobacter pfennigii KoProp1T (X82875)</otu>
+  <otu id="otu13">'Desulfacinum subterraneum) 101 (AF385080)</otu>
+  <otu id="otu14" cmphy:genus="Syntrophobacter" cmphy:species="fumaroxidans" cmphy:strain="MPOBT" cmphy:id="X82874" editRecord="[]">Syntrophobacter fumaroxidans MPOBT (X82874)</otu>
+  <otu id="otu15" cmphy:genus="Desulforhabdus" cmphy:species="amnigena" cmphy:strain="ASRB1T" cmphy:id="X83274" editRecord="[]">Desulforhabdus amnigena ASRB1T (X83274)</otu>
+  <otu id="otu16" cmphy:genus="Desulfacinum" cmphy:species="infernum" cmphy:strain="BaG1T" cmphy:id="L27426" editRecord="[]">Desulfacinum infernum BaG1T (L27426)</otu>
+  <otu id="otu17" cmphy:genus="Pelobacter" cmphy:species="acetylenicus" cmphy:strain="DSM 3246T" cmphy:id="X70955" editRecord="[]">Pelobacter acetylenicus DSM 3246T (X70955)</otu>
+  <otu id="otu18">Syntrophobacter sulfatireducens TB81O6T (AY651 787)</otu>
+  <otu id="otu19" cmphy:edit="[2__Z]" cmphy:genus="Desulfovirga" cmphy:species="adipica" cmphy:strain="TsuAS1T" cmphy:id="AJZ37605" editRecord="[2__Z]">Desulfovirga adipica TsuAS1T (AJ237605)</otu>
+  <otu id="otu20" cmphy:genus="Desulfosoma" cmphy:species="caldarium" cmphy:strain="USBA-053T" cmphy:id="FJ491989" editRecord="[]">Desulfosoma caldarium USBA-053T (FJ491989)</otu>
+  <otu id="otu21" cmphy:genus="Pembacter" cmphy:species="venetianus" cmphy:strain="DSM 23947" cmphy:id="U41562" editRecord="[]">Pembacter venetianus DSM 23947 (U41562)</otu>
+  <otu id="otu22">Desulfuromonas thiophila DSM 8987T (Y1 1560)</otu>
+  <otu id="otu23" cmphy:genus="Syntrophobacter" cmphy:species="wolinii" cmphy:strain="DSM 2805T" cmphy:id="X70905" editRecord="[]">Syntrophobacter wolinii DSM 2805T (X70905)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="17.0" y="858.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="19.0" y="858.0"/>
+   <node id="NT1.3" label="NT1.3" x="31.0" y="910.0" otu="otu2"/>
+   <node id="NT1.4" x="44.0" y="811.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="91.0" y="873.0" otu="otu3"/>
+   <node id="NT1.6" label="NT1.6" x="103.0" y="748.0"/>
+   <node id="NT1.7" label="NT1.7" x="114.0" y="657.0"/>
+   <node id="NT1.8" label="NT1.8" x="125.0" y="751.0"/>
+   <node id="NT1.9" label="NT1.9" x="127.0" y="761.0"/>
+   <node id="NT1.10" label="NT1.10" x="180.0" y="498.0"/>
+   <node id="NT1.11" label="NT1.11" x="208.0" y="380.0"/>
+   <node id="NT1.12" label="NT1.12" x="224.0" y="558.0"/>
+   <node id="NT1.13" label="NT1.13" x="236.0" y="723.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="243.0" y="761.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="243.0" y="836.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="247.0" y="799.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="292.0" y="285.0"/>
+   <node id="NT1.18" label="NT1.18" x="316.0" y="385.0"/>
+   <node id="NT1.20" label="NT1.20" x="346.0" y="215.0"/>
+   <node id="NT1.21" label="NT1.21" x="352.0" y="241.0"/>
+   <node id="NT1.22" label="NT1.22" x="353.0" y="420.0"/>
+   <node id="NT1.23" label="NT1.23" x="357.0" y="171.0"/>
+   <node id="NT1.25" label="NT1.25" x="367.0" y="127.0"/>
+   <node id="NT1.26" label="NT1.26" x="374.0" y="351.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="383.0" y="537.0" otu="otu9"/>
+   <node id="NT1.30" label="NT1.30" x="397.0" y="628.0"/>
+   <node id="NT1.31" label="NT1.31" x="400.0" y="687.0" otu="otu10"/>
+   <node id="NT1.33" label="NT1.33" x="418.0" y="91.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="425.0" y="128.0" otu="otu14"/>
+   <node id="NT1.36" label="NT1.36" x="425.0" y="202.0" otu="otu15"/>
+   <node id="NT1.37" label="NT1.37" x="425.0" y="463.0" otu="otu16"/>
+   <node id="NT1.38" label="NT1.38" x="425.0" y="612.0" otu="otu17"/>
+   <node id="NT1.40" label="NT1.40" x="431.0" y="239.0" otu="otu19"/>
+   <node id="NT1.41" label="NT1.41" x="435.0" y="388.0" otu="otu20"/>
+   <node id="NT1.42" label="NT1.42" x="435.0" y="650.0" otu="otu21"/>
+   <node id="NT1.44" label="NT1.44" x="464.0" y="277.0" otu="otu23"/>
+   <edge id="e.0" source="NT1.25" target="NT1.35"/>
+   <edge id="e.2" source="NT1.22" target="NT1.41"/>
+   <edge id="e.3" target="NT1.37" source="NT1.22"/>
+   <edge id="e.4" source="NT1.12" target="NT1.28"/>
+   <edge id="e.6" source="NT1.9" target="NT1.14"/>
+   <edge id="e.7" source="NT1.8" target="NT1.13"/>
+   <edge id="e.8" source="NT1.9" target="NT1.16"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.25" source="NT1.23"/>
+   <edge id="e.12" source="NT1.20" target="NT1.23"/>
+   <edge id="e.13" source="NT1.17" target="NT1.20"/>
+   <edge id="e.14" source="NT1.20" target="NT1.21"/>
+   <edge id="e.15" source="NT1.11" target="NT1.17"/>
+   <edge id="e.16" source="NT1.18" target="NT1.22"/>
+   <edge id="e.17" source="NT1.10" target="NT1.11"/>
+   <edge id="e.18" source="NT1.11" target="NT1.12"/>
+   <edge id="e.21" source="NT1.7" target="NT1.10"/>
+   <edge id="e.23" target="NT1.30" source="NT1.12"/>
+   <edge id="e.24" source="NT1.6" target="NT1.7"/>
+   <edge id="e.25" source="NT1.7" target="NT1.8"/>
+   <edge id="e.26" source="NT1.4" target="NT1.6"/>
+   <edge id="e.27" source="NT1.8" target="NT1.9"/>
+   <edge id="e.28" source="NT1.2" target="NT1.4"/>
+   <edge id="e.29" source="NT1.2" target="NT1.3"/>
+   <edge id="e.30" source="NT1.4" target="NT1.5"/>
+   <edge id="e.31" source="NT1.6" target="NT1.15"/>
+   <edge id="e.32" source="NT1.10" target="NT1.31"/>
+   <edge id="e.33" source="NT1.18" target="NT1.26"/>
+   <edge id="e.34" source="NT1.23" target="NT1.36"/>
+   <edge id="e.35" source="NT1.21" target="NT1.40"/>
+   <edge id="e.37" source="NT1.21" target="NT1.44"/>
+   <edge id="e.38" source="NT1.17" target="NT1.18"/>
+   <edge id="e.39" source="NT1.25" target="NT1.33"/>
+   <edge id="e.41" source="NT1.30" target="NT1.38"/>
+   <edge id="e.42" source="NT1.30" target="NT1.42"/>
+  </tree>
+ </trees>
+</nexml>

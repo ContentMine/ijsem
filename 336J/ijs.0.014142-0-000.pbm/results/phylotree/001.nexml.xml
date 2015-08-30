@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Promicromonospora" cmphy:species="kroppenstedtii" cmphy:strain="RS167" cmphy:id="AM709608" editRecord="[]">Promicromonospora kroppenstedtii RS167 (AM709608)</otu>
+  <otu id="otu2" cmphy:genus="Promicromonospora" cmphy:species="vindobonensis" cmphy:strain="V45T" cmphy:id="AJ487302" editRecord="[]">Promicromonospora vindobonensis V45T (AJ487302)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Promicromonospora" cmphy:species="sukumoe" cmphy:strain="DSM 44121T" cmphy:id="AJZ72024" editRecord="[2__Z]">Promicromonospora sukumoe DSM 44121T (AJ272024)</otu>
+  <otu id="otu4">Promicromonospora citrea DSM 431 10T (X83808)</otu>
+  <otu id="otu5" cmphy:genus="Promicromonospora" cmphy:species="aerolata" cmphy:strain="V54AT" cmphy:id="AJ487303" editRecord="[]">Promicromonospora aerolata V54AT (AJ487303)</otu>
+  <otu id="otu6" cmphy:genus="Promicromonospora" cmphy:species="flava" cmphy:strain="CC 0387" cmphy:id="AM992980" editRecord="[]">Promicromonospora flava CC 0387 (AM992980)</otu>
+  <otu id="otu7">lsoptericola variabilis MX5T (AJ298873)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Xylanimicrobium" cmphy:species="pachnodae" cmphy:strain="VPCX2T" cmphy:id="AFI05422" editRecord="[1__I]">Xylanimicrobium pachnodae VPCX2T (AF105422)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Xylanibacterium" cmphy:species="ulmi" cmphy:strain="XILOBT" cmphy:id="AYZ73185" editRecord="[2__Z]">Xylanibacterium ulmi XILOBT (AY273185)</otu>
+  <otu id="otu11" cmphy:genus="Xylanimonas" cmphy:species="cellulosilytica" cmphy:strain="DSM 15894T" cmphy:id="AF403541" editRecord="[]">Xylanimonas cellulosilytica DSM 15894T (AF403541)</otu>
+  <otu id="otu12" cmphy:genus="Cellulosimicrobium" cmphy:species="cellulans" cmphy:strain="DSM 43879T" cmphy:id="X83809" editRecord="[]">Cellulosimicrobium cellulans DSM 43879T (X83809)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Myceligenerans" cmphy:species="xiligouense" cmphy:strain="XLGQA1 0.21" cmphy:id="AYB54285" editRecord="[3__B]">Myceligenerans xiligouense XLGQA1 0.21 (AY354285)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="90.0" y="443.0"/>
+   <node id="NT1.2" label="NT1.2" x="238.0" y="380.0"/>
+   <node id="NT1.5" label="NT1.5" x="307.0" y="193.0"/>
+   <node id="NT1.6" label="NT1.6" x="317.0" y="142.0"/>
+   <node id="NT1.7" label="NT1.7" x="401.0" y="95.0"/>
+   <node id="NT1.9" label="NT1.9" x="433.0" y="243.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="448.0" y="554.0"/>
+   <node id="NT1.11" label="NT1.11" x="474.0" y="135.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="483.0" y="189.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="510.0" y="80.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="510.0" y="595.0"/>
+   <node id="NT1.16" label="NT1.16" x="513.0" y="352.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="684.0" y="623.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="815.0" y="568.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="904.0" y="514.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="909.0" y="406.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="909.0" y="677.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="4.0" y="560.0" root="true"/>
+   <edge id="e.0" target="NT1.14" source="NT1.7"/>
+   <edge id="e.1" source="NT1.7" target="NT1.11"/>
+   <edge id="e.4" source="NT1.15" target="NT1.20"/>
+   <edge id="e.5" source="NT1.2" target="NT1.22"/>
+   <edge id="e.7" source="NT1.6" target="NT1.7"/>
+   <edge id="e.8" source="NT1.5" target="NT1.6"/>
+   <edge id="e.9" target="NT1.5" source="NT1.1"/>
+   <edge id="e.11" source="NT1.1" target="NT1.2"/>
+   <edge id="e.13" target="NT1.10" source="NT1.1"/>
+   <edge id="e.14" source="NT1.10" target="NT1.15"/>
+   <edge id="e.15" source="NT1.24" target="NT1.1"/>
+   <edge id="e.16" source="NT1.24" target="NT1.23"/>
+   <edge id="e.17" source="NT1.2" target="NT1.16"/>
+   <edge id="e.18" source="NT1.5" target="NT1.9"/>
+   <edge id="e.19" source="NT1.6" target="NT1.12"/>
+   <edge id="e.21" source="NT1.15" target="NT1.19"/>
+   <edge id="e.22" source="NT1.10" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

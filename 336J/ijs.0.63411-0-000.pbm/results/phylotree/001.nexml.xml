@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Microbulbifer" cmphy:species="hydrolyticus" cmphy:strain="IRE-31T" cmphy:id="U58338" editRecord="[]">Microbulbifer hydrolyticus IRE-31T (U58338)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Teredinibacter" cmphy:species="turnerae" cmphy:strain="T7902T" cmphy:id="AYO28398" editRecord="[0__O]">Teredinibacter turnerae T7902T (AY028398)</otu>
+  <otu id="otu8" cmphy:genus="Marinobacter" cmphy:species="hydrocarbonoclasticus" cmphy:strain="ATCC 498407" cmphy:id="X67022" editRecord="[]">Marinobacter hydrocarbonoclasticus ATCC 498407 (X67022)</otu>
+  <otu id="otu9">Strain F R1 0507 (AY676463)</otu>
+  <otu id="otu10">Oceanospirillum Iinum ATCC 113367 (M22365)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Hahella" cmphy:species="chejuensis" cmphy:strain="KCTC 23967" cmphy:id="AFI95410" editRecord="[1__I]">Hahella chejuensis KCTC 23967 (AF195410)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Zooshikella" cmphy:species="ganghwensis" cmphy:strain="JC2044T" cmphy:id="AYI30994" editRecord="[1__I]">Zooshikella ganghwensis JC2044T (AY130994)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Marinobacterium" cmphy:species="georgiense" cmphy:strain="KW-407" cmphy:id="U58339" editRecord="[]">Marinobacterium georgiense KW-407 (U58339)</otu>
+  <otu id="otu15" cmphy:genus="Alcanivorax" cmphy:species="borkumensis" cmphy:strain="SK2T" cmphy:id="Y12579" editRecord="[]">Alcanivorax borkumensis SK2T (Y12579)</otu>
+  <otu id="otu16" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="DSM 50O71T" cmphy:id="X06684" editRecord="[]">Pseudomonas aeruginosa DSM 50O71T (X06684)</otu>
+  <otu id="otu17">Fundibacterjadensis T9T (AJOO1150)</otu>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Neptunomonas" cmphy:species="naphthovorans" cmphy:strain="NAG-2 N-126T" cmphy:id="AFO53734" editRecord="[0__O]">Neptunomonas naphthovorans NAG-2 N-126T (AF053734)</otu>
+  <otu id="otu19" cmphy:genus="Alteromonas" cmphy:species="macleodii" cmphy:strain="DSM 6062T" cmphy:id="Y18228" editRecord="[]">Alteromonas macleodii DSM 6062T (Y18228)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="393.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="25.0" y="393.0"/>
+   <node id="NT1.3" label="NT1.3" x="64.0" y="124.0"/>
+   <node id="NT1.4" label="NT1.4" x="94.0" y="240.0"/>
+   <node id="NT1.6" label="NT1.6" x="100.0" y="92.0"/>
+   <node id="NT1.7" label="NT1.7" x="102.0" y="369.0"/>
+   <node id="NT1.8" label="NT1.8" x="108.0" y="457.0"/>
+   <node id="NT1.9" label="NT1.9" x="124.0" y="540.0"/>
+   <node id="NT1.10" label="NT1.10" x="128.0" y="377.0"/>
+   <node id="NT1.13" label="NT1.13" x="187.0" y="199.0"/>
+   <node id="NT1.18" label="NT1.18" x="275.0" y="280.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="282.0" y="7.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="299.0" y="499.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="319.0" y="389.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="323.0" y="335.0" otu="otu12"/>
+   <node id="NT1.26" label="NT1.26" x="345.0" y="227.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="368.0" y="554.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="369.0" y="62.0" otu="otu16"/>
+   <node id="NT1.30" label="NT1.30" x="372.0" y="171.0" otu="otu18"/>
+   <node id="NT1.31" label="NT1.31" x="396.0" y="664.0" otu="otu19"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.7" target="NT1.18"/>
+   <edge id="e.6" source="NT1.6" target="NT1.28"/>
+   <edge id="e.8" source="NT1.13" target="NT1.26"/>
+   <edge id="e.9" source="NT1.13" target="NT1.30"/>
+   <edge id="e.10" source="NT1.9" target="NT1.20"/>
+   <edge id="e.11" source="NT1.10" target="NT1.24"/>
+   <edge id="e.13" target="NT1.27" source="NT1.9"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" source="NT1.4" target="NT1.6"/>
+   <edge id="e.18" source="NT1.7" target="NT1.8"/>
+   <edge id="e.19" target="NT1.13" source="NT1.6"/>
+   <edge id="e.20" source="NT1.8" target="NT1.10"/>
+   <edge id="e.22" source="NT1.2" target="NT1.31"/>
+   <edge id="e.23" source="NT1.3" target="NT1.19"/>
+   <edge id="e.24" source="NT1.3" target="NT1.4"/>
+   <edge id="e.25" source="NT1.4" target="NT1.7"/>
+   <edge id="e.26" source="NT1.8" target="NT1.9"/>
+   <edge id="e.28" target="NT1.23" source="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

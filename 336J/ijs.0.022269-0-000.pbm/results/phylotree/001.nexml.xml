@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">P. ginsengarvi Gsoil 139T (AB271057)</otu>
+  <otu id="otu2">P. koleovorans TBT (AB041 720)</otu>
+  <otu id="otu3">P. chinjuensis WN9T(AF164345)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">P. filicis S47 (GO423055)</otu>
+  <otu id="otu6">P. hodogayensis SGWAB179866)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">P. soli DCYOBT (DQ309072)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Thermobacillus" cmphy:species="xylanilyticus" cmphy:strain="XET" cmphy:id="AJO05795" editRecord="[]">Thermobacillus xylanilyticus XET (AJO05795)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">P. koreensis YC3O0T (AF130254)</otu>
+  <otu id="otu13">P. pueribO9i-3T(EU391156)</otu>
+  <otu id="otu14">P. xylanisolvens X11-1T (AB495094)</otu>
+  <otu id="otu15">P. ginsengihumiDCY16T (EF452662)</otu>
+  <otu id="otu16">P. edaphicus T7T (AFO06076)</otu>
+  <otu id="otu17">P. mucilaginosus 148ODT (AFOO6077)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.25" label="NT1.25" x="306.0" y="617.0" otu="otu10"/>
+   <node id="NT1.33" x="3.0" y="537.0" root="true" label="70"/>
+   <edge id="e.29" source="NT1.33" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

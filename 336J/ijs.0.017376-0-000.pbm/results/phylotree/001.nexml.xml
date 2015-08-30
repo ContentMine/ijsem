@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">ATCC 43754T (X56156.1)</otu>
+  <otu id="otu5">L. welshimeri NCTC 1 13571 (X56149.1)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="170.0" y="516.0" otu="otu1"/>
+   <node id="NT1.2" label="NT1.2" x="198.0" y="407.0" otu="otu2"/>
+   <node id="NT1.3" label="NT1.3" x="238.0" y="39.0" otu="otu3"/>
+   <node id="NT1.4" label="NT1.4" x="277.0" y="97.0"/>
+   <node id="NT1.5" label="NT1.5" x="286.0" y="40.0" otu="otu4"/>
+   <node id="NT1.6" label="NT1.6" x="329.0" y="456.0"/>
+   <node id="NT1.7" label="NT1.7" x="397.0" y="560.0" otu="otu5"/>
+   <node id="NT1.8" label="NT1.8" x="407.0" y="553.0"/>
+   <node id="NT1.9" label="NT1.9" x="410.0" y="569.0" otu="otu6"/>
+   <node id="NT1.10" label="NT1.10" x="416.0" y="511.0"/>
+   <node id="NT1.11" label="NT1.11" x="426.0" y="539.0" otu="otu7"/>
+   <node id="NT1.12" label="NT1.12" x="443.0" y="511.0" otu="otu8"/>
+   <node id="NT1.13" label="NT1.13" x="469.0" y="460.0" otu="otu9"/>
+   <edge source="NT1.12" target="NT1.10" id="e.0"/>
+   <edge source="NT1.3" target="NT1.4" id="e.1"/>
+   <edge source="NT1.4" target="NT1.6" id="e.2"/>
+   <edge source="NT1.6" target="NT1.10" id="e.3"/>
+   <edge source="NT1.6" target="NT1.2" id="e.4"/>
+   <edge source="NT1.6" target="NT1.1" id="e.5"/>
+   <edge source="NT1.10" target="NT1.11" id="e.6"/>
+   <edge source="NT1.10" target="NT1.8" id="e.7"/>
+   <edge source="NT1.8" target="NT1.7" id="e.8"/>
+   <edge source="NT1.5" target="NT1.4" id="e.9"/>
+   <edge source="NT1.9" target="NT1.8" id="e.10"/>
+   <edge source="NT1.13" target="NT1.10" id="e.11"/>
+  </tree>
+ </trees>
+</nexml>

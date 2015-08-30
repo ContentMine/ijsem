@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Shewanella" cmphy:species="putrefaciens" cmphy:strain="LMG 22687" cmphy:id="X81623" editRecord="[]">Shewanella putrefaciens LMG 22687 (X81623)</otu>
+  <otu id="otu3" cmphy:edit="[O__0, O__0, Z__2]" cmphy:genus="Shewanella" cmphy:species="baltica" cmphy:strain="NCTC 107357" cmphy:id="AJO00214" editRecord="[O__0, O__0, Z__2]">Shewanella baltica NCTC 107357 (AJOOOZ14)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Shewanella" cmphy:species="japonica" cmphy:strain="LMG 196917" cmphy:id="AFI45921" editRecord="[1__I]">Shewanella japonica LMG 196917 (AF145921)</otu>
+  <otu id="otu5" cmphy:genus="Shewanella" cmphy:species="frigidimarina" cmphy:strain="ACAM 5917" cmphy:id="U85903" editRecord="[]">Shewanella frigidimarina ACAM 5917 (U85903)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Shewanella" cmphy:species="denitrificans" cmphy:strain="DSM 150137" cmphy:id="AJB11964" editRecord="[3__B]">Shewanella denitrificans DSM 150137 (AJ311964)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Shewanella" cmphy:species="gaetbuli" cmphy:strain="TF-277" cmphy:id="AYI90533" editRecord="[1__I]">Shewanella gaetbuli TF-277 (AY190533)</otu>
+  <otu id="otu8">Shewanella Iivingstonensis LMG 198667 (AJ300834)</otu>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Shewanella" cmphy:species="oneidensis" cmphy:strain="ATCC 7005507" cmphy:id="AFO05251" editRecord="[O__0]">Shewanella oneidensis ATCC 7005507 (AFOO5251)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Shewanella" cmphy:species="olleyana" cmphy:strain="ACAM 6447" cmphy:id="AFZ95592" editRecord="[2__Z]">Shewanella olleyana ACAM 6447 (AF295592)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="277.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="35.0" y="251.0"/>
+   <node id="NT1.3" label="NT1.3" x="77.0" y="182.0"/>
+   <node id="NT1.4" x="86.0" y="345.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="97.0" y="57.0"/>
+   <node id="NT1.6" label="NT1.6" x="146.0" y="177.0"/>
+   <node id="NT1.8" label="NT1.8" x="193.0" y="191.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="205.0" y="234.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="209.0" y="367.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="236.0" y="57.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="240.0" y="101.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="241.0" y="279.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="268.0" y="146.0" otu="otu9"/>
+   <node id="NT1.16" label="NT1.16" x="322.0" y="323.0" otu="otu10"/>
+   <edge id="e.1" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.6" target="NT1.8"/>
+   <edge id="e.3" source="NT1.6" target="NT1.15"/>
+   <edge id="e.4" source="NT1.4" target="NT1.16"/>
+   <edge id="e.6" source="NT1.3" target="NT1.5"/>
+   <edge id="e.7" source="NT1.2" target="NT1.3"/>
+   <edge id="e.8" source="NT1.3" target="NT1.6"/>
+   <edge id="e.9" source="NT1.2" target="NT1.4"/>
+   <edge id="e.10" source="NT1.3" target="NT1.13"/>
+   <edge id="e.11" source="NT1.3" target="NT1.9"/>
+   <edge id="e.12" source="NT1.4" target="NT1.10"/>
+   <edge id="e.13" target="NT1.11" source="NT1.5"/>
+   <edge id="e.14" source="NT1.5" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

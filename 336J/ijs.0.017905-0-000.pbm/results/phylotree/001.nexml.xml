@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Paraferrimonas" cmphy:species="sedimenticola" cmphy:strain="Mok-1067" cmphy:id="ABZ52732" editRecord="[2__Z]">Paraferrimonas sedimenticola Mok-1067 (AB252732)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[3__B]" cmphy:genus="Paramoritella" cmphy:species="alkaliphila" cmphy:strain="A3F-77" cmphy:id="ABB64966" editRecord="[3__B]">Paramoritella alkaliphila A3F-77 (AB364966)</otu>
+  <otu id="otu5" cmphy:genus="Shewanella" cmphy:species="putrefaciens" cmphy:strain="ATCC 80717" cmphy:id="X82133" editRecord="[]"> Shewanella putrefaciens ATCC 80717 (X82133)</otu>
+  <otu id="otu6" cmphy:genus="Ferrimonas" cmphy:species="balearica" cmphy:strain="PAT7" cmphy:id="X93021" editRecord="[]">Ferrimonas balearica PAT7 (X93021)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Psychromonas" cmphy:species="antarctica" cmphy:strain="DSM 107047" cmphy:id="Y14697" editRecord="[]">Psychromonas antarctica DSM 107047 (Y14697)</otu>
+  <otu id="otu9" cmphy:genus="Algicola" cmphy:species="bacteriolytica" cmphy:strain="IAM 145957" cmphy:id="D89929" editRecord="[]">Algicola bacteriolytica IAM 145957 (D89929)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Bowmanella" cmphy:species="denitrificans" cmphy:strain="BD17" cmphy:id="DQB43294" editRecord="[3__B]">Bowmanella denitrificans BD17 (DQ343294)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Alishewanella letalis CCUG 308117(AF144407)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Salinimonas" cmphy:species="chungwhensis" cmphy:strain="BHO3O0467" cmphy:id="AYS53295" editRecord="[5__S]">Salinimonas chungwhensis BHO3O0467 (AY553295)</otu>
+  <otu id="otu14"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="693.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="35.0" y="489.0"/>
+   <node id="NT1.3" label="NT1.3" x="57.0" y="402.0"/>
+   <node id="NT1.5" label="NT1.5" x="90.0" y="453.0"/>
+   <node id="NT1.6" label="NT1.6" x="125.0" y="500.0"/>
+   <node id="NT1.8" label="NT1.8" x="158.0" y="540.0"/>
+   <node id="NT1.9" label="NT1.9" x="215.0" y="566.0"/>
+   <node id="NT1.12" label="NT1.12" x="308.0" y="754.0"/>
+   <node id="NT1.14" label="NT1.14" x="413.0" y="585.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="460.0" y="477.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="468.0" y="513.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="486.0" y="548.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="525.0" y="405.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="554.0" y="371.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="562.0" y="727.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="639.0" y="799.0" otu="otu13"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.9" target="NT1.14"/>
+   <edge id="e.3" source="NT1.5" target="NT1.20"/>
+   <edge id="e.4" source="NT1.8" target="NT1.17"/>
+   <edge id="e.6" source="NT1.9" target="NT1.18"/>
+   <edge id="e.8" source="NT1.12" target="NT1.22"/>
+   <edge id="e.9" target="NT1.25" source="NT1.12"/>
+   <edge id="e.10" source="NT1.3" target="NT1.5"/>
+   <edge id="e.12" source="NT1.5" target="NT1.6"/>
+   <edge id="e.13" source="NT1.6" target="NT1.8"/>
+   <edge id="e.15" source="NT1.8" target="NT1.9"/>
+   <edge id="e.17" target="NT1.12" source="NT1.2"/>
+   <edge id="e.20" source="NT1.2" target="NT1.3"/>
+   <edge id="e.21" target="NT1.21" source="NT1.3"/>
+   <edge id="e.22" target="NT1.16" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

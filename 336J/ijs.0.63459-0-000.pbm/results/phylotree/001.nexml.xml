@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">F. hydatis ATCC 295517 (M58764)</otu>
+  <otu id="otu2">F. aquatile ATCC 119477 (M62797)</otu>
+  <otu id="otu3">F. saccharophilum NCIMB 20727</otu>
+  <otu id="otu4">F. granuli Kw057 (AB180738)</otu>
+  <otu id="otu5">F. gelidilacus LMG 214777 (AJ440996)</otu>
+  <otu id="otu6" cmphy:genus="Sporocytophaga" cmphy:species="cauliformis" cmphy:strain="DSM 36577" cmphy:id="M93151" editRecord="[]">Sporocytophaga cauliformis DSM 36577 (M93151)</otu>
+  <otu id="otu7">F. flevense ATCC 279447 (M58767)</otu>
+  <otu id="otu8">F. hibemum ATCC 514687 (L39067)</otu>
+  <otu id="otu9">F. Iimicola JCM 114737 (ABO75230)</otu>
+  <otu id="otu10">F. micromati LMG 219197 (AJ557888)</otu>
+  <otu id="otu11">F. succinicans IFO 149057 (D12673)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">F. omnivorum AS 1.27477 (AF433174)</otu>
+  <otu id="otu14">F. johnsoniae ATCC 170617 (M59051)</otu>
+  <otu id="otu15">F. frigon's LMG 219227 (AJ557887)</otu>
+  <otu id="otu16">F. degerlachei LMG 219157 (AJ557886)</otu>
+  <otu id="otu17">F. branchiophilum IFO 150307 (D14017)</otu>
+  <otu id="otu18">F. xinjiangense AS 1.27497 (AF433172)</otu>
+  <otu id="otu19">F. fn'gidarium ATCC 7008107 (AF162266)</otu>
+  <otu id="otu20">F. xanthum ACAM 817 (AF030380)</otu>
+  <otu id="otu21">F. psychrophilum ATCC 494187 (AF090991)</otu>
+  <otu id="otu22">F. columnare IFO 159437 (AB078047)</otu>
+  <otu id="otu23"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.25" label="NT1.25" x="517.0" y="433.0" otu="otu6"/>
+   <node id="NT1.44" label="NT1.44" x="1.0" y="892.0" root="true"/>
+   <edge id="e.8" target="NT1.25" source="NT1.44"/>
+  </tree>
+ </trees>
+</nexml>

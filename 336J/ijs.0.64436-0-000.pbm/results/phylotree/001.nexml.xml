@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">F lavobacterium pectinovorum DSM 6368T (AM230490)</otu>
+  <otu id="otu3">F lavobacIeriun1flevenxe ATCC 27944T (M58767)</otu>
+  <otu id="otu4">F lavobacterium pectinovorum DSM 6368T (AM230490)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">Flavobacterium hydatis ATCC 2955 IT (M58764)</otu>
+  <otu id="otu7" cmphy:genus="Flavobacterizmz" cmphy:species="hibemum" cmphy:strain="ATCC 5l468T" cmphy:id="L39067" editRecord="[]">Flavobacterizmz hibemum ATCC 5l468T (L39067)</otu>
+  <otu id="otu8">F lavobacterium aquatile ATCC</otu>
+  <otu id="otu9">F lavobacterium psychrophilum ATCC 49418T (AF090991)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Flavabacterium" cmphy:species="micromali" cmphy:strain="LMG 21919T" cmphy:id="AJS57888" editRecord="[5__S]">Flavabacterium micromali LMG 21919T (AJ557888)</otu>
+  <otu id="otu11">F lavobacterium amnivorum JCM 1 1313T (AF433 174)</otu>
+  <otu id="otu12">F lavobacterizmz antarcticum AT1O26T (AY5811 13)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Flmrobacterizmz" cmphy:species="soli" cmphy:strain="DS-6T" cmphy:id="DQI78976" editRecord="[1__I]">Flmrobacterizmz soli DS-6T (DQ178976)</otu>
+  <otu id="otu14">F lavobacterium legetincola ACAM 602T (U85887)</otu>
+  <otu id="otu15">F lavobacterium xinjiarzgense JCM l 13 141' (AF433 173)</otu>
+  <otu id="otu16">F lavobacterium branchiophilzzm IF 0 1503OT (D14017)</otu>
+  <otu id="otu17">F lavobacrerium denirrificans ED5T (AJ318907)</otu>
+  <otu id="otu18">F luv(1l7acterizm1 xcmlhum ACAM 81T (AF03 0330)</otu>
+  <otu id="otu19" cmphy:genus="Flavobacterium" cmphy:species="gillisiae" cmphy:strain="ACAM 601T" cmphy:id="U85889" editRecord="[]">Flavobacterium gillisiae ACAM 601T (U85889)</otu>
+  <otu id="otu20">Strain EMB47T (DQ372982)</otu>
+  <otu id="otu21">Flav0l7acteriun1 gelidilaczls LMG 21477T (AJ440996)</otu>
+  <otu id="otu22" cmphy:edit="[0__O]" cmphy:genus="Flavobacterium" cmphy:species="saliperosum" cmphy:strain="AS 1.3801T" cmphy:id="DQO21903" editRecord="[0__O]">Flavobacterium saliperosum AS 1.3801T (DQ021903)</otu>
+  <otu id="otu23">C apnocylophaga ochracea ATCC 33596T (L14635)</otu>
+  <otu id="otu24">Flavubaclerium calumnare IAM 1430lT (AB01095l)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="130.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="146.0" y="612.0"/>
+   <node id="NT1.5" label="NT1.5" x="177.0" y="277.0"/>
+   <node id="NT1.11" label="NT1.11" x="208.0" y="673.0"/>
+   <node id="NT1.28" label="NT1.28" x="291.0" y="540.0" otu="otu7"/>
+   <node id="NT1.31" label="NT1.31" x="306.0" y="645.0" otu="otu10"/>
+   <node id="NT1.34" label="NT1.34" x="333.0" y="178.0" otu="otu13"/>
+   <node id="NT1.40" label="NT1.40" x="387.0" y="801.0" otu="otu19"/>
+   <node id="NT1.43" label="NT1.43" x="415.0" y="1062.0" otu="otu22"/>
+   <edge id="e.3" target="NT1.43" source="NT1.4"/>
+   <edge id="e.6" source="NT1.11" target="NT1.31"/>
+   <edge id="e.12" target="NT1.28" source="NT1.11"/>
+   <edge id="e.15" target="NT1.4" source="NT1.1"/>
+   <edge id="e.17" source="NT1.4" target="NT1.5"/>
+   <edge id="e.25" target="NT1.11" source="NT1.5"/>
+   <edge id="e.36" target="NT1.34" source="NT1.5"/>
+   <edge id="e.43" target="NT1.40" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

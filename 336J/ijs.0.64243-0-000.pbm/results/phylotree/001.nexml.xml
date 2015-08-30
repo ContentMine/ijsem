@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">5Flav0bacterium sali0dium5' AS 1.3801 (DQ021903)</otu>
+  <otu id="otu3">GH29-ST (DQ222428)</otu>
+  <otu id="otu4">F lavobacterium columnare ATCC 43622511 (M58781)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Flavobacterium" cmphy:species="limicola" cmphy:strain="ST-82T" cmphy:id="ABO75230" editRecord="[0__O]">Flavobacterium limicola ST-82T (AB075230)</otu>
+  <otu id="otu6">F lavobacterium psychrolimnae LMG 220 1 8T (AJ 585428)</otu>
+  <otu id="otu7">F lavobacterium antarcticum AT 1 026T (AY581 1 13)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Flavobacterium" cmphy:species="granuli" cmphy:strain="Kw05T" cmphy:id="ABI80738" editRecord="[1__I]">Flavobacterium granuli Kw05T (AB180738)</otu>
+  <otu id="otu9">Flavobacterium hydatis ATCC 2955 1T (M58764)</otu>
+  <otu id="otu10">F Zavobaclerium hibemum ATCC 51468T(L39067)</otu>
+  <otu id="otu11">F lavobacterium micromati LMG 219l9T (AJ557888)</otu>
+  <otu id="otu12">F lavobacterium omnivorum AS</otu>
+  <otu id="otu13">F lavobacterium flevense ATCC 27944T (M58767)</otu>
+  <otu id="otu14">F lavobaclerium_)9'yxellic0la LMG 22022T (AJ81 1961)</otu>
+  <otu id="otu15">F lavabacterium gelidilacus LMG 2l477T (AJ440996)</otu>
+  <otu id="otu16">F lavobacterium tegetinacola A103T (U85887)</otu>
+  <otu id="otu17">F lavobacterium xinjiangense AS 1.2749T(AF433173)</otu>
+  <otu id="otu18">F lavobacterium johnsoniae DSM 2064T (M59051)</otu>
+  <otu id="otu19">F lavobacterium xcmthum ACAM 81' (AF030380)</otu>
+  <otu id="otu20">F lavobacteriumffigidarium ATCC 7008101" (AF162266)</otu>
+  <otu id="otu21">F lavobacteriumfrigoris LMG 21922T (AJ557887)</otu>
+  <otu id="otu22">Flavobacterium aquatile ATCC 1 19471 (M62797)</otu>
+  <otu id="otu23" cmphy:edit="[5__S]" cmphy:genus="Flavobaclerium" cmphy:species="degerlachei" cmphy:strain="LMG 21915T" cmphy:id="AJS57886" editRecord="[5__S]">Flavobaclerium degerlachei LMG 21915T (AJ557886)</otu>
+  <otu id="otu24">G H1-10111 (DQ222427)</otu>
+  <otu id="otu25">F lavobacterium denitrmcans EDST (AJ318907)</otu>
+  <otu id="otu26" cmphy:genus="Flavobacterium" cmphy:species="gillisiae" cmphy:strain="LMG 21422T" cmphy:id="U85889" editRecord="[]">Flavobacterium gillisiae LMG 21422T (U85889)</otu>
+  <otu id="otu27">F lavobacterium psychrophilum ATCC 49418T(AF09099l)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="907.0" otu="otu1" root="true"/>
+   <node id="NT1.11" label="NT1.11" x="498.0" y="346.0"/>
+   <node id="NT1.15" label="NT1.15" x="559.0" y="249.0"/>
+   <node id="NT1.27" label="NT1.27" x="663.0" y="327.0" otu="otu5"/>
+   <node id="NT1.31" label="NT1.31" x="687.0" y="445.0" otu="otu8"/>
+   <node id="NT1.43" x="807.0" y="32.0" label="68"/>
+   <node id="NT1.48" label="NT1.48" x="871.0" y="11.0" otu="otu23"/>
+   <node id="NT1.51" label="NT1.51" x="969.0" y="50.0" otu="otu26"/>
+   <edge id="e.2" target="NT1.27" source="NT1.15"/>
+   <edge id="e.12" target="NT1.43" source="NT1.15"/>
+   <edge id="e.18" source="NT1.11" target="NT1.15"/>
+   <edge id="e.21" target="NT1.11" source="NT1.1"/>
+   <edge id="e.39" target="NT1.31" source="NT1.11"/>
+   <edge id="e.49" source="NT1.43" target="NT1.48"/>
+   <edge id="e.50" source="NT1.43" target="NT1.51"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">O. cytisi ESC1T (AY776289)</otu>
+  <otu id="otu4"> O. triticf SCll24T (AJ242584)</otu>
+  <otu id="otu5"> O. haematophilum CCUG 385317 (AM422370)</otu>
+  <otu id="otu6">O. intermedium LMG 33017 (AM490623)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">O. oryzae MTCC 4195T(AMO41247)</otu>
+  <otu id="otu9">O. pseudintermedium ADV31T (DQ385921)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13">O. gallinifaecis lso 196T (AJ519939)</otu>
+  <otu id="otu14"> O. pituitosum CCUG 50899T (AM490609)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">P. asaccharolyticum CCUG 4601GT (AM180485)</otu>
+  <otu id="otu17">P. kiredjianiae CCUG 49584T (AM263420)</otu>
+  <otu id="otu18" cmphy:genus="Bradyrhizobium" cmphy:species="japonicum" cmphy:strain="USDA 67" cmphy:id="U69638" editRecord="[]">Bradyrhizobium japonicum USDA 67 (U69638)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.34" label="NT1.34" x="582.0" y="638.0" otu="otu18"/>
+   <node id="NT1.35" label="NT1.35" x="2.0" y="550.0" root="true"/>
+   <edge id="e.29" source="NT1.35" target="NT1.34"/>
+  </tree>
+ </trees>
+</nexml>

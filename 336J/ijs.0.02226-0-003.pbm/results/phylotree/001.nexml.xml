@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Ectothiorhadospira vacuolata DSM 21 1 IT (X93478)</otu>
+  <otu id="otu3" cmphy:genus="Ectathiorhadospira" cmphy:species="shapashnikovii" cmphy:strain="DSM 239" cmphy:id="X93480" editRecord="[]">Ectathiorhadospira shapashnikovii DSM 239 (X93480)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Thiorhodaspira" cmphy:species="sibirica" cmphy:strain="A12T" cmphy:id="AJO06530" editRecord="[O__0]">Thiorhodaspira sibirica A12T (AJOO6530)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Thiorlzodavibrio" cmphy:species="winogradskyi" cmphy:strain="DSM 6702T" cmphy:id="AJO06214" editRecord="[0__O]">Thiorlzodavibrio winogradskyi DSM 6702T (AJ006214)</otu>
+  <otu id="otu6" cmphy:genus="Halorhodospira" cmphy:species="halaphila" cmphy:strain="DSM 24419" cmphy:id="M26630" editRecord="[]">Halorhodospira halaphila DSM 24419 (M26630)</otu>
+  <otu id="otu7" cmphy:genus="Halorhodaspira" cmphy:species="halophila" cmphy:strain="BN9624" cmphy:id="X93474" editRecord="[]">Halorhodaspira halophila BN9624 (X93474)</otu>
+  <otu id="otu8" cmphy:genus="Halorhodospira" cmphy:species="halophila" cmphy:strain="BN9630" cmphy:id="X93484" editRecord="[]">Halorhodospira halophila BN9630 (X93484)</otu>
+  <otu id="otu9">Hulorlmdaspira neutriphilu</otu>
+  <otu id="otu10">I-Ialorlwdospim neurriphila</otu>
+  <otu id="otu11">Halorhodospira abdelmalekii DSM 21 IOT (X93477)</otu>
+  <otu id="otu12" cmphy:genus="Halorhadospira" cmphy:species="halochluris" cmphy:strain="BN985l" cmphy:id="X93483" editRecord="[]">Halorhadospira halochluris BN985l (X93483)</otu>
+  <otu id="otu13" cmphy:genus="Arhodamonas" cmphy:species="aquaenlei" cmphy:strain="ATCC 49307T" cmphy:id="M26631" editRecord="[]">Arhodamonas aquaenlei ATCC 49307T (M26631)</otu>
+  <otu id="otu14" cmphy:genus="Ectothiorhodospira" cmphy:species="mobilis" cmphy:strain="DSM 237T" cmphy:id="X93481" editRecord="[]">Ectothiorhodospira mobilis DSM 237T (X93481)</otu>
+  <otu id="otu15">Ectothiorhodospira marismortui DSM 4180219 ( X93482)</otu>
+  <otu id="otu16">Ectathiorhodospira haloalkaliphila ATCC 5 1935 T (X93479)</otu>
+  <otu id="otu17">Ectathiorhodospira marina DSM 241 T (X93476)</otu>
+  <otu id="otu18" cmphy:genus="Ectothiorhodospira" cmphy:species="haloalkaliphila" cmphy:strain="BN9902" cmphy:id="X93475" editRecord="[]">Ectothiorhodospira haloalkaliphila BN9902 (X93475)</otu>
+  <otu id="otu19" cmphy:genus="Allochromatium" cmphy:species="vinosum" cmphy:strain="ATCC 17899T" cmphy:id="M26629" editRecord="[]">Allochromatium vinosum ATCC 17899T (M26629)</otu>
+  <otu id="otu20">Thiorhodococcux minor CE2203T (Y1 1316)</otu>
+  <otu id="otu21">Escherichia coli (J01695)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="1375.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="309.0" y="1150.0"/>
+   <node id="NT1.4" label="NT1.4" x="337.0" y="1029.0"/>
+   <node id="NT1.5" label="NT1.5" x="395.0" y="817.0"/>
+   <node id="NT1.6" label="NT1.6" x="579.0" y="1408.0"/>
+   <node id="NT1.7" label="NT1.7" x="599.0" y="733.0"/>
+   <node id="NT1.8" label="NT1.8" x="605.0" y="1210.0"/>
+   <node id="NT1.10" label="NT1.10" x="663.0" y="1472.0"/>
+   <node id="NT1.12" label="NT1.12" x="775.0" y="1141.0"/>
+   <node id="NT1.16" label="NT1.16" x="940.0" y="626.0"/>
+   <node id="NT1.19" label="NT1.19" x="1005.0" y="594.0"/>
+   <node id="NT1.21" label="NT1.21" x="1065.0" y="1232.0" otu="otu3"/>
+   <node id="NT1.22" label="NT1.22" x="1065.0" y="1437.0" otu="otu4"/>
+   <node id="NT1.23" label="NT1.23" x="1065.0" y="1487.0" otu="otu5"/>
+   <node id="NT1.25" label="NT1.25" x="1066.0" y="572.0" otu="otu6"/>
+   <node id="NT1.26" label="NT1.26" x="1066.0" y="622.0" otu="otu7"/>
+   <node id="NT1.27" label="NT1.27" x="1066.0" y="673.0" otu="otu8"/>
+   <node id="NT1.31" label="NT1.31" x="1067.0" y="877.0" otu="otu12"/>
+   <node id="NT1.32" label="NT1.32" x="1067.0" y="928.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="1067.0" y="1283.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="1067.0" y="1028.0" otu="otu18"/>
+   <node id="NT1.38" label="NT1.38" x="1067.0" y="1333.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.19" target="NT1.26"/>
+   <edge id="e.1" source="NT1.16" target="NT1.27"/>
+   <edge id="e.7" target="NT1.21" source="NT1.12"/>
+   <edge id="e.11" source="NT1.10" target="NT1.22"/>
+   <edge id="e.12" source="NT1.16" target="NT1.19"/>
+   <edge id="e.13" target="NT1.16" source="NT1.7"/>
+   <edge id="e.16" source="NT1.5" target="NT1.7"/>
+   <edge id="e.18" source="NT1.4" target="NT1.5"/>
+   <edge id="e.19" source="NT1.3" target="NT1.4"/>
+   <edge id="e.20" target="NT1.3" source="NT1.1"/>
+   <edge id="e.21" source="NT1.3" target="NT1.6"/>
+   <edge id="e.22" source="NT1.8" target="NT1.12"/>
+   <edge id="e.23" source="NT1.6" target="NT1.10"/>
+   <edge id="e.29" source="NT1.4" target="NT1.8"/>
+   <edge id="e.32" source="NT1.10" target="NT1.23"/>
+   <edge id="e.33" source="NT1.5" target="NT1.32"/>
+   <edge id="e.34" target="NT1.38" source="NT1.6"/>
+   <edge id="e.35" source="NT1.8" target="NT1.33"/>
+   <edge id="e.36" target="NT1.37" source="NT1.12"/>
+   <edge id="e.37" target="NT1.31" source="NT1.7"/>
+   <edge id="e.38" source="NT1.19" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Geotrichum" cmphy:species="vulgare" cmphy:strain="CBS 10073'" cmphy:id="AJS11334" editRecord="[5__S]">Geotrichum vulgare CBS 10073' (AJ511334)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Geotrichum" cmphy:species="silvicola" cmphy:strain="CBS 9194T" cmphy:id="AYI58042" editRecord="[1__I]">Geotrichum silvicola CBS 9194T (AY158042)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Galactomyces" cmphy:species="geotrichum" cmphy:strain="CBS 772.711" cmphy:id="U40118" editRecord="[]">Galactomyces geotrichum CBS 772.711 (U40118)</otu>
+  <otu id="otu7"> Galactomyces citri-aurantii CBS 175.s9T (U84233)</otu>
+  <otu id="otu8" cmphy:genus="Galactomyces" cmphy:species="reessii" cmphy:strain="CBS 179.60T" cmphy:id="U40111" editRecord="[]"> Galactomyces reessii CBS 179.60T (U40111)</otu>
+  <otu id="otu9" cmphy:genus="Geotrichum" cmphy:species="clavatum" cmphy:strain="CBS 425.71T" cmphy:id="U40112" editRecord="[]"> Geotrichum clavatum CBS 425.71T (U40112)</otu>
+  <otu id="otu10"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="88.0" y="734.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="88.0" y="510.0"/>
+   <node id="NT1.5" x="226.0" y="206.0" label="99"/>
+   <node id="NT1.6" x="231.0" y="117.0" label="65"/>
+   <node id="NT1.7" x="236.0" y="57.0" label="72"/>
+   <node id="NT1.10" label="NT1.10" x="241.0" y="97.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="241.0" y="177.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="251.0" y="17.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="259.0" y="336.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="344.0" y="574.0" otu="otu9"/>
+   <edge id="e.0" source="NT1.7" target="NT1.13"/>
+   <edge id="e.1" source="NT1.7" target="NT1.10"/>
+   <edge id="e.2" source="NT1.6" target="NT1.11"/>
+   <edge id="e.4" target="NT1.15" source="NT1.5"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" target="NT1.17" source="NT1.2"/>
+   <edge id="e.10" source="NT1.6" target="NT1.7"/>
+   <edge id="e.11" source="NT1.5" target="NT1.6"/>
+   <edge id="e.12" target="NT1.5" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

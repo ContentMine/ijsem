@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">0</otu>
+  <otu id="otu2">0</otu>
+  <otu id="otu3">0</otu>
+  <otu id="otu4">0</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Rhodococcus" cmphy:species="koreensis" cmphy:strain="DN P5057" cmphy:id="AFI24342" editRecord="[1__I]">Rhodococcus koreensis DN P5057 (AF124342)</otu>
+  <otu id="otu6" cmphy:genus="Rhodococcus" cmphy:species="marinonascens" cmphy:strain="DSM 437527" cmphy:id="X80617" editRecord="[]">Rhodococcus marinonascens DSM 437527 (X80617)</otu>
+  <otu id="otu7">Rhodococcusjostii IFO 162957 (AB046357)</otu>
+  <otu id="otu8" cmphy:genus="Rhodococcus" cmphy:species="opacus" cmphy:strain="DSM 432057" cmphy:id="X80630" editRecord="[]">Rhodococcus opacus DSM 432057 (X80630)</otu>
+  <otu id="otu9" cmphy:genus="Rhodococcus" cmphy:species="coprophilus" cmphy:strain="DSM 433477" cmphy:id="X80626" editRecord="[]">Rhodococcus coprophilus DSM 433477 (X80626)</otu>
+  <otu id="otu10" cmphy:genus="Rhodococcus" cmphy:species="percolatus" cmphy:strain="MBS17" cmphy:id="X92114" editRecord="[]">Rhodococcus percolatus MBS17 (X92114)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Rhodococcus" cmphy:species="erythropolis" cmphy:strain="JCM 32017" cmphy:id="X81929" editRecord="[]">Rhodococcus erythropolis JCM 32017 (X81929)</otu>
+  <otu id="otu13">Rhodococcus baikonurensis sp. nov. A1 -227 (AB071951)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Adhrobacter" cmphy:species="roseus" cmphy:strain="DSM 145087" cmphy:id="AJZ78870" editRecord="[2__Z]">Adhrobacter roseus DSM 145087 (AJ278870)</otu>
+  <otu id="otu17" cmphy:genus="Rhodococcus" cmphy:species="fascians" cmphy:strain="DSM 206697" cmphy:id="X81930" editRecord="[]">Rhodococcus fascians DSM 206697 (X81930)</otu>
+  <otu id="otu18" cmphy:genus="Arthrobacter" cmphy:species="polychromogenes" cmphy:strain="DSM 201367" cmphy:id="X80744" editRecord="[]">Arthrobacter polychromogenes DSM 201367 (X80744)</otu>
+  <otu id="otu19" cmphy:edit="[1__I]" cmphy:genus="Rothia" cmphy:species="nasimurium" cmphy:strain="CCUG 35957T" cmphy:id="AJI31121" editRecord="[1__I]">Rothia nasimurium CCUG 35957T (AJ131121)</otu>
+  <otu id="otu20">Arthrobacter russicus sp. nov. A1 -37 (AB071950)</otu>
+  <otu id="otu21" cmphy:genus="Arthrobacter" cmphy:species="agilis" cmphy:strain="CCM 23907" cmphy:id="X80748" editRecord="[]"> Arthrobacter agilis CCM 23907 (X80748)</otu>
+  <otu id="otu22">Arthrobacter russicus sp. nov. A1 -8</otu>
+  <otu id="otu23" cmphy:edit="[0__O]" cmphy:genus="Rothia" cmphy:species="amarae" cmphy:strain="JCM 113757" cmphy:id="AYO43359" editRecord="[0__O]">Rothia amarae JCM 113757 (AY043359)</otu>
+  <otu id="otu24"/>
+  <otu id="otu25" cmphy:genus="Rothia" cmphy:species="dentocariosa" cmphy:strain="JCM 30677" cmphy:id="M59055" editRecord="[]">Rothia dentocariosa JCM 30677 (M59055)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28">Rothia aeria sp. nov. A1 -17B7 (AB071952)</otu>
+  <otu id="otu29"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="45.0" y="757.0"/>
+   <node id="NT1.2" label="NT1.2" x="91.0" y="288.0"/>
+   <node id="NT1.5" x="102.0" y="180.0" label="652"/>
+   <node id="NT1.6" label="NT1.6" x="102.0" y="700.0"/>
+   <node id="NT1.7" x="111.0" y="657.0" label="621"/>
+   <node id="NT1.11" x="115.0" y="562.0" label="340"/>
+   <node id="NT1.15" label="NT1.15" x="126.0" y="87.0"/>
+   <node id="NT1.16" label="NT1.16" x="129.0" y="506.0"/>
+   <node id="NT1.18" label="NT1.18" x="135.0" y="729.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="135.0" y="398.0"/>
+   <node id="NT1.20" label="NT1.20" x="139.0" y="593.0" otu="otu6"/>
+   <node id="NT1.22" x="141.0" y="445.0" label="780"/>
+   <node id="NT1.24" label="NT1.24" x="143.0" y="489.0" otu="otu8"/>
+   <node id="NT1.25" label="NT1.25" x="144.0" y="796.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="148.0" y="524.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="153.0" y="661.0" otu="otu12"/>
+   <node id="NT1.34" label="NT1.34" x="168.0" y="115.0" otu="otu16"/>
+   <node id="NT1.35" label="NT1.35" x="169.0" y="764.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="175.0" y="45.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="184.0" y="421.0" otu="otu19"/>
+   <node id="NT1.41" label="NT1.41" x="186.0" y="251.0" otu="otu21"/>
+   <node id="NT1.43" label="NT1.43" x="194.0" y="457.0" otu="otu23"/>
+   <node id="NT1.45" label="NT1.45" x="209.0" y="354.0" otu="otu25"/>
+   <node id="NT1.51" label="NT1.51" x="4.0" y="522.0" root="true"/>
+   <edge id="e.1" target="NT1.36" source="NT1.15"/>
+   <edge id="e.2" source="NT1.15" target="NT1.34"/>
+   <edge id="e.5" target="NT1.41" source="NT1.5"/>
+   <edge id="e.6" source="NT1.22" target="NT1.37"/>
+   <edge id="e.7" source="NT1.22" target="NT1.43"/>
+   <edge id="e.9" target="NT1.45" source="NT1.19"/>
+   <edge id="e.14" source="NT1.6" target="NT1.35"/>
+   <edge id="e.15" target="NT1.28" source="NT1.7"/>
+   <edge id="e.16" source="NT1.11" target="NT1.20"/>
+   <edge id="e.18" source="NT1.16" target="NT1.24"/>
+   <edge id="e.22" target="NT1.15" source="NT1.5"/>
+   <edge id="e.26" source="NT1.2" target="NT1.5"/>
+   <edge id="e.27" source="NT1.2" target="NT1.19"/>
+   <edge id="e.28" source="NT1.19" target="NT1.22"/>
+   <edge id="e.32" source="NT1.1" target="NT1.6"/>
+   <edge id="e.33" source="NT1.6" target="NT1.7"/>
+   <edge id="e.36" source="NT1.7" target="NT1.11"/>
+   <edge id="e.38" target="NT1.16" source="NT1.11"/>
+   <edge id="e.39" source="NT1.16" target="NT1.26"/>
+   <edge id="e.40" source="NT1.51" target="NT1.1"/>
+   <edge id="e.41" source="NT1.51" target="NT1.2"/>
+   <edge id="e.42" source="NT1.1" target="NT1.25"/>
+   <edge id="e.44" source="NT1.7" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

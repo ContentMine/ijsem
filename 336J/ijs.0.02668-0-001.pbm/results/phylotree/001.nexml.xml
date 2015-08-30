@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Clvslridium" cmphy:species="saccharolyticum" cmphy:strain="DSM 2544T" cmphy:id="Y18185" editRecord="[]">Clvslridium saccharolyticum DSM 2544T (Y18185)</otu>
+  <otu id="otu3"> Strain BR-107 (AY3539S7)</otu>
+  <otu id="otu4" cmphy:genus="Clostridium" cmphy:species="celerecrescens" cmphy:strain="DSM 5628T" cmphy:id="X71848" editRecord="[]">Clostridium celerecrescens DSM 5628T (X71848)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"> Desulfotomaculum gutloideum DSM 40241' (Y1 1568)</otu>
+  <otu id="otu7" cmphy:genus="Closlridium" cmphy:species="xylanolylicum" cmphy:strain="ATCC 496237" cmphy:id="X71855" editRecord="[]"> Closlridium xylanolylicum ATCC 496237 (X71855)</otu>
+  <otu id="otu8" cmphy:genus="Clostridium" cmphy:species="sphenoidcs" cmphy:strain="DSM 6327" cmphy:id="X73449" editRecord="[]">Clostridium sphenoidcs DSM 6327 (X73449)</otu>
+  <otu id="otu9"> Clostridium methoxybenzovoruns DSM</otu>
+  <otu id="otu10" cmphy:genus="Claxrridium" cmphy:species="aerotolerans" cmphy:strain="DSM 54347" cmphy:id="X76163" editRecord="[]"> Claxrridium aerotolerans DSM 54347 (X76163)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="331.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="50.0" y="332.0"/>
+   <node id="NT1.3" label="NT1.3" x="61.0" y="216.0"/>
+   <node id="NT1.6" label="NT1.6" x="88.0" y="69.0"/>
+   <node id="NT1.7" label="NT1.7" x="132.0" y="272.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="137.0" y="405.0"/>
+   <node id="NT1.12" label="NT1.12" x="149.0" y="111.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="176.0" y="379.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="192.0" y="56.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="207.0" y="432.0" otu="otu10"/>
+   <edge id="e.1" target="NT1.16" source="NT1.6"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" source="NT1.9" target="NT1.15"/>
+   <edge id="e.7" source="NT1.9" target="NT1.18"/>
+   <edge id="e.9" target="NT1.6" source="NT1.3"/>
+   <edge id="e.12" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.2" target="NT1.9"/>
+   <edge id="e.15" target="NT1.7" source="NT1.3"/>
+   <edge id="e.16" source="NT1.6" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

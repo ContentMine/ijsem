@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Megasphaera" cmphy:species="micronuciformis" cmphy:strain="strain 412.00T" cmphy:id="AF473834" editRecord="[]">Megasphaera micronuciformis strain 412.00T (AF473834)</otu>
+  <otu id="otu3">Megasphaera sp. oral clone BU057 (AF385566)</otu>
+  <otu id="otu4" cmphy:genus="Veillonella" cmphy:species="dispar" cmphy:strain="DSM 207357" cmphy:id="X84006" editRecord="[]">Veillonella dispar DSM 207357 (X84006)</otu>
+  <otu id="otu5" cmphy:genus="Veillonella" cmphy:species="atypica" cmphy:strain="DSM 207397" cmphy:id="X84007" editRecord="[]">Veillonella atypica DSM 207397 (X84007)</otu>
+  <otu id="otu6">Veillonella parvula DSM 2008T X84005</otu>
+  <otu id="otu7">Dialister sp. oral strain GBA27 (AF287788)</otu>
+  <otu id="otu8" cmphy:genus="Megasphaera" cmphy:species="cerevisiae" cmphy:strain="strain VTT-E-85230" cmphy:id="L37040" editRecord="[]">Megasphaera cerevisiae strain VTT-E-85230 (L37040)</otu>
+  <otu id="otu9">Dialister sp. strain ADV 04.01 (AF473837)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Veillonella" cmphy:species="ratti" cmphy:strain="ATCC 1774GT" cmphy:id="AFI86071" editRecord="[1__I]">Veillonella ratti ATCC 1774GT (AF186071)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Dialister" cmphy:species="invisus" cmphy:strain="E7. 257" cmphy:id="AYI62469" editRecord="[1__I]">Dialister invisus E7. 257 (AY162469)</otu>
+  <otu id="otu12">Dfalister sp. oral clone BS095 (AF287787)</otu>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Anaeroglobus" cmphy:species="geminatus" cmphy:strain="CIP 106856T" cmphy:id="AFB38413" editRecord="[3__B]">Anaeroglobus geminatus CIP 106856T (AF338413)</otu>
+  <otu id="otu14">Dialistersp. oral clone MCE7_134 (AF481210)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Veillonella" cmphy:species="criceti" cmphy:strain="ATCC 177477" cmphy:id="AFI86072" editRecord="[1__I]">Veillonella criceti ATCC 177477 (AF186072)</otu>
+  <otu id="otu16" cmphy:genus="Megasphaera" cmphy:species="elsdenii" cmphy:strain="ATCC 2594GT" cmphy:id="U95027" editRecord="[]">Megasphaera elsdenii ATCC 2594GT (U95027)</otu>
+  <otu id="otu17">Dialister sp. oral clone BS016 (AF287786)</otu>
+  <otu id="otu18">Dialisterpneumosintes ATCC 33048' (X82500)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="369.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="40.0" y="369.0"/>
+   <node id="NT1.3" label="NT1.3" x="60.0" y="553.0"/>
+   <node id="NT1.4" label="NT1.4" x="188.0" y="653.0"/>
+   <node id="NT1.5" label="NT1.5" x="194.0" y="713.0"/>
+   <node id="NT1.7" label="NT1.7" x="205.0" y="654.0"/>
+   <node id="NT1.10" label="NT1.10" x="249.0" y="423.0"/>
+   <node id="NT1.12" label="NT1.12" x="304.0" y="737.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="349.0" y="386.0"/>
+   <node id="NT1.17" label="NT1.17" x="386.0" y="446.0" otu="otu4"/>
+   <node id="NT1.18" label="NT1.18" x="387.0" y="349.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="393.0" y="519.0"/>
+   <node id="NT1.24" label="NT1.24" x="407.0" y="688.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="414.0" y="543.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="417.0" y="155.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="430.0" y="591.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="436.0" y="493.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="450.0" y="639.0" otu="otu16"/>
+   <edge id="e.1" target="NT1.27" source="NT1.2"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" target="NT1.12" source="NT1.5"/>
+   <edge id="e.5" source="NT1.15" target="NT1.18"/>
+   <edge id="e.6" source="NT1.4" target="NT1.29"/>
+   <edge id="e.7" source="NT1.20" target="NT1.26"/>
+   <edge id="e.8" target="NT1.17" source="NT1.15"/>
+   <edge id="e.10" source="NT1.20" target="NT1.31"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.3" target="NT1.4"/>
+   <edge id="e.18" source="NT1.10" target="NT1.20"/>
+   <edge id="e.19" source="NT1.10" target="NT1.15"/>
+   <edge id="e.21" source="NT1.5" target="NT1.7"/>
+   <edge id="e.24" source="NT1.3" target="NT1.10"/>
+   <edge id="e.25" source="NT1.4" target="NT1.5"/>
+   <edge id="e.28" source="NT1.7" target="NT1.24"/>
+   <edge id="e.31" source="NT1.7" target="NT1.32"/>
+  </tree>
+ </trees>
+</nexml>

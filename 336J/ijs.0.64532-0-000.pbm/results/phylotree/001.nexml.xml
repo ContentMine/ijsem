@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Paracocous" cmphy:species="denitrificans" cmphy:strain="ATCC 17741T" cmphy:id="X69159" editRecord="[]">Paracocous denitrificans ATCC 17741T (X69159)</otu>
+  <otu id="otu3" cmphy:genus="Rhodobacter" cmphy:species="capsulatus" cmphy:strain="C5T" cmphy:id="D16427" editRecord="[]">Rhodobacter capsulatus C5T (D16427)</otu>
+  <otu id="otu4" cmphy:genus="Albidovulum" cmphy:species="inexpectatum" cmphy:strain="FRR-1OT" cmphy:id="AF465833" editRecord="[]">Albidovulum inexpectatum FRR-1OT (AF465833)</otu>
+  <otu id="otu5">Jannaschia helgolandensis DSM 14858T(AJ438157)</otu>
+  <otu id="otu6" cmphy:genus="Oceanicola" cmphy:species="batsensis" cmphy:strain="HTCC2597T" cmphy:id="AY424898" editRecord="[]">Oceanicola batsensis HTCC2597T (AY424898)</otu>
+  <otu id="otu7" cmphy:genus="Oceanicola" cmphy:species="granulosus" cmphy:strain="HTCCC2516T" cmphy:id="AY424896" editRecord="[]">Oceanicola granulosus HTCCC2516T (AY424896)</otu>
+  <otu id="otu8">Marinosulfonomonas methylotropha' PSCH4 (U62894)</otu>
+  <otu id="otu9" cmphy:genus="Oceanicola" cmphy:species="granulosus" cmphy:strain="HTCC2523" cmphy:id="AY424897" editRecord="[]">Oceanicola granulosus HTCC2523 (AY424897)</otu>
+  <otu id="otu10" cmphy:genus="Oceanicola" cmphy:species="nanhaiensis" cmphy:strain="SS011B1-201" cmphy:id="DQ414420" editRecord="[]">Oceanicola nanhaiensis SS011B1-201 (DQ414420)</otu>
+  <otu id="otu11" cmphy:genus="Octadecabacter" cmphy:species="arcticus" cmphy:strain="CIP 106732T" cmphy:id="U73725" editRecord="[]">Octadecabacter arcticus CIP 106732T (U73725)</otu>
+  <otu id="otu12" cmphy:genus="Roseobacter" cmphy:species="litoralis" cmphy:strain="ATCC 49566T" cmphy:id="X78312" editRecord="[]">Roseobacter litoralis ATCC 49566T (X78312)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="184.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="3.0" y="184.0"/>
+   <node id="NT1.3" label="NT1.3" x="143.0" y="63.0"/>
+   <node id="NT1.4" label="NT1.4" x="188.0" y="109.0"/>
+   <node id="NT1.7" label="NT1.7" x="284.0" y="484.0"/>
+   <node id="NT1.8" label="NT1.8" x="399.0" y="437.0"/>
+   <node id="NT1.9" label="NT1.9" x="413.0" y="629.0"/>
+   <node id="NT1.10" label="NT1.10" x="538.0" y="356.0"/>
+   <node id="NT1.11" label="NT1.11" x="607.0" y="13.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="638.0" y="143.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="759.0" y="78.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="786.0" y="404.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="790.0" y="498.0"/>
+   <node id="NT1.17" label="NT1.17" x="798.0" y="467.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="835.0" y="533.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="880.0" y="338.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="894.0" y="664.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="906.0" y="598.0" otu="otu12"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.4" target="NT1.12"/>
+   <edge id="e.3" source="NT1.16" target="NT1.17"/>
+   <edge id="e.4" source="NT1.16" target="NT1.19"/>
+   <edge id="e.5" source="NT1.9" target="NT1.21"/>
+   <edge id="e.6" source="NT1.2" target="NT1.3"/>
+   <edge id="e.7" source="NT1.3" target="NT1.4"/>
+   <edge id="e.10" target="NT1.7" source="NT1.2"/>
+   <edge id="e.11" source="NT1.7" target="NT1.9"/>
+   <edge id="e.12" source="NT1.7" target="NT1.8"/>
+   <edge id="e.13" source="NT1.8" target="NT1.16"/>
+   <edge id="e.14" source="NT1.8" target="NT1.10"/>
+   <edge id="e.15" source="NT1.3" target="NT1.11"/>
+   <edge id="e.16" source="NT1.4" target="NT1.13"/>
+   <edge id="e.18" source="NT1.9" target="NT1.22"/>
+   <edge id="e.19" source="NT1.10" target="NT1.15"/>
+   <edge id="e.20" source="NT1.10" target="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Chitinophaga" cmphy:species="pinensis" cmphy:strain="ACM 20347" cmphy:id="AFO78775" editRecord="[0__O]">Chitinophaga pinensis ACM 20347 (AF078775)</otu>
+  <otu id="otu2" cmphy:genus="Lewinella" cmphy:species="cohaerens" cmphy:strain="ATCC 23123T" cmphy:id="AFO39292" editRecord="[]">Lewinella cohaerens ATCC 23123T (AFO39292)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Segetibacter" cmphy:species="koreensis" cmphy:strain="Gsoil 664T" cmphy:id="ABZ67478" editRecord="[2__Z]">Segetibacter koreensis Gsoil 664T (AB267478)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Flavisolibacter" cmphy:species="ginsengiterrae" cmphy:strain="Gsoil 492T" cmphy:id="ABZ67476" editRecord="[2__Z]">Flavisolibacter ginsengiterrae Gsoil 492T (AB267476)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Flavisolibacter" cmphy:species="ginsengisoli" cmphy:strain="Gsoil 6437" cmphy:id="ABZ67477" editRecord="[2__Z]">Flavisolibacter ginsengisoli Gsoil 6437 (AB267477)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Terrimonas" cmphy:species="ferruginea" cmphy:strain="ATCC 13524&quot;'" cmphy:id="M62798" editRecord="[]">Terrimonas ferruginea ATCC 13524"' (M62798)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Bacteroides" cmphy:species="fragilis" cmphy:strain="ATCC 252857" cmphy:id="X83935" editRecord="[]"> Bacteroides fragilis ATCC 252857 (X83935)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15">Strain GR10-1T (EU616816)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="382.0"/>
+   <node id="NT1.3" x="165.0" y="339.0" label="100"/>
+   <node id="NT1.6" label="NT1.6" x="238.0" y="291.0"/>
+   <node id="NT1.7" label="NT1.7" x="266.0" y="387.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="300.0" y="424.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="320.0" y="173.0"/>
+   <node id="NT1.13" label="NT1.13" x="334.0" y="350.0" otu="otu3"/>
+   <node id="NT1.19" x="397.0" y="218.0" label="100"/>
+   <node id="NT1.20" label="NT1.20" x="400.0" y="237.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="403.0" y="199.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="438.0" y="125.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="449.0" y="537.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="2.0" y="468.0" root="true"/>
+   <edge id="e.3" target="NT1.24" source="NT1.10"/>
+   <edge id="e.5" source="NT1.19" target="NT1.20"/>
+   <edge id="e.6" source="NT1.19" target="NT1.22"/>
+   <edge id="e.9" source="NT1.6" target="NT1.13"/>
+   <edge id="e.10" source="NT1.3" target="NT1.7"/>
+   <edge id="e.11" source="NT1.1" target="NT1.9"/>
+   <edge id="e.13" target="NT1.26" source="NT1.35"/>
+   <edge id="e.22" target="NT1.10" source="NT1.6"/>
+   <edge id="e.23" source="NT1.10" target="NT1.19"/>
+   <edge id="e.26" source="NT1.3" target="NT1.6"/>
+   <edge id="e.27" source="NT1.1" target="NT1.3"/>
+   <edge id="e.32" source="NT1.35" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

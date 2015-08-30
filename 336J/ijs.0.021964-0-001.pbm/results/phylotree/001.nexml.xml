@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[8__B]" cmphy:genus="Cosenzaea" cmphy:species="myxofaciens" cmphy:strain="ATCC 19692T" cmphy:id="DQB85259" editRecord="[8__B]">Cosenzaea myxofaciens ATCC 19692T (DQ885259)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Providencia" cmphy:species="burhodogranariea" cmphy:strain="DSM 19968T" cmphy:id="EUS87101" editRecord="[5__S]">Providencia burhodogranariea DSM 19968T (EU587101)</otu>
+  <otu id="otu4" cmphy:edit="[8__B]" cmphy:genus="Providencia" cmphy:species="rettgeri" cmphy:strain="ATCC 29944-T" cmphy:id="DQB85263" editRecord="[8__B]">Providencia rettgeri ATCC 29944-T (DQ885263)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Providencia" cmphy:species="vermicoha" cmphy:strain="DSM 17385T" cmphy:id="EUS87041" editRecord="[5__S]">Providencia vermicoha DSM 17385T (EU587041)</otu>
+  <otu id="otu6">Morganella morganiiATCC 258307 (DQ885260)</otu>
+  <otu id="otu7">Proteus hauseriATCC 13315T (DQ885262)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Providencia" cmphy:species="alcalifaciens" cmphy:strain="ATCC 9886T" cmphy:id="DQB85261" editRecord="[8__B]">Providencia alcalifaciens ATCC 9886T (DQ885261)</otu>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Proteus" cmphy:species="vulgaris" cmphy:strain="ATCC 299o5T" cmphy:id="DQB85257" editRecord="[8__B]">Proteus vulgaris ATCC 299o5T (DQ885257)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Providencia" cmphy:species="sneebia" cmphy:strain="DSM 19967T" cmphy:id="EUS87095" editRecord="[5__S]">Providencia sneebia DSM 19967T (EU587095)</otu>
+  <otu id="otu11" cmphy:edit="[8__B]" cmphy:genus="Proteus" cmphy:species="mirabilis" cmphy:strain="ATCC 29906T" cmphy:id="DQB85256" editRecord="[8__B]">Proteus mirabilis ATCC 29906T (DQ885256)</otu>
+  <otu id="otu12">Pro videncia heimbachae ATCC 356137 (DQ885265)</otu>
+  <otu id="otu13">Providencia stuartiiATCC 29914T (AFO08581)</otu>
+  <otu id="otu14">Providencia rustigianiiATCC 33673T (DQ885264)</otu>
+  <otu id="otu15" cmphy:edit="[8__B]" cmphy:genus="Proteus" cmphy:species="penneri" cmphy:strain="ATCC 33519T" cmphy:id="DQB85258" editRecord="[8__B]">Proteus penneri ATCC 33519T (DQ885258)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="256.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="2.0" y="256.0"/>
+   <node id="NT1.4" label="NT1.4" x="310.0" y="326.0"/>
+   <node id="NT1.6" x="408.0" y="113.0" label="82"/>
+   <node id="NT1.7" label="NT1.7" x="413.0" y="62.0"/>
+   <node id="NT1.8" x="420.0" y="91.0" label="82"/>
+   <node id="NT1.9" x="425.0" y="355.0" label="98"/>
+   <node id="NT1.11" label="NT1.11" x="437.0" y="297.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="442.0" y="108.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="446.0" y="186.0"/>
+   <node id="NT1.14" label="NT1.14" x="453.0" y="171.0" otu="otu4"/>
+   <node id="NT1.15" x="463.0" y="383.0" label="78"/>
+   <node id="NT1.17" label="NT1.17" x="486.0" y="203.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="501.0" y="14.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="504.0" y="391.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="507.0" y="77.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="511.0" y="329.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="527.0" y="360.0" otu="otu15"/>
+   <edge id="e.0" target="NT1.21" source="NT1.7"/>
+   <edge id="e.1" source="NT1.8" target="NT1.12"/>
+   <edge id="e.2" source="NT1.8" target="NT1.23"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.5" source="NT1.15" target="NT1.28"/>
+   <edge id="e.7" source="NT1.6" target="NT1.7"/>
+   <edge id="e.8" source="NT1.7" target="NT1.8"/>
+   <edge id="e.9" target="NT1.6" source="NT1.2"/>
+   <edge id="e.11" target="NT1.13" source="NT1.6"/>
+   <edge id="e.14" source="NT1.2" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.9"/>
+   <edge id="e.16" source="NT1.9" target="NT1.15"/>
+   <edge id="e.19" source="NT1.4" target="NT1.11"/>
+   <edge id="e.20" source="NT1.13" target="NT1.14"/>
+   <edge id="e.21" source="NT1.9" target="NT1.24"/>
+   <edge id="e.22" source="NT1.13" target="NT1.17"/>
+   <edge id="e.26" target="NT1.22" source="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

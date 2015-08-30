@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[O__0]" cmphy:genus="Nocardioides" cmphy:species="jensenii" cmphy:strain="KCTC 9134T" cmphy:id="AFO05006" editRecord="[O__0]">Nocardioides jensenii KCTC 9134T (AFOO5006)</otu>
+  <otu id="otu2">Nocardioides mesophilus MSL-227 (EF4661 1 7)</otu>
+  <otu id="otu3" cmphy:genus="Nocardioides" cmphy:species="dubius" cmphy:strain="KSL-104T" cmphy:id="AY928902" editRecord="[]">Nocardioides dubius KSL-104T (AY928902)</otu>
+  <otu id="otu4" cmphy:edit="[8__B]" cmphy:genus="Nocardioides" cmphy:species="daedukensis" cmphy:strain="KCTC 196017" cmphy:id="FJB42646" editRecord="[8__B]">Nocardioides daedukensis KCTC 196017 (FJ842646)</otu>
+  <otu id="otu5">Marmoricola bigeumensis MSL-O5T(EF46612O)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Marmoricola" cmphy:species="aequoreus" cmphy:strain="SST-45T" cmphy:id="AMZ95338" editRecord="[2__Z]">Marmoricola aequoreus SST-45T (AM295338)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Aeromicrobium" cmphy:species="erythreum" cmphy:strain="NRRL B-38817" cmphy:id="AFO05021" editRecord="[0__O]">Aeromicrobium erythreum NRRL B-38817 (AF005021)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Marmoricola" cmphy:species="scoriae" cmphy:strain="Sco-DO1T" cmphy:id="FNB86750" editRecord="[3__B]">Marmoricola scoriae Sco-DO1T (FN386750)</otu>
+  <otu id="otu9" cmphy:genus="Marmoricola" cmphy:species="aurantiacus" cmphy:strain="DSM 126521" cmphy:id="Y18629" editRecord="[]">Marmoricola aurantiacus DSM 126521 (Y18629)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Marmoricola" cmphy:species="korecus" cmphy:strain="Sco-A36T" cmphy:id="FNB86723" editRecord="[3__B]">Marmoricola korecus Sco-A36T (FN386723)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="613.0"/>
+   <node id="NT1.2" label="NT1.2" x="23.0" y="412.0"/>
+   <node id="NT1.3" label="NT1.3" x="97.0" y="501.0"/>
+   <node id="NT1.5" label="NT1.5" x="175.0" y="465.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="218.0" y="613.0" otu="otu3"/>
+   <node id="NT1.8" label="NT1.8" x="228.0" y="540.0" otu="otu4"/>
+   <node id="NT1.9" label="NT1.9" x="259.0" y="183.0"/>
+   <node id="NT1.11" label="NT1.11" x="337.0" y="119.0"/>
+   <node id="NT1.12" label="NT1.12" x="367.0" y="64.0"/>
+   <node id="NT1.13" label="NT1.13" x="392.0" y="246.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="424.0" y="686.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="436.0" y="26.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="472.0" y="99.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="478.0" y="173.0" otu="otu10"/>
+   <node id="NT1.18" label="NT1.18" x="6.0" y="581.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.7"/>
+   <edge id="e.1" source="NT1.11" target="NT1.12"/>
+   <edge id="e.2" source="NT1.9" target="NT1.11"/>
+   <edge id="e.3" target="NT1.9" source="NT1.2"/>
+   <edge id="e.5" source="NT1.2" target="NT1.3"/>
+   <edge id="e.6" source="NT1.18" target="NT1.2"/>
+   <edge id="e.7" source="NT1.18" target="NT1.1"/>
+   <edge id="e.9" source="NT1.3" target="NT1.5"/>
+   <edge id="e.10" source="NT1.3" target="NT1.8"/>
+   <edge id="e.11" source="NT1.1" target="NT1.14"/>
+   <edge id="e.13" source="NT1.9" target="NT1.13"/>
+   <edge id="e.14" source="NT1.11" target="NT1.17"/>
+   <edge id="e.15" source="NT1.12" target="NT1.15"/>
+   <edge id="e.16" source="NT1.12" target="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Phaeospirillum" cmphy:species="fulvum" cmphy:strain="NCIMB 117627" cmphy:id="D14433" editRecord="[]">Phaeospirillum fulvum NCIMB 117627 (D14433)</otu>
+  <otu id="otu2" cmphy:genus="Rhodospirillum" cmphy:species="rubrum" cmphy:strain="ATCC 11170T" cmphy:id="D30778" editRecord="[]">Rhodospirillum rubrum ATCC 11170T (D30778)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Azospirillum" cmphy:species="doebereinerae" cmphy:strain="DSM 13131T" cmphy:id="AJZ38567" editRecord="[2__Z]">Azospirillum doebereinerae DSM 13131T (AJ238567)</otu>
+  <otu id="otu4">Azospirillum lipoferum NCIMB 11861 T (Z29619)</otu>
+  <otu id="otu5"> C0C8T (AB185396)</otu>
+  <otu id="otu6">Azospirillum Iargimobile ACM 20417 (X90759)</otu>
+  <otu id="otu7" cmphy:genus="Azospirillum" cmphy:species="amazonense" cmphy:strain="DSM 27877" cmphy:id="Z29616" editRecord="[]">Azospirillum amazonense DSM 27877 (Z29616)</otu>
+  <otu id="otu8" cmphy:genus="Azospirillum" cmphy:species="brasilense" cmphy:strain="ATCC 29145T" cmphy:id="X79739" editRecord="[]">Azospirillum brasilense ATCC 29145T (X79739)</otu>
+  <otu id="otu9" cmphy:genus="Azospirillum" cmphy:species="irakense" cmphy:strain="DSM 11586T" cmphy:id="Z29583" editRecord="[]">Azospirillum irakense DSM 11586T (Z29583)</otu>
+  <otu id="otu10" cmphy:genus="Azorhizobium" cmphy:species="caulinodans" cmphy:strain="LMG 6465T" cmphy:id="X67221" editRecord="[]">Azorhizobium caulinodans LMG 6465T (X67221)</otu>
+  <otu id="otu11" cmphy:genus="Azospirillum" cmphy:species="halopraeferens" cmphy:strain="DSM 36757" cmphy:id="X79731" editRecord="[]">Azospirillum halopraeferens DSM 36757 (X79731)</otu>
+  <otu id="otu12" cmphy:genus="Gluconacetobacter" cmphy:species="diazotrophicus" cmphy:strain="ATCC 490377" cmphy:id="X75618" editRecord="[]">Gluconacetobacter diazotrophicus ATCC 490377 (X75618)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="18.0" y="348.0"/>
+   <node id="NT1.2" x="39.0" y="288.0" label="67"/>
+   <node id="NT1.3" x="64.0" y="409.0" label="88"/>
+   <node id="NT1.4" x="105.0" y="231.0" label="95"/>
+   <node id="NT1.5" x="132.0" y="281.0" label="78"/>
+   <node id="NT1.6" x="189.0" y="179.0" label="100"/>
+   <node id="NT1.7" label="NT1.7" x="224.0" y="140.0"/>
+   <node id="NT1.11" label="NT1.11" x="281.0" y="345.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="304.0" y="470.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="320.0" y="136.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="338.0" y="304.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="344.0" y="177.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="363.0" y="260.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="370.0" y="388.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="419.0" y="219.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="491.0" y="429.0" otu="otu12"/>
+   <node id="NT1.23" x="5.0" y="409.0" root="true" label="88"/>
+   <edge id="e.3" target="NT1.13" source="NT1.7"/>
+   <edge id="e.4" source="NT1.7" target="NT1.18"/>
+   <edge id="e.5" source="NT1.6" target="NT1.21"/>
+   <edge id="e.6" source="NT1.5" target="NT1.17"/>
+   <edge id="e.7" source="NT1.5" target="NT1.19"/>
+   <edge id="e.8" source="NT1.3" target="NT1.20"/>
+   <edge id="e.9" source="NT1.3" target="NT1.22"/>
+   <edge id="e.12" source="NT1.6" target="NT1.7"/>
+   <edge id="e.13" source="NT1.4" target="NT1.6"/>
+   <edge id="e.14" source="NT1.2" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.5"/>
+   <edge id="e.16" source="NT1.1" target="NT1.2"/>
+   <edge id="e.17" source="NT1.1" target="NT1.3"/>
+   <edge id="e.18" source="NT1.23" target="NT1.1"/>
+   <edge id="e.19" source="NT1.23" target="NT1.12"/>
+   <edge id="e.20" source="NT1.2" target="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

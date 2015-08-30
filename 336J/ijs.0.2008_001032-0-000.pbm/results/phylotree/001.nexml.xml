@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> V. atypica ATCC 17744T (AF439641)</otu>
+  <otu id="otu2">V. rogosae CF1OOT(EF108443)</otu>
+  <otu id="otu3" cmphy:genus="v." cmphy:species="parvula" cmphy:strain="ATCC 1o79oT" cmphy:id="AY995767">v. parvula ATCC 1o79oT (AY995767)</otu>
+  <otu id="otu4">v. disparATCC 1774sT (AY995770)</otu>
+  <otu id="otu5">V. denticariosi RBV106T (EF185167)</otu>
+  <otu id="otu6">V. caviae DSM 207387 (AY355140)</otu>
+  <otu id="otu7">V. alcalescens ATCC 177457 (AY995769)</otu>
+  <otu id="otu8"> Veillonella sp. MY-P9 (DQ979378)</otu>
+  <otu id="otu9"> V. magna lac187 (EUD96495)</otu>
+  <otu id="otu10">V. rodentium ATCC 17743T (AY514996)</otu>
+  <otu id="otu11">V. rattiATCC 177467 (AF186071)</otu>
+  <otu id="otu12">V. cricetiATCC 17747T (AF1B6072)</otu>
+  <otu id="otu13">V. montpellierensis ADV 281 .99T (AF473836)</otu>
+  <otu id="otu14" cmphy:genus="Acidaminococcus" cmphy:species="fermentans" cmphy:strain="ATCC 250857" cmphy:id="X65935" editRecord="[]">Acidaminococcus fermentans ATCC 250857 (X65935)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.12" label="NT1.12" x="609.0" y="117.0" otu="otu3"/>
+   <node id="NT1.25" label="NT1.25" x="802.0" y="644.0" otu="otu14"/>
+   <node id="NT1.26" label="NT1.26" x="7.0" y="542.0" root="true"/>
+   <edge id="e.16" source="NT1.26" target="NT1.25"/>
+   <edge id="e.20" target="NT1.12" source="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

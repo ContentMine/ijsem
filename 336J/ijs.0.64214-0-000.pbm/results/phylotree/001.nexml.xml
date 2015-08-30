@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Devosia" cmphy:species="riboflavina" cmphy:strain="IFO 13584T" cmphy:id="D49423" editRecord="[]"> Devosia riboflavina IFO 13584T (D49423)</otu>
+  <otu id="otu2" cmphy:genus="Devosia" cmphy:species="neptuniae" cmphy:strain="J1T" cmphy:id="AF469072" editRecord="[]">Devosia neptuniae J1T (AF469072)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Devosia" cmphy:species="soli" cmphy:strain="GH2-10T" cmphy:id="DQB03125" editRecord="[3__B]"> Devosia soli GH2-10T (DQ303125)</otu>
+  <otu id="otu4">Devosia Iimi LMG 229517 (AJ786801)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">Rhizobium Ieguminosarum USDA 237OT (U29386)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="201.0" y="117.0"/>
+   <node id="NT1.4" x="284.0" y="166.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="321.0" y="144.0" otu="otu1"/>
+   <node id="NT1.6" label="NT1.6" x="347.0" y="100.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="348.0" y="189.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="3.0" y="175.0" root="true"/>
+   <edge id="e.2" target="NT1.6" source="NT1.1"/>
+   <edge id="e.3" source="NT1.4" target="NT1.5"/>
+   <edge id="e.4" source="NT1.4" target="NT1.7"/>
+   <edge id="e.7" source="NT1.1" target="NT1.4"/>
+   <edge id="e.9" source="NT1.11" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

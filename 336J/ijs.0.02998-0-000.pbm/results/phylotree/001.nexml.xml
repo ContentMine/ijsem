@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Chryseobacterium" cmphy:species="defluvii" cmphy:strain="B27" cmphy:id="AJB09324" editRecord="[3__B]">Chryseobacterium defluvii B27 (AJ309324)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Riemerella" cmphy:species="columbina" cmphy:strain="LMG 116077" cmphy:id="AFI81448" editRecord="[1__I]">Riemerella columbina LMG 116077 (AF181448)</otu>
+  <otu id="otu5">Be-rgeyella zoohelcum KCTC 29107 (M93153)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Kaistella" cmphy:species="koreensis" cmphy:strain="Chj7O77" cmphy:id="AFB44179" editRecord="[3__B]"> Kaistella koreensis Chj7O77 (AF344179)</otu>
+  <otu id="otu7"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="587.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="183.0" y="388.0" label="86"/>
+   <node id="NT1.3" label="NT1.3" x="205.0" y="273.0"/>
+   <node id="NT1.8" label="NT1.8" x="346.0" y="178.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="357.0" y="555.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="405.0" y="346.0" otu="otu6"/>
+   <edge id="e.2" source="NT1.2" target="NT1.3"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" target="NT1.9" source="NT1.2"/>
+   <edge id="e.9" target="NT1.8" source="NT1.3"/>
+   <edge id="e.10" source="NT1.3" target="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

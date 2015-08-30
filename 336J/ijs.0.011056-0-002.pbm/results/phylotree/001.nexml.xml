@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Arcobacter" cmphy:species="butzleri" cmphy:strain="ATCC 49616T" cmphy:id="DQO59474" editRecord="[0__O]">Arcobacter butzleri ATCC 49616T (DQ059474)</otu>
+  <otu id="otu2">Campylobacter peloridis LMG 2391 OT (AM924136)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">Campylobacter lari subsp. concheus LMG 21O09T (AM924138)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Campylobacter" cmphy:species="coli" cmphy:strain="ATCC 33559T" cmphy:id="DQO59477" editRecord="[0__O]">Campylobacter coli ATCC 33559T (DQ059477)</otu>
+  <otu id="otu8" cmphy:genus="Campylobacter" cmphy:species="insulaenigrae" cmphy:strain="LMG 22716T" cmphy:id="AM924135" editRecord="[]">Campylobacter insulaenigrae LMG 22716T (AM924135)</otu>
+  <otu id="otu9">Campylobacterjejuni subsp. doylei NCTC 1 1847 (DQ059458)</otu>
+  <otu id="otu10">Campylobacterjejunisubsp. jejuni NCTC 11168 (AY789009)</otu>
+  <otu id="otu11">Campylobacter helveticus ATCC 51 209T (DQ059473)</otu>
+  <otu id="otu12" cmphy:genus="Campylobacter" cmphy:species="cunfculorum" cmphy:strain="150BT" cmphy:id="EU636828" editRecord="[]">Campylobacter cunfculorum 150BT (EU636828)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Campylobacter" cmphy:species="upsaliensis" cmphy:strain="ATCC 43954T" cmphy:id="DQO59472" editRecord="[0__O]">Campylobacter upsaliensis ATCC 43954T (DQ059472)</otu>
+  <otu id="otu14"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="840.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="150.0" y="540.0"/>
+   <node id="NT1.6" label="NT1.6" x="160.0" y="634.0"/>
+   <node id="NT1.17" label="NT1.17" x="197.0" y="398.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="197.0" y="84.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="220.0" y="587.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="224.0" y="650.0" otu="otu13"/>
+   <edge id="e.1" target="NT1.17" source="NT1.4"/>
+   <edge id="e.2" source="NT1.6" target="NT1.23"/>
+   <edge id="e.9" target="NT1.4" source="NT1.1"/>
+   <edge id="e.11" source="NT1.4" target="NT1.6"/>
+   <edge id="e.20" target="NT1.18" source="NT1.4"/>
+   <edge id="e.23" target="NT1.24" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

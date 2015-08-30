@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Porphyrobacter" cmphy:species="donghaensis" cmphy:strain="SW-158" cmphy:id="AYS59429" editRecord="[5__S]">Porphyrobacter donghaensis SW-158 (AY559429)</otu>
+  <otu id="otu3">Erythrobacterlitoralis DSM 8509T (AB013354)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Porphyrobacter" cmphy:species="donghaensis" cmphy:strain="SW-132T" cmphy:id="AYS59428" editRecord="[5__S]">Porphyrobacter donghaensis SW-132T (AY559428)</otu>
+  <otu id="otu5" cmphy:genus="Sandaracinobacter" cmphy:species="sibiricus" cmphy:strain="RB16-17T" cmphy:id="Y10678" editRecord="[]">Sandaracinobacter sibiricus RB16-17T (Y10678)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Porphyrobacter" cmphy:species="neustonensis" cmphy:strain="DSM 9434T" cmphy:id="ABO33327" editRecord="[0__O]">Porphyrobacter neustonensis DSM 9434T (AB033327)</otu>
+  <otu id="otu7">Porphyrobactertepidarius DSM</otu>
+  <otu id="otu8" cmphy:genus="Porphyrobacter" cmphy:species="cryptus" cmphy:strain="ATCC BAA-386T" cmphy:id="AF465834" editRecord="[]">Porphyrobacter cryptus ATCC BAA-386T (AF465834)</otu>
+  <otu id="otu9">Erythromicrobium ramosum DSM 851 OT (AB013355)</otu>
+  <otu id="otu10" cmphy:genus="Porphyrobacter" cmphy:species="sanguineus" cmphy:strain="IAM 12620T" cmphy:id="ABO21493" editRecord="[]">Porphyrobacter sanguineus IAM 12620T (ABO21493)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Erythrobacter" cmphy:species="citreus" cmphy:strain="CIP 107092T" cmphy:id="AFI18020" editRecord="[1__I]">Erythrobacter citreus CIP 107092T (AF118020)</otu>
+  <otu id="otu12" cmphy:edit="[5__S, O__0]" cmphy:genus="Elythrobacter" cmphy:species="flavus" cmphy:strain="KCCM 41642T" cmphy:id="AFS00004" editRecord="[5__S, O__0]">Elythrobacter flavus KCCM 41642T (AF5000O4)</otu>
+  <otu id="otu13" cmphy:genus="Sphingomonas" cmphy:species="paucimobilis" cmphy:strain="IFO 13935T" cmphy:id="D13725" editRecord="[]">Sphingomonas paucimobilis IFO 13935T (D13725)</otu>
+  <otu id="otu14" cmphy:genus="Erythrobacter" cmphy:species="longus" cmphy:strain="ATCC 33941T" cmphy:id="L01786" editRecord="[]">Erythrobacter longus ATCC 33941T (L01786)</otu>
+  <otu id="otu15" cmphy:genus="Sphingobium" cmphy:species="yanoikuyae" cmphy:strain="IFO 151O2T" cmphy:id="D13728" editRecord="[]">Sphingobium yanoikuyae IFO 151O2T (D13728)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="545.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="49.0" y="545.0"/>
+   <node id="NT1.3" label="NT1.3" x="93.0" y="455.0"/>
+   <node id="NT1.4" label="NT1.4" x="209.0" y="571.0"/>
+   <node id="NT1.5" label="NT1.5" x="260.0" y="349.0"/>
+   <node id="NT1.7" label="NT1.7" x="333.0" y="145.0"/>
+   <node id="NT1.8" label="NT1.8" x="343.0" y="132.0"/>
+   <node id="NT1.9" label="NT1.9" x="355.0" y="38.0"/>
+   <node id="NT1.10" label="NT1.10" x="356.0" y="62.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="359.0" y="13.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="362.0" y="631.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="390.0" y="203.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="393.0" y="298.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="428.0" y="108.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="428.0" y="393.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="449.0" y="346.0" otu="otu12"/>
+   <node id="NT1.21" label="NT1.21" x="476.0" y="536.0" otu="otu13"/>
+   <node id="NT1.22" label="NT1.22" x="500.0" y="441.0" otu="otu14"/>
+   <node id="NT1.23" label="NT1.23" x="521.0" y="584.0" otu="otu15"/>
+   <edge id="e.0" source="NT1.9" target="NT1.10"/>
+   <edge id="e.2" source="NT1.5" target="NT1.16"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.4" source="NT1.4" target="NT1.23"/>
+   <edge id="e.5" source="NT1.9" target="NT1.12"/>
+   <edge id="e.6" source="NT1.8" target="NT1.9"/>
+   <edge id="e.7" source="NT1.7" target="NT1.8"/>
+   <edge id="e.8" target="NT1.7" source="NT1.5"/>
+   <edge id="e.10" source="NT1.3" target="NT1.5"/>
+   <edge id="e.11" source="NT1.2" target="NT1.3"/>
+   <edge id="e.12" source="NT1.3" target="NT1.4"/>
+   <edge id="e.13" source="NT1.2" target="NT1.13"/>
+   <edge id="e.14" source="NT1.4" target="NT1.21"/>
+   <edge id="e.16" source="NT1.7" target="NT1.14"/>
+   <edge id="e.17" source="NT1.5" target="NT1.22"/>
+   <edge id="e.18" source="NT1.5" target="NT1.19"/>
+   <edge id="e.20" source="NT1.8" target="NT1.18"/>
+   <edge id="e.21" source="NT1.5" target="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>

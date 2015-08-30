@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Anabaena variabilis Kutzing ATCC 29413 (U89346)</otu>
+  <otu id="otu3">Rubrivivax gelatinosus IAM 14808T (AB1881 19)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Pelomonas" cmphy:species="saccharophila" cmphy:strain="IAM 14368T" cmphy:id="ABI88120" editRecord="[1__I]">Pelomonas saccharophila IAM 14368T (AB188120)</otu>
+  <otu id="otu5" cmphy:genus="Azospirillum" cmphy:species="lipoferum" cmphy:strain="B22" cmphy:id="DQ787333" editRecord="[]">Azospirillum lipoferum B22 (DQ787333)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Azohydromonas" cmphy:species="lata" cmphy:strain="IAM 12599T" cmphy:id="ABI88122" editRecord="[1__I]">Azohydromonas lata IAM 12599T (AB188122)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Cupriavidus" cmphy:species="taiwanensis" cmphy:strain="PAS15" cmphy:id="AJS05321" editRecord="[5__S]">Cupriavidus taiwanensis PAS15 (AJ505321)</otu>
+  <otu id="otu8">ldeonella dechloratans ATCC 51718T (EU542578)</otu>
+  <otu id="otu9">Strain 1a22T (EU542577)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Methylobacterium" cmphy:species="nodulans" cmphy:strain="ORS 2O6OT" cmphy:id="AJS12205" editRecord="[5__S]">Methylobacterium nodulans ORS 2O6OT (AJ512205)</otu>
+  <otu id="otu11" cmphy:genus="Azospirillum" cmphy:species="brasilense" cmphy:strain="ATCC 29145T" cmphy:id="M64344" editRecord="[]">Azospirillum brasilense ATCC 29145T (M64344)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Derxia" cmphy:species="gummosa" cmphy:strain="IAM 13946T" cmphy:id="ABI88123" editRecord="[1__I]">Derxia gummosa IAM 13946T (AB188123)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Azohydromonas" cmphy:species="australica" cmphy:strain="IAM 12664T" cmphy:id="ABI88121" editRecord="[1__I]">Azohydromonas australica IAM 12664T (AB188121)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Burkholderia" cmphy:species="silvatlantica" cmphy:strain="SRCL318" cmphy:id="EFI58808" editRecord="[1__I]">Burkholderia silvatlantica SRCL318 (EF158808)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Burkholderia" cmphy:species="caryophylli" cmphy:strain="LMG 2155T" cmphy:id="EFI58806" editRecord="[1__I]">Burkholderia caryophylli LMG 2155T (EF158806)</otu>
+  <otu id="otu16" cmphy:edit="[1__I]" cmphy:genus="Burkholderia" cmphy:species="vietnamiensis" cmphy:strain="MMi-302" cmphy:id="EFI58809" editRecord="[1__I]">Burkholderia vietnamiensis MMi-302 (EF158809)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="470.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="67.0" y="564.0"/>
+   <node id="NT1.6" label="NT1.6" x="120.0" y="334.0"/>
+   <node id="NT1.7" label="NT1.7" x="146.0" y="185.0"/>
+   <node id="NT1.8" label="NT1.8" x="151.0" y="749.0"/>
+   <node id="NT1.10" label="NT1.10" x="183.0" y="518.0"/>
+   <node id="NT1.12" label="NT1.12" x="186.0" y="293.0"/>
+   <node id="NT1.14" x="196.0" y="793.0" label="69"/>
+   <node id="NT1.15" label="NT1.15" x="206.0" y="561.0"/>
+   <node id="NT1.16" label="NT1.16" x="209.0" y="365.0"/>
+   <node id="NT1.17" label="NT1.17" x="213.0" y="70.0" otu="otu4"/>
+   <node id="NT1.18" label="NT1.18" x="218.0" y="707.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="228.0" y="387.0"/>
+   <node id="NT1.20" label="NT1.20" x="250.0" y="476.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="254.0" y="244.0" otu="otu7"/>
+   <node id="NT1.24" label="NT1.24" x="263.0" y="765.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="263.0" y="824.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="273.0" y="534.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="273.0" y="592.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="277.0" y="302.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="295.0" y="360.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="295.0" y="418.0" otu="otu16"/>
+   <edge id="e.1" source="NT1.19" target="NT1.30"/>
+   <edge id="e.2" target="NT1.3" source="NT1.1"/>
+   <edge id="e.3" source="NT1.3" target="NT1.6"/>
+   <edge id="e.5" target="NT1.8" source="NT1.3"/>
+   <edge id="e.6" source="NT1.6" target="NT1.10"/>
+   <edge id="e.7" source="NT1.6" target="NT1.7"/>
+   <edge id="e.8" source="NT1.8" target="NT1.14"/>
+   <edge id="e.10" source="NT1.10" target="NT1.15"/>
+   <edge id="e.11" target="NT1.12" source="NT1.7"/>
+   <edge id="e.13" source="NT1.12" target="NT1.16"/>
+   <edge id="e.14" source="NT1.16" target="NT1.19"/>
+   <edge id="e.17" source="NT1.7" target="NT1.17"/>
+   <edge id="e.18" source="NT1.8" target="NT1.18"/>
+   <edge id="e.19" source="NT1.10" target="NT1.20"/>
+   <edge id="e.20" source="NT1.12" target="NT1.21"/>
+   <edge id="e.22" source="NT1.14" target="NT1.25"/>
+   <edge id="e.23" source="NT1.14" target="NT1.24"/>
+   <edge id="e.24" source="NT1.15" target="NT1.26"/>
+   <edge id="e.25" source="NT1.15" target="NT1.27"/>
+   <edge id="e.27" source="NT1.16" target="NT1.28"/>
+   <edge id="e.28" source="NT1.19" target="NT1.29"/>
+  </tree>
+ </trees>
+</nexml>

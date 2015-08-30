@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">S. uberis GTC 271T(AJ544590)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="S." cmphy:species="parauberis" cmphy:strain="GTC 5397" cmphy:id="AJS44723" editRecord="[5__S]">S. parauberis GTC 5397 (AJ544723)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="difficilis" cmphy:strain="GTC 7307" cmphy:id="ABI75041" editRecord="[1__I]">S. difficilis GTC 7307 (AB175041)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="dimcilis" cmphy:strain="GTC 2049" cmphy:id="ABI75040" editRecord="[1__I]">S. dimcilis GTC 2049 (AB175040)</otu>
+  <otu id="otu7" cmphy:genus="S." cmphy:species="iniae" cmphy:strain="GTC 2447" cmphy:id="Z99176" editRecord="[]">S. iniae GTC 2447 (Z99176)</otu>
+  <otu id="otu8">3. agalacfiae GTC 1234T (295593)</otu>
+  <otu id="otu9" cmphy:genus="S." cmphy:species="canis" cmphy:strain="GTC 4237" cmphy:id="Z99175" editRecord="[]">S. canis GTC 4237 (Z99175)</otu>
+  <otu id="otu10" cmphy:genus="S." cmphy:species="pyogenes" cmphy:strain="GTC 2627" cmphy:id="Z95915" editRecord="[]">S. pyogenes GTC 2627 (Z95915)</otu>
+  <otu id="otu11">S. dysgalactiae subsp.</otu>
+  <otu id="otu12">S. pneumoniae</otu>
+  <otu id="otu13">S. dysgalactiae subsp.</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="porcinus" cmphy:strain="GTC 5437" cmphy:id="Z99177" editRecord="[2__Z]">S. porcinus GTC 5437 (299177)</otu>
+  <otu id="otu15">S. equi subsp. zooepidemicus</otu>
+  <otu id="otu16">S. equi subsp. equi</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="985.0" y="500.0"/>
+   <node id="NT1.2" label="NT1.2" x="996.0" y="679.0"/>
+   <node id="NT1.3" label="NT1.3" x="1004.0" y="684.0" otu="otu1"/>
+   <node id="NT1.4" label="NT1.4" x="1006.0" y="683.0"/>
+   <node id="NT1.5" label="NT1.5" x="1007.0" y="653.0"/>
+   <node id="NT1.6" label="NT1.6" x="1010.0" y="684.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="1032.0" y="559.0"/>
+   <node id="NT1.8" x="1127.0" y="320.0" label="1uo"/>
+   <node id="NT1.9" label="NT1.9" x="1154.0" y="917.0"/>
+   <node id="NT1.10" label="NT1.10" x="1180.0" y="230.0"/>
+   <node id="NT1.11" label="NT1.11" x="1267.0" y="165.0"/>
+   <node id="NT1.12" label="NT1.12" x="1365.0" y="747.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="1372.0" y="672.0" otu="otu4"/>
+   <node id="NT1.14" x="1387.0" y="860.0" label="97"/>
+   <node id="NT1.15" label="NT1.15" x="1388.0" y="820.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="1388.0" y="898.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="1400.0" y="521.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="1400.0" y="972.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="1420.0" y="221.0" otu="otu9"/>
+   <node id="NT1.20" x="1425.0" y="108.0" label="mo"/>
+   <node id="NT1.21" label="NT1.21" x="1426.0" y="69.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="1426.0" y="147.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="1443.0" y="1047.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="1487.0" y="296.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="1495.0" y="596.0" otu="otu14"/>
+   <node id="NT1.26" label="NT1.26" x="1603.0" y="407.0"/>
+   <node id="NT1.27" label="NT1.27" x="1623.0" y="446.0" otu="otu15"/>
+   <node id="NT1.28" label="NT1.28" x="1630.0" y="371.0" otu="otu16"/>
+   <edge source="NT1.21" target="NT1.20" id="e.0"/>
+   <edge source="NT1.22" target="NT1.20" id="e.1"/>
+   <edge source="NT1.28" target="NT1.26" id="e.2"/>
+   <edge source="NT1.3" target="NT1.4" id="e.3"/>
+   <edge source="NT1.6" target="NT1.4" id="e.4"/>
+   <edge source="NT1.13" target="NT1.5" id="e.5"/>
+   <edge source="NT1.17" target="NT1.7" id="e.6"/>
+   <edge source="NT1.18" target="NT1.9" id="e.7"/>
+   <edge source="NT1.15" target="NT1.14" id="e.8"/>
+   <edge source="NT1.16" target="NT1.14" id="e.9"/>
+   <edge source="NT1.23" target="NT1.9" id="e.10"/>
+   <edge source="NT1.20" target="NT1.11" id="e.11"/>
+   <edge source="NT1.11" target="NT1.10" id="e.12"/>
+   <edge source="NT1.10" target="NT1.8" id="e.13"/>
+   <edge source="NT1.8" target="NT1.1" id="e.14"/>
+   <edge source="NT1.8" target="NT1.26" id="e.15"/>
+   <edge source="NT1.1" target="NT1.2" id="e.16"/>
+   <edge source="NT1.2" target="NT1.5" id="e.17"/>
+   <edge source="NT1.5" target="NT1.7" id="e.18"/>
+   <edge source="NT1.5" target="NT1.5" id="e.19"/>
+   <edge source="NT1.5" target="NT1.4" id="e.20"/>
+   <edge source="NT1.5" target="NT1.5" id="e.21"/>
+   <edge source="NT1.5" target="NT1.5" id="e.22"/>
+   <edge source="NT1.9" target="NT1.14" id="e.23"/>
+   <edge source="NT1.1" target="NT1.9" id="e.24"/>
+   <edge source="NT1.12" target="NT1.2" id="e.25"/>
+   <edge source="NT1.25" target="NT1.7" id="e.26"/>
+   <edge source="NT1.24" target="NT1.10" id="e.27"/>
+   <edge source="NT1.19" target="NT1.11" id="e.28"/>
+   <edge source="NT1.27" target="NT1.26" id="e.29"/>
+  </tree>
+ </trees>
+</nexml>

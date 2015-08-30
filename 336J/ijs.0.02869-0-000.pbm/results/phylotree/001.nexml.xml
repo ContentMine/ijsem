@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">M. mycoides subsp. mycoides PG1T (U26038)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">M. feliminutum BENT (U16758)</otu>
+  <otu id="otu4"> M. equigenitalium T37T (AF221 120)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"> M. gypis B1rr1T (AF125589)</otu>
+  <otu id="otu7">M. pulmonis PG34T (AF125582)</otu>
+  <otu id="otu8">M. sualvi MayfieldT (AF412988)</otu>
+  <otu id="otu9"> M. Iipophilum MaByT (M24581)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="u." cmphy:species="canigenitalium" cmphy:strain="D6P-CT" cmphy:id="D78648">u. canigenitalium D6P-CT (D78648)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14">M. arginini (52307 (U15794)</otu>
+  <otu id="otu15">M. gateae C5T (U15796)</otu>
+  <otu id="otu16"> M. felis coT (uo97s7)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19">M. canis PG14T (AF340023)</otu>
+  <otu id="otu20">M. edwardii PG24T (u739o3)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22"> M. synoviae WUV1853T (X52083)</otu>
+  <otu id="otu23">M. sp. strain VJC 358 (AY246564M'()</otu>
+  <otu id="otu24"/>
+  <otu id="otu25"/>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28">M. haemocanis (AF197337)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.34" label="NT1.34" x="408.0" y="265.0" otu="otu11"/>
+   <node id="NT1.53" label="NT1.53" x="5.0" y="655.0" root="true"/>
+   <edge id="e.3" target="NT1.34" source="NT1.53"/>
+  </tree>
+ </trees>
+</nexml>

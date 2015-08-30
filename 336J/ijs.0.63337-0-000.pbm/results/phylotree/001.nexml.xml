@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Adhaeribacter" cmphy:species="aquaticus" cmphy:strain="MBRG1.57" cmphy:id="AJ626894" editRecord="[]">Adhaeribacter aquaticus MBRG1.57 (AJ626894)</otu>
+  <otu id="otu2" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 119477" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 119477 (M62797)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Flexibacter" cmphy:species="aggregans" cmphy:strain="IFO 15974" cmphy:id="ABO78038" editRecord="[0__O]">Flexibacter aggregans IFO 15974 (AB078038)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Microscilla sericea7 IFO 15983 (AB078081)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Flexibacter" cmphy:species="canadensis" cmphy:strain="IFO 151307" cmphy:id="ABO78046" editRecord="[0__O]">Flexibacter canadensis IFO 151307 (AB078046)</otu>
+  <otu id="otu9" cmphy:genus="Persicobacter" cmphy:species="diffluens" cmphy:strain="ATCC 23140" cmphy:id="M58765" editRecord="[]">Persicobacter diffluens ATCC 23140 (M58765)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Flexibacter" cmphy:species="elegans" cmphy:strain="IFO 150557" cmphy:id="ABO78048" editRecord="[0__O]">Flexibacter elegans IFO 150557 (AB078048)</otu>
+  <otu id="otu14" cmphy:genus="Sphingobacterium" cmphy:species="spiritivorum" cmphy:strain="ATCC 338617" cmphy:id="M58778" editRecord="[]">Sphingobacterium spiritivorum ATCC 338617 (M58778)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Sphingobactenum" cmphy:species="faecium" cmphy:strain="DSM 116907" cmphy:id="AJ438176" editRecord="[]">Sphingobactenum faecium DSM 116907 (AJ438176)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:genus="Flexibacter" cmphy:species="flexilis" cmphy:strain="ATCC 230797" cmphy:id="M62794" editRecord="[]">Flexibacter flexilis ATCC 230797 (M62794)</otu>
+  <otu id="otu23"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="48.0" y="673.0" label="100"/>
+   <node id="NT1.2" x="94.0" y="517.0" label="52"/>
+   <node id="NT1.3" label="NT1.3" x="108.0" y="429.0"/>
+   <node id="NT1.4" label="NT1.4" x="114.0" y="357.0"/>
+   <node id="NT1.5" x="128.0" y="498.0" label="52"/>
+   <node id="NT1.9" x="186.0" y="828.0" label="100"/>
+   <node id="NT1.14" x="308.0" y="862.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="339.0" y="557.0" otu="otu1"/>
+   <node id="NT1.17" label="NT1.17" x="344.0" y="950.0" otu="otu2"/>
+   <node id="NT1.20" label="NT1.20" x="358.0" y="245.0" otu="otu3"/>
+   <node id="NT1.29" label="NT1.29" x="438.0" y="792.0" otu="otu8"/>
+   <node id="NT1.30" label="NT1.30" x="446.0" y="439.0" otu="otu9"/>
+   <node id="NT1.34" label="NT1.34" x="464.0" y="519.0" otu="otu13"/>
+   <node id="NT1.35" label="NT1.35" x="466.0" y="832.0" otu="otu14"/>
+   <node id="NT1.38" label="NT1.38" x="471.0" y="870.0" otu="otu17"/>
+   <node id="NT1.43" label="NT1.43" x="527.0" y="479.0" otu="otu22"/>
+   <node id="NT1.45" label="NT1.45" x="26.0" y="811.0" root="true"/>
+   <edge id="e.4" target="NT1.20" source="NT1.4"/>
+   <edge id="e.9" source="NT1.4" target="NT1.30"/>
+   <edge id="e.10" source="NT1.5" target="NT1.34"/>
+   <edge id="e.11" target="NT1.16" source="NT1.2"/>
+   <edge id="e.12" source="NT1.5" target="NT1.43"/>
+   <edge id="e.18" source="NT1.9" target="NT1.29"/>
+   <edge id="e.19" source="NT1.14" target="NT1.35"/>
+   <edge id="e.20" target="NT1.38" source="NT1.14"/>
+   <edge id="e.28" source="NT1.3" target="NT1.4"/>
+   <edge id="e.29" source="NT1.2" target="NT1.3"/>
+   <edge id="e.30" source="NT1.3" target="NT1.5"/>
+   <edge id="e.33" source="NT1.1" target="NT1.2"/>
+   <edge id="e.36" source="NT1.1" target="NT1.9"/>
+   <edge id="e.40" source="NT1.9" target="NT1.14"/>
+   <edge id="e.42" source="NT1.45" target="NT1.17"/>
+   <edge id="e.43" source="NT1.45" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

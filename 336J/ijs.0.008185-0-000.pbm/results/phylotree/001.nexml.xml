@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Rhodomicrobium vannielii E.Y.33 (M341 27)</otu>
+  <otu id="otu2" cmphy:genus="Blastochloris" cmphy:species="sulfoviridis" cmphy:strain="DSM 7297" cmphy:id="D86514" editRecord="[]">Blastochloris sulfoviridis DSM 7297 (D86514)</otu>
+  <otu id="otu3">Afifella pfennigiiAR21027 (AJ510235)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Blastochloris" cmphy:species="viridis" cmphy:strain="DSM 1337" cmphy:id="AFO84495" editRecord="[]"> Blastochloris viridis DSM 1337 (AFO84495)</otu>
+  <otu id="otu6"> Rhodoplanes serenus TUT35307 (ABO8771 7)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Escherichia coli ATCC 1 1 7757 (X80725)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13">Rhodoplanes pokkaliisoli JA4157 (FM 202448)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.7" x="351.0" y="330.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="353.0" y="354.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="401.0" y="306.0" otu="otu5"/>
+   <node id="NT1.33" label="NT1.33" x="1.0" y="103.0" root="true"/>
+   <edge id="e.3" source="NT1.7" target="NT1.8"/>
+   <edge id="e.6" source="NT1.7" target="NT1.15"/>
+   <edge id="e.20" target="NT1.7" source="NT1.33"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">N. seriolae DSM 441297 (AF430039)</otu>
+  <otu id="otu2">N. concava IFM O354T(AB12688O)</otu>
+  <otu id="otu3">N. otitidiscaviarum DSM 43242T (AF430067)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">N. pseudobrasiliensis DSM 4429OT (AF430042)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">N. jiangxiensis 434O1T (AY639902)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">N. lijiangensis YIM 33378T (AY779043)</otu>
+  <otu id="otu10">N. vaccinii DSM 43285T (AF430045)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">N. callitridis CAP 2907 (FJ805428)</otu>
+  <otu id="otu13" cmphy:genus="S." cmphy:species="griseus" cmphy:strain="NRRL-ISP 5236T" cmphy:id="AYO94371" editRecord="[]">S. griseus NRRL-ISP 5236T (AYO94371)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.24" label="NT1.24" x="708.0" y="484.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="2.0" y="413.0" root="true"/>
+   <edge id="e.22" source="NT1.25" target="NT1.24"/>
+  </tree>
+ </trees>
+</nexml>

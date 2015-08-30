@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Alcanivorax" cmphy:species="dieselolei" cmphy:strain="B-57" cmphy:id="AY683537" editRecord="[]">Alcanivorax dieselolei B-57 (AY683537)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Alcanivorax" cmphy:species="venustensis" cmphy:strain="lSO4T" cmphy:id="AFB28762" editRecord="[3__B]">Alcanivorax venustensis lSO4T (AF328762)</otu>
+  <otu id="otu4"> Alcanivoraxjadensis T9T (AJOO1 150)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Marinobacter" cmphy:species="lutaoensis" cmphy:strain="T5054T" cmphy:id="AFZ88157" editRecord="[2__Z]">Marinobacter lutaoensis T5054T (AF288157)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Marinobacter daepoensis SW-156T (AY51 7633)</otu>
+  <otu id="otu9" cmphy:genus="Marinobacter" cmphy:species="hydrocarbonoclasticus" cmphy:strain="ATCC 498407" cmphy:id="X67022" editRecord="[]">Marinobacter hydrocarbonoclasticus ATCC 498407 (X67022)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Pseudomonas" cmphy:species="fluorescens" cmphy:strain="KU-7" cmphy:id="ABZ66613" editRecord="[2__Z]">Pseudomonas fluorescens KU-7 (AB266613)</otu>
+  <otu id="otu11" cmphy:genus="Pseudomonas" cmphy:species="corrugata" cmphy:strain="SB4" cmphy:id="AYO50495" editRecord="[]">Pseudomonas corrugata SB4 (AYO50495)</otu>
+  <otu id="otu12">Pseudomonas</otu>
+  <otu id="otu13" cmphy:genus="Cellvibrio" cmphy:species="japonicus" cmphy:strain="NCIMB 1O462T" cmphy:id="AF452103" editRecord="[]">Cellvibrio japonicus NCIMB 1O462T (AF452103)</otu>
+  <otu id="otu14">Strain CL-CB221Y (EF988653)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">Spongiibacter marinus HAL4ObT (AM1 1 7932)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Cellvibrio" cmphy:species="gandavensis" cmphy:strain="R-4069T" cmphy:id="AJZ89162" editRecord="[2__Z]">Cellvibrio gandavensis R-4069T (AJ289162)</otu>
+  <otu id="otu18" cmphy:genus="Cellvibrio" cmphy:species="mixtus" cmphy:strain="UQM 2601T" cmphy:id="AF448515" editRecord="[]">Cellvibrio mixtus UQM 2601T (AF448515)</otu>
+  <otu id="otu19" cmphy:genus="Pseudomonas" cmphy:species="aeruginosa" cmphy:strain="RH 8157" cmphy:id="X06684" editRecord="[]">Pseudomonas aeruginosa RH 8157 (X06684)</otu>
+  <otu id="otu20" cmphy:edit="[0__O]" cmphy:genus="Teredinibacter" cmphy:species="turnerae" cmphy:strain="T7902T" cmphy:id="AYO28398" editRecord="[0__O]">Teredinibacter turnerae T7902T (AY028398)</otu>
+  <otu id="otu21" cmphy:edit="[0__O]" cmphy:genus="Neptunomonas" cmphy:species="naphthovorans" cmphy:strain="NAG-2N-126T" cmphy:id="AFO53734" editRecord="[0__O]">Neptunomonas naphthovorans NAG-2N-126T (AF053734)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="609.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="16.0" y="609.0"/>
+   <node id="NT1.3" label="NT1.3" x="62.0" y="480.0"/>
+   <node id="NT1.4" label="NT1.4" x="80.0" y="385.0"/>
+   <node id="NT1.5" label="NT1.5" x="102.0" y="268.0"/>
+   <node id="NT1.7" x="129.0" y="780.0" label="63"/>
+   <node id="NT1.8" label="NT1.8" x="131.0" y="173.0"/>
+   <node id="NT1.10" label="NT1.10" x="174.0" y="575.0"/>
+   <node id="NT1.11" label="NT1.11" x="201.0" y="363.0"/>
+   <node id="NT1.13" label="NT1.13" x="209.0" y="759.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="235.0" y="228.0"/>
+   <node id="NT1.17" label="NT1.17" x="243.0" y="803.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="250.0" y="260.0"/>
+   <node id="NT1.21" label="NT1.21" x="253.0" y="542.0" otu="otu6"/>
+   <node id="NT1.25" label="NT1.25" x="291.0" y="630.0" otu="otu9"/>
+   <node id="NT1.26" x="296.0" y="433.0" label="100"/>
+   <node id="NT1.27" label="NT1.27" x="305.0" y="456.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="310.0" y="412.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="324.0" y="195.0" otu="otu13"/>
+   <node id="NT1.35" label="NT1.35" x="341.0" y="239.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="357.0" y="282.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="357.0" y="326.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="376.0" y="152.0" otu="otu20"/>
+   <node id="NT1.39" label="NT1.39" x="384.0" y="499.0" otu="otu21"/>
+   <edge id="e.4" target="NT1.38" source="NT1.8"/>
+   <edge id="e.5" source="NT1.16" target="NT1.30"/>
+   <edge id="e.6" source="NT1.20" target="NT1.35"/>
+   <edge id="e.7" source="NT1.20" target="NT1.36"/>
+   <edge id="e.8" source="NT1.26" target="NT1.27"/>
+   <edge id="e.9" source="NT1.26" target="NT1.28"/>
+   <edge id="e.10" source="NT1.1" target="NT1.2"/>
+   <edge id="e.11" source="NT1.4" target="NT1.39"/>
+   <edge id="e.12" source="NT1.10" target="NT1.21"/>
+   <edge id="e.14" target="NT1.25" source="NT1.10"/>
+   <edge id="e.15" source="NT1.7" target="NT1.17"/>
+   <edge id="e.20" source="NT1.5" target="NT1.8"/>
+   <edge id="e.21" source="NT1.8" target="NT1.16"/>
+   <edge id="e.22" source="NT1.4" target="NT1.5"/>
+   <edge id="e.23" source="NT1.5" target="NT1.11"/>
+   <edge id="e.24" source="NT1.16" target="NT1.20"/>
+   <edge id="e.25" source="NT1.3" target="NT1.4"/>
+   <edge id="e.27" source="NT1.2" target="NT1.3"/>
+   <edge id="e.28" source="NT1.3" target="NT1.10"/>
+   <edge id="e.29" target="NT1.26" source="NT1.11"/>
+   <edge id="e.32" target="NT1.7" source="NT1.2"/>
+   <edge id="e.34" source="NT1.7" target="NT1.13"/>
+   <edge id="e.36" source="NT1.11" target="NT1.37"/>
+  </tree>
+ </trees>
+</nexml>

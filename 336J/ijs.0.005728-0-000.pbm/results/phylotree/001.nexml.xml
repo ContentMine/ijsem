@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">s. xinjiangensis</otu>
+  <otu id="otu3" cmphy:genus="s." cmphy:species="fredii" cmphy:strain="LMG 62177" cmphy:id="X67231">s. fredii LMG 62177 (X67231)</otu>
+  <otu id="otu4">M. amorphae ACCC 19665T (AF041442)</otu>
+  <otu id="otu5">M. huakuii IAM 14158T (D12797)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"> R. galegae LMG 6214T (X67226)</otu>
+  <otu id="otu8">M. septentrionale SDW018T (AF508208)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="S." cmphy:species="terangae" cmphy:strain="LMG 6463T" cmphy:id="X68387" editRecord="[]">S. terangae LMG 6463T (X68387)</otu>
+  <otu id="otu11"> M. tianshanense USDA 35927 (AF041447)</otu>
+  <otu id="otu12">M. plurifarium LMG 11892T (Y14158)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">M. mediterraneum UPM-Ca36T (L38825)</otu>
+  <otu id="otu15"> R. Ieguminosarum bv. trifolii T24 (U31074)</otu>
+  <otu id="otu16" cmphy:genus="s." cmphy:species="saheli" cmphy:strain="LMG 7a37T" cmphy:id="X68390">s. saheli LMG 7a37T (X68390)</otu>
+  <otu id="otu17"> R. gallicum R6o2spT (U86343)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21">R. etli USDA 9O32T (U28916)</otu>
+  <otu id="otu22">M. australicum WSM2074 (AY601514)</otu>
+  <otu id="otu23">M. australicum WSM2073T (AY601516)</otu>
+  <otu id="otu24">WSM1271 (AY601513)</otu>
+  <otu id="otu25">R. tropici IAM 142O6T (D12798)</otu>
+  <otu id="otu26">R. hainanensis 1667 (U71078)</otu>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29">M. chacoense LMG 190087 (AJ278249)</otu>
+  <otu id="otu30"> WSM1283 (AF178963)</otu>
+  <otu id="otu31">B. elkanii USDA 76T (U35000)</otu>
+  <otu id="otu32">M. thiogangeticum SJTT (AJ864462)</otu>
+  <otu id="otu33"/>
+  <otu id="otu34"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.8" x="499.0" y="1053.0" label="47"/>
+   <node id="NT1.13" label="NT1.13" x="538.0" y="1094.0"/>
+   <node id="NT1.18" label="NT1.18" x="555.0" y="1154.0" otu="otu3"/>
+   <node id="NT1.32" label="NT1.32" x="585.0" y="1012.0" otu="otu10"/>
+   <node id="NT1.43" label="NT1.43" x="616.0" y="1059.0" otu="otu16"/>
+   <node id="NT1.67" label="NT1.67" x="6.0" y="1402.0" root="true"/>
+   <edge id="e.17" source="NT1.8" target="NT1.32"/>
+   <edge id="e.19" target="NT1.18" source="NT1.13"/>
+   <edge id="e.20" source="NT1.13" target="NT1.43"/>
+   <edge id="e.51" target="NT1.8" source="NT1.67"/>
+   <edge id="e.53" source="NT1.8" target="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

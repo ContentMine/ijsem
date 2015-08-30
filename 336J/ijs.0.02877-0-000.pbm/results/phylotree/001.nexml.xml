@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Cryptococcus" cmphy:species="aquaticus" cmphy:strain="CBS 5443T" cmphy:id="AFO75470" editRecord="[]">Cryptococcus aquaticus CBS 5443T (AFO75470)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Mrakia" cmphy:species="gelida" cmphy:strain="CBS 5272T" cmphy:id="AFI89831" editRecord="[1__I]">Mrakia gelida CBS 5272T (AF189831)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Cryptococcus" cmphy:species="albidus" cmphy:strain="CBS 142T" cmphy:id="AFO75474" editRecord="[0__O]">Cryptococcus albidus CBS 142T (AF075474)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Holtermannia" cmphy:species="corniforrnis" cmphy:strain="CBS 6979" cmphy:id="AFI89843" editRecord="[1__I]">Holtermannia corniforrnis CBS 6979 (AF189843)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Cryptoooccus" cmphy:species="vishniacii" cmphy:strain="CBS 7110" cmphy:id="AFO75473" editRecord="[0__O]">Cryptoooccus vishniacii CBS 7110 (AF075473)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Cryptococcus" cmphy:species="watticus" cmphy:strain="CBS 94967" cmphy:id="AYI38478" editRecord="[1__I]">Cryptococcus watticus CBS 94967 (AY138478)</otu>
+  <otu id="otu7">Cryptococcus sp. CBS 8016 (AF360844)</otu>
+  <otu id="otu8">Cryptococcus sp. KCTC 17062 (AF459678)</otu>
+  <otu id="otu9">Cryptococcus sp. KCTC 17061 (AF459677)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Tremella" cmphy:species="encephala" cmphy:strain="CBS 6968" cmphy:id="AFI89867" editRecord="[1__I]">Tremella encephala CBS 6968 (AF189867)</otu>
+  <otu id="otu11" cmphy:genus="Cryptococcus" cmphy:species="laurentii" cmphy:strain="CBS 1397" cmphy:id="AFO75469" editRecord="[]">Cryptococcus laurentii CBS 1397 (AFO75469)</otu>
+  <otu id="otu12">Clyptococcus sp. CBS 7712 (AJ311450)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Filobasidium" cmphy:species="capsuligenum" cmphy:strain="CBS 4736" cmphy:id="AFO75501" editRecord="[0__O]">Filobasidium capsuligenum CBS 4736 (AF075501)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Clyptococcus" cmphy:species="nyanowii" cmphy:strain="CBS 88O4T" cmphy:id="AYO06480" editRecord="[0__O]">Clyptococcus nyanowii CBS 88O4T (AY006480)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Clyptococcus" cmphy:species="heveanensis" cmphy:strain="CBS 5697" cmphy:id="AFO75467" editRecord="[0__O]">Clyptococcus heveanensis CBS 5697 (AF075467)</otu>
+  <otu id="otu16">Bullera dendrophila CBS 60747 (AF 189870)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="10.0" y="695.0"/>
+   <node id="NT1.2" label="NT1.2" x="36.0" y="737.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="41.0" y="785.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="228.0" y="561.0"/>
+   <node id="NT1.5" label="NT1.5" x="279.0" y="369.0"/>
+   <node id="NT1.6" label="NT1.6" x="332.0" y="518.0"/>
+   <node id="NT1.7" label="NT1.7" x="357.0" y="616.0"/>
+   <node id="NT1.8" label="NT1.8" x="358.0" y="460.0"/>
+   <node id="NT1.9" label="NT1.9" x="366.0" y="273.0"/>
+   <node id="NT1.10" label="NT1.10" x="380.0" y="592.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="381.0" y="174.0"/>
+   <node id="NT1.12" label="NT1.12" x="384.0" y="353.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="391.0" y="640.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="402.0" y="16.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="412.0" y="543.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="414.0" y="496.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="417.0" y="688.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="431.0" y="208.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="447.0" y="401.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="10.0" y="554.0" root="true"/>
+   <edge id="e.0" target="NT1.17" source="NT1.11"/>
+   <edge id="e.5" source="NT1.9" target="NT1.12"/>
+   <edge id="e.6" source="NT1.6" target="NT1.22"/>
+   <edge id="e.8" source="NT1.7" target="NT1.10"/>
+   <edge id="e.9" source="NT1.7" target="NT1.13"/>
+   <edge id="e.10" source="NT1.1" target="NT1.2"/>
+   <edge id="e.13" source="NT1.9" target="NT1.11"/>
+   <edge id="e.15" source="NT1.5" target="NT1.9"/>
+   <edge id="e.17" source="NT1.4" target="NT1.5"/>
+   <edge id="e.18" source="NT1.5" target="NT1.6"/>
+   <edge id="e.19" source="NT1.4" target="NT1.7"/>
+   <edge id="e.20" source="NT1.6" target="NT1.8"/>
+   <edge id="e.22" source="NT1.30" target="NT1.4"/>
+   <edge id="e.23" source="NT1.30" target="NT1.1"/>
+   <edge id="e.24" source="NT1.1" target="NT1.3"/>
+   <edge id="e.25" source="NT1.4" target="NT1.26"/>
+   <edge id="e.26" source="NT1.8" target="NT1.23"/>
+   <edge id="e.27" target="NT1.28" source="NT1.8"/>
+   <edge id="e.28" target="NT1.27" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

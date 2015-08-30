@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Spirochaeta" cmphy:species="asiatica" cmphy:strain="DSM 8901T" cmphy:id="X93926" editRecord="[]">Spirochaeta asiatica DSM 8901T (X93926)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Spirochaeta aurantia subsp. aurantia ATCC 25O82T (M57740)</otu>
+  <otu id="otu12" cmphy:genus="Spirochaeta" cmphy:species="thermophila" cmphy:strain="DSM 6192" cmphy:id="X62809" editRecord="[]">Spirochaeta thermophila DSM 6192 (X62809)</otu>
+  <otu id="otu13"> Spirochaeta zuelzerae (M88725)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="93.0" y="155.0" label="71"/>
+   <node id="NT1.14" label="NT1.14" x="445.0" y="152.0" otu="otu4"/>
+   <node id="NT1.23" label="NT1.23" x="557.0" y="184.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="1.0" y="316.0" root="true"/>
+   <edge id="e.3" target="NT1.14" source="NT1.2"/>
+   <edge id="e.7" target="NT1.23" source="NT1.2"/>
+   <edge id="e.17" target="NT1.2" source="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

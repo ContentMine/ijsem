@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">Brevibacillus centrosporus DSM 8445T (AB1 12719)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">Brevibacillus formosus DSM 9885T (AB1 12712)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Brevibacillus" cmphy:species="ginsengisoli" cmphy:strain="Gsoil 30887" cmphy:id="ABZ45376" editRecord="[2__Z]">Brevibacillus ginsengisoli Gsoil 30887 (AB245376)</otu>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Brevibacillus" cmphy:species="choshinensis" cmphy:strain="DSM 8552T" cmphy:id="ABI12713" editRecord="[1__I]">Brevibacillus choshinensis DSM 8552T (AB112713)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">Brevibacillus invocatus NCIMB 137727 (AB1 12718)</otu>
+  <otu id="otu16" cmphy:edit="[1__I]" cmphy:genus="Brevibacillus" cmphy:species="reuszeri" cmphy:strain="DSM 9887T" cmphy:id="ABI12715" editRecord="[1__I]">Brevibacillus reuszeri DSM 9887T (AB112715)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Brevibacillus Iimnophilus DSM 6472T (AB1 12717)</otu>
+  <otu id="otu19">Brevibacillus borstelensis DSM 63477 (AB1 12721 )</otu>
+  <otu id="otu20">Brevibacillus laterosporus DSM 25T (AB1 12720)</otu>
+  <otu id="otu21">Brevibacillus Ievickii LMG 22481T (AJ715378)</otu>
+  <otu id="otu22">Brevibacillus thermoruber DSM 7064T (AB1 12722)</otu>
+  <otu id="otu23" cmphy:edit="[1__I]" cmphy:genus="Aneurinibacillus" cmphy:species="aneurinilyticus" cmphy:strain="DSM 5562T" cmphy:id="ABI12724" editRecord="[1__I]">Aneurinibacillus aneurinilyticus DSM 5562T (AB112724)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="373.0" y="485.0"/>
+   <node id="NT1.17" label="NT1.17" x="672.0" y="133.0"/>
+   <node id="NT1.24" label="NT1.24" x="711.0" y="590.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="733.0" y="109.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="794.0" y="157.0" otu="otu16"/>
+   <node id="NT1.37" label="NT1.37" x="1250.0" y="687.0" otu="otu23"/>
+   <node id="NT1.38" label="NT1.38" x="5.0" y="501.0" root="true"/>
+   <edge id="e.5" target="NT1.25" source="NT1.17"/>
+   <edge id="e.7" source="NT1.17" target="NT1.29"/>
+   <edge id="e.18" target="NT1.24" source="NT1.1"/>
+   <edge id="e.25" target="NT1.17" source="NT1.1"/>
+   <edge id="e.35" source="NT1.38" target="NT1.1"/>
+   <edge id="e.36" source="NT1.38" target="NT1.37"/>
+  </tree>
+ </trees>
+</nexml>

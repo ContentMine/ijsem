@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Halalkalicoccus" cmphy:species="tibetensis" cmphy:strain="JCM 11890T" cmphy:id="AF435112" editRecord="[]">Halalkalicoccus tibetensis JCM 11890T (AF435112)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Haloterrigena" cmphy:species="thermotolerans" cmphy:strain="ATCC 7O0275T" cmphy:id="AFI15478" editRecord="[1__I]">Haloterrigena thermotolerans ATCC 7O0275T (AF115478)</otu>
+  <otu id="otu3">Strain DX253T 16S gene-1 JCM 13897T (DQ344973)</otu>
+  <otu id="otu4">Strain GY252 16S gene-1 (DQ867122)</otu>
+  <otu id="otu5" cmphy:genus="Natronobacterium" cmphy:species="gregoryi" cmphy:strain="NCIMB 2189T" cmphy:id="D87970" editRecord="[]">Natronobacterium gregoryi NCIMB 2189T (D87970)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Halovivax" cmphy:species="asiaticus" cmphy:strain="CECT 7O98T" cmphy:id="AMO39978" editRecord="[0__O]">Halovivax asiaticus CECT 7O98T (AM039978)</otu>
+  <otu id="otu7">Low-salt estuary isolate W1</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Natrialba" cmphy:species="aegyptiaca" cmphy:strain="JCM 11194T" cmphy:id="AFZ51941" editRecord="[2__Z]">Natrialba aegyptiaca JCM 11194T (AF251941)</otu>
+  <otu id="otu9">Low-salt estuary isolate SOAH 16S gene-1 (AY292392)</otu>
+  <otu id="otu10" cmphy:genus="Natrialba" cmphy:species="asiatica" cmphy:strain="JCM 9546T" cmphy:id="D14123" editRecord="[]">Natrialba asiatica JCM 9546T (D14123)</otu>
+  <otu id="otu11">Strain GY252 16S gene-2 (DQ867123)</otu>
+  <otu id="otu12" cmphy:genus="Halococcus" cmphy:species="salifodinae" cmphy:strain="ATCC 51437T" cmphy:id="ABO04877" editRecord="[]">Halococcus salifodinae ATCC 51437T (ABO04877)</otu>
+  <otu id="otu13">Strain DX253T 153 gene-2 JCM 13s97T (DQ344974)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Halococcus" cmphy:species="saccharolyticus" cmphy:strain="ATCC 49257T" cmphy:id="ABO04876" editRecord="[0__O]">Halococcus saccharolyticus ATCC 49257T (AB004876)</otu>
+  <otu id="otu15">Low-salt estuary isolate 3OAH 168 gene-2 (AY292393)</otu>
+  <otu id="otu16">Methanospirillum hungatei</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="11.0" y="1350.0"/>
+   <node id="NT1.2" label="NT1.2" x="76.0" y="1531.0"/>
+   <node id="NT1.3" label="NT1.3" x="89.0" y="1169.0"/>
+   <node id="NT1.4" label="NT1.4" x="104.0" y="1061.0"/>
+   <node id="NT1.5" label="NT1.5" x="126.0" y="963.0"/>
+   <node id="NT1.7" label="NT1.7" x="213.0" y="1617.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="226.0" y="1048.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="245.0" y="877.0"/>
+   <node id="NT1.16" label="NT1.16" x="246.0" y="1275.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="252.0" y="1161.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="257.0" y="932.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="264.0" y="818.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="286.0" y="1446.0"/>
+   <node id="NT1.25" label="NT1.25" x="299.0" y="1504.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="322.0" y="1390.0" otu="otu14"/>
+   <node id="NT1.30" label="NT1.30" x="4.0" y="1541.0" root="true"/>
+   <edge id="e.4" source="NT1.3" target="NT1.16"/>
+   <edge id="e.5" source="NT1.4" target="NT1.17"/>
+   <edge id="e.6" source="NT1.23" target="NT1.27"/>
+   <edge id="e.7" source="NT1.5" target="NT1.10"/>
+   <edge id="e.8" source="NT1.15" target="NT1.19"/>
+   <edge id="e.9" source="NT1.15" target="NT1.21"/>
+   <edge id="e.16" source="NT1.1" target="NT1.3"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.18" source="NT1.2" target="NT1.23"/>
+   <edge id="e.19" source="NT1.3" target="NT1.4"/>
+   <edge id="e.20" source="NT1.4" target="NT1.5"/>
+   <edge id="e.21" source="NT1.5" target="NT1.15"/>
+   <edge id="e.23" source="NT1.30" target="NT1.1"/>
+   <edge id="e.24" source="NT1.2" target="NT1.7"/>
+   <edge id="e.26" source="NT1.23" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

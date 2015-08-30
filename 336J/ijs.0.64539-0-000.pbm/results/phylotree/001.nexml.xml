@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Pichia" cmphy:species="anomala" cmphy:strain="CBS 5759N7" cmphy:id="U74592" editRecord="[]">Pichia anomala CBS 5759N7 (U74592)</otu>
+  <otu id="otu2">Kazachstania aquatics CBS 1O1027(AY881651)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Kazachstania" cmphy:species="viticola" cmphy:strain="CBS 64637" cmphy:id="AFB98482" editRecord="[3__B]">Kazachstania viticola CBS 64637 (AF398482)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Kazachstania" cmphy:species="solicola" cmphy:strain="CBS 69047" cmphy:id="AYO07895" editRecord="[O__0]">Kazachstania solicola CBS 69047 (AYOO7895)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Kazachstania" cmphy:species="aerobia" cmphy:strain="CBS 99187" cmphy:id="AYS82127" editRecord="[5__S]">Kazachstania aerobia CBS 99187 (AY582127)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Saccharomyces" cmphy:species="cerevisiae" cmphy:strain="CBS 19077" cmphy:id="AJS08581" editRecord="[5__S]"> Saccharomyces cerevisiae CBS 19077 (AJ508581)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Kazachstania" cmphy:species="unispora" cmphy:strain="CBS 3987" cmphy:id="AYO07912" editRecord="[0__O]">Kazachstania unispora CBS 3987 (AY007912)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Saccharomyces" cmphy:species="uvarum" cmphy:strain="CBS 3957" cmphy:id="AJZ79065" editRecord="[2__Z]">Saccharomyces uvarum CBS 3957 (AJ279065)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Kazachstania" cmphy:species="servazzii" cmphy:strain="CBS 43117" cmphy:id="AYO48157" editRecord="[0__O]">Kazachstania servazzii CBS 43117 (AY048157)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Kazachstania" cmphy:species="siamensis" cmphy:strain="S-35" cmphy:id="ABZ58463" editRecord="[2__Z]">Kazachstania siamensis S-35 (AB258463)</otu>
+  <otu id="otu12"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="269.0" y="437.0"/>
+   <node id="NT1.2" label="NT1.2" x="296.0" y="376.0"/>
+   <node id="NT1.3" label="NT1.3" x="311.0" y="681.0" otu="otu1"/>
+   <node id="NT1.4" x="316.0" y="237.0" label="77"/>
+   <node id="NT1.6" x="343.0" y="514.0" label="95"/>
+   <node id="NT1.7" x="369.0" y="143.0" label="99"/>
+   <node id="NT1.9" label="NT1.9" x="376.0" y="620.0" otu="otu3"/>
+   <node id="NT1.10" x="377.0" y="90.0" label="63"/>
+   <node id="NT1.11" label="NT1.11" x="381.0" y="75.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="381.0" y="45.0"/>
+   <node id="NT1.13" label="NT1.13" x="382.0" y="14.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="383.0" y="559.0" otu="otu6"/>
+   <node id="NT1.15" label="NT1.15" x="384.0" y="196.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="388.0" y="499.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="389.0" y="136.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="406.0" y="317.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="4.0" y="589.0" root="true"/>
+   <edge id="e.0" source="NT1.12" target="NT1.13"/>
+   <edge id="e.1" source="NT1.12" target="NT1.11"/>
+   <edge id="e.2" source="NT1.10" target="NT1.18"/>
+   <edge id="e.3" source="NT1.7" target="NT1.15"/>
+   <edge id="e.5" target="NT1.21" source="NT1.4"/>
+   <edge id="e.7" target="NT1.17" source="NT1.6"/>
+   <edge id="e.9" source="NT1.1" target="NT1.9"/>
+   <edge id="e.10" source="NT1.10" target="NT1.12"/>
+   <edge id="e.11" source="NT1.7" target="NT1.10"/>
+   <edge id="e.12" source="NT1.4" target="NT1.7"/>
+   <edge id="e.13" source="NT1.2" target="NT1.4"/>
+   <edge id="e.16" source="NT1.1" target="NT1.2"/>
+   <edge id="e.17" source="NT1.2" target="NT1.6"/>
+   <edge id="e.19" source="NT1.23" target="NT1.3"/>
+   <edge id="e.20" source="NT1.23" target="NT1.1"/>
+   <edge id="e.21" source="NT1.6" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

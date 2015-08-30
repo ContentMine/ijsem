@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> V. chagasii LMG 213537 (AJ316199)</otu>
+  <otu id="otu2">LGP 7T (AJ582808)</otu>
+  <otu id="otu3">V. campbellii ATCC 259207 (X56575)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="v." cmphy:species="pomeroyi" cmphy:strain="LMG 2o537T" cmphy:id="AJ491290">v. pomeroyi LMG 2o537T (AJ491290)</otu>
+  <otu id="otu6">V. tasmaniensis LMG 20012T (AJ316192)</otu>
+  <otu id="otu7">V. splendidus LMG 40427 (AJ515229)</otu>
+  <otu id="otu8">V. Ientus CIP 1O7166T (AJ294421)</otu>
+  <otu id="otu9"> V. kanaloae LMG 205397 (AJ316193)</otu>
+  <otu id="otu10">V. cyclitrophicus LMG 21359T</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.9" label="NT1.9" x="300.0" y="366.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="5.0" y="465.0" root="true"/>
+   <edge id="e.6" target="NT1.9" source="NT1.17"/>
+  </tree>
+ </trees>
+</nexml>
