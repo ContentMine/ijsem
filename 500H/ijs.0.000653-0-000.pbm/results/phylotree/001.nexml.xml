@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Bacillus" cmphy:species="flrmus" cmphy:strain="IAM 124647" cmphy:id="D16268" editRecord="[]">Bacillus flrmus IAM 124647 (D16268)</otu>
+  <otu id="otu3" cmphy:genus="Bacillus" cmphy:species="barbaricus" cmphy:strain="DSM 1473OT" cmphy:id="AJ422145" editRecord="[]">Bacillus barbaricus DSM 1473OT (AJ422145)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="solisalsi" cmphy:strain="YC1T" cmphy:id="EUO46268" editRecord="[0__O]">Bacillus solisalsi YC1T (EU046268)</otu>
+  <otu id="otu5" cmphy:genus="Bacillus" cmphy:species="alcalophilus" cmphy:strain="DSM 485T" cmphy:id="X76436" editRecord="[]">Bacillus alcalophilus DSM 485T (X76436)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Bacillus" cmphy:species="novalis" cmphy:strain="LMG 21837T" cmphy:id="AJS42512" editRecord="[5__S]"> Bacillus novalis LMG 21837T (AJ542512)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Bacillus" cmphy:species="vireti" cmphy:strain="LMG 218347" cmphy:id="AJS42509" editRecord="[5__S]"> Bacillus vireti LMG 218347 (AJ542509)</otu>
+  <otu id="otu8" cmphy:genus="Bacillus" cmphy:species="flexus" cmphy:strain="DSM 13207" cmphy:id="ABO21185" editRecord="[]">Bacillus flexus DSM 13207 (ABO21185)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Bacillus" cmphy:species="gelatini" cmphy:strain="LMG 21880T" cmphy:id="AJS51329" editRecord="[5__S]">Bacillus gelatini LMG 21880T (AJ551329)</otu>
+  <otu id="otu10" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="NCDO 1769T" cmphy:id="X60646" editRecord="[]">Bacillus subtilis NCDO 1769T (X60646)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Bacillus" cmphy:species="macauensis" cmphy:strain="JCM 132857" cmphy:id="AYB73018" editRecord="[3__B]">Bacillus macauensis JCM 132857 (AY373018)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="457.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="244.0" y="375.0"/>
+   <node id="NT1.3" x="308.0" y="259.0" label="67"/>
+   <node id="NT1.4" x="411.0" y="186.0" label="82"/>
+   <node id="NT1.5" x="467.0" y="138.0" label="65"/>
+   <node id="NT1.6" label="NT1.6" x="480.0" y="93.0"/>
+   <node id="NT1.7" x="493.0" y="330.0" label="99"/>
+   <node id="NT1.8" x="553.0" y="375.0" label="85"/>
+   <node id="NT1.9" x="641.0" y="413.0" label="99"/>
+   <node id="NT1.10" label="NT1.10" x="688.0" y="132.0" otu="otu2"/>
+   <node id="NT1.11" label="NT1.11" x="716.0" y="336.0" otu="otu3"/>
+   <node id="NT1.12" label="NT1.12" x="721.0" y="439.0" otu="otu4"/>
+   <node id="NT1.13" x="725.0" y="55.0" label="100"/>
+   <node id="NT1.14" label="NT1.14" x="727.0" y="491.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="746.0" y="29.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="756.0" y="81.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="763.0" y="183.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="835.0" y="285.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="847.0" y="234.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="858.0" y="388.0" otu="otu11"/>
+   <edge id="e.0" source="NT1.13" target="NT1.15"/>
+   <edge id="e.1" source="NT1.13" target="NT1.16"/>
+   <edge id="e.2" source="NT1.6" target="NT1.10"/>
+   <edge id="e.3" source="NT1.5" target="NT1.17"/>
+   <edge id="e.4" source="NT1.4" target="NT1.19"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" source="NT1.8" target="NT1.11"/>
+   <edge id="e.7" source="NT1.9" target="NT1.12"/>
+   <edge id="e.8" source="NT1.7" target="NT1.18"/>
+   <edge id="e.9" source="NT1.9" target="NT1.20"/>
+   <edge id="e.10" source="NT1.2" target="NT1.14"/>
+   <edge id="e.11" source="NT1.6" target="NT1.13"/>
+   <edge id="e.12" source="NT1.5" target="NT1.6"/>
+   <edge id="e.13" source="NT1.4" target="NT1.5"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" source="NT1.2" target="NT1.3"/>
+   <edge id="e.16" source="NT1.3" target="NT1.7"/>
+   <edge id="e.17" source="NT1.7" target="NT1.8"/>
+   <edge id="e.18" source="NT1.8" target="NT1.9"/>
+  </tree>
+ </trees>
+</nexml>

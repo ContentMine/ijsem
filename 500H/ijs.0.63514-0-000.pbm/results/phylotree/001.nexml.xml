@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Empedobacter" cmphy:species="brevis" cmphy:strain="ATCC 14234" cmphy:id="M59052" editRecord="[]">Empedobacter brevis ATCC 14234 (M59052)</otu>
+  <otu id="otu2" cmphy:genus="Weeksella" cmphy:species="virosa" cmphy:strain="ATCC 43766T" cmphy:id="M93152" editRecord="[]">Weeksella virosa ATCC 43766T (M93152)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Chryseobacterium" cmphy:species="gleum" cmphy:strain="ATCC 35910T" cmphy:id="M58772" editRecord="[]"> Chryseobacterium gleum ATCC 35910T (M58772)</otu>
+  <otu id="otu5">Chryseobacteriumjoostei LMG 18212T (AJ271010)</otu>
+  <otu id="otu6" cmphy:genus="Chryseobaclerium" cmphy:species="meningaseplicum" cmphy:strain="ATCC 13253T" cmphy:id="M58776" editRecord="[]"> Chryseobaclerium meningaseplicum ATCC 13253T (M58776)</otu>
+  <otu id="otu7">Chryseobacterium taich ungense CC-TWGS1-ST (AJ843 132)</otu>
+  <otu id="otu8"> Chryseobacteriumformosense CC-H3-2T (AJ 715377)</otu>
+  <otu id="otu9">Chryseobacrerium dej7uvii B2T (AJ 309324)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:genus="Chryseobacterium" cmphy:species="indoltheticum" cmphy:strain="ATCC 27950T" cmphy:id="M58774" editRecord="[]"> Chryseobacterium indoltheticum ATCC 27950T (M58774)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Chryseobacterium" cmphy:species="miricola" cmphy:strain="DSM 145711" cmphy:id="ABO71953" editRecord="[0__O]">Chryseobacterium miricola DSM 145711 (AB071953)</otu>
+  <otu id="otu13" cmphy:genus="Chrjyseobacterium" cmphy:species="balustinum" cmphy:strain="ATCC 33487T" cmphy:id="M58771" editRecord="[]"> Chrjyseobacterium balustinum ATCC 33487T (M58771)</otu>
+  <otu id="otu14" cmphy:genus="Bergeyella" cmphy:species="zaahelcum" cmphy:strain="ATCC 43767T" cmphy:id="M93153" editRecord="[]">Bergeyella zaahelcum ATCC 43767T (M93153)</otu>
+  <otu id="otu15">Chrjyseobacterium 'pr0te0lyticum' 9670 (ABO39830)</otu>
+  <otu id="otu16">Riemerella anatipestifer ATCC 1 1845T (U10877)</otu>
+  <otu id="otu17">F lavobacterium aquatile ATCC 11947T (M28236)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="196.0" y="767.0" label="100"/>
+   <node id="NT1.4" x="325.0" y="505.0" label="69"/>
+   <node id="NT1.5" x="377.0" y="437.0" label="65"/>
+   <node id="NT1.7" label="NT1.7" x="423.0" y="743.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="438.0" y="291.0"/>
+   <node id="NT1.9" label="NT1.9" x="445.0" y="792.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="526.0" y="356.0" otu="otu4"/>
+   <node id="NT1.17" x="541.0" y="573.0" label="100"/>
+   <node id="NT1.19" label="NT1.19" x="564.0" y="549.0" otu="otu6"/>
+   <node id="NT1.20" x="576.0" y="77.0" label="97"/>
+   <node id="NT1.26" label="NT1.26" x="637.0" y="113.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="638.0" y="598.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="648.0" y="64.0" otu="otu13"/>
+   <node id="NT1.29" label="NT1.29" x="656.0" y="501.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="2.0" y="653.0" root="true"/>
+   <edge id="e.1" target="NT1.28" source="NT1.20"/>
+   <edge id="e.2" source="NT1.20" target="NT1.26"/>
+   <edge id="e.7" target="NT1.16" source="NT1.8"/>
+   <edge id="e.10" source="NT1.5" target="NT1.29"/>
+   <edge id="e.11" source="NT1.17" target="NT1.19"/>
+   <edge id="e.12" source="NT1.17" target="NT1.27"/>
+   <edge id="e.14" source="NT1.2" target="NT1.7"/>
+   <edge id="e.15" source="NT1.2" target="NT1.9"/>
+   <edge id="e.18" target="NT1.20" source="NT1.8"/>
+   <edge id="e.22" target="NT1.8" source="NT1.5"/>
+   <edge id="e.26" source="NT1.4" target="NT1.5"/>
+   <edge id="e.27" target="NT1.4" source="NT1.33"/>
+   <edge id="e.28" source="NT1.4" target="NT1.17"/>
+   <edge id="e.29" target="NT1.2" source="NT1.33"/>
+  </tree>
+ </trees>
+</nexml>

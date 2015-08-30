@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Neptuniibacter caesariensis MED92T (AY1361 1 6)</otu>
+  <otu id="otu2" cmphy:genus="Methylococcus" cmphy:species="capsulatus" cmphy:strain="ACM 12927" cmphy:id="X72770" editRecord="[]">Methylococcus capsulatus ACM 12927 (X72770)</otu>
+  <otu id="otu3" cmphy:edit="[5__S]" cmphy:genus="Nitrincola" cmphy:species="lacisaponensis" cmphy:strain="4CAT" cmphy:id="AYS67473" editRecord="[5__S]">Nitrincola lacisaponensis 4CAT (AY567473)</otu>
+  <otu id="otu4">Marinomonas communis LMG 2864T (D001 1528)</otu>
+  <otu id="otu5" cmphy:genus="Marinomonas" cmphy:species="mediterranea" cmphy:strain="ATCC 7O0492T" cmphy:id="AFO63027" editRecord="[]">Marinomonas mediterranea ATCC 7O0492T (AFO63027)</otu>
+  <otu id="otu6" cmphy:edit="[8__B]" cmphy:genus="Marinimicrobium" cmphy:species="agarilyticum" cmphy:strain="M18T" cmphy:id="AYB39870" editRecord="[8__B]">Marinimicrobium agarilyticum M18T (AY839870)</otu>
+  <otu id="otu7" cmphy:edit="[8__B]" cmphy:genus="Marinomonas" cmphy:species="aquimarina" cmphy:strain="CECT 5080T" cmphy:id="AJB43077" editRecord="[8__B]">Marinomonas aquimarina CECT 5080T (AJ843077)</otu>
+  <otu id="otu8" cmphy:edit="[O__0]" cmphy:genus="Saccharophagus" cmphy:species="degradans" cmphy:strain="2-407" cmphy:id="CPO00282" editRecord="[O__0]">Saccharophagus degradans 2-407 (CPOO0282)</otu>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Marinimicrobium" cmphy:species="koreense" cmphy:strain="M97" cmphy:id="AYB39869" editRecord="[8__B]">Marinimicrobium koreense M97 (AY839869)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Teredfnibacter" cmphy:species="turnerae" cmphy:strain="T7902T" cmphy:id="AYO28398" editRecord="[0__O]">Teredfnibacter turnerae T7902T (AY028398)</otu>
+  <otu id="otu11" cmphy:edit="[5__S]" cmphy:genus="Kangiella" cmphy:species="japonica" cmphy:strain="KMM 3896" cmphy:id="ABS05049" editRecord="[5__S]">Kangiella japonica KMM 3896 (AB505049)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Kangiella" cmphy:species="japonica" cmphy:strain="KMM 3897" cmphy:id="ABS05050" editRecord="[5__S]">Kangiella japonica KMM 3897 (AB505050)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Kangiella" cmphy:species="koreensis" cmphy:strain="SW-1257" cmphy:id="AYS20560" editRecord="[5__S]">Kangiella koreensis SW-1257 (AY520560)</otu>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Kangiella" cmphy:species="aquimarina" cmphy:strain="SW-1547" cmphy:id="AYS20561" editRecord="[5__S]">Kangiella aquimarina SW-1547 (AY520561)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="92.0" y="268.0"/>
+   <node id="NT1.2" label="NT1.2" x="140.0" y="368.0"/>
+   <node id="NT1.4" x="177.0" y="173.0" label="97"/>
+   <node id="NT1.5" label="NT1.5" x="227.0" y="244.0"/>
+   <node id="NT1.6" label="NT1.6" x="333.0" y="280.0"/>
+   <node id="NT1.7" label="NT1.7" x="362.0" y="432.0"/>
+   <node id="NT1.8" label="NT1.8" x="412.0" y="210.0"/>
+   <node id="NT1.11" label="NT1.11" x="475.0" y="509.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="484.0" y="335.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="535.0" y="406.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="539.0" y="191.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="541.0" y="477.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="552.0" y="99.0"/>
+   <node id="NT1.18" label="NT1.18" x="572.0" y="263.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="597.0" y="227.0" otu="otu9"/>
+   <node id="NT1.20" x="662.0" y="137.0" label="100"/>
+   <node id="NT1.21" label="NT1.21" x="689.0" y="299.0" otu="otu10"/>
+   <node id="NT1.22" x="694.0" y="58.0" label="100"/>
+   <node id="NT1.23" label="NT1.23" x="695.0" y="12.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="698.0" y="84.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="699.0" y="155.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="719.0" y="120.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="4.0" y="268.0" root="true"/>
+   <edge id="e.0" source="NT1.22" target="NT1.23"/>
+   <edge id="e.1" source="NT1.20" target="NT1.25"/>
+   <edge id="e.2" source="NT1.7" target="NT1.14"/>
+   <edge id="e.3" source="NT1.17" target="NT1.22"/>
+   <edge id="e.4" source="NT1.4" target="NT1.17"/>
+   <edge id="e.5" source="NT1.17" target="NT1.20"/>
+   <edge id="e.6" source="NT1.1" target="NT1.4"/>
+   <edge id="e.7" source="NT1.4" target="NT1.5"/>
+   <edge id="e.8" source="NT1.5" target="NT1.6"/>
+   <edge id="e.9" source="NT1.5" target="NT1.8"/>
+   <edge id="e.10" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" target="NT1.7" source="NT1.2"/>
+   <edge id="e.14" source="NT1.27" target="NT1.1"/>
+   <edge id="e.15" source="NT1.27" target="NT1.11"/>
+   <edge id="e.16" source="NT1.2" target="NT1.12"/>
+   <edge id="e.18" source="NT1.6" target="NT1.18"/>
+   <edge id="e.19" source="NT1.6" target="NT1.21"/>
+   <edge id="e.20" source="NT1.8" target="NT1.15"/>
+   <edge id="e.22" target="NT1.16" source="NT1.7"/>
+   <edge id="e.23" source="NT1.8" target="NT1.19"/>
+   <edge id="e.24" source="NT1.20" target="NT1.26"/>
+   <edge id="e.25" source="NT1.22" target="NT1.24"/>
+  </tree>
+ </trees>
+</nexml>

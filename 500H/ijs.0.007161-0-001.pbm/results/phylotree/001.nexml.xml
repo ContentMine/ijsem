@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[8__B]" cmphy:genus="Virgibacillus" cmphy:species="dokdonensis" cmphy:strain="DSM 168267" cmphy:id="AYB22043" editRecord="[8__B]">Virgibacillus dokdonensis DSM 168267 (AY822043)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Virgibacillus" cmphy:species="halophilus" cmphy:strain="JCM 217587" cmphy:id="ABZ43851" editRecord="[2__Z]">Virgibacillus halophilus JCM 217587 (AB243851)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Gracilibacillus" cmphy:species="halotolerans" cmphy:strain="DSM 118057" cmphy:id="AFO36922" editRecord="[0__O]">Gracilibacillus halotolerans DSM 118057 (AF036922)</otu>
+  <otu id="otu10">Alicyclobaoillus acidoterrestris</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16">Oceanobacillus oncorhynchi subsp. oncorhynchi JCM 126617 (AB188089)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Oceanobacillus" cmphy:species="chironomi" cmphy:strain="DSM 182627" cmphy:id="DQZ98074" editRecord="[2__Z]">Oceanobacillus chironomi DSM 182627 (DQ298074)</otu>
+  <otu id="otu18">Lentibacillus halophilus</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="190.0" y="668.0"/>
+   <node id="NT1.4" label="NT1.4" x="218.0" y="235.0"/>
+   <node id="NT1.5" label="NT1.5" x="225.0" y="98.0"/>
+   <node id="NT1.19" label="NT1.19" x="326.0" y="70.0" otu="otu4"/>
+   <node id="NT1.23" label="NT1.23" x="335.0" y="183.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="343.0" y="854.0" otu="otu9"/>
+   <node id="NT1.33" label="NT1.33" x="393.0" y="631.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="4.0" y="876.0" root="true"/>
+   <edge id="e.1" target="NT1.19" source="NT1.5"/>
+   <edge id="e.3" target="NT1.23" source="NT1.5"/>
+   <edge id="e.8" target="NT1.33" source="NT1.4"/>
+   <edge id="e.15" source="NT1.2" target="NT1.24"/>
+   <edge id="e.17" source="NT1.4" target="NT1.5"/>
+   <edge id="e.19" target="NT1.4" source="NT1.2"/>
+   <edge id="e.27" target="NT1.2" source="NT1.35"/>
+  </tree>
+ </trees>
+</nexml>

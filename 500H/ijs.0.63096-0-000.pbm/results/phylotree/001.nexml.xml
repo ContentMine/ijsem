@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">98</otu>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Psychrobacter" cmphy:species="pulmonis" cmphy:strain="CECT 5989T" cmphy:id="AJ437696" editRecord="[]">Psychrobacter pulmonis CECT 5989T (AJ437696)</otu>
+  <otu id="otu4" cmphy:genus="Psychrobacter" cmphy:species="maritimus" cmphy:strain="Pi2-207" cmphy:id="AJ609272" editRecord="[]"> Psychrobacter maritimus Pi2-207 (AJ609272)</otu>
+  <otu id="otu5">Psychrobacter frigidicola DSM 1241 17</otu>
+  <otu id="otu6" cmphy:genus="Psychrobacter" cmphy:species="faecalis" cmphy:strain="Iso-46T" cmphy:id="AJ421528" editRecord="[]">Psychrobacter faecalis Iso-46T (AJ421528)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Psychrobacter urativorans DSM 14009T</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"> sychrobacterluti LMG 21276T (AJ430828)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Psychrobacter" cmphy:species="pacificensis" cmphy:strain="IFO 16279" cmphy:id="ABO16057" editRecord="[0__O]">Psychrobacter pacificensis IFO 16279 (AB016057)</otu>
+  <otu id="otu19">Psychrobacter arenosus R77 (Al609273)</otu>
+  <otu id="otu20">Acinetobacter calcoaceticus DSM 30006T(X81661)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="60.0" y="124.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="65.0" y="101.0"/>
+   <node id="NT1.5" label="NT1.5" x="91.0" y="213.0"/>
+   <node id="NT1.11" label="NT1.11" x="116.0" y="128.0"/>
+   <node id="NT1.12" label="NT1.12" x="120.0" y="107.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="124.0" y="309.0" otu="otu4"/>
+   <node id="NT1.21" label="NT1.21" x="135.0" y="149.0" otu="otu6"/>
+   <node id="NT1.33" label="NT1.33" x="160.0" y="21.0" otu="otu18"/>
+   <edge id="e.0" source="NT1.3" target="NT1.33"/>
+   <edge id="e.1" source="NT1.1" target="NT1.3"/>
+   <edge id="e.6" target="NT1.15" source="NT1.5"/>
+   <edge id="e.17" target="NT1.5" source="NT1.3"/>
+   <edge id="e.19" source="NT1.5" target="NT1.11"/>
+   <edge id="e.30" source="NT1.11" target="NT1.12"/>
+   <edge id="e.31" source="NT1.11" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

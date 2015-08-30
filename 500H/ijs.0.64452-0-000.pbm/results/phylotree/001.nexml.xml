@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">M. corniflorae NRRL Y-277507 (AY611610)</otu>
+  <otu id="otu3" cmphy:genus="Candida" cmphy:species="ubatubensis" cmphy:strain="UNESP O1-247R7" cmphy:id="AY695395" editRecord="[]">Candida ubatubensis UNESP O1-247R7 (AY695395)</otu>
+  <otu id="otu4" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="hawaiiana" cmphy:strain="UWOPS 91-698.37" cmphy:id="AFS14293" editRecord="[5__S]">Candida hawaiiana UWOPS 91-698.37 (AF514293)</otu>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Candida" cmphy:species="kipukae" cmphy:strain="UWOPS 00-669.27" cmphy:id="AFS14294" editRecord="[5__S]"> Candida kipukae UWOPS 00-669.27 (AF514294)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">M. orientalis UWOPS 99-733.2 (AF313363)</otu>
+  <otu id="otu8">M. gruessii CBS 76577 (U45737)</otu>
+  <otu id="otu9">M. reukaufii CBS 58347 (U44825)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">M. bicuspidata CBS 55757 (U44822)</otu>
+  <otu id="otu13" cmphy:genus="Candida" cmphy:species="oregonensis" cmphy:strain="CBS 50367" cmphy:id="U44815" editRecord="[]">Candida oregonensis CBS 50367 (U44815)</otu>
+  <otu id="otu14" cmphy:genus="Candida" cmphy:species="musae" cmphy:strain="CBS 63817" cmphy:id="U44814" editRecord="[]">Candida musae CBS 63817 (U44814)</otu>
+  <otu id="otu15" cmphy:genus="Candida" cmphy:species="melibiosica" cmphy:strain="CBS 58147" cmphy:id="U44813" editRecord="[]">Candida melibiosica CBS 58147 (U44813)</otu>
+  <otu id="otu16" cmphy:genus="Candida" cmphy:species="tsuchiyae" cmphy:strain="CBS 71957" cmphy:id="U49064" editRecord="[]">Candida tsuchiyae CBS 71957 (U49064)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">M. pulcherrima CBS 58337 (U45736)</otu>
+  <otu id="otu19" cmphy:genus="Candida" cmphy:species="intermedia" cmphy:strain="CBS 5727" cmphy:id="U44809" editRecord="[]">Candida intermedia CBS 5727 (U44809)</otu>
+  <otu id="otu20">M. agaves CBS 77447 (U84243)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:genus="Clavispora" cmphy:species="opuntiae" cmphy:strain="CBS 70687" cmphy:id="U44818" editRecord="[]">Clavispora opuntiae CBS 70687 (U44818)</otu>
+  <otu id="otu23">M. lunata CBS 59467 (U45733)</otu>
+  <otu id="otu24">M. aberdeeniae SUB 05-213.17 (DQ266429)</otu>
+  <otu id="otu25">Candida torresii C BS 51527 (U45731)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29">M. hibisci UWOPS 95-797.27 (AFO34128)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="855.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="65.0" y="774.0"/>
+   <node id="NT1.5" label="NT1.5" x="89.0" y="448.0"/>
+   <node id="NT1.6" label="NT1.6" x="98.0" y="247.0"/>
+   <node id="NT1.7" label="NT1.7" x="103.0" y="580.0"/>
+   <node id="NT1.14" label="NT1.14" x="137.0" y="618.0"/>
+   <node id="NT1.16" label="NT1.16" x="151.0" y="601.0"/>
+   <node id="NT1.17" label="NT1.17" x="154.0" y="478.0"/>
+   <node id="NT1.19" label="NT1.19" x="162.0" y="560.0"/>
+   <node id="NT1.27" label="NT1.27" x="253.0" y="903.0" otu="otu3"/>
+   <node id="NT1.28" label="NT1.28" x="257.0" y="358.0" otu="otu4"/>
+   <node id="NT1.29" label="NT1.29" x="260.0" y="154.0" otu="otu5"/>
+   <node id="NT1.38" label="NT1.38" x="292.0" y="631.0" otu="otu13"/>
+   <node id="NT1.39" label="NT1.39" x="292.0" y="528.0" otu="otu14"/>
+   <node id="NT1.40" label="NT1.40" x="295.0" y="665.0" otu="otu15"/>
+   <node id="NT1.41" label="NT1.41" x="297.0" y="494.0" otu="otu16"/>
+   <node id="NT1.44" label="NT1.44" x="301.0" y="460.0" otu="otu19"/>
+   <node id="NT1.47" label="NT1.47" x="305.0" y="597.0" otu="otu22"/>
+   <edge id="e.4" target="NT1.29" source="NT1.6"/>
+   <edge id="e.8" target="NT1.28" source="NT1.6"/>
+   <edge id="e.11" source="NT1.17" target="NT1.41"/>
+   <edge id="e.12" source="NT1.17" target="NT1.44"/>
+   <edge id="e.14" source="NT1.16" target="NT1.38"/>
+   <edge id="e.16" target="NT1.39" source="NT1.19"/>
+   <edge id="e.22" source="NT1.3" target="NT1.27"/>
+   <edge id="e.31" source="NT1.5" target="NT1.6"/>
+   <edge id="e.35" target="NT1.5" source="NT1.3"/>
+   <edge id="e.36" source="NT1.5" target="NT1.7"/>
+   <edge id="e.38" source="NT1.7" target="NT1.17"/>
+   <edge id="e.42" target="NT1.14" source="NT1.7"/>
+   <edge id="e.44" source="NT1.14" target="NT1.16"/>
+   <edge id="e.45" target="NT1.3" source="NT1.1"/>
+   <edge id="e.46" source="NT1.16" target="NT1.19"/>
+   <edge id="e.49" source="NT1.14" target="NT1.40"/>
+   <edge id="e.52" source="NT1.19" target="NT1.47"/>
+  </tree>
+ </trees>
+</nexml>

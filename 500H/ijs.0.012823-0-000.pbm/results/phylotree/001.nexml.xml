@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Pandoraea pulmonicola LMG 181 OBT (AF1391 75)</otu>
+  <otu id="otu3">Pandoraea genomospecies1 JB1 (X92188)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Pandoraea genomospecies 4 CDC H652 (AF247698)</otu>
+  <otu id="otu6">Pandoraea genomospecies 3 CDC G9805 (AF247697)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Pandoraea" cmphy:species="apista" cmphy:strain="LMG 164077" cmphy:id="AFI39173" editRecord="[1__I]">Pandoraea apista LMG 164077 (AF139173)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Pandoraea" cmphy:species="sputorum" cmphy:strain="LMG 188197" cmphy:id="AFI39176" editRecord="[1__I]">Pandoraea sputorum LMG 188197 (AF139176)</otu>
+  <otu id="otu10" cmphy:genus="Pandoraea" cmphy:species="norimbergensis" cmphy:strain="LMG 18379T" cmphy:id="Y09879" editRecord="[]">Pandoraea norimbergensis LMG 18379T (Y09879)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Lautropia" cmphy:species="mirabilis" cmphy:strain="AB2188T" cmphy:id="X73223" editRecord="[]">Lautropia mirabilis AB2188T (X73223)</otu>
+  <otu id="otu15">Burkholderia andropogonis ATCC 23061 T (X67037)</otu>
+  <otu id="otu16" cmphy:edit="[2__Z]" cmphy:genus="Burkholderia" cmphy:species="sacchari" cmphy:strain="IPT 101T" cmphy:id="AFZ63278" editRecord="[2__Z]">Burkholderia sacchari IPT 101T (AF263278)</otu>
+  <otu id="otu17">Ralstonia solanacearum ATCC 1 16967 (X67036)</otu>
+  <otu id="otu18" cmphy:edit="[3__B]" cmphy:genus="Chitinimonas" cmphy:species="taiwanensis" cmphy:strain="cfT" cmphy:id="AYB23827" editRecord="[3__B]">Chitinimonas taiwanensis cfT (AY323827)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="100.0" y="544.0"/>
+   <node id="NT1.3" label="NT1.3" x="186.0" y="374.0"/>
+   <node id="NT1.10" label="NT1.10" x="390.0" y="178.0"/>
+   <node id="NT1.14" x="420.0" y="86.0" label="37"/>
+   <node id="NT1.21" label="NT1.21" x="460.0" y="88.0" otu="otu7"/>
+   <node id="NT1.24" label="NT1.24" x="462.0" y="276.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="501.0" y="50.0" otu="otu10"/>
+   <node id="NT1.29" label="NT1.29" x="575.0" y="614.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="590.0" y="426.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="628.0" y="651.0" otu="otu18"/>
+   <node id="NT1.34" label="NT1.34" x="1.0" y="597.0" root="true"/>
+   <edge id="e.1" target="NT1.25" source="NT1.14"/>
+   <edge id="e.2" source="NT1.14" target="NT1.21"/>
+   <edge id="e.6" target="NT1.24" source="NT1.10"/>
+   <edge id="e.13" target="NT1.31" source="NT1.3"/>
+   <edge id="e.16" source="NT1.1" target="NT1.29"/>
+   <edge id="e.18" target="NT1.14" source="NT1.10"/>
+   <edge id="e.20" target="NT1.10" source="NT1.3"/>
+   <edge id="e.25" target="NT1.3" source="NT1.1"/>
+   <edge id="e.31" source="NT1.34" target="NT1.33"/>
+   <edge id="e.32" source="NT1.34" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

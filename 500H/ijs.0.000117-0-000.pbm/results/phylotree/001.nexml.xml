@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Providencia rustigianii DSM 4541T (EU587030-EU587034)</otu>
+  <otu id="otu3">Photorhabdus Iuminescens TTO1T (BX470251)</otu>
+  <otu id="otu4">Providencia burhodogranariea B18 (EU587077-EU587082)</otu>
+  <otu id="otu5">Providencia vermicola DSM 173857 (EU587041-EU587046)</otu>
+  <otu id="otu6">Providencia burhodogranariea B97 (EU587083-EU587088)</otu>
+  <otu id="otu7">Providencia burhodogranariea BT (EU587101-EU587106)</otu>
+  <otu id="otu8">Providencia rettgeri DSM 4542T (EU587035-EU587040)</otu>
+  <otu id="otu9">Providencia rettgeri C (EU587107-EU587112)</otu>
+  <otu id="otu10" cmphy:genus="Proteus" cmphy:species="mirabilis" cmphy:strain="HI4320" cmphy:id="AM942759" editRecord="[]">Proteus mirabilis HI4320 (AM942759)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Providencia burhodogranariea D (EU587113-EU587118)</otu>
+  <otu id="otu13">Providencia alcalifaciens DSM 30120T (EU587047-EU587052)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">Providencia sneebia AT (EU587095-EU587100)</otu>
+  <otu id="otu16">Providencia stuartii DSM 4539T (EU587024-EU587029)</otu>
+  <otu id="otu17">Providencia sneebia A75 (EU587053-EU587058)</otu>
+  <otu id="otu18">Providencia heimbachae DSM 3591T (EU587018-EU587023)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="566.0" otu="otu1" root="true"/>
+   <node id="NT1.23" label="NT1.23" x="502.0" y="544.0" otu="otu10"/>
+   <edge id="e.9" target="NT1.23" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

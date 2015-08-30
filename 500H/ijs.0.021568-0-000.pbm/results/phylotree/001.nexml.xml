@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Agromyces ulmiXILO1T (AY427830)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Agromyces" cmphy:species="luteolus" cmphy:strain="IFO 16235T" cmphy:id="ABO23356" editRecord="[]">Agromyces luteolus IFO 16235T (ABO23356)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Agromyces" cmphy:species="soli" cmphy:strain="MJ21T" cmphy:id="GQZ41325" editRecord="[2__Z]">Agromyces soli MJ21T (GQ241325)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Agromyces" cmphy:species="soli" cmphy:strain="MJ21T" cmphy:id="GQZ41325" editRecord="[2__Z]">Agromyces soli MJ21T (GQ241325)</otu>
+  <otu id="otu9" cmphy:genus="Agromyces" cmphy:species="mediolanus" cmphy:strain="CNF186" cmphy:id="D45054" editRecord="[]">Agromyces mediolanus CNF186 (D45054)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Agromyces" cmphy:species="bracchium" cmphy:strain="IFO 16238T" cmphy:id="ABO23359" editRecord="[0__O]">Agromyces bracchium IFO 16238T (AB023359)</otu>
+  <otu id="otu11">Agromyces aurantiacus YIM 21 741 T (AF389342)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Agromyces" cmphy:species="mediolanus" cmphy:strain="CNF134" cmphy:id="D45052" editRecord="[]">Agromyces mediolanus CNF134 (D45052)</otu>
+  <otu id="otu14" cmphy:genus="Agromyces" cmphy:species="mediolanus" cmphy:strain="CNF186" cmphy:id="D45054" editRecord="[]">Agromyces mediolanus CNF186 (D45054)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Agromyces" cmphy:species="mediolanus" cmphy:strain="CNF208" cmphy:id="D45056" editRecord="[]">Agromyces mediolanus CNF208 (D45056)</otu>
+  <otu id="otu17">Agromyces tropicus CM9-QT (AB4543 78)</otu>
+  <otu id="otu18">Agromyces mediolanus JCM 3346T (HM641 754)</otu>
+  <otu id="otu19" cmphy:genus="Agromyces" cmphy:species="mediolanus" cmphy:strain="CNF183" cmphy:id="D45053" editRecord="[]">Agromyces mediolanus CNF183 (D45053)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="371.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="34.0" y="371.0"/>
+   <node id="NT1.3" label="NT1.3" x="66.0" y="329.0"/>
+   <node id="NT1.11" x="220.0" y="178.0" label="100"/>
+   <node id="NT1.12" label="NT1.12" x="221.0" y="375.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="229.0" y="178.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="250.0" y="140.0"/>
+   <node id="NT1.16" label="NT1.16" x="259.0" y="176.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="265.0" y="101.0"/>
+   <node id="NT1.18" label="NT1.18" x="274.0" y="101.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="277.0" y="414.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="278.0" y="68.0"/>
+   <node id="NT1.24" label="NT1.24" x="301.0" y="136.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="307.0" y="96.0" otu="otu14"/>
+   <node id="NT1.26" label="NT1.26" x="317.0" y="37.0"/>
+   <node id="NT1.28" label="NT1.28" x="343.0" y="17.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="567.0" y="57.0" otu="otu19"/>
+   <edge id="e.2" source="NT1.17" target="NT1.18"/>
+   <edge id="e.4" source="NT1.11" target="NT1.13"/>
+   <edge id="e.7" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" target="NT1.26" source="NT1.20"/>
+   <edge id="e.10" source="NT1.17" target="NT1.20"/>
+   <edge id="e.11" source="NT1.14" target="NT1.17"/>
+   <edge id="e.12" source="NT1.11" target="NT1.14"/>
+   <edge id="e.13" target="NT1.11" source="NT1.3"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" source="NT1.2" target="NT1.19"/>
+   <edge id="e.21" source="NT1.3" target="NT1.12"/>
+   <edge id="e.24" source="NT1.14" target="NT1.16"/>
+   <edge id="e.25" source="NT1.17" target="NT1.24"/>
+   <edge id="e.27" source="NT1.20" target="NT1.25"/>
+   <edge id="e.28" source="NT1.26" target="NT1.28"/>
+   <edge id="e.29" source="NT1.26" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

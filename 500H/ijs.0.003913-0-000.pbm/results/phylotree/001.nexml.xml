@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Bacillus" cmphy:species="acidicola" cmphy:strain="105-27" cmphy:id="AFS47209" editRecord="[5__S]">Bacillus acidicola 105-27 (AF547209)</otu>
+  <otu id="otu11" cmphy:genus="Bacillus" cmphy:species="oleronius" cmphy:strain="ATCC 70OO05T" cmphy:id="AY988598" editRecord="[]">Bacillus oleronius ATCC 70OO05T (AY988598)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15">Virgibacillus halodenitrificans ATCC 490677 (ABO21 186)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="Salinibacillus" cmphy:species="aidingensis" cmphy:strain="25-77" cmphy:id="AYB21436" editRecord="[3__B]">Salinibacillus aidingensis 25-77 (AY321436)</otu>
+  <otu id="otu20">Virgibacillus pantothenticus IAM 11061 T (D78477)</otu>
+  <otu id="otu21" cmphy:edit="[3__B]" cmphy:genus="Bacillus" cmphy:species="acidiproducens" cmphy:strain="SL213T" cmphy:id="EFB79274" editRecord="[3__B]">Bacillus acidiproducens SL213T (EF379274)</otu>
+  <otu id="otu22" cmphy:genus="Bacillus" cmphy:species="gibsonii" cmphy:strain="DSM 87227" cmphy:id="X76446" editRecord="[]">Bacillus gibsonii DSM 87227 (X76446)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:edit="[3__B]" cmphy:genus="Bacillus" cmphy:species="acidiproducens" cmphy:strain="SL1213" cmphy:id="EFB92690" editRecord="[3__B]">Bacillus acidiproducens SL1213 (EF392690)</otu>
+  <otu id="otu25">Halobacillus halophilus NCIMB 9251T(x62174)</otu>
+  <otu id="otu26">Bacillus subtilis NCDO 1 769T (X60646)</otu>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="coagulans" cmphy:strain="ATCC 705OT" cmphy:id="DQZ97928" editRecord="[2__Z]">Bacillus coagulans ATCC 705OT (DQ297928)</otu>
+  <otu id="otu30" cmphy:genus="Gracilibacillus" cmphy:species="halotolerans" cmphy:strain="NNT" cmphy:id="AFO36922" editRecord="[]">Gracilibacillus halotolerans NNT (AFO36922)</otu>
+  <otu id="otu31" cmphy:genus="Brevibacillus" cmphy:species="brevis" cmphy:strain="JCM 25O3T" cmphy:id="D78457" editRecord="[]">Brevibacillus brevis JCM 25O3T (D78457)</otu>
+  <otu id="otu32" cmphy:genus="Lentibacillus" cmphy:species="salicampi" cmphy:strain="SF-201" cmphy:id="AYO57394" editRecord="[]">Lentibacillus salicampi SF-201 (AYO57394)</otu>
+  <otu id="otu33">Bacillus badius ATCC 145741 (D7831 o)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="694.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="16.0" y="694.0"/>
+   <node id="NT1.3" label="NT1.3" x="140.0" y="567.0"/>
+   <node id="NT1.5" x="182.0" y="377.0" label="40"/>
+   <node id="NT1.9" label="NT1.9" x="234.0" y="201.0"/>
+   <node id="NT1.10" x="252.0" y="143.0" label="55"/>
+   <node id="NT1.15" x="281.0" y="560.0" label="50"/>
+   <node id="NT1.19" label="NT1.19" x="303.0" y="491.0"/>
+   <node id="NT1.26" label="NT1.26" x="388.0" y="522.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="407.0" y="480.0" otu="otu11"/>
+   <node id="NT1.31" x="417.0" y="628.0" label="100"/>
+   <node id="NT1.38" label="NT1.38" x="467.0" y="182.0" otu="otu19"/>
+   <node id="NT1.40" label="NT1.40" x="488.0" y="650.0" otu="otu21"/>
+   <node id="NT1.41" label="NT1.41" x="488.0" y="778.0" otu="otu22"/>
+   <node id="NT1.42" label="NT1.42" x="488.0" y="671.0"/>
+   <node id="NT1.44" label="NT1.44" x="503.0" y="693.0" otu="otu24"/>
+   <node id="NT1.51" label="NT1.51" x="548.0" y="607.0" otu="otu29"/>
+   <node id="NT1.52" label="NT1.52" x="552.0" y="224.0" otu="otu30"/>
+   <node id="NT1.53" label="NT1.53" x="578.0" y="820.0" otu="otu31"/>
+   <node id="NT1.54" label="NT1.54" x="590.0" y="140.0" otu="otu32"/>
+   <edge id="e.4" source="NT1.10" target="NT1.38"/>
+   <edge id="e.5" target="NT1.54" source="NT1.10"/>
+   <edge id="e.10" target="NT1.52" source="NT1.9"/>
+   <edge id="e.16" source="NT1.19" target="NT1.26"/>
+   <edge id="e.18" source="NT1.1" target="NT1.2"/>
+   <edge id="e.19" target="NT1.28" source="NT1.19"/>
+   <edge id="e.24" source="NT1.42" target="NT1.40"/>
+   <edge id="e.25" source="NT1.42" target="NT1.44"/>
+   <edge id="e.27" target="NT1.51" source="NT1.31"/>
+   <edge id="e.30" target="NT1.41" source="NT1.3"/>
+   <edge id="e.31" source="NT1.2" target="NT1.53"/>
+   <edge id="e.35" source="NT1.9" target="NT1.10"/>
+   <edge id="e.36" target="NT1.9" source="NT1.5"/>
+   <edge id="e.40" source="NT1.3" target="NT1.5"/>
+   <edge id="e.42" target="NT1.15" source="NT1.5"/>
+   <edge id="e.43" source="NT1.2" target="NT1.3"/>
+   <edge id="e.45" source="NT1.15" target="NT1.19"/>
+   <edge id="e.46" source="NT1.15" target="NT1.31"/>
+   <edge id="e.51" target="NT1.42" source="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

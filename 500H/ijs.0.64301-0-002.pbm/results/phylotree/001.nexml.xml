@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Candida sp. UWO 91-127.1 (AF203419)</otu>
+  <otu id="otu2" cmphy:genus="Candida" cmphy:species="amapae" cmphy:strain="CBS 7872T" cmphy:id="U69880" editRecord="[]">Candida amapae CBS 7872T (U69880)</otu>
+  <otu id="otu3" cmphy:genus="Saccharomycopsis" cmphy:species="crataegensis" cmphy:strain="CBS 6447T" cmphy:id="U40079" editRecord="[]">Saccharomycopsis crataegensis CBS 6447T (U40079)</otu>
+  <otu id="otu4" cmphy:genus="Saccharomycopsis" cmphy:species="capsularis" cmphy:strain="CBS 2519T" cmphy:id="U40082" editRecord="[]">Saccharomycopsis capsularis CBS 2519T (U40082)</otu>
+  <otu id="otu5" cmphy:genus="Saccharomycopsis" cmphy:species="selenospora" cmphy:strain="CBS 25627" cmphy:id="U40099" editRecord="[]">Saccharomycopsis selenospora CBS 25627 (U40099)</otu>
+  <otu id="otu6" cmphy:genus="Saccharomycopsis" cmphy:species="malanga" cmphy:strain="CBS 6267T" cmphy:id="U40135" editRecord="[]">Saccharomycopsis malanga CBS 6267T (U40135)</otu>
+  <otu id="otu7">Candida Iassenensis CBS 85247 (AFO17726)</otu>
+  <otu id="otu8" cmphy:genus="Saccharomycopsis" cmphy:species="micmspora" cmphy:strain="CBS 6393T" cmphy:id="AFO17725" editRecord="[]">Saccharomycopsis micmspora CBS 6393T (AFO17725)</otu>
+  <otu id="otu9">A. javanensis CBS 2555T (U40107)</otu>
+  <otu id="otu10" cmphy:genus="Saccharomycopsis" cmphy:species="fibuligera" cmphy:strain="CBS 2521T" cmphy:id="U40088" editRecord="[]">Saccharomycopsis fibuligera CBS 2521T (U40088)</otu>
+  <otu id="otu11">A. babjevae UCD 67-278T (DQ361062)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13">Candida sp. UWO 91-124.1 (AF203420)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Saccharomycopsis" cmphy:species="synnaedendra" cmphy:strain="CBS 6161T" cmphy:id="U40123" editRecord="[]">Saccharomycopsis synnaedendra CBS 6161T (U40123)</otu>
+  <otu id="otu16">Saccharomycopsis vini CBS 41 10T(U4O133)</otu>
+  <otu id="otu17">Candida sp. UWO 95-697.4 (AF203418)</otu>
+  <otu id="otu18">A. fermentans var. fermentans CBS 783OT(U73600)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="136.0" y="647.0"/>
+   <node id="NT1.5" label="NT1.5" x="192.0" y="586.0"/>
+   <node id="NT1.7" label="NT1.7" x="204.0" y="652.0"/>
+   <node id="NT1.8" label="NT1.8" x="211.0" y="748.0"/>
+   <node id="NT1.9" label="NT1.9" x="216.0" y="712.0"/>
+   <node id="NT1.10" x="243.0" y="780.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="254.0" y="807.0" otu="otu2"/>
+   <node id="NT1.12" label="NT1.12" x="259.0" y="769.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="269.0" y="731.0" otu="otu4"/>
+   <node id="NT1.14" label="NT1.14" x="272.0" y="656.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="291.0" y="693.0" otu="otu6"/>
+   <node id="NT1.20" x="299.0" y="861.0" label="100"/>
+   <node id="NT1.21" label="NT1.21" x="301.0" y="881.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="309.0" y="505.0" otu="otu10"/>
+   <node id="NT1.29" label="NT1.29" x="334.0" y="844.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="5.0" y="653.0" root="true"/>
+   <edge id="e.4" source="NT1.7" target="NT1.14"/>
+   <edge id="e.5" target="NT1.23" source="NT1.5"/>
+   <edge id="e.8" source="NT1.10" target="NT1.11"/>
+   <edge id="e.10" source="NT1.9" target="NT1.16"/>
+   <edge id="e.11" source="NT1.20" target="NT1.29"/>
+   <edge id="e.18" source="NT1.1" target="NT1.20"/>
+   <edge id="e.19" target="NT1.5" source="NT1.1"/>
+   <edge id="e.21" source="NT1.5" target="NT1.7"/>
+   <edge id="e.22" source="NT1.7" target="NT1.8"/>
+   <edge id="e.23" source="NT1.8" target="NT1.10"/>
+   <edge id="e.24" source="NT1.8" target="NT1.9"/>
+   <edge id="e.25" source="NT1.20" target="NT1.21"/>
+   <edge id="e.26" source="NT1.33" target="NT1.1"/>
+   <edge id="e.28" source="NT1.9" target="NT1.13"/>
+   <edge id="e.29" source="NT1.10" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

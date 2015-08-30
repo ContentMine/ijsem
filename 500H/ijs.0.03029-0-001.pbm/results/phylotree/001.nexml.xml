@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Ruegeria" cmphy:species="atlantica" cmphy:strain="IAM 144637" cmphy:id="D88526" editRecord="[]">Ruegeria atlantica IAM 144637 (D88526)</otu>
+  <otu id="otu3">Paracoccus denitrlficans ATCC 17741T (Y1751 1)</otu>
+  <otu id="otu4" cmphy:genus="Roseobacter" cmphy:species="litoralis" cmphy:strain="ATCC 4956611" cmphy:id="X78312" editRecord="[]">Roseobacter litoralis ATCC 4956611 (X78312)</otu>
+  <otu id="otu5">Sulfitobacterpontiacus DSM 10014T (YI3 155)</otu>
+  <otu id="otu6" cmphy:genus="Roseobacter" cmphy:species="gallaeciensis" cmphy:strain="BS 107&quot;'" cmphy:id="Y13244" editRecord="[]">Roseobacter gallaeciensis BS 107"' (Y13244)</otu>
+  <otu id="otu7" cmphy:genus="Ruegeria" cmphy:species="gelatinovorans" cmphy:strain="IAM 12617T" cmphy:id="D88523" editRecord="[]">Ruegeria gelatinovorans IAM 12617T (D88523)</otu>
+  <otu id="otu8" cmphy:genus="Ruegeria" cmphy:species="algicola" cmphy:strain="ATCC 514407" cmphy:id="X78315" editRecord="[]">Ruegeria algicola ATCC 514407 (X78315)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Jannaschia" cmphy:species="cystaugens" cmphy:strain="CFPB-A97" cmphy:id="ABI21782" editRecord="[1__I]">Jannaschia cystaugens CFPB-A97 (AB121782)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Jannaschia" cmphy:species="cystaugens" cmphy:strain="CFPB-A5" cmphy:id="ABI21783" editRecord="[1__I]">Jannaschia cystaugens CFPB-A5 (AB121783)</otu>
+  <otu id="otu11" cmphy:genus="Octadecabacter" cmphy:species="amarcticus" cmphy:strain="307T" cmphy:id="U14583" editRecord="[]">Octadecabacter amarcticus 307T (U14583)</otu>
+  <otu id="otu12" cmphy:genus="Octadecabacter" cmphy:species="arcticus" cmphy:strain="2387" cmphy:id="U73725" editRecord="[]">Octadecabacter arcticus 2387 (U73725)</otu>
+  <otu id="otu13" cmphy:genus="Jarmaschia" cmphy:species="helgolandensis" cmphy:strain="Hel 10T" cmphy:id="AJ438157" editRecord="[]">Jarmaschia helgolandensis Hel 10T (AJ438157)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="179.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="57.0" y="346.0"/>
+   <node id="NT1.4" label="NT1.4" x="114.0" y="92.0" otu="otu2"/>
+   <node id="NT1.5" label="NT1.5" x="131.0" y="603.0"/>
+   <node id="NT1.6" label="NT1.6" x="152.0" y="361.0"/>
+   <node id="NT1.8" label="NT1.8" x="174.0" y="509.0"/>
+   <node id="NT1.9" label="NT1.9" x="183.0" y="212.0"/>
+   <node id="NT1.11" label="NT1.11" x="216.0" y="391.0"/>
+   <node id="NT1.12" label="NT1.12" x="240.0" y="808.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="249.0" y="651.0"/>
+   <node id="NT1.15" label="NT1.15" x="274.0" y="172.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="281.0" y="330.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="303.0" y="252.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="328.0" y="687.0"/>
+   <node id="NT1.19" label="NT1.19" x="331.0" y="647.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="334.0" y="449.0"/>
+   <node id="NT1.21" label="NT1.21" x="340.0" y="728.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="351.0" y="490.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="363.0" y="410.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="388.0" y="569.0" otu="otu13"/>
+   <edge id="e.2" source="NT1.9" target="NT1.15"/>
+   <edge id="e.3" source="NT1.11" target="NT1.16"/>
+   <edge id="e.4" source="NT1.20" target="NT1.23"/>
+   <edge id="e.5" target="NT1.3" source="NT1.1"/>
+   <edge id="e.6" source="NT1.3" target="NT1.5"/>
+   <edge id="e.8" source="NT1.5" target="NT1.6"/>
+   <edge id="e.9" source="NT1.6" target="NT1.8"/>
+   <edge id="e.10" source="NT1.6" target="NT1.9"/>
+   <edge id="e.11" target="NT1.12" source="NT1.5"/>
+   <edge id="e.12" source="NT1.8" target="NT1.11"/>
+   <edge id="e.13" source="NT1.8" target="NT1.13"/>
+   <edge id="e.14" source="NT1.11" target="NT1.20"/>
+   <edge id="e.15" source="NT1.13" target="NT1.18"/>
+   <edge id="e.16" source="NT1.18" target="NT1.19"/>
+   <edge id="e.17" source="NT1.3" target="NT1.4"/>
+   <edge id="e.19" source="NT1.9" target="NT1.17"/>
+   <edge id="e.20" source="NT1.13" target="NT1.24"/>
+   <edge id="e.21" source="NT1.18" target="NT1.21"/>
+   <edge id="e.22" source="NT1.20" target="NT1.22"/>
+  </tree>
+ </trees>
+</nexml>

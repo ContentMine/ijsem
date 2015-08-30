@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[O__0]" cmphy:genus="Haloferax" cmphy:species="volcanii" cmphy:strain="ATCC 296057" cmphy:id="K00421" editRecord="[O__0]">Haloferax volcanii ATCC 296057 (KO0421)</otu>
+  <otu id="otu2" cmphy:edit="[8__B]" cmphy:genus="Haloferax" cmphy:species="larsenii" cmphy:strain="ZJ2O67" cmphy:id="AYB38278" editRecord="[8__B]">Haloferax larsenii ZJ2O67 (AY838278)</otu>
+  <otu id="otu3" cmphy:edit="[O__0]" cmphy:genus="Halogeometricum" cmphy:species="borinquense" cmphy:strain="PR 37" cmphy:id="AFO02984" editRecord="[O__0]">Halogeometricum borinquense PR 37 (AFOO2984)</otu>
+  <otu id="otu4" cmphy:genus="Haloplanus" cmphy:species="natans" cmphy:strain="JCM 140817" cmphy:id="AB477975" editRecord="[]">Haloplanus natans JCM 140817 (AB477975)</otu>
+  <otu id="otu5">Strain R05-87 (EU931578)</otu>
+  <otu id="otu6" cmphy:genus="Halosarcina" cmphy:species="pallida" cmphy:strain="JCM 148487" cmphy:id="AB477980" editRecord="[]">Halosarcina pallida JCM 148487 (AB477980)</otu>
+  <otu id="otu7">Halobaculum gomorrense JCM 99087 rrnA (AB477982)</otu>
+  <otu id="otu8" cmphy:genus="Haloplanus" cmphy:species="natans" cmphy:strain="RE-102" cmphy:id="DQ417340" editRecord="[]">Haloplanus natans RE-102 (DQ417340)</otu>
+  <otu id="otu9">Haloplanus natans RE-103 (DQ41 7341)</otu>
+  <otu id="otu10">Halorubrum saccharovorum JCM 88657 (U1 7364)</otu>
+  <otu id="otu11">Halobaculum gomorrense JCM 99087 rrnB (AB477983)</otu>
+  <otu id="otu12" cmphy:genus="Halorubrum" cmphy:species="litoreum" cmphy:strain="Fa-17" cmphy:id="EFO28067" editRecord="[]">Halorubrum litoreum Fa-17 (EFO28067)</otu>
+  <otu id="otu13">Me-thanospirillum hungatei JF-17 (NC_OO7796)</otu>
+  <otu id="otu14">Haloquadratum Walsbyi C237 (AY676200)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="189.0" y="321.0"/>
+   <node id="NT1.2" label="NT1.2" x="200.0" y="212.0"/>
+   <node id="NT1.3" label="NT1.3" x="221.0" y="134.0"/>
+   <node id="NT1.4" label="NT1.4" x="243.0" y="288.0"/>
+   <node id="NT1.5" label="NT1.5" x="271.0" y="328.0"/>
+   <node id="NT1.6" label="NT1.6" x="322.0" y="250.0"/>
+   <node id="NT1.7" label="NT1.7" x="331.0" y="356.0"/>
+   <node id="NT1.8" label="NT1.8" x="341.0" y="175.0"/>
+   <node id="NT1.9" x="344.0" y="91.0" label="100"/>
+   <node id="NT1.10" label="NT1.10" x="347.0" y="428.0"/>
+   <node id="NT1.11" label="NT1.11" x="353.0" y="267.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="373.0" y="230.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="373.0" y="339.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="374.0" y="59.0"/>
+   <node id="NT1.15" label="NT1.15" x="375.0" y="87.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="375.0" y="122.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="377.0" y="49.0"/>
+   <node id="NT1.18" label="NT1.18" x="378.0" y="375.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="378.0" y="411.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="381.0" y="13.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="383.0" y="50.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="401.0" y="194.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="403.0" y="447.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="405.0" y="158.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="443.0" y="483.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="444.0" y="302.0" otu="otu14"/>
+   <edge source="NT1.21" target="NT1.17" id="e.0"/>
+   <edge source="NT1.15" target="NT1.14" id="e.1"/>
+   <edge source="NT1.22" target="NT1.8" id="e.2"/>
+   <edge source="NT1.24" target="NT1.8" id="e.3"/>
+   <edge source="NT1.13" target="NT1.7" id="e.4"/>
+   <edge source="NT1.17" target="NT1.14" id="e.5"/>
+   <edge source="NT1.14" target="NT1.9" id="e.6"/>
+   <edge source="NT1.9" target="NT1.3" id="e.7"/>
+   <edge source="NT1.3" target="NT1.2" id="e.8"/>
+   <edge source="NT1.3" target="NT1.8" id="e.9"/>
+   <edge source="NT1.2" target="NT1.1" id="e.10"/>
+   <edge source="NT1.2" target="NT1.4" id="e.11"/>
+   <edge source="NT1.1" target="NT1.10" id="e.12"/>
+   <edge source="NT1.4" target="NT1.5" id="e.13"/>
+   <edge source="NT1.4" target="NT1.6" id="e.14"/>
+   <edge source="NT1.5" target="NT1.7" id="e.15"/>
+   <edge source="NT1.25" target="NT1.1" id="e.16"/>
+   <edge source="NT1.26" target="NT1.5" id="e.17"/>
+   <edge source="NT1.11" target="NT1.6" id="e.18"/>
+   <edge source="NT1.12" target="NT1.6" id="e.19"/>
+   <edge source="NT1.18" target="NT1.7" id="e.20"/>
+   <edge source="NT1.16" target="NT1.9" id="e.21"/>
+   <edge source="NT1.19" target="NT1.10" id="e.22"/>
+   <edge source="NT1.23" target="NT1.10" id="e.23"/>
+   <edge source="NT1.20" target="NT1.17" id="e.24"/>
+  </tree>
+ </trees>
+</nexml>

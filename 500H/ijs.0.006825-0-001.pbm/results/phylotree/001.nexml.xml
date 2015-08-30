@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Alkalisplrillum mobile DSM 127697 (AF1 14783)</otu>
+  <otu id="otu2" cmphy:genus="Marinospirillum" cmphy:species="minutulum" cmphy:strain="ATCC 191937" cmphy:id="ABO06769" editRecord="[]">Marinospirillum minutulum ATCC 191937 (ABO06769)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Marinospirillum" cmphy:species="alkaliphilum" cmphy:strain="Z47" cmphy:id="AFZ75713" editRecord="[2__Z]">Marinospirillum alkaliphilum Z47 (AF275713)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Marinospirillum" cmphy:species="insulate" cmphy:strain="KT" cmphy:id="ABO98510" editRecord="[0__O]">Marinospirillum insulate KT (AB098510)</otu>
+  <otu id="otu5">Marinospirillum megaterium JCM 101 297 (AB006770)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Oleiphilus" cmphy:species="messfnensis" cmphy:strain="ME1O2T" cmphy:id="AJZ95154" editRecord="[2__Z]">Oleiphilus messfnensis ME1O2T (AJ295154)</otu>
+  <otu id="otu7">Oceanospirlllum linum ATCC 1 13367 (M22365)</otu>
+  <otu id="otu8">Chromohalobacter marfsmortui ATCC 1 70567 (X87219)</otu>
+  <otu id="otu9">Marinomonas cornrnunis LMG 2864T(DQ011528)</otu>
+  <otu id="otu10">Halomonas elongata ATCC 331 737 (X67023)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Nepturromonas" cmphy:species="naphthovorans" cmphy:strain="NAG-2N-1 267" cmphy:id="AFO53734" editRecord="[0__O]">Nepturromonas naphthovorans NAG-2N-1 267 (AF053734)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Marinospirillum" cmphy:species="celere" cmphy:strain="v1c_Sn-redT" cmphy:id="EUB75807" editRecord="[3__B]">Marinospirillum celere v1c_Sn-redT (EU375807)</otu>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Marinospirillum" cmphy:species="celere" cmphy:strain="Spir-10" cmphy:id="EUS17500" editRecord="[5__S]">Marinospirillum celere Spir-10 (EU517500)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="117.0" y="283.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="152.0" y="371.0"/>
+   <node id="NT1.6" label="NT1.6" x="182.0" y="112.0"/>
+   <node id="NT1.9" label="NT1.9" x="241.0" y="161.0"/>
+   <node id="NT1.10" label="NT1.10" x="265.0" y="61.0"/>
+   <node id="NT1.12" label="NT1.12" x="290.0" y="90.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="293.0" y="131.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="301.0" y="49.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="307.0" y="335.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="346.0" y="417.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="369.0" y="212.0" otu="otu12"/>
+   <node id="NT1.23" x="369.0" y="191.0" label="100"/>
+   <node id="NT1.24" label="NT1.24" x="380.0" y="172.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="2.0" y="390.0" root="true"/>
+   <edge id="e.0" target="NT1.14" source="NT1.10"/>
+   <edge id="e.1" source="NT1.10" target="NT1.12"/>
+   <edge id="e.2" source="NT1.23" target="NT1.22"/>
+   <edge id="e.3" source="NT1.23" target="NT1.24"/>
+   <edge id="e.5" source="NT1.4" target="NT1.16"/>
+   <edge id="e.7" target="NT1.21" source="NT1.4"/>
+   <edge id="e.9" source="NT1.6" target="NT1.10"/>
+   <edge id="e.10" target="NT1.6" source="NT1.2"/>
+   <edge id="e.11" source="NT1.6" target="NT1.9"/>
+   <edge id="e.12" source="NT1.9" target="NT1.23"/>
+   <edge id="e.15" source="NT1.2" target="NT1.4"/>
+   <edge id="e.18" source="NT1.25" target="NT1.2"/>
+   <edge id="e.22" source="NT1.9" target="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

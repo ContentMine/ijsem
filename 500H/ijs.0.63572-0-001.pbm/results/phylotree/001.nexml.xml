@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">iCa. Piscichlamydia salmonisi (AY462244)</otu>
+  <otu id="otu5" cmphy:genus="Chlamydia" cmphy:species="muridarum" cmphy:strain="MoPnT" cmphy:id="D85718" editRecord="[]">Chlamydia muridarum MoPnT (D85718)</otu>
+  <otu id="otu6" cmphy:genus="Chlamydophila" cmphy:species="pecorum" cmphy:strain="IPA" cmphy:id="D85716" editRecord="[]">Chlamydophila pecorum IPA (D85716)</otu>
+  <otu id="otu7">Chlamydophila psitfaci 6BCT (AB001778) M13769)</otu>
+  <otu id="otu8" cmphy:genus="Chlamydia" cmphy:species="trachomatis" cmphy:strain="L2l434lBU" cmphy:id="M59178" editRecord="[]">Chlamydia trachomatis L2l434lBU (M59178)</otu>
+  <otu id="otu9" cmphy:genus="Chlamydophila" cmphy:species="abortus" cmphy:strain="EBA" cmphy:id="U73108" editRecord="[]">Chlamydophila abortus EBA (U73108)</otu>
+  <otu id="otu10" cmphy:genus="Chlamydia" cmphy:species="suis" cmphy:strain="R22" cmphy:id="U73109" editRecord="[]">Chlamydia suis R22 (U73109)</otu>
+  <otu id="otu11" cmphy:genus="Chlamydophila" cmphy:species="felis" cmphy:strain="FP BakerT" cmphy:id="D85701" editRecord="[]">Chlamydophila felis FP BakerT (D85701)</otu>
+  <otu id="otu12" cmphy:genus="Chlamydophila" cmphy:species="caviae" cmphy:strain="GPICT" cmphy:id="D85708" editRecord="[]">Chlamydophila caviae GPICT (D85708)</otu>
+  <otu id="otu13">1Ca. Protochlamydia amoebophila' (BX908798)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Neochlamydia" cmphy:species="hartmannellae" cmphy:strain="A1HspT" cmphy:id="AFI77275" editRecord="[1__I]">Neochlamydia hartmannellae A1HspT (AF177275)</otu>
+  <otu id="otu15" cmphy:genus="Parachlamydia" cmphy:species="acanthamoebae" cmphy:strain="Bn9T" cmphy:id="Y07556" editRecord="[]">Parachlamydia acanthamoebae Bn9T (Y07556)</otu>
+  <otu id="otu16">Chlamydophila pneumoniae TW-1837 (Z49873) U76711)</otu>
+  <otu id="otu17" cmphy:edit="[0__O]" cmphy:genus="Waddlia" cmphy:species="chondrophila" cmphy:strain="WSU 86-10447" cmphy:id="AFO42496" editRecord="[0__O]">Waddlia chondrophila WSU 86-10447 (AF042496)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:genus="Simkania" cmphy:species="negevensis" cmphy:strain="ZT" cmphy:id="L27666" editRecord="[]">Simkania negevensis ZT (L27666)</otu>
+  <otu id="otu20">iCa. Fritschea eriococci (AY140911)</otu>
+  <otu id="otu21">iCa. Fritschea bemisiaei (AY140910)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="878.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="193.0" y="723.0"/>
+   <node id="NT1.6" label="NT1.6" x="200.0" y="875.0"/>
+   <node id="NT1.7" label="NT1.7" x="281.0" y="816.0"/>
+   <node id="NT1.8" label="NT1.8" x="367.0" y="956.0"/>
+   <node id="NT1.11" label="NT1.11" x="421.0" y="516.0"/>
+   <node id="NT1.13" label="NT1.13" x="453.0" y="673.0"/>
+   <node id="NT1.14" label="NT1.14" x="466.0" y="479.0"/>
+   <node id="NT1.16" label="NT1.16" x="487.0" y="464.0"/>
+   <node id="NT1.17" label="NT1.17" x="488.0" y="618.0"/>
+   <node id="NT1.18" label="NT1.18" x="503.0" y="464.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="515.0" y="560.0"/>
+   <node id="NT1.20" label="NT1.20" x="521.0" y="673.0" otu="otu6"/>
+   <node id="NT1.22" label="NT1.22" x="524.0" y="428.0" otu="otu8"/>
+   <node id="NT1.23" label="NT1.23" x="528.0" y="534.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="537.0" y="497.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="537.0" y="637.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="539.0" y="601.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="542.0" y="982.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="545.0" y="910.0" otu="otu15"/>
+   <node id="NT1.31" label="NT1.31" x="571.0" y="875.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="619.0" y="809.0" otu="otu19"/>
+   <edge id="e.0" source="NT1.16" target="NT1.18"/>
+   <edge id="e.1" source="NT1.13" target="NT1.20"/>
+   <edge id="e.2" source="NT1.17" target="NT1.25"/>
+   <edge id="e.4" source="NT1.19" target="NT1.23"/>
+   <edge id="e.8" source="NT1.6" target="NT1.31"/>
+   <edge id="e.9" target="NT1.34" source="NT1.7"/>
+   <edge id="e.10" source="NT1.8" target="NT1.28"/>
+   <edge id="e.12" target="NT1.29" source="NT1.8"/>
+   <edge id="e.13" source="NT1.14" target="NT1.16"/>
+   <edge id="e.14" source="NT1.11" target="NT1.14"/>
+   <edge id="e.15" source="NT1.5" target="NT1.11"/>
+   <edge id="e.17" target="NT1.13" source="NT1.11"/>
+   <edge id="e.18" source="NT1.13" target="NT1.17"/>
+   <edge id="e.19" source="NT1.17" target="NT1.19"/>
+   <edge id="e.20" source="NT1.5" target="NT1.7"/>
+   <edge id="e.21" target="NT1.5" source="NT1.1"/>
+   <edge id="e.22" source="NT1.7" target="NT1.6"/>
+   <edge id="e.25" source="NT1.6" target="NT1.8"/>
+   <edge id="e.31" source="NT1.14" target="NT1.24"/>
+   <edge id="e.32" source="NT1.16" target="NT1.22"/>
+   <edge id="e.33" source="NT1.19" target="NT1.26"/>
+  </tree>
+ </trees>
+</nexml>

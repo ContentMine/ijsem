@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Thermodesulfatator" cmphy:species="indicus" cmphy:strain="ClR29812T" cmphy:id="AFB93376" editRecord="[3__B]">Thermodesulfatator indicus ClR29812T (AF393376)</otu>
+  <otu id="otu2">Clone SRI-93 (AF255596)</otu>
+  <otu id="otu3">Strain DST (EF554596)</otu>
+  <otu id="otu4">Geothermobacterium ferrireducensl FW-1 a (AF41 1013)</otu>
+  <otu id="otu5">Clone DGG19 (AYO82369)</otu>
+  <otu id="otu6">Clone SRI-27 (AF255595)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Thermodesulfobacterium" cmphy:species="hydrogeniphilum" cmphy:strain="SL6T" cmphy:id="AFB32514" editRecord="[3__B]">Thermodesulfobacterium hydrogeniphilum SL6T (AF332514)</otu>
+  <otu id="otu8">Clone BSpN50 (AF352533)</otu>
+  <otu id="otu9" cmphy:genus="Thermodesulfobacterium" cmphy:species="commune" cmphy:strain="DSM 2178T" cmphy:id="AF418169" editRecord="[]">Thermodesulfobacterium commune DSM 2178T (AF418169)</otu>
+  <otu id="otu10" cmphy:genus="Thermodesulfobacterium" cmphy:species="hveragerdense" cmphy:strain="JSPT" cmphy:id="X96725" editRecord="[]">Thermodesulfobacterium hveragerdense JSPT (X96725)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Thermodesulfobacterium" cmphy:species="thermophilum" cmphy:strain="DSM 12767" cmphy:id="AFB34601" editRecord="[3__B]">Thermodesulfobacterium thermophilum DSM 12767 (AF334601)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="210.0" y="262.0"/>
+   <node id="NT1.2" label="NT1.2" x="232.0" y="12.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="234.0" y="110.0"/>
+   <node id="NT1.4" label="NT1.4" x="256.0" y="378.0"/>
+   <node id="NT1.5" label="NT1.5" x="256.0" y="71.0"/>
+   <node id="NT1.6" label="NT1.6" x="268.0" y="185.0"/>
+   <node id="NT1.7" label="NT1.7" x="284.0" y="223.0"/>
+   <node id="NT1.8" label="NT1.8" x="295.0" y="244.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="299.0" y="148.0"/>
+   <node id="NT1.10" label="NT1.10" x="306.0" y="51.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="306.0" y="128.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="321.0" y="90.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="326.0" y="205.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="349.0" y="342.0"/>
+   <node id="NT1.15" label="NT1.15" x="350.0" y="399.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="375.0" y="167.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="383.0" y="360.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="409.0" y="303.0"/>
+   <node id="NT1.19" label="NT1.19" x="428.0" y="282.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="432.0" y="321.0" otu="otu11"/>
+   <edge source="NT1.10" target="NT1.5" id="e.0"/>
+   <edge source="NT1.17" target="NT1.14" id="e.1"/>
+   <edge source="NT1.20" target="NT1.18" id="e.2"/>
+   <edge source="NT1.1" target="NT1.4" id="e.3"/>
+   <edge source="NT1.1" target="NT1.3" id="e.4"/>
+   <edge source="NT1.4" target="NT1.14" id="e.5"/>
+   <edge source="NT1.3" target="NT1.6" id="e.6"/>
+   <edge source="NT1.3" target="NT1.5" id="e.7"/>
+   <edge source="NT1.6" target="NT1.7" id="e.8"/>
+   <edge source="NT1.6" target="NT1.9" id="e.9"/>
+   <edge source="NT1.14" target="NT1.18" id="e.10"/>
+   <edge source="NT1.2" target="NT1.1" id="e.11"/>
+   <edge source="NT1.12" target="NT1.5" id="e.12"/>
+   <edge source="NT1.15" target="NT1.4" id="e.13"/>
+   <edge source="NT1.8" target="NT1.7" id="e.14"/>
+   <edge source="NT1.13" target="NT1.7" id="e.15"/>
+   <edge source="NT1.11" target="NT1.9" id="e.16"/>
+   <edge source="NT1.16" target="NT1.9" id="e.17"/>
+   <edge source="NT1.19" target="NT1.18" id="e.18"/>
+  </tree>
+ </trees>
+</nexml>

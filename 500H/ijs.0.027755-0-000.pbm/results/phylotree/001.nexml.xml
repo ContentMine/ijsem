@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Weissella viridescens ATCC 1 27067 (AM71 1 182)</otu>
+  <otu id="otu2">Lactobacillus kefiri ATCC 3541 17 (AM263508)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Lactobacillus" cmphy:species="buchneri" cmphy:strain="ATCC 40057" cmphy:id="AMO87681" editRecord="[0__O]">Lactobacillus buchneri ATCC 40057 (AM087681)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Lactobacillus" cmphy:species="collinoides" cmphy:strain="ATCC 276127" cmphy:id="AMO87730" editRecord="[0__O]">Lactobacillus collinoides ATCC 276127 (AM087730)</otu>
+  <otu id="otu5">Leuconostoc Iactis ATCC 192567 (AM71 1267)</otu>
+  <otu id="otu6" cmphy:genus="Lactobacillus" cmphy:species="mali" cmphy:strain="ATCC 270537" cmphy:id="AMO87746" editRecord="[]">Lactobacillus mali ATCC 270537 (AMO87746)</otu>
+  <otu id="otu7">Lactobacillus re-uteri ATCC 232727 (AM087728)</otu>
+  <otu id="otu8">Lactobacillus salivarius ATCC 1 17417 (AM087721)</otu>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Lactobacillus" cmphy:species="dextrinicus" cmphy:strain="ATCC 330877" cmphy:id="AMB99827" editRecord="[8__B]">Lactobacillus dextrinicus ATCC 330877 (AM899827)</otu>
+  <otu id="otu10">Lactobacillus plantarum subsp. argentoratensis LMG 92057 (AM694185)</otu>
+  <otu id="otu11">Lactobacillus curvatus ATCC 256017 (AM087 758)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Lactobacillus" cmphy:species="crustorum" cmphy:strain="LMG 236997" cmphy:id="AMZ85025" editRecord="[2__Z]">Lactobacillus crustorum LMG 236997 (AM285025)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Lactobacillus" cmphy:species="fermentum" cmphy:strain="ATCC 149317" cmphy:id="AMO87693" editRecord="[0__O]">Lactobacillus fermentum ATCC 149317 (AM087693)</otu>
+  <otu id="otu14">Lactobacillus sakei subsp. carnosus LMG 1 73027 (AM087718)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Lactobacillus" cmphy:species="rhamnosus" cmphy:strain="ATCC 74697" cmphy:id="AMO87716" editRecord="[0__O]">Lactobacillus rhamnosus ATCC 74697 (AM087716)</otu>
+  <otu id="otu16" cmphy:genus="Lactobacillus" cmphy:species="casei" cmphy:strain="ATCC 3937" cmphy:id="AMO87682" editRecord="[]">Lactobacillus casei ATCC 3937 (AMO87682)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Lactobacillus" cmphy:species="bifermentans" cmphy:strain="ATCC 354097" cmphy:id="AMO87738" editRecord="[0__O]">Lactobacillus bifermentans ATCC 354097 (AM087738)</otu>
+  <otu id="otu19" cmphy:edit="[0__O]" cmphy:genus="Lactobacillus" cmphy:species="coryniformis" cmphy:strain="ATCC 256027" cmphy:id="AMO87684" editRecord="[0__O]">Lactobacillus coryniformis ATCC 256027 (AM087684)</otu>
+  <otu id="otu20">Paralactobacillus selangorensis ATCC BAA-667 (H M 21 4471 )</otu>
+  <otu id="otu21" cmphy:edit="[0__O]" cmphy:genus="Lactobacillus" cmphy:species="delbrueckii" cmphy:strain="ATCC 96497" cmphy:id="AMO87689" editRecord="[0__O]">Lactobacillus delbrueckii ATCC 96497 (AM087689)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="38.0" y="2526.0"/>
+   <node id="NT1.2" label="NT1.2" x="44.0" y="2392.0"/>
+   <node id="NT1.5" label="NT1.5" x="113.0" y="2332.0"/>
+   <node id="NT1.6" label="NT1.6" x="140.0" y="2196.0"/>
+   <node id="NT1.7" label="NT1.7" x="143.0" y="2532.0"/>
+   <node id="NT1.8" label="NT1.8" x="159.0" y="2099.0"/>
+   <node id="NT1.9" label="NT1.9" x="191.0" y="2167.0"/>
+   <node id="NT1.11" x="201.0" y="2029.0" label="53"/>
+   <node id="NT1.19" label="NT1.19" x="463.0" y="1884.0"/>
+   <node id="NT1.20" label="NT1.20" x="481.0" y="2636.0" otu="otu3"/>
+   <node id="NT1.21" x="487.0" y="2202.0" label="100"/>
+   <node id="NT1.22" label="NT1.22" x="489.0" y="2499.0" otu="otu4"/>
+   <node id="NT1.24" label="NT1.24" x="512.0" y="2362.0" otu="otu6"/>
+   <node id="NT1.27" label="NT1.27" x="605.0" y="2089.0" otu="otu9"/>
+   <node id="NT1.30" label="NT1.30" x="666.0" y="2134.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="684.0" y="2590.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="750.0" y="2226.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="753.0" y="2179.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="781.0" y="1907.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="794.0" y="1861.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="925.0" y="2317.0" otu="otu21"/>
+   <node id="NT1.40" label="NT1.40" x="2.0" y="2637.0" root="true"/>
+   <edge id="e.0" source="NT1.19" target="NT1.37"/>
+   <edge id="e.1" source="NT1.19" target="NT1.36"/>
+   <edge id="e.4" source="NT1.11" target="NT1.27"/>
+   <edge id="e.5" source="NT1.9" target="NT1.30"/>
+   <edge id="e.6" source="NT1.21" target="NT1.33"/>
+   <edge id="e.7" source="NT1.21" target="NT1.34"/>
+   <edge id="e.8" source="NT1.5" target="NT1.24"/>
+   <edge id="e.11" source="NT1.7" target="NT1.22"/>
+   <edge id="e.12" target="NT1.39" source="NT1.6"/>
+   <edge id="e.17" target="NT1.31" source="NT1.7"/>
+   <edge id="e.19" target="NT1.19" source="NT1.11"/>
+   <edge id="e.23" source="NT1.8" target="NT1.11"/>
+   <edge id="e.24" source="NT1.6" target="NT1.8"/>
+   <edge id="e.25" source="NT1.8" target="NT1.9"/>
+   <edge id="e.26" source="NT1.9" target="NT1.21"/>
+   <edge id="e.27" source="NT1.5" target="NT1.6"/>
+   <edge id="e.29" source="NT1.2" target="NT1.5"/>
+   <edge id="e.30" source="NT1.1" target="NT1.2"/>
+   <edge id="e.33" target="NT1.7" source="NT1.2"/>
+   <edge id="e.35" source="NT1.40" target="NT1.1"/>
+   <edge id="e.37" target="NT1.20" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Nisaea" cmphy:species="nitritireducens" cmphy:strain="DSM 195407" cmphy:id="DQ665839" editRecord="[]">Nisaea nitritireducens DSM 195407 (DQ665839)</otu>
+  <otu id="otu2">Thalassobaculum Iitoreum CL-G R587 (EF2 03900)</otu>
+  <otu id="otu3">CZ41_1OaT(EU008565)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Roseospira" cmphy:species="marina" cmphy:strain="CE2105T" cmphy:id="AJZ98879" editRecord="[2__Z]">Roseospira marina CE2105T (AJ298879)</otu>
+  <otu id="otu6">Inquilinus limosus AUO476T (AYO433 74)</otu>
+  <otu id="otu7" cmphy:genus="Azaspirillum" cmphy:species="rugosum" cmphy:strain="DSM 196577" cmphy:id="AM419042" editRecord="[]">Azaspirillum rugosum DSM 196577 (AM419042)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Azospirillum" cmphy:species="oryzae" cmphy:strain="COCBT" cmphy:id="ABI85396" editRecord="[1__I]">Azospirillum oryzae COCBT (AB185396)</otu>
+  <otu id="otu10"> Azospirillum brasilense ATCC 29145T (AY3241 10)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Azospirillum" cmphy:species="melinis" cmphy:strain="TMCY 0552T" cmphy:id="DQO22958" editRecord="[0__O]">Azospirillum melinis TMCY 0552T (DQ022958)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="21.0" y="394.0"/>
+   <node id="NT1.4" label="NT1.4" x="261.0" y="190.0"/>
+   <node id="NT1.8" label="NT1.8" x="289.0" y="534.0" otu="otu1"/>
+   <node id="NT1.10" x="298.0" y="86.0" label="95"/>
+   <node id="NT1.14" label="NT1.14" x="339.0" y="650.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="345.0" y="303.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="364.0" y="129.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="392.0" y="71.0" otu="otu12"/>
+   <node id="NT1.22" x="4.0" y="522.0" root="true" label="100"/>
+   <edge id="e.1" target="NT1.21" source="NT1.10"/>
+   <edge id="e.2" source="NT1.10" target="NT1.18"/>
+   <edge id="e.4" target="NT1.16" source="NT1.4"/>
+   <edge id="e.7" target="NT1.8" source="NT1.1"/>
+   <edge id="e.11" source="NT1.4" target="NT1.10"/>
+   <edge id="e.12" target="NT1.4" source="NT1.1"/>
+   <edge id="e.18" source="NT1.22" target="NT1.14"/>
+   <edge id="e.19" source="NT1.22" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

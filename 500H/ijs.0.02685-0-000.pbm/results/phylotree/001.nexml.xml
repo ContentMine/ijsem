@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Prauserella" cmphy:species="rugosa" cmphy:strain="DSM 43194T" cmphy:id="AFO51342" editRecord="[]">Prauserella rugosa DSM 43194T (AFO51342)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">A. sulphurea DSM 48O92T</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">A. keratiniphila DSM 44409T</otu>
+  <otu id="otu10">A. azurea IFO 145737</otu>
+  <otu id="otu11">Strain 1BDZA</otu>
+  <otu id="otu12">A. alba DSM 44262T</otu>
+  <otu id="otu13">A. coloradensis NRRL 3218T</otu>
+  <otu id="otu14">A. orientalis IFO 12806T</otu>
+  <otu id="otu15">A. mediterranei NRRL B-32407</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">A. sacchari DSM 44468T</otu>
+  <otu id="otu18">A. albidoflavus IMSNU 22139T</otu>
+  <otu id="otu19">A. japonica DSM 442137</otu>
+  <otu id="otu20">A. lexingtonensis NRRL B-241317</otu>
+  <otu id="otu21">'A. lactamdurans'</otu>
+  <otu id="otu22">A. kentuckyensis NRRL B-24129T</otu>
+  <otu id="otu23">A. fastidiosa IMSNU 2O054T</otu>
+  <otu id="otu24">A. eurytherma DSM 44348T</otu>
+  <otu id="otu25">A. rubida JCM 1O871T</otu>
+  <otu id="otu26">A. methanolica IMSNU 2O055T</otu>
+  <otu id="otu27">A. thermoflava IFO 14333T</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.8" label="NT1.8" x="179.0" y="976.0" otu="otu1"/>
+   <node id="NT1.48" label="NT1.48" x="1.0" y="887.0" root="true"/>
+   <edge id="e.37" source="NT1.48" target="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

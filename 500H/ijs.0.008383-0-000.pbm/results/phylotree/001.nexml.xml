@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Aquabacterium" cmphy:species="parvum" cmphy:strain="BEST" cmphy:id="AFO35052" editRecord="[]">Aquabacterium parvum BEST (AFO35052)</otu>
+  <otu id="otu5" cmphy:genus="Aquabacterium" cmphy:species="commune" cmphy:strain="B87" cmphy:id="AFO35054" editRecord="[]">Aquabacterium commune B87 (AFO35054)</otu>
+  <otu id="otu6" cmphy:genus="Aquabacterium" cmphy:species="citratiphilum" cmphy:strain="B4T" cmphy:id="AFO35050" editRecord="[]">Aquabacterium citratiphilum B4T (AFO35050)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Methylibium subsaxonicum B F49T (AM 7 74413)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Rhizobacter" cmphy:species="dauci" cmphy:strain="ATCC 437787" cmphy:id="ABZ97965" editRecord="[2__Z]">Rhizobacter dauci ATCC 437787 (AB297965)</otu>
+  <otu id="otu11">Methylibium fuIVum Gsoil 328T (AB245357)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="18.0" y="337.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="42.0" y="337.0" label="82"/>
+   <node id="NT1.6" label="NT1.6" x="101.0" y="411.0"/>
+   <node id="NT1.7" label="NT1.7" x="144.0" y="385.0"/>
+   <node id="NT1.9" label="NT1.9" x="258.0" y="445.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="263.0" y="406.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="300.0" y="364.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="538.0" y="130.0" otu="otu10"/>
+   <edge id="e.2" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.2" target="NT1.6"/>
+   <edge id="e.8" source="NT1.6" target="NT1.7"/>
+   <edge id="e.9" source="NT1.6" target="NT1.9"/>
+   <edge id="e.10" source="NT1.7" target="NT1.12"/>
+   <edge id="e.11" source="NT1.7" target="NT1.10"/>
+   <edge id="e.15" target="NT1.17" source="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Alteromonas" cmphy:species="macleodii" cmphy:strain="IAM 12920T" cmphy:id="X82145" editRecord="[]">Alteromonas macleodii IAM 12920T (X82145)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">G. mesophila KMM 241T (AJ488501)</otu>
+  <otu id="otu8">G. nitratireducens FR1064T (AY787042)</otu>
+  <otu id="otu9">G. chathamensis S18K6T (AB247623)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">G. agarilytica NO2T (DQ784575)</otu>
+  <otu id="otu12">G. polaris LMG 21857T (AJ293820)</otu>
+  <otu id="otu13">G. psychrophila 170T (DQ007436)</otu>
+  <otu id="otu14">G. pallidula ACAM 6157 (U85854)</otu>
+  <otu id="otu15">Strain E3T (EU183316)</otu>
+  <otu id="otu16">G. punicea ACAM 611T(U85853)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.7" label="NT1.7" x="228.0" y="353.0" otu="otu3"/>
+   <node id="NT1.26" label="NT1.26" x="4.0" y="301.0" root="true"/>
+   <edge id="e.19" source="NT1.26" target="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

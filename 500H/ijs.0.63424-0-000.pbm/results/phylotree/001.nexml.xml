@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Alicyclobacillus" cmphy:species="acidocaldarius" cmphy:strain="DSM 4467" cmphy:id="AJ496806" editRecord="[]">Alicyclobacillus acidocaldarius DSM 4467 (AJ496806)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Bacillus" cmphy:species="tusciae" cmphy:strain="DSM 2912T" cmphy:id="Z26933" editRecord="[]">Bacillus tusciae DSM 2912T (Z26933)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Geobacillus" cmphy:species="stearothermophilus" cmphy:strain="NCDO 17687" cmphy:id="X60640" editRecord="[]">Geobacillus stearothermophilus NCDO 17687 (X60640)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Bacillus" cmphy:species="alveayuensis" cmphy:strain="TM5" cmphy:id="AY606801" editRecord="[]">Bacillus alveayuensis TM5 (AY606801)</otu>
+  <otu id="otu10" cmphy:genus="Bacillus" cmphy:species="pallidus" cmphy:strain="DSM 367OT" cmphy:id="Z26930" editRecord="[]">Bacillus pallidus DSM 367OT (Z26930)</otu>
+  <otu id="otu11">lBacilIus thermoalcalophilusi DSM 6866 (Z26931)</otu>
+  <otu id="otu12" cmphy:genus="Bacillus" cmphy:species="alveayuensis" cmphy:strain="TM1T" cmphy:id="AY605232" editRecord="[]">Bacillus alveayuensis TM1T (AY605232)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Bacillus" cmphy:species="aeolius" cmphy:strain="DSM 150847" cmphy:id="AJS04797" editRecord="[5__S]">Bacillus aeolius DSM 150847 (AJ504797)</otu>
+  <otu id="otu15">Bacillus methanolicus NCIMB 131 13T (AB1 12727)</otu>
+  <otu id="otu16" cmphy:genus="Bacillus" cmphy:species="smithii" cmphy:strain="DSM 42167" cmphy:id="X60643" editRecord="[]">Bacillus smithii DSM 42167 (X60643)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="10.0" y="1471.0"/>
+   <node id="NT1.2" label="NT1.2" x="313.0" y="900.0"/>
+   <node id="NT1.4" label="NT1.4" x="342.0" y="1471.0" otu="otu2"/>
+   <node id="NT1.6" label="NT1.6" x="409.0" y="1633.0" otu="otu4"/>
+   <node id="NT1.7" label="NT1.7" x="454.0" y="231.0"/>
+   <node id="NT1.10" label="NT1.10" x="479.0" y="1148.0" otu="otu7"/>
+   <node id="NT1.12" label="NT1.12" x="509.0" y="666.0" otu="otu9"/>
+   <node id="NT1.13" label="NT1.13" x="509.0" y="547.0"/>
+   <node id="NT1.14" label="NT1.14" x="510.0" y="826.0" otu="otu10"/>
+   <node id="NT1.16" label="NT1.16" x="518.0" y="503.0" otu="otu12"/>
+   <node id="NT1.18" label="NT1.18" x="548.0" y="20.0" otu="otu14"/>
+   <node id="NT1.20" label="NT1.20" x="566.0" y="181.0" otu="otu16"/>
+   <node id="NT1.21" label="NT1.21" x="9.0" y="1379.0" root="true"/>
+   <edge id="e.4" source="NT1.13" target="NT1.12"/>
+   <edge id="e.5" source="NT1.13" target="NT1.16"/>
+   <edge id="e.10" source="NT1.1" target="NT1.4"/>
+   <edge id="e.11" source="NT1.1" target="NT1.6"/>
+   <edge id="e.12" source="NT1.2" target="NT1.7"/>
+   <edge id="e.13" source="NT1.2" target="NT1.13"/>
+   <edge id="e.14" source="NT1.21" target="NT1.2"/>
+   <edge id="e.15" source="NT1.21" target="NT1.1"/>
+   <edge id="e.16" source="NT1.2" target="NT1.10"/>
+   <edge id="e.17" source="NT1.7" target="NT1.20"/>
+   <edge id="e.18" source="NT1.7" target="NT1.18"/>
+   <edge id="e.19" source="NT1.2" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">'Marinobacter squalem'vorans' DSM 15125 (AJ439500)</otu>
+  <otu id="otu7">Marinobacter lutaoensis</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Marinobacter" cmphy:species="excellens" cmphy:strain="KMM 3809T" cmphy:id="AYI80101" editRecord="[1__I]">Marinobacter excellens KMM 3809T (AY180101)</otu>
+  <otu id="otu9">Marinobacter bryozoorum</otu>
+  <otu id="otu10">Microbulbzfer hydrolyticus DSM 11525T(AJ608704)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Zooshikella" cmphy:species="ganghwensis" cmphy:strain="KCTC 12044T" cmphy:id="AYI30994" editRecord="[1__I]">Zooshikella ganghwensis KCTC 12044T (AY130994)</otu>
+  <otu id="otu15"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="927.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="238.0" y="1021.0"/>
+   <node id="NT1.18" label="NT1.18" x="523.0" y="124.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="640.0" y="1023.0" otu="otu14"/>
+   <edge id="e.0" source="NT1.1" target="NT1.4"/>
+   <edge id="e.12" target="NT1.24" source="NT1.4"/>
+   <edge id="e.21" target="NT1.18" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

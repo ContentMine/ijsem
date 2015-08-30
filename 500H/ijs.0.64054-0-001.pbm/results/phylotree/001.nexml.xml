@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">_.</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Weissella" cmphy:species="paramesenteroides" cmphy:strain="NRIC 1542T" cmphy:id="ABO23238" editRecord="[0__O]"> Weissella paramesenteroides NRIC 1542T (AB023238)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Leuconostoc" cmphy:species="fallax" cmphy:strain="DSM 20189T" cmphy:id="AFB60738" editRecord="[3__B]">Leuconostoc fallax DSM 20189T (AF360738)</otu>
+  <otu id="otu14" cmphy:genus="Weissella" cmphy:species="minor" cmphy:strain="DSM 2O014T" cmphy:id="M23039" editRecord="[]">Weissella minor DSM 2O014T (M23039)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Leuconostoc" cmphy:species="pseudomesenteroides" cmphy:strain="NRIC 1777T" cmphy:id="ABO23237" editRecord="[0__O]">Leuconostoc pseudomesenteroides NRIC 1777T (AB023237)</otu>
+  <otu id="otu17">Leuconostoc mesenteroides subsp. mesenteroides NCDO 523T (AB023242)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:genus="Weissella" cmphy:species="halotolerans" cmphy:strain="DSM 201907" cmphy:id="M23037" editRecord="[]">Weissella halotolerans DSM 201907 (M23037)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:edit="[2__Z]" cmphy:genus="Leuconostoc" cmphy:species="gasicomitatum" cmphy:strain="LMG 188117" cmphy:id="AFZ31131" editRecord="[2__Z]">Leuconostoc gasicomitatum LMG 188117 (AF231131)</otu>
+  <otu id="otu25" cmphy:edit="[1__I]" cmphy:genus="Leuconostoc" cmphy:species="pseudoficulneum" cmphy:strain="LC51T" cmphy:id="AYI69967" editRecord="[1__I]">Leuconostoc pseudoficulneum LC51T (AY169967)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29"/>
+  <otu id="otu30" cmphy:genus="Lactobacillus" cmphy:species="delbrueckii" cmphy:strain="DSM 20O74T" cmphy:id="M58814" editRecord="[]">Lactobacillus delbrueckii DSM 20O74T (M58814)</otu>
+  <otu id="otu31" cmphy:edit="[0__O]" cmphy:genus="Oenococcus" cmphy:species="oeni" cmphy:strain="JCM 6125T" cmphy:id="ABO22924" editRecord="[0__O]">Oenococcus oeni JCM 6125T (AB022924)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="32.0" y="485.0"/>
+   <node id="NT1.2" label="NT1.2" x="58.0" y="743.0"/>
+   <node id="NT1.3" label="NT1.3" x="106.0" y="399.0"/>
+   <node id="NT1.8" x="135.0" y="278.0" label="93."/>
+   <node id="NT1.10" x="160.0" y="799.0" label="91"/>
+   <node id="NT1.18" label="NT1.18" x="223.0" y="673.0" otu="otu9"/>
+   <node id="NT1.19" x="226.0" y="163.0" label="100"/>
+   <node id="NT1.26" label="NT1.26" x="244.0" y="520.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="244.0" y="825.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="257.0" y="214.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="280.0" y="774.0" otu="otu21"/>
+   <node id="NT1.39" label="NT1.39" x="293.0" y="163.0" otu="otu24"/>
+   <node id="NT1.40" label="NT1.40" x="295.0" y="367.0" otu="otu25"/>
+   <node id="NT1.46" label="NT1.46" x="444.0" y="876.0" otu="otu30"/>
+   <node id="NT1.47" label="NT1.47" x="489.0" y="571.0" otu="otu31"/>
+   <node id="NT1.48" label="NT1.48" x="3.0" y="613.0" root="true"/>
+   <edge id="e.6" target="NT1.39" source="NT1.19"/>
+   <edge id="e.7" target="NT1.29" source="NT1.19"/>
+   <edge id="e.14" source="NT1.3" target="NT1.26"/>
+   <edge id="e.18" source="NT1.1" target="NT1.47"/>
+   <edge id="e.21" target="NT1.18" source="NT1.2"/>
+   <edge id="e.23" source="NT1.10" target="NT1.36"/>
+   <edge id="e.24" source="NT1.2" target="NT1.46"/>
+   <edge id="e.29" source="NT1.3" target="NT1.8"/>
+   <edge id="e.31" source="NT1.1" target="NT1.3"/>
+   <edge id="e.35" source="NT1.2" target="NT1.10"/>
+   <edge id="e.38" source="NT1.48" target="NT1.1"/>
+   <edge id="e.39" source="NT1.48" target="NT1.2"/>
+   <edge id="e.40" source="NT1.8" target="NT1.19"/>
+   <edge id="e.41" target="NT1.27" source="NT1.10"/>
+   <edge id="e.42" target="NT1.40" source="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

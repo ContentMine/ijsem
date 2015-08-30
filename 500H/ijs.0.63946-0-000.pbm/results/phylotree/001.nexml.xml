@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Staphylococcus" cmphy:species="aureus" cmphy:strain="RN639O" cmphy:id="AFI21672" editRecord="[1__I]"> Staphylococcus aureus RN639O (AF121672)</otu>
+  <otu id="otu3"> Paenibacillus lentimorbus ATCC 14707T(AY19761 7)</otu>
+  <otu id="otu4"> B. Iicheniformis ATCC 27811 (AJOO2279)</otu>
+  <otu id="otu5">B. atrophaeus NRRL NRS-213T(AY197616)</otu>
+  <otu id="otu6"> B. mojavensis NRRL B-14698T(AY197618)</otu>
+  <otu id="otu7"> B. vallismortis NRRL B-14890T(AY197619)</otu>
+  <otu id="otu8"> B. amyloliquefaciens ATCC 23842 (AY197615)</otu>
+  <otu id="otu9">B. subtilfs 168 (D86856)</otu>
+  <otu id="otu10">Strain 10bT (AY197614)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="1413.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="88.0" y="1518.0" otu="otu2"/>
+   <edge id="e.15" target="NT1.4" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

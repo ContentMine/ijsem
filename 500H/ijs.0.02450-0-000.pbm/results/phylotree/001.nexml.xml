@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Comamonas" cmphy:species="koreensis" cmphy:strain="KCTC 12005T" cmphy:id="AFZ75377" editRecord="[2__Z]">Comamonas koreensis KCTC 12005T (AF275377)</otu>
+  <otu id="otu2" cmphy:edit="[O__0]" cmphy:genus="Comamonas" cmphy:species="testosteroni" cmphy:strain="MBIC 3840" cmphy:id="ABO07996" editRecord="[O__0]">Comamonas testosteroni MBIC 3840 (ABOO7996)</otu>
+  <otu id="otu3">Comamonas sp. strain 12022 (AF078773)</otu>
+  <otu id="otu4" cmphy:genus="Comamonas" cmphy:species="aquatica" cmphy:strain="LMG 5937" cmphy:id="AJ430346" editRecord="[]">Comamonas aquatica LMG 5937 (AJ430346)</otu>
+  <otu id="otu5" cmphy:genus="Comamonas" cmphy:species="kerstersii" cmphy:strain="LMG 5323" cmphy:id="AJ430348" editRecord="[]">Comamonas kerstersii LMG 5323 (AJ430348)</otu>
+  <otu id="otu6" cmphy:genus="Comamonas" cmphy:species="aquatica" cmphy:strain="LMG 23707" cmphy:id="AJ430344" editRecord="[]">Comamonas aquatica LMG 23707 (AJ430344)</otu>
+  <otu id="otu7" cmphy:genus="Comamonas" cmphy:species="kerstersii" cmphy:strain="LMG 34757" cmphy:id="AJ430347" editRecord="[]">Comamonas kerstersii LMG 34757 (AJ430347)</otu>
+  <otu id="otu8">Comamonas terrigena LMG 1249 (AJ4-30343)</otu>
+  <otu id="otu9" cmphy:genus="Comamonas" cmphy:species="terrigena" cmphy:strain="LMG 1253T" cmphy:id="AJ430342" editRecord="[]">Comamonas terrigena LMG 1253T (AJ430342)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Delftia" cmphy:species="acidovorans" cmphy:strain="IAM 124097" cmphy:id="ABO21417" editRecord="[0__O]">Delftia acidovorans IAM 124097 (AB021417)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Comamonas" cmphy:species="nitrativorans" cmphy:strain="2331 OT" cmphy:id="AJZ51577" editRecord="[2__Z]">Comamonas nitrativorans 2331 OT (AJ251577)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Comamonas" cmphy:species="denitrificans" cmphy:strain="1237" cmphy:id="AFZ33877" editRecord="[2__Z]">Comamonas denitrificans 1237 (AF233877)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="59.0" y="36.0"/>
+   <node id="NT1.2" label="NT1.2" x="110.0" y="153.0"/>
+   <node id="NT1.4" label="NT1.4" x="320.0" y="281.0"/>
+   <node id="NT1.5" label="NT1.5" x="451.0" y="336.0"/>
+   <node id="NT1.6" label="NT1.6" x="479.0" y="81.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="502.0" y="116.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="503.0" y="276.0"/>
+   <node id="NT1.9" label="NT1.9" x="574.0" y="169.0"/>
+   <node id="NT1.11" label="NT1.11" x="642.0" y="400.0"/>
+   <node id="NT1.12" label="NT1.12" x="643.0" y="366.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="729.0" y="314.0"/>
+   <node id="NT1.14" label="NT1.14" x="752.0" y="330.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="764.0" y="437.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="824.0" y="293.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="838.0" y="223.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="840.0" y="11.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="933.0" y="187.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="961.0" y="152.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="4.0" y="60.0" root="true"/>
+   <edge id="e.0" source="NT1.11" target="NT1.12"/>
+   <edge id="e.1" source="NT1.13" target="NT1.14"/>
+   <edge id="e.3" target="NT1.19" source="NT1.8"/>
+   <edge id="e.5" source="NT1.2" target="NT1.4"/>
+   <edge id="e.6" source="NT1.4" target="NT1.9"/>
+   <edge id="e.7" source="NT1.4" target="NT1.5"/>
+   <edge id="e.8" source="NT1.5" target="NT1.8"/>
+   <edge id="e.9" source="NT1.5" target="NT1.11"/>
+   <edge id="e.10" source="NT1.8" target="NT1.13"/>
+   <edge id="e.11" source="NT1.23" target="NT1.1"/>
+   <edge id="e.12" source="NT1.23" target="NT1.2"/>
+   <edge id="e.13" source="NT1.2" target="NT1.7"/>
+   <edge id="e.14" target="NT1.6" source="NT1.1"/>
+   <edge id="e.15" source="NT1.1" target="NT1.20"/>
+   <edge id="e.18" source="NT1.9" target="NT1.22"/>
+   <edge id="e.19" source="NT1.9" target="NT1.21"/>
+   <edge id="e.20" source="NT1.11" target="NT1.15"/>
+   <edge id="e.21" source="NT1.13" target="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

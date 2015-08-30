@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Lysobacter" cmphy:species="capsici" cmphy:strain="YC 5194T" cmphy:id="EF488749" editRecord="[]"> Lysobacter capsici YC 5194T (EF488749)</otu>
+  <otu id="otu3" cmphy:genus="Lysobacter" cmphy:species="antibioticus" cmphy:strain="DSM 2O44T" cmphy:id="ABO19582" editRecord="[]">Lysobacter antibioticus DSM 2O44T (ABO19582)</otu>
+  <otu id="otu4">Lysobacter solI'DCY21T (EF623862)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">Lysobacter concretionis K0077 (AB1 61359)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Lysobacter daejeonensis GH1-9T (DQ191 1 78)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Lysobacter" cmphy:species="panaciterrae" cmphy:strain="Gsoil 068T" cmphy:id="ABZ45359" editRecord="[2__Z]">Lysobacter panaciterrae Gsoil 068T (AB245359)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Lysobacter" cmphy:species="oryzae" cmphy:strain="YC6269T" cmphy:id="EUB76963" editRecord="[3__B]">Lysobacter oryzae YC6269T (EU376963)</otu>
+  <otu id="otu12" cmphy:edit="[1__I]" cmphy:genus="Lysobacter" cmphy:species="koreensis" cmphy:strain="Dae16T" cmphy:id="ABI66878" editRecord="[1__I]">Lysobacter koreensis Dae16T (AB166878)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Lysobacter" cmphy:species="brunescens" cmphy:strain="KCTC 121307" cmphy:id="ABI61360" editRecord="[1__I]"> Lysobacter brunescens KCTC 121307 (AB161360)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18">Stenotrophomonas maltophilia ATCC 1363 7T (ABOO8509)</otu>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="Uncultured" cmphy:species="bacterium" cmphy:strain="clone R19" cmphy:id="ABB07659" editRecord="[3__B]"> Uncultured bacterium clone R19 (AB307659)</otu>
+  <otu id="otu20">Lysobacter sp. KO_CM43 (GQ497921)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:edit="[8__B]" cmphy:genus="Lysobacter" cmphy:species="xinjiangensis" cmphy:strain="RCML-527" cmphy:id="EUB33988" editRecord="[8__B]">Lysobacter xinjiangensis RCML-527 (EU833988)</otu>
+  <otu id="otu23" cmphy:genus="Luteimonas" cmphy:species="terricola" cmphy:strain="BZ92rT" cmphy:id="FJ948107" editRecord="[]"> Luteimonas terricola BZ92rT (FJ948107)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="35.0" y="252.0"/>
+   <node id="NT1.4" label="NT1.4" x="66.0" y="677.0"/>
+   <node id="NT1.7" label="NT1.7" x="92.0" y="344.0"/>
+   <node id="NT1.10" label="NT1.10" x="120.0" y="640.0"/>
+   <node id="NT1.12" label="NT1.12" x="128.0" y="403.0"/>
+   <node id="NT1.15" label="NT1.15" x="189.0" y="209.0"/>
+   <node id="NT1.18" label="NT1.18" x="230.0" y="184.0" otu="otu2"/>
+   <node id="NT1.20" label="NT1.20" x="233.0" y="252.0" otu="otu3"/>
+   <node id="NT1.29" label="NT1.29" x="326.0" y="657.0" otu="otu10"/>
+   <node id="NT1.30" label="NT1.30" x="354.0" y="488.0" otu="otu11"/>
+   <node id="NT1.31" label="NT1.31" x="359.0" y="285.0" otu="otu12"/>
+   <node id="NT1.32" x="378.0" y="362.0" label="100"/>
+   <node id="NT1.34" label="NT1.34" x="392.0" y="622.0" otu="otu14"/>
+   <node id="NT1.39" label="NT1.39" x="502.0" y="387.0" otu="otu19"/>
+   <node id="NT1.43" label="NT1.43" x="517.0" y="353.0" otu="otu22"/>
+   <node id="NT1.44" label="NT1.44" x="517.0" y="690.0" otu="otu23"/>
+   <node id="NT1.45" label="NT1.45" x="3.0" y="538.0" root="true"/>
+   <edge id="e.0" source="NT1.15" target="NT1.18"/>
+   <edge id="e.4" source="NT1.32" target="NT1.39"/>
+   <edge id="e.6" target="NT1.43" source="NT1.32"/>
+   <edge id="e.8" source="NT1.10" target="NT1.29"/>
+   <edge id="e.9" source="NT1.10" target="NT1.34"/>
+   <edge id="e.10" target="NT1.44" source="NT1.4"/>
+   <edge id="e.14" source="NT1.2" target="NT1.7"/>
+   <edge id="e.16" source="NT1.7" target="NT1.12"/>
+   <edge id="e.17" source="NT1.12" target="NT1.32"/>
+   <edge id="e.22" source="NT1.4" target="NT1.10"/>
+   <edge id="e.26" source="NT1.45" target="NT1.4"/>
+   <edge id="e.27" target="NT1.2" source="NT1.45"/>
+   <edge id="e.30" target="NT1.15" source="NT1.2"/>
+   <edge id="e.33" source="NT1.7" target="NT1.31"/>
+   <edge id="e.38" target="NT1.20" source="NT1.15"/>
+   <edge id="e.42" target="NT1.30" source="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

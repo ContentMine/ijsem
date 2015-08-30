@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 11775T" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 11775T (X80725)</otu>
+  <otu id="otu2" cmphy:genus="Methylococcus" cmphy:species="thermophilus" cmphy:strain="ACM 3585T" cmphy:id="X73819" editRecord="[]">Methylococcus thermophilus ACM 3585T (X73819)</otu>
+  <otu id="otu3" cmphy:genus="Methylococcus" cmphy:species="capsulatus" cmphy:strain="Bath" cmphy:id="X72771" editRecord="[]">Methylococcus capsulatus Bath (X72771)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Methylocaldum" cmphy:species="tepidum" cmphy:strain="LKBT" cmphy:id="U89297" editRecord="[]"> Methylocaldum tepidum LKBT (U89297)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Methylosphaera" cmphy:species="hansonii" cmphy:strain="AM11" cmphy:id="U77533" editRecord="[]">Methylosphaera hansonii AM11 (U77533)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Methylobacter" cmphy:species="psychrophilus" cmphy:strain="Z-0021T" cmphy:id="AFI52597" editRecord="[1__I]"> Methylobacter psychrophilus Z-0021T (AF152597)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:edit="[1__I]" cmphy:genus="Methylomonas" cmphy:species="scandinavica" cmphy:strain="SRST" cmphy:id="AJI31369" editRecord="[1__I]"> Methylomonas scandinavica SRST (AJ131369)</otu>
+  <otu id="otu17"> Methylobacter bovis( 89 (L20839)</otu>
+  <otu id="otu18" cmphy:edit="[3__B]" cmphy:genus="Methylomicrobium" cmphy:species="buryatense" cmphy:strain="5BT" cmphy:id="AFB07138" editRecord="[3__B]"> Methylomicrobium buryatense 5BT (AF307138)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21" cmphy:genus="Methylomonas" cmphy:species="fodinarum" cmphy:strain="ACM 3268T" cmphy:id="X72778" editRecord="[]">Methylomonas fodinarum ACM 3268T (X72778)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24">1MethyIothermus' HB (U89299)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="195.0" y="1366.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="221.0" y="914.0"/>
+   <node id="NT1.4" x="240.0" y="801.0" label="86"/>
+   <node id="NT1.5" x="255.0" y="1027.0" label="95"/>
+   <node id="NT1.6" x="301.0" y="679.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="351.0" y="489.0"/>
+   <node id="NT1.9" label="NT1.9" x="356.0" y="330.0"/>
+   <node id="NT1.12" label="NT1.12" x="369.0" y="924.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="388.0" y="979.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="411.0" y="176.0"/>
+   <node id="NT1.24" label="NT1.24" x="426.0" y="1089.0" otu="otu5"/>
+   <node id="NT1.32" label="NT1.32" x="450.0" y="869.0" otu="otu12"/>
+   <node id="NT1.35" label="NT1.35" x="470.0" y="371.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="486.0" y="260.0" otu="otu16"/>
+   <node id="NT1.39" label="NT1.39" x="496.0" y="592.0" otu="otu18"/>
+   <node id="NT1.43" label="NT1.43" x="525.0" y="150.0" otu="otu21"/>
+   <node id="NT1.47" label="NT1.47" x="3.0" y="1221.0" root="true"/>
+   <edge id="e.1" target="NT1.43" source="NT1.20"/>
+   <edge id="e.3" target="NT1.37" source="NT1.20"/>
+   <edge id="e.5" target="NT1.35" source="NT1.9"/>
+   <edge id="e.12" target="NT1.39" source="NT1.8"/>
+   <edge id="e.13" source="NT1.6" target="NT1.32"/>
+   <edge id="e.14" source="NT1.4" target="NT1.12"/>
+   <edge id="e.15" source="NT1.5" target="NT1.15"/>
+   <edge id="e.17" target="NT1.24" source="NT1.5"/>
+   <edge id="e.23" target="NT1.20" source="NT1.9"/>
+   <edge id="e.26" source="NT1.8" target="NT1.9"/>
+   <edge id="e.29" source="NT1.6" target="NT1.8"/>
+   <edge id="e.33" source="NT1.4" target="NT1.6"/>
+   <edge id="e.36" source="NT1.3" target="NT1.4"/>
+   <edge id="e.37" target="NT1.3" source="NT1.47"/>
+   <edge id="e.38" source="NT1.3" target="NT1.5"/>
+   <edge id="e.43" source="NT1.47" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

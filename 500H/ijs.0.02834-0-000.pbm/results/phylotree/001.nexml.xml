@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Chromobacterium violaceum ATCC 12472T(M22510)</otu>
+  <otu id="otu4">Vogesella indigofera ATCC 197O6T(U45995)</otu>
+  <otu id="otu5">lodobacter fluviatilis ATCC 33O51T (M2251 1)</otu>
+  <otu id="otu6" cmphy:genus="Aquaspirillum" cmphy:species="putridiconchylium" cmphy:strain="IAM 14964" cmphy:id="ABO76000" editRecord="[]">Aquaspirillum putridiconchylium IAM 14964 (ABO76000)</otu>
+  <otu id="otu7">Folmivfbrio cftricus DSM 61 50T (Y1 7602)</otu>
+  <otu id="otu8" cmphy:genus="Vitreoscilla" cmphy:species="stercoraria" cmphy:strain="VT1" cmphy:id="M22519" editRecord="[]">Vitreoscilla stercoraria VT1 (M22519)</otu>
+  <otu id="otu9">Eikenella colrodens ATCC 23834T(M22512)</otu>
+  <otu id="otu10">Kfngella denmilicans ATCC 33394T(M22516)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="67.0" y="139.0" otu="otu1" root="true"/>
+   <node id="NT1.7" label="NT1.7" x="261.0" y="348.0"/>
+   <node id="NT1.11" label="NT1.11" x="378.0" y="222.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="399.0" y="274.0" otu="otu8"/>
+   <edge id="e.6" target="NT1.7" source="NT1.1"/>
+   <edge id="e.8" source="NT1.7" target="NT1.13"/>
+   <edge id="e.12" source="NT1.7" target="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

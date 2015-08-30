@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Rhodosporidium" cmphy:species="sphaerocarpum" cmphy:strain="CBS 5939T" cmphy:id="AFO70425" editRecord="[0__O]">Rhodosporidium sphaerocarpum CBS 5939T (AF070425)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Rhodotorula" cmphy:species="pacifica" cmphy:strain="SY-246" cmphy:id="ABI93175" editRecord="[1__I]">Rhodotorula pacifica SY-246 (AB193175)</otu>
+  <otu id="otu5">Rhodotorula sp. IGC 4884 (AF387142)</otu>
+  <otu id="otu6" cmphy:genus="Rhodotorula" cmphy:species="mucilaginosa" cmphy:strain="CBS 9077" cmphy:id="AF444749" editRecord="[]">Rhodotorula mucilaginosa CBS 9077 (AF444749)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Rhodotorula" cmphy:species="glutinis" cmphy:strain="ATCC 32765T" cmphy:id="AFB35985" editRecord="[3__B]">Rhodotorula glutinis ATCC 32765T (AF335985)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Rhodotorula" cmphy:species="mucilaginosa" cmphy:strain="CBS 8383" cmphy:id="AFI89959" editRecord="[1__I]">Rhodotorula mucilaginosa CBS 8383 (AF189959)</otu>
+  <otu id="otu9" cmphy:genus="Rhodotorula" cmphy:species="pacmca" cmphy:strain="SY-967" cmphy:id="ABO26006" editRecord="[]">Rhodotorula pacmca SY-967 (ABO26006)</otu>
+  <otu id="otu10">Rhodotorula sp. IGC 5597 (AF387139)</otu>
+  <otu id="otu11">Rhodotorula sp. IGC 5380 (AF387143)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Rhodotorula" cmphy:species="dairenensis" cmphy:strain="SY-100" cmphy:id="ABO26010" editRecord="[0__O]">Rhodotorula dairenensis SY-100 (AB026010)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Rhodotorula" cmphy:species="dairenensis" cmphy:strain="CBS 4406T" cmphy:id="AFO70429" editRecord="[0__O]">Rhodotorula dairenensis CBS 4406T (AF070429)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Rhodosporidium" cmphy:species="toruloides" cmphy:strain="CBS 349T" cmphy:id="AFO70426" editRecord="[0__O]">Rhodosporidium toruloides CBS 349T (AF070426)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="387.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="3.0" y="387.0"/>
+   <node id="NT1.3" label="NT1.3" x="79.0" y="479.0"/>
+   <node id="NT1.4" label="NT1.4" x="187.0" y="344.0"/>
+   <node id="NT1.8" label="NT1.8" x="264.0" y="169.0"/>
+   <node id="NT1.9" label="NT1.9" x="283.0" y="423.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="292.0" y="269.0" otu="otu4"/>
+   <node id="NT1.11" x="292.0" y="243.0" label="77"/>
+   <node id="NT1.13" label="NT1.13" x="293.0" y="93.0"/>
+   <node id="NT1.15" label="NT1.15" x="306.0" y="139.0"/>
+   <node id="NT1.16" label="NT1.16" x="307.0" y="110.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="308.0" y="500.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="309.0" y="34.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="325.0" y="228.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="352.0" y="164.0"/>
+   <node id="NT1.24" label="NT1.24" x="353.0" y="148.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="353.0" y="191.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="355.0" y="461.0" otu="otu14"/>
+   <edge id="e.0" source="NT1.15" target="NT1.16"/>
+   <edge id="e.1" source="NT1.23" target="NT1.24"/>
+   <edge id="e.2" source="NT1.11" target="NT1.10"/>
+   <edge id="e.5" target="NT1.9" source="NT1.4"/>
+   <edge id="e.6" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.8" target="NT1.13"/>
+   <edge id="e.8" source="NT1.13" target="NT1.15"/>
+   <edge id="e.9" source="NT1.15" target="NT1.23"/>
+   <edge id="e.10" target="NT1.8" source="NT1.4"/>
+   <edge id="e.11" source="NT1.8" target="NT1.11"/>
+   <edge id="e.14" source="NT1.2" target="NT1.4"/>
+   <edge id="e.17" source="NT1.2" target="NT1.3"/>
+   <edge id="e.18" source="NT1.3" target="NT1.17"/>
+   <edge id="e.19" source="NT1.3" target="NT1.26"/>
+   <edge id="e.20" source="NT1.13" target="NT1.18"/>
+   <edge id="e.21" source="NT1.11" target="NT1.20"/>
+   <edge id="e.24" source="NT1.23" target="NT1.25"/>
+  </tree>
+ </trees>
+</nexml>

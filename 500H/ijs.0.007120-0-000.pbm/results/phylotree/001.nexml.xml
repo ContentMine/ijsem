@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Achromobacter Xylosoxidans DSM 10347 (Y14908)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Thiomonas" cmphy:species="cuprina" cmphy:strain="NBRC 1O2145T" cmphy:id="ABB31954" editRecord="[3__B]">Thiomonas cuprina NBRC 1O2145T (AB331954)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">Burkholderia cepacia ATCC 2541 GT (AFO97530)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Thiomonas" cmphy:species="thermosulfata" cmphy:strain="ATCC 515207" cmphy:id="U27839" editRecord="[]">Thiomonas thermosulfata ATCC 515207 (U27839)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Thiomonas" cmphy:species="bhubaneswarensis" cmphy:strain="S107" cmphy:id="DQO92334" editRecord="[0__O]">Thiomonas bhubaneswarensis S107 (DQ092334)</otu>
+  <otu id="otu9" cmphy:edit="[O__0]" cmphy:genus="Thiobacillus" cmphy:species="thioparus" cmphy:strain="LV43" cmphy:id="AFO05628" editRecord="[O__0]">Thiobacillus thioparus LV43 (AFOO5628)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" x="201.0" y="147.0" label="100"/>
+   <node id="NT1.4" x="401.0" y="99.0" label="100"/>
+   <node id="NT1.7" label="NT1.7" x="454.0" y="175.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="541.0" y="135.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="572.0" y="94.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="572.0" y="296.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="7.0" y="259.0" root="true"/>
+   <edge id="e.2" target="NT1.15" source="NT1.4"/>
+   <edge id="e.3" source="NT1.4" target="NT1.14"/>
+   <edge id="e.7" target="NT1.16" source="NT1.17"/>
+   <edge id="e.10" source="NT1.3" target="NT1.4"/>
+   <edge id="e.11" target="NT1.3" source="NT1.17"/>
+   <edge id="e.13" target="NT1.7" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

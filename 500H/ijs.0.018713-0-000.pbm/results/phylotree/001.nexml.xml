@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Mucilaginibacter" cmphy:species="gossypiicola" cmphy:strain="Gh-487" cmphy:id="EU672805" editRecord="[]"> Mucilaginibacter gossypiicola Gh-487 (EU672805)</otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Mucilaginibacter" cmphy:species="oryzae" cmphy:strain="B97" cmphy:id="EUI09722" editRecord="[1__I]">Mucilaginibacter oryzae B97 (EU109722)</otu>
+  <otu id="otu4">Mucilaginibacter riguiWPCB133T (EU747841)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="104.0" y="221.0" otu="otu1" root="true"/>
+   <node id="NT1.3" x="187.0" y="126.0" label="95"/>
+   <node id="NT1.4" label="NT1.4" x="292.0" y="17.0" otu="otu2"/>
+   <node id="NT1.5" label="NT1.5" x="316.0" y="175.0" otu="otu3"/>
+   <edge id="e.0" source="NT1.3" target="NT1.4"/>
+   <edge id="e.2" source="NT1.3" target="NT1.5"/>
+   <edge id="e.4" target="NT1.3" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[0__O]" cmphy:genus="Hot" cmphy:species="spring" cmphy:strain="clone OPB41" cmphy:id="AFO27014" editRecord="[0__O]">Hot spring clone OPB41 (AF027014)</otu>
+  <otu id="otu2" cmphy:genus="Soil" cmphy:species="clone" cmphy:strain="zea-2" cmphy:id="AF423245" editRecord="[]">Soil clone zea-2 (AF423245)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Thermal" cmphy:species="soul" cmphy:strain="clone YNPFFP59" cmphy:id="AFB91982" editRecord="[3__B]">Thermal soul clone YNPFFP59 (AF391982)</otu>
+  <otu id="otu4">Acidolhermus cellulolyticus (AJOO7290)</otu>
+  <otu id="otu5" cmphy:genus="Peat" cmphy:species="bog" cmphy:strain="clone TM210" cmphy:id="X92704" editRecord="[]">Peat bog clone TM210 (X92704)</otu>
+  <otu id="otu6">Hubrobaclsr xylanophilus (AJ243871)</otu>
+  <otu id="otu7">Thermoleaphilum minutum ATCC 35268</otu>
+  <otu id="otu8" cmphy:genus="Peat" cmphy:species="bog" cmphy:strain="clone TM36" cmphy:id="X92694" editRecord="[]">Peat bog clone TM36 (X92694)</otu>
+  <otu id="otu9">Thermale aphilum album ATCC 35263T</otu>
+  <otu id="otu10">Thermoleonhilum album ATCC 35266</otu>
+  <otu id="otu11">Srrepromyces thermocarboxydovorans (U944B8</otu>
+  <otu id="otu12">Paenlbacmus fllinoisensis (D85397)</otu>
+  <otu id="otu13" cmphy:genus="Peat" cmphy:species="bog" cmphy:strain="clone TM220" cmphy:id="X92707" editRecord="[]">Peat bog clone TM220 (X92707)</otu>
+  <otu id="otu14">Eggerthella lenta DSM 22437</otu>
+  <otu id="otu15">Acidfmicrobfum ferroaxidans (M79433)</otu>
+  <otu id="otu16">Kibdelusporangium aridum (AJ31 1 174)</otu>
+  <otu id="otu17">Sponge symbiontPAUC32f(AF186411)</otu>
+  <otu id="otu18" cmphy:genus="Peat" cmphy:species="bog" cmphy:strain="clone TM232" cmphy:id="X92709" editRecord="[]">Peat bog clone TM232 (X92709)</otu>
+  <otu id="otu19">Stun soil 0649 clone 1G9 (AF234119)</otu>
+  <otu id="otu20">"MICIOIHIIX parwcelka " (X89560)</otu>
+  <otu id="otu21">Hubrobacter radfotalerans (X871</otu>
+  <otu id="otu22">Conubacterium glomerans (X79</otu>
+  <otu id="otu23">Chloroflexus aggregans (D32255)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="198.0" y="520.0"/>
+   <node id="NT1.3" label="NT1.3" x="214.0" y="790.0"/>
+   <node id="NT1.7" label="NT1.7" x="299.0" y="378.0"/>
+   <node id="NT1.10" label="NT1.10" x="341.0" y="290.0"/>
+   <node id="NT1.17" label="NT1.17" x="420.0" y="824.0"/>
+   <node id="NT1.18" label="NT1.18" x="428.0" y="887.0" otu="otu1"/>
+   <node id="NT1.20" label="NT1.20" x="456.0" y="505.0" otu="otu2"/>
+   <node id="NT1.21" label="NT1.21" x="459.0" y="293.0" otu="otu3"/>
+   <node id="NT1.23" label="NT1.23" x="466.0" y="236.0"/>
+   <node id="NT1.25" label="NT1.25" x="484.0" y="846.0" otu="otu5"/>
+   <node id="NT1.29" label="NT1.29" x="509.0" y="204.0" otu="otu8"/>
+   <node id="NT1.34" label="NT1.34" x="537.0" y="248.0" otu="otu13"/>
+   <node id="NT1.39" label="NT1.39" x="564.0" y="805.0" otu="otu18"/>
+   <node id="NT1.45" label="NT1.45" x="45.0" y="88.0" root="true"/>
+   <edge id="e.0" target="NT1.18" source="NT1.3"/>
+   <edge id="e.2" target="NT1.20" source="NT1.7"/>
+   <edge id="e.17" target="NT1.7" source="NT1.2"/>
+   <edge id="e.22" source="NT1.7" target="NT1.10"/>
+   <edge id="e.25" source="NT1.10" target="NT1.23"/>
+   <edge id="e.28" target="NT1.17" source="NT1.3"/>
+   <edge id="e.30" source="NT1.17" target="NT1.39"/>
+   <edge id="e.34" target="NT1.2" source="NT1.45"/>
+   <edge id="e.35" source="NT1.2" target="NT1.3"/>
+   <edge id="e.38" target="NT1.21" source="NT1.10"/>
+   <edge id="e.40" source="NT1.17" target="NT1.25"/>
+   <edge id="e.41" source="NT1.23" target="NT1.29"/>
+   <edge id="e.42" source="NT1.23" target="NT1.34"/>
+  </tree>
+ </trees>
+</nexml>

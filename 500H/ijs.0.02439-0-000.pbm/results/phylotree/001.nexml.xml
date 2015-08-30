@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Actinomyces" cmphy:species="urogenitalis" cmphy:strain="CCUG 38702T" cmphy:id="AJZ43791" editRecord="[2__Z]">Actinomyces urogenitalis CCUG 38702T (AJ243791)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Acrinomycss" cmphy:species="bowdenii" cmphy:strain="CCUG 37421T" cmphy:id="AJZ34039" editRecord="[2__Z]">Acrinomycss bowdenii CCUG 37421T (AJ234039)</otu>
+  <otu id="otu3">Actinomyces bavis NCTC 1 1535T (X81 061)</otu>
+  <otu id="otu4">Aclinomyces meyeri CIP 1o3148T (X82451 )</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Actinomyces" cmphy:species="odontolyticus" cmphy:strain="CCUG 2053GT" cmphy:id="AJZ34040" editRecord="[2__Z]">Actinomyces odontolyticus CCUG 2053GT (AJ234040)</otu>
+  <otu id="otu6" cmphy:genus="Aotinomyces" cmphy:species="georgiae" cmphy:strain="DSM 6843T" cmphy:id="X80413" editRecord="[]">Aotinomyces georgiae DSM 6843T (X80413)</otu>
+  <otu id="otu7" cmphy:genus="Actinomyces" cmphy:species="hyovaginalis" cmphy:strain="NCFB 29837" cmphy:id="X69616" editRecord="[]"> Actinomyces hyovaginalis NCFB 29837 (X69616)</otu>
+  <otu id="otu8" cmphy:edit="[B__8]" cmphy:genus="Acrinomyces" cmphy:species="funkei" cmphy:strain="CCUG 42773T" cmphy:id="AJ404889" editRecord="[B__8]"> Acrinomyces funkei CCUG 42773T (AJ4048B9)</otu>
+  <otu id="otu9" cmphy:genus="Actinornyces" cmphy:species="turicensis" cmphy:strain="DSM 991687" cmphy:id="X78720" editRecord="[]">Actinornyces turicensis DSM 991687 (X78720)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Acrinomyces" cmphy:species="suimasmidis" cmphy:strain="CCUG 392767" cmphy:id="AJZ77385" editRecord="[2__Z]">Acrinomyces suimasmidis CCUG 392767 (AJ277385)</otu>
+  <otu id="otu11">Actinamyces vacclrnaxlllae sp. nov. CCUG 460917</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Actinomyces" cmphy:species="canis" cmphy:strain="CCUG 417O6T" cmphy:id="AJZ43891" editRecord="[2__Z]">Actinomyces canis CCUG 417O6T (AJ243891)</otu>
+  <otu id="otu13" cmphy:genus="Aclinomyces" cmphy:species="radingae" cmphy:strain="DSM 9169T" cmphy:id="X78719" editRecord="[]">Aclinomyces radingae DSM 9169T (X78719)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="142.0" y="56.0" label="93"/>
+   <node id="NT1.2" x="144.0" y="289.0" label="100"/>
+   <node id="NT1.3" label="NT1.3" x="176.0" y="385.0"/>
+   <node id="NT1.5" label="NT1.5" x="185.0" y="486.0"/>
+   <node id="NT1.7" x="206.0" y="295.0" label="73"/>
+   <node id="NT1.8" label="NT1.8" x="213.0" y="618.0"/>
+   <node id="NT1.10" x="227.0" y="675.0" label="71"/>
+   <node id="NT1.11" label="NT1.11" x="232.0" y="572.0"/>
+   <node id="NT1.12" label="NT1.12" x="254.0" y="72.0" otu="otu1"/>
+   <node id="NT1.13" label="NT1.13" x="258.0" y="15.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="297.0" y="302.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="312.0" y="245.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="313.0" y="532.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="314.0" y="647.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="314.0" y="704.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="316.0" y="589.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="358.0" y="417.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="363.0" y="188.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="6.0" y="64.0" root="true"/>
+   <edge id="e.0" target="NT1.12" source="NT1.1"/>
+   <edge id="e.2" source="NT1.2" target="NT1.24"/>
+   <edge id="e.4" source="NT1.7" target="NT1.17"/>
+   <edge id="e.5" target="NT1.16" source="NT1.7"/>
+   <edge id="e.6" source="NT1.5" target="NT1.23"/>
+   <edge id="e.7" source="NT1.11" target="NT1.18"/>
+   <edge id="e.8" source="NT1.10" target="NT1.20"/>
+   <edge id="e.10" source="NT1.2" target="NT1.3"/>
+   <edge id="e.11" source="NT1.3" target="NT1.7"/>
+   <edge id="e.14" target="NT1.8" source="NT1.5"/>
+   <edge id="e.15" source="NT1.8" target="NT1.10"/>
+   <edge id="e.16" source="NT1.8" target="NT1.11"/>
+   <edge id="e.17" source="NT1.25" target="NT1.1"/>
+   <edge id="e.18" source="NT1.25" target="NT1.2"/>
+   <edge id="e.19" source="NT1.3" target="NT1.5"/>
+   <edge id="e.20" source="NT1.1" target="NT1.13"/>
+   <edge id="e.22" source="NT1.10" target="NT1.19"/>
+   <edge id="e.23" source="NT1.11" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

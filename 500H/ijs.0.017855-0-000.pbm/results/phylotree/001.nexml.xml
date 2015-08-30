@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"> Paenibacillus campinasensis JCM 1 1 2007 (ABO73187)</otu>
+  <otu id="otu2">Brevibacillus brevis DSM 30T (X6061 2)</otu>
+  <otu id="otu3" cmphy:genus="Paenibacillus" cmphy:species="konsidanse" cmphy:strain="LBYT" cmphy:id="EUO81509" editRecord="[]">Paenibacillus konsidanse LBYT (EUO81509)</otu>
+  <otu id="otu4" cmphy:genus="Paenibacillus" cmphy:species="glucanolyticus" cmphy:strain="DSM 51627" cmphy:id="ABO73189" editRecord="[]">Paenibacillus glucanolyticus DSM 51627 (ABO73189)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Paenibacillus" cmphy:species="popilliae" cmphy:strain="ATCC 1470GT" cmphy:id="ABO73198" editRecord="[0__O]">Paenibacillus popilliae ATCC 1470GT (AB073198)</otu>
+  <otu id="otu6">Cohnella Iaeviribosi RI-397 (DQ459874)</otu>
+  <otu id="otu7">Saccharibacillus sacchariGR21T(EUO14873)</otu>
+  <otu id="otu8">Cohnella fontinalis YT-1 1 O17 (AB362828)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Cohnella" cmphy:species="yongneupensis" cmphy:strain="5YN10-147" cmphy:id="EFB68008" editRecord="[3__B]"> Cohnella yongneupensis 5YN10-147 (EF368008)</otu>
+  <otu id="otu10">Cohnella thermotolerans CCUG 47242T(AJ971483)</otu>
+  <otu id="otu11">Cohnella ginsengisoIiGR21-5T (EF368010)</otu>
+  <otu id="otu12">Cohnella hongkongensis HKU3T (AF4331 65)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">Bacillus subtilis NBRC 13719T(AB271744)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Cohnella" cmphy:species="luojiensis" cmphy:strain="HY-22RT" cmphy:id="GOZ14052" editRecord="[2__Z]">Cohnella luojiensis HY-22RT (GO214052)</otu>
+  <otu id="otu16">Cohnella phaseoliGSPC1T (EUO14872)</otu>
+  <otu id="otu17" cmphy:edit="[O__0]" cmphy:genus="Cohnella" cmphy:species="terrae" cmphy:strain="MX21-27" cmphy:id="FJO01842" editRecord="[O__0]">Cohnella terrae MX21-27 (FJOO1842)</otu>
+  <otu id="otu18">Thermobacillus Xylanilyticus XET (AJOO5795)</otu>
+  <otu id="otu19" cmphy:edit="[O__0]" cmphy:genus="Cohnella" cmphy:species="thailandensis" cmphy:strain="S1 -3T" cmphy:id="FJO01840" editRecord="[O__0]">Cohnella thailandensis S1 -3T (FJOO1840)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="113.0" y="449.0"/>
+   <node id="NT1.4" x="172.0" y="572.0" label="99"/>
+   <node id="NT1.5" x="189.0" y="531.0" label="63"/>
+   <node id="NT1.9" label="NT1.9" x="254.0" y="210.0"/>
+   <node id="NT1.10" label="NT1.10" x="272.0" y="112.0"/>
+   <node id="NT1.11" x="275.0" y="308.0" label="70"/>
+   <node id="NT1.17" label="NT1.17" x="337.0" y="509.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="348.0" y="635.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="357.0" y="551.0" otu="otu5"/>
+   <node id="NT1.25" label="NT1.25" x="400.0" y="344.0" otu="otu9"/>
+   <node id="NT1.31" label="NT1.31" x="430.0" y="220.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="459.0" y="54.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="484.0" y="178.0" otu="otu19"/>
+   <node id="NT1.36" label="NT1.36" x="3.0" y="661.0" root="true"/>
+   <edge id="e.1" target="NT1.33" source="NT1.10"/>
+   <edge id="e.4" target="NT1.35" source="NT1.10"/>
+   <edge id="e.5" source="NT1.11" target="NT1.25"/>
+   <edge id="e.8" target="NT1.31" source="NT1.11"/>
+   <edge id="e.13" source="NT1.5" target="NT1.17"/>
+   <edge id="e.14" target="NT1.19" source="NT1.4"/>
+   <edge id="e.15" source="NT1.5" target="NT1.20"/>
+   <edge id="e.21" source="NT1.9" target="NT1.10"/>
+   <edge id="e.23" target="NT1.9" source="NT1.3"/>
+   <edge id="e.24" source="NT1.9" target="NT1.11"/>
+   <edge id="e.28" target="NT1.3" source="NT1.36"/>
+   <edge id="e.29" source="NT1.3" target="NT1.4"/>
+   <edge id="e.31" source="NT1.4" target="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

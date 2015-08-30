@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Sunxiuqinia elliptica DO.HS47 (GO.200190)</otu>
+  <otu id="otu3">Sunxiuqinia elliptica DO.HS8 (G-10.200192)</otu>
+  <otu id="otu4" cmphy:genus="Cytophaga" cmphy:species="fermentans" cmphy:strain="ATCC 190727" cmphy:id="M58766" editRecord="[]">Cytophaga fermentans ATCC 190727 (M58766)</otu>
+  <otu id="otu5">Alkaliflexus imshenetskiiZ-701 O7 (AJ784993)</otu>
+  <otu id="otu6">Prolixibacter bellariivorans F27 (AY91 8928)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Marinifilum" cmphy:species="fragile" cmphy:strain="JC24697" cmphy:id="FJB94546" editRecord="[3__B]">Marinifilum fragile JC24697 (FJ394546)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Fulvivirga" cmphy:species="kasyanovii" cmphy:strain="KMM 62207" cmphy:id="DQB36305" editRecord="[8__B]">Fulvivirga kasyanovii KMM 62207 (DQ836305)</otu>
+  <otu id="otu9">Lishizhenia caseinilytica UST0402O1-0017(AB1 76674)</otu>
+  <otu id="otu10" cmphy:genus="Parabacteroides" cmphy:species="goldsteinii" cmphy:strain="WAL 120347" cmphy:id="AY974070" editRecord="[]">Parabacteroides goldsteinii WAL 120347 (AY974070)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Crocinitomix" cmphy:species="catalasitica" cmphy:strain="IFO 159777" cmphy:id="ABO78042" editRecord="[0__O]">Crocinitomix catalasitica IFO 159777 (AB078042)</otu>
+  <otu id="otu12">Myroides pelagicus SM17(AB1 76662)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Paludibacter" cmphy:species="propionicigenes" cmphy:strain="WB47" cmphy:id="ABO78842" editRecord="[0__O]">Paludibacter propionicigenes WB47 (AB078842)</otu>
+  <otu id="otu14">Dysgonomonas gadeiATCC BAA-2867 (Y18530)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Formosa" cmphy:species="algae" cmphy:strain="KMM 35537" cmphy:id="AYZ28461" editRecord="[2__Z]">Formosa algae KMM 35537 (AY228461)</otu>
+  <otu id="otu16">Formosa agariphila KMM 39017(AY187688)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Myroides" cmphy:species="profundi" cmphy:strain="D257" cmphy:id="EUZ04978" editRecord="[2__Z]">Myroides profundi D257 (EU204978)</otu>
+  <otu id="otu18" cmphy:edit="[8__B]" cmphy:genus="Myroides" cmphy:species="odoratimimus" cmphy:strain="CCUG 393527" cmphy:id="AJB54059" editRecord="[8__B]">Myroides odoratimimus CCUG 393527 (AJ854059)</otu>
+  <otu id="otu19">A ctibacter sediminisJC21297(EF6 70651)</otu>
+  <otu id="otu20">Bacteroides Xylanisolvens XB1 A7 (AM230650)</otu>
+  <otu id="otu21">Porphyromonas leviiATCC 291477 (L16493)</otu>
+  <otu id="otu22">Persicivirga dokdonensis DSW-67 (D001 7065)</otu>
+  <otu id="otu23" cmphy:genus="Porphyromonas" cmphy:species="somerae" cmphy:strain="WAL 66907" cmphy:id="AY968205" editRecord="[]">Porphyromonas somerae WAL 66907 (AY968205)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="22.0" y="429.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="24.0" y="429.0"/>
+   <node id="NT1.3" label="NT1.3" x="28.0" y="422.0"/>
+   <node id="NT1.5" label="NT1.5" x="50.0" y="273.0"/>
+   <node id="NT1.7" label="NT1.7" x="98.0" y="344.0"/>
+   <node id="NT1.8" x="119.0" y="200.0" label="99"/>
+   <node id="NT1.10" label="NT1.10" x="148.0" y="659.0"/>
+   <node id="NT1.11" label="NT1.11" x="174.0" y="710.0"/>
+   <node id="NT1.13" label="NT1.13" x="186.0" y="131.0"/>
+   <node id="NT1.21" label="NT1.21" x="264.0" y="320.0" otu="otu4"/>
+   <node id="NT1.24" label="NT1.24" x="316.0" y="388.0" otu="otu7"/>
+   <node id="NT1.26" label="NT1.26" x="369.0" y="422.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="382.0" y="728.0" otu="otu10"/>
+   <node id="NT1.30" label="NT1.30" x="387.0" y="251.0" otu="otu11"/>
+   <node id="NT1.33" x="404.0" y="199.0" label="100"/>
+   <node id="NT1.34" label="NT1.34" x="406.0" y="694.0" otu="otu13"/>
+   <node id="NT1.36" label="NT1.36" x="414.0" y="14.0" otu="otu15"/>
+   <node id="NT1.38" label="NT1.38" x="417.0" y="183.0" otu="otu17"/>
+   <node id="NT1.39" label="NT1.39" x="420.0" y="218.0" otu="otu18"/>
+   <node id="NT1.44" label="NT1.44" x="457.0" y="626.0" otu="otu23"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.3" target="NT1.26"/>
+   <edge id="e.5" target="NT1.34" source="NT1.11"/>
+   <edge id="e.10" source="NT1.8" target="NT1.13"/>
+   <edge id="e.12" source="NT1.5" target="NT1.8"/>
+   <edge id="e.14" target="NT1.33" source="NT1.13"/>
+   <edge id="e.15" source="NT1.3" target="NT1.5"/>
+   <edge id="e.16" source="NT1.5" target="NT1.7"/>
+   <edge id="e.18" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" target="NT1.10" source="NT1.2"/>
+   <edge id="e.23" source="NT1.10" target="NT1.11"/>
+   <edge id="e.28" source="NT1.7" target="NT1.21"/>
+   <edge id="e.29" target="NT1.24" source="NT1.7"/>
+   <edge id="e.31" target="NT1.30" source="NT1.8"/>
+   <edge id="e.32" target="NT1.28" source="NT1.11"/>
+   <edge id="e.38" target="NT1.36" source="NT1.13"/>
+   <edge id="e.40" target="NT1.44" source="NT1.10"/>
+   <edge id="e.41" source="NT1.33" target="NT1.38"/>
+   <edge id="e.42" source="NT1.33" target="NT1.39"/>
+  </tree>
+ </trees>
+</nexml>

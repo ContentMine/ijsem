@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">V. aestuarianus ATCC 350487 (X74689)</otu>
+  <otu id="otu2" cmphy:genus="v." cmphy:species="tapetis" cmphy:strain="CECT 460OT" cmphy:id="Y08430">v. tapetis CECT 460OT (Y08430)</otu>
+  <otu id="otu3">V. pacinii LMG 199997 (AJ316194)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5"> V. Kanaloae LMG 205397 (AJ316193)</otu>
+  <otu id="otu6">V. cholerae El Tor strain N16P61</otu>
+  <otu id="otu7">V. furnissii ATCC 350167 (X74704)</otu>
+  <otu id="otu8">V. metschnikovii CIP 69.14T (X74711)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10">V. diabolicus HE8OOT (X99762)</otu>
+  <otu id="otu11">V. mytili CECT 6327 (X99761)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.10" label="NT1.10" x="423.0" y="663.0" otu="otu2"/>
+   <node id="NT1.21" label="NT1.21" x="5.0" y="579.0" root="true"/>
+   <edge id="e.3" target="NT1.10" source="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

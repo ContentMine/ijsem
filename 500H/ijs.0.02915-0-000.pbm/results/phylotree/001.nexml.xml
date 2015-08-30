@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:genus="Flectobacillus" cmphy:species="major" cmphy:strain="ATCC 294967" cmphy:id="M62787" editRecord="[]">Flectobacillus major ATCC 294967 (M62787)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:genus="Microscilla" cmphy:species="marina" cmphy:strain="ATCC 231347" cmphy:id="M58793" editRecord="[]">Microscilla marina ATCC 231347 (M58793)</otu>
+  <otu id="otu20">Polaribacter f7lamentus ATCC 7003977 (U73726)</otu>
+  <otu id="otu21" cmphy:genus="Flexibacter" cmphy:species="flexilis" cmphy:strain="ATCC 230797" cmphy:id="M62794" editRecord="[]">Flexibacter flexilis ATCC 230797 (M62794)</otu>
+  <otu id="otu22" cmphy:genus="Flexibacter" cmphy:species="polymorphus" cmphy:strain="ATCC 278207" cmphy:id="M58786" editRecord="[]">Flexibacter polymorphus ATCC 278207 (M58786)</otu>
+  <otu id="otu23">Flexibacter Iitoralis ATCC 231 177 (M58784)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.6" label="NT1.6" x="267.0" y="649.0"/>
+   <node id="NT1.9" label="NT1.9" x="299.0" y="571.0"/>
+   <node id="NT1.12" label="NT1.12" x="317.0" y="600.0"/>
+   <node id="NT1.37" label="NT1.37" x="474.0" y="570.0" otu="otu17"/>
+   <node id="NT1.39" label="NT1.39" x="475.0" y="527.0" otu="otu19"/>
+   <node id="NT1.41" label="NT1.41" x="494.0" y="613.0" otu="otu21"/>
+   <node id="NT1.42" label="NT1.42" x="494.0" y="741.0" otu="otu22"/>
+   <node id="NT1.44" label="NT1.44" x="7.0" y="1084.0" root="true"/>
+   <edge id="e.3" source="NT1.9" target="NT1.39"/>
+   <edge id="e.4" target="NT1.41" source="NT1.12"/>
+   <edge id="e.16" target="NT1.9" source="NT1.6"/>
+   <edge id="e.18" source="NT1.9" target="NT1.12"/>
+   <edge id="e.21" target="NT1.6" source="NT1.44"/>
+   <edge id="e.31" source="NT1.12" target="NT1.37"/>
+   <edge id="e.37" target="NT1.42" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

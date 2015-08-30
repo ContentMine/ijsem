@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Arthrobacter globiformis DSM 20124 T (M2341 1)</otu>
+  <otu id="otu4" cmphy:genus="Kocuria" cmphy:species="rosea" cmphy:strain="DSM 20447" cmphy:id="X87756" editRecord="[]">Kocuria rosea DSM 20447 (X87756)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Micrococcus" cmphy:species="yunnanensis" cmphy:strain="YIM 650047" cmphy:id="FJZ14355" editRecord="[2__Z]"> Micrococcus yunnanensis YIM 650047 (FJ214355)</otu>
+  <otu id="otu6" cmphy:edit="[5__S]" cmphy:genus="Micrococcus" cmphy:species="luteus" cmphy:strain="DSM 200307" cmphy:id="AJS36198" editRecord="[5__S]"> Micrococcus luteus DSM 200307 (AJ536198)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="Micrococcus" cmphy:species="antarcticus" cmphy:strain="T2T" cmphy:id="AJO05932" editRecord="[0__O]">Micrococcus antarcticus T2T (AJ005932)</otu>
+  <otu id="otu8" cmphy:genus="Micrococcus" cmphy:species="lylae" cmphy:strain="DSM 20315T" cmphy:id="X80750" editRecord="[]">Micrococcus lylae DSM 20315T (X80750)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Citricoccus" cmphy:species="muralis" cmphy:strain="4-OT" cmphy:id="AJB44143" editRecord="[3__B]">Citricoccus muralis 4-OT (AJ344143)</otu>
+  <otu id="otu10" cmphy:genus="Micrococcus" cmphy:species="flavus" cmphy:strain="LW4T" cmphy:id="DQ491453" editRecord="[]">Micrococcus flavus LW4T (DQ491453)</otu>
+  <otu id="otu11" cmphy:genus="Rothia" cmphy:species="dentocariosa" cmphy:strain="ATCC 17931T" cmphy:id="M59055" editRecord="[]">Rothia dentocariosa ATCC 17931T (M59055)</otu>
+  <otu id="otu12" cmphy:genus="Nesterenkonia" cmphy:species="halobia" cmphy:strain="DSM 20541T" cmphy:id="X80747" editRecord="[]">Nesterenkonia halobia DSM 20541T (X80747)</otu>
+  <otu id="otu13" cmphy:genus="Renibacterlum" cmphy:species="salmoninarum" cmphy:strain="ATCC 33209T" cmphy:id="X51601" editRecord="[]">Renibacterlum salmoninarum ATCC 33209T (X51601)</otu>
+  <otu id="otu14" cmphy:edit="[8__B]" cmphy:genus="Acaricomes" cmphy:species="phytoseiuli" cmphy:strain="DSM 14247T" cmphy:id="AJB12213" editRecord="[8__B]">Acaricomes phytoseiuli DSM 14247T (AJ812213)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="7.0" y="407.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="21.0" y="328.0" label="("/>
+   <node id="NT1.3" x="68.0" y="408.0" label=" 50"/>
+   <node id="NT1.4" x="76.0" y="247.0" label="50"/>
+   <node id="NT1.5" x="174.0" y="435.0" label="81"/>
+   <node id="NT1.7" x="233.0" y="195.0" label="99"/>
+   <node id="NT1.8" x="235.0" y="327.0" label="51"/>
+   <node id="NT1.9" x="400.0" y="153.0" label="99"/>
+   <node id="NT1.10" label="NT1.10" x="441.0" y="106.0"/>
+   <node id="NT1.11" label="NT1.11" x="458.0" y="146.0"/>
+   <node id="NT1.15" x="516.0" y="38.0" label="94"/>
+   <node id="NT1.16" label="NT1.16" x="531.0" y="417.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="538.0" y="56.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="558.0" y="20.0" otu="otu6"/>
+   <node id="NT1.19" label="NT1.19" x="628.0" y="128.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="645.0" y="201.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="652.0" y="237.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="743.0" y="164.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="822.0" y="453.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="849.0" y="381.0" otu="otu12"/>
+   <node id="NT1.25" label="NT1.25" x="883.0" y="345.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="911.0" y="309.0" otu="otu14"/>
+   <edge id="e.0" source="NT1.15" target="NT1.17"/>
+   <edge id="e.2" source="NT1.11" target="NT1.19"/>
+   <edge id="e.3" source="NT1.11" target="NT1.22"/>
+   <edge id="e.4" source="NT1.9" target="NT1.20"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.6" source="NT1.7" target="NT1.21"/>
+   <edge id="e.8" source="NT1.5" target="NT1.16"/>
+   <edge id="e.9" source="NT1.8" target="NT1.25"/>
+   <edge id="e.10" source="NT1.8" target="NT1.26"/>
+   <edge id="e.11" source="NT1.5" target="NT1.23"/>
+   <edge id="e.12" source="NT1.3" target="NT1.24"/>
+   <edge id="e.13" target="NT1.15" source="NT1.10"/>
+   <edge id="e.15" source="NT1.9" target="NT1.10"/>
+   <edge id="e.16" source="NT1.10" target="NT1.11"/>
+   <edge id="e.17" source="NT1.7" target="NT1.9"/>
+   <edge id="e.18" source="NT1.4" target="NT1.7"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.21" source="NT1.2" target="NT1.3"/>
+   <edge id="e.22" target="NT1.8" source="NT1.4"/>
+   <edge id="e.23" source="NT1.3" target="NT1.5"/>
+   <edge id="e.24" source="NT1.15" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Herbaspirillum" cmphy:species="huttiense" cmphy:strain="ATCC 146707" cmphy:id="ABO21366" editRecord="[]"> Herbaspirillum huttiense ATCC 146707 (ABO21366)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Herbaspirillum" cmphy:species="frisingense" cmphy:strain="DSM 131287" cmphy:id="AJZ38358" editRecord="[2__Z]"> Herbaspirillum frisingense DSM 131287 (AJ238358)</otu>
+  <otu id="otu3" cmphy:genus="Herminiimonas" cmphy:species="fonticola" cmphy:strain="S-947" cmphy:id="AY676462" editRecord="[]">Herminiimonas fonticola S-947 (AY676462)</otu>
+  <otu id="otu4">Herbaspinllum chlorophenolicum</otu>
+  <otu id="otu5">Paucimonas Iemoignei LMG 22077 (X92555)</otu>
+  <otu id="otu6" cmphy:genus="Oxalobacter" cmphy:species="formigenes" cmphy:strain="ATCC 352747" cmphy:id="U49757" editRecord="[]">Oxalobacter formigenes ATCC 352747 (U49757)</otu>
+  <otu id="otu7" cmphy:genus="Janthinobacterium" cmphy:species="agaricidamnosum" cmphy:strain="DSM 96287" cmphy:id="Y08845" editRecord="[]"> Janthinobacterium agaricidamnosum DSM 96287 (Y08845)</otu>
+  <otu id="otu8"> Janthinobacterium Iividum DSM 15227 (Y08846)</otu>
+  <otu id="otu9"> Massilia dura CCTCC AB 2040707 (AY965998)</otu>
+  <otu id="otu10">Duganella zoogloeoides</otu>
+  <otu id="otu11" cmphy:genus="Massilia" cmphy:species="timonae" cmphy:strain="CIP 1053507" cmphy:id="U54470" editRecord="[]">Massilia timonae CIP 1053507 (U54470)</otu>
+  <otu id="otu12" cmphy:edit="[3__B]" cmphy:genus="Duganella" cmphy:species="violaceinigra" cmphy:strain="YIM 313277" cmphy:id="AYB76163" editRecord="[3__B]">Duganella violaceinigra YIM 313277 (AY376163)</otu>
+  <otu id="otu13" cmphy:genus="Naxibacter" cmphy:species="alkalitolerans" cmphy:strain="YIM 317757" cmphy:id="AY679161" editRecord="[]">Naxibacter alkalitolerans YIM 317757 (AY679161)</otu>
+  <otu id="otu14"> Massilia lutea CCTCC AB 2040737 (AY966001)</otu>
+  <otu id="otu15">Massilia plicata CCTCC AB 2040727 (AY966000)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Massilia" cmphy:species="aurea" cmphy:strain="AP137" cmphy:id="AMZ31588" editRecord="[2__Z]">Massilia aurea AP137 (AM231588)</otu>
+  <otu id="otu18" cmphy:genus="Telluria" cmphy:species="mlxta" cmphy:strain="ACM 17627" cmphy:id="X65589" editRecord="[]">Telluria mlxta ACM 17627 (X65589)</otu>
+  <otu id="otu19" cmphy:genus="Telluria" cmphy:species="chitinolytica" cmphy:strain="ACM 35227" cmphy:id="X65590" editRecord="[]">Telluria chitinolytica ACM 35227 (X65590)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="132.0" y="674.0"/>
+   <node id="NT1.3" label="NT1.3" x="168.0" y="545.0"/>
+   <node id="NT1.4" x="219.0" y="632.0" label="100"/>
+   <node id="NT1.6" label="NT1.6" x="275.0" y="653.0" otu="otu1"/>
+   <node id="NT1.7" label="NT1.7" x="283.0" y="568.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="331.0" y="696.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="341.0" y="459.0"/>
+   <node id="NT1.12" label="NT1.12" x="355.0" y="781.0" otu="otu6"/>
+   <node id="NT1.14" x="403.0" y="375.0" label="91"/>
+   <node id="NT1.15" label="NT1.15" x="431.0" y="332.0"/>
+   <node id="NT1.16" label="NT1.16" x="439.0" y="525.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="492.0" y="246.0"/>
+   <node id="NT1.22" label="NT1.22" x="568.0" y="203.0"/>
+   <node id="NT1.26" label="NT1.26" x="699.0" y="226.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="710.0" y="440.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="727.0" y="355.0" otu="otu13"/>
+   <node id="NT1.33" x="806.0" y="289.0" label="100"/>
+   <node id="NT1.34" label="NT1.34" x="819.0" y="185.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="945.0" y="312.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="1027.0" y="270.0" otu="otu19"/>
+   <node id="NT1.37" label="NT1.37" x="1.0" y="749.0" root="true"/>
+   <edge id="e.4" source="NT1.22" target="NT1.26"/>
+   <edge id="e.5" source="NT1.22" target="NT1.34"/>
+   <edge id="e.6" source="NT1.15" target="NT1.28"/>
+   <edge id="e.7" source="NT1.33" target="NT1.35"/>
+   <edge id="e.8" target="NT1.16" source="NT1.10"/>
+   <edge id="e.11" target="NT1.27" source="NT1.14"/>
+   <edge id="e.12" source="NT1.33" target="NT1.36"/>
+   <edge id="e.13" source="NT1.4" target="NT1.6"/>
+   <edge id="e.14" target="NT1.7" source="NT1.4"/>
+   <edge id="e.16" source="NT1.2" target="NT1.8"/>
+   <edge id="e.22" target="NT1.22" source="NT1.18"/>
+   <edge id="e.23" source="NT1.15" target="NT1.18"/>
+   <edge id="e.24" source="NT1.18" target="NT1.33"/>
+   <edge id="e.25" source="NT1.14" target="NT1.15"/>
+   <edge id="e.26" source="NT1.10" target="NT1.14"/>
+   <edge id="e.28" source="NT1.3" target="NT1.10"/>
+   <edge id="e.30" source="NT1.2" target="NT1.3"/>
+   <edge id="e.31" source="NT1.3" target="NT1.4"/>
+   <edge id="e.33" target="NT1.2" source="NT1.37"/>
+   <edge id="e.34" source="NT1.37" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

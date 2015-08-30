@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Isoptericola" cmphy:species="dokdonensis" cmphy:strain="DS-3T" cmphy:id="DQB87860" editRecord="[3__B]"> Isoptericola dokdonensis DS-3T (DQ387860)</otu>
+  <otu id="otu6"> Promicromonospora Citrea DSM 431 1 OT (X83808)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">lsoptericola halotolerans YIM 701 777 (AY789835)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13">X ylanimonas cellulosilytica XILO7T (AF403541)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="726.0" otu="otu1" root="true"/>
+   <node id="NT1.15" label="NT1.15" x="939.0" y="184.0" otu="otu5"/>
+   <edge id="e.2" target="NT1.15" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Mycoplana" cmphy:species="dimorpha" cmphy:strain="ATCC 42797" cmphy:id="AJZ94385" editRecord="[2__Z]">Mycoplana dimorpha ATCC 42797 (AJ294385)</otu>
+  <otu id="otu3">Shinella granuli CCUG 56487 T (FM999739)</otu>
+  <otu id="otu4">Strain DC-1967 (FM999741)</otu>
+  <otu id="otu5">Ensifer adhaerens ATCC 3321 2T (AJ505595)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Shinella" cmphy:species="kummerowiae" cmphy:strain="CCBAU 25048T" cmphy:id="EUZ00979" editRecord="[2__Z]">Shinella kummerowiae CCBAU 25048T (EU200979)</otu>
+  <otu id="otu7">Sinorhizobium kostiense LMG 19227T(AM182142)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Rhizobium" cmphy:species="leguminosarum" cmphy:strain="USDA 237OT" cmphy:id="AJZ94376" editRecord="[2__Z]">Rhizobium leguminosarum USDA 237OT (AJ294376)</otu>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Ensifer" cmphy:species="adhaerens" cmphy:strain="LMG 21331T" cmphy:id="AJS05601" editRecord="[5__S]">Ensifer adhaerens LMG 21331T (AJ505601)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Sinorhizobium" cmphy:species="fredii" cmphy:strain="USDA 2057" cmphy:id="AJZ94379" editRecord="[2__Z]">Sinorhizobium fredii USDA 2057 (AJ294379)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Agrobacterium" cmphy:species="tumefaciens" cmphy:strain="NCPPB 2437T" cmphy:id="AJZ94377" editRecord="[2__Z]">Agrobacterium tumefaciens NCPPB 2437T (AJ294377)</otu>
+  <otu id="otu12" cmphy:genus="Shinella" cmphy:species="zoogloeoides" cmphy:strain="CCUG 352O4T" cmphy:id="FM999740" editRecord="[]">Shinella zoogloeoides CCUG 352O4T (FM999740)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="72.0" y="219.0"/>
+   <node id="NT1.3" label="NT1.3" x="85.0" y="317.0"/>
+   <node id="NT1.4" x="100.0" y="122.0" label="_"/>
+   <node id="NT1.5" label="NT1.5" x="140.0" y="414.0"/>
+   <node id="NT1.6" label="NT1.6" x="156.0" y="221.0"/>
+   <node id="NT1.11" label="NT1.11" x="232.0" y="17.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="337.0" y="184.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="405.0" y="143.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="433.0" y="351.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="435.0" y="435.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="470.0" y="101.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="534.0" y="267.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="7.0" y="129.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.3"/>
+   <edge id="e.1" source="NT1.1" target="NT1.4"/>
+   <edge id="e.2" source="NT1.3" target="NT1.5"/>
+   <edge id="e.3" source="NT1.3" target="NT1.6"/>
+   <edge id="e.9" source="NT1.23" target="NT1.1"/>
+   <edge id="e.11" target="NT1.11" source="NT1.23"/>
+   <edge id="e.12" source="NT1.4" target="NT1.18"/>
+   <edge id="e.13" source="NT1.6" target="NT1.16"/>
+   <edge id="e.14" source="NT1.4" target="NT1.21"/>
+   <edge id="e.18" target="NT1.19" source="NT1.5"/>
+   <edge id="e.20" target="NT1.20" source="NT1.5"/>
+   <edge id="e.21" target="NT1.22" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

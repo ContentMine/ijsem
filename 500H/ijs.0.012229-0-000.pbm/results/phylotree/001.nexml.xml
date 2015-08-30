@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Rhodococcus rhodochrous DSM 43241 T (X79288)</otu>
+  <otu id="otu2" cmphy:genus="Tsukamurella" cmphy:species="paurometabola" cmphy:strain="DSM 2O162T" cmphy:id="X80628" editRecord="[]">Tsukamurella paurometabola DSM 2O162T (X80628)</otu>
+  <otu id="otu3" cmphy:genus="Dietzia" cmphy:species="cinnamea" cmphy:strain="IMMIB RIV-3997" cmphy:id="AJ920289" editRecord="[]">Dietzia cinnamea IMMIB RIV-3997 (AJ920289)</otu>
+  <otu id="otu4" cmphy:genus="Dietzia" cmphy:species="maris" cmphy:strain="DSM 43672T" cmphy:id="X79290" editRecord="[]">Dietzia maris DSM 43672T (X79290)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Dietzia" cmphy:species="schimae" cmphy:strain="YIM 65O01T" cmphy:id="EUB75845" editRecord="[3__B]">Dietzia schimae YIM 65O01T (EU375845)</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Dietzia" cmphy:species="timorensis" cmphy:strain="lD05-AO528T" cmphy:id="ABB77289" editRecord="[3__B]">Dietzia timorensis lD05-AO528T (AB377289)</otu>
+  <otu id="otu7" cmphy:genus="Segniliparus" cmphy:species="rotundus" cmphy:strain="CDC 1076T" cmphy:id="AY608918" editRecord="[]">Segniliparus rotundus CDC 1076T (AY608918)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Dietzia" cmphy:species="cercidiphylli" cmphy:strain="YIM 65O02T" cmphy:id="EUB75846" editRecord="[3__B]">Dietzia cercidiphylli YIM 65O02T (EU375846)</otu>
+  <otu id="otu9" cmphy:edit="[1__I]" cmphy:genus="Dietzia" cmphy:species="psychralcaliphila" cmphy:strain="JCM 1o987T" cmphy:id="ABI59036" editRecord="[1__I]">Dietzia psychralcaliphila JCM 1o987T (AB159036)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Dietzia" cmphy:species="cercidiphylli" cmphy:strain="YIM 65O02T" cmphy:id="EUB75846" editRecord="[3__B]">Dietzia cercidiphylli YIM 65O02T (EU375846)</otu>
+  <otu id="otu11">Dietzia kunjamensis KT30-10T (AY97 2480)</otu>
+  <otu id="otu12" cmphy:genus="Dietzia" cmphy:species="natronolimnaea" cmphy:strain="CBS 1O7.95T" cmphy:id="X92157" editRecord="[]">Dietzia natronolimnaea CBS 1O7.95T (X92157)</otu>
+  <otu id="otu13" cmphy:genus="Dietzia" cmphy:species="papillomatosis" cmphy:strain="N 128OT" cmphy:id="AY643401" editRecord="[]">Dietzia papillomatosis N 128OT (AY643401)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="31.0" y="385.0"/>
+   <node id="NT1.2" label="NT1.2" x="112.0" y="336.0"/>
+   <node id="NT1.3" label="NT1.3" x="242.0" y="280.0"/>
+   <node id="NT1.4" label="NT1.4" x="351.0" y="429.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="362.0" y="283.0"/>
+   <node id="NT1.6" label="NT1.6" x="418.0" y="389.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="424.0" y="190.0"/>
+   <node id="NT1.8" label="NT1.8" x="432.0" y="74.0"/>
+   <node id="NT1.9" label="NT1.9" x="433.0" y="308.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="440.0" y="101.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="449.0" y="23.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="474.0" y="347.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="483.0" y="468.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="494.0" y="175.0"/>
+   <node id="NT1.15" label="NT1.15" x="496.0" y="143.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="497.0" y="145.0"/>
+   <node id="NT1.17" label="NT1.17" x="502.0" y="223.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="520.0" y="145.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="527.0" y="62.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="542.0" y="183.0" otu="otu12"/>
+   <node id="NT1.21" label="NT1.21" x="651.0" y="265.0" otu="otu13"/>
+   <edge source="NT1.10" target="NT1.8" id="e.0"/>
+   <edge source="NT1.19" target="NT1.8" id="e.1"/>
+   <edge source="NT1.16" target="NT1.15" id="e.2"/>
+   <edge source="NT1.18" target="NT1.16" id="e.3"/>
+   <edge source="NT1.20" target="NT1.14" id="e.4"/>
+   <edge source="NT1.9" target="NT1.5" id="e.5"/>
+   <edge source="NT1.12" target="NT1.3" id="e.6"/>
+   <edge source="NT1.21" target="NT1.5" id="e.7"/>
+   <edge source="NT1.6" target="NT1.2" id="e.8"/>
+   <edge source="NT1.4" target="NT1.1" id="e.9"/>
+   <edge source="NT1.13" target="NT1.1" id="e.10"/>
+   <edge source="NT1.8" target="NT1.7" id="e.11"/>
+   <edge source="NT1.7" target="NT1.5" id="e.12"/>
+   <edge source="NT1.7" target="NT1.14" id="e.13"/>
+   <edge source="NT1.5" target="NT1.3" id="e.14"/>
+   <edge source="NT1.14" target="NT1.16" id="e.15"/>
+   <edge source="NT1.3" target="NT1.2" id="e.16"/>
+   <edge source="NT1.2" target="NT1.1" id="e.17"/>
+   <edge source="NT1.11" target="NT1.8" id="e.18"/>
+   <edge source="NT1.17" target="NT1.7" id="e.19"/>
+  </tree>
+ </trees>
+</nexml>

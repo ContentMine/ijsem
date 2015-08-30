@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Laceyella" cmphy:species="sacchari" cmphy:strain="KCTC 97907" cmphy:id="AFI38737" editRecord="[1__I]">Laceyella sacchari KCTC 97907 (AF138737)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Laceyella" cmphy:species="sacchari" cmphy:strain="KCTC 9789" cmphy:id="AFI38738" editRecord="[1__I]">Laceyella sacchari KCTC 9789 (AF138738)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Thermoactinomyces" cmphy:species="vulgaris" cmphy:strain="KCTC 9557" cmphy:id="AFI38732" editRecord="[1__I]">Thermoactinomyces vulgaris KCTC 9557 (AF138732)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Thermoactinomyces" cmphy:species="vulgaris" cmphy:strain="KCTC 9557" cmphy:id="AFI38732" editRecord="[1__I]">Thermoactinomyces vulgaris KCTC 9557 (AF138732)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Thermoactinomyces" cmphy:species="vulgaris" cmphy:strain="KCTC 90767" cmphy:id="AFI38739" editRecord="[1__I]">Thermoactinomyces vulgaris KCTC 90767 (AF138739)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[1__I]" cmphy:genus="Thermoactinomyces" cmphy:species="intermedius" cmphy:strain="KCTC 96467" cmphy:id="AFI38734" editRecord="[1__I]">Thermoactinomyces intermedius KCTC 96467 (AF138734)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Laceyella" cmphy:species="putida" cmphy:strain="KCTC 36667" cmphy:id="AFI38736" editRecord="[1__I]">Laceyella putida KCTC 36667 (AF138736)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="Thermoflavimicrobium" cmphy:species="dichotomicum" cmphy:strain="KCTC 36677" cmphy:id="AFI38733" editRecord="[1__I]">Thermoflavimicrobium dichotomicum KCTC 36677 (AF138733)</otu>
+  <otu id="otu16" cmphy:genus="Paenibacillus" cmphy:species="polymyxa" cmphy:strain="NCDO 17747" cmphy:id="X60632" editRecord="[]">Paenibacillus polymyxa NCDO 17747 (X60632)</otu>
+  <otu id="otu17" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="NCDO 17697" cmphy:id="X60646" editRecord="[]">Bacillus subtilis NCDO 17697 (X60646)</otu>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Seinonella" cmphy:species="peptonophila" cmphy:strain="KCTC 97407" cmphy:id="AFI38735" editRecord="[1__I]">Seinonella peptonophila KCTC 97407 (AF138735)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="303.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="29.0" y="303.0"/>
+   <node id="NT1.3" x="83.0" y="357.0" label="537"/>
+   <node id="NT1.4" label="NT1.4" x="124.0" y="244.0"/>
+   <node id="NT1.9" label="NT1.9" x="200.0" y="184.0"/>
+   <node id="NT1.10" x="283.0" y="184.0" label="100"/>
+   <node id="NT1.13" label="NT1.13" x="324.0" y="133.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="324.0" y="176.0" otu="otu7"/>
+   <node id="NT1.15" x="324.0" y="161.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="325.0" y="63.0"/>
+   <node id="NT1.17" label="NT1.17" x="326.0" y="63.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="335.0" y="54.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="336.0" y="11.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="344.0" y="94.0" otu="otu13"/>
+   <node id="NT1.23" label="NT1.23" x="349.0" y="215.0" otu="otu14"/>
+   <node id="NT1.24" label="NT1.24" x="390.0" y="256.0" otu="otu15"/>
+   <node id="NT1.25" label="NT1.25" x="451.0" y="379.0" otu="otu16"/>
+   <node id="NT1.26" label="NT1.26" x="455.0" y="337.0" otu="otu17"/>
+   <node id="NT1.27" label="NT1.27" x="461.0" y="297.0" otu="otu18"/>
+   <edge id="e.0" source="NT1.16" target="NT1.20"/>
+   <edge id="e.2" source="NT1.16" target="NT1.19"/>
+   <edge id="e.3" source="NT1.16" target="NT1.17"/>
+   <edge id="e.4" source="NT1.16" target="NT1.22"/>
+   <edge id="e.10" source="NT1.15" target="NT1.13"/>
+   <edge id="e.11" source="NT1.15" target="NT1.14"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.13" source="NT1.9" target="NT1.24"/>
+   <edge id="e.14" source="NT1.3" target="NT1.25"/>
+   <edge id="e.15" source="NT1.9" target="NT1.16"/>
+   <edge id="e.16" source="NT1.9" target="NT1.10"/>
+   <edge id="e.17" target="NT1.9" source="NT1.4"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.21" source="NT1.10" target="NT1.15"/>
+   <edge id="e.22" source="NT1.2" target="NT1.3"/>
+   <edge id="e.23" source="NT1.3" target="NT1.26"/>
+   <edge id="e.24" source="NT1.4" target="NT1.27"/>
+   <edge id="e.25" target="NT1.23" source="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

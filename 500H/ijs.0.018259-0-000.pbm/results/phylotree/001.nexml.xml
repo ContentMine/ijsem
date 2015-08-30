@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Gracibacillus" cmphy:species="halotolerans" cmphy:strain="NNT" cmphy:id="AFO36922" editRecord="[]">Gracibacillus halotolerans NNT (AFO36922)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Halobacillus" cmphy:species="trueperl" cmphy:strain="DSM 104O4T" cmphy:id="AJB10149" editRecord="[3__B]">Halobacillus trueperl DSM 104O4T (AJ310149)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Amphibacillus" cmphy:species="sediminis" cmphy:strain="Shu-P-Ggiii25-2T" cmphy:id="ABZ43866" editRecord="[2__Z]">Amphibacillus sediminis Shu-P-Ggiii25-2T (AB243866)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Gracibacillus" cmphy:species="dipsosauri" cmphy:strain="DD1 T" cmphy:id="X82436" editRecord="[]">Gracibacillus dipsosauri DD1 T (X82436)</otu>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Amphibacillus" cmphy:species="jilinensis" cmphy:strain="Y1 T" cmphy:id="FJI69626" editRecord="[1__I]">Amphibacillus jilinensis Y1 T (FJ169626)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Halolactibacillus" cmphy:species="miurensis" cmphy:strain="M23-1 T" cmphy:id="ABI96784" editRecord="[1__I]">Halolactibacillus miurensis M23-1 T (AB196784)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Halolactibacillus" cmphy:species="halophilus" cmphy:strain="M2-2T" cmphy:id="ABI96783" editRecord="[1__I]">Halolactibacillus halophilus M2-2T (AB196783)</otu>
+  <otu id="otu9" cmphy:genus="Halobacillus" cmphy:species="halophilus" cmphy:strain="NCIMB 9251" cmphy:id="X62174" editRecord="[]">Halobacillus halophilus NCIMB 9251 (X62174)</otu>
+  <otu id="otu10" cmphy:genus="Amphibacillus" cmphy:species="fermentum" cmphy:strain="Z-7984T" cmphy:id="AF418603" editRecord="[]">Amphibacillus fermentum Z-7984T (AF418603)</otu>
+  <otu id="otu11">Amphibacillus tropicus Z-7792T (AF41 8602)</otu>
+  <otu id="otu12" cmphy:genus="Amphibacillus" cmphy:species="xylanus" cmphy:strain="JCM 7361T" cmphy:id="D82065" editRecord="[]">Amphibacillus xylanus JCM 7361T (D82065)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="subtilis" cmphy:strain="DSM 1OT" cmphy:id="AJZ76351" editRecord="[2__Z]">Bacillus subtilis DSM 1OT (AJ276351)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="19.0" y="314.0"/>
+   <node id="NT1.2" x="64.0" y="218.0" label="53"/>
+   <node id="NT1.3" label="NT1.3" x="108.0" y="305.0"/>
+   <node id="NT1.4" x="118.0" y="131.0" label="81"/>
+   <node id="NT1.7" label="NT1.7" x="147.0" y="70.0"/>
+   <node id="NT1.8" x="180.0" y="107.0" label="52"/>
+   <node id="NT1.9" x="196.0" y="220.0" label="59"/>
+   <node id="NT1.10" x="263.0" y="408.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="304.0" y="276.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="341.0" y="390.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="348.0" y="240.0" otu="otu3"/>
+   <node id="NT1.15" x="366.0" y="33.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="380.0" y="353.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="388.0" y="201.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="406.0" y="13.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="416.0" y="51.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="420.0" y="428.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="434.0" y="88.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="562.0" y="126.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="562.0" y="466.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="3.0" y="390.0" root="true"/>
+   <edge id="e.0" source="NT1.15" target="NT1.19"/>
+   <edge id="e.1" source="NT1.8" target="NT1.21"/>
+   <edge id="e.2" source="NT1.9" target="NT1.13"/>
+   <edge id="e.3" source="NT1.9" target="NT1.17"/>
+   <edge id="e.4" source="NT1.8" target="NT1.23"/>
+   <edge id="e.6" source="NT1.3" target="NT1.11"/>
+   <edge id="e.8" target="NT1.16" source="NT1.3"/>
+   <edge id="e.9" source="NT1.10" target="NT1.20"/>
+   <edge id="e.10" source="NT1.7" target="NT1.15"/>
+   <edge id="e.11" source="NT1.4" target="NT1.7"/>
+   <edge id="e.12" source="NT1.7" target="NT1.8"/>
+   <edge id="e.13" source="NT1.2" target="NT1.4"/>
+   <edge id="e.15" target="NT1.9" source="NT1.4"/>
+   <edge id="e.16" source="NT1.1" target="NT1.2"/>
+   <edge id="e.17" source="NT1.2" target="NT1.3"/>
+   <edge id="e.19" source="NT1.1" target="NT1.10"/>
+   <edge id="e.20" source="NT1.25" target="NT1.24"/>
+   <edge id="e.21" source="NT1.25" target="NT1.1"/>
+   <edge id="e.22" source="NT1.10" target="NT1.12"/>
+   <edge id="e.23" source="NT1.15" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

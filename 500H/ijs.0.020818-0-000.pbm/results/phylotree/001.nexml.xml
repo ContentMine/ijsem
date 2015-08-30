@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">Giesbergeria voronezhensis</otu>
+  <otu id="otu7">Comamonas terrigena</otu>
+  <otu id="otu8">Pseudacidovoraxintermedius</otu>
+  <otu id="otu9">Acidovoraxtemperans</otu>
+  <otu id="otu10">Simphbispira metamorpha</otu>
+  <otu id="otu11">X ylophilus ampelinus</otu>
+  <otu id="otu12">Acidovorax caeni</otu>
+  <otu id="otu13">Diaphorobacter nitroreducens</otu>
+  <otu id="otu14">Acidovoraxavenae subsp. avenae ATCC 198607 (AFO78759)</otu>
+  <otu id="otu15">Acidovorax anthurii</otu>
+  <otu id="otu16">Variovorax soli</otu>
+  <otu id="otu17">Diaphorobacter oryzae</otu>
+  <otu id="otu18">Hydrogenophaga caeni</otu>
+  <otu id="otu19" cmphy:edit="[5__S]" cmphy:genus="Hydrogenophaga" cmphy:species="defluvii" cmphy:strain="DSM 153417" cmphy:id="AJS85993" editRecord="[5__S]">Hydrogenophaga defluvii DSM 153417 (AJ585993)</otu>
+  <otu id="otu20">Hydrogenophaga atypica</otu>
+  <otu id="otu21">Acidovorax valerianellae</otu>
+  <otu id="otu22">Comamonas testosteroni</otu>
+  <otu id="otu23">Variovorax dokdonensis</otu>
+  <otu id="otu24">Acidovorax defluvii</otu>
+  <otu id="otu25" cmphy:edit="[0__O]" cmphy:genus="Acidovorax" cmphy:species="konjaci" cmphy:strain="ATCC 339967" cmphy:id="AFO78760" editRecord="[0__O]">Acidovorax konjaci ATCC 339967 (AF078760)</otu>
+  <otu id="otu26">Simplicispira Iimi DSM 179647 (DQ372987)</otu>
+  <otu id="otu27">Simplicispira psychrophila</otu>
+  <otu id="otu28">Acidovorax facilis ATCC 11 2287 (AFO78765)</otu>
+  <otu id="otu29" cmphy:genus="Acidovorax" cmphy:species="delafieldii" cmphy:strain="ATCC 175057" cmphy:id="AFO78764" editRecord="[]">Acidovorax delafieldii ATCC 175057 (AFO78764)</otu>
+  <otu id="otu30">Variovorax paradoxus</otu>
+  <otu id="otu31">Variovorax boronicumulans</otu>
+  <otu id="otu32">Xenophilus azovorans</otu>
+  <otu id="otu33">Hydrogenophaga palleronii</otu>
+  <otu id="otu34">Alicycliphilus denitrificans</otu>
+  <otu id="otu35">Hydrogenophaga flava</otu>
+  <otu id="otu36">Hydrogenophaga intermedia</otu>
+  <otu id="otu37">Hydrogenophaga taembspiralis</otu>
+  <otu id="otu38">Comamonas denitrificans</otu>
+  <otu id="otu39">Ramlibacter tataouinensis</otu>
+  <otu id="otu40">Hydrogenophaga bisanensis</otu>
+  <otu id="otu41">Hylemonella gracilis</otu>
+  <otu id="otu42">Hydrogenophaga pseudoflava</otu>
+  <otu id="otu43">Ramlibacter henchirensis</otu>
+  <otu id="otu44">Ottowia pentelensis</otu>
+  <otu id="otu45">Ottowia thiooxydans</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="1287.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="118.0" y="909.0"/>
+   <node id="NT1.16" label="NT1.16" x="195.0" y="234.0"/>
+   <node id="NT1.57" label="NT1.57" x="393.0" y="1116.0" otu="otu19"/>
+   <node id="NT1.65" label="NT1.65" x="420.0" y="314.0" otu="otu25"/>
+   <node id="NT1.70" label="NT1.70" x="430.0" y="132.0" otu="otu29"/>
+   <edge id="e.29" target="NT1.16" source="NT1.4"/>
+   <edge id="e.46" target="NT1.4" source="NT1.1"/>
+   <edge id="e.65" target="NT1.57" source="NT1.4"/>
+   <edge id="e.74" target="NT1.65" source="NT1.16"/>
+   <edge id="e.77" target="NT1.70" source="NT1.16"/>
+  </tree>
+ </trees>
+</nexml>

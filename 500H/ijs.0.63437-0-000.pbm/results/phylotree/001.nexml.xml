@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Mycoplasma mycoides subsp. mycoides SC) PGIT (U26039)</otu>
+  <otu id="otu2">Spiroplasma citri Maroc</otu>
+  <otu id="otu3" cmphy:genus="Mycoplasma" cmphy:species="hominis" cmphy:strain="PG21T" cmphy:id="AJO02265" editRecord="[]">Mycoplasma hominis PG21T (AJO02265)</otu>
+  <otu id="otu4" cmphy:genus="Acholeplasma" cmphy:species="laidlawii" cmphy:strain="JA" cmphy:id="M23932" editRecord="[]">Acholeplasma laidlawii JA (M23932)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Mycoplasma" cmphy:species="neurolyticum" cmphy:strain="Type AT" cmphy:id="M23944" editRecord="[]">Mycoplasma neurolyticum Type AT (M23944)</otu>
+  <otu id="otu7" cmphy:genus="Mycoplasma" cmphy:species="muris" cmphy:strain="RIII-4T" cmphy:id="M23939" editRecord="[]">Mycoplasma muris RIII-4T (M23939)</otu>
+  <otu id="otu8" cmphy:edit="[O__0, I__1]" cmphy:genus="Mycoplasma" cmphy:species="penetrans" cmphy:strain="GTU-5496AlT" cmphy:id="L10839" editRecord="[O__0, I__1]">Mycoplasma penetrans GTU-5496AlT (LIO839)</otu>
+  <otu id="otu9" cmphy:edit="[O__0, O__0, O__0]" cmphy:genus="Mycoplasma" cmphy:species="pneumoniae" cmphy:strain="M129" cmphy:id="U00089" editRecord="[O__0, O__0, O__0]">Mycoplasma pneumoniae M129 (UOOO89)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Mycoplasma" cmphy:species="cavipharyngis" cmphy:strain="117CT" cmphy:id="AFI25879" editRecord="[1__I]">Mycoplasma cavipharyngis 117CT (AF125879)</otu>
+  <otu id="otu11">Mycoplasmafastidiosum 4822T (AF 125878)</otu>
+  <otu id="otu12" cmphy:genus="Ureaglasma" cmphy:species="urealyticum" cmphy:strain="T96OT" cmphy:id="M23935" editRecord="[]">Ureaglasma urealyticum T96OT (M23935)</otu>
+  <otu id="otu13">Mycoplasma coccoides Liverpool (AY1719l8)</otu>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Mycoplasma" cmphy:species="haemofelis" cmphy:strain="Oklahoma" cmphy:id="AFI78677" editRecord="[1__I]">Mycoplasma haemofelis Oklahoma (AF178677)</otu>
+  <otu id="otu15" cmphy:genus="Mycoplasma" cmphy:species="haemomuris" cmphy:strain="Shizuoka" cmphy:id="U82963" editRecord="[]">Mycoplasma haemomuris Shizuoka (U82963)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">'Candidatus Mycoplasma kahaneii' Cayenne (AF338269)</otu>
+  <otu id="otu18">'Candidatus Mycoplasma haemolamae' (AF306346)</otu>
+  <otu id="otu19" cmphy:edit="[3__B]" cmphy:genus="Mycoplasma" cmphy:species="ovis" cmphy:strain="Hannover" cmphy:id="AFB38268" editRecord="[3__B]">Mycoplasma ovis Hannover (AF338268)</otu>
+  <otu id="otu20" cmphy:genus="Mycoplasma" cmphy:species="wenyonii" cmphy:strain="Oklahoma" cmphy:id="AFO16546" editRecord="[]">Mycoplasma wenyonii Oklahoma (AFO16546)</otu>
+  <otu id="otu21">'Candidatus Mycoplasma haemodidelphidis' (AF178676)</otu>
+  <otu id="otu22" cmphy:genus="Mycoplasma" cmphy:species="suis" cmphy:strain="Illinois" cmphy:id="U88565" editRecord="[]">Mycoplasma suis Illinois (U88565)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="110.0" y="800.0"/>
+   <node id="NT1.4" label="NT1.4" x="261.0" y="445.0"/>
+   <node id="NT1.5" x="347.0" y="325.0" label="98"/>
+   <node id="NT1.6" x="347.0" y="565.0" label="100"/>
+   <node id="NT1.7" x="408.0" y="631.0" label="98"/>
+   <node id="NT1.11" x="520.0" y="602.0" label="100"/>
+   <node id="NT1.12" label="NT1.12" x="565.0" y="782.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="568.0" y="862.0" otu="otu4"/>
+   <node id="NT1.15" x="597.0" y="161.0" label="100"/>
+   <node id="NT1.16" label="NT1.16" x="605.0" y="822.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="662.0" y="622.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="712.0" y="582.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="720.0" y="502.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="733.0" y="463.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="762.0" y="662.0" otu="otu12"/>
+   <node id="NT1.28" x="971.0" y="172.0" label="59"/>
+   <node id="NT1.31" label="NT1.31" x="1017.0" y="63.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="1027.0" y="103.0" otu="otu15"/>
+   <node id="NT1.34" x="1078.0" y="240.0" label="100"/>
+   <node id="NT1.37" label="NT1.37" x="1163.0" y="222.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="1168.0" y="263.0" otu="otu20"/>
+   <node id="NT1.40" label="NT1.40" x="1207.0" y="143.0" otu="otu22"/>
+   <node id="NT1.41" label="NT1.41" x="36.0" y="584.0" root="true"/>
+   <edge id="e.0" source="NT1.15" target="NT1.32"/>
+   <edge id="e.2" source="NT1.11" target="NT1.18"/>
+   <edge id="e.4" source="NT1.5" target="NT1.15"/>
+   <edge id="e.8" source="NT1.4" target="NT1.5"/>
+   <edge id="e.12" target="NT1.28" source="NT1.15"/>
+   <edge id="e.13" target="NT1.4" source="NT1.41"/>
+   <edge id="e.14" source="NT1.4" target="NT1.6"/>
+   <edge id="e.16" target="NT1.34" source="NT1.28"/>
+   <edge id="e.17" source="NT1.6" target="NT1.7"/>
+   <edge id="e.20" source="NT1.7" target="NT1.11"/>
+   <edge id="e.23" source="NT1.41" target="NT1.2"/>
+   <edge id="e.24" source="NT1.2" target="NT1.13"/>
+   <edge id="e.27" source="NT1.2" target="NT1.12"/>
+   <edge id="e.28" source="NT1.2" target="NT1.16"/>
+   <edge id="e.29" source="NT1.7" target="NT1.24"/>
+   <edge id="e.30" target="NT1.20" source="NT1.6"/>
+   <edge id="e.31" source="NT1.11" target="NT1.19"/>
+   <edge id="e.32" target="NT1.21" source="NT1.5"/>
+   <edge id="e.33" target="NT1.31" source="NT1.15"/>
+   <edge id="e.37" source="NT1.28" target="NT1.40"/>
+   <edge id="e.38" source="NT1.34" target="NT1.38"/>
+   <edge id="e.39" source="NT1.34" target="NT1.37"/>
+  </tree>
+ </trees>
+</nexml>

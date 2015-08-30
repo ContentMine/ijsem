@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">M. mycoides subsp. mycoides SC. PG1T (U26039)</otu>
+  <otu id="otu2" cmphy:genus="Spiroplasma" cmphy:species="citri" cmphy:strain="Maroc-R8A2T" cmphy:id="M23942" editRecord="[]">Spiroplasma citri Maroc-R8A2T (M23942)</otu>
+  <otu id="otu3">M. hominis</otu>
+  <otu id="otu4">M. neurolyticum Type AT (M23944)</otu>
+  <otu id="otu5" cmphy:genus="Acholeplasma" cmphy:species="laidlawii" cmphy:strain="JAT" cmphy:id="M23932" editRecord="[]">Acholeplasma laidlawii JAT (M23932)</otu>
+  <otu id="otu6">M. pirum HRC 70-159T (M23940)</otu>
+  <otu id="otu7">M. muris RlII4T (M23939)</otu>
+  <otu id="otu8">M. penetrans GTU-54-6A1T (L10839)</otu>
+  <otu id="otu9" cmphy:genus="Ureaplasma" cmphy:species="urealyticum" cmphy:strain="T9607" cmphy:id="M23935" editRecord="[]">Ureaplasma urealyticum T9607 (M23935)</otu>
+  <otu id="otu10">M. cavipharyngis 117CT (AF125879)</otu>
+  <otu id="otu11">M. pneumoniae M129 (U00089)</otu>
+  <otu id="otu12">M. fastidiosum 4822T (AF125878)</otu>
+  <otu id="otu13">M. haemofelis Illinois (U95297)</otu>
+  <otu id="otu14">M. haemomuris ShizuokaR (U82963)</otu>
+  <otu id="otu15">M. haemofelis Ohio-FloridaR</otu>
+  <otu id="otu16">'Candidatus M. haemominutum' CaIiforniaR</otu>
+  <otu id="otu17">'Candidatus M. haemolamae'R</otu>
+  <otu id="otu18">M. wenyoniiOkIahomaR</otu>
+  <otu id="otu19">M. ovis HannoverR</otu>
+  <otu id="otu20">'Candidatus M. haemodidelphidis'R</otu>
+  <otu id="otu21">M. suis lllinoisR</otu>
+  <otu id="otu22">M. suis Zachary (AF029394)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="46.0" y="678.0"/>
+   <node id="NT1.8" label="NT1.8" x="452.0" y="749.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="551.0" y="907.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="694.0" y="709.0" otu="otu9"/>
+   <node id="NT1.39" x="22.0" y="637.0" root="true" label="52"/>
+   <edge id="e.18" source="NT1.39" target="NT1.1"/>
+   <edge id="e.20" target="NT1.8" source="NT1.1"/>
+   <edge id="e.22" target="NT1.13" source="NT1.39"/>
+   <edge id="e.26" target="NT1.17" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

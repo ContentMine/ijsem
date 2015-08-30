@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Glczciecola mcsophila</otu>
+  <otu id="otu5" cmphy:genus="Glaviecola" cmphy:species="mesoplzila" cmphy:strain="KMM 241T" cmphy:id="AJ488501" editRecord="[]">Glaviecola mesoplzila KMM 241T (AJ488501)</otu>
+  <otu id="otu6">.4lteronmmt.s'11mcle0dii</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">AlI8F()VI1()7l(lSA't6Hip()l(II'i.Y LMG 21861 (AJ2957I5)</otu>
+  <otu id="otu9">Glaciecoltz clmtl1an1ensi.r SI 8K5 (AB247624)</otu>
+  <otu id="otu10">.-lesnmriibaczer hulaphilus</otu>
+  <otu id="otu11" cmphy:genus="Glaciecola" cmphy:species="pzmicea" cmphy:strain="ACAM 611T" cmphy:id="U85853" editRecord="[]">Glaciecola pzmicea ACAM 611T (U85853)</otu>
+  <otu id="otu12">Alter'01'rIr)na.s' nmrirza SW-4 7T (Al-529060)</otu>
+  <otu id="otu13">Glaciecala polaris</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Aestuariibaczer" cmphy:species="salexigens" cmphy:strain="DSM 15300T" cmphy:id="AYZ07502" editRecord="[2__Z]">Aestuariibaczer salexigens DSM 15300T (AY207502)</otu>
+  <otu id="otu15">Glaciecola pallidula</otu>
+  <otu id="otu16">Marinabacter hydrocarhonoclasricus</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="5.0" y="275.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="35.0" y="295.0"/>
+   <node id="NT1.4" label="NT1.4" x="36.0" y="793.0"/>
+   <node id="NT1.15" label="NT1.15" x="237.0" y="1194.0" otu="otu5"/>
+   <node id="NT1.22" label="NT1.22" x="270.0" y="658.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="310.0" y="230.0" otu="otu14"/>
+   <edge id="e.4" target="NT1.3" source="NT1.1"/>
+   <edge id="e.5" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" source="NT1.4" target="NT1.22"/>
+   <edge id="e.18" target="NT1.25" source="NT1.3"/>
+   <edge id="e.20" target="NT1.15" source="NT1.4"/>
+  </tree>
+ </trees>
+</nexml>

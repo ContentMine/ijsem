@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Kribella" cmphy:species="sandramycini" cmphy:strain="KACC 202497" cmphy:id="AYZ53864" editRecord="[2__Z]">Kribella sandramycini KACC 202497 (AY253864)</otu>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Kribella" cmphy:species="solani" cmphy:strain="DSA17" cmphy:id="AYZ53862" editRecord="[2__Z]">Kribella solani DSA17 (AY253862)</otu>
+  <otu id="otu3" cmphy:edit="[8__B]" cmphy:genus="Aeromicrobium" cmphy:species="alkaliterrae" cmphy:strain="KSL-1077" cmphy:id="AYB22044" editRecord="[8__B]">Aeromicrobium alkaliterrae KSL-1077 (AY822044)</otu>
+  <otu id="otu4"> Kribella antibiotica YIM 31 5307 (AY082063)</otu>
+  <otu id="otu5">Kribella koreensis LM 1617 (YO91 59)</otu>
+  <otu id="otu6">Aeromicrobium tamlense SSW1-577 (DQ41 1541)</otu>
+  <otu id="otu7" cmphy:edit="[O__0]" cmphy:genus="Aeromicrobium" cmphy:species="fastidiosum" cmphy:strain="KCTC 95767" cmphy:id="AFO05022" editRecord="[O__0]">Aeromicrobium fastidiosum KCTC 95767 (AFOO5022)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Kribella" cmphy:species="jejuensis" cmphy:strain="HD97" cmphy:id="AYZ53866" editRecord="[2__Z]">Kribella jejuensis HD97 (AY253866)</otu>
+  <otu id="otu9" cmphy:genus="Nocardioides" cmphy:species="aromaticivorans" cmphy:strain="H-17" cmphy:id="ABO87721" editRecord="[]">Nocardioides aromaticivorans H-17 (ABO87721)</otu>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Nocardfoides" cmphy:species="nitrophenolicus" cmphy:strain="NSP417" cmphy:id="AFO05024" editRecord="[0__O]">Nocardfoides nitrophenolicus NSP417 (AF005024)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="Nocardioides" cmphy:species="simplex" cmphy:strain="KCTC 91067" cmphy:id="AFO05009" editRecord="[O__0]">Nocardioides simplex KCTC 91067 (AFOO5009)</otu>
+  <otu id="otu12">Nocardioides Iuteus KCTC 95757 (AFO05007)</otu>
+  <otu id="otu13" cmphy:genus="Jiangella" cmphy:species="gansuensis" cmphy:strain="YIM 0027" cmphy:id="AY631071" editRecord="[]">Jiangella gansuensis YIM 0027 (AY631071)</otu>
+  <otu id="otu14">Actinopolymorpha singaporensis IM 77447 (AF23781 5)</otu>
+  <otu id="otu15">Nocardioides albus KCTC 91867(AFOO4988)</otu>
+  <otu id="otu16">Nocardioides plantarum NCIMB 1 28347 (AFOO5008)</otu>
+  <otu id="otu17" cmphy:genus="Jiangella" cmphy:species="muralis" cmphy:strain="15-Je-0177" cmphy:id="FN645214" editRecord="[]">Jiangella muralis 15-Je-0177 (FN645214)</otu>
+  <otu id="otu18" cmphy:genus="Actinopowmorpha" cmphy:species="rutila" cmphy:strain="YIM 457257" cmphy:id="EF601829" editRecord="[]">Actinopowmorpha rutila YIM 457257 (EF601829)</otu>
+  <otu id="otu19" cmphy:edit="[1__I]" cmphy:genus="Jiangella" cmphy:species="alba" cmphy:strain="YIM 615037" cmphy:id="FJI57186" editRecord="[1__I]">Jiangella alba YIM 615037 (FJ157186)</otu>
+  <otu id="otu20" cmphy:genus="Jiangella" cmphy:species="alkaliphila" cmphy:strain="D8-877" cmphy:id="AM422451" editRecord="[]">Jiangella alkaliphila D8-877 (AM422451)</otu>
+  <otu id="otu21">Streptomyces sparsogenes NRRL 29407 (AJ39181 7)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="49.0" y="346.0"/>
+   <node id="NT1.2" label="NT1.2" x="97.0" y="202.0"/>
+   <node id="NT1.3" label="NT1.3" x="104.0" y="488.0"/>
+   <node id="NT1.4" label="NT1.4" x="182.0" y="127.0"/>
+   <node id="NT1.8" label="NT1.8" x="305.0" y="275.0"/>
+   <node id="NT1.9" label="NT1.9" x="309.0" y="411.0"/>
+   <node id="NT1.11" label="NT1.11" x="331.0" y="238.0"/>
+   <node id="NT1.13" label="NT1.13" x="368.0" y="288.0" otu="otu1"/>
+   <node id="NT1.14" label="NT1.14" x="388.0" y="219.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="390.0" y="427.0" otu="otu3"/>
+   <node id="NT1.19" label="NT1.19" x="416.0" y="392.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="432.0" y="254.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="434.0" y="625.0"/>
+   <node id="NT1.22" label="NT1.22" x="445.0" y="651.0"/>
+   <node id="NT1.23" label="NT1.23" x="481.0" y="670.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="485.0" y="600.0" otu="otu10"/>
+   <node id="NT1.26" x="491.0" y="87.0" label="100"/>
+   <node id="NT1.27" label="NT1.27" x="493.0" y="635.0" otu="otu11"/>
+   <node id="NT1.29" x="520.0" y="56.0" label="93"/>
+   <node id="NT1.31" label="NT1.31" x="537.0" y="116.0" otu="otu13"/>
+   <node id="NT1.35" x="545.0" y="30.0" label="93"/>
+   <node id="NT1.36" label="NT1.36" x="550.0" y="13.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="553.0" y="185.0" otu="otu18"/>
+   <node id="NT1.38" label="NT1.38" x="562.0" y="47.0" otu="otu19"/>
+   <node id="NT1.39" label="NT1.39" x="578.0" y="82.0" otu="otu20"/>
+   <node id="NT1.41" label="NT1.41" x="2.0" y="525.0" root="true"/>
+   <edge id="e.0" source="NT1.35" target="NT1.36"/>
+   <edge id="e.1" source="NT1.29" target="NT1.39"/>
+   <edge id="e.3" target="NT1.13" source="NT1.8"/>
+   <edge id="e.4" source="NT1.11" target="NT1.14"/>
+   <edge id="e.7" source="NT1.9" target="NT1.19"/>
+   <edge id="e.8" source="NT1.22" target="NT1.23"/>
+   <edge id="e.11" source="NT1.29" target="NT1.35"/>
+   <edge id="e.12" source="NT1.26" target="NT1.29"/>
+   <edge id="e.13" source="NT1.4" target="NT1.26"/>
+   <edge id="e.14" source="NT1.2" target="NT1.4"/>
+   <edge id="e.16" source="NT1.1" target="NT1.2"/>
+   <edge id="e.17" source="NT1.2" target="NT1.8"/>
+   <edge id="e.18" source="NT1.1" target="NT1.3"/>
+   <edge id="e.20" source="NT1.8" target="NT1.11"/>
+   <edge id="e.25" target="NT1.9" source="NT1.3"/>
+   <edge id="e.26" target="NT1.21" source="NT1.3"/>
+   <edge id="e.28" source="NT1.21" target="NT1.22"/>
+   <edge id="e.30" source="NT1.41" target="NT1.1"/>
+   <edge id="e.32" source="NT1.9" target="NT1.15"/>
+   <edge id="e.34" source="NT1.11" target="NT1.20"/>
+   <edge id="e.35" source="NT1.21" target="NT1.25"/>
+   <edge id="e.36" source="NT1.22" target="NT1.27"/>
+   <edge id="e.37" source="NT1.26" target="NT1.31"/>
+   <edge id="e.38" target="NT1.37" source="NT1.4"/>
+   <edge id="e.39" source="NT1.35" target="NT1.38"/>
+  </tree>
+ </trees>
+</nexml>

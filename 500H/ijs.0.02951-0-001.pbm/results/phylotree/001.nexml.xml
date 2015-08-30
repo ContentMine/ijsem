@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">B. unamae MTI-6417 (AY221956)</otu>
+  <otu id="otu2">B. unamae MCo-762 (AY221955)</otu>
+  <otu id="otu3">B. unamae SCCu-23 (AY221957)</otu>
+  <otu id="otu4">B. cenocepacia LMG 16656T (AF148556)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6">B. cepacia ATCC 254167 (AF097530)</otu>
+  <otu id="otu7">'B. tropica' MTo-293 (AY128103)</otu>
+  <otu id="otu8">B. vietnamiensis TVV75Y (AF097534)</otu>
+  <otu id="otu9">B. sacchari LMG 19450' (AF263278)</otu>
+  <otu id="otu10">B. tuberum STM67B' (AJ302311)</otu>
+  <otu id="otu11">B. phymatum STM815' (AJ302312)</otu>
+  <otu id="otu12">B. kururiensis KP23T (AB024310)</otu>
+  <otu id="otu13">B. caribensis MwAP64' (Y17009)</otu>
+  <otu id="otu14">B. phenazinium LMG 2247' (ABO21394)</otu>
+  <otu id="otu15" cmphy:genus="Ralstonia" cmphy:species="pickettii" cmphy:strain="LMG 5942'" cmphy:id="X67042" editRecord="[]">Ralstonia pickettii LMG 5942' (X67042)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.28" label="NT1.28" x="781.0" y="669.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="7.0" y="542.0" root="true"/>
+   <edge id="e.23" source="NT1.29" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

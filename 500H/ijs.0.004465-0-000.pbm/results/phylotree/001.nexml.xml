@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Actinobaculum" cmphy:species="urinale" cmphy:strain="CCUG 46093T" cmphy:id="AJ439453" editRecord="[]">Actinobaculum urinale CCUG 46093T (AJ439453)</otu>
+  <otu id="otu2" cmphy:genus="Arcanobacterium" cmphy:species="pyogenes" cmphy:strain="ATCC 19411T" cmphy:id="M29552" editRecord="[]">Arcanobacterium pyogenes ATCC 19411T (M29552)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Arcanobacterium" cmphy:species="abortisuis" cmphy:strain="MurakamiT" cmphy:id="ABB05159" editRecord="[3__B]">Arcanobacterium abortisuis MurakamiT (AB305159)</otu>
+  <otu id="otu4" cmphy:genus="Arcanobacterium" cmphy:species="phocae" cmphy:strain="DSM 100047" cmphy:id="X97049" editRecord="[]">Arcanobacterium phocae DSM 100047 (X97049)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Actinomyces" cmphy:species="suimastitldis" cmphy:strain="CCUG 3927GT" cmphy:id="AJZ77385" editRecord="[2__Z]">Actinomyces suimastitldis CCUG 3927GT (AJ277385)</otu>
+  <otu id="otu6" cmphy:genus="Arcanobacterium" cmphy:species="bernardiae" cmphy:strain="DSM 9152T" cmphy:id="X79224" editRecord="[]">Arcanobacterium bernardiae DSM 9152T (X79224)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Arcanobacterium" cmphy:species="pluranimalium" cmphy:strain="M43Ol94l2T" cmphy:id="AJZ50959" editRecord="[2__Z]">Arcanobacterium pluranimalium M43Ol94l2T (AJ250959)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Arcanobacterium" cmphy:species="hippocoleae" cmphy:strain="CCUG 44697T" cmphy:id="AJB00767" editRecord="[3__B]">Arcanobacterium hippocoleae CCUG 44697T (AJ300767)</otu>
+  <otu id="otu9" cmphy:genus="Actinobaculum" cmphy:species="massiliense" cmphy:strain="CIP 1074047" cmphy:id="AF487679" editRecord="[]">Actinobaculum massiliense CIP 1074047 (AF487679)</otu>
+  <otu id="otu10">Arcanobacterium bonasi 2(W106l04)T (AJ879697)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Arcanobacterium" cmphy:species="haemolyticum" cmphy:strain="CIP 1033707" cmphy:id="AJZ34059" editRecord="[2__Z]">Arcanobacterium haemolyticum CIP 1033707 (AJ234059)</otu>
+  <otu id="otu12">Arcanobacterium bialowiezense 1(W3l01)T (AJ879696)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="72.0" y="402.0"/>
+   <node id="NT1.2" label="NT1.2" x="109.0" y="534.0"/>
+   <node id="NT1.3" label="NT1.3" x="151.0" y="268.0"/>
+   <node id="NT1.4" label="NT1.4" x="178.0" y="183.0"/>
+   <node id="NT1.5" label="NT1.5" x="181.0" y="354.0"/>
+   <node id="NT1.6" label="NT1.6" x="201.0" y="397.0"/>
+   <node id="NT1.7" label="NT1.7" x="227.0" y="144.0"/>
+   <node id="NT1.8" label="NT1.8" x="235.0" y="236.0"/>
+   <node id="NT1.9" label="NT1.9" x="239.0" y="89.0"/>
+   <node id="NT1.10" label="NT1.10" x="244.0" y="435.0"/>
+   <node id="NT1.11" label="NT1.11" x="246.0" y="510.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="253.0" y="162.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="254.0" y="112.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="281.0" y="410.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="282.0" y="13.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="284.0" y="62.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="286.0" y="361.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="297.0" y="311.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="298.0" y="560.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="299.0" y="211.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="305.0" y="461.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="306.0" y="261.0" otu="otu12"/>
+   <edge source="NT1.11" target="NT1.2" id="e.0"/>
+   <edge source="NT1.19" target="NT1.2" id="e.1"/>
+   <edge source="NT1.12" target="NT1.7" id="e.2"/>
+   <edge source="NT1.18" target="NT1.5" id="e.3"/>
+   <edge source="NT1.20" target="NT1.8" id="e.4"/>
+   <edge source="NT1.14" target="NT1.10" id="e.5"/>
+   <edge source="NT1.22" target="NT1.8" id="e.6"/>
+   <edge source="NT1.16" target="NT1.9" id="e.7"/>
+   <edge source="NT1.21" target="NT1.10" id="e.8"/>
+   <edge source="NT1.1" target="NT1.2" id="e.9"/>
+   <edge source="NT1.1" target="NT1.3" id="e.10"/>
+   <edge source="NT1.3" target="NT1.5" id="e.11"/>
+   <edge source="NT1.3" target="NT1.4" id="e.12"/>
+   <edge source="NT1.4" target="NT1.8" id="e.13"/>
+   <edge source="NT1.4" target="NT1.7" id="e.14"/>
+   <edge source="NT1.5" target="NT1.6" id="e.15"/>
+   <edge source="NT1.6" target="NT1.10" id="e.16"/>
+   <edge source="NT1.7" target="NT1.9" id="e.17"/>
+   <edge source="NT1.15" target="NT1.1" id="e.18"/>
+   <edge source="NT1.17" target="NT1.6" id="e.19"/>
+   <edge source="NT1.13" target="NT1.9" id="e.20"/>
+  </tree>
+ </trees>
+</nexml>

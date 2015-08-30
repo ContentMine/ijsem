@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">M. intermedium CIP 1045427 (AY544929)</otu>
+  <otu id="otu3">M. gordonae CIP 1045297 (AY544919)</otu>
+  <otu id="otu4">M. malmoense CIP 1057757 (AY544Q42)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Nocardia" cmphy:species="asteroides" cmphy:strain="ATCC 192477" cmphy:id="DQO85107" editRecord="[0__O]">Nocardia asteroides ATCC 192477 (DQ085107)</otu>
+  <otu id="otu6">M. interjectum DSM 440647 (AY544928)</otu>
+  <otu id="otu7">M. avium CIP 1042447 (AY544887)</otu>
+  <otu id="otu8">M. haemophilum CIP 1050497 (AY544920)</otu>
+  <otu id="otu9">M. kansasrr CIP 1045897 (AY544931)</otu>
+  <otu id="otu10">M. marinum CIP 1045287 (AY544943)</otu>
+  <otu id="otu11">M. ulcerans CIP 1050497 (AY544920)</otu>
+  <otu id="otu12">M. triplex CIP 1061087 (AY544970)</otu>
+  <otu id="otu13">M. tuberculosis CIP 64.317 (AY544974)</otu>
+  <otu id="otu14">M. simiae CIP 1045317 (AY544Q63)</otu>
+  <otu id="otu15">M. shimoidei DSM 441527 (AY544962)</otu>
+  <otu id="otu16">M. lentiflavum CIP 1054657 (AY544939)</otu>
+  <otu id="otu17">Strain GTC 27387 (AB268504)</otu>
+  <otu id="otu18">M. celatum CIP 1061097 (AY544897)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1101.0" y="553.0" otu="otu1" root="true"/>
+   <node id="NT1.18" label="NT1.18" x="1362.0" y="640.0" otu="otu5"/>
+   <edge id="e.18" target="NT1.18" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

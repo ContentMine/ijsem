@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[8__B]" cmphy:genus="Exiguobacterium" cmphy:species="indicum" cmphy:strain="LMG 234717" cmphy:id="AJB46291" editRecord="[8__B]">Exiguobacterium indicum LMG 234717 (AJ846291)</otu>
+  <otu id="otu2">Exiguobacterium sibiricum DSM 17290T (NZ_AADWO2000023)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Exiguobacterium" cmphy:species="oxidotolerans" cmphy:strain="DSM 172727" cmphy:id="ABI05164" editRecord="[1__I]">Exiguobacterium oxidotolerans DSM 172727 (AB105164)</otu>
+  <otu id="otu5" cmphy:genus="Exiguobacterium" cmphy:species="artemiae" cmphy:strain="9ANT" cmphy:id="AMO72763" editRecord="[]"> Exiguobacterium artemiae 9ANT (AMO72763)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Exiguobacterium" cmphy:species="antarcticum" cmphy:strain="DSM 144807" cmphy:id="AJZ97437" editRecord="[2__Z]"> Exiguobacterium antarcticum DSM 144807 (AJ297437)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Exiguobacterium" cmphy:species="undae" cmphy:strain="DSM 14481T" cmphy:id="AJB44151" editRecord="[3__B]">Exiguobacterium undae DSM 14481T (AJ344151)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[5__S]" cmphy:genus="Exiguobacterium" cmphy:species="marinum" cmphy:strain="DSM 16307T" cmphy:id="AYS94266" editRecord="[5__S]"> Exiguobacterium marinum DSM 16307T (AY594266)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[5__S]" cmphy:genus="Bacillus" cmphy:species="indicus" cmphy:strain="Sdl3T" cmphy:id="AJS83158" editRecord="[5__S]">Bacillus indicus Sdl3T (AJ583158)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="296.0" y="368.0"/>
+   <node id="NT1.2" label="NT1.2" x="536.0" y="263.0"/>
+   <node id="NT1.3" label="NT1.3" x="582.0" y="195.0"/>
+   <node id="NT1.5" x="594.0" y="131.0" label="74"/>
+   <node id="NT1.6" label="NT1.6" x="632.0" y="305.0" otu="otu1"/>
+   <node id="NT1.9" x="647.0" y="77.0" label="87"/>
+   <node id="NT1.11" label="NT1.11" x="656.0" y="257.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="703.0" y="160.0" otu="otu5"/>
+   <node id="NT1.15" label="NT1.15" x="713.0" y="64.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="719.0" y="112.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="788.0" y="450.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="815.0" y="595.0" otu="otu13"/>
+   <node id="NT1.25" label="NT1.25" x="3.0" y="481.0" root="true"/>
+   <edge id="e.1" target="NT1.15" source="NT1.9"/>
+   <edge id="e.2" source="NT1.9" target="NT1.16"/>
+   <edge id="e.4" target="NT1.13" source="NT1.5"/>
+   <edge id="e.5" source="NT1.3" target="NT1.11"/>
+   <edge id="e.6" target="NT1.6" source="NT1.2"/>
+   <edge id="e.8" target="NT1.20" source="NT1.1"/>
+   <edge id="e.13" source="NT1.5" target="NT1.9"/>
+   <edge id="e.14" source="NT1.3" target="NT1.5"/>
+   <edge id="e.16" source="NT1.2" target="NT1.3"/>
+   <edge id="e.17" source="NT1.1" target="NT1.2"/>
+   <edge id="e.22" source="NT1.25" target="NT1.24"/>
+   <edge id="e.23" source="NT1.25" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

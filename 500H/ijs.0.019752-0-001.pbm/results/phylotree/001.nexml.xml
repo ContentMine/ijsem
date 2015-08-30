@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Parascardovia denticolens DSM 101 O5T (AF240565)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Aeriscardovia" cmphy:species="aeriphila" cmphy:strain="TEST" cmphy:id="AYB39131" editRecord="[3__B]">Aeriscardovia aeriphila TEST (AY339131)</otu>
+  <otu id="otu4">Metascardovia criceti JCM 13493T (AB241 107)</otu>
+  <otu id="otu5">Scardovia inopinataJCM12537T(AYOO4281)</otu>
+  <otu id="otu6">Scardovia wiggsiae 04CO1</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Scardovia" cmphy:species="wiggsiae" cmphy:strain="29DO3" cmphy:id="GUB01689" editRecord="[3__B]">Scardovia wiggsiae 29DO3 (GU301689)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Scardovia" cmphy:species="wiggsiae" cmphy:strain="2008322" cmphy:id="GUB01687" editRecord="[3__B]">Scardovia wiggsiae 2008322 (GU301687)</otu>
+  <otu id="otu9" cmphy:edit="[3__B]" cmphy:genus="Scardovia" cmphy:species="wiggsiae" cmphy:strain="C1 A_55T" cmphy:id="GUB01684" editRecord="[3__B]">Scardovia wiggsiae C1 A_55T (GU301684)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Gardnerella" cmphy:species="vagfnalis" cmphy:strain="ATCC 14O18T" cmphy:id="AFZ40579" editRecord="[2__Z]">Gardnerella vagfnalis ATCC 14O18T (AF240579)</otu>
+  <otu id="otu11" cmphy:genus="Alloscardovia" cmphy:species="omnicolens" cmphy:strain="CCUG 31649T" cmphy:id="AM419466" editRecord="[]">Alloscardovia omnicolens CCUG 31649T (AM419466)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="81.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="30.0" y="81.0" label="93"/>
+   <node id="NT1.4" label="NT1.4" x="104.0" y="225.0"/>
+   <node id="NT1.7" label="NT1.7" x="227.0" y="128.0"/>
+   <node id="NT1.9" label="NT1.9" x="298.0" y="18.0" otu="otu3"/>
+   <node id="NT1.11" x="348.0" y="352.0" label="99"/>
+   <node id="NT1.15" label="NT1.15" x="356.0" y="323.0" otu="otu7"/>
+   <node id="NT1.16" x="363.0" y="404.0" label="96"/>
+   <node id="NT1.17" label="NT1.17" x="364.0" y="366.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="370.0" y="498.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="373.0" y="104.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="392.0" y="149.0" otu="otu11"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" target="NT1.15" source="NT1.11"/>
+   <edge id="e.4" target="NT1.4" source="NT1.2"/>
+   <edge id="e.7" target="NT1.11" source="NT1.4"/>
+   <edge id="e.8" target="NT1.7" source="NT1.4"/>
+   <edge id="e.9" source="NT1.11" target="NT1.16"/>
+   <edge id="e.12" source="NT1.2" target="NT1.9"/>
+   <edge id="e.15" source="NT1.7" target="NT1.19"/>
+   <edge id="e.16" source="NT1.7" target="NT1.20"/>
+   <edge id="e.17" source="NT1.16" target="NT1.17"/>
+   <edge id="e.18" source="NT1.16" target="NT1.18"/>
+  </tree>
+ </trees>
+</nexml>

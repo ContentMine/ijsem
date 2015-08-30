@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[2__Z]" cmphy:genus="Pantoea" cmphy:species="stewartii" cmphy:strain="ATCC 8199T" cmphy:id="AYZ19003" editRecord="[2__Z]">Pantoea stewartii ATCC 8199T (AY219003)</otu>
+  <otu id="otu3">E. mallotivora CFBP 25O3T (AY217064)</otu>
+  <otu id="otu4">E. amylovora Ea1l79 (AMO55588)</otu>
+  <otu id="otu5">E. amylovora IL6 (AY217068)</otu>
+  <otu id="otu6">E. psidii CFBP 36277 (AY217065)</otu>
+  <otu id="otu7">E. pyrifoliae Ep16l96T (AY217072)</otu>
+  <otu id="otu8">E. tasmaniensis Et1I99T (AM055718)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="675.0" otu="otu1" root="true"/>
+   <node id="NT1.7" label="NT1.7" x="389.0" y="652.0" otu="otu2"/>
+   <edge id="e.4" target="NT1.7" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

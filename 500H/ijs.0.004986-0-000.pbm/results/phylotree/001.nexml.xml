@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Thermoanaerobacterlum" cmphy:species="thermosulfurlgenes" cmphy:strain="4BTT" cmphy:id="L09171" editRecord="[]"> Thermoanaerobacterlum thermosulfurlgenes 4BTT (L09171)</otu>
+  <otu id="otu2">1Clostridium tunisiense' DSM 15206 (AY187622)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Clostridium" cmphy:species="sulfidigenes" cmphy:strain="SGBZT" cmphy:id="EFI99998" editRecord="[1__I]">Clostridium sulfidigenes SGBZT (EF199998)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Clostridium" cmphy:species="subterminale" cmphy:strain="DSM 697OT" cmphy:id="AFZ41844" editRecord="[2__Z]">Clostridium subterminale DSM 697OT (AF241844)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Clostridium" cmphy:species="peptidivorans" cmphy:strain="TMC4T" cmphy:id="AFI56796" editRecord="[1__I]">Clostridium peptidivorans TMC4T (AF156796)</otu>
+  <otu id="otu9" cmphy:edit="[O__0, O__0]" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="K-12 MG1655" cmphy:id="U00096" editRecord="[O__0, O__0]">Escherichia coli K-12 MG1655 (UOO096)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="33.0" y="339.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="186.0" y="327.0" otu="otu1"/>
+   <node id="NT1.6" x="194.0" y="76.0" label="100"/>
+   <node id="NT1.11" label="NT1.11" x="201.0" y="116.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="206.0" y="63.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="217.0" y="380.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="321.0" y="432.0" otu="otu9"/>
+   <node id="NT1.16" label="NT1.16" x="1.0" y="386.0" root="true"/>
+   <edge id="e.1" target="NT1.13" source="NT1.6"/>
+   <edge id="e.2" source="NT1.6" target="NT1.11"/>
+   <edge id="e.5" target="NT1.5" source="NT1.1"/>
+   <edge id="e.6" source="NT1.1" target="NT1.14"/>
+   <edge id="e.9" target="NT1.6" source="NT1.1"/>
+   <edge id="e.13" source="NT1.16" target="NT1.15"/>
+   <edge id="e.14" source="NT1.16" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Enterococcus haemoperoxidus COM 4851 T (AF286832)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Enterococcus" cmphy:species="faecalis" cmphy:strain="JCM 5803T" cmphy:id="ABO12212" editRecord="[0__O]">Enterococcus faecalis JCM 5803T (AB012212)</otu>
+  <otu id="otu10">Vagococcus lutrae CCUG 39187T(Y17152)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Vagococcus carniphilus ATCC BAA-640T (AY1 79329)</otu>
+  <otu id="otu13">Vagococcus acidifermentans AC-1T (FJ21 1190)</otu>
+  <otu id="otu14">Vagococcus fluvialis CCUG 327O4T(Y18098)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Enterococcus" cmphy:species="faecium" cmphy:strain="DSM 20477" cmphy:id="AJZ76355" editRecord="[2__Z]">Enterococcus faecium DSM 20477 (AJ276355)</otu>
+  <otu id="otu16" cmphy:edit="[3__B]" cmphy:genus="Vagococcus" cmphy:species="penaei" cmphy:strain="CD276T" cmphy:id="FJB60897" editRecord="[3__B]">Vagococcus penaei CD276T (FJ360897)</otu>
+  <otu id="otu17" cmphy:genus="Vagococcus" cmphy:species="elongatus" cmphy:strain="PPCQT" cmphy:id="AF445297" editRecord="[]">Vagococcus elongatus PPCQT (AF445297)</otu>
+  <otu id="otu18">Vagococcus salmoninarum CCUG 33394T(Y18O97)</otu>
+  <otu id="otu19">Vagococcus fessus M2661 198l1 T (AJ243326)</otu>
+  <otu id="otu20" cmphy:edit="[8__B]" cmphy:genus="Catellicoccus" cmphy:species="marimammalium" cmphy:strain="M35l04l3T" cmphy:id="AJB54484" editRecord="[8__B]">Catellicoccus marimammalium M35l04l3T (AJ854484)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="17.0" y="322.0"/>
+   <node id="NT1.8" label="NT1.8" x="104.0" y="99.0"/>
+   <node id="NT1.18" label="NT1.18" x="187.0" y="332.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="236.0" y="297.0" otu="otu15"/>
+   <node id="NT1.26" label="NT1.26" x="247.0" y="85.0" otu="otu16"/>
+   <node id="NT1.27" label="NT1.27" x="249.0" y="155.0" otu="otu17"/>
+   <node id="NT1.30" label="NT1.30" x="299.0" y="403.0" otu="otu20"/>
+   <node id="NT1.31" label="NT1.31" x="3.0" y="364.0" root="true"/>
+   <edge id="e.3" target="NT1.26" source="NT1.8"/>
+   <edge id="e.6" target="NT1.27" source="NT1.8"/>
+   <edge id="e.17" target="NT1.8" source="NT1.1"/>
+   <edge id="e.23" source="NT1.31" target="NT1.30"/>
+   <edge id="e.24" source="NT1.31" target="NT1.1"/>
+   <edge id="e.25" source="NT1.1" target="NT1.25"/>
+   <edge id="e.26" target="NT1.18" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Chryseobacterium" cmphy:species="formosense" cmphy:strain="CC-H3527" cmphy:id="AJ715377" editRecord="[]">Chryseobacterium formosense CC-H3527 (AJ715377)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Chryseobacterium" cmphy:species="scophthalmum" cmphy:strain="LMG 130287" cmphy:id="AJZ71009" editRecord="[2__Z]"> Chryseobacterium scophthalmum LMG 130287 (AJ271009)</otu>
+  <otu id="otu5">Sejongiajeonii IMSNU 14o49T (AY553294)</otu>
+  <otu id="otu6" cmphy:genus="Chryseobacterfum" cmphy:species="gleum" cmphy:strain="LMG 8334T" cmphy:id="M58772" editRecord="[]"> Chryseobacterfum gleum LMG 8334T (M58772)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Chryseobacterium" cmphy:species="indoltheticum" cmphy:strain="LMG 40257" cmphy:id="M58774" editRecord="[]">Chryseobacterium indoltheticum LMG 40257 (M58774)</otu>
+  <otu id="otu10" cmphy:edit="[3__B]" cmphy:genus="Chryseobacterium" cmphy:species="defluvii" cmphy:strain="B27" cmphy:id="AJB09324" editRecord="[3__B]">Chryseobacterium defluvii B27 (AJ309324)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Elizabethkingia" cmphy:species="miricola" cmphy:strain="GTC 8627" cmphy:id="ABO71953" editRecord="[0__O]"> Elizabethkingia miricola GTC 8627 (AB071953)</otu>
+  <otu id="otu12">'Chryseobacterium proteoIyticum' 9670 (ABO39830)</otu>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="Chryseobacterium" cmphy:species="joostei" cmphy:strain="LMG 18212T" cmphy:id="AJZ71010" editRecord="[2__Z]">Chryseobacterium joostei LMG 18212T (AJ271010)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[8__B]" cmphy:genus="Chryseobacterium" cmphy:species="vrystaatense" cmphy:strain="LMG 2284GT" cmphy:id="AJB71397" editRecord="[8__B]">Chryseobacterium vrystaatense LMG 2284GT (AJ871397)</otu>
+  <otu id="otu16" cmphy:edit="[8__B]" cmphy:genus="Chryseobacterium" cmphy:species="taichungense" cmphy:strain="CC-TWGS1-ST" cmphy:id="AJB43132" editRecord="[8__B]">Chryseobacterium taichungense CC-TWGS1-ST (AJ843132)</otu>
+  <otu id="otu17" cmphy:genus="Ornithobacterium" cmphy:species="rhinotracheale" cmphy:strain="LMG 9O86T" cmphy:id="L19156" editRecord="[]">Ornithobacterium rhinotracheale LMG 9O86T (L19156)</otu>
+  <otu id="otu18">Kaistella koreensis KCTC 121 071' (AF344179)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="184.0" y="229.0" label="100"/>
+   <node id="NT1.4" label="NT1.4" x="273.0" y="549.0"/>
+   <node id="NT1.5" label="NT1.5" x="282.0" y="759.0"/>
+   <node id="NT1.6" label="NT1.6" x="293.0" y="340.0"/>
+   <node id="NT1.8" label="NT1.8" x="332.0" y="945.0"/>
+   <node id="NT1.9" x="336.0" y="672.0" label="73"/>
+   <node id="NT1.10" label="NT1.10" x="353.0" y="763.0"/>
+   <node id="NT1.11" x="360.0" y="581.0" label="60"/>
+   <node id="NT1.16" label="NT1.16" x="389.0" y="294.0" otu="otu1"/>
+   <node id="NT1.19" label="NT1.19" x="428.0" y="1021.0" otu="otu4"/>
+   <node id="NT1.21" label="NT1.21" x="431.0" y="658.0" otu="otu6"/>
+   <node id="NT1.24" label="NT1.24" x="446.0" y="899.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="457.0" y="354.0" otu="otu10"/>
+   <node id="NT1.26" label="NT1.26" x="478.0" y="52.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="478.0" y="718.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="513.0" y="778.0" otu="otu15"/>
+   <node id="NT1.32" label="NT1.32" x="539.0" y="536.0" otu="otu16"/>
+   <node id="NT1.33" label="NT1.33" x="540.0" y="1081.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="1.0" y="655.0" root="true"/>
+   <edge id="e.1" target="NT1.26" source="NT1.1"/>
+   <edge id="e.4" source="NT1.6" target="NT1.16"/>
+   <edge id="e.6" target="NT1.25" source="NT1.6"/>
+   <edge id="e.7" source="NT1.8" target="NT1.24"/>
+   <edge id="e.8" target="NT1.19" source="NT1.8"/>
+   <edge id="e.11" target="NT1.21" source="NT1.11"/>
+   <edge id="e.13" source="NT1.10" target="NT1.28"/>
+   <edge id="e.15" source="NT1.11" target="NT1.32"/>
+   <edge id="e.16" target="NT1.31" source="NT1.10"/>
+   <edge id="e.19" target="NT1.4" source="NT1.1"/>
+   <edge id="e.21" source="NT1.4" target="NT1.5"/>
+   <edge id="e.22" source="NT1.4" target="NT1.6"/>
+   <edge id="e.23" source="NT1.5" target="NT1.8"/>
+   <edge id="e.26" target="NT1.9" source="NT1.5"/>
+   <edge id="e.28" source="NT1.9" target="NT1.10"/>
+   <edge id="e.29" source="NT1.9" target="NT1.11"/>
+   <edge id="e.32" source="NT1.35" target="NT1.33"/>
+   <edge id="e.33" source="NT1.35" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

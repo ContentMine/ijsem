@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Dialister" cmphy:species="pneumosintes" cmphy:strain="ATCC 330487" cmphy:id="X82500" editRecord="[]">Dialister pneumosintes ATCC 330487 (X82500)</otu>
+  <otu id="otu2"> Megasphaera micronuciformis AIP 41 2.007 (AF473834)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">Megasphaera elsdeniiATCC 17752T (M26493)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="218.0" y="291.0" otu="otu1"/>
+   <node id="NT1.13" label="NT1.13" x="1.0" y="256.0" root="true"/>
+   <edge id="e.9" source="NT1.13" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

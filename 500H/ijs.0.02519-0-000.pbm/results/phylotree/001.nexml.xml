@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">S. capoamus JCM 4734</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11">(S. setoniiATCC 25497T (D63872)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="malaysiensis" cmphy:strain="ATB-117" cmphy:id="AFI17304" editRecord="[1__I]">S. malaysiensis ATB-117 (AF117304)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22"/>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="melanosporofaciens" cmphy:strain="NRRL B-122347" cmphy:id="AJZ71887" editRecord="[2__Z]">S. melanosporofaciens NRRL B-122347 (AJ271887)</otu>
+  <otu id="otu25"/>
+  <otu id="otu26">S. echinatus NRRL-ISP 5013</otu>
+  <otu id="otu27"/>
+  <otu id="otu28"/>
+  <otu id="otu29"/>
+  <otu id="otu30"/>
+  <otu id="otu31"/>
+  <otu id="otu32"/>
+  <otu id="otu33"/>
+  <otu id="otu34"/>
+  <otu id="otu35">Streptomyces sp. strain JL164 (AF101414)</otu>
+  <otu id="otu36"/>
+  <otu id="otu37"/>
+  <otu id="otu38"/>
+  <otu id="otu39">S. seoulensis IMSNU 21266</otu>
+  <otu id="otu40"/>
+  <otu id="otu41">S. diastatochromogenes ATCC 12309</otu>
+  <otu id="otu42"/>
+  <otu id="otu43"/>
+  <otu id="otu44"/>
+  <otu id="otu45"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.15" label="NT1.15" x="222.0" y="1308.0"/>
+   <node id="NT1.56" label="NT1.56" x="400.0" y="1291.0" otu="otu17"/>
+   <node id="NT1.63" label="NT1.63" x="415.0" y="1321.0" otu="otu24"/>
+   <node id="NT1.88" label="NT1.88" x="8.0" y="839.0" root="true"/>
+   <edge id="e.45" target="NT1.15" source="NT1.88"/>
+   <edge id="e.59" source="NT1.15" target="NT1.63"/>
+   <edge id="e.61" source="NT1.15" target="NT1.56"/>
+  </tree>
+ </trees>
+</nexml>

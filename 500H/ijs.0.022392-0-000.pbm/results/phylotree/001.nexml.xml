@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[5__S]" cmphy:genus="Deferribacter" cmphy:species="abyssi" cmphy:strain="JRT" cmphy:id="AJS15882" editRecord="[5__S]">Deferribacter abyssi JRT (AJ515882)</otu>
+  <otu id="otu2">Deferribacter autotrophicus SL507 (EU407 77 7)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Deferribacter" cmphy:species="desulfuricans" cmphy:strain="SSM1T" cmphy:id="ABO86060" editRecord="[0__O]">Deferribacter desulfuricans SSM1T (AB086060)</otu>
+  <otu id="otu4">Deferribacter thermophilus BMAT (U 75602)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Geobacter" cmphy:species="metallireducens" cmphy:strain="GS-15T" cmphy:id="L07834" editRecord="[O__0]">Geobacter metallireducens GS-15T (LO7834)</otu>
+  <otu id="otu6" cmphy:genus="Flexistipes" cmphy:species="sinusarabici" cmphy:strain="MAS 10T" cmphy:id="M59231" editRecord="[]">Flexistipes sinusarabici MAS 10T (M59231)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Geovibrio" cmphy:species="thiophilus" cmphy:strain="AAFu3T" cmphy:id="AJZ99402" editRecord="[2__Z]">Geovibrio thiophilus AAFu3T (AJ299402)</otu>
+  <otu id="otu8" cmphy:genus="Desulfurispirillum" cmphy:species="alkaliphilum" cmphy:strain="SR 17" cmphy:id="DQ666683" editRecord="[]">Desulfurispirillum alkaliphilum SR 17 (DQ666683)</otu>
+  <otu id="otu9" cmphy:genus="Desulfurispirillum" cmphy:species="indicum" cmphy:strain="S57" cmphy:id="DQ991965" editRecord="[]">Desulfurispirillum indicum S57 (DQ991965)</otu>
+  <otu id="otu10" cmphy:genus="Geovibrio" cmphy:species="ferrireducens" cmphy:strain="PAL-17" cmphy:id="X95744" editRecord="[]">Geovibrio ferrireducens PAL-17 (X95744)</otu>
+  <otu id="otu11">Thermotoga maritima FJSS3-B.1</otu>
+  <otu id="otu12" cmphy:genus="Chrysiogenes" cmphy:species="arsenatis" cmphy:strain="BAL-1T" cmphy:id="X81319" editRecord="[]">Chrysiogenes arsenatis BAL-1T (X81319)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="41.0" y="281.0"/>
+   <node id="NT1.2" label="NT1.2" x="138.0" y="378.0"/>
+   <node id="NT1.3" label="NT1.3" x="201.0" y="182.0"/>
+   <node id="NT1.4" label="NT1.4" x="228.0" y="127.0"/>
+   <node id="NT1.5" label="NT1.5" x="362.0" y="78.0"/>
+   <node id="NT1.6" label="NT1.6" x="396.0" y="116.0"/>
+   <node id="NT1.7" x="421.0" y="38.0" label="100"/>
+   <node id="NT1.8" label="NT1.8" x="429.0" y="97.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="433.0" y="136.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="434.0" y="17.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="462.0" y="345.0"/>
+   <node id="NT1.12" label="NT1.12" x="464.0" y="57.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="532.0" y="414.0" otu="otu5"/>
+   <node id="NT1.14" label="NT1.14" x="552.0" y="234.0"/>
+   <node id="NT1.15" label="NT1.15" x="579.0" y="176.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="607.0" y="255.0" otu="otu7"/>
+   <node id="NT1.17" x="611.0" y="316.0" label="100"/>
+   <node id="NT1.18" label="NT1.18" x="615.0" y="334.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="616.0" y="295.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="628.0" y="215.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="665.0" y="453.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="666.0" y="374.0" otu="otu12"/>
+   <edge source="NT1.9" target="NT1.6" id="e.0"/>
+   <edge source="NT1.15" target="NT1.4" id="e.1"/>
+   <edge source="NT1.22" target="NT1.11" id="e.2"/>
+   <edge source="NT1.7" target="NT1.5" id="e.3"/>
+   <edge source="NT1.5" target="NT1.4" id="e.4"/>
+   <edge source="NT1.5" target="NT1.6" id="e.5"/>
+   <edge source="NT1.4" target="NT1.3" id="e.6"/>
+   <edge source="NT1.3" target="NT1.1" id="e.7"/>
+   <edge source="NT1.3" target="NT1.14" id="e.8"/>
+   <edge source="NT1.1" target="NT1.2" id="e.9"/>
+   <edge source="NT1.2" target="NT1.11" id="e.10"/>
+   <edge source="NT1.11" target="NT1.17" id="e.11"/>
+   <edge source="NT1.21" target="NT1.1" id="e.12"/>
+   <edge source="NT1.13" target="NT1.2" id="e.13"/>
+   <edge source="NT1.8" target="NT1.6" id="e.14"/>
+   <edge source="NT1.10" target="NT1.7" id="e.15"/>
+   <edge source="NT1.12" target="NT1.7" id="e.16"/>
+   <edge source="NT1.16" target="NT1.14" id="e.17"/>
+   <edge source="NT1.20" target="NT1.14" id="e.18"/>
+   <edge source="NT1.18" target="NT1.17" id="e.19"/>
+   <edge source="NT1.19" target="NT1.17" id="e.20"/>
+  </tree>
+ </trees>
+</nexml>

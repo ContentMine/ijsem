@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">Hydrogenimonas thermophila (AB1 13193)</otu>
+  <otu id="otu4">Nautilia Iithotrophica (AJ404370)</otu>
+  <otu id="otu5">1Flexispira rappini' (AFO34135)</otu>
+  <otu id="otu6">Wolinella succinogenes (M88159)</otu>
+  <otu id="otu7">Sulfurospirillum deleyianum (Y13671 )</otu>
+  <otu id="otu8">Dehalospirillum multivorans (X82931)</otu>
+  <otu id="otu9">Helicobacter pylori (U00679)</otu>
+  <otu id="otu10">1GeospirilIum1 sp. KoFum (Y18254)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Sulfuricurvum" cmphy:species="kujiense" cmphy:strain="YK-17" cmphy:id="ABO53951" editRecord="[0__O]">Sulfuricurvum kujiense YK-17 (AB053951)</otu>
+  <otu id="otu12">Desulfovibrio desulfuricans (M341 13)</otu>
+  <otu id="otu13">Campylobacterjejuni (L14630)</otu>
+  <otu id="otu14">Oil-field isolate CVO (U46506)</otu>
+  <otu id="otu15">Sulfurimonas autotrophica (AB088431)</otu>
+  <otu id="otu16">Oil-field isolate FWKO B (AF144693)</otu>
+  <otu id="otu17">Thiomicrospira denitrificans (L40808)</otu>
+  <otu id="otu18">Arcobacter nitrofigilis (L 1 4627)</otu>
+  <otu id="otu19">Thiovulum sp. (M92323)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="778.0" otu="otu1" root="true"/>
+   <node id="NT1.28" label="NT1.28" x="622.0" y="14.0" otu="otu11"/>
+   <edge id="e.23" target="NT1.28" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

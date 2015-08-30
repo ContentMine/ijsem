@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Propionicicella superfundia BL-1OT (DO1 76646)</otu>
+  <otu id="otu10" cmphy:genus="Propionicimonas" cmphy:species="paludicola" cmphy:strain="WdT" cmphy:id="ABO78858" editRecord="[]">Propionicimonas paludicola WdT (ABO78858)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Tessaracoccus" cmphy:species="flavescens" cmphy:strain="SST-39T" cmphy:id="AMB93882" editRecord="[3__B]">Tessaracoccus flavescens SST-39T (AM393882)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[1__I]" cmphy:genus="Friedmanniella" cmphy:species="lacustris" cmphy:strain="EL-1 7AT" cmphy:id="AJI32943" editRecord="[1__I]">Friedmanniella lacustris EL-1 7AT (AJ132943)</otu>
+  <otu id="otu15">Tessaracoccus oleiagri SL014B-20A1T (GU1 1 1566)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17">Tessaracoccus oleiagri SL014B-76A1</otu>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Brooklawnia" cmphy:species="cerclae" cmphy:strain="BL-34T" cmphy:id="DQI96625" editRecord="[1__I]">Brooklawnia cerclae BL-34T (DQ196625)</otu>
+  <otu id="otu19" cmphy:edit="[1__I]" cmphy:genus="Tessaracoccus" cmphy:species="oleiagri" cmphy:strain="SL014B-79A" cmphy:id="GUI11568" editRecord="[1__I]">Tessaracoccus oleiagri SL014B-79A (GU111568)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22">Friedmanniella antarctica DSM 1 1O53T (Z78206)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25">Tessaracoccus bendigoensis</otu>
+  <otu id="otu26" cmphy:edit="[8__B]" cmphy:genus="Aestuariimicrobium" cmphy:species="kwangyangense" cmphy:strain="R27T" cmphy:id="DQB30982" editRecord="[8__B]">Aestuariimicrobium kwangyangense R27T (DQ830982)</otu>
+  <otu id="otu27"/>
+  <otu id="otu28" cmphy:edit="[O__0]" cmphy:genus="Propionimicrobium" cmphy:species="lymphophilum" cmphy:strain="DSM 49O3T" cmphy:id="AJO08056" editRecord="[O__0]">Propionimicrobium lymphophilum DSM 49O3T (AJOO8056)</otu>
+  <otu id="otu29" cmphy:edit="[2__Z]" cmphy:genus="Propionibacterium" cmphy:species="australiense" cmphy:strain="98AO72T" cmphy:id="AFZ25962" editRecord="[2__Z]">Propionibacterium australiense 98AO72T (AF225962)</otu>
+  <otu id="otu30">Propionibacterium freudenreichii DSM 20271 T (X5321 7)</otu>
+  <otu id="otu31"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="14.0" y="652.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="58.0" y="555.0"/>
+   <node id="NT1.5" label="NT1.5" x="94.0" y="686.0"/>
+   <node id="NT1.6" label="NT1.6" x="132.0" y="307.0"/>
+   <node id="NT1.10" label="NT1.10" x="144.0" y="208.0"/>
+   <node id="NT1.11" label="NT1.11" x="150.0" y="403.0"/>
+   <node id="NT1.13" label="NT1.13" x="169.0" y="132.0"/>
+   <node id="NT1.17" label="NT1.17" x="184.0" y="281.0"/>
+   <node id="NT1.30" label="NT1.30" x="262.0" y="575.0" otu="otu10"/>
+   <node id="NT1.31" label="NT1.31" x="264.0" y="68.0" otu="otu11"/>
+   <node id="NT1.35" label="NT1.35" x="284.0" y="731.0" otu="otu14"/>
+   <node id="NT1.40" label="NT1.40" x="297.0" y="262.0" otu="otu18"/>
+   <node id="NT1.41" label="NT1.41" x="298.0" y="224.0" otu="otu19"/>
+   <node id="NT1.48" label="NT1.48" x="356.0" y="419.0" otu="otu26"/>
+   <node id="NT1.51" label="NT1.51" x="444.0" y="302.0" otu="otu28"/>
+   <node id="NT1.52" label="NT1.52" x="469.0" y="380.0" otu="otu29"/>
+   <edge id="e.11" target="NT1.30" source="NT1.5"/>
+   <edge id="e.15" source="NT1.10" target="NT1.13"/>
+   <edge id="e.17" source="NT1.6" target="NT1.10"/>
+   <edge id="e.18" source="NT1.10" target="NT1.17"/>
+   <edge id="e.19" target="NT1.6" source="NT1.3"/>
+   <edge id="e.20" source="NT1.6" target="NT1.11"/>
+   <edge id="e.25" target="NT1.3" source="NT1.1"/>
+   <edge id="e.26" source="NT1.3" target="NT1.5"/>
+   <edge id="e.38" source="NT1.17" target="NT1.40"/>
+   <edge id="e.40" target="NT1.48" source="NT1.11"/>
+   <edge id="e.42" target="NT1.31" source="NT1.13"/>
+   <edge id="e.44" target="NT1.35" source="NT1.5"/>
+   <edge id="e.46" source="NT1.17" target="NT1.51"/>
+   <edge id="e.49" target="NT1.41" source="NT1.13"/>
+   <edge id="e.51" target="NT1.52" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

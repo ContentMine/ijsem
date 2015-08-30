@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[O__0]" cmphy:genus="Nakamurella" cmphy:species="multipartita" cmphy:strain="JCM 95437" cmphy:id="Y08541" editRecord="[O__0]">Nakamurella multipartita JCM 95437 (YO8541)</otu>
+  <otu id="otu3" cmphy:genus="Blastococcus" cmphy:species="aggregatus" cmphy:strain="DSM 47257" cmphy:id="AJ430193" editRecord="[]">Blastococcus aggregatus DSM 47257 (AJ430193)</otu>
+  <otu id="otu4" cmphy:genus="Cryptosporangium" cmphy:species="arvum" cmphy:strain="IFO 15965T" cmphy:id="D85465" editRecord="[]">Cryptosporangium arvum IFO 15965T (D85465)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Sporichthya" cmphy:species="brevicatena" cmphy:strain="IFO 16195T" cmphy:id="ABO06164" editRecord="[O__0]">Sporichthya brevicatena IFO 16195T (ABOO6164)</otu>
+  <otu id="otu6">Kineosporia rhamnosa JCM 99547 (JCM9954)</otu>
+  <otu id="otu7" cmphy:edit="[O__0]" cmphy:genus="Acidothermus" cmphy:species="cellulolyticus" cmphy:strain="ATCC 43O68T" cmphy:id="AJO07290" editRecord="[O__0]">Acidothermus cellulolyticus ATCC 43O68T (AJOO7290)</otu>
+  <otu id="otu8">Kineococcus xinjiangensis CCTCC AB 2071 797 (EU543662)</otu>
+  <otu id="otu9">Geodermaiophilus obscurus DSM 431 60T (X92356)</otu>
+  <otu id="otu10">Modestobacter multiseptatus</otu>
+  <otu id="otu11" cmphy:edit="[8__B]" cmphy:genus="Ouadrisphaera" cmphy:species="granulorum" cmphy:strain="DSM 44889T" cmphy:id="AYB31385" editRecord="[8__B]">Ouadrisphaera granulorum DSM 44889T (AY831385)</otu>
+  <otu id="otu12" cmphy:edit="[O__0]" cmphy:genus="Kineosporia" cmphy:species="aurantiaca" cmphy:strain="JCM 323OT" cmphy:id="ABO03931" editRecord="[O__0]">Kineosporia aurantiaca JCM 323OT (ABOO3931)</otu>
+  <otu id="otu13" cmphy:edit="[O__0]" cmphy:genus="Kineosporia" cmphy:species="succinea" cmphy:strain="JCM 9957T" cmphy:id="ABO03932" editRecord="[O__0]">Kineosporia succinea JCM 9957T (ABOO3932)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Pseudokineococcus" cmphy:species="marinus" cmphy:strain="KCCM 422507" cmphy:id="DQZ00982" editRecord="[2__Z]">Pseudokineococcus marinus KCCM 422507 (DQ200982)</otu>
+  <otu id="otu16" cmphy:genus="Kineococcus" cmphy:species="gynurae" cmphy:strain="NRRL B-24568T" cmphy:id="EF667339" editRecord="[]">Kineococcus gynurae NRRL B-24568T (EF667339)</otu>
+  <otu id="otu17" cmphy:edit="[5__S]" cmphy:genus="Angustibacter" cmphy:species="luteus" cmphy:strain="KACC 14249T" cmphy:id="ABS12285" editRecord="[5__S]">Angustibacter luteus KACC 14249T (AB512285)</otu>
+  <otu id="otu18">Pseudokineococcus Iusitanus T2A-S277 (FN824365)</otu>
+  <otu id="otu19">Kineosporia rhizophila JCM 996OT (JCM9960)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="589.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="33.0" y="589.0"/>
+   <node id="NT1.3" x="85.0" y="536.0" label="68"/>
+   <node id="NT1.4" label="NT1.4" x="99.0" y="462.0"/>
+   <node id="NT1.5" label="NT1.5" x="121.0" y="389.0"/>
+   <node id="NT1.6" x="160.0" y="301.0" label="69"/>
+   <node id="NT1.7" label="NT1.7" x="256.0" y="157.0"/>
+   <node id="NT1.8" label="NT1.8" x="263.0" y="260.0"/>
+   <node id="NT1.9" label="NT1.9" x="290.0" y="53.0"/>
+   <node id="NT1.11" x="304.0" y="213.0" label="53"/>
+   <node id="NT1.13" label="NT1.13" x="333.0" y="644.0" otu="otu2"/>
+   <node id="NT1.16" label="NT1.16" x="442.0" y="543.0" otu="otu3"/>
+   <node id="NT1.17" label="NT1.17" x="458.0" y="610.0" otu="otu4"/>
+   <node id="NT1.18" label="NT1.18" x="474.0" y="444.0" otu="otu5"/>
+   <node id="NT1.21" x="490.0" y="128.0" label="65"/>
+   <node id="NT1.23" label="NT1.23" x="495.0" y="477.0" otu="otu7"/>
+   <node id="NT1.28" label="NT1.28" x="554.0" y="78.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="583.0" y="110.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="592.0" y="144.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="612.0" y="44.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="619.0" y="310.0" otu="otu16"/>
+   <node id="NT1.36" label="NT1.36" x="624.0" y="244.0" otu="otu17"/>
+   <edge id="e.1" target="NT1.33" source="NT1.9"/>
+   <edge id="e.2" source="NT1.9" target="NT1.28"/>
+   <edge id="e.5" source="NT1.11" target="NT1.36"/>
+   <edge id="e.6" source="NT1.21" target="NT1.30"/>
+   <edge id="e.7" target="NT1.35" source="NT1.8"/>
+   <edge id="e.8" source="NT1.21" target="NT1.31"/>
+   <edge id="e.13" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" source="NT1.6" target="NT1.18"/>
+   <edge id="e.15" source="NT1.5" target="NT1.23"/>
+   <edge id="e.16" target="NT1.16" source="NT1.4"/>
+   <edge id="e.18" source="NT1.3" target="NT1.17"/>
+   <edge id="e.19" source="NT1.2" target="NT1.13"/>
+   <edge id="e.22" source="NT1.7" target="NT1.9"/>
+   <edge id="e.23" source="NT1.6" target="NT1.7"/>
+   <edge id="e.24" source="NT1.7" target="NT1.8"/>
+   <edge id="e.26" source="NT1.8" target="NT1.11"/>
+   <edge id="e.29" source="NT1.5" target="NT1.6"/>
+   <edge id="e.31" source="NT1.4" target="NT1.5"/>
+   <edge id="e.33" target="NT1.21" source="NT1.11"/>
+   <edge id="e.34" source="NT1.3" target="NT1.4"/>
+   <edge id="e.37" source="NT1.2" target="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

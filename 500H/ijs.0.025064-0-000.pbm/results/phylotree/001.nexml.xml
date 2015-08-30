@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Halosimplex" cmphy:species="carlsbadense" cmphy:strain="2-9-1T rrnC" cmphy:id="ABO72816" editRecord="[]">Halosimplex carlsbadense 2-9-1T rrnC (ABO72816)</otu>
+  <otu id="otu3">Halomicrobium mukohataeiJCM 9788T rrnB (EF645691)</otu>
+  <otu id="otu4" cmphy:genus="Salarchaeum" cmphy:species="japonicum" cmphy:strain="YSM-79T" cmphy:id="AB454051" editRecord="[]">Salarchaeum japonicum YSM-79T (AB454051)</otu>
+  <otu id="otu5">Halobacterium noricense A1 T (AJ54882 7)</otu>
+  <otu id="otu6">Haloarcula vallismortis CGMCC 1 .2O48T rrnA (EF645687)</otu>
+  <otu id="otu7">Halosimplex carlsbadense 2-9-1 T rrnB (ABO72815)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Halobacterium" cmphy:species="jilantaiense" cmphy:strain="NG4T" cmphy:id="DQZ56409" editRecord="[2__Z]">Halobacterium jilantaiense NG4T (DQ256409)</otu>
+  <otu id="otu9">Halobacterium salinarum DSM 3754T (AJ4961 85)</otu>
+  <otu id="otu10">Halococcus morrhuae ATCC 1 7O82T (X00662)</otu>
+  <otu id="otu11" cmphy:edit="[O__0, O__0]" cmphy:genus="Haloferax" cmphy:species="volcanii" cmphy:strain="NCIMB 2O12T" cmphy:id="K00421" editRecord="[O__0, O__0]">Haloferax volcanii NCIMB 2O12T (KOO421)</otu>
+  <otu id="otu12">Halosimplex carlsbadense 2-9-1 T rrnA (ABO72814)</otu>
+  <otu id="otu13">Halobaculum gomorrense JCM 99O8T rrnA (AB477982)</otu>
+  <otu id="otu14">Halarchaeum acidiphilum MH1-52-1T(AB371717)</otu>
+  <otu id="otu15">Halobaculum gomorrense JCM 99O8T rmB (AB477983)</otu>
+  <otu id="otu16">Haloarcula vallismortis CGMCC 1 .2O48T rrnB (EF645688)</otu>
+  <otu id="otu17">Halomicrobium mukohataeiJCM 9738T rrnA (EF645690)</otu>
+  <otu id="otu18">Halorubrum saccharovorum JCM 8865T (U1 7364)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="29.0" y="408.0" otu="otu1" root="true"/>
+   <node id="NT1.3" x="40.0" y="291.0" label="74"/>
+   <node id="NT1.4" x="78.0" y="456.0" label="100"/>
+   <node id="NT1.7" x="280.0" y="354.0" label="99"/>
+   <node id="NT1.11" label="NT1.11" x="389.0" y="25.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="477.0" y="296.0" otu="otu4"/>
+   <node id="NT1.23" label="NT1.23" x="651.0" y="374.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="730.0" y="607.0" otu="otu11"/>
+   <edge id="e.7" target="NT1.3" source="NT1.1"/>
+   <edge id="e.8" source="NT1.3" target="NT1.4"/>
+   <edge id="e.11" source="NT1.4" target="NT1.7"/>
+   <edge id="e.19" source="NT1.7" target="NT1.15"/>
+   <edge id="e.20" target="NT1.11" source="NT1.3"/>
+   <edge id="e.21" target="NT1.26" source="NT1.4"/>
+   <edge id="e.27" target="NT1.23" source="NT1.7"/>
+  </tree>
+ </trees>
+</nexml>

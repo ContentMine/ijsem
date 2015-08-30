@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Lipomyces" cmphy:species="kockii" cmphy:strain="CBS 7729T" cmphy:id="U82460" editRecord="[]">Lipomyces kockii CBS 7729T (U82460)</otu>
+  <otu id="otu2" cmphy:genus="Lipomyces" cmphy:species="yamadae" cmphy:strain="CBS 7532T" cmphy:id="U82464" editRecord="[]">Lipomyces yamadae CBS 7532T (U82464)</otu>
+  <otu id="otu3" cmphy:genus="Lipomyces" cmphy:species="kononenkoae" cmphy:strain="CBS 25147" cmphy:id="U82454" editRecord="[]">Lipomyces kononenkoae CBS 25147 (U82454)</otu>
+  <otu id="otu4" cmphy:genus="Lipomyces" cmphy:species="starkeyi" cmphy:strain="CBS 1807T" cmphy:id="U82459" editRecord="[]">Lipomyces starkeyi CBS 1807T (U82459)</otu>
+  <otu id="otu5" cmphy:genus="Lipomyces" cmphy:species="tetrasporus" cmphy:strain="CBS 5910T" cmphy:id="U82456" editRecord="[]">Lipomyces tetrasporus CBS 5910T (U82456)</otu>
+  <otu id="otu6" cmphy:genus="Lipomyces" cmphy:species="yarrowii" cmphy:strain="CBS 7557T" cmphy:id="U82462" editRecord="[]">Lipomyces yarrowii CBS 7557T (U82462)</otu>
+  <otu id="otu7" cmphy:genus="Lipomyces" cmphy:species="mesembrius" cmphy:strain="CBS 76617" cmphy:id="U82457" editRecord="[]">Lipomyces mesembrius CBS 76617 (U82457)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Lipomyces" cmphy:species="orientalis" cmphy:strain="Lip 951'" cmphy:id="DQZ75616" editRecord="[2__Z]">Lipomyces orientalis Lip 951' (DQ275616)</otu>
+  <otu id="otu9" cmphy:genus="Lipomyces" cmphy:species="spencermarfinsiae" cmphy:strain="CBS 56087" cmphy:id="U82455" editRecord="[]">Lipomyces spencermarfinsiae CBS 56087 (U82455)</otu>
+  <otu id="otu10" cmphy:genus="Lipomyces" cmphy:species="lipofer" cmphy:strain="CBS 944T" cmphy:id="U82461" editRecord="[]">Lipomyces lipofer CBS 944T (U82461)</otu>
+  <otu id="otu11" cmphy:genus="Lipomyces" cmphy:species="doorenjongii" cmphy:strain="CBS 7542T" cmphy:id="U82458" editRecord="[]">Lipomyces doorenjongii CBS 7542T (U82458)</otu>
+  <otu id="otu12" cmphy:genus="Lipomyces" cmphy:species="japonicus" cmphy:strain="CBS 73197" cmphy:id="U82453" editRecord="[]">Lipomyces japonicus CBS 73197 (U82453)</otu>
+  <otu id="otu13" cmphy:genus="Stephanoascus" cmphy:species="smithiae" cmphy:strain="CBS 56577" cmphy:id="AJ606463" editRecord="[]">Stephanoascus smithiae CBS 56577 (AJ606463)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="112.0" y="473.0"/>
+   <node id="NT1.2" label="NT1.2" x="164.0" y="592.0"/>
+   <node id="NT1.3" label="NT1.3" x="255.0" y="389.0"/>
+   <node id="NT1.4" label="NT1.4" x="301.0" y="194.0"/>
+   <node id="NT1.5" label="NT1.5" x="317.0" y="128.0"/>
+   <node id="NT1.6" label="NT1.6" x="335.0" y="259.0"/>
+   <node id="NT1.7" label="NT1.7" x="338.0" y="177.0" otu="otu1"/>
+   <node id="NT1.8" label="NT1.8" x="340.0" y="398.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="340.0" y="60.0"/>
+   <node id="NT1.10" label="NT1.10" x="347.0" y="343.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="350.0" y="121.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="356.0" y="232.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="365.0" y="509.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="376.0" y="11.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="390.0" y="288.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="390.0" y="453.0" otu="otu9"/>
+   <node id="NT1.17" label="NT1.17" x="390.0" y="564.0" otu="otu10"/>
+   <node id="NT1.18" label="NT1.18" x="396.0" y="66.0" otu="otu11"/>
+   <node id="NT1.19" label="NT1.19" x="576.0" y="621.0" otu="otu12"/>
+   <node id="NT1.20" label="NT1.20" x="576.0" y="676.0" otu="otu13"/>
+   <edge source="NT1.14" target="NT1.9" id="e.0"/>
+   <edge source="NT1.18" target="NT1.9" id="e.1"/>
+   <edge source="NT1.11" target="NT1.9" id="e.2"/>
+   <edge source="NT1.7" target="NT1.5" id="e.3"/>
+   <edge source="NT1.15" target="NT1.6" id="e.4"/>
+   <edge source="NT1.10" target="NT1.3" id="e.5"/>
+   <edge source="NT1.8" target="NT1.3" id="e.6"/>
+   <edge source="NT1.13" target="NT1.3" id="e.7"/>
+   <edge source="NT1.16" target="NT1.3" id="e.8"/>
+   <edge source="NT1.17" target="NT1.2" id="e.9"/>
+   <edge source="NT1.19" target="NT1.2" id="e.10"/>
+   <edge source="NT1.9" target="NT1.5" id="e.11"/>
+   <edge source="NT1.5" target="NT1.4" id="e.12"/>
+   <edge source="NT1.4" target="NT1.3" id="e.13"/>
+   <edge source="NT1.4" target="NT1.6" id="e.14"/>
+   <edge source="NT1.3" target="NT1.1" id="e.15"/>
+   <edge source="NT1.1" target="NT1.2" id="e.16"/>
+   <edge source="NT1.20" target="NT1.1" id="e.17"/>
+   <edge source="NT1.12" target="NT1.6" id="e.18"/>
+  </tree>
+ </trees>
+</nexml>

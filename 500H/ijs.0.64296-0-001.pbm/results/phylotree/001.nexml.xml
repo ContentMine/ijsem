@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Themotoga" cmphy:species="marmma" cmphy:strain="DSM 3109T" cmphy:id="P38525" editRecord="[]">Themotoga marmma DSM 3109T (P38525)</otu>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Geobacter" cmphy:species="sulfurreducens" cmphy:strain="ATCC 515737" cmphy:id="AFS46867" editRecord="[5__S]">Geobacter sulfurreducens ATCC 515737 (AF546867)</otu>
+  <otu id="otu3">2AqL"'feX aeomsi DSM 12045 (NP212986)</otu>
+  <otu id="otu4" cmphy:genus="Haemophilus" cmphy:species="influenzae" cmphy:strain="ATCC 51907" cmphy:id="NP438737" editRecord="[]">Haemophilus influenzae ATCC 51907 (NP438737)</otu>
+  <otu id="otu5" cmphy:edit="[O__0]" cmphy:genus="Micrococous" cmphy:species="luteus" cmphy:strain="ATCC 10240" cmphy:id="P09952" editRecord="[O__0]">Micrococous luteus ATCC 10240 (PO9952)</otu>
+  <otu id="otu6" cmphy:genus="Azotobacter" cmphy:species="vinelandii" cmphy:strain="ATCC 9104" cmphy:id="EAM05154" editRecord="[]">Azotobacter vinelandii ATCC 9104 (EAM05154)</otu>
+  <otu id="otu7">Shewanella oneidensis ATCC 70O55OT (Q8EK71)</otu>
+  <otu id="otu8" cmphy:genus="Pseudomonas" cmphy:species="syringae" cmphy:strain="ATCC 12885" cmphy:id="NP790470" editRecord="[]">Pseudomonas syringae ATCC 12885 (NP790470)</otu>
+  <otu id="otu9" cmphy:genus="Mycobacterium" cmphy:species="smegmatis" cmphy:strain="ATCC 23037" cmphy:id="AAM19252" editRecord="[]">Mycobacterium smegmatis ATCC 23037 (AAM19252)</otu>
+  <otu id="otu10" cmphy:edit="[1__I]" cmphy:genus="Desulfuromonas" cmphy:species="acetoxidans" cmphy:strain="ATCC 51529" cmphy:id="AYI88891" editRecord="[1__I]">Desulfuromonas acetoxidans ATCC 51529 (AY188891)</otu>
+  <otu id="otu11" cmphy:genus="Prolixibacter" cmphy:species="bellarivorans" cmphy:strain="strain F2&quot;'" cmphy:id="AY918929" editRecord="[]">Prolixibacter bellarivorans strain F2"' (AY918929)</otu>
+  <otu id="otu12">P0'PhYmm0"aS 9'779'Va"S ATCC 332777</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="993.0" y="585.0"/>
+   <node id="NT1.2" x="1017.0" y="385.0" label="93"/>
+   <node id="NT1.3" label="NT1.3" x="1022.0" y="177.0"/>
+   <node id="NT1.4" label="NT1.4" x="1050.0" y="592.0"/>
+   <node id="NT1.5" x="1074.0" y="677.0" label="94"/>
+   <node id="NT1.6" label="NT1.6" x="1082.0" y="247.0"/>
+   <node id="NT1.7" label="NT1.7" x="1083.0" y="508.0"/>
+   <node id="NT1.8" label="NT1.8" x="1101.0" y="106.0"/>
+   <node id="NT1.9" label="NT1.9" x="1107.0" y="446.0"/>
+   <node id="NT1.10" label="NT1.10" x="1110.0" y="857.0" otu="otu1"/>
+   <node id="NT1.11" label="NT1.11" x="1147.0" y="392.0"/>
+   <node id="NT1.12" label="NT1.12" x="1172.0" y="713.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="1177.0" y="785.0" otu="otu3"/>
+   <node id="NT1.14" label="NT1.14" x="1199.0" y="498.0" otu="otu4"/>
+   <node id="NT1.15" label="NT1.15" x="1200.0" y="212.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="1204.0" y="356.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="1207.0" y="570.0" otu="otu7"/>
+   <node id="NT1.18" label="NT1.18" x="1210.0" y="428.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="1211.0" y="284.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="1211.0" y="641.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="1226.0" y="141.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="1237.0" y="70.0" otu="otu12"/>
+   <edge source="NT1.21" target="NT1.8" id="e.0"/>
+   <edge source="NT1.15" target="NT1.6" id="e.1"/>
+   <edge source="NT1.12" target="NT1.5" id="e.2"/>
+   <edge source="NT1.20" target="NT1.5" id="e.3"/>
+   <edge source="NT1.16" target="NT1.11" id="e.4"/>
+   <edge source="NT1.18" target="NT1.11" id="e.5"/>
+   <edge source="NT1.8" target="NT1.3" id="e.6"/>
+   <edge source="NT1.3" target="NT1.2" id="e.7"/>
+   <edge source="NT1.3" target="NT1.6" id="e.8"/>
+   <edge source="NT1.2" target="NT1.1" id="e.9"/>
+   <edge source="NT1.2" target="NT1.4" id="e.10"/>
+   <edge source="NT1.4" target="NT1.5" id="e.11"/>
+   <edge source="NT1.4" target="NT1.7" id="e.12"/>
+   <edge source="NT1.7" target="NT1.9" id="e.13"/>
+   <edge source="NT1.9" target="NT1.11" id="e.14"/>
+   <edge source="NT1.10" target="NT1.1" id="e.15"/>
+   <edge source="NT1.13" target="NT1.1" id="e.16"/>
+   <edge source="NT1.17" target="NT1.7" id="e.17"/>
+   <edge source="NT1.19" target="NT1.6" id="e.18"/>
+   <edge source="NT1.14" target="NT1.9" id="e.19"/>
+   <edge source="NT1.22" target="NT1.8" id="e.20"/>
+  </tree>
+ </trees>
+</nexml>

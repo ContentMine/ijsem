@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8">B. halmapalus DSM 87237 (X76447)</otu>
+  <otu id="otu9">B. flexus IFO 157157 (AB021185)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">99</otu>
+  <otu id="otu12">B. panaciterrae Gsoil 15177 (AB245380)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14">B. cereus IAM 126O5T (D16266)</otu>
+  <otu id="otu15">B. simplex DSM 1321T (D78478)</otu>
+  <otu id="otu16">B. funiculus JCM 112O1T (ABO49195)</otu>
+  <otu id="otu17">B. thuringiensis ATCC 107927 (AF290545)</otu>
+  <otu id="otu18">B. mycoides DSM 2O48T (X55061)</otu>
+  <otu id="otu19">B. weihenstephanensis DSM 118217 (AB021199)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21">B. subtilis DSM 1OT (AJ276351)</otu>
+  <otu id="otu22">B. pseudomycoides DSM 124427 (AF013121)</otu>
+  <otu id="otu23" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="polymyxa" cmphy:strain="DSM 36T" cmphy:id="AJB20493" editRecord="[3__B]">Paenibacillus polymyxa DSM 36T (AJ320493)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.36" label="NT1.36" x="608.0" y="487.0" otu="otu23"/>
+   <node id="NT1.37" label="NT1.37" x="0.0" y="418.0" root="true"/>
+   <edge id="e.34" source="NT1.37" target="NT1.36"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Brevibacterium" cmphy:species="linens" cmphy:strain="DSM 204257" cmphy:id="X77451" editRecord="[]">Brevibacterium linens DSM 204257 (X77451)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Nesterenkonia" cmphy:species="lacusekhoensis" cmphy:strain="IFAM EL-307" cmphy:id="AJZ90397" editRecord="[2__Z]">Nesterenkonia lacusekhoensis IFAM EL-307 (AJ290397)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Kocurlh" cmphy:species="polaris" cmphy:strain="CMS 76or7" cmphy:id="AJZ78868" editRecord="[2__Z]">Kocurlh polaris CMS 76or7 (AJ278868)</otu>
+  <otu id="otu10" cmphy:edit="[8__B]" cmphy:genus="Yaniella" cmphy:species="fodinae" cmphy:strain="G57" cmphy:id="FJB71122" editRecord="[8__B]">Yaniella fodinae G57 (FJ871122)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13">Rothfa amarae JCM 1 13757 (AY043359)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16">Arthrobacter albus CF 437 (AJ 243421)</otu>
+  <otu id="otu17" cmphy:genus="Nesterenkonia" cmphy:species="halobia" cmphy:strain="DSM 205417" cmphy:id="X80747" editRecord="[]">Nesterenkonia halobia DSM 205417 (X80747)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:genus="Kocuria" cmphy:species="krfstinae" cmphy:strain="DSM 200327" cmphy:id="X80749" editRecord="[]">Kocuria krfstinae DSM 200327 (X80749)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21">Miciococcus luteus DSM 200307(AJ536198)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23" cmphy:edit="[3__B]" cmphy:genus="Citricoccus" cmphy:species="muralis" cmphy:strain="4-07" cmphy:id="AJB44143" editRecord="[3__B]">Citricoccus muralis 4-07 (AJ344143)</otu>
+  <otu id="otu24">Arthrobacter Ioseus CMS 9Or7 (AJ278870)</otu>
+  <otu id="otu25"/>
+  <otu id="otu26" cmphy:genus="Renibacterium" cmphy:species="salmoninarum" cmphy:strain="ATCC 332097" cmphy:id="X51601" editRecord="[]">Renibacterium salmoninarum ATCC 332097 (X51601)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="198.0" y="585.0"/>
+   <node id="NT1.2" label="NT1.2" x="314.0" y="469.0"/>
+   <node id="NT1.3" label="NT1.3" x="369.0" y="333.0"/>
+   <node id="NT1.4" label="NT1.4" x="425.0" y="799.0" otu="otu1"/>
+   <node id="NT1.9" label="NT1.9" x="449.0" y="604.0"/>
+   <node id="NT1.10" label="NT1.10" x="452.0" y="485.0"/>
+   <node id="NT1.15" label="NT1.15" x="524.0" y="151.0"/>
+   <node id="NT1.18" label="NT1.18" x="547.0" y="626.0" otu="otu5"/>
+   <node id="NT1.23" label="NT1.23" x="583.0" y="496.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="585.0" y="669.0" otu="otu10"/>
+   <node id="NT1.36" label="NT1.36" x="674.0" y="582.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="704.0" y="453.0" otu="otu19"/>
+   <node id="NT1.43" label="NT1.43" x="830.0" y="65.0" otu="otu23"/>
+   <node id="NT1.46" label="NT1.46" x="911.0" y="194.0" otu="otu26"/>
+   <node id="NT1.47" label="NT1.47" x="3.0" y="692.0" root="true"/>
+   <edge id="e.0" target="NT1.43" source="NT1.15"/>
+   <edge id="e.11" target="NT1.23" source="NT1.10"/>
+   <edge id="e.15" source="NT1.9" target="NT1.36"/>
+   <edge id="e.17" target="NT1.24" source="NT1.1"/>
+   <edge id="e.23" target="NT1.15" source="NT1.3"/>
+   <edge id="e.28" source="NT1.2" target="NT1.3"/>
+   <edge id="e.30" target="NT1.10" source="NT1.3"/>
+   <edge id="e.32" source="NT1.1" target="NT1.2"/>
+   <edge id="e.33" source="NT1.2" target="NT1.9"/>
+   <edge id="e.39" source="NT1.47" target="NT1.4"/>
+   <edge id="e.40" source="NT1.47" target="NT1.1"/>
+   <edge id="e.41" source="NT1.9" target="NT1.18"/>
+   <edge id="e.42" source="NT1.10" target="NT1.38"/>
+   <edge id="e.44" target="NT1.46" source="NT1.15"/>
+  </tree>
+ </trees>
+</nexml>

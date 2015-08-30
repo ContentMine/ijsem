@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Acidithiobacillus thiooxidans ATCC 19377T (Y1 1596)</otu>
+  <otu id="otu2" cmphy:genus="Thermithiobacillus" cmphy:species="tepidarius" cmphy:strain="DSM 3134T" cmphy:id="AJ459801" editRecord="[]">Thermithiobacillus tepidarius DSM 3134T (AJ459801)</otu>
+  <otu id="otu3">Halothiobacillus sp. RA13 (AYO99401)</otu>
+  <otu id="otu4">Halothiobacillus neapolitanus DSM 581</otu>
+  <otu id="otu5">Halothiobacillus sp. WJ18 (AY096035)</otu>
+  <otu id="otu6">environmental clone 44a-U2-13 (AYO82481)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Halothiobacillus" cmphy:species="kellyi" cmphy:strain="DSM 13162T" cmphy:id="AFI70419" editRecord="[1__I]">Halothiobacillus kellyi DSM 13162T (AF170419)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">environmental clone SRE59 (AY193207)</otu>
+  <otu id="otu11" cmphy:genus="Halothiobacillus" cmphy:species="hydrothermalis" cmphy:strain="DSM 7121T" cmphy:id="M90662" editRecord="[]">Halothiobacillus hydrothermalis DSM 7121T (M90662)</otu>
+  <otu id="otu12" cmphy:genus="Halothiobacillus" cmphy:species="halophilus" cmphy:strain="DSM 6132T" cmphy:id="U58020" editRecord="[]">Halothiobacillus halophilus DSM 6132T (U58020)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15">'ThiobaciIIus baregensis' (YO9280)</otu>
+  <otu id="otu16">environmental clone bacteria p48 (AF402983)</otu>
+  <otu id="otu17" cmphy:edit="[1__I]" cmphy:genus="Thiovirga" cmphy:species="sulfuroxydans" cmphy:strain="S0077" cmphy:id="ABI18236" editRecord="[1__I]">Thiovirga sulfuroxydans S0077 (AB118236)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="210.0" y="56.0"/>
+   <node id="NT1.2" label="NT1.2" x="243.0" y="471.0"/>
+   <node id="NT1.3" label="NT1.3" x="355.0" y="651.0"/>
+   <node id="NT1.4" label="NT1.4" x="464.0" y="311.0"/>
+   <node id="NT1.5" label="NT1.5" x="488.0" y="734.0"/>
+   <node id="NT1.6" label="NT1.6" x="554.0" y="365.0"/>
+   <node id="NT1.7" label="NT1.7" x="598.0" y="790.0"/>
+   <node id="NT1.8" label="NT1.8" x="631.0" y="230.0"/>
+   <node id="NT1.9" label="NT1.9" x="715.0" y="25.0" otu="otu1"/>
+   <node id="NT1.10" label="NT1.10" x="716.0" y="847.0"/>
+   <node id="NT1.11" x="717.0" y="174.0" label="99"/>
+   <node id="NT1.12" label="NT1.12" x="724.0" y="84.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="731.0" y="921.0"/>
+   <node id="NT1.14" label="NT1.14" x="742.0" y="262.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="750.0" y="143.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="753.0" y="203.0" otu="otu5"/>
+   <node id="NT1.17" label="NT1.17" x="753.0" y="972.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="783.0" y="321.0" otu="otu7"/>
+   <node id="NT1.19" label="NT1.19" x="811.0" y="574.0"/>
+   <node id="NT1.20" label="NT1.20" x="836.0" y="913.0" otu="otu8"/>
+   <node id="NT1.21" label="NT1.21" x="857.0" y="676.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="866.0" y="735.0" otu="otu10"/>
+   <node id="NT1.23" x="870.0" y="409.0" label="100"/>
+   <node id="NT1.24" label="NT1.24" x="886.0" y="439.0" otu="otu11"/>
+   <node id="NT1.25" label="NT1.25" x="891.0" y="529.0"/>
+   <node id="NT1.26" label="NT1.26" x="913.0" y="380.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="919.0" y="795.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="940.0" y="617.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="967.0" y="853.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="990.0" y="498.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="1041.0" y="558.0" otu="otu17"/>
+   <edge source="NT1.12" target="NT1.1" id="e.0"/>
+   <edge source="NT1.28" target="NT1.19" id="e.1"/>
+   <edge source="NT1.20" target="NT1.13" id="e.2"/>
+   <edge source="NT1.2" target="NT1.3" id="e.3"/>
+   <edge source="NT1.2" target="NT1.4" id="e.4"/>
+   <edge source="NT1.3" target="NT1.5" id="e.5"/>
+   <edge source="NT1.3" target="NT1.19" id="e.6"/>
+   <edge source="NT1.4" target="NT1.8" id="e.7"/>
+   <edge source="NT1.4" target="NT1.6" id="e.8"/>
+   <edge source="NT1.5" target="NT1.7" id="e.9"/>
+   <edge source="NT1.6" target="NT1.23" id="e.10"/>
+   <edge source="NT1.8" target="NT1.11" id="e.11"/>
+   <edge source="NT1.7" target="NT1.10" id="e.12"/>
+   <edge source="NT1.19" target="NT1.25" id="e.13"/>
+   <edge source="NT1.10" target="NT1.13" id="e.14"/>
+   <edge source="NT1.1" target="NT1.2" id="e.15"/>
+   <edge source="NT1.9" target="NT1.1" id="e.16"/>
+   <edge source="NT1.21" target="NT1.5" id="e.17"/>
+   <edge source="NT1.18" target="NT1.6" id="e.18"/>
+   <edge source="NT1.14" target="NT1.8" id="e.19"/>
+   <edge source="NT1.22" target="NT1.7" id="e.20"/>
+   <edge source="NT1.15" target="NT1.11" id="e.21"/>
+   <edge source="NT1.16" target="NT1.11" id="e.22"/>
+   <edge source="NT1.17" target="NT1.13" id="e.23"/>
+   <edge source="NT1.27" target="NT1.10" id="e.24"/>
+   <edge source="NT1.29" target="NT1.13" id="e.25"/>
+   <edge source="NT1.24" target="NT1.23" id="e.26"/>
+   <edge source="NT1.26" target="NT1.23" id="e.27"/>
+   <edge source="NT1.30" target="NT1.25" id="e.28"/>
+   <edge source="NT1.31" target="NT1.25" id="e.29"/>
+  </tree>
+ </trees>
+</nexml>

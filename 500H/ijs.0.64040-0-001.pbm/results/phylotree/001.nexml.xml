@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Clostridium" cmphy:species="tetanomorphum" cmphy:strain="NCIMB 11547T" cmphy:id="X68184" editRecord="[]">Clostridium tetanomorphum NCIMB 11547T (X68184) </otu>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Clostridium" cmphy:species="peptidivorans" cmphy:strain="DSM 12505T" cmphy:id="AFI56796" editRecord="[1__I]"> Clostridium peptidivorans DSM 12505T (AF156796)</otu>
+  <otu id="otu4" cmphy:genus="Oxobacter" cmphy:species="pfennigii" cmphy:strain="DSM 3222T" cmphy:id="X77838" editRecord="[]">Oxobacter pfennigii DSM 3222T (X77838)</otu>
+  <otu id="otu5" cmphy:genus="Clostndium" cmphy:species="butyricum" cmphy:strain="ATCC 193987" cmphy:id="M59085" editRecord="[]">Clostndium butyricum ATCC 193987 (M59085) </otu>
+  <otu id="otu6" cmphy:genus="Clostridium" cmphy:species="septicum" cmphy:strain="ATCC 124647" cmphy:id="U59278" editRecord="[]">Clostridium septicum ATCC 124647 (U59278)</otu>
+  <otu id="otu7">Clostridium proteolyticum DSM 3O90T (X73448) Cluster II</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="sublilis" cmphy:strain="DSM 10T" cmphy:id="AJZ76351" editRecord="[2__Z]">Bacillus sublilis DSM 10T (AJ276351)</otu>
+  <otu id="otu9" cmphy:genus="Clostridium" cmphy:species="thermobutyricum" cmphy:strain="ATCC 498757" cmphy:id="X72868" editRecord="[]">Clostridium thermobutyricum ATCC 498757 (X72868)</otu>
+  <otu id="otu10">Gracilibacter thermotolerans JWIYJL-S1T (2) (DQ1 1 7466)</otu>
+  <otu id="otu11">Gracilibacter thermotolerans JWIYJ L-S17 (5) (DQ117469)</otu>
+  <otu id="otu12">Gracilibacter thermotolerans JWIYJL-S17 (3) (DQ1 17467)</otu>
+  <otu id="otu13" cmphy:genus="Clostridium" cmphy:species="thermopalmarium" cmphy:strain="ATCC 51427T" cmphy:id="X72869" editRecord="[]">Clostridium thermopalmarium ATCC 51427T (X72869)</otu>
+  <otu id="otu14" cmphy:genus="Clostridium" cmphy:species="thermosuccinogenes" cmphy:strain="DSM 5807T" cmphy:id="Y18180" editRecord="[]">Clostridium thermosuccinogenes DSM 5807T (Y18180)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="18.0" y="613.0"/>
+   <node id="NT1.2" label="NT1.2" x="69.0" y="458.0"/>
+   <node id="NT1.3" x="73.0" y="326.0" label="90"/>
+   <node id="NT1.4" x="94.0" y="590.0" label="95"/>
+   <node id="NT1.5" label="NT1.5" x="105.0" y="260.0"/>
+   <node id="NT1.6" label="NT1.6" x="119.0" y="175.0"/>
+   <node id="NT1.7" label="NT1.7" x="125.0" y="87.0"/>
+   <node id="NT1.8" label="NT1.8" x="144.0" y="40.0"/>
+   <node id="NT1.9" label="NT1.9" x="147.0" y="261.0"/>
+   <node id="NT1.10" label="NT1.10" x="169.0" y="227.0"/>
+   <node id="NT1.11" label="NT1.11" x="180.0" y="203.0" otu="otu1"/>
+   <node id="NT1.12" label="NT1.12" x="186.0" y="696.0"/>
+   <node id="NT1.13" label="NT1.13" x="189.0" y="297.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="197.0" y="251.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="209.0" y="132.0"/>
+   <node id="NT1.16" label="NT1.16" x="210.0" y="392.0" otu="otu4"/>
+   <node id="NT1.17" label="NT1.17" x="219.0" y="16.0" otu="otu5"/>
+   <node id="NT1.18" x="221.0" y="485.0" label="100"/>
+   <node id="NT1.19" label="NT1.19" x="223.0" y="63.0" otu="otu6"/>
+   <node id="NT1.20" label="NT1.20" x="224.0" y="345.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="224.0" y="767.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="229.0" y="157.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="229.0" y="531.0"/>
+   <node id="NT1.24" label="NT1.24" x="231.0" y="484.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="231.0" y="627.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="233.0" y="438.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="240.0" y="109.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="248.0" y="672.0" otu="otu14"/>
+   <node id="NT1.29" label="NT1.29" x="335.0" y="814.0" otu="otu15"/>
+   <node id="NT1.30" label="NT1.30" x="336.0" y="720.0" otu="otu16"/>
+   <edge source="NT1.17" target="NT1.8" id="e.0"/>
+   <edge source="NT1.22" target="NT1.15" id="e.1"/>
+   <edge source="NT1.27" target="NT1.15" id="e.2"/>
+   <edge source="NT1.11" target="NT1.10" id="e.3"/>
+   <edge source="NT1.14" target="NT1.10" id="e.4"/>
+   <edge source="NT1.20" target="NT1.5" id="e.5"/>
+   <edge source="NT1.16" target="NT1.3" id="e.6"/>
+   <edge source="NT1.28" target="NT1.12" id="e.7"/>
+   <edge source="NT1.24" target="NT1.23" id="e.8"/>
+   <edge source="NT1.30" target="NT1.12" id="e.9"/>
+   <edge source="NT1.25" target="NT1.23" id="e.10"/>
+   <edge source="NT1.21" target="NT1.1" id="e.11"/>
+   <edge source="NT1.29" target="NT1.1" id="e.12"/>
+   <edge source="NT1.8" target="NT1.7" id="e.13"/>
+   <edge source="NT1.7" target="NT1.6" id="e.14"/>
+   <edge source="NT1.7" target="NT1.15" id="e.15"/>
+   <edge source="NT1.6" target="NT1.5" id="e.16"/>
+   <edge source="NT1.6" target="NT1.9" id="e.17"/>
+   <edge source="NT1.5" target="NT1.3" id="e.18"/>
+   <edge source="NT1.9" target="NT1.10" id="e.19"/>
+   <edge source="NT1.3" target="NT1.2" id="e.20"/>
+   <edge source="NT1.2" target="NT1.1" id="e.21"/>
+   <edge source="NT1.2" target="NT1.4" id="e.22"/>
+   <edge source="NT1.4" target="NT1.12" id="e.23"/>
+   <edge source="NT1.4" target="NT1.18" id="e.24"/>
+   <edge source="NT1.18" target="NT1.23" id="e.25"/>
+   <edge source="NT1.13" target="NT1.9" id="e.26"/>
+   <edge source="NT1.19" target="NT1.8" id="e.27"/>
+   <edge source="NT1.26" target="NT1.18" id="e.28"/>
+  </tree>
+ </trees>
+</nexml>

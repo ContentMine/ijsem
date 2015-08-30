@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Azospirillum" cmphy:species="lipoferum" cmphy:strain="sp.59bT" cmphy:id="DQ787334" editRecord="[]">Azospirillum lipoferum sp.59bT (DQ787334)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="forsythiae" cmphy:strain="T98T" cmphy:id="DQB49124" editRecord="[3__B]">Paenibacillus forsythiae T98T (DQ349124)</otu>
+  <otu id="otu4">Paenibacillus zanthoxyli JH29T</otu>
+  <otu id="otu5">Paenibacillus durus ATCC 35681</otu>
+  <otu id="otu6" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="sabinae" cmphy:strain="T27T" cmphy:id="DQB49125" editRecord="[3__B]">Paenibacillus sabinae T27T (DQ349125)</otu>
+  <otu id="otu7" cmphy:edit="[5__S]" cmphy:genus="Paenibacillus" cmphy:species="riograndensis" cmphy:strain="SBRST" cmphy:id="FJS60947" editRecord="[5__S]">Paenibacillus riograndensis SBRST (FJ560947)</otu>
+  <otu id="otu8" cmphy:edit="[8__B]" cmphy:genus="Paenibacillus" cmphy:species="wynnii" cmphy:strain="LMG 22176T" cmphy:id="AJB67247" editRecord="[8__B]">Paenibacillus wynnii LMG 22176T (AJ867247)</otu>
+  <otu id="otu9" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="borealis" cmphy:strain="KK19 T" cmphy:id="EUZ94254" editRecord="[2__Z]">Paenibacillus borealis KK19 T (EU294254)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="odorifer" cmphy:strain="TOD45T" cmphy:id="AJZ23992" editRecord="[2__Z]">Paenibacillus odorifer TOD45T (AJ223992)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="graminis" cmphy:strain="RSA19T" cmphy:id="AJZ23994" editRecord="[2__Z]">Paenibacillus graminis RSA19T (AJ223994)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="10.0" y="565.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="553.0" y="479.0"/>
+   <node id="NT1.3" label="NT1.3" x="620.0" y="365.0"/>
+   <node id="NT1.6" label="NT1.6" x="695.0" y="593.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="697.0" y="280.0"/>
+   <node id="NT1.8" label="NT1.8" x="713.0" y="404.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="738.0" y="219.0"/>
+   <node id="NT1.12" label="NT1.12" x="766.0" y="160.0"/>
+   <node id="NT1.13" label="NT1.13" x="791.0" y="105.0"/>
+   <node id="NT1.14" label="NT1.14" x="857.0" y="58.0"/>
+   <node id="NT1.15" label="NT1.15" x="902.0" y="341.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="944.0" y="151.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="950.0" y="88.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="953.0" y="276.0" otu="otu9"/>
+   <node id="NT1.19" label="NT1.19" x="962.0" y="214.0" otu="otu10"/>
+   <node id="NT1.20" label="NT1.20" x="1062.0" y="25.0" otu="otu11"/>
+   <edge id="e.0" source="NT1.12" target="NT1.19"/>
+   <edge id="e.1" source="NT1.11" target="NT1.18"/>
+   <edge id="e.2" target="NT1.8" source="NT1.3"/>
+   <edge id="e.4" source="NT1.2" target="NT1.6"/>
+   <edge id="e.5" source="NT1.12" target="NT1.13"/>
+   <edge id="e.6" source="NT1.11" target="NT1.12"/>
+   <edge id="e.7" source="NT1.7" target="NT1.11"/>
+   <edge id="e.8" source="NT1.3" target="NT1.7"/>
+   <edge id="e.9" source="NT1.2" target="NT1.3"/>
+   <edge id="e.12" source="NT1.1" target="NT1.2"/>
+   <edge id="e.14" source="NT1.7" target="NT1.15"/>
+   <edge id="e.15" source="NT1.13" target="NT1.14"/>
+   <edge id="e.16" source="NT1.13" target="NT1.16"/>
+   <edge id="e.17" source="NT1.14" target="NT1.17"/>
+   <edge id="e.18" source="NT1.14" target="NT1.20"/>
+  </tree>
+ </trees>
+</nexml>

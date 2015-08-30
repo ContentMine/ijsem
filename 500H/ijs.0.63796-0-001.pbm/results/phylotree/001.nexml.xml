@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Thermoleophllum" cmphy:species="album" cmphy:strain="ATCC 35263T" cmphy:id="AJ458462" editRecord="[]">Thermoleophllum album ATCC 35263T (AJ458462)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9">Solirubrobacterpauli B33D1T (AYO39806)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Rubrobacter</otu>
+  <otu id="otu12">Streptosporangium roseum</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Conexibacter" cmphy:species="woesei" cmphy:strain="DSM 14684T" cmphy:id="AJ440237" editRecord="[]">Conexibacter woesei DSM 14684T (AJ440237)</otu>
+  <otu id="otu15" cmphy:genus="Actinocorallia" cmphy:species="herbida" cmphy:strain="IFO 15485T" cmphy:id="D85473" editRecord="[]">Actinocorallia herbida IFO 15485T (D85473)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[1__I]" cmphy:genus="Patulibacter" cmphy:species="minatonensis" cmphy:strain="KV-614T" cmphy:id="ABI93261" editRecord="[1__I]">Patulibacter minatonensis KV-614T (AB193261)</otu>
+  <otu id="otu18">Symblobacterlum thermophilum</otu>
+  <otu id="otu19">Aeromicrobium</otu>
+  <otu id="otu20">Actinomadura</otu>
+  <otu id="otu21">Microblspora rosea</otu>
+  <otu id="otu22"/>
+  <otu id="otu23">Microtetraspora</otu>
+  <otu id="otu24">Nocardiopsis dassonvillei</otu>
+  <otu id="otu25" cmphy:genus="Microlunatus" cmphy:species="phosphovorus" cmphy:strain="DSM 10555T" cmphy:id="Z78207" editRecord="[]">Microlunatus phosphovorus DSM 10555T (Z78207)</otu>
+  <otu id="otu26">Hongia koreensis</otu>
+  <otu id="otu27" cmphy:edit="[2__Z]" cmphy:genus="Propioniferax" cmphy:species="innocua" cmphy:strain="ATCC 49929T" cmphy:id="AFZ27165" editRecord="[2__Z]">Propioniferax innocua ATCC 49929T (AF227165)</otu>
+  <otu id="otu28">Nocardioides</otu>
+  <otu id="otu29">Micropruina glycogenica</otu>
+  <otu id="otu30">Atopobium</otu>
+  <otu id="otu31">Escherichia coli</otu>
+  <otu id="otu32">Eggerthella</otu>
+  <otu id="otu33">Propionibacterium freudenreichii</otu>
+  <otu id="otu34">Denitrobacterium detoxificans</otu>
+  <otu id="otu35">Glycomyces harbinensis</otu>
+  <otu id="otu36">Slackia exigua ATCC 7O0122T(AF101240)</otu>
+  <otu id="otu37" cmphy:edit="[0__O]" cmphy:genus="Cryptobacterium" cmphy:species="curium" cmphy:strain="ATCC 700683T" cmphy:id="ABO19260" editRecord="[0__O]">Cryptobacterium curium ATCC 700683T (AB019260)</otu>
+  <otu id="otu38">Coriobacterium</otu>
+  <otu id="otu39">Sphaerobacter thermophilus</otu>
+  <otu id="otu40">Collinsella aerofaciens</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="93.0" y="286.0"/>
+   <node id="NT1.5" label="NT1.5" x="148.0" y="559.0"/>
+   <node id="NT1.6" x="261.0" y="167.0" label="931"/>
+   <node id="NT1.7" label="NT1.7" x="319.0" y="764.0"/>
+   <node id="NT1.11" x="368.0" y="195.0" label="999"/>
+   <node id="NT1.23" label="NT1.23" x="451.0" y="959.0"/>
+   <node id="NT1.30" label="NT1.30" x="491.0" y="137.0" otu="otu5"/>
+   <node id="NT1.47" label="NT1.47" x="554.0" y="209.0" otu="otu14"/>
+   <node id="NT1.50" label="NT1.50" x="563.0" y="749.0" otu="otu15"/>
+   <node id="NT1.53" label="NT1.53" x="585.0" y="173.0" otu="otu17"/>
+   <node id="NT1.63" label="NT1.63" x="654.0" y="967.0" otu="otu25"/>
+   <node id="NT1.65" label="NT1.65" x="687.0" y="931.0" otu="otu27"/>
+   <node id="NT1.75" label="NT1.75" x="819.0" y="424.0" otu="otu37"/>
+   <node id="NT1.79" label="NT1.79" x="8.0" y="150.0" root="true"/>
+   <edge id="e.4" target="NT1.30" source="NT1.6"/>
+   <edge id="e.14" target="NT1.50" source="NT1.7"/>
+   <edge id="e.21" target="NT1.65" source="NT1.23"/>
+   <edge id="e.24" target="NT1.2" source="NT1.79"/>
+   <edge id="e.26" source="NT1.2" target="NT1.6"/>
+   <edge id="e.27" target="NT1.5" source="NT1.2"/>
+   <edge id="e.29" source="NT1.6" target="NT1.11"/>
+   <edge id="e.31" source="NT1.5" target="NT1.7"/>
+   <edge id="e.50" target="NT1.23" source="NT1.7"/>
+   <edge id="e.63" source="NT1.11" target="NT1.53"/>
+   <edge id="e.65" target="NT1.47" source="NT1.11"/>
+   <edge id="e.72" target="NT1.63" source="NT1.23"/>
+   <edge id="e.73" target="NT1.75" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Pednbacter lzeparinus NBRC 12017 (AB015035 )</otu>
+  <otu id="otu2">U-Vexibacletl czmadensis NBRC 15 30T (AB032584)</otu>
+  <otu id="otu3">FIexibac ter_fIexilis NBRC 15060T (AB0325 83)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Flzunmeavirgu" cmphy:species="aprica" cmphy:strain="ATCC 231267" cmphy:id="ABO34220" editRecord="[0__O]">Flzunmeavirgu aprica ATCC 231267 (AB034220)</otu>
+  <otu id="otu5">DY' (ABl92293)</otu>
+  <otu id="otu6">Elexilvacted fil1f0rmis NBRC l5056 (AB032581)</otu>
+  <otu id="otu7">U7lexibacter1 japonensis NBRC I604l (AB032579)</otu>
+  <otu id="otu8">Chilirmphaga pinensis DSM 2588' (AB048 l 86)</otu>
+  <otu id="otu9">U7lexz bacreH sz1nctiNBRC 150577 (AB032582)</otu>
+  <otu id="otu10">U7lav0bac teriuM ferrugineum NBRC 14992' (ABO48l88)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.12" label="NT1.12" x="553.0" y="337.0" otu="otu4"/>
+   <node id="NT1.19" label="NT1.19" x="2.0" y="369.0" root="true"/>
+   <edge id="e.4" target="NT1.12" source="NT1.19"/>
+  </tree>
+ </trees>
+</nexml>

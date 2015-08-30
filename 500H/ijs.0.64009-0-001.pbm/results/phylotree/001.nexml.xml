@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">3. salivarius CIP 1025037 (AF535169. Z95916)</otu>
+  <otu id="otu2">S. oralis CIP 1029227 (AF535168. 295911)</otu>
+  <otu id="otu3">S. mitis CIP 1033357 (AF535188. 295909)</otu>
+  <otu id="otu4">S. pneumoniae CIP 1029117(DQ232477. 295914)</otu>
+  <otu id="otu5">S. thermophilus CIP 1023037 (AY567833. Z95921)</otu>
+  <otu id="otu6">8. australis CIP 1071677 (DQ132983. DQ132987)</otu>
+  <otu id="otu7">8. gordonii CIP 1052587 (AY770002. 295905)</otu>
+  <otu id="otu8">S. gordonii CIP 103221 (AY770001. 299189)</otu>
+  <otu id="otu9">S. parasanguinis CIP 1043727 (DQ132985. Z95913)</otu>
+  <otu id="otu10">S. constellatus subsp. constellatus CIP 1032477 (AF535184. Z95897)</otu>
+  <otu id="otu11">S. equinus CIP 1025047 (AF535187. Z95903)</otu>
+  <otu id="otu12">S. suis CIP 1032177 (AF535171. 295920)</otu>
+  <otu id="otu13">S. anginosus CIP 1029217 (AF535183. Z95895)</otu>
+  <otu id="otu14">S. gallolyticus subsp. gallolyticus CIP 1054287 (AY315154. AJ297183)</otu>
+  <otu id="otu15">S. pyogenes CIP 56.417 (DQ232491. 295915)</otu>
+  <otu id="otu16">S. sanguinis CIP 55.1287 (AF535170. Z95918)</otu>
+  <otu id="otu17">S. infantarius subsp. infantarius CIP 1032337 (AY315155. AJ297184)</otu>
+  <otu id="otu18">S. sinensis CIP 1074807 (DQ232458. DQ232560)</otu>
+  <otu id="otu19">S. agalactiae CIP 1032277 (AF535182. Z95893)</otu>
+  <otu id="otu20">S. mutans CIP 1032207 (AF535167) Z95910)</otu>
+  <otu id="otu21">S. intermedius CIP 1032487 (AF535190. Z95908)</otu>
+  <otu id="otu22">S. massiliensis 44018257 (AY769998. AY769999)</otu>
+  <otu id="otu23">S. ferus CIP 1032257 (AY770000. DQ132986)</otu>
+  <otu id="otu24">S. downei CIP 1032227 (DQ132984. 295899)</otu>
+  <otu id="otu25" cmphy:genus="Enterococcus" cmphy:species="faecalis" cmphy:strain="V583" cmphy:id="NC_004668" editRecord="[]">Enterococcus faecalis V583 (NC_004668)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.48" label="NT1.48" x="990.0" y="836.0" otu="otu25"/>
+   <node id="NT1.49" label="NT1.49" x="4.0" y="472.0" root="true"/>
+   <edge id="e.28" source="NT1.49" target="NT1.48"/>
+  </tree>
+ </trees>
+</nexml>

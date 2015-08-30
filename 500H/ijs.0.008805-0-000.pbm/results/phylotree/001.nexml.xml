@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Erythrobacter" cmphy:species="litoralis" cmphy:strain="DSM 850997" cmphy:id="ABO13354" editRecord="[]">Erythrobacter litoralis DSM 850997 (ABO13354)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"> Sphingopyxis witflariensis W-5OT (AJ41 6410)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:genus="Sphingosinicella" cmphy:species="microcystinivorans" cmphy:strain="Y2T" cmphy:id="ABO84247" editRecord="[]">Sphingosinicella microcystinivorans Y2T (ABO84247)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Sphingopyxis" cmphy:species="flavimaris" cmphy:strain="SW-151T" cmphy:id="AYS54010" editRecord="[5__S]">Sphingopyxis flavimaris SW-151T (AY554010)</otu>
+  <otu id="otu11" cmphy:genus="Sphingopyxis" cmphy:species="terrae" cmphy:strain="IFO 150987" cmphy:id="D13727" editRecord="[]"> Sphingopyxis terrae IFO 150987 (D13727)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Novosphingobium" cmphy:species="subterraneum" cmphy:strain="SMCC BO478T" cmphy:id="U20773" editRecord="[]"> Novosphingobium subterraneum SMCC BO478T (U20773)</otu>
+  <otu id="otu14" cmphy:genus="Sphingopyxis" cmphy:species="litoris" cmphy:strain="FR1O93T" cmphy:id="DQ781321" editRecord="[]">Sphingopyxis litoris FR1O93T (DQ781321)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16">Sphingomonas adhaesiva GIFU 11458T(D16146)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="314.0" y="788.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="314.0" y="452.0"/>
+   <node id="NT1.3" label="NT1.3" x="325.0" y="319.0"/>
+   <node id="NT1.4" label="NT1.4" x="345.0" y="551.0"/>
+   <node id="NT1.18" label="NT1.18" x="793.0" y="431.0"/>
+   <node id="NT1.20" label="NT1.20" x="826.0" y="516.0" otu="otu7"/>
+   <node id="NT1.24" label="NT1.24" x="895.0" y="401.0" otu="otu10"/>
+   <node id="NT1.25" label="NT1.25" x="924.0" y="286.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="942.0" y="750.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="1030.0" y="481.0" otu="otu14"/>
+   <edge id="e.3" target="NT1.25" source="NT1.3"/>
+   <edge id="e.5" source="NT1.18" target="NT1.24"/>
+   <edge id="e.7" source="NT1.4" target="NT1.20"/>
+   <edge id="e.9" target="NT1.28" source="NT1.18"/>
+   <edge id="e.12" target="NT1.27" source="NT1.4"/>
+   <edge id="e.13" source="NT1.1" target="NT1.2"/>
+   <edge id="e.19" source="NT1.2" target="NT1.3"/>
+   <edge id="e.21" source="NT1.2" target="NT1.4"/>
+   <edge id="e.22" target="NT1.18" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

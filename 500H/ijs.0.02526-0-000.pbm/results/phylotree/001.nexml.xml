@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Desulfospolosinus sp. DSM 8344 (Y11571)</otu>
+  <otu id="otu2">Desulfosporosfnus orfentfs DSM 7657 (Y1 1570)</otu>
+  <otu id="otu3">Desulfitobacterium chlororespirans DSM 1 1544T (U68528)</otu>
+  <otu id="otu4" cmphy:genus="Desulfftobacterium" cmphy:species="dehalogenans" cmphy:strain="DSM 9161T" cmphy:id="L28946" editRecord="[]">Desulfftobacterium dehalogenans DSM 9161T (L28946)</otu>
+  <otu id="otu5">Desulfosporosinus auripigmenti DSM 13351 T (AJ493051)</otu>
+  <otu id="otu6">Desulfosporosinus meridiei DSM 132571 (AF0765Q7)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="214.0" y="205.0"/>
+   <node id="NT1.2" label="NT1.2" x="281.0" y="206.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="288.0" y="26.0" otu="otu2"/>
+   <node id="NT1.4" label="NT1.4" x="293.0" y="339.0" otu="otu3"/>
+   <node id="NT1.5" label="NT1.5" x="301.0" y="293.0" otu="otu4"/>
+   <node id="NT1.6" label="NT1.6" x="306.0" y="160.0" otu="otu5"/>
+   <node id="NT1.7" label="NT1.7" x="319.0" y="113.0" otu="otu6"/>
+   <edge source="NT1.3" target="NT1.1" id="e.0"/>
+   <edge source="NT1.2" target="NT1.1" id="e.1"/>
+   <edge source="NT1.6" target="NT1.1" id="e.2"/>
+   <edge source="NT1.7" target="NT1.1" id="e.3"/>
+   <edge source="NT1.5" target="NT1.1" id="e.4"/>
+   <edge source="NT1.1" target="NT1.4" id="e.5"/>
+  </tree>
+ </trees>
+</nexml>

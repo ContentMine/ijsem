@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[1__I]" cmphy:genus="Saccharibacter" cmphy:species="fioricola" cmphy:strain="JCM 121167" cmphy:id="ABI10421" editRecord="[1__I]">Saccharibacter fioricola JCM 121167 (AB110421)</otu>
+  <otu id="otu4" cmphy:genus="Gluconobacter" cmphy:species="oxydans" cmphy:strain="NCIMB 90137" cmphy:id="X73820" editRecord="[]">Gluconobacter oxydans NCIMB 90137 (X73820)</otu>
+  <otu id="otu5" cmphy:genus="Acetobacter" cmphy:species="aceti" cmphy:strain="NBRC 148187" cmphy:id="X74066" editRecord="[]">Acetobacter aceti NBRC 148187 (X74066)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Kozakia" cmphy:species="baliensis" cmphy:strain="Yo-37" cmphy:id="ABO56321" editRecord="[0__O]">Kozakia baliensis Yo-37 (AB056321)</otu>
+  <otu id="otu7" cmphy:genus="Swaminathania" cmphy:species="salitolerans" cmphy:strain="LMG 212917" cmphy:id="AF459454" editRecord="[]">Swaminathania salitolerans LMG 212917 (AF459454)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Asaia" cmphy:species="bogorensis" cmphy:strain="JCM 105697" cmphy:id="ABO25928" editRecord="[0__O]">Asaia bogorensis JCM 105697 (AB025928)</otu>
+  <otu id="otu9">Acidomonas methanolica NRIC 04987 (AB1 10702)</otu>
+  <otu id="otu10">G. sacchari DSM 127177 (AF127407)</otu>
+  <otu id="otu11">G. liquefaciens NBRC 123887 (X75617)</otu>
+  <otu id="otu12">G. diazotrophicus ATCC 490377 (X75618)</otu>
+  <otu id="otu13">G. xylinus JCM 76447 (AB205218)</otu>
+  <otu id="otu14">G. swfngsii DST GL017 (AY180960)</otu>
+  <otu id="otu15">G. europaeus NBRC 3261 (AB166742)</otu>
+  <otu id="otu16">G. europaeus JK2 (Y15289)</otu>
+  <otu id="otu17">G. europaeus DSM 61607 (AB205220)</otu>
+  <otu id="otu18">7G. xylinus subsp. nonacetoxidans7 JCM 10150 (AB205219)</otu>
+  <otu id="otu19">G. xylinus subsp. sucrofermentans JCM 97307 (AB205217)</otu>
+  <otu id="otu20">G. azotocaptans CFN-C2547 (AF192761)</otu>
+  <otu id="otu21">G. johannae CFN-Cf557 (AF111841)</otu>
+  <otu id="otu22">G. saccharivorans LMG 1584 (AB166741)</otu>
+  <otu id="otu23">G. saccharivorans LMG 15827 (AB166740)</otu>
+  <otu id="otu24">G. rhaeticus DST GL027 (AY180961)</otu>
+  <otu id="otu25">G. nataicola LMG 15367 (AB166743)</otu>
+  <otu id="otu26" cmphy:edit="[0__O]" cmphy:genus="Acetobacter" cmphy:species="sp" cmphy:strain="lTDl2.1" cmphy:id="AFO62475" editRecord="[0__O]">Acetobacter sp lTDl2.1 (AF062475)</otu>
+  <otu id="otu27">G. oboediens DSM 118267 (AB205221)</otu>
+  <otu id="otu28">G. entanii LTH 45607 (AJ251110)</otu>
+  <otu id="otu29">Gluconacetobacter sp. NBRC 14815 (AB166744)</otu>
+  <otu id="otu30">G. hansenii NBRC 14816 (AB166734)</otu>
+  <otu id="otu31">G. hansenii NBRC 14817 (AB166735)</otu>
+  <otu id="otu32">G. hansenii NBRC 148207 (AB166736)</otu>
+  <otu id="otu33">G. oboediens NBRC 14822 (AB166738)</otu>
+  <otu id="otu34">G. oboediens LMG 1639 (AB166739)</otu>
+  <otu id="otu35">G. oboediens LMG 1688 (AB166737)</otu>
+  <otu id="otu36">G. mtermedius DSM 118047 (Y14694)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="37.0" y="1222.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="56.0" y="1215.0"/>
+   <node id="NT1.4" label="NT1.4" x="128.0" y="1173.0"/>
+   <node id="NT1.5" label="NT1.5" x="140.0" y="1260.0" otu="otu3"/>
+   <node id="NT1.6" label="NT1.6" x="187.0" y="1122.0"/>
+   <node id="NT1.7" label="NT1.7" x="196.0" y="1221.0" otu="otu4"/>
+   <node id="NT1.8" x="239.0" y="1060.0" label="888"/>
+   <node id="NT1.9" label="NT1.9" x="257.0" y="1184.0" otu="otu5"/>
+   <node id="NT1.10" x="274.0" y="1126.0" label="838"/>
+   <node id="NT1.11" label="NT1.11" x="285.0" y="976.0"/>
+   <node id="NT1.12" label="NT1.12" x="354.0" y="1072.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="364.0" y="1108.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="364.0" y="1146.0" otu="otu8"/>
+   <node id="NT1.53" label="NT1.53" x="621.0" y="206.0" otu="otu26"/>
+   <edge id="e.20" source="NT1.11" target="NT1.12"/>
+   <edge id="e.21" source="NT1.4" target="NT1.7"/>
+   <edge id="e.23" source="NT1.1" target="NT1.3"/>
+   <edge id="e.43" source="NT1.8" target="NT1.11"/>
+   <edge id="e.46" source="NT1.6" target="NT1.8"/>
+   <edge id="e.47" source="NT1.8" target="NT1.10"/>
+   <edge id="e.48" source="NT1.4" target="NT1.6"/>
+   <edge id="e.49" source="NT1.3" target="NT1.4"/>
+   <edge id="e.50" source="NT1.3" target="NT1.5"/>
+   <edge id="e.51" source="NT1.6" target="NT1.9"/>
+   <edge id="e.52" source="NT1.10" target="NT1.13"/>
+   <edge id="e.53" source="NT1.10" target="NT1.14"/>
+   <edge id="e.59" target="NT1.53" source="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

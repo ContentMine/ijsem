@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Pseudoalteromonas" cmphy:species="nigrffaciens" cmphy:strain="NCIMB 86147" cmphy:id="X82146" editRecord="[]">Pseudoalteromonas nigrffaciens NCIMB 86147 (X82146)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Pseudoalteromonas" cmphy:species="paragorgicola" cmphy:strain="KMM 35487" cmphy:id="AYO40229" editRecord="[0__O]">Pseudoalteromonas paragorgicola KMM 35487 (AY040229)</otu>
+  <otu id="otu5" cmphy:edit="[3__B]" cmphy:genus="Pseudoalleromonas" cmphy:species="aliena" cmphy:strain="KMM 35627" cmphy:id="AYB87858" editRecord="[3__B]">Pseudoalleromonas aliena KMM 35627 (AY387858)</otu>
+  <otu id="otu6">Pseudoalteromonas carrageenovora ATCC 1 26627 (X82136)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Pseudoalterornonas elyakovii KMM 1 627 (AF082562)</otu>
+  <otu id="otu9" cmphy:genus="Pseudoalteromonas" cmphy:species="haloplanktfs" cmphy:strain="ATCC 143937" cmphy:id="X67024" editRecord="[]">Pseudoalteromonas haloplanktfs ATCC 143937 (X67024)</otu>
+  <otu id="otu10">Pseudoalteromonas espejiana NCIMB 21 277 (X82143)</otu>
+  <otu id="otu11" cmphy:genus="Pseudoalteromonas" cmphy:species="atlantica" cmphy:strain="IAM 129277" cmphy:id="X82134" editRecord="[]">Pseudoalteromonas atlantica IAM 129277 (X82134)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Pseudoalteromonas" cmphy:species="distincta" cmphy:strain="KMM 6387" cmphy:id="AFO82564" editRecord="[]">Pseudoalteromonas distincta KMM 6387 (AFO82564)</otu>
+  <otu id="otu14" cmphy:genus="Pseudoalteromonas" cmphy:species="prydzensis" cmphy:strain="ACAM 6207" cmphy:id="U85855" editRecord="[]">Pseudoalteromonas prydzensis ACAM 6207 (U85855)</otu>
+  <otu id="otu15" cmphy:genus="Pseudoalteromonas" cmphy:species="bacteriolytica" cmphy:strain="IAM 145957" cmphy:id="D89929" editRecord="[]">Pseudoalteromonas bacteriolytica IAM 145957 (D89929)</otu>
+  <otu id="otu16">Pseudoalieromonas citrea NCIMB 18897 (X821 37)</otu>
+  <otu id="otu17" cmphy:genus="Pseudoalteromonas" cmphy:species="aurantia" cmphy:strain="ATCC 330467" cmphy:id="X82135" editRecord="[]">Pseudoalteromonas aurantia ATCC 330467 (X82135)</otu>
+  <otu id="otu18" cmphy:genus="Pseudoalterornonas" cmphy:species="tunicata" cmphy:strain="D27" cmphy:id="Z25522" editRecord="[]">Pseudoalterornonas tunicata D27 (Z25522)</otu>
+  <otu id="otu19">Pseudoalteromonas ulvae UL1 27 (AF 1 7298 7)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="18.0" y="1080.0"/>
+   <node id="NT1.2" label="NT1.2" x="62.0" y="350.0"/>
+   <node id="NT1.4" label="NT1.4" x="96.0" y="583.0"/>
+   <node id="NT1.5" label="NT1.5" x="102.0" y="923.0"/>
+   <node id="NT1.6" label="NT1.6" x="124.0" y="115.0"/>
+   <node id="NT1.12" label="NT1.12" x="212.0" y="525.0" otu="otu2"/>
+   <node id="NT1.15" label="NT1.15" x="218.0" y="971.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="239.0" y="217.0"/>
+   <node id="NT1.17" label="NT1.17" x="241.0" y="14.0" otu="otu5"/>
+   <node id="NT1.21" label="NT1.21" x="310.0" y="589.0" otu="otu9"/>
+   <node id="NT1.22" label="NT1.22" x="324.0" y="326.0"/>
+   <node id="NT1.24" label="NT1.24" x="328.0" y="1290.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="418.0" y="844.0" otu="otu13"/>
+   <node id="NT1.28" label="NT1.28" x="435.0" y="413.0"/>
+   <node id="NT1.30" label="NT1.30" x="469.0" y="142.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="551.0" y="462.0" otu="otu15"/>
+   <node id="NT1.34" label="NT1.34" x="556.0" y="206.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="671.0" y="334.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="9.0" y="715.0" root="true"/>
+   <edge id="e.0" source="NT1.6" target="NT1.17"/>
+   <edge id="e.2" target="NT1.30" source="NT1.16"/>
+   <edge id="e.4" target="NT1.34" source="NT1.22"/>
+   <edge id="e.5" source="NT1.28" target="NT1.32"/>
+   <edge id="e.7" target="NT1.21" source="NT1.4"/>
+   <edge id="e.8" target="NT1.35" source="NT1.28"/>
+   <edge id="e.10" source="NT1.5" target="NT1.15"/>
+   <edge id="e.15" target="NT1.27" source="NT1.5"/>
+   <edge id="e.17" target="NT1.24" source="NT1.1"/>
+   <edge id="e.18" source="NT1.2" target="NT1.6"/>
+   <edge id="e.19" source="NT1.6" target="NT1.16"/>
+   <edge id="e.20" source="NT1.16" target="NT1.22"/>
+   <edge id="e.26" source="NT1.1" target="NT1.5"/>
+   <edge id="e.31" source="NT1.37" target="NT1.2"/>
+   <edge id="e.32" source="NT1.37" target="NT1.1"/>
+   <edge id="e.33" source="NT1.2" target="NT1.4"/>
+   <edge id="e.34" source="NT1.4" target="NT1.12"/>
+   <edge id="e.35" source="NT1.22" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Brevibacterium" cmphy:species="samyangense" cmphy:strain="SST-87" cmphy:id="DQB44485" editRecord="[3__B]">Brevibacterium samyangense SST-87 (DQ344485)</otu>
+  <otu id="otu2">Corynebacterium amycolatum CIP 1 03452T (X82057)</otu>
+  <otu id="otu3" cmphy:genus="Brevibacterium" cmphy:species="luteolum" cmphy:strain="CF8 7T" cmphy:id="AJ488509" editRecord="[]"> Brevibacterium luteolum CF8 7T (AJ488509)</otu>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Brevibacterium" cmphy:species="album" cmphy:strain="YIM 907187" cmphy:id="EFI58852" editRecord="[1__I]">Brevibacterium album YIM 907187 (EF158852)</otu>
+  <otu id="otu5" cmphy:genus="Brevibacterium" cmphy:species="otitidis" cmphy:strain="A3 7773T" cmphy:id="X93593" editRecord="[]"> Brevibacterium otitidis A3 7773T (X93593)</otu>
+  <otu id="otu6" cmphy:edit="[8__B]" cmphy:genus="Brevibacterium" cmphy:species="massiliense" cmphy:strain="strain 54013087" cmphy:id="EUB68814" editRecord="[8__B]">Brevibacterium massiliense strain 54013087 (EU868814)</otu>
+  <otu id="otu7">Brevibacterium avium NCFB 3055T (Y1 7962)</otu>
+  <otu id="otu8" cmphy:edit="[1__I]" cmphy:genus="Brevibacterium" cmphy:species="oceani" cmphy:strain="BBH7T" cmphy:id="AMI58906" editRecord="[1__I]"> Brevibacterium oceani BBH7T (AM158906)</otu>
+  <otu id="otu9">Brevibacterium picturae LMG 22061 T (AJ620364)</otu>
+  <otu id="otu10" cmphy:genus="Brevibacterium" cmphy:species="iodinum" cmphy:strain="DSM 2O626T" cmphy:id="X83813" editRecord="[]">Brevibacterium iodinum DSM 2O626T (X83813)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Brevibacterium" cmphy:species="celere" cmphy:strain="KMM 3637T" cmphy:id="AYZ28463" editRecord="[2__Z]"> Brevibacterium celere KMM 3637T (AY228463)</otu>
+  <otu id="otu13" cmphy:genus="Brevibacterium" cmphy:species="linens" cmphy:strain="DSM 20425T" cmphy:id="X77451" editRecord="[]">Brevibacterium linens DSM 20425T (X77451)</otu>
+  <otu id="otu14" cmphy:genus="Brevibacterium" cmphy:species="epidermidis" cmphy:strain="NCDO 22867" cmphy:id="X76565" editRecord="[]">Brevibacterium epidermidis NCDO 22867 (X76565)</otu>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Brevibacterium" cmphy:species="casei" cmphy:strain="DSM 20657" cmphy:id="AJZ51418" editRecord="[2__Z]">Brevibacterium casei DSM 20657 (AJ251418)</otu>
+  <otu id="otu18" cmphy:genus="Brevibacterium" cmphy:species="marinum" cmphy:strain="HFW-26T" cmphy:id="AM421807" editRecord="[]"> Brevibacterium marinum HFW-26T (AM421807)</otu>
+  <otu id="otu19" cmphy:genus="Brevibacterium" cmphy:species="mcbrellneri" cmphy:strain="ATCC 49O30T" cmphy:id="X93594" editRecord="[]"> Brevibacterium mcbrellneri ATCC 49O30T (X93594)</otu>
+  <otu id="otu20"> Brevibacterium antiquum VKM Ac-21 18T (AY243344)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">Brevibacterium stationis ATCC 14403T (FJ1 72667)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="365.0" y="816.0" label="100"/>
+   <node id="NT1.3" label="NT1.3" x="395.0" y="720.0"/>
+   <node id="NT1.4" x="414.0" y="576.0" label="34"/>
+   <node id="NT1.5" x="447.0" y="706.0" label="46"/>
+   <node id="NT1.6" label="NT1.6" x="497.0" y="758.0"/>
+   <node id="NT1.7" label="NT1.7" x="533.0" y="865.0" otu="otu1"/>
+   <node id="NT1.8" x="569.0" y="654.0" label="100"/>
+   <node id="NT1.10" label="NT1.10" x="584.0" y="630.0" otu="otu3"/>
+   <node id="NT1.11" label="NT1.11" x="585.0" y="912.0" otu="otu4"/>
+   <node id="NT1.13" label="NT1.13" x="621.0" y="677.0" otu="otu5"/>
+   <node id="NT1.14" x="622.0" y="305.0" label="39"/>
+   <node id="NT1.15" label="NT1.15" x="631.0" y="724.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="636.0" y="215.0"/>
+   <node id="NT1.17" x="643.0" y="393.0" label="56"/>
+   <node id="NT1.18" x="667.0" y="150.0" label="56"/>
+   <node id="NT1.21" label="NT1.21" x="678.0" y="349.0" otu="otu8"/>
+   <node id="NT1.23" x="682.0" y="437.0" label="98"/>
+   <node id="NT1.24" x="694.0" y="477.0" label="98"/>
+   <node id="NT1.29" label="NT1.29" x="721.0" y="537.0" otu="otu10"/>
+   <node id="NT1.31" label="NT1.31" x="725.0" y="114.0" otu="otu12"/>
+   <node id="NT1.32" label="NT1.32" x="725.0" y="395.0" otu="otu13"/>
+   <node id="NT1.33" label="NT1.33" x="727.0" y="442.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="744.0" y="208.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="746.0" y="255.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="750.0" y="770.0" otu="otu19"/>
+   <node id="NT1.43" label="NT1.43" x="2.0" y="898.0" root="true"/>
+   <edge id="e.3" target="NT1.31" source="NT1.18"/>
+   <edge id="e.4" source="NT1.18" target="NT1.37"/>
+   <edge id="e.6" target="NT1.38" source="NT1.16"/>
+   <edge id="e.7" source="NT1.23" target="NT1.32"/>
+   <edge id="e.8" source="NT1.24" target="NT1.33"/>
+   <edge id="e.9" target="NT1.29" source="NT1.24"/>
+   <edge id="e.12" source="NT1.8" target="NT1.10"/>
+   <edge id="e.13" source="NT1.8" target="NT1.13"/>
+   <edge id="e.14" source="NT1.6" target="NT1.15"/>
+   <edge id="e.15" source="NT1.3" target="NT1.7"/>
+   <edge id="e.16" target="NT1.39" source="NT1.6"/>
+   <edge id="e.17" source="NT1.2" target="NT1.11"/>
+   <edge id="e.24" source="NT1.16" target="NT1.18"/>
+   <edge id="e.25" source="NT1.14" target="NT1.16"/>
+   <edge id="e.27" target="NT1.14" source="NT1.4"/>
+   <edge id="e.28" source="NT1.14" target="NT1.17"/>
+   <edge id="e.29" source="NT1.17" target="NT1.23"/>
+   <edge id="e.31" source="NT1.23" target="NT1.24"/>
+   <edge id="e.33" source="NT1.3" target="NT1.4"/>
+   <edge id="e.34" source="NT1.4" target="NT1.5"/>
+   <edge id="e.35" source="NT1.5" target="NT1.6"/>
+   <edge id="e.36" source="NT1.5" target="NT1.8"/>
+   <edge id="e.37" source="NT1.2" target="NT1.3"/>
+   <edge id="e.39" source="NT1.43" target="NT1.2"/>
+   <edge id="e.41" source="NT1.17" target="NT1.21"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:genus="Pseudoalteromonas" cmphy:species="haloplanktis" cmphy:strain="ATCC 14393T" cmphy:id="X67024" editRecord="[]">Pseudoalteromonas haloplanktis ATCC 14393T (X67024)</otu>
+  <otu id="otu11" cmphy:genus="Marinobacter" cmphy:species="hydrocarbonoclasticus" cmphy:strain="ATCC 4984OT" cmphy:id="X67022" editRecord="[]">Marinobacter hydrocarbonoclasticus ATCC 4984OT (X67022)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[O__0]" cmphy:genus="Colwellia" cmphy:species="psychreiythraea" cmphy:strain="ATCC 27364T" cmphy:id="AFO01375" editRecord="[O__0]">Colwellia psychreiythraea ATCC 27364T (AFOO1375)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Idiomarina" cmphy:species="abyssalis" cmphy:strain="KMM 227T" cmphy:id="AFO52740" editRecord="[0__O]">Idiomarina abyssalis KMM 227T (AF052740)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Aestuariibacter" cmphy:species="halophilus" cmphy:strain="JC2043T" cmphy:id="AYZ07503" editRecord="[2__Z]"> Aestuariibacter halophilus JC2043T (AY207503)</otu>
+  <otu id="otu16" cmphy:genus="Aeromonas" cmphy:species="eucrenophila" cmphy:strain="ATCC 233097" cmphy:id="X74675" editRecord="[]">Aeromonas eucrenophila ATCC 233097 (X74675)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Aestuariibacter" cmphy:species="salexigens" cmphy:strain="JC2042T" cmphy:id="AYZ07502" editRecord="[2__Z]">Aestuariibacter salexigens JC2042T (AY207502)</otu>
+  <otu id="otu19" cmphy:genus="Alteromonas" cmphy:species="macleodii" cmphy:strain="DSM 6062T" cmphy:id="Y18228" editRecord="[]">Alteromonas macleodii DSM 6062T (Y18228)</otu>
+  <otu id="otu20" cmphy:edit="[5__S]" cmphy:genus="Alteromonas" cmphy:species="marina" cmphy:strain="SW-477" cmphy:id="AFS29060" editRecord="[5__S]">Alteromonas marina SW-477 (AF529060)</otu>
+  <otu id="otu21" cmphy:genus="Escherichia" cmphy:species="coli" cmphy:strain="ATCC 117757" cmphy:id="X80725" editRecord="[]">Escherichia coli ATCC 117757 (X80725)</otu>
+  <otu id="otu22"/>
+  <otu id="otu23" cmphy:genus="Glaciecola" cmphy:species="pallidula" cmphy:strain="ACAM 615T" cmphy:id="U85854" editRecord="[]">Glaciecola pallidula ACAM 615T (U85854)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="0.0" y="152.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="40.0" y="152.0"/>
+   <node id="NT1.3" label="NT1.3" x="80.0" y="294.0"/>
+   <node id="NT1.5" x="105.0" y="483.0" label="77"/>
+   <node id="NT1.6" x="121.0" y="596.0" label="68"/>
+   <node id="NT1.7" x="160.0" y="106.0" label="97"/>
+   <node id="NT1.8" x="165.0" y="648.0" label="-o"/>
+   <node id="NT1.11" label="NT1.11" x="266.0" y="370.0"/>
+   <node id="NT1.15" label="NT1.15" x="298.0" y="283.0"/>
+   <node id="NT1.20" x="329.0" y="224.0" label="71."/>
+   <node id="NT1.23" label="NT1.23" x="360.0" y="546.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="362.0" y="14.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="386.0" y="723.0" otu="otu13"/>
+   <node id="NT1.27" label="NT1.27" x="392.0" y="604.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="396.0" y="253.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="407.0" y="76.0" otu="otu16"/>
+   <node id="NT1.30" x="416.0" y="341.0" label="100"/>
+   <node id="NT1.33" label="NT1.33" x="427.0" y="194.0" otu="otu18"/>
+   <node id="NT1.34" label="NT1.34" x="427.0" y="311.0" otu="otu19"/>
+   <node id="NT1.35" label="NT1.35" x="434.0" y="370.0" otu="otu20"/>
+   <node id="NT1.36" label="NT1.36" x="441.0" y="136.0" otu="otu21"/>
+   <node id="NT1.38" label="NT1.38" x="487.0" y="487.0" otu="otu23"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.2" target="NT1.24"/>
+   <edge id="e.6" source="NT1.7" target="NT1.29"/>
+   <edge id="e.7" source="NT1.7" target="NT1.36"/>
+   <edge id="e.11" source="NT1.6" target="NT1.23"/>
+   <edge id="e.14" source="NT1.8" target="NT1.27"/>
+   <edge id="e.15" source="NT1.20" target="NT1.28"/>
+   <edge id="e.17" target="NT1.33" source="NT1.20"/>
+   <edge id="e.18" source="NT1.30" target="NT1.35"/>
+   <edge id="e.19" source="NT1.2" target="NT1.3"/>
+   <edge id="e.20" source="NT1.3" target="NT1.5"/>
+   <edge id="e.21" source="NT1.3" target="NT1.7"/>
+   <edge id="e.22" source="NT1.5" target="NT1.6"/>
+   <edge id="e.23" source="NT1.5" target="NT1.11"/>
+   <edge id="e.24" source="NT1.6" target="NT1.8"/>
+   <edge id="e.27" source="NT1.11" target="NT1.15"/>
+   <edge id="e.28" source="NT1.15" target="NT1.30"/>
+   <edge id="e.30" target="NT1.20" source="NT1.15"/>
+   <edge id="e.33" target="NT1.26" source="NT1.8"/>
+   <edge id="e.34" target="NT1.38" source="NT1.11"/>
+   <edge id="e.36" target="NT1.34" source="NT1.30"/>
+  </tree>
+ </trees>
+</nexml>

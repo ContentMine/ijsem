@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[3__B]" cmphy:genus="Enterococcus" cmphy:species="faecalis" cmphy:strain="LMG 7937T" cmphy:id="AJB01831" editRecord="[3__B]">Enterococcus faecalis LMG 7937T (AJ301831)</otu>
+  <otu id="otu2" cmphy:edit="[3__B]" cmphy:genus="Streptococcus" cmphy:species="iniae" cmphy:strain="ATCC 29178T" cmphy:id="AFB35572" editRecord="[3__B]">Streptococcus iniae ATCC 29178T (AF335572)</otu>
+  <otu id="otu3" cmphy:edit="[3__B]" cmphy:genus="Streptococcus" cmphy:species="gallinaceus" cmphy:strain="CCUG 42692T" cmphy:id="AJB07888" editRecord="[3__B]">Streptococcus gallinaceus CCUG 42692T (AJ307888)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Streptococcus" cmphy:species="minor" cmphy:strain="LMG 21734T" cmphy:id="AYZ32832" editRecord="[2__Z]">Streptococcus minor LMG 21734T (AY232832)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Streptococcus" cmphy:species="minor" cmphy:strain="LMG 21735" cmphy:id="AYZ32833" editRecord="[2__Z]">Streptococcus minor LMG 21735 (AY232833)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Streptococcus" cmphy:species="suis" cmphy:strain="NCTC 102347" cmphy:id="AFO09477" editRecord="[0__O]">Streptococcus suis NCTC 102347 (AF009477)</otu>
+  <otu id="otu7" cmphy:genus="Streptococcus" cmphy:species="ovis" cmphy:strain="CCUG 39485T" cmphy:id="Y17358" editRecord="[]">Streptococcus ovis CCUG 39485T (Y17358)</otu>
+  <otu id="otu8" cmphy:genus="Streptococcus" cmphy:species="entericus" cmphy:strain="CECT 5353T" cmphy:id="AJ409287" editRecord="[]">Streptococcus entericus CECT 5353T (AJ409287)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="105.0" y="298.0"/>
+   <node id="NT1.2" label="NT1.2" x="107.0" y="475.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="224.0" y="142.0"/>
+   <node id="NT1.4" label="NT1.4" x="230.0" y="310.0"/>
+   <node id="NT1.5" x="234.0" y="71.0" label="59"/>
+   <node id="NT1.6" label="NT1.6" x="241.0" y="129.0"/>
+   <node id="NT1.7" label="NT1.7" x="255.0" y="409.0" otu="otu2"/>
+   <node id="NT1.8" label="NT1.8" x="268.0" y="180.0"/>
+   <node id="NT1.9" label="NT1.9" x="279.0" y="346.0" otu="otu3"/>
+   <node id="NT1.10" label="NT1.10" x="290.0" y="213.0" otu="otu4"/>
+   <node id="NT1.11" label="NT1.11" x="292.0" y="145.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="293.0" y="279.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="325.0" y="78.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="332.0" y="13.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="14.0" y="298.0" root="true"/>
+   <edge id="e.0" source="NT1.5" target="NT1.14"/>
+   <edge id="e.1" source="NT1.8" target="NT1.10"/>
+   <edge id="e.2" source="NT1.6" target="NT1.13"/>
+   <edge id="e.3" source="NT1.4" target="NT1.9"/>
+   <edge id="e.4" source="NT1.4" target="NT1.12"/>
+   <edge id="e.5" source="NT1.1" target="NT1.7"/>
+   <edge id="e.6" source="NT1.3" target="NT1.5"/>
+   <edge id="e.7" source="NT1.5" target="NT1.6"/>
+   <edge id="e.8" source="NT1.1" target="NT1.3"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.10" source="NT1.6" target="NT1.8"/>
+   <edge id="e.11" source="NT1.8" target="NT1.11"/>
+   <edge id="e.12" source="NT1.15" target="NT1.1"/>
+   <edge id="e.13" source="NT1.15" target="NT1.2"/>
+  </tree>
+ </trees>
+</nexml>

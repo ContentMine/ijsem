@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Pedobacter" cmphy:species="saltans" cmphy:strain="DSM 121457" cmphy:id="AJ438173" editRecord="[]">Pedobacter saltans DSM 121457 (AJ438173)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Pedobacter" cmphy:species="roseus" cmphy:strain="CL-GP80T" cmphy:id="DQI12353" editRecord="[1__I]">Pedobacter roseus CL-GP80T (DQ112353)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Pedobacter" cmphy:species="suwonensis" cmphy:strain="15-52T" cmphy:id="DQO97274" editRecord="[0__O]">Pedobacter suwonensis 15-52T (DQ097274)</otu>
+  <otu id="otu4">Pedobacter aquatilis AR1O7T (AM1 14396)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Sphingobacterium" cmphy:species="spiritivorum" cmphy:strain="DSM 25827" cmphy:id="AJ459411" editRecord="[]">Sphingobacterium spiritivorum DSM 25827 (AJ459411)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Pedobacter" cmphy:species="heparinus" cmphy:strain="DSM 2366T" cmphy:id="AJ438172" editRecord="[]">Pedobacter heparinus DSM 2366T (AJ438172)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:genus="Pedobacter" cmphy:species="piscium" cmphy:strain="DSM 11725T" cmphy:id="AJ438174" editRecord="[]"> Pedobacter piscium DSM 11725T (AJ438174)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[5__S]" cmphy:genus="Pedobacter" cmphy:species="himalayensis" cmphy:strain="JCM 12171T" cmphy:id="AJS83425" editRecord="[5__S]">Pedobacter himalayensis JCM 12171T (AJ583425)</otu>
+  <otu id="otu15" cmphy:genus="Hymenobacter" cmphy:species="roseosalivarius" cmphy:strain="AA-688" cmphy:id="Y18834" editRecord="[]">Hymenobacter roseosalivarius AA-688 (Y18834)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="217.0" y="490.0"/>
+   <node id="NT1.2" x="242.0" y="387.0" label="76"/>
+   <node id="NT1.5" x="386.0" y="281.0" label="100"/>
+   <node id="NT1.7" x="422.0" y="367.0" label="37"/>
+   <node id="NT1.8" label="NT1.8" x="432.0" y="591.0" otu="otu1"/>
+   <node id="NT1.10" x="451.0" y="127.0" label="99"/>
+   <node id="NT1.12" label="NT1.12" x="476.0" y="325.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="482.0" y="414.0" otu="otu3"/>
+   <node id="NT1.16" x="506.0" y="181.0" label="99"/>
+   <node id="NT1.18" label="NT1.18" x="513.0" y="457.0" otu="otu6"/>
+   <node id="NT1.21" label="NT1.21" x="523.0" y="104.0" otu="otu9"/>
+   <node id="NT1.25" label="NT1.25" x="552.0" y="148.0" otu="otu12"/>
+   <node id="NT1.27" label="NT1.27" x="596.0" y="237.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="596.0" y="635.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="6.0" y="562.0" root="true"/>
+   <edge id="e.2" target="NT1.21" source="NT1.10"/>
+   <edge id="e.3" source="NT1.16" target="NT1.25"/>
+   <edge id="e.5" target="NT1.27" source="NT1.16"/>
+   <edge id="e.7" source="NT1.7" target="NT1.12"/>
+   <edge id="e.8" target="NT1.13" source="NT1.7"/>
+   <edge id="e.10" target="NT1.18" source="NT1.2"/>
+   <edge id="e.12" source="NT1.1" target="NT1.8"/>
+   <edge id="e.15" target="NT1.10" source="NT1.5"/>
+   <edge id="e.16" source="NT1.10" target="NT1.16"/>
+   <edge id="e.19" source="NT1.2" target="NT1.5"/>
+   <edge id="e.20" source="NT1.5" target="NT1.7"/>
+   <edge id="e.22" source="NT1.1" target="NT1.2"/>
+   <edge id="e.25" source="NT1.29" target="NT1.28"/>
+   <edge id="e.26" source="NT1.29" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

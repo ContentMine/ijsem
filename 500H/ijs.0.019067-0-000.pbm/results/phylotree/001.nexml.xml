@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">L. acidifarinae LMG 222007 (AJ632158)</otu>
+  <otu id="otu3">L. reuter1'DSM 200167 (X76328)</otu>
+  <otu id="otu4">L. zymae LMG 221987 (AJ632157)</otu>
+  <otu id="otu5">L. caseiATCC 334 (D86517)</otu>
+  <otu id="otu6">L. parabuchneri LMG 11457T(AJ97O317)</otu>
+  <otu id="otu7">L. rapiYlT 11204T(AB355389)</otu>
+  <otu id="otu8">L. diolivorans JKD6T (AF264701)</otu>
+  <otu id="otu9">L. homohiochii DSM 2o571T(AM11378o)</otu>
+  <otu id="otu10">L. sunkii YIT 111e1T (AB366385)</otu>
+  <otu id="otu11">L. parafarraginis NRIC O677T (AB262734)</otu>
+  <otu id="otu12">L. frucrivorans DSM 202037 (X76330)</otu>
+  <otu id="otu13">L. namurensis LMG 23583T(AM25911a)</otu>
+  <otu id="otu14">L. otakiensis YIT 1 1 1637 (AB366386)</otu>
+  <otu id="otu15">L. sakei DSM 2oo17T(AM1137e4)</otu>
+  <otu id="otu16">L. hammesii TMW 1.12367 (AJ632219)</otu>
+  <otu id="otu17">L. kisonensis YIT 111687 (AB366388)</otu>
+  <otu id="otu18">L buchneriJCM 1115T (AB205055)</otu>
+  <otu id="otu19">L. hilgardii DSM 2O176T (M58821)</otu>
+  <otu id="otu20">L. malefermentans CECT 5928T (AJ575743)</otu>
+  <otu id="otu21">L. planlarum NCDO 17527 (X52653)</otu>
+  <otu id="otu22">L. brevis ATCC 148697 (M58810)</otu>
+  <otu id="otu23"> L. kefiri LMG 94aoT (AJ621553)</otu>
+  <otu id="otu24">L. parakefiri YIT 1o382T (AB429373)</otu>
+  <otu id="otu25">L. farraginis NRIC 0676T (AB262731)</otu>
+  <otu id="otu26">L. parabrevis LMG 11984T(AM158249)</otu>
+  <otu id="otu27">L. delbrueckii ATCC 9649T (AYO501 72)</otu>
+  <otu id="otu28">L. kunkeeiYH-15T(Y11374)</otu>
+  <otu id="otu29">L. lindneri DSM 2oe9oT (X95421)</otu>
+  <otu id="otu30">L. sanfranciscensis ATCC 27651T(X76327)</otu>
+  <otu id="otu31">L. florum F17 (AB498047)</otu>
+  <otu id="otu32">L. florum F9-17 (AB498045)</otu>
+  <otu id="otu33" cmphy:edit="[1__I]" cmphy:genus="Lactococcus" cmphy:species="lactis" cmphy:strain="NCDO 6047" cmphy:id="ABI00803" editRecord="[1__I]">Lactococcus lactis NCDO 6047 (AB100803)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="1068.0" otu="otu1" root="true"/>
+   <node id="NT1.63" label="NT1.63" x="988.0" y="1135.0" otu="otu33"/>
+   <edge id="e.25" target="NT1.63" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="thalassocola" cmphy:strain="KMM 39077" cmphy:id="AYS21223" editRecord="[5__S]">Winogradskyella thalassocola KMM 39077 (AY521223)</otu>
+  <otu id="otu6" cmphy:genus="Lacinutrix" cmphy:species="copepodicola" cmphy:strain="DJ3T" cmphy:id="AY694001" editRecord="[]">Lacinutrix copepodicola DJ3T (AY694001)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8">Winogradskyella eximia KMM 3944T (AY521 225)</otu>
+  <otu id="otu9">Winogradskyella epiphytica KMM 39O6T (AY521 224)</otu>
+  <otu id="otu10" cmphy:edit="[5__S]" cmphy:genus="Winogradskyella" cmphy:species="exilis" cmphy:strain="022-2-267" cmphy:id="FJS95484" editRecord="[5__S]">Winogradskyella exilis 022-2-267 (FJ595484)</otu>
+  <otu id="otu11" cmphy:edit="[8__B]" cmphy:genus="Winogradskyella" cmphy:species="poriferorum" cmphy:strain="USTO30701 -295T" cmphy:id="AYB48823" editRecord="[8__B]">Winogradskyella poriferorum USTO30701 -295T (AY848823)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Gilvibacter" cmphy:species="sediminis" cmphy:strain="Mok-1 -36T" cmphy:id="ABZ55368" editRecord="[2__Z]">Gilvibacter sediminis Mok-1 -36T (AB255368)</otu>
+  <otu id="otu13">Ulvibacter antarcticus IMCC3101T(EF554364)</otu>
+  <otu id="otu14">Ulvibacter litoralis KMM 391 2T (AY243096)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="20.0" y="229.0"/>
+   <node id="NT1.2" label="NT1.2" x="82.0" y="149.0"/>
+   <node id="NT1.3" label="NT1.3" x="91.0" y="149.0" otu="otu1"/>
+   <node id="NT1.4" label="NT1.4" x="94.0" y="427.0"/>
+   <node id="NT1.5" label="NT1.5" x="102.0" y="428.0" otu="otu2"/>
+   <node id="NT1.6" x="111.0" y="95.0" label="82"/>
+   <node id="NT1.7" label="NT1.7" x="111.0" y="226.0"/>
+   <node id="NT1.8" label="NT1.8" x="118.0" y="95.0" otu="otu3"/>
+   <node id="NT1.9" label="NT1.9" x="125.0" y="238.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="191.0" y="385.0"/>
+   <node id="NT1.11" label="NT1.11" x="194.0" y="214.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="196.0" y="314.0" otu="otu6"/>
+   <node id="NT1.13" label="NT1.13" x="198.0" y="386.0" otu="otu7"/>
+   <node id="NT1.14" label="NT1.14" x="221.0" y="167.0" otu="otu8"/>
+   <node id="NT1.15" label="NT1.15" x="223.0" y="262.0" otu="otu9"/>
+   <node id="NT1.16" label="NT1.16" x="247.0" y="72.0" otu="otu10"/>
+   <node id="NT1.17" label="NT1.17" x="254.0" y="120.0" otu="otu11"/>
+   <node id="NT1.18" label="NT1.18" x="267.0" y="459.0" otu="otu12"/>
+   <node id="NT1.19" label="NT1.19" x="280.0" y="408.0" otu="otu13"/>
+   <node id="NT1.20" label="NT1.20" x="327.0" y="360.0" otu="otu14"/>
+   <edge source="NT1.8" target="NT1.6" id="e.0"/>
+   <edge source="NT1.3" target="NT1.2" id="e.1"/>
+   <edge source="NT1.17" target="NT1.6" id="e.2"/>
+   <edge source="NT1.9" target="NT1.7" id="e.3"/>
+   <edge source="NT1.11" target="NT1.7" id="e.4"/>
+   <edge source="NT1.14" target="NT1.7" id="e.5"/>
+   <edge source="NT1.15" target="NT1.7" id="e.6"/>
+   <edge source="NT1.5" target="NT1.4" id="e.7"/>
+   <edge source="NT1.13" target="NT1.10" id="e.8"/>
+   <edge source="NT1.20" target="NT1.10" id="e.9"/>
+   <edge source="NT1.6" target="NT1.2" id="e.10"/>
+   <edge source="NT1.2" target="NT1.1" id="e.11"/>
+   <edge source="NT1.2" target="NT1.7" id="e.12"/>
+   <edge source="NT1.4" target="NT1.10" id="e.13"/>
+   <edge source="NT1.1" target="NT1.4" id="e.14"/>
+   <edge source="NT1.12" target="NT1.1" id="e.15"/>
+   <edge source="NT1.18" target="NT1.4" id="e.16"/>
+   <edge source="NT1.16" target="NT1.6" id="e.17"/>
+   <edge source="NT1.19" target="NT1.10" id="e.18"/>
+  </tree>
+ </trees>
+</nexml>

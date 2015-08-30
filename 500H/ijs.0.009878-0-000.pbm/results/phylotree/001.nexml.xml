@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">S. rectiverticillatus NRRL B-1 2369T (DQ026657)</otu>
+  <otu id="otu2">S. caeruleus ATCC 27421T(EF178675)</otu>
+  <otu id="otu3">S. Iilacinus ATCC 23930T (AB184819)</otu>
+  <otu id="otu4">S. blastmyceticus ATCC 19731 T (AY999802)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="varsoviensis" cmphy:strain="ATCC 25505T" cmphy:id="DQO26653" editRecord="[0__O]">S. varsoviensis ATCC 25505T (DQ026653)</otu>
+  <otu id="otu6">S. griseocarneus ATCC 1 2628T (X99943)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="orinoci" cmphy:strain="NBRC 13466T" cmphy:id="ABI84866" editRecord="[1__I]">S. orinoci NBRC 13466T (AB184866)</otu>
+  <otu id="otu8"> (S. IividuS' NBRC 13787 (AB184480)</otu>
+  <otu id="otu9">8. sioyaensis DSM 40032T (DQ026654)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">S. javensis DSM 41 7647 (DQ445793)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13"> S. catenulae ATCC 12476T(AJ621613)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">s. chrestomyceticus ATCC 14947T(Doo26e33)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="ramulosus" cmphy:strain="ATCC 198O2T" cmphy:id="DQO26662" editRecord="[0__O]">S. ramulosus ATCC 198O2T (DQ026662)</otu>
+  <otu id="otu17">(S. cebimarensis1 DSM 41798 (AJ560629)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:genus="S." cmphy:species="monomycini" cmphy:strain="DSM 41801T" cmphy:id="DQ445790" editRecord="[]">S. monomycini DSM 41801T (DQ445790)</otu>
+  <otu id="otu20">(S. VI'rI'dI'Sy NBRC 13373 (AB184361)</otu>
+  <otu id="otu21">S. albiaxialis DSM 41 799T (AY999901)</otu>
+  <otu id="otu22">(S. propurpuratus1 NBRC 13842 (AB184524)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="flavofuscus" cmphy:strain="NRRL B-8036T" cmphy:id="DQO26648" editRecord="[0__O]">S. flavofuscus NRRL B-8036T (DQ026648)</otu>
+  <otu id="otu25" cmphy:edit="[5__S]" cmphy:genus="S." cmphy:species="xinghaiensis" cmphy:strain="S1877" cmphy:id="EFS77247" editRecord="[5__S]">S. xinghaiensis S1877 (EF577247)</otu>
+  <otu id="otu26" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="ferralitis" cmphy:strain="SFOp68T" cmphy:id="AYZ62826" editRecord="[2__Z]">S. ferralitis SFOp68T (AY262826)</otu>
+  <otu id="otu27" cmphy:genus="Nocardia" cmphy:species="carnea" cmphy:strain="DSM 43397T" cmphy:id="X80607" editRecord="[]">Nocardia carnea DSM 43397T (X80607)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.3" label="NT1.3" x="571.0" y="819.0"/>
+   <node id="NT1.6" label="NT1.6" x="584.0" y="743.0"/>
+   <node id="NT1.12" label="NT1.12" x="642.0" y="522.0"/>
+   <node id="NT1.13" label="NT1.13" x="664.0" y="389.0"/>
+   <node id="NT1.15" label="NT1.15" x="672.0" y="917.0" otu="otu5"/>
+   <node id="NT1.24" label="NT1.24" x="717.0" y="691.0"/>
+   <node id="NT1.29" label="NT1.29" x="733.0" y="831.0" otu="otu7"/>
+   <node id="NT1.31" label="NT1.31" x="737.0" y="723.0"/>
+   <node id="NT1.40" label="NT1.40" x="783.0" y="487.0" otu="otu16"/>
+   <node id="NT1.44" label="NT1.44" x="800.0" y="187.0" otu="otu19"/>
+   <node id="NT1.49" label="NT1.49" x="845.0" y="702.0" otu="otu24"/>
+   <node id="NT1.50" label="NT1.50" x="852.0" y="659.0" otu="otu25"/>
+   <node id="NT1.51" label="NT1.51" x="926.0" y="746.0" otu="otu26"/>
+   <node id="NT1.52" label="NT1.52" x="926.0" y="1132.0" otu="otu27"/>
+   <node id="NT1.53" label="NT1.53" x="2.0" y="1020.0" root="true"/>
+   <edge id="e.3" target="NT1.44" source="NT1.13"/>
+   <edge id="e.10" target="NT1.40" source="NT1.13"/>
+   <edge id="e.13" source="NT1.24" target="NT1.50"/>
+   <edge id="e.14" source="NT1.31" target="NT1.51"/>
+   <edge id="e.15" source="NT1.6" target="NT1.29"/>
+   <edge id="e.16" target="NT1.15" source="NT1.3"/>
+   <edge id="e.30" source="NT1.12" target="NT1.13"/>
+   <edge id="e.33" target="NT1.12" source="NT1.6"/>
+   <edge id="e.37" target="NT1.24" source="NT1.12"/>
+   <edge id="e.38" source="NT1.24" target="NT1.31"/>
+   <edge id="e.39" source="NT1.3" target="NT1.6"/>
+   <edge id="e.40" target="NT1.3" source="NT1.53"/>
+   <edge id="e.45" source="NT1.53" target="NT1.52"/>
+   <edge id="e.50" source="NT1.31" target="NT1.49"/>
+  </tree>
+ </trees>
+</nexml>

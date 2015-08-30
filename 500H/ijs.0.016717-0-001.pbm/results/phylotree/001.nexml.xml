@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6">Watronohydrobacterthiooxidans' AHO 1 (AJ132383)</otu>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Rhodobaca" cmphy:species="bogoriensis" cmphy:strain="LBB1T" cmphy:id="AFZ48638" editRecord="[2__Z]">Rhodobaca bogoriensis LBB1T (AF248638)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Roseinatronobacter" cmphy:species="thiooxidans" cmphy:strain="ALG 1T" cmphy:id="AFZ49749" editRecord="[2__Z]">Roseinatronobacter thiooxidans ALG 1T (AF249749)</otu>
+  <otu id="otu9" cmphy:genus="Roseibaca" cmphy:species="ekhonensis" cmphy:strain="EL-507" cmphy:id="AJ605746" editRecord="[]">Roseibaca ekhonensis EL-507 (AJ605746)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">Paracoccus denitrificans LMG 4218T(X69159)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="390.0" otu="otu1" root="true"/>
+   <node id="NT1.5" label="NT1.5" x="192.0" y="508.0"/>
+   <node id="NT1.8" label="NT1.8" x="252.0" y="462.0"/>
+   <node id="NT1.14" label="NT1.14" x="359.0" y="280.0" otu="otu7"/>
+   <node id="NT1.15" label="NT1.15" x="371.0" y="480.0" otu="otu8"/>
+   <node id="NT1.16" label="NT1.16" x="380.0" y="540.0" otu="otu9"/>
+   <edge id="e.3" source="NT1.8" target="NT1.15"/>
+   <edge id="e.6" target="NT1.5" source="NT1.1"/>
+   <edge id="e.8" source="NT1.5" target="NT1.8"/>
+   <edge id="e.14" target="NT1.16" source="NT1.5"/>
+   <edge id="e.16" target="NT1.14" source="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

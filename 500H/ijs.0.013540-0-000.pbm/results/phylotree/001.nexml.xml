@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:genus="Friedmanniella" cmphy:species="spumicola" cmphy:strain="ACM 51217" cmphy:id="AFO62535" editRecord="[]">Friedmanniella spumicola ACM 51217 (AFO62535)</otu>
+  <otu id="otu3" cmphy:edit="[2__Z]" cmphy:genus="Microlunatus" cmphy:species="panaciterrae" cmphy:strain="Gsoil 9547" cmphy:id="ABZ71051" editRecord="[2__Z]">Microlunatus panaciterrae Gsoil 9547 (AB271051)</otu>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Microlunatus" cmphy:species="ginsengisoli" cmphy:strain="Gsoil 6337" cmphy:id="ABZ45389" editRecord="[2__Z]">Microlunatus ginsengisoli Gsoil 6337 (AB245389)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Propionicimonas" cmphy:species="paludicola" cmphy:strain="Wd7" cmphy:id="ABO78858" editRecord="[0__O]">Propionicimonas paludicola Wd7 (AB078858)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[8__B]" cmphy:genus="Microlunatus" cmphy:species="soli" cmphy:strain="CC-126027" cmphy:id="FJB07672" editRecord="[8__B]">Microlunatus soli CC-126027 (FJ807672)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Propioniferax" cmphy:species="innocua" cmphy:strain="ATCC 499297" cmphy:id="AFZ27165" editRecord="[2__Z]">Propioniferax innocua ATCC 499297 (AF227165)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="Propionibacterium" cmphy:species="propionicum" cmphy:strain="DSM 433077" cmphy:id="AJB15953" editRecord="[3__B]">Propionibacterium propionicum DSM 433077 (AJ315953)</otu>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Micropruina" cmphy:species="glycogenica" cmphy:strain="Lg27" cmphy:id="ABO12607" editRecord="[0__O]">Micropruina glycogenica Lg27 (AB012607)</otu>
+  <otu id="otu16">Propionibacterium freudenreichii subsp. shermanii DSM 49027 (Y10819)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18">Aeriscardovia aeriphila T67 (AY1 741 O7)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="208.0" y="381.0"/>
+   <node id="NT1.2" x="248.0" y="288.0" label="90"/>
+   <node id="NT1.3" x="249.0" y="472.0" label="69"/>
+   <node id="NT1.4" x="263.0" y="198.0" label="66"/>
+   <node id="NT1.6" x="293.0" y="132.0" label="80"/>
+   <node id="NT1.7" x="305.0" y="96.0" label="58"/>
+   <node id="NT1.14" x="352.0" y="378.0" label="700"/>
+   <node id="NT1.18" label="NT1.18" x="387.0" y="245.0" otu="otu2"/>
+   <node id="NT1.19" label="NT1.19" x="388.0" y="168.0" otu="otu3"/>
+   <node id="NT1.20" label="NT1.20" x="393.0" y="91.0" otu="otu4"/>
+   <node id="NT1.24" label="NT1.24" x="425.0" y="398.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="429.0" y="130.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="462.0" y="436.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="479.0" y="589.0" otu="otu14"/>
+   <node id="NT1.31" label="NT1.31" x="502.0" y="359.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="3.0" y="523.0" root="true"/>
+   <edge id="e.2" target="NT1.20" source="NT1.7"/>
+   <edge id="e.3" source="NT1.7" target="NT1.26"/>
+   <edge id="e.4" source="NT1.6" target="NT1.19"/>
+   <edge id="e.6" target="NT1.18" source="NT1.4"/>
+   <edge id="e.9" source="NT1.14" target="NT1.24"/>
+   <edge id="e.10" source="NT1.14" target="NT1.31"/>
+   <edge id="e.11" source="NT1.3" target="NT1.28"/>
+   <edge id="e.17" source="NT1.6" target="NT1.7"/>
+   <edge id="e.18" source="NT1.4" target="NT1.6"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.21" source="NT1.1" target="NT1.2"/>
+   <edge id="e.22" source="NT1.2" target="NT1.14"/>
+   <edge id="e.25" source="NT1.1" target="NT1.3"/>
+   <edge id="e.31" source="NT1.35" target="NT1.1"/>
+   <edge id="e.33" target="NT1.30" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

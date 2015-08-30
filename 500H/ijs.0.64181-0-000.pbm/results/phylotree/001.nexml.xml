@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[0__O]" cmphy:genus="Reichenbachiella" cmphy:species="agariperforans" cmphy:strain="KMM 3525T" cmphy:id="ABO58919" editRecord="[0__O]">Reichenbachiella agariperforans KMM 3525T (AB058919)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Sporocytophaga" cmphy:species="rnyxococcoides" cmphy:strain="DSM 111187" cmphy:id="AJB10654" editRecord="[3__B]">Sporocytophaga rnyxococcoides DSM 111187 (AJ310654)</otu>
+  <otu id="otu12">Fle-ctobacillus major ATCC 294967 (M62787)</otu>
+  <otu id="otu13"/>
+  <otu id="otu14" cmphy:genus="Cytophaga" cmphy:species="hutchinsonii" cmphy:strain="DSM 1761T" cmphy:id="D12663" editRecord="[]">Cytophaga hutchinsonii DSM 1761T (D12663)</otu>
+  <otu id="otu15" cmphy:genus="Flavobacterium" cmphy:species="aquatile" cmphy:strain="ATCC 119477" cmphy:id="M62797" editRecord="[]">Flavobacterium aquatile ATCC 119477 (M62797)</otu>
+  <otu id="otu16" cmphy:genus="Persicobacter" cmphy:species="diffluens" cmphy:strain="NCIMB 14027" cmphy:id="D12660" editRecord="[]">Persicobacter diffluens NCIMB 14027 (D12660)</otu>
+  <otu id="otu17" cmphy:genus="Flexlbacter" cmphy:species="flexilis" cmphy:strain="ATCC 230797" cmphy:id="M62794" editRecord="[]">Flexlbacter flexilis ATCC 230797 (M62794)</otu>
+  <otu id="otu18">Strain WPCB131T (DQ089669)</otu>
+  <otu id="otu19" cmphy:genus="Hymenobacter" cmphy:species="actfnosclerus" cmphy:strain="CCUG 39621T" cmphy:id="Y17356" editRecord="[]">Hymenobacter actfnosclerus CCUG 39621T (Y17356)</otu>
+  <otu id="otu20" cmphy:genus="Pedobacter" cmphy:species="heparinus" cmphy:strain="DSM 2366T" cmphy:id="AJ438172" editRecord="[]">Pedobacter heparinus DSM 2366T (AJ438172)</otu>
+  <otu id="otu21" cmphy:edit="[1__I]" cmphy:genus="Dyadobacter" cmphy:species="fermentens" cmphy:strain="NS114T" cmphy:id="AFI37029" editRecord="[1__I]">Dyadobacter fermentens NS114T (AF137029)</otu>
+  <otu id="otu22" cmphy:edit="[2__Z]" cmphy:genus="Hymenobacter" cmphy:species="aerophilus" cmphy:strain="ll26-Cor1T" cmphy:id="AJZ76901" editRecord="[2__Z]">Hymenobacter aerophilus ll26-Cor1T (AJ276901)</otu>
+  <otu id="otu23" cmphy:genus="Hymenobacter" cmphy:species="roseosalivarius" cmphy:strain="AA-718T" cmphy:id="Y18833" editRecord="[]">Hymenobacter roseosalivarius AA-718T (Y18833)</otu>
+  <otu id="otu24" cmphy:genus="Sphingobacterium" cmphy:species="spiritivorum" cmphy:strain="DSM 2582" cmphy:id="AJ459411" editRecord="[]">Sphingobacterium spiritivorum DSM 2582 (AJ459411)</otu>
+  <otu id="otu25" cmphy:genus="Runella" cmphy:species="slifhyformis" cmphy:strain="ATCC 295307" cmphy:id="M62786" editRecord="[]">Runella slifhyformis ATCC 295307 (M62786)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="132.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="80.0" y="275.0"/>
+   <node id="NT1.4" label="NT1.4" x="155.0" y="599.0"/>
+   <node id="NT1.5" label="NT1.5" x="171.0" y="680.0"/>
+   <node id="NT1.6" label="NT1.6" x="182.0" y="317.0"/>
+   <node id="NT1.9" label="NT1.9" x="221.0" y="734.0"/>
+   <node id="NT1.11" label="NT1.11" x="245.0" y="632.0"/>
+   <node id="NT1.13" label="NT1.13" x="266.0" y="520.0"/>
+   <node id="NT1.14" label="NT1.14" x="338.0" y="414.0"/>
+   <node id="NT1.17" label="NT1.17" x="444.0" y="221.0"/>
+   <node id="NT1.22" label="NT1.22" x="504.0" y="306.0"/>
+   <node id="NT1.23" label="NT1.23" x="510.0" y="654.0" otu="otu10"/>
+   <node id="NT1.24" label="NT1.24" x="522.0" y="707.0" otu="otu11"/>
+   <node id="NT1.27" label="NT1.27" x="542.0" y="760.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="571.0" y="15.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="571.0" y="600.0" otu="otu16"/>
+   <node id="NT1.30" label="NT1.30" x="575.0" y="67.0" otu="otu17"/>
+   <node id="NT1.32" label="NT1.32" x="579.0" y="334.0" otu="otu19"/>
+   <node id="NT1.33" label="NT1.33" x="583.0" y="493.0" otu="otu20"/>
+   <node id="NT1.34" label="NT1.34" x="583.0" y="387.0" otu="otu21"/>
+   <node id="NT1.35" label="NT1.35" x="587.0" y="279.0" otu="otu22"/>
+   <node id="NT1.36" label="NT1.36" x="624.0" y="173.0" otu="otu23"/>
+   <node id="NT1.37" label="NT1.37" x="628.0" y="547.0" otu="otu24"/>
+   <node id="NT1.38" label="NT1.38" x="705.0" y="441.0" otu="otu25"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.2" target="NT1.28"/>
+   <edge id="e.9" target="NT1.30" source="NT1.2"/>
+   <edge id="e.12" source="NT1.11" target="NT1.23"/>
+   <edge id="e.13" source="NT1.13" target="NT1.33"/>
+   <edge id="e.14" source="NT1.9" target="NT1.27"/>
+   <edge id="e.16" source="NT1.11" target="NT1.29"/>
+   <edge id="e.18" target="NT1.36" source="NT1.17"/>
+   <edge id="e.19" source="NT1.22" target="NT1.32"/>
+   <edge id="e.20" source="NT1.22" target="NT1.35"/>
+   <edge id="e.21" source="NT1.14" target="NT1.38"/>
+   <edge id="e.23" source="NT1.2" target="NT1.6"/>
+   <edge id="e.24" source="NT1.2" target="NT1.4"/>
+   <edge id="e.25" source="NT1.4" target="NT1.13"/>
+   <edge id="e.26" source="NT1.4" target="NT1.5"/>
+   <edge id="e.27" source="NT1.6" target="NT1.14"/>
+   <edge id="e.28" source="NT1.6" target="NT1.17"/>
+   <edge id="e.29" source="NT1.5" target="NT1.11"/>
+   <edge id="e.30" source="NT1.5" target="NT1.9"/>
+   <edge id="e.33" target="NT1.22" source="NT1.17"/>
+   <edge id="e.34" source="NT1.9" target="NT1.24"/>
+   <edge id="e.35" source="NT1.14" target="NT1.34"/>
+   <edge id="e.36" source="NT1.13" target="NT1.37"/>
+  </tree>
+ </trees>
+</nexml>

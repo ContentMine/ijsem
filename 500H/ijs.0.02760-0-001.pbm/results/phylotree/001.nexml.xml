@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Mycobacterium" cmphy:species="intermedium" cmphy:strain="1669l91T" cmphy:id="X67847" editRecord="[]">Mycobacterium intermedium 1669l91T (X67847)</otu>
+  <otu id="otu2" cmphy:edit="[1__I]" cmphy:genus="Mycobacterium" cmphy:species="kubicae" cmphy:strain="CDC 941O78T" cmphy:id="AFI33902" editRecord="[1__I]">Mycobacterium kubicae CDC 941O78T (AF133902)</otu>
+  <otu id="otu3">Mycobacterium heidelbergense (X70960)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Mycobacterium" cmphy:species="parmense" cmphy:strain="MUP 1182V" cmphy:id="AF466821" editRecord="[]">Mycobacterium parmense MUP 1182V (AF466821)</otu>
+  <otu id="otu6">Mycobacterium interjectum (AFO14937)</otu>
+  <otu id="otu7">Mycobacterium triplex (U57632)</otu>
+  <otu id="otu8">Mycobacterium tuberculosis (X52917)</otu>
+  <otu id="otu9" cmphy:genus="Mycobacterium" cmphy:species="lentiflavum" cmphy:strain="439l93" cmphy:id="X80770" editRecord="[]">Mycobacterium lentiflavum 439l93 (X80770)</otu>
+  <otu id="otu10">Mycobacterium genavense (X60070)</otu>
+  <otu id="otu11" cmphy:edit="[3__B]" cmphy:genus="Mycobacterium" cmphy:species="montefiorense" cmphy:strain="ATCC BAA-256T" cmphy:id="AFB30038" editRecord="[3__B]">Mycobacterium montefiorense ATCC BAA-256T (AF330038)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="118.0" y="361.0" label="932"/>
+   <node id="NT1.3" label="NT1.3" x="131.0" y="509.0" otu="otu1"/>
+   <node id="NT1.5" label="NT1.5" x="212.0" y="454.0" otu="otu2"/>
+   <node id="NT1.7" label="NT1.7" x="257.0" y="192.0"/>
+   <node id="NT1.8" label="NT1.8" x="265.0" y="223.0"/>
+   <node id="NT1.14" label="NT1.14" x="309.0" y="287.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="332.0" y="175.0" otu="otu9"/>
+   <node id="NT1.20" label="NT1.20" x="417.0" y="120.0" otu="otu11"/>
+   <node id="NT1.21" label="NT1.21" x="5.0" y="440.0" root="true"/>
+   <edge id="e.0" target="NT1.20" source="NT1.7"/>
+   <edge id="e.1" source="NT1.2" target="NT1.5"/>
+   <edge id="e.4" target="NT1.7" source="NT1.2"/>
+   <edge id="e.5" source="NT1.7" target="NT1.8"/>
+   <edge id="e.8" target="NT1.18" source="NT1.8"/>
+   <edge id="e.10" source="NT1.21" target="NT1.2"/>
+   <edge id="e.12" target="NT1.3" source="NT1.21"/>
+   <edge id="e.16" source="NT1.8" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

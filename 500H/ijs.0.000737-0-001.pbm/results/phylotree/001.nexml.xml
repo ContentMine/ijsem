@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[8__B]" cmphy:genus="S." cmphy:species="sediminis" cmphy:strain="HAW-EB3T" cmphy:id="AYB42130" editRecord="[8__B]"> S. sediminis HAW-EB3T (AY842130)</otu>
+  <otu id="otu2" cmphy:edit="[8__B]" cmphy:genus="S." cmphy:species="atlantica" cmphy:strain="HAW-EB5T" cmphy:id="AYB42132" editRecord="[8__B]"> S. atlantica HAW-EB5T (AY842132)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="schlegeliana" cmphy:strain="HRKA1T" cmphy:id="ABO81766" editRecord="[0__O]">S. schlegeliana HRKA1T (AB081766)</otu>
+  <otu id="otu8"> S. Ioihica PV-4T (CP000606)</otu>
+  <otu id="otu9"/>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="s." cmphy:species="psychrophila" cmphy:strain="wP2T" cmphy:id="AMZ29307">s. psychrophila wP2T (AM229307)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="algidipiscicola" cmphy:strain="S137" cmphy:id="ABZ66202" editRecord="[2__Z]"> S. algidipiscicola S137 (AB266202)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="piezotolerans" cmphy:strain="WP3T" cmphy:id="AMZ29308" editRecord="[2__Z]"> S. piezotolerans WP3T (AM229308)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15">s. violacea (AB092340)</otu>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18">S. fidelis (AM229309)</otu>
+  <otu id="otu19" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="gelidimarina" cmphy:strain="ACAM 4567" cmphy:id="AFO14946" editRecord="[0__O]"> S. gelidimarina ACAM 4567 (AF014946)</otu>
+  <otu id="otu20"/>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="glacialipiscicola" cmphy:strain="T1477" cmphy:id="ABZ66200" editRecord="[2__Z]"> S. glacialipiscicola T1477 (AB266200)</otu>
+  <otu id="otu23"/>
+  <otu id="otu24"/>
+  <otu id="otu25" cmphy:edit="[2__Z]" cmphy:genus="S." cmphy:species="morhuae" cmphy:strain="U1417T" cmphy:id="ABZ08062" editRecord="[2__Z]">S. morhuae U1417T (AB208062)</otu>
+  <otu id="otu26"/>
+  <otu id="otu27"> S. decolorationis CCTCC M 2030937 (AJ609572)</otu>
+  <otu id="otu28"/>
+  <otu id="otu29" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="denitrificans" cmphy:strain="OS217T" cmphy:id="CPO00302" editRecord="[0__O]"> S. denitrificans OS217T (CP000302)</otu>
+  <otu id="otu30"/>
+  <otu id="otu31" cmphy:edit="[0__O]" cmphy:genus="S." cmphy:species="algae" cmphy:strain="ATCC 51192T" cmphy:id="AFO05686" editRecord="[0__O]">S. algae ATCC 51192T (AF005686)</otu>
+  <otu id="otu32"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="38.0" y="817.0"/>
+   <node id="NT1.3" x="45.0" y="676.0" label="65"/>
+   <node id="NT1.4" x="89.0" y="530.0" label="63"/>
+   <node id="NT1.5" label="NT1.5" x="93.0" y="322.0"/>
+   <node id="NT1.6" x="131.0" y="513.0" label="96"/>
+   <node id="NT1.9" label="NT1.9" x="139.0" y="820.0"/>
+   <node id="NT1.12" x="184.0" y="223.0" label="94"/>
+   <node id="NT1.26" label="NT1.26" x="369.0" y="790.0" otu="otu1"/>
+   <node id="NT1.29" label="NT1.29" x="413.0" y="860.0" otu="otu2"/>
+   <node id="NT1.35" label="NT1.35" x="435.0" y="613.0" otu="otu7"/>
+   <node id="NT1.38" label="NT1.38" x="442.0" y="931.0" otu="otu10"/>
+   <node id="NT1.39" label="NT1.39" x="450.0" y="401.0" otu="otu11"/>
+   <node id="NT1.41" label="NT1.41" x="463.0" y="472.0" otu="otu13"/>
+   <node id="NT1.43" x="481.0" y="136.0" label="100"/>
+   <node id="NT1.48" label="NT1.48" x="520.0" y="719.0" otu="otu19"/>
+   <node id="NT1.51" label="NT1.51" x="550.0" y="119.0" otu="otu22"/>
+   <node id="NT1.54" label="NT1.54" x="588.0" y="155.0" otu="otu25"/>
+   <node id="NT1.58" label="NT1.58" x="612.0" y="260.0" otu="otu29"/>
+   <node id="NT1.60" label="NT1.60" x="686.0" y="1072.0" otu="otu31"/>
+   <node id="NT1.62" label="NT1.62" x="5.0" y="940.0" root="true"/>
+   <edge id="e.3" source="NT1.43" target="NT1.51"/>
+   <edge id="e.4" source="NT1.43" target="NT1.54"/>
+   <edge id="e.7" target="NT1.58" source="NT1.12"/>
+   <edge id="e.12" target="NT1.39" source="NT1.5"/>
+   <edge id="e.13" source="NT1.6" target="NT1.41"/>
+   <edge id="e.16" target="NT1.35" source="NT1.6"/>
+   <edge id="e.21" target="NT1.48" source="NT1.4"/>
+   <edge id="e.22" source="NT1.9" target="NT1.26"/>
+   <edge id="e.23" target="NT1.29" source="NT1.9"/>
+   <edge id="e.26" target="NT1.38" source="NT1.1"/>
+   <edge id="e.30" target="NT1.60" source="NT1.62"/>
+   <edge id="e.34" target="NT1.43" source="NT1.12"/>
+   <edge id="e.36" source="NT1.5" target="NT1.12"/>
+   <edge id="e.39" source="NT1.6" target="NT1.5"/>
+   <edge id="e.42" source="NT1.4" target="NT1.6"/>
+   <edge id="e.44" source="NT1.3" target="NT1.4"/>
+   <edge id="e.47" source="NT1.1" target="NT1.3"/>
+   <edge id="e.48" source="NT1.3" target="NT1.9"/>
+   <edge id="e.57" source="NT1.62" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

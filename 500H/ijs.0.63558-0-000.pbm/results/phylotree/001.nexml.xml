@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Pichia" cmphy:species="farinosa" cmphy:strain="JCM 8895" cmphy:id="ABO13513" editRecord="[0__O]">Pichia farinosa JCM 8895 (AB013513)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[1__I]" cmphy:genus="Pichia" cmphy:species="myanmarensis" cmphy:strain="M217" cmphy:id="ABI26683" editRecord="[1__I]"> Pichia myanmarensis M217 (AB126683)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:edit="[1__I]" cmphy:genus="Pichia" cmphy:species="anomala" cmphy:strain="IFO 10213T" cmphy:id="ABI26679" editRecord="[1__I]">Pichia anomala IFO 10213T (AB126679)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Pichia" cmphy:species="anomala" cmphy:strain="M34-1" cmphy:id="ABI26682" editRecord="[1__I]"> Pichia anomala M34-1 (AB126682)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Saccharomyces" cmphy:species="cerevisiae" cmphy:strain="NCYC 505" cmphy:id="Z75578" editRecord="[2__Z]">Saccharomyces cerevisiae NCYC 505 (275578)</otu>
+  <otu id="otu9" cmphy:edit="[0__O]" cmphy:genus="Citeromyces" cmphy:species="siamensis" cmphy:strain="H130" cmphy:id="ABO34906" editRecord="[0__O]">Citeromyces siamensis H130 (AB034906)</otu>
+  <otu id="otu10" cmphy:genus="Williopsis" cmphy:species="mucosa" cmphy:strain="CBS 6341" cmphy:id="Y12109" editRecord="[]">Williopsis mucosa CBS 6341 (Y12109)</otu>
+  <otu id="otu11" cmphy:genus="Zygosaccharomyces" cmphy:species="rouxii" cmphy:strain="NCYC 568" cmphy:id="X90758" editRecord="[]">Zygosaccharomyces rouxii NCYC 568 (X90758)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Pichia" cmphy:species="methanolica" cmphy:strain="JCM 10240" cmphy:id="ABO18181" editRecord="[0__O]">Pichia methanolica JCM 10240 (AB018181)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Candida" cmphy:species="silvicultrix" cmphy:strain="JCM 9831" cmphy:id="ABO54561" editRecord="[0__O]">Candida silvicultrix JCM 9831 (AB054561)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+  <otu id="otu16"/>
+  <otu id="otu17"/>
+  <otu id="otu18"/>
+  <otu id="otu19" cmphy:edit="[0__O]" cmphy:genus="Schizosaccharomyces" cmphy:species="pombe" cmphy:strain="NRRL Y-12796" cmphy:id="AYO46272" editRecord="[0__O]">Schizosaccharomyces pombe NRRL Y-12796 (AY046272)</otu>
+  <otu id="otu20" cmphy:edit="[0__O]" cmphy:genus="Pichia" cmphy:species="membranifaciens" cmphy:strain="IFO 10215" cmphy:id="ABO19215" editRecord="[0__O]">Pichia membranifaciens IFO 10215 (AB019215)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="103.0" y="533.0"/>
+   <node id="NT1.2" x="141.0" y="393.0" label="43"/>
+   <node id="NT1.3" label="NT1.3" x="147.0" y="160.0"/>
+   <node id="NT1.4" x="180.0" y="285.0" label="5"/>
+   <node id="NT1.6" x="213.0" y="141.0" label="38"/>
+   <node id="NT1.7" label="NT1.7" x="239.0" y="428.0"/>
+   <node id="NT1.11" label="NT1.11" x="285.0" y="31.0"/>
+   <node id="NT1.13" label="NT1.13" x="297.0" y="329.0"/>
+   <node id="NT1.16" label="NT1.16" x="306.0" y="223.0" otu="otu2"/>
+   <node id="NT1.18" label="NT1.18" x="317.0" y="396.0"/>
+   <node id="NT1.19" label="NT1.19" x="345.0" y="257.0" otu="otu4"/>
+   <node id="NT1.22" label="NT1.22" x="361.0" y="342.0"/>
+   <node id="NT1.23" label="NT1.23" x="362.0" y="293.0" otu="otu6"/>
+   <node id="NT1.24" label="NT1.24" x="362.0" y="398.0" otu="otu7"/>
+   <node id="NT1.25" label="NT1.25" x="364.0" y="13.0" otu="otu8"/>
+   <node id="NT1.26" label="NT1.26" x="365.0" y="118.0" otu="otu9"/>
+   <node id="NT1.27" label="NT1.27" x="368.0" y="500.0" otu="otu10"/>
+   <node id="NT1.28" label="NT1.28" x="371.0" y="48.0" otu="otu11"/>
+   <node id="NT1.30" label="NT1.30" x="379.0" y="605.0" otu="otu12"/>
+   <node id="NT1.31" label="NT1.31" x="391.0" y="431.0" otu="otu13"/>
+   <node id="NT1.37" label="NT1.37" x="536.0" y="711.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="672.0" y="675.0" otu="otu20"/>
+   <node id="NT1.39" label="NT1.39" x="3.0" y="622.0" root="true"/>
+   <edge id="e.0" source="NT1.11" target="NT1.25"/>
+   <edge id="e.3" target="NT1.26" source="NT1.6"/>
+   <edge id="e.6" source="NT1.13" target="NT1.19"/>
+   <edge id="e.8" target="NT1.30" source="NT1.2"/>
+   <edge id="e.9" target="NT1.31" source="NT1.18"/>
+   <edge id="e.10" source="NT1.22" target="NT1.23"/>
+   <edge id="e.11" source="NT1.22" target="NT1.24"/>
+   <edge id="e.15" source="NT1.1" target="NT1.38"/>
+   <edge id="e.16" source="NT1.3" target="NT1.11"/>
+   <edge id="e.17" source="NT1.2" target="NT1.3"/>
+   <edge id="e.18" source="NT1.4" target="NT1.7"/>
+   <edge id="e.19" source="NT1.4" target="NT1.6"/>
+   <edge id="e.20" source="NT1.1" target="NT1.2"/>
+   <edge id="e.23" source="NT1.7" target="NT1.13"/>
+   <edge id="e.27" target="NT1.18" source="NT1.13"/>
+   <edge id="e.29" source="NT1.18" target="NT1.22"/>
+   <edge id="e.30" source="NT1.39" target="NT1.37"/>
+   <edge id="e.31" source="NT1.39" target="NT1.1"/>
+   <edge id="e.32" source="NT1.3" target="NT1.4"/>
+   <edge id="e.35" target="NT1.27" source="NT1.7"/>
+   <edge id="e.36" source="NT1.11" target="NT1.28"/>
+   <edge id="e.37" target="NT1.16" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

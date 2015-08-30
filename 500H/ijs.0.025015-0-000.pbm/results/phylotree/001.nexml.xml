@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Halorubrum saccharovorum NCIMB 2081 T (X821 67)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6" cmphy:genus="Haloferax" cmphy:species="volcanii" cmphy:strain="ATCC 29605" cmphy:id="K00421" editRecord="[]"> Haloferax volcanii ATCC 29605 (K00421)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Halorubrum" cmphy:species="lipolyticum" cmphy:strain="9-3T" cmphy:id="DQB55814" editRecord="[3__B]">Halorubrum lipolyticum 9-3T (DQ355814)</otu>
+  <otu id="otu8">Halorubrum lacusprofundi ACAM 347 (X821 70)</otu>
+  <otu id="otu9" cmphy:genus="Halorubrum" cmphy:species="kocurii" cmphy:strain="BG-1T" cmphy:id="AM900832" editRecord="[]">Halorubrum kocurii BG-1T (AM900832)</otu>
+  <otu id="otu10" cmphy:genus="Halorubrum" cmphy:species="luteum" cmphy:strain="CGSA15T" cmphy:id="DQ987877" editRecord="[]">Halorubrum luteum CGSA15T (DQ987877)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Halobacterium salinarum DSM 3754 T (AJ496185)</otu>
+  <otu id="otu13"> Halococcus morrhuae NRC 160O8T(D11106)</otu>
+  <otu id="otu14" cmphy:edit="[2__Z]" cmphy:genus="Halorubrum" cmphy:species="orientale" cmphy:strain="EJ-52T" cmphy:id="AMZ35786" editRecord="[2__Z]">Halorubrum orientale EJ-52T (AM235786)</otu>
+  <otu id="otu15" cmphy:genus="Halorubrum" cmphy:species="vaouolatum" cmphy:strain="JCM 9O60T" cmphy:id="D87972" editRecord="[]">Halorubrum vaouolatum JCM 9O60T (D87972)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="836.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="118.0" y="839.0"/>
+   <node id="NT1.6" label="NT1.6" x="318.0" y="760.0"/>
+   <node id="NT1.10" x="386.0" y="539.0" label="96"/>
+   <node id="NT1.11" label="NT1.11" x="391.0" y="481.0"/>
+   <node id="NT1.15" label="NT1.15" x="403.0" y="947.0" otu="otu6"/>
+   <node id="NT1.16" label="NT1.16" x="409.0" y="599.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="433.0" y="456.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="433.0" y="844.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="434.0" y="540.0"/>
+   <node id="NT1.26" label="NT1.26" x="485.0" y="526.0" otu="otu14"/>
+   <node id="NT1.27" label="NT1.27" x="500.0" y="559.0" otu="otu15"/>
+   <edge id="e.2" target="NT1.20" source="NT1.11"/>
+   <edge id="e.4" source="NT1.10" target="NT1.16"/>
+   <edge id="e.5" source="NT1.22" target="NT1.26"/>
+   <edge id="e.7" source="NT1.22" target="NT1.27"/>
+   <edge id="e.9" source="NT1.6" target="NT1.21"/>
+   <edge id="e.10" source="NT1.1" target="NT1.3"/>
+   <edge id="e.11" target="NT1.15" source="NT1.3"/>
+   <edge id="e.18" source="NT1.10" target="NT1.11"/>
+   <edge id="e.19" source="NT1.11" target="NT1.22"/>
+   <edge id="e.20" target="NT1.10" source="NT1.6"/>
+   <edge id="e.23" source="NT1.3" target="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

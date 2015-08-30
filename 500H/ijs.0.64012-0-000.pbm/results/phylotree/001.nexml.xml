@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Thermicanus" cmphy:species="aegyptius" cmphy:strain="DSM 12793T" cmphy:id="AJZ42495" editRecord="[2__Z]">Thermicanus aegyptius DSM 12793T (AJ242495)</otu>
+  <otu id="otu2" cmphy:genus="Bacillus" cmphy:species="horti" cmphy:strain="DSM 12751T" cmphy:id="D87035" editRecord="[]">Bacillus horti DSM 12751T (D87035)</otu>
+  <otu id="otu3" cmphy:genus="Bacillus" cmphy:species="macyae" cmphy:strain="JMM4T" cmphy:id="AYO32601" editRecord="[]"> Bacillus macyae JMM4T (AYO32601)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Vulcanibacillus" cmphy:species="modesticaldus" cmphy:strain="BRT" cmphy:id="AMO50346" editRecord="[0__O]">Vulcanibacillus modesticaldus BRT (AM050346)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Thermobacillus" cmphy:species="xylanilyticus" cmphy:strain="XET" cmphy:id="AJO05795" editRecord="[0__O]">Thermobacillus xylanilyticus XET (AJ005795)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Bacillus" cmphy:species="subtills" cmphy:strain="DSM 10&quot;" cmphy:id="AJZ76351" editRecord="[2__Z]">Bacillus subtills DSM 10" (AJ276351)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Ammoniphilus" cmphy:species="oxalaticus" cmphy:strain="RaOX-1T" cmphy:id="Y14578" editRecord="[]">Ammoniphilus oxalaticus RaOX-1T (Y14578)</otu>
+  <otu id="otu10" cmphy:genus="Bacillus" cmphy:species="infemus" cmphy:strain="THB23T" cmphy:id="U20385" editRecord="[]">Bacillus infemus THB23T (U20385)</otu>
+  <otu id="otu11" cmphy:edit="[1__I]" cmphy:genus="Brevibacillus" cmphy:species="brevis" cmphy:strain="DSM 30T" cmphy:id="ABI01593" editRecord="[1__I]">Brevibacillus brevis DSM 30T (AB101593)</otu>
+  <otu id="otu12" cmphy:genus="Anoxybacillus" cmphy:species="pushchinoensls" cmphy:strain="K1T" cmphy:id="AJO10478" editRecord="[]">Anoxybacillus pushchinoensls K1T (AJO10478)</otu>
+  <otu id="otu13" cmphy:edit="[0__O]" cmphy:genus="Bacillus" cmphy:species="selenitlreducens" cmphy:strain="MLS1OT" cmphy:id="AFO64704" editRecord="[0__O]">Bacillus selenitlreducens MLS1OT (AF064704)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="144.0" y="15.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="144.0" y="77.0"/>
+   <node id="NT1.3" label="NT1.3" x="175.0" y="204.0"/>
+   <node id="NT1.4" label="NT1.4" x="190.0" y="244.0"/>
+   <node id="NT1.5" label="NT1.5" x="204.0" y="288.0"/>
+   <node id="NT1.6" x="212.0" y="120.0" label="96"/>
+   <node id="NT1.7" x="228.0" y="413.0" label="88"/>
+   <node id="NT1.9" label="NT1.9" x="250.0" y="484.0"/>
+   <node id="NT1.10" x="253.0" y="330.0" label="77"/>
+   <node id="NT1.11" x="285.0" y="456.0" label="98"/>
+   <node id="NT1.13" label="NT1.13" x="357.0" y="268.0" otu="otu2"/>
+   <node id="NT1.14" label="NT1.14" x="357.0" y="393.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="373.0" y="225.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="376.0" y="57.0" otu="otu5"/>
+   <node id="NT1.18" label="NT1.18" x="383.0" y="520.0" otu="otu7"/>
+   <node id="NT1.20" label="NT1.20" x="401.0" y="99.0" otu="otu9"/>
+   <node id="NT1.21" label="NT1.21" x="404.0" y="477.0" otu="otu10"/>
+   <node id="NT1.22" label="NT1.22" x="420.0" y="184.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="456.0" y="435.0" otu="otu12"/>
+   <node id="NT1.24" label="NT1.24" x="488.0" y="309.0" otu="otu13"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.1" source="NT1.2" target="NT1.16"/>
+   <edge id="e.2" source="NT1.4" target="NT1.15"/>
+   <edge id="e.3" source="NT1.5" target="NT1.13"/>
+   <edge id="e.4" source="NT1.6" target="NT1.20"/>
+   <edge id="e.6" target="NT1.22" source="NT1.6"/>
+   <edge id="e.7" source="NT1.9" target="NT1.18"/>
+   <edge id="e.8" target="NT1.14" source="NT1.10"/>
+   <edge id="e.10" source="NT1.11" target="NT1.21"/>
+   <edge id="e.11" source="NT1.10" target="NT1.24"/>
+   <edge id="e.12" source="NT1.11" target="NT1.23"/>
+   <edge id="e.13" source="NT1.2" target="NT1.3"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" source="NT1.3" target="NT1.6"/>
+   <edge id="e.16" source="NT1.4" target="NT1.5"/>
+   <edge id="e.17" source="NT1.5" target="NT1.7"/>
+   <edge id="e.19" source="NT1.7" target="NT1.9"/>
+   <edge id="e.20" source="NT1.7" target="NT1.10"/>
+   <edge id="e.21" source="NT1.9" target="NT1.11"/>
+  </tree>
+ </trees>
+</nexml>

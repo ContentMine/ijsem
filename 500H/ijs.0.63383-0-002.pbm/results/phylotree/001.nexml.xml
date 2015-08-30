@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:genus="Paenibacillus" cmphy:species="illinoisensis" cmphy:strain="NRRL NRS-1356T" cmphy:id="D85397" editRecord="[]">Paenibacillus illinoisensis NRRL NRS-1356T (D85397)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">Paenibacillus azoreducens DSM</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="favisporus" cmphy:strain="LMG 2O987T" cmphy:id="AYZ08751" editRecord="[2__Z]">Paenibacillus favisporus LMG 2O987T (AY208751)</otu>
+  <otu id="otu7">Paenibacillus borealis DSM</otu>
+  <otu id="otu8" cmphy:genus="Paenibacillus" cmphy:species="amylolyticus" cmphy:strain="NRRL NRS-290T" cmphy:id="D85396" editRecord="[]">Paenibacillus amylolyticus NRRL NRS-290T (D85396)</otu>
+  <otu id="otu9">Paenibacillus barcinonensis DSM</otu>
+  <otu id="otu10">Paenibacillus pabuli NCIMB</otu>
+  <otu id="otu11">Paenibacillus chibensis IFO</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:edit="[3__B]" cmphy:genus="Paenibacillus" cmphy:species="massiliensis" cmphy:strain="CIP 1079397" cmphy:id="AYB23608" editRecord="[3__B]">Paenibacillus massiliensis CIP 1079397 (AY323608)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[0__O]" cmphy:genus="Paenibacillus" cmphy:species="macquariensis" cmphy:strain="DSM 2T" cmphy:id="ABO73193" editRecord="[0__O]">Paenibacillus macquariensis DSM 2T (AB073193)</otu>
+  <otu id="otu16">Paenibacillus odorifer LMG</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="graminis" cmphy:strain="ATCC BAA-95T" cmphy:id="AJZ23987" editRecord="[2__Z]"> Paenibacillus graminis ATCC BAA-95T (AJ223987)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="Paenibacillus" cmphy:species="azotofixans" cmphy:strain="ATCC 356817" cmphy:id="AJZ51192" editRecord="[2__Z]">Paenibacillus azotofixans ATCC 356817 (AJ251192)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="3.0" y="383.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="75.0" y="383.0"/>
+   <node id="NT1.3" label="NT1.3" x="88.0" y="546.0"/>
+   <node id="NT1.4" label="NT1.4" x="109.0" y="174.0"/>
+   <node id="NT1.5" label="NT1.5" x="113.0" y="682.0"/>
+   <node id="NT1.7" label="NT1.7" x="157.0" y="787.0"/>
+   <node id="NT1.8" label="NT1.8" x="165.0" y="117.0"/>
+   <node id="NT1.18" label="NT1.18" x="236.0" y="173.0" otu="otu3"/>
+   <node id="NT1.21" label="NT1.21" x="249.0" y="283.0" otu="otu6"/>
+   <node id="NT1.23" label="NT1.23" x="275.0" y="68.0" otu="otu8"/>
+   <node id="NT1.29" label="NT1.29" x="296.0" y="231.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="296.0" y="604.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="353.0" y="819.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="374.0" y="660.0" otu="otu18"/>
+   <edge id="e.2" source="NT1.8" target="NT1.18"/>
+   <edge id="e.3" source="NT1.4" target="NT1.29"/>
+   <edge id="e.4" source="NT1.1" target="NT1.2"/>
+   <edge id="e.8" target="NT1.21" source="NT1.3"/>
+   <edge id="e.10" target="NT1.31" source="NT1.5"/>
+   <edge id="e.14" target="NT1.33" source="NT1.7"/>
+   <edge id="e.15" target="NT1.34" source="NT1.7"/>
+   <edge id="e.18" source="NT1.4" target="NT1.8"/>
+   <edge id="e.19" source="NT1.2" target="NT1.4"/>
+   <edge id="e.20" source="NT1.2" target="NT1.3"/>
+   <edge id="e.21" source="NT1.3" target="NT1.5"/>
+   <edge id="e.23" source="NT1.5" target="NT1.7"/>
+   <edge id="e.32" target="NT1.23" source="NT1.8"/>
+  </tree>
+ </trees>
+</nexml>

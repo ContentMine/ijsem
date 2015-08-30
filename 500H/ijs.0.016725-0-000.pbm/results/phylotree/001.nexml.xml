@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2" cmphy:edit="[5__S]" cmphy:genus="Asporogenic" cmphy:species="isolate" cmphy:strain="AIP 028.07" cmphy:id="EUS41437" editRecord="[5__S]">Asporogenic isolate AIP 028.07 (EU541437)</otu>
+  <otu id="otu3" cmphy:genus="Cmstridium" cmphy:species="orbiscindens" cmphy:strain="DSM 67407" cmphy:id="Y18187" editRecord="[]">Cmstridium orbiscindens DSM 67407 (Y18187)</otu>
+  <otu id="otu4">Spore-forming isolate AIP 165.06 (EU541436)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Bacteroides" cmphy:species="capillosus" cmphy:strain="ATCC 29799T" cmphy:id="AYI36666" editRecord="[1__I]">Bacteroides capillosus ATCC 29799T (AY136666)</otu>
+  <otu id="otu6" cmphy:genus="Eubacterium" cmphy:species="plautii" cmphy:strain="CCUG 28O93T" cmphy:id="AY724678" editRecord="[]">Eubacterium plautii CCUG 28O93T (AY724678)</otu>
+  <otu id="otu7">Clostridium viride DSM 6836T (X81 125)</otu>
+  <otu id="otu8" cmphy:edit="[3__B]" cmphy:genus="Clostridium" cmphy:species="stercorarium" cmphy:strain="DSM 8532T" cmphy:id="AJB10082" editRecord="[3__B]">Clostridium stercorarium DSM 8532T (AJ310082)</otu>
+  <otu id="otu9">Papillibacter cinnaminovorans CIN1T (AF1 6771 1)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Oscillibacter" cmphy:species="valericigenes" cmphy:strain="Sjm18-2OT" cmphy:id="ABZ38598" editRecord="[2__Z]">Oscillibacter valericigenes Sjm18-2OT (AB238598)</otu>
+  <otu id="otu11" cmphy:genus="Sporobacter" cmphy:species="termitidis" cmphy:strain="SYRT" cmphy:id="Z49863" editRecord="[]">Sporobacter termitidis SYRT (Z49863)</otu>
+  <otu id="otu12">Clostridium Ieptum DSM 753T (AJ305238)</otu>
+  <otu id="otu13" cmphy:genus="Oscillospira" cmphy:species="guilliermondii" cmphy:strain="clone OSC3" cmphy:id="ABO40497" editRecord="[]">Oscillospira guilliermondii clone OSC3 (ABO40497)</otu>
+  <otu id="otu14" cmphy:genus="Clostridium" cmphy:species="butyricum" cmphy:strain="VPI 32esT" cmphy:id="AJ458420" editRecord="[]">Clostridium butyricum VPI 32esT (AJ458420)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="4.0" y="250.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="19.0" y="250.0"/>
+   <node id="NT1.3" label="NT1.3" x="47.0" y="260.0"/>
+   <node id="NT1.4" x="98.0" y="322.0" label="100"/>
+   <node id="NT1.5" label="NT1.5" x="110.0" y="450.0"/>
+   <node id="NT1.8" label="NT1.8" x="160.0" y="498.0"/>
+   <node id="NT1.9" label="NT1.9" x="162.0" y="210.0"/>
+   <node id="NT1.11" label="NT1.11" x="189.0" y="283.0"/>
+   <node id="NT1.12" label="NT1.12" x="189.0" y="342.0" otu="otu2"/>
+   <node id="NT1.13" label="NT1.13" x="191.0" y="250.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="199.0" y="160.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="199.0" y="296.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="223.0" y="24.0" otu="otu8"/>
+   <node id="NT1.20" label="NT1.20" x="244.0" y="477.0" otu="otu10"/>
+   <node id="NT1.21" label="NT1.21" x="252.0" y="387.0" otu="otu11"/>
+   <node id="NT1.23" label="NT1.23" x="262.0" y="523.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="307.0" y="568.0" otu="otu14"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.3" source="NT1.8" target="NT1.20"/>
+   <edge id="e.4" source="NT1.11" target="NT1.13"/>
+   <edge id="e.5" source="NT1.8" target="NT1.23"/>
+   <edge id="e.6" source="NT1.11" target="NT1.16"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.9" source="NT1.3" target="NT1.4"/>
+   <edge id="e.10" source="NT1.4" target="NT1.5"/>
+   <edge id="e.12" source="NT1.5" target="NT1.8"/>
+   <edge id="e.14" target="NT1.9" source="NT1.4"/>
+   <edge id="e.16" target="NT1.11" source="NT1.9"/>
+   <edge id="e.17" source="NT1.11" target="NT1.12"/>
+   <edge id="e.18" source="NT1.3" target="NT1.24"/>
+   <edge id="e.19" source="NT1.2" target="NT1.18"/>
+   <edge id="e.20" source="NT1.9" target="NT1.15"/>
+   <edge id="e.22" target="NT1.21" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

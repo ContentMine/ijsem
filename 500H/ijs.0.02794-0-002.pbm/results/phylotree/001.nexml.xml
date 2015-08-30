@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">N. transvalensis DSM 434057 (X80598)</otu>
+  <otu id="otu2">N. farcinica ATCC 33187 (Z36936) </otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Rhodococcus" cmphy:species="equi" cmphy:strain="DSM 203077" cmphy:id="ABO32565" editRecord="[0__O]">Rhodococcus equi DSM 203077 (AB032565)</otu>
+  <otu id="otu4">N. abscessus DSM 444327 (AF218292)</otu>
+  <otu id="otu5">N. cyriacigeorgica DSM 444847 (AF282889)</otu>
+  <otu id="otu6">N. asteroides ATCC 192477 (X84850)</otu>
+  <otu id="otu7">N. brasiliensis DSM 437587 (X80608)</otu>
+  <otu id="otu8">N. paucivorans DSM 443867 (AF179865)</otu>
+  <otu id="otu9">N. brevicatena ATCC 153337 (X80600)</otu>
+  <otu id="otu10">N. flavorosea JCM 33327 (Z46754)</otu>
+  <otu id="otu11">N. carnea DSM 433977 (X80607)</otu>
+  <otu id="otu12">N. nova ATCC 337267 (X80593)</otu>
+  <otu id="otu13">N. otitidiscaviarum S639 (AF430068)</otu>
+  <otu id="otu14">N. otitidiscaviarum ATCC 146297 (M59056)</otu>
+  <otu id="otu15">N. otitidiscaviarum IFM 0777 (AB110907)</otu>
+  <otu id="otu16">N. vaccinii DSM 432857 (Z36927)</otu>
+  <otu id="otu17">N. pseudobrasiliensis CIP 92604 (X84852)</otu>
+  <otu id="otu18">N. africana DSM 444917(AF277198)</otu>
+  <otu id="otu19">N. niigatensis IFM 0833 (AB092565)</otu>
+  <otu id="otu20">N. niigatensis IFM 0636 (AB092564)</otu>
+  <otu id="otu21">N. pseudobrasiliensis IFM 0896 (ABO80196)</otu>
+  <otu id="otu22">N. pseudobrasiliensis JCM 9883 (AF430043)</otu>
+  <otu id="otu23">N. niigatensis IFM 0260 (AB092562)</otu>
+  <otu id="otu24">N. veterana DSM 444457 (AF278572)</otu>
+  <otu id="otu25">N. beijingensis JCM 106667 (AF154129)</otu>
+  <otu id="otu26">N. crassostreae ATCC 7004187 (Z37989)</otu>
+  <otu id="otu27">N. uniformis JCM 32247 (246752)</otu>
+  <otu id="otu28">Nocardia sp. DSM 40872 (AF430060)</otu>
+  <otu id="otu29">N. vinacea JCM 109887 (AB024312)</otu>
+  <otu id="otu30">Nocardia sp. DSM 43399 (AF430058)</otu>
+  <otu id="otu31">N. cerradoensis DSM 445467 (AFO60790)</otu>
+  <otu id="otu32">N. ignorata DSM 444967 (AJ303008)</otu>
+  <otu id="otu33">N. seriolae JCM 33607 (X80592)</otu>
+  <otu id="otu34">N. yamanashiensis IFM 02657 (AB092561)</otu>
+  <otu id="otu35">N. fluminea DSM 444897 (AF430053)</otu>
+  <otu id="otu36">N. inohanensis IFM 00927 (AB092560)</otu>
+  <otu id="otu37">N. cummidelens DSM 444907 (AF277223)</otu>
+  <otu id="otu38">N. salmonicida JCM 48267 (Z46750)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.5" label="NT1.5" x="157.0" y="1352.0" otu="otu3"/>
+   <node id="NT1.71" label="NT1.71" x="6.0" y="1313.0" root="true"/>
+   <edge id="e.53" source="NT1.71" target="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

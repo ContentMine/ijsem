@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="Methylococcus" cmphy:species="capsulatus" cmphy:strain="Bath" cmphy:id="L40804" editRecord="[]"> Methylococcus capsulatus Bath (L40804)</otu>
+  <otu id="otu2" cmphy:genus="Methylocaldum" cmphy:species="tepidum" cmphy:strain="LK6T" cmphy:id="U89304" editRecord="[]"> Methylocaldum tepidum LK6T (U89304)</otu>
+  <otu id="otu3" cmphy:genus="Methylocaldum" cmphy:species="szegediense" cmphy:strain="ORZT" cmphy:id="U89303" editRecord="[]"> Methylocaldum szegediense ORZT (U89303)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Methylomicrobium" cmphy:species="album" cmphy:strain="VKM-BG8T" cmphy:id="U31654" editRecord="[]">Methylomicrobium album VKM-BG8T (U31654)</otu>
+  <otu id="otu6"> Methylobacter sp. BB5.1 (AF016982)</otu>
+  <otu id="otu7"/>
+  <otu id="otu8" cmphy:genus="Methylomicrobium" cmphy:species="pelagicum" cmphy:strain="IR-1" cmphy:id="U31652" editRecord="[]"> Methylomicrobium pelagicum IR-1 (U31652)</otu>
+  <otu id="otu9" cmphy:genus="Methylomonas" cmphy:species="methanica" cmphy:strain="S1" cmphy:id="U31653" editRecord="[]">Methylomonas methanica S1 (U31653)</otu>
+  <otu id="otu10" cmphy:genus="Methylosinus" cmphy:species="trichosporium" cmphy:strain="OB3bT" cmphy:id="U31650" editRecord="[]">Methylosinus trichosporium OB3bT (U31650)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" x="72.0" y="251.0" label="90"/>
+   <node id="NT1.2" x="137.0" y="132.0" label="97"/>
+   <node id="NT1.3" x="150.0" y="369.0" label="99"/>
+   <node id="NT1.4" label="NT1.4" x="181.0" y="441.0"/>
+   <node id="NT1.6" label="NT1.6" x="197.0" y="86.0" otu="otu1"/>
+   <node id="NT1.7" x="198.0" y="178.0" label="56"/>
+   <node id="NT1.9" label="NT1.9" x="230.0" y="147.0" otu="otu2"/>
+   <node id="NT1.10" label="NT1.10" x="233.0" y="208.0" otu="otu3"/>
+   <node id="NT1.13" label="NT1.13" x="242.0" y="329.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="274.0" y="388.0" otu="otu8"/>
+   <node id="NT1.17" label="NT1.17" x="292.0" y="449.0" otu="otu9"/>
+   <node id="NT1.18" label="NT1.18" x="352.0" y="10.0" otu="otu10"/>
+   <node id="NT1.19" label="NT1.19" x="4.0" y="130.0" root="true"/>
+   <edge id="e.0" source="NT1.2" target="NT1.6"/>
+   <edge id="e.1" source="NT1.7" target="NT1.9"/>
+   <edge id="e.2" source="NT1.7" target="NT1.10"/>
+   <edge id="e.4" target="NT1.13" source="NT1.3"/>
+   <edge id="e.5" source="NT1.4" target="NT1.16"/>
+   <edge id="e.7" target="NT1.17" source="NT1.4"/>
+   <edge id="e.8" source="NT1.1" target="NT1.3"/>
+   <edge id="e.9" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" source="NT1.2" target="NT1.7"/>
+   <edge id="e.11" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" source="NT1.19" target="NT1.18"/>
+   <edge id="e.15" source="NT1.19" target="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

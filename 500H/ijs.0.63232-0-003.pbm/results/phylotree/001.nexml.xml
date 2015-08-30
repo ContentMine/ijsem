@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">LGP 7T</otu>
+  <otu id="otu4">LGP 8</otu>
+  <otu id="otu5">LGP 108</otu>
+  <otu id="otu6">LGP 107</otu>
+  <otu id="otu7">V. splendidus LMG 4042T</otu>
+  <otu id="otu8">V. kanaloae LMG 205397</otu>
+  <otu id="otu9">V. pomeroyi LMG 205377</otu>
+  <otu id="otu10">V. chagasii LMG 21353T</otu>
+  <otu id="otu11">V. tasmaniensis LMG 200127</otu>
+  <otu id="otu12">V. cyclitrophicus LMG 213597</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="10.0" y="389.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

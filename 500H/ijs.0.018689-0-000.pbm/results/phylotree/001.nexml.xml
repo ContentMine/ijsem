@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">70</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Tistrella" cmphy:species="mobilis" cmphy:strain="IAM 148727" cmphy:id="ABO71665" editRecord="[]">Tistrella mobilis IAM 148727 (ABO71665)</otu>
+  <otu id="otu5">Defluviicoccus vanus Ben 1 147 (AF1 79678)</otu>
+  <otu id="otu6"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="330.0" otu="otu1" root="true"/>
+   <node id="NT1.6" label="NT1.6" x="287.0" y="491.0" otu="otu4"/>
+   <edge id="e.3" target="NT1.6" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

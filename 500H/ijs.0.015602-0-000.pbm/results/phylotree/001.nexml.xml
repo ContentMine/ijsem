@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">Haloterrigena thermotolerans PR57 (AF1 15478)</otu>
+  <otu id="otu3" cmphy:edit="[8__B]" cmphy:genus="Haloterrigena" cmphy:species="saccharevftans" cmphy:strain="AB147" cmphy:id="AYB20137" editRecord="[8__B]">Haloterrigena saccharevftans AB147 (AY820137)</otu>
+  <otu id="otu4" cmphy:edit="[O__0]" cmphy:genus="Natrinema" cmphy:species="pallidum" cmphy:strain="NCIMB 7777" cmphy:id="AJO02949" editRecord="[O__0]">Natrinema pallidum NCIMB 7777 (AJOO2949)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Natrinema" cmphy:species="versiforme" cmphy:strain="XF1O7" cmphy:id="ABO23426" editRecord="[0__O]">Natrinema versiforme XF1O7 (AB023426)</otu>
+  <otu id="otu6" cmphy:edit="[O__0]" cmphy:genus="Natrinema" cmphy:species="pellirubrum" cmphy:strain="NCIMB 7867" cmphy:id="AJO02947" editRecord="[O__0]">Natrinema pellirubrum NCIMB 7867 (AJOO2947)</otu>
+  <otu id="otu7" cmphy:edit="[3__B]" cmphy:genus="Haloterrigena" cmphy:species="limicola" cmphy:strain="AX-77" cmphy:id="DQB67241" editRecord="[3__B]">Haloterrigena limicola AX-77 (DQ367241)</otu>
+  <otu id="otu8" cmphy:edit="[2__Z]" cmphy:genus="Haloterrigena" cmphy:species="hispanica" cmphy:strain="FP17" cmphy:id="AMZ85297" editRecord="[2__Z]">Haloterrigena hispanica FP17 (AM285297)</otu>
+  <otu id="otu9">Haloterrigena turkmenica VKM B-1 7847 (ABOO4878)</otu>
+  <otu id="otu10" cmphy:edit="[O__0]" cmphy:genus="Natronorubrum" cmphy:species="tibetense" cmphy:strain="GA337" cmphy:id="ABO05656" editRecord="[O__0]">Natronorubrum tibetense GA337 (ABOO5656)</otu>
+  <otu id="otu11" cmphy:genus="Natronorubrum" cmphy:species="bangense" cmphy:strain="A337" cmphy:id="Y14028" editRecord="[]">Natronorubrum bangense A337 (Y14028)</otu>
+  <otu id="otu12" cmphy:edit="[5__S]" cmphy:genus="Natronorubrum" cmphy:species="sulfidifaciens" cmphy:strain="AD27" cmphy:id="DQS35889" editRecord="[5__S]">Natronorubrum sulfidifaciens AD27 (DQ535889)</otu>
+  <otu id="otu13">Natronorubrum aibiense 7737(DO205516)</otu>
+  <otu id="otu14" cmphy:edit="[3__B]" cmphy:genus="Natronorubrum" cmphy:species="sediminis" cmphy:strain="CG-67" cmphy:id="FNB76859" editRecord="[3__B]">Natronorubrum sediminis CG-67 (FN376859)</otu>
+  <otu id="otu15" cmphy:edit="[3__B]" cmphy:genus="Nalronorubrum" cmphy:species="sediminis" cmphy:strain="CG-4" cmphy:id="FNB76860" editRecord="[3__B]">Nalronorubrum sediminis CG-4 (FN376860)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="293.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="4.0" y="293.0"/>
+   <node id="NT1.3" label="NT1.3" x="46.0" y="207.0"/>
+   <node id="NT1.5" label="NT1.5" x="91.0" y="341.0"/>
+   <node id="NT1.7" label="NT1.7" x="102.0" y="59.0"/>
+   <node id="NT1.8" label="NT1.8" x="148.0" y="487.0" otu="otu3"/>
+   <node id="NT1.10" x="156.0" y="33.0" label="98"/>
+   <node id="NT1.11" label="NT1.11" x="172.0" y="53.0" otu="otu4"/>
+   <node id="NT1.12" label="NT1.12" x="173.0" y="88.0" otu="otu5"/>
+   <node id="NT1.13" label="NT1.13" x="192.0" y="14.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="221.0" y="395.0"/>
+   <node id="NT1.15" label="NT1.15" x="249.0" y="416.0" otu="otu7"/>
+   <node id="NT1.16" label="NT1.16" x="268.0" y="242.0"/>
+   <node id="NT1.17" label="NT1.17" x="283.0" y="379.0" otu="otu8"/>
+   <node id="NT1.19" label="NT1.19" x="329.0" y="191.0"/>
+   <node id="NT1.21" label="NT1.21" x="402.0" y="240.0"/>
+   <node id="NT1.22" label="NT1.22" x="406.0" y="307.0" otu="otu10"/>
+   <node id="NT1.23" label="NT1.23" x="429.0" y="125.0" otu="otu11"/>
+   <node id="NT1.24" label="NT1.24" x="469.0" y="269.0" otu="otu12"/>
+   <node id="NT1.26" x="708.0" y="218.0" label="100"/>
+   <node id="NT1.27" label="NT1.27" x="717.0" y="235.0" otu="otu14"/>
+   <node id="NT1.28" label="NT1.28" x="718.0" y="198.0" otu="otu15"/>
+   <edge id="e.0" source="NT1.1" target="NT1.2"/>
+   <edge id="e.2" source="NT1.16" target="NT1.22"/>
+   <edge id="e.3" target="NT1.23" source="NT1.19"/>
+   <edge id="e.5" source="NT1.26" target="NT1.27"/>
+   <edge id="e.6" source="NT1.7" target="NT1.10"/>
+   <edge id="e.7" source="NT1.3" target="NT1.7"/>
+   <edge id="e.8" source="NT1.2" target="NT1.3"/>
+   <edge id="e.9" source="NT1.3" target="NT1.5"/>
+   <edge id="e.11" source="NT1.5" target="NT1.14"/>
+   <edge id="e.13" target="NT1.16" source="NT1.5"/>
+   <edge id="e.14" source="NT1.16" target="NT1.19"/>
+   <edge id="e.15" source="NT1.19" target="NT1.21"/>
+   <edge id="e.17" source="NT1.21" target="NT1.26"/>
+   <edge id="e.18" target="NT1.8" source="NT1.2"/>
+   <edge id="e.19" source="NT1.7" target="NT1.12"/>
+   <edge id="e.20" source="NT1.10" target="NT1.11"/>
+   <edge id="e.21" source="NT1.10" target="NT1.13"/>
+   <edge id="e.23" source="NT1.14" target="NT1.15"/>
+   <edge id="e.24" source="NT1.14" target="NT1.17"/>
+   <edge id="e.25" source="NT1.21" target="NT1.24"/>
+   <edge id="e.26" source="NT1.26" target="NT1.28"/>
+  </tree>
+ </trees>
+</nexml>

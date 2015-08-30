@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Pseudaminobacter" cmphy:species="salicylatoxidans" cmphy:strain="KCT001" cmphy:id="AJZ94416" editRecord="[2__Z]"> Pseudaminobacter salicylatoxidans KCT001 (AJ294416)</otu>
+  <otu id="otu2" cmphy:edit="[0__O]" cmphy:genus="Pseudaminobacter" cmphy:species="salicylatoxidans" cmphy:strain="DSM 6986T" cmphy:id="AFO72542" editRecord="[0__O]"> Pseudaminobacter salicylatoxidans DSM 6986T (AF072542)</otu>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Aminobacter" cmphy:species="aminovorans" cmphy:strain="DSM 7048T" cmphy:id="AJO11759" editRecord="[0__O]"> Aminobacter aminovorans DSM 7048T (AJ011759)</otu>
+  <otu id="otu4" cmphy:genus="Phyllobacterium" cmphy:species="myrsinacearum" cmphy:strain="ATCC 435907" cmphy:id="D12789" editRecord="[]">Phyllobacterium myrsinacearum ATCC 435907 (D12789)</otu>
+  <otu id="otu5" cmphy:edit="[2__Z]" cmphy:genus="Mesorhizobium" cmphy:species="chacoense" cmphy:strain="LMG 190087" cmphy:id="AJZ78249" editRecord="[2__Z]"> Mesorhizobium chacoense LMG 190087 (AJ278249)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">Mesorhizobium Ioti LMG 17826 t2 (AJ315352)</otu>
+  <otu id="otu8" cmphy:genus="Mesorhizobium" cmphy:species="huakuii" cmphy:strain="IAM 14158" cmphy:id="D13431" editRecord="[]">Mesorhizobium huakuii IAM 14158 (D13431)</otu>
+  <otu id="otu9" cmphy:genus="Mesorhizobium" cmphy:species="amorphae" cmphy:strain="ACCC 19665T" cmphy:id="AFO41442" editRecord="[]">Mesorhizobium amorphae ACCC 19665T (AFO41442)</otu>
+  <otu id="otu10">Mesorhizobium plun'fan'um L529 (AF516881)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12">Mesorhizobium pIun'fan'um LMG 11892T (Y14158)</otu>
+  <otu id="otu13" cmphy:genus="Mesorhizobium" cmphy:species="mediterraneum" cmphy:strain="UPM-Ca36T" cmphy:id="L38825" editRecord="[]"> Mesorhizobium mediterraneum UPM-Ca36T (L38825)</otu>
+  <otu id="otu14">Strain SJTT (AJ864462)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="46.0" y="65.0"/>
+   <node id="NT1.2" label="NT1.2" x="55.0" y="8.0" otu="otu1"/>
+   <node id="NT1.3" label="NT1.3" x="94.0" y="65.0" otu="otu2"/>
+   <node id="NT1.4" x="184.0" y="227.0" label="100"/>
+   <node id="NT1.5" x="205.0" y="331.0" label="100"/>
+   <node id="NT1.6" label="NT1.6" x="253.0" y="123.0" otu="otu3"/>
+   <node id="NT1.7" label="NT1.7" x="290.0" y="390.0"/>
+   <node id="NT1.8" label="NT1.8" x="305.0" y="183.0" otu="otu4"/>
+   <node id="NT1.9" label="NT1.9" x="314.0" y="241.0" otu="otu5"/>
+   <node id="NT1.10" x="363.0" y="540.0" label="38"/>
+   <node id="NT1.13" x="396.0" y="423.0" label="31"/>
+   <node id="NT1.17" label="NT1.17" x="410.0" y="413.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="410.0" y="468.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="429.0" y="698.0" otu="otu13"/>
+   <node id="NT1.26" label="NT1.26" x="45.0" y="144.0" root="true"/>
+   <edge id="e.0" source="NT1.1" target="NT1.3"/>
+   <edge id="e.1" source="NT1.4" target="NT1.6"/>
+   <edge id="e.2" source="NT1.5" target="NT1.8"/>
+   <edge id="e.4" target="NT1.24" source="NT1.10"/>
+   <edge id="e.5" source="NT1.13" target="NT1.17"/>
+   <edge id="e.11" source="NT1.4" target="NT1.5"/>
+   <edge id="e.12" source="NT1.7" target="NT1.10"/>
+   <edge id="e.17" source="NT1.26" target="NT1.1"/>
+   <edge id="e.18" source="NT1.26" target="NT1.4"/>
+   <edge id="e.19" source="NT1.1" target="NT1.2"/>
+   <edge id="e.20" source="NT1.5" target="NT1.7"/>
+   <edge id="e.21" source="NT1.7" target="NT1.9"/>
+   <edge id="e.23" target="NT1.13" source="NT1.10"/>
+   <edge id="e.24" target="NT1.18" source="NT1.13"/>
+  </tree>
+ </trees>
+</nexml>

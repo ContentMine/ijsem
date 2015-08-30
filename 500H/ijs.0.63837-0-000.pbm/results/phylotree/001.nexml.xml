@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7"/>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10">Iodobacter fluviatilis ATCC 33051T (M2251 1)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Chitinibacter" cmphy:species="tainanensis" cmphy:strain="S1 T" cmphy:id="AYZ64287" editRecord="[2__Z]">Chitinibacter tainanensis S1 T (AY264287)</otu>
+  <otu id="otu12" cmphy:genus="Kingella" cmphy:species="oralis" cmphy:strain="ccue 3o45oT" cmphy:id="L06164" editRecord="[]">Kingella oralis ccue 3o45oT (L06164)</otu>
+  <otu id="otu13" cmphy:genus="Vogesella" cmphy:species="indigofera" cmphy:strain="ATCC 197O6T" cmphy:id="U45995" editRecord="[]">Vogesella indigofera ATCC 197O6T (U45995)</otu>
+  <otu id="otu14" cmphy:genus="Formivibrio" cmphy:species="citricus" cmphy:strain="DSM 615OT" cmphy:id="Y17602" editRecord="[]">Formivibrio citricus DSM 615OT (Y17602)</otu>
+  <otu id="otu15" cmphy:edit="[O__0]" cmphy:genus="Vitreoscilla" cmphy:species="stercoraria" cmphy:strain="ATCC 15218T" cmphy:id="L06174" editRecord="[O__0]">Vitreoscilla stercoraria ATCC 15218T (LO6174)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Aquaspirillum" cmphy:species="putridiconchylium" cmphy:strain="IAM 14964" cmphy:id="ABO76000" editRecord="[0__O]">Aquaspirillum putridiconchylium IAM 14964 (AB076000)</otu>
+  <otu id="otu17"/>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="Silvimonas" cmphy:species="terrae" cmphy:strain="KM-45T" cmphy:id="ABI94302" editRecord="[1__I]">Silvimonas terrae KM-45T (AB194302)</otu>
+  <otu id="otu19" cmphy:genus="Kingella" cmphy:species="denitrificans" cmphy:strain="ATCC 33394T" cmphy:id="M22516" editRecord="[]">Kingella denitrificans ATCC 33394T (M22516)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="257.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="38.0" y="257.0"/>
+   <node id="NT1.3" x="122.0" y="186.0" label="97"/>
+   <node id="NT1.7" label="NT1.7" x="157.0" y="139.0"/>
+   <node id="NT1.9" label="NT1.9" x="183.0" y="361.0"/>
+   <node id="NT1.12" label="NT1.12" x="223.0" y="389.0"/>
+   <node id="NT1.13" x="276.0" y="102.0" label="jo"/>
+   <node id="NT1.15" x="361.0" y="69.0" label="99"/>
+   <node id="NT1.21" label="NT1.21" x="526.0" y="370.0" otu="otu11"/>
+   <node id="NT1.22" label="NT1.22" x="548.0" y="98.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="551.0" y="253.0" otu="otu13"/>
+   <node id="NT1.24" label="NT1.24" x="554.0" y="410.0" otu="otu14"/>
+   <node id="NT1.25" label="NT1.25" x="580.0" y="137.0" otu="otu15"/>
+   <node id="NT1.26" label="NT1.26" x="590.0" y="176.0" otu="otu16"/>
+   <node id="NT1.28" label="NT1.28" x="629.0" y="331.0" otu="otu18"/>
+   <node id="NT1.29" label="NT1.29" x="636.0" y="59.0" otu="otu19"/>
+   <edge id="e.3" target="NT1.29" source="NT1.15"/>
+   <edge id="e.5" source="NT1.15" target="NT1.22"/>
+   <edge id="e.8" source="NT1.13" target="NT1.25"/>
+   <edge id="e.10" source="NT1.1" target="NT1.2"/>
+   <edge id="e.12" source="NT1.7" target="NT1.26"/>
+   <edge id="e.14" target="NT1.23" source="NT1.3"/>
+   <edge id="e.16" source="NT1.12" target="NT1.21"/>
+   <edge id="e.17" source="NT1.12" target="NT1.24"/>
+   <edge id="e.18" source="NT1.9" target="NT1.28"/>
+   <edge id="e.20" source="NT1.13" target="NT1.15"/>
+   <edge id="e.21" source="NT1.7" target="NT1.13"/>
+   <edge id="e.22" source="NT1.3" target="NT1.7"/>
+   <edge id="e.23" source="NT1.2" target="NT1.3"/>
+   <edge id="e.26" target="NT1.9" source="NT1.2"/>
+   <edge id="e.27" source="NT1.9" target="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

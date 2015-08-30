@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3" cmphy:edit="[0__O]" cmphy:genus="Alicyclobacillus" cmphy:species="pomorum" cmphy:strain="DSM 14955T" cmphy:id="ABO89840" editRecord="[0__O]">Alicyclobacillus pomorum DSM 14955T (AB089840)</otu>
+  <otu id="otu4" cmphy:edit="[0__O]" cmphy:genus="Alicyclobacillus" cmphy:species="acidaterrestris" cmphy:strain="DSM 3924" cmphy:id="ABO59676" editRecord="[0__O]">Alicyclobacillus acidaterrestris DSM 3924 (AB059676)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Alicyclnbacillus" cmphy:species="hesperidum" cmphy:strain="DSM 124891" cmphy:id="AJI33633" editRecord="[1__I]">Alicyclnbacillus hesperidum DSM 124891 (AJ133633)</otu>
+  <otu id="otu6">Alicyclobacillus acidacaldarius subsp. rittmannii DSM 112971 (AB089859)</otu>
+  <otu id="otu7" cmphy:genus="Alicyclobacillus" cmphy:species="herbarius" cmphy:strain="DSM 13609T" cmphy:id="ABO42055" editRecord="[]">Alicyclobacillus herbarius DSM 13609T (ABO42055)</otu>
+  <otu id="otu8" cmphy:edit="[0__O]" cmphy:genus="Alicyclobacillus" cmphy:species="cycloheptanicus" cmphy:strain="DSM 4006T" cmphy:id="ABO42059" editRecord="[0__O]">Alicyclobacillus cycloheptanicus DSM 4006T (AB042059)</otu>
+  <otu id="otu9">Alicyclobacillus acidocaldarius subsp. acidoculdarius DSM 4461-(AJ496SO6)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11">A licyclobacillus sendaicrzsis ATCC BAA-609T (AB084128)</otu>
+  <otu id="otu12" cmphy:genus="Alicyclobucillus" cmphy:species="vulcanalis" cmphy:strain="CsHg2T" cmphy:id="AY425985" editRecord="[]">Alicyclobucillus vulcanalis CsHg2T (AY425985)</otu>
+  <otu id="otu13">Bacterium GSM (AY007662)</otu>
+  <otu id="otu14" cmphy:edit="[0__O]" cmphy:genus="Alicyclabacillus" cmphy:species="acidiphilus" cmphy:strain="DSM l4558T" cmphy:id="ABO76660" editRecord="[0__O]">Alicyclabacillus acidiphilus DSM l4558T (AB076660)</otu>
+  <otu id="otu15">Alicyclubacillus Sp. 5C (AY37l273)</otu>
+  <otu id="otu16">Alicyclobacillus sp. CLG (AY371274)</otu>
+  <otu id="otu17" cmphy:genus="Alicyclolmcillus" cmphy:species="disulfidaaxidtms" cmphy:strain="DSM 12064-I" cmphy:id="U34974" editRecord="[]">Alicyclolmcillus disulfidaaxidtms DSM 12064-I (U34974)</otu>
+  <otu id="otu18" cmphy:edit="[0__O]" cmphy:genus="Sulfobacillus" cmphy:species="thermosztlfidaoxidans" cmphy:strain="DSM 9293T" cmphy:id="ABO89844" editRecord="[0__O]">Sulfobacillus thermosztlfidaoxidans DSM 9293T (AB089844)</otu>
+  <otu id="otu19" cmphy:edit="[0__O]" cmphy:genus="Sulfabucillus" cmphy:species="acidophilus" cmphy:strain="DSM 10332T" cmphy:id="ABO89842" editRecord="[0__O]">Sulfabucillus acidophilus DSM 10332T (AB089842)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="44.0" y="511.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="69.0" y="511.0"/>
+   <node id="NT1.3" x="131.0" y="433.0" label="mu"/>
+   <node id="NT1.4" label="NT1.4" x="148.0" y="305.0"/>
+   <node id="NT1.7" label="NT1.7" x="154.0" y="264.0"/>
+   <node id="NT1.8" label="NT1.8" x="160.0" y="394.0"/>
+   <node id="NT1.10" label="NT1.10" x="169.0" y="194.0"/>
+   <node id="NT1.11" label="NT1.11" x="175.0" y="349.0"/>
+   <node id="NT1.12" label="NT1.12" x="183.0" y="322.0"/>
+   <node id="NT1.13" label="NT1.13" x="208.0" y="265.0" otu="otu3"/>
+   <node id="NT1.15" label="NT1.15" x="214.0" y="338.0" otu="otu4"/>
+   <node id="NT1.16" label="NT1.16" x="214.0" y="302.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="220.0" y="557.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="224.0" y="192.0" otu="otu8"/>
+   <node id="NT1.28" label="NT1.28" x="244.0" y="411.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="252.0" y="375.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="275.0" y="229.0" otu="otu17"/>
+   <node id="NT1.34" label="NT1.34" x="311.0" y="610.0"/>
+   <node id="NT1.35" label="NT1.35" x="387.0" y="593.0" otu="otu18"/>
+   <node id="NT1.36" label="NT1.36" x="439.0" y="630.0" otu="otu19"/>
+   <edge id="e.2" source="NT1.10" target="NT1.33"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.10" target="NT1.10" source="NT1.7"/>
+   <edge id="e.11" source="NT1.4" target="NT1.7"/>
+   <edge id="e.12" source="NT1.3" target="NT1.4"/>
+   <edge id="e.14" target="NT1.8" source="NT1.4"/>
+   <edge id="e.16" source="NT1.8" target="NT1.11"/>
+   <edge id="e.17" source="NT1.2" target="NT1.3"/>
+   <edge id="e.18" source="NT1.11" target="NT1.12"/>
+   <edge id="e.22" source="NT1.2" target="NT1.34"/>
+   <edge id="e.23" source="NT1.7" target="NT1.13"/>
+   <edge id="e.24" source="NT1.3" target="NT1.20"/>
+   <edge id="e.25" source="NT1.10" target="NT1.21"/>
+   <edge id="e.26" source="NT1.12" target="NT1.15"/>
+   <edge id="e.27" source="NT1.12" target="NT1.16"/>
+   <edge id="e.28" source="NT1.11" target="NT1.30"/>
+   <edge id="e.30" target="NT1.28" source="NT1.8"/>
+   <edge id="e.33" source="NT1.34" target="NT1.35"/>
+   <edge id="e.34" source="NT1.34" target="NT1.36"/>
+  </tree>
+ </trees>
+</nexml>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[2__Z]" cmphy:genus="Serratia" cmphy:species="rubidaea" cmphy:strain="DSM 44807" cmphy:id="AJZ33436" editRecord="[2__Z]">Serratia rubidaea DSM 44807 (AJ233436)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:edit="[2__Z]" cmphy:genus="Serratfa" cmphy:species="odorifera" cmphy:strain="DSM 4582T" cmphy:id="AJZ33432" editRecord="[2__Z]">Serratfa odorifera DSM 4582T (AJ233432)</otu>
+  <otu id="otu5"> Serratia marcescens subsp. marcescens DSM 301217 (AJ233431)</otu>
+  <otu id="otu6" cmphy:edit="[2__Z]" cmphy:genus="Serratia" cmphy:species="ficaria" cmphy:strain="DSM 45697" cmphy:id="AJZ33428" editRecord="[2__Z]">Serratia ficaria DSM 45697 (AJ233428)</otu>
+  <otu id="otu7" cmphy:genus="Xenorhabdus" cmphy:species="bovienii" cmphy:strain="DSM 47667" cmphy:id="X82252" editRecord="[]">Xenorhabdus bovienii DSM 47667 (X82252)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Serratia ureilytica NiVa 51 T (AJ854062)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Serratia" cmphy:species="plymuthfca" cmphy:strain="DSM 4540T" cmphy:id="AJZ33433" editRecord="[2__Z]"> Serratia plymuthfca DSM 4540T (AJ233433)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"/>
+  <otu id="otu13"/>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Serratia" cmphy:species="fonticola" cmphy:strain="DSM 4576T" cmphy:id="AJZ33429" editRecord="[2__Z]">Serratia fonticola DSM 4576T (AJ233429)</otu>
+  <otu id="otu16" cmphy:edit="[0__O]" cmphy:genus="Serratia" cmphy:species="liquefaciens" cmphy:strain="JCM 1245T" cmphy:id="ABO04752" editRecord="[0__O]">Serratia liquefaciens JCM 1245T (AB004752)</otu>
+  <otu id="otu17" cmphy:edit="[2__Z]" cmphy:genus="Citrobacter" cmphy:species="freundii" cmphy:strain="DSM 300397" cmphy:id="AJZ33408" editRecord="[2__Z]">Citrobacter freundii DSM 300397 (AJ233408)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" x="226.0" y="508.0" label="100"/>
+   <node id="NT1.3" label="NT1.3" x="291.0" y="311.0"/>
+   <node id="NT1.4" label="NT1.4" x="331.0" y="416.0"/>
+   <node id="NT1.6" x="404.0" y="476.0" label="51"/>
+   <node id="NT1.7" label="NT1.7" x="414.0" y="706.0" otu="otu1"/>
+   <node id="NT1.14" label="NT1.14" x="455.0" y="358.0" otu="otu4"/>
+   <node id="NT1.16" x="461.0" y="528.0" label="73"/>
+   <node id="NT1.17" label="NT1.17" x="473.0" y="445.0" otu="otu6"/>
+   <node id="NT1.18" label="NT1.18" x="479.0" y="749.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="539.0" y="105.0"/>
+   <node id="NT1.23" label="NT1.23" x="562.0" y="488.0" otu="otu10"/>
+   <node id="NT1.32" label="NT1.32" x="670.0" y="531.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="678.0" y="55.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="700.0" y="142.0" otu="otu17"/>
+   <node id="NT1.37" label="NT1.37" x="1.0" y="641.0" root="true"/>
+   <edge id="e.1" target="NT1.33" source="NT1.22"/>
+   <edge id="e.3" source="NT1.22" target="NT1.34"/>
+   <edge id="e.7" source="NT1.4" target="NT1.14"/>
+   <edge id="e.9" source="NT1.16" target="NT1.23"/>
+   <edge id="e.11" source="NT1.2" target="NT1.7"/>
+   <edge id="e.12" target="NT1.32" source="NT1.16"/>
+   <edge id="e.15" target="NT1.18" source="NT1.37"/>
+   <edge id="e.19" target="NT1.22" source="NT1.3"/>
+   <edge id="e.24" source="NT1.2" target="NT1.3"/>
+   <edge id="e.25" source="NT1.3" target="NT1.4"/>
+   <edge id="e.26" source="NT1.4" target="NT1.6"/>
+   <edge id="e.27" source="NT1.6" target="NT1.16"/>
+   <edge id="e.32" source="NT1.37" target="NT1.2"/>
+   <edge id="e.35" target="NT1.17" source="NT1.6"/>
+  </tree>
+ </trees>
+</nexml>

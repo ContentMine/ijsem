@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Vwiovoraxparadoxux DSM 300347 (AJ4l0329)</otu>
+  <otu id="otu2">Acidovoraxfacilix DSM 6497 (AJ420324)</otu>
+  <otu id="otu3">Mqua.vpirz'IIwn1p.rychrophilum LMG 54087 (AF078755)</otu>
+  <otu id="otu4">K6011 (AJ418042)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Hydrogenophaga" cmphy:species="pallemnii" cmphy:strain="DSM 637" cmphy:id="AFO19073" editRecord="[0__O]">Hydrogenophaga pallemnii DSM 637 (AF019073)</otu>
+  <otu id="otu6">X enophilus azovorans DSM 13620T (AF285414)</otu>
+  <otu id="otu7">Comamonax terrigena DSM 7099T(AJ420326)</otu>
+  <otu id="otu8">Comamnnax testastemni ATCC ll996T(M1l224)</otu>
+  <otu id="otu9">Hydmgenaphagaflava DSM 6197 (AJ420328)</otu>
+  <otu id="otu10">I-bzdrogenophaga taeniospiralis ATCC 497437 (AF078768)</otu>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Hydrogenaphaga" cmphy:species="intermedia" cmphy:strain="DSM 56807" cmphy:id="AFO19037" editRecord="[0__O]">Hydrogenaphaga intermedia DSM 56807 (AF019037)</otu>
+  <otu id="otu12" cmphy:genus="Delfiia" cmphy:species="acidavomm" cmphy:strain="DSM 39T" cmphy:id="X59168" editRecord="[]">Delfiia acidavomm DSM 39T (X59168)</otu>
+  <otu id="otu13">Conuzmonm nirrativoram DSM 131917 (AJ25l577)</otu>
+  <otu id="otu14">Comamonas dem'trij'ican.r strain 1237 (AF233877)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.5" label="NT1.5" x="370.0" y="546.0"/>
+   <node id="NT1.13" label="NT1.13" x="627.0" y="552.0" otu="otu5"/>
+   <node id="NT1.19" label="NT1.19" x="690.0" y="591.0" otu="otu11"/>
+   <node id="NT1.20" label="NT1.20" x="714.0" y="183.0" otu="otu12"/>
+   <node id="NT1.23" label="NT1.23" x="2.0" y="104.0" root="true"/>
+   <edge id="e.7" target="NT1.5" source="NT1.23"/>
+   <edge id="e.17" target="NT1.20" source="NT1.5"/>
+   <edge id="e.18" source="NT1.5" target="NT1.19"/>
+   <edge id="e.19" target="NT1.13" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

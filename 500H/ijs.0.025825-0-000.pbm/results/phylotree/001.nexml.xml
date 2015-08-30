@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4">Asanoa iriomotensis TT 97-02T(AB112081)</otu>
+  <otu id="otu5" cmphy:edit="[1__I]" cmphy:genus="Asanoa" cmphy:species="hainanensis" cmphy:strain="2101217" cmphy:id="FJI55992" editRecord="[1__I]">Asanoa hainanensis 2101217 (FJ155992)</otu>
+  <otu id="otu6" cmphy:genus="Asanoa" cmphy:species="ferruginea" cmphy:strain="DSM 44O99T" cmphy:id="X93199" editRecord="[]">Asanoa ferruginea DSM 44O99T (X93199)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Micromonospora" cmphy:species="chaiyaphumensis" cmphy:strain="MC5-17" cmphy:id="ABI96710" editRecord="[1__I]">Micromonospora chaiyaphumensis MC5-17 (AB196710)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"/>
+  <otu id="otu11"/>
+  <otu id="otu12">Catenuloplanes indicus IMSNU 22O99T (AJ29471 7)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="6.0" y="305.0" otu="otu1" root="true"/>
+   <node id="NT1.2" x="12.0" y="189.0" label=")"/>
+   <node id="NT1.5" x="90.0" y="307.0" label="2"/>
+   <node id="NT1.15" label="NT1.15" x="226.0" y="274.0" otu="otu5"/>
+   <node id="NT1.16" label="NT1.16" x="239.0" y="312.0" otu="otu6"/>
+   <node id="NT1.17" label="NT1.17" x="255.0" y="49.0" otu="otu7"/>
+   <edge id="e.1" target="NT1.17" source="NT1.2"/>
+   <edge id="e.3" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" source="NT1.5" target="NT1.15"/>
+   <edge id="e.14" target="NT1.5" source="NT1.2"/>
+   <edge id="e.19" target="NT1.16" source="NT1.5"/>
+  </tree>
+ </trees>
+</nexml>

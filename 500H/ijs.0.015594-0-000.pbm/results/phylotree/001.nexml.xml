@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">N. vermiculata JCM 12354T (GO853068)</otu>
+  <otu id="otu3">N. elegans JCM 133747 (GO376166)</otu>
+  <otu id="otu4">N. vacciniiATCC 110927 (GQ853071)</otu>
+  <otu id="otu5">N. africana DSM 44491T (AF480054)</otu>
+  <otu id="otu6">N. aobensis JCM 123527 (GQ376159)</otu>
+  <otu id="otu7">N. cerradoensis DSM 44546 (GQ853077)</otu>
+  <otu id="otu8">N. mikamii</otu>
+  <otu id="otu9">N. mikamii W7467 (EU484390)</otu>
+  <otu id="otu10">N. veterana DSM 44445T (GO376181)</otu>
+  <otu id="otu11">N. kruczakiae DSM 44877T (GQ376176)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="1.0" y="450.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

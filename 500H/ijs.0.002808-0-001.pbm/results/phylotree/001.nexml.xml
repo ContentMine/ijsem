@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Acidithiobacillus" cmphy:species="albertensis" cmphy:strain="DSM 14366T" cmphy:id="AJ459804" editRecord="[]">Acidithiobacillus albertensis DSM 14366T (AJ459804)</otu>
+  <otu id="otu5">Acidithiobacillus ferrooxidans (ABO39820)</otu>
+  <otu id="otu6">Acidithiobacillus caldus DSM 8584T(Z29975)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Halothiobacillus" cmphy:species="neapolitanus" cmphy:strain="DSM 581" cmphy:id="AFI73169" editRecord="[1__I]">Halothiobacillus neapolitanus DSM 581 (AF173169)</otu>
+  <otu id="otu8" cmphy:genus="Halothiobacillus" cmphy:species="h" cmphy:strain="ydrothermalis R37" cmphy:id="M90662">Halothiobacillus h ydrothermalis R37 (M90662)</otu>
+  <otu id="otu9" cmphy:edit="[8__B]" cmphy:genus="Denitratisoma" cmphy:species="oestradiolicum" cmphy:strain="AcBE2-1T" cmphy:id="AYB79297" editRecord="[8__B]">Denitratisoma oestradiolicum AcBE2-1T (AY879297)</otu>
+  <otu id="otu10">Halothiobacillus halophilus (U58020)</otu>
+  <otu id="otu11">Methyloversatilis universalis (AY436796)</otu>
+  <otu id="otu12" cmphy:genus="Dechloromonas" cmphy:species="aromaticef" cmphy:strain="RCB" cmphy:id="AYO32610" editRecord="[]">Dechloromonas aromaticef RCB (AYO32610)</otu>
+  <otu id="otu13">Thiobacillus plumbophilus' DSM 6690 (AJ316618)</otu>
+  <otu id="otu14" cmphy:genus="Thiobacillus" cmphy:species="thiophilus" cmphy:strain="D24TNT" cmphy:id="EU685841" editRecord="[]">Thiobacillus thiophilus D24TNT (EU685841)</otu>
+  <otu id="otu15" cmphy:edit="[2__Z]" cmphy:genus="Thiobacillus" cmphy:species="denitrificans" cmphy:strain="NCIMB 9548" cmphy:id="AJZ43144" editRecord="[2__Z]">Thiobacillus denitrificans NCIMB 9548 (AJ243144)</otu>
+  <otu id="otu16" cmphy:edit="[O__0]" cmphy:genus="Thiobacillus" cmphy:species="thioparus" cmphy:strain="LV43" cmphy:id="AFO05628" editRecord="[O__0]">Thiobacillus thioparus LV43 (AFOO5628)</otu>
+  <otu id="otu17">Rhoclocyclus purpureus (M34132)</otu>
+  <otu id="otu18" cmphy:edit="[5__S]" cmphy:genus="Thiobacillus" cmphy:species="denitrificans" cmphy:strain="ME16" cmphy:id="EUS46130" editRecord="[5__S]">Thiobacillus denitrificans ME16 (EU546130)</otu>
+  <otu id="otu19" cmphy:genus="Thiobacillus" cmphy:species="thioparus" cmphy:strain="DSM 505T" cmphy:id="M79426" editRecord="[]">Thiobacillus thioparus DSM 505T (M79426)</otu>
+  <otu id="otu20" cmphy:edit="[2__Z]" cmphy:genus="Thiomonas" cmphy:species="delicata" cmphy:strain="NBRC 145667" cmphy:id="ABZ45481" editRecord="[2__Z]">Thiomonas delicata NBRC 145667 (AB245481)</otu>
+  <otu id="otu21" cmphy:genus="Thiobacillus" cmphy:species="denitrificans" cmphy:strain="ATCC 25259" cmphy:id="CPO00116" editRecord="[]">Thiobacillus denitrificans ATCC 25259 (CPO00116)</otu>
+  <otu id="otu22">Thiobacillus aquaesulis (U58019)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="139.0" y="532.0" otu="otu1" root="true"/>
+   <node id="NT1.4" label="NT1.4" x="214.0" y="532.0"/>
+   <node id="NT1.5" x="285.0" y="433.0" label="67"/>
+   <node id="NT1.6" label="NT1.6" x="581.0" y="496.0"/>
+   <node id="NT1.8" label="NT1.8" x="729.0" y="333.0"/>
+   <node id="NT1.9" label="NT1.9" x="744.0" y="396.0"/>
+   <node id="NT1.11" label="NT1.11" x="767.0" y="266.0"/>
+   <node id="NT1.15" label="NT1.15" x="858.0" y="548.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="1019.0" y="516.0" otu="otu7"/>
+   <node id="NT1.21" label="NT1.21" x="1067.0" y="448.0" otu="otu8"/>
+   <node id="NT1.22" label="NT1.22" x="1068.0" y="316.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="1109.0" y="167.0"/>
+   <node id="NT1.26" label="NT1.26" x="1132.0" y="134.0"/>
+   <node id="NT1.27" label="NT1.27" x="1163.0" y="101.0"/>
+   <node id="NT1.28" label="NT1.28" x="1190.0" y="349.0" otu="otu12"/>
+   <node id="NT1.29" label="NT1.29" x="1201.0" y="68.0"/>
+   <node id="NT1.31" label="NT1.31" x="1208.0" y="184.0" otu="otu14"/>
+   <node id="NT1.32" label="NT1.32" x="1220.0" y="151.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="1223.0" y="118.0" otu="otu16"/>
+   <node id="NT1.34" x="1224.0" y="34.0" label="75"/>
+   <node id="NT1.36" label="NT1.36" x="1248.0" y="51.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="1279.0" y="84.0" otu="otu19"/>
+   <node id="NT1.38" label="NT1.38" x="1290.0" y="416.0" otu="otu20"/>
+   <node id="NT1.39" label="NT1.39" x="1300.0" y="15.0" otu="otu21"/>
+   <edge id="e.0" source="NT1.34" target="NT1.36"/>
+   <edge id="e.1" source="NT1.29" target="NT1.37"/>
+   <edge id="e.2" source="NT1.27" target="NT1.33"/>
+   <edge id="e.3" source="NT1.26" target="NT1.32"/>
+   <edge id="e.4" source="NT1.24" target="NT1.31"/>
+   <edge id="e.6" target="NT1.28" source="NT1.9"/>
+   <edge id="e.8" source="NT1.9" target="NT1.38"/>
+   <edge id="e.11" source="NT1.1" target="NT1.4"/>
+   <edge id="e.12" target="NT1.15" source="NT1.4"/>
+   <edge id="e.13" source="NT1.6" target="NT1.20"/>
+   <edge id="e.16" source="NT1.29" target="NT1.34"/>
+   <edge id="e.17" source="NT1.27" target="NT1.29"/>
+   <edge id="e.18" source="NT1.26" target="NT1.27"/>
+   <edge id="e.19" source="NT1.24" target="NT1.26"/>
+   <edge id="e.20" target="NT1.24" source="NT1.11"/>
+   <edge id="e.23" source="NT1.8" target="NT1.11"/>
+   <edge id="e.25" source="NT1.5" target="NT1.8"/>
+   <edge id="e.26" source="NT1.8" target="NT1.9"/>
+   <edge id="e.28" source="NT1.4" target="NT1.5"/>
+   <edge id="e.29" source="NT1.5" target="NT1.6"/>
+   <edge id="e.33" target="NT1.21" source="NT1.6"/>
+   <edge id="e.35" target="NT1.22" source="NT1.11"/>
+   <edge id="e.38" source="NT1.34" target="NT1.39"/>
+  </tree>
+ </trees>
+</nexml>

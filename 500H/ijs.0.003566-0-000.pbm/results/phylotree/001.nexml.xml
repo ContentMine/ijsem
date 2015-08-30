@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Corallococcus coralloides DSM 51408 (AJ81 1615)</otu>
+  <otu id="otu2">Corallococcus coralloides DSM 51433 (AJ81 1616)</otu>
+  <otu id="otu3"> Myxococcus Iulvus ATCC 25199T(DQ768117)</otu>
+  <otu id="otu4">Corallococcus coralloides DSM 51547 (AJ81 1592)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Corallococcus coralloides DSM 2259T (AJ81 1588)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">Myxococcus stipitatus DSM 14675 (DO7681 18)</otu>
+  <otu id="otu10">1CoraIlococcus1 macrosporus DSM 14697 (AJ81 1623)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Myxococcus" cmphy:species="virescens" cmphy:strain="NBRC 1OO334T" cmphy:id="ABZ18225" editRecord="[2__Z]">Myxococcus virescens NBRC 1OO334T (AB218225)</otu>
+  <otu id="otu13">Myxococcus xanthus ATCC 252327 (DO7681 16)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15" cmphy:genus="Stigmatella" cmphy:species="aurantiaca" cmphy:strain="ATCC 25190" cmphy:id="DQ768127" editRecord="[]"> Stigmatella aurantiaca ATCC 25190 (DQ768127)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.25" label="NT1.25" x="305.0" y="395.0" otu="otu12"/>
+   <node id="NT1.28" label="NT1.28" x="429.0" y="534.0" otu="otu15"/>
+   <node id="NT1.29" label="NT1.29" x="2.0" y="377.0" root="true"/>
+   <edge id="e.7" target="NT1.25" source="NT1.29"/>
+   <edge id="e.11" target="NT1.28" source="NT1.29"/>
+  </tree>
+ </trees>
+</nexml>

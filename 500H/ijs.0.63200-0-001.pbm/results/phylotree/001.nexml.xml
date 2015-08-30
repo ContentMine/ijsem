@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3">BIastobotIys aristata NRRL Y-17579T (U40109)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5" cmphy:genus="Sympodiomyces" cmphy:species="parvus" cmphy:strain="NRRL Y-10004T" cmphy:id="U40096" editRecord="[]">Sympodiomyces parvus NRRL Y-10004T (U40096)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7" cmphy:edit="[2__Z]" cmphy:genus="Sympodiomyces" cmphy:species="indianaensis" cmphy:strain="NRRL YB-19507" cmphy:id="AYZ83605" editRecord="[2__Z]">Sympodiomyces indianaensis NRRL YB-19507 (AY283605)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9" cmphy:genus="Blastobotrys" cmphy:species="proliferans" cmphy:strain="NRRL Y-175777" cmphy:id="U40098" editRecord="[]">Blastobotrys proliferans NRRL Y-175777 (U40098)</otu>
+  <otu id="otu10"/>
+  <otu id="otu11" cmphy:edit="[0__O]" cmphy:genus="Saccharomyces" cmphy:species="cerevisiae" cmphy:strain="NRRL Y-126327" cmphy:id="AYO48154" editRecord="[0__O]">Saccharomyces cerevisiae NRRL Y-126327 (AY048154)</otu>
+  <otu id="otu12"/>
+  <otu id="otu13" cmphy:genus="Stephanoascus" cmphy:species="farinosus" cmphy:strain="NRRL Y-17593T" cmphy:id="U40132" editRecord="[]">Stephanoascus farinosus NRRL Y-17593T (U40132)</otu>
+  <otu id="otu14"/>
+  <otu id="otu15"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="353.0" otu="otu1" root="true"/>
+   <node id="NT1.2" label="NT1.2" x="46.0" y="354.0"/>
+   <node id="NT1.3" label="NT1.3" x="136.0" y="256.0"/>
+   <node id="NT1.4" x="145.0" y="364.0" label="56"/>
+   <node id="NT1.5" label="NT1.5" x="158.0" y="315.0"/>
+   <node id="NT1.18" label="NT1.18" x="242.0" y="333.0" otu="otu5"/>
+   <node id="NT1.20" label="NT1.20" x="247.0" y="294.0" otu="otu7"/>
+   <node id="NT1.22" label="NT1.22" x="260.0" y="413.0" otu="otu9"/>
+   <node id="NT1.24" label="NT1.24" x="267.0" y="452.0" otu="otu11"/>
+   <node id="NT1.26" label="NT1.26" x="278.0" y="97.0" otu="otu13"/>
+   <edge id="e.5" source="NT1.1" target="NT1.2"/>
+   <edge id="e.7" target="NT1.20" source="NT1.5"/>
+   <edge id="e.14" source="NT1.3" target="NT1.4"/>
+   <edge id="e.15" source="NT1.4" target="NT1.5"/>
+   <edge id="e.18" source="NT1.2" target="NT1.24"/>
+   <edge id="e.19" source="NT1.2" target="NT1.3"/>
+   <edge id="e.21" source="NT1.4" target="NT1.22"/>
+   <edge id="e.23" target="NT1.18" source="NT1.5"/>
+   <edge id="e.25" target="NT1.26" source="NT1.3"/>
+  </tree>
+ </trees>
+</nexml>

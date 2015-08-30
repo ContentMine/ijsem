@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1">Aeromonas schuber1iiATCC 437O0T (X74682)</otu>
+  <otu id="otu2" cmphy:genus="Tolumonas" cmphy:species="auensis" cmphy:strain="DSM 9187T" cmphy:id="X92889" editRecord="[]">Tolumonas auensis DSM 9187T (X92889)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Aeromonas" cmphy:species="salmonicida" cmphy:strain="CIP 1032097" cmphy:id="X74681" editRecord="[]">Aeromonas salmonicida CIP 1032097 (X74681)</otu>
+  <otu id="otu5" cmphy:edit="[0__O]" cmphy:genus="Oceanimonas" cmphy:species="doudoroffii" cmphy:strain="DSM 7028T" cmphy:id="ABO19390" editRecord="[0__O]">Oceanimonas doudoroffii DSM 7028T (AB019390)</otu>
+  <otu id="otu6" cmphy:edit="[0__O]" cmphy:genus="Oceanimonas" cmphy:species="doudoroffii" cmphy:strain="DSM 7028T" cmphy:id="ABO19390" editRecord="[0__O]">Oceanimonas doudoroffii DSM 7028T (AB019390)</otu>
+  <otu id="otu7" cmphy:edit="[1__I]" cmphy:genus="Oceanimonas" cmphy:species="baumannii" cmphy:strain="ATCC 700832T" cmphy:id="AFI68367" editRecord="[1__I]">Oceanimonas baumannii ATCC 700832T (AF168367)</otu>
+  <otu id="otu8">Oceanisphaera Iitoralis KMM 36547 (AJ550470)</otu>
+  <otu id="otu9">Fern'monas balearica DSM 97997 (AFO54936)</otu>
+  <otu id="otu10" cmphy:genus="Vibrio" cmphy:species="alginolyticus" cmphy:strain="ATCC 17749T" cmphy:id="X56576" editRecord="[]">Vibrio alginolyticus ATCC 17749T (X56576)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="190.0" y="269.0"/>
+   <node id="NT1.4" label="NT1.4" x="283.0" y="81.0"/>
+   <node id="NT1.6" label="NT1.6" x="369.0" y="271.0" otu="otu2"/>
+   <node id="NT1.9" label="NT1.9" x="397.0" y="367.0" otu="otu4"/>
+   <node id="NT1.10" label="NT1.10" x="424.0" y="43.0"/>
+   <node id="NT1.11" label="NT1.11" x="458.0" y="14.0" otu="otu5"/>
+   <node id="NT1.12" label="NT1.12" x="458.0" y="17.0"/>
+   <node id="NT1.13" label="NT1.13" x="495.0" y="17.0" otu="otu6"/>
+   <node id="NT1.14" label="NT1.14" x="499.0" y="66.0" otu="otu7"/>
+   <node id="NT1.17" label="NT1.17" x="604.0" y="220.0" otu="otu10"/>
+   <node id="NT1.18" label="NT1.18" x="8.0" y="246.0" root="true"/>
+   <edge id="e.0" source="NT1.12" target="NT1.11"/>
+   <edge id="e.1" source="NT1.12" target="NT1.13"/>
+   <edge id="e.5" source="NT1.1" target="NT1.6"/>
+   <edge id="e.6" source="NT1.4" target="NT1.10"/>
+   <edge id="e.7" source="NT1.10" target="NT1.12"/>
+   <edge id="e.8" source="NT1.1" target="NT1.4"/>
+   <edge id="e.12" source="NT1.18" target="NT1.1"/>
+   <edge id="e.14" target="NT1.9" source="NT1.18"/>
+   <edge id="e.15" target="NT1.17" source="NT1.4"/>
+   <edge id="e.16" source="NT1.10" target="NT1.14"/>
+  </tree>
+ </trees>
+</nexml>

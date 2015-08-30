@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:genus="c." cmphy:species="variabile" cmphy:strain="NCDO 2097" cmphy:id="X53185"> c. variabile NCDO 2097 (X53185)</otu>
+  <otu id="otu2"/>
+  <otu id="otu3">C. halotolerans YIM 70093T (AY226509)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">C. vitaeruminis DSM 20294T (X84680)</otu>
+  <otu id="otu6">C. singulare CCUG 3733oT (Y10999)</otu>
+  <otu id="otu7" cmphy:edit="[0__O]" cmphy:genus="c." cmphy:species="efficiens" cmphy:strain="Ys-314T" cmphy:id="ABO55963">c. efficiens Ys-314T (AB055963)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9">C. felinum CCUG 39943T (AJ401282)</otu>
+  <otu id="otu10">C. striatum CIP 81.15T (X81910)</otu>
+  <otu id="otu11">C. flavescens NCDO 132oT (X84441)</otu>
+  <otu id="otu12">C. aurimucosum IMMIB R-222 (AJ315961)</otu>
+  <otu id="otu13" cmphy:genus="c." cmphy:species="callunae" cmphy:strain="ccue 28793T" cmphy:id="X82053">c. callunae ccue 28793T (X82053)</otu>
+  <otu id="otu14" cmphy:genus="c." cmphy:species="aquilae" cmphy:strain="CECT 5993T" cmphy:id="AJ496733">c. aquilae CECT 5993T (AJ496733)</otu>
+  <otu id="otu15">C. pilosum ATCC 295927 (X81908)</otu>
+  <otu id="otu16">C. pilosum NCTC 11862T (X84246)</otu>
+  <otu id="otu17" cmphy:genus="c." cmphy:species="xerosis" cmphy:strain="DSM 2o743T" cmphy:id="X84446">c. xerosis DSM 2o743T (X84446)</otu>
+  <otu id="otu18" cmphy:edit="[2__Z]" cmphy:genus="c." cmphy:species="freneyi" cmphy:strain="CIP 1o6767T" cmphy:id="AJZ92762">c. freneyi CIP 1o6767T (AJ292762)</otu>
+  <otu id="otu19">C. renale CIP 1o3421T (X84249)</otu>
+  <otu id="otu20">C. ammoniagenes CIP 1o1283T (X84440)</otu>
+  <otu id="otu21">C. casei DPC 5302 (AF267153)</otu>
+  <otu id="otu22">C. thomssenii DSM 44276T (AF010474)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="13.0" y="514.0"/>
+   <node id="NT1.2" label="NT1.2" x="30.0" y="707.0"/>
+   <node id="NT1.8" label="NT1.8" x="108.0" y="875.0"/>
+   <node id="NT1.16" label="NT1.16" x="173.0" y="783.0"/>
+   <node id="NT1.19" label="NT1.19" x="237.0" y="682.0" otu="otu1"/>
+   <node id="NT1.25" label="NT1.25" x="290.0" y="845.0" otu="otu7"/>
+   <node id="NT1.31" label="NT1.31" x="311.0" y="887.0" otu="otu13"/>
+   <node id="NT1.34" label="NT1.34" x="329.0" y="188.0" otu="otu14"/>
+   <node id="NT1.37" label="NT1.37" x="343.0" y="760.0" otu="otu17"/>
+   <node id="NT1.38" label="NT1.38" x="365.0" y="804.0" otu="otu18"/>
+   <node id="NT1.43" label="NT1.43" x="8.0" y="514.0" root="true"/>
+   <edge id="e.2" target="NT1.34" source="NT1.1"/>
+   <edge id="e.7" target="NT1.19" source="NT1.2"/>
+   <edge id="e.9" source="NT1.16" target="NT1.37"/>
+   <edge id="e.10" source="NT1.16" target="NT1.38"/>
+   <edge id="e.11" source="NT1.8" target="NT1.25"/>
+   <edge id="e.22" source="NT1.1" target="NT1.2"/>
+   <edge id="e.28" target="NT1.16" source="NT1.2"/>
+   <edge id="e.29" source="NT1.43" target="NT1.1"/>
+   <edge id="e.30" source="NT1.43" target="NT1.8"/>
+   <edge id="e.34" source="NT1.8" target="NT1.31"/>
+  </tree>
+ </trees>
+</nexml>

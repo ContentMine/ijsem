@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4"/>
+  <otu id="otu5">Demequma aestuarn JC2054T (DC)</otu>
+  <otu id="otu6"/>
+  <otu id="otu7">34 Oerskovia jenensis DSM 46O0OT (AJ314848)</otu>
+  <otu id="otu8" cmphy:genus="Cellulomonas" cmphy:species="hominis" cmphy:strain="CE4OT" cmphy:id="X82598" editRecord="[]">Cellulomonas hominis CE4OT (X82598)</otu>
+  <otu id="otu9" cmphy:genus="Demequina" cmphy:species="salsinemoris" cmphy:strain="KV-8107" cmphy:id="AB471559" editRecord="[]">Demequina salsinemoris KV-8107 (AB471559)</otu>
+  <otu id="otu10">Demequina salsinemoris KV-816</otu>
+  <otu id="otu11">Demequina salsinemoris KV-81 1</otu>
+  <otu id="otu12">Cellulomonas cellasea DSM 201 187 (X83804)</otu>
+  <otu id="otu13" cmphy:genus="Oerskovia" cmphy:species="enterophila" cmphy:strain="DSM 43852T" cmphy:id="X83807" editRecord="[]">Oerskovia enterophila DSM 43852T (X83807)</otu>
+  <otu id="otu14">Actlnotalea fermentans DSM 3133</otu>
+  <otu id="otu15"/>
+  <otu id="otu16" cmphy:genus="Oerskovia" cmphy:species="paurometabola" cmphy:strain="DSM 14281T" cmphy:id="AJ31485" editRecord="[]">Oerskovia paurometabola DSM 14281T (AJ31485)</otu>
+  <otu id="otu17" cmphy:genus="Oerskovia" cmphy:species="paurometabola" cmphy:strain="DSM 14281T" cmphy:id="AJ31485" editRecord="[]">Oerskovia paurometabola DSM 14281T (AJ31485)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19"/>
+  <otu id="otu20">Oerskovia turbata DSM 2o57_7T (X83806</otu>
+  <otu id="otu21"/>
+  <otu id="otu22">Cellulomonas humilata ATCC 251 74T (X82449)</otu>
+  <otu id="otu23">Micrococcus Iuteus ATCC 4698T (AF542073)</otu>
+  <otu id="otu24">Cellulomonas compostiTR7-O67 (AB166887)</otu>
+  <otu id="otu25" cmphy:genus="Cellulomonas" cmphy:species="bogoriensis" cmphy:strain="69B4T" cmphy:id="X92152" editRecord="[]">Cellulomonas bogoriensis 69B4T (X92152)</otu>
+  <otu id="otu26"> DemequiI_7_a lutea SV45T</otu>
+  <otu id="otu27">Cellulomonas flavigena DSM 201 OQT (X83799)</otu>
+  <otu id="otu28"/>
+  <otu id="otu29"/>
+  <otu id="otu30">San</otu>
+  <otu id="otu31" cmphy:genus="Sanguibacter" cmphy:species="marinus" cmphy:strain="1-19T" cmphy:id="AJ783958" editRecord="[]">Sanguibacter marinus 1-19T (AJ783958)</otu>
+  <otu id="otu32">Sanguibacter inulinu5 ST50T (X79451)</otu>
+  <otu id="otu33">Sangulbacter sol1DCY22T(E</otu>
+  <otu id="otu34">anguibacter keddieii DSM 10542T (X79450)</otu>
+  <otu id="otu35" cmphy:genus="Sanguibacter" cmphy:species="suarezii" cmphy:strain="ST26T" cmphy:id="X79452" editRecord="[]">Sanguibacter suarezii ST26T (X79452)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="817.0" otu="otu1" root="true"/>
+   <node id="NT1.3" label="NT1.3" x="149.0" y="699.0"/>
+   <node id="NT1.4" label="NT1.4" x="188.0" y="334.0"/>
+   <node id="NT1.12" label="NT1.12" x="475.0" y="464.0"/>
+   <node id="NT1.15" label="NT1.15" x="492.0" y="291.0"/>
+   <node id="NT1.17" label="NT1.17" x="497.0" y="136.0" otu="otu8"/>
+   <node id="NT1.18" label="NT1.18" x="500.0" y="782.0" otu="otu9"/>
+   <node id="NT1.23" label="NT1.23" x="514.0" y="272.0" otu="otu13"/>
+   <node id="NT1.28" x="529.0" y="359.0" label="95"/>
+   <node id="NT1.29" label="NT1.29" x="534.0" y="349.0" otu="otu16"/>
+   <node id="NT1.31" label="NT1.31" x="535.0" y="340.0" otu="otu17"/>
+   <node id="NT1.41" label="NT1.41" x="607.0" y="67.0" otu="otu25"/>
+   <node id="NT1.48" label="NT1.48" x="707.0" y="442.0" otu="otu31"/>
+   <node id="NT1.52" label="NT1.52" x="776.0" y="544.0" otu="otu35"/>
+   <edge id="e.2" target="NT1.17" source="NT1.4"/>
+   <edge id="e.5" source="NT1.15" target="NT1.23"/>
+   <edge id="e.8" source="NT1.28" target="NT1.29"/>
+   <edge id="e.12" target="NT1.31" source="NT1.28"/>
+   <edge id="e.19" target="NT1.52" source="NT1.12"/>
+   <edge id="e.26" target="NT1.18" source="NT1.3"/>
+   <edge id="e.30" source="NT1.4" target="NT1.15"/>
+   <edge id="e.31" source="NT1.4" target="NT1.12"/>
+   <edge id="e.32" source="NT1.3" target="NT1.4"/>
+   <edge id="e.37" source="NT1.15" target="NT1.28"/>
+   <edge id="e.42" target="NT1.3" source="NT1.1"/>
+   <edge id="e.44" target="NT1.41" source="NT1.4"/>
+   <edge id="e.47" target="NT1.48" source="NT1.12"/>
+  </tree>
+ </trees>
+</nexml>

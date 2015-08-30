@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">D. depolymerans TDMA-247 (AB264134)</otu>
+  <otu id="otu3">D. radiophilus DSM 205517 (Y1 1333)</otu>
+  <otu id="otu4"/>
+  <otu id="otu5">D. deserti DSM 170657 (AY876378)</otu>
+  <otu id="otu6">D. hohokamensis KR-407 (AY743256)</otu>
+  <otu id="otu7">D. grandis</otu>
+  <otu id="otu8">D. caenI'Ho-087(DO0177O9)</otu>
+  <otu id="otu9">D. navajonensis KR-1147(AY743259)</otu>
+  <otu id="otu10">D. proteolyticus DSM 205407 (Y1 1331)</otu>
+  <otu id="otu11">D. aquaticus PB3147(DQO17708)</otu>
+  <otu id="otu12" cmphy:edit="[0__O]" cmphy:genus="Truepera" cmphy:species="radiovfctrix" cmphy:strain="R0-247" cmphy:id="DQO22076" editRecord="[0__O]">Truepera radiovfctrix R0-247 (DQ022076)</otu>
+  <otu id="otu13">D. indicus DSMZ 153077 (AJ5491 1 1)</otu>
+  <otu id="otu14">D. hopiensfs KR-1407 (AY743262)</otu>
+  <otu id="otu15">D. geothermalis DSMZ 1 13007 (Y13038)</otu>
+  <otu id="otu16">D. aquatilis CCUG 533707 (AM940971)</otu>
+  <otu id="otu17">D. ficus CON-1 (DQ003135)</otu>
+  <otu id="otu18"/>
+  <otu id="otu19">D. radiopugnans ATCC 191 727 (Y1 1334)</otu>
+  <otu id="otu20">D. radiodurans DSM 205397 (Y1 1332)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="668.0" otu="otu1" root="true"/>
+   <node id="NT1.29" label="NT1.29" x="504.0" y="724.0" otu="otu12"/>
+   <edge id="e.30" target="NT1.29" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

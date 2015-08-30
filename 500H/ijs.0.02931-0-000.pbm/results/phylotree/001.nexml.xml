@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"> C. meningosepticumATCC 13253T (AJ704540)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4">B. zoohelcum ATCC 43767T (M93153)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="221.0" y="721.0" otu="otu1" root="true"/>
+  </tree>
+ </trees>
+</nexml>

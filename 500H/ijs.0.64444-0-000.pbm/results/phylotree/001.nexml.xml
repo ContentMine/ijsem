@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2">N. dubius KSL-1047 (AY928902)</otu>
+  <otu id="otu3">N. kribbensis KSL-2T (AY835924)</otu>
+  <otu id="otu4"> N. aquiterrae KCCM 41647T (AF529063)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">N. alkalitolerans KSL-1T (AY633969)</otu>
+  <otu id="otu8">N. aquaticus DSM 114397 (X94145)</otu>
+  <otu id="otu9">N. aestuarii Jc2o56T (AY423719)</otu>
+  <otu id="otu10" cmphy:genus="Marmoricola" cmphy:species="aurantiacus" cmphy:strain="BC361T" cmphy:id="Y18629" editRecord="[]">Marmoricola aurantiacus BC361T (Y18629)</otu>
+  <otu id="otu11"/>
+  <otu id="otu12"> N. aromaticivorans H-1T (AB087721)</otu>
+  <otu id="otu13">N. simplex KCTC 9106T (AFO05009)</otu>
+  <otu id="otu14">N. nitrophenolicus NSP41T (AFO05024)</otu>
+  <otu id="otu15">N. plantarum NCIMB 12834T (AF005008)</otu>
+  <otu id="otu16"> N. Iuteus KCTC 95757 (AF005007)</otu>
+  <otu id="otu17">N. ganghwensis JC2055T (AY423718)</otu>
+  <otu id="otu18">N. Ientus KSL-17T (DQ121389)</otu>
+  <otu id="otu19"/>
+  <otu id="otu20"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="2.0" y="715.0" otu="otu1" root="true"/>
+   <node id="NT1.26" label="NT1.26" x="260.0" y="824.0" otu="otu10"/>
+   <edge id="e.19" target="NT1.26" source="NT1.1"/>
+  </tree>
+ </trees>
+</nexml>

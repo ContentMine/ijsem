@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1" cmphy:edit="[O__0]" cmphy:genus="S." cmphy:species="spinosa" cmphy:strain="DSM 442287" cmphy:id="AFO02818" editRecord="[O__0]"> S. spinosa DSM 442287 (AFOO2818)</otu>
+  <otu id="otu2"> S. shandongensis 88T (EF1041 16)</otu>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="S." cmphy:species="antimicrobica" cmphy:strain="I05-00074T" cmphy:id="EF693956" editRecord="[]"> S. antimicrobica I05-00074T (EF693956)</otu>
+  <otu id="otu5" cmphy:genus="S." cmphy:species="hirsuta" cmphy:strain="ATCC 27875T" cmphy:id="U93341" editRecord="[]"> S. hirsuta ATCC 27875T (U93341)</otu>
+  <otu id="otu6">S. hordeiA54T (X53197)</otu>
+  <otu id="otu7" cmphy:genus="S." cmphy:species="rosea" cmphy:strain="IMMIB L-10707" cmphy:id="AMQ92060" editRecord="[]"> S. rosea IMMIB L-10707 (AMQ92060)</otu>
+  <otu id="otu8"/>
+  <otu id="otu9"/>
+  <otu id="otu10"> S. cebuensis SPE 10-1 T (EF030715)</otu>
+  <otu id="otu11" cmphy:edit="[O__0]" cmphy:genus="S." cmphy:species="taberi" cmphy:strain="DSM 4385GT" cmphy:id="AFO02819" editRecord="[O__0]">S. taberi DSM 4385GT (AFOO2819)</otu>
+  <otu id="otu12" cmphy:genus="S." cmphy:species="rectivirgula" cmphy:strain="ATCC 33515" cmphy:id="X53194" editRecord="[]">S. rectivirgula ATCC 33515 (X53194)</otu>
+  <otu id="otu13" cmphy:genus="S." cmphy:species="halophila" cmphy:strain="YIM 9050OT" cmphy:id="DQ923129" editRecord="[]">S. halophila YIM 9050OT (DQ923129)</otu>
+  <otu id="otu14"> 3. endophytica YIM 61095T(EU814512)</otu>
+  <otu id="otu15" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="flava" cmphy:strain="AS4.152OT" cmphy:id="AFI54128" editRecord="[1__I]"> S. flava AS4.152OT (AF154128)</otu>
+  <otu id="otu16" cmphy:genus="S." cmphy:species="qijiaojingensis" cmphy:strain="YIM 91168T" cmphy:id="EF687715" editRecord="[]">S. qijiaojingensis YIM 91168T (EF687715)</otu>
+  <otu id="otu17" cmphy:genus="S." cmphy:species="erythraea" cmphy:strain="NRRL 23387" cmphy:id="X53198" editRecord="[]">S. erythraea NRRL 23387 (X53198)</otu>
+  <otu id="otu18" cmphy:edit="[1__I]" cmphy:genus="S." cmphy:species="thermophila" cmphy:strain="2167" cmphy:id="AFI27526" editRecord="[1__I]"> S. thermophila 2167 (AF127526)</otu>
+  <otu id="otu19"/>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.2" label="NT1.2" x="41.0" y="406.0"/>
+   <node id="NT1.3" x="58.0" y="523.0" label="53"/>
+   <node id="NT1.4" label="NT1.4" x="60.0" y="289.0"/>
+   <node id="NT1.6" label="NT1.6" x="75.0" y="200.0"/>
+   <node id="NT1.7" label="NT1.7" x="79.0" y="135.0"/>
+   <node id="NT1.8" label="NT1.8" x="79.0" y="264.0"/>
+   <node id="NT1.9" label="NT1.9" x="86.0" y="180.0"/>
+   <node id="NT1.10" x="90.0" y="565.0" label="E"/>
+   <node id="NT1.11" x="96.0" y="378.0" label="79"/>
+   <node id="NT1.15" label="NT1.15" x="111.0" y="500.0" otu="otu1"/>
+   <node id="NT1.17" x="127.0" y="58.0" label="78"/>
+   <node id="NT1.19" label="NT1.19" x="134.0" y="575.0" otu="otu4"/>
+   <node id="NT1.21" label="NT1.21" x="146.0" y="538.0" otu="otu5"/>
+   <node id="NT1.23" label="NT1.23" x="155.0" y="161.0" otu="otu7"/>
+   <node id="NT1.28" label="NT1.28" x="188.0" y="349.0" otu="otu11"/>
+   <node id="NT1.29" label="NT1.29" x="213.0" y="236.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="215.0" y="86.0" otu="otu13"/>
+   <node id="NT1.32" label="NT1.32" x="228.0" y="10.0" otu="otu15"/>
+   <node id="NT1.33" label="NT1.33" x="240.0" y="274.0" otu="otu16"/>
+   <node id="NT1.34" label="NT1.34" x="274.0" y="387.0" otu="otu17"/>
+   <node id="NT1.35" label="NT1.35" x="377.0" y="199.0" otu="otu18"/>
+   <node id="NT1.37" label="NT1.37" x="1.0" y="616.0" root="true"/>
+   <edge id="e.0" target="NT1.32" source="NT1.17"/>
+   <edge id="e.2" source="NT1.17" target="NT1.30"/>
+   <edge id="e.4" source="NT1.9" target="NT1.23"/>
+   <edge id="e.6" source="NT1.8" target="NT1.29"/>
+   <edge id="e.7" target="NT1.33" source="NT1.8"/>
+   <edge id="e.8" source="NT1.9" target="NT1.35"/>
+   <edge id="e.9" source="NT1.11" target="NT1.28"/>
+   <edge id="e.11" target="NT1.34" source="NT1.11"/>
+   <edge id="e.12" target="NT1.15" source="NT1.3"/>
+   <edge id="e.14" source="NT1.10" target="NT1.21"/>
+   <edge id="e.16" target="NT1.19" source="NT1.10"/>
+   <edge id="e.19" target="NT1.17" source="NT1.7"/>
+   <edge id="e.21" source="NT1.6" target="NT1.7"/>
+   <edge id="e.22" source="NT1.7" target="NT1.9"/>
+   <edge id="e.23" source="NT1.4" target="NT1.6"/>
+   <edge id="e.24" source="NT1.6" target="NT1.8"/>
+   <edge id="e.26" source="NT1.2" target="NT1.4"/>
+   <edge id="e.27" source="NT1.4" target="NT1.11"/>
+   <edge id="e.29" target="NT1.2" source="NT1.37"/>
+   <edge id="e.30" source="NT1.2" target="NT1.3"/>
+   <edge id="e.31" source="NT1.3" target="NT1.10"/>
+  </tree>
+ </trees>
+</nexml>

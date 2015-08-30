@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <otus label="RootTaxaBlock" xmlns:cmphy="http://contentmine.org/phylotree">
+  <otu id="otu1"/>
+  <otu id="otu2"/>
+  <otu id="otu3"/>
+  <otu id="otu4" cmphy:genus="Friedmannfella" cmphy:species="antarctica" cmphy:strain="DSM 110537" cmphy:id="Z78206" editRecord="[]">Friedmannfella antarctica DSM 110537 (Z78206)</otu>
+  <otu id="otu5"/>
+  <otu id="otu6"/>
+  <otu id="otu7">Nocardioides jensem'I DSM 20641T (X53214)</otu>
+  <otu id="otu8" cmphy:genus="Microlunatus" cmphy:species="phosphovorus" cmphy:strain="DSM 105557" cmphy:id="Z78207" editRecord="[]">Microlunatus phosphovorus DSM 105557 (Z78207)</otu>
+  <otu id="otu9" cmphy:genus="Luteococcus" cmphy:species="japonicus" cmphy:strain="DSM 1O546T" cmphy:id="Z78208" editRecord="[]">Luteococcus japonicus DSM 1O546T (Z78208)</otu>
+  <otu id="otu10" cmphy:edit="[2__Z]" cmphy:genus="Kribbella" cmphy:species="flavida" cmphy:strain="JCM 103397" cmphy:id="AYZ53863" editRecord="[2__Z]">Kribbella flavida JCM 103397 (AY253863)</otu>
+  <otu id="otu11" cmphy:edit="[2__Z]" cmphy:genus="Kribbella" cmphy:species="sandramycini" cmphy:strain="JCM 1034OT" cmphy:id="AYZ53864" editRecord="[2__Z]">Kribbella sandramycini JCM 1034OT (AY253864)</otu>
+  <otu id="otu12" cmphy:edit="[2__Z]" cmphy:genus="Propioniferax" cmphy:species="innocua" cmphy:strain="ATCC 49929T" cmphy:id="AFZ27165" editRecord="[2__Z]">Propioniferax innocua ATCC 49929T (AF227165)</otu>
+  <otu id="otu13" cmphy:genus="Kribbella" cmphy:species="koreensis" cmphy:strain="JCM 109777" cmphy:id="Y09159" editRecord="[]">Kribbella koreensis JCM 109777 (Y09159)</otu>
+  <otu id="otu14" cmphy:genus="Nocardioides" cmphy:species="luteus" cmphy:strain="NCIB 11455T" cmphy:id="X53212" editRecord="[]">Nocardioides luteus NCIB 11455T (X53212)</otu>
+  <otu id="otu15" cmphy:genus="Nocardioides" cmphy:species="albus" cmphy:strain="DSM 431097" cmphy:id="X53211" editRecord="[]">Nocardioides albus DSM 431097 (X53211)</otu>
+  <otu id="otu16">Tessaracoccus bendigoensis ACM 51 19T (AF038504)</otu>
+  <otu id="otu17" cmphy:genus="Nocardioides" cmphy:species="plantarum" cmphy:strain="NCIMB 128347" cmphy:id="X69973" editRecord="[]">Nocardioides plantarum NCIMB 128347 (X69973)</otu>
+  <otu id="otu18" cmphy:edit="[O__0]" cmphy:genus="Propionibacterium" cmphy:species="avidum" cmphy:strain="DSM 4901T" cmphy:id="AJO03055" editRecord="[O__0]">Propionibacterium avidum DSM 4901T (AJOO3055)</otu>
+  <otu id="otu19">Propionibacterium freudenreichii subsp. freudenreichii DSM 20271T (X53217)</otu>
+  <otu id="otu20" cmphy:genus="Actinopolymorpha" cmphy:species="alba" cmphy:strain="YIM 488687" cmphy:id="EU706350" editRecord="[]">Actinopolymorpha alba YIM 488687 (EU706350)</otu>
+  <otu id="otu21"/>
+  <otu id="otu22" cmphy:edit="[O__0]" cmphy:genus="Propionibacterium" cmphy:species="granulosum" cmphy:strain="DSM 2O7O0T" cmphy:id="AJO03057" editRecord="[O__0]">Propionibacterium granulosum DSM 2O7O0T (AJOO3057)</otu>
+  <otu id="otu23">Actinopolymorpha rutila YIM 45725 T (EF601829)</otu>
+ </otus>
+ <trees>
+  <tree id="T1">
+   <node id="NT1.1" label="NT1.1" x="19.0" y="620.0"/>
+   <node id="NT1.2" x="61.0" y="254.0" label="99"/>
+   <node id="NT1.5" x="76.0" y="672.0" label="98"/>
+   <node id="NT1.7" x="77.0" y="569.0" label="99"/>
+   <node id="NT1.10" label="NT1.10" x="119.0" y="713.0"/>
+   <node id="NT1.12" label="NT1.12" x="160.0" y="144.0"/>
+   <node id="NT1.14" label="NT1.14" x="182.0" y="451.0"/>
+   <node id="NT1.17" label="NT1.17" x="264.0" y="590.0" otu="otu4"/>
+   <node id="NT1.20" label="NT1.20" x="311.0" y="91.0"/>
+   <node id="NT1.22" label="NT1.22" x="314.0" y="79.0"/>
+   <node id="NT1.23" label="NT1.23" x="320.0" y="547.0" otu="otu8"/>
+   <node id="NT1.24" label="NT1.24" x="331.0" y="822.0"/>
+   <node id="NT1.25" label="NT1.25" x="339.0" y="674.0" otu="otu9"/>
+   <node id="NT1.26" label="NT1.26" x="346.0" y="80.0" otu="otu10"/>
+   <node id="NT1.27" label="NT1.27" x="354.0" y="122.0" otu="otu11"/>
+   <node id="NT1.28" label="NT1.28" x="358.0" y="482.0"/>
+   <node id="NT1.29" label="NT1.29" x="374.0" y="632.0" otu="otu12"/>
+   <node id="NT1.30" label="NT1.30" x="382.0" y="38.0" otu="otu13"/>
+   <node id="NT1.31" label="NT1.31" x="409.0" y="505.0" otu="otu14"/>
+   <node id="NT1.33" label="NT1.33" x="429.0" y="462.0" otu="otu15"/>
+   <node id="NT1.35" label="NT1.35" x="457.0" y="419.0" otu="otu17"/>
+   <node id="NT1.36" label="NT1.36" x="509.0" y="845.0" otu="otu18"/>
+   <node id="NT1.39" label="NT1.39" x="518.0" y="164.0" otu="otu20"/>
+   <node id="NT1.41" label="NT1.41" x="528.0" y="802.0" otu="otu22"/>
+   <node id="NT1.43" label="NT1.43" x="2.0" y="437.0" root="true"/>
+   <edge id="e.0" source="NT1.22" target="NT1.30"/>
+   <edge id="e.1" source="NT1.22" target="NT1.26"/>
+   <edge id="e.2" source="NT1.20" target="NT1.27"/>
+   <edge id="e.5" target="NT1.39" source="NT1.12"/>
+   <edge id="e.9" source="NT1.28" target="NT1.31"/>
+   <edge id="e.10" source="NT1.14" target="NT1.35"/>
+   <edge id="e.11" source="NT1.7" target="NT1.17"/>
+   <edge id="e.12" source="NT1.5" target="NT1.29"/>
+   <edge id="e.13" source="NT1.10" target="NT1.25"/>
+   <edge id="e.14" source="NT1.24" target="NT1.36"/>
+   <edge id="e.15" source="NT1.24" target="NT1.41"/>
+   <edge id="e.16" source="NT1.20" target="NT1.22"/>
+   <edge id="e.17" source="NT1.12" target="NT1.20"/>
+   <edge id="e.18" source="NT1.2" target="NT1.12"/>
+   <edge id="e.25" target="NT1.14" source="NT1.2"/>
+   <edge id="e.26" source="NT1.14" target="NT1.28"/>
+   <edge id="e.27" source="NT1.1" target="NT1.5"/>
+   <edge id="e.28" source="NT1.1" target="NT1.7"/>
+   <edge id="e.29" source="NT1.5" target="NT1.10"/>
+   <edge id="e.32" target="NT1.24" source="NT1.10"/>
+   <edge id="e.33" source="NT1.43" target="NT1.2"/>
+   <edge id="e.34" source="NT1.43" target="NT1.1"/>
+   <edge id="e.36" source="NT1.7" target="NT1.23"/>
+   <edge id="e.41" source="NT1.28" target="NT1.33"/>
+  </tree>
+ </trees>
+</nexml>
