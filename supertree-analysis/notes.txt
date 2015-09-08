@@ -43,5 +43,9 @@ sed -i -e '1instates 3; nstates nogaps;\' mrp.tnt
 cat mrp.tnt | cut -d' ' -f 1 > taxa.txt
 
 #run TNT matrix
-tnt ; mxram 500 ; p mrp.tnt ; log tntsupertree.log ; xinact ; mu1 =ho1 ; taxname= ; tsave *tntalltrees.tre ; save. ; tsave/ ; nelsen* ; tsave  *tntstrict.tre ; save/ ; tsave/ ; log\/ ; quit ;
+tnt ; mxram 500 ; p mrp.tnt ; log tntsupertree.log ; xinact ; mu1 =ho1 ; taxname= ; tsave *tntalltrees.tre ; save. ; tsave/ ; nelsen* ; tsave  *tntstrict.tre ; save/ ; tsave/ ; log/ ; quit ;
+ 
+# timeout TNT search
+TIMEOUT
+    set timeout for searches (hh:mm:ss) 
 
