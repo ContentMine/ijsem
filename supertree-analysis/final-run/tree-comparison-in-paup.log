@@ -1,0 +1,94 @@
+
+P A U P *
+Portable version 4.0b10 for Unix
+Sun Sep 13 20:19:10 2015
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  Please report any crashes,
+        apparent calculation errors, or other anomalous results.
+        There are no restrictions on publication of results obtained
+        with this version, but you should check the WWW site
+        frequently for bug announcements and/or updated versions.  
+        See the README file on the distribution media for details.
+      ----------------------------------------------------------------
+
+paup> execute informativemrp.nex ;
+
+
+Processing of file "~/workspace/clean/ijsem/supertree-analysis/final-
+run/informativemrp.nex" begins...
+
+Are you sure you want to reset the active datafile? (Y/n) paup> y
+
+
+Data matrix has 2269 taxa, 6261 characters
+Valid character-state symbols: 01
+Missing data identified by '?'
+
+Processing of file "~/workspace/clean/ijsem/supertree-analysis/final-
+run/informativemrp.nex" completed.
+
+paup> outgroup Schizosaccharomyces_pombe;
+
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 2268
+
+paup> gettrees file=unrooted_ref.tre rooted=no mode=7;
+
+
+Processing TREES block from file "unrooted_ref.tre":
+   Keeping: trees from file (replacing trees in memory)
+   1 tree read from file
+   Time used = <1 sec (CPU time = 0.04 sec)
+
+paup> gettrees file=paupstrict.tre rooted=no mode=7;
+
+
+Processing TREES block from file "paupstrict.tre":
+   Keeping: trees in memory plus trees from file
+   1 tree originally in memory
+   1 tree read from file
+   1 tree from file kept
+   Time used = <1 sec (CPU time = 0.06 sec)
+   2 trees now in memory
+
+paup> pscores all /ci=yes ri=yes rc=yes hi=yes
+
+
+Lengths and fit measures of trees in memory:
+  Character-status summary:
+    Of 6261 total characters:
+      All characters are of type 'unord'
+      All characters have equal weight
+      All characters are parsimony-informative
+
+   Sum of min. possible lengths = 6261
+   Sum of max. possible lengths = 20278
+
+Tree #      1     2
+Length  15099  8027
+CI      0.415 0.780
+RI      0.369 0.874
+RC      0.153 0.682
+HI      0.585 0.220
+
+paup> treedist;
+
+
+Symmetric-difference distances between trees
+
+          1    2
+1         -
+2      1691    -
+
+Distribution of symmetric-difference distances between trees
+
+                +----------------------------------------------------------
+1691.00-1691.99 |########################################################## (1)
+                +----------------------------------------------------------
+
+paup> quit;
+
