@@ -5,5 +5,5 @@ This is designed to be an Open Notebook Science project where all parts of the r
 
 This repo holds the total process of extracting NEXML trees from IJSEM diagrams and converting them into Newick and building a supertree. As this is the first such exercise we necessarily encounter computational problems, so the processes may be re-run several times, and often on sub-samples.
 
-First supertree from a 24hr analysis of the MRP matrix of 2269 taxa:
+First supertree from a 24hr-duration analysis of the MRP matrix of 2269 taxa:
 ![Bacterial Supertree](https://github.com/ContentMine/ijsem/blob/master/supertree-analysis/final-run/radialsupertree.png)
