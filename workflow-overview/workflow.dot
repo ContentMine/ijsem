@@ -1,7 +1,29 @@
 digraph PLUTo_workflow {
+
+node [shape = box]
+
    	"IJSEM website" -> "5814 Article PDFs" [label=" wget", fontcolor=red] ;
-      	"5814 Article PDFs" -> "8221 Figure Images" [label=" pdfimages", fontcolor=red];
-	"8221 Figure Images" -> "4342 Dendrogram-Containing Images" [label=" by-sight deletion", fontcolor=red];
+      	"5814 Article PDFs" -> "8221 Figure Images" [label=" pdfimages\n convert -negate ", fontcolor=red];
+	"8221 Figure Images" -> "4336 Dendrogram-Containing Images" [label=" by-sight deletion", fontcolor=red];
+	"4336 Dendrogram-Containing Images" -> "500A"
+	"4336 Dendrogram-Containing Images" -> "500B"
+	"4336 Dendrogram-Containing Images" -> "500C"
+	"4336 Dendrogram-Containing Images" -> "500D"
+	"4336 Dendrogram-Containing Images" -> "500E"
+	"4336 Dendrogram-Containing Images" -> "500F"
+	"4336 Dendrogram-Containing Images" -> "500G"
+	"4336 Dendrogram-Containing Images" -> "500H"
+	"4336 Dendrogram-Containing Images" -> "336J"
+	"500A" -> "397 NeXMLs"
+	"500B" -> "407 NeXMLs"
+	"500C" -> "390 NeXMLs"
+	"500D" -> "382 NeXMLs"
+	"500E" -> "401 NeXMLs"
+	"500F" -> "410 NeXMLs"
+	"500G" -> "375 NeXMLs"
+	"500H" -> "391 NeXMLs"
+	"336J" -> "252 NeXMLs"
+
 	
       	}
 
