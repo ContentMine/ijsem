@@ -1,0 +1,7 @@
+digraph PLUTo_workflow {
+   	"IJSEM website" -> "5814 Article PDFs" [label=" wget", fontcolor=red] ;
+      	"5814 Article PDFs" -> "8221 Figure Images" [label=" pdfimages", fontcolor=red];
+	"8221 Figure Images" -> "4342 Dendrogram-Containing Images" [label=" by-sight deletion", fontcolor=red];
+	
+      	}
+
